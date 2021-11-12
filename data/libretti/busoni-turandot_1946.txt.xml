@@ -1,0 +1,1937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Turandot</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118518011">
+                  <forename>Ferruccio</forename>
+                  <surname>Busoni</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T17:38:19Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000145</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q2843864</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004632990</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Busoni, Ferruccio/Libretti/Turandot</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/ktrp.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-49F6-4</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Ferruccio Busoni: Turandot. Wiesbaden 1946</bibl>
+            <bibl>Ferruccio Busoni: Turandot. Eine chinesische Fabel nach Gozzi in zwei Akten, Wiesbaden: Breitkopf &amp; Härtel, 1946.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Turandot</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118518011">
+                        <forename>Ferruccio</forename>
+                        <surname>Busoni</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">26 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Breitkopf &amp; Härtel</name>
+                  </publisher>
+                  <pubPlace>Wiesbaden</pubPlace>
+                  <date type="publication">1946</date>
+                  <date type="firstPublication">1920</date>
+                  <date type="firstPublication" subtype="clariah">1920</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5">1946</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1866"
+                        notAfter="1924"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d156e283">Komponiert von Ferruccio Busoni. Uraufführung am 11.05.1917, Stadttheater, Zürich.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="kalaf" sex="MALE">
+                  <persName>Kalaf</persName>
+               </person>
+               <person xml:id="barak" sex="MALE">
+                  <persName>Barak</persName>
+               </person>
+               <person xml:id="die_koeniginmutter" sex="FEMALE">
+                  <persName>Die Königinmutter</persName>
+               </person>
+               <personGrp xml:id="klageweiber" sex="FEMALE">
+                  <name>Klageweiber</name>
+               </personGrp>
+               <person xml:id="truffaldino" sex="MALE">
+                  <persName>Truffaldino</persName>
+               </person>
+               <personGrp xml:id="die_doktoren" sex="MALE">
+                  <name>Die Doktoren</name>
+                  <name type="variant">Doktores</name>
+               </personGrp>
+               <personGrp xml:id="chor" sex="UNKNOWN">
+                  <name>Chor</name>
+               </personGrp>
+               <person xml:id="altoum" sex="MALE">
+                  <persName>Altoum</persName>
+               </person>
+               <person xml:id="pantalone" sex="MALE">
+                  <persName>Pantalone</persName>
+               </person>
+               <person xml:id="tartaglia" sex="MALE">
+                  <persName>Tartaglia</persName>
+               </person>
+               <person xml:id="turandot" sex="FEMALE">
+                  <persName>Turandot</persName>
+               </person>
+               <person xml:id="adelma" sex="FEMALE">
+                  <persName>Adelma</persName>
+               </person>
+               <personGrp xml:id="maennerchor" sex="MALE">
+                  <name>Männerchor</name>
+               </personGrp>
+               <personGrp xml:id="frauenchor" sex="FEMALE">
+                  <name>Frauenchor</name>
+               </personGrp>
+               <personGrp xml:id="maedchenchor" sex="FEMALE">
+                  <name>Mädchenchor</name>
+               </personGrp>
+               <personGrp xml:id="eunuchen" sex="MALE">
+                  <name>Eunuchen</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretti</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d156e283">
+      <front>
+         <div type="front">
+            <head>Ferruccio Benvenuto Busoni</head>
+            <head>Turandot</head>
+            <head>Eine chinesische Fabel nach Gozzi in zwei Akten</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="2" facs="#f0001"/> Personen</head>
+               <castItem>Altoum, Kaiser</castItem>
+               <castItem>Turandot, seine Tochter</castItem>
+               <castItem>Adelma, ihre Vertraute</castItem>
+               <castItem>Kalaf</castItem>
+               <castItem>Barak, sein Getreuer</castItem>
+               <castItem>Die Königinmutter von Samarkand, eine Mohrin</castItem>
+               <castItem>Truffaldino, Haupt der Eunuchen</castItem>
+               <castGroup>
+                  <castItem>Pantalone</castItem>
+                  <castItem>Tartaglia</castItem>
+                  <roleDesc>Minister</roleDesc>
+               </castGroup>
+               <castItem>Acht Doktoren</castItem>
+               <castItem>Eine Vorsängerin</castItem>
+               <castItem>Der Scharfrichter</castItem>
+               <castItem>Sklaven, Sklavinnen, Tänzerinnen, Klageweiber, Eunuchen, Soldaten, ein
+            Priester</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Zeit: der Fabel.</p>
+            <p>Ort: der äußerste Orient.</p>
+         </set>
+         <div>
+            <head>
+               <pb n="2" facs="#f0002"/> Turandot</head>
+            <p>Altoum spricht:</p>
+            <lg>
+               <l>Vom fernen Osten, ja vom fernsten her</l>
+               <l>Zeigt sich Altoum, ein Monarch der Bühne,</l>
+               <l>Die Fabel hat ihn auf den Thron gesetzt,</l>
+               <l>Mit manchem Prunk und Herrlichkeit begabt;</l>
+               <l>Doch herrlicher als Kron und Zepter glänzt</l>
+               <l>An seiner Seite Tochter Turandot.</l>
+            </lg>
+            <lg>
+               <l>Zwar sagt man von der Jungfraun schönem Chor</l>
+               <l>Die Herzen sämmtlich seyen räthselhaft;</l>
+               <l>Doch dieser hat ein höchst subtiler Geist</l>
+               <l>So viele Räthsel in den Kopf gesetzt,</l>
+               <l>Daß mancher Freier scheiternd unterging.</l>
+            </lg>
+            <bibl>(Goethe: »Festzug«.)</bibl>
+            <pb n="3" facs="#f0003"/>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Erster Akt</head>
+            <div>
+               <head>Erstes Bild</head>
+               <stage>1. Introduktion und Szene</stage>
+               <stage>Das Stadttor</stage>
+               <stage>Als der Vorhang aufgeht, erblickt man eines der mächtigen Tore der Hauptstadt. Über
+            demselben prangt eine Reihe aufgepfählter Menschenköpfe. Seitwärts vor dem Tore, steht
+            ein ärmliches Haus. Es ist früh am Morgen und alles still. Nach kurzer Pause sprengt
+            Kalaf vor das Tor.</stage>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Peking! Stadt der Wunder! Verheißungsvolle! Hier soll mein Los sich wenden. Rüste
+              dich, meine Seele. Hoffnung steig und blühe.</p>
+                  <lg>
+                     <l>Aus dem Taumel der Straße,</l>
+                     <l>Den heimlichen Kammern</l>
+                     <l>Winkt tausendhändig der Zauber.</l>
+                     <l>Ich wittere das Außerordentliche!</l>
+                     <l>Peking, Sonne der Welt!</l>
+                  </lg>
+                  <stage>Barak tritt neugierig aus dem Hause.</stage>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Wie, ist das nicht mein Prinz Kalaf?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Den Mann sollte ich kennen. Barak – –?</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Mein Prinz – O, o, o! <stage>Schluchzend.</stage>
+                  </p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Du hier?</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Ihr am Leben?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Still, sprich meinen Namen nicht laut. Berichte.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>O, o, o ...!</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>stärker.</stage>
+                  <p>Berichte.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Ja, ja, ja ... Herrlich war die entscheidende Schlacht, doch leider für uns verloren
+              – <pb n="4" facs="#f0004"/> Euch, Euren Vater den König hielt ich für tot. Ich floh, Treue im
+              Herzen, Flügel an den Beinen – und über Chinas Mauer hinweg – bis zu diesem Häuschen,
+              das ich als stiller Mieter bewohne. Und was beginnet Ihr?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Mein Vater lebt –</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Gott sei gepriesen!</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Ich suche das Glück, es ihm zurückzubringen.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Allah ist groß! Groß ist sein Prophet!</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Noch heute dringe ich bis zum Kaiser.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Bleibt. Der Hof ist eine Trauerstatt. Die Kaiserstochter, Turandot, ein Teufel, den
+              Männern abhold, so schön als weise, und unerbittlich grausam –</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>– – das Märchen hört' ich. Ein jeder Prinz darf um sie frein –</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Ihr wisset?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>– – und pflichtet sich drei Rätsel anzuhören – –</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Ja, ja –</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>– – und wagt den Kopf, falls ihm der nicht festsitzt.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Ihr spottet?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Gewiß, denn albern ist die Fabel.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Fabel? So schaut Euch um. Betrachtet. Die Köpfe, die Köpfe ...! Sie alle warben um
+              Turandot –</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>wendet sich ab, angewidert.</stage>
+                  <p>Gräßliche Schau. Ekelnd. Und das um eines Ungeheuers willen!</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Ein Ungeheuer so bestrickend, daß schon vermag der Anblick ihres Bildes den Jüngling
+              in den Tod zu locken.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>– – den Narren!</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK</speaker>
+                  <stage>ernst.</stage>
+                  <p>Erst heute traf's den Prinzen von Samarkand. <stage>Man vernimmt entfernten
+                Trommelwirbel.</stage>
+                  </p>
+                  <p>– – Hört, o hört – dies ist das Zeichen, daß das Gericht an ihm vollstreckt wird.
+                <stage>Er verbirgt das Haupt.</stage>
+                  </p>
+                  <stage>
+                     <pb n="5" facs="#f0005"/> 2. Lamento</stage>
+                  <stage>Jetzt ertönen Klagerufe und alsbald erscheint, in einer Sänfte getragen und von
+              rasenden Klageweibern gefolgt, die Königinmutter von Samarkand, eine Mohrin, mit
+              bunten Straußfedern phantastisch ausgeputzt. Sie machen vor dem Tore halt.</stage>
+               </sp>
+               <sp who="#die_koeniginmutter">
+                  <speaker>DIE KÖNIGINMUTTER.</speaker>
+                  <p>Verweilt. O, o! Man mordet meinen Sohn.</p>
+               </sp>
+               <sp who="#klageweiber">
+                  <speaker>KLAGEWEIBER</speaker>
+                  <stage>mit Gebärden.</stage>
+                  <p>O, o!</p>
+               </sp>
+               <sp who="#die_koeniginmutter">
+                  <speaker>KÖNIGINMUTTER.</speaker>
+                  <p>Fluch, Fluch, diesen Mauern, diesem Lande, dreimal verflucht sei die Ungeheure, die
+              ihn verdarb. Dieses Bild, das ich vom Halse ihm riß, es sei zertreten, wie sie
+              zertreten soll werden, die es zeigt. Fort, fort! <stage>Sie gehen eiligst klagend
+                ab.</stage>
+                  </p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Ihr hörtet –</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>– und ich sah. Kaum, daß ich's fasse. Wie könnte denn ein Bildnis tödlich wirken?
+                <stage>Er will das Bild aufheben.</stage>
+                  </p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Tut es nicht.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Möchte doch die furchtbare Schönheit mir betrachten.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Laßt ab, es ist verzaubert.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Ängstlicher Mann, gib her.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Es ist verflucht.</p>
+                  <stage>3. Arioso</stage>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Du kränkst mich. Her das Bild! <stage>Er besieht das Bild.</stage> Barak, Barak, Du
+              tückischer Alter, wolltest also mich narren. –</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK</speaker>
+                  <stage>für sich.</stage>
+                  <p>Ihr Genien helft!</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Diese Züge nicht eines Teufels, noch eines Ungeheuers – ... das Antlitz einer Göttin,
+              der Blick ein lichter Himmelsstrahl, und sternenrein sein Ausdruck. –</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Betörter Prinz, noch siebentausend Male ist schöner Turandot.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>noch immer in Betrachtung des Bildes.</stage>
+                  <p>Du süßeste Gestalt, ihr Wangen des Morgenrots, knospende Lippen; Schatten <pb n="6" facs="#f0006"/>
+              der Sommernacht, ihr dunklen Haare – Barak, alles an ihr ist Einklang, alles an ihr
+              spricht Liebe.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Glaubt es nicht. –</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>mit heiterem Entschluß.</stage>
+                  <p>Barak, ich wage frisch das Spiel.</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK</speaker>
+                  <stage>bestürzt.</stage>
+                  <p>Mein Prinz #150;?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Ein Spiel, das millionenfach den hohen Einsatz wieder einbringt. –</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Seht welch ein Spiel.</p>
+                  <stage>4. Pantomima e Finale</stage>
+                  <stage>Der Scharfrichter, von Wachen und Trommlern gefolgt, steigt auf, über dem Tore,
+              um auf dasselbe einen frischgefällten Menschenkopf aufzupfählen und nach verrichteter
+              Handlung sich wieder zu entfernen.</stage>
+                  <stage>Sobald es wieder still geworden, tritt Kalaf mit Aufwallung vor.</stage>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Dich will ich rächen, du Jammerprinz, Kopfverlierer! Auf Wiedersehn!</p>
+               </sp>
+               <sp who="#barak">
+                  <speaker>BARAK.</speaker>
+                  <p>Mein Prinz ... Mein Prinz ... O! – <stage>Will ihm folgen, wird von Wachen
+                aufgehalten, die ihn verprügeln. Andere schlagen auf Glocken und Tamtams Alarm. Über
+                diesem kurzen Tumulte fällt der Vorhang.</stage>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Zweites Bild</head>
+               <stage>1. Introduktion und Arietta.</stage>
+               <stage>Truffaldino tritt vor dem Vorhang auf, den er eigenhändig offen zieht, und klatscht
+            in die Hände. Auf dieses Zeichen erscheinen mehrere Sklaven. Die Bühne stellt den
+            Thronsaal im Kaiserpalast vor. Man erblickt Truffaldino Haupt der kaiserlichen Eunuchen,
+            eifrig beschäftigt, den Sklaven anzubefehlen. den Raum für die bevorstehende Sitzung
+            anzuordnen.</stage>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO.</speaker>
+                  <lg>
+                     <l>Rechts zunächst der große Thron, –</l>
+                     <l>Links darauf der kleine Thron, –</l>
+                     <l>In die Mitte stellt acht Sessel</l>
+                     <l>Für der Richter Weisheitskessel, –</l>
+                     <l>Kehrt mir flink den Boden rein,</l>
+                     <l>Leget Teppich', groß und klein,</l>
+                     <l>Macht, daß Lampen sei'n bereit</l>
+                     <l>Zur Erhellung dunkler Zeit;</l>
+                     <l>
+                        <pb n="7" facs="#f0007"/> Hurtig, nicht den Takt verlieren.</l>
+                     <l>Wollt ihr's nicht am Hintern spüren,</l>
+                     <l>Regt die Beine, spannt die Schenkel,</l>
+                     <l>Schurken, Diebe, faule Bengel!</l>
+                  </lg>
+                  <stage>Für sich.</stage>
+                  <lg>
+                     <l>Nun wird's lustig, wird's ergötzlich,</l>
+                     <l>Meldet sich ein Neuer plötzlich:</l>
+                     <l>Sind's doch drei Stunden kaum – wie schnell man so vergißt –</l>
+                     <l>Da wurd' der letzte aufgespießt. –</l>
+                     <l>–Diese Gecken, Narren, Laffen,</l>
+                     <l>Die sich jämmerlich vergaffen,</l>
+                     <l>'s ist viel zu wenig noch – den Göttern sei's geklagt –</l>
+                     <l>Wenn nur der Kopf ihnen wird abgehackt. –</l>
+                     <l>–Was bin ich, damit verglichen,</l>
+                     <l>Für ein Muster der Eunüchen,</l>
+                     <l>Mir wird das Hirn nicht warm – vor einem Weiberschwarm –</l>
+                     <l>Hier wurzelt meiner Halbheit Scharm, –</l>
+                     <l>Ob der Hahn sich noch so blähe,</l>
+                     <l>Mich lockt nicht das Bett der Ehe,</l>
+                     <l>La, trallala,</l>
+                     <l>Wie steh' ich da!</l>
+                     <l>Das ist des Kastraten Segen,</l>
+                     <l>Daß sein Geist bleibt überlegen,</l>
+                     <l>Schrum, tututum,</l>
+                     <l>Ich bin nicht dumm.</l>
+                  </lg>
+                  <stage>Zu den Sklaven.</stage>
+                  <lg>
+                     <l>Hurtig, nicht den Takt verlieren.</l>
+                     <l>Wollt ihr's nicht am Hintern spüren,</l>
+                     <l>Spannt die Schenkel, regt die Beine,</l>
+                     <l>Schurken, Diebe, Affen, Schweine!</l>
+                     <l>Jetzt hinaus,</l>
+                     <l>Hinaus, hinaus,</l>
+                     <l>Piff, paff, piff, paff.</l>
+                  </lg>
+                  <stage>Er prügelt rechts und links und treibt sie aus dem Saale.</stage>
+                  <stage>
+                     <pb n="8" facs="#f0008"/> 2. Recitativo</stage>
+                  <stage>Allein.</stage>
+                  <lg>
+                     <l>Das find' ich doch sehr vernünftig,</l>
+                     <l>Daß mein Prinzeßchen nicht mag heiraten;</l>
+                     <l>Auch ich bin nicht verheiratet,</l>
+                     <l>Meiner Mutter ging's nicht anders.</l>
+                     <l>Nur solche Schwächlinge,</l>
+                     <l>Die nicht auf einem Beine können stehen,</l>
+                     <l>Sollen sich paaren,</l>
+                     <l>Meinetwegen!</l>
+                  </lg>
+                  <stage>Man hört Fanfaren.</stage>
+                  <p>Ah, der Kaiser kommt. Ich mag die vielen Mannsbilder nicht, ich mach' mich fort: zu
+              meiner holdseligen Prinzessin und ihren jungen Damen, künde die frohe Nachricht. Dann
+              gibt es Tee. <stage>Ab.</stage>
+                  </p>
+                  <stage>3. Einzug des Kaisers</stage>
+                  <stage>Wachen und Herolde voran, hernach Kaiser Altoum von seinen Getreuen, Pantalone
+              und Tartaglia, umgeben, besteigt umständlich den Thron.</stage>
+               </sp>
+               <sp who="#die_doktoren">
+                  <speaker>DOKTORES.</speaker>
+                  <p>Wir sind die Doktores, und sitzen zu Gericht. <stage>Sie nehmen ihre Plätze
+                ein.</stage>
+                  </p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Heil!</l>
+                     <l>Segen auf sein Haupt</l>
+                     <l>Dem edlen Kaiser Altoum,</l>
+                     <l>Dem gütigen, dem weisen,</l>
+                     <l>Segen auf sein Haupt</l>
+                     <l>Für immerdar.</l>
+                     <l>Heil!</l>
+                  </lg>
+                  <stage>Sie fallen sämtlich dreimal auf die Nasen vor Altoum.</stage>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Das Zeremoniell wirkt immer erhebend. Danke, danke, meine Lieben. Aber, seht, Kinder,
+              hier drinnen nagt ein Druck, der mir selbst die schöne Hofetikette verleidet. Denn,
+              seht, Kinder, ich kann nicht anders, ich muß meine Tochter lieben; aber ich bin nicht
+              für Grausamkeiten geschaffen...</p>
+                  <pb n="9" facs="#f0009"/>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Euer Majestät Herz ist wie Fließpapier in Honig getränkt. –</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Ba-ba-Baumwolle mit Schmalz. –</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>vorwurfsvoll.</stage>
+                  <p>Pantalone? ... Tartaglia...? <stage>Sie ducken.</stage> Ach, wie lange soll ich dem
+              noch zusehen! Es bringt mich vorzeitig unter die Erde.</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Bei uns in Italien, Majestät, da ist jedermann entzückt, wenn's auf dem Theater mit
+              Mord und Totschlag zugeht. Aber ich sehe ein, daß es von grausigem Geschmacke
+              zeugt.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Liebe Ma-Ma-Majestät, ich kenn' ein englisches Stück, darin ein pechschwarzer Neger
+              eine lilienweiße Dame umbringt. Da-da-das ist aber Zucker und Marzipan gegen eine
+              Prinzessin, die sieben Männer, hi-hi-hintereinander, hi-hi-hinrichten läßt.</p>
+                  <stage>4. Aria</stage>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <lg>
+                     <l>Ich kann's nicht ändern.</l>
+                     <l>Kon-fut-se, Dir hab' ich geschworen,</l>
+                     <l>Du schaust mein Herz, es trägt das Elend nicht;</l>
+                     <l>Daß mir ein Sohn sei auserkoren,</l>
+                     <l>Beschließe Du beim kommenden Gericht.</l>
+                  </lg>
+                  <lg>
+                     <l>So wird das Böse, das sie birgt, entschwinden,</l>
+                     <l>Die Tochter wieder, schön und gut, erstehn,</l>
+                     <l>Den langen Schmerz soll kurze Freude linden,</l>
+                     <l>Dann will ich gern zu meinen Vätern gehn.</l>
+                  </lg>
+                  <lg>
+                     <l>Man bringe den Fremden herein.</l>
+                  </lg>
+                  <stage>5. Dialogo</stage>
+                  <stage>Kalaf wird von Wachen hereingeführt und stürzt sich dem Kaiser zu Füßen.</stage>
+                  <p>Steh auf, unkluger Jüngling! <stage>Für sich.</stage> Wie schön er ist!
+                <stage>Laut.</stage> Wer bist Du?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Sire, ein Märchenprinz.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Dreister! Nenne Deinen Namen.</p>
+                  <pb n="10" facs="#f0010"/>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Sire, nein, ich bin ein Prinz. Es genüge.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>für sich.</stage>
+                  <p>Es scheint, der ist ein ebensolcher Starrkopf als meine Tochter. <stage>Laut.</stage>
+              Ich will's Dir glauben. Glaub' auch Du mir ein Weniges. Du weißt wohl, was Du wagst?
+              Ich gewähr' Dir die Gnade, Dich zurückzuziehen.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Sire, Tod oder Turandot. Von beiden Eines. Ein Drittes nicht.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Ach, diese Jugend!</p>
+                  <stage>6. Quartetto</stage>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <lg>
+                     <l>Entweiche, entweiche der Gefahr,</l>
+                     <l>Der Du Dich aussetzest;</l>
+                     <l>Mein Sohn, mein Sohn, hör' auf mich,</l>
+                     <l>Der ich Dich schon liebe.</l>
+                     <l>Sei die Stütze dem Greis,</l>
+                     <l>Schließ' die Augen ihm zu,</l>
+                     <l>Wenn ihm schlägt seine Stunde,</l>
+                     <l>Schöner Lohn soll Dir werden,</l>
+                     <l>Hohe Ehren zuteil,</l>
+                     <l>Wenn Du ihn verschonest.</l>
+                     <l>Zwing' mich nicht wieder</l>
+                     <l>Gegen mein Herz</l>
+                     <l>Als Tyrann zu walten,</l>
+                     <l>Ungeratener Tochter</l>
+                     <l>Widerwilliger Vater,</l>
+                     <l>Deinen Tod zu beweinen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <lg>
+                     <l>Tod oder Turandot;</l>
+                     <l>Von beiden Eines,</l>
+                     <l>Nicht ein Drittes!</l>
+                  </lg>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <lg>
+                     <l>Aber teuerster der Prinzen,</l>
+                     <l>Mein gebenedeiter Bub,</l>
+                     <l>Merkt die Köpfe überm Tore!</l>
+                  </lg>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Es ist umsonst!</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <lg>
+                     <l>Weiter hab' ich nichts gesagt, als</l>
+                     <l>
+                        <pb n="11" facs="#f0011"/> Daß ich nicht die Lust begreife,</l>
+                     <l>Sich zum Schlachten anzubieten.</l>
+                     <l>Seien Sie nur zuversichtlich,</l>
+                     <l>Daß die Rätsel, die sie dreht,</l>
+                     <l>Nicht von Pappe sind noch Zucker;</l>
+                     <l>Selbst der Zaubrer Cingarillo</l>
+                     <l>Würde sich vergeblich mühen,</l>
+                     <l>Solche Nüsse aufzuknacken.</l>
+                  </lg>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>O hör' auf ihn!</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <lg>
+                     <l>Das ist nicht so, als: »Wieviel ist zweimal zwei«</l>
+                     <l>»Welches Obst trägt Pflaumenkerne«</l>
+                     <l>»Welches ist das Tier, das miaut«</l>
+                     <l>Nein, nein, nein!</l>
+                     <l>Wenn Ihr Euch darauf verbeißet,</l>
+                     <l>Gäb' ich nicht für Euren Schädel</l>
+                     <l>Einen abgeschabten Rettich,</l>
+                     <l>Nein, nein, nein.</l>
+                  </lg>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <lg>
+                     <l>Tod oder Turandot;</l>
+                     <l>Von beiden Eines,</l>
+                     <l>Nicht ein Drittes!</l>
+                  </lg>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <lg>
+                     <l>To-to-to-to-to-to-tod</l>
+                     <l>Oder Tu-tu-tu-tu-turandot!</l>
+                  </lg>
+               </sp>
+               <sp who="#altoum #pantalone">
+                  <speaker>ALTOUM UND PANTALONE.</speaker>
+                  <p>Es ist umsonst.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <lg>
+                     <l>Teufel, Teufel, süßes Herzchen,</l>
+                     <l>Welch verbohrter Ei-ei-eigensinn!</l>
+                     <l>Geht es hier vielleicht um Bohnen,</l>
+                     <l>Geht's um Tassen Kokolade?</l>
+                     <l>Um den Ko-ko-ko-ko-kopf geht's.</l>
+                  </lg>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>O hör' auf ihn!</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Es ist umsonst!</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <lg>
+                     <l>Haben Sie das schon erwogen,</l>
+                     <l>Was es heißet um den Kopf,</l>
+                     <l>Ko-ko-ko-ko-kopf zu spielen?</l>
+                     <l>Ich glaub' es nicht. –</l>
+                  </lg>
+               </sp>
+               <sp who="#altoum #pantalone">
+                  <speaker>ALTOUM UND PANTALONE.</speaker>
+                  <p>Ich glaub' es nicht!</p>
+                  <pb n="12" facs="#f0012"/>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <lg>
+                     <l>Es ist umsonst!</l>
+                     <l>Tod oder Turandot!</l>
+                     <l>Ein Drittes nicht!</l>
+                  </lg>
+                  <stage>7. Marsch und Szene</stage>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Möchte lieber gar auf einem Bein auf der Spitze stehen des Markusturms, als in dieses
+              lieben Jungen Hosen stecken.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Mein Sohn, ich segne Dich. <stage>Er segnet.</stage>
+                  </p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>knabenhaft.</stage>
+                  <p>Sie kommt, sie kommt!</p>
+                  <stage>Der Zug Turandots, an der Spitze Truffaldino.</stage>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Da ist auch schon der Hammelführer.</p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Wehe, wehe!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <lg>
+                     <l>Wer ist's, der sich aufs neu vermessen darf,</l>
+                     <l>Aus meiner Weisheit Grund zu schöpfen,</l>
+                     <l>Der Lust verspürt, sein Leben auszuspielen?</l>
+                  </lg>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Wehe, wehe!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <lg>
+                     <l>Auch Du sollst mir erliegen,</l>
+                     <l>Dich stärkrem Geiste fügen:</l>
+                     <l>Rat' oder stirb!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Wehe!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Weh, anderen gleicht dieser nicht.</l>
+                     <l>Was berührt mich jäh so fremd und neu?</l>
+                  </lg>
+               </sp>
+               <sp who="#tartaglia #pantalone #altoum">
+                  <speaker>TARTAGLIA, PANTALONE, ALTOUM.</speaker>
+                  <p>Was sagt sie?</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <lg>
+                     <l>Seltsam wirkt des Knaben Gesicht,</l>
+                     <l>Es anzusehn macht fast mich scheu.</l>
+                     <l>Wie mild es zu mir spricht!</l>
+                     <l>Weh mir!</l>
+                     <l>Noch einmal sein</l>
+                     <l>Will ich Turandot,</l>
+                     <l>Sein Tod wird auch mein Tod.</l>
+                  </lg>
+               </sp>
+               <sp who="#tartaglia #pantalone #altoum">
+                  <speaker>TARTAGLIA, PANTALONE, ALTOUM.</speaker>
+                  <p>Hört sie!</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <lg>
+                     <l>Beim Himmel er ist's,</l>
+                     <l>
+                        <pb n="13" facs="#f0013"/> Jung Kalaf, der Traum meiner Schulzeit. Er gefällt mir noch immer.</l>
+                     <l>Ihn gewinn' ich mir zurück.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Ja, andern gleichet dieser nicht.</l>
+                     <l>Was berührt sie jäh so fremd und neu?</l>
+                     <l>Seltsam wirkt des Knaben Gesicht,</l>
+                     <l>Wie so mild es zu uns spricht,</l>
+                     <l>Mag sie noch immer sein Turandot,</l>
+                     <l>Sein Tod wird auch ihr Tod!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_doktoren">
+                  <speaker>DIE DOKTOREN.</speaker>
+                  <p>Raten oder sterben.</p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Rat' oder stirb!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <lg>
+                     <l>Nein, es gleichet dieser andern nicht.</l>
+                     <l>Seltsam wirkt auf mich des Knaben Angesicht;</l>
+                     <l>Noch einmal sein will ich Turandot,</l>
+                     <l>Sein Tod wird auch mein Tod.</l>
+                  </lg>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>zugleich mit ihr.</stage>
+                  <lg>
+                     <l>Von Glück erschimmert ein Gesicht,</l>
+                     <l>Mein Leben spiel' ich gegen ein Gedicht;</l>
+                     <l>Ob Tod, ob Turandot.</l>
+                     <l>Die Lösung schreckt mich nicht.</l>
+                  </lg>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Meine Tochter, drei leichte Rätsel, daß die Form bleibe gewahrt; und dann
+              Hochzeit!</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Laßt Euch nicht erweichen.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Die Rätsel sind gezogen. Das Gesetz muß sich erfüllen.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Ich bin bereit.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Ich beginne.</p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Beim Konfutse! <stage>Fallen sämtlich nieder.</stage>
+                  </p>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO</speaker>
+                  <stage>klingelt.</stage>
+                  <p>Das erste Rätsel:</p>
+                  <stage>8. Die drei Rätsel</stage>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <lg>
+                     <l>»Was kriecht am Boden, fliegt gen Himmel,</l>
+                     <l>Was tappt im Dunkeln, zündet Lichter,</l>
+                     <l>Wühlt im Vergangenen – strebt in die Zukunft,</l>
+                     <l>Weilt im Gewohnten – regt sich im Neuen,</l>
+                     <l>
+                        <pb n="14" facs="#f0014"/> Was ist besonnen, und bäumt sich trotzig</l>
+                     <l>Gesund-ergeben und krankhaft-protzig?«</l>
+                  </lg>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>nach kurzem Nachdenken.</stage>
+                  <lg>
+                     <l>Was kriecht und fliegt, im Dunkeln tappt, erleuchtet,</l>
+                     <l>Gewohntes übt – nach Neuem strebt,</l>
+                     <l>Sich selber Weltsysteme webt,</l>
+                     <l>Besonnen ist, und trotzig, Hand in Hand:</l>
+                     <l>Es ist der <hi rendition="#i">menschliche Verstand</hi>.</l>
+                  </lg>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Tartaglia, er hat's!</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Meiner Seel'!</p>
+               </sp>
+               <sp who="#die_doktoren">
+                  <speaker>DIE DOKTOREN.</speaker>
+                  <p>Optime. Der Verstand, der Verstand, der Verstand!</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>freudig.</stage>
+                  <p>Brav, mach tapfer weiter!</p>
+                  <stage>Bewegung im Saale, Fanfaren, Trommeln. Truffaldino winkt den Fanfaren
+              abzubrechen.</stage>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Ich vergehe!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>für sich.</stage>
+                  <p>O Schicksal! Willst Du mich bezwingen?</p>
+                  <stage>Laut.</stage>
+                  <p>Einbildischer, noch bin ich nicht am Ende.</p>
+                  <stage>Sie fährt fort.</stage>
+                  <lg>
+                     <l>»Was ist beständig und stets wechselnd,</l>
+                     <l>Heute geboten – morgen verpönt,</l>
+                     <l>Hier gepriesen – dort bestraft,</l>
+                     <l>Erst befolgt – später verlacht;</l>
+                     <l>Ein unentbehrlich-stillschweigend Gesetz,</l>
+                     <l>Je wen'ger begründet, je seltner verletzt?</l>
+                  </lg>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <lg>
+                     <l>O zürnet nicht, daß mir auch dieses glückt:</l>
+                     <l>Was Ihr erfragt, das wechselnd ist und ständig,</l>
+                     <l>Toter Begriff, und als Gebrauch lebendig,</l>
+                     <l>Solang es gilt, keine Verletzung litte,</l>
+                     <l>Wenn abgetan, verlacht wird: ist <hi rendition="#i">die Sitte</hi>.</l>
+                  </lg>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Tartaglia, ins Schwarze!</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Mitten drin.</p>
+               </sp>
+               <sp who="#die_doktoren">
+                  <speaker>DIE DOKTOREN.</speaker>
+                  <p>Optime. Die Sitte, die Sitte.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Wär's nicht genug?</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Ich verliere ihn! Prinzessin mehr Strenge.</p>
+                  <pb n="15" facs="#f0015"/>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Ein Knabe sollte mich treten! O der Schande! O der Lehre! Dein Glück, Du Eiteler,
+              fördert meinen Haß. Das ist's, was Du gewinnst. Doch spar' ich Dir das Letzte. Geh
+              hinweg.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Nein, ich bleibe.</p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Weh!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <lg>
+                     <l>Wohlan, Dein Todesurteil sprech' ich:</l>
+                     <l>»Was ist, das aus der Wurzel der Zeiten</l>
+                     <l>Dem Stamm, den Menschengemeinschaft trägt,</l>
+                     <l>Und dem Geäste der Gewohnheiten</l>
+                     <l>Als köstlichste Blüte zuhöchst ausschlägt;</l>
+                     <l>Das jeden hinzieht, wenige nur halten,</l>
+                     <l>Worüber einsam Geweihte walten,</l>
+                     <l>Das jegliches schönt, an alles sich wendet,</l>
+                     <l>Die Erde zu heitern von oben entsendet?«</l>
+                  </lg>
+                  <stage>Sie entschleiert sich.</stage>
+                  <p>Schaue und zittere nicht. Antworte!</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>verwirrt.</stage>
+                  <p>O Glanz, o Vision!</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>ängstlich.</stage>
+                  <p>Er verliert sich...</p>
+               </sp>
+               <sp who="#tartaglia #pantalone #altoum">
+                  <speaker>TARTAGLIA, PANTALONE, ALTOUM.</speaker>
+                  <lg>
+                     <l>Er ist verloren! ..</l>
+                     <l>Wer rät ihm, wer hilft?</l>
+                  </lg>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Ergib Dich!</p>
+                  <stage>Truffaldino führt den Scharfrichter herein.</stage>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF</speaker>
+                  <stage>sich fassend.</stage>
+                  <lg>
+                     <l>Nur Eure Schönheit, Fürstin, riß mich weg.</l>
+                     <l>Ich war betäubt, nicht bin ich überwunden.</l>
+                     <l>Was aus der Zeiten Wurzel, Stamm, Gezweigen</l>
+                     <l>Als feinste Blüte will zuhöchst sich zeigen,</l>
+                     <l>Das jeden trifft, nur wenigen sich antraut,</l>
+                     <l>Gehört, gefühlt, ersonnen und geschaut,</l>
+                     <l>Ein Kuß der Erde von des Himmels Gunst:</l>
+                     <l>Es ist <hi rendition="#i">die Kunst</hi>.</l>
+                  </lg>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE</speaker>
+                  <stage>er umarmt Kalaf.</stage>
+                  <p>O seiest Du benedeit.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Ich halt' nicht mehr an mir!</p>
+                  <stage>Er umarmt Kalaf.</stage>
+               </sp>
+               <sp who="#die_doktoren">
+                  <speaker>DIE DOKTOREN.</speaker>
+                  <p>Es ist die Kunst.</p>
+                  <pb n="16" facs="#f0016"/>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>klatscht in die Hände.</stage>
+                  <p>Musik! Auf die Tore!</p>
+                  <stage>Lärm und Musik. Die Tore öffnen sich. Man erblickt bewegtes Volk. Turandot fällt
+              erschöpft. Truffaldino reicht Wasserglas. Sie winkt gebieterisch.</stage>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Haltet ein. Ich überstehe nicht die Scham. Ich hab' verspielt, ich weiß, ich geb' es
+              zu; doch am Altar soll dieser Dolch ... <stage>Man entreißt ihr die Waffe.</stage>
+                  </p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Sinnlose, Hoffärtige, Du hast das Recht verwirkt, über Dich selbst zu bestimmen. Auf,
+              in den Tempel.</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Das Essen steht auf dem Tisch.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>O mein König, hört ... Was gewänn' ich, wenn ich zu ihrem Abscheu würd' ihr Gatte?
+              Wenn sie mir stürbe. Sagt? Was freutet's Euch?</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Nun, nun, das ist ja leider nicht anders wahr... Aber ich bin am Ende meiner Langmut
+              – Vorwärts, meine Herren.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Ma-Ma-Marsch.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Gestattet einen Aufschub. Gleiches Spiel gibt gleiches Recht, ich stell' der Fürstin
+              frei, nun ihrerseits ein Rätsel zu entwirren, – vermag sie's nicht, so reiche man ihr
+              spitzes Spielzeug ihr zurück, – ich aber zieh' von hinnen.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Ich bin's zufrieden.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Ich bin's nicht zufrieden. Genug der Rätsel...</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Und wie lautet es? –</p>
+                  <stage>9. Finale</stage>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <lg>
+                     <l>»Wes Stamms und Namens ist der fremde Prinz,</l>
+                     <l>Der, an dem Gipfel seines Glücks gelangt,</l>
+                     <l>Leidvoller ist, als er je war zuvor?«</l>
+                  </lg>
+                  <stage>Die Doktoren wiederholen und notieren den Satz.</stage>
+               </sp>
+               <sp who="#maennerchor">
+                  <speaker>MÄNNERCHOR</speaker>
+                  <stage>flüsternd.</stage>
+                  <p>Wer ist der Prinz?</p>
+               </sp>
+               <sp who="#frauenchor">
+                  <speaker>FRAUENCHOR.</speaker>
+                  <p>Wer ist der fremde Prinz?</p>
+               </sp>
+               <sp who="#maennerchor #frauenchor">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Wer? Wer?</l>
+                  </lg>
+                  <stage>Vorhang fällt.</stage>
+                  <pb n="17" facs="#f0017"/>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Akt</head>
+            <div>
+               <head>Drittes Bild</head>
+               <stage>1. Lied mit Chor</stage>
+               <stage>Hinter dem geschlossenen Vorhang.</stage>
+               <stage>2. Tanz und Gesang</stage>
+               <stage>Das Frauengemach Turandots</stage>
+               <sp who="#maedchenchor">
+                  <speaker>MÄDCHENCHOR.</speaker>
+                  <lg>
+                     <l>Nacht wird zum Tag,</l>
+                     <l>Schauet!</l>
+                     <l>Leuchtend wird nun der Saal;</l>
+                     <l>Leben, rhythmisch bewegt,</l>
+                     <l>Wogt auf und ab.</l>
+                     <l>Mädchen,</l>
+                     <l>Freuet euch!</l>
+                     <l>Bald empfängt euch der Bräutigam,</l>
+                     <l>Nacht wird zum Tag,</l>
+                     <l>Leben wogt</l>
+                     <l>In seinem Arm.</l>
+                  </lg>
+                  <stage>3. Rezitativ und Arie</stage>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>ungeduldig.</stage>
+                  <p>Genug. Mein Kopf steht nach anderen Dingen. Es pocht mein Herz in ungewohntem
+              Schlage. Mein Geist trübt sich. Das Blut, es stockt und jagt. Ich fühle unsicher.</p>
+                  <stage>Arie</stage>
+                  <lg>
+                     <l>Daß ich ihn liebe,</l>
+                     <l>Sollt' es so sein?</l>
+                     <l>Daß ich ihn hasse,</l>
+                     <l>Doppelte Pein.</l>
+                     <l>Noch wich ich keinem</l>
+                     <l>Mir selbst betreut,</l>
+                     <l>
+                        <pb n="18" facs="#f0018"/> Würd' es sich wenden,</l>
+                     <l>Schnell wär's bereut.</l>
+                  </lg>
+                  <lg>
+                     <l>O, daß ich fände,</l>
+                     <l>Was ihn beschämt,</l>
+                     <l>Doch all mein Denken</l>
+                     <l>Starret gelähmt.</l>
+                     <l>Und ob er siege,</l>
+                     <l>Ob er erliege:</l>
+                     <l>Mein schöner Stolz, ach</l>
+                     <l>Fällt, ach, bezähmt.</l>
+                  </lg>
+                  <lg>
+                     <l>Richte Dich aufwärts</l>
+                     <l>Mein hoher Mut,</l>
+                     <l>Zum letzten Male</l>
+                     <l>Wehre Dich gut:</l>
+                     <l>Ein würd'ges Ende</l>
+                     <l>Herbeigeführt!</l>
+                     <l>Turandot sterbe,</l>
+                     <l>Doch unberührt.</l>
+                  </lg>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Ich erkenn' Euch nicht wieder, so sehr gebärdet Ihr Euch fremd. Hat der Anblick
+              dieses Glücksprinzen das Metall Eurer Seele zum Glühen gebracht? Mir wär's drum
+              leid.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Du empörst mich.</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Ich möchte Euch gern zufrieden sehen, verzeiht.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Du meinst es ja redlich. Sag', was sollt' ich tun?</p>
+                  <stage>4. Intermezzo dialogato</stage>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Hören wir zunächst was Truffaldino meldet. Er kommt von seinem Auftrag erst
+              zurück.</p>
+                  <stage>Truffaldino tritt würdig auf und kniet nieder.</stage>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Was bringst Du?</p>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO.</speaker>
+                  <p>Meine angebetete Prinzessin, Ihr habt Euch an den Rechten gewandt. Alles ging
+              vortrefflich. Möchte <pb n="19" facs="#f0019"/> ein jeder seine Intelligenz vor dem Einfluß der
+              Leidenschaften bewahren. Die niederen Funktionen zehren von der Klarheit des Gehirns.
+              Daran habe ich nicht zu tragen. Mein Kopf ist der Triumph der Zucht.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>ungeduldig.</stage>
+                  <p>Komm zur Sache.</p>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO.</speaker>
+                  <p>Welcher Sache? Ach ja. Wenn ich von mir selber spreche, erscheint mir alles andere
+              recht sekundär. <stage>Er seufzt.</stage> Nun, da Ihr sie verlangt zu wissen, hier ist
+              die Geschichte:</p>
+                  <stage>5. Aria</stage>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO.</speaker>
+                  <lg>
+                     <l>Ich schlich geschickt</l>
+                     <l>Und unerblickt</l>
+                     <l>In den bewachten Raum,</l>
+                     <l>Da lag gereckt</l>
+                     <l>Und ausgestreckt</l>
+                     <l>Der Bub in Schlaf und Traum.</l>
+                  </lg>
+                  <lg>
+                     <l>Ich holte sacht,</l>
+                     <l>Was ich gebracht,</l>
+                     <l>Den Zauberrettich vor;</l>
+                     <l>Die löst' dem Jung'</l>
+                     <l>Die starre Zung',</l>
+                     <l>Die Wurzel Mandragor.</l>
+                  </lg>
+                  <stage>Er zeigt die Wurzel.</stage>
+                  <lg>
+                     <l>Da ist sie.</l>
+                     <l>Recht knabenhaft</l>
+                     <l>Und ekelhaft</l>
+                     <l>Seufzt er 'ner Windlad' gleich,</l>
+                     <l>Er dreht sich rund</l>
+                     <l>Wie'n junger Hund</l>
+                     <l>Und spricht so butterweich:</l>
+                  </lg>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Spricht seinen Namen, sag'?</p>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO.</speaker>
+                  <lg>
+                     <l>Ja, er sagt: Tod oder Turandot.</l>
+                     <l>Und weitres war nicht aus ihm zu locken.</l>
+                  </lg>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <lg>
+                     <l>Unfähiger Mann, ist dies Dein ganzer Witz!</l>
+                     <l>Hinweg! Hinweg! Pack Dich!</l>
+                     <pb n="20" facs="#f0020"/>
+                  </lg>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO.</speaker>
+                  <lg>
+                     <l>Mann oder Un-Mann,</l>
+                     <l>Unfähig, fähig:</l>
+                     <l>Meinen Witz kann mir niemand schneiden.</l>
+                     <l>Verdienst lohnt Undank, das ist nun alt,</l>
+                     <l>Geist wird verhöhnt,</l>
+                     <l>Genie weckt Ärger.</l>
+                     <l>Truffaldino</l>
+                     <l>Bleibt er selber,</l>
+                     <l>Wird der Neid auch</l>
+                     <l>Gelb und gelber:</l>
+                     <l>Mann von Verstand,</l>
+                     <l>Scharf und gewandt,</l>
+                     <l>Von reinen Sitten,</l>
+                     <l>Stern im Reich der Mitten,</l>
+                     <l>Keuschen Wandelns,</l>
+                     <l>Strengen Handelns ...</l>
+                     <l>Dero getreu untertänigster Sklav!</l>
+                  </lg>
+                  <stage>Er geht, nachdem er sich dreimal verbeugt hat.</stage>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Seid getrost, Prinzessin, noch lange währt dieser lange Tag, wer weiß was Euch die
+              nächste Stunde bringt.</p>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO</speaker>
+                  <stage>schnell zurück.</stage>
+                  <p>Der Kaiser kommt zur Prinzessin. <stage>Ab.</stage>
+                  </p>
+                  <stage>Pantalone und Tartaglia, die dem Kaiser gefolgt sind, verweilen hinter der Türe,
+              jedoch dem Zuschauer sichtbar, neugierig horchend.</stage>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Mein Kind –!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>zurückhaltend.</stage>
+                  <p>Was befiehlt mein kaiserlicher Vater?</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Die Kröte!</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Die Ka-Ka-Kanaille!</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Warum so feierlich? Siehst Du nicht wie ich Dich liebe und vor Dir zerfalle aus Gram?
+              Ich bin ein sehr alter Mann geworden.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>etwas weicher.</stage>
+                  <p>Ich will Euch nicht betrüben.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Ah, schön, brav und kindlich gesprochen! Guck mal her. <stage>Er winkt mit einer
+                Rolle.</stage> Was ist das?</p>
+                  <pb n="21" facs="#f0021"/>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Was ist das?</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Eine Rolle.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Eine Rolle.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Was steht darin?</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Was steht darin?</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Die Namen die Du nicht weißt.</p>
+                  <stage>Pantalone und Tartaglia pfeifen lange und leise vor sich hin.</stage>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Die ich <hi rendition="#i">nicht</hi> weiß?</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>nickt.</stage>
+                  <p>Die Du nicht weißt.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Mein Vater, ich kenn' die Namen – kenn' die Namen nicht – das soll morgen vor dem
+              Diwan sich erweisen.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>aufgebracht.</stage>
+                  <p>Halsstarrige!</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Jetzt kriegt sie's.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Unwissende!</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Er kommt in Aff-Affekt.</p>
+                  <stage>6. Arioso</stage>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>So höre. <stage>Er wird ganz Majestät.</stage> Heimliche Kunde kam mir zu. Von hoher
+              Herkunft ist der Jüngling. würdig sein Stamm und strahlend das Geäst, die seine Tugend
+              krönt. Er ist zu gut für Dich.</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Fein gegeben.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Brill-brilliant!</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>mit Impuls.</stage>
+                  <p>O Vater!</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Nichts von Vater diesmal! Bitten kommt zu spät –</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Bitten?!</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Nichts davon mehr. In Deiner eigenen Ratlosigkeit sollst Du Dich winden und
+              gedemütigt sein vor aller Welt. Dies ist mein väterlicher Wille, meine Absicht
+              heilsam. Und morgen hat das Teufelspiel ein Ende, und Du stehst beschämt vor aller
+              Welt. <stage>Wendet sich zum Gehen.</stage> Soll ich sie so verlassen? Ich war ein
+              bißchen hart. – <stage>Wendet sich zurück.</stage> Nun, meine Tochter ...?</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Morgen sollt Ihr Euer Unrecht bekennen.</p>
+                  <pb n="22" facs="#f0022"/>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>wieder barsch.</stage>
+                  <p>Ha, Verstockte! <stage>Im Abgehen für sich.</stage> Schade, schade, schade.</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Schade.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Schade.</p>
+                  <stage>Er wird an der Türe von den beiden empfangen und gestützt und sie gehen alle drei
+              ab, indem sie immer »schade, schade« murmeln.</stage>
+                  <stage>7. Duett</stage>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Adelma, meine Freundin, sage Du daß ich recht tat, mich so zu geben.</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Glaubt Ihr, Prinzessin, daß Euer Vater, Seine Majestät, <stage>Sie knixt.</stage>
+              allein die wissenswerten Namen kenne?</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Adelma, wohin zielest Du?</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>O, ich meine: ob niemand andrer im Palast ebenso gebildet sei, als Kaiser Altoum?</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Wer könnt' es sein?</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Sucht nicht zu weit.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Die beiden Minister?</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Sucht nicht zu hoch.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Du scheinst etwas zu verbergen..</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Vielleicht zu enthüllen...</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Adelma?</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <lg>
+                     <l>Ihr nennt mich Freundin,</l>
+                     <l>Ja, ich bin's zu Euch,</l>
+                     <l>Ich darf es sein,</l>
+                     <l>Da ich von Königen stamme;</l>
+                     <l>Doch haltet Ihr mich als Sklavin.</l>
+                     <l>Gebt mich frei,</l>
+                     <l>Ihr sollt erfahren,</l>
+                     <l>Was Ihr glühend wünscht zu kennen;</l>
+                     <l>Denn ich – ich weiß des Fremden Kunst und Namen:</l>
+                     <l>Ich schenk' Euch Freiheit,</l>
+                     <l>Schenkt mir drum die meine,</l>
+                     <l>Zwei kluge Mädchen</l>
+                     <l>
+                        <pb n="23" facs="#f0023"/> Kommen leicht ins reine!</l>
+                     <l>Freiheit gegen Freiheit. –</l>
+                  </lg>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Es wär' Verrat!</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <lg>
+                     <l>Er hat mich einst verlacht,</l>
+                     <l>Als ich, ein Kind, die Arme nach ihm streckte.</l>
+                     <l>Ich hab' es nie verwunden.</l>
+                     <l>Nun ist an mir die Reihe,</l>
+                     <l>Willigt ein.</l>
+                  </lg>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Du hast gelitten ... hast erduldet – Das macht allein Dich zur Fürstin. Sei fortan
+              meine Schwester!</p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>O Dank! <stage>Für sich.</stage> O, mein Triumph! Und jetzt, Prinzessin Turandot,
+              süßeste Schwester, horch auf...</p>
+                  <stage>Sie flüstert Turandot ins Ohr.</stage>
+                  <stage>Während dieser letzten Szene hat Truffaldino spioniert und scheinbar etwas
+              erhorcht.</stage>
+                  <stage>Vorhang fällt.</stage>
+                  <stage>8. Intermezzo</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Letztes Bild</head>
+               <stage>9. Thronsaal</stage>
+               <stage>Altoum und sein Gefolge sind wie in Erwartung versammelt. Es ertönt ein
+            Trauermarsch, von gedämpften Trommeln begleitet.</stage>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Hört mir nur das klägliche Getrommel.</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>O, o, es stimmt mich ganz weich. Es gemahn mich so sehr an die Lagunen. <stage>Er
+                schluchzt.</stage>
+                  </p>
+               </sp>
+               <sp who="#frauenchor">
+                  <speaker>FRAUENCHOR</speaker>
+                  <stage>hinter der Bühne.</stage>
+                  <p>O! O!</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Etwas Ha-Haltung, Pa-Pantalone. Seid doch schließlich der Kanzler.</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Etwas Ha-Haltung käme Deiner Zunge zustatten, mein Herr Ta-Ta-Ta-Tartaglia.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Ich drück' – ich drück' mich eben gebrochen aus.</p>
+                  <stage>
+                     <pb n="24" facs="#f0024"/> Inzwischen ziehen Turandot und ihr Gefolge ein, sämtlich mit
+              Trauerschleiern behangen, in offenbarer Niedergeschlagenheit.</stage>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Schaut nur die Prinzessin an, rudert daher als wie eine Trauergondel.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Und der Ka-Kapaun läßt die Flügel hängen.</p>
+               </sp>
+               <sp who="#frauenchor">
+                  <speaker>FRAUENCHOR.</speaker>
+                  <p>O!</p>
+                  <stage>Kalaf wird von Wachen hereingeführt.</stage>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>So bin ich noch am Leben! Und diese Trauerklänge, gelten sie mir?</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Mein Sohn, sie deuten ihre Niederlage. Es tut mir leid um sie – ist sie doch mein
+              Kind! – doch eine Lehre verdiente sie längst.</p>
+                  <stage>Inzwischen haben Turandot und ihr Gefolge ihre Plätze eingenommen.</stage>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>zu Turandot.</stage>
+                  <p>Nun, meine Tochter ...?</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Diese Zeichen von Trauer sollten meiner Erniedrigung die äußeren Merkmale geben.
+              Euch, Prinz, tönen sie als Siegesgesang.</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Nicht um den Preis Eures Leides möcht' ich gewinnen.</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Also laßt lustig aufspielen.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Tschinellen.</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Dideldum.</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT</speaker>
+                  <stage>nach einer Pause.</stage>
+                  <p>Noch nicht, – die Rache mir süßer zu gestalten, führt' ich Euch sanft in die Irre.
+              Nun aber starre in den Abgrund, der vor Dir sich auftut, und beweine Deinen Übermut.
+              Hört, hört Ihr alle! Seinen Namen will ich Euch künden: <hi rendition="#i">Kalaf, Sohn des
+                Timur</hi>, du bist entlassen.</p>
+                  <stage>10. Finale</stage>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM</speaker>
+                  <stage>düster.</stage>
+                  <p>Vatermörderin!</p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Kalaf! Sohn des Timur!</p>
+               </sp>
+               <sp who="#pantalone">
+                  <speaker>PANTALONE.</speaker>
+                  <p>Laßt Euch den Bart auszwicken, Tartaglia.</p>
+               </sp>
+               <sp who="#tartaglia">
+                  <speaker>TARTAGLIA.</speaker>
+                  <p>Bei Gott!</p>
+                  <pb n="25" facs="#f0025"/>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Verloren! ach, verloren! – So laßt mich ziehn. Im Wirrsal des Gefechtes suche ich den
+              Tod, vielleicht Vergessenheit. Noch bin ich jung. Lebt wohl! lebt alle wohl! <stage>Er
+                wendet sich zum Gehen.</stage>
+                  </p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Nein, Kalaf. <stage>Ihn sanft am Arme zurückhaltend.</stage>
+                  </p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Du?</p>
+               </sp>
+               <sp who="#turandot">
+                  <speaker>TURANDOT.</speaker>
+                  <p>Ja, ich selbst, deren Seelen-Starrheit Du brachest. Nur scheintot lag mein Herz, nun
+              schlägt es jauchzend. Du hast's erweckt, und mir gehörst Du zu, Kalaf, Timurs Sohn,
+              nicht mehr ein fremder Prinz!</p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Spricht so Turandot? Ist sie's?</p>
+               </sp>
+               <sp who="#kalaf">
+                  <speaker>KALAF.</speaker>
+                  <p>Das Außerordentliche, das Verheißungsvolle! Alles erfüllt sich. Meine Turandot!</p>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <p>Ein Wunder! Ein Wunder!</p>
+               </sp>
+               <sp who="#altoum">
+                  <speaker>ALTOUM.</speaker>
+                  <p>Kinder, das ist mein schönster Tag.</p>
+               </sp>
+               <sp who="#pantalone #tartaglia">
+                  <speaker>PANTALONE UND TARTAGLIA.</speaker>
+                  <p>Hochzeit, Hochzeit, Majestät!</p>
+               </sp>
+               <sp who="#truffaldino">
+                  <speaker>TRUFFALDINO.</speaker>
+                  <p>Nun ist es aus, ich melde meinen Abschied. <stage>Ab.</stage>
+                  </p>
+               </sp>
+               <sp who="#adelma">
+                  <speaker>ADELMA.</speaker>
+                  <p>Geduld. Ich werd' mir einen anderen suchen. <stage>Ab.</stage>
+                  </p>
+               </sp>
+               <sp who="#turandot #kalaf #chor">
+                  <speaker>TURANDOT, KALAF UND CHOR</speaker>
+                  <stage>abwechselnd.</stage>
+                  <lg>
+                     <l>Was ist's, das alle Menschen bindet,</l>
+                     <l>Vor dem jedwede Kleinheit schwindet,</l>
+                     <l>Wogegen Macht und List zerschlägt,</l>
+                     <l>Das Geringes zum Erhab'nen prägt,</l>
+                     <l>Das treibt den Kreislauf der ew'gen Weiten,</l>
+                     <l>Umschließt die Gegensätzlichkeiten,</l>
+                     <l>Das überdauert alle Triebe,</l>
+                     <l>Das uns besiegte: ist die Liebe.</l>
+                  </lg>
+               </sp>
+               <sp who="#eunuchen">
+                  <speaker>EUNUCHEN</speaker>
+                  <stage>tanzend.</stage>
+                  <p>Hi, hi, hi, hi.</p>
+                  <stage>Turandot vertauscht den Trauerflor gegen einen Brautschleier. Kalaf anderer seits
+              wird ein Ehrenmantel angelegt.</stage>
+               </sp>
+               <sp who="#chor">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Freut euch! Freut euch!</l>
+                     <l>La, la, la, la, la!</l>
+                     <l>Enthüllet die Gottheit.</l>
+                     <l>
+                        <pb n="26" facs="#f0026"/> Mädchen, freuet euch:</l>
+                     <l>Nun ist die Hochzeit nah;</l>
+                     <l>Glück und Licht</l>
+                     <l>Spendet der neue Tag!</l>
+                  </lg>
+                  <stage>Ein Vorhang wird auseinandergezogen. Man erblickt die goldene Riesenstatue eines
+              Buddha, davor einen Priester, Die Trauung wird vollzogen.</stage>
+               </sp>
+               <trailer>Ende.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

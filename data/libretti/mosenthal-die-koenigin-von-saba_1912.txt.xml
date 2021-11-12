@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Die Königin von Saba</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/101363184">
+                  <forename>H.S. (Salomon Hermann)</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Mosenthal</surname>
+               </persName>
+            </author>
+            <author>
+               <persName role="composer" ref="http://d-nb.info/gnd/119527995">
+                  <forename>Karl</forename>
+                  <surname>Goldmark</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T17:38:19Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000036</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q841406</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005392500</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Mosenthal, Salomon Hermann von/Libretti/Die Königin von Saba</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/sj67.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0004-4398-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Karl Goldmark: Die Königin von Saba, nach einem Text von H.S. Mosenthal, Leipzig [1912]</bibl>
+            <bibl>Karl Goldmark: Die Königin von Saba. Oper in vier Aufzügen, nach einem Text von H.S. Mosenthal von Carl Goldmark, hg. v. Georg Richard Kruse, Leipzig: Reclam, [1912].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Die Königin von Saba</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/101363184">
+                        <forename>H.S. (Salomon Hermann)</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Mosenthal</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName role="composer" ref="http://d-nb.info/gnd/119527995">
+                        <forename>Karl</forename>
+                        <surname>Goldmark</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Georg Richard</forename>
+                        <surname>Kruse</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">61 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Reclam-Verlag</name>
+                  </publisher>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date type="publication">1912</date>
+                  <date type="firstPublication">1876</date>
+                  <date type="firstPublication" subtype="clariah">1876</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5">1912</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1821"
+                        notAfter="1877"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d177e302">Komponiert von Karl Goldmark. Uraufführung am 10.03.1875, Hofoper, Wien.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <personGrp xml:id="chor_ganzer_chor_alle" sex="UNKNOWN">
+                  <name>Chor/Ganzer Chor/Alle</name>
+                  <name type="variant">Alle Andern</name>
+                  <name type="variant">Die Übrigens</name>
+               </personGrp>
+               <person xml:id="hohepriester" sex="MALE">
+                  <persName>Hohepriester</persName>
+               </person>
+               <person xml:id="sulamith" sex="FEMALE">
+                  <persName>Sulamith</persName>
+               </person>
+               <personGrp xml:id="chor_der_maedchen_frauen_frauenchor" sex="FEMALE">
+                  <name>Chor der Mädchen/Chor der Frauen/Frauenchor</name>
+               </personGrp>
+               <person xml:id="assad" sex="MALE">
+                  <persName>Assad</persName>
+               </person>
+               <person xml:id="baal-haanan" sex="MALE">
+                  <persName>Baal-Haanan</persName>
+               </person>
+               <person xml:id="salomon" sex="MALE">
+                  <persName>Salomon</persName>
+               </person>
+               <person xml:id="koenigin" sex="FEMALE">
+                  <persName>Königin</persName>
+               </person>
+               <person xml:id="astaroth" sex="FEMALE">
+                  <persName>Astaroth</persName>
+               </person>
+               <person xml:id="tempelwaechter" sex="MALE">
+                  <persName>Tempelwächter</persName>
+               </person>
+               <personGrp xml:id="chor_der_saenger" sex="MALE">
+                  <name>Chor der Sänger</name>
+               </personGrp>
+               <personGrp xml:id="chor_des_volkes_einzelne_stimmen" sex="UNKNOWN">
+                  <name>Chor des Volkes/Einzelne Stimmen aus dem Volke</name>
+               </personGrp>
+               <personGrp xml:id="chor_der_priester" sex="MALE">
+                  <name>Chor der Priester</name>
+                  <name type="variant">Priester</name>
+               </personGrp>
+               <personGrp xml:id="leviten" sex="MALE">
+                  <name>Leviten</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretti</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d177e302">
+      <front>
+         <div type="front">
+            <head>Salomon Hermann von Mosenthal</head>
+            <head>Die Königin von Saba</head>
+            <head>Oper in vier Aufzügen</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="21" facs="#f0001"/> Personen</head>
+               <castItem>König Salomon (Bariton)</castItem>
+               <castItem>Hohepriester (Baß)</castItem>
+               <castItem>Sulamith, seine Tochter (Sopran)</castItem>
+               <castItem>Assad (Tenor)</castItem>
+               <castItem>Baal-Haanan, Palastaufseher (Bariton)</castItem>
+               <castItem>Die Königin von Saba (Mezzo-Sopran)</castItem>
+               <castItem>Astaroth, eine Mohrin, ihre Sklavin (Sopran)</castItem>
+               <castItem>Stimme des Tempelwächters (Baß)</castItem>
+               <castItem>Priester, Leviten, Sänger, Harfenspieler Leibwachen, Frauen des Harems,
+            Bajaderen, Volk</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Schauplatz der Handlung. Jerusalem und die syrische Wüste. Erster Aufzug: Halle im
+          Palaste Salomons. Zweiter Aufzug. Garten. – Später im Tempel. Dritter Aufzug: Festhalle.
+          Vierter Aufzug: In der Wüste.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Aufzug.</head>
+            <stage>Halle im Palast Salomons.</stage>
+            <stage>Zwei Prachtpfeiler teilen den Hintergrund in drei Bogen, die kleineren führen in
+          Säulengänge. Von der Höhe der Bühne, auf beiden Seiten im Hintergrunde herab führen breite
+          Treppen mit Teppichen belegt, am Fuße der Treppen goldene Löwen, links und rechts Türen
+          aus Ebenholz und Gold. Links im Vordergrunde der Löwenthron. Das Ganze bietet den Anblick
+          der höchsten Pracht. Über die Treppen herab steigen von der linken Seite die Frauen
+          Salomons in festlichen Gewändern, verschleiert Sklavinnen mit Pauken, Harfen und Triangeln
+          folgen. Von der rechten Seite folgen die Töchter Jerusalems, Mägde mit goldenen
+          Blumenkörben begleiten sie. Rechts im Vordergrunde steht Baal-Haanan von Leibwachen
+          umgeben. Die Türen von Leibwachen besetzt.</stage>
+            <stage>Rechts und links vom Zuschauer aus angenommen.</stage>
+            <stage>Vorspiel.</stage>
+            <stage>Der Vorhang öffnet sich beim 3. Takte des 3/4 F-Dur.</stage>
+            <div>
+               <head>Erster Auftritt.</head>
+               <stage>Baal-Haanan. Leibwache. Frauen. Mägde. Sklavinnen.</stage>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Öffnet euch, Tore, schmückt euch, ihr Hallen,</l>
+                     <l>Duftige Kränze, umwindet den Saal!</l>
+                     <l>Lasset die Harfen, die Zymbeln erschallen,</l>
+                     <l>Blendet der Sonne leuchtenden Strahl!</l>
+                     <l>Denn über alle irdischen Reiche</l>
+                     <l>Hat Gott Salomons Herrschaft gestellt.</l>
+                     <l>Daß sich auf Erden ihm keines vergleiche,</l>
+                     <l>Zeigt es jubelnd der staunenden Welt!</l>
+                     <pb n="23" facs="#f0002"/>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Zweiter Auftritt.</head>
+               <stage>Die Vorigen. Hohepriester im weißen Ornat und Sulamith von rechts eintretend. Alle
+            verneigen sich.</stage>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <lg>
+                     <l>Tritt ohne Zagen ein,</l>
+                     <l>Mein Kind, zur Königshalle,</l>
+                     <l>Die Töchter Salems alle</l>
+                     <l>Im Festschmuck harren dein.</l>
+                     <l>Nicht nur den hohen Gast</l>
+                     <l>Bringt uns die nächste Stunde,</l>
+                     <l>Auch ihn, den du zum Bunde</l>
+                     <l>Dir auserkoren hast.</l>
+                     <l>:,: Dein Assad er kehrt zurück. :,:</l>
+                     <l>:,: Und mit dem Hochzeitsschleier</l>
+                     <l>Trittst du zur heil'gen Feier</l>
+                     <l>Mit ihm zum Hochaltar! :,:</l>
+                     <l>Den König lad' ich und den fremden Gast zu Zeugen,</l>
+                     <l>Die stolze Heidin soll sich :,: vor Jehova beugen! :,:</l>
+                  </lg>
+                  <stage>Er geht nach links ab. Alle verneigen sich. Baal-Haanan begleitet ihn, die Wachen
+              desgleichen. Am Ausgange verabschiedet er sich nochmals von Sulamith, indem er, ihr
+              die Hand aufs Haupt legend, sie zärtlich betrachtet.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritter Auftritt.</head>
+               <stage>Sulamith. Die Frauen.</stage>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>Mein Assad kehrt zurück!</l>
+                     <l>Ach nur dies eine Wort hallt durch die Seele wider.</l>
+                     <l>Gespielen hört mein Glück!</l>
+                     <l>Singt mit mir Jubellieder,</l>
+                     <l>:,: Mein Assad kehrt zurück! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>:,: Der Freund ist dein,</l>
+                     <l>Der Freund ist dein,</l>
+                     <l>Der unter Rosen weidet. :,:</l>
+                  </lg>
+                  <stage>
+                     <pb n="24" facs="#f0003"/> Ein Teil der Frauen spielt Harfe zu dem Chor. Mädchen mit
+              Blumenkörben, andere Tamburin und Triangel spielend, begleiten mit anmutig ruhiger
+              Tanzbewegung den Gesang. Bei der Schlußfermate bilden die Tanzenden eine enge Gruppe
+              im Halbkreis um Sulamith.</stage>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>Mein Freund, er ist ein Myrrhenstrauß,</l>
+                     <l>Der sich an meinen Busen schmiegt.</l>
+                     <l>Ich halte ihn, ich segne ihn,</l>
+                     <l>:,: Mich labt seine Wonneduft! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>:,: Der Freund ist dein,</l>
+                     <l>Der Freund ist dein,</l>
+                     <l>Der unter Rosen weidet! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>Mein Freund, er ist ein Labekelch,</l>
+                     <l>:,: Der lieblich mir die Lippe kühlt. :,:</l>
+                     <l>Ich halte ihn, ich segne ihn,</l>
+                     <l>:,: Mich labt sein Honigkuß! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>:,: Der Freund ist dein,</l>
+                     <l>Der Freund ist dein,</l>
+                     <l>Der unter Rosen weidet! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith #chor_der_maedchen_frauen_frauenchor">
+                  <speaker>SULAMITH UND CHOR.</speaker>
+                  <lg>
+                     <l>Der Freund, der Freund ist mein! / dein!</l>
+                  </lg>
+                  <stage>Bei den ersten Klängen des Marschtempo fliegt Sulamith dem Assad entgegen nach
+              dem Hintergrund. Krieger treten ein, Baal-Haanan von der linken Seite mit dem
+              Hohenpriester und Wachen, die Frauen zurückdrängend. Sulamith steht in zitternder
+              Erwartung an ihren Vater gelehnt im Hintergrunde.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierter Auftritt.</head>
+               <stage>Sulamith. Hohepriester. Baal-Haanan. Chor. Assad. Assad tritt von rechts ein,
+            kostbar gerüstet, bleich und befangen.</stage>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>gemessen, zu Baal-Haanan.</stage>
+                  <lg>
+                     <l>Dem König Heil! Es naht sein hoher Gast!</l>
+                     <l>Am Tore Gad hält sie nur kurze Rast.</l>
+                  </lg>
+                  <stage>Er tritt langsam vor.</stage>
+                  <lg>
+                     <l>Sie gürtet sich mit festlichem Geschmeide,</l>
+                     <l>In kurzer Frist wird dem Palast sie nahn.</l>
+                     <l>
+                        <pb n="25" facs="#f0004"/> Was mir geboten ward, es ist getan,</l>
+                     <l>Dem König Heil! Erlaubt mir, daß ich scheide!</l>
+                  </lg>
+                  <stage>Er wendet sich.</stage>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER</speaker>
+                  <stage>vortretend.</stage>
+                  <p>Blick um dich, teurer Sohn, wer deiner harrt!</p>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH</speaker>
+                  <stage>vortretend.</stage>
+                  <p>Mein Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>erbebend.</stage>
+                  <lg>
+                     <l>Sulamith! Weh mir! mein Herz erstarrt!</l>
+                     <l>:,: Entsetzen schauert durch mein Gebein! :,:</l>
+                  </lg>
+                  <stage>Er weicht zurück. Sulamith steht erbleichend. Hohepriester mißt mit gewaltigem
+              Blick den Zurückweichenden.</stage>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH</speaker>
+                  <stage>reißt sich von den Mädchen los und eilt auf Assad zu.</stage>
+                  <lg>
+                     <l>Assad, sprich, was ist geschehen?</l>
+                     <l>Dir zu Füßen sieh mich hier!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Frag mich nicht, was ich gesehen,</l>
+                     <l>Doch verloren bin ich dir!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>Nein, nein, du bist mir ewig eigen,</l>
+                     <l>Nur der Tod entreißt dich mir!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>abgewendet.</stage>
+                  <lg>
+                     <l>Laß mich fliehen – laß mich schweigen!</l>
+                     <l>Laß mich sterben, fern von hier!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith #hohepriester #assad #baal-haanan #chor_ganzer_chor_alle">
+                  <speaker>SULAMITH, HOHEPRIESTER, ASSAD, BAAL-HAANAN UND CHOR.</speaker>
+                  <lg>
+                     <l>Welches Bangen, welche Qual,</l>
+                     <l>Wer schafft Lösung, wer schafft Rat!</l>
+                  </lg>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <p>Sende, Herr, uns deine Strahlen!</p>
+               </sp>
+               <sp who="#sulamith #hohepriester #assad #baal-haanan #chor_ganzer_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <p>Welches Bangen, welche Qualen!</p>
+               </sp>
+               <sp who="#sulamith #assad">
+                  <speaker>SULAMITH UND ASSAD.</speaker>
+                  <p>Weh mir!</p>
+               </sp>
+               <sp who="#baal-haanan">
+                  <speaker>BAAL-HAANAN</speaker>
+                  <stage>stark.</stage>
+                  <p>Der König naht!</p>
+                  <pb n="26" facs="#f0005"/>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfter Auftritt.</head>
+               <stage>Die Vorigen. Salomon von links ohne Mantel und Krone, kostbar gekleidet; alle
+            sinken nieder, nur Assad nicht, der stumm und Sulamith, die verzweifelt neben dem
+            Hohenpriester steht. Letzterer hebt die Hände segnend gegen den König. Die Wachen
+            schwenken die Waffen.</stage>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>einen langen, prüfenden Blick über die Gruppe werfend.</stage>
+                  <lg>
+                     <l>Mein Blick gewahrt Befremden ringsherum.</l>
+                     <l>Wie? Alles schweigt?</l>
+                  </lg>
+                  <stage>Weich.</stage>
+                  <lg>
+                     <l>Mein Assad, du bist stumm,</l>
+                     <l>Und jenes holde Auge schwimmt in Zähren!</l>
+                  </lg>
+                  <stage>Sulamith stürzt zu den Füßen des Königs.</stage>
+                  <lg>
+                     <l>Was hier geschehen sei, ich frage nicht,</l>
+                     <l>Mir sagt's der Geist, der in der Seele spricht,</l>
+                     <l>:,: Und seine Macht wird jeden Zweifel klären! :,:</l>
+                  </lg>
+                  <stage>Majestätisch.</stage>
+                  <lg>
+                     <l>Steht auf und tretet in die Halle dort!</l>
+                     <l>Du, Assad, bleib! Hör' deines Königs Wort!</l>
+                  </lg>
+                  <stage>Alle erheben und entfernen sich langsam durch die Säulengänge rechts und links.
+              Assad bleibt starr und stumm. Der Hohepriester im Abgehen mit tröstender Gebärde die
+              Erleuchtung durch Gott verheißend.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Sechster Auftritt.</head>
+               <stage>Salomon. Assad.</stage>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Ich les' auf deinem bleichen Munde,</l>
+                     <l>Was deine Lippe stumm verschweigt.</l>
+                     <l>Dein Herz war Sulamith geneigt –</l>
+                  </lg>
+                  <stage>Assad bejaht schmerzlich.</stage>
+                  <p>Und du begehrtest sie zum Bunde –</p>
+                  <stage>Ebenso.</stage>
+                  <lg>
+                     <l>Doch seit der Fahrt ins fremde Land</l>
+                     <l>Hat sich dein Herz von ihr gewandt.</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Mein Herr und König, du sprichst wahr,</l>
+                     <l>Dir sind die tiefgeheimsten Falten</l>
+                     <l>Der Menschenseele offenbar.</l>
+                     <l>
+                        <pb n="27" facs="#f0006"/> Du kennst die finsteren Gewalten,</l>
+                     <l>Die zwischen Erd' und Himmel</l>
+                     <l>Uns mit Zauberbann umgeben,</l>
+                     <l>So bann den Dämon auch, den ich erblickt,</l>
+                     <l>Der mir das Herz mit Zaubermacht bestrickt.</l>
+                  </lg>
+                  <stage>Zu den Füßen des Königs.</stage>
+                  <p>Erlöse mich, sonst ist's um mich geschehn!</p>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Erzähle, sprich, was du gesehen.</p>
+                  <stage>Assad erhebt sich.</stage>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Am Fuß des Libanon traf ich der Königin Schar</l>
+                     <l>Und bracht' ihr deine Botschaft dar,</l>
+                     <l>Allein sie selbst sah keiner von uns allen,</l>
+                     <l>Nur vor dem König soll ihr Schleier fallen.</l>
+                     <l>Und in den Zedernwald, müd' von des Tages Schwüle,</l>
+                     <l>Schlich ich gedankenvoll und suchte Ruh' und Kühle,</l>
+                     <l>:,: Dort in dem heimlich grünen Schoß</l>
+                     <l>Lautloser Einsamkeit, sank ich ins Moos. :,:</l>
+                     <l>Da horch! da plätschert eine Silberquelle,</l>
+                     <l>So schmeichelnd lockt es, plaudert süß und leise,</l>
+                     <l>Entzückt mein Herz mit träumerischer Weise,</l>
+                     <l>Und durch die grünen Zweige schimmert's helle.</l>
+                  </lg>
+                  <stage>Geheimnisvoll flüsternd.</stage>
+                  <lg>
+                     <l>Ich hebe mich zu lauschen und zu spähen,</l>
+                     <l>Und – ewige Mächte – was hab' ich gesehen!</l>
+                  </lg>
+                  <stage>Zart und innig.</stage>
+                  <lg>
+                     <l>Aus klaren Fluten steigt ein Schwanenleib,</l>
+                     <l>Auf Wellen ruht das himmlisch schönste Weib.</l>
+                     <l>Das schwarze Haar hüllt ihren Nacken ein</l>
+                     <l>Wie Ebenholz ein Bild von Elfenbein.</l>
+                     <l>Zwei Sterne blitzen durch der Wimper Nacht,</l>
+                     <l>Zwei Rosen halten über Perlen Wacht,</l>
+                     <l>Zwei Arme schlingen sich zum Lilienkranz,</l>
+                     <l>:,: Das Aug' erblindet vor der Schönheit Glanz. :,:</l>
+                     <l>Es zieht mich hin, und sie entflieht mir nicht,</l>
+                     <l>
+                        <pb n="28" facs="#f0007"/> Sie neigt mir zu das lichte Angesicht,</l>
+                  </lg>
+                  <stage>Mit immer steigender, leidenschaftlicher Erregung.</stage>
+                  <lg>
+                     <l>:,: Sie schlingt den Arm mir um den Nacken fest,</l>
+                     <l>Sie hält mich an die süße Brust gepreßt! :,:</l>
+                  </lg>
+                  <stage>Immer anwachsend.</stage>
+                  <lg>
+                     <l>:,: Und taumelnd sink' ich und verworren hin, :,:</l>
+                     <l>Zu Füßen ihr der holden Zauberin.</l>
+                     <l>Da rauscht's im Schilfe, sie erschrickt und späht,</l>
+                     <l>Sie hebt sich, flieht, und ist in Luft verweht.</l>
+                     <l>O zauberhafter Traum, :,: der meine Seel' erfüllt! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Ob dich ein böser Zauber quäle,</l>
+                     <l>Ob jenes Bild voll Reiz und Lust</l>
+                     <l>Ein Dämon deiner eignen Seele,</l>
+                     <l>Noch bin ich mir's nicht klar bewußt.</l>
+                     <l>Doch über mir, im Reich der Geister</l>
+                     <l>Mit ewig unverhülltem Blick,</l>
+                     <l>Schwebt Adonai, mein Herr und Meister,</l>
+                     <l>Und ihm befehl' ich dein Geschick.</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Mein Mut flammt auf, mein Herz wird frei,</l>
+                     <l>:,: Der Hoffnung Strahl belebt mich neu. :,:</l>
+                     <l>Ich darf Versöhnung, Gnade hoffen,</l>
+                     <l>Der Himmel steht mir wieder offen.</l>
+                     <l>Mein Herr und König magst du's künden,</l>
+                     <l>Wo werde ich Erlösung finden?</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Tritt mit der Braut zum Hochaltare</l>
+                     <l>Und fasse ihre reine Hand,</l>
+                     <l>Und heil'ger Friedens-Hoffnungsschein</l>
+                     <l>Zieh tröstend in das Herz die ein!</l>
+                     <l>Mein Assad, :,: vertrau dem Herrn dein Geschick. :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Auf, auf zum heiligen Altare</l>
+                     <l>Mich führet deine weise Hand!</l>
+                     <l>Und Friede zieht nach banger Pein</l>
+                     <l>Versöhnend in das Herz mir ein!</l>
+                  </lg>
+                  <stage>Beide gehen nach links ab.</stage>
+                  <pb n="29" facs="#f0008"/>
+               </sp>
+            </div>
+            <div>
+               <head>Siebenter Auftritt.</head>
+               <stage>Einzugsmarsch der Königin von Saba.</stage>
+               <stage>Soldaten ziehen auf. Aus den Seitenhallen ziehen Frauen und Jungfrauen, von
+            Sklavinnen begleitet, ein. Die Frauen streuen Rosen, die Sklavinnen tragen Harfen. Die
+            Leibwache zieht durch die Mitte ein. Andere Frauen, von Sklavinnen begleitet, ziehen von
+            der entgegengesetzten Seite in der Art der früheren ein. Vier Trompeter auf Stufen in
+            der Vorhalle aufgestellt. – Es beginnt der Einzug des Gefolges der Königin von Saba.
+            Sklaven und Sklavinnen, Weiße und Mohren, mit goldenen und anderen Prachtgesäßen,
+            gefüllt mit Goldstand, Perlen, Edelsteinen und Spezereien. – Phantastische Gruppierung.
+            – Die Königin erscheint auf einem Palankin getragen mit Astaroth Unter der Halle wird
+            die Königin von den Sklaven herabgehoben.</stage>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Heil! Heil! der Königin Heil!</l>
+                     <l>Sabas großer Kön'gin Heil!</l>
+                     <l>Sonne des Mittags, Arabiens Stern,</l>
+                     <l>Sei uns gegrüßt im Palast des Herrn.</l>
+                     <l>Fülle der Wonne sei dein Teil,</l>
+                     <l>Sabas großer Kön'gin Heil!</l>
+                  </lg>
+                  <stage>Das Gefolge des Königs erscheint. Dann die Königin, bedeckt mit Juwelen und
+              Perlen. Von dem gekrönten Turban herab wallt ein golddurchwirkter Schleier, die ganze
+              Gestalt umhüllend.</stage>
+                  <stage>Salomon von links kommend mit Krönungsmantel und Krone. Ihm folgt der
+              Hohepriester, Baal-Haanan, Assad, Sulamith an Assad geschmiegt.</stage>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Willkommen, edler Gast, in diesen Hallen!</l>
+                     <l>Es reicht dir Salomon die königliche Hand!</l>
+                     <l>Laß dir's in Zions Mauern wohl gefallen;</l>
+                     <l>Zu deinen Füßen legt er das gelobte Land!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Heil, König, dir! und sieh zu deinen Füßen,</l>
+                     <l>Was meines Reiches Krone ziert!</l>
+                  </lg>
+                  <stage>Sie macht eine darbietende Bewegung. Sämtliche Geschenke tragende Sklaven bilden
+              vor dem König eine Gruppe.</stage>
+                  <lg>
+                     <l>Die Düfte, die Arabiens Luft versüßen,</l>
+                     <l>Die Perlen, die Arabiens Meer gebiert;</l>
+                     <l>
+                        <pb n="30" facs="#f0009"/> Sieh seine Kinder in den Staub gebückt,</l>
+                     <l>Als deine Sklaven, König, nimm sie hin!</l>
+                     <l>Und sieh, was noch kein Sterblicher erblickt,</l>
+                  </lg>
+                  <stage>Stolz</stage>
+                  <p>Das Antlitz seiner Königin!</p>
+                  <stage>Sie entschleiert sich.</stage>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>vorstürzend.</stage>
+                  <lg>
+                     <l>Träum' ich!. Nein, es ist kein Wahn,</l>
+                     <l>Sie ist's, sie selbst!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>dazwischen tretend.</stage>
+                  <lg>
+                     <l>Was sicht dich an?</l>
+                  </lg>
+                  <stage>Stellung: Hohepriester. Sulamith. Assad. Salomon. Königin. Astaroth.
+              Baal-Haanan.</stage>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>starrt die Königin an, diese mißt ihn mit eisigen Blicken.</stage>
+                  <lg>
+                     <l>Dieses Auge, diese Züge,</l>
+                     <l>Ew'ger Gott, es ist kein Wahn!</l>
+                     <l>Ist kein Traumbild, keine Lüge,</l>
+                     <l>Goldnes Leben blickt mich an!</l>
+                     <l>Durch die Seele zieht ein Bangen,</l>
+                     <l>Zieht ein glühendes Verlangen</l>
+                     <l>Sie, die Göttin, zu umfangen,</l>
+                     <l>Sei's dann auch um mich getan!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Dieses Auge, diese Züge,</l>
+                     <l>Leiser Schauer faßt mich an!</l>
+                     <l>Steh mir bei, du Geist der Lüge,</l>
+                     <l>Und erstick den süßen Wahn!</l>
+                  </lg>
+                  <lg>
+                     <l>Flüchtiger Hauch, du bist vergangen,</l>
+                     <l>Höher strebet mein Verlangen;</l>
+                     <l>Was ich kühn mich unterfangen,</l>
+                     <l>Unverrückt sei es getan!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>Dieses Auge, diese Züge,</l>
+                     <l>Ihn umstrickt ein fremder Wahn,</l>
+                     <l>Assad, Assad, sieh, ich schmiege</l>
+                     <l>Mich an deine Seite an!</l>
+                     <l>
+                        <pb n="31" facs="#f0010"/> Will an deiner Seele hangen,</l>
+                     <l>Was hält dir den Geist befangen!</l>
+                     <l>Ew'ger Vater, sieh mein Bangen,</l>
+                     <l>Ach, was hat er dir getan?</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Dieses Auge, diese Züge,</l>
+                     <l>Wie entstellt starrt er sie an!</l>
+                     <l>Spricht aus ihr der Geist der Lüge?</l>
+                     <l>Spricht aus ihm ein töriger Wahn?</l>
+                     <l>Hält ein sündiges Verlangen</l>
+                     <l>Hält der Wahnsinn ihn befangen?</l>
+                     <l>Mit Erschütterung und Bangen</l>
+                     <l>Seh' ich die Entscheidung nahn!</l>
+                  </lg>
+               </sp>
+               <sp who="#astaroth">
+                  <speaker>ASTAROTH.</speaker>
+                  <lg>
+                     <l>Durch der Herrin starre Züge</l>
+                     <l>Blickt mich leiser Schauder an,</l>
+                     <l>Bin ich ihr doch seit der Wiege</l>
+                     <l>Bis zum Tode zugetan!</l>
+                  </lg>
+                  <lg>
+                     <l>Schöne Herrin, laß das Bangen,</l>
+                     <l>Was du immer magst verlangen,</l>
+                     <l>Astaroth wird an dir hangen,</l>
+                     <l>Und kein Leid darf dir sich nahn!</l>
+                  </lg>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <lg>
+                     <l>Wie entstellt sind seine Züge,</l>
+                     <l>Ihn umstrickt ein irrer Wahn,</l>
+                     <l>Daß sie nicht der Qual erliege,</l>
+                     <l>Gott, nimm dich der Jungfrau an!</l>
+                     <l>Hält mit teuflischem Verlangen</l>
+                     <l>Ihn ein böser Geist befangen?</l>
+                     <l>Laß ihn nicht den Sieg erlangen.</l>
+                     <l>Gott, dich bet' ich gläubig an!</l>
+                  </lg>
+               </sp>
+               <sp who="#baal-haanan">
+                  <speaker>BAAL-HAANAN.</speaker>
+                  <lg>
+                     <l>Wie entstellt sind seine Züge,</l>
+                     <l>Ihn erfaßt ein böser Wahn!</l>
+                     <l>Er, gekrönt durch Ruhm und Siege,</l>
+                     <l>Nun dem Dämon untertan!</l>
+                     <l>Soll der Stunde Festesprangen</l>
+                     <l>
+                        <pb n="32" facs="#f0011"/> Wandeln sich in Qual und Bangen</l>
+                     <l>Weil ein Tor sich unterfangen,</l>
+                     <l>Hier im Wahnsinn sich zu nahn?</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Wie entstellt sind seine Züge,</l>
+                     <l>Ihn erfaßt ein böser Wahn!</l>
+                     <l>Soll der Stunde Festesprangen</l>
+                     <l>Wandeln sich in Qual und Bangen</l>
+                  </lg>
+                  <lg>
+                     <l>Weil ein Tor sich unterfangen,</l>
+                     <l>Hier in Wahnsinn sich zu nahn!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>abwehrend.</stage>
+                  <lg>
+                     <l>Dieser wilde Fremdling hier,</l>
+                     <l>König, was heischt er von mir?</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <p>:,: Fremd? :,:</p>
+                  <stage>Ruhiger.</stage>
+                  <p>Du weißt nicht, wer ich bin?</p>
+                  <stage>Näher tretend, flüsternd und gedehnt.</stage>
+                  <lg>
+                     <l>Am Libanon, im Mondenlicht,</l>
+                     <l>Gedenkst du nicht? O Königin!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>Assad zurückstoßend, heftig.</stage>
+                  <p>Wahnsinniger! – ich kenn' dich nicht!</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR</speaker>
+                  <stage>stürmt vor.</stage>
+                  <lg>
+                     <l>Zurück, du Rasender, zurück!</l>
+                     <l>Was wagt er frevelnd zu beginnen!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith #astaroth #baal-haanan #hohepriester #chor_ganzer_chor_alle">
+                  <speaker>SULAMITH, ASTAROTH, BAAL-HAANAN, HOHEPRIESTER, CHOR.</speaker>
+                  <lg>
+                     <l>Zurück, Unseliger, zurück!</l>
+                     <l>Laß dich beschwören, komm von hinnen!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>milde.</stage>
+                  <p>Wo bist du Assad?</p>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH</speaker>
+                  <stage>weinend.</stage>
+                  <p>Mein Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Wo ich bin?</l>
+                     <l>Verrückt, verworren ist mein Sinn!</l>
+                     <l>Und doch der Blick, der mich durchloht,</l>
+                  </lg>
+                  <stage>Er stürzt zu den Füßen des Königs</stage>
+                  <p>Barmherzigkeit, gib mir den Tod!</p>
+                  <pb n="33" facs="#f0012"/>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Ermanne dich, mein Sohn und folg den deinen,</l>
+                     <l>Der nächste Tag soll dich der Braut vereinen!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>zuckend, abgewendet.</stage>
+                  <p>Der Braut?</p>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Doch du, mein Gast, tritt ein,</l>
+                     <l>Das Festgelage harret dein!</l>
+                  </lg>
+                  <stage>Salomon hat der Königin die Hand gereicht und führt sie durch den Kreis der
+              Huldigenden nach links. Die Sklaven knien. Vor Assad, den Sulamith umschlungen hält,
+              bleibt die Königin stehen und wirft einen glühenden Blick auf ihn, heimlich den
+              Schleier lüftend, dann schreitet sie weiter. Auf der Höhe der Stufen wendet sich das
+              königliche Paar, die Versammlung grüßend. Alles stürzt in den Vordergrund, Fahnen und
+              Standarten schwenkend.</stage>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Heil! Heil dem König, Heil der Königin! Heil!</l>
+                     <l>Schlagt die Pauken, rührt die Saiten!</l>
+                     <l>Jubelnder Psalmen brausender Klang</l>
+                     <l>Soll der Kön'gin Schritte begleiten,</l>
+                     <l>Wenn sie wandelt die Hall' entlang.</l>
+                     <l>Fülle der Wonne sei euch zuteil,</l>
+                     <l>Heil dem König, der Kön'gin Heil!</l>
+                     <l>Sabas großer Kön'gin Heil!</l>
+                     <pb n="34" facs="#f0013"/>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Aufzug.</head>
+            <stage>Phantastischer Garten von Zedern, Palmen und Rosensträuchen.</stage>
+            <stage>Das Theater von mäßiger Tiefe. Links im Vordergrunde ein Springbrunnen, dessen Becken
+          auf Stufen steht. Rechts rückwärts ein Portal, zum Palast führend. Nacht. Aufsteigender
+          Mond.</stage>
+            <stage>Einleitung: Nachtstück und Festmusik.</stage>
+            <div>
+               <head>Erster Auftritt.</head>
+               <stage>Königin in duftigem, silberdurchwirkten Kleid und Schleier, welche die ganze
+            Gestalt einhüllen, aus dem Palaste tretend.</stage>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Aus des Jubels Festgepränge</l>
+                     <l>Flücht' ich in die Einsamkeit.</l>
+                  </lg>
+                  <stage>Schmerzlich.</stage>
+                  <lg>
+                     <l>Im Gewog' der lauten Menge</l>
+                     <l>Faßt die Seele tiefes Leid:</l>
+                     <l>Er, der mir das Herz bezwungen,</l>
+                     <l>Er, den dieser Arm umschlungen,</l>
+                     <l>Er führt, sobald der Morgen graut,</l>
+                     <l>Zum Altar :,: die junge Braut! :,:</l>
+                     <l>Ewig wird er mir entrissen,</l>
+                     <l>Und wenn jener Fürst von Eis</l>
+                     <l>Mir entringt des Sieges Preis,</l>
+                     <l>Soll ich alles, alles missen?</l>
+                     <l>Seine dunklen Locken küssen</l>
+                     <l>Sollt' ein andres Weib auf Erden,</l>
+                  </lg>
+                  <stage>Schmerzlich.</stage>
+                  <lg>
+                     <l>Und ich soll vergessen werden?</l>
+                     <l>
+                        <pb n="35" facs="#f0014"/> Was du flüchtig nur besessen,</l>
+                     <l>Jenes nie empfundne Glück,</l>
+                     <l>Herz, kannst du es nie vergessen?</l>
+                     <l>Spiegelst du ewig mir's zurück?</l>
+                     <l>Wie, wenn ich mich heimwärts wändte,</l>
+                     <l>Mit dem Freunde, dem Gemahl?</l>
+                     <l>Wenn er mir zur Seite stände,</l>
+                     <l>Blühend in der Schönheit Strahl,</l>
+                     <l>Dort, im stillen Myrtenhain</l>
+                  </lg>
+                  <stage>Leidenschaftlich, innig.</stage>
+                  <lg>
+                     <l>Liebeselig mein zu sein? Ach!</l>
+                     <l>Kann die Krone mir ersetzen,</l>
+                     <l>Hat mein Stolz es je erfüllt</l>
+                     <l>Jenes sel'ge Ergötzen,</l>
+                     <l>O, das die Liebe mir enthüllt?</l>
+                     <l>:,: Wenn sich Arm und Arm umschlingt,</l>
+                     <l>Wenn sich Seel' und Seel' durchdringt? :,:</l>
+                     <l>Libanons verschwiegne Welle</l>
+                     <l>Die den Flammenkuß bezeugt,</l>
+                     <l>Laubgeflüster, Mondeshelle,</l>
+                  </lg>
+                  <stage>Sehr weich.</stage>
+                  <lg>
+                     <l>Schweigt ihr süßen Stimmen, schweigt!</l>
+                     <l>Es bestrickt mir Herz und Sinn,</l>
+                     <l>Ich vergesse wer ich bin! –</l>
+                  </lg>
+                  <stage>Sich rasch aufrichtend.</stage>
+                  <lg>
+                     <l>Und was zwingt mich, ihn zu missen?</l>
+                     <l>Das Geheimnis hüllt uns ein,</l>
+                     <l>Keine Seele braucht's zu wissen,</l>
+                     <l>Weiß nur ich, sein Herz ist mein!</l>
+                     <l>Mein? wird er mir nicht entrissen!</l>
+                     <l>Heut noch soll die Feier sein,</l>
+                     <l>Eine andre wird ihn küssen,</l>
+                     <l>Eine andre! – nein, nein, nein!</l>
+                     <l>Durch das Herz zuckt mir ein Blitzen,</l>
+                     <l>Eine andre ihn besitzen,</l>
+                     <l>Eine Nebenbuhlerin? Ich vernichte dich!</l>
+                  </lg>
+                  <stage>Wild.</stage>
+                  <lg>
+                     <l>
+                        <pb n="36" facs="#f0015"/> Nein, das Band werd' ich zerreißen,</l>
+                     <l>Gürte dich, mein Herz, mit Eisen,</l>
+                     <l>Zeigen will ich, wer ich bin!</l>
+                     <l>Kön'ge sah ich vor mir schmachten,</l>
+                     <l>Und ich durfte sie verachten,</l>
+                     <l>Ich des Ostens Königin!</l>
+                     <l>Daß den Liebling meiner Seele</l>
+                     <l>Eine andre nun mir stehle,</l>
+                     <l>:,: Das erträgst du, stolzer Sinn? :,:</l>
+                     <l>Nein, nur ich will ihn besitzen,</l>
+                     <l>Durch das Herz zuckt mir ein Blitzen,</l>
+                     <l>Zittre! Nebenbuhlerin!</l>
+                     <l>Ich verderbe dich!</l>
+                     <l>Siegen will ich, triumphieren!</l>
+                     <l>Ich vernichte dich!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Zweiter Auftritt.</head>
+               <stage>Die Vorige. Astaroth.</stage>
+               <sp who="#astaroth">
+                  <speaker>ASTAROTH</speaker>
+                  <stage>heimlich.</stage>
+                  <p>Süße Herrin!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>Du bist hier?</p>
+               </sp>
+               <sp who="#astaroth">
+                  <speaker>ASTAROTH</speaker>
+                  <stage>flüsternd.</stage>
+                  <lg>
+                     <l>Eine Kunde bring' ich dir:</l>
+                     <l>Jener Mann, der sich vermessen,</l>
+                     <l>Der dir frech ins Auge sah –</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>aufjauchzend.</stage>
+                  <p>Assad! Rede!</p>
+               </sp>
+               <sp who="#astaroth">
+                  <speaker>ASTAROTH.</speaker>
+                  <lg>
+                     <l>Wandelt da</l>
+                     <l>Träumend unter den Zypressen.</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>spähend.</stage>
+                  <lg>
+                     <l>Tiefe Stille ringsumher –</l>
+                     <l>Niemand sieht uns – lock ihn her!</l>
+                     <pb n="37" facs="#f0016"/>
+                  </lg>
+               </sp>
+               <sp who="#astaroth">
+                  <speaker>ASTAROTH</speaker>
+                  <stage>leise, geheimnisvoll.</stage>
+                  <lg>
+                     <l>Wie im Schilfe lockt der Reiher,</l>
+                     <l>Wie der Tauber girrt im Moos,</l>
+                     <l>Durch der Nacht verschwiegnen Schleier</l>
+                     <l>Lock' ich ihn her in deinen Schoß.</l>
+                  </lg>
+                  <stage>Die Königin tritt links hinter den Springbrunnen, Stille. Mondlicht von rechts
+              einfallend.</stage>
+               </sp>
+               <sp who="#astaroth">
+                  <speaker>ASTAROTH</speaker>
+                  <stage>erst links hinter der Kulisse, dann auf der Szene hinter einem Busche, dann
+              rechts hinter der Kulisse, allmählich sich entfernend, schließlich wie aus weiter
+              Ferne.</stage>
+                  <p>A ha ha!</p>
+               </sp>
+            </div>
+            <div>
+               <head>Dritter Auftritt.</head>
+               <stage>Assad. Später Königin.</stage>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>von rechts auftretend, träumend, ohne Rüstung.</stage>
+                  <lg>
+                     <l>Magische Töne, berauschender Duft!</l>
+                     <l>Küsse mich, milde Abendluft,</l>
+                     <l>:,: Kühle die Stirne mir heilend und mild. :,:</l>
+                     <l>Lindre die Qual, die das Herz mir erfüllt.</l>
+                     <l>Um mich schwebt ein zaubrischer Schein,</l>
+                     <l>Wie in Libanons dunklem Hain,</l>
+                     <l>Wo die Quelle sich lockend verlor.</l>
+                     <l>Magische Töne, berauschender Duft!</l>
+                     <l>Küsse mich, milde Abendluft,</l>
+                     <l>Kühle die Stirne mir heilend und mild.</l>
+                  </lg>
+                  <stage>Assad hat vor sich hinträumend sich dem Brunnen genähert, die Königin hinter dem
+              Brunnen hervortretend, vom Mondlicht beleuchtet, steht plötzlich vor ihm. – Er fährt
+              erschrocken zurück.</stage>
+                  <lg>
+                     <l>Ha, was seh' ich! täuschendes Licht</l>
+                     <l>Zauberst du wieder ihr Bild hervor?</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>gedehnt.</stage>
+                  <p>:,: Assad! :,?</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Ewiger, es lebt, es spricht!</l>
+                     <l>Ha, was macht mein Herz erbeben?</l>
+                     <l>Ist es Wahnsinn, ist es Leben?</l>
+                  </lg>
+                  <stage>Er geht auf sie zu und wendet sich wieder ab.</stage>
+                  <pb n="38" facs="#f0017"/>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>unbeweglich stehend.</stage>
+                  <lg>
+                     <l>Kommst du endlich, endlich wieder,</l>
+                     <l>Ach, so lange harrt' ich schon,</l>
+                     <l>Steigst du endlich zu mir nieder,</l>
+                     <l>:,: Süßer Freund :,: vom Libanon?</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>in zitternder Erregung, mit halber Stimme.</stage>
+                  <lg>
+                     <l>Fest mein Blick, du darfst nicht schwanken,</l>
+                     <l>Nur ein Trugbild schaust du an.</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Wo die klaren Wellen rauschten</l>
+                     <l>Im verschwiegnen Mondenschein,</l>
+                     <l>Wo wir süße Küsse tauschten,</l>
+                     <l>Ach, wie lange harrt' ich dein!</l>
+                     <l>Steigst du endlich zu mir nieder,</l>
+                     <l>Süßer Freund vom Libanon?</l>
+                     <l>Wo die klaren Wellen rauschten</l>
+                     <l>Im verschwiegnen Mondenschein,</l>
+                     <l>Wo wir süße Küsse tauschten,</l>
+                     <l>Ach, wie lange harrt' ich dein!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Diese Stimme!</l>
+                     <l>Ha, der Zauber faßt mich wieder,</l>
+                     <l>Zieht mich ihr zu Füßen nieder,</l>
+                     <l>Wie am Quell im Libanon.</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Kommst du endlich, endlich wieder,</l>
+                     <l>Ach, so lange harrt' ich schon,</l>
+                     <l>Steigst du endlich zu mir nieder</l>
+                     <l>Süßer Freund vom Libanon?</l>
+                  </lg>
+                  <stage>Sie breitet die Arme aus, vortretend.</stage>
+                  <p>Geliebter!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>bebend, immer glühender.</stage>
+                  <lg>
+                     <l>Willst du wieder mich berücken,</l>
+                     <l>Dämon, mit den süßen Blicken,</l>
+                     <l>Du mein Unheil, mein Entzücken,</l>
+                     <l>Du mein Leben, du mein Tod!</l>
+                     <pb n="39" facs="#f0018"/>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Bist du wieder mir gegeben,</l>
+                     <l>Du, mein Assad, du mein Leben,</l>
+                     <l>Fühl der Liebe glühend Beben,</l>
+                     <l>Die für dich im Busen loht!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Bist ein Wesen du von oben,</l>
+                     <l>Aus der Lüfte Hauch gewoben,</l>
+                     <l>Wie ein flücht'ger Traum zerstoben,</l>
+                     <l>Wenn mein Arm dich sehnend faßt?</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Laß das Zweifeln, laß das Fragen,</l>
+                     <l>Fühle meine Pulse schlagen,</l>
+                     <l>Laß im süßen Kuß dir sagen,</l>
+                     <l>Daß du mich gefunden bast!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Mich umrauschen dunkle Wogen,</l>
+                     <l>Hin zu dir bin ich gezogen,</l>
+                     <l>Unter mir versinkt die Welt!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Laß die Welt um dich versinken,</l>
+                     <l>Wenn dir meine Arme winken,</l>
+                     <l>Dich mein Herz gefangen hält.</l>
+                  </lg>
+                  <stage>Assad eilt auf sie zu und stürzt zu ihren Füßen. Die Königin hat mit beiden
+              Händen ihren Schleier erfaßt und indem sie Assad umschließt, hüllt sie ihn gänzlich
+              ein. Sie bleiben lange umschlossen.</stage>
+               </sp>
+               <sp who="#tempelwaechter">
+                  <speaker>TEMPELWÄCHTER</speaker>
+                  <stage>von der Höhe, unsichtbar.</stage>
+                  <lg>
+                     <l>Der Tag ersteht!</l>
+                     <l>Söhne Israels, zum Morgengebet!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>sich loswindend.</stage>
+                  <p>Leb wohl!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <p>Halt ein, du darfst nicht gehn!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>Gedenke mein, auf Wiedersehn!</p>
+                  <stage>Die Königin reißt sich los und verschwindet in den Büschen. – Assad starrt ihr
+              wie träumend nach, irrt, sie suchend, umher und sinkt dann an den Stufen des
+              Springbrunnens vorn, in sich verloren, nieder. – Der Morgen bricht an.</stage>
+                  <pb n="40" facs="#f0019"/>
+               </sp>
+            </div>
+            <div>
+               <head>Vierter Auftritt.</head>
+               <stage>Assad, Baal-Haanan und Begleiter.</stage>
+               <sp who="#baal-haanan #chor_ganzer_chor_alle">
+                  <speaker>BAAL-HAANAN UND CHOR</speaker>
+                  <stage>hinter der Szene.</stage>
+                  <lg>
+                     <l>Die Sonne steigt aus des Morgens Schoß,</l>
+                     <l>Lobet den Herrn, der Herr ist groß.</l>
+                     <l>Badet die Hände in reiner Flut,</l>
+                     <l>Lobet den Herrn, der Herr ist gut.</l>
+                  </lg>
+               </sp>
+               <stage>Baal-Haanan und Chor treten aus dem Portikus.</stage>
+               <sp who="#baal-haanan">
+                  <speaker>BAAL-HAANAN</speaker>
+                  <stage>noch auf den Stufen.</stage>
+                  <p>Wer ist's, der dort an der Quelle ruht?</p>
+                  <stage>Näher tretend.</stage>
+                  <p>Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>aufspringend.</stage>
+                  <p>Mein Name!</p>
+                  <stage>Wie im Traum.</stage>
+                  <p>Rufst du mir?</p>
+               </sp>
+               <sp who="#baal-haanan">
+                  <speaker>BAAL-HAANAN.</speaker>
+                  <p>Was suchst du im gift'gen Nachttau hier?</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>die Arme ausbreitend.</stage>
+                  <p>Wo bist du?</p>
+               </sp>
+               <sp who="#baal-haanan">
+                  <speaker>BAAL-HAANAN.</speaker>
+                  <lg>
+                     <l>Verwirrt ist sein Blick, sein Sinn!</l>
+                     <l>Führt ihn zum Schoß der Seinen hin!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR</speaker>
+                  <stage>in Rührung und Teilnahme.</stage>
+                  <lg>
+                     <l>Armer, getroffen von Gottes Hand,</l>
+                     <l>Heilung sei dir vom Herrn gesandt!</l>
+                  </lg>
+                  <stage>Sie führen Assad langsam ab.</stage>
+                  <stage>Assad wendet noch einmal schmerzlich den Blick zurück.</stage>
+               </sp>
+               <stage>Verwandlung.</stage>
+               <stage>Der Tempel.</stage>
+               <stage>Ganze Tiefe des Theaters. Galerien von beiden Seiten. Ein goldenes Gitterwerk, quer
+            über die Bühne laufend, trennt das Allerheiligste vom Tempelraume. Im Allerheiligsten
+            auf Marmorstufen das Tabernakel, von einem Prachtvorhange, mit Palmen und Cherubsköpfen
+            durchwirkt, geschlossen. Vor dem Tabernakel rechts der hohe siebenarmige, goldene
+            Leuchter. Links Tische mit den Schaubroten. Vor dem Gitter, mitten im Mittelgrunde, der
+            Rauchaltar. Links im Vordergrunde eine <pb n="41" facs="#f0020"/> Estrade, die mit dem Palaste
+            kommuniziert. Das ganze Gebäude steht auf Zedernpfeilern, reich mit Gold ausgelegt. Volk
+            unter den Galerien. Priester, Leviten, Sänger und Harfenspieler, dann der Hohepriester
+            ziehen von rechts in den Tempel. Die Leviten zünden die Leuchter an. Die Priester
+            streuen von Zeit zu Zeit unter tiefen Verneigungen Weihrauch auf den Altar. Die Sänger
+            und Harfenspieler ziehen in ihre Logen.</stage>
+               <stage>Beim 10. Takt des F-Dur, 4/4 öffnet sich der Vorhang.</stage>
+            </div>
+            <div>
+               <head>Fünfter Auftritt.</head>
+               <stage>Volk. Priester. Leviten. Sänger. Hohepriester.</stage>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER</speaker>
+                  <stage>gegen das Allerheiligste gewendet, im Ornate.</stage>
+                  <p>Danket dem Herrn, denn er ist freundlich!</p>
+               </sp>
+               <sp who="#chor_der_saenger">
+                  <speaker>CHOR DER SÄNGER.</speaker>
+                  <p>:,: Ewig währt seine Güte! :,:</p>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <p>So spreche Israel!</p>
+               </sp>
+               <sp who="#chor_des_volkes_einzelne_stimmen">
+                  <speaker>CHOR DES VOLKES.</speaker>
+                  <p>:,: Ewig währt seine Güte! :,:</p>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <p>So spreche Arons Haus!</p>
+               </sp>
+               <sp who="#chor_der_priester">
+                  <speaker>CHOR DER PRIESTER</speaker>
+                  <stage>unter tiefen Verneigungen.</stage>
+                  <p>:,: Ewig währt seine Güte! :,:</p>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <p>So sprechen alle Gottesverehrer!</p>
+               </sp>
+               <sp who="#chor_der_priester #chor_der_saenger #chor_des_volkes_einzelne_stimmen">
+                  <speaker>GANZER CHOR</speaker>
+                  <stage>Priester, Sänger, Volk im Halbkreis gegen das Allerheiligste gewendet.</stage>
+                  <p>:,: Ewig währt seine Güte! :,:</p>
+                  <stage>Die Priester reichen dem Hohenpriester eine mit Mehr gefüllte goldene
+              Opferschale, er wendet sich gegen das Tabernakel, verneigt sich tief und verschwindet
+              hinter dem Vorhange. Die Leviten lassen Weihrauchdämpfe aufwirbeln. Einzelne aus dem
+              Volke bringen Opfer: Mehl in Schalen, Öl in Krügen. Die Leviten empfangen die
+              Opfergaben.</stage>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR DER MÄDCHEN</speaker>
+                  <stage>noch hinter der Szene.</stage>
+                  <lg>
+                     <l>Wie auf das Saatkorn dein Segen taut,</l>
+                     <l>Segne, o Herr, die junge Braut!</l>
+                     <pb n="42" facs="#f0021"/>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Sechster Auftritt.</head>
+               <stage>Die Vorigen. Sulamith. Jungfrauen.</stage>
+               <stage>Von rechts im Vordergrunde zieht ein Zug von Jungfrauen ein, in goldenen Schalen
+            Weizenkörner, in Krügen Öl tragend. In ihrer Mitte Sulamith, weiß gekleidet, einen
+            seidenen, silberdurchwirkten Schleier rückwärts vom Kopfe herabwallend. Sie trägt in
+            einem offenen Korbe ein Taubenpaar.</stage>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR DER MÄDCHEN.</speaker>
+                  <lg>
+                     <l>Wie auf das Saatkorn dein Segen taut,</l>
+                     <l>Segne, o Herr, die junge Braut.</l>
+                     <l>Wie Öl im Krüglein, lauter und klar,</l>
+                     <l>Sei das Geschick dem liebenden Paar!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>Dies Taubenpärchen, sanft und rein,</l>
+                     <l>Laß mich dir, Herr, als Ovfer weihn,</l>
+                     <l>Sieh, wie sie flattern ängstlich vor dir,</l>
+                     <l>:,: So zittert das Herz im Busen mir. :,:</l>
+                     <l>Doch ein Gebet nur stammelt es laut:</l>
+                     <l>Genesung! o Vater, dem Liebsten traut.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR DER MÄDCHEN.</speaker>
+                  <lg>
+                     <l>Wie Öl im Krüglein, lauter und klar,</l>
+                     <l>Sei das Geschick dem liebenden Paar!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>Ich neige das Haupt vor deinem Altar,</l>
+                     <l>Gib mir ihn wieder, wie er mir war.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Siebenter Auftritt.</head>
+               <stage>Die Vorigen. Salomon. Assad. Gefolge. Dann Königin. Astaroth. Salomon mit Assad und
+            Gefolge von der Estrade links. Assad trägt ein weißes Kleid, goldenen Gürtel, er
+            schreitet schwankend und mit am Boden haftenden Blicken.</stage>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>einen Augenblick feierlich gegen das Allerheiligste gewendet, dann zu
+              Assad.</stage>
+                  <lg>
+                     <l>Blick empor zu jenen Räumen</l>
+                     <l>Zu des Höchsten Majestät!</l>
+                  </lg>
+                  <stage>Sehr ruhig und sanft.</stage>
+                  <lg>
+                     <l>Rüttle dich aus deinen Träumen,</l>
+                     <l>
+                        <pb n="43" facs="#f0022"/> Die Erlösung wird nicht säumen,</l>
+                     <l>Wenn dein Herz in Demut fleht.</l>
+                     <l>Tritt ihr zum Altar entgegen,</l>
+                     <l>Des Himmels Segen bringt entgegen</l>
+                     <l>Der Jungfrau reine Hand.</l>
+                  </lg>
+                  <stage>Sulamith legt die Hand auf Assads Schulter.</stage>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>zum Hohenpriester, der aus dem Allerheiligsten tritt.</stage>
+                  <lg>
+                     <l>Priester Gottes sprich den Segen,</l>
+                     <l>Weihe dieses heil'ge Band.</l>
+                  </lg>
+                  <stage>Assad schauert zusammen. Er steht neben Sulamith, Jünglinge mit grünen Zweigen
+              treten zu Assad, Mädchen zu Sulamith.</stage>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER</speaker>
+                  <stage>auf der Höhe stehend.</stage>
+                  <p>Der Ew'ge segne und behüte euch!</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <p>Amen!</p>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <p>Er lasse euch sein Antlitz leuchten!</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <p>Amen!</p>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <p>Und gebe euch den Frieden!</p>
+                  <stage>Er steigt herab.</stage>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <p>Amen!</p>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER</speaker>
+                  <stage>zwischen das Paar tretend, er hält Assad den Ring hin.</stage>
+                  <lg>
+                     <l>Durch diesen Ring gelob' ich dir –</l>
+                     <l>Hier erscheint die Königin mit Astaroth auf der Estrade.</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>erblickt die Königin.</stage>
+                  <p>Durch diesen Ring –</p>
+                  <stage>In heftigster Erregung.</stage>
+                  <p>Weh mir, wer naht sich mir!</p>
+                  <stage>Er wirft den Ring weg, nach der Stirn greifend.</stage>
+                  <p>Ich träume nicht, nein, nein, ich sehe!</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <p>Der Wahnsinn faßt ihn, wehe, wehe!</p>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>betreten.</stage>
+                  <p>Du, Kön'gin, hier?</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>näher tretend.</stage>
+                  <p>Ich bin's fürwahr!</p>
+                  <stage>Sie zeigt auf eine goldene Schale voll Perlen, die Astaroth trägt. Diese geht
+              damit auf Sulamith, die sich heftig abwendet.</stage>
+                  <p>Ein Brautgeschenk bring' ich der Jungfrau dar!</p>
+                  <pb n="44" facs="#f0023"/>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>glühend.</stage>
+                  <lg>
+                     <l>Ob du aus Duft und Schein,</l>
+                     <l>Ein Schatten, wirst verwehen,</l>
+                     <l>Ob du ein irdisch Sein,</l>
+                     <l>Bei Gott, ich will es sehen!</l>
+                  </lg>
+                  <stage>Assad stürzt auf die Königin zu und erfaßt ihren Schleier, die Leviten halten
+              ihn.</stage>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Wahnsinn'ger, halte ein!</l>
+                     <l>Willst du des Tempels Hallen</l>
+                     <l>Durch sünd'ge Tat entweihn?</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_priester #leviten">
+                  <speaker>PRIESTER UND LEVITEN.</speaker>
+                  <p>Er ist Scheol verfallen!</p>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <p>O Ew'ger, welche Pein!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>So soll der Bund zerfallen!</p>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Mir tagt der Wahrheit Schein!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Ob ich dem Wahn verfallen –</l>
+                     <l>Sie soll mein Richter sein!</l>
+                  </lg>
+                  <stage>Er tritt vor die Königin.</stage>
+                  <lg>
+                     <l>Du, der des Herzens Flammen</l>
+                     <l>In wilder Glut entbrennen,</l>
+                     <l>Wirst du mich auch verdammen,</l>
+                     <l>Wirst du mich rasend nennen?</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>zur Königin.</stage>
+                  <p>Sprich, lehr dies Rätsel mich verstehn.</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <p>O sprich, was ist mit ihm geschehn?</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>schwankt einen Augenblick und tritt dann stolz zurück.</stage>
+                  <p>Ich kenn' ihn nicht, ich hab' ihn nie gesehen!</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Weh, so ist's klar, Schrecken und Bangen,</l>
+                     <l>Ein Dämon hält ihm die Seele befangen,</l>
+                     <l>Der ihn besessen hält tückisch und dreist,</l>
+                     <l>Priester Gottes, banne den Geist!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin #astaroth">
+                  <speaker>KÖNIGIN UND ASTAROTH.</speaker>
+                  <lg>
+                     <l>Das Bündnis soll zerfallen,</l>
+                     <l>Triumph, es ist getan,</l>
+                     <l>Kein andres Weib von allen</l>
+                     <l>Wird seinem Herzen nahn!</l>
+                     <pb n="45" facs="#f0024"/>
+                  </lg>
+               </sp>
+               <sp who="#assad #sulamith">
+                  <speaker>ASSAD UND SULAMITH.</speaker>
+                  <lg>
+                     <l>Es faßt mit wilden Krallen,</l>
+                     <l>Verzweiflung faßt mich an,</l>
+                     <l>Dem Tod bin ich verfallen,</l>
+                     <l>Es ist um mich getan!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Es faßt mit wilden Krallen</l>
+                     <l>Mich banger Argwohn an,</l>
+                     <l>Den Schleier seh' ich fallen</l>
+                     <l>Und die Entscheidung nahn!</l>
+                  </lg>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <lg>
+                     <l>Hör meinen Ruf erschallen,</l>
+                     <l>Laß deine Hilfe nahn,</l>
+                     <l>Du Herrscher über allen</l>
+                     <l>Vertilge Trug und Wahn!</l>
+                  </lg>
+               </sp>
+               <sp who="#baal-haanan #chor_der_priester #leviten #chor_ganzer_chor_alle">
+                  <speaker>BAAL-HAANAN. PRIESTER UND LEVITEN. CHOR.</speaker>
+                  <lg>
+                     <l>Laß heil'gen Schwur erschallen,</l>
+                     <l>Vertilge Trug und Wahn!</l>
+                     <l>Ein Wunder sei getan!</l>
+                  </lg>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER</speaker>
+                  <stage>die Hände gegen Assad; dieser hat sich wie gebannt immer mehr dem Hohenpriester
+              mit kurzen Schritten und gebeugten Hauptes genähert.</stage>
+                  <lg>
+                     <l>Ihr Geister, die dem Satan dienen,</l>
+                     <l>Bestrickend dieses Mannes Sinn,</l>
+                     <l>Weicht vor dem Thron der Cherubinen,</l>
+                     <l>Und flieht ins Reich der Nacht dahin!</l>
+                  </lg>
+                  <stage>Er schreitet zum Allerheiligsten. Große Spannung und Aufregung bemächtigt sich
+              der ganzen Volksmasse. Posaunen auf dem Theater, hinter der Szene. Er gibt ein
+              Zeichen. Mit dem Tamtamschlag rollt der Vorhang im Hintergrunde auf. Man sieht die
+              Bundeslade, auf der die goldenen Cherubim lagern. Der Chor stürzt aufs Angesicht
+              nieder.</stage>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Halleluja!</l>
+                  </lg>
+                  <stage>Assad überwältigt, laut atmend.</stage>
+                  <stage>Königin verhüllt sich.</stage>
+                  <stage>Salomon richtet seinen Blick auf die Königin.</stage>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER</speaker>
+                  <stage>zurückkommend.</stage>
+                  <p>Erhebe dich in Gott, mein Sohn!</p>
+                  <pb n="46" facs="#f0025"/>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>rasch, flüsternd.</stage>
+                  <p>Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>heftig.</stage>
+                  <p>Das ist ihr Zauberton!</p>
+                  <stage>Rasend.</stage>
+                  <lg>
+                     <l>Fort! Ihr sollt mich nicht betören,</l>
+                     <l>Ich verfluche euern Wahn!</l>
+                     <l>Mögt ihr mich bei Gott beschwören,</l>
+                  </lg>
+                  <stage>Er will auf die Königin zustürzen, die Leviten halten ihn.</stage>
+                  <lg>
+                     <l>Meine Göttin bet' ich an!</l>
+                  </lg>
+                  <stage>Tamtamschlag auf der Bühne. Allgemeines Entsetzen; das Volk flieht aus den
+              Galerien über die Bühne. Der Vorhang des Allerheiligsten schließt sich. Die Priester
+              stürzen in den Vordergrund. Salomon tritt zwischen Assad und die Königin.</stage>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Gotteslästerung, laßt uns fliehn!</l>
+                     <l>Wehe! Wehe!</l>
+                     <l>Er hat befleckt Jehovas Haus!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_priester #leviten">
+                  <speaker>PRIESTER UND LEVITEN.</speaker>
+                  <lg>
+                     <l>Anathema über ihn!</l>
+                  </lg>
+                  <stage>Der Hohepriester zerreißt sein Gewand. Die Flammen des Altars, die Kerzen, werden
+              von den Leviten ausgelöscht.</stage>
+               </sp>
+               <sp who="#chor_des_volkes_einzelne_stimmen">
+                  <speaker>EINZELNE STIMMEN AUS DEM VOLKE.</speaker>
+                  <lg>
+                     <l>Schleppt ihn fort! Er sterbe!</l>
+                     <l>Zum Blutgericht! Schleppt ihn fort!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith #chor_ganzer_chor_alle">
+                  <speaker>SULAMITH UND CHOR.</speaker>
+                  <lg>
+                     <l>Gott! Erbarmen! Sieh mein Bangen,</l>
+                     <l>Geh mit ihm nicht ins Gericht,</l>
+                     <l>O rette ihn!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Ha, der Tod ist mein Verlangen,</l>
+                     <l>Führt mich hin zum Blutgericht!</l>
+                  </lg>
+                  <stage>In wilder Raserei.</stage>
+                  <lg>
+                     <l>Ich verfluche euren Wahn,</l>
+                     <l>Meine Göttin bet' ich an!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Weh, zu weit bin ich gegangen,</l>
+                     <l>Götter helft, verlaßt mich nicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#astaroth">
+                  <speaker>ASTAROTH.</speaker>
+                  <lg>
+                     <l>Welcher Schreck hält sie befangen,</l>
+                     <l>Es erbleicht ihr Angesicht!</l>
+                     <pb n="47" facs="#f0026"/>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Es gestehn die bleichen Wangen,</l>
+                     <l>Und die stumme Lippe spricht!</l>
+                  </lg>
+               </sp>
+               <sp who="#hohepriester">
+                  <speaker>HOHEPRIESTER.</speaker>
+                  <lg>
+                     <l>Fluch ihm, der sich so vergangen</l>
+                     <l>Vor Jehovas Angesicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>ALLE ANDERN.</speaker>
+                  <lg>
+                     <l>Fluch ihm, der sich so vergangen,</l>
+                     <l>Schleppt ihn fort zum Blutgericht!</l>
+                  </lg>
+                  <stage>Sie zerren Assad fort in den Hintergrund. Die ganze Chormasse wild um ihn herum
+              zum Knäuel geballt.</stage>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Haltet ein!</l>
+                     <l>Der König wird sein Richter sein!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin #sulamith #astaroth">
+                  <speaker>KÖNIGIN, SULAMITH UND ASTAROTH.</speaker>
+                  <p>O rett' ihn!</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>DIE ÜBRIGEN.</speaker>
+                  <lg>
+                     <l>Er sterbe!</l>
+                  </lg>
+                  <stage>Baal-Haanan tritt mit den Wachen vor. Die Priester lassen Assad los. Baal-Haanan
+              und die Wachen treten hinzu. Die Königin will auf Assad zu, Salomon dazwischentretend,
+              weist sie majestätisch zurück. Sulamith stürzt zu des Königs Füßen, seine Knie
+              umklammernd; die Priester heben drohend die Hände.</stage>
+                  <stage>Der Vorhang fällt schnell</stage>
+                  <pb n="48" facs="#f0027"/>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Dritter Aufzug.</head>
+            <stage>Festhalle.</stage>
+            <stage>Prachtvoll beleuchtet und mit Blumen geschmückt. Die eigentliche Vorhalle, zwei
+          Kulissen tief, kann durch einen schweren Vorhang geschlossen werden. In der Tiefe sieht
+          man Schenktische. Mundschenke tragen Schüsseln und Pokale. Die ganze Halle ist von Weibern
+          des Harems angefüllt. Tanzende Bajaderen mit Bechern und Kränzen.</stage>
+            <stage>Der Vorhang öffnet sich beim 7. Takt.</stage>
+            <div>
+               <head>Erster Auftritt.</head>
+               <stage>Ballett.</stage>
+               <stage>Bienentanz der Almeen. – Ein Mädchen, tief in einen Schleier gehüllt, der auch
+            einen Teil ihrer oberen Gewandung bildet, treibt scherzend scheinbar eine Biene vor sich
+            her; bald sich vor ihr ängstigend, dann mit dem Schleier sie wegscheuchend. Die Gebärden
+            der Angst mehren sich, als ob die Biene sie nun zudringlicher verfolgte. Plötzlich
+            bleibt sie erschrocken stehen; die Biene ist scheinbar in die Kleider gedrungen, sie
+            sucht sich vergeblich von ihr zu befreien, und wickelt sich schnell und geschickt aus
+            dem Schleier, den sie von sich wirft. Die Biene ist im Schleier geblieben; das Mädchen
+            atmet auf. Mit anmutiger Gebärde umtanzt sie den Schleier, lüftet ihn endlich
+            vorsichtig; die Biene entschlüpft. Sie hüllt und wickelt sich schnell wieder tief in den
+            Schleier; das Spiel beginnt von neuem. Endlich tanzt sie, vor der Biene immer fliehend
+            und sie von sich scheuchend, von der Bühne. Das Ganze soll mit Grazie und Anmut, teils
+            mimisch, teils tanzend ausgeführt werden. Die andern Mädchen mit Blumenkränzen und
+            Schleiern mischen sich nach und nach in ihren Tanz. Als die Biene dem Schleier
+            entschlüpft, fliehen sie zurück.</stage>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR DER FRAUEN.</speaker>
+                  <lg>
+                     <l>Rauschet, rauschet durch die Lüfte,</l>
+                     <l>Festeslieder, froher Tanz,</l>
+                     <l>Rauscht empor zum Himmelszelt,</l>
+                     <l>Denn es ehrt durch hohe Feste</l>
+                     <l>Seine königlichen Gäste</l>
+                     <l>Salomon, der Herr der Welt!</l>
+                     <l>
+                        <pb n="49" facs="#f0028"/> Rauschet; rauschet durch die Lüfte,</l>
+                     <l>Festeslieder, froher Tanz, ahi!</l>
+                     <l>Wirbelt auf, ihr Blumendüfte, ahi!</l>
+                     <l>Durch den hellen Kerzenglanz!</l>
+                     <l>Becher klirren, Reigenschwirren</l>
+                     <l>Rauscht empor zum Himmelszelt!</l>
+                  </lg>
+                  <stage>Königin im reichsten Schmuck, tritt durch die Mitte auf.</stage>
+                  <stage>Salomon folgt ihr.</stage>
+                  <stage>Die Tanzenden ziehen sich bis zum Bogen zurück.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweiter Auftritt.</head>
+               <stage>Königin. Salomon.</stage>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Vom Mahle brichst du auf,</l>
+                     <l>Behagt mein Fest dir nicht?</l>
+                     <l>Wie? eine Wolke trübt dein Angesicht?</l>
+                  </lg>
+                  <stage>Mit auffordernder Gebärde an die Tanzenden.</stage>
+                  <p>Verscheuche sie Musik und Tanz.</p>
+                  <stage>Der Tanzchor rauscht lebhaft herbei.</stage>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>Genug!</p>
+                  <stage>Der Tanzchor zieht sich zurück. Die Vorhänge schließen sich.</stage>
+                  <stage>Zögernd.</stage>
+                  <lg>
+                     <l>Berauschend ist des Festes Glanz,</l>
+                     <l>Und doch. –</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Sag, Herrin, dein Begehren!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>Willst du mir einen Wunsch gewähren?</p>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Mein halbes Königreich!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Zuviel!</l>
+                     <l>Nur einer Laune leichtes Spiel!</l>
+                     <l>Ein Nichts!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Sprich!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Jenes Jünglings Leben,</l>
+                     <l>Das deiner Priester Ingrimm preisgegeben!</l>
+                     <pb n="50" facs="#f0029"/>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>zurücktretend.</stage>
+                  <p>Wie, Assad?</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>leicht.</stage>
+                  <lg>
+                     <l>Assad nennt er sich?</l>
+                     <l>Nun wohl, für Assad bitt' ich dich.</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>ernst.</stage>
+                  <lg>
+                     <l>Nicht mir gehört des Frevlers Leben,</l>
+                     <l>Dem strengen Richtspruch ist's geweiht!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Des Königs Hand kann <hi rendition="#i">alles</hi> geben</l>
+                     <l>Und weigert mir die Kleinigkeit?</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Was ist er dir?</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>stolz.</stage>
+                  <p>Was er mir ist?</p>
+                  <stage>Verächtlich.</stage>
+                  <lg>
+                     <l>Ein Nichts, das ich kaum weiß zu nennen!</l>
+                     <l>Doch alles, um jetzt zu erkennen,</l>
+                     <l>:,: Ob du dem Gast gewogen bist. :,:</l>
+                  </lg>
+                  <stage>Schmeichelnd.</stage>
+                  <p>Sein Leben!</p>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Forderst du's von mir?</l>
+                     <l>In jener Stunde hing sein Blick an dir,</l>
+                     <l>Du konntest ihn vom Bann erlösen,</l>
+                     <l>:,: Und deinem Herzen ist er fremd gewesen. :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Ha! Mein erster Wunsch, :,: dir gilt er nichts! :,:</l>
+                     <l>Begehrtest du von mir als Gabe,</l>
+                  </lg>
+                  <stage>Mit Größe.</stage>
+                  <lg>
+                     <l>Was meine Krone Höchstes schmückt,</l>
+                     <l>:,: Dir böt' ich alles, was ich habe,</l>
+                     <l>Wenn es dich einen Tag beglückt. :,:</l>
+                     <l>Ein Weib, das unter Flehen zum erstenmal sich neigt,</l>
+                     <l>:,: Das kannst du fühllos sehen und deine Großmut schweigt? :,: Ach!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Locke nur mit jenen Tönen,</l>
+                     <l>Mit denen du sein Herz berückt,</l>
+                     <l>Nie wird mein Ohr den Sinnen frönen,</l>
+                  </lg>
+                  <p>Ich habe deinen Plan durchblickt!</p>
+                  <pb n="51" facs="#f0030"/>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>Noch einmal, wer er immer sei,</p>
+                  <stage>Weich, zögernd.</stage>
+                  <p>Ich flehe –</p>
+                  <stage>Bestimmt.</stage>
+                  <p>fordre! Gib ihn frei!</p>
+                  <stage>Der König, der abgewendet stand, wendet sich bei dem Worte »fordre« hastig der
+              Königin zu. Dann geht er, heftig erregt, das Gesicht abgewendet an ihr
+              vorüber.</stage>
+                  <lg>
+                     <l>Er schweigt – o Schmach – o bittrer Schmerz.</l>
+                     <l>Es kocht mein Blut – es zuckt mein Herz.</l>
+                  </lg>
+                  <stage>Bühnenmusik.</stage>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>verbindlich.</stage>
+                  <lg>
+                     <l>Willst du zum Fest zurück nicht kehren?</l>
+                     <l>Es harret dein, o Königin!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>heftig.</stage>
+                  <lg>
+                     <l>O bittre Schmach, mich nicht zu hören,</l>
+                     <l>Du letzte Hoffnung fahre hin!</l>
+                  </lg>
+                  <stage>Sie richtet sich groß auf und tritt auf Salomon zu. Mit unterdrückter
+              Stimme.</stage>
+                  <lg>
+                     <l>So gilt dir meine Gunst so wenig?</l>
+                     <l>Höhnst du die Königin, den Gast?</l>
+                     <l>Gib acht, gib acht, du stolzer König,</l>
+                     <l>Wen du von dir gewiesen hast!</l>
+                     <l>Die Stunde wirst du noch verklagen,</l>
+                     <l>Da du gehört mich zu dir flehn,</l>
+                     <l>Gib acht, gib acht, in spätern Tagen</l>
+                     <l>Wirst du mich wiederkommen sehn,</l>
+                     <l>Dann stolzer Fürst, dann sollst du zittern,</l>
+                     <l>Wenn der Vergeltung Stunde naht.</l>
+                     <l>Wenn Sabas Eisenlanzen splittern,</l>
+                     <l>Wenn Zions Thron in Trümmer sinkt,</l>
+                     <l>Dann zittre, du stolzer Fürst!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Mich schreckt nicht dein Drohen!</l>
+                     <l>Der Gott, der meinen Thron gegründet,</l>
+                     <l>Er heischt die Wahrheit und das Licht!</l>
+                     <l>Die Fackel, so die Nacht entzündet,</l>
+                     <l>
+                        <pb n="52" facs="#f0031"/> Verlöscht vor seinem Angesicht.</l>
+                     <l>Dein Drohen macht mich nicht erzittern,</l>
+                     <l>Du findest mich zum Kampf bereit!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Fahr' wohl! Jetzt Götter! steht mir bei,</l>
+                     <l>Was es auch gilt – ich mach' ihn frei!</l>
+                  </lg>
+                  <stage>Sie stürzt ab.</stage>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Fahre hin!</p>
+               </sp>
+            </div>
+            <div>
+               <head>Dritter Auftritt.</head>
+               <stage>Salomon allein. Später Baal-Haanan.</stage>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Entlarvt hat sich dein Herz, du Heuchlerin!</l>
+                     <l>Die dreimal ihn verraten, fahr' hin!</l>
+                     <l>Und du, mein Assad, kann ich dich erretten?</l>
+                     <l>Nein, nur du selbst kannst dich befrein,</l>
+                     <l>Zerbrichst du des Versuchers Ketten,</l>
+                     <l>:,: Wirst du entsühnt, begnadigt sein. :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#baal-haanan">
+                  <speaker>BAAL-HAANAN.</speaker>
+                  <lg>
+                     <l>Der Richterspruch ist gefällt, des Gotteslästrers Leben,</l>
+                     <l>Es ist verwirkt, nur du kannst Gnade geben!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Führ Assad hierher zu mir!</p>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>FRAUENCHOR</speaker>
+                  <stage>noch hinter der Szene.</stage>
+                  <p>Weinet, Töchter Salems, weinet laut.</p>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Was will der Trauerklang?</p>
+               </sp>
+               <sp who="#baal-haanan">
+                  <speaker>BAAL-HAANAN.</speaker>
+                  <p>Sulamiths Grabgesang!</p>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>GANZER CHOR.</speaker>
+                  <lg>
+                     <l>Die Braut der Wonne ist des Jammers Braut.</l>
+                     <l>O weinet laut!</l>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Sie wird mich finden.</p>
+               </sp>
+            </div>
+            <div>
+               <head>Vierter Auftritt.</head>
+               <stage>Baal-Haanan winkt, der Vorhang öffnet sich. Sulamith in langem schwarzen Schleier,
+            umgeben von ihren Gespielinnen und einer Schar von Jünglingen. Baal-Haanan geht
+            ab.</stage>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Wie Jephthas Tochter zieht sie, Gott geweiht,</l>
+                     <l>Aus Kedrons Talen in die Einsamkeit!</l>
+                     <l>O weinet laut!</l>
+                     <pb n="53" facs="#f0032"/>
+                  </lg>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <p>Sprich, Sulamith, was hast du mir zu künden?</p>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH</speaker>
+                  <stage>tritt allein vor, alle andern bleiben im Hintergrunde.</stage>
+                  <lg>
+                     <l>Die Stunde, die ihn mir geraubt,</l>
+                     <l>War meine Totenfeier,</l>
+                     <l>Die Blumen riß ich mir vom Haupt</l>
+                     <l>Die Locken schnitt ich mir vom Haupt</l>
+                     <l>Und nahm den Witwenschleier!</l>
+                     <l>Dem Ew'gen hab' ich mich geweiht,</l>
+                     <l>Und fern in öden Mauern</l>
+                     <l>Will ich in heil'ger Einsamkeit</l>
+                     <l>Um meine Jugend trauern.</l>
+                  </lg>
+                  <stage>Schmerzüberwältigt bedeckt sie weinend und vom Könige abgewendet ihr Gesicht mit
+              beiden Händen.</stage>
+                  <lg>
+                     <l>Doch eh' ich in des Todes Tal</l>
+                     <l>Zur ew'gen Ruhe ziehe,</l>
+                     <l>Umfass' ich noch zum letztenmal,</l>
+                     <l>Mein König, deine Kniee:</l>
+                     <l>O laß ihn durch dein Machtgebot</l>
+                     <l>Die Freiheit, Herr, erwerben,</l>
+                     <l>:,: Errette mir den Freund vom Tod,</l>
+                     <l>Und selig will ich sterben! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR</speaker>
+                  <stage>etwas näher tretend.</stage>
+                  <lg>
+                     <l>O laß ihn durch dein Machtgebot</l>
+                     <l>Die Freiheit, Herr, erwerben,</l>
+                     <l>Rette ihr den Freund vom Tod,</l>
+                  </lg>
+                  <stage>Noch näher tretend.</stage>
+                  <p>Nur du kannst Gnade geben.</p>
+                  <stage>Sulamith ist, in Tränen erstickt, mit beiden Händen das Gesicht bedeckend, vor
+              Salomon in die Knie gesunken. Der Chor kniet mit Sulamith zugleich nieder.</stage>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON.</speaker>
+                  <lg>
+                     <l>Vor meinem Auge sinkt die Hülle,</l>
+                     <l>Der Zukunft Lichtstrahl dämmert schon.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Horch, lauscht in ehrfurchtvoller Stille!</l>
+                  </lg>
+                  <stage>Alle erheben sich langsam und stille. Sulamith steht, den König anstarrend, in
+              gespanntester Erwartung.</stage>
+                  <pb n="54" facs="#f0033"/>
+               </sp>
+               <sp who="#salomon">
+                  <speaker>SALOMON</speaker>
+                  <stage>prophetisch.</stage>
+                  <lg>
+                     <l>Sieh, dort am fernen Wüstensaum,</l>
+                     <l>Bei dem Asyl der Gottgeweihten</l>
+                     <l>Hebt einsam sich ein Palmenbaum,</l>
+                     <l>Dorthin wirst du die Schritte leiten.</l>
+                     <l>Der Ostwind weht in seinen Blättern,</l>
+                     <l>In Purpur hüllt der Abend sich,</l>
+                     <l>Der Friede senkt nach Sturmeswettern</l>
+                     <l>Sich über ihn und über dich!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <lg>
+                     <l>O süße Hoffnung sei mein Stab,</l>
+                     <l>Leb wohl, ich zieh' in mein Grab!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_ganzer_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>O weinet laut!</l>
+                  </lg>
+                  <stage>Der König schreitet, Sulamith mit einer Gebärde auf den Trost des Himmels
+              verweisend, dem Ausgang zu. Dort wendet er sich nochmals, geht heftig bewegt auf
+              Sulamith zu, faßt ihre beiden Hände, sie voll Teilnahme anblickend, legt ihr die Hand
+              wie segnend aufs Haupt und geht dann schmerzbewegt ab. – Indem Sulamith, die während
+              der stummen Szene in sich gesunken und bewegungslos gestanden, und alle übrigen sich
+              zum Ausgang wenden, fällt langsam der Vorhang.</stage>
+                  <pb n="55" facs="#f0034"/>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Vierter Aufzug.</head>
+            <stage>Am Saume der Wüste.</stage>
+            <stage>Rechts im Hintergrunde erhöht, ein Asyl der heiligen Jungfrauen. Links im
+          Vordergrunde eine hohe verdorrte Palme. Schwüle Luft.</stage>
+            <div>
+               <head>Erster Auftritt.</head>
+               <stage>Assad allein.</stage>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>tritt von rechts auf, müde und gebrochen.</stage>
+                  <lg>
+                     <l>Wohin lenk' ich die müden Schritte?</l>
+                     <l>Vom Tod hat mich des Königs Spruch befreit,</l>
+                     <l>Und mich verbannt in die Einsamkeit.</l>
+                     <l>Verfemt bin ich, verstoßen und gemieden,</l>
+                     <l>Der eignen schweren Schuld bewußt;</l>
+                     <l>Gib meiner todeswunden Brust,</l>
+                     <l>Allmächtiger, deinen Frieden.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Zweiter Auftritt.</head>
+               <stage>Assad. Die Königin.</stage>
+               <stage>Es dämmert.</stage>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>von rechts.</stage>
+                  <p>Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>in sich versunken.</stage>
+                  <p>Wer ruft mir?</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>bebend.</stage>
+                  <lg>
+                     <l>Traumgesicht!</l>
+                     <l>Zerrinne, fort! ich kenn' dich nicht!</l>
+                     <pb n="56" facs="#f0035"/>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Ich bin's! Durch der Wüste Pfade</l>
+                     <l>Folgt' ich dir, wie mein Herz geahnt!</l>
+                     <l>Der Liebe wundervolle Gnade</l>
+                     <l>Hat mir den Weg zu dir gebahnt.</l>
+                     <l>O komm, es harren die Kamele,</l>
+                     <l>Nach Sabas Reichen folgst du mir.</l>
+                     <l>Mein Assad! Abgott meiner Seele!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Willst du noch einmal mich verhöhnen,</l>
+                     <l>Du Dämon, dem ich untertan?</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>Nein, nein, kein Dämon; unter Tränen</l>
+                     <l>Fleh' ich dich um Verzeihung an!</l>
+                     <l>Dem Wahn, der mir den Mund verschlossen,</l>
+                     <l>Dem falschen Ehrgeiz sprech' ich Hohn.</l>
+                  </lg>
+                  <stage>Geheimnisvoll.</stage>
+                  <lg>
+                     <l>Ich war's, ich war's, die dich umschlossen</l>
+                     <l>Im Mondenlicht am Libanon,</l>
+                     <l>Ich, eine Königin geboren,</l>
+                     <l>Ich, deine Sklavin, teurer Mann!</l>
+                     <l>:,: Ich bin's, die sich an dich verloren, :,:</l>
+                     <l>Die ohne dich nicht leben kann!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Laß mich, du wirst mich nicht betören,</l>
+                     <l>Nicht weiden dich an meiner Pein.</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>innig.</stage>
+                  <lg>
+                     <l>:,: Mit meiner Liebe will ich zahlen,</l>
+                     <l>So reich, so voll, so unerhört! :,:</l>
+                     <l>Assad sieh, der Liebe Flammen</l>
+                     <l>Fassen mich mit wilder Pein,</l>
+                     <l>Kann die Liebe mich verdammen?</l>
+                     <l>Kann die Liebe fühllos sein?</l>
+                     <l>:,: O höre mich! :,:</l>
+                     <l>Sieh die Tränen, die dir fließen,</l>
+                     <l>Blut des Herzens, das dich liebt!</l>
+                     <l>Mein Assad, ich liebe dich!</l>
+                     <l>
+                        <pb n="57" facs="#f0036"/> Deine Knie will ich umschließen,</l>
+                  </lg>
+                  <p>Bis mein Assad mir verziehn.</p>
+                  <stage>Sie stürzt auf die Knie.</stage>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Ja, ich kenne diese Flammen,</l>
+                     <l>Sie, die Quelle meiner Pein,</l>
+                     <l>Gib mir Kraft, sie zu verdammen,</l>
+                     <l>Laß mich, Ew'ger, gefühllos sein!</l>
+                     <l>Laß mich! Weh mir, welches Bangen,</l>
+                     <l>Jeder Nerv zittert wild</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>O komm!</p>
+                  <stage>Sehr zart.</stage>
+                  <lg>
+                     <l>Im Schatten dunkler Palmen</l>
+                     <l>Weiß ich ein Plätzchen, niemand kund,</l>
+                     <l>Der Liebe nie verstandne Psalmen</l>
+                     <l>Erklärt dir flüsternd dort mein Mund,</l>
+                     <l>Die Blumen hauchen stille Küsse,</l>
+                     <l>Im Paradies, wo Liebe weilt,</l>
+                     <l>Des Lebens Blüt' voll Wonnesüße,</l>
+                     <l>Sei zwischen mir und dir geteilt.</l>
+                  </lg>
+                  <stage>Leidenschaftlich drängend.</stage>
+                  <lg>
+                     <l>O zögre nicht, die Stunden fliehen,</l>
+                     <l>O komm, o komm! o laß uns ziehen,</l>
+                     <l>Ins Paradies der höchsten Lust!</l>
+                     <l>:,: Wo Liebe schwelget Brust an Brust! :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <p>Wo bin ich?</p>
+                  <stage>Sich fassend.</stage>
+                  <p>Herz, du schwankest wieder!</p>
+                  <stage>Erregt.</stage>
+                  <lg>
+                     <l>Ermanne dich! – Allmächt'ger Gott,</l>
+                     <l>Dein Strahl blitzt leuchtend auf mich nieder,</l>
+                     <l>Dein bin ich, dein, Herr Zebaoth.</l>
+                     <l>Der Tod soll mich mit dir versöhnen,</l>
+                     <l>Die ird'sche Welt werf' ich von mir;</l>
+                     <l>Verführerin, mit deinen Tränen</l>
+                     <l>Lockst du umsonst, mir graut vor dir.</l>
+                  </lg>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN</speaker>
+                  <stage>heftig.</stage>
+                  <p>Assad!</p>
+                  <pb n="58" facs="#f0037"/>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <p>Hinweg, du lockst vergebens!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <p>Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <p>Fort, ich verfluche dich!</p>
+               </sp>
+               <sp who="#koenigin">
+                  <speaker>KÖNIGIN.</speaker>
+                  <lg>
+                     <l>So fahre hin, Glück meines Lebens,</l>
+                     <l>Schatten der Nacht, verschlinget mich!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Du ewiger Richter meines Lebens,</l>
+                     <l>In deine Arme werf' ich mich!</l>
+                  </lg>
+                  <stage>Die Königin stürzt in höchster Erregung ab. Assad sinkt unter den Palmen
+              zusammen.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritter Auftritt.</head>
+               <stage>Assad allein</stage>
+               <sp who="#assad">
+                  <speaker>ASSAD.</speaker>
+                  <lg>
+                     <l>Komm, Tod, geendet sind die Qualen,</l>
+                     <l>Der Seele Kraft hab' ich ervrobt,</l>
+                     <l>Der wilde Sturm hat ausgetobt.</l>
+                     <l>Mit meinem Leben will ich zahlen</l>
+                     <l>Der Gotteslästerung schwere Schuld.</l>
+                     <l>O, nimm mich auf, du ew'ge Huld!</l>
+                  </lg>
+                  <stage>Sich erhebend, ruhig.</stage>
+                  <lg>
+                     <l>Als Führer in das Jenseits tritt</l>
+                     <l>Dein lieblich Bild vor meine Seele,</l>
+                     <l>Du Engel, den ich mir erwähle,</l>
+                     <l>Du bist es, meine Sulamith.</l>
+                  </lg>
+                  <stage>Die Luft nimmt nach und nach eine düstere, rötlich glühende Färbung an. Mit
+              warmer Innigkeit.</stage>
+                  <lg>
+                     <l>Du Ew'ger, der mein Aug' gelichtet</l>
+                     <l>Nach der Verblendung trüber Nacht,</l>
+                     <l>:,: Du Vater, der barmherzig richtet,</l>
+                     <l>Was seiner Kinder Wahn vollbracht, :,:</l>
+                     <l>O neige dich aus deinen Höhen,</l>
+                     <l>Erhöre meine letzte Bitt',</l>
+                     <l>
+                        <pb n="59" facs="#f0038"/> Für mich nicht ringt zu dir mein Flehen,</l>
+                     <l>:,: Herr, Segen über Sulamith! :,:</l>
+                     <l>Ich trage, was ich selbst verschuldet,</l>
+                     <l>Mich treffe deiner Strafe Pein,</l>
+                     <l>Doch sie, die nur für mich geduldet,</l>
+                     <l>Laß deiner Huld empfohlen sein!</l>
+                     <l>Ein letzter Gruß aus diesem Leben</l>
+                     <l>An die, die liebend für mich litt!</l>
+                     <l>O Gott, mögst du wie sie vergeben,</l>
+                     <l>Herr, Segen über Sulamith!</l>
+                  </lg>
+                  <stage>Die abziehende Königin mit ihrem Gefolge erscheint als Gruppe in einer Fata
+              Morgana. Das Bild wird in dem darauffolgenden Sturme verschlungen. Sandwolken fegen im
+              Hintergrunde über die Bühne, und verdunkeln vorübergehend die Luft.</stage>
+                  <p>Vom Himmel tönt mir Antwort wieder,</p>
+                  <stage>In heftiger Steigerung.</stage>
+                  <lg>
+                     <l>Der Samum peitscht der Wüste Meer,</l>
+                     <l>Begrabet meine müden Glieder,</l>
+                     <l>Türmt euch, ihr Wogen, um mich her!</l>
+                     <l>Wenn deiner Engel Tuben schallen,</l>
+                     <l>Der Richter mir entgegen tritt</l>
+                     <l>Soll noch mein letzter Hauch verhallen:</l>
+                  </lg>
+                  <stage>Wie ohnmächtig nach Luft und Atem ringend.</stage>
+                  <p>Herr, Segen, dein Segen über Sulamith!</p>
+                  <stage>Er stürzt unter dem Palmbaum zusammen.</stage>
+                  <stage>Eine mächtige von rechts hereinbrechende Sandwolke stürmt nach links vor der
+              Palme vorbei. Die Bühne ist vollkommen verfinstert. Das Vorbeiziehen dieser Sandwolke
+              ist lange andauernd und nach und nach den Hintergrund gänzlich verhüllend, auch Assad
+              wird unsichtbar. – Der Sturm läßt allmählich bis zum vollkommenen Erlöschen
+              nach.</stage>
+                  <pb n="60" facs="#f0039"/>
+               </sp>
+            </div>
+            <div>
+               <head>Vierter Auftritt.</head>
+               <stage>Die düstere landschaftliche Färbung hat einer freundlich heiteren Platz gemacht.
+            Sulamith tritt rechts auf, von zwölf Jungfrauen begleitet und bleibt im Hintergrunde
+            stehn.</stage>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>FRAUENCHOR</speaker>
+                  <stage>hinter der Szene.</stage>
+                  <lg>
+                     <l>Uns're Tränen tau'n auf deinen Schritt,</l>
+                     <l>Auch Zion weint um dich, o Sulamith!</l>
+                     <l>O weinet laut!</l>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>das Haupt hebend, mit sterbender Stimme.</stage>
+                  <p>Sulamith!</p>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH.</speaker>
+                  <p>Ha, welche Stimme, ist's ein Traum?</p>
+                  <stage>Sie bleibt stehen.</stage>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR.</speaker>
+                  <p>Ein Sterbender dort unter dem Palmenbaum.</p>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH</speaker>
+                  <stage>fliegt hinzu und nimmt den Schleier zurück, ihn erkennend.</stage>
+                  <p>Assad! Mein Assad!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>breitet die Arme aus.</stage>
+                  <lg>
+                     <l>Sulamith!</l>
+                     <l>O Gott, erhört hast du mein Flehn,</l>
+                     <l>Ich darf sie sterbend wiedersehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH</speaker>
+                  <stage>kniend neben Assad, umfaßt sein Haupt.</stage>
+                  <p>Du stirbst – nimm meine Seele mit!</p>
+                  <stage>Schmerzlich.</stage>
+                  <p>Das, Seher, wolltest du mir künden!</p>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>sehr zart und innig.</stage>
+                  <lg>
+                     <l>O süßer Traum!</l>
+                     <l>In deinen Armen darf ich scheiden.</l>
+                     <l>Du Engel! kannst du mir verzeihen?</l>
+                  </lg>
+               </sp>
+               <sp who="#sulamith">
+                  <speaker>SULAMITH</speaker>
+                  <stage>sehr zart und innig.</stage>
+                  <lg>
+                     <l>Die ew'ge Liebe winkt uns beiden,</l>
+                     <l>:,: Im Tode bist du wieder mein. :,:</l>
+                  </lg>
+               </sp>
+               <sp who="#assad #sulamith">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>:,: Im lichten Schoß der ew'gen sel'gen Freuden,</l>
+                     <l>Werd' ich mit dir vereinigt sein! :,:</l>
+                     <pb n="61" facs="#f0040"/>
+                  </lg>
+               </sp>
+               <sp who="#assad">
+                  <speaker>ASSAD</speaker>
+                  <stage>mit letztem Aufflammen.</stage>
+                  <p>:,: Erlösung! :,: – Sulamith!</p>
+                  <stage>Er sinkt sterbend zurück.</stage>
+                  <stage>Sulamith stürzt mit einem halberstickten Schrei über Assad.</stage>
+               </sp>
+               <sp who="#chor_der_maedchen_frauen_frauenchor">
+                  <speaker>CHOR DER MÄDCHEN</speaker>
+                  <stage>kniend, ergriffen.</stage>
+                  <lg>
+                     <l>:,: Der Freund ist dein, :,:</l>
+                     <l>Im Reich der ewigen Liebe!</l>
+                  </lg>
+                  <stage>Die Nebel zerteilen sich, Cherubine mit Harfen, Zymbeln und Tuben werden in den
+              Wolken sichtbar.</stage>
+               </sp>
+               <trailer>Ende.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

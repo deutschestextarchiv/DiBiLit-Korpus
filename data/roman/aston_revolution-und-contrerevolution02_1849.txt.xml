@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Revolution und Contrerevolution</title>
+            <title type="volume">Bd. 02</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118650769">
+                  <forename>Louise</forename>
+                  <surname>Aston</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T15:12:18Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004475593</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Aston, Louise/Romane/Revolution und Contrerevolution</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/k8bz.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-13CE-2</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Louise Aston: Revolution und Contrerevolution. Bde. 1–2, Band 2, Mannheim 1849</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Revolution und Contrerevolution</title>
+                  <title level="m" type="sub">Bde. 1–2</title>
+                  <title level="m" type="volume">Band 2</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118650769">
+                        <forename>Louise</forename>
+                        <surname>Aston</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">276 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>J. P. Grohe</name>
+                  </publisher>
+                  <pubPlace>Mannheim</pubPlace>
+                  <date type="publication">1849</date>
+                  <date type="firstPublication">1849</date>
+                  <date type="firstPublication" subtype="clariah">1849</date>
+                  <date type="firstPublication" subtype="zeno">1849</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1814"
+                        notAfter="1849"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#BAston-Louise-d1e9903">Erstdruck: Mannheim (J. P. Grohe) 1849. Fürst Lizinsky bzw. ab 1. Bd. S. 57 Fürst Lichninsky bzw. ab 2. Bd. S. 184 Fürst Lichnowski sind identische Personen, es wurde keine Korrektur vorgenommen</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Romane</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Roman</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="BAston-Louise-d1e9903">
+         <div xml:id="Aston-Louise-d1e16233" type="chapter">
+            <head>Drittes Buch</head>
+            <pb n="189" facs="#f0001"/>
+            <pb n="189" facs="#f0002"/>
+            <div type="chapter" xml:id="Aston-Louise-d1e16246">
+               <head>I</head>
+               <p>Die Frankfurter Septembertage.</p>
+               <p>Auf dem flachen sandigen Ufer des kleinen Belt, gegenüber der Nordspitze der Insel Alsen, bildet das Meer eine tiefe und breite Bucht, an deren innerstem Grunde sich die schleswigsche Stadt Apenrade anlehnt. Die rechte südliche Seite des Ufers zieht sich in einem weiten Bogen bis zur Mündung des Hafens hin, welche durch zwei kleine, mit den Ufern rechte Winkel bildende nach Norden und nach Süden auslaufende Landzungen scharf begrenzt ist.</p>
+               <p rendition="#et">Die nördliche Landzunge war damals militairisch<pb n="191" facs="#f0003"/>
+ benutzt worden. In einer Entfernung von 50 zu 50 Schritten blickte die Mündung einer Kanone wie ein lauerndes Cyklopenauge über den Wall hinaus auf das Meer. Es waren im Ganzen vier 6- und zwei 24-Pfünder, welche diese Strandbatterie bildeten; sie schien besonders dazu bestimmt, das Hauptquartier des General von Wrangel, welches sich in dem sich über die andern Häuser Apenrades erhebenden Schlosse des Kammerherrn von Stehmann befand, vor einem Ueberfall zu schützen.</p>
+               <p rendition="#et">Die äußerste Spitze der südlichen Landzunge bildet ein kegelförmig gestalteter, grüner Hügel, an dessen mit dichtem Buschwerk besetzter Brust die weißschäumenden Wogen des unruhigen Beltes sich brechen.</p>
+               <p rendition="#et">Ein schmaler, sich durch das hohe Gras hinwindender Fußsteig führt den Hügel hinan und endet auf seinem ein wenig abgeglatteten Gipfel, in dessen Mitte ein mächtiger moosbewachsener Stein in schräger Lage aus der Erde hervorragt, welcher – seiner regelmäßigen Form nach zu <pb n="192" facs="#f0004"/>
+urtheilen – nicht durch den Zufall der Natur hierhergewälzt zu sein schien.</p>
+               <p rendition="#et">Es war ein heißer Augustabend. Das Meer sandte seine ewig rollenden Wellen mit träger Langsamkeit an das glühende Ufer; die Blätter der jungen Birken und Haselstauden auf dem Hügel hingen welk und glanzlos an den Zweigen nieder. Die ganze Natur lechzte nach Kühle und Erfrischung; nur ein lebendes Wesen unterbrach die Stille: es war ein Kuckuck, der seinen weit hinschallenden melancholischen Ruf in langen regelmäßigen Pausen ertönen ließ.</p>
+               <p rendition="#et">Die Sonne war hinter Apenrade niedergegangen, das Abendroth warf seinen dunkelrothen Wiederschein über den Hafen hin und einzelne Sterne zitterten bereits mit bleichem Lichte am tiefblauen, wolkenlosen Himmel. Da stieg ein Mann in einem blauen Staubhemde und breitrandigem Strohhut den Hügel hinan. Als er die Spitze erreicht hatte, zog er ein Fernrohr hervor, und warf durch dasselbe rings umher einen forschenden Blick, als wollte er sich überzeugen, daß <pb n="193" facs="#f0005"/>
+er von Niemandem bemerkt worden sei. Seine Beobachtungen schienen ihn befriedigt zu haben, denn er legte Fernrohr, Stock und Strohhut auf den Boden nieder und setzte sich selbst auf den alten Stein.</p>
+               <p rendition="#et">Nach einer kurzen Pause, während welcher er, wie es schien, nur mit seinen Gedanken beschäftigt, vor sich hinblickte, nahm er das Fernrohr wieder auf und richtete es in nordöstlicher Richtung auf das Meer, ließ es jedoch bald wieder sinken und nahm seinen Platz auf dem Stein wieder ein.</p>
+               <p rendition="#et">Ein dumpfes Rollen, wie der schwache Donner eines fernen Gewitters, weckte ihn plötzlich aus seiner Träumerei. Rasch sprang er empor und setzte das Fernrohr abermals an das spähende Auge. –</p>
+               <p rendition="#et">Ein Freuderuf entfuhr seinem Munde.</p>
+               <p rendition="#et">– Ah, sie haben Wort gehalten – murmelte er vor sich. – Beim Teufel, es war hohe Zeit.</p>
+               <p rendition="#et">Wer mit unbewaffnetem Auge auf das bereits ins Dunkel versinkende Meer hinausgeblickt hätte, <pb n="194" facs="#f0006"/>
+würde wahrscheinlich den kleinen dunkeln Punkt am nordöstlichen Horizonte übersehen haben, der dem Unbekannten ein so großes Vergnügen verursachte. Aber in dem trefflichen Glase des Rohrs zeichnete sich deutlich eine große dänische Fregatte ab, welche mit vollen Segeln auf den Hafen lossteuerte.</p>
+               <p rendition="#et">Der Fremde ließ jetzt wiederum sein Fernrohr sinken, vielleicht weil die schnell herannahende Nacht das Schiff seinen ferneren Beobachtungen entzog, vielleicht auch, weil er nichts weiter zu beobachten hatte. Aber er setzte sich nicht wieder, sondern starrte fortwährend auf das Meer hinaus. Eine volle halbe Stunde mochte vergangen sein, da ließ sich ein regelmäßiges leises Plätschern hören, welches dem Ufer sich näherte. Endlich schwieg das Geräusch.</p>
+               <p rendition="#et">Man vernahm deutlich, wie ein Boot dicht bei dem Hügel auf das Ufer gezogen wurde. Darauf erscholl von unten herauf ein helles Pfeifen.</p>
+               <p rendition="#et">– Bravo, mein Bursche! – sagte lächelnd der Fremde, indem er seinen Strohhut aufsetzte. <pb n="195" facs="#f0007"/>
+Darauf zog er den Knopf seines Ziegenhainers an den Mund und antwortete mit einem ähnlichen Pfiff.</p>
+               <p rendition="#et">– Hallo! – fluchte eine tiefe Stimme unten. – Zum Teufel mit diesen verdammten Dornsträuchern, die einen ehrlichen Kerl fester halten, als die breiteste Sandbank, und ihn ärger schinden, als das spitzeste Riff.</p>
+               <p rendition="#et">– Wendet Euch rechts, Capitain; – rief der Fremde hinunter – ein Dutzend Schritte am Ufer hin, da findet Ihr den Steg. – – Nun, was giebts jetzt wieder?</p>
+               <p rendition="#et">Diese letzte Frage galt einem neuen Ausruf des unten Tappenden, der aber mehr aus Verwunderung, als aus Unwillen zu entspringen schien.</p>
+               <p rendition="#et">– Nisten in dieser erbärmlichen Wüste auch Wölfe? Es wollte mir fast scheinen, als hätte ich so was durchs Gebüsch schlüpfen sehen. – Na, Gott sei gelobt, wir sind zur Stelle – – guten Abend, Lieutenant! Doch wie? seid Ihrs wirklich? <pb n="196" facs="#f0008"/>
+In solchem Aufzuge? Ihr seht ja aus wie ein wandernder Bänkelsänger.</p>
+               <p rendition="#et">– Laßt das jetzt, Capitain, es ist spät, und ich muß bald ins Quartier zurück, wenn ich nicht vermißt werden soll. Doch zuvor sagt, was meintet Ihr vorher mit dem Wolfe? – Er warf bei diesen Worten einen unruhigen Blick auf das Gebüsch.</p>
+               <p rendition="#et">– Ah, bah! Was wirds gewesen sein? Eine alte Eule, die wir im Schlafe gestört – erwiederte der Neuangekommene, ein derber, kräftiger Seemann, mit gebräuntem Gesicht und starkem Schnurr- und Knebelbart.</p>
+               <p rendition="#et">– Seid Ihr allein gekommen? – fragte vorsichtig der Fremde.</p>
+               <p rendition="#et">– Denkt Ihr, ich sei eine gemeine Theerratte, die den Säbel zuweilen auch mit der Ruderstange wechselt? Meine Burschen sind unten im Boot.</p>
+               <p rendition="#et">– Wie viel sinds Ihrer?</p>
+               <p rendition="#et">– Zum Teufel, was soll's mit diesen Fragen?</p>
+               <p rendition="#et">– Nun! – begütigte der Andere – ereifert <pb n="197" facs="#f0009"/>
+Euch nicht. Ihr seid Eurer Leute sicher, nicht wahr?</p>
+               <p rendition="#et">– Das sollte ich meinen! – rief der Capitain. – Für den Nothfall hab' ich Mittel, sie so in Sicherheit zu bringen, daß sie ferner für keine Schutzwache zu sorgen haben. – Er schlug bei diesen Worten seinen Mantel auseinander, wodurch ein mit zwei Doppelpistolen besetzter Ledergurt sichtbar wurde.</p>
+               <p rendition="#et">– Gut! – sagte der Fremde, sichtlich beruhigt. – Zur Sache denn! Was bringt Ihr für Nachrichten aus Copenhagen?</p>
+               <p rendition="#et">– Man ist der Sache bei Hofe herzlich satt und hätte ihr längst auf die eine oder die andere Weise ein Ende gemacht, wenn man nicht hätte Rücksicht auf die allgemeine Meinung, d.h. auf die wohlfeile Kriegslust des Straßenpöbels, nehmen müssen.</p>
+               <p rendition="#et">– Ihr scherzt!</p>
+               <p rendition="#et">– Schauet dort den Beweis! – sagte der Capitain, auf das Meer in der Richtung der Fregatte <pb n="198" facs="#f0010"/>
+deutend. – Der Apenrader Hafen ist in Belagerungszustand erklärt.</p>
+               <p rendition="#et">Der Fremde trat einen Schritt zurück.</p>
+               <p rendition="#et">– Und was verhandeln <hi rendition="#i">wir</hi> dann noch hier? – sagte er kurz und heftig. – Gute Nacht!</p>
+               <p rendition="#et">– Hoho! Gemach, mein Freund! Ihr segelt verdammt unterm Winde. Sorgt nur, daß Ihr nicht unversehens auf ein Riff lauft. Ich bitt' Euch, laßt Euren Anker auf dem Grunde, wir sind noch lange nicht fertig.</p>
+               <p rendition="#et">– Nun, was soll's noch weiter? Ich mache nicht gern unnütze Worte!</p>
+               <p rendition="#et">– Da habt Ihr ganz meinen Geschmack! Nicht wahr, Chevalier, Ihr wünscht diese Nacht sicherlich lieber in Eurem weichen Bette, als in einer wurmstichigen Hängematte zuzubringen.</p>
+               <p rendition="#et">– Was bedeutet das nun wieder? – fragte mit einer gewissen Unruhe der mit dem Titel »Chevalier« angeredete Fremde.</p>
+               <p rendition="#et">– Beim Himmel, ich weiß nicht, was ich Euch für Grund gegeben habe, mich für einen unbärtigen Knaben zu halten! Nicht wahr? Ihr <pb n="199" facs="#f0011"/>
+möchtet jetzt hingehen und Euch den Lohn, den Ihr dem Feinde nicht abverdienen könnt, bei Euren Freunden einzubringen suchen. Still! Ich sollte meinen, daß wir uns kennen, Chevalier. Ein Kind kann einsehen, daß der Bursche da draußen nicht umsonst die Nacht abgewartet hat, um dem Apenrader Hafen einen Besuch abzustatten. Ich hoffe, morgen mein Frühstück im Schlosse des Herrn von Stehmann einzunehmen. Verstanden? Gut; und nun, meint Ihr, werde ich Euch fortlassen, um dafür zu sorgen, daß mir statt einer kalten Rebhuhnpastete von jenen lahmen Strandläufern – er zeigte nach der andern Landzunge auf die Strandbatterie hinüber – ein Frikassee zum Willkommen gebracht wird, das mir den Appetit für immer vergehen machen möchte? –</p>
+               <p rendition="#et">– Ihr glaubt also, ich werde Euch verrathen?</p>
+               <p rendition="#et">– Teufel, Ihr seid schnell von Begriffen: das meine ich, ja.</p>
+               <p rendition="#et">– Ihr möchtet unter anderen Umständen so Unrecht nicht haben – lächelte Jener – doch <pb n="200" facs="#f0012"/>
+diesmal irrt Ihr. Meint Ihr wirklich, daß ein Mann, wie ich, aus bloßer Geldlust dergleichen unternimmt? Nein. Dänemark ist mir eben so gleichgültig wie Deutschland, und vollends dieser lächerliche Krieg, von der einen Seite aus Renommage, von der andern aus Hochmuth und Ländergier unternommen, von keiner mit Ernst geführt. Bei Gott, ich rührte keinen Finger deshalb, hätte ich nicht andere Gründe.</p>
+               <p rendition="#et">Es war zu dunkel, um das Gesicht des Redenden zu erkennen, aber in seinem erregten, zitternden Tone lag ein solcher Ausdruck von Wahrheit, daß der Capitain davon getroffen wurde.</p>
+               <p rendition="#et">– Nun, ich habe Euch nicht beleidigen wollen – sagte er einlenkend.</p>
+               <p rendition="#et">– Hört jetzt, was ich Euch zu sagen habe. Ich weiß bestimmt, daß Preußen Alles aufbieten will, um einen Waffenstillstand quand même zu Stande zu bringen. In Frankfurt wird bereits, obschon bisher ohne Erfolg, deshalb intriguirt. Willigen die Frankfurter bis zum 20. dieses Monats, heute ist der 16., also innerhalb 4 Tagen, <hi rendition="#i">
+                     <pb n="201" facs="#f0013"/>
+nicht ein</hi>, so wird es Preußen auf einen Separatfriedensschluß ankommen lassen. Die Vorbereitungen dazu sind bereits getroffen. Die Ausführung scheiterte bisher an der Hartnäckigkeit <hi rendition="#i">Wrangels</hi>, der eitel genug ist, sich auf den Titel:</p>
+               <p rendition="#et"/>
+               <p>»Oberkommandeur der Truppen der Reichscentralgewalt«</p>
+               <p>etwas einzubilden. Aber er wird sich fügen, wenn man ihm die Wahl läßt, nachzugeben oder den preußischen Dienst zu verlassen. Habt Ihr mich verstanden?</p>
+               <p rendition="#et">– Vollkommen. Fahrt fort!</p>
+               <p rendition="#et">– Ihr seht hiernach ein, daß es völlig unpolitisch und gegen Euer eigenes Interesse wäre, den Hafen zu forciren und Apenrade zu beschießen. Denn erstlich würde <hi rendition="#i">Wrangels</hi> Widerstand gegen die Abschließung des Waffenstillstandes dadurch hartnäckiger und zweitens würde das preußische Cabinet selbst nicht mehr seinen friedlichen Absichten folgen können, ohne sich zu <pb n="202" facs="#f0014"/>
+sehr zu compromittiren. Es ist klar, daß man laut über Verrath schreien würde.</p>
+               <p rendition="#et">– Hm! Ihr scheint mir in gutem Fahrwasser zu steuern. Doch Eins erklärt mir noch. Wie soll ich mich mit meiner Instruktion abfinden, die ausdrücklich die Beschießung, respektive Ueberrumpelung von Apenrade anbefiehlt.</p>
+               <p rendition="#et">– Habt Ihr sie bei Euch?</p>
+               <p rendition="#et">– Ja wohl; aber es ist zu dunkel, Ihr könnt nicht sehen.</p>
+               <p rendition="#et">– Gebt nur – erwiederte jener, eine kleine Laterne anzündend. – Stellt Euch auf diese Seite, damit der Schein nicht nach dem Lande fällt.</p>
+               <p rendition="#et">Der Chevalier entfaltete das Papier und las es aufmerksam durch, während der Capitain leuchtete.</p>
+               <p rendition="#et">– Hier steht ja noch etwas von einer zweiten, speciellen Instruktion, die Ihr am Orte Eurer Bestimmung erbrechen sollt. Habt Ihr das gethan?</p>
+               <p rendition="#et">
+                  <pb n="203" facs="#f0015"/>
+– Nein, dazu, dächte ich, wäre noch Zeit genug, wenn's zum Kampfe geht.</p>
+               <p rendition="#et">– Thor, der Ihr seid. Wenn Euch nun gerade darin der Kampf untersagt würde. Der Capitain sah seinen Gefährten verblüfft an. – Wartet einen Augenblick – sagte er, seinen Gurt abschnallend. Eine in der einen Seite desselben verborgene Tasche öffnend, zog er darauf die versiegelte Instruktion hervor und erbrach sie.</p>
+               <p rendition="#et">– Donnerwetter, Ihr habt, hol' mich der Teufel, recht – rief er erstaunt. – <hi rendition="#i">Hier</hi> steht das Gegentheil von dem, was <hi rendition="#i">dort</hi>. Das begreife ein Anderer.</p>
+               <p rendition="#et">– Das ist sehr leicht zu begreifen – sagte mit Ruhe der Chevalier. – Um ganz sicher zu sein, gab man Euch in Copenhagen eine officielle Depesche, die so lautete, wie die öffentliche Meinung, die Ihr so richtig als die Meinung des Straßenpöbels charakterisirt habt, es verlangte, und wies Euch nur in einer kleinen, unschuldig aussehenden Notiz auf die weitere <hi rendition="#i">specielle</hi>
+                  <pb n="204" facs="#f0016"/>
+Instruktion hin, die Ihr versiegelt erhieltet mit dem gemessenen Befehl, sie erst am Bestimmungsort zu öffnen. Das scheint mir klar wie die Sonne.</p>
+               <p rendition="#et">– Was soll ich da thun? – sagte zweifelhaft der Capitain.</p>
+               <p rendition="#et">– Welche Frage? Dem gehorchen, was man Euch befohlen hat. Doch einen Rath als Freund will ich Euch geben. Bewahrt beide Dokumente sorgfältig! Es könnte eine Zeit kommen, wo man die Verantwortlichkeit für die insgeheim angeordneten Maßregeln auf Euch wälzen möchte. Ihr könntet dann die Papiere nöthig haben zu Eurer Rechtfertigung.</p>
+               <p rendition="#et">– Ihr habt wieder recht, Chevalier – erwiederte der Capitain, ihm die Hand schüttelnd. – Ich werde Euch dankbar sein.</p>
+               <p rendition="#et">– Es ist gut! – sagte jener kalt. – Ich glaube, wir haben für heute unser Geschäft beendet. Nicht wahr, ich werde nicht in einer Hängematte schlafen müssen?</p>
+               <p rendition="#et">
+                  <pb n="205" facs="#f0017"/>
+– Ich bitt' Euch, schweigt davon! Es war eine Dummheit von mir. Wann sehe ich Euch wieder?</p>
+               <p rendition="#et">– Das weiß ich nicht. Sollte ich Euch sprechen<hi rendition="#i"> müssen</hi>, so werdet Ihr hier um diese Zeit ein kleines Licht bemerken. Setzt Euch dann in Euer Boot und kommt herüber.</p>
+               <p rendition="#et">– Vortrefflich. Nun gehabt Euch wohl! – – – Holla, Bursche! – rief er nach dem Ufer hinunter. – Macht Euch fertig.</p>
+               <p rendition="#et">Nach einem kräftigen Händedruck stieg er den Hügel hinab.</p>
+               <p rendition="#et">Der Chevalier blieb mit gekreuzten Armen an dem Steine stehen und lauschte den Ruderschlägen des sich entfernenden Bootes. Als sie verklungen waren, zog er seine Blouse fester zusammen und stieg ebenfalls herab, nach der Landseite sich wendend. Bald war er im Schatten der Nacht verschwunden.</p>
+               <p rendition="#et">Als seine Schritte verhallt waren, bewegte sich das Gebüsch hinter dem Steine und ein menschlicher Kopf zeigte sich.</p>
+               <p rendition="#et">
+                  <pb n="206" facs="#f0018"/>
+Sie sind fort! – sagte eine weiche Stimme. Bald darauf trat ein noch ganz junger Mann in der grünen Uniform eines Berliner Freischärlers heraus.</p>
+               <p rendition="#et">– Hallunken Ihr! – sagte er, drohend die kleine Faust erhebend – ich werde Euer Teufelsgebräu Euch versalzen.</p>
+               <p rendition="#et">Traurig ließ er den Kopf sinken und setzte sich hart an das Meer.</p>
+               <p rendition="#et">– Also auch dies Blut soll umsonst geflossen sein? – sagte er vor sich hin. Es war wiederum nur ein Wahn, der uns hieher trieb, für die Größe, Einheit und Freiheit Deutschlands in den Kampf und Tod zu gehen. Fluch über die <hi rendition="#i">Erbärmlichen</hi>, die am grünen Tische durch meineidigen Verrath die Fesseln an einander schmieden, mit denen sie auf's Neue die deutschen Stämme in Banden schlagen wollen! Doppelten Fluch aber über die Verräther in der Paulskirche, die das Volk hingesandt, sein Recht gegen die Ränke der Fürsten zu vertheidigen, und die nun ruhig zusehen, wie man dies Recht mit Füßen tritt und die <pb n="207" facs="#f0019"/>
+Sehnsucht Deutschlands nach Freiheit verhöhnt. O Felix! Felix! Auch Du bist einer der Verräther! Aber die Rache des Volkes wird Euch Alle ereilen.</p>
+               <p rendition="#et">Er erhob sich. Sein Fuß stieß an einen Gegenstand. Er bückte sich. Es war das Fernrohr des Chevalier.</p>
+               <p rendition="#et">– Das soll mir eine Erinnerung an diese Stunde sein – sagte er, es einsteckend. Da nahten auf's Neue Tritte. Es war der Chevalier, der sein Fernrohr vermißte und zurückgekehrt war, es zu suchen.</p>
+               <p rendition="#et">– He, was ist das?! – –</p>
+               <p rendition="#et">Dieser Ausruf galt dem jungen Manne, welcher plötzlich vor dem vor Schreck Erstarrten stand. Doch nur einige Sekunden dauerte der Eindruck, dann hatte der Chevalier sich gefaßt. Mit der linken Hand griff er rasch nach der Brust des Knaben, während die Rechte in dem Brustlatz seiner Blouse etwas zu suchen schien.</p>
+               <p rendition="#et">– Wer bist Du? – Was suchst Du hier? – donnerte er den Knaben an, welcher von seinem <pb n="208" facs="#f0020"/>
+Zorn durchaus nicht bewegt schien, sondern ruhig stehen blieb.</p>
+               <p rendition="#et">– Ich suchte und fand einen Verräther am Vaterlande – erwiederte Jener kalt.</p>
+               <p rendition="#et">Beim ersten Laute schon war der Chevalier einige Schritte zurückgetreten.</p>
+               <p rendition="#et">– Alice! – sagte er mit zitternder Stimme. –</p>
+               <p rendition="#et">Elender Meineidiger! – fragte mit dem Tone schmerzlicher Verachtung das bleiche Weib – hast Du auch wohl überlegt, <hi rendition="#i">was Du beginnst</hi>? Wird Deine feige Seele den Gedanken, ein Herostrat an dem Freiheitstempel Deutschlands gewesen zu sein, ertragen?</p>
+               <p rendition="#et">– Du hast also gelauscht? – Alice!</p>
+               <p rendition="#et">– Gilbert, ich habe Dich gepflegt, als Du zum Tode verwundet, Deinem Ende entgegensahst; als Alle, auch der Fürst, Dich verlassen hatten. – – Gedenkst Du des Schwures, den Du mir geleistet, als <hi rendition="#i">Du</hi>, durch meine Hand genesen, vom Krankenlager erstandest?</p>
+               <p rendition="#et">Gilbert schwieg.</p>
+               <p rendition="#et">
+                  <pb n="209" facs="#f0021"/>
+– Wirst Du auch diesen Eid brechen? Antworte!</p>
+               <p rendition="#et">– Ich werde ihn halten – erwiederte er düster.</p>
+               <p rendition="#et">– Das Wort hat Dir Dein guter Engel eingegeben – sagte sie mit unveränderlicher Ruhe. Jetzt antworte mir: Weiß der Fürst Lichninsky um diesen Cabinetsstreich?</p>
+               <p rendition="#et">– Ich bin sein Bevollmächtigter. Wir haben hierin gleiches Interesse.</p>
+               <p rendition="#et">– Wie? Der alte Löwe und der feige Schakal: Beide morden ihre Opfer, um sich zu sättigen. Wann wird der Waffenstillstand ratificirt werden?</p>
+               <p rendition="#et">– Noch in diesem Monat.</p>
+               <p rendition="#et">– Wer ist von Seiten Preußens mit der Ratification beauftragt?</p>
+               <p rendition="#et">– Der General von Below.</p>
+               <p rendition="#et">– Und von Dänemark?</p>
+               <p rendition="#et">– Herr von Reetz.</p>
+               <p rendition="#et">– Der General von W. ist natürlich eingeweiht?</p>
+               <p rendition="#et">
+                  <pb n="210" facs="#f0022"/>
+– Er hält sich vorläufig neutral, doch wird es sich morgen entscheiden.</p>
+               <p rendition="#et">– So muß ich eilen! – sagte Alice zu sich selbst und setzte dann laut hinzu: Es ist gut, Du kannst gehen.</p>
+               <p rendition="#et">Ohne ein Wort zu erwiedern, schritt Gilbert den Hügel hinab.</p>
+               <p rendition="#et">Alice eilte ins Gebüsch zurück und bestieg ein Boot, das tief in einer vom Meere ausgespülten kleinen Bucht verborgen war. Ein Mann, der der Länge nach im Boote ausgestreckt lag, erhob sich bei der Ankunft Alicens und nahm die Ruder zur Hand.</p>
+               <p rendition="#et">– Du bist lange geblieben – sagte er, mit einem kräftigen Stoß das gebrechliche Fahrzeug in das Meer hineinschleudernd, so daß die Wellen hoch aufspritzten. – Ich war bange um Dich. Hättest Du mir nicht ausdrücklich verboten, Dir zu folgen, so hätte ich Dich aufgesucht.</p>
+               <p rendition="#et">– Guter Ralph! – sagte Alice mit Wehmuth – nicht wahr, Du verräthst weder mich noch das Vaterland?!</p>
+               <p rendition="#et">
+                  <pb n="211" facs="#f0023"/>
+Ralph sah sie erstaunt an.</p>
+               <p rendition="#et">– Weißt Du, mit wem ich ein Rendezvous gehabt?</p>
+               <p rendition="#et">– Wie soll ich's wissen!</p>
+               <p rendition="#et">– Mit Gilbert.</p>
+               <p rendition="#et">Das Ruder entsank seiner Hand, als er diesen Namen hörte.</p>
+               <p rendition="#et">– Und Du hast ihm nicht den Dolch ins Herz gestoßen?</p>
+               <p rendition="#et">– Pfui, wer wird gleich so unhöflich sein!</p>
+               <p rendition="#et">– Du hast recht – sagte lachend Ralph – wer Pech angreift, besudelt sich.</p>
+               <p rendition="#et">Wohin fahren wir?</p>
+               <p rendition="#et">– Nach dem Schlosse. – – – Ich muß Herrn von W. noch eine Visite machen.</p>
+               <p rendition="#et">– Es ist ja nahe an Mitternacht! – bemerkte Jener.</p>
+               <p rendition="#et">Alice beantwortete diese Worte nicht. Sie war in tiefes Sinnen versunken. Nach einer kurzen Zeit landete das Boot. Alice stieg aus.</p>
+               <p rendition="#et">– Erwarte mich, Ralph – sagte sie, den Weg nach dem Schlosse einschlagend.</p>
+               <p rendition="#et">
+                  <pb n="212" facs="#f0024"/>
+Ralph streckte sich wieder in seinem Boote aus und starrte, von der lauen Sommernacht angefächelt, zu dem blauen Sternenhimmel hinauf.</p>
+               <p rendition="#et">Das Schloß des Kammerherrn von <hi rendition="#i">Stehmann</hi>, der durch die wiederholten Brandschatzungen der Dänen zu einem eifrigen Verfechter der Schleswigschen Unabhängigkeit geworden, war, theils um den edlen Kammerherrn gegen dänische Ueberfälle zu schützen, theils weil in diesem Augenblicke der General von Wrangel darin sein Hauptquartier aufgeschlagen hatte, in eine kleine Festung verwandelt worden. Die dem Meere zugekehrte Seite war zwar offen, indeß mit einer starken Wache versehen, die andern drei Seiten waren durch hohe Wälle ziemlich geschützt. Außerdem standen vor dem Hauptthor des Schlosses zwei Zwölfpfünder.</p>
+               <p rendition="#et">Alice wurde auf ihr Verlangen, den General zu sprechen, sogleich durch einen der wachhabenden Soldaten in das Schloß geführt und dem General gemeldet. Obgleich es schon spät war, <pb n="213" facs="#f0025"/>
+so wurde sie dennoch vorgelassen. Der General saß an einem mit Papieren und Karten bedeckten Tisch. Sein runzliches, gelbes Gesicht mit dem kurzen, borstenartigen Schnurrbart, wie ihn die Militairs aus den »Freiheitskriegen« zu tragen pflegen, seine halbgeschlossenen Augen und das graue, kurze Haar bildeten ein Ensemble, das den lebendigen Typus eines »preußischen gedienten Soldaten« darstellte, in diesem Augenblicke aber der eintretenden Alice trotz ihrer ernsten Stimmung ein Lächeln abnöthigte, da der General die Folie, auf welcher das Bild erst seinen eigentlichen Charakter erhält, nämlich die preußische Uniform abgelegt hatte und wegen der großen Hitze in einem Leinwandrocke da saß. Alice war dem General nicht unbekannt. –</p>
+               <p rendition="#et">– General! – begann sie, ihren Chef militairisch begrüßend – ich komme, Ihnen eine wichtige Nachricht mitzutheilen. Um 9 Uhr 35 Minuten Abends hat sich eine dänische Fregatte vor dem Apenrader Hafen gelegt.</p>
+               <p rendition="#et">
+                  <pb n="214" facs="#f0026"/>
+– Was Sie sagen! – rief der General erstaunt aus. – Ihre Nachricht beruht auf keinem Irrthum?</p>
+               <p rendition="#et">– Sie können sich selbst davon überzeugen. Unten liegt mein Boot. Wenn's Ihnen beliebt, steuern wir hinaus, den Gast in der Nähe zu besehen. Der General erhob sich und ging einige Mal, die Hände auf den Rücken gelegt, das Zimmer auf und ab. Endlich blieb er vor Alicen stehen.</p>
+               <p rendition="#et">– Sie sind zur glücklichen Stunde gekommen, liebe Tochter – sagte er. – Einige Minuten später und es wäre zu spät gewesen. – – – – Es ist sicher, man hat parlamentirt, um unter der Hand einen desto sichern Schlag auszuführen.</p>
+               <p rendition="#et">Obgleich er die letzten Worte mehr im Selbstgespräch an sich selbst als an Alicen richtete, so glaubte diese dennoch darauf antworten zu müssen.</p>
+               <p rendition="#et">– Ich glaube nicht, General – sagte sie.</p>
+               <p rendition="#et">– Was glauben Sie nicht? – fragte er rasch.</p>
+               <p rendition="#et">– Daß der Däne den Hafen forciren wird.</p>
+               <p rendition="#et">
+                  <pb n="215" facs="#f0027"/>
+– Und woraus schließen Sie das?</p>
+               <p rendition="#et">– Der Capitain hat eine geheime Instruktion, die es ihm verbietet.</p>
+               <p rendition="#et">– Eine <hi rendition="#i">geheime</hi> Instruktion, von der <hi rendition="#i">Sie</hi> Kenntniß haben? – fragte er, ungläubig lächelnd.</p>
+               <p rendition="#et">– So ist's, General. Sie glauben mir nicht, so will ich Ihnen den Beweis geben, daß ich gut unterrichtet bin. Man trifft Vorbereitungen zu einem Waffenstillstande, vielleicht zu einem Friedensschlusse; Vorbereitungen, die bisher an <hi rendition="#i">Ihrem</hi> Widerstande gescheitert sind. Da hat man <hi rendition="#i">Sie</hi> auf die republikanischen Tendenzen hingewiesen, die sich in den unter Ihrem Oberbefehl stehenden Truppen kund gegeben und daraus die Nothwendigkeit abgeleitet, besonders die süddeutschen Truppen zu entlassen. Morgen hätten <hi rendition="#i">Sie</hi> sich entschieden, und zwar für den <hi rendition="#i">Waffenstillstand entschieden</hi>. Deshalb bin ich gekommen, um Ihnen zu sagen, daß das Ganze eine abgekartete Verrätherei ist, der sich als Werkzeug zu leihen für einen braven Soldaten keine Ehre sein kann.</p>
+               <p rendition="#et">
+                  <pb n="216" facs="#f0028"/>
+Das Erstaunen des Generals wuchs.</p>
+               <p rendition="#et">– Der dänische Capitain hat deshalb ausdrücklichen Befehl, sich völlig passiv zu verhalten, um <hi rendition="#i">Sie</hi> nicht zum aktiven Widerstande gegen ihn und dem zufolge auch gegen den Waffenstillstand zu reizen. Ich meine, daß Sie keine Ursache haben werden, dies Alles für bloße Träumerei zu halten. – – Denken Sie daran, General, daß Sie in diesem Augenblicke die höchste militairische Ehrenstelle in Deutschland bekleiden, Sie das Oberkommando der deutschen Reichstruppen inne haben. Wollen Sie Deutschlands Ehre, Deutschlands Freiheit den separatistischen Gelüsten der Fürsten, die Sympathieen des ganzen Volks den absolutistischen Intriguen weniger Dutzend Diplomaten zum Opfer bringen? –</p>
+               <p rendition="#et">Ich bin eine Frau, General, aber ich würde eher mein Leben hingeben, als diese Verantwortlichkeit auf mich nehmen. – Mein Geschäft ist vollendet; leben Sie wohl, General, und möge der Himmel Ihren Entschluß zum Segen des Volkes lenken.</p>
+               <p rendition="#et">
+                  <pb n="217" facs="#f0029"/>
+– Ich werde die heutige Nacht nicht vergessen – sagte der General, sichtlich bewegt. –</p>
+               <p rendition="#et">– – – – – – – – – – – – – – – – – – – – – – – – – –</p>
+               <p rendition="#et">Auf dem Schloßhofe begegnete Alice Gilbert, welcher ebenfalls zum General eilte, dessen Geheimsekretair er war.</p>
+               <p rendition="#et">– Ha – sagte er mit unterdrückter Wuth – Verrätherin! Du meinst, ich habe die Langmuth eines Lammes, daß Du es wagst, mich zum Aeußersten zu reizen. Du warst beim General?</p>
+               <p rendition="#et">Alice würdigte ihn keines Blicks, sondern eilte dem Ausgange zu.</p>
+               <p rendition="#et">– Du sollst mir Rede stehen! Hast Du mich verrathen?</p>
+               <p rendition="#et">– Es steht Euch gut, Chevalier – sagte Alice mit schneidendem Hohne – <hi rendition="#i">Euch</hi> gegenüber von <hi rendition="#i">meiner</hi> Verrätherei zu reden. Indessen rathe ich Euch, Eurer Zunge nicht allzusehr den Zügel schießen zu lassen und Euer heißes Blut etwas abzukühlen. Meine Feldapotheke enthält vortreffliche Pillen, welche eine wunderbare Kraft der Beruhigung besitzen. Seht! – diese kleine <pb n="218" facs="#f0030"/>
+Phiole ist damit bis zum Rande gefüllt. Sie hielt ihm die Mündung eines niedlichen Terzerols entgegen. –</p>
+               <p rendition="#et">Adieu!</p>
+               <p rendition="#et">Gilbert verharrte einen Augenblick in seiner Stellung, als sei er unschlüssig, ob er ihr folgen solle oder nicht. Dann wandte er sich kurz um und ging mit zögernden Schritten zum General hinauf.</p>
+               <pb n="219" facs="#f0031"/>
+            </div>
+            <div type="chapter" xml:id="Aston-Louise-d1e16821">
+               <head>II</head>
+               <p>Am andern Morgen gab sich in der Stadt Apenrade eine mehr als gewöhnliche Bewegung kund. Zahlreiche Gruppen sammelten sich am Ufer, um die dänische Fregatte in Augenschein zu nehmen, die sich nicht weit vor die Mündung des Hafens gelegt hatte. Aber nicht blos Neugierde war es, was sich in den Gesprächen des Publikums kund gab. Es hatte sich das Gerücht von einem nahe bevorstehenden Waffenstillstande verbreitet, womit man die Anwesenheit des Unterstaatssekretärs und Reichskommissarius, Max von Gagern, im Hauptquartier, in Verbindung brachte. Auch hieß es, in Rendsburg seien in Folge ähnlicher Nachrichten Unruhen ausgebrochen.</p>
+               <p rendition="#et">
+                  <pb n="220" facs="#f0032"/>
+Gegen 9 Uhr erschien der General v. Wrangel in Begleitung des Reichskommissarius und umgeben von einer zahlreichen Suite am Ufer und ritt nach der nördlichen Landzunge, von welcher die Strandbatterien ausliefen. Nicht wie sonst brach die Menge in einen Vivatruf aus, sondern machte den Reitern schweigend Platz. Der General bemerkte die veränderte Stimmung und warf einen forschenden Blick über die Zuschauer hin. Da traf sein Auge in das ernst zu ihm aufblickende Auge Alicens. Schnell wandte er das seinige ab. – –</p>
+               <p rendition="#et">– Komm Ralph – sagte Alice, als die Cavalkade sich entfernt hatte. – Es ist für uns hier nichts mehr zu thun. – Auch der General hat sich entschieden.</p>
+               <p rendition="#et">– Ich kann's nicht glauben – erwiederte kopfschüttelnd Ralph.</p>
+               <p rendition="#et">– Es ist so, wie ich Dir sage; ich werde Dir den Beweis schaffen. – Wenn wir den dänischen Capitain gefangen nähmen und ihn ihm überlieferten, er würde ihn laufen lassen.</p>
+               <p rendition="#et">
+                  <pb n="221" facs="#f0033"/>
+– Schweig! – sagte jener zornig. – Spräche ein Anderer als Du solche Verdächtigungen über den »alten Wrangel« aus, so würde ich ihm bei Gott keine Zeit lassen, sie zu widerrufen.</p>
+               <p rendition="#et">– Du bist ein Thor, guter Ralph! – Ich hoffe, Du kennst mich hinlänglich, um zu wissen, daß ich nicht den Beweis für meine Behauptung schuldig bleibe.</p>
+               <p rendition="#et">– Vortrefflich! Ich bin auf den Beweis begierig.</p>
+               <p rendition="#et">– Was gilt die Wette, daß noch heute der Capitain in meiner Gewalt ist? –</p>
+               <p rendition="#et">Ralph blickte Alicen an wie Jemand, der nicht weiß, ob sich der Andere über ihn lustig macht oder aber im Ernste redet.</p>
+               <p rendition="#et">– Es ist mein vollkommener Ernst, setzte sie, die Hand ausstreckend, hinzu.</p>
+               <p rendition="#et">– Topp! – schlug Ralph ein – ich nehme die Wette an. Und was ist der Preis?</p>
+               <p rendition="#et">– Den zu bestimmen überlaß ich Dir.</p>
+               <p rendition="#et">Ralph's Augen strahlten plötzlich in einem eigenthümlichen Glanz.</p>
+               <p rendition="#et">
+                  <pb n="222" facs="#f0034"/>
+– Gut! – sagte er kurz, als wolle er mit Gewalt seine Empfindungen unterdrücken.</p>
+               <p rendition="#et">– Willst Du mir bei der Ausführung behülflich sein?</p>
+               <p rendition="#et">– Ich würde ein unzuverlässiger Gehülfe werden, da ich an dem Mißlingen des Plans Interesse habe.</p>
+               <p rendition="#et">– Thut nichts. Ich weiß, Du wirst mich nicht im Stiche lassen. Also, Du bist bereit?</p>
+               <p rendition="#et">– Natürlich.</p>
+               <p rendition="#et">– So hole mich nach Sonnenuntergang in unserm Boote ab. Auf Wiedersehn!</p>
+               <p rendition="#et">Zu Hause angekommen, wurde ihr ein Diener des Prinzen N....r gemeldet.</p>
+               <p rendition="#et">– Lassen Sie ihn eintreten! – sagte Alice verdrüßlich.</p>
+               <p rendition="#et">Bald darauf erschien der Angemeldete und blieb einen Augenblick auf der Schwelle stehen. Alice entfuhr ein Ausruf des Erstaunens, als sich der junge Mensch plötzlich zu ihren Füßen warf.</p>
+               <p rendition="#et">– Was bedeutet dies? – fragte sie einen Schritt zurücktretend.</p>
+               <p rendition="#et">
+                  <pb n="223" facs="#f0035"/>
+Da erhob sich das dunkle Auge des Knieenden mit schmerzlich fragendem Ausdruck zu ihr empor.</p>
+               <p rendition="#et">Sie erkannte ihn jetzt. In der That aber war das Erstaunen Alicens wohl gerechtfertigt. Denn wer hätte in der bunten Livree, dem kurzgeschorenen und glattgescheitelten Haar den unbändigen und träumerischen Knaben Salvador gesucht.</p>
+               <p rendition="#et">– Salvador?! – Du in dieser Vermummung? Welcher Sturm hat Dich nach diesem Norden heraufgeweht? Sprich, mein Knabe!</p>
+               <p rendition="#et">Salvador erhob sich. Er hatte sich bis zur Unkenntlichkeit verändert. Fast um einen Kopf größer als vor einem halben Jahre, war er in demselben Verhältniß schlanker und schmächtiger geworden. Das bräunliche Roth seiner Wangen war einer krankhaften ins Gelbliche spielenden Blässe gewichen und der trotzige Feuerblick seines Auges hatte sich in den düstern Glanz einer halb verglimmenden Kohle verwandelt.</p>
+               <p rendition="#et">Alice wurde schmerzlich von dieser Umwandlung getroffen, aber sie unterdrückte mit feinem Zartgefühl jede Bemerkung darüber.</p>
+               <p rendition="#et">
+                  <pb n="224" facs="#f0036"/>
+– Der Pater Angelikus hat es so gewollt – sagte Salvador. Alice bemerkte, daß er den Pater nicht mehr Tio nannte. – Ich müsse nach Norden, um in Ihrer Nähe zu sein. Sie würden mich mit nach Frankfurt nehmen, meinte der Pater.</p>
+               <p rendition="#et">– Und jetzt bist du wirklich im Dienste des Prinzen von N....r? –</p>
+               <p rendition="#et">– Ja – sagte Salvador, indem eine flüchtige Röthe sein Gesicht färbte. – Er hat mich gesandt, um Sie um eine Unterredung zu bitten.</p>
+               <p rendition="#et">– Was will der Prinz von mir? Ich kenne ihn nicht.</p>
+               <p rendition="#et">Salvador sah Alicen forschend an, als wolle er die Wahrheit dieser Aeußerung erproben.</p>
+               <p rendition="#et">– Was soll ich ihm antworten? – fragte er mit weniger befangenem Ton.</p>
+               <p rendition="#et">– Er mag kommen – sagte Alice nach kurzem Nachdenken.</p>
+               <p rendition="#et">– Wann?</p>
+               <p rendition="#et">
+                  <pb n="225" facs="#f0037"/>
+– Heute Nachmittag.</p>
+               <p rendition="#et">– Nicht wahr? – fragte er zögernd – Sie nehmen mich wieder zu sich?</p>
+               <p rendition="#et">– Wenn es der Prinz zufrieden ist, gewiß.</p>
+               <p rendition="#et">Freudig drückte er die Hand Alicens an seine Lippen und entfernte sich rasch.</p>
+               <p rendition="#et">Alice war durch das Zusammentreffen tiefer bewegt, als sie sich gestehen mochte. Alle alten Erinnerungen, die sie längst begraben glaubte, tauchten mit neuer Kraft in ihrer Seele wieder empor.</p>
+               <p rendition="#et">Sie setzte sich an den Schreibtisch und ergriff mechanisch die Feder. Da fiel ihr die Ueberschrift eines angefangenen Briefes in die Augen, und sie ließ die Feder sinken.</p>
+               <p rendition="#et">– Durchlaucht – – – früher lautete es anders, wenn ich an Dich schrieb, Felix – – – Ich mag jetzt nicht – – – vielleicht giebt mir das Gespräch mit dem Prinzen neuen Stoff. Aber warnen will ich ihn, er sieht den Abgrund nicht, der sich zu seinen Füßen öffnet. Wehe ihm, wenn <pb n="226" facs="#f0038"/>
+der unselige Waffenstillstand zum Abschluß kommt, dieser neue Verrath an der deutschen Sache. Felix, Felix! Mit jedem Schlage, den Du gegen die Größe Deutschlands führst, treibst Du einen Nagel in Deinen eignen Sarg. – –</p>
+               <pb n="227" facs="#f0039"/>
+            </div>
+            <div type="chapter" xml:id="Aston-Louise-d1e16981">
+               <head>III</head>
+               <p>Als die Sonne längst gesunken war und nur noch eine falbe Röthe am nordwestlichen Horizont die Stelle ihres Untergangs zeigte, stieß ein leichter Nachen vom innern Ufer des Hafens ab. Drei Personen befanden sich darin. Die eine, ein junger Mann mit gebräuntem Gesicht, führte mit kräftigen Armen zwei Ruder, welche sich fast unhörbar in die schwärzlich-grüne Fluth tauchten, obschon die Schnelligkeit, mit der das Boot die Wogen durchschnitt, bewies, mit welcher Kraft es in Bewegung gesetzt wurde. Am Hintertheil des Bootes, den linken Arm nachlässig um das Steuer geschlungen, den rechten auf den Bord <pb n="228" facs="#f0040"/>
+des Fahrzengs gestützt saß, oder lag vielmehr ein dem feinen von unzähligen kleinen Locken beschatteten Gesicht und der üppig schlanken Gestalt nach, um welche sie die enge, einfache Uniform der schleswigschen Freischärler schmiegte, zu urtheilen, eine junge Dame, die mit scheinbarer Gedankenlosigkeit in die grünliche Fluth starrte. Der dritte war ein Jüngling, welcher nur erst kürzlich das Knabenalter verlassen haben konnte. Er stand aufrecht mit im Boot und schaute trübe der geschiedenen Sonne nach. Keines von den dreien sprach ein Wort. Man hörte nur den eintönigen Taucherschlag des Ruders und das Zischen der Wogen, die sich am Kiel des Bootes brachen und zuweilen hoch aufspritzten.</p>
+               <p rendition="#et">Als der Nachen sich bereits mitten auf dem Hafen befand, wandte Ralph – den meine Leser wohl schon in dem Ruderer erkannt haben werden – seinen Blick nach dem Meere, dem er den Rücken zukehrte und sagte halblaut, als fürchte er das Schweigen zu unterbrechen:</p>
+               <p rendition="#et">
+                  <pb n="229" facs="#f0041"/>
+– Ich meine, wir müssen mehr rechts halten. Hier auf offnem Hafen sind wir zu sehr der Beobachtung ausgesetzt.</p>
+               <p rendition="#et">Alice, welche das Steuer führte, fuhr aus ihrer Träumerei empor. Sie blickte jetzt ebenfalls auf den Hafen, nickte bejahend mit dem Kopfe und wandte das Steuer. Das Boot beschrieb einen Bogen und schoß dann in grader Richtung auf die südliche Landzunge zu.</p>
+               <p rendition="#et">– Setze dich, Salvador! – sagte sie zu dem Stehenden, zog das Fernrohr Gilberts hervor und richtete es auf die dänische Fregatte, die einen Kanonenschuß entfernt, wie ein dunkler Koloß über den Spiegel des Wassers emporragte.</p>
+               <p rendition="#et">Du hast heute eine Zusammenkunft mit dem Prinzen von N....r gehabt? – sagte Ralph mit anscheinender Gleichgültigkeit.</p>
+               <p rendition="#et">– Erinnere mich nicht an diese Menschen, die mit ihrem Golde Seele wie Körper kaufen zu können glauben! Er wollte mich für die Reaktion gewinnen, und fing nach der gewöhnlichen Manier damit an, mir Schmeicheleien zu sagen, zuerst <pb n="230" facs="#f0042"/>
+über meine Schönheit, als das nicht glückte, über mein Talent und meine Kühnheit, als auch dies keine Wirkung that, über meinen Einfluß auf die Freischaaren. Jetzt verstand ich ihn. Man wünschte nämlich, ich solle, bei etwa »eintretenden Ereignissen«, die nicht im Sinne unserer Partei seien, dazu beitragen, daß keine Aufregung entstände, oder wenigstens <hi rendition="#i">mich</hi> passiv zu verhalten. Ich lehnte das Anerbieten natürlich keineswegs ab, um das schön aufblühende Vertrauen des edlen Herrn nicht zu früh zu verscherzen, ohne mich indeß zu etwas Bestimmtem zu verpflichten. So habe ich denn einen Blick in das Intriguengewebe gethan, worin die contrerevolutionäre Partei den Willen des Volks fangen will, der mir von Nutzen sein wird. Nun, die Zeit ist nahe, wo das Conto geschlossen und die Abrechnung gehalten wird. Wehe dann den diplomatischen Thierbändigern, wenn der starke Löwe sich erhebt und das Netz wie Spinnengewebe zerreißt.</p>
+               <p rendition="#et">Ralph sagte nichts, aber die doppelt kräftigen Schläge, welche seine pfeifenden Ruder dem <pb n="231" facs="#f0043"/>
+schäumenden Meere versetzte, verriethen seinen Ingrimm.</p>
+               <p rendition="#et">– Wo weilt jetzt deine Mutter, Salvador? – fragte Alice, von dem Thema abweichend.</p>
+               <p rendition="#et">– Ich weiß es nicht – versetzte dieser – aber Pater Angelikus sagte mir, ich würde sie wiedersehen, wenn der Augenblick gekommen.</p>
+               <p rendition="#et">Alice fragte nicht, welchen Augenblick der Pater gemeint habe. Sie verstand nur zu gut. Sie seufzte. – – Dieser Seufzer barg eine tiefe, unheilvolle Bedeutung. Sie dachte an den Fürsten Lichnowski, der Vorkämpfer der Volksfreiheit in Wien, und Lichnowski, der Verräther an der Volkssache in Berlin! Jenen hatte sie mit Leidenschaft geliebt, auf diesen blickte sie mit schmerzlicher Verachtung herab. Aber nicht blos diese Verachtung war es, die wie ein Winterreif auf die Liebesglut in ihrer Brust gefallen war und sie bis auf den letzten Funken gelöscht hatte, so daß nur noch die kalte Asche der Erinnerung übrig geblieben war – nicht nur diese Verachtung war es, was ihr Herz schmerzlich in diesem Augenblicke <pb n="232" facs="#f0044"/>
+zusammenzog, sondern der Gedanke an das Verhängniß, welches wie ein Damoklesschwert über seinem ahnungslosen Haupte schwebte, und dessen Erfüllung mit Sturmschritten herannahte. Sie schauerte oft wie in einem Fiebertraume zusammen, wenn sie auf den bleichen Salvador blickend schon das Racheschwert in seiner Hand zu sehen glaubte.</p>
+               <p rendition="#et">Sie sprach mit dem Knaben nie von seinem Vater, aber sie wußte, daß in seiner Brust nur zwei Gedanken und zwei Empfindungen lebten, das Gefühl der Erbitterung bei dem Gedanken an den Verführer seiner Mutter und das Gefühl der zerstörendsten Liebe bei dem Gedanken an Lydia.</p>
+               <p rendition="#et">Diese beiden Gefühle waren zuletzt trotz ihres völligen Gegensatzes zu einer einzigen Empfindung zusammengeschmolzen, und in der That hatten sie Eins gemein: das Gefühl einer stets unbefriedigten Sehnsucht und der daraus entspringenden tiefen Bitterkeit.</p>
+               <p rendition="#et">– – – – – – – – – – – – – – – – – – – – – – – – – –</p>
+               <p rendition="#et">Das Boot landete. Das letzte Roth war vom Himmel verschwunden, die Nacht senkte sich auf <pb n="233" facs="#f0045"/>
+das Meer herab. Ralph erhob sich zuerst. Er ergriff seine Doppelbüchse und lehnte sie vorsichtig an eine junge Birke am Fuße des Hügels. Dann reichte er Alicen die Hand, die diese jedoch nicht annahm, sondern mit einem graziösen Sprunge das Ufer erreichte. Salvador folgte ihr.</p>
+               <p rendition="#et">Ralph zog das Boot in die Bucht. Alle drei stiegen jetzt behutsam den Hügel hinan. Nachdem das Terrain rekognoscirt und sicher befunden war, wurde auf dem alten Runensteine Posto gefaßt.</p>
+               <p rendition="#et">– Wir müssen nach zwei Seiten hin auf Gäste gefaßt sein – sagte Alice, welche in der Erwartung des Abenteuers ihre düstere Stimmung gegen eine ausgelassene Munterkeit vertauscht hatte. – Es ist sehr wahrscheinlich, daß Gilbert den heutigen Abend selber zu einem Rendezvous benutzen wird. Salvador achte du auf die Landseite und melde Alles, was du siehst.</p>
+               <p rendition="#et">– Es ist nothwendig, Ralph, daß mich der Capitain allein trifft – sagte sie zu diesem. – Ist er nicht zu stark bewaffnet, so werde ich wohl schon mit ihm allein fertig. Jedenfalls kommst <pb n="234" facs="#f0046"/>
+du mir nicht eher zu Hülfe, als bis ich das verabredete Zeichen gebe. Das Andre wird sich finden. Hast du die Laterne und die Stricke in Bereitschaft?</p>
+               <p rendition="#et">– Alles in Ordnung – erwiederte Ralph, die Pistons der Büchse mit Zündhütchen versehend – schreiten wir bald zur Ausführung?</p>
+               <p rendition="#et">– Noch ist's nicht Zeit! – wollte Alice sagen, aber das Wort erstarb auf ihren Lippen; als ganz in ihrer Nähe, in der Richtung nach der Stelle hin, wo sie Salvador postirt hatte, ein Pistolenschuß fiel. Alice erbleichte. Ralph sprang mit dem Ausrufe: Wir sind verrathen – Salvador zu Hülfe. Alice folgte ihm.</p>
+               <p rendition="#et">Als sie die Stelle erreichten, bot sich ihnen ein unerwartetes Schauspiel dar. Gilbert lag, das abgeschossene Pistol krampfhaft in der Hand haltend, regungslos am Boden. Salvador knieete, mit der linken Hand seine Gurgel umschließend, auf seiner Brust, während die Rechte den funkelnden Dolch nach seinem Herzen zuckte.</p>
+               <p rendition="#et">
+                  <pb n="235" facs="#f0047"/>
+– Halt! – gebot Alice vortretend – tödte ihn nicht. Wir müssen ihn noch gebrauchen.</p>
+               <p rendition="#et">Salvador erhob sich und ließ Gilbert frei, welcher nun mit einem raschen Sprunge auf Alice zustürzen wollte. Da streckte sich ihm der Büchsenlauf Ralphs entgegen und bestürzt zurücktaumelnd wollte er sein Heil in der Flucht versuchen.</p>
+               <p rendition="#et">– Ein Schritt und du bist ein Sohn des Todes. –</p>
+               <p rendition="#et">Da brach die Kraft des Elenden zusammen.</p>
+               <p rendition="#et">– Was wollt ihr mit mir beginnen? – stammelte er zitternd, als Salvador Stricke herbeiholte und Gilberts Hände auf den Rücken zusammenband.</p>
+               <p rendition="#et">– An uns ist es jetzt, zu fragen, an dir, zu antworten – versetzte Alice. – Ins Boot mit ihm! – wandte sie sich zu Ralph.</p>
+               <p rendition="#et">Gilbert wurde ins Boot hinabgebracht und ihm bedeutet, daß bei dem geringsten Laut seinerseits eine Kugel sein Gehirn zerschmettern würde. Salvador wurde ihm zur Gesellschaft zurückgelassen. Dann wurde die Laterne angezündet, doch so, <pb n="236" facs="#f0048"/>
+daß nur von der Meerseite das Licht sichtbar war. Hierauf begab sich Alice zu Gilbert in das Boot hinab, welcher halsstarrig ihren Fragen ein consequentes Schweigen entgegensetzte.</p>
+               <p rendition="#et">– Da Ihr nicht antwortet, Chevalier – sagte sie endlich – so werde ich mir auf andere Weise Aufklärung verschaffen müssen. Ralph! – durchsuche ihn und bringe mir alle Briefschaften, welche er bei sich führt.</p>
+               <p rendition="#et">Nach wenigen Minuten kam Ralph mit einem Packet Briefe den Hügel hinauf. Alice öffnete es sogleich, begnügte sich jedoch, die Adressen und wenn sie an Gilbert selbst gerichtet waren, die Unterschriften zu lesen. – Von der provisorischen Regierung in Rendsburg – sagte sie – stecke ihn ein, Ralph, er kann uns als Empfehlungsschreiben dienen. – An den Capitain Falkson am Bord des Dannebrog. Wir wollen ihn ihm selbst vorlesen. Lege ihn zur Seite. – Vom General von Below an den General von Wrangel. Der kommt zum ersten.</p>
+               <p rendition="#et">An – – – – o Himmel! – rief Alice, <pb n="237" facs="#f0049"/>
+den Brief sowie einen andern, zu dem jener wohl die Antwort sein mochte, in ihre eigene Brusttasche steckend. – Es ist gut, daß ich meinen Brief heute früh nicht abgeschickt. Wer weiß, ob ich überhaupt noch an ihn schreibe, wenn ich <hi rendition="#i">diese</hi> hier gelesen. – Hier ist noch eine topographische Karte von der Ostküste Schleswigs und – – das ist Alles – – – –. Hatte er es sehr versteckt?</p>
+               <p rendition="#et">– Er trug das Packet auf bloßer Brust.</p>
+               <p rendition="#et">– St! Hörtest du nichts?</p>
+               <p rendition="#et">– In der That, es schien mir, als ob in der Entfernung sich ein Ruder ins Meer senkte.</p>
+               <p rendition="#et">– Er ists. Auf deinen Posten, Ralph!</p>
+               <p rendition="#et">Man hörte jetzt deutlich das Boot sich dem Lande nähern.</p>
+               <p rendition="#et">– Gieb mir doch den Brief an den Capitain zurück – sagte Alice, überlegend, daß dieser Brief ihr als Mittel dienen könnte, wenn der Capitain, durch die fremde Erscheinung überrascht, es für besser halten sollte, sich wieder in sein Boot zurückzuziehen.</p>
+               <p rendition="#et">
+                  <pb n="238" facs="#f0050"/>
+Ralph seufzte, als er den Brief wieder herausgab. Denn er verstand Alicens Gedanken sehr wohl. Auf den Rückzug des Capitains hatte er seine letzte Hoffnung gesetzt, die Wette zu gewinnen. Wie die Sachen nun standen, mußte er sie verlieren, wenn er nicht Alicen ins Verderben stürzen wollte.</p>
+               <p rendition="#et">Das Boot landete. Man hörte die Schritte des Capitains durch das hohe Gras streifen. Jetzt hatte er den Steig, der zum Gipfel führte, erreicht.</p>
+               <p rendition="#et">– Guten Abend – schallte Alicen eine Stimme entgegen. Sie erschrack. Das war nicht das Organ des Capitains. Dennoch erwiederte sie den Gruß, vergaß jedoch in der Verwirrung ihre Stimme zu vertiefen; der Fremde stutzte und trat dann mit größerer Vorsicht näher. Alice hatte sich indeß gesammelt.</p>
+               <p rendition="#et">– Warum ist der Capitain nicht selbst gekommen? – fragte sie, einen Schritt vortretend. – Ich kenne Sie nicht, mein Herr, und erwarte Sie auch nicht.</p>
+               <p rendition="#et">
+                  <pb n="239" facs="#f0051"/>
+– Wir scheinen in gleichem Falle – versetzte Jener, ein junger Mann in der Uniform eines dänischen Seeofficiers – doch, eine Frage erlauben Sie: Kennt und erwartete der Capitain <hi rendition="#i">Sie</hi>?</p>
+               <p rendition="#et">– Natürlich, was soll die Frage? Würde er sonst meiner Aufforderung gefolgt sein?</p>
+               <p rendition="#et">Der Officier wußte nicht, was er aus der merkwürdigen Erscheinung dieses in Freischärleruniform ihm entgegentretenden Weibes machen sollte. In ihrem Anschauen verloren, fiel es ihm nicht ein, daß sie wahrscheinlicher Weise nicht allein hieher gekommen sein dürfte.</p>
+               <p rendition="#et">– Kommen wir zur Sache! – fuhr Alice fort. – Sind Sie im Auftrage des Capitains hier, so wird er Ihnen ohne Zweifel eine Vollmacht ausgestellt haben. Sind Sie damit versehen?</p>
+               <p rendition="#et">– Allerdings – erwiederte jener zögernd. – Allein, dieselbe ist für den Chevalier – – –</p>
+               <p rendition="#et">
+                  <pb n="240" facs="#f0052"/>
+– Chevalier St. Just, ich weiß es. Indeß da er zu kommen verhindert ist und mich beauftragt hat, seine Stelle einzunehmen. – – –</p>
+               <p rendition="#et">– Auch Sie besitzen dann natürlich eine Vollmacht? – fragte der Officier. – –</p>
+               <p rendition="#et">– Wozu? Da mich der Capitain kennt. Indessen wird Ihnen dies genügen. Sie hielt den Brief an den Capitain so, daß das Licht der Laterne darauf fiel.</p>
+               <p rendition="#et">Der Officier verneigte sich. Ich bin befriedigt – doch habe ich einen Wunsch – – – –</p>
+               <p rendition="#et">– Der wäre?</p>
+               <p rendition="#et">– Zu wissen, mit wem mich das Schicksal zu diesem wunderbaren Rendezvous zusammengeführt hat.</p>
+               <p rendition="#et">– Es thut mir leid, daß ich Ihnen in diesem Augen blicke nicht genügen kann, doch werden Sie noch heute meinen Namen erfahren. Lassen Sie jetzt hören, wie weit die Verhandlungen vorgeschritten sind.</p>
+               <p rendition="#et">– So weit, daß übermorgen der Abschluß des Waffenstillstandes zu erwarten steht. Es waren <pb n="241" facs="#f0053"/>
+seitens des Reichscommissarius der deutschen Centralgewalt und des Generals Wrangel einige Schwierigkeiten gemacht worden. Da drohte das preußische Cabinet mit einem Separatfrieden und dem General Wrangel mit Entlassung aus dem preußischen Dienste; und die Herren gaben nach.</p>
+               <p rendition="#et">– Wie aber, wenn die preußische Regierung in Frankfurt desavouirt wird?</p>
+               <p rendition="#et">– Dafür ist gesorgt. Es wird vielleicht einige Stürme setzen, und die Majorität schließlich die Sache als fait accompli betrachten und darüber zur Tagesordnung übergehen.</p>
+               <p rendition="#et">– Woher wissen Sie das?</p>
+               <p rendition="#et">– Der Capitain hat es von Herrn von Reetz gehört. Es wird versichert, daß der Fürst Lichninsky, Herrn von V. und einige andere Mitglieder der Rechten sich für die Majorität verbürgt hätten.</p>
+               <p rendition="#et">– Wahrhaftig! – rief Alice in einem Tone, der die bittere Ironie, welche ihre Lippen umzog, nicht hinlänglich versteckte. – Das sind in der <pb n="242" facs="#f0054"/>
+That erfreuliche Nachrichten – – – und glauben Sie, daß dem Waffenstillstande ein Frieden folgen wird?</p>
+               <p rendition="#et">– Schwerlich. Ein Frieden liegt gar nicht in der Absicht des dänischen Kabinets. Es würde den Krieg fortführen, wenn es die Möglichkeit eines Erfolges sähe. Allein wir wissen recht gut, daß, wenn wir so lange warten, bis vielleicht ein strenger Winter die Blokade der Häfen unmöglich, dagegen den Uebergang der feindlichen Truppen nach Alsen und Fünen möglich macht, die Abschließung eines Waffenstillstandes seine Schwierigkeiten haben könnte. Der Zweck des Waffenstillstandes ist kein anderer, als den Winter in Ruhe und Sicherheit auf die Vorbereitungen zu einem Frühlingsfeldzuge bedacht sein zu können. Deshalb wird auch derselbe spätestens bis zum März dauern.</p>
+               <p rendition="#et">– Und die Paulskirche ist in diesen Landesverrath eingeweiht? – rief Alice, die ihre Entrüstung nicht länger bemeistern konnte, voller Hohn aus.</p>
+               <p rendition="#et">
+                  <pb n="243" facs="#f0055"/>
+Der Officier sah sie erstaunt an. – Ich verstehe Sie nicht – sagte er.</p>
+               <p rendition="#et">– O, armes, betrogenes Vaterland, daß diese Elenden es wagen dürfen, dich zum Spielball der Fürstenlaunen herabzuwürdigen! – Sie sind mein Gefangener, Lieutenant – wandte sie sich an den Erstaunten, der einen Schritt zurücktretend die Hand an den Degen legte.</p>
+               <p rendition="#et">In demselben Moment aber fühlte er sich von zwei starken Händen an den Schultern gefaßt und zu Boden gezogen. Ehe er einen Ruf nach Hülfe ausstoßen konnte, war sein Mund mit einem Schnupftuch verstopft.</p>
+               <p rendition="#et">Nachdem die Hände des Officiers zusammengebunden waren, bat Alice ihn mit der liebenswürdigsten Freundlichkeit, sich zu erheben; worauf alle Drei sich nach dem Boote in Bewegung setzten.</p>
+               <p rendition="#et">– Chevalier – sagte scherzend Alice – unsere Gesellschaft hat sich vermehrt.</p>
+               <p rendition="#et">Erlauben die Herren, daß ich Sie einander vorstelle; Chevalier von St. Just und – – – <pb n="244" facs="#f0056"/>
+ja so, ich weiß Ihren Namen noch nicht. So muß der Chevalier noch das Vergnügen entbehren, Ihre Bekanntschaft zu machen.</p>
+               <p rendition="#et">Ralph stieß das Boot vom Lande ab. Da ließ der Chevalier, dessen Mund frei war, auf einen bezeichnenden Blick des Officiers, plötzlich einen gellenden Pfiff ertönen.</p>
+               <p rendition="#et">– Guter Gilbert, Du wirst Dich noch um Deinen Kopf pfeifen – rief Alice, auf ihn zueilend und ihr eigenes Schnupftuch ihm zwischen die Zähne schiebend. – Zieh' die Ruder fester an, lieber Ralph; und das Boot durchschnitt, trotz der großen Last, die es trug, pfeilschnell die hochaufzischenden Wogen.</p>
+               <p rendition="#et">Doch zeigte es sich bald, daß der Pfiff seine Wirkung nicht verfehlt hatte. Das Boot des Officiers, von zwei rüstigen Matrosen bemannt und fast leer, wie es war, hatte nicht sobald die Spur des fliehenden Fein des bemerkt, als es mit einer Geschwindigkeit, die der des Fahrzeugs unserer Freunde um das Doppelte überlegen war, die Jagd begann.</p>
+               <p rendition="#et">
+                  <pb n="245" facs="#f0057"/>
+– Halt ein, Ralph, es nützt zu Nichts, daß wir fliehen. Du kannst Deine Kräfte besser brauchen. Zieh' die Ruder ein und nimm die Büchse zur Hand. Salvador, Du, nimm das Pistol Gilberts. So!</p>
+               <p rendition="#et">Das Boot kam mit furchtbarer Schnelligkeit näher. Doch da die Dunkelheit, selbst die nächsten Gegenstände, nur als ungewisse Schatten erscheinen ließ, so konnten die Angreifer unmöglich die Distance zwischen ihrem und dem feindlichen Boote berechnen. Sie hatten sich nur durch den Schall der Ruder leiten lassen und waren jetzt, da diese schwiegen, in völliger Ungewißheit über die Richtung, welche sie einzuschlagen hätten. Indessen verminderten sie die Schnelligkeit nicht, in der Meinung, daß durch ein Umschlagen des Windes der Schall nach einer andern Seite geführt werde.</p>
+               <p rendition="#et">Alice saß, den starren Blick auf das näherkommende Boot gerichtet, am Steuer. Jetzt sah sie es heranschießen. Ein Druck am Steuer und das gehorsame Fahrzeug beschrieb einen Halbkreis <pb n="246" facs="#f0058"/>
+und stieß im nächsten Augenblick dem heranstürmenden Feinde den Kiel in die Flanke. Während es selbst nur von der Erschütterung getroffen, tief stöhnte, verloren die beiden Männer des feindlichen Bootes das Gleichgewicht und stürzten über Bord ins Meer.</p>
+               <p rendition="#et">– Jetzt, Ralph! – sagte Alice – mit einem Lächeln der Zufriedenheit – lege die Ruder wieder ein! –</p>
+               <p rendition="#et">Von Neuem setzte sich das Fahrzeug in Bewegung, während die beiden Matrosen, wieder auftauchend, den Bord des Bootes zu erfassen suchten. In der That gaben sie, durch ihren Unfall erbittert, nachdem sie sich glücklich ins Boot zurückgerettet hatten, nicht nur nicht die Verfolgung auf, sondern setzten sie mit noch größerem Eifer fort. Aber theils der Umstand, daß sie ein Ruder eingebüßt, theils die große Entfernung, in der sich bereits das verfolgte Boot befand, ließen sie bald von ihrem Vorhaben abstehen.</p>
+               <p rendition="#et">Als Ralph gelandet war, wurde Kriegsrath über die Gefangenen gehalten und beschlossen, <pb n="247" facs="#f0059"/>
+daß sie so lange im Boote unter der Aufsicht Salvadors und Alicens zurückbleiben sollten, bis Ralph vom General von Wrangel Bescheid darüber erhalten, was mit dem dänischen Officier geschehen solle.</p>
+               <p rendition="#et">Nach kurzer Zeit kehrte Ralph niedergeschlagen und erbittert durch die Antwort zurück, daß, da die Abschließung des Waffenstillstandes nahe bevorstehe, der Officier nicht zurückgehalten werden dürfte, weil eine solche Gefangennehmung, besonders unter den Umständen, wie sie veranstaltet worden, moralisch als ein Friedensbruch betrachtet werden würde.</p>
+               <p rendition="#et">– Ich hab's Dir ja vorhergesagt – erwiederte Alice ruhig. Binde ihnen die Hände los und lasse sie frei.</p>
+               <p rendition="#et">– Auch Gilbert? – fragte Salvador.</p>
+               <p rendition="#et">– Ja! – erwiederte Alice, die ein unbezwingliches Gefühl davon abhielt, den Elenden der tausend Mal verdienten Strafe anheimzugeben.</p>
+               <p rendition="#et">Schweigend lösten Salvador und Ralph die Stricke, mit denen die Hände der Gefangenen gefesselt <pb n="248" facs="#f0060"/>
+waren. Ohne ein Wort zu wechseln, entfernten sich diese.</p>
+               <p rendition="#et">Die drei Freunde aber bestiegen wieder ihr Boot und begaben sich, am Ufer hinsteuernd, auf den Rückweg.</p>
+               <p rendition="#et">Alice schien über einen Entschluß zu sinnen.</p>
+               <p rendition="#et">– Woran denkst Du? – – fragte Ralph, sich zu ihren Füßen kauernd, während Salvador gemächlich das Boot in Bewegung setzte.</p>
+               <p rendition="#et">– Ich überlege, ob ich schon Morgen reisen soll, oder erst den Abschluß des Waffenstillstandes abwarte.</p>
+               <p rendition="#et">– Reisen! – fragte bestürzt Ralph, sich halb aufrichtend.</p>
+               <p rendition="#et">– Wie kann Dich das wundern? Ich halte es hier nicht mehr aus, nachdem abermals alle Hoffnungen verschwunden, die ich auf das frisch aufblühende Leben, auf die politische Regeneration Deutschlands, die – wie ich meinte – hier in Schleswig ihren Anfang nehmen würde, gesetzt hatte.</p>
+               <pb n="249" facs="#f0061"/>
+               <p rendition="#et">– Du siehst zu schwarz, Alice. – Wenn irgendwo, so finden wir hier diejenigen Elemente, welche die erste Bedingung jedes volksthümlichen Staatslebens sind, ich meine: nirgends hat die demokratische Bildung und das Bewußtsein des Volks über seine eigene Souverainität tiefere Wurzeln geschlagen, als in dem »meerumschlungenen« Schleswig.</p>
+               <p rendition="#et">– Du irrst, mein Lieber – sagte traurig Alice – die demokratischen und selbst republikanischen Elemente, welche hier sein mögen, concentrirten sich in den Freischaaren und den süddeutschen Truppen. Die Schleswiger selbst sind reine Bourgois, die nur einen einzigen erregbaren Punkt in ihrer indifferenten Seele besitzen, ihren Haß gegen Dänemark; und selbst über diesen Haß beginnt sich bereits eine Decke zu legen. Ziehen die Truppen aus dem Lande, werden die Freischaaren aufgelöst, und geht der <hi rendition="#i">brave Major</hi> von der <hi rendition="#i">Tann</hi> nach München zurück, dann ist <hi rendition="#i">hier</hi> Alles zu Ende.</p>
+               <p rendition="#et">– Es mag sein, daß dadurch Schleswig aufhört, <pb n="250" facs="#f0062"/>
+der Schauplatz der Entscheidung über das künftige Schicksal Deutschlands zu sein, indessen werden nicht alle Truppen zurückgezogen, und wenn auch die Freischaaren aufgelöst werden, so bleiben doch unter der Linie noch tüchtige Kräfte.</p>
+               <p rendition="#et">– Zum Beispiel? –</p>
+               <p rendition="#et">– Zum Beispiel der Major von H. Auch er gehörte, wie Du weißt, den Freischaaren Tann's an, und Du wirst nicht leugnen, daß er zu den ehrlichsten Republikanern gehört.</p>
+               <p rendition="#et">– Dein Beispiel ist unglücklich gewählt. Herr v. H. ist meiner gewissen Ueberzeugung nach der entschiedenste Absolutist, den sich die Regierung nur wünschen kann.</p>
+               <p rendition="#et">– Ah, Du scherzest! – sagte Ralph ungläubig lächelnd.</p>
+               <p rendition="#et">– Ich könnte Dir die Biographie des sehr ehrenwerthen Herrn Magnus H. – so wie manche Historien über den Republikanismus unserer »entschiedensten Demokraten« erzählen – sagte mit Bitterkeit Alice. –</p>
+               <p rendition="#et">
+                  <pb n="251" facs="#f0063"/>
+Aber die Zeit wird kommen, wo nicht nur ihre Maske, sondern der ganze Kopf herabfallen wird. – Trotzdem – setzte sie nach einer Pause hinzu – würde ich es jetzt als eine Pflicht betrachten, hier zu bleiben, wo ich zuerst nur aus Vergnügen war – wenn mich nicht andere Pflichten abriefen.</p>
+               <p rendition="#et">– <hi rendition="#i">Andere Pflichten</hi>? – sagte traurig Ralph. – Ich begleite Dich – Alice.</p>
+               <p rendition="#et">– Nein, ich gehe allein. – Nur Salvador kommt mit mir. Du, Ralph, mußt bleiben, weil es auch für Dich hier Pflichten giebt.</p>
+               <p rendition="#et">– Und wohin gehst Du? – fragte er noch einmal.</p>
+               <p rendition="#et">– Nach Frankfurt.</p>
+               <p rendition="#et">– Nach Frankfurt! – wiederholte mit zitternder Stimme Ralph, indem er einen halb ängstlichen, halb vorwurfsvollen Blick auf Alicen warf.</p>
+               <p rendition="#et">– Hast Du Vertrauen zu mir? – sagte mit Ernst Alice.</p>
+               <p rendition="#et">
+                  <pb n="252" facs="#f0064"/>
+– Ja! – erwiederte aus voller Seele Ralph, die Hand auf's Herz legend.</p>
+               <p rendition="#et">– Nun, dann frage nicht weiter, leb' wohl und denke meiner. Wir sind am Ziele.</p>
+               <pb n="253" facs="#f0065"/>
+            </div>
+            <div type="chapter" xml:id="Aston-Louise-d1e17385">
+               <head>IV</head>
+               <p>Der Waffenstillstand war zu Malmoe am 26. August auf 7 Monate abgeschlossen worden. Durch das deutsche Land ging nur ein Schrei der Entrüstung über die Schmach, welche dem deutschen Namen dadurch widerfahren. In Schleswig stieg die Aufregung selbst unter den Truppen bis zu einem so bedenklichen Grade, daß sich General von Wrangel veranlaßt fühlte, unter dem Titel einer allgemeinen Recognoscirung sämmtliche Truppentheile bis hinauf zur jütländischen Grenze zu inspiciren. Wohl wissend, daß nichts mehr den Gehorsam und die Subordination erhält als eine, wenn auch übertriebene Anerkennung <pb n="254" facs="#f0066"/>
+derselben, sprach er in einem langen Armeebefehl seine</p>
+               <p>»vollkommenste Zufriedenheit« über die »Haltung der Truppen« aus.</p>
+               <p rendition="#et">Zwar bedauert er die »Ungleichmäßigkeiten im Aeußern,« die nothwendig aus der »verschiedenartigen Uniformirung« hervorgehen, und »dem Auge sich mehr oder weniger stark bemerkbar darstellen müsse,« beeilt sich jedoch hinzuzusetzen, daß diese »Ungleichmäßigkeiten« doch wieder »vollkommen ausgeglichen« werden durch den »Geist der Ordnung, des Gehorsams und der freudigen Hingebung,« der ihn zu den »<hi rendition="#i">schönsten Erwartungen</hi> berechtigt,« wenn es ihm</p>
+               <p>»beschieden sein sollte, <hi rendition="#i">hier oder auf einem andern Kriegsschauplatz, jene Truppen gegen den Feind</hi> zu führen« –</p>
+               <p rendition="#et">O, du ahnungsvoller Engel Du! – – – – denn man kann unmöglich annehmen, daß der General damals schon eine wirkliche <hi rendition="#i">Wissenschaft</hi> darüber gehabt habe, daß er nach Berlin als Commandeur der »Marken« berufen werde, <pb n="255" facs="#f0067"/>
+um die Nationalversammlung zu sprengen und den Belagerungszustand über die ruhige Stadt zu verhängen.</p>
+               <p rendition="#et">Ja, der »Geist des Gehorsams und der freudigen Hingebung,« ist dem preußischen Kriegsheere vortrefflich eingeimpft und genährt worden.</p>
+               <p rendition="#et">– – – – – – – – – – – – – – – – – – – – – – – – – –</p>
+               <p rendition="#et">Der Waffenstillstand von Malmoe war der erste Triumph, den die Fürsten dem Volke ins Gesicht schleuderten. Sie durften es wagen, waren sie doch ihrer Trabanten in Frankfurt gewiß.</p>
+               <p rendition="#et">Die denkwürdige Sitzung der deutschen Nationalversammlung am 16. September 1848 streifte dem arglosen, vertrauungsvollen Volk die Schuppen von den Augen. In dieser eilfstündigen Sitzung wurde die Frage des Malmoer Waffenstillstandes definitiv verhandelt. Die Commission, welche denselben zu prüfen hatte, sprach bedenklich ihre Ansicht dahin aus, daß die Nationalversammlung ihre Anerkennung versagen solle. In der darauf beginnenden Debatte zeichneten <pb n="256" facs="#f0068"/>
+sich unter den Rednern, welche <hi rendition="#i">für</hi> die Anerkennung sprachen, <hi rendition="#i">Herr von Vinke</hi> und der <hi rendition="#i">Fürst Lichnowski</hi>, unter denen, welche <hi rendition="#i">gegen</hi> dieselbe sprachen, <hi rendition="#i">Robert Blum</hi> und <hi rendition="#i">Simon aus Trier</hi> aus.</p>
+               <p rendition="#et">Von des Morgens um 9 Uhr hatte die Discussion ohne Unterbrechung bereits bis Nachmittags um 5 Uhr gedauert und immer noch war kein Resultat abzusehen. Das Volk hatte sich erwartungsvoll um die Paulskirche geschaart und diskutirte nach seiner eigenen Weise. Nur wenige theilten die allgemeine Spannung nicht; zu diesen Wenigen gehörten drei Männer, welche dicht am Hauptgange der Kirche standen und mit gleichgültiger, fast verächtlicher Miene auf das hin- und herwogende Publikum blickten. Von Zeit zu Zeit flüsterten sie sich einige Bemerkungen zu.</p>
+               <p rendition="#et">– Es ist nothwendig – sagte der jüngste von ihnen – daß wir hinausschicken. Man kann immer nicht wissen, was geschieht. Seit einer halben Stunde ist das Volk um das Doppelte angewachsen.</p>
+               <p rendition="#et">
+                  <pb n="257" facs="#f0069"/>
+– Bah! – erwiederte der Angeredete – was Du da »Volk« zu nennen beliebst, besteht zu drei Viertheilen aus Dütchendrehern und Pfeffersackscommis. Ich kenne die Frankfurter besser. Sie wundern sich über die lange Sitzung und meinen in ihrem Bourgeoisverstande, daß etwas Wichtiges dahinter stecken müsse. Wenn die Herren aus der Paulskirche herauskommen, gehen sie eben so ruhig nach Hause, als wenn sie Sonntags drüben im Forsthause ihren Schoppen getrunken.</p>
+               <p rendition="#et">– So gehe ich allein, auf meine eigene Verantwortung – sagte der Erstere entschlossen. – Sie hat uns ausdrücklich beauftragt, ihr sogleich zu melden, wenn das geringste Merkmal da wäre, was auf einen Tumult hindeute.</p>
+               <p rendition="#et">– Meinetwegen geh in's Teufels Namen. Was kümmert's mich? Aber ich sage es frei heraus, diese Weiberhierarchie will mir verflucht schlecht gefallen.</p>
+               <p rendition="#et">Was soll diese Geheimnißkrämerei bedeuten? Dummes Zeug. Wenn's ans Losschlagen einmal<pb n="258" facs="#f0070"/>
+ kommt, was ich in diesem verdammten Meßjudennest sehr bezweifle, so kehre ich mich an Niemandem, sondern gehe meinen eignen Weg.</p>
+               <p rendition="#et">– Thun, was Du nicht lassen kannst – erwiederte Jener – ich thue dasselbe. Adieu.</p>
+               <p rendition="#et">– Ich begleite Dich, Joseph – sagte der Dritte, welcher bisher schweigend an dem Pfeiler gelehnt hatte. Sie schlugen den Weg nach der Mainlust ein.</p>
+               <p rendition="#et">Auf einer der schattigsten Plätze der Mainlust, vor sich die gefüllten Becher, saßen Alice, der Pater Angelikus und Salvador. Aus der Ferne schallten die vollen Klänge der Harmoniemusik herüber. Aber die drei Freunde schienen weder durch den Duft des herrlichen Rheinweins, noch durch den Zauber der Musik erheitert zu werden. Ernst saßen sie einander gegenüber, eine wahrscheinliche Folge des Gesprächs, das sie eben mit einander geführt hatten.</p>
+               <p rendition="#et">Alice wandte zuweilen einen Blick zwischen die Bäume in der Richtung nach Frankfurt zu, als erwarte sie Jemand. Der Pater blickte aufmerksam <pb n="259" facs="#f0071"/>
+auf Alice, als wolle er die Wirkung seiner letzten Worte prüfen. Salvador war noch blässer als gewöhnlich, und auffallend gleichgültig gegen das vorhin geführte Gespräch.</p>
+               <p rendition="#et">– Wozu sind Sie entschlossen, werthe Freundin? – fragte endlich der Pater, seinen Blick von Alicen abwendend.</p>
+               <p rendition="#et">– Zu handeln, wenn's Zeit ist – erwiederte kurz Alice.</p>
+               <p rendition="#et">– Sehr wohl – fuhr der Pater mit sanftem Tone fort. – Allein, wenn's nun Zeit ist, zu handeln, wie weit sind Sie zu gehen entschlossen?</p>
+               <p rendition="#et">– So weit die Nothwendigkeit und die von mir übernommene Mission es fordert. – – – Pater, fragen Sie mich nicht aus. Ich kann Ihnen keine bestimmte Antwort geben. Aber Eins kann ich Ihnen sagen: Unsere Wege mögen dieselben sein, oder auch nicht; sicherlich aber sind unsere Ausgangspunkte nicht die selben. Bedenken Sie wohl, daß <hi rendition="#i">ich</hi> mich nicht zum Werkzeuge fremder Privatrache hergebe.</p>
+               <p rendition="#et">
+                  <pb n="260" facs="#f0072"/>
+Der Pater sah sie mit einem lauernden Blicke an. Ein Lächeln des Hohns flog über seinen zusammengekniffenen Mund, als er mit seinem gewöhnlichen ruhigen Tone sagte:</p>
+               <p rendition="#et">– Es ist ein Unglück, was ich tief beklage, daß Sie nicht eine bessere Meinung von mir gewinnen können und nicht mehr Vertrauen in mich setzen. Sie kennen meine Zwecke. Sie sind so allgemein wie die Ihrigen, oder halten Sie die Interessen des Katholizismus in seiner ganzen Ausdehnung für weniger umfassend als die Interessen der radikalen Partei in Deutschland? Nun wohl, so fällt der Vorwurf, der indirekt in Ihren Worten liegt, daß ich nur eine Privatrache befriedigen will, in sich zusammen. Sie haben eine Mission, ich erkenne es an, ich habe die meinige. Die Mittel, sie zu erfüllen, sind wie das Ziel, das sie erreichen sollen, dieselben. Wohlan, so gehen wir miteinander! Ich brauche, um die meinige zu erfüllen, die Unterstützung der radikalen Partei, Sie, um die Ihrige zu vollenden, <pb n="261" facs="#f0073"/>
+das, was die katholische Partei Ihnen bieten kann.</p>
+               <p rendition="#et">Alice wollte antworten, als sie die beiden jungen Männer von der Paulskirche auf sich zuschreiten sah. Rasch erhob sie sich und ging ihnen entgegen.</p>
+               <p rendition="#et">– Ist die Sitzung zu Ende? – fragte sie schnell.</p>
+               <p rendition="#et">– Nein – war die Antwort – aber eine große Menge Menschen ist draußen versammelt und harrt auf das Resultat. –</p>
+               <p rendition="#et">Unbefriedigt kehrte sie zum Pater zurück und fuhr mit diesem und Salvador augenblicklich nach Frankfurt. Als sie dort hörte, daß der Majoritätsantrag mit 258 gegen 237 Stimmen verworfen und demnach der Waffenstillstand, trotz des Hohns, der darin lag, daß die Centralgewalt beim Abschluß desselben vollständig bis auf den Namen ignorirt worden war, anerkannt sei, sagte sie, mit Thränen im Blick und zitternder Stimme, zum Pater Angelikus, indem sie ihm die Hand reichte:</p>
+               <p rendition="#et">
+                  <pb n="262" facs="#f0074"/>
+– Ich bin entschlossen, Pater. Ich ziehe meine Hand, die <hi rendition="#i">ihn</hi> bisher beschützte, von ihm ab. –</p>
+               <p rendition="#et">Des Paters Züge veränderten sich nicht. Er nickte nur mit dem Kopfe und verließ schweigend das Zimmer.</p>
+               <p rendition="#et">Die Nachricht von dem Resultate der Sitzung verbreitete sich mit stürmischer Schnelligkeit durch die Stadt. Eine gährende Bewegung gab sich urplötzlich in dem Volke kund. Große Haufen zogen, die Nationalversammlung verwünschend, durch die Straßen nach der Westendhall; andere sammelten sich vor dem englischen Hofe, dem Zusammenkunftsorte der Abgeordneten der rechten Seite. Fenster wurden eingeworfen und mannigfach donnernde Pereats auf die Rechte ausgebracht. Generalmarsch tönte. Der englische Hof wurde von zwei Compagnien Kurhessen umzingelt, das Volk zurückgedrängt und das Haus besetzt. Aber noch hatte der Zorn des Volks nicht den höchsten Grad erreicht. Es fehlte die Einheit des Bewußtseins<pb n="263" facs="#f0075"/>
+ in der Menge. Um Mitternacht herrschte wieder vollkommene Ruhe.</p>
+               <p rendition="#et">– – – – – – – – – – – – – – – – – – – – – – – – – –</p>
+               <p rendition="#et">Tausende strömten am Nachmittage des folgenden Tages von allen Seiten her nach der Pfingstweide zur Volksversammlung. Sämmtliche demokratische Vereine der umliegenden Ortschaften, so wie Frankfurt selbst setzten sich in corpore nach der Pfingstweide in Bewegung. Nachdem die Redner, welche meistens wie <hi rendition="#i">Schlöffel, Simon</hi> aus <hi rendition="#i">Trier, Wesendonck, Zitz</hi> u. A. der Linken der Nationalversammlung angehörten, unter dem lautlosen Schweigen des Volks, das nur zuweilen durch einen stürmischen Beifallsjubel unterbrochen wurde, gehört worden waren, wurde beschlossen:</p>
+               <p>
+                  <hi rendition="#i">Die Mitglieder der gestrigen Majorität, welche den Waffenstillstand anerkannten, für Verräther am Vaterlande, an der Ehre und Freiheit Deutschlands zu erklären, und</hi>
+               </p>
+               <p>diesen Beschluß nicht nur dem deutschen Volke, sondern auch der Nationalversammlung selbst durch eine Deputation mitzutheilen.</p>
+               <pb n="264" facs="#f0076"/>
+               <p rendition="#et">Darauf zog das Volk in zerstreuten Gruppen der Stadt zu, um sich vor dem »deutschen Hofe« dem Sammelplatze der Linken, nach deren Beschlüssen es sein ferneres Verhalten einrichten wollte, wieder zu vereinigen.</p>
+               <pb n="265" facs="#f0077"/>
+            </div>
+            <div type="chapter" xml:id="Aston-Louise-d1e17585">
+               <head>V</head>
+               <p>In derselben Nacht rückten 3000 Mann Preußen und Oesterreicher ein.</p>
+               <p rendition="#et">Als die Abgeordneten sich nach der Paulskirche zur Sitzung begaben, fanden sie dieselbe vom Militär umringt. Zwar wurden die Truppen auf die Reclamationen der Linken Anfangs zurückgezogen, bald jedoch, als die Masse des Volks immer größer und seine Haltung immer drohender wurde, wieder herbeigerufen. Aber das Volk hatte einmal Posto gefaßt und setzte dem andringenden Militär Widerstand entgegen.</p>
+               <p rendition="#et">In der Paulskirche hatte man nach Absolvirung der Waffenstillstandsfrage die Berathung der Grundrechte wieder aufgenommen und Artikel 4, <pb n="266" facs="#f0078"/>
+welcher über »Lehrfreiheit« handelt, zur Debatte gestellt, als plötzlich der Tumult draußen so anwächst, daß des Präsidenten Stimme ihn kaum zu übertönen vermag. – –</p>
+               <p rendition="#et">Schläge donnern an die Thür. Erschreckt springen die ehrenwerthen Herren von ihren Sitzen empor. Das Haus geräth in Unruhe – – – man flüstert sich das Schreckenswort »Barrikade« zu – – von der Rechten begeben sich einige Mitglieder nach der Thür, um die Soldaten zum Widerstande zu ermuntern.</p>
+               <p rendition="#et">Da knallt der erste Schuß in das Volk; ein 60jähriger Greis stürzt zusammen.</p>
+               <p rendition="#et">Das Volk stiebt auseinander, voller Wuth über den frischen Mord. Rasch organisirt sich der Widerstand. Barrikaden wachsen mit wunderbarer Schnelligkeit aus der Erde empor und werden von Offenbacher, Isenburger und Hanauer Republikanern besetzt, die in zahllosen Schaaren herbeigeeilt waren, die Schmach, welche die Nationalversammlung über Deutschland gebracht, abzuwaschen. Um Mittag entbrennt der Kampf auf allen Punkten, <pb n="267" facs="#f0079"/>
+das schwere Geschütz donnert durch die Scheuer- und Fahrgasse und gegen die Barrikaden am Römerberge.</p>
+               <p rendition="#et">Das Volk kämpft mit einem Muthe, den nur die Verzweiflung zu erwecken im Stande ist.</p>
+               <p rendition="#et">Die Stadt wurde in Belagerungszustand erklärt und das Standrecht proklamirt.</p>
+               <p rendition="#et">– – – – – – – – – – – – – – – – – – – – – – – – – –</p>
+               <p rendition="#et">Zweimal begab sich eine Deputation der Linken zum Erzherzog Johann und bat ihn, die Truppen zurück ziehen und dem Blutbade ein Ende machen zu lassen.</p>
+               <p rendition="#et">Der Reichsverweser war bereit, dem Wunsche Folge zu leisten, wenn das Volk verspräche, die Barrikaden zertrümmern zu wollen, aber die Minister verweigerten dem schon ausgefertigten Befehl ihre Contrasignatur.</p>
+               <p rendition="#et">Dagegen gestatteten die Minister um 4 Uhr eine halbstündige Waffenruhe, um den Insurgenten Zeit zur Abtragung der Barrikaden zu gewähren.</p>
+               <p rendition="#et">Die Frist lief ab und der Angriff begann aufs Neue.</p>
+               <p rendition="#et">
+                  <pb n="268" facs="#f0080"/>
+Um 8 Uhr Abends war der Kampf so gut wie beendet, obgleich noch einige Schüsse gehört wurden. Die Kartätschen hatten ihre Wirkung nicht verfehlt. Zu Hunderten lagen die Verwundeten und Todten in den Häusern und auf den Straßen umher. Blut röthete die Trümmer der Barrikaden. –</p>
+               <p rendition="#et">– – – – – – – – – – – – – – – – – – – – – – – – – –</p>
+               <p rendition="#et">Alice saß während des heftigsten Kampfes auf ihrem Zimmer in der Allerheiligengasse, dort, wo sie an die Zeil mündet. Dicht unter ihrem Fenster erhob sich eine starke Barrikade, welche von österreichischen Soldaten angegriffen wurde. Sie dachte an die Berliner Märznacht und seufzte aus tiefer Brust. Welch' ein Unterschied zwischen dem <hi rendition="#i">Jetzt</hi> und <hi rendition="#i">Damals</hi>! Wie freudig, mit wie muthiger Zuversicht des Sieges war sie damals auf die Straße hinabgestiegen und hatte die wackern Kämpfer angefeuert – wie zaghaft, mit wie schmerzlicher Bekümmerniß blickte sie heute auf den unseligen Kampf herab.</p>
+               <p rendition="#et">Unbewußt flossen ihre Thränen, da fuhr sie <pb n="269" facs="#f0081"/>
+plötzlich mit einem Schrei des Schreckens empor. Sie glaubte Gilbert auf der Barrikade gesehen zu haben. Eine Reihe von Gedanken durchflog ihre Seele.</p>
+               <p rendition="#et">Schnell entschlossen eilte sie hinab. Sie drängte sich durch den Haufen hindurch, unbekümmert um die Kugeln, welche sie umsausten.</p>
+               <p rendition="#et">Endlich erreichte sie ihn. –</p>
+               <p rendition="#et">– Gilbert! – rief sie mit aller Anstrengung, deren sie fähig war.</p>
+               <p rendition="#et">Er wandte sich und stürzte mit geschwungener Büchse auf sie zu. Unfehlbar hätte er ihr das Hirn zerschmettert, wenn nicht ein Arbeiter, ihre Gefahr sehend, den Rasenden zurückgerissen und festgehalten hätte.</p>
+               <p rendition="#et">Angst, Verzweiflung raubten Alice im ersten Augenblicke fast die Sprache. Die Hände über der Brust zusammenpressend, flüsterte sie ihm zu:</p>
+               <p rendition="#et">– Der Fürst ist in Gefahr! Komm, ihn retten!</p>
+               <p rendition="#et">In Gilbert ging bei diesen Worten eine merkwürdige Verwandlung vor. – Mit dem Ausdruck <pb n="270" facs="#f0082"/>
+eines unauslöschlichen Hasses, dessen Gegenstand aber nicht Alice zu sein schien, ballte er die Faust und murmelte: – Schnell, ehe es zu spät ist!</p>
+               <p rendition="#et">Die entgegengesetzte Seite der Haasengasse war noch frei. Rasch eilten sie durch einige Quergassen und kamen ins Freie. Alice wußte, daß der Fürst sich häufig in dem Landhause des Herrn v. Bethmann aufhielt, das nicht nur seiner reizenden Lage, sondern auch anderer reizender Gegenstände wegen, wie böse Zungen behaupteten, die Aufmerksamkeit des Fürsten erregt hatte.</p>
+               <p rendition="#et">Als sie die Chaussee Friedberg erreichten, stießen sie auf einen Trupp Turner, welche sie nach dem Fürsten fragten.</p>
+               <p rendition="#et">– Wir suchen ihn selbst – war die Antwort. – Hier herum muß er versteckt sein, wir hörten, er sei vor einer halben Stunde nach dem Eschenheimer Thor geritten.</p>
+               <p rendition="#et">Schweigend eilten die Beiden der Stadtmauer entlang, nach dem Eschenheimer Thore zu. Alice vergaß Alles, was der Fürst gegen sie und die heilige Sache, für die sie kämpfte, gesündigt. In <pb n="271" facs="#f0083"/>
+diesem Augenblicke stand nur der lebensmuthige, ritterliche Mann vor ihrer Seele, und sie konnte den Gedanken nicht ertragen, daß er sterben solle, den sie einst geliebt.</p>
+               <p rendition="#et">Gilbert blieb stehen. Alice folgte der Richtung seiner Blicke. Zwei Reiter sprengten vom Eschenheimer Thor im Galopp auf sie zu.</p>
+               <p rendition="#et">– Er ist's – rief sie, Gilberts Hand fassend, der, sie heftig von sich schleudernd, auf das kleine Gebüsch, welches den Stadtgraben bezäumt, und aus welchem ein zweiter Trupp Turner und Arbeiter hervortrat, zueilte.</p>
+               <p rendition="#et">Sie waren mit Sensen, Piken und Büchsen bewaffnet und schaarten sich um eine blutrothe Fahne, die hoch in der Luft flatterte.</p>
+               <p rendition="#et">– Auf, Brüder! – rief Gilbert, seinen Säbel schwingend – seht dort! Es ist Lichnowski.</p>
+               <p rendition="#et">– Hurrah! – brüllten die Turner, den beiden Reitern entgegenstürzend.</p>
+               <p rendition="#et">Die Reiter stutzten und wandten ihre Pferde. Da knallten einige Schüsse und der Begleiter des Fürsten, der General von Auerswald, stürzte vom <pb n="272" facs="#f0084"/>
+Pferde herab, das, sich hochaufbäumend, in gewaltigen Sätzen queer über die Felder davonjagte.</p>
+               <p rendition="#et">Der Fürst, welcher ebenfalls durch einen Streifschuß verwundet worden war, sprengte von der Straße hinab auf das Landhaus des Herrn von Bethmann zu, welches kaum fünfhundert Schritt entfernt war. Aber sei es, daß sein Pferd in dem feuchten Boden nicht gut fort konnte, oder daß es ebenfalls verwundet war: Er hielt plötzlich, stieg ab und eilte, so schnell er konnte, dem Bethmannschen Garten zu.</p>
+               <p rendition="#et">Mit wüthendem Geschrei folgten ihm die Turner, Gilbert voran.</p>
+               <p rendition="#et">An der Ecke des Gartens steht ein kleines, freundliches Haus, das dem Kunstgärtner Schmidt gehörte. Als Lichnowski bis zu diesem Hause gekommen war, öffnete sich eine Thür. Er schlüpfte hinein.</p>
+               <p rendition="#et">Wenige Minuten darauf hatten auch die Turner das Haus erreicht. Stürmisch verlangten sie Einlaß. Vergebens, die Thür war von innen fest verrammelt.</p>
+               <p rendition="#et">
+                  <pb n="273" facs="#f0085"/>
+– Wartet Freunde! sagte ein junger, schmächtiger Mann, welcher sich durch eine scharlachrothe seidene Schärpe, aus der der Griff eines prächtigen Dolchs hervorsah, auszeichnete – ich werde Euch Eingang verschaffen. Folgt mir!</p>
+               <p rendition="#et">Sie eilten die Gartenmauer hinab bis zu einer kleinen Pforte.</p>
+               <p rendition="#et">Der junge Mann zog einen Schlüssel aus der Tasche und öffnete. Das Haus wurde von allen Seiten umzingelt. Wüthend über den Widerstand ergriffen die Turner einen Balken und rannten mit demselben die innere Thüre ein.</p>
+               <p rendition="#et">Indessen hatte Alice, welche, über Gilberts Verfahren entsetzt, keiner Bewegung fähig, aber eine Beute wahnsinniger Angst, eine schweigende Zuschauerin der eben beschriebenen Scene gewesen war, ihre letzten Kräfte gesammelt, um den letzten Versuch zu seiner Rettung zu wagen.</p>
+               <p rendition="#et">Sie stürzte dem Hause zu und gelangte auf demselben Wege, den die Turner sich geöffnet hatten, hinein.</p>
+               <p rendition="#et">
+                  <pb n="274" facs="#f0086"/>
+Aber es war zu spät. Der Haufen kam ihr schon tobend und jubelnd, den Fürsten mit sich schleppend, entgegen. Sie drängte sich durch die Menge hindurch.</p>
+               <p rendition="#et">Felix! – rief sie mit herzzerreißendem Tone, in welchem sich der ganze unendliche Jammer ihrer Seele aussprach.</p>
+               <p rendition="#et">Der Fürst, der aus mehreren Wunden blutete, wandte seinen Blick nach der wohlbekannten Stimme. Seine Augen strömten einen geisterhaften Glanz aus, als er Alicen sah. Er bewegte die Lippen, aber kein Laut entfuhr denselben.</p>
+               <p rendition="#et">Man ließ ihn auf den Boden sinken. Die Rasenden, deren Wuth befriedigt war, wollten ihn freilassen und sich entfernen.</p>
+               <p rendition="#et">– Ha, ihr elenden Wichte! – rief da ein Turner, dessen edles, feingeschnittenes Gesicht von rabenschwarzen Locken umschattet wurde. – Ist das Eure Rache? Gedenkt Ihr nicht der höhnenden Worte, die dieser Verräther noch heute, als der Kampf schon begonnen, an der Hauptwache sprach:</p>
+               <p rendition="#et">
+                  <pb n="275" facs="#f0087"/>
+»Ich will doch einmal zusehen, wie sich die Canaille schlägt!«</p>
+               <p rendition="#et">Nein, er muß sterben, sage ich. Wir wollen ihn ausstellen, als Zielscheibe für unsere Kugeln.</p>
+               <p rendition="#et">– Hurrah! – rief der zu neuer Wuth entflammte Haufen – der Verräther muß hingerichtet werden.</p>
+               <p rendition="#et">Während man die Vorbereitungen dazu traf, hatte sich Alice zur Seite des Fürsten niedergelassen. Da trat jener Turner mit den schwarzen Locken auf sie zu und sagte mit düsterer Stimme:</p>
+               <p rendition="#et">– Das ist kein Platz für Euch, Sennora! Steht auf! –</p>
+               <p rendition="#et">– Ines! – rief Alice. Ines! Ihr seid ein fürchterliches Weib.</p>
+               <p rendition="#et">– Meine Rache ist furchtbar, wie mein Schmerz. –</p>
+               <p rendition="#et">Mit festem Blick schaute Ines auf den Fürsten herab, dessen Augen geschlossen waren.</p>
+               <p rendition="#et">– Willst Du wissen, mein Geliebter – sagte sie kalt – wessen Hand den Dolch führte, der zuerst in Deine Brust sich senkte? –</p>
+               <p rendition="#et">
+                  <pb n="276" facs="#f0088"/>
+– <hi rendition="#i">Salvador wars, Dein Sohn und meiner</hi>. –</p>
+               <p rendition="#et">– O, tödtet mich! um des Ewigen Barmherzigkeit willen! –</p>
+               <p rendition="#et">Alice, die jetzt bis zu demjenigen Punkte des innern Seelenschmerzes gekommen war, in dem der Geist selbst gegen das Ungeheuerste abstumpft, fragte mechanisch:</p>
+               <p rendition="#et">– Wo ist Salvador? <hi rendition="#i">sein</hi> unglücklicher Sohn? –</p>
+               <p rendition="#et">– Todt! – antwortete eintönig Ines. – Er stieß sich selbst den Dolch ins Herz.</p>
+               <p rendition="#et">In diesem Augenblicke kehrten die Turner aus dem Hause zurück. Einer von ihnen trug eine Tafel, auf welcher mit großen Buchstaben geschrieben war:</p>
+               <p rendition="#et">»<hi rendition="#i">So stirbt ein Verräther des Vaterlandes</hi>!«</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

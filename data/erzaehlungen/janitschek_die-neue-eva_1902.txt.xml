@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Die neue Eva</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/117078719">
+                  <forename>Maria</forename>
+                  <surname>Janitschek</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:21Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005124158</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Janitschek, Maria/Erzählungen/Die neue Eva</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/qmmh.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-8CEA-E</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Maria Janitschek: Die neue Eva, Leipzig 1902</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Die neue Eva</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/117078719">
+                        <forename>Maria</forename>
+                        <surname>Janitschek</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">211 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Hermann Seemann Nachfolger</name>
+                  </publisher>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date type="publication">1902</date>
+                  <date type="firstPublication">1902</date>
+                  <date type="firstPublication" subtype="clariah">1902</date>
+                  <date type="firstPublication" subtype="zeno">1902</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Janitschek-Mari-d1e23657">Erstdruck: Leipzig (Hermann Seemann Nachfolger) 1902.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Janitschek-Mari-d1e23657">
+            <p rend="h3">Maria Janitschek</p>
+            <p rend="h2">Die neue Eva</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Janitschek-Mari-d1e23676" type="chapter">
+            <head>
+               <pb n="3" facs="#f0001"/>
+Der Betrogene</head>
+            <p>
+               <pb n="4" facs="#f0002"/>
+               <pb n="5" facs="#f0003"/>Frau Tavadar trat entrüstet in das Zimmer ihrer Tochter. Die rotseidenen Gardinen waren noch herabgelassen, und Fräulein Elline, wie ein Igel zusammengerollt, lag in ihrem Bette.</p>
+            <p rendition="#et">»Das finde ich einfach unverschämt!«</p>
+            <p rendition="#et">Mit zornigem Griff riss die Mutter die Decke herab. Zwei grosse, dunkle Augen öffneten sich mit jenem unbestimmten Ausdruck Erwachender, die plötzlich aus ihren Träumen erweckt werden.</p>
+            <p rendition="#et">
+               <pb n="5" facs="#f0004"/>
+»Was ist denn?«</p>
+            <p rendition="#et">»Halb vier ist.«</p>
+            <p rendition="#et">»Weiter nichts?« Das Töchterlein blieb gelassen ohne Decke liegen und blinzelte vor sich hin. »Ich hab gerade so hübsch geträumt. Jeden Abend vergesse ich den Riegel vorzuschieben. Wenn mich nur jemand daran erinnerte! ...«</p>
+            <p rendition="#et">Diese Gelassenheit brachte die Mama noch mehr in Wut. Sie raffte die Schleppe ihres blauen Hauskleids ärgerlich zusammen und zerknitterte sie zwischen den Fingern.</p>
+            <p rendition="#et">»Ich bin, weiss Gott, nicht engherzig. Aber das geht zu weit. Drei Besuche habe ich abweisen müssen.« Sie begann zu erzählen, wie sie nach Ausreden gesucht <pb n="6" facs="#f0005"/>
+habe, um die Faulheit der Tochter zu entschuldigen.</p>
+            <p rendition="#et">»Findest du nicht, dass ich eine allerliebste kleine Zehe habe?« Aus den Falten des weissen Nachthemds glitt ein rosiges Füsschen hervor. Die Mutter warf einen geringschätzigen Blick auf die Tochter. »Du wirst alle Tage dümmer.«</p>
+            <p rendition="#et">Der schöne Fuss verbarg sich wieder in den Schnee des weissen Battists. Elline kreuzte die runden Arme nachdenklich unterm Kopf. »Wenn mir doch jemand meine Decke wiedergäbe, ich friere.«</p>
+            <p rendition="#et">Frau Tavadar rührte sich nicht. »Du sollst aufstehen.«</p>
+            <p rendition="#et">»Wozu denn schon? Es ist ja noch nicht Morgen. Morgen, ja! ...«</p>
+            <p rendition="#et">
+               <pb n="7" facs="#f0006"/>
+Die Mutter wandte sich ab. Ein klingendes Lachen ertönte. Elline zeigte ihr tadelloses Gebiss. »Ich versteh nicht. Vorige Woche, am Osterfest hast du ein Kitzchen für uns zubereiten lassen. Was hat das kleine, unschuldige Tierchen verbrochen, dass es am Fest der Liebe als ein blutiger Fleischfetzen auf unserer Tafel prangen musste? Morgen wird ein Raubmörder hingerichtet, dessen Blut nicht unschuldig vergossen wird; weshalb soll ich mir das nicht ansehen?«</p>
+            <p rendition="#et">Frau Tavadar machte eine Gebärde des Abscheus. »Dieses Schlüsseziehen der heutigen Jugend! Ein Mensch ist kein Tier! ...«</p>
+            <p rendition="#et">
+               <pb n="8" facs="#f0007"/>
+»Gott sei Dank! Was fingen wir an, wenn die Tiere ebenso nichtswürdig wie wir wären! ...«</p>
+            <p rendition="#et">»Schwätz keinen Unsinn!«</p>
+            <p rendition="#et">»Das Tier thut, wozu die Natur es drängt, wir aber –«</p>
+            <p rendition="#et">»Stehen über der tierischen Natur –«</p>
+            <p rendition="#et">»Meinst du?« Elline richtete sich auf, ein Sphinxlächeln um die Lippen. Das weisse Spitzenhemd klaffte auf ihrer Brust und verriet die geheimen Schönheiten ihres jungen Leibes. Sie regte keinen Finger, um die Knöpfchen zu schliessen; es lag eine Art übergrosser Vertraulichkeit darinnen, jener Vertraulichkeit, die bereits Geringschätzung ist. Die Mutter bückte sich, nahm die seidne Decke vom <pb n="9" facs="#f0008"/>
+Teppich auf und warf sie aufs Bett. Ellines Lächeln glitt von den Lippen in die Augen. »Wir stünden über der Natur, Mamachen? Unter ihr stehen wir, wir mit unserm Selbstbewusstsein, unserm Geist, tief unter ihr. Glaubst du, ein Tierweibchen würde sich herablassen, das zu thun, was wir thun, um ›unter die Haube zu kommen‹?«</p>
+            <p rendition="#et">Die Mutter blickte die Tochter von der Seite an. »Was soll das wieder heissen? Das versteh ich nicht, was thun wir denn?«</p>
+            <p rendition="#et">»Willst du zu mir in die Schule gehn?«</p>
+            <p rendition="#et">»Sei nicht so frech! Ich bin nicht neugierig, deine Geheimnisse kennen zu lernen. Behalt sie für dich!«</p>
+            <p rendition="#et">»Es würde dir auch nichts mehr nützen. Du bist zu – sehr in andern Anschauungen <pb n="10" facs="#f0009"/>
+befangen,« setzte das Töchterlein diplomatisch hinzu.</p>
+            <p rendition="#et">Ein bläuliches Rot glitt über das Gesicht der Mutter. »Wie soll ich das verstehen?«</p>
+            <p rendition="#et">Elline spitzte die Lippen wie zu einem Kuss. »Du und deine Generation, ihr seid langweilig gewesen. War nicht Euer A und O, dass ein Mädchen am Hochzeitsmorgen ahnungslos sein müsste, dem gegenüber, das der Abend ihm brächte, dass einen Mann nur die Unschuld köderte ...«</p>
+            <p rendition="#et">»Gewiss, du Närrin, so ist es auch noch heute.«</p>
+            <p rendition="#et">»Nein, so ist es <hi rendition="#g">nicht</hi> heute.« Sie liess sich wieder in die Kissen gleiten. »Aber nicht im geringsten ist es so heute. <pb n="11" facs="#f0010"/>
+Ein unbescholtenes, in Liebeskünsten unerfahrenes Mädchen ist dem modernen Elegant ein Greuel. Er sucht Überraschungen, noch nicht Dagewesenes beim Weibe. Grossvaters Ideal ist nicht mehr das seine. Sieh dir doch die erkorenen Frauen seines Geschmacks an. Kleine Kinder sind es, oder Frauen, deren Leib schon die herbe Würze der Mutterschaft trägt ...«</p>
+            <p rendition="#et">Frau Tavadar unterbrach sie mit einer raschen Bewegung. »Du ...« sie wollte ein Schimpfwort ausstossen, beherrschte sich aber. »Woher hast du all diese Kenntnisse?« Und plötzlich hatte sie die Finger in Ellines dunkle Haarflut vergraben. »Woher, frage ich, hast du alle diese Kenntnisse? <pb n="12" facs="#f0011"/>
+Hast du sie von einem Mann erhalten, dann weh dir! Ich schlag dich tot. Du weisst, dass du nur ein armes Ding bist. Unsere Wohlhabenheit ist Schein. Wenn du das Eine verloren hast, hast du nichts mehr einzusetzen. Woher, frag ich, du ... du ...«</p>
+            <p rendition="#et">»Es ist sehr angenehm, wenn einem jemand im Haar kraut ...«</p>
+            <p rendition="#et">Die Mutter wollte zu einem Backenstreich ausholen, Elline wich geschickt aus. »Keine Abgeschmacktheiten, Mama. Ich weiss, dass ich dich später zu unterstützen haben werde, alles andere lass meine Sorge sein.«</p>
+            <p rendition="#et">»Unterstützen! Wie liebevoll! So redet mein Kind! ...«</p>
+            <p rendition="#et">
+               <pb n="13" facs="#f0012"/>
+»Ach!« ein leichter Rosenschimmer glitt über Ellines bräunliches Gesicht, »die Pose lass, sie ist lächerlich. Du hast mich ins Leben gesetzt, mich gesund auf erzogen, dafür –«</p>
+            <p rendition="#et">»Nur das, sonst nichts weiter?«</p>
+            <p rendition="#et">»Nein, liebe Mutter. Deine herumliegenden Mirbeaus und Louys hätten mich leicht zu einer Dummheit treiben, meine Neugierde reizen können ... denke nur! ...« ihre Augen blitzten auf, »aber ich sagte mir: Geduld! Klug sein! Das übrige kommt dann von selbst.«</p>
+            <p rendition="#et">»Aber ist denn das Klugheit?« Die Stimme der Mutter klang fast demütig, »ist deine Art, dich zu geben, Klugheit? Du machst auf die Männer den Ein druck <pb n="14" facs="#f0013"/>
+des Gegenteils dessen, das du, hoffentlich! bist. Keiner wird den Mut haben, dich zu heiraten.«</p>
+            <p rendition="#et">»Rede nicht so wunderlich. Deine Bewerber, das heisst die du vor dreissig Jahren hattest, würden allerdings –«</p>
+            <p rendition="#et">»Das soll die Ehrerbietung sein, die man seinen Eltern schuldig ist!«</p>
+            <p rendition="#et">»Ehrerbietung!?« Elline warf sich aufkreischend im Bett herum. »Soll das Ehrerbietung herausfordern, wenn ich meiner Mutter keinen Gutenachtkuss geben darf, weil sie »zur Konservierung des Teints« ihr Gesicht mit Kalbfleisch belegt hat? Wenn ich des Morgens nicht in ihr Zimmer darf, weil sie »zur Konservierung des Teints« noch die Guttaperchamaske trägt? <pb n="15" facs="#f0014"/>
+Wer hat mich denn zur Siebenschläferin gemacht als du? Deine Thüre war ja stets geheimnisvoll verschlossen für mich. Dein Körperkult grenzt ja ans Wahnsinnige. Wachsmaske, Haarfärberei, Massage und noch anderes –«</p>
+            <p rendition="#et">Ein leises Aufschluchzen liess sie innehalten.</p>
+            <p rendition="#et">Frau Tavadar hatte sich vor das Bett geworfen und drückte ihr Gesicht in die Hände.</p>
+            <p rendition="#et">»Was soll ich denn thun?« stiess sie weinend hervor, »wenn die Männer Jugend, Jugend und nichts als sie fordern. Wenn du dich heute verheiratest, was bleibt mir denn dann übrig, als mich um einen Lebensgefährten umzusehen? Meinen Passionen <pb n="16" facs="#f0015"/>
+mich hinzugeben erlauben mir leider meine Vermögensverhältnisse nicht. Ich muss mich versorgen ...«</p>
+            <p rendition="#et">»Glaubst du, dass die Kalbfleischumschläge und Wachsmasken dir zu einem Manne verhelfen?« Elline blickte mitleidslos auf die Schluchzende, die augenblicklich abschreckend widerwärtig aussah. »Also dann giebst du mir ja zu, dass nicht unsere Tugend die Männer reizt.« Sie sprach das Wort Tugend mit ätzendem Hohn aus. »Weshalb dann dein Komödienspiel mir gegenüber? Nein, zu verteidigen brauchst du dich nicht, ich weiss ja längst, dass alles blosse Spekulation ist. Aber jener wegen, die nur unsere Haut reizt, so viel Umstände machen, <pb n="17" facs="#f0016"/>
+hahaha! ...« Sie sprang mit beiden Füssen aus dem Bett und wies herrisch auf die Thür. »Geh, ich will mich ankleiden.« Die Mutter drückte sich wie ein geprügelter Hund hinaus.</p>
+            <p rendition="#et">Elline machte Toilette. Nach anderthalb Stunden trat sie in einem langen seidnen Hausrock ins Wohnzimmer. Das Mädchen brachte ein Mahl, das ebensogut Mittagessen als Frühstück sein konnte. Es bestand aus Thee und mehreren Fleischgerichten. Während des Essens las Elline ein paar Journale durch, nach der Mutter fragte sie gar nicht. Auch einige angekommene Briefe durchflog sie. Ihr schönes, südländisches Gesicht drückte dabei die verschiedensten Empfindungen <pb n="18" facs="#f0017"/>
+aus. Die interessante Kroatin galt bei vielen als orientalische Schönheit. Sie war so klug, die abenteuerlichen Gerüchte, die über sie kursierten, auf jede Weise zu unterstützen. Sie kannte die Schwäche der modernen Menschen, allem, was vom Ausland stammt, seien es nun Schmucksachen oder Frauen, den Vorzug zu geben. Die Tochter des kleinen kroatischen Gutsbeamten wurde zur geheimnisvollen Emigrantin, deren Familie eine Frevelthat des Vaters ins Elend gestürzt hatte. Elline verstand die Schwäche der Menschen auszunützen. Ihre Mama hatte, bevor sie der arme kleine Gutsbeamte geheiratet hatte, eine bunte Vergangenheit durchlebt ...</p>
+            <p rendition="#et">
+               <pb n="19" facs="#f0018"/>
+Fräulein Tavadar warf mit einer heftigen Bewegung das dunkle Haar zurück, das sie daheim gelöst trug. Unter den Briefen hatte sich einer befunden, den sie sofort beantworten wollte. Sie liess sich an ihrem Schreibtisch nieder. Ein sarkastisches Lächeln überflog ihr Gesicht, als sie begann:</p>
+            <p>Lieber Baron!</p>
+            <p>Sie brauchen kein Eau de Cologne mitzubringen. (Überhaupt welch schrecklich veraltetes Toilettenmittel!) So starke Nerven, um den Anblick einer Hinrichtung zu ertragen, besitze ich noch. Ich bin sehr gespannt, ob meine Erwartungen erfüllt werden. In diesem Fall kann <pb n="20" facs="#f0019"/>
+der Vorgang zur Bereicherung meines Wissens dienen. Wenn nur gehenkt, nicht guillotiniert würde! Das erstere dauert länger, und man kann den Ausdruck im Gesicht des Todeskandidaten besser beobachten. Signora Duse und Madame Bernhardt, die sich der Sympathien unserer Gesellschaft so sehr erfreuen, haben an Sterbelagern im Spital die eingehendsten Studien gemacht. Die Glücklichen! Abgesehen von dem, was sie dabei lernten, das – andere. Aber es erschreckt Sie ja immer, wenn ich so spreche. Ach, Baron! Das Leben ist eine tiefe Purpurwoge. Purpur ist die Farbe des Blutes. Blut muss bei allen Opfern fliessen. Blut lieben die Götter, <pb n="21" facs="#f0020"/>
+die heidnischen und – die christlichen. Ohne Blut keine Feier eines Geheimnisses. Sehen Sie, früher, als die Poesie noch nicht das Mädchen für alle war, konnte man manchen Traum verwirklichen, indem man ihm das Scheinleben der Dichtung verlieh. Heute ist es unmöglich, mit den Handwerkerinnen der Feder in eine Reihe zu treten. Es bleibt also nichts übrig, als die brutale Wirklichkeit zur Unterstützung gewisser innerer Erlebnisse heranzuziehen ... Also keine Verwunderung darüber, dass ich mir dasselbe zu erleben wünsche, was Madame Soundso in Paris und Signora Soundso in Turin und Rom studiert haben. Ich will nicht wiederholen, <pb n="22" facs="#f0021"/>
+was verschiedene Lebenskenner behauptet haben ...</p>
+            <p rendition="#et">Wenn Sie die Lippen des Todgeweihten zucken sehen, dann denken Sie, wie es wäre, wenn ich Sie küsste, und dass ein ähnliches Gefühl wie bei Jenem dieselbe Erscheinung bei Ihnen hervorbrächte ... Und doch bin ich kein Henker, lieber Alfred, nur Ihre kleine Freundin</p>
+            <p>Elline.</p>
+            <p>N.S. Heute nacht habe ich etwas Tolles geträumt. Wir, ich und Sie, wir weilten in den Gärten des Tiberius auf Capri. Und wir waren sehr zärtlich zu einander. Aber was das Schönste ist, ein Dritter – doch das ein andermal, es war zu drollig ...</p>
+            <p>
+               <pb n="23" facs="#f0022"/>
+In den Lüften wiegen sich jubelnde Lerchen.</p>
+            <p rendition="#et">Das junge Grün des Frühlings schwillt fast zusehends dem Licht entgegen. Am wolkenlosen Himmel kommt rosig die Sonne herauf und geht ihren Gang, unbekümmert wie ein Kind, das über die Flur schreitet, unwissend, dass es mit jedem Schritte Tausende von Lebewesen vernichtet.</p>
+            <p rendition="#et">Im Hof des Gefängnisses steht ein dunkles Etwas geheimnisvoll bedeckt. Männer mit Dienstmützen eilen geschäftig hin und her. Dann ertönt ein schrilles, wimmerndes Glöcklein, eine Thüre wird geöffnet, verschiedene Herren im Cylinder treten in den engen Hof und gruppieren <pb n="24" facs="#f0023"/>
+sich. Sie halten Notizbuch und Füllfeder bereit. Und nun erscheint der Delinquent, begleitet von einem Priester. Hinter ihm Pickelhauben und einige dunkel gekleidete Männer. Im selben Moment wird hoch oben am Fenster eines Zellengefängnisses eine in Trauer gekleidete Dame sichtbar. Ihr Gesicht ist von einem schwarzen Kreppschleier bis zum Mund verhüllt. Nur der ist sichtbar. Rot brennt er zwischen den schwarzen Hüllen hervor. Sie neigt das Haupt leicht vor einem der Herren, die im Hofe gruppiert sind. Es ist eine hohe aristokratische Gestalt, leicht gebeugt, kahler Schädel, schlaffe, aber nicht unedle Züge. Seine dunkelblauen Augen, die viel Feuer besitzen, blicken fast weltentrückt <pb n="25" facs="#f0024"/>
+zu dem Fenster empor, wo sie, der zuliebe er hier ist, ein Opernglas in der schwarzbehandschuhten Hand, herabblickt. Plötzlich ein Winseln. Der leichenblasse Mörder hat sich zur Erde geworfen und fleht die Anwesenden um Mitleid an. Es ist ein abstossender Anblick. Das verzerrte, weisse Gesicht ist von Thränen überströmt. Die Gehilfen des Scharfrichters fassen ihn unter den Armen und versuchen ihn zu dem Gerüst, das nun seine Hüllen fallen gelassen hat, hinaufzuschleppen. Er weigert sich. Der Priester spricht auf ihn ein. Er möge sich nicht fürchten, der Friede Gottes erwarte ihn, er gehe der Vergebung und Gnade entgegen. Die Anwesenden fragen sich unwillkürlich, weshalb er geköpft wird, <pb n="26" facs="#f0025"/>
+wenn ihm schon vergeben ist. Man hat den Eindruck, dass hier ein Mord vollbracht wird, abstossender als der, den der Delinquent beging. Die Gerichtsherren und Vertreter des Gesetzes ärgern sich über die Verzögerung, schliesslich wird der arme Sünder von vier handfesten Kerls auf das Gerüst geschleppt, man entblösst seinen Hals und drückt ihm den Kopf gewaltsam nieder. Das Beil saust herab ... die schwarzbehandschuhte Hand der Dame oben drückt das Glas dichter an die Augen. Ihr Freund blickt krampfhaft hinauf, den Vorgängen vor sich mag er nicht folgen. Im Augenblick, als man den warmen Körper des Gerichteten in den bereitstehenden Tannensarg legt und das blutige <pb n="27" facs="#f0026"/>
+Haupt zwischen seine Füsse klemmt, verschwindet der Herr als der Erste, der den Gefängnishof verlässt.</p>
+            <p rendition="#et">Er eilt auf sie zu, die ihm von einer engen Wendeltreppe entgegenkommt. Ihre Lippen tragen die Spuren scharfer Zähne, der übrige Teil des Gesichts bleibt verborgen unterm Schleier.</p>
+            <p rendition="#et">»Wie fühlen Sie sich, Teuerste?«</p>
+            <p rendition="#et">»Gut, ich danke Ihnen. Es war ein vorzüglicher Platz. Schade, dass das Ganze so kurz gedauert hat!«</p>
+            <p rendition="#et">Er flüstert ihr ein Wort zu, das sie lächeln macht.</p>
+            <p rendition="#et">»Ist der Wagen draussen?«</p>
+            <p rendition="#et">»Ja. Darf ich Sie begleiten?«</p>
+            <p rendition="#et">»Nein.«</p>
+            <p rendition="#et">
+               <pb n="28" facs="#f0027"/>
+»Elline, Sie versprachen mir doch diese Gunst als Belohnung, wenn ich das Kunststück, Sie hier hereinzuschmuggeln, zuwege brächte. Es war keine Kleinigkeit, und ohne meinen Freund, den Regierungsassessor, hätte ich es wohl kaum zustande gebracht.«</p>
+            <p rendition="#et">Sie treten durch ein kleines Pförtchen auf die Strasse hinaus. Ohne ihm Adieu zu sagen, ist sie mit einem Schritt in seinem eleganten Coupé und schlägt das Thürchen hinter sich zu. Alfred blickt dem davonsausenden Gefährt nach, dann schwingt er sich auf den Perron des Strassenbahnwagens, der an der Ecke hält, und fährt der Stadt zu. –</p>
+            <p rendition="#et">Fünfzehn Minuten später öffnete Elline die Thür ihrer Wohnung. Das ihr entgegeneilende <pb n="29" facs="#f0028"/>
+Mädchen wies sie mit einer herrischen Gebärde zurück und begab sich gleich in ihr Zimmer. Die Zofe schlich an die Thür und hörte einen leisen halberstickten Aufschrei, dem ein dumpfer Fall folgte, als ob sich jemand auf den Boden geworfen hätte.</p>
+            <p rendition="#et">Gegen Mittag klingelte es.</p>
+            <p rendition="#et">»Ist das gnädige Fräulein zu sprechen?« Baron Dunya trat, ohne die Antwort abzuwarten, in das Entree und warf den Überrock ab. Die Zofe eilte, den Besuch anzumelden, und kam gleich wieder. Das gnädige Fräulein liesse bitten. Den Cylinder in der schlanken, weissen Hand, trat er ins Wohnzimmer. Die herabgelassenen gelben Seidenstores liessen den eleganten <pb n="30" facs="#f0029"/>
+Raum in goldiger Dämmerung verschwimmen. Auf einem niedern, breiten Divan, über den ein schwarzes Bärenfell geworfen war, lag Elline. Ein weisses spinnewebfeines Gewand, dessen Ärmel lang herabflossen, schmiegte sich lose um ihren Körper. Ihr Haar war mit einer massiven silbernen Dolchnadel hinaufgesteckt, die bei der ersten lebhafteren Bewegung herabgleiten musste.</p>
+            <p rendition="#et">»Elline!« Dunya sank hingerissen vor ihr nieder und ergriff eine ihrer herabhängenden Hände.</p>
+            <p rendition="#et">»Elline, wie ist Ihnen? Ich hab's nicht ausgehalten. Ich musste Sie noch heute morgen sehen.«</p>
+            <p rendition="#et">Um ihre dunklen Augen lagen Schatten und liessen sie weicher, schmelzender erscheinen, <pb n="31" facs="#f0030"/>
+die Stirne war ganz vom Haar bedeckt, die Wangen blass, kühl, hart; nur der Mund brannte. Dunya beugte sich nieder und wollte sie küssen.</p>
+            <p rendition="#et">Sie wandte sich ab. »Stören Sie nicht meine schöne Stimmung ...«</p>
+            <p rendition="#et">Er blickte ihr forschend ins Gesicht. »Rätselhafte Frau! Was haben Sie für eine Seele!«</p>
+            <p rendition="#et">Sie schlug langsam die halbgeschlossenen Augen zu ihm auf und sah ihn an.</p>
+            <p rendition="#et">»Weshalb haben Sie Ihre Schleppe ein dutzendmal um Ihre Füsse geschlungen? Das sieht sonderbar aus.«</p>
+            <p rendition="#et">In diesem Augenblick glitt die Nadel aus ihrem Haar und fiel vor ihm nieder. Er hob sie an die Lippen.</p>
+            <pb n="32" facs="#f0031"/>
+            <p rendition="#et">»Sie ist warm und duftig geworden. Elline, lassen Sie mich einmal Ihr gelöstes Haar küssen.«</p>
+            <p rendition="#et">Sie lächelte, ohne ein Wort zu erwidern. Weshalb behandelte sie ihn so? War sie ihm in irgend etwas überlegen? Er bettelte, dicht an ihr Ohr geneigt, um einen Kuss. Ihre blutrot brennenden Lippen öffneten sich.</p>
+            <p rendition="#et">»Darf er – weh thun?«</p>
+            <p rendition="#et">Ein stutzendes Zaudern. Dunya nickte.</p>
+            <p rendition="#et">»Ich kann nur küssen, wenn ich –«</p>
+            <p rendition="#et">Er brachte seinen Mund dem ihren nah. Sie fuhr zurück. »Nun haben Sie – Sie haben mir die ganze Stimmung genommen. Wie dumm, o Gott, wie dumm! Glauben Sie denn, ich küsse wie <pb n="33" facs="#f0032"/>
+ein kleines Kind? Hahaha, weg, weg,« sie stiess ihn von sich, »jetzt mag ich nicht mehr. Ihre Zumutung ist ja herabwürdigend dumm.« Sie richtete sich auf, die Masse ihres Schwarzhaars rollte über ihre Schultern herab. Er packte es wie einen Lappen und zerrte und zog nervös daran. Da beugte sie sich über seine Hand, im nächsten Augenblick fühlte er einen heftigen Schmerz. Über seine Finger rieselte Blut. Sein Gesicht verzerrte sich vor Schmerz.</p>
+            <p rendition="#et">»Schlingen Sie die Schleppe zurück,« ihre Augen richteten sich gebietend auf ihn, »und trocknen Sie die Hand an ihr ab.«</p>
+            <p rendition="#et">Er zauderte. Sie machte eine Bewegung der Ungeduld, da gehorchte er <pb n="34" facs="#f0033"/>
+und fasste die dünne Seide, die mehrfach um ihre Füsse geschlungen war. Er fühlte, dass das Gewand das einzige war, das sie trug, und versenkte seine Finger hinein.</p>
+            <p rendition="#et">»Genug, für jede neue Wunde ein weiteres Stück.« Sie entwand ihm den rotbefleckten Stoff. Ihre Nüstern waren leicht gebläht.</p>
+            <p rendition="#et">Er lallte einen Fluch in fremder Sprache und sank halbbetäubt mit dem Gesicht auf ihre Brust. Sie rührte sich nicht. Als er sich aufraffte, war ihr Haar, ihr Kleid, seine Manschetten mit Blut besudelt. Mit einer Gebärde der Verlegenheit, des Ekels und physischen Schmerzes sah er sie hilflos an.</p>
+            <p rendition="#et">
+               <pb n="35" facs="#f0034"/>
+»Armer Junge!« Sie reichte ihm die Hand. »Sie sind todblass. Sehen Sie wohl, wie strenge ich Unarten bestrafe? Nein, ich bin nichts für Sie. Gehen Sie nach Hause, Herz, kommen Sie nie wieder. Ich – nein, ich bin nichts für Sie. Wenn schon der Anfang unserer Bekanntschaft, – noch nicht einmal ein Kuss, was würde ...« sie stockte und schwieg.</p>
+            <p rendition="#et">Er blickte sie verstört wie ein Betrunkner, wie ein hypnotisiertes Tier an.</p>
+            <p rendition="#et">»Sie und keine Andere, nur Sie! Ich komme wieder. Für heute leben Sie wohl, ich muss heim, mir ist schlecht.« Ein Schauer durchrieselte ihn. Er presste noch einen Kuss auf ihr zerwühltes Kleid und entfernte sich.</p>
+            <pb n="36" facs="#f0035"/>
+            <p rendition="#et">Da er keine Ahnung gehabt hatte, wie lange er sich bei Elline aufhalten würde, hatte er unterlassen, seinen Kutscher zu bestellen. Ein Mietswagen war auch nicht zu erblicken. Das Taschentuch um die verletzte Hand gewickelt, den Überrock hoch geschlossen, eilte er in das nächste ihm bekannte Restaurant, um sich hier einen Verband geben zu lassen. Er trank öfters eine Flasche Wein da, und man kannte ihn. Im Augenblick, als sich ihm der Oberkellner, gefolgt von den übrigen Ganymeds, diensteifrig näherte, gewahrte er seinen Freund, den Regierungsassessor, der eben sein Frühstück einnahm. Sie begrüssten einander. Dunya machte schnell Toilette, band sich ein frisches<pb n="37" facs="#f0036"/>
+ Linnentuch um die Wunde und liess sich am Tisch seines Freundes nieder. Von Tieffurts erster Blick fiel auf die verbundene Hand. Oho, was war da geschehen? Er liess einige boshafte Witze los.</p>
+            <p rendition="#et">»Mein Liebchen hat mich gebissen,« sagte Dunya mit gut gespielter Ruhe.</p>
+            <p rendition="#et">Der andere fuhr mit einem Fluch zurück. Welches Satansglück der Mensch hatte! »War es die -?«</p>
+            <p rendition="#et">»Lassen wir das!« Dunya liess sich die Weinkarte geben. Er trank wie ein Verrückter Sekt, Cognak und schweren Burgunder durcheinander, fing an in seiner russischen Heimatsprache zu reden, von der Tieffurt keine Silbe verstand, und gebärdete sich wie ein Mensch, dessen reiche <pb n="38" facs="#f0037"/>
+Erbtante gestorben ist. Von Tieffurt flüsterte ihm zwischen Roquefort und Kaffee zu: »Ist's die, für die ich den Platz heute morgen besorgt habe?«</p>
+            <p rendition="#et">Dunya nickte.</p>
+            <p rendition="#et">»Das scheint ein Bissen für Krafft-Ebing zu sein. Kann ich sie kennen lernen?«</p>
+            <p rendition="#et">Dunya furchte die Stirne. »Vielleicht später einmal. Ich selbst habe sie mit ihrer Mutter erst vor vierzehn Tagen am Totalisator kennen gelernt.«</p>
+            <p rendition="#et">»Mutter auch. Aha!«</p>
+            <p rendition="#et">Dunya kam auf anderes zu sprechen.</p>
+            <p rendition="#et">Tieffurt schüttelte den Kopf. »Du kommst mir vor wie ein Primaner, der zum erstenmal Liebe geschmeckt hat.«</p>
+            <p rendition="#et">
+               <pb n="39" facs="#f0038"/>
+Dunya blickte ihn argwöhnisch an. »Kennst du sie etwa?«</p>
+            <p rendition="#et">»Gott bewahre.« Tieffurt lachte. »Nie ihren Namen gehört. Wie heisst sie übrigens?«</p>
+            <p rendition="#et">»Elline Tavadar.«</p>
+            <p rendition="#et">»Ein rassiger Name. Sie ist wohl sehr schön, Ausländerin, verunglückter Adel etc?«</p>
+            <p rendition="#et">»Schön? Nein. Sie ist vielleicht das Weib, nach dem wir alle uns sehnen ...«</p>
+            <p rendition="#et">»Sieh, sieh!« Tieffurt schob die geleerte Mokkatasse von sich und betrachtete forschend den Freund. »Du bist ja ganz tragisch geworden; so kenne ich dich gar nicht, dich, den leichtherzigen Femininisten.«</p>
+            <pb n="40" facs="#f0039"/>
+            <p rendition="#et">Dunya zuckte die Schultern und blickte gedankenverloren vor sich. »Du weisst, mir war nichts langweiliger, als Gänseblümchen zu pflücken. Man will doch ein Erlebnis durch die Frau geniessen. Das findet man aber nur im Verkehr mit jener Spezies, die man unter falschem Namen im Mietswagen besucht. Eine, die alle Sensationen schenken kann und dabei doch Dame bleibt, ist eine solche Seltenheit, dass kein Preis für sie zu hoch ist und wäre es auch der äusserste ...«</p>
+            <p rendition="#et">Tieffurt legte die Hand auf des Freundes Schulter. »Die Gnädige scheint Charakterstudien zu treiben. Hüte dich vor dieser berechnenden Art.«</p>
+            <p rendition="#et">
+               <pb n="41" facs="#f0040"/>
+Dunya lächelte. »Der liegt so viel an mir,« er schnippte mit den Fingern. »Sie sagte mir ins Gesicht, dass ich ihr langweilig und ein guter, unschuldiger Junge sei.«</p>
+            <p rendition="#et">Tieffurt kreischte vor Vergnügen so laut auf, dass einige Kellner herbeistürzten, im Glauben, dem Herrn Regierungsassessor sei ein Unfall passiert. »Das muss allerdings eine kühne Amazone aus den aphrodisischen Gefilden sein, die in dir einen unschuldigen Jungen erblickt.«</p>
+            <p rendition="#et">Dunya murmelte etwas vor sich hin, ein Schauer schüttelte ihn, und er stand auf. »Begleiche meine Rechnung, ich muss nach Hause.«</p>
+            <p rendition="#et">
+               <pb n="42" facs="#f0041"/>
+Tieffurt suchte ihn zurückzuhalten. Dunya machte eine abweisende Gebärde.</p>
+            <p rendition="#et">»Begeh' keine Dummheit!« rief Tieffurt im Flüsterton, »je glatter die Scheitel, desto krauser die Vergangenheit. Die Erfahrensten sind die Zurückhaltendsten. Nur kein Anbeter werden, wo Geniessen am Platz ist. Wahre Madonnen reizen keinen Mann.« Die letzten Worte hatte er zu sich allein gesprochen, denn Dunya war schon fortgeeilt. Tieffurt bekam ihn in der nächsten Zeit nur flüchtig und in Gesellschaft zu sehen, wo er ihn nicht über den Verlauf seines Abenteuers befragen konnte.</p>
+            <p rendition="#et">Vierzehn Tage später traf ihn die überraschendste Nachricht. Dunya schickte <pb n="43" facs="#f0042"/>
+ihm seine Verlobungsanzeige, und zwar sollte die Hochzeit schon in den nächsten Tagen stattfinden. Dunya hatte Tieffurt als Trauzeuge gebeten. Tieffurt war aufs äusserste gespannt, die Dame kennen zu lernen, der das Kunststück gelungen war, seinen jede Fessel verabscheuenden Freund zum Gefangenen zu machen. Als er im Hause der beiden Damen seinen Besuch machte, waren sie nicht anwesend. Er sah Elline erst am Hochzeitstage und lächelte in sich hinein. Eine schöne, üppige Frau, dachte er, die sich bemüht, sittsam zu erscheinen, obgleich die Flammen ihres Temperaments durch alle Poren ihrer Haut schlagen. Tieffurt sah ihr in die Augen, als er ihre Hand an seine <pb n="44" facs="#f0043"/>
+Lippen hob. Sie hatten etwas Verwundetes an sich, diese dunklen grossen Augen; ein geheimes Leid sprach aus ihnen, zurückgehaltene Thränen ... Wusste sie es, dass <hi rendition="#g">ihn</hi> keine Bacchantin gewann, dass er für das spezifisch Weibliche am Weibe, der Weichheit und Hilflosigkeit, am empfänglichsten war? Du bist eine Künstlerin deines Faches, sagte ihr sein Blick ...</p>
+            <p rendition="#et">Von der Ceremonie in der Kirche fuhren sie gleich nach dem Bahnhof. Sie hatte es so gewünscht, sie, die von heute an befehlen würde. Wehe Dunya, dachte Tieffurt später, dem aus der Halle rollenden Zug nachblickend, wehe, wenn er heute nacht sich das Heft entwinden liess.</p>
+            <p rendition="#et">Sie würde ihn zu ihrem Knecht erniedrigen, <pb n="45" facs="#f0044"/>
+zu ihrem Geschöpf, zu ihrem Instrument. Sie würde die Macht ihrer Liebeskünste an ihm erproben, bis er entnervt zusammenbrach.</p>
+            <p rendition="#et">Sie, die erfahrene Frau mit dem blutroten Mund, die nur ein in ihr Netz Verstrickter für ein unschuldiges Mädchen halten konnte ...</p>
+            <p rendition="#et">Armer Narr Dunya! –</p>
+            <p rendition="#et">Sechs Wochen später erhielt Tieffurt aus einem kalabrischen Nest, wohin sich die Neuvermählten zurückgezogen hatten, folgenden Brief.</p>
+            <p rendition="#et">Lieber, alter Tieffurt!</p>
+            <p rendition="#et">O Du Weltweiser, Patriarch und Prophete! Deine Weissagungen von damals haben sich erfüllt. Nur ein<pb n="46" facs="#f0045"/>
+ Mittel giebt's, um mich zu retten: Scheidung. Tieffurt, Du bist mein Freund, Du bist Rechtsgelehrter, in Deinem Bekanntenkreis findet sich gewiss ein kluger Advokat. Für ihre Zukunft ist reichlich gesorgt, denn ich habe ihr damals in der Zeit meiner Verrücktheit einen grossen Teil meiner Einkünfte verschrieben. Stelle Dir vor, dass ich die Beute des grausamsten Betrugs geworden bin. (Dass das so kommt, habe ich immer geahnt, dachte der Lesende bei sich.) In der Hochzeitsnacht schon wurde ich dessen gewahr. Wir machten um Mitternacht, irgendwo auf einer kleinen Station Halt, und liessen uns im Gasthaus eine Stube geben. O <pb n="47" facs="#f0046"/>
+welche Erwartungen hatte ich an diese Stunden geknüpft. Wochenlang gefiebert hatte ich nach ihnen. Und nun? Meine Mänade, ihre ungeheuern Überraschungen für mich wohl verbergend, sitzt zähneklappernd und bleich auf dem Rand des Bettes. Indem ich ihr zu Füssen hocke und ihre Schuhbänder löse, sagt sie mit flehender Kinderstimme: »O lieber Alfred, nur diese Nacht lass mich ruhig schlafen, ich bin so müde.« Dieses Wort habe ich sehr oft von kleinen Mädchen gehört, wenn sie den einen Moment hinausschieben wollten; es befremdet mich an Elline. Aber vielleicht ist es eine neue, geheimnisvolle Ranke in dem <pb n="48" facs="#f0047"/>
+schönen Geflecht der Überraschungen, die meiner harren. Ich löse die Schuhbänder meiner Angebeteten, dann das übrige. Als ich an das letzte Stück komme, beginnt sie ein Zetergeschrei, genau wie – na, wie sie alle. Noch bin ich meiner Sache nicht klar. Ist dieses zitternde, abwehrende Weib dasselbe, das mich durch den Ausblick in den purpurnen Irrgarten seiner Verheissungen halb toll gemacht hat? Das sei alles Verstellung gewesen, gesteht sie. Sie habe wohl erkannt, was allein mich locken und reizen konnte. Bist Du dieselbe, die mit verzücktem Blick die letzten Zuckungen des Mörderleichnams verfolgte? Es war Beherrschung, <pb n="49" facs="#f0048"/>
+bekennt sie; nach Hause gekehrt, habe sie einen Ohnmachtsanfall bekommen und sich nur durch eine grosse Dosis Morphium beruhigen können. Aber das ist ja schändlicher Betrug, rief ich und misshandelte sie. Sie vertheidigte sich nicht. Ich möchte ihr doch verzeihen, dass sie nicht so sei, wie ich vorausgesetzt hätte; vielleicht käme ich doch darüber hinweg. Tieffurt, ich erwartete mänadische Entzückungen an der Brust einer Bacchantin und hielt eine unberührte Jungfrau im Arm. Das hat Dein armer Freund nicht verdient ...</p>
+            <pb n="50" facs="#f0049"/>
+         </div>
+         <div xml:id="Janitschek-Mari-d1e24154" type="chapter">
+            <head>Darüber kommt kein Weib hinweg ...</head>
+            <p>
+               <pb n="51" facs="#f0050"/>
+               <pb n="53" facs="#f0051"/>Elende! rief Fräulein Gröhl und zerknitterte eine eben empfangene Anzeige. In diesem Augenblicke trat Dr. Klausmann ein.</p>
+            <p rendition="#et">»So im Zorn, Kollegin?« Er warf seinen Schlapphut auf ihren Schreibtisch und sich selbst auf einen Sessel. »Was ist geschehen, wer hat es gewagt –«</p>
+            <p rendition="#et">Sie stellte unsanft eine Schachtel Cigaretten vor ihn hin und reichte ihm das Feuerzeug.</p>
+            <p rendition="#et">
+               <pb n="52" facs="#f0052"/>
+»Es ist einfach ekelhaft. Wissen Sie das Neueste? Die Leonie Strehlke hat sich verlobt ...«</p>
+            <p rendition="#et">Dr. Klausmann nahm die Brille von den kurzsichtigen Augen. »Was Sie sagen! Das bildschöne Mädel! Schad', dass sie schon ihre Wahl getroffen hat. Nun ist's aus mit der Hoffnung für unsereins ...«</p>
+            <p rendition="#et">»Sie sind ein Idiot!« Die kleine kugelrunde Kandidatin warf ihm einen giftigen Blick zu. »Wenn Sie Liebesabenteuer erleben wollen, müssen Sie sich an jene</p>
+            <p rendition="#et">Weibchen halten –«</p>
+            <p rendition="#et">»Sie sehen ja, auch unter der heiligen Flagge der Wissenschaft bleibt das Weib Weib, es müsste denn – hässlich sein.«</p>
+            <p rendition="#et">
+               <pb n="53" facs="#f0053"/>
+Hören Sie, Klausmann, wenn Sie gekommen sind, mir Unverschämtheiten zu sagen, dann entfernen Sie sich lieber.«</p>
+            <p rendition="#et">»Aber Beste,« er putzte eifrig an seinen Brillengläsern, »ich sag' doch nichts, was Ihren Zorn erregen könnte. Zeigen Sie mir eine einzige junge, schöne, glückliche Frauenrechtlerin, und ich will mich für geschlagen erklären. Es sind immer die vom Schicksal schlecht Bedachten, die Revolution machen. Auch auf diesem Gebiet. Ein persönlicher Grund ist's meistens, der sie anspornt, sich Gehör und Geltung zu verschaffen. Ein persönliches Erlebnis ist's, das sie zur Amazone gemacht, ihr die dem modernen Zeitalter angemessenen geistigen Waffen in die Hand drückt.<pb n="54" facs="#f0054"/>
+ Geben Sie diesen Frauen den Geliebten wieder, der ihnen vielleicht untreu geworden ist, geben Sie ihnen die mangelnden Subsistenzmittel, ein liebes Kind, das ihrer Langweile Beschäftigung bietet, Jugend, Schönheit, und ich wette mit Ihnen, den Teufel kümmern sie sich darum, ob nach fünfzig Jahren ihr eigenes Geschlecht seine Vertreter im Reichstag sitzen haben wird oder nicht. Beim Weibe ist alles aus dem Persönlichen herzuleiten.«</p>
+            <p rendition="#et">»Nun schweigen Sie aber gefälligst, oder ich mache von meinem Hausrecht Gebrauch.« Die Augen der Studentin blitzten ihn an. »Sie werden alle Tage ungeschlachter.«</p>
+            <p rendition="#et">
+               <pb n="55" facs="#f0055"/>
+»Erst seitdem ich –«</p>
+            <p rendition="#et">Ein kräftiger Faustschlag auf den Tisch liess ihn innehalten. Er lachte vergnüglich und zeigte dabei zwei Reihen wunderschöner Zähne. »Wenn Sie so anfangen, schliesse ich sofort Frieden. Vor Ihren Fäusten habe ich allen Respekt. Was macht die Arbeit?«</p>
+            <p rendition="#et">»Sie schreitet vorwärts, aber ob ich sie bis Mitte März einreichen kann, bezweifle ich.«</p>
+            <p rendition="#et">»Dann reichen Sie sie eben später ein.</p>
+            <p rendition="#et">Was liegt an ein paar Wochen bei einem Werk, das Sie Jahre gekostet hat?«</p>
+            <p rendition="#et">»Sie haben nicht unrecht.« Die Kandidatin wurde sanfter. Sie zog ein dickes Heft hervor.</p>
+            <p rendition="#et">
+               <pb n="56" facs="#f0056"/>
+»Über die Verkümmerung der Stimmbänder am untern Kehlkopf der Luftröhre bei den weiblichen Singvögeln.« »Sehen Sie, ich brauch' bloss ein bischen zu feilen und ins Reine zu schreiben, dann bin ich fertig.«</p>
+            <p rendition="#et">Fräulein Gröhl führte nämlich den schneidigen Beweis, dass nicht nur die erlauchten Herren der Schöpfung in der Vogelwelt, sondern auch deren Gattinnen die Gabe des Gesanges besässen, wenn – jetzt kommt der wichtige Punkt! wenn das zweite Paar Stimmbänder ihres untern Kehlkopfes nicht bis zur völligen Unnachweisbarkeit verkümmert wäre. Bekanntlich trifft jedes Organ dieses Schicksal, dessen Funktionen verhindert werden. Die Singvögelweibchen sind eben auch <pb n="57" facs="#f0057"/>
+durch den grausamen Egoismus ihrer Männer unterdrückt und aufs Piepsen angewiesen worden; den Gesang betrachten die Herren Gatten als ihr ausschliessliches Recht.</p>
+            <p rendition="#et">»Diese Arbeit,« die Kandidatin klopfte auf das Heft, »wird eine Umwälzung der Werte in der Vogelwelt bewirken.«</p>
+            <p rendition="#et">Klausmann schob die geputzte Brille wieder hinter die Ohren. »Ich bewundere Ihre Vielseitigkeit aufrichtig.« Er blickte ernsthaft auf die Kollegin. »Neben einer weit ausgreifenden, wissenschaftlichen Thätigkeit finden Sie noch Musse, eine Frauenzeitung herauszugeben, sich –«</p>
+            <p rendition="#et">»Reden Sie nicht von der. Sie wird ein unausgeführter Plan bleiben. Fehlen <pb n="58" facs="#f0058"/>
+mir doch zur Herstellung der ersten Nummer schon die nötigen Mittel.«</p>
+            <p rendition="#et">»Ach ja, richtig -,« der junge Gelehrte fuhr sich verlegen durch den dünnen Haarschopf, »betreffs der Zeitung sollte ich Ihnen ja etwas mitteilen. Frau von Kerb – Sie kennen gewiss dem Namen nach die reiche Mutter meines Schülers – Frau von Kerb hat mir angedeutet, dass sie gerne bereit wäre, Ihr Unternehmen mit den nötigen Mitteln zu unterstützen, wenn es ihr freigestellt würde, hie und da einen Roman von sich in Ihrer Zeitung zu veröffentlichen.«</p>
+            <p rendition="#et">»Donnerwetter!« Die Studentin packte die Hände Klausmanns, »und mit dieser Freudenbotschaft rücken Sie so spät heraus? <pb n="59" facs="#f0059"/>
+Das ist ja herrlich, einzig! Dadurch käme ich ja endlich ans Ziel meiner Wünsche. Selbst mein Doktorexamen liegt mir nicht so am Herzen als die Gründung dieser Zeitung. Denn, das sehen Sie doch ein, am hiesigen Platz – einer mittelgrossen Universitätsstadt – fehlt ein Centralorgan für die Fraueninteressen. Wir haben einen Verein, wir haben Versammlungen, aber wir hatten bislang keine Zeitung, welche unsere Bestrebungen und Errungenschaften, unsere weitern Pläne den übrigen Gleichgesinnten übermittelte. Es ist für uns von grosser Tragweite, ein solches Organ zu besitzen, das von der wichtigsten Förderung für unsere Sache werden kann. Sagen Sie Frau von Kerb, aber nein, ich selbst <pb n="60" facs="#f0060"/>
+werde zu der Dame hingehen ... Mag sie das ganze Reich unterm Strich – das Feuilleton – beherrschen, das geht uns nichts an, wenn uns nur der übrige Teil der Zeitung zur Verfügung steht. Ich gehe gleich heute zu ihr.«</p>
+            <p rendition="#et">»Thun Sie's,« der Doktor erhob sich, »sie ist um fünf Uhr zu sprechen. Und seien Sie nur dreist in Ihren Ansprüchen, der Dame kommt's auf den Mammon nicht an. Sie möchte nur durch die Unterstützung der Frauensache auch ihre eignen literarischen Interessen vertreten.«</p>
+            <p rendition="#et">»Topp.«</p>
+            <p rendition="#et">Der Doktor verabschiedete sich von der Studentin. Sie war ein nettes Persönchen mit einem frischen Gesicht, in <pb n="61" facs="#f0061"/>
+dem sich leider zu wenig Nase befand; doch ihre Naturwüchsigkeit entschädigte für dieses körperliche Zuwenig, zu dem auch ihr schlecht behandeltes Haupthaar gehörte, das struppig und kurz verschnitten ihr wie angeklebt hinter den Ohren sass. Sie gewann Frau von Kerbs Sympathie und damit die Verwirklichung ihres Planes. Ihre Kolleginnen blickten bewundernd zu ihr auf. Diese Energie imponierte ungemein. Das war ein ganzer Mannskerl, der durch seinen zähen Willen mehr erreichte, als mancher andere, der die Hosen obenauf trug.</p>
+            <p rendition="#et">Die bedeutendsten Tagesblätter verkündeten das Erscheinen des neuen Organs, das den stolzen Namen Arete tragen sollte, und erzählten von der Selbstlosigkeit, der <pb n="62" facs="#f0062"/>
+rastlosen Thätigkeit seiner Schöpferin, der es gelungen war, die Gründung dieses hochwichtigen Organs zu stande zu bringen. Man brannte vor Neugierde, wie die erste Nummer sich einführen würde. Der anberaumte Termin erschien, aber die Zeitung erschien nicht. Vielleicht war sie ihres Freimuts wegen, der allem Engherzigen kühn zu Leibe rücken wollte, konfisziert worden. Man wartete geduldig. Die Nummer erschien nicht, auch keine Notiz, die Aufklärung über die Verzögerung brachte.</p>
+            <p rendition="#et">Eines Tages pochte Dr. Klausmann bei einer Freundin an. Er fand sie unwirsch, geärgert, fast grob. Was er wünsche. Ewig die Fragerei wegen der Zeitung! <pb n="63" facs="#f0063"/>
+Hätte er sich schenken können! In Gottes Namen wolle sie denn seine Neugierde stillen. Also die Sache wäre diese. Frau von Kerb hatte ihren Roman eingereicht, der schon mit der ersten Nummer beginnen sollte. »Ich war darauf gefasst,« die Studentin kreuzte die Arme kampflustig über der Brust, »ziemlichen Blödsinn lesen zu müssen. Nennen Sie mir ein Frauenzimmer in Deutschland, das heutzutage einen lesenswerten Roman schriebe, alles ist Redaktionsschund, zurecht gemachtes Geschwätz, das Weib ist eben über die Gedankenspielerei hinaus – aber auf<hi rendition="#g"> diese</hi> Überraschung war ich doch nicht gefasst.«</p>
+            <p rendition="#et">»Frivol,« suchte der Doktor zu erraten.</p>
+            <p rendition="#et">
+               <pb n="64" facs="#f0064"/>
+»O mehr, viel mehr,« rief die Kandidatin entrüstet.</p>
+            <p rendition="#et">»Materialistisch wie das erste Atom, das aller Idealität fremd nur ein Fresssack war.«</p>
+            <p rendition="#et">»Mehr.« Fräulein Gröhls Augen funkelten.</p>
+            <p rendition="#et">»Na, zum Teufel, was hat sie denn angestellt?« platzte der Doktor heraus.</p>
+            <p rendition="#et">»Ihre Heldin hat sie Leonie genannt, wie die Strehlke heisst.«</p>
+            <p rendition="#et">Der Doktor schnellte von seinem Sitz empor, drehte sich dreimal um sich selbst und versuchte einen Freudenpurzelbaum zu schiessen, was aber der Enge des Zimmers wegen nicht gelang. »Und Sie, Sie lehnten die Annahme des Romans <pb n="65" facs="#f0065"/>
+ab, und weil <hi rendition="#g">Sie</hi> ablehnten, lehnte <hi rendition="#g">sie</hi> die Geldbeteiligung ab und – die Zeitung bleibt ungedruckt.«</p>
+            <p rendition="#et">»Selbstverständlich,« sagte Fräulein Gröhl mit Würde, »sie wollte aus Eigensinn keinen andern Namen wählen, und <hi rendition="#g">ich, ich</hi> werde doch nicht –«</p>
+            <p rendition="#et">»In diesem Zeichen wirst du nicht siegen!« Der Doktor machte eine Verbeugung und drückte sich, bevor ihm ein Schmöker an den Kopf flog, zur Thüre hinaus ...</p>
+            <pb n="66" facs="#f0066"/>
+            <pb n="69" facs="#f0067"/>
+         </div>
+         <div xml:id="Janitschek-Mari-d1e24326" type="chapter">
+            <head>Hysterie</head>
+            <p>
+               <pb n="67" facs="#f0068"/>
+               <pb n="71" facs="#f0069"/>Die Frau Gräfin ist angekommen,« sagte der Hausknecht vom »Lamm« in Klausen und sprang vom Omnibus, um ein parr Koffer herabzuheben. Aus dem Innern des veralteten Gefährtes schälte sich eine blasse, zierliche Frau im eleganten Reisekostüm. Der Wirt lüftete respektvoll die Mütze vor der Dame. Ob ein paar Zimmerchen zu haben wären? Nach Auswahl. Bei dem verspäteten Frühling stände das halbe Haus noch leer. Er zeigte ihr die Stuben des geräumigen, <pb n="68" facs="#f0070"/>
+alten Gasthofs. Schliesslich entschloss sie sich zu zweien, die am komfortabelsten möbliert waren. Sie war ohne Begleitung gekommen, und das Hausmädchen musste ihr auspacken und in die Schränke einräumen helfen. Angela von Breitenbach war schon im vorigen Jahr hier gewesen, jemand zuliebe, den sie den Herrn Doktor aus Hamburg genannt hatten. Es war ein alter Herr gewesen, ein etwas verschrobener Philosoph, von den eleganten Müssiggängerinnen der vornehmen Welt umschwärmt, die sich ja so hitzig auf alles stürzen, das einigermassen originell ist. Auch diese Jahr war Angela erschienen, der alte Herr indes war inzwischen zu seinen Vätern versammelt<pb n="69" facs="#f0071"/>
+ worden. Sie bewohnte die Stuben neben jenen, die er im vorigen Jahr inne gehabt hatte. Sie verbrauchte Unmengen von Petroleum, denn sie brannte fast die ganze Nacht Licht. Bei Tag schlief sie oft, oder sie that so, denn ihre Fensterladen blieben verschlossen. Kein Sonnenstrahl konnte zu ihr hineindringen. Einmal musste der Arzt zu ihr geholt werden. Er blieb lange da und erwiderte später den fragenden Blick des Wirtes mit Achselzucken. »Es wird die Gräfinnenkrankheit sein«, meinte der Lammwirt spöttelnd zu seiner Ehehälfte, »die sind alle krank.« Und er dämpfte seinen Bierbass zum wunderlichsten Flüsterton, wenn er der »Kranken« im Hausflur begegnete und ihr guten Tag <pb n="70" facs="#f0072"/>
+bot. Sie sah aus wie ein leidendes, fünfzehnjähriges Mädchen, verschüchtert, neugierig, lebenshungrig. Das kurze, geringelte Schwarzhaar trug sie aus der Stirn gestrichen. Die kleine, scharf gebogne Nase mit den rosigen, beweglichen Nüstern stimmte mit dem weichen, sensitiven Mund überein, dessen Winkel leicht nach unten geneigt waren. Ihre Augensterne waren übergross, man konnte darauf schwören, dass sie Atropin gebrauchte. Trotz ihres jugendlichen Äussern zählte sie zweiunddreissig Jahre und war schon zweimal verheiratet gewesen. Ihr erster Mann hatte sich in einem Anfalle von Schwermut, wie es hiess, ertränkt, der zweite, ein Freund des ersteren, war zufällig auf der <pb n="71" facs="#f0073"/>
+Jagd verunglückt. Man erzählte sich allerlei Sonderbares aus ihrem Eheleben. Jedenfalls war sie unabhängig, selbständig und brauchte niemand von dem, was sie that, Rechenschaft abzulegen. Sie besass irgendwo in Westpreussen ein Gut, war aber meist auf Reisen. Ihre zierliche Gestalt, die grossen, dunklen, sich anklammernden Augen, ihr jugendliches Aussehen, ihre eleganten Kleider sicherten ihr die Teilnahme aller Männer. Sie bedauerte nichts so sehr, als dass die Zeit der Flagellanten vorüber war, die Zeit der Pilgerfahrten in heilige, unbekannte Länder, die Zeit der Märtyrer, der geheimen Liebesmahle in den Katakomben. So hatte sie sich schon vor ihrer ersten Verheiratung geäussert. <pb n="72" facs="#f0074"/>
+Schon damals sah sie schwach und hilfsbedürftig aus wie heute. In ihrer ersten Hochzeitsnacht hatte sie ausbedungen, dass zwei Schalen mit palästinischem Weihrauch an ihrem Lager dampfen sollten. Ihr armer Gatte musste in dieser Nacht sehr viel niesen, aber er nahm es geduldig hin. Er, der gute Normalmensch, wurde halbverrückt über die Zumutungen, die sie an ihn stellte. Seinem Nachfolger ging's nicht besser. Später, nach dessen Tod, weinte Angela oft bitterlich. Sie fühlte sich sehr vereinsamt. Jeder Mensch, dem sie sich näherte, suchte sie, sobald er sie besser kannte, von sich abzuschütteln.</p>
+            <p rendition="#et">Der Glaube an Gott setzt eine gewisse Genialität, setzt tiefe Bildung, <pb n="73" facs="#f0075"/>
+kurz, einen Vollmenschen voraus. Halbgelehrte, Pöbelmenschen, die nur an das glauben, was sie zwischen den Fäusten fühlen, können ihn nicht besitzen. Sie sind in ihrer geistigen Beschränktheit so borniert, zu meinen, dass die Welt als Wirkung der Ursache entbehren kann. Zu diesen letzteren gehörte auch Angela.</p>
+            <p rendition="#et">Sie glaubte an eine Kirche, hatte sich bislang aber nie bemüht, die Bedingungen ihres Entstehens oder ihren Stifter kennen zu lernen.</p>
+            <p rendition="#et">Eines Nachmittags, in Klausen, als die Natur in lichten Frieden gehüllt war, wanderte sie nach dem Pfarrhaus. Der Pfarrer war daheim.</p>
+            <p rendition="#et">
+               <pb n="74" facs="#f0076"/>
+Er lud sie ein, in der behaglichen Stube Platz zu nehmen. Was sie herführe, ob sie im »Lamm« gut aufgehoben sei, ob ihr Klausen gefalle? Sie erwiderte, dass ihr an alledem wenig gelegen wäre, und blickte melancholisch in sein gesund gerötetes Gesicht.</p>
+            <p rendition="#et">Sie suche etwas ganz Anderes. Was, wisse sie nicht, aber sie suche es. Sie begann zu weinen. Er blickte verlegen vor sich hin. Ob sie einen Trauerfall in der Familie gehabt hätte? Sie schüttelte den Kopf. Vielleicht hätte sie zu wenig Beschäftigung. Ihre Augen blitzten auf. Sie, die immer wünschte, dass der Tag die dreifache Stundenzahl besässe! Dann seien es wohl Sorgen. Wieder Verneinung. <pb n="75" facs="#f0077"/>
+Oder, er fixierte ihr blasses Gesicht, sie wäre krank. Krank, ja, das mochte es sein. »Die Sehnsucht verzehrt mich. Die Sehnsucht nach etwas Unbekanntem ... Gestern ging ich an einem Crucifix vorüber; der ausgestreckte, blutige Christus liess in mir die Frage erwachen, ob es vielleicht sein Kult sei, der mich befriedigen könnte. Ich habe immer Neigung zur Mystik gehabt; das Geheimnisvolle, die Qual aus Liebe, die verwirrenden Widersprüche, die aufs überraschendste gelöst werden, die Visionen, die aus der Zerstörung des Körpers aufsteigen, all das hat bestrickenden Reiz für mich.«</p>
+            <p rendition="#et">Der biedere Priester fühlte sich seltsam berührt. Er wusste nicht im geringsten, <pb n="76" facs="#f0078"/>
+in welche Kategorie seiner Erfahrungen er dieses Menschenexemplar einreihen sollte. Er hatte von asketischen Heiligen gelesen und kannte mehrere schwärmerische Personen, die im Ruf grosser Gottseligkeit standen. Er wagte hier nicht abweisend vorzugehen, bevor er sich klar über diese eigentümliche Frau war. Da sank sie auf die Knie vor ihm.</p>
+            <p rendition="#et">»Hochwürdiger Herr, hören Sie meine Beichte, erbarmen Sie sich, hören Sie meine Beichte.«</p>
+            <p rendition="#et">»Sind Sie denn katholisch?« Er senkte die Augen vor ihren drängenden Blicken.</p>
+            <p rendition="#et">»Ja, ich bin katholisch, aber ich habe meine Religion jahrelang aufs ärgste vernachlässigt. Bitte, bitte,« sie erhob die <pb n="77" facs="#f0079"/>
+gefalteten Hände zu ihm, »erfüllen Sie meinen Wunsch!«</p>
+            <p rendition="#et">Er erhob sich mit einer heftigeren Gebärde, als ihm sonst eigen war. Er ertappte sich auf einem dunklen Angstgefühl. Am liebsten wäre er hinausgerannt.</p>
+            <p rendition="#et">Aber er durfte seine Schwäche nicht zeigen.</p>
+            <p rendition="#et">»Kommen Sie, wenn es Ihnen beliebt, in die Kirche,« sagte er beherrscht.</p>
+            <p rendition="#et">»Heute abend um acht Uhr,« flüsterte sie hinter ihren Händen hervor. Er nickte stumm. Sie erhob sich, murmelte etwas mit gesenktem Gesicht und entfernte sich.</p>
+            <p rendition="#et">Er trat zum Wandschrank, goss sich ein Glas Enzian ein und trank es aus. Danach wurde ihm besser.</p>
+            <p rendition="#et">
+               <pb n="78" facs="#f0080"/>
+Seine Schwester kam mit einigen harmlosen Fragen herein, die ihren Haushalt betrafen. Er fand seinen gewohnten Gleichmut wieder, und ging ins Gärtchen, um nach den Rosen zu sehen, die dieses Jahr viel von den Raupen zu leiden hatten. Dann kam der Gemeindevorsteher auf ein Wort, dann noch ein Besuch. Es begann Ave Maria zu läuten. Der Geistliche nahm sein schwarzes Hauskäppchen ab und betete. Die Besucher entfernten sich. »Der ausgestreckte, blutige Christus, ... vielleicht ist's sein Kult ...« fuhr's ihm mitten im Gebet durch den Kopf. Er schlug schnell das Kreuz und folgte seiner Schwester zum Abendessen. Aber es wollte ihm nicht munden. Er beantwortete <pb n="79" facs="#f0081"/>
+kurz ihr munteres Geplauder, er dachte beständig bei sich: wenn mich doch ein Kranker holen liesse, dass ich nicht in die Kirche zu gehen brauchte! Aber kein Kranker liess ihn holen. Die Brauen zusammengezogen, begab er sich zögernd ins Gotteshaus hin über. Die letzten Strahlen der sinkenden Sonne fielen durch die bunten gotischen Fenster in das dämmerige Gewölbe hinein. Ein verwirrender Geruch, halb Duft, halb Heilkraut, den er sonst nie wahrgenommen hatte, drang ihm entgegen; er stammte von keinem Insassen des Ortes.</p>
+            <p rendition="#et">Vorm Hochaltar, auf den Knieen, lag eine dunkel verschleierte Gestalt. Der Pfarrer wollte leise auftreten, doch seine <pb n="80" facs="#f0082"/>
+derben, genagelten Schuhe vereitelten seinen Vorsatz; er fühlte ärgerliche Röte in die Wangen steigen, öffnete die Thür seines Beichtstuhls, zwängte sich auf den engen Sitz und schlug den Holzladen vor dem Gitter zurück. Ein seidnes Rauschen an ihm vorüber, dann strömte ihm ein warmer Atem entgegen.</p>
+            <p rendition="#et">»Sprechen Sie lauter«, sagte er trocken, »ich verstehe kein Wort.«</p>
+            <p rendition="#et">Aber sie sprach nicht lauter; um sie zu verstehen, musste er das Ohr dicht ans Fenster pressen. Er fühlte die Kante ihres Schleiers seine Schläfe berühren, oder waren es ihre Haare?</p>
+            <p rendition="#et">»Es giebt Entzückungen, intensiver als der Liebesgenuss. Ich zwang mein Mädchen, <pb n="81" facs="#f0083"/>
+ein junges Ding, durch Drohungen und Misshandlungen, mich zu geisseln; glauben Sie, dass das unrecht war? Ich dachte an den Ecce Homo dabei und empfand die tiefe Wonne seines bleichen, stummen Mundes. Einmal, in einem kleinen Orte Süditaliens, ich hatte mir dort ein Landhaus gemietet, habe ich einen armen Jungen – ich hatte vorher seine Eltern aus einer Notlage gerettet und sie schenkten mir ihn sozusagen – ich habe ihn überredet, sich von mir kreuzigen zu lassen. Man kommt dabei so vielem näher. Das Kind that mir schrecklich leid, aber mir war, als brächte ich Gott ein frommes Opfer. Ich hatte des Knaben Füsse auf das Kreuz nebeneinander <pb n="82" facs="#f0084"/>
+geheftet, wie sie den Christus in den ersten sechs Jahrhunderten darstellten. Beim dritten Nagel starb mir der Junge. Er erstickte. Ich hatte ihm einen Knebel in den Mund gesteckt, damit er nicht so laut schreie. Glauben Sie, dass ich ein Unrecht beging?«</p>
+            <p rendition="#et">Der Priester machte eine krampfhafte Bewegung, er fühlte Schweissperlen von seiner Stirne tropfen, doch es war sein Amt, sie bis zu Ende zu hören.</p>
+            <p rendition="#et">»O, es ist noch nicht alles,« flüsterte sie halberstickt, »ich habe noch viel auf mir. Ich weiss nicht, bin ich eine Heilige oder eine Verworfene. Ich habe viele Menschen der gemeinen Wollust entfremdet, um sie die zerfleischende <pb n="83" facs="#f0085"/>
+Süssigkeit jener andern fühlen zu lassen, die mit dem gewöhnlichen Gang der Natur nichts zu thun hat. Ist das ein Verdienst, ein Unrecht? Aber,« sie stöhnte auf, »ich glaube, ich fange an erschöpft zu werden, mein Herzschlag stockt, ich zittere ... o, wenn Ihnen mein Heil am Herzen liegt, strafen Sie mich, strafen Sie mich, ich folge Ihnen, wohin Sie wollen, in eine dunkle Ecke der Kirche, ich unterwerfe mich Ihnen ganz ... geisseln Sie mich ...«</p>
+            <p rendition="#et">Der Priester ballte sein Taschentuch in einen Knäuel zusammen und sagte: »Gehen Sie nach Hause.«</p>
+            <p rendition="#et">Sie fuhr zurück. »Wie, nach Hause?</p>
+            <p rendition="#et">Aber morgen abend –«</p>
+            <p rendition="#et">
+               <pb n="84" facs="#f0086"/>
+»Weder morgen abend, noch sonst jemals. Mit Beichtkindern Ihrer Art will ich nichts zu schaffen haben.«</p>
+            <p rendition="#et">Er stiess die Thüre des Beichtstuhls auf, durchschritt rasch die Kirche und eilte heim. In seiner Stube warf er sich auf die Kniee und presste das brennende Gesicht in die Hände. Er hatte sich eines Vergehens schuldig gemacht, einen Menschen, der sich ihm anvertrauen wollte, von sich gewiesen, weil er ihm zu schmutzig war. O meine Kirche, dachte er, weshalb verurteilst du den Priester dazu, das Gefäss zu sein, das geduldig die Jauche der Unreinheit in sich aufnehmen muss. Wähnst du uns aus anderm Stoff gemacht als die übrigen Menschen? Wenn die Ansteckung<pb n="85" facs="#f0087"/>
+ durch die Phantasie ins Herz dringt und dieses zur Erniedrigung führt, wer trägt die Schuld daran als du? O tiefe Gefahr, die in deinem bevorzugtesten Institut ruht! Weise Kirche, weshalb setzest du deine Diener ihr aus? Weshalb entblössest du deinen Herrn, heftest ihn ans Kreuz und zeigst ihn so in den Nöten seiner menschlichen Natur den Augen der Menschen? Meinst du ihm dadurch einen Dienst zu erweisen? Ihm, dem stolzen, überlegnen König, der die Geister der Erde beherrscht? Weshalb betonst du nicht einen aus der sieghaften Reihe seiner Triumphe, nur seine einzige Niederlage? Fort mit dem Crucifix, das der heimlichen Wollust kranker Schwärmer Vorschub leistet; zeige uns <pb n="86" facs="#f0088"/>
+Jesus, den Helden, der in der Sixtina Gericht hält; zeige uns Jesus den Hohenpriester, wie Thorwaldsen ihn uns giebt ...</p>
+            <p rendition="#et">Während der Geistliche mit den aufgewühlten Regungen seines Temperaments kämpfte, schlich Angela aus der Kirche. Sie fühlte sich geärgert über die Abweisung, die ihr widerfahren war. Die Stunde war voll geheimen Reizes gewesen, weshalb sollten ihr nicht ähnliche folgen? Dieser plumpe Mensch, der sie von sich gestossen hatte!</p>
+            <p rendition="#et">Sie ging nachdenklich in ihr Gasthaus, packte am nächsten Morgen ein und reiste ab.</p>
+            <p rendition="#et">Ihr Weg führte sie zu einem berühmten und berüchtigtern Seelenerforscher und Alchimisten <pb n="87" facs="#f0089"/>
+im Reiche des Geistes. Er prägte neue Werte aus ganz besonderm Metall, das in der vierten Dimension gegraben war. Zu seinen Füssen sassen verschiedene Personen, meistens Frauen, und lauschten seinen philosophischen Auseinandersetzungen. In seinen Mussestunden übersetzte er Bücher aus alten, halbverschollenen Sprachen des Morgenlandes, die Anweisungen über die verschiedenen Arten des Liebesgenusses enthielten. Er war auf allen Gebieten daheim, er hatte alles kennen gelernt, auch das Zuchthaus. Er war wahnsinnig interessant«. Als das kleine, bebende Persönchen Angela vor ihm stand, umschlang er es sofort und zog es an seine väterliche Brust. Sein <pb n="88" facs="#f0090"/>
+dickes, bleiches, glattrasiertes Gesicht schien halb einem Priester, halb einem Schauspieler zu gehören. Er trug einen dunklen Talar daheim und strahlende Edelsteine, eigenartig gefasst, an den Fingern. Er war hoch gewachsen, und seine derben Knochen liessen auf starke physische Kraft schliessen. Angela erzählte ihre Lebensgeschichte, weinte ein bischen und sagte, dass sie gekommen sei, sich Trost und Rat bei ihm zu holen. Er streichelte ihr Haar, sagte ihr einige landläufige Trostworte und empfahl sie einer seiner Freundinnen. Diese, eine Frau in den mittleren Jahren, hager, unfreundlich, nichts weniger als eine anziehende Person, ging Angela in ihren <pb n="89" facs="#f0091"/>
+äusseren Angelegenheiten wohl an die Hand, trug indes der verwöhnten Art der kleinen Dame durchaus keine Rechnung. Im Gegenteil. Sie beobachtete die neue Ankömmlingin im Kreis des »Meisters« mit argwöhnischen Blicken. Angela beklagte sich bei ihm über ihre Teilnahmlosigkeit. Er lächelte, ein fettes, herablassendes Lächeln. Eifersucht dulde er nicht um sich. Die Weiblein hätten sich untereinander zu vertragen. Hier gälte keine mehr als die andere. Sie alle wären Schwestern. Sie ergab sich in Anbetracht des Neuen, das sie durch ihn erleben würde. Es kam sehr langsam. Man musste sich erst durch sehr viele spiritistische Sitzungen durchöden, an den <pb n="90" facs="#f0092"/>
+lächerlichsten Betrug glauben, der Ringe, Brieftaschen, Blumen, Schriftstücke durch die Luft fliegen liess, man musste verzückte alte Weiber in medistischen Zuständen sehen, Gekritzel ohne Sinn aus der vierten Dimension bewundern, bis der »Meister« endlich aus diesen Proben des Gehorsams und der Verleugnung jedes Vernunftfunkens die Würdigkeit seiner Jüngerin erkannte. Zwischen kneifenden Elementels, knackenden Tischgeistern, unzufriedenen Selbstmörderseelen, verwirrten alten Weibern, meist solchen, die im Leben nichts mehr zu suchen hatten, aber noch sehr viel finden wollten, fühlte sich Angela noch nicht befriedigt. War das alles? Geister interessierten <pb n="91" facs="#f0093"/>
+sie weniger, ihr lag an andern Erlebnissen mehr.</p>
+            <p rendition="#et">Eines Tages entbot sie der Meister zu sich. Unterwürfig, wie sie die andern ihm gegenüber sah, gehorchte sie seiner Einladung. Er bewohnte ein paar mit weichlichem Luxus ausgestattete Zimmer. Von den Wänden sahen Bildnisse des Ewig-Weiblichen in seiner unverhülltesten Gestalt herab. Er sass essend an einem gedeckten Tisch, auf dem sich Thee, Obst und Backwerk befanden. Aus »innern Gründen« ass er nie Fleisch. Schüchtern liess sie sich neben ihm nieder. Nach der zweiten Tasse Thee legte er seine Hand wie segnend auf ihr Haupt und mass sie prüfend vom Scheitel bis zu <pb n="92" facs="#f0094"/>
+ihren in zarten gelben Stiefelchen steckenden Füssen. Dann schnitt er einen Apfel entzwei und gab ihr die Hälfte davon zu essen. Sie wurde befangen. Seine Augen sahen sie immer befehlender an, aber sie verstand ihren Ausdruck nicht ganz; verwirrt blickte sie um sich, doch die hüllenlosen Damen machten ihre Wimpern sich senken. Sie deutete mit leiser Gebärde auf die Bilder. Weshalb die alle? Bedurfte ein Mann wie er solcher Spielereien?</p>
+            <p rendition="#et">Gerade ein Mann wie er, sagte er pathetisch, bedurfte dieser Bildwerke zum – Abgewöhnen. Sie sah ihn heimlich, prüfend an. Da erhob er sich und flüsterte:</p>
+            <p rendition="#et">»Komm mit mir.«</p>
+            <p rendition="#et">
+               <pb n="93" facs="#f0095"/>
+Sie gehorchte. Im Nebenzimmer brannte eine kleine, von rotem Stoff verhüllte Lampe. Der Meister liess sich nach Art der Morgenländer auf den dicken Teppich nieder, und gebot Angela, die unschlüssig dastand, sich zu entkleiden. Sie zauderte ein wenig, sah ihn wieder prüfend an und begann zögernd ihre Taille zu öffnen.</p>
+            <p rendition="#et">»Weiter, weiter,« gebot er, »häng die Sachen dort über das Stühlchen.«</p>
+            <p rendition="#et">Angela hatte schon sehr viel erlebt, Liebesekstasen, wo sie einander die Kleider vom Leib gerissen hatten, aber dieses überlegne, kühle Zusehen, während sie sich auszog, brachte sie in wirkliche Verwirrung.</p>
+            <p rendition="#et">»Ich thue es lieber draussen,« meinte sie zaghaft, »und komm dann wieder.«</p>
+            <p rendition="#et">
+               <pb n="94" facs="#f0096"/>
+»Nein, ich wünsche, dass du es hier thust,« versetzte er gelassen.</p>
+            <p rendition="#et">Sie liess das Kleid fallen. Wieder Pause.</p>
+            <p rendition="#et">»Weiter, weiter,« sagte er, legte sich zurück und kreuzte die Arme unterm Kopf, während seine Augen auf sie gerichtet waren. Der seidne Unterrock glitt nieder. Sie fühlte ein unwilliges Rot ins Gesicht steigen. Ein kleines, weisses Unterröckchen hielt sie fest an die Taille gepresst.</p>
+            <p rendition="#et">»Zieh das Korsett aus und lass das Röckchen fallen. Das übrige kannst du anbehalten.«</p>
+            <p rendition="#et">Sie gehorchte und stand in einem kaum bis ans Knie reichenden Batisthöschen vor ihm.</p>
+            <p rendition="#et">
+               <pb n="95" facs="#f0097"/>
+»So ist's gut,« raunte er, »und nun komm her.«</p>
+            <p rendition="#et">Sie war ganz im Bann seiner Augen und kam. Er nestelte ein bischen an ihr herum und nahm seine frühere ruhende Pose ein. »Stell deinen rechten Fuss auf mein Bein.«</p>
+            <p rendition="#et">Sie gehorchte. Ein verzücktes Lächeln glitt über sein Gesicht, während seine Augen in ihrer Gestalt wühlten. Sie senkte den Kopf und fing zu weinen an. Er rührte sich nicht. Er war ganz stumm und steif geworden, dann liess er das Haupt sinken, schloss die Augen und seufzte auf. Sie machte sich über ihre Kleider her und zog sich an. Als sie schon angekleidet war, fühlte sie seine <pb n="96" facs="#f0098"/>
+Hand auf der Schulter. »Ich danke dir! Komm Anfang nächster Woche wieder.« Er entliess sie mit einer leichten Geste.</p>
+            <p rendition="#et">Mit schwerem Kopf kam sie heim. Nach der Scene die Entlassung! Das wollte ihr nicht passen. Das nicht. Das war ja Tyrannei. Sie ganz leer ausgehen zu lassen, während er genoss, der heilige Mann!</p>
+            <p rendition="#et">Trotzdem kam sie in der nächsten Woche wieder. Sie wusste, dass indessen so und so viele andere Frauen wahrscheinlich zu ähnlichen Scenen verwendet, bei ihm waren. Aber sie durfte nicht aufmucken, er duldete das nicht. War er ihr etwas?</p>
+            <p rendition="#et">Augenblicklich beschäftigte er stark ihre Phantasie.</p>
+            <p rendition="#et">
+               <pb n="97" facs="#f0099"/>
+Vielleicht erfüllte er das zweite Mal ihre Erwartungen.</p>
+            <p rendition="#et">Nach einer ähnlichen Einleitung wie jüngst, kauerte er sich wieder auf den Teppich und gebot ihr, sich auszukleiden. Sie gehorchte. Diesmal fiel das letzte Gewandstück. Er befahl ihr, allerlei Posen einzunehmen. Zum Schluss ganz verrückte, tolle, die ihr Schmerz bereiteten, weil sie in jeder seinen betastenden Blicken lange standhalten musste. Erschöpft vor Erregung und Müdigkeit brach sie zusammen, warf sich neben ihn hin, sah ihn mit jenem unterwürfigen, begehrenden Blick der stummen Bestie an und zerrte leise an seiner Hand. Längere Zeit rührte er sich nicht. Dann richtete er sich langsam auf. Was sie wolle?<pb n="98" facs="#f0100"/>
+ Anstatt der Antwort sah sie ihn heiss und scheu an. Da gebot er ihr, sich anzukleiden. Und als ihre Blicke sich noch bettelnder und leidender auf ihn hefteten, sagte er eisig: »Sei nicht unrein, kleide dich an und gehe.« Und mit diesem erhabenen Wort verfügte er sich in das letzte Zimmer, dessen Thür er hinter sich abschloss.</p>
+            <p rendition="#et">Mit bebenden Fingern zog sie sich an und verliess sein Haus. Sie erfuhr von einer seiner »Freundinnen«, einer jungen, üppigen Blondine, dass sie durchaus auf keine andern Überraschungen zu hoffen hätte, weiter liesse sich der heilige Mann mit keiner von ihnen ein. Angela wollte keinem Heiligen zum Abgewöhnen <pb n="99" facs="#f0101"/>
+dienen und dabei nichts als Unbequemlichkeit ernten. Sie suchte den »Meister« nicht mehr auf.</p>
+            <p rendition="#et">Sie fühlte sich sehr leidend und konsultierte einen berühmten Frauenarzt. Hier hatte sie kein Glück. Er selbst verspürte keine Lust, sie zu kurieren, sie war ihm zu wenig reizend dazu. Sein Geschmack ging nach einer andern Richtung. Er empfahl sie einem jungen, patientenbedürftigen Kollegen. Der nahm die Sache ernst und wollte sie wirklich von ihrem eingebildeten Leiden durch ehrliche Mittel heilen. Sie warf seine Rezepte ins Feuer und reiste ab. Von nun an vermehrte sie die Zahl der Frauen, die sich von Bad zu Bad schleppen, die sich nicht schämen, <pb n="100" facs="#f0102"/>
+Stubenmädchen und Kellnern vorzuweinen und ihre Verlassenheit zu klagen, die der Schrecken aller Hotelgäste sind, deren Teilnahme sie auf sich lenken wollen, die vom Arzt für eine Zumutung bei der Untersuchung ein derbes Wort zugeschleudert bekommen und dazu schweigen wie ein geschlagener Hund.</p>
+            <p rendition="#et">Sie hatte nur noch einen Wunsch: überwältigt zu werden. Nur ein einziges Mal! Das schien ihr der Gipfel aller erdenklichen Wollust. Gezwungen unter Püffen und Schlägen den Taumel des Mannes zu verspüren! Sie scheute keine Gelegenheit, ihren Wunsch erfüllt zu erhalten.</p>
+            <p rendition="#et">Eines Nachmittags verliess sie elegant gekleidet, ihren kostbaren Schmuck an <pb n="101" facs="#f0103"/>
+sich, das Hotel. Sie wählte nicht die nur ein paar Schritte entfernte Waldpromenade, sondern schritt die heisse, staubige Landstrasse hinab. Sie ging immer weiter, weiter. Schwüle rote Abendluft schlug ihr ins Gesicht. Schon näherte sie sich dem Fluss, der die Wiesen durchquerte. Weiden begannen. Tümpel, von Gesträuch umgeben, zogen sich neben der Landstrasse hin. Plötzlich richtete sich aus niederem Buschwerk die zerlumpte Gestalt eines Landstreichers auf und streckte bettelnd die Hand zu ihr. Sie starrte einen Augenblick erschreckt auf ihn nieder. Dann veränderte sich ihr Gesicht, ihre Augen wurden gross und flammend, sie machte eine Grimasse und schrie ihm ein <pb n="102" facs="#f0104"/>
+Schimpfwort zu, ohne weiterzugehen. Er glotzte zu ihr auf, die Adern seiner Stirne schwollen dick an, dann machte er eine Bewegung nach ihr hin. Ein Hilfeschrei, ein Fluchtversuch, und sie wäre unbeschadet geblieben, aber sie schrie nicht. Mit einer einzigen Bewegung seiner plumpen Faust hatte er sie am Kleid gefasst und zu sich herabgerissen. Sie ächzte unter seinen wühlenden Griffen, trat ihn mit den Füssen ins Gesicht, dann wurde sie still und immer stiller, ihre Augen quollen aus den Höhlen heraus, und über ihr Gesicht verbreitete sich die rätselhafte Verzerrung des Todeskrampfes. Sie war unter den würgenden Händen des Strolches erstickt.</p>
+            <pb n="103" facs="#f0105"/>
+         </div>
+         <div xml:id="Janitschek-Mari-d1e24579" type="chapter">
+            <head>Neue Erziehung und alte Moral</head>
+            <p>
+               <pb n="104" facs="#f0106"/>
+               <pb n="109" facs="#f0107"/>Im weiten Hof, der das Gut des Ökonomen Paul Steffert umschloss, fand ein grosser Kampf statt. Hans, dem jüngsten unter den sieben Söhnen, war das Federmesser aus der Westentasche geglitten; sofort stürzten sich einige seiner Geschwister darauf, um es für sich zu kapern. Ein wirrer Knäuel von zappelnden Armen und Beinen entstand, ein mörderisches Gezeter; die Hühner gackerten und kamen herbeigelaufen, Karo, der Bewacher des Hauses, bellte wie besessen, und Gänse <pb n="105" facs="#f0108"/>
+und Enten flohen watschelnd aus dem Bereich dieses Aufruhrs. Plötzlich ertönte der schrille Ton einer Pfeife. Sofort kam Ordnung in die Schlacht. Die einzelnen Kämpfer begannen die eignen Arme und Beine zu suchen, die mit denen der Brüder auf die schwerzulösendste Art verschlungen waren. Mitten aus der Schar tauchte plötzlich ein Zopf auf, zu dem ein hochaufgeschossenes Geschöpf gehörte, das merkwürdigerweise nicht in Bubenkleidern steckte. Die holde Schöne, sie hatte sich gleich den andern im Staub gewälzt, war ganz zerkratzt und zerschunden, der linke Ärmel ihrer Bluse hing in Fetzen, der Rock war aus dem Gürtel gerissen. Mit hochrotem Gesicht<pb n="106" facs="#f0109"/>
+ und noch von der Aufregung leuchtenden Augen stand sie da und sah unsicher auf die Gartenthür hinüber. »Es ist nur der Vater, Seffi,« flüsterte Hans, der siegreich im Kampf um sein Messer hervorgegangen war; als der jüngste wurde er von den Brüdern »geschont«. »Die Mutter ist noch bei der Rolle beschäftigt.«</p>
+            <p rendition="#et">Sie verteilten sich im Hof und gingen an die Arbeiten, die ihnen von den Eltern aufgetragen waren. Seffi stand überlegend da, wer ihr helfen könnte, ihre Zerrissenheit vor den Augen der Pflegemutter zu verbergen; denn sah diese den bös zugerichteten Ärmel, dann setzte es ein paar Ohrfeigen ab.</p>
+            <p rendition="#et">
+               <pb n="107" facs="#f0110"/>
+Da schien sich Rettung in Gestalt ihres ältesten Pflegebruders zu nahen, der in der Stadt bei den Jägern als Leutnant diente. Sein Gesicht strahlte vergnüglich beim Anblick der Verzweiflung des Bubenmädels.</p>
+            <p rendition="#et">»Na Seffi, heute hast du dich ja fein gemacht, das Haar voll Staub und zerzaust, die Kleider in Lumpen, sogar der Strumpf –«</p>
+            <p rendition="#et">»Hast du vielleicht eine Nähnadel bei dir?« Sie schob geschickt mit dem Fuss den niedergerutschten schwarzen Strumpf hinauf.</p>
+            <p rendition="#et">»Nähnadel nicht, aber Stecknadeln.« Der schmucke, junge Mensch zog seine Brieftasche heraus.</p>
+            <p rendition="#et">
+               <pb n="108" facs="#f0111"/>
+»Nein, nein, lass nur, die Stecknadeln verlier' ich doch wieder, ich zieh lieber ein anderes Kleid an, wenn nur nicht alle so kaput wären,« setzte sie kläglich hinzu, »und die guten Sachen hat sie eingesperrt, damit ich das andere flicke.«</p>
+            <p rendition="#et">Von irgendwoher hörte man eine tiefe, scheltende Frauenstimme. Seffi, wie ein flüchtiger Windhund, stob über den Hof. Auf der Treppe stiess sie mit einem hübschen, braunlockigen Burschen zusammen.</p>
+            <p rendition="#et">»Wohin?«</p>
+            <p rendition="#et">»Umziehen.«</p>
+            <p rendition="#et">»Du, Seffi,« er sah ihr vertraulich in die Augen, »ich komm heut abend und helf dir nähen, versteck mir einstweilen das in deinem Schrank.« Er steckte ihr <pb n="109" facs="#f0112"/>
+ein schmieriges, mit der Leihbibliotheksmarke versehenes Buch zu.</p>
+            <p rendition="#et">»Komm aber nicht vor zehn Uhr, sonst erwischt uns die Mutter wieder, wie neulich, und abschliessen darf ich ja nicht.«</p>
+            <p rendition="#et">Von oben nahendes Gepolter liess die beiden auseinanderfahren. Fritz, der Techniker, eine Mappe unterm Arm, stürmte herab. Er musste zum Kolleg nach der Stadt fahren, und in ein paar Minuten ging der Zug ab.</p>
+            <p rendition="#et">»Was hast du denn da auf der Treppe mit Alfred zu flunkern?« Er blickte sie unwillig an. »Dir imponiert ja der Primus gewaltig. Du bist doch eine Polargans.«</p>
+            <p rendition="#et">»Sei froh, so stehe ich doch nicht gar zu hoch über euch.«</p>
+            <p rendition="#et">
+               <pb n="110" facs="#f0113"/>
+»Hahaha.« Er warf ihr eine Kusshand zu und sprang mit einigen Sätzen hinab.</p>
+            <p rendition="#et">Sie indes ging in eine Kammer unterm Dach, von wo aus man eine entzückende Fernsicht über Felder und Wiesen nach dem nahen Waldsaum genoss. Dicht am Fenster stand ein niederes Eisenbett mit einer dünnen, abgelegenen Matratze darauf. Eine alte Kamelhaardecke und ein Laken vervollständigten die Ausstattung dieses Bettes ohne Kissen, bei dessen blossem Anblick einem alle Knochen weh thaten. Hier schlief Seffi seit ihrem siebzehnten Geburtstag, das war seit vier Wochen. Bis zu dem Tag hatte Karl dieses »Zimmer« innegehabt, der gegenwärtig <pb n="111" facs="#f0114"/>
+als Volontär auf einem Nachbargut diente. Ein Schrank, dessen Thür weit offen stand, in dem Wäschestücke, Stiefel, Kleider, Bücher, Hüte einträchtig nebeneinander lagen, ein alter, wackliger Tisch, auf dem sich ein Haushaltungsbuch, eine Lampe, eine Bibel befanden, ein Stuhl und, noch aus Karls Zeiten, ein vergessner, wehmütig dreinblickender Stiefelzieher bildeten die Einrichtung des Stübchens. Das Fenster stand das ganze Jahr geöffnet, selbst im strengsten Winter. Die Steffertschen Jungen waren bis zur Unempfindlichkeit abgehärtet, und Seffi wurde ganz als Junge erzogen.</p>
+            <p rendition="#et">Seit ihrem achten Jahr, als ihre beiden Eltern kurz nacheinander gestorben waren, <pb n="112" facs="#f0115"/>
+befand sie sich hier bei dem ältesten Freund ihres Vaters. »Haben wir für sieben Platz, so wird sich wohl noch für ein achtes eine Luke als Unterschlupf finden lassen,« meinte er. Frau Steffert, eine Rubenssche Vollblutgestalt, hatte damals ein bedenkliches Gesicht gemacht. »Unter sieben Jungen ein Mädel und ich nicht die geringste Zeit zur Beaufsichtigung, wie wird das werden?« Aber ihr kluges, gutes Herz liess sie einen Ausweg ersinnen. »Man wird die Kleine eben vollständig wie die Buben behandeln.« Dadurch entkräftete sie alle Bedenken.</p>
+            <p rendition="#et">Und Seffi wurde genötigt, Winters und Sommers des Morgens sich unter die kalte Dusche zu stellen; weigerte sie sich, <pb n="113" facs="#f0116"/>
+so setzte es eine Tracht Prügel ab; sie wurde genötigt, unter einer dünnen Decke, Winters und Sommers bei weit geöffnetem Fenster zu schlafen, mit den Dienstmägden die schwersten körperlichen Arbeiten zu teilen u.s.w. Um ihre geistige Entwicklung kümmerte sich niemand. Sie konnte lesen und schreiben, ging mit der übrigen Familie Sonntags zur Kirche und erhielt jede Weihnacht von ihren Pflegeeltern sechs blanke Goldstücke, die man in die Sparbüchse für sie legte. Sie verstand die Hauswirtschaft aufs beste; jedoch die Nadel zu führen oder irgend eine zierliche Putzarbeit zu verrichten, dazu konnten sie selbst die Ohrfeigen der Pflegemama nicht bewegen. Da kamen ihr <pb n="114" facs="#f0117"/>
+nicht selten die Brüder zu Hilfe, die ihr alle gleich gut waren. Das Erziehungsexperiment Frau Stefferts war ein gewagtes. Oft im Sommer, wenn sie allesamt im nahen Teich badeten und wie sie Gott geschaffen ins Wasser spazierten – Mama allein machte eine Ausnahme -, zögerte die heranwachsende Seffi, bevor sie am Ufer ihr letztes Kleidungsstück fallen liess. Da gab's tüchtige Schelte von seiten der Mutter, die bereits, von ihren Jungen umgeben, ihre Schwimmkünste übte.</p>
+            <p rendition="#et">»Na, wird's bald? Hab dich man nicht so!« Und wenn Seffi nun mit einer resoluten Bewegung ins Wasser sprang, näherte sich ihr die energische Mutter. »Mir scheint gar, du schämst dich! Glaubst <pb n="115" facs="#f0118"/>
+wohl am Ende, die Jungen guckten nach dir? Du dummes Ding! Was an dir wohl abzugucken wäre!«</p>
+            <p rendition="#et">Und Seffi gab der Mutter innerlich Recht und fühlte sich sicher in ihrer grossen Naturunschuld. Weil ihr das Nähen verhasst war und sowohl bei ihren Hausarbeiten, als auch bei ihrer jugendlichen Toberei mit den Brüdern ihre Kleider sehr mitgenommen wurden, so trug sie möglichst wenig am Körper. Ausser dem Oberkleid nur ein Hemd. Nie mehr, weder im Sommer, noch im Winter. Das dünne Kattunkleidchen flatterte ihr mehr als einmal im Tag hoch, wenn sie über die Treppe hinabsprang, oder im Hof umhertollte, und ihre von der Luft gebräunten <pb n="116" facs="#f0119"/>
+schlanken Dianenschenkel wurden sichtbar. Niemand fand etwas Anstössiges dabei, am wenigsten sie selbst. Ihre Brüder waren gewöhnt, sie genau als ihresgleichen zu behandeln. Wenn sie sich miteinander herumbalgten, pufften sie sie wie die übrigen, unbekümmert, wohin ihre Fäuste trafen.</p>
+            <p rendition="#et">Bis vor einigen Wochen hatte sie mit den zwei Jüngsten in einem Zimmer geschlafen. Hans war öfters als einmal in ihr Bett geschlüpft, sie hatten einander gekneipt und an den Haaren gezerrt und nichts als Kinderthorheiten im Kopfe gehabt. Da mit einem Mal, als die warmen Frühlingswinde zu wehen begannen und alle Pflanzen ins Kraut schossen, machte<pb n="117" facs="#f0120"/>
+ Mama Steffert die Bemerkung, dass Seffis Brüste mächtig anwuchsen. Sie sagte weiter nichts; als aber Karls Kammer frei wurde, befahl sie ihrer Pflegetochter kurz, von nun an oben zu schlafen. Seffi war sehr zufrieden, den übermütigen Neckereien ihrer Stubengenossen zu entgehen, und zog hinauf. Kaum aber hatte die bedeutungsvolle Trennung stattgefunden, als schon Seffis Persönlichkeit für die Jungen etwas Geheimnisvolles erhielt. Ihr früheres Schlafzimmer hatte neben dem der ältern Brüder gelegen, und diese hatten hindurchgemusst, um in's Freie zu gelangen. Zu den verschiedensten Nachtstunden war einer oder der andere hindurchgehuscht, ohne Rücksicht auf Seffi, die fest schlief, <pb n="118" facs="#f0121"/>
+und neben den andern zwei Buben selbst wie ein Bube aussah. Jetzt lag sie allein da oben. Weshalb? Wurde sie nicht traurig, so weit von den Brüdern entfernt zu sein? Niemand würde sie mehr necken, sie an den schön geformten Zehen zupfen, ihr allerlei lustigen Blödsinn ins Ohr flüstern.</p>
+            <p rendition="#et">Die Jungen liessen sich's nicht nehmen, ab und zu abends, wenn sie hinaufging, sie zu begleiten. Bis jetzt hatten sie sich nicht im geringsten um die andere Form ihres Anzugs, ihrer Wäsche interessiert. Jetzt gewann das Unscheinbarste für sie Bedeutung. Sie stöberten in ihrem Schrank herum und entdeckten allerlei, was ihre Neugierde reizte.</p>
+            <p rendition="#et">
+               <pb n="119" facs="#f0122"/>
+Eines Abends kam der junge Leutnant herauf. Sie lag schon im Bette. Er trat leise ein; trotzdem erwachte sie. Sie rieb sich die Augen. »Du bist's. Ich denke, du wärest schon fortgegangen.«</p>
+            <p rendition="#et">Er legte Mütze und Säbel auf den Tisch und setzte sich auf ihr Bett. »Ich hatte noch etwas vergessen gehabt, und da ich doch zurück musste, wollte ich dir noch gute Nacht sagen.«</p>
+            <p rendition="#et">»Gute Nacht,« erwiderte sie harmlos und vor Schlaf blinzelnd.</p>
+            <p rendition="#et">Er sah sie eigentümlich an. »Hör mal, Seffi, ich riegle ein wenig die Thüre zu, ja? Wir haben schon so lange nicht mehr geplaudert.«</p>
+            <p rendition="#et">»Meinetwegen.«</p>
+            <p rendition="#et">
+               <pb n="120" facs="#f0123"/>
+Während er den Riegel vorschob, richtete sie sich ein wenig auf. Ihre jungen, schlanken Formen zeichneten sich deutlich unter der dünnen Decke ab. Er setzte sich dicht an sie und schob seinen Arm unter ihren Kopf.</p>
+            <p rendition="#et">»Seffi, willst du mir nicht einmal einen Kuss geben?«</p>
+            <p rendition="#et">»Einen Kuss?« Sie schlug eine helle Lache an.</p>
+            <p rendition="#et">»Schrei nicht so,« flüsterte er ärgerlich, »gleich werden alle andern da sein. Du bist wirklich zu dumm.« Er strich ihr über die Wangen, über das Kinn, dann zauderte er und glitt von ihrem Hals über die konisch geformten, starrenden Brüste. Erst blickte sie ihn verwundert über diese <pb n="121" facs="#f0124"/>
+ihr fremde Berührung an, dann sagte sie etwas gedrückt: »Nein, bist du heute komisch, lass ... das.«</p>
+            <p rendition="#et">»Aber weshalb denn?« Er beugte sich auf ihr Gesicht, und während seine Rechte ihre wunderschönen Brüste zusammenpresste, drückte er seine Lippen auf ihren überraschten Mund. In diesem Augenblick knackte die Thürklinke. Ruprecht fuhr auf. »Wer ist's denn schon wieder?«</p>
+            <p rendition="#et">»Augenblicklich öffnen!«</p>
+            <p rendition="#et">Er stürzte zur Thür und riss den Riegel zurück.</p>
+            <p rendition="#et">Die Mutter stand mit drohenden Blicken vor ihm.</p>
+            <p rendition="#et">»Was hast du hier zu thun?«</p>
+            <p rendition="#et">»Ich wollte Seffi nur gute Nacht sagen.«</p>
+            <p rendition="#et">
+               <pb n="122" facs="#f0125"/>
+»Wie kannst du dich unterstehen, dich einzuriegeln? Du weisst, das dulde ich nicht.« Zwei schallende Ohrfeigen sausten auf die schuldlose Seffi nieder, die den Mund weder zur Verteidigung, noch zur Anklage ihres Bruders öffnete.</p>
+            <p rendition="#et">»Deinen Gutenachtgruss kannst du in Zukunft unten besorgen.« Frau Steffert griff nach Mütze und Säbel, reichte diese ihrem grossen Sohn und schob ihn zur Thür hinaus, während sie ihm folgte.</p>
+            <p rendition="#et">Seffi kehrte sich gegen die Wand. Sie fühlte ein heisses Schauern über ihren Rücken rieseln; ob das von den Ohrfeigen herkam? Über ihr Grübeln schlief sie ein.</p>
+            <p rendition="#et">Am andern Morgen wurde kein Wort zwischen ihr und der Mutter über den <pb n="123" facs="#f0126"/>
+Vorfall gewechselt. Es gab viel zu thun. Eine Kuh sollte kalben und quälte sich. Man schickte nach dem Tierarzt. Das Vieh brüllte vor Schmerz, die Familie war vollzählig im Stall versammelt. Seffi musste mit den Mägden allerlei Handreichungen thun. In einem Augenblick, als sie sich die Hände an der Schürze abtrocknete, flüsterte ihr der Primus zu, der eben mit dem Tierarzt erschienen war: »Auch den Frauen geht's häufig so.«</p>
+            <p rendition="#et">Ein Ekel ergriff sie, sie wollte sich aus dem Stall davonmachen, da fasste sie jemand energisch beim Arm.</p>
+            <p rendition="#et">»Oho, Fräulein Zimperlich, nur hier geblieben; das nächste Mal weisst du <pb n="124" facs="#f0127"/>
+wenigstens, wie man mit angreift und nicht Maulaffen feilhält.«</p>
+            <p rendition="#et">Seffi sah, wie die Knechte das vor Schmerz wütende Tier hielten und der Arzt mit dem Messer dem Jungen den Eingang ins Leben erleichterte. Ihr wurde ganz übel. Als sie endlich hinaus durfte, legte sich draussen ein Arm um sie und presste sie.</p>
+            <p rendition="#et">»Das war abscheulich von der Mutter.« Fritz stand vor ihr. Sie löste sich ärgerlich von ihm los. War denn in die Jungen der Teufel gefahren? Sie fassten sie plötzlich so sonderbar an. Oder war sie etwa gar – nervös geworden? Sie war nahe am Weinen.</p>
+            <p rendition="#et">In der Folge – es war Frühjahr – wiederholte sich die Scene aus dem Kuhstall, <pb n="125" facs="#f0128"/>
+wenngleich mit glücklicherem Ausgang, auch bei den andern Haustieren.</p>
+            <p rendition="#et">Je scheuer Seffis Augen diesen Vorgängen folgten, um so energischer hielt Frau Steffert darauf, dass sie überall zugegen war und mit Hand anlegte.</p>
+            <p rendition="#et">Mit wahrem Fanatismus stürmte Seffi dann in den freien Stunden, oder wenn die Pflegemutter nicht daheim war, in den Hof hinab, um wieder ein Junge unter den Jungen zu sein, ihre körperlichen Kräfte mit den ihren zu messen. Sie war nicht wenig stolz darauf, dass sie an Muskelstärke trotz ihres zierlichen Wuchses den Brüdern in nichts nachgab. Die Kraft imponierte ihr von allen menschlichen Eigenschaften am meisten. Man <pb n="126" facs="#f0129"/>
+hatte sie nie gelehrt, dass es noch etwas Höheres als sie gab. Die Religion erschien ihr nicht mehr als die Erfüllung einer Pflicht, der man am Sonntag oblag. Sie war ihr keine Erholung, keine Erbauung. Das Geheimnis der dunkelgoldenen Liebeswollust, die die Natur als Preis auf die Zeugung gesetzt hat, war ihr fremd; nur der letztern Schlussakt sollte sie täglich erleben, ob sie auf Befehl der Mutter dem Kücken aus dem Ei half, oder die jungen Katzen von dem Mutterschoss weg nach dem Teich trug, um sie zu ertränken.</p>
+            <p rendition="#et">Alles sehen, verstehen und kennen lernen, war Frau Stefferts Devise. Sie war in diesem Punkte der Modernsten eine.</p>
+            <p rendition="#et">
+               <pb n="127" facs="#f0130"/>
+Abends kam, wie er versprochen, auf nackten Füssen Alfred herauf. Sie schlossen sich nicht ein. Alfred konnte nämlich nähen, und deshalb liebte Seffi ihn mehr als die andern Brüder. Er half ihr die zerfetzten Stücke ganz machen. Er war sanft, gutmütig, mit geschickten, zierlichen Händen begabt, das leibhaftige Mädchen neben ihr. Er stocherte einige Zeit darauf los, um den Ärmel wieder in seine Rechte einzusetzen. Auf Seffis Rat bediente er sich dabei einer Tapezierernähnadel und starken ungebleichten Zwirnes. Dann holte er sein Buch hervor. Es waren die ehrwürdigen Memoiren des Casanova. Sie lasen zusammen die ersten Kapitel und kicherten um die Wette. Dabei horchten sie beständig <pb n="128" facs="#f0131"/>
+auf jedes Geräusch, um beim Nahen eines Störenfrieds das Buch sofort zu verbergen.</p>
+            <p rendition="#et">Weil ihr heiss wurde, öffnete Seffi ihr Leibchen. Alfred sah von der Seite die starren, weissen Kegel mit der glatten, bräunlichen Ebene an ihrem Abschluss. Er hätte für sein Leben gerne prüfend seine Hand über sie gleiten lassen, aber er wagte es nicht. Nur als ihre Augen trotz des Interesses an dem Buch schläfrig zu blinzeln begannen, tastete seine Hand zwischen das Leibchen. Aber sofort rückte sie den Stuhl zurück und stand auf.</p>
+            <p rendition="#et">»Uh, uh,« machte er, »sei doch nicht gleich so.«</p>
+            <p rendition="#et">
+               <pb n="129" facs="#f0132"/>
+Sie vereinbarten, so oft sie konnten, miteinander zu lesen. Manchmal kamen sie an Stellen, die sie beide nicht verstanden, sie las darüber hinweg, er aber errötete über seinen Mangel an Erfahrung.</p>
+            <p rendition="#et">Einmal lauerte ihm Fritz unten auf, prügelte sich mit ihm und schlich selbst zu Seffi. Mit niederschmetternder Beredsamkeit hielt er ihr das Verruchte ihres Thuns vor. Er suchte und fand das Schuldobjekt, nahm es mit sich und passte am nächsten Abend dem Primus auf.</p>
+            <p rendition="#et">In einer schwülen Julinacht stieg Fritz abermals in das Kämmerchen hinauf. Das Fenster stand weit geöffnet, und der ganze Brunstgeruch der verliebten Erde drang herein. Seffi lag der Hitze wegen nur <pb n="130" facs="#f0133"/>
+mit ihrem Laken bedeckt auf ihrem Bettchen. Fritz schob sich den einzigen Stuhl zu ihr und liess sich nieder. »Ich bring dir ein Buch,« sagte er wichtig.</p>
+            <p rendition="#et">»Hättest du mir lieber das Alfreds nicht weggenommen,« murrte sie.</p>
+            <p rendition="#et">»Ach was, das war Schund; dieses hier ist belehrend und aufklärend für dich. Und wenn du etwas dar aus nicht verstehst, frag nur mich, ich kann dir über alles Auskunft geben.«</p>
+            <p rendition="#et">Sie blätterte in dem dicken Band, konnte aber nichts mehr erkennen. Fritz zündete Licht an. Sie belustigte sich über mehrere der Abbildungen, fragte, ob jeder Mensch so aussehe u.s.w. Er demonstrierte, auf dem dünnen Laken herumfingernd, <pb n="131" facs="#f0134"/>
+ihr gleich vor, wo dieses und jenes Organ läge. Sie horchte auf. Auch bei den Kühen, den Schweinen, den Katzen? Er erklärte ihr allerlei und bemerkte, dass sie ungeheuer unwissend wäre. Er würde abends öfter heraufkommen und sie belehren, das wäre ihr nützlicher, als mit Alfred dumme Romane zu lesen. Er hielt Wort Doch konnte er's nicht verhindern, dass sie in andern freien Viertelstunden mit Alfred in der Scheune, auf dem Heuboden oder sonst irgendwo Boccaccio, Faublas und ähnliche Lektüre las. Einmal erzählte ihr Alfred im leisen Flüsterton, dass er ihr jetzt auch Aufklärung geben könnte; er hätte den ersten Umgang mit einem Weibe gepflogen. <pb n="132" facs="#f0135"/>
+Sie wand sich vor Kichern und befragte ihn um alle Details, die er ihr rückhaltslos mitteilte.</p>
+            <p rendition="#et">Nun wurde ihre Neugierde wach. Bei seinem nächsten Besuch fragte sie Fritz, ob er schon wisse, wie eine Frau, eine richtige Frau aussehe.</p>
+            <p rendition="#et">Er lachte. Na und ob! Wie viele Frauen hatte er schon in den Armen gehabt! Sie begann ihn zu quälen, er solle erzählen. Und er erzählte. Er, um einige Jahre älter als der Primus, empfand das Weib und alles, was es schenkte, schon viel reifer. Er erzählte ihr die tollsten, unflätigsten Dinge. Und sie fragte noch immer weiter. Sie bekam Mut. Durch die Lektüre mit Alfred war ihre Phantasie <pb n="133" facs="#f0136"/>
+gereizt, und Fritzens Erfahrungen erschienen ihr gering. Er erstaunte über ihre Zumutungen.</p>
+            <p rendition="#et">Eines Abends, als sie wieder miteinander flüsterten, schlich jemand herauf und riss plötzlich die Thür auf. Seffi erschrak so sehr, dass sie aus dem Bett sprang. Vor den erblassten Beiden stand Ruprecht. »So, so,« sagte er bebend vor Zorn und riss Fritz sein medizinisches Buch aus der Hand. »Jetzt ist's wieder andere Lektüre. Schäm dich, ein junges Mädel durch solche Bücher zu verwirren. Schau dass du augenblicklich hinabkommst, und danke mir, wenn ich nicht alles den Eltern mitteile.«</p>
+            <p rendition="#et">
+               <pb n="134" facs="#f0137"/>
+Der Techniker schlich wie ein geprügelter Hund hinaus. Ruprecht wandte sich an Seffi. Sie kauerte, die Beine übereinander geschlagen, auf dem Bettrand. Das Hemd stand ihr auf der Brust offen. Die zwei weissen, starrenden Kegel waren noch voller geworden. Aus der kleinen, braunen Ebene reckte sich ein winziger, rosenroter Knopf auf.</p>
+            <p rendition="#et">»Das war früher auch nicht da.«</p>
+            <p rendition="#et">Ruprechts Hand fuhr grob über das Knöspchen. Dann fasste er sie hart an den Schultern. »Du hör, wenn du dir etwa von Fritz oder einem der andern Brüder etwas – du weisst schon was – gefallen lässt, dann schlag ich dich braun und blau.« Er kniff sie schmerzhaft.</p>
+            <p rendition="#et">
+               <pb n="135" facs="#f0138"/>
+»Und was ging's dich an,« rief sie purpurrot und zornig.</p>
+            <p rendition="#et">»Weil ich dich lieb hab ...«</p>
+            <p rendition="#et">In diesem Augenblick packte sie eine wilde Sinnlichkeit Sie empfand nicht mehr für ihn als für die anderen Brüder, aber er war eben bei ihr hier, und sie glaubte ihr Herz zerspringen zu fühlen.</p>
+            <p rendition="#et">»Du mich gern?« rief sie höhnisch, »na, da bin ich ja, wodurch zeigst du mir denn, dass du mich gern hast?« Ihre beiden vollen Brüste zitterten seiner Hand entgegen.</p>
+            <p rendition="#et">Er wischte sich die Schweisstropfen von der Stirne.</p>
+            <p rendition="#et">»Wenn ich dir's jetzt zeigte, wer weiss ... vielleicht hättest du in neun Monaten <pb n="136" facs="#f0139"/>
+ein Kind, ich kann dich aber noch lange nicht heiraten. Mutter würde dich mit Schimpf und Schande davonjagen, dazu hab ich dich zu lieb ...« stammelte er.</p>
+            <p rendition="#et">»Bekommt man denn gleich ein Kind?« Er wich ihrem Blick aus. Meistens, wollte er sagen, sagte aber, damit er sie vor einer Dummheit mit den andern bewahre: »Immer. Sofort wenn – du weisst schon. Sieh, ich bin der älteste, und ich weiss mehr als der Primus und Fritz. Hüte dich! ...«</p>
+            <p rendition="#et">Von irgendwo hörte man ein Geräusch, er warf einen sehnsüchtigen Blick auf sie und entfernte sich behutsam.</p>
+            <p rendition="#et">In der Folge belauerten die Brüder einander gegenseitig, und alle naschten <pb n="137" facs="#f0140"/>
+an ihr herum, was sie leicht naschen konnten. Sie, in ihrer Jugendfülle und strotzenden Gesundheit, litt wie ein geknebeltes Tier unter diesen brennenden, aufstachelnden Liebkosungen. Sie wälzte sich schlaflos in ihrem Bett und verwünschte ihr Magdtum. Das »Kind« war für sie das drohende Gespenst.</p>
+            <p rendition="#et">Ein paarmal, als ihre Verstörtheit Frau Steffert auffiel und in dieser allerlei Mutmassungen erweckte, nahm sie Seffi vor und schilderte ihr in grellen Farben die Schmach, die ein Mädchen sich auflädt, das Mutter wird. »Nackt musst du vor einer Schar studierender Ärzte auf der Klinik das Kind gebären, denn ich würde dich sofort von Haus und Hof jagen.«</p>
+            <p rendition="#et">
+               <pb n="138" facs="#f0141"/>
+Nach solchen Schilderungen schwur Seffi sich, ihre Jungfräulichkeit zu bewahren, und schrieen auch ihre vollen Adern noch lauter nach Erfüllung.</p>
+            <p rendition="#et">In den grossen Ferien kam eine Nichte der Hausfrau zu ihnen auf Besuch. Es war ein zierliches, blondes Mädchen, das sich, von den übermütigen Streichen der Jungen beängstigt, zu Seffi flüchtete. Auf ihre Bitte erlaubte Frau Steffert sogar, dass Agathens Bett in Seffis Kammer aufgeschlagen wurde. Der Schrank fand indessen auf dem Korridor Platz. Die kleine, liebliche, noch ganz unschuldige Agathe wusste trotz ihrer sechzehn Jahre nicht mehr von den Geheimnissen des Lebens, als ein sechsjähriges Kind. Seffi war die <pb n="139" facs="#f0142"/>
+Ankunft dieser sonnigen Genossin eine grosse Erleichterung. Erstens konnte sie keiner der Jungen mehr überfallen, wovor sie stets heimlich gebangt hatte, sodann hatte sie eine Geschlechtsgenossin, der sie ihr ganzes Herz ausschütten konnte. Sie krochen in ihren weissen Hemdchen abwechselnd eine zu der andern und tauschten ihre Gedanken über dieses und jenes. Agathe bestaunte die grosse Überlegenheit der Freundin. Eines Abends, als Seffi plötzlich zu weinen anfing – Agathe hatte ihr schon gute Nacht gewünscht und war eben im Begriff, einzuschlummern -, kehrte sie, von jener Schluchzen erweckt, noch einmal auf ihr Lager zurück. Sie streichelte sie und liebkoste <pb n="140" facs="#f0143"/>
+sie und ergriff ihre ineinander verkrampften Hände.</p>
+            <p rendition="#et">Was denn los wäre? Es stände doch alles aufs beste, alle hätten sie lieb, und sie, Agathe, sei ihr besonders zugethan. Bei den letzten Worten presste sie sich an Seffi und umschlang sie innig. In diesem Augenblick wurde Seffi ruhig und schloss die heissen Lider. Ein bleicher, zärtlicher Schein huschte über ihr Gesicht. Brust an Brust schlummerten sie ein.</p>
+            <p rendition="#et">Nach einiger Zeit machte der Primus einmal beim Mittagessen eine Bemerkung zu Seffi, die neben Agathe sass. Seffi war eben in den Anblick eines kleinen, blonden Löckchens vertieft, das ihrer <pb n="141" facs="#f0144"/>
+Freundin in die Stirn hing und bei jedem Herzschlag leise mitschwang.</p>
+            <p rendition="#et">Alfred wandte sich an die Mutter und flüsterte ihr einige Worte zu. Beide beobachteten die zwei jungen Mädchen, dann lachte Alfred höhnisch.</p>
+            <p rendition="#et">Er hatte es – aus Furcht vor den Eltern – schweigend geschehen lassen müssen, dass sein ältester Bruder ihre Gunst für sich erstrebte. Dem Mann gönnte er sie schliesslich, der Freundin niemals.</p>
+            <p rendition="#et">Er hatte der Mutter Argwohn erweckt. Von nun an beobachtete sie die beiden jungen Mädchen unausgesetzt. Sie machte die Bemerkung, dass Agathe lebhafter, feuriger neben Seffi wurde; dass beide sich <pb n="142" facs="#f0145"/>
+unnötig lang in die Augen sahen und mehr als sonst zwischen jungen Mädchen üblich ist, sich Zärtlichkeiten erwiesen; dass die eine die Nähe der andern suchte und traurig wurde, wenn sie sie missen musste.</p>
+            <p rendition="#et">Eine Woche später liess Frau Steffert Seffi zu sich ins Wohnzimmer rufen und richtete die Augen durchbohrend auf sie.</p>
+            <p rendition="#et">»Agathe wird noch heute unten im Fremdenzimmer schlafen; lass ihre Sachen herabbringen und sorge dafür, dass der Kleiderschrank wieder in deine Kammer kommt.«</p>
+            <p rendition="#et">Seffis schlanke Gestalt erbebte. Ihre schönen, braunen Augen füllten sich mit Thränen.</p>
+            <p rendition="#et">
+               <pb n="143" facs="#f0146"/>
+»Lass sie bei mir, lass sie bei mir!« Sie hob die Hände bittend zu der hochaufgerichteten Frau, die wie ein Richter vor ihr stand.</p>
+            <p rendition="#et">»Nein, du schamloses Ding, herab kommt sie. Meinst du, ich durchschaue dich nicht?« Ihre Hände zuckten, als ob sie, wie so oft, zu einem Streich ausholen wollten. Aus Seffis gebräunten Wangen floh alle Farbe. »Hurtig! Troll dich!« Frau Steffert stiess sie unsanft an. In diesem Augenblick warf Seffi die Arme um sie.</p>
+            <p rendition="#et">»Mutter, von klein auf hast du mich dazu angehalten, alle Vorgänge in der Natur ohne Scheu zu beobachten. Du schlugst mich, wenn ich die Augen senkte. <pb n="144" facs="#f0147"/>
+Nichts sollte mir erspart bleiben; alle Adern des grossen Nervennetzes der zeugenden und nichts als zu zeugen begehrenden Natur hast du mir blossgelegt Keine Milderung, keinen Schleier sollte es für mich geben. Nackt alles sehen und kennen lernen, war dein Wahlspruch. Mutter, ich bin jung und kräftig; eines Tages habe ich selbst das Verlangen verspürt, das jedes Naturgeschöpf in sich trägt. Mein glühendes Liebebedürfnis zu erwidern, haben sich mir junge Arme geöffnet, aber da hast du mir dein Halt zugerufen. Eine Dirne wäre ich, wenn ich der Natur folgte, die du tags vorher als rein und gross gepriesen, und mit Schlägen und Schimpf jagtest du mich <pb n="145" facs="#f0148"/>
+aus deinem Hause. Mutter,« sie legte die bebenden Lippen an das Ohr der Frau, »du selbst bist's, die mich in die Arme der Freundin getrieben, lass sie mir nun ...«</p>
+            <pb n="146" facs="#f0149"/>
+         </div>
+         <div xml:id="Janitschek-Mari-d1e24947" type="chapter">
+            <head>»In Schönheit«</head>
+            <p>
+               <pb n="147" facs="#f0150"/>
+               <pb n="153" facs="#f0151"/>Sie war schön wie das Mondlicht, das auf einem stillen Teich spielt. Man sprach leiser in ihrer Gegenwart und dämpfte seine lebhaften Gebärden.</p>
+            <p rendition="#et">Sie hiess Liane von Immen, und niemand konnte ihr beweisen, dass sie nicht so hiess, denn niemand hatte ihren Taufschein gesehen. Sie besass nicht die plumpe Berühmtheit, durch ein Buch, das sie geschrieben, oder einen neumodischen Kleiderschnitt, den sie erdacht, im Meyer oder Brockhaus mitsamt der Angabe <pb n="148" facs="#f0152"/>
+ihres Lebensalters der Welt vorgestellt zu werden. Sie blieb ein Geheimnis. Nur denen, die ihr wert waren, offenbarte sie sich in einer wunderbaren lichtblauen Nacht. Sie führte eine alte Frau bei sich, die sie bediente und die irr war. Sie war wirklich irr. Berühmte, nüchterne Nervenärzte hatten es bestätigt. Irgend etwas im Leben hatte sie um den Verstand gebracht. Liane erzählte, dass sie entfernt verwandt mit ihr wäre und sie schon vor ihrer Geistesverdüsterung bei sich gehabt hätte. Die letztere zeigte sich vornehmlich darin, dass die alte Frau beständig abgerissenes, zusammenhangloses Zeug vor sich hin schwatzte. Übles fügte sie keiner Seele zu. Im Gegenteil. Sie <pb n="149" facs="#f0153"/>
+sorgte mütterlich für Liane und war Tag und Nacht zu ihrem Dienst bereit. Verschiedene Leute behaupteten, dass sie durchaus keine Verwandte von Liane wäre, dass diese sie aus andern Gründen bei sich hatte.</p>
+            <p rendition="#et">Lianens Äusseres besass viel Anmut.</p>
+            <p rendition="#et">Sie war hoch, schlank; die rote Haarfarbe, die bereits Fünfzig-Pfennig-Dirnen trugen, trug sie nicht mehr. Ihr stand die weisse Farbe besser zu Gesicht. Dichte, schneeweisse Haarwellen hoben den zarten Rosenton ihres Fleisches und machten ihre grossen, dunklen Augen doppelt geheimnisvoll.</p>
+            <p rendition="#et">Sie trug nur weisse Gewänder. Da ihre Gemächer mit dunklen Tapeten geschmückt <pb n="150" facs="#f0154"/>
+waren, Ebenholzmöbel und Teppiche in den mattesten Farben ihre Ausstattung bildeten, so war sie das einzig Helle in dieser dämmerhaften Umgebung. Sie glitt wie ein silberner, schlanker Strahl in der milden Nacht dieser Gemächer dahin. Abends wurden hohe Stehlampen angezündet, deren Licht purpurne Seidenschirme milderten.</p>
+            <p rendition="#et">Ein grosser Garten mit einer hohen Mauer umgab ihr Haus. Sie hatte ein elegantes Cab gemietet, das sie täglich an die Luft führte, sie setzte nie einen Fuss aufs Strassenpflaster. Sie besass wenig Verkehr. Die paar Familien, mit denen sie sich traf, kamen ihr sehr zuvorkommend entgegen, <pb n="151" facs="#f0155"/>
+wenn auch nicht ohne leise Unsicherheit. Wo sie sich befand, herrschte sofort jene zitternde Schwüle, wie sie über den Wiesen webt, wenn Juliglut schweigsam auf ihnen buhlt. Und doch war Liane nicht das geringste Üble nachzusagen, ja sie besass sogar äusserst strenge Grundsätze.</p>
+            <p rendition="#et">Um ihr in Gärten gebettetes Landhaus herrschte Einsamkeit. Ab und zu kam ein Bauernwagen mit rasselndem Milchgeschirr vorüber, oder ein Landauer mit einer zahlreichen Familie fuhr am Sonntagmorgen die Strasse entlang aufs Land hinaus. Selten ereignete es sich, dass in vorgerückter Stunde ein Mann im langen englischen <pb n="152" facs="#f0156"/>
+Überzieher, den Kragen hochgeklappt, die Gartenthür öffnete. Er verschwand dann in dem zur ebenen Erde gelegenen Saal, wo verhangene Lampen die zauberhafte Frauengestalt phantastisch beleuchteten, die dort auf der Ottomane ruhte.</p>
+            <p rendition="#et">An einem milden Augustabend ruhte sie wieder dort. Die Alte hatte ihr zu Füssen ein Tischchen mit in Eis gekühlten Früchten hingestellt und war dann, leise vor sich hin schwatzend, verschwunden. Einige Minuten darauf öffnete sich ein Flügel der breiten Thür nach dem Garten hinaus, und die hohe Gestalt eines Mannes trat ein. Liane neigte stumm das Haupt.</p>
+            <p rendition="#et">Ebenfalls ohne ein Wort zu verlieren, ging <pb n="153" facs="#f0157"/>
+er auf sie zu und führte ihre Hand an die Lippen.</p>
+            <p rendition="#et">Dann warf er Überrock und Zylinder auf einen Sessel, näherte sich ihr und sah, mit verliebten Blicken, in ihr wunderschönes, ruhiges, bleiches Gesicht. Ihre Augen wiesen nach den duftenden Früchten. Er schüttelte den Kopf. »Mich dürstet nur nach Ihnen, Liane.« Über sein von den Erfahrungen des Lebens stark verwüstetes Gesicht flog leichte Röte. »Mir kommt's Ewigkeiten vor, seit ich zum letztenmal hier war. Eine schale Zeit liegt hinter mir. Nichts wie Banalität, Repräsentationspflichten, Familienjammer, Öde, wohin man blickt. Alles immer dasselbe, immer dasselbe. Und <pb n="154" facs="#f0158"/>
+glaubt man einmal etwas Neues gefunden zu haben, dann ist es plump, plump zum Verletzen.«</p>
+            <p rendition="#et">»Wie geht's der Prinzessin?« Ihre Stimme klang tief und weich. »Ist es vorüber?«</p>
+            <p rendition="#et">»Ach,« er verzog den Mund, »reden Sie nicht davon. Es war eine Schlächterei. Wir wollten unsere Tochter nicht verlieren, er nicht den Erben. Die Ärzte stritten sich im Nebenzimmer wie die Marktweiber um den armen, in der Narkose noch stöhnenden Körper, bis endlich wir, die Eltern, siegten. Das zerstückelte Kind ist bereits beigesetzt, sie mit ihren neunzehn Jahren ein Krüppel, der indessen die Hoffnung hat, wie ihr Leibarzt bemerkte, <pb n="155" facs="#f0159"/>
+die nächste Geburt besser zu überstehen.«</p>
+            <p rendition="#et">Liane verhüllte sich das Gesicht. »Entsetzlich! Dieses holde Madonnenbild! Aus welchem Barbarenwinkel stammt eigentlich ihr Gatte?«</p>
+            <p rendition="#et">»Lassen wir das, Liebste. Unsere Kultur glaubt eine noch nie erreichte Blüte gewonnen zu haben. Sie baut elegante Zuchthäuser, Frauenkliniken, die wahren Palästen gleichen, sie gestattet uns, Bordelle zu besuchen, – die geliebte Frau vor dem Schicksal, geschlachtet zu werden, zu bewahren, gestattet sie uns indessen nicht. Unsere Moral will nicht nur die Art unserer Sinnengenüsse vorschreiben, sie will sogar<pb n="156" facs="#f0160"/>
+ die Vorgänge im Ehebett regeln. Diese Moral ist gut für die, die sie gut finden, für die meisten. Glauben Sie nicht, dass diese Millionen an <hi rendition="#g">unsern</hi> Freuden Gefallen fänden, sie würden immer das Gewohnte vorziehen, aber – den andern, den zum Bewusstsein Gekommenen müsste mehr Freiheit eingeräumt werden. Nie gab's eine Zeit stärkerer Beschränkung des einzelnen Geistindividuums als heute.«</p>
+            <p rendition="#et">»Wie schön ist es, man selbst sein zu dürfen! Wie schön, frei und Frau zu sein.« Sie stützte den edlen Kopf in die weisse Hand.</p>
+            <p rendition="#et">»Und wie schön ist es, beglücken zu können!« Er strich sanft über ihre <pb n="157" facs="#f0161"/>
+knisternde Haarflut, »so beglücken können wie Sie!«</p>
+            <p rendition="#et">»Ohne Elend als unwürdige Spur der Seligkeit zu hinterlassen. Ohne das Gewissen zu kränken.«</p>
+            <p rendition="#et">»Wie Götter geniessen. Ohne satt zu werden wie die Plebs nach plumpen Gerichten. Geliebte!« Er sah sie bittend an.</p>
+            <p rendition="#et">Sie erhob sich, das Angesicht von hinreissender Hingebung verklärt. Ihr langes weisses Gewand, von unbestimmten, roten Lichtern übergossen, schleifte lang hinter ihr her.</p>
+            <p rendition="#et">Sie berührte mit ihren Fingerspitzen eine Thüre, durch die er verschwand. Sie selbst öffnete eine schwere Portiere. Ein <pb n="158" facs="#f0162"/>
+eigenartiges Gemach, mit tiefgrauer Seide ausgeschlagen, in dem sich nur ein niederes Ruhebett von antik grossen Formen befand, nahm sie auf. Sie liess sich auf den Rand des köstlichen Lagers nieder, auf dem elfenbeinfarbene Seidenkissen in Fülle herumlagen. Nichts, kein weiteres Einrichtungsstück befand sich hier, ausser zu Häupten ein silberner Kübel, aus dem ein Büschel hoher, bis zur Betäubung duftender Lilien hervorschoss.</p>
+            <p rendition="#et">Einige Augenblicke vergingen. Unter den Sammetfalten der Portiere erschien der Mann; er hatte seinen Anzug gegen ein mantelartiges Kleidungsstück von dunkler, weicher Seide vertauscht. Er liess sich neben Liane nieder.</p>
+            <p rendition="#et">
+               <pb n="159" facs="#f0163"/>
+»Willst du uns durchaus töten mit deinem Lilienduft? So atemberaubend war er noch nie.«</p>
+            <p rendition="#et">Er schlang die Arme um sie. Ihr weisses wundersames Gewand, das nur ein vielfach um sie geschlungener weisser Mantel war, öffnete sich und liess die Rosenbüsche ihrer weissen Brüste an seinen sich senkenden Lippen aufspriessen. Aber die ihren waren nicht müssig. In zarten, kaum gefühlten Küssen glitten sie über sein Antlitz, seinen Hals. Er gab sie frei, um einige Minuten lang ganz ihre Beute zu werden. Er zerfloss in Schauern höchsten Empfindens, gleichsam von zwei gleitenden, suchenden Schmetterlingen übergaukelt, die Ader für Ader <pb n="160" facs="#f0164"/>
+seines Leibes zum Bewusstsein ihres purpurnen Inhalts wachriefen. Seine verzückten Augen füllten sich mit Thränen schwebender Lust, kein Wort ertönte, nur ein geheimnisvolles Seufzen, wie es über die Blumen fährt, wenn der Tau aus der Erde bricht, um sie zu erquicken.</p>
+            <p rendition="#et">Liane war lautlos über ihn hingesunken.</p>
+            <p rendition="#et">Er fühlte das schmeichelnd weiche, rhythmische Hüpfen ihrer Brust bei jedem ihrer Herzschläge. Er fühlte ihr elektrisch knisterndes Haar über seinen Körper ausgebreitet, seine Berührung erfüllte ihn mit leisem Prickeln und rief ihn wieder ins schöne Bewusstsein zurück. Mit zarten, behutsamen Griffen legte er sie in den <pb n="161" facs="#f0165"/>
+seidenen Kissen zurecht und küsste die dunklen, wie gebrochen vor sich hinblickenden Augen. Sein Mund saugte sich in ihre weisse Kehle ein und glitt in die geheimnisvolle Bucht zwischen ihren Brüsten. Er kostete den würzigen Duft unter ihren weichen, biegsamen Schultern, er glitt weiter und genoss inbrünstig alle einzelnen Schönheiten des Leibes. Ihre kleinen rosigen Zehen nahm er zwischen die Lippen und liebkoste sie. Das geheimnisvolle Beben ihrer Glieder lebte er mit in seinem lustirren Aufschauern und verspürte so die doppelte Wonne des Empfangens und Gebens. Ein Regen ihn überströmender Entzückungen, der gleichsam aus jeder Pore<pb n="162" facs="#f0166"/>
+ seines Körpers brach, raubte ihm die Sinne und streckte ihn wie einen Toten neben ihr hin ...</p>
+            <p rendition="#et">Die Lilien dufteten, ein flüsternder Wind strich am Fenster hin und verstummte.</p>
+            <p rendition="#et">Unendliche Stille herrschte, unendlicher Friede ...</p>
+            <p rendition="#et">Einige Stunden später neigte sich die hohe Gestalt des Mannes über das bleiche, schöne Gesicht der Schlummernden und schied von ihr in seliger Dankbarkeit ...</p>
+            <pb n="163" facs="#f0167"/>
+         </div>
+         <div xml:id="Janitschek-Mari-d1e25086" type="chapter">
+            <head>Moderne Ehe</head>
+            <p>
+               <pb n="164" facs="#f0168"/>
+               <pb n="171" facs="#f0169"/>Liebe Bianca!</p>
+            <p>Es ist besser, ich sage es Dir schriftlich, was ich Dir zu sagen habe. Denn stünde ich persönlich vor Dir, dann könntest Du mich durch Deine Einwürfe und Vorstellungen schwach und schwankend in meinem Vorsatz machen.</p>
+            <p rendition="#et">Ich habe Dich, d.h. unser gemeinsames Heim, vor vier Wochen verlassen, um hier in der Hauptstadt auf der Bibliothek zu arbeiten. In der Pension, in der ich wohne, habe ich die Bekanntschaft <pb n="165" facs="#f0170"/>
+eines kleinen, possierlichen Menschen gemacht. (Er ist einige Jahre jünger als ich.) Irgendwo im Norden daheim, Mitteilhaber einer buchhändlerischen Firma, hat er sich Italien zum erstenmal angesehen und hier in der süddeutschen Stadt Halt gemacht, um seine »unvergesslichen« Eindrücke zu verdauen. Er ist nicht mittellos, wenn auch nicht reich, nicht borniert, wenn auch nicht besonders veranlagt, also gerade jene Spezies, die von uns modernen Frauen gern zum Genossen gewählt wird. (Das: »ehelichen« habe ich weggelassen, es klingt zu schrecklich.) Ich habe nie darnach gestrebt, unter die Haube zu kommen. Wozu auch? Wo ich <pb n="166" facs="#f0171"/>
+erschien, öffneten sich mir bereitwilligst Thüren und Thore. Die kostbarsten Handschriften hat man mich gegen jede Erlaubnis nach Hause mitnehmen lassen. Ich habe aus der Vatikana und der Münchener Bibliothek Werke von unschätzbarem Wert in meine Stube geschleppt, und hätte mir leicht den Ruhm eines Herostrat aneignen können. Ich habe auch sonst mancherlei zu sehen bekommen, was anderer Augen versagt bleibt. Geheime Kunstschätze aus Pompeji und Ägypten, wunderliche Schöpfungen verrückt gewordener alter Bildner wurden vor mir ausgebreitet, um meine Augen zu glücklichen Entdeckern zu machen. Verschollene Kulte <pb n="167" facs="#f0172"/>
+mit ihrem erschreckenden Ritus thaten mir ihre purpurdunklen Geheimnisse auf. Die verschiedenen Arten der Wollust, die bei Naturvölkern den Namen Religion genossen, haben sich mir enthüllt; ich hätte mit meinen Erfahrungen einen Lucian zu neuen »Göttergesprächen« anregen können. Eines Tages wurde das anders. Die Thore, an die ich anpochte, schlossen sich mir nicht auf, die Bilder, die ich sehen wollte, blieben verhängt. Die Abbés, die Bibliothekare, die vornehmen Contis mit ihren unermesslichen Kunstschätzen wiesen mich kühl zurück. Was war geschehen? Hatte ich mich an ihren Besitztümern irgendwie vergriffen, hatte ich gestohlen, oder<pb n="168" facs="#f0173"/>
+ die Kostbarkeiten beschädigt, deren Hüter sie waren? O nein, nichts von alledem. Ich hatte einige graue Haare bekommen, und etliche Fältchen waren um meine Augen entstanden, Grund genug, um die Thüren des Lebens vor dem Weib zuzuwerfen.</p>
+            <p rendition="#et">In jener Zeit lerntest Du mich kennen. Ich war niedergedrückt über die ärgerliche Erfahrung, die meinen schönen Studien ein so jähes Ende bereiten sollte. Du fasstest Freundschaft zu mir und botest mir Dein behagliches Heim an. Ich nahm Dein Anerbieten an und zog zu Dir. Aber nur für eine bestimmte Frist, das wusste ich sofort. Der geistigen Anregung von aussen <pb n="169" facs="#f0174"/>
+bedarf ich nicht, um mir aber nur ein Wegbereiter zu sein, dessen ich mich von nun an bedienen will, um meinen Studien wieder Thür und Riegel zu öffnen, dazu bist Du mir zu lieb. Also, mein Schatz, adieu. Ich heirate; der kleine Karl Eberstein bettelt um baldige Hochzeit, ich habe nichts dagegen, weil ich, bevor die Sommerhitze eintritt, wieder aus Pisa zurück sein möchte, wo ich die Herkunft eines alten, sonderbaren Ornaments im Kreuzgang der Kapuziner feststellen will. Du weisst, so etwas kann mich peinigen, um so mehr, als ich meine Studien ganz allein ohne jede Anleitung treibe. Die Arbeiten, seien es historische oder kunsthistorische, <pb n="170" facs="#f0175"/>
+in Druck zu geben, wäre mir so unmöglich, als in einem Mägdeheim meine Wohnung aufzuschlagen. Heutzutage schreibt keine vornehme Frau mehr, heutzutage, da sich jedes mittellose Mädchen frägt, ob es Schreibmaschine lernen, Zofe werden oder Romane machen soll. Ich arbeite zu meinem Vergnügen und weil es mich freut, zu beweisen, wie plump jene Revolution in Scene gesetzt ist, die sich Frauenerhebung nennt und mit Geschrei und Getöse ihre Rechte verficht. Wer hat mich je verhindert, ganz wie und wo ich wollte, geistig zu arbeiten? Wer hat eine Diotima, Arete, Targelia, später in der Renaissancezeit eine Cosa, Bartholomaea <pb n="171" facs="#f0176"/>
+Alberti, Allessandra Bardi, Nanna Pandolfini, Lucrezia Tornabuoni verhindert, ihren Studien zu obliegen? Jeder einzelnen begabten Frau stehen von jeher Archive, Bibliotheken und Hörsäle offen.</p>
+            <p rendition="#et">Und die Frauen herdenweise zu den humanistischen Studien zuzulassen, würde denselben Gewinn für die einzelnen haben, den eine Stangensche Expedition für den Romreisenden hat.</p>
+            <p rendition="#et">Widerspruch, frohlockst du? Habe ich nicht vorhin gesagt, dass ein paar graue Haare schon zum Hindernis werden können, das uns die Quellen des Wissens verstopft?</p>
+            <p rendition="#et">Ja, lieber Schatz, daran ist eben die kleine Intelligenz der Männer schuld; <pb n="172" facs="#f0177"/>
+da musst Du schon den Schöpfer anklagen. Sieh, das kommt daher. Der Mann stand gleich am ersten Schöpfungstag fertig da, er hat nichts zugelernt. Wir haben eine Kindheit hinter uns und sind jetzt in unsere Reifejahre getreten. Der Mann spielt noch immer gern mit Schürzenbändern und elegante Frauenwäsche kann ihn trunken machen. Er wird wütend, wenn wir aufhören, ein hübsches Weibchen zu sein, beträgt sich dann wie ein ungezogner Bengel, verweigert uns jede Hilfe, jede Gefälligkeit, stösst uns aus dem Tempel und der Palästra geistigen Ringens und möchte uns am liebsten vergiften. In jenem Augenblick ist es am klügsten, <pb n="173" facs="#f0178"/>
+uns für die Rüpelhaftigkeit Adams dadurch zu rächen, dass wir einen seines Geschlechts heiraten. Dadurch zeigen wir ihm unsere Überlegenheit. Mein Gott, seinen <hi rendition="#g">Geist</hi> brauchen wir nicht mehr, unser eigner hat den seinen längst überflügelt; aber seine <hi rendition="#g">Fäuste</hi> brauchen wir, damit sie uns die Bahn frei halten, die wir weiter zu gehen gewillt sind. Ich grüsse Dich also als zukünftige</p>
+            <p>Frau Camilla Eberstein.</p>
+            <p>Camilla couvertierte den Briefbogen, klingelte und schickte den Brief zur Post. Dann stand sie auf und ging mit auf den Rücken verschränkten Armen in der langweiligen <pb n="174" facs="#f0179"/>
+Pensionsstube auf und nieder. Sie war eine hohe, vornehme Erscheinung mit leicht angegrautem dunklen Haar und klugen grauen Augen. Ihr roter, stolz geschweifter Mund schien selten zu lachen. Man hielt sie für noch gelehrter, als sie wirklich war, deshalb hatte sich ihr – vor Karlchen – nie ein Freier genähert, denn gelehrte Frauen sind den Männern ein Greuel. Er war der erste Bewerber, der an sie herangetreten war. Ihn reizte ihre Reife, wie das oft bei unreifen Jünglingen vorkommen soll. War die Annahme dieses verspäteten Heiratsantrages nur ein – Racheakt an dem Vertreter des Geschlechts, das sich so feig und engherzig gegen sie benommen hatte? Oder hatte<pb n="175" facs="#f0180"/>
+ sie eben den ersten besten Freier angenommen, froh, dass überhaupt einer erschien? Als sie auf ihrem Gang durchs Zimmer an die Thüre kam, öffnete sich diese und Eberstein trat ein. Er zog ihre Hände an die Lippen. Wie blass sie wieder wäre. Sie strenge sich zu viel an.</p>
+            <p rendition="#et">»Hast du gearbeitet?«</p>
+            <p rendition="#et">Sie verneinte. »Nur Briefe geschrieben.«</p>
+            <p rendition="#et">»Komm hinaus, es ist herrlich draussen, alles ist von der Frühlingssonne überflutet. Ich will dir einige Strassen weiter ein gotisches Buffet zeigen, das ein Antiquar ausgestellt hat. Es ist prachtvoll; wenn es dir gefällt –«</p>
+            <p rendition="#et">Sie legte ihm die weisse Hand auf den Mund. »Wer wird denn so viel Kram <pb n="176" facs="#f0181"/>
+kaufen? Wenn wir reisen, wird uns der überflüssige Ballast im Wege sein.«</p>
+            <p rendition="#et">»Den lassen wir eben daheim.« Der kleine Karl mit dem bischen Kinn und der grossen Nase sah sie zärtlich an. »Ein wenig werden wir doch auch daheim sein, das muss ich schon wegen des Geschäfts.«</p>
+            <p rendition="#et">»Gewiss, Kind, das kannst du auch.</p>
+            <p rendition="#et">Aber deshalb brauchst du doch keine Ungeheuer von Buffets einzukaufen. Ich habe weder Zeit noch Lust, Möbel zu pflegen, liegt also dir die Verpflichtung ob, eine Dienstmagd mehr zu halten.«</p>
+            <p rendition="#et">Der kleine Karl murmelte einige Beschwichtigungen. Wenn die grosse, herrliche Frau nur schon sein wäre! Alles <pb n="177" facs="#f0182"/>
+übrige war belanglos. Er ist noch mit allem Weiblichen im Frieden ausgekommen, der kleine Karl. Wird die wohl auch keine Ausnahme bilden. Er erblickte im Geist seine Geschäftsräume schon voll neugieriger Käufer, die von nun an ihre geistige Kost nur von ihm beziehen würden, von ihm, dem Gatten einer gelehrten, berühmten Frau, die vielleicht, ja sicher, über kurz oder lang ihre Arbeiten seinem Verlag überlassen würde.</p>
+            <p rendition="#et">»Du solltest wirklich einen Arzt konsultieren, Camilla, du siehst abgespannt aus. Hier in der Nähe wohnt die bekannte Milena van Zooten, diplomierte Ärztin der gesamten Heilkunde. Möchtest du sie nicht konsultieren?«</p>
+            <p rendition="#et">
+               <pb n="178" facs="#f0183"/>
+»Aber Schatz,« Camilla zupfte ihn am Ohr, »ich werde doch nicht einen weiblichen Arzt konsultieren!«</p>
+            <p rendition="#et">Er blickte sie triumphierend an. »Schau, schau, steigen die Männer also im Wert, wenn man eines klugen Ratschlages bedarf?«</p>
+            <p rendition="#et">Sie lächelte über seinen frohlockenden Ton.</p>
+            <p rendition="#et">»Frauen haben grossen Scharfblick, und ich möchte nicht als Charakterstudie dienen.«</p>
+            <p rendition="#et">Der arme Karl war niedergeschmettert. »Aber,« raffte er sich schüchtern und geistreich auf, »weshalb denn nicht?«</p>
+            <p rendition="#et">»Tralala.« Camilla drehte sich auf dem Absatz herum. Einen Augenblick <pb n="179" facs="#f0184"/>
+lang stieg ihm das Blut wohl zu Kopfe. Dann dachte er: Sie ist eben eigenartig wie alle den Durchschnitt überragenden Persönlichkeiten. Man muss Nachsicht mit ihren Launen haben.</p>
+            <p rendition="#et">Das an Jahren und Gestalt so ungleiche Brautpaar verliess die Pension, um einige Einkäufe zu besorgen. Die Leute auf der Strasse blickten ihnen nach. Einige Dienstmägde blieben stehen. »Nee, so'n kleener Kerl und sie so eine feine Weibsperson!« Nur einige Augen sahen mit verstehendem Freimaurerblick in das bleiche, hochmütige Gesicht Camillas. Diese Augen gehörten ähnlichen Frauen, wie sie selbst eine war.</p>
+            <p rendition="#et">
+               <pb n="180" facs="#f0185"/>
+Der Hochzeitstag war rasch herangerückt. Karl hatte sich doppelte Absätze und dicke Korksohlen an seine Lackstiefel machen lassen, aber es nützte ihm nichts. Er reichte seiner Frau nun mal nicht höher als bis zur Nase.</p>
+            <p rendition="#et">Nach dem standesamtlichen Akt fuhren sie gleich der Heimat zu. Er wollte unterwegs Halt machen. Am Bahnhof eines kleinen, wenig bekannten Städtchens entstiegen sie dem Zug. Sie hatte seinem Betteln, das sie langweilte, nachgegeben. Er nahm im ersten besten Gasthof Quartier. Nachdem Stubenmädchen und Lohndiener entlassen waren, näherte er sich ihr in verliebter Ungeduld. Sie runzelte die Brauen und entzog sich seinen bebenden <pb n="181" facs="#f0186"/>
+Armen. Wie konnte er nur so abgeschmackt sein! Nein, sie wollten noch ein wenig bummeln!</p>
+            <p rendition="#et">»Aber es ist ja unser Hochzeitstag,« warf er ein.</p>
+            <p rendition="#et">»Eben deshalb, ein höchst langweiliger Tag, den man am besten in der Kneipe beschliesst.«</p>
+            <p rendition="#et">Er gehorchte ihr und dachte insgeheim: Nachher! Aber »nachher« war er müde vom reichlich genossenen Wein und den endlosen Herumstreifereien – sie hatte ihn bis zur nächsten Ortschaft geschleppt -, so dass er taumelnd ins Bett sank. Als er am nächsten Morgen die Augen aufschlug, war sie schon ausgegangen. Er kam sich wie ein düpierter Schuljunge vor, <pb n="182" facs="#f0187"/>
+rieb seine mageren Kniee im Bette und dachte: Na warte! Ich überrasche dich doch noch ...</p>
+            <p rendition="#et">Fast ein Jahr lang spielten sie wie Katze und Maus miteinander. Einmal an einem Abend, auf der Reise in die Gräberstadt Memphis, gelang es ihm, als sie müde und schon halb schlummernd in ihrem Bette lag, ihr den Herrn zu zeigen. Sie stiess ihn ein paarmal zurück, endlich liess sie ihn gewähren. Er verkrampfte sich ganz in sie, die Sinne schwanden ihm wie einem Insekt, das in einen Becher Champagner gefallen ist. Sie blieb kühl und blass, während er schweissgebadet und keuchend neben ihr hinsank. In der Folge bestürmte er sie öfter. Er raste <pb n="183" facs="#f0188"/>
+wie auf einer ruhenden Grabfigur seine Begehrungen an ihr aus.</p>
+            <p rendition="#et">In einer intimen Stunde sagte er zu ihr: »Ich verstehe nicht, dass du nicht schwanger wirst; du bist von der Natur geradezu prädestiniert, schönen Kindern das Leben zu geben ...«</p>
+            <p rendition="#et">Da lächelte sie und strich ihm übers Haar. Karlchen verstand so wenig Naturgeschichte ...</p>
+            <pb n="184" facs="#f0189"/>
+         </div>
+         <div xml:id="Janitschek-Mari-d1e25253" type="chapter">
+            <head>Das neue Weib</head>
+            <p>
+               <pb n="185" facs="#f0190"/>
+               <pb n="193" facs="#f0191"/>Frau Selma Knolle liebte die Einsamkeit und schwärmte vom völligen Abgeschlossensein von der Welt. Deshalb veranstaltete sie jede Woche einen Empfangsabend, an dem sich über ein halbes Hundert Menschen in ihrem Hause zusammenfanden. Sie betete die Wahrheit an, und ihre Busenfreundin war eine – Spiritistin; sie stellte die höchsten Anforderungen an die Sittenreinheit des Weibes, und ihre Abgötterei galt einer vierzigjährigen Dame, die noch vor Thorschluss <pb n="186" facs="#f0192"/>
+das Jungfernkränzchen abgelegt hatte, um die interessanten Umstände kennen zu lernen.</p>
+            <p rendition="#et">Frau Selma Knolle hatte als Mädchen immer für das Cölibat geschwärmt, deshalb heiratete sie einen athletisch gebauten Mann, der schon von zwei Gattinnen geschieden war. Sie bekam vier Kinder von ihm. Er war ein verteufelt schlauer Bursche, der Doktor. Dem Zug seiner Zeit folgend, hatte er viele Reisen gemacht, sechsmal seinen Beruf gewechselt, sein Vermögen verloren, wieder erworben, abermals verloren, sich durch gute Partien wieder rangiert, aber, zu vielseitig begabt für einen Ehemann, schlechten Erfolg mit seinen Gattinnen <pb n="187" facs="#f0193"/>
+gehabt. Zum Schluss war ihm diese grosse, blonde Frau mit dem weichen Fleisch begegnet, die ihm resolut sagte:</p>
+            <p rendition="#et">»Deine andern Gattinnen verstanden dich nicht, ich aber verstehe dich und bin die Richtige für dich.« Da hatte er zum drittenmal eingewilligt, einer schönen Frau zu einem Irrtum zu verhelfen. In den ersten vier Jahren war sie beständig schwanger und konnte sich seiner nicht so erfreuen, wie sie es gewünscht hätte. Dann musste er – er behauptete es wenigstens – eine Reise um die Welt machen. Als er wiederkehrte, hatte er allerlei Marotten mitgebracht.</p>
+            <p rendition="#et">Er zog z.B. ihre langen Nachthemden an und setzte sich in diesem Aufzug in <pb n="188" facs="#f0194"/>
+ein künstlich verdunkeltes Zimmer, um »nachzudenken«. Er behauptete, dann erhabene Gesichte zu haben, die er nach seinem Tod aufzeichnen wollte. Manchmal verschmähte er sogar ihre Nachthemden und sie fand ihn als Adam verkleidet. Schliesslich fing sie an, an seinem Verstand zu zweifeln und eilte, einen Nervenarzt zu holen. Der blieb sehr lange bei Knolle, und als er dessen Zimmer verliess, machte er ein sehr vergnügliches Gesicht, drückte ihr beruhigend die Hand, erkundigte sich teilnahmsvoll nach ihrem Gesundheitszustand und verschrieb <hi rendition="#g">ihr</hi> Pillen. Sie verstand das alles sich zwar nicht zusammenzureimen, doch war sie zufrieden, dass ihrem Bibibi, wie sie den <pb n="189" facs="#f0195"/>
+Athleten nannte, nichts Ernsthaftes fehle. Sie überlegte, zu welchem Beruf sie ihm raten sollte.</p>
+            <p rendition="#et">Und da sie im Grunde doch an seinem gesunden Verstand zweifelte, kaufte sie ihm eine Zeitung, deren Leitung er zugleich übernehmen sollte.</p>
+            <p rendition="#et">Sie kalkulierte ganz richtig, dass es für einen Mann von seiner Begabung keine passendere Beschäftigung geben konnte. Bibibi, der Bibibi, der drei strenge Jungfrauen zum Altar geführt hatte – nicht alle seine Jungfrauen hatte er zum Altar geführt! -, kehrte glücklich das Unterste seiner Überzeugungen nach oben. Er nahm nur Ehebruchsromane für seine Zeitung an und lehnte kaltblütig alle <pb n="190" facs="#f0196"/>
+andern litterarischen Anerbieten ab. Der Ehebruch musste natürlich in einer verdeckten Schüssel und mit Gewürz aus den Beeten der Romantik serviert sein. Ferner nahm er nur von Damen Arbeiten an. Diese Damen durften indes nicht das vierundzwanzigste Jahr überschritten haben, um noch »ihre ganze Frische« dem Publikum bieten zu können. Zum Schluss pflegte er mit jeder Verfasserin, von der er eine Arbeit acceptierte, die letzten Abmachungen in einem Hotel zu treffen, »weil er da ungestörter sei, als in den unruhigen Redaktionsräumen.«</p>
+            <p rendition="#et">Sein Lesekomitee, d.h. die jede eingelaufene Arbeit Prüfenden, bestand aus ihm geistig verwandten Weibern in <pb n="191" facs="#f0197"/>
+Männerröcken. Daneben hatte er unter andern Kritikern besonders zwei engagiert, die einer gewissen Berühmtheit genossen. Der eine machte alles nieder, was er las, der andere war ein Genie; der machte sogar das nieder, was er nicht gelesen hatte.</p>
+            <p rendition="#et">Und der Verleger gedieh und die Mitarbeiter gediehen und die Zeitung gedieh. Bibibi machte einen Ableger von ihr und gründete eine kleine illustrierte Zeitschrift. Das Genie schimpfte diese neue Zeitschrift in Grund und Boden nieder, so dass Bibibi sofort eine zweite, die besser sein sollte, erscheinen liess. Die Schimpferei war natürlich nur ein Trick gewesen, um zwei neuen Zeitschriften zum Dasein <pb n="192" facs="#f0198"/>
+zu verhelfen. Bibibi war eben ein grosser Schlaukopf und wusste genau, wie man das Zeug anfasste. Frau Selma schwamm in Wonne. Sie erkannte jetzt, dass ihres Mannes anscheinende Verrücktheit nur Schlauheit war. Sowie er sich auf den richtigen Platz gestellt sah, waren alle in ihm schlummernden Fähigkeiten erwacht.</p>
+            <p rendition="#et">Er schmeichelte der verkappten Lüsternheit des Publikums und gab ihr fette Bissen, aber nur von der langen Sauce scheinheiliger Frömmelei begossen. Ohne diese nie, denn er war sehr für die Moral seiner Leser besorgt. Man sündigte hier nur in verdunkelten Ecken. Die Sonne durfte es nicht sehen. Nackt zu gehen <pb n="193" facs="#f0199"/>
+war verboten, die Röckchen zu lüpfen erlaubt. Wo sich in einem Roman eine Gestalt fand, die<hi rendition="#g"> gegen</hi> Anfechtungen kämpfte, wurde der Roman zurückgewiesen. Anständige, d.h. kluge Leute<hi rendition="#g"> haben</hi> keine Anfechtungen, entschied der Chefredakteur; denn wenn sie solche haben, kommt es nicht an den Tag. Wird aber ein Mensch mit Anfechtungen geschildert, so muss er gleich als niederträchtiger Kerl hingestellt werden. Frau Selma und das Publikum glaubten an die strenge Moral des grossen Bibibi. Nur eins konnte Selma nicht recht verstehen: diese Kontraktabschlüsse im Hotel.</p>
+            <p rendition="#et">Einmal brachte sie es durch Schlauheit und Thürenhorcherei dahin, in Erfahrung <pb n="194" facs="#f0200"/>
+zu bringen, wann er seine nächsten Abmachungen mit einem neuen litterarischen Stern im Hotel haben würde. Eine Stunde vorher fuhr sie dicht verschleiert, eine Handtasche tragend, dahin und liess sich die Stube neben dem vereinbarten Zimmer geben. Nach einer geraumen Zeit hörte sie endlich die beiden eintreten. Sie vernahm Bibibis Stimme und eine schüchterne zweite, die der Frau A.B., einer jung verheirateten Dame, angehörte.</p>
+            <p rendition="#et">Selma legte hochaufhorchend das Ohr an die Thür. Zuerst hörte sie nur ein vergnügliches Grunzen, wie Bibibi von sich gab, wenn er glücklich küsste. Dann kamen wohlbekannte Laute, so wie sie <pb n="195" facs="#f0201"/>
+zu Anfang ihrer Ehe ihr selbst entflohen waren, wenn Bibibi gar zu stürmisch zu seinem Recht gelangen wollte. Dann verriet das Knarren einer indiskreten Bettstatt allerlei, was Selma besser verborgen geblieben wäre. Dann folgte die feierliche Stille nach dem Sturm.</p>
+            <p rendition="#et">Selma hatte sich behutsam auf den Boden niedergelassen, denn das Stehen wurde ihr unbequem. Später hörte sie eine pipsende Stimme jammern: »O Gott, mein armer Mann, mein armer Mann! Was wird er bloss sagen, wenn das Essen um Eins nicht fertig ist; o ich muss nach Hause!« ...</p>
+            <p rendition="#et">Man hörte allerlei rauschen, dann Wassergeriesel, dann flüsterte Bibibi: <pb n="196" facs="#f0202"/>
+»Lass mich zuerst hinab, Kindchen, ich mache alles beim Portier ab, ich habe fürchterliche Eile. Die Fahnen müssen um 12 Uhr nach der Druckerei und jetzt ist's dreiviertel auf Zwölf. Den Kontrakt erhältst du morgen. Der Roman erscheint in sechs Wochen, wir bringen dein Vollbild und du bekommst dreitausend Mark Honorar für den Erstabdruck. Hab vielen Dank, mein Herz. Das nächste Mal machen wir's mit mehr Musse. Adieu!«</p>
+            <p rendition="#et">Frau Selma erhob sich von ihrem Lauscherposten. War das ein Rückfall in seine Verrücktheit gewesen? Gewiss, nur das konnte es sein! Sie sah ihn grübelnd, forschend beim Mittagessen an und gab ihm drei Abende hindurch keinen <pb n="197" facs="#f0203"/>
+Gutenachtkuss. Aber sie horchte von nun an viel an der Thür, die in das Redaktionszimmer führte, in dem er allein arbeitete.</p>
+            <p rendition="#et">Sie brachte allerlei in Erfahrung. Wie Schriftstellerinnen oft zu ihrem Ruhm kamen. Wie andere abgewiesen wurden, weil sie bei gewissen Zumutungen hochmütig aufgefahren waren. Weshalb die Belletristik das fast ausschliesslich vom Weibe beherrschte Gebiet geworden war. Wie dem Publikum eine Geschmacksrichtung aufgedrängt wurde, die nur von der jeweiligen Appetitsverschiedenheit des Chefredakteurs abhing. Wie die Guillotine der Kritik ohne Hirn und Vernunft arbeitete. Wie immer <pb n="198" facs="#f0204"/>
+weniger ernsthafte Männer auf dem schöngeistigen Arbeitsfeld mitkämpfen wollten ...</p>
+            <p rendition="#et">Sie verwunderte sich über manches, aber sie war zu sehr Weib, um ihre persönliche Sache nicht als Hauptsache zu empfinden. Sie horchte weiter und sie vernahm noch verschiedene »Vereinbarungen«. Nur um ihr schlecht wiedergegebenes Bild in eine Tageszeitung zu lancieren, ergaben sich manche dieser jungen Frauen den Launen Bibibis.</p>
+            <p rendition="#et">Nein, Bibibi, kein Verrückter bist du, eine menschliche Bestie bist du, schluchzte die arme Frau Selma im Nebenzimmer. Aber warte, ich will mich an dir rächen, dass du wirklich verrückt werden sollst. <pb n="199" facs="#f0205"/>
+Vor allem dafür, dass du mich in Bezug auf deine eheliche Treue irre geführt hast. Oder hast du mich überhaupt nie an sie glauben machen wollen und – ich selbst habe mich im Glauben an sie bestärkt? Dann sollst du es doppelt büssen, denn was man selbst Dummes begeht, daran ist immer der andere schuld ... Und Selma, bis zum Rand mit Wut und Erbitterung gefüllt, vergass ihren Stolz, stellte sich mit anderm weiblichen Federvieh auf eine Stufe und schrieb ein Buch. Sie nannte es: »Das seid Ihr!« Schon das erste Wort, mit dem wir empfangen werden, begann sie, ist ein geringschätziges. <hi rendition="#g">Nur</hi> ein Mädchen! Oder heisst es in den meisten Fällen nicht so, <pb n="200" facs="#f0206"/>
+wenn die sage femme uns in die Arme des Vaters legt? Dann später werden wir von unsern uns an Kraft überlegenen Brüdern gefoppt, übervorteilt, misshandelt. Die öden Jahre der Bleichsucht beginnen. Unlustig, von einem Gefühl der Dumpfheit und Schwere gequält, schleppen wir uns dahin, bis ein Tag uns das mit mancherlei körperlichen Leiden erkaufte Siegel aufdrückt, dass wir nun zum Gebären reif sind. Haben wir Geld und ein hübsches Gesicht, so ist bald der Freier da, der um uns wirbt. Nach einer unnatürlich verlebten Verlobungszeit, in der wir unser erwachendes Temperament verleugnen und Komödie spielen müssen, werden wir endlich zum Traualtar geführt. Die heimlich <pb n="201" facs="#f0207"/>
+tausendmal ersehnte Hochzeitsnacht ist da. Anstatt der werbenden Zärtlichkeit des Geliebten zu begegnen, werden wir von einem keuchenden, brünstigen Gewalthaber genotzüchtigt, der vom Priester und unsern Eltern das Recht dazu empfangen hat. Nach Schmerzen und Demütigungen mancherlei Art werden wir endlich schwanger. Fast ein Jahr widriger Verunstaltung, widriger Krankheitszustände, dann kommt die Stunde, wo unserer Schamhaftigkeit der letzte Schleier entrissen wird. Nackt wie ein Tier, in Bewusstlosigkeit versetzt, oder im Krampf verzerrt, ruhen wir hilflos vor den Augen eines fremden Mannes, des Arztes, der oft noch Kollegen an der Seite hat. Man wühlt in unserm Körper, <pb n="202" facs="#f0208"/>
+verspritzt unser Blut und legt sorgsam Verbände und Salben zurück fürs »nächste« Mal. Noch kaum von unsern Wunden geheilt, findet uns die neu aufflammende Gier des Mannes, zu der sich vielleicht noch der Kitzel der Grausamkeit gesellt. Nach elf Monaten machen wir die Schlachtscene aufs neue durch. Und so weiter. Eines Tages aber harren wir vergebens der Liebkosungen unseres Gatten. Er ist unserer satt geworden. Die Liebeskunststücke, die er uns gelehrt hat, besitzen keinen Reiz mehr für ihn. Nun geht er zu andern Frauen, um neue einzuüben. Aber die können wir nicht mehr erlernen, denn unser Körper, von ihm gebrochen und zerstört, hat keine Kraft mehr in seinen <pb n="203" facs="#f0209"/>
+Muskeln. Wir sind schlaff geworden. Wenn er ehrlich ist, sagt er uns die Wahrheit mit offenem Visier; wenn er feig ist, betrügt er uns hinter unserm Rücken ...</p>
+            <p rendition="#et">Und nun begann die feurige Anklage gegen den einen. Das ganze Buch war so persönlich gehalten, dass jeder sofort wusste, Bibibi sei hier in die Hände einer Überlegnen geraten, die ihn durchschaute. Die Frauen alle, die geknechteten, geopferten, misshandelten, umringten ihre mutige Schwester, das neue Weib, die erste, die es gewagt hatte, ihren Tyrannen offen an den Pranger zu stellen. Sie drückten ihr die Hände, wenn sie sie auf der Strasse trafen, sie schrieben ihr danküberströmende Briefe.</p>
+            <p rendition="#et">
+               <pb n="204" facs="#f0210"/>
+Sie war mit einem Male die Heldin der unterdrückteren Hälfte der Menschheit geworden. Man war aufs höchste darauf gespannt, wie sie nun ihre edlen revolutionären Ideen in Thaten umsetzen würde; denn nach diesem unerhörten Buch musste sie mit einem verächtlichen Fahrwohl von ihm, dem Knechter ihrer Individualität und Frauenwürde, scheiden. Einsame Arbeit in stolzer Unabhängigkeit würde ihr Märtyrerlos worden. Man bereitete sich vor, ihre Apotheose zu erleben.</p>
+            <p rendition="#et">Bibibi machte ein langes und immer längeres Gesicht. Alle Wetter! War er trotz aller Vorsichtsmassregeln doch noch zu unvorsichtig gewesen? Hatte sie Verdacht geschöpft? Hatte ihn eine seiner <pb n="205" facs="#f0211"/>
+Freundinnen verraten? Ihm, dem Verfechter der öffentlichen Moral, war die Sache höchst unangenehm. Hauptsächlich jedoch deshalb, weil er sich als – unschlau erwiesen hatte. Wer wollte nicht lieber für einen Schurken als für einen dummen Kerl gelten? Nun, er hatte jetzt festen Boden unter seinen Füssen, mochte sie ihn schliesslich verlassen. Er liess doppelt empörte Tiraden gegen alle los, die einen Schritt vom Wege der breiten, fetten Moral thaten. Ja, er begann sich gegen das Weib zu wenden, dem die heiligsten Bande nicht zu ehrwürdig wären, um mit ihnen sein Spiel zu treiben. Er hing nicht so sehr an Selma, um eine Trennung von ihr als zu schweren Schicksalsschlag <pb n="206" facs="#f0212"/>
+zu empfinden, aber den Skandal hasste er.</p>
+            <p rendition="#et">Seit sie wusste, dass er ihr Buch gelesen hatte, und das ungeheure Aufsehen ermass, das es erregte, ging sie ihm scheu aus dem Wege. Sie kannte seine herkulischen Kräfte, dazu seine Gereiztheit; wer weiss, was geschah. Auch ihre Bekannten dachten ähnlich und sahen sie schon als Opfer ihres Mutes, als Märtyrerin ihrer Ideen. Man erwartete bang die letzte Katastrophe.</p>
+            <p rendition="#et">Es gab Journalistinnen, die schon einen Nekrolog für sie im Pult bereit liegen hatten.</p>
+            <p rendition="#et">Da kam das, was die Wenigsten vorausgesetzt hatten ...</p>
+            <p rendition="#et">
+               <pb n="207" facs="#f0213"/>
+Eines Abends, als sie von einem Gang heimkam, trat ihr Bibibi in den Weg.</p>
+            <p rendition="#et">»Magst du einen Augenblick bei mir eintreten?« fragte er mit eisiger Höflichkeit. Sie folgte ihm und blieb mit schlotternden Knieen an der Thür stehen. Er schritt gleichmütig auf und nieder.</p>
+            <p rendition="#et">»Ich habe also den Scheidungsprozess eingeleitet,« log er, »denn nach deinem persönlichen Angriff auf mich durfte ich unmöglich anders handeln. Ich ersuche dich nun, die Kinder so schonend wie möglich auf die Sache vorzubereiten. Das Gericht wird entscheiden, ob sie vater- oder mutterlos ihr junges Leben weiterführen sollen. Was mich betrifft, ich bin <pb n="208" facs="#f0214"/>
+ein Mann der Arbeit, der Thätigkeit, mein Beruf wird mich über mein -,« er stockte, »über mein unverdientes Schicksal erheben. Und wenn -,« er stockte wieder, »wenn ich es nicht ertragen sollte, dann –«</p>
+            <p rendition="#et">In diesem Augenblick nahm die alte Eva, die alte Eva, die niemals auch aus dem »neuesten« Weibe auszutreiben ist, wieder Besitz von Frau Selma. Sie sank auf die Kniee und ergriff die Hände ihres Gatten.</p>
+            <p rendition="#et">»Bibibi, kannst du mir das Buch verzeihen?«</p>
+            <p rendition="#et">Er verstand sofort die Situation, die er als Menschenkenner vorausgeahnt hatte, und richtete sich auf.</p>
+            <p rendition="#et">
+               <pb n="209" facs="#f0215"/>
+»Nein!«</p>
+            <p rendition="#et">»Bibibi, bedenke, welche Qualen du mir verursacht hast; ich war toll geworden, ich sehe es jetzt ein, aber – verraten hast du mich doch, das kannst du nicht leugnen, denn ich war Zeugin.«</p>
+            <p rendition="#et">»Horcherin!« Er stiess sie verächtlich von sich und that einige Schritte.</p>
+            <p rendition="#et">Sie rutschte ihm auf den Knieen nach.</p>
+            <p rendition="#et">»Bibibi, schlage mich, aber verstosse mich nicht; ich liebe dich, auch wenn du mich mit Füssen trittst, mir andere vorziehst; lass mich nur neben dir sein, die letzte, die allerletzte, nur neben dir! Dir habe ich meine Kinder geboren, meine Jugend hingegeben, ich kann ja nicht von dir fort, verzeih mir ...!«</p>
+            <p rendition="#et">
+               <pb n="210" facs="#f0216"/>
+Und Bibibi blickte auf sie herab. Das war also das <hi rendition="#g">neue</hi> Weib. Was war nun eigentlich das neue an ihm? War es mehr als seine gesteigerte – Redseligkeit, die sich in anklagenden Romanen, stürmischen Versammlungen, kampflustigen Vorträgen offenbarte? Er furchte die Stirne und hiess grossmütig Selma aufstehen ...</p>
+            <p rendition="#et">Bei sich aber beschloss er, noch gründlichere Frauenstudien zu treiben ...</p>
+            <pb n="211" facs="#f0217"/>
+         </div>
+      </body>
+   </text>
+</TEI>

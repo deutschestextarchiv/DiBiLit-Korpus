@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Gamiani oder zwei tolle Nächte</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118585940">
+                  <forename>Alfred</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Musset</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T15:12:14Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005395593</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Musset, Alfred de/Roman/Gamiani oder zwei tolle Nächte</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/st5b.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0004-5DC6-6</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Alfred de Musset: Gamian oder zwei tolle Nächte. [o.O.u.J.]</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gamiani oder zwei tolle Nächte</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118585940">
+                        <forename>Alfred</forename>
+                        <nameLink>de</nameLink>
+                        <surname>Musset</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">156 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Privatdruck</name>
+                  </publisher>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date type="publication">1911</date>
+                  <date type="firstPublication">1833</date>
+                  <date type="firstPublication" subtype="clariah">1833</date>
+                  <date type="firstPublication" subtype="zeno">1833</date>
+                  <date type="firstPublication" subtype="i5">1833</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Musset-Alfred-d-d1e46">Erstdruck: Brüssel 1833. Veröffentlicht unter dem Namen Alcide Baron de M***.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Roman</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Roman</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Musset-Alfred-d-d1e46">
+            <p rend="h3">Alfred de Musset</p>
+            <p rend="h2">Gamiani oder zwei tolle Nächte</p>
+            <p rend="h4">(Gamiani ou Deux Nuits D'Escés)</p>
+            <pb n="1" facs="#f0001"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Musset-Alfred-d-d1e76" type="chapter">
+            <head>Die erste Nacht</head>
+            <pb n="2" facs="#f0002"/>
+            <pb n="3" facs="#f0003"/>
+            <argument>
+               <p>Mitternacht war schon vorüber; aber die Säle der Gräfin Gamiani strahlten noch in hellem Lichterglanz.</p>
+            </argument>
+            <argument>
+               <p>Von den Klangen einer berauschenden Musik erregt, gaben sich die Gäste der Lust des Tanzes hin. Von Geschmeide und Edelsteinen funkelten die prachtvollen Toiletten der Damen.</p>
+            </argument>
+            <argument>
+               <p>Anmutig und liebenswürdig stand die Gräfin als Königin des Balles in der Mitte ihrer Gäste; man sah ihr den Triumph über das Gelingen ihres mit verschwenderischer Pracht veranstalteten Festes an, von dem schon wochenlang vorher ganz Paris gesprochen hatte. Mit freundlichem Lächeln hörte sie allen den schmeichelnden Komplimenten <pb n="3" facs="#f0004"/>
+zu, womit die Anwesenden ihr den Zoll für die Einladung entrichteten.</p>
+            </argument>
+            <argument>
+               <p>Meiner Gewohnheit gemäß stand ich abseits, um Beobachtungen zu machen, und da war mir bereits manches aufgefallen, was mir allerlei Zweifel an der Gräfin erweckte. Daß sie eine vollendete Weltdame war, konnte ich nicht bestreiten. Aber wie stand es mit ihren moralischen Qualitäten? Es reizte mich, ihr Herz mit dem Seziermesser des Forschers zu untersuchen und doch empfand ich etwas unbestimmt Seltsames, was mich genierte, sobald ich an diese Aufgabe ernstlich herantreten wollte. Aus der Lebensführung dieser Frau ließen sich keine Schlüsse ziehen; ich erkannte es daher als unendlich schwer, das Rätsel ihres Daseins zu lösen. Daß ein solches Rätsel vorhanden sein müsse, sagte mir eine bestimmte Ahnung.</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="4" facs="#f0005"/>
+Sie war jung, Besitzerin eines riesigen Vermögens, eine Schönheit nach dem Geschmack der Durchschnittsmenschen. Trotzdem stand sie allein in der Welt; sie hatte keine Freunde. Ihr mochte ihre Individualität genügen, aber die Gesellschaft fragte sich verwundert, warum ein solches Weib unvermählt bleibe.</p>
+            </argument>
+            <argument>
+               <p>Die bösen Zungen hatten sich eifrig' mit diesem Thema beschäftigt. Man erzählte sich viel, aber zu beweisen war nichts. Gräfin Gamiani blieb nach wie vor ein undurchdringliches Rätsel.</p>
+            </argument>
+            <argument>
+               <p>Einige nannten sie eine Fedora, ein Weib ohne Herz und ohne Temperament, andere sprachen die Vermutung aus, ihr Herz müsse einmal eine tiefe Wunde empfangen haben und sie sei auch deshalb so<pb n="5" facs="#f0006"/>
+ kalt, weil sie neue Enttäuschungen vermeiden wolle.</p>
+            </argument>
+            <argument>
+               <p>Diese Fragen beschäftigten mich lebhaft; ich strengte alle meine Geisteskräfte an, um ihre Lösung zu finden. Aber vergeblich – eine befriedigende Antwort vermochte ich nicht zu finden.</p>
+            </argument>
+            <argument>
+               <p>Ich wollte meine unfruchtbaren Bemühungen gerade aufgeben, da hörte ich plötzlich hinter mir den spöttischen Ausruf eines alten Lebemanns:</p>
+            </argument>
+            <argument>
+               <p>»Bah! Sie ist eine Tribade!«</p>
+            </argument>
+            <argument>
+               <p>Dies Wort erleuchtete wie ein Blitz die Dunkelheit, die mich umgab. Jetzt war alles klar – in der Kette der Schlußfolgerungen fehlte kein Glied mehr; alle Widersprüche waren gelöst.</p>
+            </argument>
+            <argument>
+               <p>Eine Tribade! Oh, dieses Wort schlägt mit seltsamem Klange an unser Ohr! Es ruft in unserer Phantasie seltsam verschwommene <pb n="6" facs="#f0007"/>
+Bilder unerhörter Sinnenlüste hervor. Wir denken an eine Raserei der Wollust, an eine sinnlose Trunkenheit des Geschlechtstriebes, an ein furchtbares Genießen, das ewig unvollkommen bleibt.</p>
+            </argument>
+            <argument>
+               <p>Vergeblich suchte ich diese Gedanken mir fernzuhalten; im Nu hatten sie meine geschlechtliche Phantasie in Feuer und Flammen gesetzt. Schon sah ich die Gräfin mit aufgelösten Haaren, nackt in den Armen eines anderen Weibes – keuchend, von Wollust erschöpft und trotzdem immer noch von unbefriedigten Begierden gepeinigt. –</p>
+            </argument>
+            <argument>
+               <p>Mein Blut war siedend heiß, es wirbelte mir vor den Augen – halb betäubt sank ich auf ein Sofa.</p>
+            </argument>
+            <argument>
+               <p>Als ich mich wieder erholt hatte, stand in mir der Entschluß fest, um jeden Preis der Gräfin ihr Geheimnis zu entreißen. <pb n="7" facs="#f0008"/>
+Mit nüchterner Überlegung erwog ich die Mittel und Wege, um zu diesem Ziele zu gelangen.</p>
+            </argument>
+            <argument>
+               <p>Ich beschloß endlich, Gamiani während der Nacht zu beobachten und mich zu diesem Zweck in ihrem Schlafzimmer zu verstecken. Gerade ihrem Bett gegenüber befand sich die Glastür des Ankleidezimmers. Ich erkannte sofort, daß dies der beste Beobachtungsposten sei. Einige Kleidungsstücke, die an der Wand hingen, boten ein leidliches Versteck. Ich verbarg mich hinter ihnen und beschloß geduldig die Stunde des Hexensabbats zu erwarten.</p>
+            </argument>
+            <argument>
+               <p>Kaum war ich in meinem Versteck, da erschien die Gräfin. Sie rief nach ihrer Kammerzofe, einem jungen Mädchen von dunkler Hautfarbe und mit üppigem Busen »Julie,« sagte sie, »ich brauche dich heute Abend nicht. Du kannst zu Bett gehen ... <pb n="8" facs="#f0009"/>
+Ach, und was ich noch sagen wollte solltest du in meinem Zimmer Geräusch hören, so kümmere dich nicht darum. Ich will allein sein.«</p>
+            </argument>
+            <argument>
+               <p>Diese Worte ließen dramatische Ereignisse erwarten; ich wünschte mir Glück zu meinem kühnen Entschluß.</p>
+            </argument>
+            <argument>
+               <p>Die Gräfin hatte sich wieder zur Gesellschaft begeben. Immer schwächer wurde allmählich das Stimmengemurmel, das zu meinem Winkel herüberdrang. Endlich hatten alle Gäste sich entfernt und Gräfin Gamiani blieb allein mit einer ihrer Freundinnen, Fräulein Fanni B***. Es dauerte nicht lange und ich hatte sie im Schlafzimmer vor meinen Augen und horte ihr Gespräch.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Was für ein Mißgeschick! Der Regen fällt in Strömen und kein Wagen zu haben!</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">
+                     <pb n="9" facs="#f0010"/>
+Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Auch ich bin untröstlich, daß Ihnen das passieren muß. Leider kann ich Ihnen nicht helfen: mein Wagen ist zum Ausbessern beim Stellmacher.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Meine Mutter wird sich beunruhigen.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Machen Sie sich darum keine Sorgen, liebe Fanni: Ihre Frau Mama weiß schon Bescheid; ich habe ihr sagen lassen, daß Sie die Nacht bei mir verbringen. Sie sind mein Gast.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Sie sind wirklich zu gütig! Ich mache Ihnen gewiß Ungelegenheiten.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Aber nein! im Gegenteil: ein großes Vergnügen! Ich sehe darin ein entzückendes <pb n="10" facs="#f0011"/>
+Abenteuer. Ich schicke Sie nicht in eines von meinen Fremdenzimmern, sondern wir bleiben die Nacht beisammen.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Warum? Ich werde Sie im Schlafe stören.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Aber machen Sie doch nicht so viele Umstände! Nehmen Sie an, wir seien zwei junge Freundinnen – Pensionsfreundinnen.</p>
+            </argument>
+            <argument>
+               <p>Ein zärtlicher Kuß. Dann ging das Gespräch weiter.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Ich werde Ihnen beim Auskleiden helfen. Meine Zofe ist schon zu Bett; wir brauchen sie ja aber auch gar nicht.</p>
+            </argument>
+            <argument>
+               <p>Nein! Dieser entzückende Leib! Glückliches Mädchen! Ich bewundere Ihren Wuchs!</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">
+                     <pb n="11" facs="#f0012"/>
+Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Sie finden ihn wirklich schön?</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Entzückend!</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Ach! Sie wollen mir ja nur schmeicheln.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>O, wie wundervoll die Weiße Ihrer Haut! Man könnte eifersüchtig darauf werden.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Nein, das brauchen Sie nicht. In diesem Punkte kann ich's mit Ihnen nicht aufnehmen. Nein wirklich und wahrhaftig: Sie sind weißer als ich.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Was fällt Ihnen ein, liebes Kind ... Aber ziehen Sie sich doch ganz aus! <pb n="12" facs="#f0013"/>
+Machen Sie's doch wie ich. Wovor genieren Sie sich denn? Sie tun ja gerade, wie wenn ein Mann im Zimmer wäre. Da! Sehen Sie sich doch im Spiegel! ... Was meinen Sie, wie Paris sich beeilen würde, Ihnen den Apfel zuzuwerfen ... Die Spitzbübin! Sie lächelt, weil sie sieht, wie schön sie ist. Man muß Sie küssen – auf Ihre Stirn, auf Ihre Wangen, auf Ihre Lippen. <hi rendition="#g">Überall</hi> sind Sie schön – überall!</p>
+            </argument>
+            <argument>
+               <p>Vor Wollust glühend, bedeckte der Mund der Gräfin Fannis Leib mit unzähligen Küssen. Sprachlos, zitternd ließ Fanni alles über sich ergehen. Sie begriff nicht, was Gamiani von ihr wollte.</p>
+            </argument>
+            <argument>
+               <p>Es war ein entzückender Anblick dieses Paar nackter Frauengestalten: Wollust, Grazie, sinnliches Sich gehenlassen, zaghafte <pb n="13" facs="#f0014"/>
+Scham! Eine Jungfrau, ein Engel in den Armen einer rasenden Bacchantin!</p>
+            </argument>
+            <argument>
+               <p>Und alle diese Schönheiten waren meinen Blicken ausgeliefert! Das Schauspiel brachte meine Sinne in den höchsten Aufruhr.</p>
+            </argument>
+            <argument>
+               <p>Plötzlich schlug eine ängstliche Stimme an mein Ohr.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>O, was machen Sie denn? Lassen Sie doch, Frau Gräfin, ich bitte Sie ...</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Nein, nein, meine Fanni! Mein Kind, mein Leben, meine Wonne! Du bist zu schön! Ich liebe dich! Ich liebe dich rasend! Ich bin wahnsinnig!</p>
+            </argument>
+            <argument>
+               <p>Vergebens sträubte das schöne Kind sich. Küsse erstickten ihr Schreien. Gamiani umarmte sie, umschlang sie – aller Widerstand war vergeblich. Rasend vor Leidenschaft <pb n="14" facs="#f0015"/>
+schleppte sie sie an ihr Bett – sie warf sie darauf hin, wie ein wildes Tier seine Beute.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Was ist Ihnen denn? Um Gottes willen, Frau Gräfin – das ist ja entsetzlich! Lassen Sie mich los oder ich schreie! Sie machen mir Angst!</p>
+            </argument>
+            <argument>
+               <p>Gamiani antwortete nur mit immer heißeren, immer stürmischeren Küssen. Fester nur umschlangen sie ihre Arme – die beiden Leiber waren zu einem einzigen verschlungen.</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Fanni! Sei mein! Sei ganz und gar mein! Komm! Nimm mein Leben hin! Nicht wahr – das ist Wonne? Wie du zitterst, süßes Kind! Ah! Du ergibst dich mir!</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">
+                     <pb n="15" facs="#f0016"/>
+Fanni.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Es tut weh! Es tut weh! Sie töten mich! – – – Ach – – Ich sterbe ...</p>
+            </argument>
+            <argument>
+               <p>
+                  <hi rendition="#b">Gamiani.</hi>
+               </p>
+            </argument>
+            <argument>
+               <p>Ja, so ist's recht! Presse dich an mich, meine Kleine, mein goldenes Lieb! Drücke mich ... immer noch fester! Wie schön sie ist im Liebesrausch! Wie wollüstig ... Du genießest! Du bist glücklich! ... O mein Gott!</p>
+            </argument>
+            <argument>
+               <p>Es war ein seltsamer Anblick. Mit glühenden Augen, mit aufgelösten Haaren rutschte die Gräfin auf ihrem Opfer hin und her, dessen Sinne jetzt ebenfalls zur höchsten Wollust entflammt waren. Die beiden Weiber hielten sich in den Armen, umklammerten sich mit aller Macht. Jeder Stoß der einen wurde von der anderen erwidert; jedes Stöhnen, jeder Seufzer erstarb in heißesten Küssen.</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="16" facs="#f0017"/>
+Das Bett krachte von den wütenden Stößen der Gräfin.</p>
+            </argument>
+            <argument>
+               <p>Bald war Fanni erschöpft; wie vernichtet ließ sie ihre Arme niedersinken. Totenblaß, lag sie unbeweglich da wie eine schöne Leiche.</p>
+            </argument>
+            <argument>
+               <p>Gamiani raste weiter. Die Wollust brachte sie aufs Äußerste, aber sie vermochte nicht zur Krisis zu gelangen. Mit einem wilden Satz stürzte sie sich mitten ins Zimmer; wälzte sich auf dem Teppich, in immer neuen wollüstigen Stellungen ihre eigenen Sinne aufpeitschend; ihre geschäftigen Finger mühten sich vergebens, ihr die höchste Befriedigung zu verschaffen.</p>
+            </argument>
+            <argument>
+               <p>Dieser Anblick raubte mir vollends die Besinnung.</p>
+            </argument>
+            <argument>
+               <p>Im ersten Augenblick hatten Ekel, Entrüstung alle anderen Gefühle in mir übertäubt. Ich war in Versuchung vor die <pb n="17" facs="#f0018"/>
+Gräfin hinzutreten, sie mit der ganzen Wucht meiner Verachtung zu Boden zu schmettern. Aber meine Sinne waren stärker als meine Vernunft. Das Fleisch – das unbändige, zuckende Fleisch triumphierte! Ich war betäubt, ich war wahnsinnig. Die Kleider riß ich mir vom Leib und nackt, glühend, fürchterlich stürzte ich mich auf die schöne Fanni.</p>
+            </argument>
+            <argument>
+               <p>Kaum hatte sie so viel Zeit, dieses neuen Angriffs gewahr zu werden, da war ich schon Sieger. Ich fühlte ihren geschmeidigen zarten Leib erschauern, unter meinem Leibe sich hin und her bewegen, jeden meiner Stöße erwidern. Wie glühende Pfeile kreuzten sich unsere Zungen, unsere beiden Seelen verschmolzen zu einer. Plötzlich stöhnte Fanni: »O, mein Gott – er mordet mich ...!«</p>
+            </argument>
+            <argument>
+               <p>Mit diesen Worten bäumte die Schöne <pb n="18" facs="#f0019"/>
+sich empor, stieß einen Seufzer aus – und sank dann zurück, indem sie mich mit ihrer süßesten Liebesgabe überströmte.</p>
+            </argument>
+            <argument>
+               <p>»Ah, Fanni,« rief da auch ich. »Fanni – warte ... nimm! Ah ...!«</p>
+            </argument>
+            <argument>
+               <p>Und auch ich glaubte mein Leben zu verströmen.</p>
+            </argument>
+            <argument>
+               <p>Welche Raserei der Liebe! Besinnungslos in Fannis Armen schwelgend hatte ich nichts von den erbitterten Angriffen gemerkt, die die Gräfin gegen mich gerichtet hatte.</p>
+            </argument>
+            <argument>
+               <p>Unser Seufzen, unser Schluchzen hatte auch sie aus ihrem Taumel erweckt; vor Wollust und Neid außer sich, hatte sie sich auf mich gestürzt, um ihre Freundin mir aus den Armen zu reißen.</p>
+            </argument>
+            <argument>
+               <p>Ihre Arme umschlangen und schüttelten mich, ihre Finger krallten sich in mein Fleisch ein, ihre Zähne verbissen sich in mich.</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="19" facs="#f0020"/>
+Die Berührung von zwei Frauenkörpern, die beide von der höchsten Liebesleidenschaft erregt, beide von Wollust durchglüht waren, rief meine ermatteten Sinne wieder ins Leben zurück, verdoppelte meine Begierden. Ich war ganz und gar Feuer.</p>
+            </argument>
+            <argument>
+               <p>Machtvoll, siegreich blieb ich als Herrscher in Fannis Schoß. <hi rendition="#g">Mein</hi> Wille herrschte in diesem Knäuel von drei ineinander verschlungenen, verstrickten Menschenleibern. Ein Griff und ich packte mit aller Kraft Gamianis Schenkel und hielt sie gespreizt oberhalb meines Kopfes.</p>
+            </argument>
+            <argument>
+               <p>»Gamiani!« rief ich. »Du bist mein! Leg dich vornüber, stütze dich fest auf deine Arme!«</p>
+            </argument>
+            <argument>
+               <p>Gamiani begriff, was ich wollte und ich konnte in aller Bequemlichkeit meine nimmersatte Zunge an ihrer heißen Scham spielen lassen.</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="20" facs="#f0021"/>
+Sinnlos vor Wollust liebkoste Fanni mit tausend Küssen die wogenden Brüste, die sich über ihrem Gesicht hin und her bewegten.</p>
+            </argument>
+            <argument>
+               <p>Im Nu war die Gräfin besiegt. Sie stammelte: »Wie das brennt! Zuviel ...! Gnade ...! O, welche Wollust! Du machst mich tot ...! Gott ...! Ich ersticke!«</p>
+            </argument>
+            <argument>
+               <p>Und wie eine leblose Masse sank Gamianis Leib zur Seite.</p>
+            </argument>
+            <argument>
+               <p>Fannis Erregung aber steigerte sich nur noch immer mehr. Sie warf ihre Arme um meinen Hals, umschlang mich, preßte mich an sich, kreuzte ihre Beine über meinen Lenden. Dann kamen stoßweise abgerissene Laute: »Liebster! Geliebter! ... Gib dich mir! ... Gib mir alles! ... Nicht so heftig ... Ein bißchen ... Halt ... Ah ... so ... so ... Schneller! ... Schneller doch! ... O, ich fühl's ... ich ... spritze ... ich ...«</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="21" facs="#f0022"/>
+Und starr, bewegungslos, lagen wir aufeinander, Mund an Mund gepreßt. Aber wir spürten kaum unsere fast erloschenen Atemzüge.</p>
+            </argument>
+            <argument>
+               <p>Allmählich kamen wir wieder zu uns. Alle drei erhoben wir uns und starrten uns einen Augenblick verständnislos an.</p>
+            </argument>
+            <argument>
+               <p>Die Gräfin kam zuerst zum Bewußtsein der Situation. Ihrer Raserei sich schämend, warf sie sich schnell ein Hemd über. Fanni verbarg sich unter den Bettüchern und fing an zu weinen wie ein kleines Kind, das sich seiner Schuld bewußt wird, wenn diese begangen und nicht wieder gut zu machen ist. Gamiani aber wandte sich zu mir und rief zornig:</p>
+            </argument>
+            <argument>
+               <p>»Mein Herr, das ist ein recht erbärmlicher Überfall! Ihre Handlungsweise ist schändlich, hinterlistig, gemein! – Ich schäme mich Ihretwegen!«</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="22" facs="#f0023"/>
+Ich wollte mich verteidigen, aber sie rief:</p>
+            </argument>
+            <argument>
+               <p>»O, schweigen sie nur! Sie sollten wissest, daß eine Frau niemals dem Manne verzeiht, der sich ihre Schwachheit zunutze gemacht hat!«</p>
+            </argument>
+            <argument>
+               <p>Ich suchte mich so gut wie möglich herauszureden. Ich schwor ihr, ihre Kälte habe in mir eine verhängnisvolle, unwiderstehliche Leidenschaft erweckt, habe mich zur Verzweiflung gebracht, und so sei mir nichts anderes übrig geblieben als List und Gewalt.</p>
+            </argument>
+            <argument>
+               <p>»Übrigens,« so schloß ich, »können Sie wirklich glauben, Gamiani, ich würde jemals ein Geheimnis mißbrauchen, dessen Besitz ich mehr noch dem Zufall als meinen) kühnen Handstreich verdanke? O nein! Das wäre denn doch zu unedel! Niemals, niemals in meinem Leben werde ich die Verzückungen dieser Augenblicke vergessen, <pb n="23" facs="#f0024"/>
+aber ich werde sie verschweigen, in mein Inneres verschließen. Habe ich gefehlt – nun, so bedenken Sie auch, daß eine rasende Begier mir in der Seele tobte. Oder noch besser, vergessen Sie alles und denken auch Sie nur noch an die Wonnen, deren wir zusammen genossen haben, die wir uns jeden Augenblick von neuem verschaffen können ... Und Sie, Fräulein Fanni, weinen Sie nicht! Tränen im Augenblick der süßen Wonne? O nein! Denken Sie an weiter nichts, als an die Glückseligkeit, die uns eben noch vereint hielt. Bewahren Sie sie in Ihrer Erinnerung wie einen glücklichen Traum, um den nur Sie ganz allein wissen! Ich schwöre Ihnen, niemals werde ich das Andenken an diese Stunde der Seligkeit beflecken, indem ich zu anderen davon schwätze!«</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="24" facs="#f0025"/>
+Gamianis Zorn legte sich, Fannis Tränen versiegten. Wir wußten selber nicht, wie es kam – aber plötzlich waren wieder unsere Glieder ineinander verschlungen, und wir wetteiferten in toller Lustigkeit, in Küssen, in Liebkosungen. Und ich rief:</p>
+            </argument>
+            <argument>
+               <p>»O meine schönen Freundinnen! Verbannen wir die Furcht von dieser Stätte der Freude! Rückhaltlos – wie wenn diese Nacht die letzte wäre – wollen wir uns der Liebe, der Wollust überlassen!«</p>
+            </argument>
+            <argument>
+               <p>»Ja!« rief auch Gamiani. »Der Würfel ist gefallen. Auf zur Lust! Komm, Fanni! Küß mich doch, du tolles Ding! Da – meine Lippen. Laß mich dich beißen, laß mich an dir saugen, laß mich dich aussaugen bis aufs Mark der Knochen. Alcide! Es ruft die Pflicht! Ah, du bist ein prächtiger Kerl! Wie reich dich die Natur ausgestattet hat!«</p>
+            </argument>
+            <argument>
+               <p>
+                  <pb n="25" facs="#f0026"/>
+»Neid, Gamiani? Wart, ich komme! Du verachtest die Wonne der Männerliebe – aber du wirst sie preisen, wenn du sie erst einmal so recht genossen hast. Bleib liegen, wie du liegst! Drücke den Unterleib noch weiter vor! Ah, wie du schön bist! Diese entzückende Stellung! Jetzt schnell, Fanni! Steig auf Gamiani hinauf und lenke du selbst meine drohende Waffe, den heißen Pfeil! Auf zum Angriff gegen die Festung! Los! ... Nicht so, Gamiani! Das ist zu stark, zu schnell ... ah! Du machst ja alle Wonne zuschanden!«</p>
+            </argument>
+            <argument>
+               <p>Die Gräfin warf sich wie eine Besessene unter mir hin und her. Fannis Küsse reizten sie mehr als alle meine Liebesmüh. Eine besonders heftige Bewegung Gamianis zerstörte die ganze Gruppe. Ich machte mir dies zunutze, um Fanni auf die Gräfin zu werfen und nunmehr mit aller Glut der <pb n="26" facs="#f0027"/>
+Liebe das junge Mädchen anzugreifen. In einem Augenblick waren wir alle drei von Wonne überströmt.</p>
+            </argument>
+            <argument>
+               <p>Dann eine Pause.</p>
+            </argument>
+            <argument>
+               <p>Dann sagte Gamiani lachend:</p>
+            </argument>
+            <argument>
+               <p>»Was fiel dir denn auf einmal ein, Alcide, daß du plötzlich den Spieß umdrehtest? ... O, du brauchst dich nicht zu entschuldigen. Ich verzeihe dir: Du hattest begriffen, daß du zu viel Wonne aufgabst, indem du deine Mühe an eine Fühllose verschwendetest. Was soll ich aber dabei machen? Ich habe das traurige Geschick, mit der Natur in Zwiespalt zu liegen. Ich träume nur noch von Furchtbarem, Greulichem, Niedagewesenem. Ich jage dem Unmöglichen nach ... O ja! Es ist entsetzlich! Immer in Enttäuschungen sich verzehren! Immer wünschen – nie befriedigt <pb n="27" facs="#f0028"/>
+sein! Meine Phantasie tötet mich.. ach ja, ich bin sehr unglücklich!«</p>
+            </argument>
+            <argument>
+               <p>In ihren Worten lag ein so starker Ausdruck von Verzweiflung, daß ich mich von Mitleid gerührt fühlte. Das Weib war böse – aber sie litt selber am meisten darunter. Ich wollte versuchen sie zu trösten und sagte:</p>
+            </argument>
+            <argument>
+               <p>»Vielleicht ist es nur ein vorübergehender Zustand, Gamiani! Du liesest wohl zu viel schlechte Bücher?«</p>
+            </argument>
+            <argument>
+               <p>»O nein, nein! Das ist es nicht ... Aber hört mich an. Ihr werdet mich beklagen ... vielleicht werdet ihr mich begreifen – und entschuldigen.«</p>
+            </argument>
+            <argument>
+               <p>Und sie erzählte:</p>
+            </argument>
+            <head>Gamianis Jugend.</head>
+            <p rendition="#et">In Italien wuchs ich auf, im Hause einer Tante, die schon in jungen Jahren Witwe <pb n="28" facs="#f0029"/>
+geworden war. Als ich fünfzehn Jahre alt war, sah ich in den Dingen dieser Welt nur die Schreckbilder, die der fromme Eifer der gläubigen Christen von ihnen entworfen hat.</p>
+            <p rendition="#et">Alle meine Gedanken gingen in Gott auf und ich verbrachte alle meine Tage in Gebeten zum Himmel, er möge mich von den Qualen der Hölle verschonen.</p>
+            <p rendition="#et">Diese Seelenängste waren mir von meiner Tante eingeflößt worden; niemals versuchte sie sie durch irgendein Zeichen von Zärtlichkeit zu beschwichtigen. Trost und Frieden fand ich nur im Schlaf. Meine Tage schlichen traurig dahin wie die Nächte eines zum Tode Verurteilten.</p>
+            <p rendition="#et">Nur ab und zu rief meine Tante mich morgens in ihr Bett. Da empfing sie mich mit zärtlichen Blicken, mit freundlichen Worten. Sie zog mich an ihren Busen, <pb n="29" facs="#f0030"/>
+ich lag zwischen ihren Schenkeln, und plötzlich preßte sie mich in krampfhafter Umschlingung an sich. Wild warf sie sich hin und her, ihr Kopf sank zur Seite – ein tolles Gelächter, und ihre Augen brachen.</p>
+            <p rendition="#et">Erschreckt, keiner Bewegung fähig, sah ich sie an. Ich glaubte, sie hätte einen epileptischen Anfall ...</p>
+            <p rendition="#et">Eines Tages hatte sie eine lange Unterredung mit einem Franziskanermönch; zuletzt wurde ich hereingerufen und der ehrwürdige Pater hielt folgende Ansprache an mich:</p>
+            <p rendition="#et">»Liebe Tochter, du bist jetzt erwachsen. Der böse Feind kann schon sein Auge auf dich geworfen haben. Wenn du nicht rein und makellos bist, können seine Pfeile dich treffen. Hat aber keine Sünde dich besudelt, so bist du unverwundbar. Durch <pb n="30" facs="#f0031"/>
+Schmerzen hat unser Herr Christus die Welt erlöst; durch Schmerzen wirst auch du von deinen Sünden dich erlösen. Bereite dich darauf vor, das Martyrium der Erlösung zu bestehen. Bitte Gott um die nötige Kraft und den nötigen Mut. Heute Abend wirst du die Prüfung zu bestehen haben ... Geh in Frieden, mein Kind!«</p>
+            <p rendition="#et">Meine Tante hatte schon seit mehreren Tagen mir fortwährend davon gesprochen, daß man durch Leiden, durch Martern sich von seinen Sünden loskaufen müsse.</p>
+            <p rendition="#et">Die Worte des Mönchs erschreckten mich. Ich eilte hinaus. Als ich allein war, wollte ich beten, meine Zuflucht zu Gott nehmen. Aber ich konnte an nichts anderes denken als an die mir bevorstehenden Schmerzen.</p>
+            <p rendition="#et">Gegen Mitternacht kam meine Tante zu mir. Sie befahl mir, mich nackt auszuziehen, <pb n="31" facs="#f0032"/>
+wusch mich vom Kopf bis zu den Füßen und ließ mich ein langes schwarzes Kleid anziehen, welches um den Hals durch eine Schnur zusammengezogen wurde, hinten aber offen war.</p>
+            <p rendition="#et">Sie legte sich ein gleiches Kleid an und wir fuhren in einem Wagen vom Hause fort.</p>
+            <p rendition="#et">Eine Stunde später sah ich mich in einem großen Saal, der ganz mit schwarzen Stoffen ausgeschlagen war und durch eine einzige Lampe, die von der Decke herabhing, ein schwaches Licht empfing.</p>
+            <p rendition="#et">Mitten in diesem Gemach befand sich ein Betschemel nebst einigen Kissen.</p>
+            <p rendition="#et">»Knie nieder, Nichte I« flüsterte meine Tante mir zu. »Bereite dich durch Gebete auf das vor, was dir bevorsteht, und ertrage mit Mut alle Leiden, die Gott in seiner Güte dir sendet!«</p>
+            <p rendition="#et">
+               <pb n="32" facs="#f0033"/>
+Kaum war ich, gehorsam ihrem Gebote, niedergekniet, da öffnete sich eine Tür. Ein Mönch, der in derselben Weise gekleidet war wie meine Tante und ich, trat an mich heran, indem er einige Worte vor sich hinmurmelte. Plötzlich schlug er von hinten meine Rockschösse auseinander, so daß die ganze Rückseite meines Körpers entblöst war.</p>
+            <p rendition="#et">Ein leichtes Zittern rann unwillkürlich durch die Glieder des Mönches. Offenbar brachte ihn der Anblick meines nackten Fleisches außer sich. Seine Hand betastete meinen ganzen Rücken, besonders meine Hinterbacken, und verweilte dann etwas weiter unten.</p>
+            <p rendition="#et">»Dies ist der Körperteil, womit das Weib sündigt; an diesem Körperteil muß sie Schmerzen leiden,« sagte eine Grabesstimme.</p>
+            <p rendition="#et">
+               <pb n="33" facs="#f0034"/>
+Kaum waren diese Worte erklungen, so fühlte ich furchtbare Schläge auf mich herabsausen. Erst waren es Ruten, dann knotige Stricke mit Eisenkugeln an den Enden. Ich klammerte mich an den Betschemel und bemühte mich, nicht zu schreien. Aber vergeblich – der Schmerz war zu stark. Ich sprang auf und lief im Saal herum, indem ich rief: »Gnade! Gnade! Diese Qual kann ich nicht ertragen! Lieber tötet mich! Barmherzigkeit, bitte, bitte ...«</p>
+            <p rendition="#et">»Elende, feige Seele!« schrie meine Tante entrüstet. »Nimm dir mein Beispiel zu Herzen!«</p>
+            <p rendition="#et">Mit diesen Worten riß sie sich das Kleid vom Leib und warf sich mit gespreizten Beinen, ganz nackt, auf die Erde.</p>
+            <p rendition="#et">Die Hiebe nagelten auf sie hernieder; unerbittlich schlug der Henker immer <pb n="34" facs="#f0035"/>
+weiter. In einem Augenblick waren ihre Schenkel von Blut überströmt.</p>
+            <p rendition="#et">Meine Tante aber hielt unerschütterlich stand; sie rief sogar fortwährend: »Stärker! Ah! Immer noch stärker!«</p>
+            <p rendition="#et">Dieser Anblick brachte mich von Sinnen. Ich verspürte einen übernatürlichen Mut und rief, auch ich sei bereit, alles zu erdulden.</p>
+            <p rendition="#et">Sofort sprang meine Tante auf, um mich mit glühenden Küssen zu bedecken. Der Mönch dagegen fesselte mir die Hände und legte mir eine Binde über die Augen.</p>
+            <p rendition="#et">Und nun begann erst die eigentliche, fürchterliche Marter: bald hatte mich der Schmerz völlig betäubt; ich vermochte keine Bewegung mehr zu machen, ich fühlte nichts mehr. Offenbar aber wurden noch andere Menschen gemartert: durch das Geräusch der Schläge hindurch hörte <pb n="35" facs="#f0036"/>
+ich dumpfes Geschrei, Ausrufe, das Klatschen von Händen, die auf Menschenfleisch niederfielen. Dann wieder wahnsinniges, nervöses, krampfhaftes Gelächter, in denen sich die Orgien der Sinne Luft machen. Zuweilen übertönte die Stimme meiner Tante, vor Wollust röchelnd, diese ganze seltsame Symphonie, dieses Saturnal von Blut und Schmerzen.</p>
+            <p rendition="#et">Später wurde mir klar, daß das Schauspiel meiner Folterung dazu diente, abgestumpfte Sinne aufzustacheln. Jeder meiner unterdrückten, erstickten Seufzer gab der Wollust einen neuen Ansporn.</p>
+            <p rendition="#et">Endlich hörte der Henker auf; ohne Zweifel nur darum, weil er vor Müdigkeit nicht mehr konnte. Ich war vor Angst und Schmerz völlig unbeweglich, ich hatte mich in mein Schicksal ergeben: ich glaubte sterben zu müssen. Als ich aber nach und <pb n="36" facs="#f0037"/>
+nach wieder zum Bewußtsein kam, empfand ich ein eigentümliches Zucken und Kitzeln: mein ganzer Leib brannte, alle meine Glieder zuckten und zitterten.</p>
+            <p rendition="#et">Wollüstig warf ich mich hin und her; eine unersättliche Begier heischte Befriedigung. Plötzlich umschlangen mich zwei kräftige Arme. Etwas mir unbekanntes Heißes, Steifes schlug gegen meine Schenkel an, glitt dann zwischen sie und drang plötzlich in meinen Leib ein. Mir war zumute, als würde ich auseinandergespalten. Ich stieß einen furchtbaren Schrei aus, der aber von lautem Gelächter übertönt wurde. Zwei oder drei neue Stöße – und der Riesenpflock war seiner ganzen Länge nach in mich eingedrungen. Meine blutüberströmten Beine umschlangen die Schenkel meines Angreifers und es war, wie wenn unser Fleisch sich vermischte und zu einem <pb n="37" facs="#f0038"/>
+einzigen Leibe verschmölze. Meine Adern waren strotzend voll, alle meine Sehnen bis zum Zerspringen angespannt. Die Stöße folgten sich mit unglaublicher Geschwindigkeit und versetzten mich in eine solche Glut, daß es mir vorkam, als wäre mir ein glühendes Eisen in den Leib gestoßen.</p>
+            <p rendition="#et">Bald schwanden mir die Sinne; ich glaubte im Himmel zu sein. Eine heiße, schleimige Flüssigkeit überströmte mich, drang bis in mein Innerstes ein – ich glaubte sie bis ins Mark meiner Knochen zu verspüren ... Es war zu viel ... Auch aus mir schoß es hervor wie ein glühender Lavastrom. Ich fühlte wie ein brennender, beizender Saft sich ergoß. Wild und immer wilder stieß ich, damit er noch reichlicher flösse. Dann versank ich erschöpft in einen Abgrund unerhörter Wollust.</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="38" facs="#f0039"/>
+Fanni.</hi>
+            </p>
+            <p rendition="#et">Gamiani, wie du zu malen weißt! Man spürt die Hölle im Leibe.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Ich bin noch nicht zu Ende.</p>
+            <p rendition="#et">Bald wandelte sich meine Wollust in entsetzlichen Schmerz. Ich wurde auf die gräßlichste Weise vergewaltigt. Mehr als zwanzig Mönche stürzten sich wie wilde Kannibalen einer nach dem andern über mich her. Mein Kopf sank zur Seite. Wie ein Leichnam lag mein geschändeter Leib auf den Polstern. Man trug mich für tot ins Bett.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Infame Schlächterei!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Ja wohl, infam! Ja, noch mehr als infam! Als ich wieder lebte, als ich endlich wieder gesund war, begriff ich die entsetzliche <pb n="39" facs="#f0040"/>
+Verworfenheit meiner Tante und ihrer infamen Orgiengenossen, die nur noch der Anblick entsetzlichster Martern zu reizen vermochte. Ich schwor ihnen tödlichen Haß. Und dieser Haß erstreckte sich bald auf alle Männer ohne Ausnahme.</p>
+            <p rendition="#et">Der Gedanke, die Liebeszeugungen eines Mannes zu erdulden, war mir ekelhaft. Ich gab mich nicht mehr dazu her, das elende Spielzeug ihrer Launen zu sein.</p>
+            <p rendition="#et">Aber ich hatte ein glühendes Temperament, das nach Befriedigung schrie. Ich ergab mich der Onanie und wurde von dieser erst später durch die sachverständigen Belehrungen geheilt, die mir die Nonnen des Klosters »Zum Herzen Jesu« erteilten. Diese Belehrungen gaben mir den Rest, verderbten mich ganz und gar ...</p>
+            <p rendition="#et">Tränen erstickten Gamianis Stimme.</p>
+            <p rendition="#et">
+               <pb n="40" facs="#f0041"/>
+Fanni suchte sie durch Liebkosungen zu beruhigen. Vergebens. Um der peinlichen Szene ein Ende zu machen, wandte ich mich an das Mädchen und sagte:</p>
+            <p rendition="#et">»Jetzt kommst du daran, schöne Kleine! Du bist in einer einzigen Nacht in gar viele Mysterien eingeweiht worden. Nun erzähle uns doch mal, wie es bei dir war, als du zum erstenmal die Lust des Fleisches verspürtest!«</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Ich! O nein – das kann ich wirklich nicht erzählen!</p>
+            <p>
+               <hi rendition="#b">Alcide.</hi>
+            </p>
+            <p rendition="#et">Deine Schamhaftigkeit ist aber doch wahrhaftig hier nicht angebracht.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Oh – es ist nicht deshalb. Aber nach der Erzählung der Gräfin wäre das, was ich berichten konnte, gar zu unbedeutend.</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="41" facs="#f0042"/>
+Alcide.</hi>
+            </p>
+            <p rendition="#et">Aber glaube doch das nicht, du liebe kleine Unschuld! Was sträubst du dich denn noch? Sind wir denn nicht durch die Wollust unserer Sinne zu einem einzigen Wesen geworden? Wir brauchen vor einander nicht mehr zu erröten. Wir haben alles<hi rendition="#g"> getan</hi> – und so können wir denn auch alles<hi rendition="#g"> sagen.</hi>
+            </p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Da, Schönste – einen Kuß, zweihundert Küsse, wenn du willst! Laß dich doch bereden! Und sieh du, wie verliebt Alcide ist – sieh, wie seine Manneswaffe dir droht!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Nein, nein – laßt mich! Alcide, ich habe keine Kraft mehr.</p>
+            <p rendition="#et">Bitte, bitte ... Gnade! Gamiani, wie bist du wollüstig! ... Fort, Alcide! ... Oh ...</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="42" facs="#f0043"/>
+Alcide.</hi>
+            </p>
+            <p rendition="#et">Keinen Pardon, zum Donnerwetter! Entweder gibst du uns die Odyssee deiner Jungfernschaft zum Besten oder Curtius stürzt sich mit Wehr und Waffen in ...</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Wenn ihr es denn durchaus wollt ...</p>
+            <p>
+               <hi rendition="#b">Gamiani und Alcide.</hi>
+            </p>
+            <p rendition="#et">Ja, ja!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">In vollkommener Unschuld, das kann ich euch schwören, erreichte ich mein fünfzehntes Jahr. Selbst in Gedanken hatte ich mich niemals mit der Verschiedenheit der Geschlechter beschäftigt.</p>
+            <p rendition="#et">Gedankenlos lebte ich dahin – und gewiß; ich war glücklich ... Da war ich einmal an einem sehr heißen Sommertage ganz allein zu Hause, und ich verspürte<pb n="43" facs="#f0044"/>
+ ein eigentümliches Bedürfnis, die lästigen Kleider von mir abzuwerfen, um meine Glieder frei dehnen zu können.</p>
+            <p rendition="#et">Ich zog mich aus, ich warf mich, fast nackt, auf einen Diwan ... ach, ich schäme mich ... ich streckte die Beine aus, ich spreizte sie, soweit ich konnte, warf mich hin und her. Ohne es zu wissen, nahm ich die unzüchtigsten Stellungen ein.</p>
+            <p rendition="#et">Der Stoffbezug des Diwans war sehr kalt; dadurch hatte ich ein angenehmes Gefühl; ein wollüstiges Kitzeln überrieselte meinen ganzen Leib. Frei dehnte sich meine Brust in der lauen, von Düften geschwängerten Luft, die mich umgab. Welch süße, entzückende Wollust! Ich war in einer köstlichen Ekstase. Mir war's, als ergöße sich ein neues Leben in mich hinein, als wäre ich stärker, größer, als söge ich einen göttlichen Odem ein, als <pb n="44" facs="#f0045"/>
+erblühte ich unter den Strahlen eines schöneren Himmels.</p>
+            <p>
+               <hi rendition="#b">Alcide.</hi>
+            </p>
+            <p rendition="#et">Du bist poetisch, Fanni.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Oh, ich übertreibe nicht. Ich beschreibe ganz genau nur meine Gefühle. Wohlgefällig betrachteten meine Augen meinen Körper, meine Hände glitten über meinen Hals, über meinen Busen, über meinen Leib. Zwischen den Schenkeln verweilten sie und ich versank unwillkürlich in tiefes Träumen.</p>
+            <p rendition="#et">Die Worte »Liebe«, »Geliebter«, deren Sinn ich gar nicht verstand, schwebten mir unaufhörlich vor.</p>
+            <p rendition="#et">Als ich aus meinen Träumen erwachte, war ich erstaunt mich allein zu finden. Ich fühlte eine ungeheure Öde um mich <pb n="45" facs="#f0046"/>
+herum; ich hatte vergessen, daß ich Verwandte, daß ich Freunde besaß.</p>
+            <p rendition="#et">Ich erhob mich und blickte traurig um mich.</p>
+            <p rendition="#et">So blieb ich eine Zeitlang in Gedanken versunken, den Kopf melancholisch vornüber geneigt, die schlaff herabhängenden Hände in einander gefaltet.</p>
+            <p rendition="#et">Dann fing ich von neuem an mich zu betasten und ich fragte mich, ob denn nicht mein Körper zu irgend einem Zweck da wäre.</p>
+            <p rendition="#et">Gefühlsmäßig begriff ich, daß mir irgend etwas fehlen müsse – irgend etwas, das ich nicht näher bezeichnen konnte, das ich aber <hi rendition="#g">wollte</hi>, das ich von ganzer Seele <hi rendition="#g">begehrte.</hi>
+            </p>
+            <p rendition="#et">Ich muß wie eine Wahnsinnige ausgesehen haben, denn von Zeit zu Zeit lachte ich sinnlos laut auf; meine Arme öffneten <pb n="46" facs="#f0047"/>
+sich, wie wenn sie den Gegenstand meiner Wünsche umschlingen wollten. Ja –<hi rendition="#g"> ich umarmte mich selber.</hi> Ich mußte etwas Wirkliches, etwas Körperliches haben, das ich umfassen konnte, und in meinem unbewußten Sinnentaumel nahm ich mich selber. Ich preßte meine Arme um mich, und ich hatte das Gefühl, als ob ich einen anderen Menschen umschlänge.</p>
+            <p rendition="#et">Durch mein Fenster sah ich in der Ferne Baumwipfel und grüne Rasenflächen; ich hatte mich im Grase wälzen oder in die Lüfte über dem Blätterdach emporschweben mögen. Ich blickte zum Himmel auf und es kam eine Sehnsucht in mir auf, mich in die Luft zu verflüchtigen, mich den Wolken, dem Äther, den Engeln zuzugesellen.</p>
+            <p rendition="#et">Vielleicht war ich dem Wahnsinn nahe: heiß klopfte das Blut gegen meine Schläfen.</p>
+            <p rendition="#et">Ganz außer mir hatte ich mich wieder <pb n="47" facs="#f0048"/>
+auf die Kissen des Diwans gestürzt. Eins derselben umschlang ich mit meinen Schenkeln, ein anderes preßte ich in meine Arme. Leidenschaftlich hielt ich es umfaßt; wild küßte ich es, ja, ich glaube sogar, ich lächelte ihm zu. Meine Sinnlichkeit hatte triumphiert, ich war wie trunken. Plötzlich erzitterte ich – ich hielt ein in meinem Spiel. Mir war's als zerflöße ich, als löste ich mich auf.</p>
+            <p rendition="#et">»O, mein Gott!« schrie ich. Ein plötzlicher Schrecken erfaßte mich und ich sprang auf.</p>
+            <p rendition="#et">Ich war ganz naß.</p>
+            <p rendition="#et">Ich konnte nicht begreifen, was mir passiert wäre, und glaubte daher, ich sei verwundet. Ich fürchtete mich, warf mich auf die Kniee nieder und betete zu Gott, er möge mir verzeihen, wenn ich unrecht getan habe.</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="48" facs="#f0049"/>
+Alcide.</hi>
+            </p>
+            <p rendition="#et">Du liebe kleine Unschuld! Hast du denn von dem Vorfall, der dich in solche Angst versetzte, mit keinem Menschen gesprochen?</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Nein, niemals! Das hätte ich nie gewagt. Bis vor einer Stunde war ich noch ganz unerfahren. Du erst hast mir die Lösung des Rätsels gegeben.</p>
+            <p>
+               <hi rendition="#b">Alcide.</hi>
+            </p>
+            <p rendition="#et">O Fanni, dieses Geständnis hebt mich auf den Gipfel des Entzückens empor. Teures Lieb, empfange eine neue Probe meiner Liebe! ... Gamiani, reize mich, rege mich auf, damit ich diese zarte Blüte mit Himmelstau beträufe.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Welches Feuer! Welche Glut! O Fanni, <pb n="49" facs="#f0050"/>
+schon brechen ja deine Augen ... Ach, sie genießt ... sie genießt.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Alcide, Alcide! Ich sterbe ... ich ...</p>
+            <p rendition="#et">Und die süße Wollust berauschte uns, versetzte sie und mich in den Himmel.</p>
+            <p rendition="#et">Nachdem ich meinen Sinnen einen Augenblick Ruhe gegönnt hatte, nahm auch ich das Wort und erzählte:</p>
+            <p rendition="#et">Ich bin von jungen und kräftigen Eltern gezeugt. Meine Kindheit war glücklich: Trübsal und Krankheiten kannte ich nicht. Und so war ich denn schon mit dreizehn Jahren zum <hi rendition="#g">Mann</hi> entwickelt, und die Stacheln des Fleisches machten sich lebhaft geltend.</p>
+            <p rendition="#et">Da ich zum geistlichen Stande bestimmt und nach den strengsten Vorschriften der Keuschheit erzogen war, so bekämpfte ich <pb n="50" facs="#f0051"/>
+mit aller Macht die ersten Begierden meiner Sinne. Mein Fleisch lehnte gebieterisch, machtvoll sich auf, empörte sich – ich aber kasteite es unbarmherzig.</p>
+            <p rendition="#et">Ich verdammte mich zum schärfsten Fasten. Nachts, während ich schlief, verschaffte die Natur sich Erleichterung; ich aber erschrak darüber, wie wenn ich mir eine sündhafte Ausschweifung hätte zuschulden kommen lassen. Ich verdoppelte meine Enthaltsamkeit und paßte noch schärfer auf, um jeden schlimmen Gedanken mir fernzuhalten. Dieser beständige innere Kampf machte mich schließlich stumpf und halb blödsinnig. Meine erzwungene Enthaltsamkeit versetzte allmählich meine Sinne in eine Reizbarkeit, wie ich sie früher nie gekannt hatte.</p>
+            <p rendition="#et">Oftmals hatte ich Schwindelanfälle. Ich hatte das Gefühl, als ob alles um mich <pb n="51" facs="#f0052"/>
+herum sich drehte and schließlich ich selber mich mitdrehte. Wenn mein Blick zufällig ein junges Weib traf, war mir's, als strahlte es von Feuer und würfe elektrische Funken aus.</p>
+            <p rendition="#et">Dieser Zustand hatte mehrere Monate gedauert, da fühlte ich plötzlich eines Morgens in allen meinen Gliedern eine Art Krampf, eine heftige Spannung; dann hatte ich ein fürchterliches, konvulsivisches Zucken wie bei einem epileptischen Anfall. Ich hatte Licht – Halluzinationen in einer Stärke, wie noch nie zuvor: zuerst sah ich einen schwarzen Kreis sich mit ungeheurer Schnelligkeit vor mir drehen; er wurde größer und immer größer und schließlich unermeßlich groß: plötzlich brach ein funkelndes Licht aus dem Mittelpunkt des Kreises hervor, und alles wurde hell.</p>
+            <p rendition="#et">
+               <pb n="52" facs="#f0053"/>
+Ich sah einen endlosen Horizont, einen in Flammen stehenden Himmel, der von tausend Raketen durchkreuzt wurde; und alle diese Raketen fielen als ein Regen von Goldstücken, von funkelnden Saphiren, Smaragden und Rubinen wieder herab.</p>
+            <p rendition="#et">Das Feuer erlosch; ein Tageshimmel, der wie bläulicher Samt aussah, breitete sich über mir aus. Mir war's, als schwämme ich in einem klaren weichen Licht, lieblich wie der blasse Widerschein des Mondes in einer schönen Sommernacht. Und auf einmal kamen aus der weitesten Ferne, wie ein Schwarm goldener Schmetterlinge, wie aus Luft und Dunst gewoben, unzählige Myriaden von nackten Mädchen auf mich zu – blendenden Fleisches, durchscheinend wie Bildsäulen von Alabaster.</p>
+            <p rendition="#et">Ich stürzte meinen Sylphiden entgegen, aber sie entschwanden mit neckischem <pb n="53" facs="#f0054"/>
+Lachen; ihre köstlichen Gruppen lösten sich für einen Augenblick im azurblauem Äther auf, dann erschienen sie wieder, noch leuchtender, noch fröhlicher. Reizende Blumensträuße köstlicher Gestalten, die mich mit boshaft lachenden Blicken ansahen.</p>
+            <p rendition="#et">Allmählich verschwanden diese jungen Mädchen; dann aber erschienen Frauen im Alter der Liebe, der zärtlichen Leidenschaften.</p>
+            <p rendition="#et">Einige von ihnen waren lebhaft, munter, mit feurigen Blicken, mit wogenden Brüsten; andere waren bleich und gingen vornübergebeugt wie Ossianische Jungfrauen. Ihre schmiegsamen, liebeatmenden Leiber waren von dünner Gaze umhüllt. Sie schienen vor Sehnsucht, vor Erwartung zu sterben; sie streckten mir ihre geöffneten Arme entgegen und flohen doch<pb n="54" facs="#f0055"/>
+ immer wieder, wenn ich mich hineinstürzen wollte.</p>
+            <p rendition="#et">Außer mir vor Erregung warf ich mich auf meinem Bett hin und her. Ich stützte mich auf Fuße und Stirne, hob meinen Leib empor und schüttelte meinen glorreich aufgerichteten Priap. Ich sprach in den unzüchtigsten Worten von Liebe und Liebeslust. Erinnerungen an meine klassischen Studien mischten sich in meine Träume: ich sah Jupiter in Liebesglut, Juno, wie sie seinen Blitzstrahl lenkte. Ich sah den ganzen Olymp in brünstigem Taumel, in seltsamem Durch einander. Und dann nahm ich an einer Orgie teil, an einem höllischen Bacchanal: in einer tiefen finsteren Höhle, die von mißduftenden, rotbrennenden Fackeln erleuchtet war, warfen blaue und grüne Flammen einen widerlich häßlichen Schein auf hundert <pb n="55" facs="#f0056"/>
+Teufel mit Bocksgesichtern und lächerlich großen Zeugungsgliedern. Sie gaben sich allen möglichen Lüsten des Fleisches hin.</p>
+            <p rendition="#et">Die boshaftesten von ihnen aber hatten eine Messalina an Händen und Füssen gebunden, und nahmen vor ihren Augen die lüsternsten, unzüchtigsten Stellungen ein. Rasend, schäumend vor Gier krümmte sich das arme Weib vor Verlangen nach dem Liebesgenuß, der ihr teuflisch versagt wurde.</p>
+            <p rendition="#et">Weiter oben in der Höhle machten Teufel von höherer Rangordnung sich das scherzhafte Vergnügen, die Mysterien unserer heiligen Religion zu parodieren:</p>
+            <p rendition="#et">Ganz nackt lag eine Nonne auf dem Boden ausgestreckt, das Auge zur Wölbung der Höhle emporgewandt. Sie empfing in frommer Inbrunst die weiße Hostie, die ihr auf der Spitze eines stattlichen <pb n="56" facs="#f0057"/>
+Weihwedels ein großer Teufel mit Stab und umgestülpter Mitra reichte. Etwas weiter hin ließ sich eine Teufelin die Stirn mit Lebenssaft taufen, während eine andere, die eine Sterbende darstellte, verschwenderische Mengen der heiligen Wegzehrung erhielt.</p>
+            <p rendition="#et">Ein Oberteufel wurde von vier gewöhnlichen Teufeln auf den Schultern getragen; er paradierte mit seiner erotosatanischen Kraft und verspritzte alle Augenblicke Ströme von heiliger Säfte. Jeder warf sich zu Boden, wenn er vorüberzog. Es war die Prozession des heiligen Sakraments.</p>
+            <p rendition="#et">Plötzlich aber schlägt es Eins; da fassen alle diese Teufel sich bei der Hand und bilden einen riesigen Reigen.</p>
+            <p rendition="#et">Der Reigen beginnt sich zu bewegen; sie drehen sich im Kreise, schweben nach oben und verschwinden in den Lüften.</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="57" facs="#f0058"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Sie wissen ihre Erzählung wundervoll auszuschmücken, Alcide. Ihr Traum könnte in einem Buch stehen.</p>
+            <p>
+               <hi rendition="#b">Alcide.</hi>
+            </p>
+            <p rendition="#et">O ... wir müssen ja doch die Nacht hinbringen. Aber hören Sie weiter: was jetzt kommt, ist reine Wirklichkeit:</p>
+            <p rendition="#et">Als ich von diesem entsetzlichen Fieberanfall wieder zu mir kam, hatte sich das Gefühl der Schwere im Kopf gemindert; aber ich fühlte mich matter. An meinem Bett saßen drei Weiber; alle drei waren noch jung und trugen als Kleidung nur ein weißes Nachtgewand. Ich glaubte immer noch im Fieberwahn zu liegen, aber mir wurde erzählt, mein Arzt habe die Ursache meiner Krankheit erkannt und beschlossen, mir dafür das einzige wirksame Heilmittel zu verordnen.</p>
+            <p rendition="#et">
+               <pb n="58" facs="#f0059"/>
+Ich griff nach einer weißen weichen Hand, die ich mit Küssen bedeckte. Zwei frische rote Lippen preßten sich auf meinen Mund. Diese wonnige Berührung elektrisierte mich; ich glühte vor Liebe in wahnsinniger Glut.</p>
+            <p rendition="#et">»O, schöne Freundinnen,« rief ich, »ich will glücklich sein bis zum Übermaß; ich will in euren Armen sterben. Teilt meine Entzückungen, meinen Liebestaumel!«</p>
+            <p rendition="#et">Ich werfe die Decke ab, reiße mir das Hemd vom Leibe und strecke mich auf meinem Bett aus. Ein Kissen wird mir unters Gesäß geschoben; so liege ich ausgezeichnet. Stolz, glorreich steht mein Priap empor.</p>
+            <p rendition="#et">Und ich rufe:</p>
+            <p rendition="#et">»Du reizende Schwarze, mit den festen weißen Brüsten, setz dich unten aufs Bett, strecke deine Beine neben meine aus. <pb n="59" facs="#f0060"/>
+Gut so! Setze meine Fußsohlen an deinen Busen. Kitzle sie sanft mit deinen hübschen Liebesknospen. Entzückend! Ach, du bist köstlich. – Und du, meine Blonde mit den blauen Augen, komm heran! Du sollst meine Königin sein. Setze dich rittlings auf den Thron. Nimm in die Hand das glühendheiße Zepter, stoß es tief, stoß es ganz in dein wonniges Zauberreich hinein! ... O! nicht so schnell ... warte doch! Mach es langsam, taktmäßig wie ein Reiter, der gemächlich dahintrabt. Laß die Wonne so lange dauern wie nur irgend möglich ... Und du, meine schöne Große mit der entzückenden Fülle der Formen, spreize die Schenkel, hier über meinem Kopf! ... Wundervoll! Du errätst meine Absicht. Spreize die Schenkel recht weit auseinander – noch weiter! Mein Auge muß deine ganze Schönheit schauen <pb n="60" facs="#f0061"/>
+können, mein Mund dich glühend küssen, meine Zunge dich liebkosen, in dich eindringen können. – Aber warum sitzest du so steif aufrecht? Beuge dich doch vorwärts, damit die andere deine Brüste küssen kann!«</p>
+            <p rendition="#et">»Komm! komm!« rief die Schwarze ihr zu, indem sie ihr die bewegliche Zunge zeigte, die spitz war wie ein venezianischer Dolch. »Komm! Laß mich deine Augen, deinen Mund mit meinen Küssen verzehren. So lieb ich dich! O du Wollüstige! ... Gib deine Hand! Da! So! Vorwärts! Aber sanft! sachte! ...«</p>
+            <p rendition="#et">Und alle drei bewegen sie sich, rutschen hin und her, reizen sich zu immer heißerer Wollust an.</p>
+            <p rendition="#et">Ich verschlinge mit den Augen diese reizvolle Szene, diese wollüstigen Bewegungen, diese Gruppe sinnlicher Selbstvergessenheit. <pb n="61" facs="#f0062"/>
+Schreie, Seufzer wer den laut, verschmelzen ineinander. Ein glühender Strom fließt durch meine Adern. Ich zittere am ganzen Leibe. Meine Hände greifen in heiße Brüste oder wühlen krampfhaft in noch geheimeren Reizen. Meine Finger werden müde – meine Lippen lösen sie ab. Gierig sauge ich – nage, beiße! Ich höre schreien, ich solle aufhalten, ich mache sie tot – aber ich sauge, ich beiße mit verdoppelter Gier. – Diese Ausschweifung gab meinen Kräften den Rest. Schwer sank mein Kopf zurück. Ich konnte nicht mehr.</p>
+            <p rendition="#et">»Genug! genug!« rief ich. »O meine Füße! Welch wollüstiges Kitzeln! Aber du tust mir weh – meine Füße krampfen sich zusammen – ich – oh ...«</p>
+            <p rendition="#et">Ich fühlte das Delirium der Liebeswonne zum dritten Male sich nahen. Wütend stieß <pb n="62" facs="#f0063"/>
+ich von unten auf. Meine drei Schönen verloren gleichzeitig das Gleichgewicht – und die Besinnung. Ohnmächtig seufzend sanken sie in meine Arme und mich überströmte ihr Liebessaft.</p>
+            <p rendition="#et">Himmelswonnen! Oder Höllenwonnen? Es überströmte mich wie ein unendlicher Glutstrom.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Welche Wonnen hast du genossen, Alcide! O, ich beneide dich darum! ... Und du, Fanni? ... Die Stumpfsinnige! Ich glaube gar, sie schläft!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Laß mich, Gamiani! Weg mit deiner Hand! Du drückst mich. Ich bin ganz hin ... tot ... Was für eine Nacht, o mein Gott! ... laß uns schlafen ... ich ...</p>
+            <p rendition="#et">Das arme Kind gähnte, drehte sich um <pb n="63" facs="#f0064"/>
+und kroch an der äußersten Bettkante ganz in sich zusammen.</p>
+            <p rendition="#et">Ich wollte sie an mich ziehen, aber die Gräfin sagte:</p>
+            <p rendition="#et">»Nein, nein! Ich begreife, wie ihr zumute ist. Aber ich ... ich bin von ganz anderer Natur als sie. Mich verzehrt, mich foltert eine Aufregung, ein Drang ... o, ich möchte mich zu Tode lieben!.. Die Berührungen eurer beiden Leiber, eure Erzählungen, die wollüstigen Spiele, die wir getrieben haben ... dies alles bringt mich außer mir, daß ich nicht mehr weiß, was ich tue ... In meinen Gedanken tobt die ganze Hölle, Feuer strömt mir durch die Glieder ... Aber, o Schmerz, ich weiß nichts neues mehr zu ersinnen!«</p>
+            <p>
+               <hi rendition="#b">Alcide.</hi>
+            </p>
+            <p rendition="#et">Was machen Sie denn, Gamiani? Sie springen aus dem Bett?</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="64" facs="#f0065"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Ich kann's nicht mehr aushalten – ich verbrenne! Ich möchte ... Aber so pack mich doch! ... Drücke mich ... schlage mich ... O! nicht genießen können!</p>
+            <p rendition="#et">Die Gräfin knirschte mit den Zähnen, furchtbar rollten ihre Augen. Ein Krampf schüttelte alle ihre Glieder – es war entsetzlich anzusehen,</p>
+            <p rendition="#et">Fanni bekam Angst; erschrocken richtete sie sich im Bette auf. Ich selber glaubte, jeden Augenblick zusammenbrechen zu müssen.</p>
+            <p rendition="#et">Vergebens bedeckte ich mit meinen Küssen Gamianis geheimste Reize; meine Hände waren müde von den Liebkosungen, die sie ohne Unterlaß an die unersättliche Furie verschwendeten. Die Quellen ihrer Liebessäfte waren versiegt. Es kam wohl <pb n="65" facs="#f0066"/>
+Blut, aber die Ekstase der Wollust wollte sich nicht einstellen ...</p>
+            <p rendition="#et">Endlich sagte Gamiani:</p>
+            <p rendition="#et">»Laß nur ... bleibt allein; schlaft! ...«</p>
+            <p rendition="#et">Mit diesen Worten sprang sie aus dem Bett, öffnete eine Tür und verschwand.</p>
+            <p rendition="#et">»Was will sie denn nur, Fanni? Begreifst du etwas davon?«</p>
+            <p rendition="#et">»Psst, Alcide! Höre doch, welch ein Geschrei!«</p>
+            <p rendition="#et">»Sie bringt sich um! ... O mein Gott, die Tür ist verschlossen! ... Ah, sie ist in Julies Kammer. Wart ... da über der Tür ist ein Glasfenster. Rück mit mir das Kanapee heran. So! jetzt zwei Stühle oben drauf. Komm, steig mit hinauf. Hier oben können wir alles sehen!«</p>
+            <p rendition="#et">Welch ein Anblick! Beim bleichen Schimmer eines flackernden Nachtlichtes <pb n="66" facs="#f0067"/>
+sahen wir die Gräfin mit gräßlich verdrehten Augen, die Lippen mit Schaum bedeckt, die Schenkel mit Blut und Liebessaft besudelt sich heulend auf einem großen Teppich von Katzenfellen wälzen.</p>
+            <p rendition="#et">Mit unglaublicher Geschwindigkeit warf sie ihre Lenden auf dem Teppich hin und her. Von Zeit zu Zeit schleuderte sie die Beine in die Luft, so daß sie beinahe auf dem Kopfe stand und wir ihren ganzen Rücken sahen. Dann sank sie mit gellendem Lachen wieder auf die Katzenfelle zurück. Plötzlich rief sie:</p>
+            <p rendition="#et">»Julie! Komm her! Vor meinen Augen dreht sich alles im Kreise! Wart, du <pb n="67" facs="#f0068"/>
+verdammtes verrücktes Frauenzimmer – ich beiß dich!«</p>
+            <p rendition="#et">Julie war ebenfalls ganz nackt, aber strahlend von Kraft und strotzend von Gesundheit. Sie stürzte sich auf die Gräfin und band ihr erst die Hände, dann die Füße zusammen.</p>
+            <p rendition="#et">Die krampfhaften Zuckungen Gamianis waren jetzt auf ihrem Höhepunkt: ich bekam Angst, als ich sie so sah.</p>
+            <p rendition="#et">Julie aber tat, als ob gar nichts weiter los wäre. Wie eine Besessene tanzte und sprang sie um ihre Herrin herum; dabei befeuerten ihre geschäftigen Finger ihre Wollust immer mehr und mehr bis ihr schließlich die Sinne schwanden und sie sich in einen großen Lehnstuhl warf.</p>
+            <p rendition="#et">Die Blicke der Gräfin waren allen ihrer Bewegungen gefolgt. Das ohnmächtige Gefühl, daß sie nicht dieselbe trunkene <pb n="68" facs="#f0069"/>
+Wollust sich verschaffen konnte, verdoppelte noch ihre Wut. Sie war ein weiblicher Prometheus, der von hundert Geiern zugleich zerfleischt wurde. Auf einmal hörte ich sie schreien:</p>
+            <p rendition="#et">»Medor! Medor! Mach mir's!«</p>
+            <p rendition="#et">Sofort stürzte ein großer Hund auf einer Zimmerecke hervor und begann brünstig ihre Klitoris zu lecken, deren rote, glühende Spitze zwischen ihren Schenkeln hervordrang.</p>
+            <p rendition="#et">Ihre Wollust schien zugleich den Höhepunkt des Schmerzes zu erreichen, denn je eifriger die Bestie leckte, desto lauter stöhnte, schluchzte, schrie Gamiani. Plötzlich rief sie aus:</p>
+            <p rendition="#et">»Milch! Milch! O, schnell! Milch!«</p>
+            <p rendition="#et">Ich wußte nicht, was dieser Schrei bedeutete, der fast wie ein Todesröcheln klang. Doch bald wurde es mir klar, denn <pb n="69" facs="#f0070"/>
+Julie kam mit einem riesig großen Godemiché, der mit heißer Milch gefüllt war; sie ließ zum Spaß durch einen Druck auf den Federmechanismus einen Strahl hervorspritzen, und ich sah, wie dieser die gegenüber befindliche Zimmerwand traf. Mittels zweier Riemen schnallte sie sich das sinnreiche Instrument an der passendsten Stelle ihres Leibes an. Der reichstbegabte Hengst hätte es wohl kaum – an Dicke wenigstens – mit diesem stolzen Werkzeug aufnehmen können. Ich hielt es für unmöglich, daß eine weibliche Scheide ein solches Ding aufnehmen könnte, aber zu meiner großen Überraschung genügten fünf oder sechs, allerdings sehr heftige Stöße, um das ganze Riesending spurlos verschwinden zu lassen. Die Gräfin litt wie eine arme Seele in der Hölle: krampfhaft starr, bewegungslos wie <pb n="70" facs="#f0071"/>
+aus Marmor gemeißelt lag sie da. Man hätte sie mit Cassinis Kassandra vergleichen können.</p>
+            <p rendition="#et">Julie bewegte sich mit vollendeter Geschicklichkeit auf und ab. Der Hund war natürlich dadurch seiner bisherigen Genüsse beraubt; er wußte jedoch Ersatz zu finden, denn unverzüglich stürzte er sich auf die stramme Julie, zwischen deren heftig stoßenden halbgeöffneten Schenkeln ein köstliches Kleinod zu sehen war. Dieses bearbeitete Medor so eifrig und inbrünstig, daß Julie plötzlich vor Wollust nicht weiter konnte und mit ihren Stößen aufhörte.</p>
+            <p rendition="#et">Der Genuß, den eine Hundezunge <pb n="71" facs="#f0072"/>
+verschafft, muß ungeheuer groß sein, denn es gibt keinen zweiten, der sich so intensiv in den Gesichtszügen eines Weibes ausspricht.</p>
+            <p rendition="#et">Der Gräfin war diese Unterbrechung sehr unangenehm, denn nur ihre Schmerzen wurden dadurch verlängert, der Augenblick des höchsten Genusses jedoch hinausgeschoben. Sie fluchte und schimpfte dabei auf ihre Zofe in Ausdrücken wie eine Gassendirne,</p>
+            <p rendition="#et">Hiedurch wurde Julie wieder an ihre Pflicht erinnert, und sie setzte ihre Arbeit mit verstärkten Kräften fort. Plötzlich bäumte die Gräfin sich wild empor, ihre Augen brachen, ihr Mund öffnete sich – Julie begriff, daß der rechte Augenblick gekommen sei und der Finger ließ den Federmechanismus des Godemichés spielen. Gamiani aber röchelte:</p>
+            <p rendition="#et">
+               <pb n="72" facs="#f0073"/>
+»Ach!.. Oh! ... halt ... ich zerfließe ... oh, wie das weh tut.. oh, wie das süß ich ... ich genieße ... aaah ...«</p>
+            <p rendition="#et">Höllische Geilheit!</p>
+            <p rendition="#et">Ich hatte nicht mehr die Kraft, mich vom Fleck zu rühren. Meine Vernunft war dahin, meine Blicke hafteten wie gebannt an dieser Szene höchster Wollust.</p>
+            <p rendition="#et">Der Anblick dieser wilden Verzückungen, dieser brutalsten Befriedigung der Sinne machte mich schwindlig. Ich fühlte nichts mehr als das wilde Pulsieren meines Blutes – ich selber war ganz und gar nur noch blinde wollüstige Gier. Ich war brünstig wie ein Vieh.</p>
+            <p rendition="#et">Auch Fannis Gesicht war merkwürdig verändert. Stier sah sie vor sich hin – ihre Arme klammerten sich krampfhaft an mich an. Ihre Lippen waren geöffnet,<pb n="73" facs="#f0074"/>
+ ihre Zähne fest aufeinandergepreßt – auch sie war wahnsinnig vor fleischlicher Begierde, vor einem wütenden Liebesverlangen, das nach der schrankenlosesten Wollust schreit.</p>
+            <p rendition="#et">Plötzlich lagen wir auf dem Bett und verschlangen uns wie wilde Tiere. Unsere Leiber waren aufeinandergepreßt, rieben sich, elektrisierten sich gegenseitig in krampfhaften Umschlingungen: schreiend, beißend vermählten wir unser Fleisch. Es war ein blitzschneller tierischer Genuß – aber unser Blut erheischte gebieterisch diese Befriedigung.</p>
+            <p rendition="#et">Endlich machte der Schlaf unserer Liebeswut ein Ende.</p>
+            <p rendition="#et">Nach einer fünfstündigen, unendlich wohltuenden Ruhe erwachte ich zuerst.</p>
+            <p rendition="#et">Schon glänzte die Sonne in voller Pracht <pb n="74" facs="#f0075"/>
+am Himmel. Fröhlich drangen ihre Strahlen durch die Vorhänge des Gemaches und warfen goldene Lichter auf die bunten Teppiche auf die glatten seidenen Bezüge der Möbel.</p>
+            <p rendition="#et">Dieses wundervolle poetische farbenverklärte Erwachen nach einer Nacht schmutziger Ausschweifungen gab mich mir selber zurück. Mir war, als sei ein entsetzlicher Albdruck mir von der Brust genommen. Und an meiner Seite in meinen Armen atmete leise ein sanft bewegter Busen, ein Busen wie von Lilien und Rosen, ein Busen so jung, so zart, so rein, daß ich mich scheute ihn nur mit meinen Lippen zu berühren, wie wenn er von dem bloßen Anhauch hätte verwelken können. Welch ein entzückendes Geschöpf war meine Fanni! Wie sie so halbnackt auf der breiten niedrigen Bettstatt lag, sah <pb n="75" facs="#f0076"/>
+ich in ihr das Ideal meiner schönsten Träume verwirklicht.</p>
+            <p rendition="#et">Ihr Kopf ruhte anmutig auf dem schön gerundeten Arm; ihr Profil zeichnete sich lieblich und rein ab wie ein Rafaelsches Bild; ihr Leib war in allen seinen Einzelheiten, wie in seiner Gesamtheit von geradezu wunderbarer Schönheit.</p>
+            <p rendition="#et">O welche Wollust meine Blicke ungestört an dem Anblick aller dieser Reize sich weiden zu lassen! Und zugleich welch schmerzlicher Gedanke, daß die holde Jungfräulichkeit dieses fünfzehnjährigen Mädchens in einer einzigen kurzen Nacht auf ewig zerstört war!</p>
+            <p rendition="#et">Ihre Frische, ihre Anmut, ihre Jugend – unsere Orgie hatte alles befleckt, alles besudelt, alles in Unflat und Schmutz gezogen.</p>
+            <p rendition="#et">Diese bis dahin so naive, so zarte Seele, <pb n="76" facs="#f0077"/>
+diese Seele, die bisher von Engelshänden sanft gewiegt worden war – sie war jetzt ein Spielball unreiner Geister. Sie konnte keine Illusionen mehr haben, konnte sich nicht mehr in Träumen wiegen – für sie gab es keine erste Liebe mehr, keine holden Überraschungen. Das ganze poetische Seelenleben einer Jungfrau war unwiderbringlich dahin.</p>
+            <p rendition="#et">Mit einem Lächeln auf den Lippen erwachte das arme Kind. Sie glaubte ihre gewohnten unschuldigen Morgengedanken wiederzufinden. Aber ach – <hi rendition="#g">mich</hi> sah sie! Sie lag nicht in ihrem eigenen Bett, sie befand sich in einem fremden Zimmer.</p>
+            <p rendition="#et">O, wie schnitten ihre traurigen Klagen mir ins Herz. Vor Tränen konnte sie bald nicht weiter sprechen.</p>
+            <p rendition="#et">
+               <pb n="77" facs="#f0078"/>
+Bewegt sah ich sie an. Ich schämte mich meiner selbst.</p>
+            <p rendition="#et">Fest schlang ich sie in meine Arme und küßte ihr unersättlich, unersättlich jede einzelne Träne von den Wangen.</p>
+            <p rendition="#et">Von Sinnenlust war nicht mehr die Rede. Nur meine Seele ergoß sich ganz und gar. Meine Zunge, meine Augen redeten die Sprache heißer, innigster Liebe.</p>
+            <p rendition="#et">Wortlos vor Erstaunen, vor Entzücken horte Fanni nur zu. Sie sog meinen Odem, meine Blicke in sich ein.</p>
+            <p rendition="#et">Zuweilen preßte sie mich plötzlich an sich, wie wenn sie sagen wollte: »O ja! Noch bin ich dein – ganz, ganz dein!«</p>
+            <p rendition="#et">Wie sie in vertrauensseliger Unschuld mir ihren Leib hingegeben hatte, so gab sie mir jetzt ihre vertrauende Seele im Rausch der Liebe. Ich fand diese ihre Seele in einem Kuß, den ihre Lippen mir <pb n="78" facs="#f0079"/>
+gaben – ich gab ihr dafür meine eigene Seele zurück. Wir waren im Himmel – weiter wußten wir nichts.</p>
+            <p rendition="#et">Endlich standen wir auf.</p>
+            <p rendition="#et">Ich wollte mich nicht entfernen, ohne mich noch nach der Gräfin umzusehen. In einer unzüchtigen, gen)einen Stellung lag sie über Julies Bett hingeworfen im Schlaf. Ihr Gesicht war verstört, ihr Leib beschmutzt, besudelt. Wie ein betrunkenes Weib, das nackt in den Rinnstein gefallen ist, lag sie da im Pfuhl ihrer Wollust.</p>
+            <p rendition="#et">Da rief ich meiner Geliebten zu:</p>
+            <p rendition="#et">»O, fort von hier Fanni! ... Fort von dieser Stätte der Gemeinheit!«</p>
+         </div>
+         <div xml:id="Musset-Alfred-d-d1e1495" type="chapter">
+            <head>
+               <pb n="79" facs="#f0080"/>
+               <pb n="81" facs="#f0081"/>Die zweite Nacht</head>
+            <pb n="80" facs="#f0082"/>
+            <pb n="83" facs="#f0083"/>
+            <p>Fanni war noch jung und unschuldigen Herzens. Ich glaubte daher, sie würde an Gamiani nur mit Entsetzen und Abscheu zurückdenken. Ich überhäufte sie mit Liebe und Zärtlichkeit und erwies ihr verschwenderisch die süßesten und berauschendsten Liebkosungen. Zuweilen tötete ich sie fast in wollüstigen Entzückungen, in der Hoffnung, sie würde fortan von keiner anderen Leidenschaft mehr wissen wollen, als von jener natürlichen, die die beiden Geschlechter in den Wonnen der Sinne und der Seele vereint. Aber ach! ich täuschte mich. Fannis Phantasie war geweckt worden – und zur Höhe <hi rendition="#g">dieser</hi> Phantasie vermochten<pb n="81" facs="#f0084"/>
+ alle unsere Liebesfreuden sich nicht zu erheben. Nichts kam in Fannis Augen den Verzückungen ihrer Freundin gleich. Unsere glorreichsten Liebestaten schienen ihr kalte Liebkosungen im Vergleich mit den wilden Rasereien, die sie in jener verhängnisvollen Nacht kennen gelernt hatte.</p>
+            <p rendition="#et">Sie hatte mir geschworen, Gamiani niemals wiedersehen zu wollen: aber ihr Eid vermochte nicht den Wunsch zu ersticken, den sie im Geheimen hegte. Vergebens kämpfte sie dagegen an; der innere Kampf regte sie nur immer mehr auf. Bald sah ich ein, daß sie ihrer Leidenschaft nicht würde widerstehen können. Ich hatte ihr Vertrauen verloren und war gezwungen, mich zu verstecken, um sie zu beobachten.</p>
+            <p rendition="#et">Durch eine geschickt angebrachte Öffnung konnte ich sie jeden Abend sehen, wenn sie zu Bett ging. Die Unglückliche! <pb n="82" facs="#f0085"/>
+Oft sah ich sie weinend sich auf den Diwan werfen, sich verzweifelt hinundher wälzen, plötzlich ihre Kleider sich vom Leibe reißen, ihr Hemd zerfetzen und sich mit weit aufgerissenen Wahnsinnsaugen vor einen Spiegel stellen. Sie streichelte ihre Haut, sie schlug ihren Leib, sie suchte mit sinnloser, brutaler Heftigkeit wollüstige Gefühle zu erregen.</p>
+            <p rendition="#et">Zu heilen war sie nicht mehr; aber ich wollte sehen, wie weit das Delirium ihrer Sinne gehen würde.</p>
+            <p rendition="#et">Eines Abends war ich wieder auf meinem Posten; Fanni war im Begriff zu Bett zu gehen, da hörte ich sie plötzlich rufen.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Wer ist da? Sind Sie's, Angélique? ... Gamiani! O, Frau Gräfin, niemals hätte ich ...</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="83" facs="#f0086"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Ei ja, du fliehst vor mir, du stößt mich zurück. So mußte ich zu einer List meine Zuflucht nehmen. Ich habe durch falsche Vorspiegelungen alle deine Leute entfernt – und hier bin ich.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Ich kann Sie nicht begreifen, noch weniger vermag ich Ihre hartnäckige Verfolgung mit dem richtigen Namen zu bezeichnen. Es ist wahr – ich habe geheim gehalten, was ich von Ihnen wußte; aber meine formelle Weigerung, Sie bei mir zu empfangen, mußte Ihnen doch deutlich genug sagen, daß Ihre Gegenwart mir lästig, ja widerwärtig ist. Ich verabscheue Sie. Um Gottes willen, lassen Sie mich in Ruhe. Gehen Sie, damit es nicht zu einem Skandal kommt!</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="84" facs="#f0087"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Meine Maßregeln sind getroffen, mein Entschluß steht fest. Du wirst ihn nicht umstoßen, Fanni. Ah! meine Geduld war erschöpft!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Nun? Was wollen Sie denn? Mich noch einmal vergewaltigen, notzüchtigen, besudeln? O nein, Frau Gräfin! ... Entfernen Sie sich, oder ich rufe meine Leute.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Kind, wir sind allein! Die Türen sind verschlossen; die Schlüssel hab' ich zum Fenster hinausgeworfen. Du bist mein! ... Aber beruhige dich, sei ohne Furcht!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Bei Gott im Himmel! Rühren Sie mich nicht an!</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="85" facs="#f0088"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Fanni – jeder Widerstand ist vergeblich. Du mußt auf alle Fälle unterliegen – ich bin stärker als du, und mich beseelt die heißeste Leidenschaft. Auch ein Mann würde mich nicht besiegen. Also ... o mein Gott! sie erbleicht ... sie zittert ... Mein Gott! Fanni, meine Fanni! Ihr wird übel! O, was hab ich getan! Komm zu dir – komm doch zu dir! Sei nicht böse, daß ich dich so an mich presse – ich tu's aus Liebe. O, wie lieb ich dich, du mein Leben, du meine Seele! Kannst du mich denn gar nicht verstehen? Sag', ich bin doch nicht böse! Meine Kleine! Mein Herzblatt! Nein, ich bin gut. O! so sehr gut – denn ich liebe dich ja. Sieh mir doch in die Augen! Fühle, wie mein Herz schlägt. Für dich schlägt's, für dich allein! Ich will ja nichts weiter, als daß <pb n="86" facs="#f0089"/>
+du in meinen Armen Seligkeit, wonnigen Rausch findest. Komm doch zu dir! Laß meine Küsse dich erwecken. O, ich vergöttere dich, abgöttisch bis zum Wahnsinn bete ich dich an, süßes Kind ...</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Sie töten mich! Mein Gott, lassen Sie mich doch endlich los! Sie sind abscheulich!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Abscheulich? Abscheulich? Wie kann ich dir solchen Abscheu einflößen! Bin ich denn nicht noch jung? Bin ich nicht auch schön? Überall sagt man's mir. Und mein Herz? Gibt's ein Herz, das so zu lieben weiß? Ist denn dies Feuer, das mich verbrennt, das mich verzehrt, dieses glühende Feuer Italiens, das meine Sinne vervielfältigt und mich triumphieren läßt, <pb n="87" facs="#f0090"/>
+wo alle anderen unterliegen – ist dieses Feuer wirklich so etwas abscheuliches? Sprich! Was ist ein Mann, ein Geliebter im Vergleich mit mir! Zwei oder drei Liebeskämpfe und er liegt matt auf dem Rücken; nach dem vierten stößt er ein impotentes Röcheln aus, seine Glieder zucken in Krämpfen, 's ist jämmerlich! Aber ich – ich bleibe stark, ungebändigt, lustzitternd. Ja! Ich bin die verkörperte heiße Liebesbrunst der Materie, die heiße Liebesbrunst des Fleisches. Unerbittlich in meiner Wollust gebe ich die Wonne ohne Ende; <hi rendition="#g">ich bin die Liebe, die der Tod ist!</hi>
+            </p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Halten Sie ein, Gamiani! Halten Sie ein!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Nein, nein! Höre mich weiter! Höre mich, Fanni! Nackt sich in den Armen <pb n="88" facs="#f0091"/>
+liegen – zwei Freundinnen, jung, schön, lieblich, duftend, von Liebe glühend, vor Wonne zitternd, sich berühren, sich verschlingen, Leiber und Seelen in einem Seufzer, in einem einzigen Laut, in einem Aufschrei der Liebe vereinigen – das, Fanni, Fanni – das ist Himmelswonne.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Diese Worte – diese Blicke! Und ich – ich höre Ihnen zu, ich blicke Sie an! – O, haben Sie Erbarmen mit mir! Ich bin so schwach ... Sie bezaubern mich ... Was für eine Zauberkraft hast du denn an dir? Ich fühle dich in meinem Fleisch ... ich fühle dich in meinen Knochen ... Du bist ein Gift. O! Ja, du bist entsetzlich und ... und ... <hi rendition="#g">ich liebe dich!</hi>
+            </p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">»Ich liebe dich ... ich liebe dich!« O, <pb n="89" facs="#f0092"/>
+sag's noch einmal, noch einmal, dieses Wort! Dieses Wort ...<hi rendition="#g"> brennt!</hi>
+            </p>
+            <p rendition="#et">Bleich, unbeweglich, mit weit geöffneten Augen, mit gefalteten Händen, lag Gamiani vor Fanni auf den Knieen. Sie sah aus, als habe ein Gott sie plötzlich berührt und in Marmor verwandelt. Sie sah wundervoll aus in ihrer Zerknirschung, in ihrer Verzückung.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Ja! Ja! Ich liebe dich mit allen Kräften meines Leibes! Ich will dich haben! Ich begehre dich! O – ich werde noch den Verstand um dich verlieren.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Was sagst du, Herzgeliebte? Was sagst du? ... Wie bin ich glücklich! Deine Haare sind schön ... Wie weich sie sind! Fein, goldig. Wie Seide gleiten sie mir durch <pb n="90" facs="#f0093"/>
+die Finger. Wie rein ist deine Stirn ... Weißer als eine Lilie. Deine Augen sind schön; dein Mund ist schön. Du bist weiß, atlasweich, duftend, himmlisch vom Kopf bis zu den Füßen. Du bist ein Engel, du bist die Wollust, O, diese Schleifen, diese Bänder ... sei doch nackt! Schnell zu mir! Ich, ich, ich bin schon nackt! Ah! So! so! Wundervoll! Blendend! Bleib' stehen, daß ich dich bewundere. Wenn ich dich malen könnte! Wenn ich mit einem einzigen Zuge dich zeichnen könnte! Wart ... ich will dir die Füße küssen ... die Kniee, den Busen, den Mund. Umarme mich. Drück mich an dich! Stärker! O, welche Wonne, welche Lust! ... Sie liebt mich!</p>
+            <p rendition="#et">Die beiden Leiber waren zu <hi rendition="#g">einem</hi> verschlungen. Nur die Köpfe hielten die <pb n="91" facs="#f0094"/>
+beiden Schönen von einander ab, um sich mit einem entzückenden Lächeln des Glückes bewundern zu können. Aus ihren Augen brachen Blitze, ihre Wangen glühten feuerrot. Ihre Lippen bebten und küßten sich dann wieder in stürmischer Glut. Ich hörte einen Seufzer verhauchen, dem ein Seufzer antwortete. Dann hörte ich einen erstickten Schrei und regungslos hielten sie sich umschlungen. – – – – – – – – – – – – – – – – – – – – – – – – –</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Ich war glücklich – sehr glücklich.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Ich auch, meine süße Fanni. Und es war ein Glück, wie ich's nie zuvor gekannt. Unsere Seelen und unsere Sinne waren vereinigt auf deinen Lippen ... Und nun, in dein Bett! Diese Nacht wollen wir uns in Liebe berauschen!</p>
+            <p rendition="#et">
+               <pb n="92" facs="#f0095"/>
+Eng umschlungen eilen sie nach dem Alkoven. Fanni wirft sich aufs Bett, streckt wollüstig ihre schönen Glieder aus. Gamiani kniet vor dem Bett auf einem Teppich, zieht Fanni an ihren Busen und umschlingt sie mit ihren Armen.</p>
+            <p rendition="#et">Schweigend, schmachtend sieht sie sie an. Bald beginnen von neuem die neckischen Spiele der Liebe. Kuß folgt auf Kuß, geschäftig eilen die kundigen Hände hin und her. Aus Fannis Augen spricht Sehnsucht und Erwartung; Gamianis Blicke aber verraten die Trunkenheit ihrer Sinne. Vom Feuer der Wollust belebt, gerötet, scheinen die beiden schönen Leiber zu funkeln. Diese in Wollust und Leidenschaft rasenden Furien umgeben ihre Ausschweifung mit einem gewissen poetischen Zauber; ihr Anblick erregt die Sinne und die Phantasie.</p>
+            <p rendition="#et">
+               <pb n="93" facs="#f0096"/>
+Vergebens rief ich meine Vernunft zu Hilfe – in wenigen Augenblicken war auch ich von meinen Begierden völlig unterjocht. Keine Möglichkeit mich in die Liebesspiele dieser beiden nackten Schönen einzumischen! Und so glich ich dem brünstigen wilden Tier, das mit glühenden Blicken sein Weibchen verfolgt, von dem es durch die Gitterstäbe des Käfigs getrennt ist. Wie betäubt stand ich stumpfsinnig da, den Kopf an das Loch gepreßt, durch das meine Augen wahre Folterqualen einsogen – eine wahre Todesmarter, die im Kopf ihren Anfang nimmt, dann ins Blut, dann in die Knochen eindringt – bis ins Mark eindringt. Ich fühlte unerträgliche Qualen. Mir war's, als könnten meine Nerven die Spannung nicht mehr aushalten – als müßten sie zerreißen. Meine Finger krallten sich in das Holzwerk der <pb n="94" facs="#f0097"/>
+Tür ein. Ich konnte keine Luft mehr bekommen, der Schaum stand mir vor dem Munde. Mir schwand die Besinnung. Ich raste. Da packte ich zu; zwischen meinen Fingern bäumte sich meine Manneskraft – ein kurzes Zittern und in glühendem Strahl, wie ein brennender Tau spritzte mein Leben. – – – – – – – – – – – – – – – – – – – – – – – –</p>
+            <p rendition="#et">Als ich wieder zu mir kam, fühlte ich mich kraftlos. Die Augenlider waren mir schwer. Kaum vermochte ich den Kopf hoch zu halten. Ich wollte meinen Beobachtungsposten verlassen; da hörte ich Fanni seufzen – und ich blieb. Ich war dem Teufel des Fleisches verfallen. Während meine Hände sich abmüdeten, meine erloschene Kraft neu zu beleben, verfolgte ich mit brennenden, schmerzenden Augen die Szene, die mich in eine so fürchterliche Aufregung versetzt hatte.</p>
+            <p rendition="#et">
+               <pb n="95" facs="#f0098"/>
+Die Stellungen hatten sich geändert. Meine beiden Tribaden lagen jetzt mit verschlungenen Beinen auf einander; sie rieben ihre dichten Vliese zusammen. Ihre Angriffe und Stöße folgten sich mit einer Schnelligkeit, wie es nur möglich ist, wenn zwei Weiber sich dem Augenblick der höchsten Wonne nähern. Sie stießen mit einer Kraft, mit einer keuchenden Anstrengung, als wollten sie sich töten, vernichten.</p>
+            <p rendition="#et">»O, ach!« schrie Fanni; »ich kann nicht mehr! Ich bin tot. Mach allein weiter!«</p>
+            <p rendition="#et">»Nein! Noch mehr! Immer noch mehr!« antwortete Gamiani. »Der Augenblick des Glückes ist da! Drück doch gegen! Drücke!«</p>
+            <p rendition="#et">»Ich glaube, mir geht die Haut vom Leibe! Ah ... jetzt ... jetzt fühl ich's ... ich zerfließe ... Ah ...«</p>
+            <p rendition="#et">Fannis Kopf sank kraftlos zurück. Gamiani aber biß in die Bettücher, kaute <pb n="96" facs="#f0099"/>
+an den aufgelösten Haaren, die sie umwogten. Ich empfand jeden ihrer Stoße, jeden ihrer Seufzer; und gleichzeitig mit ihnen gelangte auch ich abermals auf den Gipfel des Glücks.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Wie ich müde bin! Ganz zerschmettert! ... Aber welche Wonne hab ich auch genossen!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Je größer die Mühe, desto höher ist auch der Genuß, desto länger dauert er.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Das hab ich an mir erfahren. Länger als fünf Minuten befand ich mich in einem berauschenden Schwindel. Die Erregung zuckte durch alle meine Glieder. Das Reiben deines Vlieses gegen meine zarte Haut verursachte mir ein beißendes Jucken. <pb n="97" facs="#f0100"/>
+Ich wälzte mich in Feuer, in Wollust. O Raserei, o Glück! Genießen! Jetzt versteh ich dies Wort.</p>
+            <p rendition="#et">Aber eins erstaunt mich, Gamiani. Wie kommt es, daß du, so jung noch, solche Erfahrung in den sinnlichen Genüssen hast? Niemals wäre mir von all unseren Ausschweifungen auch nur eine einzige in den Sinn gekommen. Woher hast du deine Kenntnisse? Woher stammt deine Leidenschaft, die über mich triumphiert, die mich manchmal erschreckt? Die Natur schafft uns doch nicht so?</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Du willst mich also näher kennen lernen? Gut. Umschlinge mich mit deinen Armen, kreuze deine Beine mit den meinigen, drücke dich fest an mich. Ich will dir von meinem Klosterleben erzählen. Es ist eine <pb n="98" facs="#f0101"/>
+Geschichte, die uns wohl zu Kopf steigen kann, die vielleicht neue Begierden in uns erweckt.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Ich höre, Gamiani.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Du hast wohl noch nicht vergessen, welche fürchterliche Marter meine Tante mich erdulden ließ, um ihre Geilheit zu befriedigen. Als mir nach meiner Genesung die ganze Entsetzlichkeit ihrer schändlichen Aufführung zum Bewußtsein kam, bemächtigte ich mich ohne Zögern gewisser Papiere, die mir den Genuß meines Vermögens sicher stellten. Ich nahm auch Geld und Schmuck an mich und flüchtete mich damit, als eines Tages meine würdige Verwandte verreiste, in das Kloster der Schwestern vom »Herzen Jesu«. Die Oberin <pb n="99" facs="#f0102"/>
+war sichtlich von meiner Jugendlichkeit und meinem schüchternen Wesen gerührt und nahm mich mit einer Herzlichkeit auf, vor welcher meine Verlegenheit und meine Angst bald verschwanden.</p>
+            <p rendition="#et">Ich erzählte ihr, wie es mir ergangen sei und bat sie um eine Zufluchtsstätte und um ihren Schutz. Sie nahm mich in ihre Arme, preßte mich zärtlich ans Herz und nannte mich ihre Tochter. Dann sprach sie mit mir von dem stillen friedlichen Klosterleben, schürte meinen Haß gegen die Männer zu noch helleren Flammen an und schloß endlich mit einer frommen Ermahnung, in der ich die Sprache einer göttlichen Seele zu hören glaubte. Damit ich den Übergang vom weltlichen Treiben zum Klosterleben nicht so hart verspüren möchte, wurde beschlossen, daß ich bei der Oberin selber bleiben und jede Nacht in <pb n="100" facs="#f0103"/>
+ihrem Alkoven schlafen solle. Schon in der zweiten Nacht plauderten wir miteinander, wie wenn wir die besten Freundinnen von der Welt gewesen wären. Die Oberin warf sich fortwährend in ihrem Bett hin und her, sie klagte über Kälte und bat mich schließlich in ihr Bett zu kommen, um sie zu wärmen. Ich fand sie vollständig nackt. »Man schläft besser ohne Hemd,« sagte sie. Zugleich forderte sie mich auf, auch mein Hemd auszuziehen und um ihr gefällig zu sein, tat ich dies.</p>
+            <p rendition="#et">»O, liebe Kleine,« rief sie, indem sie mich streichelte, »du bist ja ganz glühend heiß! Wie weich deine Haut ist! Die Barbaren! Wie konnten sie sich erfrechen, dich so furchtbar zu martern. Du hast gewiß entsetzliche Schmerzen gehabt. Erzähle mir doch, was sie mit dir gemacht haben! Sie haben dich geschlagen, nicht <pb n="101" facs="#f0104"/>
+wahr?« Ich wiederholte ihr meine Geschichte mit allen Einzelheiten, indem ich diejenigen, wofür sie sich besonders zu interessieren schien, recht lebhaft ausmalte. Sie hörte mir mit so außerordentlichem Vergnügen zu, daß sie von Zeit zu Zeit am ganzen Leibe erzitterte. »Armes Kind! Armes Kind!« rief sie immer wieder, indem sie mich mit aller Kraft an sich preßte.</p>
+            <p rendition="#et">Ich weiß nicht wie es kam – aber plötzlich lag ich auf ihr. Ihre Beine waren über meine Lenden gekreuzt, ihre Arme umschlangen mich. Eine wohlige Wärme durchdrang meinen ganzen Leib. Ich empfand ein bisher nie gekanntes köstliches Wohlgefühl, es war wie wenn eine Art Liebessaft, weich wie Milch, sich durch meine Adern ergöße.</p>
+            <p rendition="#et">»Wie gut Sie sind! Wie gut Sie sind!« <pb n="102" facs="#f0105"/>
+sagte ich zu der Oberin. »Ich liebe Sie! Ich bin glücklich bei Ihnen. Ich mochte mich niemals wieder von Ihnen trennen!«</p>
+            <p rendition="#et">Mein Mund preßte sich auf ihre Lippen und ich wiederholte in glühender Ekstase: »O, ja, ja! Ich bin zum Sterben in Sie verliebt. Ich weiß nicht wie ... aber ich fühle ...«</p>
+            <p rendition="#et">Langsam liebkoste mich die Hand der Oberin. Leise bewegte sich ihr Leib unter dem meinigen.</p>
+            <p rendition="#et">Ihre harten, dichten Schamhaare vermischten sich mit meinem Vlies, stachen in meine Haut und verursachten ein höllisches Jucken.</p>
+            <p rendition="#et">Ich war völlig außer mir, ein Schauer durchrann mich, daß mein ganzer Körper erzitterte.</p>
+            <p rendition="#et">Plötzlich – gerade als meine Freundin mir einen unglaublich wollüstigen Kuß <pb n="103" facs="#f0106"/>
+gab – war ich wie gelähmt. »O mein Gott!« rief ich. »Lassen Sie mich ...«</p>
+            <p rendition="#et">Ah! Niemals hat ein reichlicherer, ein köstlicherer Erguß ein Liebesspiel gekrönt!</p>
+            <p rendition="#et">Als meine Ekstase sich gelegt hatte, war ich keineswegs erschöpft. Mit verdoppelter Leidenschaft stürzte ich mich auf meine erfahrene Lehrmeisterin der Liebe; ich verzehrte sie mit Küssen; ich nahm ihre Hand und führte sie mit meiner eigenen Hand an die Stelle, die sie so heftig erregt hatte. Beim Anblicke dieser Leidenschaftlichkeit verlor auch die Oberin alle Selbstbeherrschung. Sie raste wie eine Bacchantin. Und nun wetteiferten wir in glühenden Küssen, in verliebten Bissen. Welche Gelenkigkeit, welche Geschmeidigkeit in den Gliedern hatte dieses Weib! Ihr Leib zog sich zusammen, streckte sich aus, warf sich hin und her, daß ich ganz <pb n="104" facs="#f0107"/>
+betäubt davon war. Ich konnte nicht mehr mitkommen. Kaum hatte ich Zeit, ab und zu mit einem einzigen Kuß die unzähligen zu erwidern, die ich vom Kopf bis zu den Füßen auf jede Stelle meines Leibes empfing. Es war, wie wenn sie mich vor Liebe aufessen wollte. Diese unglaublich wollüstigen Berührungen versetzten mich in einen Zustand, den ich kaum beschreiben kann. O Fanni, wärst du doch Zeugin unserer Kämpfe, unserer Siege, unserer Niederlagen gewesen! Hättest du uns zwei in unserer keuchenden Liebesraserei gesehen, du hättest begriffen, wohin sinnliche Leidenschaft zwei verliebte Weiber bringen kann. Einmal befand sich zufällig mein Kopf zwischen den Schenkeln meiner Angreiferin. Ich glaubte ihre Wünsche zu erraten. Von Wollust fortgerissen, begann mein Mund an ihrem zartesten Körperteil <pb n="105" facs="#f0108"/>
+zu spielen. Aber so war's von ihr nicht gemeint gewesen. Schnell macht sie sich von mir los, gleitet unter mir hervor, spreizt mir schnell die Schenkel auseinander und greift mich unverzüglich mit ihrer Zunge an. Wie ein spitzer Dolch fährt diese schnell in mich hinein und wird ebenso schnell wieder herausgezogen. Plötzlich schlug sie ihre Zähne in mein Fleisch, wie wenn sie mich zerreißen wollte. Vor wollüstigem Schmerz ganz bewußtlos warf ich mich hin und her wie eine Besessene. Ich stieß den Kopf der Oberin zurück, ich riß sie an den Haaren. Endlich ließ sie los; und nun begann sie ein sanftes Züngeln, benetzte mich mit ihrem Speichel, krabbelte an meinen Schamhaaren und an meiner Haut mit einer so zarten und zugleich so wollüstigen Raffiniertheit, daß ich bei der bloßen Rückerinnerung <pb n="106" facs="#f0109"/>
+meinen Saft fließen fühle. – O, was für Entzückungen berauschten mich! In welcher Raserei tobten meine Sinne!</p>
+            <p rendition="#et">Ich schrie laut auf, warf mich zurück, bäumte mich hoch auf – und immer, immer spürte ich die spitze Pfeilzunge, die glühend in mich eindrang. Zwei schmale, feste Lippen schlossen sich um meine Klitoris, preßten sich zusammen, sogen an ihr, daß ich glaubte, ich müßte den Geist aufgeben. Nein, Fanni! Ein solches Gefühl, einen solchen Genuß kann man nur ein einziges Mal in seinem Leben haben. Diese Spannung meiner Nerven! Dieses Klopfen des Blutes in meinen Adern! Diese Glut in meinem Fleisch! Ich glühte, ich zerfloß und ich fühlte wie ihr gieriger, unersättlicher Mund die Essenz meines Lebens mir aussaugte. Ich schwöre dir: ich war <pb n="107" facs="#f0110"/>
+völlig ausgepumpt, und ich glaube, meine Schenkel sind von meinem Blut, von meinem Lebenssaft ganz überströmt gewesen.</p>
+            <p rendition="#et">Aber wie glücklich war ich auch! Fanni! Fanni! Ich halt's nicht mehr aus! Wenn ich von dieser Liebesraserei spreche, ist es mir, als fühlte ich noch immer diese beseligenden Zuckungen. Mache mich fertig! ... Schneller!. Stärker! ... Gut so ... ah ... gut ... gut ... so ... jetzt genug,.. ich sterbe ...</p>
+            <p rendition="#et">Fanni war ärger als eine ausgehungerte Wölfin.</p>
+            <p rendition="#et">»Genug! genug!« wiederholte Gamiani. »Du machst mich ja tot, du Teufelsmädchen! Ich hatte nicht geglaubt, daß du so geschickt, so leidenschaftlich seist. Ich sehe, du entwickelst dich. Du bist ja ganz und gar Feuer und Flamme.«</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="108" facs="#f0111"/>
+Fanni.</hi>
+            </p>
+            <p rendition="#et">Kann es denn anders sein? Man müßte ja kein Blut, kein Leben in sich haben, um in deinen Armen, zwischen deinen Schenkeln gefühllos zu bleiben ... Was machtest du denn weiter?</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Ich hatte von meiner Freundin gelernt. Jetzt war an mir die Reihe; ich zahlte ihr ihre Liebkosungen mit Wucherzinsen zurück; ich liebte sie, küßte sie – genau so wie sie mich geküßt hatte – bis sie nicht mehr konnte.</p>
+            <p rendition="#et">Zimperliche Zurückhaltung gab's von nun an zwischen uns beiden nicht mehr, und bald erfuhr ich von meiner Freundin, daß die Schwestern vom »Herzen Jesu« sich untereinander einem Kultus der Sinnlichkeit hingäben, daß sie ein Haus besäßen, <pb n="109" facs="#f0112"/>
+wo sie sich versammelten, um ihre Orgien zu feiern und sich nach Herzenslust gütlich zu ton. Dieser Hexensabbat begänne unmittelbar nach der Komplete und dauerte bis zur Frühmesse.</p>
+            <p rendition="#et">Die Oberin weihte mich auch in ihre Lebensauffassung ein, und diese erfüllte mich mit einem solchen Entsetzen, daß sie mir als eine eingefleischte Teufelin erschien. Sie beruhigte mich jedoch bald durch einige Scherze und besonders durch die höchst ergötzliche Geschichte von dein Verlust ihrer Jungfernschaft. Niemals würdest du erraten, wem dieses köstliche Kleinod zuteil geworden ist. Die Geschichte ist einzig in ihrer Art und verdient erzählt zu werden.</p>
+            <p rendition="#et">Die Oberin – doch ich will sie lieber von jetzt an mit ihrem Namen nennen: sie hieß Santa – also: Santa war die <pb n="110" facs="#f0113"/>
+Tochter eines Schiffskapitäns. Ihre Mutter war eine kluge und vernünftige Frau und hatte sie nach den Grundsätzen der heiligen Religion erzogen.</p>
+            <p rendition="#et">Das verhinderte aber nicht, daß das Temperament der jungen Santa sich sehr frühzeitig entwickelte. Schon als zwölfjähriges Mädchen hatte sie unwiderstehliche Begierden, die sie mit allen möglichen Hilfsmitteln, auf die nur die bizarre Phantasie eines unwissenden Kindes verfallen kann, zu befriedigen suchte.</p>
+            <p rendition="#et">Das arme Mädchen bearbeitete sich jede Nacht, und es fehlte nicht viel, so wäre ihrem, ach so unzulänglichem, Fingerspiel ihre Jugend und Gesundheit zum Opfer gefallen. Eines Tages sah sie zwei Hunde sich begatten. Mit ihrer wollüstigen Neugier beobachtete sie den ganzen Vorgang und den Anteil des männlichen und <pb n="111" facs="#f0114"/>
+des weiblichen Partners so genau, daß sie von nun an besser begriff, woran es ihr fehlte. Aber da sie nun wissend war, waren ihre Qualen nur umso größer.</p>
+            <p rendition="#et">Sie lebte in einem einsam gelegenen Hause, nur von alten Mägden umgeben, und ohne jemals ein männliches Wesen zu sehen. Wie konnte sie da hoffen, jemals einen glühendroten, blitzschnell arbeitenden, belebten Pfeil zu sehen, der sie mit solcher Bewunderung erfüllt hatte, daß sie fest überzeugt war, auch für die Frau müsse ein derartiges Werkzeug erschaffen worden sein. Diese Gedanken wollten ihr nicht mehr aus dem Kopf, und indem sie fortwährend über dasselbe Thema nachdachte, fiel ihr schließlich ein, daß von allen Geschöpfen der Affe die größte Ähnlichkeit mit dem Menschen hat. Nun besaß aber ihr Vater einen prachtvollen <pb n="112" facs="#f0115"/>
+Orang-Utan. Sie schlich sich an dessen Käfig und sah ihn sich ganz genau an. Da sie hiezu ziemlich lange Zeit gebrauchte, wurde das Tier durch die Gegenwart eines jungen Mädchens aufgeregt und entwickelte plötzlich die reiche Gabe, womit ihn Mutter Natur bedacht hatte. Santa frohlockte.</p>
+            <p rendition="#et">Endlich hatte sie gefunden, was sie jeden Tag gesucht, wovon sie jede Nacht geträumt hatte. Ihr Ideal stand als greifbare Wirklichkeit vor ihr. Und ihr Entzücken steigerte sich immer noch mehr, als sie das unnennbare Geschmeide zu einer Härte, zu einer drohenden Größe sich entwickeln sah, die ihre kühnsten Träume übertraf. Sie verschlang den Gegenstand ihrer Wünsche mit den Augen. Der Affe näherte sich den Eisenstangen »eines Käfigs und nahm eine solche Stellung ein, daß er sich ihr in der vorteilhaftesten<pb n="113" facs="#f0116"/>
+ Weise präsentierte. Die gute Santa verlor nun alle Besinnung. Die Raserei ihrer Leidenschaft gab ihr übernatürliche Kräfte und es gelang ihr einen von den Eisenstäben zur Seite zu biegen.</p>
+            <p rendition="#et">Das geile Tier machte sich dies sofort zunutze. Eine Stange von mindestens acht Zoll Länge ragte aus dem Käfig hervor. Ein so unerwarteter Reichtum jagte anfangs unserm Jüngferchen ein bißchen Angst ein. Aber der Teufel war hinter ihr her, und sie trat dicht an den Käfig heran, um sich das Ding in der Nahe zu betrachten. Sie nahm es in die Hand, streichelte es. Der Affe zitterte vor Wollust, daß der ganze Käfig wackelte, und schnitt fürchterliche Grimassen dazu. Santa bekam wieder Angst; sie glaubte es mit dem Satan in höchsteigener Person zu tun zu haben. In ihrer Furcht wagte sie nicht <pb n="114" facs="#f0117"/>
+weiter zu gehen. Schon wollte sie sich aus dem Staube machen, aber sie konnte sich nicht enthalten noch einen Abschiedsblick auf das glühendrote Juwel zu werfen – und mit einem Male erwachten von neuem alle ihre Begierden.</p>
+            <p rendition="#et">Da faßte sie plötzlich Mut; mit entschlossener Miene hob sie von hinten ihre Röcke hoch und bot sich rücklings dem furchtbaren Stachel dar. Der Kampf entspann sich, Stoß folgte auf Stoß – das Tier konnte es mit jedem Mann aufnehmen. Santa war sodomisiert, entjungfert, zur Äffin gemacht! Ihre Freude, ihr Entzücken entluden sich in hundertfach variiertem Ach und O! – Aber sie wurde dabei so laut, daß ihre Mutter sie hörte. Diese eilte herbei und fand ihre Tochter in der höchsten Verzückung sich krümmend, halbtot vor Wollust.</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="115" facs="#f0118"/>
+Fanni.</hi>
+            </p>
+            <p rendition="#et">Der Spaß ist unbezahlbar!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Um das junge Mädchen vor weiteren Betätigungen seiner Affenliebe zu bewahren, sperrte man es in ein Kloster.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Hätte man sie doch lieber allen Affen der Welt überantwortet!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Da hast du ganz recht – mehr, als du wohl selber denkst ...</p>
+            <p rendition="#et">Mein Temperament fand viel Gefallen an einem Leben voller Feste und Lüste. Ich war daher mit Freuden bereit in die geheimnisvollen Saturnalien der Klosterschwestern mich einweihen zu lassen. Das versammelte Kapitel genehmigte meine Zulassung und zwei Tage darauf wurde ich der Versammlung vorgestellt.</p>
+            <p rendition="#et">
+               <pb n="116" facs="#f0119"/>
+Ich erschien nackt – so wollte es die Vorschrift. Ich leistete den verlangten Eid und prostituierte mich zum Schlüsse der Zeremonie mit einem ungeheuren hölzernen Phallus? der zu diesem Zweck aufgestellt war. Kaum hatte ich dieses schmerzvolle Opfer vollbracht, so stürzte sich die ganze Nonnenbande wie eine Horde von Kannibalen über mich her. Ich fügte mich willig jeder geschlechtlichen Laune, ich nahm aus eigenem Antrieb die wollüstigsten Stellungen ein und gab zum Schlüsse einen unanständigen Tanz zum Besten.</p>
+            <p rendition="#et">Durch einstimmigen Zuruf wurde ich als Siegerin erklärt. Meine Kräfte waren völlig erschöpft. Aber eine muntere, aufgeweckte kleine Nonne schleppte mich mit in ihr Bett. Sie war noch raffinierter als die Oberin; ja, wahrhaftig, sie war die verdammteste Tribade, die jemals die <pb n="117" facs="#f0120"/>
+Hölle hervorgebracht hat. Ich entbrannte in einer rasenden fleischlichen Leidenschaft für sie und wir waren während der großen nächtlichen Orgien fast immer zusammen.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Wo fanden denn eure Luperkalien statt?</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">In einem großen Saale, zu dessen Ausschmückung die feinste Kunst und das höchste Raffinement der Wollust aufgeboten worden waren. Die Eingänge zu diesem Saale bildeten zwei große Türen, die nach orientalischer Weise durch goldumsäumte und mit tausend bizarren Mustern bestickte, schwere Vorhänge geschlossen waren. Die Wände waren mit dunkelblauem Samt bespannt, den ein schön geschnitzter, breiter Rahmen aus <pb n="118" facs="#f0121"/>
+Zitronenholz umgab. In gleichen Abständen befanden sich Spiegel, die von der Decke bis zum Fußboden reichten. Bei unseren Orgien spiegelten sich die Gruppen nackter, vor Geilheit rasender Nonnen in tausendfacher Gestalt wieder oder hoben sich wirkungsvoll von dem dunkeln Hintergründe ab. Kein Stuhl befand sich in dem Saale, sondern nur Sofas und Polsterkissen, die ja auch für die Wettkämpfe der Wollust, für das Einnehmen von Stellungen, die die Sinnlichkeit entflammen mußten, viel besser geeignet waren. Ein feingemusterter, köstlich weicher, doppelter Teppich bedeckte den Fußboden. Man erblickte auf diesem Teppich, in zauberischer Farbenpracht dargestellt, zwanzig Liebesgruppen in Stellungen, die die erloschenen Begierden übersättigter Teilnehmerinnen an diesen Orgien bald wieder<pb n="119" facs="#f0122"/>
+ entflammen mußten. Auch die Zimmerdecke war mit Gemälden bedeckt, die nur die ausschweifendste geschlechtliche Phantasie hatte entwerfen können. Besonders erinnere ich mich einer vor Liebeswonne rasenden Thyade, die von einem Korybanten vergewaltigt wurde. Niemals vermochte ich dieses Bild anzusehen, ohne entflammt zu werden.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Es muß ein entzückendes Bild gewesen sein.</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Zu all diesem verschwenderisch angebrachten Luxus der Einrichtung kamen noch die berauschenden Düfte aller möglichen Blumen und Wohlgerüche. Im Saale herrschte eine stets gleichmäßige laue Wärme; sechs Alabasterlampen <pb n="120" facs="#f0123"/>
+strahlten ein zärtliches, geheimnisvolles Licht aus, das sanfter war als der Widerschein des Opals. Das Ganze machte auf die Seele einen seltsamen Eindruck, der sich in Worten kaum beschreiben läßt! Man empfand unruhige Sehnsucht, man versank in eine wohlige Träumerei der Sinne. Man« war im Orient, man gab sich dem Zauber eines morgenländischen Luxus, einer morgenländischen Poesie und schmachtenden Wollust hin. Man dachte an die Mysterien des Harems, an seine geheimen Wonnen, an seine liebeatmende Lässigkeit.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Welche Wonne muß es gewesen sein, an solchem Orte mit einer geliebten Freundin trunkene Nächte zu verbringen!</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="121" facs="#f0124"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Gewiß hätte die Göttin der Liebe selber mit Wonne ihren Tempel dort aufgeschlagen, hätten nicht schmutzige, lärmende Orgien allmählich eine ekelhafte Lasterhöhle daraus gemacht.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Wieso?</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Mit dem Schlage der mitternächtlichen Stunde erschienen die Nonnen, nur mit einem einfachen schwarzen Hemde bekleidet, um das leuchtende weiße Fleisch noch mehr hervortreten zu lassen. Alle waren barfuß: ihre Haare hingen aufgelöst herab. Im Nu erschien ein glänzendes Mahl, das wie von Zauberhänden aufgetischt wurde. Die Oberin gab das Zeichen zum Beginnen und jede tat sich nach <pb n="122" facs="#f0125"/>
+Herzenslust gütlich, Eisige saßen an der Tafel, andere hatten sich auf Polster gelagert. Die ausgesuchten Leckerbissen, die feurigen, das Blut in Wallung bringenden Weine wurden gierig verschlungen. Nach und nach belebten sich die von Ausschweifungen verwüsteten Gesichter, die im Tageslicht bleich und kalt aussahen. Die Dünste des Weines stiegen ihnen zu Kopfe, Kantharidenpräparate ließen Feuer durch ihre Adern strömen. Immer lauter wurde die Unterhaltung; sie schwoll zu einem wirren, tosenden Lärm an und endete stets in unzüchtigen Anträgen, in Aufreizungen zu neuem Liebestaumel, dem sich die Nonnen bei Liedersang und Becherklang hingaben. Ihrer Sinne nicht mehr mächtig, fiel plötzlich irgendeine von ihnen über ihre Nachbarin her und gab ihr einen stürmischen Kuß. Dies war <pb n="123" facs="#f0126"/>
+das Signal, das die ganze Bande elektrisierte. Die Liebespaare fanden sich zusammen, umschlangen sich, während in trunkenen Delirien Küsse schallten. Man hörte erstickte Seufzer, abgerissene Liebesworte, Schreie der Wollust, Röcheln der Erschöpfung. Bald waren die gierigen Lippen nicht mehr mit Mund und Wangen, mit nackten Brüsten und Schultern zufrieden. Die Kleider wurden emporgestreift oder zur Seite geworfen. Und nun begann ein wunderbares Schauspiel; alle diese geschmeidigen, anmutigen Frauenleiber zuckten in den raffiniertesten Stellungen, in den höchsten Verzückungen abgefeimtester Buhlkünste. Blieben einmal die Kräfte hinter dem Antrieb der Begierden zurück, so trennten sich die Paare für einen Augenblick, um irischen Atem zu schöpfen. Man sah sich mit feurigen <pb n="124" facs="#f0127"/>
+Bücken ein, man wetteiferte in unzüchtigen Stellungen. Die Siegerin in diesem Wettkampf sah plötzlich ihre Gefährtin von neuem sich auf sie stürzen; ein Stoß, sie lag auf dem Rücken, unzählige Küsse bedeckten ihren ganzen Leib, eine flinke Zunge drang bis ins innerste Heiligtum der Liebeswonne vor und mit gleicher Inbrunst wurde dieser Dienst von der Partnerin vergolten. Die beiden Köpfe verschwanden zwischen den Schenkeln; die beiden Leiber waren nur noch ein Leib, der in wonnigen Krämpfen zuckte. Dann ein dumpfes Röcheln und zum Schlüsse ein doppelter Aufschrei triumphierender Liebe.</p>
+            <p rendition="#et">»Sie genießen! Sie genießen!« rief dazu der Chor der Nonnen. Und von neuem stürzten sie sich aufeinander, rasender als wilde Bestien, die in die Arena losgelassen werden.</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="125" facs="#f0128"/>
+Fanni.</hi>
+            </p>
+            <p rendition="#et">Welche Orgien!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">O, das war noch langte nicht alles! Die Abwechslung in allen Künsten der Wollust wurde bis ins Unendliche getrieben. Da wir keine Männer hatten, erfand unsere Phantasie die seltsamsten Hilfsmittel.</p>
+            <p rendition="#et">Alle priapischen Gedichte, alle unzüchtigen Bücher des Altertums und der Neuzeit waren uns bekannt. Wir waren weit über sie hinaus. Elephantis und Aretino waren phantasielos im Vergleich mit uns. Es würde zu weit führen, dir alle unsere Hilfsmittel aufzuzählen, alle die sinnreichen Instrumente und Liebestränke zu nennen, die wir besaßen, um unsere Begierden erst anzustacheln und dann zu befriedigen. Ich will dir nur als Beispiel erzählen, <pb n="126" facs="#f0129"/>
+wie wir es mit einer unserer Genossinnen machten, um ihr Fleisch zu neuer Genußfähigkeit zu reizen. Zuerst wurde sie in ein Bad von heißem Blut gebracht, um ihre Kraft wieder zu beleben. Dann schlürfte sie einen Trank, der mit zerriebenen spanischen Fliegen versetzt war, warf sich auf ein Ruhebett und ließ sich den ganzen Körper massieren. Dann wurde sie hypnotisiert, bis sie in festem Schlaf lag. Sobald dies der Fall war, stachen wir sie mit Nadeln, peitschten sie bis auf Blut. Inmitten dieser Folterung erwachte sie; sie sah uns wie eine Wahnsinnige an und verfiel sofort in krampfhafte Zuckungen. Kaum waren sechs von uns imstande sie festzuhalten. Nur die schleckende Zunge eines Hundes vermochte sie zu beruhigen. In Strömen ergoß sich ihr Liebessaft. Wenn aber diese Erleichterung<pb n="127" facs="#f0130"/>
+ sich einmal nicht einstellte, dann wurde die Unglückliche geradezu entsetzlich in ihrer Raserei und schrie laut nach einem Esel.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Nach einem Esel? Barmherziger Himmel!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Jawohl, mein Herz – nach einem Esel. Wir besaßen zwei, die sehr gelehrig und ganz ausgezeichnet abgerichtet waren. Wir wollten in dieser Hinsicht nicht hinter den vornehmen Römerinnen zurückstehen, die sich bei ihren Saturnalien stets dieser Tiere bedienten.</p>
+            <p rendition="#et">Als ich diese Sensation zum ersten mal an mir selber erlebte, war ich fast bis zur Sinnlosigkeit von Wein berauscht Ich war! mich auf das eigens zu diesem Zweck bestimmte Gestell, indem ich alle <pb n="128" facs="#f0131"/>
+Nonnen herausforderte, bei diesem Liebeskampf es mit mir aufzunehmen. Im Nu stand der Esel hochaufgerichtet vor mir. Sein furchtbares Glied, von den Händen der frommen Schwestern in Glut versetzt, schlug gewichtig gegen meine Schenkel an. Ich ergriff es mit beiden Händen, setzte es an die Öffnung meiner Scheide an und versuchte es einzuführen, nachdem ich mich ein paar Sekunden lang von ihm hatte kitzeln lassen. Mit Hilfe einer Pomade, durch geschickte Stöße meiner Hinterbacken und durch Nachschieben mit den Händen gelang mir dies, und bald hatte ich mindestens fünf Zoll in meinem Leibe. Ich wollte noch weiter stoßen, aber die Kräfte gingen mir aus und ich sank erschöpft zurück. Mir war's, als zerrisse meine Haut, als würde ich gespalten, gevierteilt! Ich empfand einen dumpfen, betäubenden <pb n="129" facs="#f0132"/>
+Schmerz, zugleich aber auch einen heißen, kitzelnden, wonnigen Reiz. Das Tier bewegte sich fortwährend und stieß so kräftig, daß ich die Erschütterung in meinem ganzen Rückgrat verspürte. Ich spritzte. O, welch ein Genuß! Mein heißer Liebessaft erfüllte mir den ganzen Leib. Ich war von Liebe ganz und gar überströmt. Da stieß ich einen langen, lauten Schrei aus – ich war erleichtert. Durch meine wollüstigen Zuckungen hatte ich noch zwei Zoll in mich aufgenommen. Dies war das höchste Maß, das jemals erreicht worden war; alle meine Gefährtinnen waren besiegt. Das Glied des Esels war bis an den Ring eingedrungen, den man ihm angelegt hatte. Ohne diesen Ring wäre mir der Leib zersprengt worden.</p>
+            <p rendition="#et">Ich war erschöpft, alle meine Glieder schmerzten und ich glaubte am Ende aller <pb n="130" facs="#f0133"/>
+Wollust zu sein – da wird plötzlich das unbändige Glied des Tieres roch steifer und härter denn zuvor; es dringt noch tiefer in mich ein und ich schwebe fast frei in der Luft, nur von dem Schwanz des Esels gehalten! Meine Nerven spannen sich an, meine Zähne pressen sich knirschend auf einander, meine Arme schließen sich krampfhaft um meine Schenkel. Plötzlich bricht mit Macht ein Strahl hervor und überströmt mich mit einem heißen Regen von solcher Fülle, daß mir's ist als dränge er durch alle meine Adern mir bis ins Herz hinein. Ich fühle nichts mehr als eine brennende Wonne, die mir bis ins Mark der Knochen, die mir ins Gehirn und alle Nerven dringt und zugleich alle meine Glieder erschlafft ... Köstliche Marter! ... Unerträgliche Wollust, die alle Fesseln des Lebens löst, die im höchsten Rausch der Sinne den Tod bringt!</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="131" facs="#f0134"/>
+Fanni.</hi>
+            </p>
+            <p rendition="#et">Du bringst mich von Sinnen, Gamiani! Bald halt ich's nicht mehr aus ... Aber sag, wie kam es, daß du dieses Teufelskloster verließest?</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Das ging so zu: Nach einer großen Orgie hatten wir den Einfall, uns in Männer zu verwandeln. Jede von uns schnallte sich einen Phallus um, dann bildeten wir eine Kette und liefen wie Wahnsinnige durch den Saal. Ich bildete das letzte Glied der Kette und war daher die einzige, die nur ritt, aber nicht geritten wurde. Stelle dir meine Überraschung vor, als ich plötzlich von hinten den wütenden Angriff eines nackten Mannes verspüre, der sich auf irgend eine mir unerklärliche Weise bei uns eingeschlichen hatte. Unwillkürlich stieß ich einen Schreckenruf <pb n="132" facs="#f0135"/>
+aus; sofort löste unsere Kette sich auf und sämtliche Nonnen stürzten sich über den unglückseligen Eindringling her. Jede wollte einmal Wirklichkeit kosten, Das arme Vieh jedoch vermochte so viel Genuß nicht zu ertragen und war bald erschöpft. Er sah erbärmlich aus in seiner Schlaffheit und Nichtigkeit; seine Manneskraft war nur noch negativ vorhanden. Es kostete mich unendliche Mühe, das jämmerliche Ding zu neuem Leben zu erwecken, als endlich auch an mich die Reihe kam, sein Elixier genießen zu dürfen. Schließlich gelang es mir aber doch. Ich streckte mich der Länge nach auf dem Halbtoten aus, so daß mein Kopf sich zwischen seinen Schenkeln befand und saugte so geschickt an seinem eingeschlafenen Priap, daß dieser rotstrahlend zu einer Munterkeit erwachte, an der ich meine Freude haben <pb n="133" facs="#f0136"/>
+konnte. Da ich selber gleichzeitig von einer flinken Zunge karessiert wurde, so fühlte ich bald eine unglaubliche Wonne eintreten, die ich auf den Höhepunkt brachte, indem ich mich triumphierend und freudig auf das Zepter setzte, das ich mir erobert hatte. Ich gab und empfing eine Sintflut von Wollust.</p>
+            <p rendition="#et">Dieser letzte Exzeß gab unserem Mann den Rest. Alle Bemühungen, ihn noch einmal zum Leben zu erwecken, waren vergeblich.</p>
+            <p rendition="#et">Und nun trat etwas ein, was dir vielleicht unglaublich erscheinen wird. Sobald die Nonnen merkten, daß der Unglückselige zu nichts mehr zu gebrauchen war, faßten sie ohne Zaudern den Entschluß, ihn zu ermorden und in einem Keller zu begraben, damit er nicht durch eine Indiskretion ihr Kloster bloßstellen könnte. <pb n="134" facs="#f0137"/>
+Vergebens bekämpfte ich diesen verbrecherischen Beschluß; eine Sekunde später war eine Hängelampe von ihrem Haken herabgenommen und das Opfer wurde mittels einer Schlinge aufgehängt. Ich wandte den Blick von diesem entsetzlichen Schauspiel ab ...</p>
+            <p rendition="#et">Aber siehe da! Zur größten Überraschung dieser Furien brachte der Tod des Erhängens die übliche Wirkung auf das Opfer hervor. Entzückt von diesem Phänomen steigt die Oberin auf einen kleinen Tritt und verbindet sich unter dem stürmischen Beifallsjubel ihrer würdigen Genossinnen, in der Luft schwebend mit dem Toten, spießt sich an dem Leichnam auf! ... Aber damit war die Geschichte noch nicht zu Ende. Der Strick, an dem die Lampe gehangen hatte, war zu schwach, um dies doppelte Gewicht zu tragen. Er reißt. <pb n="135" facs="#f0138"/>
+Leichnam und Oberin fallen, und zwar ist der Sturz so heftig, daß die Nonne eis Bein bricht, der Gehängte aber, dem wahrscheinlich der Strick nicht richtig angelegt worden war, wieder erwacht und sich auf die Oberin stürzt, um sie zu erwürgen.</p>
+            <p rendition="#et">Wie wenn der Blitz in eine Herde schlägt, so wirkte dieser Auftritt auf die Nonnen.</p>
+            <p rendition="#et">Entsetzt stürzten alle davon; sie glaubten, der Teufel sei hinter ihnen her.</p>
+            <p rendition="#et">Nur die Oberin blieb zurück und mußte sich der Angriffe des so zur Unzeit von den Toten Auferstandenen erwehren.</p>
+            <p rendition="#et">Das Abenteuer mußte furchtbare Folgen haben. Um diesen zuvorzukommen, entfloh ich noch in derselben Nacht aus dieser Lasterhöhle der Ausschweifung und des Verbrechens.</p>
+            <p rendition="#et">
+               <pb n="136" facs="#f0139"/>
+Ich begab mich für einige Zeit nach Florenz, der wundervollen Stadt der Liebe.</p>
+            <p rendition="#et">Ein Engländer, Sir Edward, ein leidenschaftlicher träumerischer Jüngling, entbrannte in heißer Liebe zu mir. Die schmutzigen Lüste des Fleisches waren mir zum Ekel. Bisher hatte nur mein Leib gelebt; meine Seele schlummerte noch. Nun erwachte aber auch sie, fast mir selber unbewußt, von dem leisen Zauberruf einer edlen hohen Liebe. Ein neues Leben ging mir auf; ich empfand jene unbestimmten unaussprechbaren Sehnsüchte, die das Glück des Menschen ausmachen und sein Dasein zu Poesie verklären ... Auch die leichtest entzündlichen Stoffe brennen nicht von selber; aber es braucht nur ein Funke an sie zu geraten und sofort lodern sie auf. So setzte auch die leidenschaftliche Glut des Jünglings, der mich liebte, <pb n="137" facs="#f0140"/>
+mein Herz in Flammen. Die für mich ganz neue Sprache reiner Liebe ließ mich vor Entzücken erschauern.</p>
+            <p rendition="#et">Begierig horchte ich auf ihre Worte; meine Blicke ließen sich keine noch so geringe Bewegung entgehen. Die warmen Blicke der von feuchtem Schimmer verklärten Augen meines Geliebten drangen durch meine Augen bis in die Tiefe meiner Seele und erfüllte sie mit froher Unruhe, mit leidenschaftlichem Entzücken.</p>
+            <p rendition="#et">In Edwards Stimme lag ein Klang, der mich aufregte; in jeder seiner Gebärden erkannte ich sein edles Gefühl; in jedem seiner Züge sprach sich Leidenschaft aus und ließ mich Leidenschaft empfinden. Zum ersten Male sah ich das Bild wahrer Liebe, und ich liebte ihn, der mir dieses Bild zeigte. Von jeher hatte ich mich in Extremen bewegt, und so glühte ich jetzt <pb n="138" facs="#f0141"/>
+ebenso sehr in der Leidenschaft meines Herzens wie früher in der Leidenschaft meiner Sinne. Edward hatte eine starke Seele. – eine jener Seelen, die alle anderen in ihren Bannkreis ziehen. Ich hob mich zu seiner Höhe empor. Meine Liebe wuchs: sie war enthusiastisch gewesen, jetzt wurde sie erhaben. Der bloße Gedanke an grobe Fleischeslust empörte mich. Hätte man mich dazu gezwungen, ich hätte getobt, ich wäre vor Wut erstickt! So war unsere Liebe, meine sowohl wie seine, von freiwillig errichteten Schranken umschlossen; sie wurde dadurch nur umso glühender. Edward erlag zuerst. Die platonische Enthaltsamkeit, für die er keinen Grund ersah, machte ihn krank; er besaß nicht die Kraft noch länger gegen seine Sinnlichkeit anzukämpfen. Eines Tages überraschte er mich im Schlaf – und ich war sein. <pb n="139" facs="#f0142"/>
+Mitten in der heißesten Umarmung erwachte ich: in besinnungsloser Leidenschaft erwiderte ich Glut mit Glut; dreimal war ich im Himmel – dreimal war Edward Gott. Aber als er von seiner Höhe herabgestiegen war, wurde er mir zum Ekel: er war für mich nur noch ein Mensch von Fleisch und Blut – er war ein Mönch!</p>
+            <p rendition="#et">Mit einem gellenden Lachen entriß ich mich plötzlich seinen Armen. Der Regenbogenglanz des Ideals war zerstört; ein unreiner Hauch hatte den Strahl der Liebe ausgelöscht – diesen Strahl aus Himmelshöhen, der nur einmal im Leben leuchtet. Meine Seele war tot. Aber meine Sinne waren wieder auferstanden und ich wandte mich wieder meiner alten Lebensweise zu.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Wieder mit Frauen?</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="140" facs="#f0143"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Nein! Erst wollte ich mit den Männern ganz und gar fertig sein. Um keine Begierde and keine Sehnsucht nach Männerliebe mehr zu haben, kostete ich bis zur Neige allen Genuß, den sie uns zu geben vermögen. Ich bediente mich einer berühmten Kupplerin und sie vermittelte mir die Bekanntschaft mit <hi rendition="#i">den</hi> geschicktesten und kräftigsten Liebesathleten von Florenz. An einem einzigen Vormittage bestand ich zweiunddreißig Liebestourniere – und doch war damit meine Begierde nicht gestillt. Sechs Kämpen wurden von mir besiegt – besiegt bis zur völligen Erschöpfung.</p>
+            <p rendition="#et">Eines Abends vollbrachte ich noch größere Heldentaten. Ich befand mich mit dreien meiner kräftigsten Ritter zusammen. Da kam ich auf einen diabolischen Einfall: <pb n="141" facs="#f0144"/>
+ich bat den stärksten meiner Helden sich auf den Rücken zu legen und während ich mich wollüstig auf seinem gewaltigen Instrument auf und ab bewegte, wurde ich von dem zweiten auf sehr gewandte Weise gomorrhisiert; mein Mund bemächtigte sich des dritten und wußte ihn dermaßen zu kitzeln, daß er sich wie ein Teufel krümmte und die leidenschaftlichsten Ausruf e von sich gab. Gleichzeitig erreichte bei uns Vieren die Ekstase ihren Höhepunkt. Welche Genüsse! Dieser heiße Strahl an meinem Gaumen, diese Wonne innen in meinem Leibe! Kannst du dir einen Begriff davon machen? Mit dem Mund die ganze Lebenskraft eines Mannes einsaugen, mit unersättlichem Durst sie in Fluten heißen Schaumes hinunterschlürfen und dabei gleichzeitig einen doppelten Feuerstrahl, einen von vorn, einen von <pb n="142" facs="#f0145"/>
+hinten in seinen Leib, in sein Fleisch eindringen fühlen – das ist ein dreifacher, ein unerhörter Genuß, der sich überhaupt nicht beschreiben läßt.</p>
+            <p rendition="#et">Meine unvergleichlichen Kavaliere waren so hochherzig und so wacker, mich diesen Genuß immer wie der von neuem kosten zu lassen, bis ihre Kräfte völlig erschöpft waren.</p>
+            <p rendition="#et">Aber ich war dann bald der Männer müde, überdrüssig, und ich hatte keine andere Begierde mehr, kannte kein anderes Glück mehr, als den schlanken bebenden Leib eines jungen Mädchens, einer schüchternen Jungfrau zu umschlingen, sie in die Liebe einzuweihen, ihr ungeahnte Genüsse zu bereiten, sie mit Wollust zu überströmen ... aber was hast du? Was ist dir? Was machst du denn?</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="143" facs="#f0146"/>
+Fanni.</hi>
+            </p>
+            <p rendition="#et">Mir ist fürchterlich zumute. Mich verzehren entsetzliche, scheußliche Begierden. Alle Lust, alle Qual, die du gefühlt hast – auch ich möchte sie fühlen. Aber sofort! Auf der Steile! Du allein kannst mich nicht mehr befriedigen. Mein Kopf glüht – alles dreht sich vor meinen Augen. O! ich fürchte, ich werde wahnsinnig! Sag, was kannst du mir geben? Ich will in Liebesraserei sterben – ich will genießen! Nur genießen! Genießen!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Beruhige dich, Fanni! Beruhige dich doch! Deine wilden Blicke erschrecken mich. Befiehl mir! Ich tue alles! Was willst du von mir?</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Komm mit deinem Munde! Laß deine <pb n="144" facs="#f0147"/>
+Lippen mir das Leben aussaugen! Da ... da unten! Laß mich meine Seele verhauenen! Nachher will ich <hi rendition="#g">dich</hi> haben; will dir in die Eingeweide eindringen ... schreien sollst du! ... O, dieser Esel! Auch er quält mich. Ich möchte ein Riesenglied drin haben, und wenn es mich zersprengte, mir den Leib aufrisse!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Du Wilde – du sollst haben, was du verlangst! Mein Mund ist geschickt. Außerdem hab' ich auch ein Instrument mitgebracht. Da, sieh's dir mal an ... es ist mindestens so stark wie ein Eselsglied.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">O, was für ein Riesending! Schnell her damit – laß mich's versuchen! Au! Au! Es geht nicht ... mir bleibt der Atem stehen ...</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="145" facs="#f0148"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Du weißt es nur nicht zu handhaben. Aber das will<hi rendition="#g"> ich</hi> besorgen. Halte du nur stille!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Und wenn ich auf der Stelle tot bleiben sollte – ich will es ganz und gar drin haben. Ich bin rasend!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Also leg dich nur auf den Rücken; streck dich aus, so lang du kannst; jetzt spreize die Beine. Die Arme laß ruhig an deinen Seiten liegen. Jetzt – laß mich machen. Hab' keine Angst; zieh' nicht zurück!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Sieh, ich gebe mich dir völlig hin. Schnell! Komm in meine Arme! Komm schnell!</p>
+            <p>
+               <hi rendition="#b">
+                  <pb n="146" facs="#f0149"/>
+Gamiani.</hi>
+            </p>
+            <p rendition="#et">Geduld, Kind! Höre: um so recht die ganze Wonne zu spüren, mit der ich dich berauschen will, mußt du für einen Augenblick dich selbst vergessen, mußt ganz und gar in einen einzigen Gedanken aufgehen, in ein einziges Gefühl sinnlicher Liebe, wahnsinnigen Genießens! Und wenn ich dich mit noch so rasender Brunst angreife – bewege dich nicht! Rühre dich nicht! Bleib' bewegungslos liegen, empfange meine Küsse, ohne sie zu erwidern. Wenn ich dich beiße, wenn ich dich verwunde – unterdrücke deinen Schmerz, unterdrücke auch deine Wollust, bis zu jenem allerletzten Augenblick, bis zum Höhepunkt<hi rendition="#g"> dann</hi> kämpfen wir zusammen <hi rendition="#g">und sterben</hi> zusammen!</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Ja, ja! Ich verstehe dich, Gamiani. Vorwärts! <pb n="147" facs="#f0150"/>
+Sieh, ich liege wie schlafend ... jetzt träume ich von dir ... Ich bin dein, komm! ... Liege ich so richtig? Wart! Diese Stellung ist noch wollüstiger, glaube ich ...</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">Du Wollüstige! Du bist noch geiler als ich. Ach, bist du schön, wie du so daliegst! ... Du Ungeduldige! Ich sehe, du willst mich haben.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Ja, ich brenne! Ich glühe! Fang an ... fang an! Bitte, bitte!</p>
+            <p>
+               <hi rendition="#b">Gamiani.</hi>
+            </p>
+            <p rendition="#et">O, warte doch noch! Dies gierige Warten ist auch eine Art von Wollust ... Laß dich noch mehr gehen! Ah, so ist's gut. So liegst du fast wie eine Tote da ...<pb n="148" facs="#f0151"/>
+ Diese köstliche Selbstvergessenheit ... so ... ja, so! Jetzt werde ich mich deiner bemächtigen, werde dir warm machen, dich allmählich ins Leben zurückrufen; ich werde dich in Feuer und Flammen setzen, dich dem Höhepunkt vollständiger Genüsse entgegenführen. Dann wirst du wieder tot zurücksinken – aber tot vor Wonne, vor Übermaß des Genusses ... Unerhörte Seligkeiten! sie auch nur einen blitzschnellen Augenblick zu kosten, ist schon Götterwonne.</p>
+            <p>
+               <hi rendition="#b">Fanni.</hi>
+            </p>
+            <p rendition="#et">Deine Worte brennen – sie brennen, Gamiani! Ans Werk, ans Werk!</p>
+            <p rendition="#et">Gamiani band sich schnell die flatternden Haare, die ihr im Wege waren, zu einem Knoten zusammen. Sie fuhr mit der Hand zwischen ihre Schenkel und<pb n="149" facs="#f0152"/>
+ regte sich einen Augenblick auf; dann stürzte sie sich auf Fannis Leib, den sie in enger Umschlingung bedeckte. Ihr Mund öffnete die roten Lippen des jungen Mädchens, ihre Zunge drang vollständig ein. Fanni seufzte; Gamiani sog ihren Atem ein und blieb dann einen Augenblick unbeweglich liegen. Beim Anblick dieser beiden nackten Frauen, die regungslos aufeinander lagen, wie wenn sie miteinander verschmolzen wären, hatte ich ein Gefühl, wie wenn sie auf eine geheimnisvolle Art miteinander sich vermählten, wie wenn ihre Seelen schweigend in einander flößen.</p>
+            <p rendition="#et">Plötzlich macht Gamiani sich leise los und erhebt sich. Ihre Finger spielen mit Fannis Locken und dabei sieht sie sie mit einem unaussprechlich schmachtenden und wollüstigen Lächeln an. Vom Kopf bis zu<pb n="150" facs="#f0153"/>
+ den Füßen bedeckt sie sie mit stürmischen Küssen, mit zärtlichen Bissen; sie kitzelt ihr die Fußsohlen mit den Fingerspitzen, mit der Zunge. Dann stürzt sie sich wild über sie her, springt auf und fällt keuchend, rasend abermals auf Fannis Leib. Ihr Mund, ihre Finger sind hier, sind da, sind überall. Fanni wird überall geküßt, gedrückt, befingert; Gamiani kneift sie, zwickt sie, beißt sie. Da bekommt Fanni Angst; sie stößt einen scharfen Schrei aus; aber im Nu besänftigt ein sanftes Streicheln den Schmerz und ein langer Seufzer dringt aus ihrer Brust. Gamiani wird immer feuriger, immer wilder. Jetzt liegt ihr Kopf zwischen den Schenkeln ihres Opfers. Ihre Finger biegen zwei zarte Schamlippen auseinander. Ihre Zunge senkt sich in den Kelch und langsam überströmt sie sie mit allen Wonnen des <pb n="151" facs="#f0154"/>
+aufregendsten Kitzels, den es für ein Weib gibt. Gamiani verfolgt alle Stadien der Wollustraserei ihrer Freundin; um die Ekstase nicht zu früh kommen zu lassen, verlangsamt sie je nach Bedarf die Bewegungen ihrer Zunge; dann wieder verdoppelt sie deren Schnelligkeit. Plötzlich bäumt Fanni sich wild empor und ruft:</p>
+            <p rendition="#et">»Zuviel! ... Ach! ... ich sterbe ... O!«</p>
+            <p rendition="#et">»Da! nimm!« keucht Gamiani. Und mit diesen Worten reicht sie ihr ein Fläschchen, dessen Inhalt sie selber soeben zur Hälfte geleert hat. »Trink! 's ist Lebenselexier! Es wird dir frische Kräfte geben.«</p>
+            <p rendition="#et">Fanni ist besinnungslos, widerstandslos. Sie schluckt den Saft hinunter, den Gamiani ihr in den halbgeöffneten Mund gießt.</p>
+            <p rendition="#et">»Ha!« ruft plötzlich Gamiani überlaut; »jetzt bist du mein!«</p>
+            <p rendition="#et">
+               <pb n="152" facs="#f0155"/>
+In ihrem Blick lag ein teuflischer Ausdruck. Zwischen Fannis Schenkeln kniend, schnallte sie sich den riesigen Phallus um.</p>
+            <p rendition="#et">Bei diesem Anblick geriet Fanni in krampfhafte Zuckungen. Es sah aus, wie wenn ein inneres Feuer sie verzehrte, sie rasend machte. Mit weit geöffneten Schenkeln erwartete sie kampfesmutig den Angriff der furchtbaren Waffe. Doch kaum hatte sie die ersten schmerzhaften Stöße erlitten und ausgehalten, da schüttelte ein ungheurer Krampf ihren ganzen Körper. Und laut schrie sie auf!</p>
+            <p rendition="#et">»Weh! Weh mir! Der Saft brennt; der Trank, den du mir gabst, zerfrißt meine Eingeweide! Wie es sticht! Wie es beißt! Ach, ich sterbe! Ich muß sterben ... Verdammte ruchlose Hexe – ich bin dein, ich bin dein! ...«</p>
+            <p rendition="#et">Gamiani kümmerte sich nicht im geringsten <pb n="153" facs="#f0156"/>
+um dies Angstgeschrei. Mit verdoppelter Heftigkeit stieß sie weiter. Sie brach sich ihren Weg in Fannis Leib, deren Schenkel mit Blut überströmt wurden.</p>
+            <p rendition="#et">Plötzlich aber verdrehen sich Fannis Augen; ihre Glieder krümmen sich, dann werden ihre Beine, ihre Hände krampfhaft steif.</p>
+            <p rendition="#et">Jetzt war es mir nicht länger zweifelhaft, daß Gamiani ihr ein schnellwirkendes Gift eingegeben und selber dieses Gift getrunken hatte. Entsetzt will ich meiner Geliebten zu Hilfe eilen. Ich zerschmettere die Tür.</p>
+            <p rendition="#et">Aber ach – Fanni lebte nicht mehr.</p>
+            <p rendition="#et">Ihre Arme, ihre Beine umschlangen in furchtbarer Verkrampfung Gamiani, die noch lebte, aber sichtlich mit dem Tode rang.</p>
+            <p rendition="#et">
+               <pb n="154" facs="#f0157"/>
+Ich wollte sie auseinanderreißen; aber eine röchelnde Stimme flüsterte:</p>
+            <p rendition="#et">»Siehst du denn nicht, wie das Gift mich verbrennt, wie meine Sehnen sich spannen? Geh! Geh! Fanni ist mein ... O! weh! weh!«</p>
+            <p rendition="#et">»Entsetzlich!« schrie ich außer mir.</p>
+            <p rendition="#et">»Bah! jetzt kenne ich jede Wollust, <hi rendition="#g">jede</hi>! Begreife doch, du Narr; eine kannte ich noch nicht: Ich wußte nicht, ob es Wollust sei, im eigenen Todeskampf ein anderes mit dem Tode kämpfendes Weib zu lieben.«</p>
+            <p rendition="#et">Furchtbar groß ist diese Wollust! Ich sterbe ... aber ich sterbe in der Raserei der Lust, in der Raserei des wundervollsten Schmerzes ... Ich ... ich ... kann nicht mehr ... Aaaah ...</p>
+            <p rendition="#et">
+               <pb n="155" facs="#f0158"/>
+Noch ein langer Schrei aus der tiefsten Tiefe ihrer Brust und die Furie sank tot auf Fannis Leiche.</p>
+            <p>
+               <hi rendition="#g">Ende</hi>
+            </p>
+         </div>
+         <div xml:id="Musset-Alfred-d-d1e2668" type="chapter">
+            <head>
+               <pb n="156" facs="#f0159"/>
+Abbildungen</head>
+            <figure>
+               <head>Die erste Nacht, Abbildung zwischen S. 16 und 17</head>
+            </figure>
+            <figure>
+               <head>Die erste Nacht, Abbildung zwischen S. 20 und 21</head>
+            </figure>
+            <figure>
+               <head>Die erste Nacht, Abbildung zwischen S. 60 und 61</head>
+            </figure>
+            <figure>
+               <head>Die erste Nacht, Abbildung zwischen S. 70 und 71</head>
+            </figure>
+            <figure>
+               <head>Die zweite Nacht, Abbildung zwischen S. 108 und 109</head>
+            </figure>
+            <figure>
+               <head>Die zweite Nacht, Abbildung zwischen S. 116 und 117</head>
+            </figure>
+            <figure>
+               <head>Die zweite Nacht, Abbildung zwischen S. 132 und 133</head>
+            </figure>
+         </div>
+      </body>
+   </text>
+</TEI>

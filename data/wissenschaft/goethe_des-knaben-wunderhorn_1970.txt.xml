@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Des Knaben Wunderhorn</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118540238">
+                  <forename>Johann Wolfgang</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Goethe</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:09Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004856007</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Goethe, Johann Wolfgang/Theoretische Schriften/Des Knaben Wunderhorn</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/11h3h.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0006-68BE-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Johann Wolfgang von Goethe: Berliner Ausgabe. Kunsttheoretische Schriften und Übersetzungen [Band 17–22], Band 17, Berlin 1960 ff</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Kunsttheoretische Schriften und Übersetzungen</title>
+                  <title level="m" type="volume">1: Aufsätze zu Schauspielkunst und Musik. Aufsätze zur
+      deutschen Literatur </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">405 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Aufbau Verlag</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1970</date>
+                  <date type="firstPublication">1806</date>
+                  <date type="firstPublication" subtype="clariah">1806</date>
+                  <date type="firstPublication" subtype="zeno">1806</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1749"
+                        notAfter="1832"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="s" type="main">Berliner Ausgabe</title>
+                  <title level="s" type="volume">Band 17</title>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Goethe-Johann-W-d1e344593">Erstdruck in: Allgemeine Literaturzeitung (Jena), Nr. 18/19, vom 21./22. Januar 1806</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Theoretische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theorie</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Johann Wolfgang Goethe</p>
+            <p rend="h2">»Des Knaben Wunderhorn«</p>
+            <p rend="h4">Alte deutsche Lieder,</p>
+            <p>herausgegeben von Achim von Arnim</p>
+            <p>und Clemens Brentano</p>
+            <p>Heidelberg, bei Mohr und Zimmer. 1806.</p>
+            <p>470 S. gr. 8° (2 Rtlr. 12 Gr.)</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Goethe-Johann-W-d1e344593">
+            <p>
+               <pb n="390" facs="#f0001"/>
+Die Kritik dürfte sich vorerst nach unserem Dafürhalten mit dieser Sammlung nicht befassen. Die Herausgeber haben solche mit so viel Neigung, Fleiß, Geschmack, Zartheit zusammengebracht und behandelt, daß ihre Landsleute dieser liebevollen Mühe nun wohl erst mit gutem Willen, Teilnahme und Mitgenuß zu danken hätten. Von Rechts wegen sollte dieses Büchlein in jedem Hause, wo frische Menschen wohnen, am Fenster, unterm Spiegel, oder wo sonst Gesang- und Kochbücher zu liegen pflegen, <pb n="391" facs="#f0002"/>
+zu finden sein, um aufgeschlagen zu werden in jedem Augenblick der Stimmung oder Unstimmung, wo man denn immer etwas Gleichtönendes oder Anregendes fände, wenn man auch allenfalls das Blatt ein paarmal umschlagen müßte.</p>
+            <p rendition="#et">Am besten aber läge doch dieser Band auf dem Klavier des Liebhabers oder Meisters der Tonkunst, um den darin enthaltenen Liedern entweder mit bekannten, hergebrachten Melodien ganz ihr Recht widerfahren zu lassen oder ihnen schickliche Weisen anzuschmiegen oder, wenn Gott wollte, neue bedeutende Melodien durch sie hervorzulocken.</p>
+            <p rendition="#et">Würden dann diese Lieder nach und nach in ihrem eigenen Ton- und Klangelemente von Ohr zu Ohr, von Mund zu Mund getragen, kehrten sie allmählich belebt und verherrlicht zum Volke zurück, von dem sie zum Teil gewissermaßen ausgegangen, so könnte man sagen, das Büchlein habe seine Bestimmung erfüllt und könne nun wieder als geschrieben und gedruckt verlorengehen, weil es in Leben und Bildung der Nation übergegangen.</p>
+            <p rendition="#et">Weil nun aber in der neueren Zeit, besonders in Deutschland, nichts zu existieren und zu wirken scheint, wenn nicht darüber geschrieben und wieder geschrieben und geurteilt und gestritten wird, so mag denn auch über diese Sammlung hier einige Betrachtung stehen, die, wenn sie den Genuß auch nicht erhöht und verbreitet, doch wenigstens ihm nicht entgegenwirken soll.</p>
+            <p rendition="#et">Was man entschieden zu Lob und Ehren dieser Sammlung sagen kann, ist, daß die Teile derselben durchaus mannigfaltig charakteristisch sind. Sie enthält über zweihundert Gedichte aus den drei letzten Jahrhunderten, sämtlich dem Sinne, der Erfindung, dem Ton, der Art und Weise nach dergestalt voneinander unterschieden, daß man keins dem andern vollkommen gleichstellen kann. Wir übernehmen das unterhaltende Geschäft, sie alle der Reihe nach, so wie es uns der Augenblick eingibt, zu charakterisieren.</p>
+            <p rendition="#et">»Das Wunderhorn«. (Seite 13.) Feenhaft, kindlich, gefällig.</p>
+            <p rendition="#et">
+               <pb n="392" facs="#f0003"/>
+»Des Sultans Töchterlein«. (15.) Christlich zart, anmutig.</p>
+            <p rendition="#et">»Tell und sein Kind«. (17.) Rechtlich und tüchtig.</p>
+            <p rendition="#et">»Großmutter Schlangenköchin«. (19.) Tief, rätselhaft, dramatisch vortrefflich behandelt.</p>
+            <p rendition="#et">»Jesaias Gesicht«. (20.) Barbarisch groß.</p>
+            <p rendition="#et">»Das Feuerbesprechen«. (21.) Räuberisch ganz gehörig und recht.</p>
+            <p rendition="#et">»Der arme Schwartenhals«. (22.) Vagabundisch, launig, lustig.</p>
+            <p rendition="#et">»Der Tod und das Mädchen«. (24.) In Totentanzart, holzschnittmäßig, lobenswürdig.</p>
+            <p rendition="#et">»Nachtmusikanten«. (29.) Närrisch, ausgelassen, köstlich.</p>
+            <p rendition="#et">»Widerspenstige Braut«. (30.) Humoristisch, etwas fratzenhaft.</p>
+            <p rendition="#et">»Klosterscheu«. (32.) Launenhaft verworren und doch zum Zweck.</p>
+            <p rendition="#et">»Der vorlaute Ritter«. (32.) Im real-romantischen Sinn gar zu gut.</p>
+            <p rendition="#et">»Die schwarzbraune Hexe«. (34.) Durch Überlieferung etwas konfus, der Grund aber unschätzbar.</p>
+            <p rendition="#et">»Der Dollinger«. (36.) Ritterhaft tüchtig.</p>
+            <p rendition="#et">»Liebe ohne Stand«. (37.) Dunkel romantisch.</p>
+            <p rendition="#et">»Gastlichkeit des Winters«. (39.) Sehr zierlich.</p>
+            <p rendition="#et">»Die hohe Magd«. (40.) Christlich pedantisch, nicht ganz unpoetisch.</p>
+            <p rendition="#et">»Liebe spinnt keine Seide«. (42.) Lieblich konfus und deswegen Phantasie erregend.</p>
+            <p rendition="#et">»Husarenglaube«. (43.) Schnelligkeit, Leichtigkeit musterhaft ausgedrückt.</p>
+            <p rendition="#et">»Rattenfänger von Hameln«. (44.) Zuckt aufs Bänkelsängerische, aber nicht unfein.</p>
+            <p rendition="#et">»Schürz dich Gretlein«. (46.) Im Vagabundensinn. Unerwartet epigrammatisch.</p>
+            <p rendition="#et">»Lied vom Ringe«. (48.) Romantisch zart.</p>
+            <p rendition="#et">»Der Ritter und die Magd«. (50.) Dunkel romantisch, gewaltsam. <pb n="393" facs="#f0004"/>
+»Der Schreiber im Korb«. (53.) Den Schlag wiederholendes zweckmäßiges Spottgedicht.</p>
+            <p rendition="#et">»Erntelied«. (55.) Katholisches Kirchentodeslied. Verdiente, protestantisch zu sein.</p>
+            <p rendition="#et">»Überdruß der Gelahrtheit«. (57.) Sehr wacker. Aber der Pedant kann die Gelahrtheit nicht loswerden.</p>
+            <p rendition="#et">»Schlacht bei Murten«. (58.) Realistisch, wahrscheinlich modernisiert.</p>
+            <p rendition="#et">»Liebesprobe«. (61.) Im besten Handwerksburschensinne und auch trefflich gemacht.</p>
+            <p rendition="#et">»Der Falke«. (63.) Groß und gut.</p>
+            <p rendition="#et">»Die Eile der Zeit in Gott«. (64.) Christlich, etwas zu historisch; aber dem Gegenstande gemäß und recht gut.</p>
+            <p rendition="#et">»Das Rautensträuchlein«. (69.) Eine Art Trümmer, sehr lieblich.</p>
+            <p rendition="#et">»Die Nonne«. (70.) Romantisch, empfindungsvoll und schön.</p>
+            <p rendition="#et">»Revelje«. (72.) Unschätzbar für den, dessen Phantasie folgen kann.</p>
+            <p rendition="#et">»Fastnacht«. (74.) Liebehaft, leise.</p>
+            <p rendition="#et">»Diebsstellung«. (75.) Holzschnittartig, sehr gut.</p>
+            <p rendition="#et">»Wassersnot«. (77.) Anschauung, Gefühl, Darstellung, überall das Rechte.</p>
+            <p rendition="#et">»Tamboursgesell«. (78.) Heitere Vergegenwärtigung eines ängstlichen Zustandes. Ein Gedicht, dem der Einsehende schwerlich ein gleiches an die Seite setzen könnte.</p>
+            <p rendition="#et">»David«. (79.) Katholisch hergebracht, aber noch ganz gut und zweckmäßig.</p>
+            <p rendition="#et">»Sollen und Müssen«. (80.) Vortrefflich in der Anlage, obgleich hier in einem zerstückten und wunderlich restaurierten Zustande.</p>
+            <p rendition="#et">»Liebesdienst«. (83.) Deutsch romantisch, fromm-sinnig und gefällig.</p>
+            <p rendition="#et">»Geht dir's wohl, so denk an mich«. (84.) Anmutiger singbarer Klang.</p>
+            <p rendition="#et">»Der Tannhäuser«. (86.) Großes christlich-katholisches Motiv.</p>
+            <p rendition="#et">
+               <pb n="394" facs="#f0005"/>
+»Mißheirat«. (90.) Treffliche, rätselhafte Fabel, ließe sich vielleicht mit wenigem anschaulicher und für den Teilnehmer befriedigender behandeln.</p>
+            <p rendition="#et">»Wiegenlied«. (92.) Reimhafter Unsinn, zum Einschläfern völlig zweckmäßig.</p>
+            <p rendition="#et">»Frau Nachtigall«. (93.) Eine kunstlose Behandlung zugegeben, dem Sinne nach höchst anmutig.</p>
+            <p rendition="#et">»Die Juden in Passau«. (93.) Bänkelsängerisch, aber lobenswert.</p>
+            <p rendition="#et">»Kriegslied gegen Karl V.«. (97.) Protestantisch, höchst tüchtig.</p>
+            <p rendition="#et">»Der Bettelvogt«. (100.) Im Vagabundensinne gründlich und unschätzbar.</p>
+            <p rendition="#et">»Von den klugen Jungfrauen«. (101.) Recht großmütig, herzerhebend, wenn man in den Sinn eindringt.</p>
+            <p rendition="#et">»Müllers Abschied«. (102.) Für den, der die Lage fassen kann, unschätzbar, nur daß die erste Strophe einer Emendation bedarf.</p>
+            <p rendition="#et">»Abt Neidhard und seine Mönche«. (103.) Ein Till-Streich von der besten Sorte und trefflich dargestellt.</p>
+            <p rendition="#et">»Von zwölf Knaben«. (109.) Leichtfertig, ganz köstlich.</p>
+            <p rendition="#et">»Kurze Weile«. (110.) Deutsch romantisch, sehr lieblich.</p>
+            <p rendition="#et">»Kriegslied des Glaubens«. (112.) Protestantisch derb, treffend und durchschlagend.</p>
+            <p rendition="#et">»Tabakslied«. (114.) Trümmerhaft, aber Bergbau und Tabak gut bezeichnend.</p>
+            <p rendition="#et">»Das fahrende Fräulein«. (114.) Tief und schön.</p>
+            <p rendition="#et">»Bettelei der Vögel«. (115.) Gar liebenswürdig.</p>
+            <p rendition="#et">»Die Greuelhochzeit«. (117.) Ungeheurer Fall, bänkelsängerisch, aber lobenswürdig behandelt.</p>
+            <p rendition="#et">»Der vortreffliche Stallbruder«. (120.) Unsinn, aber wohl dem, der ihn behaglich singen könnte.</p>
+            <p rendition="#et">»Unerhörte Liebe«. (121.) Schön, sich aber doch einer gewissen philisterhaften Prosa nähernd.</p>
+            <p rendition="#et">»Das Bäumlein«. (124.) Sehnsuchtsvoll, spielend und doch herzinniglich.</p>
+            <p rendition="#et">
+               <pb n="395" facs="#f0006"/>
+»Lindenschmied«. (125.) Von dem Reiterhaften, Holzschnittartigen die allerbeste Sorte.</p>
+            <p rendition="#et">»Lied vom alten Hildebrand«. (128.) Auch sehr gut, doch früher und in der breiteren Manier gedichtet.</p>
+            <p rendition="#et">»Friedenslied«. (134.) Andächtig, bekannte Melodie, ans Herz redend.</p>
+            <p rendition="#et">»Friedenslied«. (137.) Gut, aber zu modern und reflektiert.</p>
+            <p rendition="#et">»Drei Schwestern«. (139.) Sehr wacker in der derben Art.</p>
+            <p rendition="#et">»Der Englische Gruß«. (140.) Die anmutige, bloß katholische Art, christliche Mysterien ans menschliche, besonders deutsche Gefühl herüberzuführen.</p>
+            <p rendition="#et">»Vertraue«. (141.) Seltsam, tragisch, zum Grund ein vortreffliches Motiv.</p>
+            <p rendition="#et">»Das Leiden des Herrn«. (142.) Die große Situation ins Gemeine gezogen, in diesem Sinne nicht tadelhaft.</p>
+            <p rendition="#et">»Der Schweizer«. (145.) Recht gut, sentimentaler, aber lange nicht so gut als der »Tamboursgesell« (78).</p>
+            <p rendition="#et">»Pura«. (146.) Schöne Fabel, nicht schlecht, aber auch nicht vorzüglich behandelt.</p>
+            <p rendition="#et">»Die kluge Schäferin«. (149.) Gar heiter, frei- und frohmütig.</p>
+            <p rendition="#et">»Ritter Sankt Georg«. (151.) Ritterlich, christlich, nicht ungeschickt dargestellt, aber nicht erfreulich.</p>
+            <p rendition="#et">»Die Pantoffeln«. (156.) Schöne Anlage, hier fragmentarisch, ungenießbar.</p>
+            <p rendition="#et">»Xaver«. (157.) Sehr wacker, dem Charakter nach, doch zu wort- und phrasenhaft.</p>
+            <p rendition="#et">»Wachtelwacht«. (159.) Als Ton nachahmend, Zustand darstellend, bestimmtes Gefühl aufrufend unschätzbar.</p>
+            <p rendition="#et">»Das Tod-Austreiben«. (161.) Gar lustig, wohlgefühlt und zweckmäßig.</p>
+            <p rendition="#et">»Gegen das Quartanfieber«. (161.) Unsinnige Formel, wie billig.</p>
+            <p rendition="#et">»Zum Festmachen«. (162.) Glücklicher Einfall.</p>
+            <p rendition="#et">»Aufgegebene Jagd«. (162.) Fordert den Ton des Waldhorns.</p>
+            <p rendition="#et">
+               <pb n="396" facs="#f0007"/>
+»Wer 's Lieben erdacht«. (163.) Gar knabenhaft von Grund aus.</p>
+            <p rendition="#et">»Des Herrn Weingarten«. (165.) Liebliche Versinnlichung christlicher Mysterien.</p>
+            <p rendition="#et">»Cedrons Klage«. (166.) Nicht eben so glücklich. Man sieht dieser Klage zu sehr den »Gradus ad Parnassum« an.</p>
+            <p rendition="#et">»Frühlingsbeklemmung«. (172.) Besser als das vorige. Doch hört man immer noch das Wort- und Bildgeklapper.</p>
+            <p rendition="#et">»Lobgesang auf Maria«. (174.) Auch diesem läßt sich vielleicht ein Geschmack abgewinnen.</p>
+            <p rendition="#et">»Abschied von Maria«. (178.) Interessante Fabel und anmutige Behandlung.</p>
+            <p rendition="#et">»Ehstand der Freude«. (181.) Derb-lustig, muß gesungen werden wie irgendeins.</p>
+            <p rendition="#et">»Amor«. (182.) Niedlich und wunderlich genug.</p>
+            <p rendition="#et">»Vom großen Bergbau der Welt«. (183.) Tief und ahnungsvoll, dem Gegenstande gemäß. Ein Schatz für Bergleute.</p>
+            <p rendition="#et">»Husarenbraut«. (188.) Nicht eben schlimm.</p>
+            <p rendition="#et">»Das Straßburger Mädchen«. (189.) Liegt ein liebliches Begebnis zugrund, zart und phantastisch behandelt.</p>
+            <p rendition="#et">»Zwei Röselein«. (190.) Ein Ereignen zwischen Liebesleuten, von der zartesten Art, dargestellt, wie es besser nicht möglich ist.</p>
+            <p rendition="#et">»Das Mädchen und die Hasel«. (192.) Gar natürlich gute und frische Sittenlehre.</p>
+            <p rendition="#et">»Königstochter aus England«. (193.) Nicht zu schelten; doch spürt man zu sehr das Pfaffenhafte.</p>
+            <p rendition="#et">»Schall der Nacht«. (198.) Wird gesungen herzerfreulich sein.</p>
+            <p rendition="#et">»Große Wäsche«. (201.) Feenhaft und besonders.</p>
+            <p rendition="#et">»Der Palmbaum«. (202.) So recht von Grund aus herzlich.</p>
+            <p rendition="#et">»Der Fuhrmann«. (203.) Gehört zu den guten Vagabunden-, Handwerks- und Gewerbsliedern.</p>
+            <p rendition="#et">»Pfauenart«. (204.) Gute Neigung, bescheiden ausgedrückt.</p>
+            <p rendition="#et">»Der Schildwache Nachtlied«. (205.) Ans Quodlibet streifend, dem tiefen und dunklen Sinne der Ausdruck gemäß.</p>
+            <p rendition="#et">
+               <pb n="397" facs="#f0008"/>
+»Der traurige Garten«. (206.) Süße Neigung.</p>
+            <p rendition="#et">»Hüt du dich«. (207.) Im Sinn und Klang des Vaudeville sehr gut.</p>
+            <p rendition="#et">»Die mystische Wurzel«. (208.) Geistreich, wobei man sich doch des Lächelns über ein falsches Gleichnis nicht enthalten kann.</p>
+            <p rendition="#et">»Rätsel«. (209.) Nicht ganz glücklich.</p>
+            <p rendition="#et">»Wie kommt's, daß du so traurig bist«. (210.) Streift ans Quodlibet, wahrscheinlich Trümmer.</p>
+            <p rendition="#et">»Unkraut«. (211.) Quodlibet von der besten Art.</p>
+            <p rendition="#et">»Der Wirtin Töchterlein«. (212.) Höchst lieblich, aber nicht so recht ganz.</p>
+            <p rendition="#et">»Wer hat das Liedlein erdacht«. (213.) Eine Art übermütiger Fratze, zur rechten Zeit und Stunde wohl lustig genug.</p>
+            <p rendition="#et">»Doktor Faust«. (214.) Tiefe und gründliche Motive, könnten vielleicht besser dargestellt sein.</p>
+            <p rendition="#et">»Müllertücke«. (218.) Bedeutende Mordgeschichte, gut dargestellt.</p>
+            <p rendition="#et">»Der unschuldig Hingerichtete«. (220.) Ernste Fabel, lakonisch trefflich vorgetragen.</p>
+            <p rendition="#et">»Ringlein und Fähnlein«. (223.) Sehr gefällig romantisch. Das Reimgeklingel tut der Darstellung Schaden, bis man sich allenfalls daran gewöhnen mag.</p>
+            <p rendition="#et">»Die Hand«. (226.) Bedeutendes Motiv kurz abgefertigt.</p>
+            <p rendition="#et">»Martinsgans«. (226.) Bauerburschenhaft, lustig losgebunden.</p>
+            <p rendition="#et">»Die Mutter muß gar sein allein«. (227.) Nicht recht von Grund und Brust aus, sondern nach einer schon vorhandenen Melodie gesungen.</p>
+            <p rendition="#et">»Der stolze Schäfersmann«. (229.) Tiefe schöne Fabel, durch den Widerklang des Vaudeville ein sonderbarer, aber für den Gesang bedeutender Vortrag.</p>
+            <p rendition="#et">»Wenn ich ein Vöglein wär«. (231.) Einzig schön und wahr.</p>
+            <p rendition="#et">»An einen Boten«. (232.) Einzig lustig und gutlaunig.</p>
+            <p rendition="#et">»Weine nur nicht«. (232.) Leidlicher Humor, aber doch ein bißchen plump.</p>
+            <p rendition="#et">
+               <pb n="398" facs="#f0009"/>
+»Käuzlein«. (233.) Wunderlich, von tiefem, ernstem, köstlichem Sinn.</p>
+            <p rendition="#et">»Weinschröterlied«. (234.) Unsinn der Beschwörungsformeln.</p>
+            <p rendition="#et">»Maikäferlied«. (235.) Desgleichen.</p>
+            <p rendition="#et">»Marienwürmchen«. (235.) Desgleichen, mehr ins Zarte geleitet.</p>
+            <p rendition="#et">»Der verlorne Schwimmer«. (236.) Anmutig und voll Gefühl.</p>
+            <p rendition="#et">»Die Prager Schlacht«. (237.) Rasch und knapp, eben als wenn es drei Husaren gemacht hätten.</p>
+            <p rendition="#et">»Frühlingsblumen«. (239.) Wenn man die Blumen nicht so entsetzlich satt hätte, so möchte dieser Kranz wohl artig sein.</p>
+            <p rendition="#et">»Guckguck«. (241.) Neckisch bis zum Fratzenhaften, doch gefällig.</p>
+            <p rendition="#et">»Die Frau von Weißenburg«. (242.) Eine gewaltige Fabel, nicht ungemäß vorgetragen.</p>
+            <p rendition="#et">»Soldatentod«. (245.) Möchte vielleicht im Frieden und beim Ausmarsch erbaulich zu singen sein. Im Krieg und in der ernsten Nähe des Unheils wird so etwas greulich, wie das neuerlich belobte Lied: »Der Krieg ist gut«.</p>
+            <p rendition="#et">»Die Rose«. (251.) Liebliche Liebesergebenheit.</p>
+            <p rendition="#et">»Die Judentochter«. (252.) Passender seltsamer Vortrag zu konfusem und zerrüttetem Gemütswesen.</p>
+            <p rendition="#et">»Drei Reiter«. (253.) Ewiges und unzerstörliches Lied des Scheidens und Meidens.</p>
+            <p rendition="#et">»Schlachtlied«. (254.) In künftigen Zeiten zu singen.</p>
+            <p rendition="#et">»Herr von Falkenstein«. (255.) Von der guten, zarten, innigen Romanzenart.</p>
+            <p rendition="#et">»Das römische Glas«. (257.) Desgleichen. Etwas rätselhafter.</p>
+            <p rendition="#et">»Rosmarin«. (258.) Ruhiger Blick ins Reich der Trennung.</p>
+            <p rendition="#et">»Der Pfalzgraf am Rhein«. (259.) Barbarische Fabel und gemäßer Vortrag.</p>
+            <p rendition="#et">
+               <pb n="399" facs="#f0010"/>
+»Vogel Phönix«. (261.) Nicht mißlungene christliche Allegorie.</p>
+            <p rendition="#et">»Der unterirdische Pilger«. (262.) Müßte in Schächten, Stollen und auf Strecken gesungen und empfunden werden. Über der Erde wird's einem zu dunkel dabei.</p>
+            <p rendition="#et">»Herr Olof«. (261 b.) Unschätzbare Ballade.</p>
+            <p rendition="#et">»Ewigkeit«. (263 b.) Katholischer Kirchengesang. Wenn man die Menschen konfus machen will, so ist dies ganz der rechte Weg.</p>
+            <p rendition="#et">»Der Graf und die Königstochter«. (265b.) Eine Art von Pyramus und Thisbe. Die Behandlung solcher Fabeln gelang unsern Voreltern nicht.</p>
+            <p rendition="#et">»Moritz von Sachsen«. (270.) Ein ahnungsvoller Zustand und großes trauriges Ereignis mit Phantasie dargestellt.</p>
+            <p rendition="#et">»Ulrich und Ännchen«. (274.) Die Fabel vom Blaubart, in mehr nördlicher Form, gemäß dargestellt.</p>
+            <p rendition="#et">»Vom vornehmen Räuber«. (276.) Sehr tüchtig, dem »Lindenschmied« (125) zu vergleichen.</p>
+            <p rendition="#et">»Der geistliche Kämpfer«. (277.) »Christ Gottes Sohn allhie« hätte durch sein Leiden wohl einen besseren Poeten verdient.</p>
+            <p rendition="#et">»Dusle und Babely«. (281.) Köstlicher Abdruck des schweizerbäurischen Zustandes und des höchsten Ereignisses dort zwischen zwei Liebenden.</p>
+            <p rendition="#et">»Der eifersüchtige Knabe«. (282.) Das Wehen und Weben der rätselhaft mordgeschichtlichen Romanzen ist hier höchst lebhaft zu fühlen.</p>
+            <p rendition="#et">»Der Herr am Ölberg«. (283.) Diesem Gedicht geschieht Unrecht, daß es hier steht. In dieser, meist natürlichen Gesellschaft wird einem die Allegorie der Anlage sowie das poetisch Blumenhafte der Ausführung unbillig zuwider.</p>
+            <p rendition="#et">»Abschied von Bremen«. (289.) Handwerksburschenhaft genug, doch zu prosaisch.</p>
+            <p rendition="#et">»Aurora«. (291.) Gut gedacht, aber doch nur gedacht.</p>
+            <p rendition="#et">»Werd ein Kind«. (291.) Ein schönes Motiv, pfaffenhaft verschoben.</p>
+            <p rendition="#et">
+               <pb n="400" facs="#f0011"/>
+»Der ernsthafte Jäger«. (292.) Ein bißchen barsch, aber gut.</p>
+            <p rendition="#et">»Der Mordknecht«. (294.) Bedeutend, seltsam und tüchtig.</p>
+            <p rendition="#et">»Der Prinzenraub«. (296.) Nicht gerade zu schelten, aber nicht befriedigend.</p>
+            <p rendition="#et">»Nächten und Heute«. (298.) Ein artig Lied des Inhalts, der so oft vorkommt: Cosi fan tutte und tutti.</p>
+            <p rendition="#et">»Der Spaziergang«. (299.) Mehr Reflexion als Gesang.</p>
+            <p rendition="#et">»Das Weltende«. (300.) Deutet aufs Quodlibet, läßt was zu wünschen übrig.</p>
+            <p rendition="#et">»Bayrisches Alpenlied«. (301.) Allerliebst, nur wird man vornherein irre, wenn man nicht weiß, daß unter dem Palmbaum die Stechpalme gemeint ist. Mit einem Dutzend solcher Noten wäre manchem Liede zu mehrerer Klarheit zu helfen gewesen.</p>
+            <p rendition="#et">»Jäger Wohlgemut«. (303.) Gut, aber nicht vorzüglich.</p>
+            <p rendition="#et">»Der Himmel hängt voll Geigen«. (304.) Eine christliche Cocagne, nicht ohne Geist.</p>
+            <p rendition="#et">»Die fromme Magd«. (306.) Gar hübsch und sittig.</p>
+            <p rendition="#et">»Jagdglück«. (306.) Zum Gesang erfreulich, im Sinne nicht besonders. Überhaupt wiederholen die Jägerlieder, vom Tone des Waldhorns gewiegt, ihre Motive zu oft ohne Abwechseln.</p>
+            <p rendition="#et">»Kartenspiel«. (308.) Artiger Einfall und guter Humor.</p>
+            <p rendition="#et">»Für funfzehn Pfennige«. (309.) Von der allerbesten Art, einen humoristischen Refrain zu nutzen.</p>
+            <p rendition="#et">»Der angeschossene Guckguck«. (311.) Nur Schall, ohne irgendeine Art von Inhalt.</p>
+            <p rendition="#et">»Warnung«. (313.) Ein »Guckguck« von einer viel besseren Sorte.</p>
+            <p rendition="#et">»Das große Kind«. (314.) Höchst süße. Wäre wohl wert, daß man ihm das Ungeschickte einiger Reime und Wendungen benähme.</p>
+            <p rendition="#et">»Das heiße Afrika«. (315.) Spukt doch eigentlich nur der Halberstädter Grenadier.</p>
+            <p rendition="#et">»Das Wiedersehn am Brunnen«. (317.) Voll Anmut und Gefühl.</p>
+            <p rendition="#et">
+               <pb n="401" facs="#f0012"/>
+»Das Haßlocher Tal«. (319.) Seltsame Mordgeschichte, gehörig vorgetragen.</p>
+            <p rendition="#et">»Abendlied«. (321.) Sehr lobenswürdig, von der recht guten lyrisch-episch-dramatischen Art.</p>
+            <p rendition="#et">»Der Scheintod«. (322.) Sehr schöne wohlausgestattete Fabel, gut vorgetragen.</p>
+            <p rendition="#et">»Die drei Schneider«. (325.) Wenn doch einmal eine Gilde vexiert werden soll, so geschieht's hier lustig genug.</p>
+            <p rendition="#et">»Nächtliche Jagd«. (327.) Die Intention ist gut, der Ton nicht zu schelten, aber der Vortrag ist nicht hinreichend.</p>
+            <p rendition="#et">»Spielmanns Grab«. (328.) Ausgelassenheit, unschätzbarer sinnlicher Bauernhumor.</p>
+            <p rendition="#et">»Knabe und Veilchen«. (329.) Zart und zierlich.</p>
+            <p rendition="#et">»Der Graf im Pfluge«. (330.) Gute Ballade, doch zu lang.</p>
+            <p rendition="#et">»Drei Winterrosen«. (339.) Zu sehr abgekürzte Fabel von dem Wintergarten, der schon im Boiardo vorkommt.</p>
+            <p rendition="#et">»Der beständige Freier«. (341.) Echo, versteckter Totentanz, wirklich sehr zu loben.</p>
+            <p rendition="#et">»Von Hofleuten«. (343.) Wäre noch erfreulicher, wenn nicht eine, wie es scheint, falsche Überschrift auf eine Allegorie deutete, die man im Lied weder finden kann noch mag.</p>
+            <p rendition="#et">»Lied beim Heuen«. (345.) Köstliches Vaudeville, das unter mehreren Ausgaben bekannt ist.</p>
+            <p rendition="#et">»Fischpredigt«. (347.) Unvergleichlich, dem Sinne und der Behandlung nach.</p>
+            <p rendition="#et">»Die Schlacht bei Sempach«. (349.) Wacker und derb, doch nahe zu chronikenhaft prosaisch.</p>
+            <p rendition="#et">»Algerius«. (353.) Fromm, zart und voll Glaubenskraft.</p>
+            <p rendition="#et">»Doppelte Liebe«. (354.) Artig, könnte aber der Situation nach artiger sein.</p>
+            <p rendition="#et">»Manschettenblume«. (356.) Wunderlich romantisch, gehaltvoll.</p>
+            <p rendition="#et">»Der Fähndrich«. (358.) Mit Eigenheit; doch hätte die Gewalt, welche der Fähndrich dem Mädchen angetan, <pb n="402" facs="#f0013"/>
+müssen ausgedrückt werden, sonst hat es keinen Sinn, daß er hängen soll.</p>
+            <p rendition="#et">»Gegen die Schweizer Bauern«. (360.) Tüchtige und doch poetische Gegenwart. Der Zug, daß ein Bauer das Glas in den Rhein wirft, weil er in dessen Farbenspiel den Pfauenschwanz zu sehen glaubt, ist höchst revolutionär und treffend.</p>
+            <p rendition="#et">»Kinder still zu machen«. (362.) Recht artig und kindlich.</p>
+            <p rendition="#et">»Gesellschaftslied«. (363.) In Tillen-Art kapital.</p>
+            <p rendition="#et">»Das Gnadenbild«. (366.) Ist hübsch, wenn man sich den Zustand um einen solchen Wallfahrtsort vergegenwärtigen mag.</p>
+            <p rendition="#et">»Geh du nur hin«. (371.) Frank und frech.</p>
+            <p rendition="#et">»Verlorne Mühe«. (372.) Treffliche Darstellung weiblicher Betulichkeit und täppischen Männerwesens.</p>
+            <p rendition="#et">»Starke Einbildungskraft«. (373.) Zarter Hauch, kaum festzuhalten.</p>
+            <p rendition="#et">»Die schlechte Liebste«. (374.) Innig gefühlt und recht gedacht.</p>
+            <p rendition="#et">»Maria auf der Reise«. (375.) Hübsch und zart, wie die Katholiken mit ihren mythologischen Figuren das gläubige Publikum gar zweckmäßig zu beschäftigen und zu belehren wissen.</p>
+            <p rendition="#et">»Der geadelte Bauer«. (376.) Recht gut gesehen und mit Verdruß launisch dargestellt.</p>
+            <p rendition="#et">»Abschiedszeichen«. (378.) Recht lieblich.</p>
+            <p rendition="#et">»Die Ausgleichung«. (379.) Die bekannte Fabel vom Becher und Mantel, kurz und bedeutend genug dargestellt.</p>
+            <p rendition="#et">»Petrus«. (382.) Scheint uns gezwungen freigeistisch.</p>
+            <p rendition="#et">»Gott grüß euch, Alter«. (384.) Modern und sentimental, aber nicht zu schelten.</p>
+            <p rendition="#et">»Schwere Wacht«. (386.) Zieht schon in das umständliche klang- und sangreiche Minnesängerwesen herüber.</p>
+            <p>1) »Jungfrau und Wächter«. Gar liebreich, doch auch zu umständlich.</p>
+            <p>2) »Der lustige Geselle«. Ist uns lieber als die vorhergehenden.</p>
+            <p>
+               <pb n="403" facs="#f0014"/>
+3) »Variation«. Macht hier zu großen Kontrast: denn es gehört zu der tiefen, wunderlichen, deutschen Balladenart.</p>
+            <p>4) »Beschluß«. Paßt nicht in diese Reihe.</p>
+            <p>»Der Pilger und die fromme Dame«. (396.) Ein guter, wohldargestellter Schwank.</p>
+            <p rendition="#et">»Kaiserliches Hochzeitlied«. (397.) Barbarisch-pedantisch und doch nicht ohne poetisches Verdienst.</p>
+            <p rendition="#et">»Antwort Mariä auf den Gruß der Engel«. (406.) Das liebenswürdigste von allen christ-katholischen Gedichten in diesem Bande.</p>
+            <p rendition="#et">»Stauffenberg und die Meerfeie«. (407.) Recht lobenswerte Fabel, gedrängt genug vorgetragen, klug verteilt. Würde zu kurz scheinen, wenn man nicht an lauter kürzere Gedichte gewöhnt wäre.</p>
+            <p rendition="#et">»Des Schneiders Feierabend«. (418.) In der Holzschnittsart, so gut als man es nur wünschen kann.</p>
+            <p rendition="#et">Mit dieser Charakterisierung aus dem Stegreife: denn wie könnte man sie anders unternehmen? gedenken wir niemand vorzugreifen, denen am wenigsten, die durch wahrhaft lyrischen Genuß und echte Teilnahme einer sich ausdehnenden Brust viel mehr von diesen Gedichten fassen werden, als in irgendeiner lakonischen Bestimmung des mehr oder minderen Bedeutens geleistet werden kann. Indessen sei uns über den Wert des Ganzen noch folgendes zu sagen vergönnt.</p>
+            <p rendition="#et">Diese Art Gedichte, die wir seit Jahren Volkslieder zu nennen pflegen, ob sie gleich eigentlich weder vom Volk noch fürs Volk gedichtet sind, sondern weil sie so etwas Stämmiges, Tüchtiges in sich haben und begreifen, daß der kern- und stammhafte Teil der Nationen dergleichen Dinge faßt, behält, sich zueignet und mitunter fortpflanzt – dergleichen Gedichte sind so wahre Poesie, als sie irgend nur sein kann; sie haben einen unglaublichen Reiz, selbst für uns, die wir auf einer höheren Stufe der Bildung stehen, wie der Anblick und die Erinnerung der Jugend fürs Alter <pb n="404" facs="#f0015"/>
+hat. Hier ist die Kunst mit der Natur im Konflikt, und eben dieses Werden, dieses wechselseitige Wirken, dieses Streben scheint ein Ziel zu suchen, und es hat sein Ziel schon erreicht. Das wahre dichterische Genie, wo es auftritt, ist in sich vollendet; mag ihm Unvollkommenheit der Sprache, der äußeren Technik, oder was sonst will, entgegenstehen, es besitzt die höhere innere Form, der doch am Ende alles zu Gebote steht, und wirkt selbst im dunkeln und trüben Elemente oft herrlicher, als es später im klaren vermag. Das lebhafte poetische Anschauen eines beschränkten Zustandes erhebt ein Einzelnes zum zwar begrenzten, doch unumschränkten All, so daß wir im kleinen Raume die ganze Welt zu sehen glauben. Der Drang einer tiefen Anschauung fordert Lakonismus. Was der Prose ein unverzeihliches Hinterstzuvörderst wäre, ist dem wahren poetischen Sinne Notwendigkeit, Tugend, und selbst das Ungehörige, wenn es an unsere ganze Kraft mit Ernst anspricht, regt sie zu einer unglaublich genußreichen Tätigkeit auf.</p>
+            <p rendition="#et">Durch die obige einzelne Charakteristik sind wir einer Klassifikation ausgewichen, die vielleicht künftig noch eher geleistet werden kann, wenn mehrere dergleichen echte, bedeutende Grundgesänge zusammengestellt sind. Wir können jedoch unsere Vorliebe für diejenigen nicht bergen, wo lyrische, dramatische und epische Behandlung dergestalt ineinandergeflochten ist, daß sich erst ein Rätsel aufbaut und sodann mehr oder weniger, und wenn man will, epigrammatisch auflöst. Das bekannte: »Dein Schwert, wie ist's vom Blut so rot, Eduard, Eduard!« ist besonders im Originale das Höchste, was wir in dieser Art kennen.</p>
+            <p rendition="#et">Möchten die Herausgeber aufgemuntert werden, aus dem reichen Vorrat ihrer Sammlungen, so wie aus alten vorliegenden schon gedruckten, bald noch einen Band folgen zu lassen, wobei wir denn freilich wünschen, daß sie sich vor dem Singsang der Minnesinger, vor der bänkelsängerischen Gemeinheit und vor der Plattheit der Meistersänger, <pb n="405" facs="#f0016"/>
+so wie vor allem Pfäffischen und Pedantischen, höchlich hüten mögen.</p>
+            <p rendition="#et">Brächten sie uns noch einen zweiten Teil dieser Art deutscher Lieder zusammen, so wären sie wohl aufzurufen, auch was fremde Nationen, Engländer am meisten, Franzosen weniger, Spanier in einem andern Sinne, Italiener fast gar nicht, dieser Liederweise besitzen, auszusuchen und sie im Original und nach vorhandenen oder von ihnen selbst zu leistenden Übersetzungen darzulegen.</p>
+            <p rendition="#et">Haben wir gleich zu Anfang die Kompetenz der Kritik, selbst im höheren Sinn, auf diese Arbeit gewissermaßen bezweifelt, so finden wir noch mehr Ursache, eine sondernde Untersuchung, inwiefern das alles, was uns hier gebracht ist, völlig echt oder mehr und weniger restauriert sei, von diesen Blättern abzulehnen.</p>
+            <p rendition="#et">Die Herausgeber sind im Sinne des Erfordernisses so sehr, als man es in späterer. Zeit sein kann, und das hie und da seltsam Restaurierte, aus fremdartigen Teilen Verbundene, ja das Untergeschobene ist mit Dank anzunehmen. Wer weiß nicht, was ein Lied auszustehen hat, wenn es durch den Mund des Volkes, und nicht etwa nur des ungebildeten, eine Weile durchgeht! Warum soll der, der es in letzter Instanz aufzeichnet, mit andern zusammenstellt, nicht auch ein gewisses Recht daran haben? Besitzen wir doch aus früherer Zeit kein poetisches und kein heiliges Buch, als insofern es dem Auf- und Abschreiber solches zu überliefern gelang oder beliebte.</p>
+            <p rendition="#et">Wenn wir in diesem Sinne die vor uns liegende gedruckte Sammlung dankbar und läßlich behandeln, so legen wir den Herausgebern desto ernstlicher ans Herz, ihr poetisches Archiv rein, streng und ordentlich zu halten. Es ist nicht nütze, daß alles gedruckt werde; aber sie werden sich ein Verdienst um die Nation erwerben, wenn sie mitwirken, daß wir eine Geschichte unserer Poesie und poetischen Kultur, worauf es denn doch nunmehr nach und nach hinausgehen muß, gründlich, aufrichtig und geistreich erhalten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Ewald Tragy]</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118601024">
+                  <forename>Rainer Maria</forename>
+                  <surname>Rilke</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:25Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005537037</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Rilke, Rainer Maria/Erzählungen und Skizzen/[Ewald Tragy]</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/tcs0.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0004-941C-E</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Rainer Maria Rilke: Sämtliche Werke. Band 1–6, Band 4, Wiesbaden und Frankfurt a.M. 1955–1966</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Sämtliche Werke</title>
+                  <title level="m" type="sub">Band 1–6</title>
+                  <title level="m" type="volume">Band 4</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118601024">
+                        <forename>Rainer Maria</forename>
+                        <surname>Rilke</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">567 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Insel-Verlag</name>
+                  </publisher>
+                  <pubPlace>Wiesbaden, Frankfurt a. M.</pubPlace>
+                  <date type="publication">1961</date>
+                  <date type="firstPublication">1929</date>
+                  <date type="firstPublication" subtype="clariah">1929</date>
+                  <date type="firstPublication" subtype="zeno">1929</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Rilke-Rainer-Ma-d1e56819">Entstanden wohl 1898, Erstdruck: München 1929</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen und Skizzen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Rainer Maria Rilke</p>
+            <p rend="h2">[Ewald Tragy]</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Rilke-Rainer-Ma-d1e56819">
+            <p>
+               <pb n="512" facs="#f0001"/>
+I</p>
+            <p>Ewald Tragy geht neben seinem Vater am »Graben«. Man muß wissen, daß es Sonntagmittag ist und Korso. Die Kleider verraten die Jahreszeit: so Anfang September, abgetragener, mühseliger Sommer. Für manche Toiletten war es nichteinmal der erste. Zum Beispiel für die modegrüne der Frau von Ronay und dann für die von Frau Wanka, blau Foulard; wenn die ein wenig überarbeitet und aufgefrischt wird, denkt der junge Tragy, hält sie gewiß noch ein Jahr aus. Dann kommt ein junges Mädchen und lächelt. Sie trägt blaßrosa Crêpe de Chine, – aber geputzte Handschuhe. Die Herren hinter ihr schwimmen alle durch lauter Benzin. Und Tragy verachtet sie. Er verachtet überhaupt alle diese Leute. Aber er grüßt sehr höflich mit etwas altmodisch betonter Artigkeit.</p>
+            <p rendition="#et">Nur wenn sein Vater dankt oder grüßt – allerdings. Er hat keine Bekannten für sich. Umso öfter muß er den Hut mitabnehmen; denn sein Vater ist vornehm, geachtet, eine sogenannte Persönlichkeit. Er sieht sehr aristokratisch aus, und junge Offiziere und Beamte sind fast stolz, wenn sie ihn begrüßen dürfen. Der alte Herr sagt dann mitten aus einer langen Schweigsamkeit heraus: »Ja« und dankt großmütig. Dieses laute »Ja« hat den Irrtum verbreiten helfen, daß der Herr Inspektor mit seinem Sohn mitten im Durcheinander des Sonntagskorso tiefe und bedeutsame Gespräche hätte und daß eine seltene Übereinstimmung <pb n="513" facs="#f0002"/>
+zwischen den beiden bestünde. Mit den Gesprächen aber ist es so:</p>
+            <p rendition="#et">»Ja«, sagt Herr von Tragy und belohnt damit gleichsam die ideale Frage, welche in einem ergebenen Gruß sich ausprägt und etwa lautet: ›Bin ich nicht artig?‹ »Ja«, sagt der Herr Inspektor, und das ist wie eine Absolution.</p>
+            <p rendition="#et">Manchmal nimmt Tragy, der Sohn, dieses ›Ja‹ wirklich fest und hängt rasch die Frage daran: »Wer war das, Papa?« Und dann steht das arme ›Ja‹ mit der Frage dahinter, wie eine Lokomotive mit vier Waggons auf falschem Geleise, und kann nicht vor und nicht zurück.</p>
+            <p rendition="#et">Herr von Tragy, der Ältere, sieht sich um nach dem letzten Gruß, hat gar keine Ahnung, wer das gewesen sein könnte, denkt aber doch drei Schritte lang nach und sagt dann zum Erbarmen hilflos: »Jaaa?«.</p>
+            <p rendition="#et">Gelegentlich fügt er hinzu: »Dein Hut ist wirklich ganz staubig«.</p>
+            <p rendition="#et">»So«, meint der junge Mensch, gottergeben.</p>
+            <p rendition="#et">Und sie sind beide einen Augenblick traurig. Nach zehn Schritten ist die Vorstellung des staubigen Hutes in den Gedanken von Vater und Sohn abnorm gewachsen.</p>
+            <p rendition="#et">›Alle Leute schauen her, es ist ein Skandal‹, denkt der Ältere, und der junge Mensch strengt sich an, sich zu erinnern, wie denn der unglückselige Hut etwa aussieht und wo der Staub sitzen mag. An der Krempe, fällt ihm ein, und er denkt: ›Man kann ja nie dazu. Es müßte eine Bürste erfunden werden..‹</p>
+            <p rendition="#et">
+               <pb n="514" facs="#f0003"/>
+Da sieht er seinen Hut körperhaft vor sich. Er ist entsetzt: Herr von Tragy hat ihm den Hut einfach vom Kopf gehoben und knipst aufmerksam mit den rotbehandschuhten Fingern drüber hin. Ewald sieht eine Weile barhaupt zu. Dann reißt er mit einem empörten Griff das schmachvolle Ding aus den behutsamen Händen des alten Herrn und stülpt den Filz wild und ungestüm über. Als ob seine Haare in Flammen stünden: »Aber Papa« – und er will noch sagen:</p>
+            <p rendition="#et">›Ich bin achtzehn Jahre alt geworden, – dazu also. Daß du mir hier den Hut vom Kopf nimmst, – am Sonntag, Mittag unter allen Leuten.‹</p>
+            <p rendition="#et">Aber er bringt nicht ein Wort heraus und würgt etwas. Gedemütigt ist er, klein, wie in ausgewachsenen Kleidern.</p>
+            <p rendition="#et">Und der Herr Inspektor geht aufeinmal fern drüben am anderen Rande des Bürgersteigs, steif und feierlich. Er kennt keinen Sohn. Und der ganze Sonntag flutet zwischen ihnen. Allein es ist nicht einer in der Menge, der nicht wüßte, daß die beiden zusammengehören, und jeder bedauert den rücksichtslosen und brutalen Zufall, der sie soweit voneinanderschob. Man weicht einander voll Teilnahme und Verständnis aus und ist erst befriedigt, als man den Vater und den Sohn wieder nebeneinander sieht. Man konstatiert gelegentlich eine gewisse zunehmende Ähnlichkeit im Gang und in den Gesten der beiden und freut sich darüber. Früher war der junge Mensch nämlich außerhalb des Hauses, man sagt, in der Militärerziehung. Von dort kam er eines Tages – wer weiß weshalb – sehr entfremdet zurück. <pb n="515" facs="#f0004"/>
+Jetzt aber: »Bitte, sehen Sie«, sagt ein gutmütiger alter Herr, der von dem Inspektor eben ein ›Ja‹ geschenkt bekommen hat, »er trägt schon den Kopf ein wenig nach links – wie der Vater –«, und der alte Herr strahlt vor Vergnügen über diese Entdeckung.</p>
+            <p rendition="#et">Auch ältere Damen nehmen Interesse an dem jungen Herrn. Sie legen ihn im Vorübergehn eine Weile auf ihre breiten Blicke, wägen ihn ab; sie urteilen: Sein Vater war ein schöner Mann. Er ist es noch. Das wird Ewald nicht. Nein. Weiß Gott wem er ähnlich sieht. Vielleicht seiner Mutter – (wo die übrigens stecken mag). Aber er hat Gestalt, wenn er ein guter Tänzer wird... und die ältere Dame sagt zu der Tochter in Rosa: »Hast du Herrn Tragy auch freundlich gedankt, Elly?«</p>
+            <p rendition="#et">Aber eigentlich ist das alles überflüssig, – die Freude des alten Herrn und die kluge Fürsorge von Ellys Mutter. Denn als die Männer von dem Korso in die leere enge Herrengasse einbiegen, atmet der junge auf:</p>
+            <p rendition="#et">»Der letzte Sonntag.«</p>
+            <p rendition="#et">Er hat ziemlich laut Atem geholt. Trotzdem hat der alte Herr nicht vor, etwas zu antworten. Diese Schweigsamkeit, denkt Ewald. Wie eine Zelle für Tobsüchtige ist sie, taub und so unerbittlich gepolstert auf allen Seiten.</p>
+            <p rendition="#et">So gehen sie bis zum Deutschen Theater.</p>
+            <p rendition="#et">Dort fragt Tragy, der Vater, unvermittelt: »Was?«</p>
+            <p rendition="#et">Und Tragy, der Sohn, wiederholt geduldig: »Der letzte Sonntag.«</p>
+            <p rendition="#et">»Ja,« entgegnet der Inspektor kurz, »wem nicht zu<pb n="516" facs="#f0005"/>
+ raten ist...« Pause. Dann fügt er an: »Geh dir nur die Flügel verbrennen, du wirst schon sehn, was das heißt, sich auf die eigenen Füße stellen. Gut, mach deine Erfahrungen. Ich hab nichts dagegen.«</p>
+            <p rendition="#et">»Aber Papa,« sagt der junge Mensch etwas heftig, »ich glaube, wir haben doch das alles schon oft genug besprochen.«</p>
+            <p rendition="#et">»Aber ich weiß immer noch nicht, was du eigentlich willst. Man geht doch nicht so fort, ins Blaue hinein. Sag mir nur mal, was wirst du denn in München tun?«</p>
+            <p rendition="#et">»Arbeiten –« hat Ewald rasch bereit.</p>
+            <p rendition="#et">»Sooo – als ob du hier nicht arbeiten könntest!«</p>
+            <p rendition="#et">»Hier«, und der junge Herr lächelt überlegen.</p>
+            <p rendition="#et">Herr von Tragy bleibt ganz ruhig: »Was fehlt dir denn hier? Du hast dein Zimmer, dein Essen, alle wollen dir wohl. Und schließlich man ist bekannt hier, und wenn du die Leute richtig behandelst, stehen dir die ersten Häuser offen –«</p>
+            <p rendition="#et">»Immer die Leute, die Leute,« fährt der Sohn in demselben spöttischen Ton fort, »als ob das Alles wäre. Ich kümmer mich den Teufel um die Leute –« (bei dieser stolzen Phrase fällt ihm die Geschichte mit dem Hut ein, und er fühlt, daß er lügt), deshalb betont er nochmals: »sollen mich gern haben – die Leute. Was sind sie denn, bitte? Menschen – vielleicht?«</p>
+            <p rendition="#et">Jetzt ist es an dem alten Herrn, zu lächeln, so ganz eigentümlich lächelt es irgendwo in seinem feinen Gesicht, man kann nicht sagen, ob es um seine Lippen unter dem weißen Schnurrbart oder bei den Augen war.</p>
+            <p rendition="#et">
+               <pb n="517" facs="#f0006"/>
+Es ist auch gleich wieder vorbei. Aber der Achtzehnjährige kann es nicht vergessen; er schämt sich und stellt lauter große Worte vor seine Scham. »Überhaupt,« sagt er endlich und macht einen ungeduldigen Schnörkel mit der Hand durch die Luft, »du scheinst nur zwei Dinge zu kennen, die Leute und das Geld. Um die dreht sich Alles bei dir. Man liegt vor den Leuten auf dem Bauch, das ist der Weg. Und man kriecht auf dem Bauch zum Geld, das ist das Ziel. Nicht?«</p>
+            <p rendition="#et">»Du wirst beides noch brauchen, mein Kind,« sagt der alte Herr geduldig, »und man muß nicht zum Geld kriechen, wenn mans nur immer hat.«</p>
+            <p rendition="#et">»Und wenn mans auch nicht hat, dann –« der junge Tragy zögert ein wenig.</p>
+            <p rendition="#et">»Dann?« fragt der Vater und wartet.</p>
+            <p rendition="#et">»Ooh«, macht der andere sorglos und winkt ab. Es scheint ihm gut, einen neuen Satz zu beginnen. Aber der alte Herr beharrt: »dann« – beendet er rücksichtslos – »wird man ein Lump und macht dem guten, ehrlichen Namen Schande.«</p>
+            <p rendition="#et">»O ihr habt Begriffe –« der junge Herr tut ganz entrüstet.</p>
+            <p rendition="#et">»Wir sind eben nicht von heute«, sagt der alte Herr, »basta.«</p>
+            <p rendition="#et">»Das ist es ja gerade –« triumphiert Tragy, der Sohn, »von irgendwann, von anno olim seid ihr, verstaubt, vertrocknet, überhaupt –«</p>
+            <p rendition="#et">»Schrei nicht«, kommandiert der Inspektor, und man merkt ihm den alten Offizier an.</p>
+            <p rendition="#et">
+               <pb n="518" facs="#f0007"/>
+»Ich habe doch wohl das Recht«</p>
+            <p rendition="#et">»Ruhig!«</p>
+            <p rendition="#et">»Ich darf reden –«</p>
+            <p rendition="#et">»Red du –«, wirft Herr von Tragy verächtlich hin. Wie ein Schlag ins Gesicht ist dieses kurze: ›Red du!‹ Und dann geht der Vater Tragy steif und feierlich hin über auf die andere Seite der Straße. Weil die Straße ganz leer ist, kommen die beiden nicht sobald wieder zusammen, und es ist, als würde die heiße sonnige Fahrbahn immer breiter zwischen ihnen. Sie sehen einander gar nicht mehr ähnlich. Der alte Herr wird immer tadelloser in Gang und Haltung, und seine Stiefel schleudern Glanzlichter vor sich her. Der drüben verändert sich auch. Alles an ihm kräuselt und sträubt sich wie verkohlendes Papier. Sein Anzug hat aufeinmal eine Menge Falten, seine Krawatte schwillt an, und seinem Hut scheint die Krempe zu wachsen. Den knappen Modeüberzieher hat er wie einen Wettermantel gepackt und trägt ihn gegen irgend einen Sturm. Seine Schritte kämpfen. Er ist wie ein altes Bild mit der lithographierten Unterschrift: ›1848‹ oder: ›<hi rendition="#i">Der Revolutionär</hi>‹</p>
+            <p rendition="#et">Gleichwohl sieht er vorsichtig von Zeit zu Zeit hinüber. Es hat etwas Beunruhigendes für ihn, den alten Mann so ganz verlassen auf dem endlos öden Bürgersteig zu sehen. Wie allein er ist, denkt er – , und: wenn ihm etwas geschieht...</p>
+            <p rendition="#et">Seine Augen lassen den Vater nichtmehr los, begleiten ihn und werden fast wund vor Anstrengung.</p>
+            <p rendition="#et">Endlich stehen die beiden Menschen vor demselben <pb n="519" facs="#f0008"/>
+Haus. Als sie in den Flur treten, bittet Ewald: »Papa!« Er ist eine Weile verwirrt und überstürzt sich dann: »Den Kragen mußt du aufschlagen, Papa – es ist immer so kalt jetzt im Treppenhaus.«</p>
+            <p rendition="#et">Seine Stimme ist zaghaft und fragt zum Schluß, obwohl das doch gar keine Frage ist.</p>
+            <p rendition="#et">Und der Vater antwortet auch nicht, er befiehlt: »Richt dir deine Krawatte.«</p>
+            <p rendition="#et">»Ja«, bestätigt Ewald pedantisch und richtet die Krawatte.</p>
+            <p rendition="#et">Dann steigen sie hinauf, bedächtig, wie es sich gehört vom hygienischen Standpunkt aus.</p>
+            <p rendition="#et">Eine Treppe rechts wohnt Frau von Wallbach, genannt Tante Karoline, und bei ihr speist an jedem Sonntag die Familie – Stunde halb zwei.</p>
+            <p rendition="#et">Die Herren Tragy, Vater und Sohn, sind pünktlich. Trotzdem ist Alles schon da. Denn das Wort ›pünktlicht‹ läßt sich steigern, wie man weiß.</p>
+            <p rendition="#et">Ewald zögert einen Augenblick im Vorzimmer vor dem Spiegel. Er setzt das Gesicht ›der letzte Sonntag‹ auf und tritt so hinter dem Vater in den gelben Salon.</p>
+            <p rendition="#et">»Ah –«</p>
+            <p rendition="#et">Die Gesellschaft ist maßlos erstaunt, einer immer über das Erstaunen des anderen. Der Eintritt der beiden Tragys wird so auf billige Weise Ereignis. Man muß eben verstehen, sich das Leben reich zu machen – irgendwie. Große Begrüßung. Die Übung eines Setzers gehört dazu, aus diesen verschiedenen Schooßen die richtigen Hände zu holen und sie ohne Druckfehler loszulassen. Ewald leistet heute mit dem Gesicht ›der <pb n="520" facs="#f0009"/>
+letzte Sonntag‹ Großartiges. Während der alte Herr erst bei seiner Schwester Johanna angekommen ist, hat der Jüngling drei Tanten, vier Kusinen, den kleinen Egon und ›das Fräulein‹ überwältigt, ohne daß man die geringste Müdigkeit an ihm bemerkt.</p>
+            <p rendition="#et">Endlich ist auch Herr von Tragy, der Ältere, am Ziel, und nun sitzt man einander gegenüber und hungert sich an. Die vier Kusinen finden allerdings, man müsse etwas reden. Sie versuchen auch da und dort an ein Ding – zum Beispiel an das Barometer, an die Azaleen, die im Fenster stehen, an die Kupferdruckprämie über dem Kanapee ein Wort zu heften. Aber alle diese Gegenstände sind von unglaublicher Glätte, und die Worte fallen von ihnen wie satte Blutegel. Ein Schweigen bricht herein. Es legt sich um Alle wie lange, lange Fäden gebleichten Garnes. Und die Älteste der Familie, die verwitwete Majorin Eleonore Richter, regt ihre harten Finger sachte im Schooße, als wickelte sie die endlose Langeweile sorgsam zu einem Knäuel auf. Man sieht: sie stammt noch aus jener trefflichen Zeit, da die Frauen nicht müßig sein konnten.</p>
+            <p rendition="#et">Doch auch das Geschlecht, welches die verwitwete Majorin ›jung‹ nennt, erweist sich in diesem Augenblick nicht als träge. Die vier Fräulein sagen fast gleichzeitig: »Lora?«</p>
+            <p rendition="#et">Hinter diesem Wohlklang lächeln Alle wie beschenkt. Und Tante Karoline, die Hausfrau, eröffnet die Diskussion: »Wie macht der Hund?«</p>
+            <p rendition="#et">»Wau, Wau« – bellen die vier Fräulein.</p>
+            <p rendition="#et">Und der kleine Egon kommt aus irgend einem Winkel <pb n="521" facs="#f0010"/>
+gekrochen und beteiligt sich lebhaft an dem Gespräche.</p>
+            <p rendition="#et">Aber die Hausfrau glaubt dieses Thema erschöpft und schlägt vor: »und die Katze?«</p>
+            <p rendition="#et">Und nun ist man allgemein beschäftigt zu miauen, zu krähen, zu meckern und zu brüllen, je nach Verdienst und Neigung. Es ist schwer zu sagen, wer das tiefste Talent bewies, denn über diesem Gewühle von rollenden und kreischenden und gleitenden Lauten bleibt nur das gackernde Organ der verwitweten Majorin, und sie wird ordentlich jung dabei.</p>
+            <p rendition="#et">»Die Tante gackert«, sagt jemand ehrfurchtsvoll.</p>
+            <p rendition="#et">Doch man hält sich nicht lange dabei auf. Man ist hingerissen von der Fülle der Möglichkeiten, macht immer kühnere Versuche, gibt immer mehr Eigenes in den seltsam stilisierten Klangsilben. Und es ist rührend, zu erwähnen, daß bei allem Individualisieren doch eine feine Familienähnlichkeit in den Stimmen blieb, der gemeinsame Grundton der Herzen, auf dem allein echte, sorglose Fröhlichkeit entstehen kann.</p>
+            <p rendition="#et">Plötzlich beginnt ein graugrüner Sittich hinter seinen gelben Gitterstäben sich zu rühren und, man kann sagen, es ist eine gewisse, vornehme Anerkennung in dem stummen, bedächtigen Neigen seines Kopfes. Alle empfinden es so, werden leiser und lächeln dankbar.</p>
+            <p rendition="#et">Und der Papagei hat die Miene eines jüdischen Musiklehrers und verneigt sich noch ein paarmal gegen seine Schüler; Tatsache ist: seit Lora Hausgenosse wurde, haben Alle in der Familie eine Anzahl klangvoller Worte, von denen sie sich früher nie träumen ließen, <pb n="522" facs="#f0011"/>
+zugelernt und so ihren Sprachschatz bedeutend vermehrt. Bei dem schweigsamen Lob des Vogels kommt dieser Umstand einem jeden zum Bewußtsein und macht ihn stolz und froh. Man geht also in bester Stimmung zu Tisch.</p>
+            <p rendition="#et">Jeden Sonntag wartet Ewald, bis die dritte der Tanten, Fräulein Auguste, lächelt: »Das Essen ist doch kein leerer Wahn« – worauf jemand in guter Gewohnheit bestätigen muß: »nein, es ist nicht ohne.«</p>
+            <p rendition="#et">Das kommt gewöhnlich nach dem zweiten Gang. Und Ewald weiß ganz genau, was nach dem dritten kommt, und so fort. Während aufgetragen wird, spricht man wenig, einmal der ›Dienstleute‹ wegen, dann weil das Zwiegespräch mit dem eigenen Teller einen jeden genügend beansprucht. Man verhindert höchstens den kleinen Egon, der nur reden darf, wenn er gefragt wurde, durch eine zärtliche Teilnahme daran, satt zu werden oder auch nur seine Bissen fertigzukauen. So kommt es, daß der Kleine immer zuerst das unbehagliche Gefühl des Übervollseins bekommt und ›das Fräulein‹, das langsam rot wird, zur Vertrauten seiner intimsten Empfindungen macht. Die andern sind lange nicht so diskret. Niemand füllt seinen Teller, ohne leise zu stöhnen, und als das Mädchen mit einer süßen Crême eintritt, seufzen alle laut und schmerzlich auf. Die eisgekühlte Sünde drängt sich an jeden heran, und wer kann widerstehen? Der Herr Inspektor denkt: ›wenn ich nachher Soda nehme..‹ und Fräulein Auguste wendet sich an die Hausfrau: »Ist Magenbitter zuhaus, Karoline?« Mit schelmischem Lächeln zieht Frau <pb n="523" facs="#f0012"/>
+von Wallbach ein kleines Tischchen heran, darauf viele Schachteln und Büchsen neben seltsam geformten Flaschen bereitstehen. Man lächelt, es beginnt nach Apotheke zu riechen, und die Crême kann nocheinmal herumgehen.</p>
+            <p rendition="#et">Plötzlich geschieht eine unerwartete Störung. Die Älteste steht wie eine Ahnfrau und ruft warnend: »Und du, Ewald?«</p>
+            <p rendition="#et">Ewalds Teller ist rein.</p>
+            <p rendition="#et">»Und du?« fragen alle Augen, und die Hausfrau denkt: »wie immer, dieses Absondern von der Familie. Wir sind morgen Alle elend und – er? Schickt sich das?«</p>
+            <p rendition="#et">»Danke –« sagt der junge Mensch kurz und stößt den Teller einwenig fort. Das will heißen: damit ist diese Sache abgetan – bitte.</p>
+            <p rendition="#et">Allein niemand versteht das. Man ist froh ein Thema zu haben und bemüht sich um weitere Aufklärung.</p>
+            <p rendition="#et">»Du weißt nicht, was gut ist –« sagt jemand.</p>
+            <p rendition="#et">»Danke.«</p>
+            <p rendition="#et">Dann strecken die vier Kusinen, alle zugleich, ihre Löffelchen her: »Kost mal.«</p>
+            <p rendition="#et">»Danke –« wiederholt Ewald und bringt es zustande, vier junge Mädchen zugleich unglücklich zu machen. Die Stimmung wird bang. Bis Tante Auguste zitiert: »Die Großmutter hat immer gesagt: ›Was man essen... nein – wie man leiden...‹«</p>
+            <p rendition="#et">»Nein«, bessert Tante Karoline aus: »Leiden was man –«.</p>
+            <p rendition="#et">Aber auch so stimmt es nicht.</p>
+            <p rendition="#et">
+               <pb n="524" facs="#f0013"/>
+Die vier Kusinen sind ratlos.</p>
+            <p rendition="#et">Herr von Tragy nickt seinem Sohn zu: ›Zeig dich jetzt, imponier ihnen – vorwärts.‹</p>
+            <p rendition="#et">Tragy, der Jüngere, schweigt. Er weiß: Alle erwarten Hilfe von ihm, und weil der letzte Sonntag ist, entschließt er sich endlich:</p>
+            <p rendition="#et">»Essen was man mag und leiden was man kann«, wirft er voll Verachtung vor sich hin.</p>
+            <p rendition="#et">Da sind Alle Bewunderung. Man reicht sich das Wort weiter, betrachtet, erwägt es – nimmt es in den Mund wie zu besserer Verdauung und nützt es so ab, daß es schon wieder ganz dunkel ist, als es zu Ewald, die Tischrunde entlang, zurückkehrt.</p>
+            <p rendition="#et">Er läßt es im Munde ›des Fräuleins‹, einer bleichsüchtigen Französin, die es als Sprachübung betrachtet und zu dem kleinen Egon geneigt wiederholt: »Was man mack essen...«</p>
+            <p rendition="#et">Eine Weile bleibt Ewald der geistige Mittelpunkt der Familie. Man staunt sein bereites Gedächtnis an, bis Tante Karoline geringschätzig die Lippen kräuselt: »Hm – wenn man so jung ist...«</p>
+            <p rendition="#et">Freilich, denken die vier Kusinen: wenn man so jung ist...</p>
+            <p rendition="#et">Und sogar auf dem blassen Gesichtchen des kleinen Egon ist diese verächtliche Ahnung: wenn man so jung ist, – so daß der Achtzehnjährige fühlt: Was ist denn nun wieder los? Sie erwarten hier demnächst meine Geburt, wahrscheinlich.</p>
+            <p rendition="#et">Er ist ohnehin gereizt, und es scheint ihm gelegen, daß Tante Auguste zwischen zwei Bissen die Geschichte <pb n="525" facs="#f0014"/>
+ihrer Zähne – Glück und Ende – erzählt; er sagt an der spannendsten Stelle in den weitoffenen Mund der Tante hinein: »Ich denke, bei Tisch...« und hofft, man wird ihm erwidern: ›Du mußts ja nicht lange mehr mitmachen, du kannst ja gehen, wenn es dir nicht recht ist.‹ Aber Alle bleiben gekränkt und stumm. –</p>
+            <p rendition="#et">Später, als man mit ›Cantenac‹ verschiedene Hoch ausbringt, denkt der junge Mensch: Jetzt wird doch jemand sein Glas heben: ›Also Ewald...‹ Doch man trinkt einander zu, der Reihe nach, ohne daß irgendwem einfällt zu beginnen: ›Also Ewald –‹</p>
+            <p rendition="#et">Dann entsteht eine lange Pause, und Ewald hat Zeit zu bangen Gedanken; er empfindet plötzlich, wie die Blicke Aller in Gleichgültigkeit oder Bosheit an ihm haften, und müht sich mit scheuen Gesten sie abzustreifen. Aber mit jeder Bewegung verwirrt er nur noch mehr diese unsichtbaren Netze, wird erst heftig, dann hilflos, und denkt beständig im Kreise; denn durch Unmut und Ungeduld kommt er immer wieder bei diesem an: man müßte euch etwas Ungeheures, Unerhörtes sagen, mit einem breiten Wort euch die Augen totschlagen, damit sie loslassen, das müßte man. Aber das bleibt Wunsch; denn er liebt selbst Vieles aus dieser bequemen, armsäligen Alltäglichkeit, in der sie ihn haben aufwachsen lassen, und ist wie das Kind von Dieben, das das Handwerk seiner Eltern verachtet und doch langsam stehlen lernt.</p>
+            <p rendition="#et">Mitten in seine Sorgen hinein sagt Tante Auguste harmlos: »Wenn dem jungen Herrn da drüben keines<pb n="526" facs="#f0015"/>
+ von unseren Gesprächen paßt, sollte er doch wenigstens für eine Unterhaltung nach seinem Geschmack aufkommen. Da würde man ja gleich sehen.... nun, Ewald, du kommst ja wohl viel herum?«</p>
+            <p rendition="#et">Ewald, der kaum hingehört hat, sieht auf und lächelt traurig: Oh ich....</p>
+            <p rendition="#et">Er vernimmt auch nur wie von fern, daß die vier Kusinen ihn erinnern: »Du hast vor vier oder fünf Wochen einmal eine Geschichte zu erzählen begonnen –« und er will sich schnell besinnen, wasfür eine Geschichte das gewesen sein mag. Aufmerksam erkundigt er sich: »Was war das doch, bitte?«</p>
+            <p rendition="#et">Die vier Kusinen denken nach.</p>
+            <p rendition="#et">Indessen wendet sich die Hausfrau an ihn: »Dichtest du noch? –«</p>
+            <p rendition="#et">Ewald wird blaß und sagt zu den Kusinen: »Also wißt ihr nicht . . ?« Und er hört, wie die verwitwete Majorin staunt: »Waaas, er dichtet?« und sie schüttelt den Kopf: »Zu meiner Zeit...«</p>
+            <p rendition="#et">Aber trotzalledem will er sich seiner Geschichte, die er vor fünf oder sechs Wochen begonnen hat, entsinnen. Er hofft: es wird sich irgendwo anbringen lassen, daß heute der letzte Sonntag ist, und dann kann man aufatmen. Allein plötzlich unterbricht ihn Frau von Wallbach:</p>
+            <p rendition="#et">»Dichter sind immer zerstreut. Ich denke, wir sind Alle fertig in den Salon zu gehen«, und zu Ewald: »Das mit der Geschichte hat ja wohl Zeit am nächsten Sonntag, nichtwahr?«</p>
+            <p rendition="#et">Sie lächelt geistreich und erhebt sich. Der junge Mann <pb n="527" facs="#f0016"/>
+ist wie ein Verurteilter. Er fühlt: Es wird also immer wieder ein ›nächster‹ Sonntag sein und Alles ist umsonst. »Umsonst« stöhnt etwas aus ihm.</p>
+            <p rendition="#et">Allein das hört schon niemand mehr. Man rückt die Stühle, streckt sich, sagt sich mit fetter, zufriedener Stimme, die über vieles Schlucken wie über schlechtes Pflaster rollt, »Mahlzeit« – und zieht sich an den schweißigen Händen in den Salon. Dort ist es wie vorher. Nur sitzt man jetzt weiter voneinander, und das Gefühl der Zusammengehörigkeit ist nichtmehr so lebhaft wie vor Tisch.</p>
+            <p rendition="#et">Die verwitwete Majorin wandert vor dem Klavier auf und ab und knackt sich die Gichtfinger gerade. Die Hausfrau sagt: »Die Tante spielt Alles nach dem Gehör – es ist staunenswert.«</p>
+            <p rendition="#et">»Wirklich« – staunt Tante Auguste – »auswendig?«</p>
+            <p rendition="#et">»Auswendig«, beteuern die vier Kusinen und wenden sich an die Majorin: »bitte, spiel.«</p>
+            <p rendition="#et">Lange läßt sich die verwitwete Richter bitten, ehe sie großmütig fragt: »Was wollt ihr denn?«</p>
+            <p rendition="#et">»Mascagni«, träumen die vier Kusinen – denn das ist gerade modern.</p>
+            <p rendition="#et">»Ja«, sagt Frau Eleonore Richter und probt die Tasten.</p>
+            <p rendition="#et">»Cavalleria?«</p>
+            <p rendition="#et">»Ja«, sagen einige.</p>
+            <p rendition="#et">»Ja«, nickt die alte Dame und denkt nach.</p>
+            <p rendition="#et">»Die Tante spielt Alles nach dem Gehör –« sagt Tante Auguste, die leise eingeschlafen war, und jemand fügt mit tiefem Atemholen an:</p>
+            <p rendition="#et">»Ja, es ist staunenswert –«</p>
+            <p rendition="#et">
+               <pb n="528" facs="#f0017"/>
+»Ja –«, zögert die Majorin und probt die Tasten: »es muß mirs einer pfeifen.«</p>
+            <p rendition="#et">Der Herr Inspektor pfeift: »So such ich den Humor –« – Mikado.</p>
+            <p rendition="#et">»Richtig« – lächelt die Tante: »Cavalleria«, und lächelt, als ob das ihre ›Jugend‹ wäre.</p>
+            <p rendition="#et">Sie beginnt also mit ›Mikado‹ und spielt dann, wundersam versöhnt: ›Der Bettelstudent‹ und ›Die Glocken von Corneville‹.</p>
+            <p rendition="#et">Die andern schlafen darüber dankbar ein, und die Majorin selbst kommt ihnen nach.</p>
+            <p rendition="#et">Da hält es Ewald nicht länger aus, er muß es aussprechen um jeden Preis, und als ob das die selbstverständliche Folge der »Glocken von Corneville« wäre, sagt er: »Der letzte Sonntag.«</p>
+            <p rendition="#et">Niemand hat das gehört als Fräulein Jeanne. Sie geht lautlos über den tiefen Teppich und setzt sich dem jungen Mann gegenüber ans Fenster.</p>
+            <p rendition="#et">Eine Weile betrachten sich die beiden.</p>
+            <p rendition="#et">Dann fragt die Französin leise: »Est-ce que vous partirez, monsieur?«</p>
+            <p rendition="#et">»Ja,« gibt ihr Ewald deutsch, »ich reise fort, Fräulein. Ich reise – fort«, wiederholt er gedehnt und freut sich an der Breite seiner Worte. Er spricht eigentlich zum erstenmal mit Jeanne und ist erstaunt. Er fühlt unvermittelt, daß sie nicht einfach ›das Fräulein‹ ist, wie die andern meinen, und denkt: Merkwürdig, daß ich das nie erkannt habe. Sie ist eine, vor der man sich neigen muß – eine Fremde. Und obwohl er still und beobachtend bleibt, verneigt sich etwas in ihm vor der <pb n="529" facs="#f0018"/>
+Fremden – tief – so übertrieben tief, daß sie lächeln muß. Das ist ein graziöses Lächeln, welches sich mit Barockschnörkel um die feinen Lippen schreibt und nicht bis an die Traurigkeit ihrer schattigen Augen reicht, die immer wie nach einem Weinen sind. Also irgendwo lächelt man so – erfahrt Tragy, der Jüngere.</p>
+            <p rendition="#et">Und gleich danach hat er das Bedürfnis, ihr etwas Dankbares zu sagen, das ihr Freude machen muß. Ihm ist, als sollte er sie an etwas erinnern, was ihnen gemeinsam war, zum Beispiel sagen: ›Gestern‹ und verständig aussehen dabei. Aber es gibt ja in aller Welt nichts Gemeinschaftliches für sie. Da fragt sie ihn mitten in diese Verwirrung hinein in ihrem filigranen Deutsch:</p>
+            <p rendition="#et">»Warum? Warum reisen Sie fort?«</p>
+            <p rendition="#et">Ewald stemmt die Ellbogen auf die Kniee und legt das Kinn in die hohlen Hände.</p>
+            <p rendition="#et">»Sie sind ja auch fortgegangen von Hause«, antwortet er. Und Jeanne warnt schnell:</p>
+            <p rendition="#et">»Sie werden Heimweh haben.«</p>
+            <p rendition="#et">»Ich habe Sehnsucht«, gesteht Ewald, und so reden sie eine Weile aneinander vorbei.</p>
+            <p rendition="#et">Dann kehren beide um und kommen sich entgegen; denn Jeanne beichtet leise: »Ich habe weg müssen, wir sind acht Geschwister zuhaus, da können Sie sich vorstellen – aber mir ist sehr bang. Freilich, – Alle sind ja gut hier –«, fügt sie ängstlich an – und dann bittet das Mädchen: »Und Sie?«</p>
+            <p rendition="#et">»Ich?«, der junge Mensch ist zerstreut, »ich? – nein, ich muß nicht fort, weiß Gott, im Gegenteil. Sie sehen <pb n="530" facs="#f0019"/>
+ja: ein jeder hier weiß, daß ich den letzten Sonntag hier bin, und tut jemand was dergleichen? Aber trotzdem – Warum lächeln Sie?« unterbricht er sich.</p>
+            <p rendition="#et">Sie zögert, und dann:</p>
+            <p rendition="#et">»Sind Sie ein Dichter, bitte?« Ganz rot ist sie und erschrocken wie ein Kind.</p>
+            <p rendition="#et">»Das ist es eben, Fräulein,« erklärt er – »ich weiß nicht. Und einmal muß man es doch wissen, nicht? So oder so. <hi rendition="#i">Hier</hi> kommt man zu keiner Klarheit darüber. Man kann nicht forttreten von sich, es fehlt die Ruhe, der Raum fehlt, die Perspektive.</p>
+            <p rendition="#et">Verstehen Sie das, Fräulein?«</p>
+            <p rendition="#et">»Vielleicht« – nickt die Französin, »aber – – ich meine – Ihr Herr Vater muß doch Freude haben und dann Ihre – – –«</p>
+            <p rendition="#et">»Meine Mutter, wollen Sie sagen. Hm. Ja, das hat schon so mancher behauptet. Wissen Sie, meine Mutter ist krank. Sie werden ja wohl gehört haben – obwohl man vermeidet, hier ihren Namen zu brauchen. Sie hat meinen Vater verlassen. Sie reist. Sie hat immer nur soviel mit, als sie unterwegs braucht, auch von Liebe – Ich weiß lange nichts von ihr, denn wir schreiben uns seit einem Jahr nichtmehr. Aber gewiß erzählt sie zwischen zwei Stationen im Coupé: ›Mein Sohn ist ein Dichter –‹«</p>
+            <p rendition="#et">Pause. –</p>
+            <p rendition="#et">»Ja, und dann mein Vater. Er ist ein trefflicher Mensch. Ich hab ihn lieb. Er ist so vornehm und hat ein goldechtes Herz. Aber die Leute fragen ihn: ›Was ist Ihr Sohn?‹ Und da schämt er sich und wird verlegen. <pb n="531" facs="#f0020"/>
+Was soll man sagen? <hi rendition="#i">Nur</hi> Dichter? Das ist einfach lächerlich. Selbst wenn es möglich wäre – das ist ja kein Stand. Er trägt nichts, man gehört in keine Rangsklasse, hat keine Pensionsberechtigung, kurz: man steht in keinem Zusammenhang mit dem Leben.</p>
+            <p rendition="#et">Deshalb darf man das nicht unterstützen und zu nichts ›Gut‹ und ›Amen‹ sagen. Begreifen Sie jetzt, daß ich meinem Vater nie etwas zeige – überhaupt niemandem hier; denn man beurteilt meine Versuche nicht, man haßt sie von vornherein, und man haßt mich in ihnen. Und ich habe selbst soviel Zweifel. Wirklich: ganze Nächte lieg ich mit gefalteten Händen wach und quäle mich: ›Bin ich würdig?‹«</p>
+            <p rendition="#et">Ewald bleibt traurig und still.</p>
+            <p rendition="#et">Die anderen sind indessen wach geworden und gehen zwei und zwei in die Nebenzimmer, wo die Whisttische bereit stehen.</p>
+            <p rendition="#et">Der Inspektor ist guter Laune. Er klopft seinem Sohn leise auf die Schulter: »Na, Alter?«</p>
+            <p rendition="#et">Und Ewald versucht zu lächeln und küßt ihm die Hand.</p>
+            <p rendition="#et">Er wird <hi rendition="#i">doch</hi> bleiben, – denkt der Inspektor: das ist vernünftig. Und so geht er den anderen nach.</p>
+            <p rendition="#et">Der junge Tragy vergißt sofort sein Lächeln und klagt: »Sehen Sie, so hält er mich. So leise, nicht mit Gewalt oder Einfluß, fast nur mit einer Erinnerung, als ob er sagte: ›Du warst einmal klein, und ich habe dir einen Christbaum angezündet jedes Jahr – bedenke –‹ Er macht mich ganz schwach damit. Aus seiner Güte ist kein Ausgang, und hinter seinem Zorn <pb n="532" facs="#f0021"/>
+ist ein Abgrund. Zu diesem Sprung hab ich nicht Mut genug.</p>
+            <p rendition="#et">Ich bin wahrscheinlich überhaupt feige, Sie können mir glauben, feige und unbedeutend. Es wäre mir ganz gut hier zu bleiben, so wie alle es sich denken, brav und bescheiden zu sein und einen und denselben armseligen Tag so hinzuleben immer und immer wieder...«</p>
+            <p rendition="#et">»Nein,« sagte Jeanne entschieden – »jetzt lügen Sie...«</p>
+            <p rendition="#et">»Oh ja, vielleicht. Sie müssen nämlich wissen: ich lüge sehr oft. Je nach Bedürfnis, einmal nach oben, einmal nach unten; in der Mitte sollte <hi rendition="#i">ich</hi> sein, aber manchmal mein ich, es ist gar nichts dazwischen. Ich komme zum Beispiel zu Besuch zu Tante Auguste. Es ist licht, und die urväterliche Wohnstube ist gerade so recht heimlich. Und ich setze mich ohneweiters in den besten Stuhl, lege die Beine übereinander und sage: ›Liebe Tante,‹ sag ich ungefähr – , ›ich bin müde, und deshalb werde ich meine staubigen Füße auf dein Kanapee, gerade auf die netten Schutzdecken legen – erlaube.‹ Und damit die gute Tante durch ihre Freude über diesen Scherz mich nicht unnötig aufhält, tue ich also ohneweiters; denn ich habe noch viel zu erzählen, zum Beispiel dieses: ›Das ist ja alles recht schön und gut; ich weiß, es gibt Gesetze und Sitten, und die Menschen pflegen sich mehr oder minder daran zu halten. Aber mich darfst du nicht zu diesen ehrsamen Staatsbürgern zählen, beste Tante. Ich bin mein eigener Gesetzgeber und König, über mir ist niemand, nicht einmal Gott –‹ <pb n="533" facs="#f0022"/>
+Ja, Fräulein, so ungefähr sag ich zu meiner Tante, und sie ist rot vor Entrüstung. Sie zittert: ›Es haben schon andere sich fügen gelernt....‹ ›Mag sein‹, antworte ich gleichgültig. ›Du bist nicht der Erste, und für Leute von diesen Ansichten gibt es Narrenhäuser und Zuchthäuser, Gott sei Dank –‹, meine Tante weint schon – ›von der Art gibt es Hunderte.‹ Aber da bin ich empört: ›Nein,‹ schrei ich sie an, ›es gibt keinen wie ich, hat nie einen Solchen gegeben....‹ Schrei und schrei, denn ich muß mich selbst überschreien mit dieser Phrase. Bis ich plötzlich bemerke, daß ich in einer fremden Stube vor einer hilflosen alten Dame stehe und irgendeine Rolle spiele. Dann schleiche ich scheu davon, laufe die Gasse entlang und tret in meine Stube im letzten Augenblick eh mir die Tränen aus den Augen brechen. Und dann –« Ewald Tragy schüttelt heftig mit dem Kopf, als wollte er die Gedanken, die sich immer weiter bauen, zum Einsturz bringen. Er weiß: ich weine dann, freilich, weil ich mich verraten habe. Aber wie soll ich das erklären und wozu? Das ist ja wieder ein Verrat.</p>
+            <p rendition="#et">Und er versichert hastig: »Unsinn, Fräulein – Sie dürfen nicht glauben, daß ich wirklich weine –«</p>
+            <p rendition="#et">Und schon tut ihm die Lüge weh.</p>
+            <p rendition="#et">Es hat so wohlgetan sich anzuvertrauen und nun ist wieder Alles verdorben. Man muß nicht immer wieder anfangen, denkt Tragy und bleibt verstimmt und stumm.</p>
+            <p rendition="#et">Das Fräulein schweigt auch.</p>
+            <p rendition="#et">Sie horchen: die Karten fallen auf die Spieltische, wie <pb n="534" facs="#f0023"/>
+Tropfen von Bäumen, die jemand schüttelt. Und von Zeit zu Zeit mit großer Wichtigkeit:</p>
+            <p rendition="#et">»Die Tante gibt«</p>
+            <p rendition="#et">oder: »wer meliert?«</p>
+            <p rendition="#et">oder: »Treff ist atout«,</p>
+            <p rendition="#et">und: das Kichern der vier Kusinen.</p>
+            <p rendition="#et">Jeanne denkt nach. Sie will etwas Liebes sagen, also für ihn: etwas Deutsches. Aber sie weiß nicht, wie sie die fremden Worte erwärmen soll, darum bittet sie endlich: »Sei nicht traurig«. Und schämt sich.</p>
+            <p rendition="#et">Der junge Mensch blickt auf und sieht ihr ernst und sinnend ins Gesicht, solange bis sie aufgehört hat, zu glauben: ich habe sicher Unsinn gesagt. Dann nickt er ein wenig und nimmt ganz ernst ihre Hand, die er vorsichtig zwischen seine beiden legt. Es ist wie ein Versuch, und er weiß nicht, was tun mit dieser Mädchenhand, denn er gibt sie frei, läßt sie einfach fallen, der junge Mensch.</p>
+            <p rendition="#et">Indessen hat Jeanne einen zweiten deutschen Satz gefunden, auf den sie sehr stolz ist: »Sie haben doch noch nichts verloren?«</p>
+            <p rendition="#et">Da faltet Ewald die Hände im Schooß und sieht zum Fenster hinaus.</p>
+            <p rendition="#et">Pause.</p>
+            <p rendition="#et">»Sie sind so jung –«, tröstet ihn das Mädchen zaghaft.</p>
+            <p rendition="#et">»Oh« macht er. Er ist wirklich überzeugt, daß das Leben für ihn eigentlich abgetan ist; nicht, daß er mittendurch gegangen wäre, aber ein für allemal vorbei. Er lügt also jetzt nicht und ist wahrhaft traurig: »Jung? Ist es <hi rendition="#i">das</hi>, bitte? Ich habe Alles verloren...«</p>
+            <p rendition="#et">
+               <pb n="535" facs="#f0024"/>
+Pause.</p>
+            <p rendition="#et">»auch Gott«, und er bemüht sich, jedes Pathos zu vermeiden. Da lächelt sie; sie ist fromm.</p>
+            <p rendition="#et">Er versteht dieses Lächeln nicht, gerade jetzt stört es ihn, und er ist einwenig verletzt. Allein sie kommt um Verzeihung bitten, steht auf und sagt:</p>
+            <p rendition="#et">»Ewald,« sie spricht es aus mit falscher Betonung auf dem <hi rendition="#i">a</hi> und mit einem dunkeln stummen <hi rendition="#i">e</hi> am Ende, das geheimnisvoll und wie eine Verheißung klingt, »ich glaube, Sie werden Alles erst finden –«</p>
+            <p rendition="#et">Und dabei steht sie so hoch und feierlich vor ihm.</p>
+            <p rendition="#et">Er senkt die Stirne tiefer und will prahlen: »Kind« – so recht wehmütig überlegen, und ist doch so leise dankbar gleich darauf und möchte jubeln dürfen: »Ich weiß.« Und er tut weder das eine, noch das andere.</p>
+            <p rendition="#et">Da bemerkt jemand im Spielzimmer, daß es so schweigsam geworden sei nebenan. Frau von Wallbach runzelt die Stirn und befiehlt gleich: »Jeanne!«</p>
+            <p rendition="#et">Jeanne zögert.</p>
+            <p rendition="#et">Die Hausfrau ist wirklich besorgt, und die vier Kusinen helfen ihr: »Fräulein!«</p>
+            <p rendition="#et">Da neigt sich die Französin und man weiß nicht, ist das Frage oder Befehl: »Und – Sie reisen?!«</p>
+            <p rendition="#et">»Ja«, flüstert Ewald rasch. Er fühlt dabei eine Sekunde lang ihre Hand im Haar und verspricht einem fremden jungen Mädchen, in die Welt zu gehen, und weiß gar nicht, wie seltsam das alles ist.</p>
+            <p>
+               <pb n="536" facs="#f0025"/>
+II</p>
+            <p>Man wird es kaum glauben: Ewald Tragy schläft volle vierzehn Stunden. Und das ist ein fremdes elendes Hotelbett, und auf dem Bahnhofplatz gibt es Lärm und Sonne seit fünf Uhr früh. Er hat sogar vergessen zu träumen, trotzdem er weiß, daß ›erste‹ Träume besondere Bedeutung haben. Er tröstet sich damit, daß sich jetzt Alles erfüllen könne, gleichviel, ob man es träume oder nicht, und zieht diesen leeren Schlaf hinter allem Gestrigen aus wie einen langen, langen Gedankenstrich. Fertig. So, und jetzt? Und jetzt kann es beginnen – das Leben, oder das, was eben zu beginnen hat der Reihe nach.</p>
+            <p rendition="#et">Der junge Mensch streckt sich behaglich in den Kissen aus. Vielleicht will er so, in dieser wohligen Wärme, die Ereignisse empfangen? Er wartet noch eine halbe Stunde, aber das Leben kommt nicht. Da steht er denn auf und beschließt, ihm entgegenzugehen. Und daß man dies müsse, ist die Erkenntnis des ersten Morgens.</p>
+            <p rendition="#et">Sie befriedigt ihn, gibt ihm Bewegung und Zweck und treibt ihn hinaus in die neue lichte Stadt. Er weiß zunächst nur, daß die Gassen unendlich lang und die Trambahnen lächerlich klein sind, und ist ohneweiters geneigt, jede dieser beiden Erscheinungen durch die andere zu erklären, was ihn ungemein beruhigt. Alle Dinge interessieren ihn, die großen und bedeutenden nicht zuletzt. Aber je tiefer in den Tag hinein, desto mehr verliert alles an Wert den Regenrinnen gegenüber, vor welchen Tragy immer nachdenklicher <pb n="537" facs="#f0026"/>
+stehen bleibt. Er lächelt nichtmehr über die darangeklebten kleinen Zettel und ihre Versprechungen und hat keine Zeit mehr, sich über die seltsame Sprache zu wundern, in der sie abgefaßt sind. Er übersetzt sie mit krampfhafter Geschäftigkeit und schreibt viele Namen und Nummern in sein Taschenbuch.</p>
+            <p rendition="#et">Endlich macht er den ersten Versuch. Im Flur schiebt er seine Krawatte zurecht und nimmt sich vor: Ich werde sehr höflich sagen: ›Verzeihen Sie, hier ist wohl ein Zimmer für einen Herrn, nichtwahr?‹ Er läutet, wartet und sagt es höflich, hochdeutsch und mit bescheidener Betonung. Eine große breite Frau drängt ihn gleich links in eine Tür, ehe er mit seiner Frage zuende ist.</p>
+            <p rendition="#et">»Wissen S' ich sags gleich wie es is. Sauber is's. Und wenn S' sonst noch was brauchen...« Und damit erwartet sie, die Hände in die Hüften gestemmt, seine Entscheidung.</p>
+            <p rendition="#et">Das ist eine kleine Stube, zweifensterig mit alten umständlichen Möbeln und schon ganz voll Dämmerung, so daß man das Gefühl hat, eine Menge Dinge mit zu mieten, von denen man sich nicht träumen läßt.</p>
+            <p rendition="#et">Und wie nun der junge Mann so gar nichts sagt und sich kaum umsieht in dem dunklen Zimmer, fügt die Frau zögernd an: »Und 's macht halt zwanzig Mark im Monat samt Frühstück, soviel haben wir halt immer bekommen –« Tragy nickt ein paar Mal. Dann tritt er näher an den alten Sekretär heran, der in einer Ecke steht, prüft die breite aufgeklappte Schreibplatte und lächelt, zieht zwei oder drei von den kleinen Schubläden im Hintergrund auf und lächelt wieder: »Der <pb n="538" facs="#f0027"/>
+bleibt doch hier stehn, der Schreibtisch?« erkundigt er sich und ist ganz entschlossen: ich bleibe auch. Aber dann fällt ihm die lange Reihe von Nummern in seinem Taschenbuch ein, wie eine Pflicht, und er meint schnell: »Das heißt, bis morgen darf ich mirs wohl überlegen?«</p>
+            <p rendition="#et">»Ja wegen meiner –«</p>
+            <p rendition="#et">Und Tragy merkt sich gut das Haus und schreibt in sein Taschenbuch: ›Frau Schuster, Finkenstraße 17 Hinterhaus, parterre, Schreibtisch.‹ Hinter ›Schreibtisch‹ drei Rufzeichen. Dann ist er sehr zufrieden mit sich und versucht nichts mehr an diesem Tage.</p>
+            <p rendition="#et">Aber am nächsten Morgen beginnt er ganz früh seinem Taschenbuch nachzugehen. Und das ist keine Kleinigkeit. Vormittags, solang die Leute noch ausgeschlafen und die Stuben gut gelüftet sind, freut ihn seine Wanderung noch einigermaßen. Er notiert pünktlich alle Vorzüge – dort einen Erker mit Aus sicht, gegenüber ein Kanapee, und ein Badezimmer in Nummer 23, zwei Treppen, nirgends mehr ein Schreibtisch, allerdings. Dafür bringt er da und dort kleine Warnungen an, zum Beispiel: ›kleine Kinder‹ oder: ›Klavier‹ oder: ›Wirtshaus‹ Dann werden die Notizen immer karger und hastiger; seine Eindrücke verändern sich ganz seltsam. In gleichem Maße mit der Unfähigkeit seiner Augen wächst die Empfindlichkeit seiner Geruchsnerven, und um Mittag hat er diesen vernachlässigten Sinn soweit ausgebildet, daß ihm die Außenwelt einzig durch ihn mehr zum Bewußtsein kommt. Er denkt: Aha, Linsen, oder: Sauerkohl, und wendet sich schon <pb n="539" facs="#f0028"/>
+auf der Schwelle um, wenn ihm irgendwo ein Wäschetag entgegenqualmt. Er vergißt ganz den Zweck seiner Besuche und beschränkt sich, einfach die Eigenart der einzelnen Atmosphären festzustellen, welche ihm aus den lächerlich kleinen Küchen, gleich losgelassenen Hunden, entgegenstürzen. Dabei rennt er heulende kleine Kinder um, lächelt den erzürnten Müttern dankbar ins Gesicht und versichert stumme Greise, die er irgendwo in einem Stubenwinkel aufstört, seiner besonderen Hochachtung.</p>
+            <p rendition="#et">Schließlich dunkeln alle Flure, und da kommt ihm in jeder Tür, wo immer er läuten mag, immer dieselbe breite Frau entgegen, dieselben Kinder heulen ihn überall an, und im Hintergrund ist immer wieder die ser gestörte alte Herr mit den erschreckten verständnislosen Augen.</p>
+            <p rendition="#et">Da flieht Ewald Tragy, atemlos. Als er sich erholt, findet er sich vor dem uralten Schreibtisch mit den vielen Schubladen und hat just begonnen zu schreiben:</p>
+            <p rendition="#et">›Lieber Papa, meine Wohnung ist also: Finkenstraße 17 bei Frau Schuster.‹ Dann denkt er lange nach und beschließt endlich, den Brief erst morgen weiterzuschreiben.</p>
+            <p rendition="#et">Und später braucht er den Sekretär selten. Er lebt die ersten Wochen so hin, den ganzen Tag außer Haus, ohne rechten Plan, stets in dem Gefühl: Ja, was wollt ich denn eigentlich? Er geht in die Galerien, und die Bilder enttäuschen ihn. Er kauft sich einen ›Führer durch München‹ und wird müde dabei. Endlich sucht er sich so zu benehmen, als ob er jahrelang hier leben<pb n="540" facs="#f0029"/>
+ würde, und das ist nicht leicht. Er sitzt am Sonntag mitten unter den Philistern in einem Brauhausgarten und wandert hinaus auf die Oktoberwiese, wo die Buden und Ringelspiele aufgeschlagen sind, und fährt nachmittags in einer Droschke in den ›Englischen Garten‹. Da gibt es manchmal eine Stunde, die er nicht vergessen möchte. So zwischen fünf und sechs, wenn die Wolken auf dem hohen Himmel so phantastisch werden in Form und Farbe und sich plötzlich wie Berge hinter den flachen Wiesen des ›Englischen Gartens‹ aufbauen, so daß man denken muß: Morgen will ich auf diese Gipfel steigen. Und morgen ist dann ein Regentag und der Nebel liegt dicht und schwer über den endlosen Gassen. Immer wieder kommt so ein Morgen, das einem die Dinge aus den Händen nimmt, und der junge Mensch wartet, bis es anders wird. Er hat niemanden, den er fragen könnte, was man tut in seinem Fall. Mit der Hausfrau spricht er, wenn sie ihm das Frühstück bringt, zehn Worte, und an jedem Abend begegnet er ihrem Mann, dem gräflichen Herrschaftskutscher, und grüßt ihn sehr höflich. Er weiß, daß die beiden eine Tochter haben, und hört oft, wenn das Haus ganz stille geworden ist, durch die Wand: »Mama –« und eine feine Mädchenstimme. Sie liest etwas vor, und man kann manchmal meinen, daß es Verse sind.</p>
+            <p rendition="#et">Das macht, daß Ewald jetzt früher nachhause kommt, seinen Tee trinkt und über einer Arbeit oder einem Buch wachbleibt weit in die Nacht hinein. Jedesmal, wenn die Stimme nebenan beginnt, lächelt er, und so <pb n="541" facs="#f0030"/>
+wird ihm seine Stube langsam lieb. Er beschäftigt sich mehr mit ihr, bringt Blumen nachhause und spricht tagsüber oft laut, als hätte er kein Geheimnis mehr vor diesen vier Wänden.</p>
+            <p rendition="#et">Aber so sehr er sich darum bemüht, es bleibt etwas Kaltes, Ablehnendes an den Dingen, und er hat oft am Abend das Gefühl, als wohnte jemand hier neben ihm, der alle Gegenstände, unbeschadet seiner Anwesenheit, gebraucht und dem sie auch willig zu Gebote sind. Das wird noch verstärkt in ihm durch folgenden Vorfall.</p>
+            <p rendition="#et">»Merkwürdig,« sagt Ewald eines Morgens, gerade als Frau Schuster den Kaffee hinstellt, »sehen Sie mal, bitte, diese beiden Schubladen des Schreibtisches wollen nicht aufgehen. Haben Sie vielleicht einen Schlüssel? Sonst könnte man ja einen machen lassen – ?« Und er rüttelt an den beiden heimlichsten Laden des Schrankes.</p>
+            <p rendition="#et">»Sie müssen schon verzeihen –« zögert Frau Schuster, und sie spricht hochdeutsch in ihrer Verlegenheit, »aber ich darf diese beiden Laden nicht aufmachen, nämlich –«</p>
+            <p rendition="#et">Tragy blickt erstaunt auf.</p>
+            <p rendition="#et">»Sie müssen nämlich wissen, Herr, das is so: mal haben wir ein' Herrn ghabt, dems sehr schlecht gangen is. Und weil er uns nicht hat zahlen können, hat er uns die Kommode dagelassen und hat gsagt: da in den zwei Laden laß ich Ihnen wichtige Papiere zum Pfand, – hat er gsagt und hat den Schlüssel mitg'nommen...«</p>
+            <p rendition="#et">»So, so« macht Tragy und sieht gleichgültig aus. »Das ist schon lang?«</p>
+            <p rendition="#et">
+               <pb n="542" facs="#f0031"/>
+»Mna«, überlegt die Frau, »so sieben Jahr oder Jahr acht könntens schon sein, wohl, wohl – daß wir nichts mehr von ihm ghört haben; aber leicht kommt er doch mal und holts. Nicht? Man kann nicht wissen...«</p>
+            <p rendition="#et">»Freilich, freilich –«, sagt Tragy obenhin, nimmt den Hut und geht fort. Er hat ganz vergessen zu frühstücken.</p>
+            <p rendition="#et">Seither arbeitet Tragy an dem ovalen Sofatisch, den er quer vor das andere Fenster geschoben hat; denn der Oktober macht Fortschritte, und der Sekretär steht viel zu nah an den Scheiben. So erklärt sich diese Veränderung auf die allernatürlichste Weise.</p>
+            <p rendition="#et">Und der junge Mensch findet noch manches zugunsten des neuen Platzes, zum Beispiel: daß man so geradezu ins Fenster sieht. Wie ein Bild ist es. Dieser Hof, in dem so langsam die Kastanien welk werden. (Es sind doch Kastanien?) Ein alter Steinbrunnen, ganz im Hintergrund, rinnt und rinnt wie ein Lied, wie eine Begleitung zu Allem. Und es ist sogar etwas wie ein Relief auf dem Sockel. Ja, wenn man nur sehen könnte, was es darstellt. Ach, wie bald es doch dunkel wird, man wird gleich die Lampe anzünden müssen. Übrigens: wenn draußen gar kein Wind ist, wie jetzt, wie dann die Blätter langsam fallen, lächerlich langsam. Da bleibt eines fast stehen in der dicken feuchten Luft und schaut herein und schaut herein – wie Gesichter, wie Gesichter, wie Gesichter... denkt Tragy und sitzt ruhig und reglos und läßt es geschehen, daß jemand sich ans Fenster lehnt und hereinstiert, so nah, daß die Nase sich an den Scheiben eindrückt und die Züge etwas <pb n="543" facs="#f0032"/>
+Breites, Vampyrhaftes, Gieriges bekommen. Ewalds Blicke folgen, ganz verloren, den Linien dieses Gesichtes, bis sie plötzlich in die lauernden fremden Augen stürzen, wie in Abgründe. Das bringt ihn zum Bewußtsein. Er springt auf und ist schon am Fenster. Die Riegel geben seinen zitternden Händen nicht gleich nach, und der draußen ist schon weit, als Tragy sich in den Nebel hinauslehnt.</p>
+            <p rendition="#et">Offenbar hat die kühle Luft ihn beruhigt; denn er tut gar nichts Außergewöhnliches weiter. Er zündet die Lampe an, bereitet seinen Tee wie an jedem anderen Tage und man kann meinen, daß das Buch vor ihm ihn interessiere.</p>
+            <p rendition="#et">Nur das Eine ist seltsam: er geht nicht schlafen. Er wartet bis die Lampe verlischt; das ist etwa um halb zwei. Da brennt er die Kerze an und sieht geduldig zu, bis sie, ganz im Leuchter, schmilzt. Und da ist auch schon ein scheues Licht hinter den Scheiben. Eine kurze Nacht, nicht? Ewald denkt nicht etwa darüber nach, ob er ausziehen soll. Das ist natürlich. Er überlegt nur, wie er das sagen wird: ›Es tut mir leid, Frau Schuster‹, oder: ›Ich bin wirklich zufrieden gewesen bei Ihnen, aber....‹ Und er baut und baut an diesem armsäligen Satz.</p>
+            <p rendition="#et">Und mit Morgen ist er überzeugt, daß man nicht daran denken kann, zu kündigen, weil sich das überhaupt in keiner Art ausdrücken läßt. Man bleibt also. Man muß sich eben einrichten. Es ist eben so mit diesen Stuben; die, welche vorher hier gewohnt haben, sind noch nicht ganz draußen, und die, welche nach<pb n="544" facs="#f0033"/>
+ Ewald Tragy kommen, warten schon. Was bleibt daübrig, als verträglich sein. Und an diesem Sonntag beschließt Ewald, sich so klein wie möglich zu machen, um keinen von seinen unbekannten Zimmergenossen zu stören, und einfach so mitzuleben als der Geringste in diesem Massenquartier in der Finkenstraße.</p>
+            <p rendition="#et">Und sieh: das geht. Es gibt ein paar ganz erträgliche Wochen und man kommt so sachte in den November hinein und erhält für den kurzen, traurigen Tag eine lange Nacht geschenkt, in der alles mögliche Raum hat.</p>
+            <p rendition="#et">Gleich mal zunächst: ›Das Luitpold‹. Das ist doch etwas. Man setzt sich zu einem der kleinen Marmortischchen und legt einen Stoß Zeitungen neben sich und sieht gleich furchtbar beschäftigt aus. Dann kommt das Fräulein in Schwarz und gießt so im Vorübergehen die Tasse mit dem dünnen Kaffee voll, o Gott, so voll, daß man sich gar nicht traut, auch noch den Zucker hineinzuwerfen. Dabei sagt man: »Mittel« oder »Schwarz«, und es wird ganz nach Wunsch und Wink: ›mittel‹ oder ›schwarz‹. Zum Überfluß sagt man doch noch etwas Scherzhaftes, wenn man es gerade bei der Hand hat, und dann lächelt die Minna oder Bertha etwas müde ins Unbestimmte hinein und schwenkt die Nickelkannen in der Rechten her und hin.</p>
+            <p rendition="#et">Tragy sieht das nur an anderen Tischen. Er beschränkt sich auf ein Danke, denn ihm sind diese schwarzen Damen, die am Tage so welk aussehen, sehr unsympathisch; nur die kleine Betty, die ihm das Wasser <pb n="545" facs="#f0034"/>
+bringt, bedauert er. Weiß der Himmel warum er ihr etwas Liebes tun möchte, aber, es ist Tatsache, er drückt ihr einmal außer dem Trinkgeld ein klein zusammengefaltetes Papier in die Hand und freut sich, daß ihr die Augen glänzen. Das ist ein Los irgendeiner Wohltätigkeitslotterie und man kann 50000 Mark gewinnen damit. Aber die kleine Betty sieht sehr enttäuscht aus, als sie nach einer Weile hinter der Säule hervorkommt, und sagt gar nicht: Danke.</p>
+            <p rendition="#et">Das sind so kleine Zufälle, die den jungen Menschen tiefer berühren, als er selber meint. Sie geben ihm das Gefühl, ausgeschlossen zu sein, gleichsam die Sitten eines fernen Landes fortzuleben unter allen diesen Menschen, die sich mit einem Lächeln und im Vorübergehen verstehen. Er möchte so gern einer von ihnen sein, irgendeiner im Strome, und dann und wann glaubt er es fast. Bis eine Kleinigkeit geschieht, welche beweist, daß sich nichts an dem Verhältnis geändert hat: er auf der einen Seite und alle Welt drüben. Und da lebe nun einer.</p>
+            <p rendition="#et">Gerade zu dieser Zeit, da Tragy das Bedürfnis hat, jemanden kennen zu lernen, empfängt er einen Brief. Der lautet:</p>
+            <p rendition="#et">»Ich höre durch Zufall, daß Sie in München sind. Ich habe manches von Ihnen gelesen und stelle es mir schön vor, wenn wir uns sehen würden, bei Ihnen, bei mir oder an einem dritten Ort, wie Sie wollen und –<hi rendition="#i"> wenn</hi> Sie wollen.«</p>
+            <p rendition="#et">Und Tragy will nicht. Er kennt den Namen, welcher unter dem Brief steht, längst aus Zeitschriften und <pb n="546" facs="#f0035"/>
+Gedichtanthologieen und hat gar nichts gegen Wilhelm von Kranz, durchaus nicht. Aber im Augenblick, da dieser Herr ihn anrührt, kriecht er wie eine Schnecke in sich zusammen. Was er noch gestern gewünscht hat, wird eine Gefahr im Moment, da es sich erfüllen kann, und es scheint ihm unerhört, daß da jemand ist, der so ohneweiters, mit den staubigen Schuhen sozusagen, in seine Einsamkeit will, darin er selber nur ganz leise aufzutreten wagt. So gibt er nichtnur keine Antwort, sondern meidet sogar vorsichtig jeden ›dritten Ort‹, ist oft zuhause und bekommt so gelegentlich auch die Haustochter zu Gesicht, von der er bislang nur die Stimme kannte.</p>
+            <p rendition="#et">Er sagt ihr einmal, als sie ihm den Kaffee bringt:»Und was lesen Sie immer abends, Fräulein Sophie?«</p>
+            <p rendition="#et">»Oh, was wir gerade haben. Viel Bücher haben wir nicht – aber, hört man es denn hier?«</p>
+            <p rendition="#et">»Wort für Wort«, übertreibt Ewald.</p>
+            <p rendition="#et">»Stört es Sie sehr?«</p>
+            <p rendition="#et">Und Tragy sagt nur: »Nein, es stört mich nicht. Aber wenn Sie gern lesen, will ich Ihnen geben, was ich mithabe. Es ist nicht vieles, aber viel.« Und er reicht ihr einen Band Goethe.</p>
+            <p rendition="#et">Das ist ein ganz kleiner Verkehr zwischen ihnen, aber er füllt bei Tragy etwas aus, wird ein steter Gedanke mitten in dem Vielen, das durch seine Seele strömt, und er ruht gerne aus darin. Jemandem solche Bücher leihen ist schließlich dasselbe wie ihm ein Los schenken. Aber diesmal erhält Tragy einen sympathischen Dank dafür. Das macht ihn froh.</p>
+            <p rendition="#et">
+               <pb n="547" facs="#f0036"/>
+Er war guter Laune auch an dem Nachmittag, da er so unerwartet nachhause kommt und in seiner Stube Stimmen hört. Er zögert und horcht. Rasche, halblaute Worte, die vor seinen Schritten zu flüchten scheinen, und dann steht ein junger Mensch mit einem breiten dicken Gesicht vor der Tür und pfeift, pfeift so in den Tag hinein, mir nichts und dir nichts. Und eben da Ewald ihn zu Rede stellen will, tritt Sophie aus seiner Tür, sehr blaß, und tut als ob das alles selbstverständlich wäre. Dann sagt sie unsicher: »Es ist der Herr hier, – der... er wollte das Zimmer sehen, Herr Tragy.«</p>
+            <p rendition="#et">Die beiden jungen Leute sehen sich ins Gesicht. Der Fremde hört auf zu pfeifen und grüßt. Und da er höflich lächelt dabei, wird das Gesicht breit und verschwommen, und Tragy muß an etwas Häßliches denken. Trotzdem dankt er flüchtig, so mit der Hand an der Krempe, und tritt in seine Stube.</p>
+            <p rendition="#et">Er bemerkt erst nach einer Weile, daß Sophie hinten an der Tür steht, hat plötzlich fürchterlich viel zu tun, trägt Dinge ganz überflüssiger Weise von einem Tisch zum andern und bückt sich gelegentlich, um etwas aufzuheben. Aber endlich ist er doch fertig mit diesem unseligen Aufräumen und er muß nun wahrscheinlich das Mädchen fragen: Was wollen Sie? Denn so kann sie doch nicht stehen bleiben wollen ohne Grund.</p>
+            <p rendition="#et">Plötzlich fallt ihm etwas ein und er spricht nach der andern Seite hin, irgendwohin in eine Ecke: »Sie können beruhigt sein, ich werde nichts sagen. Das wollen Sie ja doch hören, nichtwahr? Also gut. Aber ich ziehe <pb n="548" facs="#f0037"/>
+aus im nächsten Monat; ich habe ohnehin die Absicht gehabt –«</p>
+            <p rendition="#et">Und da sitzt er schon am Tisch und schreibt, tief, als ob er seit zwei Stunden schriebe. Es wird aber nur ein ganz kurzer Brief an Herrn von Kranz, darin er ihn bittet, morgen um vier im ›Luitpold‹ zu sein, wenn es ihm passe. Erst nachdem er die Adresse beendet hat, sieht er sich vorsichtig um. Es ist niemand mehr da, und Ewald wechselt Schuhe und Anzug, denn er hat vor, auswärts zur Nacht zu essen.</p>
+            <p>*</p>
+            <p>Herrn von Kranz paßt die Stunde, wie ihm eine jede Stunde gepaßt haben würde. Er ist nicht übermäßig beschäftigt, nämlich. Er schreibt etwas Großes, ein Epos oder etwas über das Epos hinaus, jedenfalls etwas ganz Neues, etwas ›in Höhepunkten‹, so hat er dem neuen Bekannten versichert in der ersten halben Stunde. Eine solche Arbeit hängt aber, wie man weiß, einzig von der Inspiration ab, von der tiefen Begeisterung, welche (nach Herrn von Kranz) »den Traum des dunklen Mittelalters erfüllt und es versteht, aus allen Dingen Gold zu machen«. So etwas geschieht freilich mitten in der Nacht oder sonst unglaublich wann, nicht um vier Uhr nachmittags, zu einer Zeit, da sich bekanntlich die allergewöhnlichsten Dinge ereignen können. Und deshalb ist Herr von Kranz frei und sitzt im ›Luitpold‹, Tragy gegenüber. Er ist sehr beredt, denn Ewald schweigt viel, und Kranz liebt das Schweigen nicht, scheint es. Er hält das für das Vorrecht der Einsamen, <pb n="549" facs="#f0038"/>
+wo aber zwei oder drei beisammen sind, da hat es tatsächlich keinen Sinn, wenigstens keinen, den man auf den ersten Blick begreift. Und nur nichts Dunkles und Unverständliches, im Leben wenigstens. In der Kunst? Ah das ist etwas anderes, da hat man ja das Symbol, nichtwahr? Dunkle Umrisse vor lichtem Hintergrund, nichtwahr? Verschleierte Bilder – nicht? Aber im Leben – Symbole, oh – lächerlich.</p>
+            <p rendition="#et">Manchmal sagt Ewald: »Ja« und wundert sich, woher in aller Welt er diese Unmenge unverbrauchter ›Ja‹ in sich hat. Und wundert sich über die großen Worte und über das kleine Leben irgendwo tief unten. Denn er lernt in diesem Nachmittag die ganze Weltanschauung des Herrn von Kranz, diese Weltanschauung aus der Vogelperspektive, kennen und – und wundert sich eben. Er ist jung, nimmt die Dinge wie Tatsachen und die Sensationen für Schicksale hin und hat dann und wann das Bedürfnis, etwas von diesen glänzenden Konfessionen aufzuschreiben, weil ihr ganzer Zusammenhang, weithin, ihm unübersehbar scheint. Was ihn aber am meisten überrascht, das ist das Fertige aller dieser Überzeugungen, die sorglose Leichtigkeit, womit Kranz eine Erkenntnis neben die andere setzt, lauter Eier des Kolumbus: wenn eines nicht gleich aufrecht bleiben will, ein Schlag auf die Tischplatte und – es steht.</p>
+            <p rendition="#et">Ob das Geschicklichkeit ist oder Kraft – wer mag das entscheiden? Herr von Kranz ist aufrichtig bei der Sache. Er spricht sehr laut und hat offenbar den Ort der Handlung ganz vergessen. Wie ein Sturm, der fremden Stuben die Fenster aufreißt, bricht seine Rede in <pb n="550" facs="#f0039"/>
+alle Gespräche, so daß man endlich nachgibt und allenthalben die Fenster offen läßt. Und da ist eben der Sturm obenauf. Sogar die schöne Minna vergißt einzuschenken, bleibt an einer Säule lehnen und hört zu. Nur leider mit ganz impertinenten Augen. Und plötzlich fängt sie mit diesen großen, grünen Augen die blitzenden Blicke des Dichters auf und bändigt sie, macht sie klein, unbedeutend, nichtswürdig und läßt sie mit einem infamen Lächeln einfach fallen.</p>
+            <p rendition="#et">Herr von Kranz verliert einen Moment die Fassung. Er wankt im Sattel, tut aber gleich, als sei das eine beabsichtigte Schwenkung gewesen und wirft der Schönen ein Wort zu, so ein klebriges, mehr Frosch als Blume. Dann ist er gleich wieder bei der Sache und ist sogar an einem Höhepunkt, an der Stelle nämlich: »Wie ich Nietzsche überwand.«</p>
+            <p rendition="#et">Aber Ewald Tragy hört aufeinmal nichtmehr zu. Er entdeckt das erst viel später, als Kranz an irgendeinem Ende ist und wartet. Dieses Warten bedeutet: Und Sie? Sie haben doch auch so etwas wie eine Meinung von Alledem, hoffentlich. Weltanschauung um Weltanschauung, bitte?</p>
+            <p rendition="#et">Tragy begreift das nicht gleich, und als er es schließlich versteht, gerät er in unbeschreibliche Verwirrung. Er steht so mitten in allem, wie tief im Wald, und sieht nichts als Stämme, Stämme, Stämme und weiß kaum, ob Tag oder Nacht ist über ihnen. Und doch soll er genau die Stunde nennen, auf die Minute genau, so daß gar kein Zweifel möglich ist. Er fürchtet durch sein Schweigen Herrn von Kranz zu verletzen; aber der <pb n="551" facs="#f0040"/>
+wird immer milder, teilnahmsvoller, väterlich fast. Und er befiehlt rasch: »zahlen!« So feinfühlig ist er.</p>
+            <p rendition="#et">In den nächsten Tagen aber empfindet Tragy immer deutlicher, daß er dem neuen Bekannten etwas geben müsse von sich, nicht aus Sympathie, sondern weil er doch nach jenem freimütigen Nachmittag sein Schuldner geworden ist im Vertrauen. Und als die beiden einmal im ›Englischen Garten‹ gehen – es ist wieder so eine Dämmerung mit Wolkenbergen am Horizont – , sagt er unvermittelt: »Immer war ich so ganz allein. Mit zehn Jahren kam ich aus dem Haus in die Militärerziehung unter fünfhundert Kameraden und – trotzdem... Ich war sehr unglücklich dort – fünf Jahre. Und dann steckten sie mich wieder in eine Schule, und dann wieder in eine, und so fort. Ich war immer allein, wissen Sie...«</p>
+            <p rendition="#et">Wenn es weiter nichts ist, denkt Herr von Kranz, dem läßt sich abhelfen. Und seither ist er jeden Augenblick bei Ewald, früh, Vormittag, oft bis weit in die Nacht. Und er tut das so selbstverständlich, daß Tragy nichtmehr wagt, seine Einsamkeit zu verriegeln; er lebt bei offenen Türen, sozusagen. Und Herr von Kranz kommt und geht und kommt und geht. Er hat ein Recht dazu, denn: »Wir haben ganz das gleiche Los, lieber Freund Tragy –« behauptet er. »Auch mich verstehn sie nicht zuhaus, natürlich. Sie nennen mich überspannt, verrückt, als ob –«; er vergißt bei diesem Anlaß nie anzufügen, daß sein Vater Hofmarschall ist an einem kleinen deutschen Hofe und daß man in diesen Kreisen – er schätzt sie offenbar sehr gering – die bekannten konservativ <pb n="552" facs="#f0041"/>
+vornehmen Ansichten habe. Eben diesen Ansichten hat er es ja auch zu danken, daß er Lieutenant, man bedenke, Lieutenant bei der Garde werden mußte, und er versichert, daß es arge Mühe kostete nach einem Jahr in die Reserve zurückzutreten, gleichsam über die Sympathieen der Vorgesetzten und der Untergebenen weg. Und vollends, daß man zuhause auf Schloß Seewies-Kranz mit seiner neuen Berufswahl nicht, aber ganz und gar nicht einverstanden sei und ihm die Prügel nur so vor die Füße werfe, das brauche er wohl kaum noch zu versichern. Aber trotzalledem gebe er den Kampf nicht auf. Im Gegenteil. Er habe sich verlobt, ja, ganz regelrecht verlobt, mit gedruckten Anzeigen verlobt. Sie ist aus den besten Familien, natürlich, vornehm, gut erzogen, nicht reich, aber beinahe adelig. (Ihre Mutter ist eine Gräfin Soundso.) Nun und dieser Schritt, den er ohneweiters unternahm, ist doch ein Beweis seiner Freiheit, gewissermaßen. Auch soll es nicht zu lange dauern bis zur Hochzeit, und dahinter kommt erst der Haupterfolg, nämlich: »Mein Austritt aus der Kirche –« Kranz zwirbelt seinen blonden Schnurrbart auf und lächelt.</p>
+            <p rendition="#et">»Ja –« sagt er, ungemein zufrieden mit sich und mit Tragys Erstaunen, »das ist ein Schlag, was? Ich entsage dabei meiner Offiziers-charge, natürlich – ich opfere sie auf für meine Überzeugung. Einer Gemeinschaft anzugehören, deren Gesetze man nicht erfüllt, ist eine Untreue gegen sich selbst...«</p>
+            <p rendition="#et">›Untreue gegen sich selbst‹, fällt Tragy einmal mitten in der Nacht ein, wie fertig das wieder ist, wie klar, wie <pb n="553" facs="#f0042"/>
+überwunden. Und er erinnert sich seither fast jede Nacht an irgend eine Stelle aus seinen Gesprächen mit Kranz, und sie scheinen ihm alle gleich trefflich und bezeichnend. Die Folgen bleiben nicht aus.</p>
+            <p rendition="#et">Eines Morgens, im November noch, erwacht Tragy und hat eine Weltanschauung. Wirklich. Sie läßt sich gar nicht leugnen, sie ist da, alle Anzeichen sprechen dafür. Er weiß nicht recht, wem sie gehört, aber da er sie doch nun mal bei sich gefunden hat, nimmt er an, daß es die seine sei. Selbstverständlich bringt er sie nächstens mit ins ›Luitpold‹. Und kaum hat er sie gezeigt, besitzt er schon eine Menge Bekannte, die fast wie Freunde sind, ihm von seinen Gedichten erzählen, die sie Alle kennen, und ihm alle fünf Minuten Zigaretten anbieten: »Aber nehmen Sie doch.« Fehlt nur noch, daß sie ihn auf die Schulter klopfen und Du sagen. Aber Tragy raucht nicht, obwohl er fühlt, daß dies zu seiner Weltanschauung gehört, so gut wie der Sherry, den er vor sich stehen hat, und die Absicht, den Abend in den Blumensälen zuzubringen, wo die berühmte Branicka singt.</p>
+            <p rendition="#et">Und da behauptet gerade jemand, Kranz kenne sie wohl sehr genau, die Branicka. »Wie?«</p>
+            <p rendition="#et">Kranz hebt die Achseln hoch und dreht den Schnurrbart; er ist auf einmal ganz Lieutenant, ist ›von‹. Und es witzelt einer: »Ja nach den Stunden, die er bei seiner Braut verbringt, braucht er doch – eine Ableitung.« Und großes Gelächter; denn das finden alle treffend, ›fein‹, wie der technische Ausdruck lautet, und Kranz selber nennt es so.</p>
+            <p rendition="#et">
+               <pb n="554" facs="#f0043"/>
+Er fühlt sich überhaupt herzlich wohl unter diesen jungen Leuten, die zum Überfluß auch Namen haben, obgleich es genügt hätte, sie zur Unterscheidung zu numerieren. Eine hohe Meinung hat Kranz allerdings nicht von seinen täglichen Genossen, sie sind ihm so eine Art Hintergrund für die eigene Persönlichkeit, und wenn Tragy mal nach einem von ihnen fragt, gibt er obenhin: »Der? Na man kann noch nicht wissen, ob er Talent hat, vielleicht –« und wählt das zum Anlaß eines längeren Gespräches über die ›Aufgaben der Kunst‹, über die ›technischen Forderungen des Dramas‹ oder das ›Epos der Zukunft‹.</p>
+            <p rendition="#et">Auch hier fühlt sich Tragy ganz unerfahren, und es kann zu keiner gerechten Erörterung kommen, weil er nur selten etwas zu entgegnen weiß. Aber wenn ihn seine Unwissenheit in den anderen Fällen beunruhigt, diesen Dingen gegenüber empfindet er sie wie einen Schild, hinter dem er irgendwas Liebes, Tiefes – er vermag nicht zu denken was – bergen kann, vor irgendeiner fremden Gefahr, und er weiß nicht zu sagen – vor welcher. Er scheut sich auch manches, was ihm in einer leisen Stunde gelingt, dem Genossen zu zeigen und liest ihm nur ganz selten mit halber, unbewußt klagender Stimme ein paar blasse Verse vor und bereut es gleich darauf und schämt sich vor dem bereiten Beifall des anderen, der so laut und rücksichtslos ist. Seine Verse sind eben krank, und man soll nicht laut sprechen in ihrer Gegenwart.</p>
+            <p rendition="#et">Im übrigen bleibt Tragy nicht viel Zeit für solche Heimlichkeiten. Es stehen mit einem Male soviel<pb n="555" facs="#f0044"/>
+ Dinge in seinen Tagen, und trotzdem kommt er jetzt leichter durch als früher, da sie leer waren und man sich nirgends halten konnte. Es gibt eine Menge kleiner Pflichten, tägliche Verabredungen mit Kranz und seinem Kreis, ein stetes Beschäftigtsein ohne eigentlichen Sinn und Gespräche, die man überall enden konnte, an jeder beliebigen Stelle. Dafür fehlt jede Erregung und Unruhe es ist ein immerwährendes Mitgehen, und der eigene Wille hat nichts zu tun. Eine einzige wirkliche Gefahr besteht noch: das Alleinsein – und davor weiß jeder den andern zu behüten.</p>
+            <p rendition="#et">So ist Alles bis zu jenem Nachmittag, da Herr von Kranz, bedeutender als je, im ›Luitpold‹ sitzt und Tragy erklärt:</p>
+            <p rendition="#et">»Solange wir das nicht erreichen, – ist nichts. Wir brauchen eine Höhenkunst, lieber Freund, so etwas über Tausende hin. Zeichen, die auf allen Bergen flammen von Land zu Land – eine Kunst wie ein Aufruf, eine Signalkunst –«</p>
+            <p rendition="#et">›Quatsch‹, sagt jemand hinter ihm, und das fällt wie nasser Mörtel auf die glänzende Beredsamkeit des Dichters und deckt sie zu.</p>
+            <p rendition="#et">Dieses ›Quatsch‹ gehört einem kleinen schwarzen Mann, der einen langen Zug tut aus einem unglaublich verbrauchten Zigarettenrest, und zugleich mit der Asche glimmen seine großen schwarzen Augen auf und verlöschen mit ihr. Dann geht er ruhig weiter, und Herr von Kranz ruft geärgert hinter ihm her: »Natürlich, Thalmann –«</p>
+            <p rendition="#et">
+               <pb n="556" facs="#f0045"/>
+Und fügt für Ewald hinzu: »Er ist ein Flegel. Man müßte ihn einmal zu Rede stellen. Aber er hat ja keine Art. Er zählt überhaupt nicht mit. Ihn nicht beachten, das ist das beste –«, und er hat gute Lust, seine Erörterungen über die Höhenkunst wieder aufzunehmen. Allein Tragy wehrt sich mit ungewohnter Energie dagegen und fragt unbeirrt: »Wer ist das?«</p>
+            <p rendition="#et">»Ein Jude aus irgendeinem kleinen Nest, schreibt Romane, glaub ich. Eine von den zweifelhaften Existenzen, wie es hier Dutzende gibt, Dutzende. Das kommt heute man weiß nicht woher und geht übermorgen und man weiß nicht wohin, und es bleibt nichts zurück als einwenig Schmutz. Sie dürfen sich nicht täuschen lassen durch diese Gesten, lieber Tragy...«</p>
+            <p rendition="#et">Seine Stimme wird ungeduldig und das heißt: ein für alle Mal und genug davon. Und Tragy ist auch ganz einverstanden und bereit, sich nicht täuschen zu lassen.</p>
+            <p rendition="#et">Aber es ist doch ein Abschnitt, dieser Nachmittag. Er kann dieses lächerliche »Quatsch« nicht vergessen, das so schwer und breit auf die Begeisterung des Propheten fiel und, was das Schlimmere ist, er hört es noch immer fallen – hinter jedem großen Geständnis des Herrn von Kranz klatscht es herunter, und er sieht irgendwo in der Erinnerung den kleinen schwarzen Mann mit den breiten Schultern und dem schäbigen Rock stehen und lächeln.</p>
+            <p rendition="#et">Und ganz so findet er ihn eine Woche später abends in den Blumensälen. Es ist ihm natürlich, auf ihn zuzugehen und ihn zu begrüßen. Gott weiß warum. Der <pb n="557" facs="#f0046"/>
+andere ist auch nicht erstaunt darüber, er fragt nur: »Sind Sie mit Kranz hier?«</p>
+            <p rendition="#et">»Kranz wollte nachkommen.«</p>
+            <p rendition="#et">Pause, und dann: »Ist Ihnen Kranz nicht sympathisch?«</p>
+            <p rendition="#et">Thalmann nickt jemandem im Parterre zu und antwortet nebenbei: »Sympathisch, machen Sie doch nicht solche Worte. Er langweilt mich.«</p>
+            <p rendition="#et">»Und sonst langweilen Sie sich nie? –« Tragy ist gereizt durch die geringschätzige Art des andern.</p>
+            <p rendition="#et">»Nein, ich habe nicht Zeit dazu.«</p>
+            <p rendition="#et">»Merkwürdig, daß man Sie dann hier findet?«</p>
+            <p rendition="#et">»Wieso?«</p>
+            <p rendition="#et">»Hier geht man doch nur aus Langweile her?«</p>
+            <p rendition="#et">»Vielleicht andere, ich nicht.«</p>
+            <p rendition="#et">Tragy staunt über seine eigene Hartnäckigkeit. Er gibt nicht nach:</p>
+            <p rendition="#et">»Dann haben Sie also Interesse . . ?«</p>
+            <p rendition="#et">»Nein«, macht der Schwarze und geht weiter. Tragy hinter ihm: »Sondern?«</p>
+            <p rendition="#et">Thalmann wendet sich kurz: »Mitleid.«</p>
+            <p rendition="#et">»Mit wem?«</p>
+            <p rendition="#et">»Mit Ihnen zunächst.« So läßt er Tragy zurück und geht, wie damals im ›Luitpold‹, ruhig weiter. Und Ewald ist schon um elf zuhaus und schläft schlecht in dieser Nacht.</p>
+            <p rendition="#et">Am nächsten Tag ist Schnee gefallen. Alle Welt ist froh über das Ereignis, und die einander in den weißen Straßen begegnen, lächeln sich zu: »Er bleibt liegen«, und freuen sich. Ewald findet Thalmann an der Ecke <pb n="558" facs="#f0047"/>
+der Theresienstraße, und sie gehen ein Stück weit zusammen. Lange still, bis Ewald beginnt: »Sie schreiben, nichtwahr?«</p>
+            <p rendition="#et">»Ja, auch das, gelegentlich.«</p>
+            <p rendition="#et">»Auch? So ist das nicht Ihre eigentliche Beschäftigung?«</p>
+            <p rendition="#et">»Nein –«</p>
+            <p rendition="#et">Pause.</p>
+            <p rendition="#et">»Was tun Sie denn also, bitte?«</p>
+            <p rendition="#et">»Schauen.«</p>
+            <p rendition="#et">»Wie?«</p>
+            <p rendition="#et">»Schauen und das andere – Essen, Trinken, Schlafen, dann und wann, nichts Besonderes.«</p>
+            <p rendition="#et">»Man sollte meinen, daß Sie sich in einem fort lustig machen.«</p>
+            <p rendition="#et">»So, worüber?«</p>
+            <p rendition="#et">»Über Alles, über Gott und die Welt.«</p>
+            <p rendition="#et">Da antwortet Thalmann nicht, sondern lächelt so: »Und Sie, Sie machen wohl viele Gedichte?«</p>
+            <p rendition="#et">Tragy wird ganz rot und schweigt. Er kann kein Wort hervorbringen.</p>
+            <p rendition="#et">Und Thalmann lächelt nur.</p>
+            <p rendition="#et">»Halten Sie das für eine Schande?« zwingt Tragy endlich heraus und friert.</p>
+            <p rendition="#et">»Nein. Ich halte überhaupt nichts für – etwas. Es ist nur – überflüssig. Doch, ich muß da hinauf.« Und im Tor: »Adieu, und Sie können recht haben mit dem Lustigmachen.«</p>
+            <p rendition="#et">Und nun ist Tragy wieder allein. Er muß an die Zeit denken, da er zehnjährig und verzärtelt aus dem Haus<pb n="559" facs="#f0048"/>
+ kam, unter lauter Roheit und Gleichgültigkeit, und er fühlt sich ganz so wie damals, erschrocken, hilflos, unfähig. Es ist immer dasselbe. Als ob ihm etwas fehlte zum Leben, irgend ein wichtiges Organ, ohne welches man eben nicht vorwärts kommt. Wozu immer wieder diese Versuche?</p>
+            <p rendition="#et">Er kommt müde nachhause wie von einem weiten Weg und weiß nicht, was er mit sich beginnen soll. Er stöbert in alten Briefen und Erinnerungen und liest auch die Gedichte durch, jene letzten, leisesten, welche selbst Herr von Kranz nicht kennt. Und da findet er sich und erkennt sich wieder, langsam Zug für Zug, als ob er lange fern gewesen wäre. Und in der ersten Freude schreibt er einen Brief an Thalmann und strömt über von Dankbarkeit:</p>
+            <p rendition="#et">»Sie haben ganz recht,« heißt es darin, »ich war ja so falsch und phrasenhaft geworden. Jetzt sehe ich Alles ein und begreife Alles. Sie haben mich geweckt aus einem bösen Traum. Wie soll ich Ihnen danken dafür? Ich kann nicht anders, als indem ich Ihnen diese Lieder, das Teuerste und Heimlichste, was ich besitze, übersende –«</p>
+            <p rendition="#et">Und dann trägt Tragy Brief und Gedichte selber an die Adresse, weil die Post ihm plötzlich unsicher scheint. Es ist spät, und er muß im Dunkel vier Treppen aufwärts tasten bis zu dem Atelier in der Giselastraße, welches Thalmann bewohnt. Er trifft ihn in dem lächerlich kleinen Loch, das eigentlich nur wie ein Rahmen ist um das schräge ungeheure Nordfenster, schreibend. Eine alte verbogene Lampe brennt hier, hoch in <pb n="560" facs="#f0049"/>
+der Nacht, und hat nicht die Kraft, die vielen Dinge, die ohne Sinn durcheinander liegen, zu unterscheiden.</p>
+            <p rendition="#et">Thalmann hält sie dem Eintretenden vors Gesicht: »Ach, Sie sinds?« Und er schiebt ihm den eigenen Sessel hin. »Rauchen Sie?«</p>
+            <p rendition="#et">»Nein, danke.«</p>
+            <p rendition="#et">»Kaffee kann ich Ihnen keinen mehr machen. Ich hab keinen Spiritus mehr. Aber wenn Sie wollen, können Sie mittrinken.« Und er stellt einen alten henkellosen Topf zwischen sie beide.</p>
+            <p rendition="#et">Er steht mit verschränkten Armen da, rauchend, ruhig beobachtend, vollkommen gleichgültig.</p>
+            <p rendition="#et">Tragy kann sich nicht entschließen.</p>
+            <p rendition="#et">»Sie wollen mir etwas sagen?« Thalmann trinkt einen Schluck Kaffee und wischt sich mit dem Handrücken den Mund.</p>
+            <p rendition="#et">»Ich habe Ihnen etwas gebracht –« traut sich Ewald.</p>
+            <p rendition="#et">Der andere rührt sich nicht: »So? Legen Sie's nur daher. Ich werds gelegentlich mal durchsehn. Was ist es denn?«</p>
+            <p rendition="#et">»Ein Brief –«, zögert Tragy, »und – – aber vielleicht lesen Sie ihn gleich, bitte.«</p>
+            <p rendition="#et">Thalmann hat das Kuvert schon aufgerissen, so, nachlässig mit einem Griff. Er behält die Zigarette zwischen den Zähnen und liest flüchtig, blinzelnd durch den Rauch durch. Ewald ist aufgestanden vor Erregung und wartet. Aber nichts verändert sich in dem blassen Gesicht des Schwarzen, nur der Rauch scheint ihn heftig zu stören. Am Ende nickt er: »Naja, und so weiter.« Und zu Tragy: »Ich will Ihnen mal gelegentlich <pb n="561" facs="#f0050"/>
+schreiben, was ich von den Dingen halte, reden mag ich nicht über sowas.« Und er trinkt den Kaffee aus auf einen Zug.</p>
+            <p rendition="#et">Tragy fällt auf den Sessel zurück und sitzt und will den Tränen nicht nachgeben. Er fühlt auf seiner Stirne den Sturm, der sich breit durch die Riesenscheiben hereinpreßt aus der Nacht.</p>
+            <p rendition="#et">Schweigen.</p>
+            <p rendition="#et">Dann fragt Thalmann: »Ist Ihnen kalt, Sie frösteln so?«</p>
+            <p rendition="#et">Ewald schüttelt den Kopf.</p>
+            <p rendition="#et">Und wieder Schweigen.</p>
+            <p rendition="#et">Dann und wann krachen die Scheiben leise, heimlich, wenn der Wind sich anlehnt, wie Schollen vor dem Eisgang. Und endlich sagt Tragy: »Warum behandeln Sie mich so?« Er sieht ungewöhnlich krank und traurig aus.</p>
+            <p rendition="#et">Thalmann raucht eifrig: »Behandeln? Nennen Sie das behandeln? Sie sind wirklich bescheiden. Ich zeige Ihnen doch deutlich genug, daß ich gar nicht vorhabe, Sie irgendwie zu behandeln. Wenn Sie wollen, daß ich mich zu Ihnen stelle, so oder so, müssen Sie sich erst mal die Worte abgewöhnen, die großen Worte; die will ich nicht.«</p>
+            <p rendition="#et">»Aber wer sind Sie denn?« schreit Tragy und springt an den Schwarzen heran, nah, als ob er ihm ins Gesicht schlagen wollte. Er zittert vor Wut. »Wer gibt Ihnen denn das Recht mir Alles zu zertreten?«</p>
+            <p rendition="#et">Aber da rütteln schon die Tränen an seiner Stimme und überwältigen sie und machen ihn blind, schwach, lösen ihm die Fäuste.</p>
+            <p rendition="#et">
+               <pb n="562" facs="#f0051"/>
+Der andere drängt ihn sanft zu dem Stuhl zurück und wartet. In einer Weile sieht er auf die Uhr und sagt: »Lassen Sie das jetzt. Sie müssen nachhause, und ich muß schreiben; es ist Mitternacht. Sie fragen wer ich bin: Ein Arbeiter bin ich, sehen Sie, einer mit wunden Händen, ein Eindringling, einer, der die Schönheit liebt und viel zu arm ist dazu. Einer, der fühlen muß, daß man ihn haßt, um zu wissen, daß man ihn nicht bemitleidet... Unsinn übrigens.«</p>
+            <p rendition="#et">Und Tragy hebt die Augen, die heiß und trocken sind, und starrt in die Lampe. Sie wird gleich auslöschen, denkt er und steht auf und geht.</p>
+            <p rendition="#et">Thalmann leuchtet ihm die enge Treppe hinunter. Und es will Tragy scheinen, daß sie kein Ende nimmt.</p>
+            <p>*</p>
+            <p>Tragy ist krank. Er kann nicht ausziehen deshalb und behält bis zum ersten Januar seine Stube in der Finkenstraße. Er liegt auf dem unbequemen Sofa und denkt an diesen Garten mit den weiten blassen Wiesen und den Hügeln, zu denen still und schlicht die Birken hinansteigen. Wohin? In den Himmel. Und plötzlich kommt es ihm unerhört komisch vor, sich eine Birke, eine junge, dünne Birke anderswo zu denken, als im Himmel. Gewiß, es gibt nur im Himmel Birken, gewiß. Was sollten die denn unten? Man denke nur neben diesen breiten braunen Stammen – ebensogut könnte es Sterne geben an der Zimmerdecke. Aber plötzlich fragt er: »Was pflücken Sie, Jeanne?« »Sterne.« Er überlegt einen Augenblick und sagt dann: »Das ist gut, Jeanne, <pb n="563" facs="#f0052"/>
+das ist sehr gut.« Und er fühlt ein Wohlbehagen im ganzen Körper, bis ein heftiger Schmerz im Kreuz es zerstört. Ich hab mich zu sehr angestrengt, ich habe ja den ganzen Vormittag Blumen gepflückt. Wie kann man auch? Vormittag? Lächerlich: zwei Tage, vierzehn Tage, ooh überhaupt. Aber da kommt ja Jeanne durch die Allee, durch diese lange Allee von Pappeln. Endlich ist sie nahe. Mohn! sagt Ewald enttäuscht. Mohn! wer wird denn Mohn holen? Ein Sturm, und alles ist fort. Sie werden sehen. Und was dann? ja, was dann? . . .</p>
+            <p rendition="#et">Auf einmal setzt sich Tragy auf, hat ein dunkles Gefühl von einem Garten und will sich besinnen: Wann war das doch, gestern? Und er quält sich: vor einem Jahr? Und allmählich fällt ihm ein, daß es ein Traum war, bloß ein Traum, also überhaupt nicht. Das gibt ihm keine Ruhe. »Wann sind Träume?« fragt er sich ganz laut. Und er erzählt Herrn von Kranz, der ihn in der Dämmerung besucht, dieses: »Das Leben ist so weit und es stehen doch nur ganz wenig Dinge drin, alle Ewigkeit eines. Das macht bang und müd, diese Übergänge. Als Kind war ich einmal in Italien. Ich weiß nicht viel davon. Aber wenn man dort auf dem Lande einen Bauer fragt unterwegs: ›Wie weit ist es bis ins Dorf?‹ – ›un' mezz' ora‹ sagt er. Und der Nächste dasselbe und der Dritte auch, wie auf Verabredung. Und man geht den ganzen Tag und ist immer noch nicht im Dorf. So ist es im Leben. Aber im Traum ist Alles ganz nah. Da hat man gar keine Angst. Wir sind eigentlich für den Traum gemacht, wir haben gar <pb n="564" facs="#f0053"/>
+nicht die Organe für das Leben, aber wir sind eben Fische, die durchaus fliegen wollen. Was ist da zu machen?«</p>
+            <p rendition="#et">Herr von Kranz sieht das ganz genau ein und stimmt zu: »Famos« lacht er, »wirklich ganz famos. Das müssen Sie in Versen sagen, es verlohnt sich. Das ist ganz Ihre Eigenart –«. Dann geht er bald; er fühlt sich nicht behaglich bei solchen Gesprächen und kommt immer seltener. Tragy ist ihm dankbar dafür. Er lebt jetzt wirklich im Traum und wird nicht gerne gestört; denn dann muß er den traurigen grauen Tag draußen anschauen und die fremde, feuchte Stube, die nicht warm werden will, und ist doch so verwöhnt jetzt durch Farben und Feste. Nur die Nächte sind schlecht und schrecklich. Da kommen ganz alte Qualen, die aus den vielen Fiebernächten der Kindheit stammen, über ihn und machen ihn matt: Stein ist unter seinen Gliedern, und in seine tastenden Hände drängt sich grauer Granit, kalt, hart, rücksichtslos. Sein armer heißer Körper bohrt sich in diesen Felsen, und seine Füße sind Wurzeln und saugen den Frost auf, der langsam durch die erstarrenden Adern steigt... Oder: das mit dem Fenster. Ein kleines Fenster hoch hinter dem Ofen. Hoch hinter dem Ofen ein kleines Fenster. Oh, wie man es auch sagt, es kann keiner begreifen, wie furchtbar dieses Fenster ist. Hinter dem Ofen ein Fenster, ich bitte. Ist es nicht entsetzlich zu denken, daß dahinter noch etwas ist. Eine Kammer? Ein Saal? Ein Garten? Wer weiß das? – »Wenn <hi rendition="#i">das</hi> nur nicht wiederkommt, Herr Doktor.«</p>
+            <p rendition="#et">»Wir sind nervös –« lächelt der Arzt und ist im allgemeinen ganz zufrieden. »Wir dürfen uns nicht unnütz aufregen. Es ist ein kleines Fieber, mit dem werden wir schon fertig werden; und dann kräftig essen –«</p>
+            <p rendition="#et">Ewald lächelt hinter dem alten Herrn her. Er fühlt sich so krank, so von ganzem Herzen krank, und es paßt Alles so gut dazu. Diese trüben Traumtage, die sich so schwer an die Scheiben lehnen, und diese Stube, in der die Dämmerung wie alter Staub auf allen Dingen bleibt, und dieser feine welke Duft, der aus den Möbeln und aus den Dielen strömt, immer und immer.</p>
+            <p rendition="#et">Und manchmal läuten große Glocken irgendwo, die er früher nie gehört hat, und dann faltet er die Hände über der Brust und schließt die Augen und träumt, daß Kerzen brennen zu seinen Häupten, sieben hohe Kerzen mit ruhigen, roten Flammen, die wie Blüten stehn in dieser festlichen Traurigkeit.</p>
+            <p rendition="#et">Aber der alte Herr hat recht: Das Fieber vergeht, und Tragy trifft auf einmal das Träumen nicht mehr. Die ausgeruhte neue Kraft rührt sich ungeduldig in seinen Gliedern und treibt ihn aus dem Bett, fast gegen seinen Willen. Er spielt noch eine Weile Kranksein, aber gelegentlich findet er sich lächelnd, und aus keinem andern Grund, als weil ein Zufall den Wintertag einen Augenblick in die Sonne hält, so daß er glitzert und flimmert auf allen Seiten. Und das ist ein Symptom, dieses Lächeln.</p>
+            <p rendition="#et">Er soll noch nicht an die Luft, und so sitzt er denn in der Stube und wartet. Jetzt ist Alles geeignet, ihm<pb n="566" facs="#f0055"/>
+ Freude zu machen; jeder Laut, der von draußen kommt, wird wie ein fahrender Sänger empfangen und muß erzählen. Und einen Brief erhofft Tragy, irgendeinen Brief. Und daß Herr von Kranz einmal anpocht. Aber Tage gehen hin. Es schneit draußen ein, und der Lärm verliert sich im tiefen Schnee. Kein Brief, kein Besuch. Und die Abende sind ohne Ende. Tragy kommt sich vor wie einer, den man vergessen hat, und er beginnt unwillkürlich sich zu rühren, zu rufen, sich bemerkbar zu machen. Er schreibt: nachhause, an Herrn von Kranz, an alle, die ihm zufällig bekannt sind, ja er sendet sogar ein paar aus der Heimat mitgebrachte Anempfehlungsbriefe aus, die er bislang nicht benutzt hat, und erwartet, man werde mit Einladungen erwidern. Umsonst. Er bleibt vergessen. Er mag rufen und Zeichen geben. Seine Stimme reicht nirgends hin.</p>
+            <p rendition="#et">Und gerade in diesen Tagen ist sein Bedürfnis nach Teilnahme so groß; es wächst in ihm fort und wird ein ungestümer trockener Durst, der ihn nicht demütigt, sondern ihn bitter und trotzig macht. Er überlegt plötzlich, ob er nicht das, was er umsonst erbittet von aller Welt, fordern kann von irgendwem, wie ein Recht, wie eine alte Schuld, die man einzieht mit allen Mitteln, rücksichtslos. Und er verlangt von seiner Mutter: »Komm, gib mir, was mir gehört.«</p>
+            <p rendition="#et">Das wird ein langer, langer Brief, und Ewald schreibt weit in die Nacht hinein, immer rascher und mit immer heißeren Wangen. Er hat damit begonnen, eine Pflicht zu fordern und, ehe er es weiß, bittet er<pb n="567" facs="#f0056"/>
+ um eine Gnade, um ein Geschenk, um Wärme und Zärtlichkeit. »Noch ist es Zeit –« schreibt er, »noch bin ich weich und kann wie Wachs sein in Deinen Händen. Nimm mich, gib mir eine Form, mach mich fertig...«</p>
+            <p rendition="#et">Es ist ein Schrei nach Mütterlichkeit, der weit über ein Weib hinausreicht, bis zu jener ersten Liebe hin, in welcher der Frühling froh und sorglos wird. Diese Worte gehen niemandem mehr entgegen, mit ausgebreiteten Armen stürmen sie in die Sonne hinein. – Und so ist es gar nicht erstaunlich, wenn Tragy zum Schluß erkennt, daß es niemanden gibt, dem er diesen Brief schicken kann, und daß niemand ihn verstünde, am wenigsten diese schlanke nervöse Dame. Sie ist ja stolz, daß man sie ›Fräulein‹ nennt in der Fremde, denkt Ewald und weiß: Man muß den Brief rasch verbrennen.</p>
+            <p rendition="#et">Er wartet.</p>
+            <p rendition="#et">Aber der Brief verbrennt ganz langsam in lauter kleinen zitternden Flammen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

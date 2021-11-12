@@ -1,0 +1,3523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Freischütz</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118885235">
+                  <forename>Friedrich</forename>
+                  <surname>Kind</surname>
+               </persName>
+            </author>
+            <author>
+               <persName role="composer" ref="http://d-nb.info/gnd/118629662">
+                  <forename>Carl Maria</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Weber</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T17:38:19Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000405</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q156435</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005157536</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Kind, Johann Friedrich/Libretto/Der Freischütz</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/qx5s.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-A918-F</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Carl Maria von Weber: Der Freischütz. Leipzig [o.J.]</bibl>
+            <bibl>Carl Maria von Weber: Der Freischütz. Romantische Oper in drei Aufzügen, mit einer Einführung von Karl Schönewolf, Leipzig: Reclam, [o._J.].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Der Freischütz</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118885235">
+                        <forename>Friedrich</forename>
+                        <surname>Kind</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName role="composer" ref="http://d-nb.info/gnd/118629662">
+                        <forename>Carl Maria</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Weber</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">84 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Reclam-Verlag</name>
+                  </publisher>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date type="publication">1952</date>
+                  <date type="firstPublication">1822</date>
+                  <date type="firstPublication" subtype="clariah">1822</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1768"
+                        notAfter="1843"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d142e324">Komponiert von Carl Maria von Weber. Uraufführung am 18.06.1821, Königliches Opernhaus, Berlin.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <personGrp xml:id="volk_landleute_chor_alle" sex="UNKNOWN">
+                  <name>Das Volk/Chor der Landleute/Alle</name>
+               </personGrp>
+               <person xml:id="max" sex="MALE">
+                  <persName>Max</persName>
+               </person>
+               <person xml:id="kilian" sex="MALE">
+                  <persName>Kilian</persName>
+               </person>
+               <personGrp xml:id="maedchen" sex="FEMALE">
+                  <name>Mädchen</name>
+               </personGrp>
+               <personGrp xml:id="die_maenner" sex="MALE">
+                  <name>Die Männer</name>
+                  <name type="variant">Männer</name>
+               </personGrp>
+               <person xml:id="kuno" sex="MALE">
+                  <persName>Kuno</persName>
+               </person>
+               <person xml:id="kaspar" sex="MALE">
+                  <persName>Kaspar</persName>
+               </person>
+               <personGrp xml:id="jaeger_bzw_chor_der_jaeger" sex="MALE">
+                  <name>Die Jäger/Chor der Jäger/Einige Jäger/Andere Jäger</name>
+               </personGrp>
+               <personGrp xml:id="die_weiber_die_frauen" sex="FEMALE">
+                  <name>Die Weiber/Die Frauen</name>
+               </personGrp>
+               <person xml:id="aennchen" sex="FEMALE">
+                  <persName>Ännchen</persName>
+               </person>
+               <person xml:id="agathe" sex="FEMALE">
+                  <persName>Agathe</persName>
+               </person>
+               <personGrp xml:id="stimmen_unsichtbarer_geister" sex="UNKNOWN">
+                  <name>Stimmen unsichtbarer Geister</name>
+               </personGrp>
+               <person xml:id="samiel" sex="MALE">
+                  <persName>Samiel</persName>
+               </person>
+               <person xml:id="das_echo" sex="UNKNOWN">
+                  <persName>Das Echo</persName>
+                  <persName type="variant">Echo</persName>
+               </person>
+               <person xml:id="erster_jaeger" sex="MALE">
+                  <persName>Erster Jäger</persName>
+               </person>
+               <person xml:id="zweiter_jaeger" sex="MALE">
+                  <persName>Zweiter Jäger</persName>
+               </person>
+               <person xml:id="dritter_jaeger" sex="MALE">
+                  <persName>Dritter Jäger</persName>
+               </person>
+               <person xml:id="eine_brautjungfer" sex="FEMALE">
+                  <persName>Eine Brautjungfer</persName>
+               </person>
+               <personGrp xml:id="brautjungfern" sex="FEMALE">
+                  <name>Brautjungfern</name>
+                  <name type="variant">Alle</name>
+               </personGrp>
+               <person xml:id="ottokar" sex="MALE">
+                  <persName>Ottokar</persName>
+               </person>
+               <personGrp xml:id="chor_der_hofleute" sex="UNKNOWN">
+                  <name>Chor der Hofleute</name>
+               </personGrp>
+               <personGrp xml:id="einige" sex="UNKNOWN">
+                  <name>Einige (III. Aufzug)</name>
+               </personGrp>
+               <person xml:id="eremit" sex="MALE">
+                  <persName>Eremit</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretto</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d142e324">
+      <front>
+         <div type="front">
+            <head>Johann Friedrich Kind</head>
+            <head>Der Freischütz</head>
+            <head>Romantische Oper in drei Aufzügen</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="38" facs="#f0001"/> Personen</head>
+               <castItem>Ottokar, böhmischer Fürst (Bariton)</castItem>
+               <castItem>Kuno, fürstlicher Erbförster (Baß)</castItem>
+               <castItem>Agathe, seine Tochter (Sopran)</castItem>
+               <castItem>Ännchen, eine junge Verwandte (Sopran)</castItem>
+               <castItem>Kaspar, erster Jägerbursche (Baß)</castItem>
+               <castItem>Max, zweiter Jägerbursche (Tenor)</castItem>
+               <castItem>Ein Eremit (Baß)</castItem>
+               <castItem>Kilian, ein reicher Bauer (Baß)</castItem>
+               <castItem>Brautjungfern (Sopran)</castItem>
+               <castItem>Samiel, der schwarze Jäger (Sprechrollen)</castItem>
+               <castItem>Erster fürstlicher Jäger (Sprechrolle)</castItem>
+               <castItem>Zweiter fürstlicher Jäger (Sprechrolle)</castItem>
+               <castItem>Dritter fürstlicher Jäger (Sprechrolle)</castItem>
+               <castItem>Jäger und Gefolge, Landleute und Musikanten, Erscheinungen</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Zeit: Kurz nach Beendigung des Dreißigjährigen Krieges.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Aufzug</head>
+            <stage>Nr. 1. Introduktion.</stage>
+            <stage>Platz vor einer Waldschenke, sogenanntem Schenkgiebel, die geräumig, doch bloß mit
+          Schoben gedeckt ist. Im Hintergrunde eine Vogelstange, von Volksgetümmel umgeben.
+          Böhmische Bergmusik.</stage>
+            <div>
+               <head>Erster Auftritt</head>
+               <stage>Kilian. Max. Landleute.</stage>
+               <stage>Max sitzt allein im Vordergrunde an einem Tisch, vor sich den Krug. In dem
+            Augenblicke, da der Vorhang aufgeht im 11. Takte, fällt ein Schuß, und das letzte Stück
+            einer Sternscheibe fliegt herunter.</stage>
+               <sp who="#volk_landleute_chor_alle">
+                  <speaker>DAS VOLK</speaker>
+                  <stage>ruft.</stage>
+                  <p>Ah, ah, brav, herrlich getroffen!</p>
+                  <stage>Jubelt und klatscht.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>bis jetzt die geballte Faust vor der Stirn, schlägt damit heftig auf den Tisch,
+              ausrufend.</stage>
+                  <p>Glück zu, Bauer!</p>
+               </sp>
+               <sp who="#volk_landleute_chor_alle">
+                  <speaker>CHOR DER LANDLEUTE.</speaker>
+                  <lg>
+                     <l>Viktoria! Viktoria! der Meister soll leben,</l>
+                     <l>Der wacker dem Sternlein den Rest hat gegeben!</l>
+                     <l>Ihm gleichet kein Schütz von fern und von nah!</l>
+                     <l>Viktoria! Viktoria! Viktoria!</l>
+                  </lg>
+                  <stage>Allgemeiner Jubel. Die Stange wird herabgelassen.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Immer frisch! Schreit! schreit! <stage>Er stampft mit der Büchse auf den Boden und
+                lehnt sie an einen Baum.</stage> War ich denn blind? Sind denn die Sehnen dieser
+              Faust erschlafft?</p>
+                  <stage>Es ordnet sich ein Zug. Voran die Musikanten, den folgenden Marsch spielend; dann
+              Bauernknaben, die <pb n="39" facs="#f0002"/> das letzte Stück der Scheibe auf einem, alten Degen und
+              mancherlei neues Zinngerät als Gewinn tragen. Hierauf Kilian, als Schützenkönig, mit
+              gewaltigem Strauß und Ordensband, worauf die von ihm getroffenen Sterne befestigt
+              sind. Schützen mit Büchsen, mehrere mit Sternen auf Mützen und Hüten; Weiber und
+              Mädchen folgen. Der Zug geht im Kreise herum, und alle, die bei Max vorbeikommen,
+              deuten höhnisch auf ihn, verneigen sich, flüstern und lachen. Zuletzt bleibt Kilian
+              vor Max stehen, wirft sich in die Brust und singt.</stage>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <lg>
+                     <l>Schau' der Herr mich an als König!</l>
+                     <l>Dünkt Ihm meine Macht zu wenig?</l>
+                     <l>Gleich zieh Er den Hut, Mosjeh!</l>
+                     <l>Wird Er, frag' ich, he, he, he?</l>
+                  </lg>
+               </sp>
+               <sp who="#maedchen">
+                  <speaker>MÄDCHEN</speaker>
+                  <stage>aushöhnend, Rübchen schabend, mit den Fingern auf Max deutend.</stage>
+                  <p>Hehehehehehehehehehe!</p>
+               </sp>
+               <sp who="#die_maenner">
+                  <speaker>MÄNNER.</speaker>
+                  <lg>
+                     <l>Wird Er – frag' ich? Wird Er – frag ich?</l>
+                     <l>Gleich zieh Er den Hut, Mosjeh!</l>
+                     <l>Wird Er, frag' ich, wird Er, hehehe?</l>
+                  </lg>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <lg>
+                     <l>Stern und Strauß trag' ich vorm Leibe!</l>
+                     <l>Kantors Sepherl trägt die Scheibe!</l>
+                     <l>Hat Er Augen nun, Mosjeh?</l>
+                     <l>Was traf Er denn, he, he, he?</l>
+                  </lg>
+                  <stage>Chor wiederholt die letzten Zeilen.</stage>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <lg>
+                     <l>Darf ich etwa Eure Gnaden</l>
+                     <l>'s nächste Mal zum Schießen laden?</l>
+                     <l>Er gönnt andern was, Mosjeh!</l>
+                     <l>Nun, Er kommt doch, he, he, he?</l>
+                  </lg>
+                  <stage>Chor wie oben.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>springt auf, zieht den Hirschfänger und faßt Kilian bei der Brust.</stage>
+                  <p>Laßt mich zufrieden, oder –!</p>
+                  <stage>Getümmel, auf Max eindringend.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweiter Auftritt</head>
+               <stage>Kuno. Kaspar und mehrere Jäger mit Büchsen und Jagdspießen. Die Vorigen.</stage>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Was gibt's hier? Pfui, dreißig über einen! Wer untersteht sich, meinen Burschen
+              anzutasten?</p>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN</speaker>
+                  <stage>von Max losgelassen, aber noch furchtsam.</stage>
+                  <p>Alles <pb n="40" facs="#f0003"/> in Güte und Liebe, werter Herr Erbförster, gar nicht böse gemeint!
+              Es ist Herkommen bei uns, daß, wer stets gefehlt hat, vom Königsschuß ausgeschlossen
+              und dann ein wenig gehänselt wird – alles in Güte und Liebe.</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO</speaker>
+                  <stage>heftig.</stage>
+                  <p>Stets gefehlt? Wer? Wer hat das?</p>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <p>Es ist freilich arg, wenn der Bauer einmal über den Jäger kommt – aber fragt ihn nur
+              selbst.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>beschämt und verzweifelnd.</stage>
+                  <p>Ich kann's nicht leugnen; ich habe nie getroffen.</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>für sich.</stage>
+                  <p>Dank, Samiel!</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Max! Max! Ist's möglich? Du, sonst der beste Schütze weit und breit! Seit vier Wochen
+              hast du keine Feder nach Hause gebracht, und auch jetzt –? Pfui der Schande!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Glaube mir, Kamerad, es ist, wie ich gesagt habe: Es hat dir jemand einen Weidmann
+              gesetzt, und den mußt du lösen, oder du triffst keine Klaue.</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Possen!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Das meine ich eben, so etwas ist leicht gemacht; laß dir raten, Kamerad! Geh am
+              nächsten Freitag auf einen Kreuzweg, zieh mit dem Ladestock oder einem blutigen Degen
+              einen Kreis um dich und rufe dreimal den großen Jäger –</p>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <p>Gott bewahr' uns! Einen von des Teufels Heerscharen!</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Schweig, vorlauter Bube! Ich kenne dich längst. Du bist ein Tagedieb, ein Schlemmer,
+              ein falscher Würfler – hüte dich, daß ich nicht noch Ärgeres von dir denke.
+                <stage>Kaspar macht eine kriechende Bewegung, als wolle er sich
+                entschuldigen.</stage> Kein Wort, oder du hast auf der Stelle den Abschied! Aber
+              auch du, Max, sieh dich vor! Ich bin dir wie ein Vater gewogen; es freut mich, daß der
+              Herr Fürst Sohnesrecht auf den Eidam übertragen will, aber, wenn du morgen beim
+              Probeschuß fehltest, müßt' ich dir doch das Mädchen versagen. Wollt ihr in der Irre
+              herumlaufen?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Morgen! morgen schon!</p>
+               </sp>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>EINIGE JÄGER.</speaker>
+                  <p>Was ist das eigentlich mit dem Probeschuß? Schon oft haben wir davon gehört.</p>
+                  <pb n="41" facs="#f0004"/>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <p>Ja, auch wir. Aber noch hat uns niemand die rechte Bewandtnis zu sagen gewußt.</p>
+               </sp>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>ANDERE JÄGER.</speaker>
+                  <p>O erzählt's uns, Herr Kuno!</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Meinetwegen! Zum Hoflager kommen wir noch zeitig genug. <stage>Setzt sich.</stage>
+              Mein Urältervater, der noch im Forsthause abgebildet steht, hieß Kuno, wie ich, und
+              war fürstlicher Leibschütz. Einst trieben die Hunde einen Hirsch heran, auf dem ein
+              Mensch angeschmiedet war – so bestrafte man in alten Zeiten die Waldfrevler. Dieser
+              Anblick erregte das Mitleid des damaligen Fürsten. Er versprach demjenigen, welcher
+              den Hirsch erlege, ohne den Missetäter zu verwunden, eine Erbförsterei, und zur
+              Wohnung das nah gelegene Waldschlößchen. Der wackere Leibschütz, mehr aus eigenem
+              Erbarmen als wegen der großen Verheißung, besann sich nicht lange. Er legte an und
+              befahl die Kugel den heiligen Engeln. Der Hirsch stürzte, und der Wilddieb war, obwohl
+              im Gesicht vom Dorngebüsch derb zerkrazt, doch im übrigen unversehrt.</p>
+               </sp>
+               <sp who="#die_weiber_die_frauen">
+                  <speaker>DIE WEIBER.</speaker>
+                  <p>Gott sei Dank! der arme Wildschütz!</p>
+               </sp>
+               <sp who="#die_maenner">
+                  <speaker>DIE MÄNNER.</speaker>
+                  <p>Brav, brav! Das war ein Meisterschuß!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Oder ein Glücksfall, wenn nicht vielleicht gar –</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ich möchte der Kuno gewesen sein! <stage>Er starrt zu Boden und versinkt in sich
+                selbst.</stage>
+                  </p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Auch mein Urvater freute sich sehr über die Rettung des Unglücklichen, und der Fürst
+              erfüllte in allem seine Zusage.</p>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <p>So? Also davon schreibt sich der Probeschuß her, Nachbarn und Freunde! Nun weiß man's
+              doch auch!</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Hört noch das Ende! Es ging damals wie jetzt, <stage>Mit einem Blick auf
+                Kaspar.</stage> daß der böse Feind immer Unkraut unter den Weizen säet. Kunos Neider
+              wußten es an den Fürsten zu bringen, der Schuß sei mit Zauberei geschehen, Kuno habe
+              nicht gezielt, sondern eine Freikugel geladen.</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Dacht' ich's doch! <stage>Für sich.</stage> Hilf zu, Samiel!</p>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN</speaker>
+                  <stage>zu einigen Bauern.</stage>
+                  <p>Eine Freikugel? Das sind Schlingen des bösen Feindes; meine Großmutter hat mir's
+              einmal erklärt. Sechse treffen, aber die siebente gehört dem Bösen; der kann sie
+              hinführen, wohin's ihm beliebt.</p>
+                  <pb n="42" facs="#f0005"/>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Alfanzerei! Nichts als Naturkräfte!</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Aus diesem Grunde machte der Fürst bei der Stiftung den Zusatz: »Daß jeder von Kunos
+              Nachfolgern zuvor einen Probeschuß ablege, schwer oder leicht, wie es der regierende
+              Fürst oder sein Abgeordneter anzubefehlen geruht.« Auch will es das Herkommen, daß der
+              junge Förster an demselben Tag mit seiner Erwählten getraut wird, die aber völlig
+              unbescholten sein und im jungfräulichen Ehrenkränzlein erscheinen muß. Doch genug nun!
+                <stage>Zu den Jägern, die mit ihm gekommen.</stage> Wir wollen uns wieder auf den
+              Weg machen! Du aber, Max, magst noch einmal zu Hause nachsehen, ob sämtliche
+              Treibleute angelangt sind. Nimm dich zusammen! Der Weidmann, der dir gesetzt ist, mag
+              die Liebe sein. Noch vor Sonnenaufgang erwarte ich dich beim Hoflager.</p>
+                  <stage>Nr. 2. Terzett mit Chor.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>der erst bei Kunos Anrede aus seiner Zerstreuung zurückgekommen ist.</stage>
+                  <lg>
+                     <l>Oh, diese Sonne,</l>
+                     <l>Furchtbar steigt sie mir empor!</l>
+                  </lg>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <lg>
+                     <l>Leid oder Wonne,</l>
+                     <l>Beides ruht in deinem Rohr!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Ach, ich muß verzagen,</l>
+                     <l>Daß der Schuß gelingt!</l>
+                  </lg>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <lg>
+                     <l>Dann mußt du entsagen!</l>
+                     <l>Leid oder Wonne,</l>
+                     <l>Beides ruht in deinem Rohr!</l>
+                  </lg>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>zu Max, mit bedeutungsvoller Heimlichkeit.</stage>
+                  <lg>
+                     <l>Nur ein keckes Wagen</l>
+                     <l>Ist's; was Glück erringt!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Agathen entsagen,</l>
+                     <l>Wie könnt' ich's ertragen?</l>
+                     <l>Doch mich verfolget Mißgeschick!</l>
+                  </lg>
+               </sp>
+               <sp who="#volk_landleute_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Seht, wie düster ist sein Blick!</l>
+                     <l>Ahnung scheint ihn zu durchbeben!</l>
+                  </lg>
+               </sp>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>DIE JÄGER</speaker>
+                  <stage>zu Max.</stage>
+                  <lg>
+                     <l>O laß Hoffnung dich beleben,</l>
+                     <l>Und vertraue dem Geschick!</l>
+                     <pb n="43" facs="#f0006"/>
+                  </lg>
+               </sp>
+               <sp who="#kuno #die_weiber_die_frauen">
+                  <speaker>KUNO UND DIE FRAUEN.</speaker>
+                  <lg>
+                     <l>O laß Hoffnung dich beleben,</l>
+                     <l>Und vertraue dem Geschick!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Weh mir! mich verließ das Glück!</p>
+               </sp>
+               <sp who="#kuno #volk_landleute_chor_alle">
+                  <speaker>KUNO UND CHOR.</speaker>
+                  <p>O vertraue!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Unsichtbare Mächte grollen,</l>
+                     <l>Bange Ahnung füllt die Brust!</l>
+                  </lg>
+               </sp>
+               <sp who="#volk_landleute_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <p>O vertraue dem Geschick!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Unsichtbare Mächte grollen,</l>
+                  </lg>
+                  <lg>
+                     <l>Bange Ahnung füllt die Brust!</l>
+                     <l>Nimmer trüg' ich den Verlust!</l>
+                  </lg>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <lg>
+                     <l>So's des Himmels Mächte wollen,</l>
+                  </lg>
+                  <p>Dann trag männlich den Verlust!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <lg>
+                     <l>Mag Fortunas Kugel rollen;</l>
+                     <l>Wer sich höhrer Kraft bewußt,</l>
+                     <l>Trotzt dem Wechsel und Verlust!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Agathen entsagen,</l>
+                     <l>Wie könnt' ich's ertragen!</l>
+                     <l>Nimmer trüg' ich den Verlust! Nimmer!</l>
+                  </lg>
+               </sp>
+               <sp who="#volk_landleute_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <p>Nein, nein, nimmer trüg er den Verlust! Nein!</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO</speaker>
+                  <stage>faßt Max bei der Hand.</stage>
+                  <lg>
+                     <l>Mein Sohn, nur Mut!</l>
+                     <l>Wer Gott vertraut, baut gut! –</l>
+                  </lg>
+                  <stage>Zu den Jägern.</stage>
+                  <lg>
+                     <l>Jetzt auf! In Bergen und Klüften</l>
+                     <l>Tobt morgen der freudige Krieg!</l>
+                  </lg>
+               </sp>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>CHOR DER JÄGER.</speaker>
+                  <lg>
+                     <l>Das Wild in Fluren und Triften,</l>
+                     <l>Der Aar in Wolken und Lüften</l>
+                     <l>Ist unser, und unser der Sieg!</l>
+                  </lg>
+               </sp>
+               <sp who="#volk_landleute_chor_alle">
+                  <speaker>CHOR DER LANDLEUTE.</speaker>
+                  <p>Laßt lustig die Hörner erschallen!</p>
+               </sp>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>CHOR DER JÄGER.</speaker>
+                  <p>Wir lassen die Hörner erschallen!</p>
+               </sp>
+               <sp who="#volk_landleute_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Wenn wiederum Abend ergraut,</l>
+                     <l>Soll Echo und Felsenwand hallen:</l>
+                     <l>Sa! Hussah, dem Bräutgam, der Braut!</l>
+                  </lg>
+                  <stage>Kuno mit Kaspar und den Jägern ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritter Auftritt</head>
+               <stage>Die Vorigen ohne Kuno und sein Gefolge.</stage>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <p>Ein braver Mann, der Herr Förster! Aber nun kommt auch in den Schenkgiebel, es wird
+              schon recht <pb n="44" facs="#f0007"/> dämmrig und schaurig. <stage>Zu Max.</stage> Wir wollen gute
+              Freunde bleiben, wackerer Bursch! Ich gönne Ihm morgen das beste Glück! Jetzt schlag
+              Er sich die Grillen aus dem Kopf, nehm Er ein Mädchen und tanze Er mit hinein!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ja, es wäre mir wie tanzen!</p>
+               </sp>
+               <sp who="#kilian">
+                  <speaker>KILIAN.</speaker>
+                  <p>Nun, wie's beliebt!</p>
+                  <stage>Er nimmt eine der Frauen und tanzt. Die anderen folgen. Böhmischer Walzer. Die
+              meisten drehen sich tanzend in dem Schenkgiebel, die übrigen zerstreuen sich außerhalb
+              desselben. Es ist düster geworden.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierter Auftritt</head>
+               <stage>Max allein. Später Samiel, von beinahe übermenschlicher Größe, dunkelgrün und
+            feuerfarb mit Gold gekleidet. Der große, mit einer Hahnfeder verzierte Hut bedeckt fast
+            das ganze schwarzgelbe Gesicht.</stage>
+               <stage>Nr. 3. Walzer und Arie.</stage>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Nein, länger trag' ich nicht die Qualen,</l>
+                     <l>Die Angst, die jede Hoffnung raubt!</l>
+                     <l>Für welche Schuld muß ich bezahlen?</l>
+                     <l>Was weiht dem falschen Glück mein Haupt?</l>
+                  </lg>
+                  <lg>
+                     <l>Durch die Wälder, durch die Auen</l>
+                     <l>Zog ich leichten Sinns dahin;</l>
+                     <l>Alles, was ich konnt' erschauen,</l>
+                     <l>War des sichern Rohrs Gewinn,</l>
+                     <l>Abends bracht' ich reiche Beute,</l>
+                     <l>Und wie über eignes Glück,</l>
+                     <l>Drohend wohl dem Mörder, freute</l>
+                     <l>Sich Agathens Liebesblick!</l>
+                  </lg>
+                  <p>Hat denn der Himmel mich verlassen?</p>
+                  <stage>Samiel tritt, fast bewegungslos, im Hintergrund einen Schritt aus dem
+              Gebüsch.</stage>
+                  <p>Die Vorsicht ganz ihr Aug' gewandt?</p>
+                  <stage>Mit verzweiflungsvoller Gebärde.</stage>
+                  <lg>
+                     <l>Soll das Verderben mich erfassen?</l>
+                     <l>Verfiel ich in des Zufalls Hand?</l>
+                  </lg>
+                  <stage>Samiel verschwindet wieder.</stage>
+                  <lg>
+                     <l>
+                        <pb n="45" facs="#f0008"/> Jetzt ist wohl ihr Fenster offen,</l>
+                     <l>Und sie horcht auf meinen Tritt,</l>
+                     <l>Läßt nicht ab vom treuen Hoffen;</l>
+                     <l>Max bringt gute Zeichen mit!</l>
+                     <l>Wenn sich rauschend Blätter regen,</l>
+                     <l>Wähnt sie wohl, es sei mein Fuß;</l>
+                     <l>Hüpft vor Freuden, winkt entgegen –</l>
+                     <l>Nur dem Laub, nur dem Laub den Liebesgruß.</l>
+                  </lg>
+                  <stage>Samiel schreitet im Hintergrund mit großen Schritten langsam über die
+              Bühne.</stage>
+                  <lg>
+                     <l>Doch mich umgarnen finstre Mächte!</l>
+                     <l>Mich faßt Verzweiflung! foltert Spott! –</l>
+                     <l>O dringt kein Strahl durch diese Nächte?</l>
+                     <l>Herrscht blind das Schicksal? Lebt kein Gott?</l>
+                  </lg>
+                  <stage>Samiel, schon ganz an der entgegengesetzten Seite, macht bei dem letzten Worte
+              eine zuckende Bewegung und ist verschwunden.</stage>
+                  <p>Mich faßt Verzweiflung! foltert Spott!</p>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfter Auftritt</head>
+               <stage>Max. Kaspar, herbeischleichend. Samiel, größtenteils unsichtbar. Ein
+            Schenkmädchen.</stage>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>sobald Max ihn gewahr wird.</stage>
+                  <p>Da bist du ja noch, Kamerad. Gut, daß ich dich finde.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Horchst du schon wieder herum?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Ist das mein Dank? Es fiel mir unterwegs ein guter Rat für dich ein; aus
+              treumeinendem Herzen stehle ich mich fort, laufe mich fast außer Atem! Ich kann's,
+              kann's nicht verschmerzen, daß du hier zum Spott der Bauern geworden bist. Teufel, die
+              mögen gelacht haben! Ha, ha, ha! Aber was hilft's? Schlag dir's aus den Gedanken,
+              Bruderherz! <stage>Er greift nach dem Krug.</stage> Wie? Was? Bier hast du? Das taugt
+              nicht zum Sorgenbrecher! <stage>In den Schenkgiebel rufend.</stage> Wein! Wein! Zwei
+              Paßgläser! – Kamerad! und kostete es mich den letzten Heller, ich kann dich nicht so
+              traurig sehen! du mußt mit mir trinken. <stage>Ein Schenkmädchen hat indes das
+                Geforderte gebracht.</stage>
+                  </p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>zu dem Mädchen.</stage>
+                  <p>Laß ankreiden!</p>
+                  <stage>
+                     <pb n="46" facs="#f0009"/> Mädchen geht mit unwilligem Blick ab.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Damit verschone mich! Mein Kopf ist ohnedies wüst genug. <stage>Er legt den Kopf in
+                die Hände.</stage>
+                  </p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>tropft geschwind aus einem Fläschchen etwas in das für Max bestimmte Glas; für
+              sich.</stage>
+                  <p>So, Freundchen! da brauchst du wenig! <stage>Er gießt schnell Wein ein.</stage> Hilf,
+              Samiel! <stage>Samiel schaut mit dem Kopf aus dem Busch, an welchem sie
+                sitzen.</stage>
+                  </p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>erschrocken.</stage>
+                  <p>Du da? <stage>Samiel verschwindet.</stage>
+                  </p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>auffahrend.</stage>
+                  <p>Mit wem sprachst du?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Ich? Mit niemand. Ich sagte: »So, Freundchen!« weil ich dir einschenkte.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ich mag aber nichts.</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Der Herr Förster soll leben! Die Gesundheit deines Lehrherrn wirst du doch
+              mittrinken? <stage>Er reicht Max das Glas mit den Tropfen.</stage>
+                  </p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>So sei's! <stage>Sie stoßen an und trinken.</stage>
+                  </p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Nun laß uns eins singen! – »Semper fröhlich nunquam selig, immerhin!« <stage>Max
+                bezeigt seinen Unwillen.</stage> Das gefällt dir nicht? Nun denn, ein andres!</p>
+                  <stage>Nr. 4. Lied</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <lg>
+                     <l>Hier im ird'schen Jammertal</l>
+                     <l>Wär' doch nichts als Plack und Qual,</l>
+                     <l>Trüg' der Stock nicht Trauben;</l>
+                     <l>Darum bis zum letzten Hauch</l>
+                     <l>Setz' ich auf Gott Bacchus Bauch</l>
+                     <l>Meinen festen Glauben!</l>
+                     <l>Ei, du mußt mitsingen!</l>
+                  </lg>
+                  <stage>Er trinkt.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Laß mich!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Jungfer Agathe soll leben! Wer die Gesundheit seiner Braut ausschlüg', war' doch
+              wahrlich ein Schuft!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Du wirst unverschämt.</p>
+                  <stage>Sie stoßen an und trinken.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <lg>
+                     <l>Eins ist eins, und drei sind drei!</l>
+                     <l>Drum addiert noch zweierlei</l>
+                     <l>Zu dem Saft der Reben;</l>
+                     <l>Kartenspiel und Würfellust</l>
+                     <l>
+                        <pb n="47" facs="#f0010"/> Und ein Kind mit runder Brust</l>
+                     <l>Hilft zum ew'gen Leben!</l>
+                     <l>Mit dir ist aber auch gar nichts anzufangen!</l>
+                  </lg>
+                  <stage>Er trinkt.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Wie kannst du mir zumuten, in so etwas einzustimmen?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Unser Herr Fürst soll leben! Wer nicht dabei ist, ist ein Judas!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Nun denn, aber dann auch keinen Tropfen mehr! <stage>Sie stoßen an und trinken. Max
+                weht sich mit dem Hute Luft zu und gibt sonst zu erkennen, daß ihm heiß
+              sei.</stage>
+                  </p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <lg>
+                     <l>Ohne dies Trifolium</l>
+                     <l>Gibt's kein wahres Gaudium</l>
+                     <l>Seit dem ersten Übel.</l>
+                     <l>Fläschchen sei mein Abc,</l>
+                     <l>Würfel, Karte, Katherle,</l>
+                     <l>Meine Bilderfibel!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Elender! Agathe hat recht, wenn sie mich immer vor dir warnt. <stage>Er will fort.
+                Man merkt ihm von jetzt eine gewisse Heftigkeit an, einem leichten, aber bösen
+                Rausche gleich.</stage>
+                  </p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Wie kannst du auch gleich so in Harnisch geraten, Bruderherz? Ich diente noch als
+              Milchbart unter dem Altringer und Tilly, und war mit beim Magdeburger Tanz; unterm
+              Kriegsvolk lernt man solche Schelmliedlein. <stage>Die Dorfuhr schlägt. Max steht
+                auf.</stage> Willst du schon nach Hause?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ja, es wird Zeit. Das schlug sieben!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Zu Agathe? Da weiß ich doch nicht! – du könntest sie erschrecken! Weißt du nicht, daß
+              sie auf einen Gewinn als gute Vorbedeutung für morgen hofft?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ach, die Arme! Und ich selbst! Morgen!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Bleib noch und laß dir raten! Deshalb hab' ich dich eigentlich aufgesucht. Dir könnte
+              gar wohl geholfen werden!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Mir geholfen?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>geheimnisvoll.</stage>
+                  <p>Um dir ganz meine Freundschaft zu beweisen, könnte ich dir unter vier Augen – nicht
+              umsonst habe ich gegen dich zuweilen ein Wort fallen lassen. – Es gibt allerdings
+              gewisse geheime Kräfte der Natur – gewisse unschuldige Jagdkünste – diese Nacht, wo
+              sich die Mondscheibe verfinstert, ist zu großen <pb n="48" facs="#f0011"/> Dingen geschickt! – Ein
+              alter Bergjäger hat mir einmal vertraut –</p>
+                  <stage>Man sieht Samiel von Zeit zu Zeit lauschen, ohne daß ihn die Sprechenden
+              bemerken.</stage>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Du missest mir das Gift tropfenweis' zu –</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Wie wär's, Kamerad, wenn ich dir noch heute zu einem recht glücklichen Schuß
+              verhülfe, der Agathe beruhigte und zugleich euer morgendes Glück verbürgte?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Du fragst wunderbar. Ist das möglich?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Mut! Mut! Was die Augen sehen, glaubt das Herz. Da, nimm meine Büchse!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Was soll ich damit?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Geduld! <stage>Er sieht nach dem Himmel.</stage> Zeigt sich denn nichts?
+                <stage>Schnell, indem er ihm das Gewehr gibt.</stage> Da! da! Siehst du den Stößer
+              dort? Schieß!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Bist du ein Narr, oder glaubst du, ich bin's? Es ist ganz düster, der Vogel schwebt
+              wie ein schwarzer. Punkt in der Luft, wolkenhoch über der Schußweite!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Schieß ins T – Schellobers Namen! Ha, ha!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>berührt wie im Zweifel den Stecher, das Gewehr geht los. In demselben Augenblick
+              hört man gellendes Gelächter, so daß sich Max erschrocken nach Kaspar umsieht.</stage>
+                  <p>Was lachst du? Wie Fittiche der Unterwelt kreist's dort oben – <stage>Ein mächtiger
+                Steinadler schwebt einen Augenblick wirbelnd in der Luft und stürzt dann tot zu
+                Maxens Füßen.</stage> Was ist das?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>der ihn aufhebt.</stage>
+                  <p>Der größte Steinadler, den es gibt! Was für Fänge, und wie herrlich getroffen! Gleich
+              unterm Flügel, sonst nichts verletzt! Kannst ihn ausstopfen lassen, Bruder, für ein
+              Naturalienkabinett.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Aber ich begreife nicht – diese Büchse ist doch wie jede andere –</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Viktoria! das wird dich bei den Bauern in Respekt setzen! das wird Agathe erfreuen!
+                <stage>Er rauft einige der größten Federn aus und steckt sie auf Maxens Hut.</stage>
+              So, Kamerad, dies als Siegeszeichen.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Was machst du? – Wird mir doch ganz schauerlich! – Was hast du geladen? Was war das
+              fär eine Kugel?</p>
+                  <pb n="49" facs="#f0012"/>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Gar keine Kugel, Närrchen! Eine trächtige Blindschleiche! die trifft allemal.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Träum' ich denn, oder bin ich berauscht? So etwas ist mir noch nie begegnet! –
+              Kaspar, ich bitte dich, ich beschwöre dich! <stage>Er faßt ihn.</stage> Kaspar, ich
+              bringe dich um! Sag', was war das für eine Kugel?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Bist du verwirrt vor Freuden? Ich teile sie mit dir! <stage>Er umarmt ihn.</stage>
+              Nicht, Freundchen! das war ein Schuß? Laß mich los!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>läßt ihn los.</stage>
+                  <p>Wo hast du die Kugel her?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Nun, wenn du Vernunft annimmst – so sag' mir – du, der wackerste Jäger, bist du oder
+              stellst du dich nur so unerfahren? Wüßtest du wirklich nicht, was eine Freikugel sagen
+              will?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Albernes Geschwätz!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Da lernt man's doch besser unter dem Kriegsvolk. Ha, ha! wie kämen die Scharfschützen
+              zurecht, die ihren Mann aus dem dicksten Pulverdampf herausschießen? Oder hast du nie
+              nachgedacht, wie der Schwedenkönig, trotz seines Kollers von Elenshaut, bei Lützen
+              gefallen ist? Zwei silberne Kugeln hieß es. Ja, ja, der Gescheite kennt das! Doch zu
+              so etwas bedarf's anderer Künste, als bloß zu zielen und loszudrücken.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>den Adler betrachtend.</stage>
+                  <p>Der Schuß ist unglaublich – in trüber Dämmerung – aus den Wolken herabgeholt! So wäre
+              es doch wahr?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Zudem ist's wohl zweierlei, einem armen Erdensohn aus dem Hinterhalt das Lebenslicht
+              ausblasen und sich eine Erbförsterei und ein allerliebstes Mädchen erschießen!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>vor sich selbst brütend.</stage>
+                  <p>Hast du noch mehr solche Kugeln?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Es war die letzte – sie haben gerade ausgereicht. <stage>Pause.</stage>
+                  </p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Bist du doch auf einmal so wortkarg! – Ausgereicht! Wie verstehst du das?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Weil sie in dieser Nacht zu bekommen sind.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>In dieser Nacht?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Ja doch! Drei Tage hintereinander steht jetzt die Sonne im Schützen, und heut ist der
+              mittelste; heut, wenn sich die Tage scheiden, gibt's eine totale Mondfinsternis. <pb n="50" facs="#f0013"/> Max! Kamerad! Dein Schicksal steht unter dem Einfluß günstiger Gestirne! Du
+              bist zu hohen Dingen ersehen! Heute, gerade in der Nacht zuvor, ehe du den Probeschuß
+              tun, Amt und Braut dir gewinnen sollst, wo du der Hilfe unsichtbarer Mächte so sehr
+              bedarfst, beut die Natur selbst sich zu deinem Dienst!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Wohl! Mein Geschick will's! Schaff' mir so eine Kugel!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Mehr als du brauchst! Aber bedarf der Mann eines Vormunds?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Wie erlangt man sie?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Das will ich dich lehren. Sei punkt zwölf Uhr in der Wolfsschlucht!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Um Mitternacht – in der Wolfsschlucht? Nein! Die Schlucht ist verrufen, und um
+              Mitternacht öffnen sich die Pforten der Hölle.</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Pah! – Wie du denkst! Und doch kann ich dich deinem Unstern nicht überlassen – ich
+              bin dein Freund! ich will dir gießen helfen.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Auch das nicht!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>So mach' dich morgen zum Landesgespött! Verlier die Försterei und Agathe! – Ich bin
+              dein Freund, ich will selbst für dich gießen; aber dabei mußt du sein!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Deine Zunge ist glatt. Nein, an solche Dinge muß ein frommer Jäger nicht denken!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Feigling! Also nur durch fremde Gefahr, gäb's anders dergleichen, möchtest du dein
+              Glück erkaufen? Glaubst du, dann wäre deine Schuld, gäb' es dergleichen, geringer?
+              Glaubst du, diese Schuld, gäb' es dergleichen, laste nicht schon auf dir? <stage>Den
+                Adler an den Fittichen ausspreizend.</stage> Glaubst du, dieser Adler sei dir
+              geschenkt?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Furchtbar, wenn du recht hättest!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Sonderbar, wie du fragst! Doch Undank ist der Welt Lohn. Ich will mir hier einen
+              Flederwisch abhauen, daß ich wenigstens etwas davontrage. <stage>Er haut einen Flügel
+                ab.</stage> Drollig! um Agathe zu trösten, wagtest du den Schuß, sie zu erwerben,
+              fehlt es dir an Herzhaftigkeit! Das würde sich das Wachspüppchen, das mich um
+              deinetwillen verwarf, schwerlich einbilden! <stage>Für sich.</stage> Es soll gerochen
+              werden! <pb n="51" facs="#f0014"/> Max. Elender! Mut hab' ich –</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>So bewähr' ihn! Brauchtest du schon eine Freikugel, so ist's ja ein Kinderspiel,
+              welche zu gießen. Was dir bevorsteht ohne diese Hilfe, kannst du aus deinen bisherigen
+              Fehlschüssen leicht abnehmen. Das Mädchen ist auf dich versessen, kann nicht ohne dich
+              leben: sie wird verzweifeln! Du wirst, allen Menschen ein Spott, herumschleichen,
+              vielleicht aus Verzweiflung – <stage>Er drückt sich die Faust in die Augen, als träte
+                das Wasser hinein.</stage> Schäme dich, rauher Weidmann, daß du ihn mehr liebst, als
+              er sich selbst! <stage>Für sich.</stage> Hilf zu, Samiel!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Agathe sterben! Ich in einen Abgrund springen! Ja, das wär' das Ende! <stage>Er gibt
+                Kaspar die Hand.</stage> Bei Agathes Leben! ich komme!</p>
+                  <stage>Samiel der bei den letzten Worten von links hervorgelauscht hat, nickt und
+              verschwindet.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Schweig gegen jedermann! Es könnte dir und mir Gefahr bringen. Ich erwarte dich!
+              Glock zwölf!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ich dich verraten? Glock zwölf! Ich komme! <stage>Schnell ab. Es ist indessen ganz
+                dunkel geworden.</stage>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Sechster Auftritt</head>
+               <stage>Kaspar allein.</stage>
+               <stage>Nr. 5. Arie</stage>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>höhnisch Max nachsehend.</stage>
+                  <lg>
+                     <l>Schweig, schweig – damit dich niemand warnt!</l>
+                     <l>Schweige, damit dich niemand warnt!</l>
+                     <l>Der Hölle Netz hat dich umgarnt!</l>
+                     <l>Nichts kann vom tiefen Fall dich retten,</l>
+                     <l>Nichts kann dich retten vom tiefen Fall!</l>
+                     <l>Umgebt ihn, ihr Geister mit Dunkel beschwingt!</l>
+                     <l>Schon trägt er knirschend eure Ketten!</l>
+                     <l>Triumph! Triumph! Triumph! die Rache gelingt!</l>
+                  </lg>
+                  <stage>Auf der entgegengesetzten Seite ab.</stage>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Aufzug</head>
+            <stage>Vorsaal mit Seiteneingängen im Forsthause</stage>
+            <stage>Hirschgeweihe und düstere Tapeten mit Jagdstücken geben ihm ein altertümliches
+          Ansehen und bezeichnen ein ehemaliges fürstliches Waldschloß. In der Mitte ein mit
+          Vorhängen versehener Ausgang, der zu einem Altan führt. Auf einer Seite Ännchens Spinnrad,
+          auf der andern ein großer Tisch, worauf ein Lämpchen brennt und ein weißes Kleid mit
+          grünem Band liegt.</stage>
+            <div>
+               <head>Erster Auftritt</head>
+               <stage>Agathe. Ännchen.</stage>
+               <stage>Nr. 6. Duett</stage>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>steht auf einem Fußtritt, hat das Bild des ersten Kuno wieder aufgehängt und
+              hämmert den Nagel fest.</stage>
+                  <lg>
+                     <l>Schelm! halt fest;</l>
+                     <l>Ich will dich's lehren!</l>
+                     <l>Spukerei'n kann man entbehren</l>
+                     <l>In solch altem Eulennest.</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>bindet einen Verband von der Stirn.</stage>
+                  <p>Laß das Ahnenbild in Ehren!</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Ei, dem alten Herrn</l>
+                     <l>Zoll' ich Achtung gern;</l>
+                     <l>Doch dem Knechte Sitte lehren,</l>
+                     <l>Kann Respekt nicht wehren –</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Sprich, wen meinst du? Welchen Knecht?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Nun, den Nagel! Kannst du fragen?</l>
+                     <l>Sollt' er seinen Herrn nicht tragen?</l>
+                     <l>Ließ ihn fall'n! War das nicht schlecht?</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Ja, gewiß, das war nicht recht.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Ließ ihn fall'n, war das nicht schlecht?</l>
+                     <l>Gewiß, das war recht schlecht!</l>
+                  </lg>
+                  <stage>Sie steigt herab.</stage>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Alles wird dir zum Feste,</l>
+                     <l>Alles beut dir Lachen und Scherz?</l>
+                     <l>O wie anders fühlt mein Herz!</l>
+                     <pb n="53" facs="#f0015"/>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Grillen sind mir böse Gäste!</l>
+                     <l>Immer mit leichtem Sinn</l>
+                     <l>Tanzen durchs Leben hin,</l>
+                     <l>Das nur ist Hochgewinn!</l>
+                     <l>Sorgen und Gram muß man verjagen!</l>
+                     <l>Immer mit leichtem Sinn!</l>
+                     <l>Grillen sind mir böse Gäste!</l>
+                     <l>Immer mit leichtem Sinn</l>
+                     <l>Tanzen durchs Leben hin,</l>
+                     <l>Das nur ist Hochgewinn!</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Wer bezwingt des Busens Schlagen?</l>
+                     <l>Wer der Liebe süßen Schmerz?</l>
+                     <l>Stets um dich, Geliebter, zagen.</l>
+                     <l>Muß dies ahnungsvolle Herz.</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Grillen sind mir böse Gäste!</l>
+                     <l>Immer mit leichtem Sinn</l>
+                     <l>Tanzen durchs Leben hin,</l>
+                     <l>Das nur ist Hochgewinn!</l>
+                     <l>Sorgen und Gram muß man verjagen!</l>
+                     <l>Das nur ist Hochgewinn!</l>
+                     <l>Grillen sind mir böse, böse Gäste!</l>
+                  </lg>
+                  <stage>Sie besieht sich das Bild.</stage>
+                  <p>So! nun wird der Altvater wohl wieder ein Jahrhundertchen festhängen. Da oben mag ich
+              ihn recht gern leiden! <stage>Zu Agathe gekehrt.</stage> Aber du hast das Tuch schon
+              abgebunden? Das Blut ist doch völlig gestillt?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Sei ohne Sorgen, liebes Ännchen! Der Schreck war das schlimmste! – Wo nur Max
+              bleibt?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Nun kommt er gewiß bald. Herr Kuno sagte ja bestimmt, daß er ihn noch einmal
+              heimsenden werde.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Es ist recht still und einsam hier.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Unangenehm ist's freilich, in einem solchen verwünschten Schloß am Polterabend fast
+              mutterseelenallein zu sein, zumal wenn sich so ehrwürdige, längst vermoderte
+              Herrschaften mir nichts, dir nichts, von den Wänden herabbemühen. Da lob' ich mir die
+              lebendigen und jungen!</p>
+                  <stage>Nr. 7. Ariette</stage>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>mit lebhafter Pantomime.</stage>
+                  <lg>
+                     <l>Kommt ein schlanker Bursch gegangen,</l>
+                     <l>Blond von Locken oder braun,</l>
+                     <l>
+                        <pb n="54" facs="#f0016"/> Hell von Aug' und rot von Wangen,</l>
+                     <l>Ei, nach dem kann man wohl schaun.</l>
+                  </lg>
+                  <lg>
+                     <l>Zwar schlägt man das Aug' aufs Mieder</l>
+                     <l>Nach verschämter Mädchenart;</l>
+                     <l>Doch verstohlen hebt man's wieder,</l>
+                     <l>Wenn's das Herrchen nicht gewahrt.</l>
+                  </lg>
+                  <lg>
+                     <l>Sollten ja sich Blicke finden,</l>
+                     <l>Nun, was hat das auch für Not?</l>
+                     <l>Man wird drum nicht gleich erblinden,</l>
+                     <l>Wird man auch ein wenig rot.</l>
+                  </lg>
+                  <lg>
+                     <l>Blickchen hin und Blick herüber,</l>
+                     <l>Bis der Mund sich auch was traut!</l>
+                     <l>Er seufzt: Schönste! Sie spricht: Lieber!</l>
+                     <l>Bald heißt's Bräutigam und Braut.</l>
+                  </lg>
+                  <lg>
+                     <l>Immer näher, liebe Leutchen!</l>
+                     <l>Wollt ihr mich im Kranze sehn?</l>
+                     <l>Gelt, das ist ein nettes Bräutchen,</l>
+                     <l>Und der Bursch nicht minder schön?</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>die während des Liedchens angefangen hat, das Kleid mit Band zu besetzen, fällt
+              am Schluß mit ein.</stage>
+                  <p>Und der Bursch nicht minder schön!</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>So recht! So gefällst du mir, Agathe! So bist du doch, wie ich sein werde,
+                <hi rendition="#i">wichtig</hi> wenn ich einmal Braut bin.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Wer weiß! Doch ich gönne dir's von Herzen, ist auch mein Brautstand nicht ganz
+              kummerlos. Besonders seit ich heute von dem Eremiten zurückkam, hat mir's wie ein
+              Stein auf dem Herzen gelegen. Jetzt fühle ich mich um vieles leichter.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Wieso? Erzähle doch! Noch weiß ich gar nicht, wie dein Besuch abgelaufen ist, außer
+              daß dir der fromme Greis diese geweihten Rosen geschenkt hat.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Er warnte mich vor einer unbekannten großen Gefahr, welche ihm ein Gesicht offenbart
+              habe. Nun ist seine Warnung ja in Erfüllung gegangen. Das herabstürzende Bild konnte
+              mich töten!</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Gut erklärt! So muß man böse Vorbedeutungen nehmen! Mein Vater war einst ein tapferer
+                <pb n="55" facs="#f0017"/> Degen und sehr unzufrieden, daß ich's nicht auch werden konnte. Er
+              meinte, man müsse die Furcht nur verspotten, dann fliehe sie, und das wahre
+              Sprüchlein, sich festzumachen, bestehe in den Worten: Halunke, wehre dich!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Die Rosen sind mir nun doppelt teuer, und ich will ihrer auf das treueste
+              pflegen.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Wie wär's, wenn ich sie in die Nachtfrische vors Fenster setzte? Es wird ohnedies
+              Zeit, mich auszukleiden.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Tue das, liebes Ännchen!</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Aber dann laß uns auch zu Bette gehn!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Nicht eher, bis Max da ist.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Hat man nicht seine Not mit euch Liebesleutchen! <stage>Sie geht ab.</stage>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Zweiter Auftritt</head>
+               <stage>Agathe allein.</stage>
+               <stage>Nr. 8. Szene und Arie</stage>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Wie nahte mir der Schlummer,</l>
+                     <l>Bevor ich ihn gesehn?</l>
+                     <l>Ja, Liebe pflegt mit Kummer</l>
+                     <l>Stets Hand in Hand zu gehn!</l>
+                     <l>Ob Mond auf seinem Pfad wohl lacht?</l>
+                  </lg>
+                  <stage>Sie öffnet die Altantür, so daß man in eine sternenhelle Nacht sieht.</stage>
+                  <p>Welch schöne Nacht!</p>
+                  <stage>Sie tritt in den Altan und erhebt in frommer Rührung ihre Hände.</stage>
+                  <lg>
+                     <l>Leise, leise,</l>
+                     <l>Fromme Weise!</l>
+                     <l>Schwing dich auf zum Sternenkreise.</l>
+                     <l>Lied erschalle!</l>
+                     <l>Feiernd walle</l>
+                     <l>Mein Gebet zur Himmelshalle!</l>
+                  </lg>
+                  <stage>Hinausschauend.</stage>
+                  <lg>
+                     <l>O wie hell die goldnen Sterne,</l>
+                     <l>Mit wie reinem Glanz sie glühn!</l>
+                     <l>Nur dort in der Berge Ferne,</l>
+                     <l>Scheint ein Wetter aufzuziehn.</l>
+                     <l>
+                        <pb n="56" facs="#f0018"/> Dort am Wald auch schwebt ein Heer</l>
+                     <l>Dunkler Wolken dumpf und schwer.</l>
+                     <l>Zu dir wende</l>
+                     <l>Ich die Hände,</l>
+                     <l>Herr ohn' Anfang und ohn' Ende!</l>
+                     <l>Vor Gefahren</l>
+                     <l>Uns zu wahren</l>
+                     <l>Sende deine Engelscharen! –</l>
+                  </lg>
+                  <stage>Wieder hinausschauend.</stage>
+                  <lg>
+                     <l>Alles pflegt schon längst der Ruh';</l>
+                     <l>Trauter Freund, wo weilest du?</l>
+                     <l>Ob mein Ohr auch eifrig lauscht,</l>
+                     <l>Nur der Tannen Wipfel rauscht;</l>
+                     <l>Nur das Birkenlaub im Hain</l>
+                     <l>Flüstert durch die hehre Stille –</l>
+                     <l>Nur die Nachtigall und Grille</l>
+                     <l>Scheint der Nachtluft sich zu freun. –</l>
+                     <l>Doch wie? Täuscht mich nicht mein Ohr?</l>
+                     <l>Dort klingt's wie Schritte!</l>
+                     <l>Dort aus der Tannen Mitte</l>
+                     <l>Kommt was hervor!</l>
+                     <l>Er ist's! er ist's!</l>
+                     <l>Die Flagge der Liebe mag wehn!</l>
+                  </lg>
+                  <stage>Sie winkt mit einem weißen Tuch.</stage>
+                  <lg>
+                     <l>Dein Mädchen wacht</l>
+                     <l>Noch in der Nacht! –</l>
+                     <l>Er scheint mich noch nicht zu sehn!</l>
+                     <l>Gott, täuscht das Licht</l>
+                     <l>Des Monds mich nicht,</l>
+                     <l>So schmückt ein Blumenstrauß den Hut!</l>
+                     <l>Gewiß, er hat den besten Schuß getan!</l>
+                     <l>Das kündet Glück für morgen an!</l>
+                     <l>O süße Hoffnung! Neu belebter Mut! –</l>
+                     <l>All meine Pulse schlagen,</l>
+                     <l>Und das Herz wallt ungestüm,</l>
+                     <l>Süß entzückt entgegen ihm!</l>
+                     <l>Konnt' ich das zu hoffen wagen?</l>
+                     <l>Ja, es wandte sich das Glück</l>
+                     <l>Zu dem teuern Freund zurück:</l>
+                     <l>Will sich morgen treu bewähren! –</l>
+                     <l>
+                        <pb n="57" facs="#f0019"/> Ist's nicht Täuschung? – Ist's nicht Wahn?</l>
+                     <l>Himmel, nimm des Dankes Zähren</l>
+                     <l>Für dies Pfand der Hoffnung an!</l>
+                     <l>All meine Pulse schlagen,</l>
+                     <l>Und das Herz wallt ungestüm,</l>
+                     <l>Süß entzückt entgegen ihm.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Dritter Auftritt</head>
+               <stage>Agathe, Max, verstört und heftig eintretend. Ännchen gleich rach ihm, in
+            Nachtkleidern.</stage>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Bist du endlich da, lieber Max!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Meine Agathe! <stage>Sie umarmen sich, Agathe tritt still zurück, als sie statt des
+                gehofften Straußes den Federbusch erblickt.</stage> Verzeiht, wenn ihr meinetwegen
+              aufgeblieben seid! Leider komm' ich nur auf wenig Augenblicke.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Du willst doch nicht wieder fort? Es sind Gewitter im Anzug.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ich muß! <stage>Er wirft den Hut auf den Tisch, daß das Lämpchen von dem Federbusch
+                ausgelöscht wird. Die Gegend, in die man aus dem Altan hinaussieht, zeigt sich schon
+                in dunklerer Beleuchtung.</stage>
+                  </p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Gut, daß der Mond scheint; sonst säßen wir im Finstern. <stage>Sie schlägt Feuer und
+                brennt das Lämpchen wieder an. Zu Max.</stage> Wir sind ja recht lebhaft! Vermutlich
+              getanzt?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ja! ja! Vermutlich!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>furchtsam, mit allen Zeichen getäuschter Hoffnung.</stage>
+                  <p>Du scheinst übel gelaunt. Wieder unglücklich gewesen?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Nein! nein! Im Gegenteil!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Nicht? Gewiß nicht?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>zu Max.</stage>
+                  <p>Was hast du gewonnen? Wenn's ein Band ist, Vetter, mußt du mir's schenken. Bitte,
+              bitte! Agathe hat schon Bänderkram genug von dir!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Was hast du getroffen, Max. Heute ist mir's von Wichtigkeit.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>mit ängstlicher Verlegenheit.</stage>
+                  <p>Ich habe – ich war gar nicht beim Sternschießen!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Und sagst doch, du seist glücklich gewesen?</p>
+                  <pb n="58" facs="#f0020"/>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ja doch! wunderbar, unglaublich glücklich. Sieh! <stage>Er zeigt ihr mit solcher
+                Heftigkeit den Federbusch auf dem Hut, daß sie zurückfährt.</stage> Den größten
+              Raubvogel hab' ich aus den Wolken geholt!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Sei doch nicht so hastig, du fährst mir in die Augen!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Vergib! <stage>Er bemerkt Blut an ihrer Stirn.</stage> Aber was ist das? Du bist
+              verwundet, deine Locken sind blutig, um aller Heiligen willen, was ist dir
+              begegnet?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Nichts! soviel als nichts, es heilt noch vorm Brautgang. <stage>Sich sanft an ihn
+                schmiegend.</stage> Du sollst dich drum deines Bräutchen nicht schämen!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Aber so sagt doch nur –</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Das Bild dort fiel herunter –</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Dort, der Urvater Kuno?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Wie bist du? Es ist sonst kein Bild hier.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Der wackere, gottesfürchtige Kuno?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Halb und halb war Agathe selbst schuld. Wer hieß ihr auch, schon nach sieben Uhr
+              immer ans Fenster zu laufen! Da ließ sich doch kaum erwarten, daß du schon
+              heimkämst.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Um sieben Uhr?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Du hörst's ja! die Turmuhr drüben im Dorf hatte kaum ausgeschlagen.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Seltsam! <stage>Für sich.</stage> Um diese Zeit schoß ich den Bergadler.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Du sprichst mit dir selbst. Was hast du?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Nichts! nichts auf der Welt!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Bist du unzufrieden mit mir?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>mit steigender Verlegenheit.</stage>
+                  <p>Nein! wie könnt' ich – Ja denn! ich bringe dir eine Bürgschaft meines wiederkehrenden
+              Glücks – sie hat mich viel gekostet, und du – du freust dich nicht einmal darüber. Ist
+              das auch Liebe?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Sei nicht ungerecht, Max! Noch weiß ich ja nicht – so große Raubvögel, wie ich diesen
+              mir denken muß, haben immer etwas Furchtbares.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Das dächt' ich nicht! Mir sehn sie recht stattlich aus.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>zu Max.</stage>
+                  <p>O steh nicht so in dich gekehrt! Ich liebe dich ja so innig. Solltest du morgen nicht
+              glücklich <pb n="59" facs="#f0021"/> sein, würdest du mir, ich dir entrissen, o gewiß, der Gram
+              tötete mich!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Drum – ebendarum – muß ich wieder fort!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Aber was treibt dich?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ich habe – ich bin noch einmal glücklich gewesen –</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Noch einmal?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ja doch! ja! <stage>Ohne Agathe ansehen zu können.</stage> Ich hab' in der Dämm'rung
+              einen Sechzehnender geschossen; der muß noch hereingeschafft werden, sonst stehlen ihn
+              des Nachts die Bauern.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Wo liegt der Hirsch?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ziemlich weit – im tiefen Wald – bei der Wolfsschlucht!</p>
+                  <stage>Nr. 9. Terzett</stage>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Wie? Was? Entsetzen!</l>
+                     <l>Dort in der Schreckensschlucht?</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Der wilde Jäger soll dort hetzen,</l>
+                     <l>Und wer ihn hört, ergreift die Flucht.</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Darf Furcht im Herz des Weidmanns hausen?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Doch sündigt der, der Gott versucht!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Ich bin vertraut mit jenem Grausen,</l>
+                     <l>Das Mitternacht im Walde webt;</l>
+                     <l>Wenn sturmbewegt die Eichen sausen,</l>
+                     <l>Der Häher krächzt, die Eule schwebt.</l>
+                  </lg>
+                  <stage>Er nimmt Hut, Jagdtasche und Büchse.</stage>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Mir ist so bang, o bleibe!</l>
+                     <l>O eile nicht so schnell.</l>
+                     <l>O eile, eile, eile nicht!</l>
+                     <l>Mir ist so bang!</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Ihr ist so bang, o bleibe!</l>
+                     <l>O eile nicht so schnell!</l>
+                     <l>O eile, eile nicht so schnell!</l>
+                     <l>O eile, eile nicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>nach dem Altan hinten schauend, düster für sich.</stage>
+                  <lg>
+                     <l>Noch trübt sich nicht die Mondenscheibe;</l>
+                     <l>Noch strahlt ihr Schimmer klar und hell;</l>
+                     <l>Doch bald wird sie den Schein verlieren –</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Willst du den Himmel observieren?</l>
+                     <l>Das wär' nun meine Sache nicht!</l>
+                     <pb n="60" facs="#f0022"/>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>So kann dich meine Angst nicht rühren?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Mich ruft von hinnen Wort und Pflicht,</l>
+                     <l>Mich rufen Wort und Pflicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe #max #aennchen">
+                  <speaker>AGATHE, MAX UND ÄNNCHEN.</speaker>
+                  <p>Leb' wohl! Lebe wohl!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>geht hastig fort, kehrt aber in der Tür noch einmal zurück.</stage>
+                  <lg>
+                     <l>Doch hast du auch vergeben</l>
+                     <l>Den Vorwurf, den Verdacht?</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Nichts fühlt mein Herz als Beben,</l>
+                     <l>Nimm meiner Warnung acht!</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>So ist das Jägerleben!</l>
+                     <l>Nie Ruh' bei Tag und Nacht! –</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Weh mir, ich muß dich lassen!</l>
+                     <l>Denk' an Agathens Wort!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>düster.</stage>
+                  <lg>
+                     <l>Bald wird der Mond erblassen,</l>
+                     <l>Mein Schicksal reißt mich fort!</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>zu Agathe.</stage>
+                  <p>Such', Beste, dich zu fassen!</p>
+                  <stage>Zu Max.</stage>
+                  <lg>
+                     <l>Denk' an Agathens Wort!</l>
+                  </lg>
+                  <stage>Max den Hut tief in die Augen drückend, stürzt heftig ab.</stage>
+                  <stage>Agathe und Ännchen ab.</stage>
+               </sp>
+               <stage>Verwandlung</stage>
+               <stage>Furchtbare Waldschlucht, größtenteils mit Schwarzholz bewachsen, von hohen Gebirgen
+            rings umgeben. Von einem derselben stürzt ein Wasserfall. Der Vollmond scheint bleich.
+            Zwei Gewitter von entgegengesetzter Richtung sind im Anzug. Weiter vorwärts ein vom
+            Blitz zerschmetterter, ganz verdorrter Baum, inwendig faul, so daß er zu glimmen
+            scheint. Auf der andern Seite, auf einem knorrigen Ast, eine große Eule mit feurig
+            rädernden Augen. Auf anderen Bäumen Raben und anderes Waldgevögel.</stage>
+            </div>
+            <div>
+               <head>Vierter Auftritt</head>
+               <stage>Kaspar. Unsichtbare Geister von verschiedenen Seiten.</stage>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>ohne Hut und Oberkleid, doch mit Jagdtasche und Hirschfänger, ist beschäftigt,
+              mit schwarzen Feldsteinen einen Kreis zu legen, in dessen Mitte ein Totenkopf liegt;
+              einige Schritte davon der abgehauene Adlerflügel, Gießkelle und Kugelform.</stage>
+                  <stage>
+                     <pb n="61" facs="#f0023"/> Nr. 10. Finale</stage>
+               </sp>
+               <sp who="#stimmen_unsichtbarer_geister">
+                  <speaker>STIMMEN UNSICHTBARER GEISTER.</speaker>
+                  <lg>
+                     <l>Milch des Mondes fiel aufs Kraut!</l>
+                     <l>Uhui! Uhui!</l>
+                     <l>Spinnweb' ist mit Blut betaut!</l>
+                     <l>Uhui! Uhui!</l>
+                     <l>Eh' noch wieder Abend graut –</l>
+                     <l>Uhui! Uhui!</l>
+                     <l>Ist sie tot, die zarte Braut!</l>
+                     <l>Uhui! Uhui!</l>
+                     <l>Eh' noch wieder sinkt die Nacht,</l>
+                     <l>Ist das Opfer dargebracht!</l>
+                     <l>Uhui! Uhui! Uhui!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfter Auftritt</head>
+               <stage>Kaspar. Bald darauf Samiel.</stage>
+               <stage>Die Uhr schlägt ganz in der Ferne zwölf. Der Kreis von Steinen ist
+            vollendet.</stage>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>reißt heftig den Hirschfänger heraus, stößt ihn in den Totenkopf, erhebt den
+              Hirschfänger mit dem Totenkopf, dreht sich dreimal herum und ruft.</stage>
+                  <lg>
+                     <l>Samiel! Samiel! erschein'!</l>
+                     <l>Bei des Zaubrers Hirngebein!</l>
+                     <l>Samiel! Samiel! erschein'!</l>
+                  </lg>
+                  <stage>Er stellt beides wieder in die Mitte des Kreises.</stage>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL</speaker>
+                  <stage>tritt aus dem Felsen.</stage>
+                  <p>Was rufst du?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>wirft sich vor Samiel nieder. Kriechend.</stage>
+                  <lg>
+                     <l>Du weißt, daß meine Frist</l>
+                     <l>Schier abgelaufen ist –</l>
+                  </lg>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <p>Morgen!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Verlängre sie noch einmal mir –</p>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <p>Nein!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Ich bringe neue Opfer dir –</p>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <p>Welche?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <lg>
+                     <l>Mein Jagdgesell, er naht –</l>
+                     <l>Er, der noch nie dein dunkles Reich betrat!</l>
+                  </lg>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <p>Was sein Begehr?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Freikugeln sind's, auf die er Hoffnung baut!</p>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <p>Sechse treffen, sieben äffen.</p>
+                  <pb n="62" facs="#f0024"/>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <lg>
+                     <l>Die siebente sei dein!</l>
+                     <l>Aus seinem Rohr lenk' sie nach seiner Braut;</l>
+                     <l>Dies wird ihn der Verzweiflung weihn,</l>
+                     <l>Ihn – und den Vater –</l>
+                  </lg>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <p>Noch hab' ich keinen Teil an ihr!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>bange.</stage>
+                  <p>Genügt er dir allein?</p>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <p>Das findet sich!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <lg>
+                     <l>Doch schenkst du Frist? und wieder auf drei Jahr',</l>
+                     <l>Bring ich ihn dir zur Beute dar!</l>
+                  </lg>
+               </sp>
+               <sp who="#samiel">
+                  <speaker>SAMIEL.</speaker>
+                  <lg>
+                     <l>Es sei. – Bei den Pforten der Hölle!</l>
+                     <l>Morgen er oder du!</l>
+                  </lg>
+                  <stage>Samiel verschwindet unter dumpfem Donner.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Sechster Auftritt</head>
+               <stage>Kaspar. Bald darauf Max. Späterhin Erscheinungen, die jedoch sämtlich den
+            Zauberkreis nicht berühren. Zuletzt Samiel.</stage>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>richtet sich langsam und erschöpft auf und trocknet sich den Schweiß von der
+              Stirn. Der Totenkopf mit dem Hirschfänger ist verschwunden, an dessen Stelle kommt ein
+              kleiner Herd mit glimmenden Kohlen, dabei einige Reisbunde, aus der Tiefe. Als er sie
+              erblickt.</stage>
+                  <p>Trefflich bedient! <stage>Er tut einen Zug aus der Jagdflasche.</stage> Gesegn' es,
+              Samiel! <stage>Trinkt.</stage> – Er hat mir warm gemacht! – Aber wo bleibt Max? –
+              Sollte er wortbrüchig werden. Samiel, hilf! <stage>Er geht nicht ohne Beängstigung im
+                Kreise hin und her; die Kohlen drohen zu verlöschen; er kniet zu ihnen nieder, legt
+                Reis auf und bläst an. Die Eule und andere Vögel heben dabei die Flügel, als wollten
+                sie anfachen. Das Feuer raucht und knistert.</stage>
+                  </p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>wird auf einer Felsenspitze, dem Wasserfall gegenüber, sichtbar und beugt sich in
+              die Schlucht herab.</stage>
+                  <lg>
+                     <l>Ha! – Furchtbar gähnt</l>
+                     <l>Der düstre Abgrund, welch ein Graun!</l>
+                     <l>Das Auge wähnt</l>
+                     <l>In einen Höllenpfuhl zu schaun! –</l>
+                     <l>Wie dort sich Wetterwolken ballen,</l>
+                     <l>Der Mond verliert von seinem Schein!</l>
+                     <l>Gespenst'ge Nebelbilder wallen,</l>
+                     <l>Belebt ist das Gestein!</l>
+                     <l>
+                        <pb n="63" facs="#f0025"/> Und hier – husch, husch!</l>
+                     <l>Fliegt Nachtgevögel auf im Busch!</l>
+                     <l>Rotgraue narb'ge Zweige strecken</l>
+                     <l>Nach mir die Riesenfaust!</l>
+                     <l>Nein! ob das Herz auch graust,</l>
+                     <l>Ich muß! Ich trotze allen Schrecken!</l>
+                  </lg>
+                  <stage>Er klettert einige Schritte herab.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>richtet sich auf und erblickt ihn.</stage>
+                  <p>Dank, Samiel! die Frist ist gewonnen! <stage>Zu Max.</stage> Kommst du endlich,
+              Kamerad? Ist das auch recht, mich so allein zu lassen? Siehst du nicht, wie mir's
+              sauer wird! <stage>Er hat das Feuer mit dem Adlerflügel angefacht und erhebt diesen im
+                Gespräch gegen Max.</stage>
+                  </p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>nach dem Adlerflügel starrend.</stage>
+                  <lg>
+                     <l>Ich schoß den Adler aus hoher Luft;</l>
+                     <l>Ich kann nicht rückwärts – mein Schicksal ruft! –</l>
+                  </lg>
+                  <stage>Er klettert einige Schritte, bleibt dann wieder stehen und blickt starr nach dem
+              gegenüberliegenden Felsen. Der Geist seiner Mutter erscheint im Felsen.</stage>
+                  <p>Weh mir!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>So komm doch, die Zeit eilt!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Ich kann nicht hinab!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Hasenherz! Klimmst ja sonst wie eine Gemse!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Sieh dorthin! Sieh!</p>
+                  <stage>Er deutet nach dem Felsen, man erblickt eine weißverschleierte Gestalt, die die
+              Hand erhebt.</stage>
+                  <lg>
+                     <l>Was dort sich weist,</l>
+                     <l>Ist meiner Mutter Geist!</l>
+                     <l>So lag sie im Sarg, so ruht sie im Grab! –</l>
+                     <l>Sie fleht mit warnendem Blick!</l>
+                     <l>Sie winkt mir zurück!</l>
+                  </lg>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>für sich.</stage>
+                  <p>Hilf, Samiel! <stage>Laut.</stage> Alberne Fratzen! – Hahaha! Sieh noch einmal hin,
+              damit du die Folgen deiner feigen Torheit erkennest.</p>
+                  <stage>Die verschleierte Gestalt ist verschwunden, man erblickt Agathens Gestalt mit
+              aufgelösten Locken und wunderlich mit Laub und Stroh aufgeputzt. Sie gleicht völlig
+              einer Wahnsinnigen und scheint im Begriff, sich in den Wasserfall
+              herabzustürzen.</stage>
+                  <pb n="64" facs="#f0026"/>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Agathe! Sie springt in den Fluß! Hinab! Hinab! ich muß!</p>
+                  <stage>Die Gestalt verschwindet, Max klimmt vollends herab, der Mond fängt an sich zu
+              verfinstern.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>höhnisch für sich.</stage>
+                  <p>Ich denke wohl auch!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>heftig zu Kaspar.</stage>
+                  <p>Hier bin ich! Was hab' ich zu tun?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>wirft ihm die Jagdflasche zu, die Max weglegt.</stage>
+                  <p>Zuerst trink! die Nachtluft ist kühl und feucht. Willst du selbst gießen?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Nein! das ist wider die Abrede.</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Nicht? So bleib außer dem Kreise, sonst kostet's dein Leben!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Was hab' ich zu tun, Hexenmeister?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Fasse Mut! Was du auch hören und sehen magst, verhalte dich ruhig. <stage>Mit eigenem
+                heimlichen Grauen.</stage> Käme vielleicht ein Unbekannter, uns zu helfen, was
+              kümmert's dich? Kommt was andres, was tut's? So etwas sieht ein Gescheiter gar
+              nicht!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Oh, wie wird das enden!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Umsonst ist der Tod! Nicht ohne Widerstand schenken verborgene Naturen den
+              Sterblichen ihre Schätze. Nur wenn du mich selbst zittern siehst, dann komm mir zu
+              Hilfe und rufe, was ich rufen werde, sonst sind wir beide verloren.</p>
+                  <stage>Max macht eine Bewegung des Einwurfs.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Still! Die Augenblicke sind kostbar! <stage>Der Mond ist bis auf einen schmalen
+                Streif verfinstert. Kaspar nimmt die Gießkelle.</stage> Merk' auf, was ich
+              hineinwerfen werde, damit du die Kunst lernst. <stage>Er nimmt die Ingredienzien aus
+                der Jagdtasche und wirft sie nach und nach hinein.</stage> Hier erst das Blei. –
+              Etwas gestoßenes Glas von zerbrochenen Kirchenfenstern; das findet sich! – Etwas
+              Quecksilber! – Drei Kugeln, die schon einmal getroffen! – Das rechte Auge eines
+              Wiedehopfs! – Das linke eines Luchses! Probatum est! – Und nun den Kugelsegen!
+                <stage>In drei Pausen sich gegen die Erde neigend.</stage>
+                  </p>
+                  <lg>
+                     <l>Schütze, der im Dunkeln wacht!</l>
+                     <l>Samiel! Samiel! hab' acht!</l>
+                     <l>Steh mir bei in dieser Nacht,</l>
+                     <l>
+                        <pb n="65" facs="#f0027"/> Bis der Zauber ist vollbracht!</l>
+                     <l>Salbe mir so Kraut, als Blei,</l>
+                     <l>Segn' es sieben, neun und drei,</l>
+                     <l>Daß die Kugel tüchtig sei!</l>
+                     <l>Samiel! Samiel! herbei!</l>
+                  </lg>
+               </sp>
+               <stage>Die Masse in der Gießkelle fängt an zu gären und zu zischen und gibt einen
+            grünlichweißen Schein. Eine Wolke läuft über den Mondstreif, daß die ganze Gegend nur
+            noch von dem Herdfeuer, den Augen der Eule und dem faulen Holz des Baums beleuchtet
+            ist.</stage>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>gießt, läßt die Kugel aus der Form fallen und ruft:</stage>
+                  <p>Eins!</p>
+               </sp>
+               <sp who="#das_echo">
+                  <speaker>DAS ECHO</speaker>
+                  <stage>wiederholt.</stage>
+                  <p>Eins!</p>
+                  <stage>Waldvögel kommen herunter, setzen sich um den Kreis, hüpfen und flattern.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>gießt und zählt.</stage>
+                  <p>Zwei!</p>
+               </sp>
+               <sp who="#das_echo">
+                  <speaker>ECHO.</speaker>
+                  <p>Zwei!</p>
+                  <stage>Ein schwarzer Eber raschelt durchs Gebüsch und jagt wild vorüber.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>stutzt und zählt.</stage>
+                  <p>Drei!</p>
+               </sp>
+               <sp who="#das_echo">
+                  <speaker>ECHO.</speaker>
+                  <p>Drei!</p>
+                  <stage>Ein Sturm erhebt sich, beugt und bricht Wipfel der Bäume, jagt Funken vom Feuer
+              usw.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>zählt ängstlich.</stage>
+                  <p>Vier!</p>
+               </sp>
+               <sp who="#das_echo">
+                  <speaker>ECHO.</speaker>
+                  <p>Vier!</p>
+                  <stage>Man hört Rasseln, Peitschengeknall und Pferdegetrappel; vier feurige
+              funkenwerfende Räder rollen vorüber, ohne daß man wegen der Schnelligkeit ihre
+              eigentliche Gestalt oder den Wagen gewahr werden kann.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>immer ängstlicher, zählt.</stage>
+                  <p>Fünf!</p>
+               </sp>
+               <sp who="#das_echo">
+                  <speaker>ECHO.</speaker>
+                  <p>Fünf!</p>
+                  <stage>Hundegebell und Wiehern in der Luft; Nebelgestalten von Jägern zu Fuß und zu Roß,
+              Hirschen und Hunden ziehen auf der Höhe vorüber.</stage>
+               </sp>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>CHOR</speaker>
+                  <stage>unsichtbar.</stage>
+                  <lg>
+                     <l>Durch Berg und Tal, durch Schlund und Schacht,</l>
+                     <l>Durch Tau und Wolken, Sturm und Nacht!</l>
+                     <l>Durch Höhle, Sumpf und Erdenkluft,</l>
+                     <l>Durch Feuer, Erde, See und Luft,</l>
+                     <l>Joho! Wauwau! ho! ho! ho! ho! ho! hol ho! ho!</l>
+                     <pb n="66" facs="#f0028"/>
+                  </lg>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Wehe! Das wilde Heer! Sechs! Wehe!</p>
+               </sp>
+               <sp who="#das_echo">
+                  <speaker>ECHO.</speaker>
+                  <p>Sechs! Wehe!</p>
+                  <stage>Der ganze Himmel wird schwarze Nacht, die vorher miteinander kämpfenden Gewitter
+              treffen zusammen und entladen sich mit furchtbaren Blitzen und Donnern; Platzregen
+              fällt; dunkelblaue Flammen schlagen aus der Erde; Irrlichter zeigen sich auf den
+              Bergen; Bäume werden prasselnd aus den Wurzeln gerissen; der Wasserfall schäumt und
+              tobt; Felsenstücke stürzen herab; von allen Seiten Wettergeläut; die Erde scheint zu
+              schwanken.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>zuckend und schreiend.</stage>
+                  <p>Samiel! – Samiel! <stage>Er wird zu Boden geworfen.</stage> Hilf! – Sieben!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>gleichfalls vom Sturm hin und her geschleudert springt aus dem Kreis, faßt einen
+              Ast des verdorrten Baumes und schreit:</stage>
+                  <p>Samiel!</p>
+               </sp>
+               <stage>In demselben Augenblicke fängt das Ungewitter an, sich zu beruhigen, an der Stelle
+            des verdorrten Baumes steht der schwarze Jäger, nach Maxens Hand fassend.</stage>
+               <sp who="#samiel">
+                  <speaker>SAMIEL</speaker>
+                  <stage>mit furchtbarer Stimme.</stage>
+                  <p>Hier bin ich!</p>
+                  <stage>Max schlägt ein Kreuz und stürzt zu Boden.</stage>
+                  <stage>Es schlägt eins. Plötzliche Stille. Samiel ist verschwunden, Kaspar liegt noch
+              mit dem Gesicht zu Boden, Max richtet sich konvulsivisch auf.</stage>
+                  <stage>Nr. 11. Entre-Akt</stage>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Dritter Aufzug</head>
+            <stage>Kurze Waldszene. Tag</stage>
+            <stage>Man hört hinter der Szene von Zeit zu Zeit Jagdmusik.</stage>
+            <div>
+               <head>Erster Auftritt</head>
+               <stage>Zwei fürstliche Jäger. Späterhin Max und Kaspar. Zuletzt noch ein fürstlicher
+            Jäger.</stage>
+               <sp who="#erster_jaeger">
+                  <speaker>ERSTER JÄGER.</speaker>
+                  <p>Es ist herrliches Jagdwetter!</p>
+               </sp>
+               <sp who="#zweiter_jaeger">
+                  <speaker>ZWEITER JÄGER.</speaker>
+                  <p>Nimmermehr hätt' ich das geglaubt; bis gegen Morgen war ein Mordlärm!</p>
+               </sp>
+               <sp who="#erster_jaeger">
+                  <speaker>ERSTER JÄGER.</speaker>
+                  <p>Besonders in der Wolfsschlucht soll ganz und gar der böse Feind gehaust haben.</p>
+                  <pb n="67" facs="#f0029"/>
+               </sp>
+               <sp who="#zweiter_jaeger">
+                  <speaker>ZWEITER JÄGER.</speaker>
+                  <p>Das ist ein für allemal seiner Großmutter Lustwäldchen.</p>
+               </sp>
+               <sp who="#erster_jaeger">
+                  <speaker>ERSTER JÄGER.</speaker>
+                  <p>Dort gibt's Windbrüche! Mannsdicke Stämme sind zersplittert wie Rohrstäbe,
+              Riesentannen strecken die Wurzeln gen Himmel.</p>
+               </sp>
+               <sp who="#zweiter_jaeger">
+                  <speaker>ZWEITER JÄGER.</speaker>
+                  <p>Ja, ja, man weiß schon, wer dort sein Wesen treibt.</p>
+               </sp>
+               <sp who="#erster_jaeger">
+                  <speaker>ERSTER JÄGER.</speaker>
+                  <p>Mit deinen Fratzen! laß uns gehen!</p>
+                  <stage>Max etwas erhitzt, kommt mit Kaspar.</stage>
+               </sp>
+               <sp who="#erster_jaeger">
+                  <speaker>ERSTER JÄGER</speaker>
+                  <stage>zu ihnen im Vorübergehen.</stage>
+                  <p>Guten Tag!</p>
+               </sp>
+               <sp who="#zweiter_jaeger">
+                  <speaker>ZWEITER JÄGER</speaker>
+                  <stage>zieht vor Max den Hut.</stage>
+                  <p>Glück zu, Herr Expektant!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Gute Jagd!</p>
+               </sp>
+               <sp who="#zweiter_jaeger">
+                  <speaker>ZWEITER JÄGER</speaker>
+                  <stage>den ersten noch zurückhaltend und auf Max deutend.</stage>
+                  <p>Hör', sei höflich gegen den! Das ist ein Mordskerl! Er hat drei Schüsse getan –
+              unsereiner kann nicht so weit sehen, geschweige denn treffen! Die Durchlaucht ist ganz
+              versessen auf ihn. Das Glücksrädchen dreht sich wunderlich. Läuft's so fort, kann er
+              noch Landjägermeister werden.</p>
+               </sp>
+               <sp who="#erster_jaeger">
+                  <speaker>ERSTER JÄGER.</speaker>
+                  <p>Meinethalben! Komm! <stage>Sie gehen.</stage>
+                  </p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>zu Kaspar.</stage>
+                  <p>Gut, daß wir allein sind! Hast du noch von den Glückskugeln? Gib!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Das wär' mir! Bedenk', drei nahm ich, vier für dich! Kann ein Bruder redlicher
+              teilen?</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Aber ich habe nur noch eine! Der Fürst hatte mich ins Auge gefaßt. Drei Schüsse hab'
+              ich getan zum Erstaunen. Was hast du denn mit den Kugeln angefangen?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>nimmt zwei Elstern aus der Jagdtasche und wirft sie hinter einen Busch.</stage>
+                  <p>Da sieh, nach den Elstern hab' ich zwei verschossen.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Bist du toll?</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Es macht mir Spaß, so einen Galgenvogel herunterzulangen! Was kümmert mich die ganze
+              fürstliche Jagd!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>dringend.</stage>
+                  <p>So hast du noch eine; gib mir sie!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Daß ich kein Narr war'! Ich noch eine – du noch eine! Die heb' dir fein auf zu dem
+              Probeschuß.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Gib mir deine dritte!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Ich mag nicht –</p>
+                  <pb n="68" facs="#f0030"/>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Kaspar!</p>
+               </sp>
+               <sp who="#dritter_jaeger">
+                  <speaker>DRITTER JÄGER</speaker>
+                  <stage>tritt ein, zu Max.</stage>
+                  <p>Der Fürst verlangt Euch, aber augenblicklich! Es ist ein Streit entstanden, wie weit
+              Euer Gewehr trifft. <stage>Er geht ab.</stage>
+                  </p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Sogleich! <stage>Zu Kaspar, dringend.</stage> Gib mir die dritte!</p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Nein, und wenn du mir zu Füßen fielst –!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Schuft! <stage>Ab.</stage>
+                  </p>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR.</speaker>
+                  <p>Immerhin! – Jetzt geschwind die sechste Kugel verbraucht. <stage>Er ladet.</stage>
+              Die siebente, die Teufelskugel, hebt er mir schon zum Probeschuß auf! Hahaha! Das
+              Exempel ist richtig. Wohl bekomm's der schönen Braut! – Dort läuft ein Füchslein; dem
+              die sechste in den Pelz! <stage>Er legt im Abgehen an; man hört alsbald außerhalb den
+                Schuß fallen.</stage>
+                  </p>
+               </sp>
+               <stage>Verwandlung</stage>
+               <stage>Agathens Stübchen, altertümlich, doch niedlich verziert. An einer Stelle ein
+            kleiner Hausaltar, worauf in einem Blumentopf der Strauß weißer Rosen, von dem durch das
+            Fenster hereinfallenden Sonnenstrahl beleuchtet.</stage>
+            </div>
+            <div>
+               <head>Zweiter Auftritt</head>
+               <stage>Agathe allein.</stage>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>bräutlich und blendend weiß, mit grünem Band gekleidet, kniet an dem Altar, steht
+              auf und wendet sich dann vorwärts mit wehmütiger Andacht.</stage>
+                  <stage>Nr. 12. Kavatine</stage>
+                  <lg>
+                     <l>Und ob die Wolke sie verhülle,</l>
+                     <l>Die Sonne bleibt am Himmelszelt;</l>
+                     <l>Es waltet dort ein heil'ger Wille,</l>
+                     <l>Nicht blindem Zufall dient die Welt!</l>
+                     <l>Das Auge, ewig rein und klar,</l>
+                     <l>Nimmt aller Wesen liebend war!</l>
+                  </lg>
+                  <lg>
+                     <l>Für mich auch wird der Vater sorgen,</l>
+                     <l>Dem kindlich Herz und Sinn vertraut,</l>
+                     <l>Und wär' dies auch mein letzter Morgen,</l>
+                     <l>Rief' mich sein Vaterwort als Braut:</l>
+                     <l>Sein Auge, ewig rein und klar,</l>
+                     <l>Nimmt meiner auch mit Liebe wahr!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>
+                  <pb n="69" facs="#f0031"/> Dritter Auftritt</head>
+               <stage>Agathe. Ännchen, geschmückt, doch nicht mit Blumen oder Zweigen.</stage>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Ei, du hast dich dazugehalten! – Aber du bist ja so wehmütig; ich glaube gar, du hast
+              geweint? Brauttränen und Frühregen, sagt das Sprichwort, währen nicht lange. Nun, das
+              weiß der Himmel, Regen genug hat's gegeben! Oft dacht' ich, der Sturm würde das alte
+              Jagdschlößchen ganz über den Haufen blasen!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Und Max war in diesem schrecklichen Wetter im Walde! Zudem habe ich so quälende
+              Träume gehabt.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Träume? Ich habe immer gehört, was einen vor dem Hochzeitstage träumt, muß man sich
+              merken. Solche Träume sollen, wie Laubfrösche, das ganze liebe Ehestandswetter
+              verkündigen. Was träumtest du denn? Agathe. Es klingt wunderbar. Mir träumte, ich sei
+              in eine weiße Taube verwandelt und fliege von Ast zu Ast, Max zielte nach mir, ich
+              stürzte; aber nun war die weiße Taube verschwunden, ich war wieder Agathe, und ein
+              großer schwarzer Raubvogel wälzte sich im Blute.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>klatscht in die Hände.</stage>
+                  <p>Allerliebst! allerliebst!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Wie kannst du dich nur über so etwas freuen?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Nun, der schwarze Raubvogel – da hast du ja die ganze Bescherung: du arbeitest noch
+              spät an dem weißen Brautkleide und dachtest gewiß vor dem Einschlafen an deinen
+              heutigen Staat; da hast du die weiße Taube! Du erschrakst vor den Adlerfedern auf
+              Maxens Hut, es schauert dir überhaupt vor Raubvögeln; da hast du den schwarzen Vogel!
+              Bin ich nicht eine geschickte Traumdeuterin?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Deine Liebe zu mir macht dich dazu, liebes, fröhliches Kind! Gleichwohl – hast du nie
+              gehört, daß Träume in Erfüllung gingen?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>für sich.</stage>
+                  <p>Fällt mir denn nichts ein, sie zu zerstreuen? <stage>Laut mit scheinbarer
+                Ernsthaftigkeit und Furcht.</stage> Freilich, alles kann man nicht verwerfen! Ich
+              selbst weiß da ein grausenerregendes Beispiel.</p>
+                  <stage>Nr. 13. Romanze und Arie</stage>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Einst träumte meiner sel'gen Base,</l>
+                     <l>Die Kammertür eröffnete sich,</l>
+                     <l>
+                        <pb n="70" facs="#f0032"/> Und kreideweiß ward ihre Nase,</l>
+                     <l>Denn näher, furchtbar näher schlich</l>
+                     <l>Ein Ungeheuer</l>
+                     <l>Mit Augen wie Feuer,</l>
+                     <l>Mit klirrender Kette –</l>
+                     <l>Es nahte dem Bette,</l>
+                     <l>In welchem sie schlief –</l>
+                     <l>Ich meine die Base</l>
+                     <l>Mit kreidiger Nase –</l>
+                     <l>Und stöhnte, ach! so hohl! und ächzte, ach! so tief!</l>
+                     <l>Sie kreuzte sich, rief,</l>
+                     <l>Nach manchem Angst- und Stoßgebet:</l>
+                     <l>Susanne! Margaret! Susanne! Margaret!</l>
+                     <l>Und sie kamen mit Licht –</l>
+                     <l>Und – denke nur! – und –</l>
+                     <l>Erschrick mir nur nicht! –</l>
+                     <l>Und – graust mir doch! – und –</l>
+                     <l>Der Geist war: – Nero – der Kettenhund!</l>
+                  </lg>
+                  <stage>Agathe wendet sich unwillig ab.</stage>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>zärtlich.</stage>
+                  <p>Du zürnest mir?</p>
+                  <p>Doch kannst du wähnen,</p>
+                  <p>Ich fühle nicht mit dir?</p>
+                  <p>Nur ziemen einer Braut nicht Tränen!</p>
+                  <p>Trübe Augen,</p>
+                  <p>Liebchen, taugen</p>
+                  <p>Einem holden Bräutchen nicht.</p>
+                  <p>Daß durch Blicke</p>
+                  <p>Sie erquicke</p>
+                  <p>Und beglücke,</p>
+                  <p>Und bestricke,</p>
+                  <p>Alles um sich her entzücke,</p>
+                  <p>Das ist ihre schönste Pflicht.</p>
+                  <p>Laß in öden Mauern</p>
+                  <p>Büßerinnen trauern,</p>
+                  <p>Dir winkt ros'ger Hoffnung Licht!</p>
+                  <p>Schon entzündet sind die Kerzen</p>
+                  <p>Zum Verein getreuer Herzen!</p>
+                  <p>Holde Freundin zage nicht!</p>
+                  <p>Nun muß ich aber auch geschwind den Kranz holen. Die alte Elsbeth hat ihn eben aus
+              der Stadt mitgebracht, und <pb n="71" facs="#f0033"/> ich vergeßliches Ding ließ ihn unten. Horch,
+              da kommen die Brautjungfern schon! <stage>Im Abgehen.</stage> Guten Tag, liebe
+              Mädchen! Da, singt immer die Braut an. Ich komme gleich wieder. <stage>Sie geht
+                ab.</stage>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Vierter Auftritt</head>
+               <stage>Agathe. Brautjungfern in ländlicher Feiertracht, doch gleichfalls ohne Kränze und
+            Blumen.</stage>
+               <stage>Nr. 14. Volkslied. Chor</stage>
+               <sp who="#eine_brautjungfer">
+                  <speaker>EINE BRAUTJUNGFER.</speaker>
+                  <lg>
+                     <l>Wir winden dir den Jungfernkranz</l>
+                     <l>Mit veilchenblauer Seide;</l>
+                     <l>Wir führen dich zu Spiel und Tanz,</l>
+                     <l>Zu Glück und Liebesfreude!</l>
+                  </lg>
+               </sp>
+               <sp who="#brautjungfern">
+                  <speaker>ALLE</speaker>
+                  <stage>einen Ringelreihn um Agathe tanzend.</stage>
+                  <lg>
+                     <l>Schöner grüner, schöner grüner Jungfernkranz!</l>
+                     <l>Veilchenblaue Seide! Veilchenblaue Seide!</l>
+                  </lg>
+               </sp>
+               <sp who="#eine_brautjungfer">
+                  <speaker>EINE BRAUTJUNGFER.</speaker>
+                  <lg>
+                     <l>Lavendel, Myrt' und Thymian,</l>
+                     <l>Das wächst in meinem Garten;</l>
+                     <l>Wie lang bleibt doch der Freiersmann?</l>
+                     <l>Ich kann es kaum erwarten.</l>
+                  </lg>
+               </sp>
+               <sp who="#brautjungfern">
+                  <speaker>ALLE</speaker>
+                  <stage>wie oben.</stage>
+                  <lg>
+                     <l>Schöner grüner, schöner grüner Jungfernkranz!</l>
+                     <l>Veilchenblaue Seide! Veilchenblaue Seide!</l>
+                  </lg>
+               </sp>
+               <sp who="#eine_brautjungfer">
+                  <speaker>EINE BRAUTJUNGFER.</speaker>
+                  <lg>
+                     <l>Sie hat gesponnen sieben Jahr'</l>
+                     <l>Den goldnen Flachs am Rocken,</l>
+                     <l>Die Schleier sind wie Spinnweb' klar,</l>
+                     <l>Und grün der Kranz der Locken.</l>
+                  </lg>
+               </sp>
+               <sp who="#brautjungfern">
+                  <speaker>ALLE</speaker>
+                  <stage>wie oben.</stage>
+                  <lg>
+                     <l>Schöner grüner, schöner grüner Jungfernkranz!</l>
+                     <l>Veilchenblaue Seide! Veilchenblaue Seide!</l>
+                  </lg>
+               </sp>
+               <sp who="#eine_brautjungfer">
+                  <speaker>EINE BRAUTJUNGFER.</speaker>
+                  <lg>
+                     <l>Und als der schmucke Freier kam,</l>
+                     <l>War'n sieben Jahr' verronnen;</l>
+                     <l>Und weil sie der Herzliebste nahm,</l>
+                     <l>Hat sie den Kranz gewonnen.</l>
+                  </lg>
+               </sp>
+               <sp who="#brautjungfern">
+                  <speaker>ALLE</speaker>
+                  <stage>wie oben.</stage>
+                  <lg>
+                     <l>Schöner grüner, schöner grüner Jungfernkranz!</l>
+                     <l>Veilchenblaue Seide! Veilchenblaue Seide!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>
+                  <pb n="72" facs="#f0034"/> Fünfter Auftritt</head>
+               <stage>Die Vorigen. Ännchen.</stage>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>mit einer zugebundenen runden Schachtel, fällt noch mit ein.</stage>
+                  <p>Schöner grüner, schöner grüner Jungfernkranz! Nun, da bin ich wieder! Aber fast wär'
+              ich auf die Nase gefallen. Kannst du dir's denken, Agathe? Der alte Herr Kuno hat
+              schon wieder gespukt.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>beklommen.</stage>
+                  <p>Was sagst du?</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Daß ich über das alte Bild fast die Beine gebrochen hätte. Es ist diese Nacht zum
+              zweitenmal von der Wand gefallen und hat ein tüchtiges Stück Kalk mit
+              heruntergenommen. Der ganze Rahmen ist zertrümmert.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Fast könnte es mich ängsten! Er war der Urvater unsers Stammes.</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Du zitterst auch vor einer Spinne! In einer so tollen Nacht, wo alle Pfosten krachen,
+              ist's da zu verwundern? Auch führ' ich wohl keinen sonderlichen Hammer, und der alte
+              Nagel war ganz verrostet. Nun frisch, noch einmal das Ende des Liedchens! <stage>Sie
+                schneidet den Bindfaden entzwei, kniet tändelnd vor Agathe nieder und überreicht ihr
+                die Schachtel, während sie mit den andern singt.</stage>
+                  </p>
+                  <p>Schöner grüner, schöner grüner Jungfernkranz!</p>
+                  <p>Veilchenblaue Seide –</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>öffnet und fährt zurück.</stage>
+                  <p>Ach!</p>
+                  <stage>Alle außer Ännchen, die noch kniet, fahren gleichfalls erblassend zurück.</stage>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Nun, was ist denn? <stage>Agathe nimmt den Kranz heraus; es ist ein silberner
+                Totenkranz. Selbst erschrocken.</stage> Eine Totenkrone! Himmel, das ist –
+                <stage>Aufspringend und ihre Verlegenheit verbergend.</stage> das ist nicht zum
+              Aushalten! da hat die alte halbblinde Botenfrau, oder die Verkäuferin, gewiß die
+              Schachteln vertauscht! <stage>Die Brautjungfern sehen einander bedenklich an. Agathe
+                blickt still vor sich nieder und faltet die Hände.</stage> Aber was fangen wir nun
+              an? <stage>Sie macht schnell die Schachtel zu und verbirgt sie.</stage> Weg damit!
+              Einen Kranz müssen wir haben!</p>
+                  <pb n="73" facs="#f0035"/>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Vielleicht ist dies ein Wink von oben; der fromme Eremit gab mir die weißen Rosen so
+              ernst und bedeutend; windet daraus die Brautkrone!</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Vor dem Altar und im Sarg mag die Jungfrau weiße Rosen tragen. <stage>Sie nimmt die
+                Rosen schnell aus dem Blumentopf und verschlingt sie zu einem Kranz.</stage> Ein
+              herrlicher Einfall! Sie verschlingen sich von selbst <stage>Sie setzt den Kranz Agathe
+                auf.</stage> und stehen dir allerliebst! – Doch nun laßt uns auch gehen, unsere
+              Begleiter werden sonst ungeduldig – Singt! singt!</p>
+               </sp>
+               <sp who="#brautjungfern #aennchen">
+                  <speaker>BRAUTJUNGFERN UND ÄNNCHEN</speaker>
+                  <stage>im Abgehen mit gedämpfter Stimme.</stage>
+                  <lg>
+                     <l>Schöner grüner, schöner grüner Jungfernkranz!</l>
+                     <l>Veilchenblaue Seide! Veilchenblaue Seide!</l>
+                  </lg>
+               </sp>
+               <stage>Verwandlung</stage>
+               <stage>Eine romantisch schöne Gegend</stage>
+               <stage>Auf der einen Seite und in der Hälfte des Hintergrundes die fürstlichen Jagdzelte,
+            worin vornehme Gäste und Hofleute, alle Brüche auf den Hüten, bankettieren. Auf der
+            andern Seite sind Jäger und Treibleute gelagert, welche gleichfalls schmausen; hinter
+            ihnen Hirsche, Eber und anderes Wildbret in Haufen aufgetürmt.</stage>
+            </div>
+            <div>
+               <head>Sechster Auftritt</head>
+               <stage>Ottokar. Kuno. Max. Kaspar. Jäger. Treibleute. Zuletzt Agathe, Ännchen, der Eremit,
+            die Brautjungfern und ein Zug von Landleuten. Ottokar im Hauptzelt an der Tafel; am
+            untersten Platz Kuno. Max in Kunos Nähe, doch außerhalb, auf seine Büchse gestützt. Auf
+            der entgegengesetzten Seite Kaspar hinter einem Baum lauschend.</stage>
+               <stage>Nr. 15. Jägerchor</stage>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>CHOR DER JÄGER.</speaker>
+                  <lg>
+                     <l>Was gleicht wohl auf Erden dem Jägervergnügen,</l>
+                     <l>Wem sprudelt der Becher des Lebens so reich?</l>
+                     <l>Beim Klange der Hörner im Grünen zu liegen,</l>
+                     <l>Den Hirsch zu verfolgen durch Dickicht und Teich</l>
+                     <l>Ist fürstliche Freude, ist männlich Verlangen,</l>
+                     <l>Erstarket die Glieder und würzet das Mahl.</l>
+                     <l>
+                        <pb n="74" facs="#f0036"/> Wenn Wälder und Felsen uns hallend umfangen,</l>
+                     <l>Tönt freier und freud'ger der volle Pokal!</l>
+                     <l>Jo ho! Tralalalala!</l>
+                  </lg>
+                  <lg>
+                     <l>Diana ist kundig, die Nacht zu erhellen,</l>
+                     <l>Wie labend am Tage ihr Dunkel uns kühlt.</l>
+                     <l>Den blutigen Wolf und den Eber zu fällen,</l>
+                     <l>Der gierig die grünenden Saaten durchwühlt,</l>
+                     <l>Ist fürstliche Freude, ist männlich Verlangen,</l>
+                     <l>Erstarket die Glieder und würzet das Mahl.</l>
+                     <l>Wenn Wälder und Felsen uns hallend umfangen,</l>
+                     <l>Tönt freier und freud'ger der volle Pokal!</l>
+                     <l>Jo ho! Tralalalala!</l>
+                  </lg>
+                  <stage>Anstoßen der Gläser und lautes Gejubel.</stage>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <p>Genug der Freuden des Mahls, werte Freunde und Jagdgenossen! Und nun noch zu etwas
+              Ernstem. Ich genehmige sehr gern die Wahl, welche Ihr, mein alter wackerer Kuno,
+              getroffen habt. Der von Euch erwählte Eidam gefällt mir.</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Ich kann ihm in allem das beste Zeugnis geben; gewiß wird er sich stets beeifern,
+              Eurer Gnade würdig zu sein.</p>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <p>Das hoff' ich. Sagt ihm, daß er sich bereit halte!</p>
+                  <stage>Kuno geht aus dem Zelt, spricht mit Max und geht dann wieder hinein.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>für sich.</stage>
+                  <p>Wo bleibt nur das Döckchen? Hilf, Samiel! <stage>Er klettert auf den Baum und sieht
+                sich um.</stage>
+                  </p>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <p>Wo ist die Braut? Ich habe so viel zu ihrem Lobe gehört, daß ich auf ihre
+              Bekanntschaft recht neugierig bin.</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Nach dem Beispiel Eurer erlauchten Ahnen war't Ihr immer sehr huldreich gegen mich
+              und mein Haus.</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>hält die Kugel in der hohlen Hand und blickt starr auf sie hin; für sich.</stage>
+                  <p>Dich sparte ich auf – Unfehlbare! Glückskugel! Aber du lastest jetzt zentnerschwer in
+              meiner Hand.</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Der Zeit nach muß meine Tochter bald hier sein. Doch wollt Ihr mir gnädig Gehör
+              schenken, Herr Fürst, so laßt den Probeschuß vor ihrer Ankunft ablegen. Der <pb n="75" facs="#f0037"/> gute Bursch hat seit einiger Zeit, wo freilich die Entscheidung seines Glücks immer
+              mehr herannahete, ganz besondern Unstern gehabt. Ich fürchte, die Gegenwart der Braut
+              könne ihn in Verwirrung setzen.</p>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR</speaker>
+                  <stage>lächelnd.</stage>
+                  <p>Er scheint allerdings für einen Weidmann noch nicht kaltes Blut genug zu besitzen.
+              Solang' ich ihn nur aus der Ferne beobachtete, tat er drei Meisterschüsse. Aber seit
+              dem Augenblick, da ich ihn rufen ließ, hat er stets gefehlt.</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Das steht nicht zu leugnen, und doch war er früher stets der Geschickteste.</p>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <p>Wer weiß, Alter, ob's uns beiden am Hochzeitstag besser gegangen wäre! Indes, alte
+              Gebräuche muß man ehren! Zudem – <stage>Lächelnd und laut, daß es Max vernehmen
+                soll.</stage> habt Ihr ja noch einen ältern Jägerburschen, Kuno! dem, wenigstens den
+              Jahren nach, der Vorzug gebührte.</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Dieser – gnädigster Herr – erlaubt mir –</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX</speaker>
+                  <stage>für sich.</stage>
+                  <p>Kaspar hat vielleicht noch seine letzte Freikugel. Er könnte wohl gar – <stage>Er
+                ladet hastig und stößt die Kugel in den Lauf.</stage> Noch einmal und nimmer
+              wieder!</p>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <p>Nun, es ist bloß, um das Herkommen zu beobachten und meine Gunst zu rechtfertigen.
+                <stage>Er tritt aus dem Gezelt. Gäste und Hofleute folgen. Die Jäger erheben sich
+                und treten auf die andere Seite.</stage> Wohlauf, junger Schütz! einen Schuß, wie
+              heut früh deine drei ersten, und du bist geborgen! <stage>Nachdem er sich
+                umgeschaut.</stage> Siehst du dort auf dem Zweig die weiße Taube? Die Aufgabe ist
+              leicht. Schieß!</p>
+                  <stage>Max legt an. In dem Augenblick, da er losdrücken will, tritt Agathe mit den
+              übrigen zwischen den Bäumen heraus, wo die weiße Taube sitzt.</stage>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>schreit.</stage>
+                  <p>Schieß nicht! Ich bin die Taube!</p>
+                  <stage>Die Taube flattert auf und nach dem Baum, von welchem Kaspar eilig herabklettert.
+              Max folgt mit dem Gewehr; der Schuß fällt. Die Taube fliegt fort. Sowohl Agathe als
+              Kaspar schreien und sinken. Hinter der ersten tritt der Eremit hervor, faßt sie auf
+              und verliert sich dann wieder unter dem Volk. Dies alles ist das Werk eines
+              Augenblicks. Sowie der Schuß fällt, fängt das Finale an.</stage>
+                  <stage>
+                     <pb n="76" facs="#f0038"/> Nr. 16. Finale</stage>
+                  <stage>Ännchen, Max, Ottokar, Kuno und einige Landleute sind um Agathe im Hintergrund
+              beschäftigt. Der übrige Chor steht in angstvollen Gruppen verteilt, nach Agathe und
+              Kaspar blickend.</stage>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>CHOR DER HOFLEUTE, JÄGER UND LANDLEUTE.</speaker>
+                  <lg>
+                     <l>Schaut! o schaut!</l>
+                     <l>Er traf die eigne Braut!</l>
+                  </lg>
+               </sp>
+               <sp who="#einige">
+                  <speaker>EINIGE.</speaker>
+                  <p>Der Jäger stürzte vom Baum!</p>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Wir wagen's kaum,</l>
+                     <l>Nur hinzuschaun!</l>
+                     <l>O furchtbar Schicksal, o Graun!</l>
+                     <l>Unsre Herzen beben, zagen!</l>
+                     <l>Wär' die Schreckenstat geschehn?</l>
+                     <l>Kaum will es das Auge wagen,</l>
+                     <l>Wer das Opfer sei, zu sehn.</l>
+                  </lg>
+                  <stage>Ottokar und seine nähere Umgebung sind zu Agathe geeilt; geringere Jäger zu
+              Kaspar. Agathe wird in den Vordergrund auf eine Rasenerhöhung gebracht. Alle sind um
+              sie beschäftigt. Max liegt vor ihr auf den Knien.</stage>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>erwacht aus schwerer Ohnmacht.</stage>
+                  <lg>
+                     <l>Wo bin ich?</l>
+                     <l>War's Traum nur, daß ich sank?</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>O fasse dich!</p>
+               </sp>
+               <sp who="#max #kuno">
+                  <speaker>MAX UND KUNO.</speaker>
+                  <p>Sie lebt!</p>
+               </sp>
+               <sp who="#max #kuno #chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>MAX, KUNO UND CHOR.</speaker>
+                  <lg>
+                     <l>Den Heil'gen Preis und Dank!</l>
+                     <l>Sie hat die Augen offen!</l>
+                  </lg>
+               </sp>
+               <sp who="#einige">
+                  <speaker>EINIGE</speaker>
+                  <stage>auf Kaspar zeigend.</stage>
+                  <lg>
+                     <l>Hier dieser ist getroffen,</l>
+                     <l>Der rot vom Blute liegt!</l>
+                  </lg>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>sich krampfhaft krümmend.</stage>
+                  <lg>
+                     <l>Ich sah den Klausner bei ihr stehn;</l>
+                     <l>Der Himmel siegt!</l>
+                     <l>Es ist um mich geschehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>sich nach und nach erholend und aufstehend.</stage>
+                  <lg>
+                     <l>Ich atme noch, der Schreck nur warf mich nieder,</l>
+                     <l>Ich atme noch die liebliche Luft,</l>
+                     <l>Ich atme noch!</l>
+                  </lg>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Sie atmet frei!</p>
+                  <pb n="77" facs="#f0039"/>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Sie lächelt wieder!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>O Max!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Die süße Stimme ruft!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>O Max, ich lebe noch!</p>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <p>Agathe, du lebest noch!</p>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <p>Den Heilgen Preis und Dank!</p>
+                  <stage>Samiel kommt hinter Kaspar aus der Erde, von den übrigen ungesehen.</stage>
+               </sp>
+               <sp who="#kaspar">
+                  <speaker>KASPAR</speaker>
+                  <stage>erblickt Samiel.</stage>
+                  <lg>
+                     <l>Du, Samiel! schon hier?</l>
+                     <l>So hieltst du dein Versprechen mir?</l>
+                     <l>Nimm deinen Raub! Ich trotze dem Verderben!</l>
+                  </lg>
+                  <stage>Er hebt die geballte Faust drohend gen Himmel.</stage>
+                  <p>Dem Himmel Fluch! – Fluch dir!</p>
+                  <stage>Er stürzt unter heftigen Zuckungen zusammen. Samiel verschwindet.</stage>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>CHOR</speaker>
+                  <stage>von Grausen ergriffen.</stage>
+                  <p>Ha! – Das war sein Gebet im Sterben?</p>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <lg>
+                     <l>Er war von je ein Bösewicht!</l>
+                     <l>Ihn traf des Himmels Strafgericht!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle #kuno">
+                  <speaker>CHOR UND KUNO.</speaker>
+                  <lg>
+                     <l>Er war von je ein Bösewicht!</l>
+                     <l>Ihn traf des Himmels Strafgericht!</l>
+                     <l>Er hat dem Himmel selbst geflucht!</l>
+                     <l>Vernahmt ihr's nicht? Er rief den Bösen!</l>
+                  </lg>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <lg>
+                     <l>Fort! stürzt das Scheusal in die Wolfsschlucht!</l>
+                  </lg>
+                  <stage>Einige Jäger tragen den Leichnam fort.</stage>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR</speaker>
+                  <stage>zu Max.</stage>
+                  <lg>
+                     <l>Nur du kannst dieses Rätsel lösen,</l>
+                     <l>Wohl schwere Untat ist geschehn!</l>
+                     <l>Weh dir! wirst du nicht alles treu gestehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Herr! unwert bin ich Eurer Gnade;</l>
+                     <l>Des Toten Trug verlockte mich,</l>
+                     <l>Daß aus Verzweiflung ich vom Pfade</l>
+                     <l>Der Frömmigkeit und Tugend wich;</l>
+                     <l>Vier – Kugeln – die ich heut verschoß –</l>
+                     <l>Freikugeln sind's, die ich mit jenem goß.</l>
+                  </lg>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR</speaker>
+                  <stage>zornig.</stage>
+                  <lg>
+                     <l>So eile, mein Gebiet zu meiden,</l>
+                     <l>Und kehre nimmer in dies Land!</l>
+                     <l>
+                        <pb n="78" facs="#f0040"/> Vom Himmel muß die Hölle scheiden,</l>
+                     <l>Nie, nie – empfängst du diese reine Hand!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Ich darf nicht wagen,</l>
+                     <l>Mich zu beklagen;</l>
+                     <l>Denn schwach war ich, obwohl kein Bösewicht,</l>
+                  </lg>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO.</speaker>
+                  <p>Er war sonst stets getreu der Pflicht!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>O reißt ihn nicht aus meinen Armen!</p>
+               </sp>
+               <sp who="#jaeger_bzw_chor_der_jaeger">
+                  <speaker>JÄGER.</speaker>
+                  <p>Er ist so brav, voll Kraft und Mut!</p>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>CHOR.</speaker>
+                  <p>O er war immer treu und gut!</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>Gnädiger Herr, o habt Erbarmen!</p>
+               </sp>
+               <sp who="#kuno #chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>KUNO UND CHOR.</speaker>
+                  <p>Gnäd'ger Herr, o habt Erbarmen!</p>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN.</speaker>
+                  <p>O habt Erbarmen!</p>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <lg>
+                     <l>Nein, nein, nein!</l>
+                     <l>Agathe ist für ihn zu rein!</l>
+                  </lg>
+                  <stage>Zu Max.</stage>
+                  <lg>
+                     <l>Hinweg, hinweg aus meinem Blick!</l>
+                     <l>Dein harrt der Kerker, kehrst du je zurück!</l>
+                  </lg>
+                  <stage>Der Eremit tritt auf. Alles weicht ehrerbietig zurück und begrüßt ihn demutsvoll,
+              selbst der Fürst entblößt sein Haupt.</stage>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <lg>
+                     <l>Wer legt auf ihn so strengen Bann!</l>
+                     <l>Ein Fehltritt, ist er solcher Büßung wert?</l>
+                  </lg>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <lg>
+                     <l>Bist du es, heil'ger Mann!</l>
+                     <l>Den weit und breit die Gegend ehrt?</l>
+                     <l>Sei mir gegrüßt, Gesegneter des Herrn!</l>
+                     <l>Dir bin auch ich gehorsam gern;</l>
+                     <l>Sprich du sein Urteil; deinen Willen</l>
+                     <l>Will freudig ich erfüllen.</l>
+                  </lg>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <lg>
+                     <l>Leicht kann des Frommen Herz auch wanken</l>
+                     <l>Und überschreiten Recht und Pflicht,</l>
+                     <l>Wenn Lieb' und Furcht der Tugend Schranken,</l>
+                     <l>Verzweiflung alle Dämme bricht.</l>
+                     <l>Ist's recht, auf einer Kugel Lauf</l>
+                     <l>Zwei edler Herzen Glück zu setzen?</l>
+                     <l>Und unterliegen sie den Netzen,</l>
+                     <l>Womit sie Leidenschaft umflicht,</l>
+                     <l>Wer höb' den ersten Stein wohl auf?</l>
+                     <l>Wer griff' in seinen Busen nicht?</l>
+                     <l>Drum finde nie der Probeschuß mehr statt!</l>
+                     <l>Ihm – Herr –</l>
+                  </lg>
+                  <stage>Mit finsterm Blick auf Max.</stage>
+                  <lg>
+                     <l>der schwer gesündigt hat,</l>
+                     <l>
+                        <pb n="79" facs="#f0041"/> Doch sonst stets rein und bieder war,</l>
+                     <l>Vergönnt dafür ein Probejahr!</l>
+                     <l>Und bleibt er dann, wie ich ihn stets erfand,</l>
+                     <l>So werde sein Agathens Hand!</l>
+                  </lg>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR.</speaker>
+                  <lg>
+                     <l>Dein Wort genüget mir,</l>
+                     <l>Ein Höh'rer spricht aus dir.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Heil unserm Fürst, er widerstrebet nicht</l>
+                     <l>Dem, was der fromme Klausner spricht!</l>
+                  </lg>
+               </sp>
+               <sp who="#ottokar">
+                  <speaker>OTTOKAR</speaker>
+                  <stage>zu Max.</stage>
+                  <lg>
+                     <l>Bewährst du dich, wie dich der Greis erfand,</l>
+                     <l>Dann knüpf' ich selber euer Band!</l>
+                  </lg>
+               </sp>
+               <sp who="#max">
+                  <speaker>MAX.</speaker>
+                  <lg>
+                     <l>Die Zukunft soll mein Herz bewähren,</l>
+                     <l>Stets heilig sei mir Recht und Pflicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>zu Ottokar.</stage>
+                  <lg>
+                     <l>O lest den Dank in diesen Zähren;</l>
+                     <l>Das schwache Wort genügt ihm nicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#ottokar #eremit">
+                  <speaker>OTTOKAR UND EREMIT.</speaker>
+                  <lg>
+                     <l>Der über Sternen ist voll Gnade;</l>
+                     <l>Drum ehrt es Fürsten, zu verzeihn!</l>
+                  </lg>
+               </sp>
+               <sp who="#kuno">
+                  <speaker>KUNO</speaker>
+                  <stage>zu Max und Agathe.</stage>
+                  <lg>
+                     <l>Weicht nimmer von der Tugend Pfade,</l>
+                     <l>Um eures Glückes wert zu sein!</l>
+                  </lg>
+               </sp>
+               <sp who="#aennchen">
+                  <speaker>ÄNNCHEN</speaker>
+                  <stage>zu Agathe.</stage>
+                  <lg>
+                     <l>O dann, geliebte Freundin, schmücke</l>
+                     <l>Ich dich aufs neu zum Traualtar!</l>
+                  </lg>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <lg>
+                     <l>Doch jetzt erhebt noch eure Blicke</l>
+                     <l>Zu dem, der Schutz der Unschuld war!</l>
+                  </lg>
+                  <stage>Er kniet nieder und erhebt die Hände. Agathe, Kuno, Max, Ännchen und mehrere des
+              Volkes folgen seinem Beispiel.</stage>
+               </sp>
+               <sp who="#agathe #kuno #max #aennchen #chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>ALLE MIT DEM CHOR.</speaker>
+                  <lg>
+                     <l>Ja, laßt uns zum Himmel die Blicke erheben,</l>
+                     <l>Und fest auf die Lenkung des Ewigen baun! –</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe #aennchen #max #kuno #ottokar #eremit">
+                  <speaker>AGATHE, ÄNNCHEN, MAX, KUNO, OTTOKAR UND EREMIT.</speaker>
+                  <lg>
+                     <l>Wer rein ist von Herzen und schuldlos im Leben,</l>
+                     <l>Darf kindlich der Milde des Vaters vertraun!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_hofleute #jaeger_bzw_chor_der_jaeger #volk_landleute_chor_alle">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Ja, laßt uns die Blicke erheben,</l>
+                     <l>Und fest auf die Lenkung des Ewigen baun,</l>
+                     <l>Fest der Milde des Vaters vertraun!</l>
+                     <l>Wer rein ist von Herz und schuldlos im Leben,</l>
+                     <l>Darf kindlich der Milde des Vaters vertraun!</l>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Anhang</head>
+            <div>
+               <head>Erster Auftritt</head>
+               <stage>Waldgegend mit einer Eremitenwohnung</stage>
+               <stage>Neben dieser ein Altar von Rasen. Hinter ihm ein Kreuz oder Heiligenbild, ganz von
+            weißen Rosen umblüht.</stage>
+               <sp who="#eremit">
+                  <speaker>EREMIT</speaker>
+                  <stage>vor dem Altar kniend.</stage>
+                  <lg>
+                     <l>Allerbarmer! Herr dort oben!</l>
+                     <l>Dir, den Sonn' und Sterne loben,</l>
+                     <l>Sei auch in der Einsamkeit</l>
+                     <l>Deines Knechtes Herz geweiht!</l>
+                  </lg>
+                  <stage>Er faltet die Hände und stützt betend sein Gesicht auf den Altar. Pause, von
+              Musik ausgefüllt. Dann richtet er sich, wie aus einer Entzückung, erschrocken in die
+              Höhe.</stage>
+                  <lg>
+                     <l>Welch ein Gesicht! –</l>
+                     <l>O Herr der Welt, gestatt' es nicht! –</l>
+                     <l>Ich sah – noch jetzt ergreift mich Schauern –</l>
+                     <l>Ich sah den Feind im Dunkeln lauern</l>
+                     <l>Mit tückisch-freud'gem Angesicht.</l>
+                     <l>Er streckte – ha! wie mir das Herz noch graust!</l>
+                     <l>Er streckte seine Riesenfaust</l>
+                     <l>Nach einem unbefleckten Lamm.</l>
+                     <l>Agathe war's! – Nach ihrem Bräutigam</l>
+                     <l>Lauscht' er mit gier'gen wilden Blicken,</l>
+                     <l>Als woll' er seinen Fuß umstricken;</l>
+                     <l>Im düstern Antlitz Spott und Hohn,</l>
+                     <l>Erfaßt' er seine Rechte schon. ––</l>
+                  </lg>
+                  <stage>Mit brünstiger Andacht.</stage>
+                  <lg>
+                     <l>Herr! vernimm des Greises Flehen!</l>
+                     <l>Laß den Frevel nicht geschehen!</l>
+                     <l>Schirm, o Herr, der ewig wacht,</l>
+                     <l>Vor des Bösen Trug und Macht!</l>
+                     <l>
+                        <pb n="81" facs="#f0042"/> O Herr! Vernimm des Greises Flehen,</l>
+                     <l>Laß den Frevel nicht geschehen,</l>
+                     <l>O Herr, vernimm sein Flehn!</l>
+                  </lg>
+                  <stage>Er steht auf und geht cinige Schritte vorwärts.</stage>
+                  <p>Was war das? Ist mir doch, als wäre ich begraben gewesen und nun zurückgegeben dem
+              Lichte! Ich lebe einfach, und mein Lager ist hart; kalt schleicht das Blut in den
+              Adern des Greises – dann kommen Gesichte von Gott! – All ihr Heiligen! seit drei Tagen
+              sah ich Agathen nicht, und schon zeichnet das Glöckchen der Klause sich auf jenen
+              Büschen ab und verkündet das Herannahen des Abends. Dort – täuschen mich nicht die
+              Augen – ja, sie ist's!</p>
+               </sp>
+            </div>
+            <div>
+               <head>Zweiter Auftritt</head>
+               <stage>Der Eremit. Agathe mit einem Milchkrgue. Ännchen trägt ihr ein Körbchen nach und
+            gibt es ihr beim Auftreten.</stage>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>zu Ännchen.</stage>
+                  <p>Hab' Dank!</p>
+                  <stage>Ännchen ab.</stage>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Sei mir gesegnet, meine Tochter! Du bliebst lange aus –</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Ihr seid doch wohl, ehrwürdiger Vater? Ich wär' schon gestern oder vorgestern
+              gekommen; aber dieses Obst, das ich für Euch aufbewahrt hatte, wollte nicht früher
+              reifen. Da nehmt es und dies Brot und dies Krüglein Milch. Andere Labung darf ich Euch
+              ja nicht bringen.</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Die Früchte sind auserlesen. Du sorgst für mich wie eine Tochter.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Ich liebe Euch nach meinem Vater am meisten.</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Wär' das wahr, was würde dein Max dazu sagen?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Ei – das ist etwas andres – ich sprach von kindlicher Liebe. Ihr scherzt mit mir; Ihr
+              seid ungewöhnlich heiter.</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT</speaker>
+                  <stage>für sich.</stage>
+                  <p>Wie sehr irrt sie! – <stage>Laut.</stage> Dein Max ist doch wohl?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Vollkommen – nur daß ihm vor dem Probeschusse bange ist, den er morgen ablegen
+              soll.</p>
+                  <pb n="82" facs="#f0043"/>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Ich habe davon gehört. Hast du keine trübe Ahnung?</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Zuzeiten wohl – wenn mich Max so schwermütig ansieht!</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Es tut meinem Herzen weh, deine Heiterkeit auch nur auf Augenblicke zu verscheuchen.
+              Dennoch kann ich dir nicht verhehlen –</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>O sprecht, ehrwürdiger Vater! Was von Euch kommt, wird stets zu meinem Heil
+              dienen.</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Ich kenne die eigentliche Gefahr nicht, die dir und deinem Verlobten droht; doch hat
+              mich ein Gesicht besorgt gemacht.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE</speaker>
+                  <stage>ängstlich.</stage>
+                  <p>Was erschien Euch?</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Gesichte deuten gewöhnlich die Zukunft nur in ungewissem Halbdunkel an; auch das
+              meinige war dieser Art. Doch fühle ich mein Herz, wenn ich dich ansehe, beklommen.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>So laßt mein und Maxens Glück doppelt Eurem frommen Gebete empfohlen sein. Nicht
+              wahr, Ihr erfüllt diesen Wunsch?</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Ich bin nur ein schwacher Mensch, aber meiner Fürbitte könnt ihr gewiß sein.</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>So bin ich voll Hoffnung –</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Bewahre treu die Reinheit deines Herzens, so wird der Allmächtige dich bewahren!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Lebt denn wohl, ehrwürdiger Vater! und vergeßt unserer nicht in Eurer Andacht.</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Gott mit dir, meine Tochter! <stage>Agathe geht ab. Er ruft ihr nach.</stage>
+              Agathe!</p>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <p>Habt Ihr mir noch etwas zu sagen?</p>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <p>Eine innre Stimme ruft mir zu, dich heute nicht ohne Gegengabe zu entlassen. Dieser
+              Rosenstock, dessen erstes Reislein meinem Vorgänger ein Pilger aus Palästina
+              mitbrachte, ist wunderlieblich emporgewachsen. Jeden Frühling blüht er aufs reichste;
+              ich sammle und presse die Blätter, und die Landleute schreiben dem Rosenwasser
+              wunderbare Schutz- und Heilkräfte zu. Nimm denn einige dieser Rosen als Brautgeschenk
+              meiner väterlichen Liebe! <stage>Er bricht Rosen ab, fügt sie in einem Strauß zusammen
+                und übergibt sie ihr am Schlusse des folgenden Zweigesangs.</stage>
+                  </p>
+                  <pb n="83" facs="#f0044"/>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <lg>
+                     <l>Nimm hin des Freundes Gabe,</l>
+                     <l>Geweihet, keusch und rein!</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Vor aller meiner Habe</l>
+                     <l>Soll sie mir teuer sein!</l>
+                  </lg>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <lg>
+                     <l>Wird sich die Blüte senken,</l>
+                     <l>Sollst du dabei gedenken:</l>
+                     <l>Was irdisch ist, vergeht!</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Ich will der Blätter wahren,</l>
+                     <l>Daß noch in späten Jahren</l>
+                     <l>Erinn'rung mich umweht!</l>
+                  </lg>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <lg>
+                     <l>Auch sollst du nicht vergessen:</l>
+                     <l>Man muß die Rose pressen,</l>
+                     <l>Eh' Heilung sie gewährt –</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>So wird zu reinern Freuden</l>
+                     <l>Das Menschenherz durch Leiden</l>
+                     <l>Geläutert und geklärt!</l>
+                  </lg>
+               </sp>
+               <sp who="#eremit">
+                  <speaker>EREMIT.</speaker>
+                  <lg>
+                     <l>Nimm hin des Freundes Gabe,</l>
+                     <l>Geweihet, keusch und rein!</l>
+                  </lg>
+               </sp>
+               <sp who="#agathe">
+                  <speaker>AGATHE.</speaker>
+                  <lg>
+                     <l>Vor aller meiner Habe</l>
+                     <l>Soll sie mir teuer sein!</l>
+                  </lg>
+                  <stage>Der Eremit in die Eremitenwohnung, Agathe durchs Gebüsch ab.</stage>
+                  <pb n="84" facs="#f0045"/>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

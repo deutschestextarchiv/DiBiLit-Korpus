@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Nervosipopel</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118601121">
+                  <forename>Joachim</forename>
+                  <surname>Ringelnatz</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:22Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005541581</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Ringelnatz, Joachim/Erzählprosa/Nervosipopel</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/tdqf.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0004-9737-9</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Joachim Ringelnatz: Das Gesamtwerk in sieben Bänden. Band 4: Erzählungen, Zürich 1994</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Das Gesamtwerk in sieben Bänden</title>
+                  <title level="m" type="volume">Band 4: Erzählungen</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118601121">
+                        <forename>Joachim</forename>
+                        <surname>Ringelnatz</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Walter</forename>
+                        <surname>Pape</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">264 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Diogenes</name>
+                  </publisher>
+                  <pubPlace>Zürich</pubPlace>
+                  <date type="publication">1994</date>
+                  <date type="firstPublication">1924</date>
+                  <date type="firstPublication" subtype="clariah">1924</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Ringelnatz-Joac-d1e35649">Erstdruck: München (Gunther Langes) 1924.</note>
+                  <note type="remarkDocument" corresp="#Ringelnatz-Joac-d1e35649">Erstdruck in: »Der Drache«, 2, Heft 52, 1921.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählprosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Ringelnatz-Joac-d1e35649">
+            <p rend="h3">Joachim Ringelnatz</p>
+            <p rend="h2">Nervosipopel</p>
+            <p rend="h4">Elf Angelegenheiten</p>
+            <pb n="217" facs="#f0001"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Ringelnatz-Joac-d1e35678" type="chapter">
+            <head>Nervosipopel</head>
+            <p>Mitschüler erzählten als Witz, seine Mutter sei Leichenbändigerin und seine Großmutter Löwenfrau gewesen. Es war etwas daran, aber der Fall lag doch anders. Indessen nahm Feix Daddeldu dergleichen Nachreden nicht übel. Er lachte dazu. Seine Gutmütigkeit lag nicht immer so offen, ward daher auch von vielen Leuten angestritten. Von dem Lehrer, dem Feix eine Stunde lang auf alle Fragen mit »Wie?« antwortete. Vom eigenen Vater, wenn dieser sein Pfeifenrohr mit Wachs verstopft fand, und sogar von der Mutter, wenn Feix durchaus nicht zu bewegen war, das Kippen mit dem Stuhl einzustellen. Diese eigensinnige Beharrlichkeit war das Häßlichste daran. Machte Feix seinen Bruder, dem das Rechnen sowieso von Natur aus schwer fiel, beim Addieren durch lautes, unrichtiges Mitzählen konfus, dann verdrosch Kuttel schließlich den Feix. Aber nachher fuhr dieser fort, laut, unrichtig mitzuzählen: »14, – 15, – 16, – 18, – 20«. Und ließ sich widerstandslos abermals verdreschen und zählte weiter, und das hätte sich – was an ihm lag – lebenslang so fortsetzen können. Lag aber nicht, setzte aber nicht.</p>
+            <p rendition="#et">Jedoch das Allerärgerlichste war das Lachen. Wie Feix zu dem, was er im Grunde genommen gar nicht tat, lachte. So gemein! Gemein konnte man eigentlich nicht sagen, Feix lachte ja die anderen nicht aus, nicht einmal an. Sondern er lachte einfach gleichmäßig heraus oder vielmehr in sich hinein, nicht boshaft, nicht schadenfroh, nicht höhnisch, aber so – so – so dumm! Obwohl er vermutlich gar nicht dumm war. Man wußte das zwar nicht. Er hielt in der Schule Schritt, drängte sich nicht vor, sondern war schweigsam, widersprach nie, fand sich in alles. Es war ihm überhaupt nichts Bedeutsames vorzuwerfen. Weil seine liebevollen Eltern keinen Haken entdeckten, um ihn zu bestrafen, er aber doch nach ihrer Meinung irgendwie was Queres hatte, so versagten sie ihm seinen einzigsten Wunsch, Seemann zu werden, und schickten ihn in die Stadt zu einem Drogisten in die Lehre. Feix arbeitete normal fleißig bei dem kleinen nervösen Drogisten und wohnte und speiste mittelmäßig in der Fremdenpension der geschäftigen, vielseitigen, nur etwas leicht erregbaren Drogistenfrau. Herr <pb n="218" facs="#f0002"/>
+Bulverin, so hieß der Drogist, wußte nur Gutes an die alten Daddeldus zu berichten. Leider wurde er von Tag zu Tag nervöser. Die Tür zum Privatkontor und das Fenster standen immer wieder offen, und der Zugwind wehte die Rezepte und sonstigen Papiere durcheinander. Im Laden standen die gleichartigen Flaschen, Phiolen und Dosen nicht mehr parallel, sondern schief zueinander. Die abends mit Bulverinschem Patentöl geschmierten Türangeln waren morgens verrostet und quietschten.</p>
+            <p rendition="#et">Auch die Erregbarkeit der Madame Bulverin nahm zu. Die bedauernswerte Dame verbrachte schlaflose Nächte. Weil die Wasserleitung tropfte, tupf, tapf, tupf, tapf. Irgendetwas – sicherlich eine Maus – nagte. Wo? – Woran? – Woher? Die Feldherrnbilder hingen schief. Etwas klappte von Zeit zu Zeit.</p>
+            <p rendition="#et">Erst nach sechs Monaten fingen die Eheleute Bulverin an zu ahnen. Wie Bulverins Patentöl in Blechkännchen zu Wasser wird. Seit wann die Pensionstische auf angesägten Beinen hinkten.</p>
+            <p rendition="#et">Da nichts nachzuweisen war und kein Entlassungsgrund vorlag, sondern aus anderen nebensächlichen Ursachen machte die Drogerie plötzlich Pleite, und Feixen blieb nichts übrig, als ohne Geld, aber mit viel bestem Zeugnis nach Hause geschickt zu werden.</p>
+            <p rendition="#et">Solche Leute wie Frau Daddeldu halten nichts von Zeugnissen und sehen auch nicht auf Geld. Aber in dem Nach-Hause-geschickt-werden fand die redliche Frau einen Fliegendreck. Und es mußte wohl auch im Benehmen ihres Sohnes mancher Fliegendreck oder wenigstens einer gefunden sein. Sie spürte dem vier Wochen lang nach, ohne recht dahinter zu kommen. Aber man schmettert nicht Türen zu, als gälte es, Büffel zu köpfen. Und als Feix wieder – nun schon zum elften Male – die Lampe so auf den Tisch gestellt hatte, daß ihre eine Hälfte über den Tisch hinausragte, wurde es Beschluß, daß Feix sich erst einmal als Seemann ein bißchen Lebensernst zusammensegeln sollte.</p>
+            <p rendition="#et">Er ward kein so tüchtiger und beliebter Seemann wie Kuttel, aber auch kein so leichtsinniger Abenteurer wie sein anderer, sein verschollener Bruder. Sondern genügte seinen Pflichten mit Durchschnittsleistungen. Seine Kameraden und Vorgesetzten hatten ihn im Grunde genommen gern, war doch sozusagen nichts gegen ihn einzuwenden. Aber seine Ruhe war keine Ruhe mehr. Nicht etwa Faulheit. Aber er machte die ältesten Janmaate, diese wetterharten, bedächtigen Bärenkerle, er machte sie kribbelig; und als ihm der sechzigjährige Segelmacher im Stillen Ozean mit dem <pb n="219" facs="#f0003"/>
+Fuchsschwanz einen Mastsplitter aus dem After sägte und Feix während dieser Notoperation das gelehrte Buch des Kapitäns studierte (es war ein Reiseführer durch Dießen am Ammersee) und dabei unaufhörlich dermaßen lachte, daß der Segelmacher ein Jucken in die Hand bekam, wobei die Säge abbrach, darüber der erschrockene Segelmacher plötzlich tot war; da hatte sich Feix alle Sympathien an Bord verscherzt. Niemand bemitleidete ihn etwa, weil er fortan mit einem Splitter und einem Stück Säge im After sich durchs Leben schlagen mußte.</p>
+            <p rendition="#et">Später trieb er sich in tropischen Ländern herum. Jahre waren vergangen, seitdem er seine Mutter verlassen hatte, und nie bekam diese ein Lebenszeichen von ihm. Dennoch wartete sie vertrauend und tapfer auf seine Rückkehr und rühmte ihren Feix und seinen besonders guten Charakter, bis Feix nach 5 Jahren plötzlich überraschend heimkam; dann nicht mehr, im Gegenteil.</p>
+            <p rendition="#et">Was hatte er wohl alles erlebt? Er sprach nicht darüber. Was hatte er wohl seinen Angehörigen aus dem Auslande mitgebracht? Er stellte es auf den Tisch: eine große quadratische Pappschachtel und darin: ein Moskito.</p>
+            <p rendition="#et">Seine Angehörigen lachten durchaus nicht. Das war doch kein Witz.</p>
+            <p rendition="#et">»Es ist dressiert«, sagte Feix erklärend. Aber das machte gar keinen Eindruck. Nur Paula riß den Mund auf. Feix sprach etwas zu dem Moskito in einer fremden Sprache, nicht Englisch. Sofort schoß das Insekt wie ein Pfeil in Paulas Mund. Paula spie es hustend wieder aus. Feix trocknete es mit Löschpapier. Dann gab es wieder ausländische Befehle. Das Moskito fing an, scharf summend und in schönen Brezelkurven um die Lampe herum zu sausen. Frau Daddeldu schlug mit dem Besen nach dem Tiere. Feix sperrte es vorsichtig wieder in die Pappschachtel. Die Angehörigen lasen die Lampensplitter vom Boden auf.</p>
+            <p rendition="#et">Feix wurde zu einem Pfarrer in die Stadt geschickt, um vier Wochen lang Anfangsgründe zu studieren. Er fuhr im D-Zug in der zweiten Klasse mit sechs sehr unterschiedlichen, aber durchwegs hochintelligenten Leuten zusammen, die ihn unterwegs unruhig und unbehaglich anschielten. Weil bei dem was nicht stimmte. Es war den Sechsen so, als habe sich über sie eine Gewitterwolke gelegt. Während der neu Hinzugekommene, dieser dauernd und lächelnd die Lippen bewegende Arbeitsmann mit seinem Köfferchen und der Riesenschachtel allein in Sonne gehüllt <pb n="220" facs="#f0004"/>
+schien. Der erste Mitreisende nieste 42mal, der zweite juckte sich, der dritte blinzelte, der vierte suchte nach Ursachen, der fünfte schlug um sich. Der sechste aber schlief; er war syphiliskrank.</p>
+            <p rendition="#et">Feix saß, abgesehen von seinem ausländischen Murmeln, unbeweglich da. Und doch war er der Dirigierende. Er arbeitete Hand in Hand mit seinem Moskito. Wie ihn die Inder gelehrt. »Nimm Krankheit!« befahl er dem Tier. »Übertrage sie!«</p>
+            <p rendition="#et">Der Zug lief ein. Hinter Feixen verließen auch die übrigen Passagiere den Wagen, der Herr, der geschlafen hatte, verließ ihn geheilt, die fünf andern syphiliskrank. – –</p>
+            <p rendition="#et">Schon am folgenden Sonntage erschien der Pfarrer aus der Stadt bei Frau Daddeldu. Er war verbunden und total zerstochen. Hinter ihm stand Feix mit Köfferchen und Pappschachtel.</p>
+            <p rendition="#et">Frau Daddeldu hatte nie Feen mißbraucht. Zum ersten Male in ihrem Leben wanderte sie nach dem Hünengrab und kratzte dreimal mit dem Hufeisen unter die Distel. Die Fee erschien, vernahm die Klage und verschwand.</p>
+            <p rendition="#et">Als Feix anderen Morgens erwachte und den Pappkasten öffnete, um seinem Moskito guten Morgen zu wünschen, kam statt des Insektes ein Elefant heraus. Feix lachte mächtig. Da verwandelte sich der Elefant in ein schnappendes Krokodil. Feix hielt dem Krokodil mit der Linken das Maul zu, kitzelte es mit der Rechten und lachte. Nun entglitt ihm das Kroko und nahm ätherische Feengestalt an. Feix schnalzte mit der Zunge und lächelte.</p>
+            <p rendition="#et">»Lächle nicht!« sagte die Fee ernst. »Vom höchsten Glück bis zum tiefsten Unglück ist nur ein knapper Schritt. Gesundheit soll dereinst abgerechnet werden, denn sie ist geliehene Begabung, andern zu helfen.«</p>
+            <p rendition="#et">Feix schnalzte mit der Zunge.</p>
+            <p rendition="#et">»Schnalze nicht!« verwies ihn die Fee. »Es kann ein lästernder Töter gütig sein, und es kann ein schlafender Unterlasser ewige Mordschuld auf sich laden.«</p>
+            <p rendition="#et">Feix feixte. Die Fee wechselte ihre Beinstellung, dann rollte sie plötzlich ihre Augen feurig und sagte mit hohler Stimme: »Bebinissi kolabia ivustalinski!«</p>
+            <p rendition="#et">Feix feixte und schnalzte. »Du!« rief die Fee drohend. »Du weißt nicht, wer ich bin.«</p>
+            <p rendition="#et">»Doch« – erwiderte Feix – »ein rechter Nervosipopel!« Die Fee verschwand.</p>
+            <p rendition="#et">Von allen aufgegeben und gemieden, begann Feix nun einen <pb n="221" facs="#f0005"/>
+liederlichen Lebenswandel. Sein Stammlokal wurde das Café Nashorn, wo Dirnen verkehrten.</p>
+            <p rendition="#et">Frau Daddeldu kratzte noch dreimal unter die Distel. Die Fee zuckte nervös mit den Achseln und verschwand. Aber heimlich verwandelte sie sich in eine Kokotte.</p>
+            <p rendition="#et">Feix verguckte sich. Seine Mutter gab sonderbarerweise immer aufs neue Geld heraus. Feix hielt die Kokotte aus. Die Kokotte ward schwanger. Feix heiratete sie trotz stärksten elterlichen Protestes. Das war sehr anständig von ihm. Lepopisov Ren, so nannte sich die Braut, stammte aus der Gegend von Rußland, bezog mit Feixen ein bescheidenes Zimmer und darin ein Wochenbett. Feix pflegte sie, aufmerksam, ordentlich, beharrlich, treu, rührend. Es klingelte; Feix schnitt die Drähte durch. Es klopfte; Feix rief ärgerlich: »Pst! pst! Sie schläft.«</p>
+            <p rendition="#et">Drei Monate vergingen. Feix brachte seiner Frau Erdbeeren, Schokolade oder die neueste Art von Bouillonwürfeln ans Bett, zog sich schon im Korridor die Stiefel aus, küßte – um nichts zu quetschen – bloß noch die Haare.</p>
+            <p rendition="#et">Wieder drei Monate vergingen. Feix verließ die Wohnung nimmer, nachdem er noch einmal eiligst Windeln und Bleisoldaten eingekauft hatte. Er schlief nimmer, sondern horchte vor der Türe. Er aß kaum noch. Er wurde vom Briefträger wegen Mißhandlung verklagt. Er schrie die Amme an, weil sie polterig hustete. Er zuckte, blinzelte, er suchte nach dem Moskito, welches abhanden gekommen war, er raste, schrie (aber stets in Kissen hinein, damit Lepopisov Ren nichts vernähme). Dann wieder ließ er sich stundenlang von der Wöchnerin erzählen, wie sie sich befinde, ob es sich wie ein Junge anfühlte. Und wenn sie »Ja« sagte, so freute er sich rein närrisch. Bis eine Fliege summte oder ein Tablett umkippte. Dann fuhr er aus der Haut.</p>
+            <p rendition="#et">Der Tag kam heran. Der Arzt ließ auf sich warten. Feix sprang von einem Bein aufs andere, unterdrückte. Die Hebamme ließ auf sich warten. Feix kroch Wände empor. Das und mehr wiederholte sich acht Tage lang, ohne das ersehnte Resultat. Der Termin war längst vorüber.</p>
+            <p rendition="#et">Vierzehn Tage vergingen. Lepopisov Ren nahm immer noch zu. Arzt und Hebamme kamen umsonst. Feix raste oder weinte.</p>
+            <p rendition="#et">Ein Monat verging. Lepopisov Ren nahm immer noch zu. Sie lag schon in zwei Betten; nun ließ Feix anbauen. Arzt und Hebamme lachten in sich hinein. Feix stach nach beiden. Zwei <pb n="222" facs="#f0006"/>
+Monate vergingen. Arzt und Hebamme blieben aus, sandten aber ihre Telephonnummern.</p>
+            <p rendition="#et">Der dritte Monat war halb vorbei. Dreiviertel der Stube war von der Wöchnerin ausgefüllt. Feix grübelte abmagernd darüber nach, was an der Verzögerung schuld sei. Lepopisov Ren meinte: Die verbrauchte Zimmerluft.</p>
+            <p rendition="#et">Also mußte sie ins Freie. Die Türöffnung maß 98 : 200, das Fenster nur 90 : 180. Feix brach eigenhändig die Frontwand des Zimmers nieder.</p>
+            <p rendition="#et">Es war ein sonniger Julitag. Lepopisov Ren hatte Ausgang. Feix sah ihr außer sich vor Freude nach.</p>
+            <p rendition="#et">Sie glitt hinaus, halb schwankend, halb schwebend. Draußen legte sie sich auf die Seite, – Feix war fieberhaft gespannt – drehte sich kugelartig weiter herum, bis ihr Bauch zuoberst kam, und auf einmal und langsam stieg sie. Stieg ruhig und majestätisch höher und höher, himmelwärts. Feix verhatterte sich in eine Rouleauschnur. Und sie stieg stetig. Plötzlich fing Feix an, wie rasend zu hupfen, aber es war schon zu spät, er erreichte nichts mehr. Sie stieg höher, feierlich, stieg wie ein Luftballon. Ohne Gondel. Aber oben, im Zenith des Ballons, auf dem Nabel, saß deutlich, unbeweglich, ernst und blaß ein Moskito.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e35812" type="chapter">
+            <head>Abseits der Geographie</head>
+            <p>Herr Droschkenkutscher Porösel wurde trübsinnig aus Langerweile; er wußte seinem Berufe nichts abzugewinnen. Müde und stumpf saß er am Tag oder bei Nacht auf seinem Bock. Müde und stumpf stand oder trabte auch der Gaul, der nun schon seit elf Jahren an Porösels Deichsel gewohnt war und, außer Dienst, sogar Seite an Seite mit seinem Herrn schlief.</p>
+            <p rendition="#et">Eines Morgens ging der Kutscher wieder derart zu Stroh und seufzte sich hinstreckend: »Ach, wäre ich doch tot!« Und sich vorstellend, wie das sein müßte, wenn er tot wäre, kniff er unwillkürlich die Augen zu. Da er sie aber nicht völlig zugekniffen hatte, sah er zu seinem maßlosen Erstaunen, wie der Gaul ihm eine höhnische Grimasse schnitt, dann in lautes Lachen ausbrach und auf einmal, so als habe er zu laut gelacht, – genau wie ein Mensch mit der Hand es macht – sich einen Huf vors Maul hielt.</p>
+            <p rendition="#et">
+               <pb n="223" facs="#f0007"/>
+Der Droschkenkutscher riß die Augen auf, da nahm der Gaul sofort wieder seine ursprüngliche, müde, stumpfe Haltung an. Vielleicht hatte Herr Porösel doch geträumt. Es war doch unmöglich, daß ein Pferd sowas tat und obendrein noch seinen Herrn seit elf Jahren betrog. Immerhin. – Hier galt es nachzuforschen.</p>
+            <p rendition="#et">In der nächsten Zeit stellte sich Herr Porösel öfters schlafend, und da bemerkte er einmal, wie sein Roß sich plötzlich auf die Hinterbeine stellte, die Vorderbeine verschränkte und so, leise auf und ab gehend, vor sich hin murmelte: »Wäre ich eine Stute und Herr Porösel in mich verliebt, so würden unsere Kinder Maultiere.«</p>
+            <p rendition="#et">»Was willst du damit sagen?« rief der Kutscher aufspringend. »Du falsches Vieh!«</p>
+            <p rendition="#et">»Gelt, ich bin doch schlauer als du?« sagte das Pferd ruhig und mit einer gutmütigen Sicherheit, die seinem Herrn die Peitsche aus der Hand wand. »Nun, nun«, fuhr es fort, als es Herrn Porösel hilflos baff zerknickt zusammenbrechen sah, »ich wüßte schon Rat, aber es kostet Überwindung.«</p>
+            <p rendition="#et">»Bin zu allem bereit«, stöhnte Porösel.</p>
+            <p rendition="#et">Das Roß schnäuzte sich zwischen zwei Hufen und sprach: »Du mußt dich aus der Welt schaffen, aus dieser Welt.«</p>
+            <p rendition="#et">Dumpf nickte der Droschkenkutscher. »Ja sterben. – Es ist das Beste.«</p>
+            <p rendition="#et">»Im Gegenteil! Hör mich an: Begib dich sofort nach der Fasanenstraße in das Haus Numero – – aber verzeih, wir müssen etwas leiser reden –« Der Gaul flüsterte das Weitere dem Kutscher leise, dicht ins Ohr. Es war ein sonderbarer Ratschlag. Porösel wurde abwechselnd rot und blaß und preußischblau. Aber zuletzt stand er überzeugt auf, umarmte sein Pferd dankbar und ließ sich umarmen. Danach begab er sich eiligst zu Fuß in das angegebene Privathaus in der Fasanenstraße, wo er, in den Salon geführt, zum Hausherrn folgendes sagte: »Bevor ich Ihnen Wichtiges mitteile, bitte – – wo ist – –? – Entschuldigen Sie – mir ist etwas übel –«</p>
+            <p rendition="#et">Im Kämmerlein verriegelte der Droschkenkutscher die Tür, setzte sich irgendwo hin, tat irgendwas. Dann kletterte er hinein, reckte sich auf, zog am Spülgriff, wurde von Wasserstrudeln ergriffen und total durchweicht, fühlte sich länger und dünner werden und in ein Rohr hineingezogen.</p>
+            <p rendition="#et">Je länger desto schneller sauste Porösel durch das schier endlose Rohr und leider nicht mit dem Kopfe voran, sondern umgekehrt. Deshalb geschah es, daß, als das Rohr sich in zwei Arme spaltete, er <pb n="224" facs="#f0008"/>
+an diesem Scheidewege mit dem einen Bein ins linke und mit dem anderen ins rechte geriet und – bumms! Au! Stopp! – steckenblieb. Da er aber am rechten Rohr die Wegweisernotiz »Zur Kläranlage« las und sich genügend auf- und abgeklärt dünkte, so zog er das dortige Bein heraus und rutschte sofort im linken Rohrschacht weiter. Sein Tagebuch, das auf später noch zu erzählende Weise zu uns zurückkehrte, vergaß bedauerlicherweise, Namen und geographische Bestimmung des eigenartigen Landes anzugeben, wo Herr Porösel endlich in einem Becken landete, welches dem Ausgangsbecken seiner Reise ganz ähnlich sah. Er stieg hinaus, und weil er sowohl Kammertür als auch Korridortür offen fand, sich außerdem genierte, die Bekanntschaft eines Fremden zu machen, dessen Wohnung er auf so unkonventionelle Weise betreten hatte, so entfernte er sich heimlich rasch.</p>
+            <p rendition="#et">Da fand er sich denn in einer Stadt in einem Lande, wo es nicht anders zuging als bei uns, bis auf wenige, aber tief einschneidende Unterschiede: Dortzulande tat nichts weh.</p>
+            <p rendition="#et">Ein Mann wie Porösel, der alles nur mit dem beschränkten Blick eines Droschkenkutschers sieht, war natürlich nicht im Stande, die großen, alles umwälzenden Folgeerscheinungen eines solchen Nichtwehtuns zu erfassen. Er berichtet in dieser Beziehung nur unwesentliche, oft geradezu dürftige Begebenheiten. So das große Vergnügen, womit er in den ersten Wochen täglich zum Zahnarzt gelaufen sei, um sich ganz gesunde Zähne ausziehen und dann wieder einhämmern zu lassen. Oder er findet an einer Droschkenfahrt Gefallen, bei welcher der Kutscher das mit einem Reibeisen gesattelte Pferd ritt. Die Wagensitze waren mit Stacheldraht gepolstert und trotz bester Federung fuhr der Wagen höchst holperig, weil dauernd Straßenjungen sich zum Jux unter die Räder warfen.</p>
+            <p rendition="#et">Porösel schreibt: es gäbe dort kein Verrecken, womit er Tod oder Sterben meint. Wenn einem beim Duell ein Ohr oder sonst ein Glied abgeschlagen wurde, so wuchs innerhalb von acht Tagen erstens ein neues Ohr an den Menschen und zweitens ein neuer Mensch an das Ohr. Zwischen den Zeilen des übrigens gewissenhaft geführten Tagebuches lesend, erfahren wir, daß es dortzulande auch keine Geburt oder wenigstens keine Zuneigung in unserem schmutzigen Sinne gab. Wer sich vermehren wollte, schnitt sich zum Beispiel einen oder zwei oder zehn Finger ab und wartete acht Tage lang.</p>
+            <p rendition="#et">
+               <pb n="225" facs="#f0009"/>
+Auch Porösel selbst kam einmal auf die Idee, sich zu vermehren, aber eigentlich nur, weil er eine Droschkenräder-Fabrik zu gründen gedachte, deren gesamtes Personal er aus zuverlässigen eigenen Kindern rekrutieren wollte, damit auch die Gehälter in der Familie blieben. Er tauchte seine Nase in die Fleischmaschine, verstreute die herausgedrehten Würmer aus Nase im Garten und freute sich darauf, nun allmorgendlich beim Kaffee vom Balkon aus zuzusehen, wie sich im Garten sein stattlicher Nachwuchs entwickelte. Ein Amselschwarm verdarb ihm das Vergnügen, fraß gleich am ersten Tage alle Fleischwürmer auf. Herr Porösel war froh, als ihm eine neue Nase wuchs.</p>
+            <p rendition="#et">Eine andere Episode schildert einen Streit mit einem Schmied, der aus Ungeschicklichkeit einen Amboß auf Porösels Füße fallen ließ. Obwohl der Kutscher nicht den geringsten Schmerz verspürte, gab er sich doch nicht mit dem höflichen »Oh, Pardon!« des Schmiedes zufrieden, sondern versetzte diesem eine Ohrfeige und, noch immer von der übertriebenen Empfindsamkeit seiner Heimat befangen, stach er sogar noch dem anderen ein Auge aus. Der Schmied floh, warum? war nicht erklärlich. Als er aber genügenden Abstand von unserem Kutscher hatte, schnitt er sich blitzschnell ein Bein ab, beugte dasselbe im Knie zu einem gewissen Winkel und warf es wie einen Bumerang derart in die Luft, daß es herabschwirrend Herrn Porösels linke Mittelzehe abschnitt. Ohne daran zu denken, daß er nun ein Kind bekäme, hob der Kutscher mürrisch Zehe und Bumerang auf und verschloß beides zu Hause in einem Kommodenfach. Später verbrachte er viele schlaflose Nächte, weil er von irgendwoher unheimliche Machauf-Rufe zu hören vermeinte.</p>
+            <p rendition="#et">Nichts weiß dagegen dieser engköpfige Tagebuchschreiber über die merkwürdige Kriegssituation in jenem Lande zu melden, wo doch jeder Heerführer beglückt sein müßte, wenn seine Armee vom Gegner kurz und klein geschlagen würde. Nein, unser Droschkenkutscher langweilte sich nur und bekam Heimweh, Sehnsucht nach seiner Schwester, die ihm noch dreißig Mark schuldete und die er allerdings aufrichtig liebte. Er wußte keinen Rat, wie er wieder in seine Heimat zurückgelangen könnte. Vergebens blinzelte er allen Droschkengäulen zu, redete wohl auch das eine oder andere an: »Nun??« – »Tu nur nicht so; ich weiß, daß du mich verstehst.« Aus keinem Gaul brachte er was raus. Bis er sich eines Nachts in einen Stall einschlich, sich neben ein Pferd aufs <pb n="226" facs="#f0010"/>
+Stroh warf und sich alsbald stellte, als ob er schliefe. Er gewahrte jedoch nichts anderes, als daß das Pferd zu äpfeln begann, und weil es gleichzeitig Fliegen abwedelte, so kriegte Herr Porösel etwas ab und floh.</p>
+            <p rendition="#et">Dennoch bekam er später auf irgendwelche Weise das Rezept in die Hand, um sich, und zwar in der schon einmal durchreisten Art, wieder von dortzulande nach seiner Heimat und sogar direkt in die Wohnung seiner Schwester zu spülen. Der Zufall wollte, daß diese etwas kränkliche Jungfrau gerade saß, als Porösel unter ihr auftauchte.</p>
+            <p rendition="#et">»Pfui Teufel!« schrie sie und lief empört davon.</p>
+            <p rendition="#et">Der Heimkehrende war durch diese rohen Begrüßungsworte so tief enttäuscht und gekränkt, daß er einen Moment wie angewurzelt, wortlos dastand. Dann schleuderte er das mitgebrachte Tagebuch seiner Schwester nach, richtete sich entschlossen auf, zog am Strang und spülte sich zurück in jene geheimnisvolle Fremde, wo er verscholl.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e35897" type="chapter">
+            <head>Der arme Pilmartine</head>
+            <p>Schon seit Wochen hatten Plakate verkündet, der Franzose Pilmartine würde einen neuen Fallschirm vorführen. Auf der Siebenhenkerwiese war ein 30 m hoher Holzturm erbaut. Und an dem Sonntag strömten die geputzten Einwohner der kleinen Stadt hinaus.</p>
+            <p rendition="#et">Es ging vergnüglich, festlich und spannend zu, wie bei jeder ähnlichen Veranstaltung, und als Monsieur Pilmartine in einem Automobil auf der Wiese eintraf, wurde er mit Händeklatschen empfangen. Es folgte eine Ansprache, Musik. Dann sah man den Franzosen unten am Treppenansatz des Turmes verschwinden und bald darauf oben auf der Plattform des Turmes erscheinen, wo er einen ungeheuren Schirm aufspannte.</p>
+            <p rendition="#et">Totenstille trat ein. Nur der infame Lümmel, der Fidje Pappendeik, der Lehrling vom Bürstenhändler Hohmann, benahm sich auf dem Stehplatz lausejungenmäßig, indem er unentwegt laut gröhlte: »Abfahrt! Auf Wiedersehen! Adieu!«</p>
+            <p rendition="#et">Das weite Publikum zischte: »Pst!« Man rief empört: »Maul halten!« und schließlich: »Raus mit dem Flegel!« Aber Fidje <pb n="227" facs="#f0011"/>
+Pappendeik überschrie alle: »Laßt mich doch, ich fahre jetzt nach dem Monde!« Damit sprang er über die Barriere, lief in die abgesperrte innere Wiese, wo außer einem Arzt, einem Schutzmann, einem Fahrrad, einer Bahre und zwei Sanitätern sich nichts und niemand befand. Fidje Pappendeik aber sprang mit behender Schnelligkeit auf das Fahrrad, fuhr ein Stück über die holperige Wiese hin, und auf einmal – – – ehe jemand daran dachte, den Störenfried – – auf einmal – ohne daß irgend jemand bemerkte – niemand ahnte oder war darauf gefaßt – kurz, auf einmal hob sich das Fahrrad, und Fidje Pappendeik fuhr auf einem ganz gewöhnlichen Fahrrad, nicht anders, als wie jeder Radfahrer fährt, fuhr aber durch die Luft, auf, über Luft, fuhr schräg aufwärts in die Wolken.</p>
+            <p rendition="#et">Kurzes Fluchen. Dann tausendfältiges »Ah!« »Bravo!« Begeistertes Schreien.</p>
+            <p rendition="#et">Dieses Phänomen war unbeschreiblich aufregend, packend, verblüffend. Hinterher behaupteten alle Teilnehmer, es hätte eine Stunde gedauert. Und vollzog sich so schnell! Denn Fidje Pappendeik mochte noch keine hundert Meter zurückgelegt haben, unten schoß man Gratulationen ihm nach – als er ein schnelleres Tempo anschlug und bald darnach zwischen zwei Lämmerwölkchen verschwand.</p>
+            <p rendition="#et">Flüche und Verwünschungen wurden laut. Dem Arzt war sein Fahrrad, Herrn Hohmann sein Lehrling, den alten Pappendeiks ihr Einziger und einem Zuckerbäcker sein Hauptschuldner entschwunden. Kein Mensch hatte mehr an Pilmartine gedacht. Darüber gebärdete sich der Franzose so wütend, daß er ausrutschend ohne Fallschirm vom Turme fiel; und weil auch sein Genickbruch vom Publikum über dem höheren Ereignisse unbeachtet blieb, pumpten sich nun auch der Impresario und das pekuniär und ideell beteiligte Festkomitee mit Zorn auf. Half aber nix.</p>
+            <p rendition="#et">Die Stadt, die Provinz, die Hauptstadt, die Sportwelt, die Wissenschaft beschäftigten sich mehr und mehr und nach zwei Jahren weniger und weniger mit dem Wunder Fidje Pappendeiks Himmelfahrt. Kam auch nichts heraus. Denn einwandfrei ward nachgewiesen: daß der Sanitätsrat nicht mit im Spiel gewesen war, daß sein Fahrrad ein durchaus normales war und von Pappendeik gestohlen wurde und daß Pappendeik selber einen in jeder Beziehung ordinären Menschen und Lehrling darstellte.</p>
+            <p rendition="#et">
+               <pb n="228" facs="#f0012"/>
+Da Vater Pappendeik das Fahrrad und den Zuckerbäcker sowie einige Beschwichtigungen bezahlte, so blieb nichts übrig als eine sich mehr und mehr entstellende Erinnerung an eine Massenvision und an jemanden, der wirklich weg war.</p>
+            <p rendition="#et">Drei Jahre waren nach dem Vorfall vergangen, als der Bürstenhändler Hohmann eines Nachts durch Straßenlärm und Glassplitter geweckt wurde. Draußen stand fidel Fidje Pappendeik mit dem Fahrrad.</p>
+            <p rendition="#et">Lediglich aus Neugierde nahm Herr Hohmann den alten Lehrling wieder auf und war alle Welt zu diesem freundlich. Aber weder dem Bürstenhändler noch irgend jemand anderem, nicht einmal seinen Eltern erzählte Fidje auch nur das Geringste von dem, was er erlebt hatte oder wo er gewesen wäre oder wie er so habe fliegen können. Es kamen Petitionen, Reporter, Professoren, jedoch wenn nicht schon der eifersüchtige Hohmann diese endlosen Wißbegierigen aus dem Hause warf, so erstickte sein Lehrling jedes Interview im Keime, indem er sich plötzlich blödsinnig stellte und stumm Grimassen schnitt oder alle Fragen konstant mit Kopfschütteln beantwortete oder auch gar zu aufdringliche Beharrlichkeit durch noch aufdringlicheres unanständiges Benehmen in die Flucht jagte. Fidje Pappendeik war der verhaßteste Mensch.</p>
+            <p rendition="#et">Aber obwohl jeder Bürger gelegentlich jedem Bürger einmal versichert hatte, wie er für seine Person es nicht für der Rede wert hielte, sich mit einem unreifen Bengel und einer Jahrmarktsgaukelei noch länger zu befassen, so kochte und gährte doch überall eine alles Dagewesene übertreffende Neugierde. Das Gemüt einer ganzen Stadt blieb in qualvoller Unordnung. Längst war das Fahrrad verrostet, das man so oft photographiert hatte, ohne daß irgend etwas Auffälliges daran zu entdecken war. Zahllose Bücher waren ohne Resultat geschrieben worden. Und Fidje Pappendeik lebte harmlos vergnügt, durchschnittsmäßig dahin; ohne etwas zu verraten und ohne davon Notiz zu neh men, daß ein bohrendes Fragezeichen von ihm ausgehend durch die Welt wucherte, welches an Bedeutung beispielsweise das Shakespeare-Bacon-Geheimnis übertraf. Hohmann kündigte seinem Lehrling.</p>
+            <p rendition="#et">Alle Mitbürger ignorierten den grünen Jungen. Nur der Kommerzienrat Dr. Ernst Levin bewies den Mut zu einer Sympathiebezeugung für Fidje, indem er ihm ein stattliches Vermögen schenkte; starb allerdings gleich darauf an einer Darmfistel.</p>
+            <p rendition="#et">
+               <pb n="229" facs="#f0013"/>
+Fidje Pappendeik war reich geworden, lebte indessen nicht viel anders wie bisher, harmlos, vergnügt, durchschnittsmäßig, ohne zu verraten und ohne Kenntnis zu nehmen. Alles bahnte Versöhnung mit ihm an und haßte ihn insgeheim noch grimmiger.</p>
+            <p rendition="#et">Weil eine ganze Stadt zu ersticken drohte, war es ein Verdienst des Staatsanwaltes Kirschrot, daß er einen Plan ersann zur sicheren und würdevollen Lüftung des Mysteriums.</p>
+            <p rendition="#et">Kirschrot bestach drei Gasarbeiter mit Enzianschnaps. Die drei Gasarbeiter erhoben Anklage gegen Fidje Pappendeik und beschuldigten ihn:</p>
+            <p>1. Die Tochter des einen Gasarbeiters entführt und verführt zu haben,</p>
+            <p>2. im Ausland Spionage getrieben zu haben,</p>
+            <p>3. als fanatischer Anhänger einer kirchlichen Sekte zwei Waisenkinder totgetreten und beraubt zu haben.</p>
+            <p rendition="#et">Dies alles verübt während der drei Jahre nach seinem Start von der Siebenhenkerwiese.</p>
+            <p rendition="#et">Dieser hochsensationelle sexual-politische Ritualdoppelraubmord-Prozeß mußte unter freiem Himmel verhandelt werden. Die gesamte Einwohnerschaft, das rostige Fahrrad und die Siebenhenkerwiese waren zugegen. Die Verhandlung gestaltete sich nach der üblichen Einleitung etwa folgendermaßen:</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Wo fuhren Sie zunächst hin?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> In die Luft.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Hatten Sie ein bestimmtes Ziel und welches?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ja, den Mond.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Erreichten Sie ihn?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Nein, ich verirrte mich und geriet auf den Fixstern Glyzerin. (Bewegung im Publikum.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Was taten Sie dort? Wie ging es zu? Wie lange blieben –? Erzählen Sie der Wahrheit gemäß und recht ausführlich. (Atemlose Stille.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Auf Glyzerin geht es genau so zu wie bei uns, bloß daß die Menschen dort nur von Leberwurst leben. (Heiterkeit.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Und was taten Sie dort?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ich aß sechs Monate lang Leberwurst. Dann bekam ich den Durchfall, übergab mich und radelte davon. (Lärm, Pfui-Rufe.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Ich verbitte mir jegliche Kundgebung seitens der <pb n="230" facs="#f0014"/>
+Zuhörerschaft, sonst sehe ich mich genötigt, den Ausschluß der Öffentlichkeit zu be – (Atemlose Stille.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Angeklagter, berichten Sie weiter, genau und ausführlich. Wo fuhren Sie hin? Was trafen Sie wie? Wodurch?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ich geriet auf den Planeten Klopsia. Dort gibt es nur anständige Leute.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Weiter! Weiter! Wieso? Was heißt das? Erzählen Sie doch! Welcher Gestalt taten Sie –?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ich legte mich in ein Kohlrabibeet, schlief zwei Jahre lang und radelte dann weiter.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Häm – Sonderbar. – In der Tat. – Aber die Methode ist uns nicht mehr neu. Wir kommen schon dahinter. Sprechen Sie weiter, Angeklagter. Wo? Nach welcher –?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ich landete auf dem Seitenmonde Exlibris.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Exlibris?? (Unruhe.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ja Exlibris. Dort ging es fürchterlich zu. (Hört! Hört!)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Fürchterlich? – Ruhe auf der Galerie! wollte sagen unter freiem Himmel. – Wieso fürchterlich?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ja. Ich kam todmüde an, entkleidete mich, ohne recht zu wissen wie, stopfte meine Kleider in den Schrank, kroch ins Bett und schlief gleich ein. Bis das Entsetzliche geschah. (Alle Zuhörer stehen unwillkürlich auf.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Welches Entsetzliche? Stocken Sie doch nicht fortwährend.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ich erwachte plötzlich. Die Lampe brannte. Da sah ich aus dem Türspalt des Kleiderschrankes einen nackten Arm herausragen, der mir meine zerknüllte Hose reichte, und eine hohle Stimme sagte: »Liederjahn!« Ich sträubte mein Haar, kroch unters Bettdeck. Und als ich wieder erwachte, hatte ich ein halbes Jahr verschlafen. Da radelte ich zur Erde zurück. (Minutenlanger Lärm, dann Stille.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Angeklagter, Sie haben bisher dreist gelogen.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ja.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Wir wissen Mittel und Wege, Sie zahm zu machen. Aber erklären Sie uns jetzt zunächst einmal, wie Sie es fertig bringen, sich mit einem Fahrrad in die Luft zu erheben.</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Das kann ich nicht. Ich setze mich einfach drauf und fliege los.</p>
+            <p rendition="#et">
+               <hi rendition="#g">
+                  <pb n="231" facs="#f0015"/>
+Staatsanwalt:</hi> Quatsch! Ich setze mich auch einfach drauf und fliege nicht los. Also!?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Der Angeklagte</hi> (schweigt.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Können Sie uns den Vorgang vielleicht praktisch vorführen?</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Ja. (Es wird ihm das rostige Fahrrad gebracht.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter</hi> (vormachend.): Ich ergreife die Lenkstange erst mit der linken, dann mit der rechten Hand. Dann setze ich den linken Fuß auf das linke Pedal. Dann hole ich ganz, ganz tief Atem. (Allgemeines tiefes Atemholen.)</p>
+            <p rendition="#et">
+               <hi rendition="#g">Staatsanwalt:</hi> Das ist recht, so erzählen Sie vernünftig. Fahren Sie fort!</p>
+            <p rendition="#et">
+               <hi rendition="#g">Angeklagter:</hi> Dann fahre ich fort. (Er schwingt sich auf den Sattel und tritt an. Fährt ein Stück über den Rasen, hebt sich dann in die Luft und bewegt sich erst langsam, auf einmal sehr schnell gen Himmel.)</p>
+            <p rendition="#et">Und kam nie zurück.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e36163" type="chapter">
+            <head>Vom Zwiebelzahl</head>
+            <p>Herr Tretebalg war von Beruf polizeilich verfolgter Wunderarzt, Naturarzt, Dentist; wie mans nehmen wollte. Von Zähnen und Hühneraugen abgesehen, gab es Hunderte von Geheilten, die seine Magie priesen. Den Glaser Lobesand hatte er von der Gallenpest befreit, einfach dadurch, daß er ihm zweimal mit einem Pferdeknochen über den Bauch strich und dabei sagte: »Lache mal!« Fertig: Gelacht – gesund.</p>
+            <p rendition="#et">Fachleute, wie Dr. Quilippi, nannten Tretebalgen einen fatalen Quacksalber.</p>
+            <p rendition="#et">Das Fernrohr in der Hand des fatalen Quacksalbers zitterte. Wahrhaftig: drüben im Garten war eine kleine aber festliche Tafel gedeckt, deutlich für zwei Personen. Tretebalg stand schon im Frack bereit. Aber nein. Nein, nein! Er wollte doch noch absagen. Mit einem Menschen zusammen essen, der – der –, wenn auch nicht –, aber schon dieses ewige Gelehrte, dieses Austüfteln! Dieser verknöcherte Aktenstaub, dieser muffige nichts wie Bücherkram! Tretebalg legte noch einmal das Fernrohr über die Brüstung. Ja, dort oben saß er! Der gebildete, gelehrte Herr Dr. Quilippi; nur ein <pb n="232" facs="#f0016"/>
+Stück krummen Rückens sah man, aber dieser Rücken schnüffelte ohne Zweifel wieder mit seiner blutlosen Nase in blödsinnigen, stinkigen Schmökern herum, lernte jetzt, eine Stunde vor dem Festessen, allerlei veraltetes, verbohrtes Gewäsch auswendig, womit er dem andern Eindruck machen würde, klaubte sich vielleicht spitzfindige, hinterlistige, schuftige Fremdwörter zusammen, um – um den Quacksalber, den fatalen Quacksalber in Verlegenheit – – »Huach!!« Ein Ausstoß, fast Kreischen. Das Fernrohr entrollte. Erst über die Brüstung und, als Herr Tretebalg zugriff, schnell in die Tiefe. »Hüukschä!« Das gab den Rest. Tretebalg hatte auf einmal einen Revolver in der Hand, legte nach drüben zu auf den krummen Rücken an und feuerte einen Schuß ab. Dann fiel er steif rücklings um. Ins Zimmer. Auf einen Teppich.</p>
+            <p rendition="#et">Der Naturarzt hatte meisterhaft gezielt. Der Berggeist Zwiebelzahl flog gerade unsichtbar vorbei. Er kam von einem überirdischen Billardspiel, und da ihm der Schuß natürlich nicht entging, machte er sich einen Scherz daraus, der fliegenden Kugel durch einen ebenso geschickten wie heftigen Stoß mit dem unsichtbaren Billardqueue ein wohlberechnetes Effet zu geben. Derart, daß sie rechts ab einmal um den Erdball herumsausen und erst dann wieder ihre alte Richtung aufnehmen mußte.</p>
+            <p rendition="#et">Tretebalg hatte den Doktor erschossen, der ihn – als Einzigen – zum fünfzigjährigen Geburtstagsschmause einlud. An dieser Tatsache kaute der Wunderarzt nun herum, wie ein junger Hund an seiner Speckschwarte. Er versuchte sie zu verschlucken; sie kam immer wieder hervor. Wie er sie auch anpackte, sie blieb, was sie war.</p>
+            <p rendition="#et">Herr Tretebalg erhob sich grau verstört, wankte nach dem Nachbarhause hinüber, verzweifelt entschlossen, nun die Rolle des Harmlosen, Überraschten, Entsetzten zu spielen. Welche Rolle!</p>
+            <p rendition="#et">Irgendwer führte ihn nach oben, öffnete die Tür zum Arbeitszimmer des Doktors. Tretebalg trat ein.</p>
+            <p rendition="#et">Aber nicht so wie ein Blitz aus heiterem Himmel oder wie von der Tarantel gestochen, sondern gerade umgekehrt anders, traf ihn der Anblick des ihm lächelnd entgegenschreitenden Doktors.</p>
+            <p rendition="#et">»Herzlich willkommen, mein bester <hi rendition="#i">amicus</hi> Tretebalg.«</p>
+            <p rendition="#et">»Leben Sie denn noch?« entfuhr es Herrn Tretebalg aus tiefstem Innern.</p>
+            <p rendition="#et">»Wie beliebt?« fragte der Doktor zerstreut und sah ernst nach der Uhr.</p>
+            <p rendition="#et">
+               <pb n="233" facs="#f0017"/>
+»Gottlob, daneben getroffen!« Tretebalg stammelte dankbar selig verwirrt. »Nichts, nichts! – Ich meine – ich dachte, Sie wären t-o-t.«</p>
+            <p rendition="#et">»Daß ich nicht wüßte«, bemerkte Herr Doktor Quilippi verbindlich. Tretebalg kam zu sich. »Meinen herzlichsten, allerherzlichsten Glückwunsch.« – »Danke! danke!« Der Jubilar wies dem Gast einen bequemen Stuhl an, und indem er sich selbst wieder auf seinen alten Arbeitsplatz begab, begann er: »Mein lieber Herr Nachbar, lassen Sie uns, ehe wir zum Essen gehen, hier nach alter quinzantolischer Sitte einen alten Drackfallqueribus trinken und eine echte Kakastimmbett dazu rauchen.«</p>
+            <p rendition="#et">Tretebalg war noch so froh erschüttert, daß er diese Fremdwörter nicht nur innerlich verzieh, sondern sogar dem Doktor gestand, wie er absolut nicht ahne, was sie bedeuteten.</p>
+            <p rendition="#et">»Was tuts?« sagte dieser freundlich. »Es beweist nur Ihre überlegene Ehrlichkeit, wenn Sie die von mir sinnlos und kompliziert erdachten Namen durch schlichtere, näherliegende ersetzen. Das, was sie bezeichnen, verändert sich darum doch nicht, sondern bleibt eben ein selbst präparierter Getreidekümmel und ein anspruchsloser, von mir selbst erfundener Tabak aus Lindenblüten und pulverisierten Wespen.«</p>
+            <p rendition="#et">Tretebalg öffnete den Mund. Er schloß ihn wieder, weil der Doktor einschenkte, Pfeifen stopfte, Feuer reichte und herzlich aufs neue den Faden aufnahm: »Ich beschäftige mich ein wenig mit allerlei praktischen Arbeiten und Erfindungen und bin nicht so ganz der verknöcherte Büchermensch oder Theoretiker, für den Sie mich vielleicht – –«</p>
+            <p rendition="#et">»Im Gegenteil«, warf Tretebalg mit feierlicher Betonung ein. »Und zum Beweise dafür«, fuhr der Doktor unter einer liebenswürdigen Verneigung fort, »möchte ich Ihnen hiermit« – (er öffnete ein Etui) – »diese Uhr verehren, die ich selber, nicht ohne mancherlei Schwierigkeiten und Vorstudien, hergestellt habe.«</p>
+            <p rendition="#et">Dem Wunderarzt ging es wie Glühen durchs Herz. »Aber Herr Doktor Quilippi! Das ist ja Silber! Da sind ja echte Diamanten darauf!« – »48 Stunden«, erwiderte der Doktor, der sich verhört hatte und über die Konstruktion nachsann. »Ich habe sie eben aufgezogen.«</p>
+            <p rendition="#et">Echte Tränen der Scham und der Reue tropften auf die Diamanten des Uhrdeckels.</p>
+            <p rendition="#et">
+               <pb n="234" facs="#f0018"/>
+Der Doktor wehrte, bescheiden nießend. »Aber lieber Kollege – –«</p>
+            <p rendition="#et">»Nein, Herr Doktor Quilippi, sagen Sie nicht Kollege zu mir; ich bin dessen nicht würdig –«</p>
+            <p rendition="#et">»Nicht würdig?« rief der Doktor. »Was fällt Ihnen ein? Es wäre mir fatal, wenn Sie mich auf der Seite derer glaubten, welche Ihre bewährte, rein praktische Heilmethode – –«</p>
+            <p rendition="#et">»Und doch«, unterbrach Tretebalg, »und doch bin ich im Grunde nur ein Quacksalber.«</p>
+            <p rendition="#et">»Offen gestanden: Ich auch«, sagte der Doktor. »Aber eben deswegen müssen wir uns gegenseitig immer an unser Nichtswissen und Nichtskönnen erinnern und einig sein in gemeinsamer treuer Stümperei. Und in diesem Sinne wollte ich Ihnen diese Uhr –« (Tretebalg hatte sie schon eingesteckt) – »übergeben haben, als Zeichen meiner aufrichtigen Verehrung und als schlichtes Andenken an einen Kollegen, der älter und studierter als Sie und doch ebenso dumm war.«</p>
+            <p rendition="#et">»<hi rendition="#g">Ist</hi> – nicht wahr!« rief Tretebalg begeistert; denn er hatte einen Freund gefunden, er hatte in dem früher ihm verhaßten – –</p>
+            <p rendition="#et">»Ist oder war«, rief der Doktor hüstelnd, »wie schnell verwandelt sich das eine in das andere. Aber lassen Sie uns das jetzt nicht nahe gehen. Sondern: Auf in den Garten zur Trüffelpastete!«</p>
+            <p rendition="#et">Nach dem Worte »Trüffelpastete« fiel der Doktor hart vom Stuhl. Eine Kugel war ihm vom Fenster her in den Rücken gedrungen. »Das Herz!« schrie er, die Hand auf die Brust pressend.</p>
+            <p rendition="#et">Tretebalg warf sich – riß ihm die Weste – sagte: »Die Lunge!«</p>
+            <p rendition="#et">»Zwischen Herz und Lunge!« stöhnte der Doktor.</p>
+            <p rendition="#et">»Ja, aber mehr nach den Nieren zu.«</p>
+            <p rendition="#et">»Wer hat mir das getan?«</p>
+            <p rendition="#et">»Ja, wer konnte –?« Tretebalgen überlief ein unheimlicher Schauder. Welcher Zufall: Zwei Attentate hintereinander auf ein und denselben.</p>
+            <p rendition="#et">»Wer hat mir das getan?« wimmerte Quilippi.</p>
+            <p rendition="#et">»Ich diesmal nicht!« rief Tretebalg unwillkürlich: »Ich rufe Polizei.«</p>
+            <p rendition="#et">Der Doktor hielt ihn durch eine schwache Bewegung zurück. »Bleiben Sie, es geht zu Ende.«</p>
+            <p rendition="#et">»Keineswegs! Rühren Sie sich nicht; ich hole einen Arzt.«</p>
+            <p rendition="#et">»Nicht!« flehte Quilippi, »Sie sind mein bester Arzt. Ihre Erfolge –«</p>
+            <p rendition="#et">
+               <pb n="235" facs="#f0019"/>
+Tretebalg fand die Wunde und ließ Speichel hineinträufeln.</p>
+            <p rendition="#et">»Ah, das tut wohl«, sagte Quilippi matt lächelnd. Der Naturarzt setzte sich nun mit seinem ganzen Gewicht auf die Wunde, um ein Verbluten zu verhindern. »Lache mal!« rief er dem Getroffenen zu, aber dieser hatte das Bewußtsein verloren.</p>
+            <p rendition="#et">Tretebalg rührte sich nicht. Nach sechs Stunden fing der Mann unter ihm zu phantasieren an. Tretebalg hörte jedoch nicht zu, sondern dachte in traurigster Zerknirschung an seine eigene Schlechtigkeit, an den gnädigen Ausgang seines abscheulichen Anschlages und den unbegreiflichen grausamen Zufall, der nun doch diese rührende, einfache Gelehrtengestalt hingestreckt hatte.</p>
+            <p rendition="#et">Denn nicht konnte Herr Tretebalg ahnen, daß er just in diesen Stunden auf einem der abgefeimtesten Lustmörder saß, der jetzt von drohenden Erinnerungen gepeinigt wurde, die jene silberne Uhr betrafen. Diese Uhr hatte Dr. Quilippi in perverser Mordlust so konstruiert und eingestellt, daß sie zwölf Stunden nach dem Geburtstagsschmause eine konzentrierte Ladung Nitroglyzerin zur Explosion bringen mußte.</p>
+            <p rendition="#et">Ich will ihm alles gestehen, sagte sich Tretebalg, kniff den Doktor prüfend in die Nase und erschrak über die Kälte.</p>
+            <p rendition="#et">Quilippi erwachte. »Wie spät ist es?« keuchte er wild.</p>
+            <p rendition="#et">»Es geht zu Ende«, sagte Tretebalg sanft, »deswegen möchte –«</p>
+            <p rendition="#et">»Hören Sie«, stammelte der Doktor und richtete sich mit Mühe etwas auf, »ich muß Ihnen –«</p>
+            <p rendition="#et">Der Naturarzt wehrte ab. »Nicht! Bleiben Sie liegen. Ich habe Ihnen etwas –«</p>
+            <p rendition="#et">Der Doktor winkte heftig. »Andermal! – Jetzt – die Uhr – – Hören Sie mich an –«</p>
+            <p rendition="#et">»Schweig! Lassen Sie mich reden!« drängte Tretebalg.</p>
+            <p rendition="#et">»Nein, ich muß reden –«</p>
+            <p rendition="#et">»Erst ich!«</p>
+            <p rendition="#et">Dr. Quilippi versuchte zu schreien. »Ich habe –«</p>
+            <p rendition="#et">»Ich habe«, überschrie ihn Tretebalg hastig, um den Satz zu Ende zu bringen, »auf Sie geschossen!«</p>
+            <p rendition="#et">Quilippi streckte sich. »Sie?? – Wie?? – – Sie?? – Um die Ecke herum??«</p>
+            <p rendition="#et">Da explodierte die Uhr.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e36358" type="chapter">
+            <head>
+               <pb n="236" facs="#f0020"/>
+Diplingens Abwesenheit</head>
+            <p>Nach dem sechzigsten Wirbelmotor mit Repetier-Kolben-Schaltung wurde Herr Silbig: Dipl. Ing., Diplom-Ingenieur und so reich, daß er sich in Kufstein neben dem Hotel Auracher ein kleines Haus erwerben konnte, wo er sich und seine Frau zur Ruhe setzte. Beide Gatten waren entschlossen, auch dort wie bisher in Paris ohne Dienstboten zu leben. Ebenso besorgten sie die Einrichtung nach Möglichkeit ohne fremde Hilfe: Und diese Einrichtung war nicht nur komfortabel zu nennen. Da wurde ein Zimmer des unteren Stockwerks zum exotischen Wintergarten gewandelt. Schöne Palmen, seltene Orchideen und Kakteen entsprossen einer Erdschicht, die den zementierten Fußboden bedeckte, und zwischen den mit Schlingpflanzen verwobenen Gewächsen luden Amoretten und Lustbetten zum Ruhen ein. Über diesem Zimmer war im höheren Stockwerk, und gleichfalls durch Zement gesichert, ein Schwimmbassin für zwei Personen angelegt. Und alles andere war so perfekt auf Schönheit und Bequemlichkeit ausgearbeitet, daß Silbigs oder Diplingens, wie man sie in Kufstein nannte, schon nach vierwöchigem Aufenthalt sich gelangweiligt nach Paris zurücksehnten. Da war es ihnen sogar angenehm, als ihr Neffe Oberreich aus Kopenhagen sei nen Besuch anmeldete.</p>
+            <p rendition="#et">Hans war ihnen in Paris oft ein ungern gesehener Gast gewesen, weil er so viel Unruhe brachte und weil er einen Beruf, den es eigentlich nur in Witzblättern geben sollte – Hans nannte sich nämlich Impresario –, gewählt hatte und gar nicht ausübte. Aber diese Unruhe schien Diplingens nun beinahe willkommen; vielleicht freuten sich auch beide insgeheim darauf, dem Neffen mit ihrer Villa zu imponieren.</p>
+            <p rendition="#et">Als Oberreich eintraf, fanden Silbigs ihn übrigens gar nicht so übel, wie sie nach ihrer Erinnerung vermeint hatten. Im Gegenteil: er benahm sich außerordentlich wohltuend, wußte sich bescheiden und unterhaltsam anzupassen. Er brachte sogar ein drolliges Geschenk mit, einen kleinen, ganz jungen Goldfisch, den er, nicht ohne Schwierigkeiten, in einem Einmachglas von Dänemark bis nach Tirol transportiert hatte. Und überhaupt betrug sich der Neffe – er hatte so laute, <pb n="237" facs="#f0021"/>
+begeisterte »Oh«-Rufe und »Ah«-Rufe für die Lustwohnung.</p>
+            <p rendition="#et">Erst nach Oberreichs Abreise entdeckten Diplingens, daß er das Schwimmbad mit Suppenwürze oder so was verunreinigt hatte. Sie suchten diesen unangenehmen Menschen zu vergessen, was nicht ganz leicht war, weil sie den kleinen Goldfisch so liebgewonnen hatten. Er war so rührend unbeholfen in seiner jugendlichen Unerfahrenheit. Er hatte auch noch gar keine rötliche, sondern sozusagen: gar keine Farbe, war überhaupt ganz unansehnlich, eigentlich nur ein kleines, etwas längliches Bläschen. Danach tauften sie ihn auch »Bläschen«. Für Bläschen wurde ein Goldfischglas beschafft, das man auf einem Gipssockel in den Wintergarten stellte, und man fütterte das Fischlein täglich mit 48 Ameiseneiern.</p>
+            <p rendition="#et">Bläschen hier und Bläschen da. Aber nach acht Tagen wird jeder Fisch langweilig. Diplom-Ingenieurs fingen, jeder getrennt für sich, an, zu überlegen, ob sich nicht gemeinsam erwägen ließe, inwiefern es berechtigt wäre, Pläne zu schmieden betreffs einer längeren Reise nach Paris.</p>
+            <p rendition="#et">Beide Gatten waren sich einig, aber doch war und blieb ein Hindernis. Wer sollte in ihrer Abwesenheit Bläschen füttern und wer die Pflanzen begießen? Etwa fremde Personen? – »Nein! Nein! – Nie! Nie!« Der Plan wurde aufgegeben. Die nächsten drei Tage hindurch stumpften Silbigs so hin. Es schien so, als wären sie böse aufeinander. Man hörte mal das Bullern eines Magens oder das eigene Herzklopfen. Ein andermal plätscherte Bläschen ein wenig, aber sonst –</p>
+            <p rendition="#et">Und doch hatte Herr Silbig noch nie so intensiv gearbeitet wie in diesen drei Tagen. Und am vierten Tag war das Wunderwerk, welches die Pariser Reise ermöglichen sollte, vollendet und angebracht.</p>
+            <p rendition="#et">Seitdem Diplingens abgereist waren, kreisten an der Decke des Wintergartens stetig langsam zwei Räder, von denen das eine dauernd einen ganz feinen Wasserstaub durch das Zimmer sprühte, während das andere nach jeder halben Stunde ein Ameisenei in das Goldfischglas fallen ließ. Das Wasser für die Sprühmaschine wurde vom Schwimmbassin hergeleitet. Das Reservoir für die Ameiseneier bildete ein großer hölzerner Schwebekasten.</p>
+            <p rendition="#et">Hans Oberreich hatte sich in diesem Fall keinen Scherz erlaubt. Er war, ohne es zu merken, selber betrogen worden von dem Kopenhagener Händler, der ihm statt eines Goldfisches einen ganz jungen Walfisch angedreht hatte.</p>
+            <p rendition="#et">
+               <pb n="238" facs="#f0022"/>
+Diplingens hätten eine dritte Maschinerie erfinden sollen, um die beiden anderen Räderwerke automatisch von Zeit zu Zeit mit neuem Öl zu versorgen. So aber ergaben sich Störungen, die allmählich schlimmer wurden. Der Zerstäuber am Wasserrad löste sich. Das andere Rad legte jetzt schon 20 Eier in der Minute, einige davon noch ins Goldfischglas.</p>
+            <p rendition="#et">Diplingens blieben abwesend. Die Gewächse im Wintergarten troffen. Starkes Rauschen übertönte das wohlige Plätschern des Goldfisches, welcher fraß und wuchs.</p>
+            <p rendition="#et">Das Erdreich war nicht mehr sichtbar. Die Lustbetten begannen zu schaukeln, die Amorchen torkelten. Eines Morgens erschrak der junge Goldfisch, weil er im Glase feststak, sich weder vornoch rückwärts bewegen konnte.</p>
+            <p rendition="#et">Da überkam es ihn, daß er ein Walfisch sei; er blähte sich stolz. Das Glas platzte, und plumps – schwamm der Wal zwischen treibenden Lustbetten und entwurzelten Palmen. Er fing an, die Gips-Amoretten wie Biskuit zu zerknabbern.</p>
+            <p rendition="#et">So was bleibt auf die Dauer nicht unentdeckt. Die Auracher hörten nachts gräßlich gigantisches Schnauben. Eine Klage lief gegen die abwesenden Silbigs, weil der Briefträger, als er von außen die Briefklappe an der Tür öffnete, von innen mit Wasser begossen worden war.</p>
+            <p rendition="#et">Selbst der kaltblütige Revierschutzmann, der das Schloß aufbrach, kam einen Moment außer Fassung, als er beim Öffnen der Tür von einem herausschießenden, hydraulischen Walfisch die Treppe heruntergerissen wurde.</p>
+            <p rendition="#et">Während im Treppenhaus der Schutzmann und andere Neugierige im Strudel der nachstürzenden Wassermassen ertranken und der Walfisch schon draußen auf dem Marktplatz mit zornigen Flossenschlägen das Pflaster aufpeitschte, gab der Magistrat telegraphisch eine Annonce an alle auswärtigen Zeitungen auf: »Wer kauft einen lebenden Walfisch?«</p>
+            <p rendition="#et">Sofort meldete sich die Firma Hermann Tietz, Berlin.</p>
+            <p rendition="#et">Da man in Kufstein über kein großes, transportables Bassin verfügte, so wurde der Walfisch in nasse Tücher eingewickelt und während der Fahrt nach Berlin durch Klistiere künstlich ernährt.</p>
+            <p rendition="#et">Am Anhalter Bahnhof geriet die Begleitmannschaft mit den Arbeitern von Tietz in Streit, weil letztere außer dem Walfisch auch noch die Walfischwindeln beanspruchten, diese blieben aber zuletzt doch in den Händen der siegreichen Kufsteiner.</p>
+            <p rendition="#et">
+               <pb n="239" facs="#f0023"/>
+Da war es in der Tat kein leichtes Stück für die acht Berliner, das zappelnde, schlüpfrige Riesentier durch die Königgrätzerstraße und weiter zu tragen.</p>
+            <p rendition="#et">Und kein Wunder, daß ihnen beim Übergang zum Tempelhof er Ufer das grauenhafte Luder entwischte und in den Kanal stürzte.</p>
+            <p rendition="#et">Kürzen wir den Wasserweg Spree-Landwehrkanal-Havel-Elbe etwas ab. Halten wir uns nicht länger bei erschrockenen Badegästen, zerstörten Apfelkähnen auf. Übersehen wir die verschluckte Leiche im Land wehr kanal und vermeiden wir überhaupt jede Ausführlichkeit, wie sich der Walfisch über Schleusen, ausgespannte Fischernetze und das Binnenschiffahrts-Gesetz vom 15. Juni 1895 hinwegsetzte. Er erreichte die nördlichen Meere, gründete viele Familien, um denselben seine wunderbaren Erlebnisse aus Diplingens Abwesenheit zu erzählen. Ob er dabei das Maul zu voll nahm, niemand schenkte ihm Glauben, und so zog er sich von den Mitwalen zurück.</p>
+            <p rendition="#et">Und wenn er nicht gestorben ist, so lebt er noch heute in den eisigen Wassersteppen um Grönland herum, einsam seine Furchen ziehend, traurig schaukelnd und nachdenklich blinzelnd, als suche er vergeblich nach treibenden Lustbetten und Gipszwieback.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e36449" type="chapter">
+            <head>Vom Baumzapf</head>
+            <p>Magdalissimus Baumzapf ging zu seinem Onkel.</p>
+            <p rendition="#et">Magdalissimus hatten seine Eltern ihn taufen lassen, damit er etwas Apartes, Originelles werden möchte. Denn sein Vater war zeitlebens in langen Haaren und Sammetjackett umhergewandelt. Da sich der Alte zum Sterben streckte, hatte er ohne Zweifel keine Ahnung von dem berühmten Ausspruch Lord Byrons, daß zwei Rosse keine Violine nageln. Denn nunmehr, das heißt 28 Jahre nach des Vaters Tode und 29 Jahre nach seiner eigenen Taufe trug Magdalissimus außer diesem Namen, einer Stinkwut und zwei dicken Foliobänden illustrierter Bechstein-Märchen nichts weiter Wesentliches zu seinem Onkel.</p>
+            <p rendition="#et">Er haßte seinen Onkel. Der Onkel liebte ihn. Der Onkel lieh kein Geld her. Magdalissimus schenkte immer wieder Bücher hin. Der Onkel sammelte leidenschaftlich, u.a. Bücher. Magdalissimus borgte leidenschaftlich, aber unleugbar war der Onkel ein außerordentlicher <pb n="240" facs="#f0024"/>
+Geizhals. Seitdem er z.B. einmal als Gast bei einem Diner Schnepfendreck gespeist hatte, wünschte er nichts sehnlicher, als eine Schnepfe zu sein.</p>
+            <p rendition="#et">Doch billigerweise hat gerade diese übelste Wurzel, Geiz, meist eine oder mehrere sonderliche Tugenden in Begleitschaft. Und allein die Freude, das Verständnis und die Sorgfalt, womit der Onkel Bücher sammelte, Bücher stapelte, hätten genügen müssen, um im Busen seines Neffen einen ganz raffinierten Mord- und Racheplan zu ersticken. Rache, weil der Onkel kein Geld gab; Mord, weil er viel besaß.</p>
+            <p rendition="#et">Mittelst anderweitiger Geldanleihen, zäher Energie und Schwindeleien konsultierte Magdalissimus Architekten, Notare, Literarhistoriker, besuchte er Antiquariate und Buchbinder. Und nach zwei Jahren feindseliger Zurückgezogenheit wußte er allerlei Bedeutsames, z.B. wieviel Gewicht ein Balken trägt.</p>
+            <p rendition="#et">Da ging er zum erstenmal wieder zu seinem Onkel, bat um Verzeihung und verehrte ihm zur Versöhnung die Memoiren Casanovas, die sehr seltene Originalausgabe, vor d. franz., 12 Bände, in Bronze gebunden.</p>
+            <p rendition="#et">Der Onkel umarmte ihn, weinte, blieb – der neunundsechzigjährige Mann! – seines Neffen wegen bis 2 Uhr morgens wach, sein Bestes erzählend, und begleitete sogar noch den jungen Mann vier Meilen weit bis an dessen Wohnung. Denn Geizige sind unermüdlich in ihrer Dankbarkeit. Sie leben sehr lange.</p>
+            <p rendition="#et">In der Folge kam Magdalissimus oft, später täglich; jedesmal brachte er Bücher für den Onkel mit. Schöne alte Bücher, interessante Bücher, dicke Bücher, Folianten. Vielbändige Werke, Brockhaus, Meyers Lexikon, Große Ausgabe; den ganzen Luther, Europäische Annalen. Erbauliche Werke. Eine umfangreiche Bibelsammlung auf einmal und dann nach und nach ixerlei, wahllos oder vielmehr encyklopädisch. Auch anfechtbare Sachen, wie Karl Mays Schriften, alle Sammelbände Simplicissimus und dergl. All das neu und solid gebunden. In Holz gebunden mit Messingbeschlägen. In Lederdeckeln mit Bleieinlage. In sammetüberzogenes Eisen gebunden. In Nickel; in Kupfer.</p>
+            <p rendition="#et">Magdalissimus Baumzapfens Mutter starb am Magenkrebs und hinterließ, was aus zwölfjährigem Mittagstisch herauszuschlagen war. Der Onkel weinte, küßte, tröstete, dichtete einen Nekrolog, zeichnete die Verblichene aus dem Gedächtnis, wanderte jeden Sonntag eigenhändig nach dem Friedhof, um das Grab zu <pb n="241" facs="#f0025"/>
+begießen, und schenkte die Jugendbriefe der Toten hin. Schenkte!</p>
+            <p rendition="#et">Magdalissimus wendete die halbe Erbschaft daran, um sich mit wertvollen Reisebeschreibungen und sämtlichen Jahrgängen der »Times« zu revanchieren.</p>
+            <p rendition="#et">Er redete auf seinen Onkel ein: Hier eine kostbare unersetzliche Bibliothek in dauernder Feuersgefahr. Demgegenüber nichtswürdig hohe Versicherungsgebühren. Und dahinter fast lächerliche, nein trügerische Ersatzansprüche. Der Onkel verließ nicht mehr seine Wohnung.</p>
+            <p rendition="#et">Magdalissimus kam und schenkte. Er wog seine Geschenke zuvor, ideell wie materiell. Sein zweijähriges Studium hatte ihm eine gewisse physikalische und mathematische Gewandtheit verliehen, und eine verständliche Vorsicht gab ihm den Vorsatz ein, die letzten fünf Zentner nicht mehr persönlich zum Onkel zu schaffen, sondern sie lieber eingeschrieben per Post aus Influenza zu senden. In seinen Gedanken galt ihm dabei ein zerquetschter Paketträger für ein schrecklich betrübliches, aber unumgängliches Opfer.</p>
+            <p rendition="#et">Onkels Bewegungsradius verkleinerte sich. Bücher drängten sich an Bücher, übereinander bis an die Decke. Und da sandte Magdalissimus das neue, verschließbare und feuersichere Bücherregal aus Stahl.</p>
+            <p rendition="#et">Onkels Zimmerwände knackten spukhaft. Es knackte in den Bohlen des Fußbodens. Onkel wurde unruhig. Er merkte schon lange was, aber nicht richtig was.</p>
+            <p rendition="#et">Jetzt wieder zurück zum Anfang der Erzählung. Magdalissimus Baumzapf ging zu seinem Onkel. Das letzte Mal.</p>
+            <p rendition="#et">Er schenkte zwei illustrierte Foliobände: Bechsteins Märchen, in vergoldeten Marmor gebunden. Onkels Stube betretend, ließ er die Bücher im Schreck fallen, weil er eine Senkung im Fußboden gewahrte; und das Fensterbrett war verbogen. Aber gleich hinterdrein erschreckt, hob er die Bücher hastig wieder auf, um den Fußboden wieder um ihr Gewicht zu erleichtern.</p>
+            <p rendition="#et">»Mach dir's leicht, guter Junge, und nimm Platz«, sagte der Onkel. Onkel hatte heute etwas zum Anbieten: Zigaretten, eine ganz besondere Sorte, zwei Stunden weit extra für den Neffen herbeigeholt. Der nickte nur, weil ihm der Atem noch nicht zurückgekehrt war.</p>
+            <p rendition="#et">»Mein Gott! Junge, du bist ja ganz blaß! Fehlt dir was?«</p>
+            <p rendition="#et">Magdalissimus wehrte verwirrt, suchte nach irgend – – Aber <pb n="242" facs="#f0026"/>
+es klopfte, und ein halbes Dienstmädchen meldete, die erste Lieferung von Bollermann sei angelangt.</p>
+            <p rendition="#et">Vielleicht erhoffte Onkel eine neue bibliophile Dedikation Magdalissimi; er sagte: »Bitte, man soll sie hereinbringen.« Dabei griff er mit erstaunlicher Stärke und Behendigkeit sechs Bibeln aus einem Regal, als wollte er Platz für das Kommende schaffen. »Onkel«, rief Magdalissimus, sich erregt erhebend, »erwartest du etwa noch – –?«</p>
+            <p rendition="#et">»Bitte halte mal!« antwortete der Onkel und drückte ihm die sechs Bibeln so wuchtig in die Arme, daß der junge Baumzapf damit in den Sessel zurückfiel. Da klopfte es, ging die Türe auf, brachte ein bügelförmiger Mann die erste Lieferung von Bollermann herein: Zwei Zentner Kartoffeln. »Macht fünf Mark.«</p>
+            <p rendition="#et">Wo die Senkung im Fußboden war, knackte es. Der braune Fußbodenlack bekam das Muster windbestrichener See.</p>
+            <p rendition="#et">Magdalissimus wollte sich – – die Bibeln – – »Onkel!!«– – Kennacks – Prrracks – Tschsch-Tu – Tsch – Lipp-Wupp – Huihhh – (Fallen).</p>
+            <p rendition="#et">(Onkel bewohnte im vierstöckigen Geschäftshause eine preiswerte Mansardenwohnung.)</p>
+            <p rendition="#et">Bum – Kladdera – Bumms –. Mit den tausenden von Büchern mischten sich plötzlich Akten, Schreibmaschinen, junge Mädchen und Tintenfässer. – Nack Nack Nack – Nicks – Pracks – Drucks – Uhüiihh – Bum – Kladdera – Bumms –. Mit den Büchern, Mädchen, Akten, Tintenmaschinen und Schreibfässern vermengten sich plötzlich tausende von Korsetts – lila, weiß, rosa. Krrr – Uiehks – schlitterteklitterte huihhh Bumms. Intimes Interieur. Ganz flüchtig. Ein Arzt schrie auf. Die Geburt eines Zwillings war abgebrochen. Knacks – Huih – Bumms – Bumms – –. Stille – –.</p>
+            <p rendition="#et">Magdalissimus war so verschüttet, daß sein Kopf eben noch herausragte. Zwei Stunden dauerten die Aufräumungsarbeiten bis zu seiner Befreiung, und gerade so lange lebte er noch. Aber während dieser Zeit sah er dauernd seinen Onkel beflügelt in den Wolken kreisen, einen Fünfmarkschein in der Hand schwenkend, und hörte ihn fröhlich zwitschern.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e36550" type="chapter">
+            <head>
+               <pb n="243" facs="#f0027"/>
+Eheren und Holzeren</head>
+            <p>Die babylonische, die aztekische, die chinesische. Aber sprechen wir nicht mehr davon. Wer sich näher dafür interessiert, sei auf Otto Bergmanns Berge und Täler der Äonen, Jena 1804, Verlag Weidebach, 8°, Halbfranz, hingewiesen.</p>
+            <p rendition="#et">Um 4700 vor Christi Geburt herum lebten hoch im Norden, von Meeren und Eisbären eingeschlossen, die Eheren, Nachkommen und Untertanen des greisen Königs Holzkopp. Der war berühmt wegen seiner weichen, gütigen Seele, die ihn bewog, mit jedem harten, trotzigen oder auch nur energischen Menschen, der ihm begegnete, Händel anzufangen und ihn kleinzukriegen. Und so hatte er längst alles, was ihn im weiten Kreise umgab, kleingekriegt und herrschte darüber in gütiger Weichheit. Handel und Wandel und Künste blühten. Nutzhölzer, Zierhölzer, Fässer, Wagen, Schlitten, Laubsägearbeit und Holzbildhauer. Das Volk war zufrieden, verfiel auch nicht in bosheitbrütende Langeweile, weil im Laufe der Jahre sich immer mal wieder ein Fremder nach dort verirrte, der die Eheren in ernstes oder heiteres Erstaunen versetzte. Weil er seltsame Kleider und Gegenstände trug, nicht Eherisch verstand, und keinen Mihinka trinken mochte, diesen köstlichen, aus Renntierläufen und Meerrettich hergestellten Naturwein.</p>
+            <p rendition="#et">Selbstverständlich wurde solcher Fremdling zuerst zum König geführt, der ihm vieles schenkte, einiges nahm und ihn in der Form von Belehrungen ausforschte. Besonders sympathischen Gästen pflegte er sogar ein Geheimnis mitzuteilen, von dem keiner seiner eigenen Untertanen etwas wußte. König Holzkopp war nämlich Erfinder und Besitzer des magnetischen Nordpoles. Dieser bestand aus einer kleinen Pastete, die der König in guter Stunde gebacken hatte und nun in einem, von hohen Mauern geschützten, großen Garten aufbewahrte. Die Pastete blieb aber auch für die sympathischen Gäste unzugänglich und unsichtbar, weil sich darüber ein gigantischer Haufen von angezogenen Eisengeräten angesammelt hatte. Speere, Schwerter, Nagelfeilen, Ankerketten, Enterhaken, Nähmaschinen, Stacheldraht.</p>
+            <p rendition="#et">Die Fremdlinge, die ins Land der Eheren verschlagen wurden, <pb n="244" facs="#f0028"/>
+waren zum Teil recht bemerkenswerte Leute. Im Gästebuch des Königs stehen Namen wie: Luluhili, genannt der eiserne Kanzler von Phönizien. Oder: Mabius, Degenschlucker aus Mittweida.</p>
+            <p rendition="#et">Solchen Persönlichkeiten von zähem, willensstarkem Naturell oder stählerner Entschlossenheit und den sympathischen Gästen pflegte der König später, nachts, in guter Stunde, wenn sie schliefen, unter gütigem Lächeln die Kehle abzudrücken.</p>
+            <p rendition="#et">Die drahtlose Telegraphie – in anderer Methode als später in Europa – wurde erfunden. Allerdings zunächst nur der gebende Teil. Der König und seine Untertanen sandten zahllose Telegramme in die unbekannten Fernen hinaus. Zum Beispiel: »An alle. Ich, König Holzkopp, habe durch mein Volk die halbe drahtlose Telegraphie erfinden lassen.« Auch kurze Kabelworte: »Prosit Neujahr! Die Eheren.«</p>
+            <p rendition="#et">Ungeheures Aufsehen erregte es, als der zweite, der aufnehmende Teil der drahtlosen Telegraphie erfunden wurde. Mit elementarer Spannung wartete alles. Wirklich traf ein Funkspruch ein.</p>
+            <p rendition="#et">Uha, die greisenhafte Großmutter des Königs, war die einzige, der es gelang, Sinn in die fremdsprachlichen Worte zu bringen. Sie übersetzte: »Ihr, König Holzkopp, und ihr Eheren alle könnt uns, die Holzeren, Eure Antipoden, am –«</p>
+            <p rendition="#et">Das Telegramm war noch länger, jedoch beim Vorlesen des Wörtchens »am« ward Uha vom Schlage gerührt. Weil sie derart zu Tode beleidigt worden war, und man nun den Schluß nicht erfuhr, so fühlten sich die Eheren gekränkt. Und der König geriet in solche Wut, daß er sich nackt auf den Thron begab, die Mobilmachung befahl und niemals wieder Kleider anlegte. Das Volk hingegen bekleidete sich mit hölzernen Rüstungen und Schuhen, denn Metall war ihm unbekannt, griff zu hölzernen Waffen und schiffte sich auf hölzernen Barken ein. Der König nahm heimlich die halbe Pastete mit.</p>
+            <p rendition="#et">Damals gab es außer und nahe dem geographischen Südpol noch einen holznetischen Südpol, der die Eigentümlichkeit besaß, alles Hölzerne anzuziehen. Daß die Quelle dieser Wunderkraft letzten Endes in einem Pudding bestand, wußte nur Stahlhaupt, der harte, grausame König der Holzeren. Er hatte den Pudding gekocht und wußte ihn im Geheimgarten, unter einem Riesenberg von angezogenen Holzgeräten verwahrt. Ruder, Bootsplanken, Spindeln, Pfahlbauten, Särge, Quirle, Bleistifte.</p>
+            <p rendition="#et">König Stahlhaupt lief sein Leben lang immer nackt herum. Er <pb n="245" facs="#f0029"/>
+haßte Weichlinge und Schlappschwänze, und wenn je Fremdlinge von derartiger Charakterbeschaffenheit sich ihm oder seinem Lande näherten, so reizte er sie durch Beleidigungen und stellte sich gleichzeitig ängstlich, unsicher, bis die Gekränkten ihn angriffen. Dann, weiterreizend, floh er zum Schein, ließ sich sogar etwas verprügeln, um ihre Tapferkeit noch weiter anzuspornen. Bis er sie schließlich aus Notwehr totschlagen mußte.</p>
+            <p rendition="#et">Ein historischer Funkspruch traf ein. Die Holzeren betranken sich mit Wimmhubs, ihrem schmackhaften, aus Pinguinbutter und Soda hergestellten Nationallikör. Dann legten die Untertanen Stahlpanzer an und bestiegen eiserne Schiffe, denn Holz war ihnen ein unbekanntes Mineral; und der nackte Stahlhaupt folgte ihnen und trug heimlich den Pudding in der Hand.</p>
+            <p rendition="#et">Ob es anno 4680 war, also in dem Jahre, von dem der Vikinger Historiker Wlehd erzählt, daß es durch eine ungeheure magnetische Deviation alle nautischen Berechnungen über den Haufen warf. Oder später? Sicher ist nur, daß auf dem Meere, welches damals die Gegend des heutigen Rastenburg bedeckte, die beiden Flotten einander in Sicht kamen.</p>
+            <p rendition="#et">Da geschah sofort etwas Unerhörtes, Einzigartiges. König Stahlhaupt war, der besseren Übersicht wegen, mit seinem Schiff etwas, hinter den anderen zurückgeblieben. König Holzkopp andererseits stand, die halbe Pastete in Händen, auf seinem Flaggschiff und hatte aus kriegerischer Bescheidenheit den anderen Schiffen einen gewissen Vorsprung gelassen. Plötzlich sahen beide Könige ihre Flotten in rasender Geschwindigkeit dem Feinde zufliegen und fühlten beide gleichzeitig, wie ihr eigenes Schiff ihnen unter den Füßen wegglitt. Eine tausendstel Sekunde später war folgende Situation perfekt: König Stahlhaupt stand von lauter holzgepanzerten Eheren umringt auf einem der dicht aneinander gepreßten Holzschiffe. König Holzkopp hingegen befand sich auf der eisernen Flotte von lauter Holzeren umringt. Erst jubelten beide Völker über den gefangenen König, dann trauerten sie über den verlorenen König, dann entdeckten beide Völker das Ausgleichende ihres Schicksals und verabredeten funkentelegraphisch einen Königsaustausch. Auf ein bestimmtes Signal hin sollten beide Parteien ihren Gefangenen in einem Ruderboot entlassen, ohne zu folgen. Beide Völker brachen aber diese Verabredung nachher, indem beide den entlassenen Gefangenen mit sämtlichen Schiffen folgten. Ob dieser beiderseitigen Niedertracht wurde der <pb n="246" facs="#f0030"/>
+Waffenstillstand abgebrochen. Die Seeschlacht sollte beginnen. Da die königlichen Gefangenen selbstverständlich nicht daran teilnehmen konnten, sondern überwacht zurückbleiben mußten, ergab sich ein merkwürdiger Beweis für die Hilflosigkeit führerloser Streitkräfte. Beide Flotten gingen nicht vor. Sie beschimpften sich nur aus der Entfernung gegenseitig per Funkentelegraphie. Als aber die Vorräte zur Neige gingen, kam Unzufriedenheit auf. Bald war man hüben und drüben auf Friedensverhandlungen erpicht.</p>
+            <p rendition="#et">Die Eheren sandten den Holzeren zehn Tonnen Mihinka. Die Holzeren sandten den Eheren fünf Tonnen Wimmhubs. Danach vereinigten sich die beiden Flotten. Die Könige küßten sich. Und alle betranken sich und betrugen sich so laut und rüpelhaft, daß ein noch nie dagewesener Seesturm losbrach, wobei sämtliche Eisenschiffe mit den Holzeren samt König Stahlhaupt und dem Pudding untergingen.</p>
+            <p rendition="#et">Die Eheren aber retteten sich auf ihren kieloberst treibenden Fahrzeugen nach ihrer südöstwestlich vom geographischen Nordpol gelegenen Heimat.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e36620" type="chapter">
+            <head>Das schlagende Wetter</head>
+            <p>Alle Welt kennt E.T.A. Hoffmanns Leben, schätzt seine Werke. Niemand weiß, daß zwei uneheliche Söhne des Dichters die Hamburger Bergakademie besuchten. Wer vermöchte heute anzugeben, wo das angeblich in einer italienischen Schublade gefundene Schriftstück des fragwürdigen Norwegers Tenkjörd geblieben ist? Ob jemand wagen wird, die folgende Darstellung zu widerlegen?</p>
+            <p rendition="#et">Bei allem Fleiß und größter Begabung fühlten die Brüder Reinhard und Wolf gang sich doch auf der Bergakademie nicht recht wohl. Von dem theoretischen Wust angewidert, verließen sie die Anstalt, um sich dem praktischen Teile ihres Berufes und innerhalb desselben wieder der phantastischen Seite zuzuwenden. Sie gingen aufs Bohren aus, wollten Kali, Wasser und alles Mögliche bohren.</p>
+            <p rendition="#et">Unbemittelt, nicht im Stande, sich ein Bohrwerk anzulegen, zogen sie zunächst mit zwei Wünschelruten und langen Handbohrern versehen durch Hamburg. Sie waren viel zu klug, zu weitblickend, um den Mut zu verlieren, als die Wünschelruten <pb n="247" facs="#f0031"/>
+lange Zeit weder in Wolfgangs noch in Reinhards Händen reagieren wollten. Als aber, da die Brüder eines Tages gerade den Jungfernstieg an der Alster querten, beide Wünschelruten mit eins ausschlugen, setzten die Brüder auf der Stelle ihre Bohrer an und drehten fieberhaft, ohne sich um die Einsprüche der Polizisten, Kutscher und anderer Verkehrs- und Geistesgestörter zu kümmern. Nachdem sie die erste Gasleitung unterm Asphalt zerstört hatten, gelang es, die Brüder zu überwältigen und ins Gefängnis zu bringen. Wo sie zwei Jahre verbüßten.</p>
+            <p rendition="#et">Ihre Entlassung fiel zeitlich gerade in eine ebenso Aufsehen erregende wie nützliche Reklameveranstaltung, in die sogenannte »Hamburger Höflichkeitswoche«, auf die eine dortige Kaffeefirma nach dem späteren Beispiele eines Berliner Verlages verfallen war. Acht Tage lang durchstreiften nämlich Angestellte jener Firma unauffällig beobachtend die Straßen und Plätze, und wenn sie auf besonders höfliche öffentliche Handlungen oder Gespräche stießen, so traten sie auf den Höflichsten unter den Höflichen zu und sagten, ihm einen kuvertierten Tausendmarkschein überreichend: »Da, mein Junge, nimm das Geld und merke Dir: Hoppenstiels Kaffee ist der beste!« In jener Woche war allenthalben in Hamburg zu beobachten, wie die Leute auf einmal sich an Höflichkeit zu überbieten suchten.</p>
+            <p rendition="#et">Damals also verließen die beiden Hoffmanns die Strafanstalt und bestiegen, obwohl sie keinen Pfennig Geld besaßen, teils dreist, teils ahnungslos eine Straßenbahn. Eine Strecke weit wußten sie sich durch geschickten Platzwechsel dem Kondukteur zu entziehen. Als dieser sie aber schließlich doch mit der anständigen Frage stellte: »Belieben die Herren vielleicht ein Billet zu erwerben?« zog Reinhard seinen Entlassungsschein hervor, tat sehr erschrocken und rief mit geheucheltem Bedauern: »Ach, verflucht nochmal, wie fatal! Ich dachte, das sei ein Tausendmarkschein, und nun habe ich kein Geld bei mir.«</p>
+            <p rendition="#et">Unverzüglich erhob sich da der nächste Fahrgast und sagte: »Mm-hh-tp ist mein Name; dürfte ich Ihnen vielleicht mit einem Tausendmarkschein unter die Arme greifen?«</p>
+            <p rendition="#et">Wolfgang Hoffmann überkam etwas wie Ahnung von verwandelter Menschheit. »Sie wollen uns borgen?« sagte er und wurde rot, weil er unwillkürlich den Schein schon ergriffen hatte.</p>
+            <p rendition="#et">»Borgen?« erwiderte der Fremde errötend. »Ich bin sehr <pb n="248" facs="#f0032"/>
+beschämt, daß die voreilige Ausdrucksweise meiner ergebensten Absicht eine Mißdeutung –«</p>
+            <p rendition="#et">»So sehr es mir zur Ehre gereichen würde«, fiel der Schaffner ein, »dem Herrn Reichsgrafen einen Tausender zu wechseln, so fehlt es mir doch leider –«</p>
+            <p rendition="#et">»Vergeben Sie mir«, stammelte emporschnellend ein anderer Fahrgast, »wenn ich so frei bin, die Kleinigkeit des Fahrpreises in stimmender Münze –«</p>
+            <p rendition="#et">Dieses Höflichkeitsgeflecht wurde quer durchschnitten, indem die Brüder Hoffmann plötzlich mit dem Tausendmarkschein das Weite suchten.</p>
+            <p rendition="#et">Über die Frage, wie der geschenkte Raub zu teilen sei, gerieten Wolfgang und Reinhard in Streit. Weil sie an Mut, Wut und Stärke einander nichts nachgaben, so teilten sie letztlich das Geld und ihre Brüderlichkeit durch 2 und gingen feindselig auseinander. Reinhard verscholl. Denn niemand wußte darum, daß er sich und seine 500 Mark bis China durchgebracht hatte. Wolfgang aber pachtete für sein Geld eine städtische Bedürfnisanstalt an der Alster.</p>
+            <p rendition="#et">Vier Zellen hatte dieses primitive Etablissement. Davon florierten drei sehr ersprießlich zum Ärger des Pächters, während die vierte zum Ärger des Publikums dauernd verschlossen blieb. Sie sei von einem Chronischen besetzt, erklärte Wolfgang auf Befragen. In Wirklichkeit benutzte er jede frei Minute zwischen Aufschließen und Adieu-Sagen, beziehungsweise Einkassieren, um in jener geheimnisvollen Zelle emsig Bohrversuche anzustellen.</p>
+            <p rendition="#et">Bald entdeckte er zu seiner Freude, daß er auf eine Wasserader gestoßen war. Gleichzeitig versagte in den Nebenstellen die Wasserspülung, aber Wolfgang beachtete das nicht weiter, sondern gab dem neuentdeckten Strahle eine Rohrbettung, die er zunächst verschloß, um sie später einmal wirtschaftlich und pekuniär auszubeuten. Inzwischen entzog er die zweite Zelle der öffentlichen Nutznießung und bohrte dort weiter. Mit seiner ingeniösen Begabung und mit dem reichlichen Gewinn, den die beiden anderen Zellen noch abwarfen, konnte er seine Bohrwerkzeuge aufs Trefflichste vervollkommnen.</p>
+            <p rendition="#et">Abermals ward er fündig. Petroleum. Rohrleitung zugestopft. Ausnützung auf später verschoben.</p>
+            <p rendition="#et">Während das Publikum vor der vierten, noch einzig aussichtsvollen Zelle in langer wartender Schlange anstand, bohrte Wolfgang in der dritten. Und er wurde dort – wenigstens moralisch – <pb n="249" facs="#f0033"/>
+der Entdecker einer heißen Mineralquelle. Nicht juridisch, weil, als ihn seine Bedürfnisanstaltspflicht im entscheidenden Moment abrief, ihm zwei andere, harmlose Augen zeitlich zuvorkamen. Übrigens hatte Wolf gang nahezu das gleiche Interesse daran, diese heiße Quelle und die Kenntnis davon wieder zu verschütten, wie jener harmlose Senator, der in so mysteriöser Weise hinterrücks angebrüht worden war.</p>
+            <p rendition="#et">Aber, wie das so geht, etwas sickerte doch durch. Die Anstalt blieb – öffentlich hieß es wegen Reparatur – vier Wochen lang geschlossen.</p>
+            <p rendition="#et">Wolfgang nutzte diese Zeit aus und bohrte und bohrte in der vierten Zelle. Bohrte und nahm immer längere Bohrstangen, verlängerte diese, fügte einen Ansatz nach dem anderen an die Verlängerungen, bohrte Tag und Nacht. War sich, nach dem Maße der Schnelligkeit, womit er tiefer drang, jederzeit darüber klar, welches Gestein oder welche Erdschicht er gerade durchbohrte. Bohrte unermüdlich, zuversichtlich, denn er wußte, daß das von ihm und seinem Bruder gemeinsam erfundene Material des Bohrers auch das härteste Gestein, ja, selbst Stahl überwinden würde.</p>
+            <p rendition="#et">Dennoch stieß er eines Tages nicht nur auf Widerstand, sondern sogar auf Gegendruck. Er erbleichte für einen Moment. Dann hatte er's.</p>
+            <p rendition="#et">»Mein Bruder! – das Luder!« rief er aus, ohne etwa in dieser haßerfüllten Stunde reimen zu wollen; er riß den Bohrer heraus und näherte ein Fernrohr und sein Auge der Öffnung.</p>
+            <p rendition="#et">Wahrhaftig! Sein Bruder! Sein Bruder hatte von einer Gegenseite der Erdkugel aus ebenfalls gebohrt, und die beiden Richtungen begegneten sich zufällig in ein und derselben Linie.</p>
+            <p rendition="#et">Deutlich erkannte Wolfgang durch den etwa fünf Zentimeter breiten Bohrgang das giftige blutunterlaufene Auge des Bruders.</p>
+            <p rendition="#et">»Schwein!« schrie er berstend vor Wut in die Öffnung hinein.</p>
+            <p rendition="#et">»Rindsvieh!« kam es als Antwort zurück.</p>
+            <p rendition="#et">Einen Tag lang beschimpften die Brüder sich wechselweise, dann versuchte jeder den anderen anzuspucken. Beide Spucken kamen niemals an. Dann versöhnten sich Wolfgang und Reinhard und riefen einander herzliche Grüße, Geburtstagswünsche und Neujahrsworte zu. Darauf kamen sie auf sachliche, demzufolge auf geschäftliche Gespräche. Dann rohrpusteten sie sich gegenseitig Schmuggelwaren zu: Opium gegen Bayerische Malzbonbons. <pb n="250" facs="#f0034"/>
+Schließlich tauschten sie politische und börsianische Berichterstattungen aus und wurden – der eine in China, der andere in Hamburg – innerhalb von fünf Tagen als Propheten so reich und angesehen, daß jeder von ihnen den anderen, also den Mitwisser des Bohrlochgeheimnisses, aus der Welt wünschte, um sich dann unbesorgt zur Ruhe setzen zu können.</p>
+            <p rendition="#et">»›Hallo!‹« Beide Brüder riefen sich in demselben Moment den verabredeten Anruf zu. Beide Brüder setzten im nächsten Moment eine Pistole an die Öffnung und schossen los; legten sodann ein Auge an, um die Wirkung ihres Schusses zu genießen.</p>
+            <p rendition="#et">Im Erdinnern platzten die beiden losgefeuerten, mit Aufschlagzündern versehenen Geschosse aufeinander, an einer Stelle, wo sich Gase angesammelt hatten. Das schlagende Wetter fand nur zwei schmale, etwa fünf Zentimeter breite Ausgänge, die es mit Stichflammenkraft benützte.</p>
+            <p rendition="#et">In einem chinesischen Tempel und in einer Hamburger Bedürfnisanstalt wurde gleichzeitig je ein verkohlter Nachkomme E.T.A. Hoffmanns gefunden.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e36729" type="chapter">
+            <head>Vom Tabarz</head>
+            <p>Auf der Wiese zu Jekaterinburg geboren und wißbegierig war die kleine Fliege, aber unverschämt. Es war unvermeidlich wie ungewollt, daß sie durch ihre Neugierde mancherlei lernte. Damit prahlte sie dann, überhob sich ihren Gleichalterigen und war undankbar gegen abgegraste Lehrer. So besuchte sie oft ihre gebrechliche Großmutter, um sich alte Fliegensagen erzählen zu lassen: Von der Schlange Leim, die sich aus Kronleuchtern herunterläßt und Zucker ausschwitzt, um ihre Opfer anzulocken. Oder vom Ungeheuer Klatsche, das auf Menschen wohnt. Und mehr. Aber waren derartige Erzählungen zu Ende, dann warf die schnöde Fliege die Eier durcheinander, die Großmutter während des Sprechens gelegt hatte, und flog nach solchem oder ähnlichem Unfug ohne Abschied davon, um den Freunden und Bekannten Selbsterlebtes betreffs der Schlange Leim vorzulügen.</p>
+            <p rendition="#et">Die Mitfliegen staunten über Wuppys Kühnheit. Wuppy setzte sich in ihrer Gegenwart auf die Schiene, als das D-Zug heranbrauste, <pb n="251" facs="#f0035"/>
+und schwur hoch und teuer, sie würde nicht weichen, sondern das D-Zug anhalten. Die Lokomotive tutete.</p>
+            <p rendition="#et">»Es hat Angst! Es schreit!« triumphierte Wuppy. Der Zug bremste, hielt. »Na, seht ihr's?« Viele Men schen entströmten dem Zuge.</p>
+            <p rendition="#et">»Es gebiert lebendige Junge«, erklärte Wuppy wichtig und flog neugierig hin, um die Neugeborenen zu berüsseln.</p>
+            <p rendition="#et">Geriet in den Leib des D-Zuges und nahm dort auf einem Wurstbrot Platz, das auf dem Schoße eines D-Zug-Embryos balancierte.</p>
+            <p rendition="#et">Die transsibirische Eisenbahn fuhr weiter; über Tscheljabinsk und Irkutsk. Neben dem Wurstbrot lag eine verkorkte, mit Kaffee gefüllte Flasche. An einem rindenartigen Teil derselben klebten zwei süße Tropfen; aber die Fliege wurde gestört durch trampelnde Finger des Kornhändlers Pagel. Der versuchte ohne Pfropfenzieher zu öffnen. Weil das mißlang, stieß er den Korken mittelst eines Bleistiftes hinein, danach tat er einen Schluck. Die Fliege war, als sie die Rinde mit den süßen Tropfen entschwinden sah, sofort hinterdrein geschossen. Plötzlich ward sie von einem Strudel gepackt, verlor die Besinnung, und als sie wieder zu sich kam, schwamm sie. Wie damals im Tümpel hinter der Dotterblume. Sie wußte instinktiv und durch Großmutter etwas von der Gefahr des Ertrinkens. War daher überglücklich, ein Rindenland zu erblicken, erreichte, bestieg es und stürzte sich auf zwei süße Tropfen. Dabei beschäftigten sich ihre Hinterbeine mit Abtrocknen.</p>
+            <p rendition="#et">Herr Pagel hatte die Flasche mit Papier zugestopft und ins Gepäcknetz gelegt, nun las er, dann streckte er sich zum Schlafen.</p>
+            <p rendition="#et">Nach fünf Reisetagen stieg in Strjetensk ein kleines Kosakenmädchen ins Coupé. Der Kornhändler wollte ein Gespräch anknüpfen, aber sechs Tage später, in Chabarowsk, stieg das Mädchen schon wieder aus.</p>
+            <p rendition="#et">Fürchterliches hatte die Fliege in diesen Fliegenjahren erlebt: Erdbeben, Springtiden, Seestürme und gräßliche Wasserhosen. Wuppy machte eine naturwissenschaftliche Beobachtung: Nach jeder Wasserhose war das gelbe Tümpel um sie herum seichter.</p>
+            <p rendition="#et">Schon längst und wiederholt hatte die entsetzte Fliege versucht, das Rindeneiland zu verlassen. Sie hatte sich dabei sogar vorgenommen, ein neues, bescheideneres Leben anzufangen. Aber überall, in gewissen, unterschiedlichen Distanzen fand sie eine gefrorene Luftschicht, die sich zwar durchsehen, aber nicht <pb n="252" facs="#f0036"/>
+durchfliegen ließ. Wuppy vermeinte anfangs, sich verirrt zu haben, doch stellte sie fest, daß ihre Umgebung dieselbe war und blieb.</p>
+            <p rendition="#et">Fünfzehn Werst vor Wladiwostok hielt der Zug auf offener Strecke infolge Achsenbruches. Der Kornhändler öffnete das Fenster, um nach der Ursache zu fragen. Dann öffnete er die Flasche, um zu trinken; mußte aber vorm Trinken erst niesen. An diesem Fliegentage fand Wuppy, der Luftströmung folgend, einen Ausweg und war auf einmal auf einer Wiese, auf ihrer Wiese. Der Gefahr entronnen blähte sie sich sofort übermütig auf.</p>
+            <p rendition="#et">Sonderbar: die Blumen hatten sich verändert. Wie lange mochte es wohl – – Es schien doch, als – –. Wuppy kam aufs philosophische Nachdenken. »Ja!« – »Aha!« – »Seltsam!« – »Aber selbstverständlich!« Aber wie lange mocht es nur her sein? Wuppy suchte vergeblich nach ihren Gespielen. Endlich entdeckte sie den alten Brummer vom Kaninchenaas. Tobbold, oder wie er hieß, ein unwissender Proletarier. Aber aus Neugierde sprach Wuppy ihn an: »Na, Vater Tobbold, was machen denn die alten Knochen?«</p>
+            <p rendition="#et">Der alte Brummer glotzte, ohne zu antworten. Offenbar war er vertrottelt, denn auch sein Äußeres war verzerrt. Als aber Wuppy nun auf andere Fliegen stieß, die alle keine Antwort gaben und alle auch äußerlich entstellt waren, fragte sie sich: Sollte eine ganze Generation Fliegheit vertrotteln können? Dann reflektierte sie weiter: Ich, Wuppy, habe das Problem aufgerollt, ob eine ganze Generation Fliegheit vertrotteln kann. Da meine Mitfliegen diesem Gedankengang ersichtlich nicht zu folgen vermögen, muß ich doch ein – ich darf aus genialer Demut nicht aussprechen, was – sein.</p>
+            <p rendition="#et">Der große Wahn verstärkt die positiven Fähigkeiten. Wuppy erblickte auf 20 Meter Entfernung eine ihr von Jugend und Großmuttern her bekannte Gefahr: das Laubfrosch. Wuppy begnügte sich nicht damit, ihr Leben in Sicherheit zu bringen, sondern stellte eine Intelligenzprobe an, indem sie in Überlaubfroschhupfhöhe kreiste und durch provozierendes Lachen das Frosch reizte. Es quakte wütend, schließlich kleinlaut. Wuppy wurde in diesem superioren Moment mordsmäßig durch eine Schwalbe erschreckt, die in Rüsselbreite an ihr vorbeisauste. Wuppy flüchtete. Die Schwalbe folgte. Wuppy setzte sich auf einen Ast. Die Schwalbe auch. Wuppys Herz klopfte zum Zerspringen. »Ich fresse Sie nicht«, sagte die Schwalbe beruhigend, »ich bin schon satt.«</p>
+            <p rendition="#et">
+               <pb n="253" facs="#f0037"/>
+Die Schwalbe suchte Unterhaltung. »Ich bin noch gar nicht lange aus Afrika zurück. Auf dem Meere – – wissen Sie, was ein Meer ist?«</p>
+            <p rendition="#et">Wuppy schüttelte furchtsam den Kopf.</p>
+            <p rendition="#et">»Sie brauchen keine Angst zu haben«, versicherte die rührende Schwalbe, »vielleicht interessiert es Sie, von meinen Reiseerlebnissen zu hören.«</p>
+            <p rendition="#et">»Wenn Sie mir Ihr Ehrenwort geben, daß Sie mich nicht fressen«, sagte Wuppy heiser vor Aufregung.</p>
+            <p rendition="#et">Die Schwalbe gab's. »Ich weiß sehr wohl, was ein Meer ist«, hub Wuppy dreist an, »und habe überhaupt in meinem tausendjährigen Leben mancherlei –«</p>
+            <p rendition="#et">»Tausendjährig?« fragte die Schwalbe.</p>
+            <p rendition="#et">»Ja, tausendjährig. Ich habe hier noch erlebt, daß die Luft stellenweise gefror; ich weiß nicht, ob Ihnen der Begriff Eiszeit geläufig ist.«</p>
+            <p rendition="#et">Die Schwalbe zog ein sehr einfältiges Gesicht. Wuppy wippte und fuhr dann, mehr wie zu sich selber, aber immerhin sehr laut und deutlich fort: »Damals vor dem Seesturm, als ich das D-Zug zum Stehen brachte.«</p>
+            <p rendition="#et">»Bitte, erzählen Sie!« bat die Schwalbe.</p>
+            <p rendition="#et">»Nein, ich spreche nicht gern davon. Außerdem nehmen mich zur Zeit ernste philosophische Probleme so in Anspruch – – Sicherlich ist Ihnen doch wohl bekannt, wer ich bin –?«</p>
+            <p rendition="#et">»Nein«, sagte die Schwalbe.</p>
+            <p rendition="#et">»Nein?? Ach wie drollig!« Wuppy lächelte gezwungen. »Aber schon recht. Reden Sie ganz wie mit Ihresgleichen. Sie wollten Erlebtes berichten. Es ist mir durchaus nicht uninteressant, sowas in der primitiven Vorstellungsweise, in der naiven Sprache des Volkes zu vernehmen.«</p>
+            <p rendition="#et">»Ich wage es nicht«, sagte die Schwalbe.</p>
+            <p rendition="#et">»Papperlapapp! Schießen Sie mal los mit Ihrem Schwalbenlatein.«</p>
+            <p rendition="#et">Die Schwalbe begann eine lange Geschichte anspruchslos vorzutragen. Wuppy hatte drei Beine über drei andere geschlagen und sich ein wenig abgedreht, als hörte sie nur mit einem Ohr zu. Sie hörte aber überhaupt nicht zu, sondern erwog heimlich Fluchtpläne. Plötzlich brach die Schwalbe ihre Erzählung ab.</p>
+            <p rendition="#et">»Nun? Was weiter?« fragte Wuppy.</p>
+            <p rendition="#et">»Mich hungert«, sagte die Schwalbe verlegen und wurde rot. Im <pb n="254" facs="#f0038"/>
+selben Moment schwirrte Wuppy, was sie schwirren konnte, in die Tiefe hinab, um sich ins Gras zu retten. Dort wurde sie vom Laubfrosch verschluckt. Die rote Schwalbe aber flog verärgert nach Afrika zurück, wo sie mit ihrer Farbe viele Büffel wild machte. –</p>
+            <p rendition="#et">Der aus Canada stammende Naturforscher, der den Laubfrosch zersägte, fand die Fliege und sagte: »Ei ei!« Er sagte es natürlich auf Englisch. »Egg egg!« Wuppy legte zufällig in diesem Augenblicke ihr erstes Ei. Sie war längst in dem Alter. Diese vermeintliche Reaktion ließ den Naturforscher selig erschauern. Die Entdeckung war gemacht, der theoretische Beweis einmal praktisch belegt. Es gab eine tierische Vernunft im menschlichen Sinne. Es gab eine Verständigungsmöglichkeit zwischen Insekt und Professor. In der Stärke und Sicherheit dieser Überzeugung gelangen dem Forscher weitere Fortschritte. Es bedurfte nur eines Rohres mit feinsten Membranen. Das hatte Professor Nipp aus Canada schon mitgebracht.</p>
+            <p rendition="#et">Die Fliegensprache zerfällt erstens in einen pantomimischen Teil. »Guten Morgen« heißt z.B. auf Fliegisch nicht <hi rendition="#i">»Good morning«.</hi> Rechtes Mittelbein dreißig Grad nach oben gekrümmt, bedeutet: »Wie spät ist es?« Mit unermüdlichem Fleiß lernte Professor Nipp Fliegisch. Der phonetische Teil dieser Sprache kennt keine Maskulina.</p>
+            <p rendition="#et">Nipp schloß einen Vertrag mit der Fliege. Sie verpflichtete sich, den Professor auf einer sechsmonatigen Vortragsreise durch Canada zu begleiten und während der Vorführungen durch promptes Antworten und folgsames Reagieren die demonstrative Beweisführung des Professors zu unterstützen. Dieser verpflichtete sich dagegen, ihr während der Reise angemessene Nahrung und Unterkunft zu bieten, und garantierte dafür, daß das Auftreten der Fliege im streng wissenschaftlichen Rahmen bliebe und keiner merkantilen Ausbeutung ausgesetzt sei. Wuppy unterzeichnete den Gegenkontrakt fliegisch mit mehreren plastischen Pünktchen.</p>
+            <p rendition="#et">Professor Nipp kabelte nach Canada, bestellte Säle, Reklame und Impresario. Er kaufte ein schönes Fliegenspind, setzte Harzer Käse, Erdbeeren und Pferdedung hinein und bat Wuppy, näherzutreten. Dann schiffte er sich und sie ein.</p>
+            <p rendition="#et">Es war eine herrliche Überfahrt. Die frohe, durch eine gewisse wissenschaftliche Weihe gehobene Stimmung des Professors machte ihn aufmerksam und gütig gegen alles und jedermann. Er <pb n="255" facs="#f0039"/>
+kletterte mittags ins Matrosenlogis hinunter, spendierte Cognak und unterhielt sich mit den Seeleuten. Es waren merkwürdige Kerle, etwas einseitig, aber durchaus gar nicht dumm, sondern sogar nachdenklich und amüsant. Wie sie bei großer Weltkenntnis oft noch am seltsamsten Aberglauben festhielten, wobei ihre schnurrige Phantasie die wunderlichsten Wege ging.</p>
+            <p rendition="#et">Der Leichtmatrose Fritzsche erzählte von dem unmenschlichen Riesen Tabarz, den er schon mehrmals auf See angetroffen hätte. Professor Nipp lächelte, aber auch die eignen Kameraden nahmen Fritzschen nicht ernst, weil er aus Friedrichroda stammte. Der Leichtmatrose stieg beleidigt an Deck. Nach einer halben Stunde rief er dringlich von oben herab: »Herr Professor! Herr Professor!«</p>
+            <p rendition="#et">»Was gibts?«</p>
+            <p rendition="#et">»Er ist da!«</p>
+            <p rendition="#et">»Wer ist da?«</p>
+            <p rendition="#et">»Der Riese. Wollen Sie ihn sehen?«</p>
+            <p rendition="#et">»Ei ei«, sagte der Naturforscher und kletterte an Deck. Die andern folgten. Die See lag glatt. Nirgends im Rund war Land oder ein Schiff zu erblicken. Kein Wölkchen zeigte sich am blauen Himmel. Die Matrosen lachten.</p>
+            <p rendition="#et">»Na, wo steckt denn Ihr Herr Tabarz?« fragte Nipp freundlich eingestellt.</p>
+            <p rendition="#et">»Dort!« Fritzsche zeigte überall hin.</p>
+            <p rendition="#et">»Wo?«</p>
+            <p rendition="#et">»Sehen Sie den blauen Himmel?« fragte Fritzsche.</p>
+            <p rendition="#et">»Freilich, aber –«</p>
+            <p rendition="#et">»Nun, der ganze blaue Himmel ist ein Stück mittelste Füllung von einem Knopf an der Hose von dem Riesen Tabarz.«</p>
+            <p rendition="#et">Der Professor wurde in diesem Augenblick vom Steward abgerufen.</p>
+            <p rendition="#et">In Nipps Kabine war eingebrochen worden. Fritzsche hatte, ohne böse Absicht, nur aus Neugierde, das Fliegenspind entdeckt. Und weil er den Käse und die Erdbeeren darin für die Hauptsache und die Fliege und den Pferdedung für die Nebensache ansah, so hatte er die Hauptsache aufgefressen und das Nebensächliche zerquetscht.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e36913" type="chapter">
+            <head>
+               <pb n="256" facs="#f0040"/>
+Das halbe Märchen Ärgerlich</head>
+            <p>Aber es geschah nicht, obwohl von gar keiner bestimmten Zeit die Rede war, auch kein eigentlicher Ort dabei eine Rolle spielte. Nur entzog sich der Kenntnis was – ohne in Existenz zu verharren – auch nicht annähernd von jemand erdacht werden konnte.</p>
+            <p rendition="#et">Damit war keine Lüge ausgesprochen, ja nicht einmal das Unmögliche eines Vermissens änderte etwas, weil die Pause, die hätte eintreten müssen, lächerlicherweise sowohl eines Anfanges als auch des Endes entbehrte. Da im übrigen ein Dazwischentreten verhindert schien, so blieb (wenigstens so lange nichts Bedeutenderes geschah) kein Resultat aus, vorausgesetzt, daß es überhaupt durchführbar wäre, Resultate wie Samenkörner von Keim zu Keim zu tragen.</p>
+            <p rendition="#et">Ungeachtet dieser Ermangelung gebrach es doch nicht an einem gewissen Fehlen, während sich andererseits weder ein Laut kundgab noch sonst etwas regte, es sei denn, man wolle einwenden, daß keinerlei Aufmerksamkeit in Anspruch genommen wurde. Vielleicht hätte man gerade in dem Nichtzugegenseienden das Abwesende suchen müssen; jedenfalls unterblieb das Unverhoffte eines Tages, und indem hierdurch die nicht unterbrochene Hohlheit einfach nicht im Stande war, einem von jeher bestehenden Leersein Platz zu machen, wurde Graf Quiekenbach geboren. Vormittags.</p>
+            <p rendition="#et">Der quietschte wie ein Schieferstift auf der Schiefertafel. Nachmittags wuchs er auf, so daß er nach zwei Jahrzehnten bereits 20 Jahre alt war; wonach er sofort jenes kindische, läppische Benehmen aufnahm, das man mit Würde übersehen muß. Sehr zu Recht lehnten dann auch alle ernst zu nehmenden Lektoren seine geschraubten Schreibereien ab, dieses dumme Zeugs, welches er, wie er sich unbescheiden ausdrückte: »Aus Blut und Wonne geschrieben« hatte.</p>
+            <p rendition="#et">Graf Quiekenbach wurde nie gesetzt. Stehend, auf der Treppe, schlang er elf Rouladen in sich hinein. Und es ist ein recht billiger Witz, der kein Kommentar verdient, wenn es überhaupt ein Witz und nicht nur eine ekelhafte und sogar recht dürftige Zote ist, statt »Gesäß«: »Arsch« zu sagen.</p>
+            <p rendition="#et">
+               <pb n="257" facs="#f0041"/>
+Weder auf Tag noch auf Nacht gestimmt, kostete der Graf nach Laune jeweiliger Situation bald von diesem, bald von jenem und genoß zutiefst: heute die Rotweinflecke auf Seite 11 eines in Schürzenleinwand gebundenen Klostermemoires, morgen ein Milchmädchen am Sendlinger Tor, auf deren Zinkdeckel der Strahl der Morgensonne splitterte.</p>
+            <p rendition="#et">In seiner unvernünftigen Tollkühnheit verabscheute der Graf jegliche Arbeit. Bei strömendem Regen lustwandelte er elfmal die Friedrichstraße auf und ab, kam dabei elfmal an elf Bettlern vorüber, und indem er jedem jedesmal zurief: »Seien Sie vergnügt, mein Lieber, denn jeder Junior ist ein Senior!« rief er diesen Satz also 11 mal 11. Der Graf hatte eine Vorliebe für eine bestimmte Zahl, die er pflegte und verehrte, und der er besondere Bedeutung beimaß, nämlich die 14, die Vierzehn.</p>
+            <p rendition="#et">Er begab sich darum Punkt 11 Uhr von der Friedrichstraße über die Reeperbahn nach dem Stachus, wo um diese Zeit die Kinder der ärmeren Bevölkerung Danzigs ihre zarten Leidenschaften austoben lassen. Quiekenbach suchte sich unter diesen Kindern eins heraus, das sich durch bessere Kleidung und ein etwas unsympathisches, leichthin dummfreches Gesicht von den anderen unterschied, und dem schenkte er seine volle Börse. Der Kind nahm das Börse, stammelte etwas von Betrunkener Esel, streckte die Zunge meterweit heraus und lief davon. Lange noch sah der Graf ihm nach, bis die flatternde Zunge am Horizont verschwand. Dann wanderte er langsam heim, in ein abendliches Lächeln gehüllt von dem Gedanken an billige, bunte, ewigdehnbare Schlangen aus Zuckergummi.</p>
+            <p rendition="#et">Auf der Treppe zu seiner Wohnung holte ihn ein Herr ein, der, als Quiekenbach stehen blieb, um die Türe zur Wohnung aufzuschließen, ebenfalls stehen blieb und ebenfalls einen Schlüssel zog.</p>
+            <p rendition="#et">»Wollen Sie zu mir?« fragte Quiekenbach.</p>
+            <p rendition="#et">»Nein, ich wohne hier«, erwiderte der andere lächelnd.</p>
+            <p rendition="#et">»Sie?? Das ist ein Irrtum. Hier wohne ich.«</p>
+            <p rendition="#et">»Bitte überzeugen Sie sich.« Der Fremde zeigte lächelnd auf das Namensschild an der Tür. Der Graf sah aus Höflichkeit flüchtig hin. »Nun?« sagte er. »Bitte, was steht dort geschrieben?«</p>
+            <p rendition="#et">»Quiekenbach«, sagte der Fremde lächelnd.</p>
+            <p rendition="#et">»Quiekenbach«, sagte Quiekenbach.</p>
+            <p rendition="#et">»Ich bin Graf Quiekenbach«, sagte der Fremde lächelnd.</p>
+            <p rendition="#et">
+               <pb n="258" facs="#f0042"/>
+»Sehr angenehm«, erwiderte der Angeredete, »aber ich bin Graf Harald Oskar Fridicenius von Quiekenbach, hier seit dreizehn Jahren wohnhaft.«</p>
+            <p rendition="#et">»Ich auch.«</p>
+            <p rendition="#et">»Pardon, ich wage nicht anzunehmen, daß Sie Scherz mit mir treiben oder angeheitert sind –«</p>
+            <p rendition="#et">»Erlauben Sie, ich halte es für ausgeschlossen, daß Sie unzurechnungsfähig sind oder mich zum Besten halten.«</p>
+            <p rendition="#et">Es entwickelte sich eine endlose Kette von Argumenten für eine unerhörte Duplizität. Beide Kontrahenten, oder vielmehr Kongruenten traten ein, waren mit der Wohnung vertraut, bewiesen einander durch Griffe, Papiere etc. eine völlige Gleichheit und stritten sich darüber auf selbe Art, daß jedes Schimpfwort des einen dem anderen sozusagen aus der Seele gesprochen war, also wieder sofort zur Versöhnung führte. Frau Gräfin Mutter wurde herbeigerufen. Sie erkannte in jedem der beiden den einzig Richtigen.</p>
+            <p rendition="#et">Da die Gerichte in diese mysteriöse Angelegenheit sicher kein Licht, aber wahrscheinlich Lärm und Unkosten hineingebracht hätten, so verzichtete man auf sie und einigte sich.</p>
+            <p rendition="#et">Es wäre schade gewesen, solch doppeltes Leben nebeneinander zu verpuffen. Vielmehr reizte das Problem: Das eine Leben abzustellen bis zum Ende des anderen und es dann zur Fortsetzung des anderen wieder loszulassen. Man würfelte. Unser Quiekenbach gewann. Er steckte den anderen Quiekenbach in eine Tonne, salzte ihn ein und schrieb auf den Deckel: »Nach meinem Tode zu öffnen.«</p>
+            <p rendition="#et">Durch diese Arbeit sehr ermüdet, besuchte Quiekenbach, einen geschmiedeten Plan in der Tasche, seinen Freund, den arktischen Maler Dlonuxam, dessen Heimat, wie bereits angedeutet, die arktische Zone war und dessen Spezialgebiet es war, Stilleben zu malen. Halbierte Melonen auf rosa Plüschdecke. Gurkensalat zwischen Ziegelsteinen.</p>
+            <p rendition="#et">»Guten Tag«, sagte Quiekenbach, »möchtest du Gesandter des Staates – –«</p>
+            <p rendition="#et">»Halt!« schrie der Maler, der gerade die ersten Maltakartoffeln, das Pfund zu Mk. 1.60, das halbe Pfund zu Mk. 0.90 malte, »tritt nicht in die Gruppierung.«</p>
+            <p rendition="#et">Quiekenbach ging vorsichtig um die Erdäpfel herum. »Ich gedenke mich als Missionar im Innern Afrikas zwecks Bekehrung eines noch unbekannten Heidenvolkes zum fuhlitanischen Glauben niederzulassen.«</p>
+            <p rendition="#et">
+               <pb n="259" facs="#f0043"/>
+»Grün ist eine unhörbare Farbe«, sagte Dlonuxam weitermalend.</p>
+            <p rendition="#et">»Glaubst du, daß der Staat Arktikum meine Mission befürworten wird?«</p>
+            <p rendition="#et">»Das Knollige muß mehr zum Ausdruck kommen.«</p>
+            <p rendition="#et">»Dann bitte bestätige mir als Gesandter durch Unterschrift und Stempel, daß deine Regierung mich ausgesandt –« Quiekenbach legte ein Schriftstück auf den Tisch.</p>
+            <p rendition="#et">»Laß mich zufrieden, wahnsinniger Uhu!« rief Dlonuxam, nach der Tür weisend.</p>
+            <p rendition="#et">Quiekenbach trat vor die Kartoffeln hin und holte langsam mit dem Fuße aus wie ein Fußballstößer bei Beginn. »Du willst also nicht durch Unterschrift und Stempel – –??«</p>
+            <p rendition="#et">»Halt! Ja doch! Ja!« Dlonuxam unterschrieb und drückte viele Stempel unter den vorgeschriebenen Text der Urkunde: »Einschreiben« – »Mitglied der Neuen Secession« – »Vorsicht Glas!«</p>
+            <p rendition="#et">Wenden wir uns jetzt von den beiden ab und zu Quiekenbach. Nach Quiekenbachs Abreise war Quiekenbach sofort von einem neugierigen Dienstmädchen aus der Salztonne befreit worden. Sofort lehnte er sich weit aus dem Fenster seiner Wohnung und knallte 24 Stunden lang mit einer aus Mulattenblinddarm geflochtenen Peitsche, während er unausgesetzt in die Nacht hinaus laut konjugierte: »Kakaich, Kakadu, Kakaer, sie, es –«</p>
+            <p rendition="#et">Solches unreife rüpelhafte Betragen verdient selber nur die Peitsche. Und wenn das nichts hilft, dann noch härtere und härteste Züchtigung.</p>
+            <p rendition="#et">Es war ihm schon etliches versetzt; dann wurde aufs strengste zugepackt, den Burschen zu strafen. Die Hämmer sausten zuletzt im Asphalt-Arbeiter-Takt auf den Grafen.</p>
+            <p rendition="#et">Darüber wurde der lange hagere Herr Quiekenbach kurz und breit, wurde schließlich zu einer Scheibe mit beweglichen Sohlen. Aber dieser Wanze verblieb ein großes, grünes Glasauge; grün und doch schön, aus Glas, weil starr, aber es war doch beseelt und trotzte allem Illustren, überblendete alle bestehenden Lumina.</p>
+            <p rendition="#et">Wenden wir uns jetzt zweimal um uns selber herum und dann zum Grafen Quiekenbach. Der hatte ein afrikanisches Buschvolk entdeckt, dessen kannibalischen Appetit er durch Überreichung seines Beglaubigungsschreibens sozusagen ausbluffte. Danach rief er den Negern devot lächelnd zu: »Ihr Gesäßlöcher!« und schlug sein Zelt auf. Acht Tage lang bewirteten ihn die Wilden aus <pb n="260" facs="#f0044"/>
+Neugierde, sie brachten ihm Kokuskaktosbier ans Bett und eine an Rindfleisch erinnernde Mehlspeise. Als ihn die Neger am neunten Tage fressen wollten, rief er ihnen in ihrer Sprache zu. »Halt!« denn er war nicht müßig gewesen. Er hielt sie in Furcht und Schrecken. »Ich bin ein mächtiger Zauberer aus einem furchtbaren Lande. Wenn ich will, kann ich euch jederzeit durch 1111 gleichzeitige Blitze vernichten, aber wenn ihr zwei Jahre lang eure jungen Mädchen um mich versammelt und mir reichlich Kokuskaktosbier – –« Er versprach ihnen Märchen; und es ging ihm gut, denn zwei Jahre lang ließ er sich Kokuskaktos und junge Mehlspeise und viele schöne, an Rindfleisch erinnernde Mädchen ans Bett bringen. Hatte dafür nur Märchen zu erzählen. Erzählte sie, anfangs versuchsweise in der Sprache der Eingeborenen, später aus Bequemlichkeit in Magdeburger Dialekt. Improvisiertes, Erlogenes und Erstunkenes, was er halt so einkokuste oder auskaktoste, Fuselgefasel.</p>
+            <p rendition="#et">Dieses nichtswürdige zentralafrikanische Betrügerleben des Grafen Quiekenbach wurde jäh durch ein ebenso sonderbares als grausames Ereignis gestört, welches berufen war, endlich einmal Licht in viele erwähnte, sowie auch bisher unbekannte und zum Teil haarsträubend unsittliche Begebenheiten zu bringen. Wenden wir uns zuvor noch einmal zum Grafen Quiekenbach zurück.</p>
+         </div>
+         <div xml:id="Ringelnatz-Joac-d1e37058" type="chapter">
+            <head>Die Walfische und die Fremde</head>
+            <p>Bereits eine Stunde später bildete sich ein Komitee. Man wollte den Schiffbrüchigen das Mitgefühl der Stadt übermitteln, sie als Fremdlinge gastlich bewirten beziehungsweise unterhalten und von der offiziellen Sympathie für Deutschland überzeugen. Man wollte auch bei dieser für den kommenden Sonntag gedachten Veranstaltung ihnen ordentlich imponieren.</p>
+            <p rendition="#et">Großzügig vorausgesetzt, daß sie sich bis dahin erholt haben, ferner auch nicht an den Folgen gestorben sein würden, sollte sich das Programm etwa so entwickeln:</p>
+            <p rendition="#et">Warme Begrüßung am Genesungslager. (Schon schloß sich ein Senator nach dem andern zum Auswendiglernen ein.) – Rundfahrt durch Stadt und Musehenswürdigkeiten. (Lastautos stellte in hochherziger Weise die bedeutendste Speditionsfirma.) – Flüchtige<pb n="261" facs="#f0045"/>
+ nähere Besichtigungen. (Die städtische Bibliothek sicherte freien Eintritt, das Museum für internationale Laryngoskopie Stundung der Garderobegebühren zu.) – Der berühmte, aus gerösteten Bananenschalen hergestellte Wolkenkratzer sollte von oben bis unten mit deutschen Briefmarken beklebt werden. (Gestiftet von einem ungenannt bleiben wollenden, sechsfachen Multimillionär, der sie von Bittgesuchen abgesammelt hatte.) – Trauliches Beisammensein mit Kaffeekredenz und Kuchenbergen im Klubhaus der inneren Mission für Kammerjagdsport. – Wohltätigkeitskonzert. – Tanz der tausend vornehmsten Babys. – Dann vielleicht Feuerwerk im Germanischen Ratskeller, Böllerläuten, Glockenschüsse oder so. Die Entscheidung über den weiteren Verlauf balancierte vorläufig noch auf einem Gewoge von Portwein und Beleidigungen.</p>
+            <p rendition="#et">Die Frau von dem Verwalter von der Schlauchhalle von der Hafenstation von der Feuerwehr lernte lügen. Während ihr Mann seit Stunden von Lokal zu Lokal eilte, um den wachthabenden Arzt zu suchen, erfuhr sie, daß ihr Geld und ihr Ansehen wuchsen, je mehr sie den neugierig Zuströmenden vorlog. Sie kam sich, nicht zu Unrecht, vor, als habe sie selber Schiffbruch gelitten. Anfangs wußte sie nur wenig. Man hatte die sieben besinnungslosen Riesen in die Schlauchhalle getragen. Man hatte ihnen die nassen Matrosenkleider ausgezogen und dafür erst mal saubere Feuerwehruniformen angezogen. Dann hatte man sie in Wolldecken gehüllt und auf die elastischen Schläuche gebettet. Nun mußten sie vor allen Dingen einmal schlafen, schlafen und nochmals schlafen. Keinesfalls durfte man sie stören. »Nein, auch nicht einmal sehen!« – »Nein, danke, auch nicht für Trinkgeld.«</p>
+            <p rendition="#et">Ergreifende Stunden verannen. »Sagte ich's nicht?«, der wachthabende Arzt wurde gefunden. Er sagte gleich: »Vor allen Dingen: Ruhe, Ruhe und nochmals Ruhe!« Dennoch setzte er sich sofort mit den Kollegen vom Krankenhaus in Verbindung, die im Nu ungeteilter Meinung waren. In der Hauptsache galt es, die Geretteten zunächst einmal stundenlang unbehelligt zu lassen.</p>
+            <p rendition="#et">Diese gründlich ausgeübte Passivität fand leider eine jähe Unterbrechung durch Feueralarm. Im Schuppen einer Spritfabrik hatte Stroh Stroh entzündet. Die Deutschen schliefen auf den Spritzenschläuchen. Es überstürzten sich viele Ansichten und Telephongespräche, verpaßten sich oder hoben sich auf. Indessen hatte einer der beiden Uhrzeiger noch keine Rundwanderung <pb n="262" facs="#f0046"/>
+vollenden können, als ein Chefarzt, mehrere Unterärzte, viele Seitenärzte und zahllose medizinische Handwerker sich in Rangordnung, lautlos, auf Strümpfen der Tür der Schlauchhalle der Hafenstation der Feuerwehr näherten. Leise wurde die Klinke herabgedrückt, laut quietschten die Angeln. Und die Versammlung sah auf den Schläuchen sieben sauber zusammengefaltete Wolldecken. Und das Fenster stand offen.</p>
+            <p rendition="#et">Etwa zwei Seemeilen südlich vom Bananenkratzer und zirka ebensoviel Knoten westlich vom Klubhaus der inneren Mission für Kammerjagdsport schlängelt sich zwischen freundlich bunten Delikateßgeschäften und lustig belebten Wirtshäusern ein anspruchsloser Weg im weiten Bogen um die städtische Bibliothek herum. Kurz vorm Germanischen Ratskeller schwenkten die sieben Deutschen nach links ab. Das Geld in ihren nassen Taschen hing wohlverschlossen im Trockenschrank der Hafenstation der Feuerwehr. Die Feuerwehrknöpfe mußten schlecht vergoldet sein; niemand wollte sie als Zahlungsmittel anerkennen. Aber es war schon erfreulich, mal wieder an Land zu sein, ohne arbeiten zu müssen, frei herumzubummeln und sich in der Fremde heimisch zu fühlen. Hier fiel ein deutsches Firmenschild auf. Dort war ein Feuer ausgebrochen; und weil dort leere Hektoliterfässer herumstanden, schöpften die Deutschen damit Wasser aus einem Kanal und löschten das Feuer. Und dann kam plötzlich ein hochanständiger, feiner Herr auf sie zu, wahrscheinlich der Fabrikdirektor, ein echter, eleganter <hi rendition="#i">gentleman,</hi> und schenkte ihnen ein volles Hektoliterfaß. Und weil keiner von ihnen »danke« gesagt oder irgendwas gesagt hatte, genierten sie sich und zogen sich mit dem Faß in einen dunklen Hofwinkel zurück. Bald setzten sie ihren Spaziergang fort.</p>
+            <p rendition="#et">Nicht etwa, daß sie stumpf und blind dahingeschossen wären. Nein, sie gingen einmal auf die andere Seite der Straße, um irgendworüber zu lachen, und dann waren sie wieder auf der einen Seite, um das Elterngrab zu pfeifen. Bis sie auf einmal hart hinfielen.</p>
+            <p rendition="#et">Weil sie einer vornehmen, jungen Dame ausweichen wollten, die mit zierlichen Schritten um die Ecke bog. »Wir tun Ihnen nichts. Wir sind Seeleute.« Ein zartes Stimmchen antwortete auf italienisch. Das kleine, blonde Persönchen verstand zwar nicht die deutsche Sprache, aber sie hatte sich verirrt. Und sie hätte soviel Vertrauen zu Seeleuten, und ihr Mütterchen vermißte sie gewiß schon, und ob sie sie nicht bis an ihr Häuschen begleiten wollten, <pb n="263" facs="#f0047"/>
+sie fürchte sich sehr, überfallen zu werden, weil sie sehr viel Geld und Schmuck bei sich trüge und sei aus adliger Geburt, aber man sollte sie einfach mit ihrem Vornamen Darlingchen anreden, zumal sie Landsleute wären. Und sie trügen gewiß nicht so viel Schmuck bei sich, und sie würde schon dafür sorgen, daß sie daheim ein Schlückchen Wein zur Stärkung bekämen; aber viel Geld hätten Seeleute auch immer bei sich –</p>
+            <p rendition="#et">Die Matrosen nickten zu allem ja und waren total begeistert verdattert. Sechs von den siebem blickten immer verlegen weg, weil die so reden konnte, aber alles hatte Hand und Fuß, und weil das kurze Samtkleidchen so tief ausgeschnitten war. Der siebente beguckte sich immer derweilen heimlich aus dem Hintergrunde das fremde Mädchen ganz lange. Abwechselnd war jeder mal der hintere.</p>
+            <p rendition="#et">Langsam mußten sie einen Fuß vor den anderen setzen, damit die lila Beinchen mit den trippelnden Goldkäferchenschuhchen nicht außer Atem kämen. Sprach sämtliche Sprachen; alle Länder hatte sie bereist. Sie kannte sogar die Burgstraße in Leipzig und den Gänsemarkt in Hamburg.</p>
+            <p rendition="#et">Das Häuschen hatte rotseidene Gardinchen. An dem großartigen schmiedeeisernen Treppengeländer hingen Girlanden. Oben waren alle Möbelchen aus Lack. Und neben dem schönen Ofen mit den vergoldeten Kacheln saß das Mütterchen, die war nicht so schön wie Darlingchen (eigentlich sah sie wie eine dicke Sau aus), aber sie machte allen Ulk mit, rauchte Pfeifchen, und Darlingchen nannte ihr Mütterchen nur auf französisch »Madamchen«. In der Ecke hockte ein Negerchen, das Zither spielte. Aber draußen schlich ein häßlicher – ein häßliches Halunkchen herum; Darlingchen rief ihm »Hälterchen« zu, da verschwand es. Und Darlingchen war wie ein ausgelassenes Kind. Sie neckte die Seebären, weil sie gar nicht wie richtige Deutsche tränken. Und trank ihnen selbst ein Literchen Rum vor. Sie konnte blitzschnell eine Reihe Knöpfchen aufknöpfen. Tausend urkomische Einfälle hatte sie. Auch ein Kunststück mit einem deutschen Tausendmarkschein fiel ihr ein. Aber da erinnerten sich die Matrosen an ihre nassen Kleider bei der Feuerwehr und sangen auf einmal die Lorelei.</p>
+            <p rendition="#et">Doch mit dem Negerchen und dem Hälterchen stimmte was nicht. Die tuschelten an der Tür so hinterlistig, so, als ob sie gegen Darlingchen was im Schilde führten. Deshalb erhoben sich die <pb n="264" facs="#f0048"/>
+Deutschen ein wenig und indem hatten sie den Ofen und das Treppengeländer in der Hand.</p>
+            <p rendition="#et">Weil sie morgens völlig nackt auf dem Bürgersteig erwachten, blickten sie sehr erstaunt nach dem Häuschen auf. Aus dem Fensterchen rief ihnen Madamchen Schimpfwörtchen zu, und neben ihr stand Darlingchen und warf Ofenkachelchen, Glassplitter und Treppengeländerchen herab. Daraus schlossen sie, daß das Häuschen ein öffentliches Häuschen wäre, und machten sich beschämt auf, um ihre nassen Hosen von der Feuerwehr zurückzuerbitten.</p>
+            <p rendition="#et">Sie tanzten in hastigen Wendungen umeinander vorwärts, um durch Schnelligkeit der Bewegung ihre Blößen zu verdecken. Trotzdem wurden sie unverhofft verhaftet. Drei Wochen durch schliefen sie sich willig im Gefängnis aus. Danach trug man sie in schwere Ketten gefesselt in den Gerichtssaal und lehnte sie dort gegen die Wand, unter deren Fenstern die freie, ewige See brandet. Bei dem Nacktsein auf der Straße hatten sich die Seeleute etwas verkühlt. Deshalb niesten sie, als das Urteil verkündet wurde. Da zerplatzten ihre Ketten wie Zigarettenbanderolen, und die Wand stürzte ein.</p>
+            <p rendition="#et">Als sich die ungeheure Staubwolke langsam auf alle Bilderrahmen der Stadt gesetzt hatte, sah man fern draußen im wogenden Ozean sieben Walfische unter ruhigen, weit ausholenden Flossenschlägen entschwinden.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

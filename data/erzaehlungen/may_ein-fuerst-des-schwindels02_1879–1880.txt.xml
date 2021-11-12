@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Ein Fürst des Schwindels</title>
+            <title type="volume">Bd. 02</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118818651">
+                  <forename>Karl</forename>
+                  <surname>May</surname>
+                  <addName>Ernst von Linden</addName>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:31Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005368510</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/May, Karl/Einzelne Erzählungen/Ein Fürst des Schwindels</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/sbbk.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0004-3073-A</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Ein Fürst des Schwindels. Nach authentischen Quellen von Ernst von Linden. In: Deutscher Hausschatz in Wort und Bild. 6. Jg. 1879/80. Heft 9–10. Regensburg, New York, Cincinnati 1880. Nr. 25</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="a" type="main">Ein Fürst des Schwindels</title>
+                  <title level="a" type="sub">Nach authentischen Quellen von Ernst von Linden</title>
+                  <title type="part">Nr. 25</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118818651">
+                        <forename>Karl</forename>
+                        <surname>May</surname>
+                        <addName>Ernst von Linden</addName>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">398 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Friedrich Pustet</name>
+                  </publisher>
+                  <pubPlace>Regensburg, New York, Cincinnati</pubPlace>
+                  <date type="publication">1879–1880</date>
+                  <date type="firstPublication">1879</date>
+                  <date type="firstPublication" subtype="clariah"/>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1842"
+                        notAfter="1880"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="j" type="main">Deutscher Hausschatz in Wort und Bild</title>
+                  <biblScope unit="volume">6. Jg.</biblScope>
+                  <biblScope unit="issue">Heft 9–10</biblScope>
+                  <biblScope unit="pages">S. 385–388, 390</biblScope>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#BMay-Karl-d1e509153">Nach authentischen Quellen von Ernst von Linden. In: Deutscher Hausschatz in Wort und Bild. 6. Jg. 1879/80. Heft 9–10. Nr. 24–27. S. 369–373, 385–388, 390, 401–404, 406–407, 417–420 u. 422–424. – Regensburg, New York, Cincinnati: Friedrich Pustet 1880. Reprint in: Karl May: Kleinere Hausschatz-Erzählungen von 1878–1897. Hrsg. von Herbert Meier. Hamburg, Regensburg: Karl-May-Gesellschaft u. Buchhandlung Pustet 1982.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Einzelne Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h4">2.</p>
+            <p rend="h3"/>
+            <p>Der Krondiamant</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="May-Karl-d1e509153">
+            <p>Herr Calcoen, der Sekretär »Ihrer Hochmögenden, der Generalstaaten,« saß allein in seinem Arbeitscabinet und forschte eifrig in wichtigen Actenstößen, die sich auf ein Neutralitätsbündniß zwischen den Niederlanden und Frankreich gegen das britische Inselreich bezogen. Seine Aufmerksamkeit war von den Scripturen so sehr und ausschließlich in Anspruch genommen, daß er den Eintritt seiner Frau ganz überhörte, welche ihre wohlbeleibte Figur an den Eingang postirte und mit ruhig ernstem Gesichte auf einen Augenblick zu warten schien, an welchem es dem Herrn Sekretär belieben würde, einmal von seiner schwierigen Arbeit aufzublicken.</p>
+            <p rendition="#et">Es muß nämlich gesagt werden, daß Mynheer Calcoen trotz seiner hohen und einflußreichen Stellung die Einfachheit liebte und vielleicht auch aus Sparsamkeitsrücksichten keine Domestiken engagirte, sondern es vorzog, sich von den Gliedern seiner Familie bedienen zu lassen. Diese wußten sehr genau, daß nichts seinen Zorn so sehr erregen könne, als wenn man es unternahm, ihn während des Schreibens oder der Lectüre von wichtigen Dingen zu stören, und so wartete denn auch jetzt die Meffrouw Sekretärin mit gutmüthigem Lächeln geduldig auf den geeigneten Moment, ihre Angelegenheit vorzubringen.</p>
+            <p rendition="#et">Da schlug er das eine Heft zusammen und griff nach einem andern. Meffrouw hustete leise. Er vernahm es und drehte sich um.</p>
+            <p rendition="#et">»Was willst Du, Katje?«</p>
+            <p rendition="#et">»Ich muß Dich fragen, ob Du zum Thee herunterkommst oder ob Du ihn hier nehmen willst.«</p>
+            <p rendition="#et">»Hier, Katje, hier! Ich habe es so nothwendig, daß ich keine Sekunde verlieren darf.«</p>
+            <p rendition="#et">»Willst Du ihn blank oder mit Röstbrodchen?«</p>
+            <p rendition="#et">»Brod, viel Brod, Katje! Die Kopfarbeit strengt den Körper an, und so muß der Sekretär essen, wenn es wohl um die Staaten stehen soll.«</p>
+            <p rendition="#et">»Du hast es also sehr nothwendig? Und doch steht draußen ein Mann, der Dich zu sprechen verlangt.«</p>
+            <p rendition="#et">»Wer ist es? Ich habe wirklich keine Zeit, Katje.«</p>
+            <p rendition="#et">»Es ist ein Fremder, doch wie er heißt, weiß ich nicht, da er seinen Namen nur Dir allein nennen will.«</p>
+            <p rendition="#et">»Ich brauche seinen Namen nicht zu hören; er mag ihn einem Andern nennen; er kann gehen!«</p>
+            <p rendition="#et">»Höre, er bat mich, Dir nur zu sagen, daß es sich um Millionen handle.«</p>
+            <p rendition="#et">»Um Millionen? Ah! Sieht der Mensch denn darnach aus?«</p>
+            <p rendition="#et">»Allerdings; er ist ein feiner Herr, und ich erblickte an seinem Finger einen Brillanten, welcher heller als die Sonne leuchtete.«</p>
+            <p rendition="#et">»So, hm, dann mag er eintreten, und Du bringst den Thee erst, wenn er sich wieder entfernt hat.«</p>
+            <p rendition="#et">Meffrouw nickte zustimmend und verließ das Zimmer. Durch die offen gelassene Thür trat der Angemeldete ein. Bei seinem Anblicke erhob sich unwillkürlich der Sekretär. Der Fremde machte allerdings den Eindruck, als sei er gewohnt, mit hochgestellten Leuten zu verkehren.</p>
+            <p rendition="#et">»Wer sind Sie?« frug Calcoen.</p>
+            <p rendition="#et">»Mein Name wird Ihnen nicht unbekannt sein; ich bin der Graf von St. Germain?«</p>
+            <p rendition="#et">»Der Graf von St. Germain? Ah, ist es möglich? Bitte, nehmen Sie Platz!«</p>
+            <p rendition="#et">»Ich höre, daß Ihre Zeit sehr in Anspruch genommen ist,« bemerkte der Graf, indem er der Aufforderung Folge leistete und sich auf einen der anspruchslosen Sessel niederließ.</p>
+            <p rendition="#et">»Allerdings ist dies der Fall, doch glaube ich, so viel erübrigen zu können, um zu erfahren, welche Angelegenheit Sie zu mir führt.«</p>
+            <p rendition="#et">»Ich ließ Ihnen bereits melden, daß ich nicht beabsichtige, Sie mit einer Kleinigkeit zu incommodiren. Sie kennen wohl meine intime Beziehung zu dem König von Frankreich?«</p>
+            <p rendition="#et">»Ich hörte davon sprechen. Wie es scheint, besitzen Sie das Wohlwollen und Vertrauen des Regenten.«</p>
+            <p rendition="#et">Der Graf verneigte sich zustimmend und zog ein versiegeltes Schreiben aus der Tasche, welches er dem Sekretär überreichte.</p>
+            <p rendition="#et">»Ich bitte, Einsicht in dieses Mandat zu nehmen!«</p>
+            <p rendition="#et">Calcoen nahm den Bogen, entsiegelte und öffnete ihn und überflog den Inhalt desselben. Seine Miene verrieth Spannung und lebhaftes Interesse, als er den Grafen frug:</p>
+            <p rendition="#et">»Sie kennen den Wortlaut dieses Schreibens?«</p>
+            <p rendition="#et">»Den Inhalt, wenn auch nicht den Wortlaut.«</p>
+            <p rendition="#et">»Seine Majestät legitimirt Sie durch diese Vollmacht zu dem Abschlusse eines allerdings sehr wichtigen Geldgeschäfte mit den Generalstaaten. Darf ich Ihre Mittheilung erwarten?«</p>
+            <p rendition="#et">»Sicher! Bemerken muß ich vorher, daß meine Mittheilungen sich nur auf die allerunentbehrlichsten Personen zu beschränken haben, und da es Majestät beliebt, den Minister des Aeußern, Herzog von Choiseul, von der Mitwissenschaft unserer Angelegenheit auszuschließen, so ist es mir auch verboten, unsern hiesigen Gesandten, den Grafen d'Affri, in die Affaire einzuweihen.«</p>
+            <p rendition="#et">»Ihre Intentionen werden natürlich streng berücksichtigt werden, wie ich Ihnen im Namen der Hochmögenden versichern kann. Jetzt also weiter, Herr Graf!«</p>
+            <p rendition="#et">»Ohne Einleitung, Mynheer: der König beabsichtigt, bei den Generalstaaten eine Anleihe zu machen.«</p>
+            <p rendition="#et">»Ah? Wieder? Hm! Zu welcher Höhe?«</p>
+            <p rendition="#et">»Zu einer allerdings nicht ganz gewöhnlichen: hundert Millionen.«</p>
+            <p rendition="#et">»Hundert – freilich bedeutend!«</p>
+            <p rendition="#et">»Aber keineswegs zu hoch für die Mittel, welche den Generalstaaten zur Verfügung stehen.«</p>
+            <p rendition="#et">»Mag sein! Doch muß ich erwähnen, daß wir schlechte Ernten in den Colonien hatten und unsere Ausgaben in den letzten zwei zwei Jahren die Einnahmen so bedeutend übersteigen, daß wir selbst vor einer leeren Kasse stehen und die Hilfe unserer Banquiers in Anspruch nehmen müssen.«</p>
+            <p rendition="#et">»Dabei kann es kein Bedenken geben; die Hilfsquellen der Generalstaaten sind unerschöpflich, und ihr Kredit ist ein grenzenloser.«</p>
+            <p rendition="#et">»Er wurde bereits in der Weise verwerthet, daß die hochmögenden Herren wohl schwerlich zu bestimmen sein werden, ihn für fremde Interessen anzustrengen.«</p>
+            <p rendition="#et">»Dürften hierbei nicht die Concessionen zu berücksichtigen sein, welche man Ihnen zu machen bereit ist?«</p>
+            <p rendition="#et">»Möglich. Welches ist der Zinsfuß, zu welchem Sie ermächtigt sind?«</p>
+            <p rendition="#et">»Die Höhe desselben hängt von der Schnelligkeit ab, mit welcher die Zahlung des Darlehens erfolgt.«</p>
+            <p rendition="#et">»Begreiflich. Und welche Unterlagen bieten Sie?«</p>
+            <p rendition="#et">»Eine höchst ungewöhnliche und mehr als genügende, nämlich ein Faustpfand, welches mehr als den doppelten Betrag des Darlehens repräsentirt.«</p>
+            <p rendition="#et">»Worin besteht es?«</p>
+            <p rendition="#et">»In den sämmtlichen Kronjuwelen Frankreich's.«</p>
+            <p rendition="#et">»Ah!« machte der Sekretär erstaunt.</p>
+            <p rendition="#et">»Sie geben zu,« meinte der Graf gleichmütig, »daß ein solches Pfand Sie vollständig sicher stellt. Ich bin darauf angewiesen, Ihnen mitzutheilen, daß unsererseits nur der König, die Marquise de Pompadour und ich von dem Depositum wissen dürfen.«</p>
+            <p rendition="#et">»Die Sicherstellung ist allerdings mehr als genügend; haben Sie jedoch auch die Schwierigkeiten bedacht, welche sich eben jetzt einer solchen Anleihe gegenüberstellen?«</p>
+            <p rendition="#et">»Sie meinen die vermeintliche Erschöpfung Frankreich's durch den Krieg und die Aussichtslosigkeit auf eine baldige Lösung der politischen Conflicte? Pah! Ich bin in dieser Beziehung natürlich besser unterrichtet als Andere und darf Ihnen versichern, daß der Krieg seinem Ende naht. Und selbst wenn Ihre Befürchtungen begründet wären, so sprachen Sie ja selbst die Ueberzeugung aus, daß Sie vollständig und für alle Fälle gedeckt sind. Ich komme zunächst zu Ihnen, weil ich weiß, wie schwer Ihr Wort in wichtigein Angelegenheiten wiegt, und ersuche Sie, mir die Namen derjenigen Herren zu nennen, an welche ich mich nach Ihnen zu wenden habe.«</p>
+            <p rendition="#et">
+               <pb n="391" facs="#f0001"/> »Es ist mir jetzt leider unmöglich, diese Auskunft zu ertheilen. Geben Sie mir die Erlaubniß, Ihre Angelegenheit zunächst den Generalstaaten vorzutragen, und dann wird sich ja zeigen, wer von denselben zur Verhandlung mit Ihnen beauftragt wird.«</p>
+            <p rendition="#et">»Sie haben diese Erlaubniß, natürlich unter der Voraussetzung der strengsten Discretion. Wann darf ich mir Bescheid holen?«</p>
+            <p rendition="#et">»Auch das ist noch unbestimmt. Wo wohnen Sie?«</p>
+            <p rendition="#et">»Im Prinzen von Oranien.«</p>
+            <p rendition="#et">»Ich werde mir erlauben, Sie dort aufzusuchen, sobald eine Entscheidung gefällt worden ist.«</p>
+            <p rendition="#et">»Dann gestatte ich mir nur noch eine Zufügung.«</p>
+            <p rendition="#et">Er zog ein kleines Etui hervor und überreichte es dem Sekretär.</p>
+            <p rendition="#et">»Wollen Sie die Güte haben, den Inhalt zu prüfen?«</p>
+            <p rendition="#et">Calcoen öffnete und stieß einen Ruf der Bewunderung aus. Das Etui enthielt einen Diamanten von solcher Größe und Reinheit, wie er noch niemals einen gesehen hatte.</p>
+            <p rendition="#et">»Prachtvoll, außerordentlich prachtvoll!« rief er.</p>
+            <p rendition="#et">»Wie hoch schätzen Sie den Stein?«</p>
+            <p rendition="#et">»Ich bin zu wenig Kenner, um seinen Werth taxiren zu können, doch glaube ich gern, daß derselbe nach Millionen zählt.«</p>
+            <p rendition="#et">»Sicher! Der König hat mir aufgetragen, gegen eine Anzahlung von hunderttausend Gulden denselben schon vor Abschluß des Hauptgeschäftes und zur Probe bei Ihnen zu deponiren.«</p>
+            <p rendition="#et">»Wollen Sie mir den Stein anvertrauen, damit ich ihn den hochmögenden Herren zu zeigen vermag?«</p>
+            <p rendition="#et">»Gewiß, wenn Sie die Güte haben wollen, den Empfang des Diamanten durch Unterschrift und Siegel zu bescheinigen.«</p>
+            <p rendition="#et">»Gern!«</p>
+            <p rendition="#et">Er schloß das Etui und das Mandat des Grafen sorgfältig ein und stellte dann den verlangten Depositenschein aus, nach dessen Empfang sich der Graf entfernte. Draußen auf dem Korridore stieß dieser mit einem Manne zusammen, bei dessen Anblick er unwillkürlich einen Schritt zurückfuhr.</p>
+            <p rendition="#et">»Der Baron von Langenau!« rief er beinahe bestürzt.</p>
+            <p rendition="#et">Auch der Baron war überrascht, doch ließ er kein Wort vernehmen, sondern schritt mit einem verächtlichen Blicke an dem Grafen vorüber und verschwand in dem Arbeitszimmer des Sekretärs. Der Mißerfolg seiner Sendung nach Versailles hatte ihm in Beziehung auf das Vertrauen seines Königs keinerlei Schaden gebracht. Er befand sich jetzt hier in Haag in derselben Eigenschaft als Gesandter, hatte sich die Freundschaft des Sekretärs erworben und besaß die Erlaubniß, zu jeder Zeit unangemeldet Zutritt nehmen zu können. Er fand Calcoen noch nicht wieder in seine Arbeit vertieft. Die Unterredung mit dem Grafen hatte den Sekretär trotz seiner sonstigen Ruhe in eine gewisse Aufregung versetzt, so daß er bei dem Eintritte des Barons mit ungewöhnlicher Lebhaftigkeit im Zimmer auf und nieder ging.</p>
+            <p rendition="#et">»Willkommen, Herr von Langenau! Ah, Sie finden mich einigermaßen echauffirt. Ist Ihnen Jemand begegnet?«</p>
+            <p rendition="#et">»Ein Herr, draußen auf dem Korridore.«</p>
+            <p rendition="#et">»Rathen Sie, wer es war!«</p>
+            <p rendition="#et">»Der Graf von St. Germain.«</p>
+            <p rendition="#et">»Was! Sie kennen diesen Mann?«</p>
+            <p rendition="#et">»Leider!«</p>
+            <p rendition="#et">»Leider? Sie scheinen also keine positiven Gefühle für diesen berühmten Mann zu hegen!«</p>
+            <p rendition="#et">»Berühmt oder berüchtigt? Die Entscheidung zwischen Beidem muß ich einem Jeden für sich selbst überlassen.«</p>
+            <p rendition="#et">Der Sekretär machte eine verneinende Handbewegung, faßte ihn beim Arme und zog ihn neben sich auf einen Stuhl nieder.</p>
+            <p rendition="#et">»Herr Baron, Sie wissen, daß Sie meine Freundschaft besitzen!«</p>
+            <p rendition="#et">»Die mir von hohem Werthe ist.«</p>
+            <p rendition="#et">»Und mit ihr mein Vertrauen!«</p>
+            <p rendition="#et">»Welches mich zum größten Dank verpflichtet.«</p>
+            <p rendition="#et">»Dieser Dank hätte naturgemäßer Weise nur in Gegenvertrauen zu bestehen. Der Graf von St. Germain war in einer höchst wichtigen Angelegenheit bei mir; er ist mir weniger als Ihnen bekannt, wie es scheint, und da mir sehr daran liegt, etwas Genaues über ihn zu hören, so muß ich Sie ersuchen, aus Ihrer diplomatischen Verschlossenheit herauszutreten und mir zu Gefallen etwas offenherzig zu sein!«</p>
+            <p rendition="#et">»Darf ich fragen, von welcher wichtigen Angelegenheit Sie sprechen?«</p>
+            <p rendition="#et">»Sie ist ein Geheimniß, Herr Baron. Ich habe mich zur tiefsten Verschwiegenheit verpflichtet.«</p>
+            <p rendition="#et">»Auch mir gegenüber?«</p>
+            <p rendition="#et">»Allerdings.«</p>
+            <p rendition="#et">»Selbst wenn ich über die Angelegenheit ebenso unterrichtet wäre, wie der Graf selbst?«</p>
+            <p rendition="#et">»Das ist unmöglich!«</p>
+            <p rendition="#et">»Scheinbar. Ich werde Ihnen das Gegentheil beweisen. Der Graf von St. Germain ist in Haag behufs einer Anleihe von hundert Millionen unter Verpfändung der Kronjuwelen Frankreich's.«</p>
+            <p rendition="#et">Der Sekretär machte ein höchst erstauntes Gesicht.</p>
+            <p rendition="#et">»Wahrhaftig! Sie sind sehr genau unterrichtet. Aber der Graf versicherte doch, daß nur er allein das Geheimniß mit dem König und der Marquise de Pompadour theile!«</p>
+            <p rendition="#et">»Er irrt, wie Sie ja selbst sehen. Wird es ihm gelingen, sich seines Auftrages glücklich zu entledigen?«</p>
+            <p rendition="#et">»Möglich ist es. Wenigstens wird er die hunderttausend Gulden erhalten, die er für den König sofort unter Verpfändung des werthvollsten Krondiamanten begehrt.«</p>
+            <p rendition="#et">»Hunderttausend Gulden? Davon ist mir nichts bekannt. Sein Auftrag lautet nur auf hundert Millionen, und ich glaube nicht, daß er ermächtigt ist, eine Voranzahlung zu fordern.«</p>
+            <p rendition="#et">»Das wäre allerdings gewissermaßen Mißtrauen erregend, wenn ich annehmen dürfte, daß Sie wirklich genau unterrichtet sind. Können Sie mir Ihre Quelle bezeichnen?«</p>
+            <p rendition="#et">»Nur als ein Freund dem anderen. Ich habe eine Braut in Versailles, durch welche ich Einsicht gewinne in sämmtliche Geheimnisse des Hofes.«</p>
+            <p rendition="#et">»Ist eine junge Dame, vielleicht ohne offizielle Stellung, nicht ein etwas unsicheres Medium für dergleichen Wichtigkeiten?«</p>
+            <p rendition="#et">»Das Beispiel hat Ihnen ja bewiesen, daß mein Medium vollständig zuverlässig ist. Meine Braut besitzt eine sehr nahe Verwandte, welche stets um die Person der Marquise ist und von derselben mit dem unbeschränktesten Vertrauen beehrt wird.«</p>
+            <p rendition="#et">»So ist es ja leicht erklärlich, daß Sie von den hunderttausend Gulden nichts wissen; die Marquise hat von dem Einen, aber nicht auch von dem Anderen gesprochen. Uebrigens deckt der Stein die Summe mehr als um das Zehnfache.«</p>
+            <p rendition="#et">»Darf man ihn sehen?«</p>
+            <p rendition="#et">»Da Sie bereits so weit unterrichtet sind, halte ich es für keinen Wortbruch, wenn ich Ihnen den Diamanten zeige.«</p>
+            <p rendition="#et">Er öffnete das Fach, in welchem er ihn verborgen hatte, und gab Langenau das Etui. Dieser betrachtete den Stein mit der größten Aufmerksamkeit und meinte dann:</p>
+            <p rendition="#et">»Kenner bin ich nicht, aber allem Anscheine nach ist der Diamant wirklich ächt; nur fällt mir ein Umstand auf – – –«</p>
+            <p rendition="#et">»Welcher?«</p>
+            <p rendition="#et">»Ich hatte Gelegenheit, die französischen Krondiamanten sehr eingehend mustern zu können, und kann mich nicht entsinnen, diesen hier unter ihnen gesehen zu haben.«</p>
+            <p rendition="#et">»Hierfür wäre mehr als eine Erklärung zu finden. Warum sollen wir den Vorschuß nicht leisten, wenn der Stein ächt ist? Sie lieben den Grafen nicht und mögen Ihre Gründe dazu haben, doch in geschäftlichen Angelegenheiten ist man oft genöthigt, gegen persönliche In- oder Declinationen zu handeln. Trafen Sie den Grafen in Paris?«</p>
+            <p rendition="#et">»In Versailles. Ich hatte ihm eine schwere diplomatische Niederlage zu verdanken, nachdem ich des Sieges bereits sicher gewesen war.«</p>
+            <p rendition="#et">»Ah, Sie sind rachsüchtig!«</p>
+            <p rendition="#et">»In des Wortes strengster Bedeutung nicht. Ich kannte den Schwindler bereits früher.«</p>
+            <p rendition="#et">»Sie nennen ihn einen Schwindler? Ein außergewöhnlicher Charakter pflegt auch außergewöhnlich zu handeln und kommt daher leicht in die Lage, falsch beurtheilt zu werden. Wo lernten Sie ihn kennen?«</p>
+            <p rendition="#et">»Auf Langenau.«</p>
+            <p rendition="#et">»Auf Ihrem Stammsitze? Wann war das?«</p>
+            <p rendition="#et">
+               <pb n="392" facs="#f0002"/>
+               <pb n="390" facs="#f0003"/>»Vor nunmehr vier Jahren. Mein Vater war ein Freund der abstracten Wissenschaften und verbrachte die größte Zeit mit dem Studium metaphysischer Probleme; zuletzt warf er sich auf die Magie, Astrologie und Alchymie, und obwohl sich dabei sein Wesen verdüsterte und er die Abgeschiedenheit dem Kreise seiner Familie vorzuziehen begann, konnten wir ihn doch unbesorgt seiner Lieblingsbeschäftigung überlassen, da wir aus derselben keinen weiteren Schaden für uns ersahen. Da plötzlich erschien der Graf von St. Germain unter dem Namen eines Ritters von Schöning auf Langenau; mein Vater hatte als Alchymiker einigen Ruf erlangt, was den gewandten Abenteurer angezogen haben mochte, und mit seinem Erscheinen trat das Unglück bei uns ein. Ich will mich nicht wieder in jene traurige Zeit versenken und Ihnen nur constatiren, daß der Graf meinen Vater in den Tod trieb, nachdem er alle unsere Habe mit Hülfe mir unbekannter Experimente an sich gerissen hatte. Die Mutter starb kurze Zeit darauf, und die Schwester verlor den Bräutigam, welcher als armer Offizier nun nicht daran denken konnte, sich den längst beabsichtigten Herd zu gründen.«</p>
+            <p rendition="#et">»Traurig, sehr traurig! Aber sind Sie wirklich überzeugt, daß der Graf an diesem Allen die Schuld trägt?«</p>
+            <p rendition="#et">»Ich bin so überzeugt, daß ich dieses Blei hier für ihn aufhebe.« Er griff unter die Weste und zog eine Kugel hervor, welche er an einer Schnur auf der Brust verwahrt hate. »Vater hat durch dasselbe den Tod gefunden; es wird dafür das Herz des Schurken treffen!« Er verbarg die Kugel wieder und strich sich mit der Hand über das Gesicht, als könne er mit dieser Bewegung die bösen Gedanken verscheuchen, welche in seinem Innern aufgetaucht waren. Dann warf er den Kopf zurück und frug: »Apropos, wissen Sie bereits, daß morgen Abend bei dem Grafen d'Affri große Soirée sein wird?«</p>
+            <p rendition="#et">»Ich bin bereits geladen.«</p>
+            <p rendition="#et">»Ich auch. Sie werden doch erscheinen?«</p>
+            <p rendition="#et">»Das ist noch unbestimmt. Vielleicht nimmt die Anleihe meine Zeit so in Anspruch, daß ich verhindert bin, zu erscheinen.«</p>
+            <p rendition="#et">»Was ich lebhaft bedauern würde. Die isolirte Lage, in welcher sich mein König gegenwärtig befindet, hat zur naturgemäßen Folge, daß auch seine Vertreter zurückgezogen erscheinen, und so werde ich, wenn Sie fehlen, auf mich selbst angewiesen sein.«</p>
+            <p rendition="#et">»Ich bin überzeugt, daß Sie dieses Unglück ebenso siegreich ertragen werden, wie Ihr Heldenkönig, und – ah, hier kommt Katje und bringt mir den Thee! Sie nehmen natürlich auch eine Tasse. Eigentlich sollte ich Sie mitleidslos fortjagen, da ich's ursprünglich außerordentlich nothwendig hatte; doch ist die Millionenanleihe so gewaltig über mich hereingebrochen, daß ich für meine Acten nicht die mindeste Aufmerksamkeit mehr habe. Katje, noch eine Tasse, einige Brödchen und zwei Pfeifen mit dem neu angekommenen Sumatrakanaster!« – –</p>
+            <p rendition="#et">
+               <pb n="401" facs="#f0005"/>
+Am anderen Abend bewegten sich in den prachtvollen und glänzend erleuchteten Räumen des französischen Botschafters außer den hohen Würdenträgern der Generalstaaten und den Vertretern aller europäischen Regierungen eine zahlreiche Menge berühmter oder einflußreicher Privatpersonen, deren Anwesenheit der Versammlung einen weniger diplomatischen Anstrich gab, als sie sonst besessen hätte.</p>
+            <p rendition="#et">Die Tafel war aufgehoben, an welcher man mehrere Stunden lang den materiellen Freuden des Lebens gehuldigt hatte, und in einzelne Gruppen aufgelöst und in die verschiedenen Zimmer vertheilt, suchten die Anwesenden ihren persönlichen oder staatlichen Interessen mittelst einer regen, beliebig angeknüpften und eben so leicht wieder abgebrochenen Unterhaltung gerecht zu werden.</p>
+            <p rendition="#et">Der Sekretär der »hochmögenden Herren Generalstaaten« fehlte wirklich, und der Baron von Langenau durchschritt in einem einfachen schwarzen Anzuge scheinbar theilnahmslos die Reihen der conversirenden Herren- und Damengruppen und gelangte schließlich in ein leeres Zimmer, welches die Enfilade der Gemächer abschloß. Es war nur spärlich erleuchtet. Er trat an eines der Fenster und blickte, von den weit herabgehenden Gardinen vollständig verhüllt, durch dasselbe hinaus in die abendliche Winterlandschaft.</p>
+            <p rendition="#et">Da vernahm er nahende Schritte.</p>
+            <p rendition="#et">Zwei Männer traten ein und nahmen auf einem der die Wände garnirenden Sammetpolster Platz. Ganz sicher hatten sie sich zurückgezogen, um irgend einen Gegenstand, welcher nicht für Jedermanns Ohren war, zu besprechen. Langenau stand schon im Begriffe, aus seinem unabsichtlichen Verstecke, wie es ihm die Ehre gebot, hervorzutreten, als er einen Namen nennen hörte, bei dessen Klange er zu bleiben beschloß. Er vernahm, daß einer der beiden Männer der Graf d'Affri selbst war; der andere war der berühmte Casa nova, welcher sich durch seine Flucht aus den Bleikammern Venedig's einen weithin klingenden Namen erworben hatte und jetzt von Frankreich hieher gekommen war, um im Auftrage des Herzogs von Choiseul eine wichtige Geldangelegenheit zu betreiben.</p>
+            <p rendition="#et">»Ich sage Ihnen, mein lieber Casanova, daß Sie sich mit der Hoffnung, gute Geschäfte zu machen, sicher täuschen werden, falls nicht plötzlich und unvorhergesehen günstigere Umstände eintreten,« meinte der Graf. »Ich hege viel Theilnahme für Sie und wünsche Ihnen das beste Gelingen, aber der König wird schlecht bedient, die Operationen des General-Controleur haben die Nation discreditirt, und man ist auf einen unvermeidlichen Bankerott gefaßt, wie ich Ihnen offen sagen will.«</p>
+            <p rendition="#et">»Das weiß ich Alles ganz genau, aber ich möchte dennoch nicht völlig an dem Erfolge meiner Sendung verzweifeln. Es mangelt der Regierung an Geld. Ich bin beauftragt, französische Staatspapiere, welche nominell den Werth von zwanzig Millionen repräsentiren, mit einem möglichst geringen Verluste gegen besser stehende ausländische Papiere umzutauschen, eine Manipulation, deren Gelingen mir nicht unmöglich erscheint, da der Minister mir versichert hat, daß der Krieg, welcher unsere Schuldscheine drückt, sich seinem Ende nahe. Die geheimen Friedensverhandlungen sind im vollsten Gange, wie mir von best unterrichteter Seite versichert wurde.«</p>
+            <p rendition="#et">»Ich will diese letztere Thatsache nicht in Abrede stellen, doch geben Sie sicherlich zu, daß ich als Gesandter über unsere politischen Hoffnungen und Befürchtungen vollständiger unterrichtet sein muß, als Sie. Die Staatskasse ist geleert, die Flotte vernichtet, und unsere Heere sind geschlagen. Der Friede wird in Folge dessen kein vortheilhafter für uns sein. Wer jetzt unsere Papiere kauft, muß lange warten, ehe er hoffen darf, sie ohne Verlust verwerthen zu können, und Herr von Bernis hat mich beauftragt, Ihnen die zwanzig Millionen nur mit acht Prozent <hi rendition="#i">minus</hi> zu überlassen. Ich bin sehr geneigt, zu glauben, daß bei einem solchen Angebote Niemand kaufen wird.«</p>
+            <p rendition="#et">»Ich halte trotzdem meine Hoffnung fest. Wenn der König sieht, daß seine Forderung zu hoch ist, wird er sich zu einer Reduction derselben entschließen. Ich hatte heute eine Conferenz mit Herrn Peels und sechs anderen Compagniechefs. Sie boten mir zehn Millionen baar, sieben Millionen in fünfprocentigen Papieren und verzichteten außerdem auf zwölfmalhunderttausend Gulden, welche die französisch-indische Gesellschaft der holländischen schuldet; das sind neun Procent Verlust für uns. Dieses Gebot scheint mir unter den gegenwärtigen Verhältnissen sehr acceptabel.«</p>
+            <p rendition="#et">»Sie täuschen sich, zu glauben, daß der König zu diesem Handel in irgend einer Beziehung stehe. Die Politik des »<hi rendition="#i">Oeil <pb n="394" facs="#f0006"/> de boeuf</hi>« befindet sich sehr oft und eben auch jetzt in der Lage, sich der Berechnung ihrer beglaubigten Vertreter zu entziehen.</p>
+            <p rendition="#et">»Ich verstehe Sie nicht.«</p>
+            <p rendition="#et">»Das ist möglich. Der König und der Herzog von Choiseul pflegen in Geldangelegenheiten selten Hand in Hand zu gehen; man zieht unabhängig von einander Gelder ein, nur mit dem einen Unterschiede, daß der Eine verantwortlich ist, während man einer Majestät von Gottes Gnaden unmöglich nachrechnen darf. Kennen Sie vielleicht den Grafen von St. Germain?«</p>
+            <p rendition="#et">»Ich habe ihn in Paris einige Male bei Frau d'Orfé gesehen.«</p>
+            <p rendition="#et">»Das glaube ich. Frau d'Orfé ist eine halbe Zauberin und gibt für Magie und dergleichen Dinge Summen aus, von denen jede einzelne einem ganzen Vermögen gleichkommt. Der Graf ist ihr ein Phänomen gewesen, in dessen Glanze sie um jeden Preis hat wandeln müssen. Was denken Sie von ihm?«</p>
+            <p rendition="#et">»Er besitzt ganz das Aussehen eines außerordentlichen Mannes. Der König schenkt ihm sein ganzes Vertrauen und hat ihm sogar eine sehr prachtvolle Wohnung in Chambord eingerichtet.«</p>
+            <p rendition="#et">»Ah!« rief d'Affri erstaunt. »Dieser Abenteurer scheint vom Glücke mehr bevorzugt zu werden, wie mancher brave Mann von großen Verdiensten. Wissen Sie, daß er sich hier befindet?«</p>
+            <p rendition="#et">»Kein Wort.«</p>
+            <p rendition="#et">»Er ist im »Prinzen von Oranien« abgestiegen und gerirt sich mit diplomatischer Miene, ohne mich eines Besuches zu würdigen. Ich habe die Art und den Zweck seiner Sendung nicht zu enträthseln vermocht, werde mich aber auch nicht in die Gefahr begeben, mich durch eine Empfehlung bloßzustellen, wenn man sich bei mir nach ihm erkundigen sollte.«</p>
+            <p rendition="#et">»Im Prinzen von Oranien? Das ist ja der Gasthof, in welchem auch ich wohne!«</p>
+            <p rendition="#et">»Dann läßt sich ja vermuthen, daß Sie einmal mit ihm zu sprechen kommen werden.«</p>
+            <p rendition="#et">»Auf alle Fälle, Graf.«</p>
+            <p rendition="#et">»Darf ich Ihnen vielleicht die Geschicklichkeit zutrauen, den Zweck seines Hierseins zu erfahren?«</p>
+            <p rendition="#et">»Ich kann nicht sagen, ob ich sie besitze, doch ist ja eine Probe immerhin erlaubt.«</p>
+            <p rendition="#et">»Versuchen Sie es. Jetzt aber lassen Sie uns zur Gesellschaft zurückkehren; man würde uns sonst vermissen!«</p>
+            <p rendition="#et">Die beiden Männer entfernten sich; der Lauscher verließ sein Versteck und kehrte nach ihnen in die vorderen Gemächer zurück. Es war seine Absicht, Casanova aufzusuchen. Dieser hatte sich ganz allein an einem Pfeilertischchen niedergelassen. Er war ein Mann, welcher sich durch eine seltene, eigenartige Schönheit auszeichnete und schien mit seinen großen, dunklen Augen die ganze Versammlung zu beherrschen. Langenau näherte sich ihm und begann, sich verbeugend:</p>
+            <p rendition="#et">»Entschuldigung! Sie sind Herr Casanova?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Werden Sie mir verzeihen, daß ich eine Unterredung mit Ihnen suche, ohne daß wir uns vorher vorgestellt wurden?«</p>
+            <p rendition="#et">»Meine Vergangenheit wird Ihnen beweisen, daß ich ein Feind jeden Zwanges bin. Nehmen Sie hier Platz, mein Herr!«</p>
+            <p rendition="#et">Der Baron setzte sich an der andern Seite des Tischchens nieder und erläuterte:</p>
+            <p rendition="#et">»Mein Name ist von Langenau – –«</p>
+            <p rendition="#et">»Ah, der Vertreter des Königs von Preußen in Haag?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Darf ich Sie meiner aufrichtigsten Sympathie versichern?«</p>
+            <p rendition="#et">»Ihre Theilnahme ist mir um so angenehmer, als ich Sie nur aufsuchte, weil mich der Wunsch trieb, Ihnen nützlich zu sein.«</p>
+            <p rendition="#et">»Verfolgen Sie bei diesem Wunsche eine besondere Richtung?«</p>
+            <p rendition="#et">»Gewiß! Sie sind von dem Herzog von Choiseul mit der Ordnung einer gewissen Angelegenheit betraut?«</p>
+            <p rendition="#et">»So ist es! Ich habe keine Veranlassung, diese Angelegenheit heimlich zu betreiben.«</p>
+            <p rendition="#et">»Man sagt Ihnen, daß Sie auf Schwierigkeiten stoßen werden?«</p>
+            <p rendition="#et">»Auch hier vermuthen Sie recht, doch denke ich, daß es mir gelingen wird, die Hindernisse glücklich zu überwinden.«</p>
+            <p rendition="#et">»Ich möchte gern das Meinige dazu beitragen, Ihnen die Lösung Ihrer nicht leichten Aufgabe zu ermöglichen.«</p>
+            <p rendition="#et">»Sie würden mich Ihnen dadurch zu lebhaftem Danke verbinden,« meinte der berühmte Verbannte Venedig's. »Sollte vielleicht wirklich eine positive Unterstützung in Ihrer Macht liegen, Herr Baron?«</p>
+            <p rendition="#et">»Zwar nicht eine positive, sondern eine negative, aber, wie ich hoffe, darum doch keine ganz und gar geringfügige. Ich bin nämlich in der glücklichen Lage, Ihnen ein ganz bedeutendes Hinderniß, welches sich Ihnen entgegenstellt und von dem Sie keine Nachricht zu haben scheinen, namhaft machen zu können. Wer seine Feinde kennt, ist auf dem besten Wege, sie zu besiegen.«</p>
+            <p rendition="#et">»Ein Hinderniß? Wirklich? Darf ich fragen, worin es besteht, Herr Baron?« frug Casanova.</p>
+            <p rendition="#et">»Es heißt Saint Germain.«</p>
+            <p rendition="#et">»Saint Germain? Kennen Sie diesen Mann?«</p>
+            <p rendition="#et">»Ein wenig, doch würde ich einem Andern gegenüber wohl schwerlich Lust haben, dies einzugestehen. Kennen Sie die Angelegenheit, welche ihn nach Haag geführt hat?«</p>
+            <p rendition="#et">»Nein,« antwortete Casanova und frug dann schnell: »Ist sie vielleicht Ihnen bekannt?«</p>
+            <p rendition="#et">»Vollständig.«</p>
+            <p rendition="#et">»Dürfen Sie davon sprechen?«</p>
+            <p rendition="#et">»Eigentlich nicht; da ich aber vermuthe, daß ich Sie in die Lage versetze, dem Grafen d'Affri einen Dienst zu erweisen, so sollen Sie Alles wissen. Ihre Angelegenheit müßte eigentlich scheitern, weil ohne Ihr Wissen eine ähnliche vom König selbst betrieben wird.«</p>
+            <p rendition="#et">»Nicht möglich! Sprechen Sie, Herr Baron!«</p>
+            <p rendition="#et">»Es handelt sich um nichts Geringeres als um eine Anleihe von hundert Millionen gegen Verpfändung der französischen Kronjuwelen. Der König möchte dieses Geschäft ohne Einmischung seiner Minister machen, und selbst ohne daß sie etwas davon erführen. Der Graf von St. Germain hält sich für den Mann, es glücklich zu Stande zu bringen, und läßt sich in Folge dieses Selbstvertrauens nicht herbei, dem Grafen d'Affri den schuldigen Besuch abzustatten. Vielleicht hat er hiezu noch andere Gründe, die ich aber einstweilen nur vermuthen möchte, ohne sie näher zu bezeichnen.«</p>
+            <p rendition="#et">»Sind Sie überzeugt, daß Sie mir die Wahrheit sagen?«</p>
+            <p rendition="#et">»Ich würde ohne diese Ueberzeugung nicht zu Ihnen sprechen.«</p>
+            <p rendition="#et">»Seit wann ist der Graf in dieser Angelegenheit hier thätig?«</p>
+            <p rendition="#et">»Seit gestern.«</p>
+            <p rendition="#et">»Wissen Sie etwas Ausführlicheres?«</p>
+            <p rendition="#et">»Ich kannte den Zweck seiner Reise bereits, bevor er hier anlangte, und muß – – –«</p>
+            <p rendition="#et">»So scheint es, daß man in Deutschland sehr genau von den geheimen Verhältnissen und Vorgängen des französischen Hofes unterrichtet ist!«</p>
+            <p rendition="#et">»Selbstverständlich! Herr Calcoen, Sekretär Ihrer Hochmögenden, hat dann mit mir über die Angelegenheit gesprochen und mir auch mitgetheilt, daß der Graf bereits den werthvollsten der Krondiamanten deponirt hat.«</p>
+            <p rendition="#et">»Sind Sie davon überzeugt?«</p>
+            <p rendition="#et">»Ich habe ihn selbst gesehen. Der Stein ist wirklich prachtvoll und vom reinsten Wasser. Wie ich dann heut erfuhr, ist man nicht abgeneigt, auf das Geschäft einzugehen, und Sie sehen ein, mein bester Casanova, daß Sie darunter leiden müßten. Wenn man dem König hundert Millionen borgt, wird man schwerlich geneigt sein, Ihnen für den Minister zwanzig Millionen umzuwechseln.«</p>
+            <p rendition="#et">»Sie haben Recht und ich schulde Ihnen großen Dank, Herr Baron. Ich verstehe vollkommen den Wink, welchen Sie mir geben wollen, und will Ihnen auch offen sagen, daß mir <pb n="395" facs="#f0007"/> die hundert Millionen des Königs nicht so sehr am Herzen liegen, als meine zwanzig; der Mensch ist ja ein Egoist!«</p>
+            <p rendition="#et">»Und ich also auch. Frankreich steht uns feindlich gegenüber, und es kann meinem König also nicht gleichgültig sein, ob Ludwig eine solche Summe erhält oder nicht. Man wird sich im Stillen wehren müssen.«</p>
+            <p rendition="#et">»Sie scheinen bereits über diese Sache nachgedacht zu haben. Können Sie mir vielleicht einen guten Rath ertheilen?«</p>
+            <p rendition="#et">»Ein Mann von Ihren Fähigkeiten bedarf des guten Rathes nicht, aber ich werde Sie dem Banquier Adrian Hope vorstellen, welcher die entscheidende Stimme in den St. Germain'schen Angelegenheiten hat und Ihnen in der Ihrigen auf meine Empfehlung hin gern nützlich sein wird. Sodann habe ich einen Gedanken, den ich Ihnen nicht verschweigen will. Ich kenne die französischen Krondiamanten und habe den deponirten Stein nicht unter ihnen gesehen; St. Germain verlangt für ihn eine Anzahlung von hunderttausend Gulden, wovon in seiner Instruktion nichts steht – –«</p>
+            <p rendition="#et">»Ah – –!«</p>
+            <p rendition="#et">»Allerdings. Nehmen Sie dazu, daß er ein geschickter Chemiker ist, so wird es Ihnen nicht schwer werden, einen Verdacht zu hegen, den ich nicht besiegen kann.«</p>
+            <p rendition="#et">»Sie denken beinahe Unmögliches!«</p>
+            <p rendition="#et">»Von meinem Standpunkte aus ist das, was Sie unmöglich nennen, sogar sehr wahrscheinlich. Ich kenne hier einen ausgezeichneten Chemiker, der ein armer, aber ehrlicher Mann ist und sich von dem Aplomb des Grafen nicht im Geringsten blenden lassen wird. Sie verstehen mich?«</p>
+            <p rendition="#et">»Sehr gut! Er wird den Krondiamanten untersuchen. Wollen Sie auch mich mit ihm bekannt machen?«</p>
+            <p rendition="#et">»Sobald Sie es wünschen. Er heißt van Holmen und wohnt hier ganz in der Nähe. Für Vertraute ist er auch während der Nacht zu sprechen und ich beabsichtige, nach der Soirée ihn aufzusuchen.«</p>
+            <p rendition="#et">»Darf ich Sie begleiten?«</p>
+            <p rendition="#et">»Sehr gern!« Dann setzte er mit feinem Lächeln hinzu: »Ich glaube nicht, daß der Graf d'Affri Veranlassung oder Neigung hat, St. Germain zu protegiren. Wüßte ich, daß Sie die Neigung des Gesandten besitzen, so würde ich darauf hindeuten, daß ein Brief von ihm an den Minister die Anleihe über den Haufen werfen dürfte.«</p>
+            <p rendition="#et">»Lassen Sie mich machen, Herr Baron! Der Graf befindet sich über die Sendung St. Germain's im Unklaren; indem Sie es mir möglich machen, ihn zu unterrichten, erweisen wir ihm einen Dienst, der ihn veranlassen wird, sich mir gefällig zu bezeigen. Verzeihen Sie, daß ich Sie verlasse! Ich werde sogleich mit ihm sprechen.«</p>
+            <p rendition="#et">Er erhob sich, um den ausgesprochenen Vorsatz zur Ausführung zu bringen. Der Baron von Langenau blieb mit dem Bewußtsein zurück, dem Grafen Saint Germain die erste Rate für das Andenken an den Park zu Versailles zurückzahlen zu können. Sobald es später thunlich war, winkte er Casanova und verließ mit ihm das Palais des Gesandten.</p>
+            <p rendition="#et">»Nun?« frug er, indem sie neben einander die Straße dahinschritten.</p>
+            <p rendition="#et">»D'Affri war im höchsten Grade überrascht.«</p>
+            <p rendition="#et">»Nannten Sie ihm meinen Namen?«</p>
+            <p rendition="#et">»Sie hatten mir keine Erlaubniß dazu gegeben.«</p>
+            <p rendition="#et">»Sie haben recht gehandelt. Will er schreiben?«</p>
+            <p rendition="#et">»Er hat es bereits gethan. Er hielt die Angelegenheit für so wichtig, daß er sich auf einige Minuten von der Gesellschaft zurückzog, um den Bericht abzufassen und einen Courier mit demselben sofort abzusenden.«</p>
+            <p rendition="#et">»Prächtig! Sehen Sie dies kleine Haus? Hier wohnt van Holmen.«</p>
+            <p rendition="#et">Sie befanden sich vor einem kleinen, unscheinbaren Häuschen, aus dessen Schornstein sie trotz der späten Nachtstunde einen dichten, dunklen Rauch aufsteigen sahen, in welchen sich zuweilen roth und blau glühende Funken mischten. Sie schritten um zwei Ecken und gelangten an die Hinterthür, an welche Langenau auf eine eigenthümliche Art pochte, worauf sie sich ganz von selbst öffnete und ebenso hinter ihnen ohne alle bemerkbare Hülfe sich wieder verschloß.</p>
+            <p rendition="#et">Nachdem sie einen kurzen, engen Flur durchschritten hatten, kamen sie in einen verräucherten, niedrigen Raum, dessen Ausstattung ihn als Laboratorium kennzeichnete. Unter einer Menge von Gläsern, Retorten, Tiegeln und allerlei seltsam geformten Gefäßen kauerte ein kleines, dürftiges Männchen, welches sich um die Eintretenden gar nicht zu kümmern schien, sondern mit großer Aufmerksamkeit dem Erkalten einer metallischen Flüssigkeit zusah, welche in eine Sandform ausgegossen worden war. Erst als sich dieselbe im Zustande der Erstarrung befand, erhob er sich, um die Ankömmlinge zu begrüßen. Dies geschah einfach und mit Herzlichkeit; er hatte nicht das Geringste von dem Wesen eines Charlatan an sich.</p>
+            <p rendition="#et">»Herr Baron,« frug er, »wie kommt es, daß ich Sie heut noch so spät bei mir sehe?«</p>
+            <p rendition="#et">»Ich wollte Ihnen hier Herrn Casanova vorstellen, der vielleicht nächstens Gelegenheit haben wird, sich für Ihre Kunst zu interessiren.«</p>
+            <p rendition="#et">»Herr Casanova aus Venedig?«</p>
+            <p rendition="#et">»Ja,« antwortete dieser.</p>
+            <p rendition="#et">»Dann wird Ihr Interesse nicht erst vielleicht nächstens wach werden, sondern Sie sind mir bereits Ihrem Rufe nach als ein guter Chemiker bekannt.«</p>
+            <p rendition="#et">»Es ist wahr, daß ich mich einst viel mit Chemie beschäftigte, doch brachte ich es nicht weit.«</p>
+            <p rendition="#et">»Sie sind bescheiden. Ich weiß sehr genau, daß Sie recht gute Kenntnisse besitzen; Schade nur, daß Ihre Lehrer sich mehr mit Alchymie anstatt mit der eigentlichen Scheidekunst beschäftigten!«</p>
+            <p rendition="#et">»Sie kennen mich, den Schüler, während ich von Ihnen, dem Meister, noch nichts gehört habe. Wie kommt das?«</p>
+            <p rendition="#et">Das kleine Männchen lächelte leise vor sich hin.</p>
+            <p rendition="#et">»Die wahre Kunst genügt sich selbst und macht kein Geschrei, dennoch aber bin ich nicht so ungekannt, wie Sie vielleicht meinen. Ich verkehre sogar mit Personen, welche sich auf dem Gebiete der Alchymie einen bedeutenden Namen erworben haben. Sie kennen die Frau d'Orfé in Paris?«</p>
+            <p rendition="#et">»Ich nenne mich sogar ihren Freund.«</p>
+            <p rendition="#et">»Das weiß ich, denn sie hat mir öfters von Ihnen geschrieben, und dort auf dem Tische liegt noch ihr letzter Brief, in welchem sie Ihrer gedenkt. Ich erwarte soeben einen Mann, den Sie vor einigen Wochen bei ihr gesehen haben.«</p>
+            <p rendition="#et">»Darf ich fragen, wer dieser Mann ist?«</p>
+            <p rendition="#et">»Der Graf von St Germain.«</p>
+            <p rendition="#et">»Ah!« rief Casanova erstaunt. »Zählen Sie den Grafen auch zu Ihren Freunden?</p>
+            <p rendition="#et">»Ich? Hm!« Der Chemiker schüttelte stolz den Kopf. »Es gibt Hunderte, die ihn fast wie einen Gott verehren, ich aber halte ihn für einen klugen Quacksalber, welcher es versteht, aus den Dukaten anderer Leute sechzehnkarätiges Gold für sich zu machen. Er ist jetzt hier und benachrichtigte mich durch seinen Diener, daß er mir in der gegenwärtigen Stunde einen Besuch machen werde. Ich bin wirklich neugierig, zu erfahren, was ihn zu mir führt.«</p>
+            <p rendition="#et">»Es ist hier ein außerordentlich glücklicher Zufall vorhanden,« meinte der Baron von Langenau. »Eben der Graf ist es, dessentwegen wir zu Ihnen kommen. Er ist beauftragt, oder gibt wenigstens so an, die französischen Kronjuwelen gegen die Summe von hundert Millionen zu versetzen, und hat mit der Bitte um sofortige Auszahlung von hunderttausend Gulden den größten der Diamanten zur Caution gestellt. Ich sage Ihnen dies, weil ich weiß, daß Sie verschwiegen sind. Die Freundschaft zwischen diesem Grafen und dem König von Frankreich muß eine sehr innige und vertrauensvolle sein.«</p>
+            <p rendition="#et">»Ja,« versetzte van Holmen, »oder es ist das Vertrauen des Grafen auf die Naivetät anderer Leute ein ebenso großes. Ich errathe den Wunsch, welchen Sie mir vorzutragen beabsichtigen, und Sie brauchen ihn also gar nicht auszusprechen. Hören Sie diesen Ton? Die Thür ist gegangen. Treten Sie in dieses Kabinet. Er soll von Ihrer Anwesenheit nichts merken.«</p>
+            <p rendition="#et">Er öffnete eine hinter dem Rauchfange verborgene Thür und wies die beiden Männer in ein kleines Kämmerchen, welches von dem Laboratorium nur durch eine dünne Wand geschieden wurde, so daß man jedes Wort vernehmen konnte, welches in dem Laboratorium gesprochen wurde. Sie hörten das Geräusch einer<pb n="396" facs="#f0008"/> auf- und zugehenden Thür und waren dann Zeugen eines für sie sehr interessanten Gespräches.</p>
+            <p rendition="#et">»Sie sind van Holmen?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Ich bin der Graf von Saint Germain.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">Der Graf hatte jedenfalls erwartet, zu imponiren. Das einfache »So« des Chemikers schien ihn zu ärgern.</p>
+            <p rendition="#et">»Sie kennen mich?«</p>
+            <p rendition="#et">»Nein.«</p>
+            <p rendition="#et">»Aber mich kennt doch alle Welt, und Fürsten bemühen sich um meine Gunst.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">»Sie scheinen wenig oder gar nicht mit der Welt zu verkehren?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Eben deßhalb komme ich zu Ihnen, um Ihnen ein sehr gutes Geschäft in Vorschlag zu bringen.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">»Haben Sie Kenntniß von meinem berühmten<hi rendition="#i"> Aqua benedetta?</hi>«</p>
+            <p rendition="#et">»Nein.«</p>
+            <p rendition="#et">»Dieser Wundertrank ist der größte Triumph des Menschengeistes; wer ihn gebraucht, wird nie alt und stirbt nicht.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">»Ich habe dem König von Frankreich und der Marquise de Pompadour davon geben müssen; der Vorrath geht zur Neige, und der König bittet mich um Erneuerung. Ich bedarf zur Herstellung des Wassers ein vollständig eingerichtetes Laboratorium, und da ich meine Apparate nicht bei mir führe, so ersuche ich Sie, mir Ihr Laboratorium auf eine Stunde abzutreten. Ich werde den gegenwärtigen Zustand desselben respektiren und biete Ihnen als Lohn für Ihre Gefälligkeit diesen Diamanten an. Gehen Sie auf meinen Vorschlag ein?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Ich erhielt den Stein in Wien von dem Grafen Zobor als Geschenk; er ist seine zwölfhundert Gulden werth.«</p>
+            <p rendition="#et">»So.«</p>
+            <p rendition="#et">»Sind Sie eben jetzt beschäftigt?«</p>
+            <p rendition="#et">»Nein.«</p>
+            <p rendition="#et">»So werde ich sofort beginnen. Von Ihren Vorräthen brauche ich nichts, da ich die Ingredientien zu meinem <hi rendition="#i">Aqua benedetta</hi> hier in dieser Manteltasche bei mir führe.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">»Geht dieser Glockenzug nach Ihrem Wohnraume?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»So werde ich Sie durch die Glocke benachrichtigen, wenn ich fertig bin. Hier ist der Diamant. Ich werde binnen einer Stunde fertig sein, und Sie können gehen!«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">Eine Thür ging und ward hörbar von innen verschlossen. Nach kurzer Zeit öffnete sich ganz unvermuthet eine in dem Boden der Kammer angebrachte Fallklappe, deren Dasein die beiden Männer gar nicht bemerkt hatten, und aus ihr stieg der Chemiker empor, welcher lächelnd den beiden Andern Schweigen zuwinkte.</p>
+            <p rendition="#et">»Ein geistreiches Gespräch, nicht wahr?« flüsterte er. »Jetzt fabrizirt er sein Universal-Lebenswasser. Ich werde ihn dabei beobachten.«</p>
+            <p rendition="#et">Er stellte vorsichtig einen Stuhl an die Scheidewand, stieg auf denselben und öffnete geräuschlos einen unterhalb der Decke angebrachten Ventilator. Durch die entstandene Oeffnung war es möglich, Alles, was im Laboratorium vorging, zu beobachten. Er stand eine ziemliche Weile auf seinem Posten, ehe er herunterstieg.</p>
+            <p rendition="#et">»Nun?« frug der Baron.</p>
+            <p rendition="#et">»Nichts, gar nichts! Er beguckt sich die Töpfe und Tiegel. Ich bin fest überzeugt, daß sein <hi rendition="#i">Aqua benedetta</hi> nichts ist als eine ganz harmlose Mischung von destillirtem Wasser mit irgend einer wohlriechenden Flüssigkeit. Sein Besuch bei mir hat jedenfalls nur den Zweck der Reklame; aber es ist sehr leicht möglich, daß sein <hi rendition="#i">Aqua benedetta</hi> für ihn zu einem <hi rendition="#i">Aqua maledetta</hi> wird. Ich meine sehr, daß er einen großen Fehler begangen hat, mir den angeblichen Diamanten des Grafen Zobor zu schenken, denn ich werde denselben einer sehr genauen Analyse unterwerfen, und ich hoffe, daß Sie mich bis dahin nicht verlassen, um das Resultat meiner Untersuchung zu vernehmen.«</p>
+            <p rendition="#et">»Wir bleiben gern, denn es liegt ja in unserm Interesse, so bald wie möglich zu wissen, woran wir sind.«</p>
+            <p rendition="#et">Auch Casanova und Langenau bestiegen nach einander den Stuhl und bemerkten, daß es dem Grafen nicht einfiel, eine chemische Operation vorzunehmen. Erst nach Verlauf einer Stunde zog er ein Pulver hervor, welches er verbrannte. Ein außerordentlich lieblicher und feiner Duft verbreitete sich hierauf sogar in der Nebenkammer.</p>
+            <p rendition="#et">»Jetzt wird er klingeln,« meinte van Holmen. »Der Duft soll mich glauben machen, daß er wirklich gearbeitet hat.«</p>
+            <p rendition="#et">Er hatte Recht; die Glocke ertönte, und auf dieses Zeichen verschwand er in der Fallklappe und erschien darauf in dem durch den Grafen jetzt wieder von innen geöffneten Laboratorium.</p>
+            <p rendition="#et">»Riechen Sie etwas?« frug derselbe.</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Das ist der bei der Zubereitung des Elixirs entflohene Lebensduft. Das bloße Einathmen desselben wird Ihr Dasein auf ein ganzes Jahrzehnt verlängern.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">»Sind Sie auch sternenkundig?«</p>
+            <p rendition="#et">»Nein.«</p>
+            <p rendition="#et">»Das ist eine ganz unverzeihliche Unterlassungssünde von Ihnen. Wer die Stoffe beherrschen will, aus denen unsere Erde zusammengesetzt ist, muß vor allen Dingen den unendlichen und allgegenwärtigen Stoff zu beherrschen trachten, der die Urmaterie des universalen Lebens bildet.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">»Ich bin fertig, und Ihre Bezahlung haben Sie. Darf ich wiederkommen?«</p>
+            <p rendition="#et">»Ja!«</p>
+            <p rendition="#et">»Ich habe einige wichtige und complicirte Operationen vorzunehmen, welche eine längere Zeit erfordern, als dies heute nothwendig war. Doch wird meine Anwesenheit Ihnen zwar wohl eine kleine Unterbrechung Ihrer eigenen Arbeiten, aber keineswegs irgend einen Nachtheil bringen. Sie haben wohl bereits bemerkt, daß ich gewohnt bin, königlich zu bezahlen; die Berühmtheit gar nicht gerechnet, welche Ihr Laboratorium dadurch erlangen wird, daß ich in demselben meine Zaubermittel bereitet habe.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">Das ununterbrochene »Ja« und »So« schien doch den Grafen stutzig zu machen. Er warf einen scharfen, forschenden Blick in das unbewegliche Angesicht des kleinen Chemikers und meinte dann:</p>
+            <p rendition="#et">»Warum sprechen Sie nicht? Haben Sie das Gelübde gethan, nur einsilbige Worte in Anwendung zu bringen?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Dann ist mit Ihnen ja keine Unterhaltung möglich. Ich gehe also. Gute Nacht! Aber ich werde noch im Laufe dieser Woche wiederkommen.«</p>
+            <p rendition="#et">»So!«</p>
+            <p rendition="#et">Der berühmte Meister des Lebenelixirs entfernte sich mit einem sehr gnädigen Neigen seines Hauptes; der Chemiker ließ nicht die mindeste Lust zu einer Verbeugung spüren und begleitete ihn bis an die Thür, welche er sorgfältig hinter ihm verschloß. Dann kehrte er in das Laboratorium zurück und befreite Casanova und den Baron aus der engen Kammer.</p>
+            <p rendition="#et">»Das also war der hochberühmte Graf von St. Germain, der Abgott aller Astrologen, Magier und Alchymisten!«</p>
+            <p rendition="#et">»Ja, das war er,« meinte Langenau. »Es ist Ihre Pflicht, sich hoch beglückt über diesen unendlich ehrenvollen Besuch zu fühlen!«</p>
+            <p rendition="#et">»Hm, der Vorwand des <hi rendition="#i">Aqua benedetta</hi> diente natürlich nur als Einleitung. Wer weiß, welche chemischen Prozesse er vorzunehmen hat, die mit seinen hundert Millionen und den Krondiamanten in Beziehung stehen! Jetzt aber werde ich vor allen Dingen den Stein des Grafen Zobor einer Prüfung unterwerfen.«</p>
+            <p rendition="#et">Das Feuer war bereits ausgegangen, ein Zeichen, daß die Thätigkeit St. Germain's gleich Null gewesen sei. Er schürte es wieder an, füllte verschiedene Flaschen, Tiegel und andere Gefäße mit ebenso verschiedenen Ingredientien und unterwarf den Stein <pb n="397" facs="#f0009"/>
+               <pb n="406" facs="#f0010"/>einem Verfahren, zu welchem selbst Casanova das Verständniß und die Einsicht fehlten. Die Prozedur nahm eine lange Zeit in Anspruch, und der Morgen war längst angebrochen, als sie zu Ende ging.</p>
+            <p rendition="#et">Die zwei Zuschauer befanden sich in einer außerordentlichen Spannung, denn das Ergebniß dieser streng wissenschaftlichen Untersuchung mußte auf ihr Vorhaben von bedeutendem Einfluß sein.</p>
+            <p rendition="#et">»Endlich bin ich fertig!« entschied mit triumphirender Miene van Holmen.</p>
+            <p rendition="#et">»Und Ihre Entscheidung lautet?« frug der Baron.</p>
+            <p rendition="#et">»Sie wissen, woraus der Diamant besteht?«</p>
+            <p rendition="#et">»Allerdings. Er besteht aus reinem Kohlenstoff.«</p>
+            <p rendition="#et">»Und muß daher im Sauerstoffgas zu Kohlensäure verbrennen,« fügte Casanova hinzu.</p>
+            <p rendition="#et">»Richtig. Sie haben bemerkt, daß ich mit diesem Diamanten den mir von dem Grafen angegebenen Werth von zwölfhundert Gulden riskirt habe; ich wollte ihn verbrennen, aber es ist mir nicht gelungen. Ich habe ihn dann mit andern Stoffen behandelt und jetzt dieses feine, grauweiße Pulver erhalten, von welchem sich ein dünner, durchsichtiger und äußerst harter Niederschlag geschieden hat. Ich will in diesem Augenblick sterben, wenn der Stein ein Diamant gewesen ist. Welche Zusammensetzung er eigentlich hatte, kann ich jetzt nicht sagen, denn um dies zu bestimmen, müßte ich sowohl das Pulver als auch den Niederschlag einem weiteren und sehr complicirten Verfahren unterwerfen; doch hege ich schon jetzt die Ueberzeugung, daß wir es mit einer allerdings meisterhaft hergestellten glasartigen Composition zu thun haben.«</p>
+            <p rendition="#et">»Zieht der Versuch, einen Diamanten in Sauerstoffgas zu verbrennen, unbedingt den Verlust des ganzen Steines nach sich?«</p>
+            <p rendition="#et">»Nein, denn man kann den Prozeß des Verbrennens unterbrechen, obgleich die seine Schwierigkeiten hat, denen nicht jeder Chemiker gewachsen sein dürfte.«</p>
+            <p rendition="#et">»Getrauen Sie sich, den Krondiamanten, welchen der Graf deponirt hat, einer Prüfung zu unterwerfen, ohne daß der Werth desselben, wenn der Stein ächt sein sollte, bedeutend angegriffen wird?«</p>
+            <p rendition="#et">»Ich getraue es mir.«</p>
+            <p rendition="#et">»So nehmen Sie einstweilen unsern Dank für Ihre heutige Bemühung; sobald die Angelegenheit sich entschieden hat, wird –«</p>
+            <p rendition="#et">»O bitte,« fiel van Holmen ein; »Sie sind mir weder Dank noch Honorar schuldig! Im Interesse unserer herrlichen Wissenschaft muß jeder ächte Jünger derselben bestrebt sein, allem Schwindel mit allen Kräften entgegen zu arbeiten. Ich bin reichlich belohnt, wenn meine Arbeit dazu beitragen kann, einen Schelm zu entlarven, dem es bei seinem ungewöhnlichen Talente mehr als Andern gelang, Unheil zu säen und dafür Reichthum und Ehren zu ernten!«</p>
+            <p rendition="#et">Sie verließen den braven, kenntnißvollen Mann mit dem Gefühle der vollständigsten Hochachtung. Auf der Straße angekommen, blieb der Baron stehen.</p>
+            <p rendition="#et">»Wir haben unser Werk erst begonnen,« meinte er. »Wollen wir das Eisen nicht schmieden, so lange es noch warm ist?«</p>
+            <p rendition="#et">»Das versteht sich, Herr Baron,« antwortete Casanova. »Es ist zwar noch ziemlich früh am Morgen, aber einen Freund, wie es der Sekretär Calcoen Ihnen ist, darf man auch schon zu dieser Stunde aufsuchen.«</p>
+            <p rendition="#et">»Sie errathen, wohin ich mich zu wenden beabsichtigte. Lassen Sie uns zunächst ihn aufsuchen!«</p>
+            <p rendition="#et">Sie schritten nach der Wohnung des Sekretärs und trafen Frau Katje im Flur, welche, mit weißer Nachthaube auf dem Kopfe, emsig beschäftigt war, die roth und weißen Klinkerplatten des Fußbodens zu säubern. Sie begrüßte die beiden Männer, ein wenig erstaunt über den so frühen Besuch.</p>
+            <p rendition="#et">»Ist Mynheer Calcoen bereits munter?« frug der Baron.</p>
+            <p rendition="#et">»Bereits munter?« frug sie halb erstaunt und halb beleidigt. »Mynheer ist stets mit den Hühnern munter.«</p>
+            <p rendition="#et">»So können wir ihn wohl sprechen?«</p>
+            <p rendition="#et">»Da der Herr Baron dabei ist, ja, sonst aber nicht. Morgenstunde hat Gold im Munde; das ist eine gute Arbeitsregel.«</p>
+            <p rendition="#et">Sie stiegen die Treppe empor und gingen nach dem Studierzimmer des Sekretärs. Er hatte die Füße auf dem Kohlenbecken, die Zeitung in der Linken und die langrohrige Thonpfeife in der Rechten.</p>
+            <p rendition="#et">»Welch eine Ueberraschung!« rief er aus einer dichten Tabakswolke heraus. »Sie bringen mir sicher etwas höchst Wichtiges, Herr von Langenau.«</p>
+            <p rendition="#et">»Zunächst den Herrn Casanova hier, von dem Sie jedenfalls – – –«</p>
+            <p rendition="#et">»Gehört haben, nicht wahr? Wir haben uns sogar bereits gesprochen, und es sind also Komplimente zwischen uns nicht nöthig. Setzt Euch, Mynheers, und sagt, was Ihr mir bringt!«</p>
+            <p rendition="#et">»Wir kommen in der bekannten Krondiamantenangelegenheit.«</p>
+            <p rendition="#et">»Was? In dieser – – Aber ich denke, diese Angelegenheit ist tiefstes Geheimniß, und da stellen Sie mir auch Herrn Casanova als Eingeweihten vor.«</p>
+            <p rendition="#et">»Sie wissen, welche wichtige Aufgabe ihn hieher geführt hat. Die hochmögenden Herren machen ihm die Lösung derselben sehr schwer und sind, wie ich beinahe glaube, eher geneigt, einem Betrüger hundert Millionen zu geben, als einem ehrlichen Manne zwanzig Millionen umzuwechseln. Ich habe keinem Grafen von St. Germain Discretion gelobt und kann also über mein Geheimniß sprechen, zu wem mir beliebt. Ich habe triftige Gründe, Herrn Casanova in das Vertrauen zu ziehen; das geschah gestern Abend beim Grafen d'Affri, und jetzt sind wir bereits in der Lage, Ihnen mit einem Resultate dienen zu können.«</p>
+            <p rendition="#et">»Wirklich? Ich bin natürlich ganz Ohr!«</p>
+            <p rendition="#et">»Der deponirte Krondiamant befindet sich wohl noch in Ihrer Hand?«</p>
+            <p rendition="#et">»Nein. Ich habe ihn zur Verfügung der hochmögenden Herren gestellt, und er wurde dem Banquier Hope zur Aufbewahrung übergeben.«</p>
+            <p rendition="#et">»Ist er geprüft worden?«</p>
+            <p rendition="#et">»Von drei Kennern, welche ein untrügliches Auge besitzen.«</p>
+            <p rendition="#et">»Und wie lautete ihr Urtheil?«</p>
+            <p rendition="#et">»Er ist ächt.«</p>
+            <p rendition="#et">»Ah! Wirklich?«</p>
+            <p rendition="#et">»Ja. Die Herren Generalstaaten sind sehr geneigt, auf die Offerte des Grafen von St. Germain einzugehen.«</p>
+            <p rendition="#et">»Dann muß ich Ihnen sagen, daß sich die drei Sachverständigen wohl dennoch geirrt haben. Wir haben heute Nacht einen Diamanten des Grafen, welchen wohl mancher feine Kenner für ächt gehalten hätte, chemisch untersuchen lassen.«</p>
+            <p rendition="#et">»Bei wem?«</p>
+            <p rendition="#et">»Bei van Holmen.«</p>
+            <p rendition="#et">»Der ist sicher, und was er sagt, gilt als ein Schwur. Wie fand er den Stein?«</p>
+            <p rendition="#et">»Er war unächt, trotzdem der Graf ihn als Geschenk von dem Grafen Zobor erhalten haben wollte und seinen Werth auf zwölfhundert Gulden angab.«</p>
+            <p rendition="#et">»Ich bin erstaunt!«</p>
+            <p rendition="#et">»Wir nicht, denn wir hatten es nicht anders erwartet. Die zwölfhundert Gulden bestehen jetzt nur noch in einem winzigen Häufchen Pulver, für welches kein Mensch die kleinste Münze bezahlt.«</p>
+            <p rendition="#et">»Erzählen Sie, erzählen Sie, wenn ich es glauben soll!«</p>
+            <p rendition="#et">Der Baron gab einen ausführlichen Bericht über die Erlebnisse bei dem kleinen Chemiker. Als er zu Ende war, starrte ihn der Sekretär mit offenem Munde an. Die Pfeife war dem guten Manne längst ausgegangen. Er legte sie weg und erhob sich.</p>
+            <p rendition="#et">»Das ist höchst merkwürdig und muß beherziget werden. Wollt Ihr mit zu Adrian Hope?«</p>
+            <p rendition="#et">»Wir sind bereit dazu.«</p>
+            <p rendition="#et">In kurzer Zeit befanden sich die Drei auf dem Wege zum Banquier. Dort kamen Langenau und Casanova lange nicht zu Worte, denn der eifrige Mynheer Sekretär ließ es sich nicht nehmen, den Bericht selbst abzustatten. Hope hörte denselben mit der gespanntesten Aufmerksamkeit bis zu Ende. Dann erfolgte eine längere und sehr lebhafte Unterredung, nach deren Schluß die Drei den Banquier mit dem Versprechen der tiefsten Verschwiegenheit verließen. Noch unter der Thür reichte er Langenau und Casanova die Hand.</p>
+            <p rendition="#et">»Leben Sie wohl, meine Herren! Wenn sich Ihre Vermuthung bestätigt, so werden wir einen raffinirten Betrüger entlarven, und Sie haben sich die Dankbarkeit der Hochmögenden <pb n="398" facs="#f0011"/> erworben. In diesem Falle hege ich keinen Zweifel, daß die Umwechslung der zwanzig Millionen keinen Anstand finden wird, Mynheer Casanova. Mir würde es nur leid thun, daß wir dann gegen den Schwindler nicht nach den Gesetzen vorgehen könnten, weil wir Rücksicht auf Seine Majestät den König von Frankreich zu nehmen hätten.«</p>
+            <p rendition="#et">Als sich Casanova mit dem Baron allein befand, meinte er:</p>
+            <p rendition="#et">»Ich bin überzeugt, daß wir einem Siege entgegengehen, und werde Ihnen immer größern Dank schuldig!«</p>
+            <p rendition="#et">»Sie haben keine Veranlassung, von Dank zu sprechen, denn ich handle wohl nur als Egoist,« lautete die Antwort. »Ich bin ihm eine Revanche schuldig und glaube nun auch, daß es, um den Grafen zu entlarven, des Boten nicht bedurft hätte, welchen d'Affri gestern an den Herzog schickte.« – –</p>
+            <p rendition="#et">Er hatte mit dieser Meinung Recht, denn bereits am zweiten Tage erhielt der Graf von St. Germain durch einen unbekannten Boten folgendes Billet:</p>
+            <p>»Graf d'Affri hier, Gesandter des Königs von Frankreich, hat von den Herren Generalstaaten Ihre Auslieferung verlangt. Der von Ihnen deponirte Krondiamant wurde untersucht und als Composition erkannt. Er bleibt hier in Verwahrung, bis ihn der König selbst reklamirt. Zwei Stunden nach Empfang dieser Zeilen wird man kommen, um Sie zu arretiren.«</p>
+            <p rendition="#et">Wirklich kam nach zwei Stunden ein Polizeikommissär in die Wohnung des Grafen, fand ihn aber bereits abgereist. Die Verfolgung wurde natürlich nur höchst lässig betrieben, und so erfuhr man bald, daß er sich in England in Sicherheit befinde. Man hatte ihn aus Rücksicht auf Ludwig den Fünfzehnten entkommen lassen. – – –</p>
+         </div>
+      </body>
+   </text>
+</TEI>

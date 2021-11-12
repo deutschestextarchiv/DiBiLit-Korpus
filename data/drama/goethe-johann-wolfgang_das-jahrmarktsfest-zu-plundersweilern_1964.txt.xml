@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Das Jahrmarktsfest zu Plundersweilern</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118540238">
+                  <forename>Johann Wolfgang</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Goethe</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-01T12:22:46Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004850157</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Goethe, Johann Wolfgang/Dramen/Das Jahrmarktsfest zu Plundersweilern</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/11g69.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0006-65C6-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Johann Wolfgang von Goethe: Berliner Ausgabe. Poetische Werke [Band 1–16], Band 5, Berlin 1960 ff</bibl>
+            <bibl>Johann Wolfgang von Goethe: Berliner Ausgabe. Herausgegeben von Siegfried Seidel: Poetische Werke [Band 1–16]; Kunsttheoretische Schriften und Übersetzungen [Band 17–22], Berlin: Aufbau, 1960 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Poetische Werke</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">144 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Aufbau Verlag</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1964</date>
+                  <date type="firstPublication">1789</date>
+                  <date type="firstPublication" subtype="clariah">1789</date>
+                  <date type="firstPublication" subtype="zeno">1789</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1773"
+                        notAfter="1778"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="s" type="main">Berliner Ausgabe</title>
+                  <title level="s" type="volume">Band 5</title>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d520e226">Zweite Fassung. Entstanden 1773 und 1778. Erstdruck dieser Fassung in: Schriften, Leipzig (Göschen) 1789. Uraufführung am 20.10.1778 in Ettersburg.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d520e226">
+      <front>
+         <div type="front">
+            <head rend="h3" xml:id="tg1125.3.2">Johann Wolfgang Goethe</head>
+            <head rend="h2" xml:id="tg1125.3.3">Das Jahrmarktsfest zu Plundersweilern</head>
+            <head rend="h4" xml:id="tg1125.3.4">Ein Schönbartspiel</head>
+            <head rend="h4" xml:id="tg1125.3.5">[Zweite Fassung]</head>
+            <pb n="124" facs="#f0001"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tg1126">
+            <div xml:id="tg1126.2">
+               <div>
+                  <head rend="h4" xml:id="tg1126.2.1">[Stücktext]</head>
+                  <sp>
+                     <speaker xml:id="tg1126.2.2">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.3">Werd's rühmen und preisen weit und breit,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.4">Daß Plundersweilern dieser Zeit</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.5">Ein so hochgelahrter Doktor ziert,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.6">Der seine Kollegen nicht schikaniert.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.7">Habt Dank für den Erlaubnisschein!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.8">Hoffe, Ihr werdet zugegen sein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.9">Wenn wir heut abend auf allen vieren</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.10">Das liebe Publikum amüsieren.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.11">Ich hoff, es soll Euch wohl behagen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.12">Geht's nicht vom Herzen, so geht's vom Magen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.13">DOKTOR.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.14">Herr Bruder, Gott geb Euch seinen Segen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.15">Unzählbar, in Schnupftuchs-Hagelregen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.16">Den Profit kann ich Euch wohl gönnen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.17">Weiß, was im Grunde wir alle können.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.18">Läßt sich die Krankheit nicht kurieren,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.19">Muß man sie eben mit Hoffnung schmieren.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.20">Die Kranken sind wie Schwamm und Zunder;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.21">Ein neuer Arzt tut immer Wunder.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.22">Was gebt Ihr für eine Komödia?</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.23">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.24">Herr, es ist eine Tragödia,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.25">Voll süßer Worten und Sittensprüchen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.26">Hüten uns auch vor Zoten und Flüchen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.27">Seitdem in jeder großen Stadt</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.28">Man überreine Sitten hat.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.29">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.30">Da wird man sich wohl ennuyieren!</p>
+                     <pb n="124" facs="#f0002"/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.32">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.33">Könnt ich nur meinen Hanswurst kurieren;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.34">Der macht' Euch sicher große Freud,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.35">Weil Ihr davon ein Kenner seid.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.36">Doch ist's gar schwer, es recht zu machen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.37">Die Leute schämen sich zu lachen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.38">Mit Tugendsprüchen und großen Worten</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.39">Gefällt man wohl an allen Orten;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.40">Denn da denkt jeder für sich allein:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.41">So ein Mann magst du auch wohl sein!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.42">Doch wenn wir droben sprächen und täten,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.43">Wie sie gewöhnlich tun und reden,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.44">Da rief' ein jeder im Augenblick:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.45">Ei pfui, ein indezentes Stück!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.46">Allein, wir suchen zu gefallen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.47">Drum lügen wir und schmeicheln allen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.48">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.49">Sauer ist's, so sein Brot erwerben!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.50">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.51">Man sagt: es könne den Charakter verderben,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.52">Wenn man Verstellung als Handwerk treibt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.53">In fremde Seelen spricht und schreibt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.54">Und wenn man das sehr oft getan,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.55">Nehme man auch fremde Gemütsart an.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.56">Doch ach! wir scheinen oft zu scherzen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.57">Und haben viel Kummer unterm Herzen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.58">Verschenken tausend Stück Pistolen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.59">Und haben nicht, die Schuh' zu besohlen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.60">Unsre Helden sind gewöhnlich schüchtern,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.61">Auch spielen wir unsre Trunkenen nüchtern.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.62">So macht man Schelm und Bösewicht</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.63">Und hat davon keine Ader nicht.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.64">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.65">Der Rollen muß man sich nicht schämen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.66">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.67">Warum will man's uns übelnehmen?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.68">Tritt im gemeinen Lebenslauf</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.69">Ein jeder doch behutsam auf,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.70">Weiß sich in Zeit und Ort zu schicken,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.71">Bald sich zu heben und bald zu drücken</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.72">
+                           <pb n="125" facs="#f0003"/>
+Und so sich manches zu erwerben,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.73">Indes wir andre fast Hunger sterben.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.74">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.75">So habt Ihr also gute Leute?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.76">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.77">Ihre Talente, die seht Ihr heute;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.78">Auch sind sie wegen guter Sitten</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.79">An hohen Höfen wohlgelitten.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.80">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.81">Es setzt doch wohl mitunter Zank?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.82">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.83">Das geht noch ziemlich, Gott sei Dank!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.84">Sie können sich nicht immer leiden;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.85">Stark sind sie im Gesichterschneiden:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.86">Ich laß sie gelassen sich entzweien;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.87">Jeden Tag gibt's neue Parteien.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.88">Man muß nicht die Geduld verlieren,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.89">Doch sind sie bös zu transportieren.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.90">Will jetzt zu meinem Geschäfte gehn.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.91">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.92">Nun, alter Freund, auf Wiedersehn!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.93">BEDIENTER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.94">Ein Kompliment vom gnäd'gen Fräulein:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.95">Sie hofft, Sie werden so gütig sein</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.96">Und mit zu der Frau Amtmann gehen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.97">Um all das Gaukelspiel zu sehen.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.99">
+                        <hi rendition="#i">Der zweite Vorhang geht auf, man sieht den ganzen Jahrmarkt. Im Grunde steht das Brettergerüste des Marktschreiers, links eine Laube vor der Tür des Amtmanns, darin ein Tisch und Stühle. Während der Symphonie geht alles, doch in solcher Ordnung durcheinander, daß sich die Personen gegen der Vorderseite begegnen und dann sich in den Grund verlieren, um den andern Platz zu machen.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.101">TIROLER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.102">Kauft allerhand, kauft allerhand,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.103">Kauft lang' und kurze War!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.104">Sechs Kreuzer 's Stück, ist gar kein Geld,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.105">Wie's einem in die Hände fällt.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.106">Kauft allerhand, kauft allerhand,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.107">Kauft lang' und kurze War!</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.109">
+                        <hi rendition="#i">Der Bauer streift mit den Besen an den Tiroler und wirft ihm seine Sachen herunter. Streit zwischen beiden, währenddessen Marmotte von den zerstreuten Sachen einsteckt.</hi>
+                     </stage>
+                     <lb/>
+                     <pb n="126" facs="#f0004"/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.112">BAUER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.113">Besen kauft, Besen kauft!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.114">Groß und klein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.115">Schroff und rein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.116">Braun und weiß,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.117">All aus frischem Birkenreis;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.118">Kehrt die Gasse, Stub und Steiß</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.119">Besenreis, Besenreis!</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.121">
+                        <hi rendition="#i">Der Gang des Jahrmarkts geht fort.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.123">NÜRNBERGER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.124">Liebe Kindlein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.125">Kauft ein!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.126">Hier ein Hündlein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.127">Hier ein Schwein;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.128">Trummel und Schlegel,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.129">Ein Reitpferd, ein Wägel,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.130">Kugeln und Kegel,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.131">Kistchen und Pfeifer,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.132">Kutschen und Läufer,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.133">Husar und Schweizer;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.134">Nur ein paar Kreuzer,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.135">Ist alles dein!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.136">Kindlein, kauft ein!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.137">FRÄULEIN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.138">Die Leute schreien wie besessen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.139">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.140">Es gilt ums Abendessen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.141">TIROLERIN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.142">Kann ich mit meiner Ware dienen?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.143">FRÄULEIN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.144">Was führt Sie denn?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.145">TIROLERIN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.146">Gemalt neumodisch Band,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.147">Die leichtsten Palatinen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.148">Sind bei der Hand;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.149">Sehn Sie die allerliebsten Häubchen an,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.150">Die Fächer! was man sehen kann!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.151">Niedlich, scharmant!</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.153">
+                        <hi rendition="#i">Der Doktor tut artig mit der Tirolerin während des Beschauens der Waren; wird zuletzt dringender.</hi>
+                     </stage>
+                     <lb/>
+                     <pb n="127" facs="#f0005"/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.156">TIROLERIN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.157">Nicht immer gleich</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.158">Ist ein galantes Mädchen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.159">Ihr Herrn, für euch;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.160">Nimmt sich der gute Freund zuviel heraus.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.161">Gleich ist die Schneck in ihrem Haus,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.162">Und er macht so! –</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.164">
+                        <hi rendition="#i">Sie wischt dem Doktor das Maul.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.166">WAGENSCHMIERMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.167">Her! Her!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.168">Butterweiche Wagenschmer!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.169">Daß die Achsen nicht knirren</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.170">Und die Räder nicht girren.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.171">Yah! Yah!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.172">Ich und mein Esel sind auch da.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.174">
+                        <hi rendition="#i">Gouvernante kommt mit dem Pfarrer durchs Gedränge; er hält sich bei dem Pfefferkuchenmädchen auf; die Gouvernante ist unzufrieden.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.176">GOUVERNANTE.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.177">Dort steht der Doktor und mein Fräulen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.178">Herr Pfarrer, lassen Sie uns eilen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.179">PFEFFERKUCHENMÄDCHEN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.180">Ha, ha, ha!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.181">Nehmt von den Pfefferkuchen da!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.182">Sind gewürzt, süß und gut;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.183">Frisches Blut,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.184">Guten Mut;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.185">Pfeffernüß! ha, ha, ha!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.186">GOUVERNANTE.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.187">Geschwind, Herr Pfarrer, dann! –</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.188">Sticht Sie das Mädchen an?</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.189">PFARRER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.190">Wie Sie befehlen.</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.192">
+                        <hi rendition="#i">Zigeunerhauptmann und sein Bursch.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.194">ZIGEUNERHAUPTMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.195">Lumpen und Quark</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.196">Der ganze Mark!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.197">ZIGEUNERBURSCH.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.198">Die Pistolen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.199">Möcht ich mir holen!</l>
+                        <pb n="128" facs="#f0006"/>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.201">ZIGEUNERHAUPTMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.202">Sind nicht den Teufel wert!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.203">Weitmäulichte Laffen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.204">Feilschen und gaffen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.205">Gaffen und kaufen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.206">Bestienhaufen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.207">Kinder und Fratzen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.208">Affen und Katzen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.209">Möcht all das Zeug nicht,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.210">Wenn ich's geschenkt kriegt!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.211">Dürft ich nur über sie!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.212">ZIGEUNERBURSCH.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.213">Wetter! wir wollten sie!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.214">ZIGEUNERHAUPTMANN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.215">Wollten sie zausen!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.216">ZIGEUNERBURSCH.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.217">Wollten sie lausen!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.218">ZIGEUNERHAUPTMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.219">Mit zwanzig Mann</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.220">Mein wär der Kram!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.221">ZIGEUNERBURSCH.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.222">Wär wohl der Mühe wert.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.223">FRÄULEIN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.224">Frau Amtmann, Sie werden verzeihen –</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.225.part1">AMTMÄNNIN</speaker>
+                     <stage>
+                        <hi rendition="#i">kommt aus der Haustür.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.226">Wir freuen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.227">Uns von Herzen. Willkommner Besuch!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.228">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.229">Ist heut doch des Lärmens genug.</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.231">
+                        <hi rendition="#i">Bänkelsänger kommt mit seiner Frau und steckt sein Bild auf; die Leute versammeln sich.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.233">BÄNKELSÄNGER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.234">Ihr lieben Christen allgemein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.235">Wann wollt ihr euch verbessern?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.236">Ihr könnt nicht anders ruhig sein</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.237">Und euer Glück vergrößern:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.238">Das Laster weh dem Menschen tut;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.239">Die Tugend ist das höchste Gut</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.240">Und liegt euch vor den Füßen.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.242">
+                        <hi rendition="#i">Die folgenden Verse ad libitum.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.244">AMTMANN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.245">Der Mensch meint's doch gut.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.246">MARMOTTE.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.247">Ich komme schon durch manche Land'</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.248">Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.249">Und immer ich was zu essen fand</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.250">
+                           <pb n="129" facs="#f0007"/>
+Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.251">Avecque si, avecque la,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.252">Avecque la marmotte.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.253">Ich hab gesehn gar manchen Herrn</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.254">Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.255">Der hätt die Jungfern gar zu gern</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.256">Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.257">Avecque si, avecque la,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.258">Avecque la marmotte.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.259">Hab auch gesehn manch' Jungfer schön</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.260">Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.261">Die täte nach mir Kleinen sehn</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.262">Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.263">Avecque si, avecque la,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.264">Avecque la marmotte.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.265">Nun laßt mich nicht so gehn, ihr Herrn,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.266">Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.267">Die Burschen essen und trinken gern</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.268">Avecque la marmotte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.269">Avecque si, avecque la,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.270">Avecque la marmotte.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.272">
+                        <hi rendition="#i">Die Gesellschaft wirft den Knaben kleines Geld hin; Marmotte rafft alles auf.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.274">ZITHERSPIELBUB.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.275">Ai! Ai! meinen Kreuzer!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.276">Er hat mir meinen Kreuzer genommen!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.277">MARMOTTE.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.278">Ist nicht wahr, ist mein.</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.280">
+                        <hi rendition="#i">Balgen sich. Marmotte siegt, Zitherspielbub weint.</hi>
+                     </stage>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.282">
+                        <hi rendition="#i">Symphonie.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.284.part1">LICHTPUTZER</speaker>
+                     <stage>
+                        <hi rendition="#i">in Hanswursttracht, auf dem Theater.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.285">Wollen's gnädigst erlauben,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.286">Daß wir nicht anfangen?</l>
+                        <pb n="130" facs="#f0008"/>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.288">ZIGEUNERHAUPTMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.289">Wie die Schöpse laufen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.290">Vom Narren Gift zu kaufen!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.291">SCHWEINEMETZGER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.292">Führt mir die Schweine nach Haus!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.293">OCHSENHÄNDLER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.294">Die Ochsen langsam zum Ort hinaus!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.295">Wir kommen nach.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.296">Herr Bruder, der Wirt uns borgt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.297">Wir trinken eins. Die Herde ist versorgt.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.298">HANSWURST.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.299">Ihr mehnt, i bin Hanswurst, nit wahr?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.300">Hab sei Krage, sei Hose, sei Knopf;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.301">Hätt i au sei Kopf,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.302">Wär i Hanswurst ganz und gar.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.303">Is doch in der Art.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.304">Seht nur de Bart!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.305">Allons, wer kauf mir</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.306">Pflaster, Laxier!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.307">Hab soviel Durst</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.308">Als wie Hanswurst.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.309">Schnupftuch rauf!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.310">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.311">Wirst nit viel angeln, ist noch zu früh.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.312">Meine Damen und Herrn</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.313">Sähen wohl gern</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.314">'s treffliche Trauerstück;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.315">Und diesen Augenblick</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.316">Wird sich der Vorhang heben;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.317">Belieben nur achtzugeben.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.318">Ist die Historia</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.319">Von Esther in Drama;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.320">Ist nach der neusten Art,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.321">Zähnklapp und Grausen gepaart;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.322">Daß nur sehr schad ist,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.323">Daß heller Tag ist;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.324">Sollte stichdunkel sein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.325">Denn's sind viel Lichter drein.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.327">
+                        <hi rendition="#i">
+                           <pb n="131" facs="#f0009"/>
+Der Vorhang hebt sich.</hi>
+                     </stage>
+                     <stage rendition="#c" xml:id="tg1126.2.328">
+                        <hi rendition="#i">Man sieht an der Seite einen Thron und einen Galgen in der Ferne.</hi>
+                     </stage>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.330">
+                        <hi rendition="#i">Symphonie.</hi>
+                     </stage>
+                     <stage rendition="#c" xml:id="tg1126.2.331">
+                        <hi rendition="#i">Kaiser Ahasverus. Haman.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.333.part1">HAMAN</speaker>
+                     <stage>
+                        <hi rendition="#i">allein.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.334">Die du mit ew'ger Glut mich Tag und Nacht begleitest,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.335">Mir die Gedanken füllst und meine Schritte leitest,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.336">O Rache, wende nicht im letzten Augenblick</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.337">Die Hand von deinem Knecht! Es wägt sich mein Geschick.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.338">Was soll der hohe Glanz, der meinen Kopf umschwebet?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.339">Was soll der günst'ge Hauch, der längst mein Glück belebet,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.340">Da mir ein ganzes Reich gebückt zu Füßen liegt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.341">Wenn sich ein einziger nicht in dem Staube schmiegt?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.342">Was hilft's, auf soviel Herrn und Fürsten wegzugehen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.343">Wenn es ein Jude wagt, mir ins Gesicht zu sehen?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.344">Tut er auf Abram groß, auf unbeflecktes Blut,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.345">So lehr ihn unsre Macht des Tempels grause Glut,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.346">Und wie Jerusalem in Schutt und Staub zerfallen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.347">So lieg das ganze Volk, und Mardochai vor allen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.348">O kochte nur, wie hier, erst Ahasverus Blut!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.349">Da er ein König ist, ach, ist er viel zu gut.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.350.part1">AHASVERUS</speaker>
+                     <stage>
+                        <hi rendition="#i">tritt auf und spricht.</hi>
+                     </stage>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.351">Sieh Haman – bist du da?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.352">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.353">Ich warte hier schon lange.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.354">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.355">Du schläfst auch nie recht aus; es ist mir um dich bange.</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.357">
+                        <hi rendition="#i">Setzt sich.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.359">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.360">Erhabenster Monarch, da deine Majestät</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.361">Wie immer, seh ich wohl, auf Ros' und Flaumen geht,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.362">Welch einen Dank soll man den hohen Göttern sagen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.363">Für dein so selten Glück, die Krone leicht zu tragen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.364">
+                           <pb n="132" facs="#f0010"/>
+Dein Volk, wie Sand am Meer, macht dir so wenig Müh!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.365">Das ist nur Götterkraft; von ihnen hast du sie.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.366">So läßt sich ein Gebirg in fester Ruh nicht stören,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.367">Wenn Wälder ohne Zahl auf seinem Haupt sich mehren,</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.368">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.369">O ja, was das betrifft, die Götter machen's recht;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.370">So lebt und so regiert von jeher mein Geschlecht.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.371">Mit Müh hat keiner sich das weite Reich erworben,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.372">Und keiner jemals ist aus Sorglichkeit gestorben.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.373">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.374">Wie bin ich, Gnädigster, voll Unmut und Verdruß,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.375">Daß ich heut deine Ruh gezwungen stören muß!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.376">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.377">Was Ihr zu sagen habt, bitt ich Euch – kurz zu sagen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.378">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.379">Wo nehm ich Worte her, das Schrecknis vorzutragen?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.380">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.381">Wieso?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.382">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.383">Du kennst das Volk, das man die Juden nennt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.384">Das außer seinem Gott nie einen Herrn erkennt.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.385">Du gabst ihm Raum und Ruh, sich weit und breit zu mehren</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.386">Und sich nach seiner Art in deinem Land zu nähren;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.387">Du wurdest selbst ihr Gott, als ihrer sie verstieß</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.388">Und Stadt- und Tempelspracht in Flammen schwinden ließ:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.389">Und doch verkennen sie in dir den güt'gen Retter,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.390">Verachten dein Gesetz und spotten deiner Götter;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.391">Daß selbst dein Untertan ihr Glück mit Neide sieht</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.392">Und zweifelt, ob er auch vor rechten Göttern kniet.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.393">Laß sie durch ein Gesetz von ihrer Pflicht belehren</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.394">Und, wenn sie störrig sind, durch Flamm und Schwert bekehren.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.395">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.396">Mein Freund, ich lobe dich: du sprichst nach deiner Pflicht;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.397">Doch wie's ihr andre seht, so sieht's der König nicht.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.398">Mir ist es einerlei, wem sie die Psalmen singen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.399">Wenn sie nur ruhig sind und mir die Steuern bringen.</l>
+                        <pb n="133" facs="#f0011"/>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.401">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.402">Ich seh, Großmächtigster, dir nur gehört das Reich,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.403">Du bist an Gnad und Huld den hohen Göttern gleich!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.404">Doch ist das nicht allein: sie haben einen Glauben,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.405">Der sie berechtiget, die Fremden zu berauben,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.406">Und der Verwegenheit stehn deine Völker bloß.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.407">O König! säume nicht, denn die Gefahr ist groß.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.408">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.409">Wie wäre denn das jetzt so gar auf einmal kommen?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.410">Von Mord und Straßenraub hab ich lang nichts vernommen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.411">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.412">Auch ist's das eben nicht, wovon die Rede war:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.413">Der Jude liebt das Geld und fürchtet die Gefahr.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.414">Er weiß mit leichter Müh, und ohne viel zu wagen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.415">Durch Handel und durch Zins Geld aus dem Land zu tragen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.416">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.417">Ich weiß das nur zu gut. Mein Freund, ich bin nicht blind;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.418">Doch das tun andre mehr, die unbeschnitten sind.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.419">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.420">Das alles liebe sich vielleicht auch noch verschmerzen:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.421">Doch finden sie durch Geld den Schlüssel aller Herzen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.422">Und kein Geheimnis ist vor ihnen wohlverwahrt.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.423">Mit jedem handeln sie nach einer eignen Art.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.424">Sie wissen jedermann durch Borg und Tausch zu fassen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.425">Der kommt nie los, der sich nur einmal eingelassen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.426">Mit unsern Weibern auch ist es ein übel Spiel;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.427">Sie haben nie kein Geld und brauchen immer viel.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.428">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.429">Ha, ha! das geht zu weit! Ha, ha! du machst mich lachen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.430">Ein Jude wird dich doch nicht eifersüchtig machen?</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.431">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.432">Das nicht, Durchlauchtigster! Doch ist's ein alter Brauch:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.433">Wer's mit den Weibern hält, der hat die Männer auch;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.434">Und von dem niedern Volk, das in der Irre wandelt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.435">Wird Recht und Eigentum, Amt, Rang und Glück verhandelt.</l>
+                        <pb n="134" facs="#f0012"/>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.437">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.438">Du irrst dich, guter Mann! Wie könnte das geschehn?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.439">Das alles muß nach mir und meinem Willen gehn.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.440">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.441">Ich weiß vollkommen wohl; dir ist zwar niemand gleich,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.442">Doch gibt's viel große Herrn und Fürsten in dem Reich,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.443">Die dein so sanftes Joch nur wider Willen dulden.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.444">Sie haben Stolz genug, doch stecken sie in Schulden;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.445">Es ist ein jeglicher in deinem ganzen Land</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.446">Auf ein und andre Art mit Israel verwandt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.447">Und dieses schlaue Volk sieht einen Weg nur offen:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.448">Solang die Ordnung steht, so lang hat's nichts zu hoffen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.449">Es nährt drum insgeheim den fast getüschten Brand,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.450">Und eh wir's uns versehn, so flammt das ganze Land.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.451">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.452">Das ist das erste Mal nicht, daß uns dies begegnet;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.453">Doch unsre Waffen sind am Ende stets gesegnet:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.454">Wir schicken unser Heer und feiern jeden Sieg</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.455">Und sitzen ruhig hier, als wär da drauß' kein Krieg.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.456">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.457">Ein Aufruhr, angeflammt in wenig Augenblicken,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.458">Ist eben auch so bald durch Klugheit zu ersticken;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.459">Allein durch Rat und Geld nährt sich Rebellion;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.460">Vereint bestürmen sie, es wankt zuletzt der Thron.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.461">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.462">Der kann ganz sicher stehn, solang als ich drauf sitze!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.463">Man weiß, wie da herab ich gar erschrecklich blitze;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.464">Die Stuten sind von Gold, die Säulen Marmorstein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.465">In hundert Jahren fällt solch Wunderwerk nicht ein.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.466">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.467">Ach warum drängst du mich, dir alles zu erzählen?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.468">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.469">So sag es gradheraus, statt mich ringsum zu quälen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.470">So ein Gespräch ist mir ein schlechter Zeitvertreib.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.471">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.472">Ach Herr, sie wagen sich vielleicht an deinen Leib.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.473.part1">AHASVERUS</speaker>
+                     <stage>
+                        <hi rendition="#i">zusammenfahrend.</hi>
+                     </stage>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.474">Wie? was?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.475">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.476">Es ist gesagt. So fließet denn, ihr Klagen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.477">
+                           <pb n="135" facs="#f0013"/>
+Wer ist wohl Manns genug, um hier nicht zu verzagen?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.478">Tief in der Hölle ward die schwarze Tat erdacht,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.479">Und noch verbirgt ein Teil der Schuldigen die Nacht.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.480">Vergebens, daß dich Thron und Kron und Zepter schützen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.481">Du sollst nicht Babylon, nicht mehr dein Reich besitzen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.482">In fürchterlicher Nacht trennt die Verräterei</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.483">Mit Vatermörderhand dein Lebensband entzwei;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.484">Dein Blut, wofür das Blut von Tausenden geflossen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.485">Wird über Bett und Pfühl erbärmlich hingegossen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.486">Weh heulet im Palast, Weh heult durch Reich und Stadt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.487">Und weh, wer deinem Dienst sich aufgeopfert hat!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.488">Dein hoher Leichnam wird wie schlechtes Aas geachtet,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.489">Und deine Treuen sind in Reihen hingeschlachtet!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.490">Zuletzt, vom Morden satt, tilgt die Verräterhand</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.491">Ihr eigen schändlich Werk durch allgemeinen Brand.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.492">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.493">O weh! was will mir das? Mir wird ganz grün und blau!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.494">Ich glaub, ich sterbe gleich. – Geh, sag es meiner Frau!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.495">Die Zähne schlagen mir, die Kniee mir zusammen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.496">Mir läuft ein kalter Schweiß! schon seh ich Blut und Flammen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.497">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.498">Ermanne dich!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.499">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.500">Ach! Ach!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.501">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.502">Es ist wohl hohe Zeit;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.503">Doch treues Volk ist stets zu deinem Dienst bereit.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.504">Du wirst den Redlichsten an seinem Eifer kennen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.505">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.506">Je nun, was zaudert ihr? So laßt sie gleich verbrennen!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.507">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.508">Man muß behutsam gehn; so schnell hat's keine Not.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.509">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.510">Derweile stechen sie mich zwanzig Male tot.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.511">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.512">Das wollen wir nun schon mit unsern Waffen hindern.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.513">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.514">Und ich war so vergnügt als unter meinen Kindern!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.515">Mir wünschen sie den Tod? Das schmerzt mich gar zu sehr!</l>
+                        <pb n="136" facs="#f0014"/>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.517">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.518">Und, Herr, wer einmal stirbt, der ißt und trinkt nicht mehr.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.519">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.520">Man kann den Hochverrat nicht schrecklich gnug bestrafen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.521">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.522">Du solltest schon so früh bei deinen Vätern schlafen?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.523">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.524">Ei pfui! mir ist das Grab mehr als der Tod verhaßt!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.525">Ach! ach! mein würd'ger Freund! – Nun still! ich bin gefaßt.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.526">Nun soll's der ganzen Welt vor meinem Zorne grauen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.527">Geh, laß mir auf einmal zehntausend Galgen bauen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.528.part1">HAMAN</speaker>
+                     <stage>
+                        <hi rendition="#i">kniend.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.529">Unüberwindlichster! hier lieg ich, bitte Gnad!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.530">Es wär ums viele Volk – und um die Waldung schad.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.531">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.532">Steh auf! Dich hat kein Mensch an Großmut überschritten;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.533">Dich lehrt dein edel Herz, für Feinde selbst zu bitten.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.534">Steh auf! Wie meinst du das?</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.535">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.536">Gar mancher Bösewicht</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.537">Ist unter diesem Volk, doch alle sind es nicht;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.538">Und vor unschuld'gem Blut mög sich dein Schwert behüten!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.539">Bestrafen muß ein Fürst, nicht wie ein Tiger wüten!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.540">Das Ungeheu'r, das sich mit tausend Klauen regt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.541">Liegt kraftlos, wenn man ihm die Häupter niederschlägt.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.542">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.543">O wohl! So hängt mir sie, nur ohne viel Geschwätze!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.544">Der Kaiser will es so, so sagen's die Gesetze.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.545">Wer sind sie? Sag mir an.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.546">HAMAN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.547">Ach, das ist nicht bestimmt;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.548">Doch geht man niemals fehl, wenn man die Reichsten nimmt.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.549">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.550">Vermaledeite Brut, du sollst nicht länger leben!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.551">Und dir sei all ihr Gut und Hab und Haus gegeben!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.552">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.553">Ein trauriges Geschenk!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.554">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.555">Wer kommt dir erst in Sinn?</p>
+                     <pb n="137" facs="#f0015"/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.557">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.558">Der erst' ist Mardochai, Hofjud der Königin.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.559">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.560">O weh! da wird sie mir kein Stündchen Ruhe lassen!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.561">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.562">Ist er nur einmal tot, so wird sie schon sich fassen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.563">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.564">So hängt ihn denn geschwind und laßt sie nicht zu mir!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.565">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.566">Wen du nicht rufen läßt, der kommt so nicht zu dir.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.567">AHASVERUS.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.568">Wo ist ein Galgen nur? Hängt ihn, eh's jemand spüret!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.569">HAMAN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.570">Schon hab ich einen hier vorsorglich aufgeführet.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.571">AHASVERUS.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.572">Und fragt mich jetzt nicht mehr! Ich hab genug getan;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.573">Beschlossen hab ich es, nun geht's mich nicht mehr an.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.575">
+                        <hi rendition="#i">Ab.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.577">HANSWURST.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.578">Der erste Aktus ist nun vollbracht,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.579">Und der nun folgt – das ist der zweite.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.580">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.581">Liebe Freunde, gute Leute,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.582">Daß Menschenlieb und Freundlichkeit,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.583">Sorge für eure Gesundheit</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.584">Und Leibeswohl zu dieser Zeit</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.585">Mich diesen weiten Weg geführt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.586">Das seid ihr alle perschwadiert;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.587">Und von meiner Wissenschaft und Kunst</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.588">Werdet ihr, liebe Freunde, mit Gunst</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.589">Euch selbst am besten überführen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.590">Und ist so wenig zu verlieren.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.591">Zwar könnt ich euch Brief und Siegel weisen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.592">Von der Kaiserin aller Reußen</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.593">Und von Friedrich, dem König in Preußen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.594">Und allen Europens Potentaten –</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.595">Doch wer spricht gern von seinen Taten?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.596">Sind auch viele meiner Vorfahren,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.597">Die leider! nichts als Prahler waren.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.598">Ihr könntet's denken auch von mir,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.599">Drum rühm ich nichts und zeig euch hier</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.600">
+                           <pb n="138" facs="#f0016"/>
+Ein Päckel Arzenei, köstlich und gut;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.601">Die Ware sich selber loben tut.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.602">Wozu es alles schon gut gewesen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.603">Ist auf 'm gedruckten Zettel zu lesen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.604">Und enthält das Päckel ganz</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.605">Ein Magenpulver und Purganz,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.606">Ein Zahnpülverlein, honigsüße,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.607">Und einen Ring gegen alle Flüsse.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.608">Wird nur dafür ein Batzen begehrt;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.609">Ist in der Not wohl hundert wert.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.610">HANSWURST.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.611">Schnupftuch rauf!</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.613">
+                        <hi rendition="#i">Die Zuschauer kaufen beim Marktschreier.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.615">MILCHMÄDCHEN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.616">Kauft meine Milch!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.617">Kauft meine Eier!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.618">Sie sind gut</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.619">Und sind nicht teuer,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.620">Frisch, wie's einer nur begehrt!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.621">ZIGEUNERHAUPTMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.622">Das Milchmädchen da ist ein hübsches Ding;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.623">Ich kauft ihr wohl so einen zinnernen Ring.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.624">ZIGEUNERBURSCH.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.625">O ja, mir wär sie eben recht.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.626">ZIGEUNERHAUPTMANN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.627">Zuerst der Herr und dann der Knecht.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.628">BEIDE.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.629">Wie verkauft Sie Ihre Eier?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.630">MILCHMÄDCHEN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.631">Drei, ihr Herrn, für einen Dreier.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.632">BEIDE.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.633">Straf mich Gott, das sind sie wert.</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.635">
+                        <hi rendition="#i">Sie macht sich von ihnen los.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.637">MILCHMÄDCHEN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.638">Kauft meine Milch!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.639">Kauft meine Eier!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.640.part1">BEIDE</speaker>
+                     <stage>
+                        <hi rendition="#i">sie halten sie.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.641">Nicht so wild!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.642">O nicht so teuer!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.643">MILCHMÄDCHEN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.644">Was sollen mir</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.645">Die tollen Freier?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.646">Kauft meine Milch,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.647">
+                           <pb n="139" facs="#f0017"/>
+Kauft meine Eier!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.648">Dann seid ihr mir lieb und wert.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.649">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.650">Wie gefällt Ihnen das Drama?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.651">AMTMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.652">Nicht! Sind doch immer Scandala.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.653">Hab auch gleich ihnen sagen lassen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.654">Sie sollten das Ding geziemlicher fassen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.655">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.656">Was sagte denn der Entrepreneur?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.657">AMTMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.658">Es käme dergleichen Zeug nicht mehr,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.659">Und zuletzt Haman gehenkt erscheine</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.660">Zu Warnung und Schrecken der ganzen Gemeine.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.661">HANSWURST.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.662">Schnupftuch rauf!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.663">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.664">Die Herren gehn doch nicht von hinnen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.665">Wir wollen den zweiten Akt beginnen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.666">Indessen können sie sich besinnen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.667">Ob sie von meiner Ware was brauchen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.668">HANSWURST.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.669">Gebt acht! kommen euch Tränen in die Augen.</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.671">
+                        <hi rendition="#i">Musik.</hi>
+                     </stage>
+                     <stage rendition="#c" xml:id="tg1126.2.672">
+                        <hi rendition="#i">Esther und Mardochai treten auf.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.674.part1">MARDOCHAI</speaker>
+                     <stage>
+                        <hi rendition="#i">weinend und schluchzend.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.675">O greuliches Geschick! o schreckenvoller Schluß!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.676">O Untat, die dir heut mein Mund verkünden muß!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.677">Erbärmlich, Königin, muß ich vor dir erscheinen.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.678">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.679">So sag mir, was du willst, und hör nur auf zu weinen!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.680">MARDOCHAI.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.681">Hü hü! es hält's mein Herz, hü hü! es hält's nicht aus.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.682">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.683">Geh, weine dich erst satt, sonst bringst du nichts heraus.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.684">MARDOCHAI.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.685">Hü hü! es wird mir noch, hü hü! das Herz zersprengen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.686">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.687">Was gibt's denn?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.688">MARDOCHAI.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.689">U hu hu, ich soll heut abend hängen!</p>
+                     <pb n="140" facs="#f0018"/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.691">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.692">Ei, was du sagst, mein Freund! Ei, woher weißt du dies?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.693">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.694">Das ist sehr einerlei, genug, es ist gewiß.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.695">Darf denn der Glückliche dem schönsten Tage trauen?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.696">Darf einer denn auf Fels sein Haus geruhig bauen?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.697">Mich machte deine Gunst so sicher, Königin;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.698">Wie zittr' ich, da ich nun von den Verworfnen bin!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.699">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.700">Sag, wen gelüstet's denn, mein Freund, nach deinem Leben?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.701">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.702">Der stolze Haman hat's dem König angegeben.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.703">Wenn du dich nicht erbarmst, nicht eilst, mir beizustehn,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.704">Nicht schnell zum König gehst, so ist's um mich geschehn.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.705">ESTHER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.706">Die Bitte, armer Mann, kann ich dir nicht gewähren;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.707">Man kommt zum König nicht, er müßt es erst begehren.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.708">Tritt einer unverlangt dem König vors Gesicht,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.709">Du weißt, der Tod steht drauf! Gewiß, dein Ernst ist's nicht.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.710">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.711">O Unvergleichliche, du hast gar nichts zu wagen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.712">Wer deine Schönheit sieht, der kann dir nichts versagen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.713">Und in Gesetzen sind die Strafen nur gehäuft,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.714">Weil man sonst gar zu grob den König überläuft.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.715">ESTHER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.716">Und sollt ich auch, mein Freund, das Leben nicht verlieren,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.717">Mich warnt der Vasthi Sturz, ich mag es nicht probieren.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.718">MARDOCHAI.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.719">So ist dir denn der Tod des Freundes einerlei?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.720">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.721">Allein, was hülf es dir? Wir stürben alle zwei.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.722">MARDOCHAI.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.723">Erhalt mein graues Haupt, Geld, Kinder, Weib und Ehre!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.724">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.725">Von Herzen gern, wenn's nur nicht so gefährlich wäre.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.726">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.727">Ich seh, dein hartes Herz ruf ich vergebens an.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.728">Gedenk, Undankbare, was ich für dich getan!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.729">Erzogen hab ich dich von deinen ersten Tagen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.730">Ich habe dich gelehrt, bei Hof dich zu betragen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.731">
+                           <pb n="141" facs="#f0019"/>
+Du hättest lange schon des Königs Gunst verscherzt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.732">Er hätte lange schon sich satt an dir geherzt;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.733">Du bist oft gar zu grad und wärest längst verkleinert,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.734">Hätt ich nicht deine Lieb und deine Pflicht verfeinert.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.735">Dir kam allein durch mich der König unters Joch,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.736">Und durch mich ganz allein besitzest du ihn noch.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.737">ESTHER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.738">Von selbsten hab ich wohl nicht Gunst noch Glück erworben;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.739">Dir dank ich's ganz allein, auch wenn du längst gestorben.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.740">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.741">O stürb ich für mein Volk und unser heilig Land!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.742">Allein ich sterb umsonst durch die verruchte Hand.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.743">Dort hängt mein graues Haupt, dem ungestümen Regen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.744">Dem glühnden Sonnenschein und bittern Schnee entgegen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.745">Dort nascht geschäftig mir, zum Winter – Zeitvertreib,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.746">Ein garstig Rabenvolk das schöne Fett vom Leib!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.747">Dort schlagen ausgedörrt zuletzt die edlen Glieder</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.748">Von jedem leichten Wind mit Klappern hin und wider!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.749">Ein Greuel allem Volk, ein ew'ger Schandfleck mir,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.750">Ein Fluch auf Israel und, Königin – was dir?</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.751">ESTHER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.752">Gewiß groß Herzeleid! Doch kann ich es erlangen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.753">So sollst du mir nicht lang am leid'gen Galgen hangen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.754">Und mit sorgfält'gem Schmerz vortrefflich balsamiert,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.755">Begrab ich dein Gebein, recht wie es sich gebührt.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.756">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.757">Vergebens wirst du dann den treuen Freund beweinen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.758">Er wird dir in der Not nicht mehr wie sonst erscheinen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.759">Mit keinem Beutel Geld, den du so eifrig nahmst,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.760">Wenn du mit Schuldverdruß von Spiel und Handel kamst;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.761">Mit keinem neuen Kleid noch Perlen und Juwelen:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.762">Mein Geist erscheint dir leer, und, um dich recht zu quälen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.763">Bringt er nur die Gestalt von Schätzen aus der Gruft,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.764">Und wenn du's fassen willst, verschwindet's in die Luft.</l>
+                        <pb n="142" facs="#f0020"/>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.766">ESTHER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.767">Ei, weißt du was, mein Freund? Bedenke mich am Ende</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.768">Mit einem Kapital in deinem Testamente.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.769">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.770">Wie gerne tät ich das, von deiner Huld gerührt!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.771">Doch leider! ist mein Gut auch sämtlich konfisziert.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.772">Und dann muß ich den Tod der Brüder auch besorgen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.773">Kein einz'ger bleibt zurück, dir künftig mehr zu borgen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.774">Der schöne Handel fällt, es kommt kein Contreband</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.775">Durch unsre Industrie dir künftig mehr zur Hand.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.776">Die kleinste Zofe wird nichts mehr an dir beneiden;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.777">Dich werden, Mägden gleich, inländ'sche Zeuge kleiden;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.778">Und endlich wirst du so mit hoffnungsloser Pein</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.779">Die Sklavin deines Manns und seiner Leute sein!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.780">ESTHER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.781">Das ist nicht schön von dir! Was brauchst du's mir zu sagen?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.782">Kommt einmal diese Zeit, dann ist es Zeit zu klagen.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.784">
+                        <hi rendition="#i">Weinend.</hi>
+                     </stage>
+                     <lb/>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.786">Nein! Wird mir's so ergehn?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.787">MARDOCHAI.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.788">Ich schwör dir, anders nicht!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.789">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.790">Was tu ich?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.791">MARDOCHAI.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.792">Rett uns noch!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.793">ESTHER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.794">Ach, geh mir vom Gesicht!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.795">Ich wollte –</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.796">MARDOCHAI.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.797">Königin, ich bitte dich, erhöre!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.798">Was willst du?</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.799">ESTHER.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.800">Ach, ich wollt – daß alles anders wäre!</p>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.802">
+                        <hi rendition="#i">Ab.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.804.part1">MARDOCHAI</speaker>
+                     <stage>
+                        <hi rendition="#i">allein.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.805">Bei Gott! hier soll mich nicht manch schönes Wort verdrießen!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.806">Ich laß ihr keine Ruh, sie muß sich doch entschließen.</l>
+                     </lg>
+                     <lb/>
+                     <stage rendition="#c" xml:id="tg1126.2.808">
+                        <hi rendition="#i">Ab.</hi>
+                     </stage>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.810">MARKTSCHREIER.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.811">Seiltänzer und Springer sollten nun kommen;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.812">Doch haben die Tage so abgenommen.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.813">Allein morgen früh bei guter Zeit</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.814">Sind wir mit unsrer Kunst bereit.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.815">
+                           <pb n="143" facs="#f0021"/>
+Und wem zuletzt noch ein Päckel gefällt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.816">Der hat es um die Hälfte Geld.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.817.part1">SCHATTENSPIELMANN</speaker>
+                     <stage>
+                        <hi rendition="#i">hinter der Szene.</hi>
+                     </stage>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.818">Orgelum, orgelei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.819">Dudeldumdei!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.820">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.821">Laßt ihn herbeikommen.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.822">AMTMANN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.823">Bringt den Schirm heraus.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.824">DOKTOR.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.825">Tut die Lichter aus;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.826">Sind ja in einem honetten Haus.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.827">Nicht wahr, Herr Amtmann, man ist, was man bleibt?</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.828">AMTMANN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.829">Man ist, wie man's treibt.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.830">SCHATTENSPIELMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.831">Orgelum, orgelei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.832">Dudeldumdei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.833">Lichter weg! mein Lämpchen nur!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.834">Nimmt sich sonst nicht aus.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.835">Ins Dunkle da, Mesdames.</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.836">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.837">Von Herzen gern.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.838">SCHATTENSPIELMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.839">Orgelum, orgelei!:,:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.840">Ach, wie Sie is alles dunkel!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.841">Finsternis is,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.842">War sie all wüst und leer,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.843">Hab Sie all nicks auf dieser Erd gesehn.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.844">Orgelum:,:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.845">Sprach Sie Gott: »'s werd Licht!«</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.846">Wie's hell da reinbricht!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.847">Wie sie all durkeinandergehn,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.848">Die Element' alle vier!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.849">In sechs Tag' alles gemacht is,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.850">Sonn, Mond, Stern, Baum und Tier.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.851">Orgelum, orgelei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.852">Dudeldumdei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.853">Seh Sie Adam in die Paradies,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.854">Seh Sie Eva, hat sie die Schlang verführt.</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.855">Nausgejagt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.856">Mit Dorn und Disteln,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.857">Geburtsschmerzen geplagt,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.858">
+                           <pb n="144" facs="#f0022"/>
+O weh!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.859">Orgelum:,:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.860">Hat sie die Welt vermehrt</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.861">Mit viel gottlose Leut,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.862">Waren so fromm vorher!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.863">Habe gesunge, gebett!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.864">Glaube mehr an keine Gott,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.865">Is e Schand und e Spott!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.866">Seh Sie die Ritter und Damen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.867">Wie sie zusammenkamen,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.868">Sich begeh, sich begatte</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.869">In alle grüne Schatte,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.870">Uf alle grüne Heide:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.871">Kann das unser Herr Gott leide?</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.872">Orgelum, orgelei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.873">Dudeldumdei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.874">Fährt da die Sündflut rein,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.875">Wie sie gottserbärmlick schrein!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.876">All, all ersaufen schwer,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.877">Is gar keine Rettung mehr!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.878">Orgelum:,:</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.879">Guck Sie, in vollem Schuß</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.880">Fliegt daher Merkurius,</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.881">Macht ein End all dieser Not;</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.882">Dank sei dir, lieber Herre Gott!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.883">Orgelum, orgelei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.884">Dudeldumdei!</l>
+                     </lg>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.885">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.886">Ja, da wären wir geborgen!</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.887">FRÄULEIN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.888">Empfehlen uns.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.889">AMTMANN.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.890">Sie kommen doch wieder morgen?</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.891">GOUVERNANTE.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.892">Man hat an einmal satt.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.893">DOKTOR.</speaker>
+                     <p rend="zenoPLm4n4" xml:id="tg1126.2.894">Jeder Tag seine eigne Plage hat.</p>
+                  </sp>
+                  <sp>
+                     <speaker xml:id="tg1126.2.895">SCHATTENSPIELMANN.</speaker>
+                     <lg>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.896">Orgelum, orgelei!</l>
+                        <l rend="zenoPLm4n4" xml:id="tg1126.2.897">Dudeldumdei!</l>
+                     </lg>
+                  </sp>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

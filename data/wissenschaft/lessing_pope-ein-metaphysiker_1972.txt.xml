@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Pope ein Metaphysiker!</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <surname>Lessing</surname>
+                  <forename>Gotthold Ephraim</forename>
+               </persName>
+            </author>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118580744">
+                  <surname>Mendelssohn</surname>
+                  <forename>Moses</forename>
+               </persName>
+            </author>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:10Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005266777</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Theologiekritische und philosophische Schriften/Pope ein Metaphysiker!</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rjh4.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E54B-A</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 3, München 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 3</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">671 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1972</date>
+                  <date type="firstPublication">1755</date>
+                  <date type="firstPublication" subtype="clariah">1755</date>
+                  <date type="firstPublication" subtype="zeno">1755</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1729"
+                        notAfter="1755"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e134853">Entstanden in Zusammenarbeit mit Moses Mendelssohn. Erstdruck: Danzig (Johann Christian Schuster) 1755 (anonym).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Theologiekritische und philosophische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie; Philosophie</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Lessing-Gotthol-d1e134853">
+            <p rend="h3">Gotthold Ephraim Lessing / Moses Mendelssohn</p>
+            <p rend="h2">Pope ein Metaphysiker!</p>
+            <pb n="282" facs="#f0001"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Lessing-Gotthol-d1e134872" type="preface">
+            <head>
+               <pb n="634" facs="#f0002"/>
+               <pb n="633" facs="#f0003"/>Vorbericht</head>
+            <p>Man würde es nur vergebens leugnen wollen, daß gegenwärtige Abhandlung durch die neuliche Aufgabe der Königl.-Preußischen Akademie der Wissenschaften, veranlaßt worden; und daher hat man auch diese Veranlassung selbst nirgends zu verstecken gesucht. Allein wenn der Leser deswegen an eine Schöne denken wollte, die sich aus Verdruß dem Publico Preis gibt, weil sie den Bräutigam, um welchen sie mit ihren Gespielinnen getanzt, nicht erhalten; so würde er ganz gewiß an eine falsche Vergleichung denken. Die Akademischen Richter werden es am besten wissen, daß ihnen diese Schrift keine Mühe gemacht hat. Es fanden sich Umstände welche die Einschickung derselben verhinderten, die aber ihrer Bekanntmachung durch den Druck nicht zuwider sind. Nur einen von diesen Umständen zunenen – – Sie hat <hi rendition="#i">zwei</hi> Verfasser, und hätte daher unter keinem andern Sinnspruche erscheinen können, als unter diesem:</p>
+            <p>Compulerant – – greges Corydon et Thyrsis in unum.</p>
+            <p>Gesetzt nun, sie wäre gekrönt worden! Was für Streitigkeit würde unter den Urhebern entstanden sein! Und diese wollten gerne keine unter sich haben.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e134903" type="chapter">
+            <head>Aufgabe</head>
+            <p>Die Akademie verlangt eine Untersuchung des <hi rendition="#i">Popischen</hi> Systems, welches in dem Satze <hi rendition="#i">alles ist gut</hi> enthalten ist. Und zwar so, daß man <hi rendition="#i">Erstlich</hi> den wahren Sinn dieses Satzes, der Hypothes seines Urhebers gemäß, bestimme.</p>
+            <p rendition="#et">
+               <hi rendition="#i">Zweitens</hi> ihn mit dem System des Optimismus, oder der Wahl des Besten, genau vergleiche, und</p>
+            <p rendition="#et">
+               <hi rendition="#i">Drittens</hi> die Gründe anführe, warum dieses Popische System entweder zu behaupten oder zu verwerfen sei.</p>
+            <p rendition="#et">
+               <pb n="635" facs="#f0004"/>
+Die Akademie verlangt eine Untersuchung des <hi rendition="#i">Popischen Systems,</hi> welches in dem Satze: alles ist gut, enthalten ist.</p>
+            <p rendition="#et">Ich bitte um Verzeihung, wenn ich gleich Anfangs gestehen muß, daß mir die Art, mit welcher diese Aufgabe ausgedrückt worden, nicht die beste zu sein scheinet. Da Thales, Plato, Chrysippus, Leibniz und Spinosa, und unzählig andere, einmütig bekennen: <hi rendition="#i">es sei alles gut;</hi> so müssen in diesen Worten entweder alle Systemata, oder es muß keines darin enthalten sein. Sie sind der Schluß, welchen jeder aus seinem besondern Lehrgebäude gezogen hat, und der vielleicht noch aus hundert andern wird gezogen werden. Sie sind das Bekenntnis derer, welche ohne Lehrgebäude philosophiert haben. Wollte man sie zu einem Kanon machen, nach welchem alle dahin einschlagende Fragen zu entscheiden wären; so würde mehr Bequemlichkeit als Verstand dabei sein. <hi rendition="#i">GOtt hat es so haben wollen, und weil er es so hat haben wollen, muß es gut sein:</hi> ist wahrhaftig eine sehr leichte Antwort, mit welcher man nie auf dem Trocknen bleibt. Man wird damit abgewiesen, aber nicht erleuchtet. Sie ist das beträchtlichste Stück der Weltweisheit der Faulen; denn was ist fauler, als sich bei einer jeden Naturbegebenheit auf den Willen GOttes zu berufen, ohne zu überlegen, ob der vorhabende Fall auch ein Gegenstand des göttlichen Willens habe sein können?</p>
+            <p rendition="#et">Wenn ich also glauben könnte, der Konzipient der Akademischen Aufgabe habe schlechterdings in den Worten <hi rendition="#i">Alles ist gut</hi> ein System zu finden verlangt; so würde ich billig fragen, ob er auch das Wort System in der strengen Bedeutung nehme, die es eigentlich haben soll? Allein er kann mit Recht begehren, daß man sich mehr an seinen Sinn, als an seine Worte halte. Besonders alsdenn, wenn der wahre Sinn, der falschen Worte ungeachtet durchstrahlet, wie es hier in den nähern Bestimmungen des Satzes hinlänglich geschiehet.</p>
+            <p rendition="#et">Diesem zu folge stelle ich mir also vor, die Akademie verlange eine Untersuchung desjenigen Systems, welches <hi rendition="#i">Pope</hi> erfunden oder angenommen habe, um die Wahrheit: <hi rendition="#i">daß alles gut sei,</hi> dadurch zu erhärten, oder daraus herzuleiten, oder wie man sonst sagen will. Nur muß man nicht sagen, daß das System in diesen Worten <hi rendition="#i">liegen</hi> solle. Es liegt nicht <pb n="636" facs="#f0005"/>
+eigentlicher darinne, als die Prämissen in einer Konklusion liegen, deren zu eben derselben eine unendliche Menge sein können.</p>
+            <p rendition="#et">Vielleicht wird man es mir verdenken, daß ich mich bei dieser Kleinigkeit aufgehalten habe. – – Zur Sache also! <hi rendition="#i">Eine Untersuchung des Popischen Systems</hi> – –</p>
+            <p rendition="#et">Ich habe nicht darüber nachdenken können, ohne mich vorher mit einem ziemlichen Erstaunen gefragt zu haben: wer ist <hi rendition="#i">Pope</hi>? – – – Ein Dichter – – – Ein Dichter? Was macht Saul unter den Propheten? Was macht ein Dichter unter den Metaphysikern?</p>
+            <p rendition="#et">Doch ein Dichter braucht nicht alle Zeit ein Dichter zu sein. Ich sehe keinen Widerspruch, daß er nicht auch ein Philosoph sein könne. Ebenderselbe, welcher in dem Frühlinge seines Lebens unter Liebesgöttern und Grazien, unter Musen und Faunen, mit dem Thyrsus in der Hand, herum geschwärmt; eben derselbe kann sich ja leicht in dem reifen Herbste seiner Jahre, in den philosophischen Mantel einhüllen, und jugendlichen Scherz mit männlichem Ernst abwechseln lassen. Diese Veränderung ist der Art, wie sich die Kräfte unserer Seelen entwickeln, gemäß genug.</p>
+            <p rendition="#et">Doch eine andere Frage machte diese Ausflucht zu nichte. – – Wenn? Wo hat Pope den Metaphysiker gespielt, den ich ihm nicht zutraue? – – Eben, als er seine Stärke in der Dichtkunst am meisten zeigte. In einem Gedichte. In einem Gedichte also, und zwar in einem Gedichte, das diesen Namen nach aller Strenge verdient, hat er ein System aufgeführet, welches eine ganze Akademie der Untersuchung wert erkennet? So sind also bei ihm der Poet und der strenge Philosoph – – strenger aber als der systematische kann keiner sein – – nicht zwei mit einander abwechselnde Gestalten, sondern er ist beides zugleich; er ist das eine, indem er das andere ist?</p>
+            <p rendition="#et">Dieses wollte mir schwer ein – – Gleichwohl suchte ich mich auf alle Art davon zu überzeugen. Und endlich behielten folgende Gedanken Platz, die ich eine</p>
+            <pb n="637" facs="#f0006"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e134997" type="chapter">
+            <head>Vorläufige Untersuchung,</head>
+            <p>
+               <hi rendition="#i">Ob ein Dichter, als ein Dichter, ein System haben könne?</hi>
+            </p>
+            <p>nennen will.</p>
+            <p rendition="#et">Hier hätte ich vielleicht Gelegenheit eine Erklärung des Worts System voraus zu schicken. Doch ich bleibe bei der Bescheidenheit, die ich schon oben verraten habe. Es ist so ungeziemend, als unnötig, einer Versammlung von Philosophen, das ist, einer Versammlung systematischer Köpfe zu sagen, was ein System sei?</p>
+            <p rendition="#et">Kaum daß es sich schickte, ihr zu sagen, was ein Gedicht sei; wenn dieses Wort nicht auf so verschiedene Art erklärt worden wäre, und ich nicht zeigen müßte, welche ich zu meiner Untersuchung für die bequemste hielte.</p>
+            <p rendition="#et">Ein Gedicht ist eine vollkommene sinnliche Rede. Man weiß, wie vieles die Worte <hi rendition="#i">vollkommen</hi> und<hi rendition="#i"> sinnlich</hi> in sich fassen, und wie sehr diese Erklärung allen andern vorgezogen zu werden verdienet, wenn man von der Natur der Poesie weniger seicht urteilen will.</p>
+            <p rendition="#et">Ein <hi rendition="#i">System</hi> also und eine sinnliche Rede – Noch fällt der Widerspruch dieser zwei Dinge nicht deutlich genug in die Augen. Ich werde mich auf den besondern Fall einschließen müssen, auf welchen es eben hier ankömmt; und für das System überhaupt, ein metaphysisches setzen.</p>
+            <p rendition="#et">Ein System metaphysischer Wahrheiten also, und eine sinnliche Rede; beides in einem – – Ob diese wohl einander aufreiben?</p>
+            <p rendition="#et">Was muß der Metaphysiker vor allen Dingen tun? – – Er muß die Worte, die er brauchen will, erklären; er muß sie nie in einem andern Verstande, als in dem erklärten anwenden; er muß sie mit keinen, dem Scheine nach gleichgültigen, verwechseln.</p>
+            <p rendition="#et">Welches von diesen beobachtet der Dichter? Keines. Schon der Wohlklang ist ihm eine hinlängliche Ursache, einen Ausdruck für den andern zu wählen, und die Abwechslung synonymischer Worte ist ihm eine Schönheit.</p>
+            <p rendition="#et">Man füge hierzu den Gebrauch der Figuren – Und worin bestehet das Wesen derselben? – – Darin, daß sie nie bei der <pb n="638" facs="#f0007"/>
+strengen Wahrheit bleiben; daß sie bald zu viel, und bald zu wenig sagen – – Nur einem Metaphysiker, von der Gattung eines <hi rendition="#i">Böhmens</hi>, kann man sie verzeihen.</p>
+            <p rendition="#et">Und die Ordnung des Metaphysikers? – – Er geht, in beständigen Schlüssen, immer von dem leichtern, zu dem schwerern fort; er nimmt sich nichts vorweg; er holet nichts nach. Wenn man die Wahrheiten auf eine sinnliche Art auseinander könnte wachsen sehen: so würde ihr Wachstum eben dieselben Staffeln beobachten, die er uns in der Überzeugung von derselben hinauf gehen läßt.</p>
+            <p rendition="#et">Allein Ordnung! Was hat der Dichter damit zu tun? Und noch dazu eine so sklavische Ordnung. Nichts ist der Begeisterung eines wahren Dichters mehr zuwider.</p>
+            <p rendition="#et">Man würde mich schwerlich diese kaum berührten Gedanken weiter ausführen lassen, ohne mir die Erfahrung entgegen zu setzen. Allein auch die Erfahrung ist auf meiner Seite. Sollte man mich also fragen, ob ich den Lucrez kenne; ob ich wisse, daß seine Poesie das System des Epikurs enthalte? Sollte man mir andere seines gleichen anführen; so würde ich ganz zuversichtlich antworten: Lucrez und seines gleichen, sind Versmacher, aber keine Dichter. Ich leugne nicht, daß man ein System in ein Sylbenmaß, oder auch in Reime bringen könne; sondern ich leugne daß dieses in ein Sylbenmaß oder in Reime gebrachte System ein Gedicht sein werde. – – Man erinnere sich nur, was ich unter einem Gedichte verstehe; und was alles in dem Begriffe einer sinnlichen Rede liegt. Er wird schwerlich in seinem ganzen Umfange auf die Poesie irgend eines Dichters eigentlicher anzuwenden sein, als auf die Popische.</p>
+            <p rendition="#et">Der Philosoph, welcher auf den Parnaß hinaufsteiget, und der Dichter, welcher sich in die Täler der ernsthaften und ruhigen Weisheit hinabbegeben will, treffen einander gleich auf dem halben Wege, wo sie, so zu reden, ihre Kleidung verwechseln, und wieder zurückgehen. Jeder bringt des andern! Gestalt in seine Wohnungen mit sich; weiter aber auch nichts, als die Gestalt. Der Dichter ist ein philosophischer Dichter, und der Weltweise ein poetischer Weltweise geworden. Allein ein philosophischer Dichter ist darum noch kein <pb n="639" facs="#f0008"/>
+Philosoph, und ein poetischer Weltweise ist darum noch kein Poet.</p>
+            <p rendition="#et">Aber so sind die Engländer. Ihre großen Geister sollen immer die größten, und ihre seltnen Köpfe sollen immer Wunder sein. Es schien ihnen nicht Ruhms gnug, Popen den vortrefflichsten philosophischen Dichter zu nennen. Sie wollen, daß er ein eben so großer Philosoph als Poet sei. Das ist: sie wollen das Unmögliche, oder sie wollen Popen als Poet um ein großes erniedrigen. Doch das letztere wollen sie gewiß nicht; sie wollen also das erstere.</p>
+            <p rendition="#et">Bisher habe ich gezeigt – – wenigstens zeigen wollen – – daß ein Dichter, als Dichter, kein System <hi rendition="#i">machen</hi> könne. Nunmehr will ich zeigen, daß er auch keines machen <hi rendition="#i">will</hi>; gesetzt auch, er könnte; gesetzt auch, meine Schwierigkeiten involvierten keine Unmöglichkeit, und sein Genie gebe ihm Mittel an die Hand, sie glücklich zu übersteigen.</p>
+            <p rendition="#et">Ich will mich gleich an Popen selbst halten. Sein Gedicht sollte kein unfruchtbarer Zusammenhang von Wahrheiten sein. Er nennt es selbst ein moralisches Gedicht, in welchem er die Wege Gottes in Ansehung der Menschen rechtfertigen wolle. Er suchte mehr einen lebhaften Eindruck, als eine tiefsinnige Überzeugung – – Was mußte er wohl also in dieser Absicht tun? Er mußte, ohne Zweifel, alle dahin einschlagende Wahrheiten in ihrem schönsten und stärksten Lichte seinen Lesern darstellen.</p>
+            <p rendition="#et">Nun überlege man, daß in einem System nicht alle Teile von gleicher Deutlichkeit sein können. Einige Wahrheiten desselben ergeben sich so gleich aus dem Grundsatze; andere sind mit gehäuften Schlüssen daraus herzuleiten. Doch diese letzten können in einem andern System die deutlichsten sein, in welchem jene erstern vielleicht die dunkelsten sind.</p>
+            <p rendition="#et">Der Philosoph macht sich aus dieser kleinen Unbequemlichkeit der Systeme nichts. Die Wahrheit, die er durch einen Schluß erlanget, ist ihm darum nicht mehr Wahrheit, als die, zu welcher er nicht anders als durch zwanzig Schlüsse gelangen kann; wenn diese zwanzig Schlüsse nur untrüglich sind. Genug, daß er alles in einen Zusammenhang gebracht hat; genug daß er diesen Zusammenhang mit einem Blicke, als ein <pb n="640" facs="#f0009"/>
+Ganzes zu übersehen vermag, ohne sich bei den feinen Verbindungen desselben aufzuhalten.</p>
+            <p rendition="#et">Allein ganz anders denkt der Dichter. Alles was er sagt, soll gleich starken Eindruck machen; alle seine Wahrheiten sollen gleich überzeugend rühren. Und dieses zu können, hat er kein ander Mittel, als diese Wahrheit nach diesem System, und jene nach einem andern auszudrücken. – – Er spricht mit dem Epikur, wo er die Wollust erheben will, und mit der Stoa, wo er die Tugend preisen soll. Die Wollust würde in den Versen eines Seneca, wenn er überall genau bei seinen Grundsätzen bleiben wollte, einen sehr traurigen Aufzug machen; eben so gewiß, als die Tugend, in den Liedern eines sich immer gleichen Epikurers, ziemlich das Ansehen einer Metze haben würde.</p>
+            <p rendition="#et">Jedoch ich will den Einwendungen Platz geben, die man hierwider machen könnte. Ich will mir es gefallen lassen; Pope mag eine Ausnahme sein. Er mag<hi rendition="#i"> Geschicklichkeit</hi> und <hi rendition="#i">Willen</hi> genug besessen haben, in seinem Gedichte, wo nicht ein System völlig zu entwerfen, wenigstens mit den Fingern auf ein gewisses zu zeigen. Er mag sich nur auf diejenigen Wahrheiten eingeschränkt haben, die sich nach diesem System sinnlich vortragen lassen. Er mag die übrigen um so viel eher übergangen sein, da es ohnedem die Pflicht eines Dichters nicht ist, alles zu erschöpfen.</p>
+            <p rendition="#et">Wohl! Es muß sich ausweisen; und es wird sich nicht besser ausweisen können, als wenn ich mich genau an die von der Akademie vorgeschriebenen Punkte halte. Diesen gemäß wird meine Abhandlung aus drei Abschnitten bestehen, welchen ich zuletzt einige historisch kritische Anmerkungen beifügen will.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e135112" type="chapter">
+            <head>Erster Abschnitt</head>
+            <p>
+               <hi rendition="#i">Sammlung derjenigen Sätze, in welchen das Popische System liegen müßte</hi>
+            </p>
+            <p>Man darf diese Sätze fast nirgends anders als in dem ganzen ersten Briefe, und in dem vierten, hin und wieder, suchen.</p>
+            <p>
+               <pb n="641" facs="#f0010"/>
+Ich habe keinen einzigen übergangen, der nur in etwas eine systematische Miene machte, und ich zweifele ob man außer folgenden <hi rendition="#i">Dreizehn</hi> noch einen antreffen wird, welcher in dieser Absicht in Betrachtung gezogen zu werden verdiente.</p>
+            <p>Die Ordnung nach welcher ich sie hersetzen will, ist nicht die Ordnung, welcher Pope in dem Vortrage gefolget ist. Sondern es ist die, welcher Pope im Denken muß gefolget sein; wenn er anders einer gefolgt ist.</p>
+            <p>Erster Satz</p>
+            <p>
+               <hi rendition="#i">Von allen möglichen Systemen muß Gott das beste geschaffen haben.</hi>
+            </p>
+            <p>Dieser Satz gehört Popen nicht eigentümlich zu; vielmehr zeigen seine Worte deutlich genug, daß er ihn als ausgemacht annimmt, und von einem andern entlehnet.</p>
+            <p>1. B. Z. 43. 44</p>
+            <p>Of Systems possible, if 'tis confest,</p>
+            <p>That Wisdom infinite must form the best etc.</p>
+            <p>Das ist: <hi rendition="#i">wenn man zugestehen muß, daß eine unendliche Weisheit aus allen mögligsten Systemen das beste erschaffen müsse.</hi> Wenn kann hier keine Ungewißheit anzeigen; sondern, weil er seine übrigen Sätze aus dieser Bedingung folgert, so muß es hier eben das sein, als wenn er gesagt hätte: da man notwendig gestehen muß etc.</p>
+            <p>Zweiter Satz</p>
+            <p>
+               <hi rendition="#i">In diesem besten System, muß alles zusammenhangen,</hi>
+            </p>
+            <p>
+               <hi rendition="#i">wenn nicht alles in einander fallen soll.</hi>
+            </p>
+            <p>1. B. Z. 45</p>
+            <p>Where all must fall, or all coherent be.</p>
+            <p>In dem gemeinen Exemplare, welches ich vor mir habe, heißt die letzte Hälfte dieser Zeile: or not coherent be. Ich vermute <pb n="642" facs="#f0011"/>
+nicht ohne Grund, daß es an statt not, all heißen müsse. Gesetzt aber Pope habe wirklich not geschrieben, so kann doch auch alsdenn kein anderer Sinn darinne liegen, als der, welchen ich in dem Satze ausgedrückt habe. – – Es kömmt hier nur noch darauf an, was Pope unter dem Zusammenhange in der Welt verstehe. Er erklärt sich zwar nicht ausdrücklich darüber; verschiedene Stellen aber zeigen, daß er diejenige Einrichtung darunter verstehe, nach welcher alle Grade der Vollkommenheit in der Welt besetzt wären, ohne daß irgendwo eine Lücke anzutreffen sei. Er setzt daher zu den angeführten Worten hinzu (Z. 46) and all that rises, rise in due degree. d.h. mit dem vorhergehenden zusammen genommen: <hi rendition="#i">Es muß alles in einander fallen, oder alles zusammenhangen, und was sich erhebt, muß sich in dem gebührenden Grade erheben.</hi> Folglich findet er den Zusammenhang darin, daß sich alles stufenweis in der Welt erhebe. Und ferner sagt er: (Z. 233) wenn einige Wesen vollkommen werden sollen; so müssen entweder die niedrigern Wesen an ihre Stelle rücken, oder es muß in der vollen Schöpfung eine Lücke bleiben, da alsdenn die ganze Leiter zerrüttet werden müßte, so bald nur eine einzige Stufe zerbrochen wird. Each System in gradation roll: (Z. 239) <hi rendition="#i">Ein jedes System gehet stufenweise fort;</hi> sagt überhaupt eben dieses. Und eben diese allmälige Degradation nennt er die große Kette, welche sich von dem Unendlichen bis auf den Menschen, und von dem Menschen bis auf das Nichts erstrecke. (1. Brief. Z. 232. 236) Folgende Zeilen aus dem vierten Briefe machen des Dichters Meinung vielleicht noch deutlicher. (Zeile 47 und folgende)</p>
+            <p>Order is Heav'n's great Law; and this confest,</p>
+            <p>Some are and must be, mightier than the rest,</p>
+            <p>More rich, more wise etc.</p>
+            <p>Er nimmt also diese Einrichtung, nach welcher alle Grade der Vollkommenheit verschieden sind, für die Ordnung an. Auch aus den folgenden Sätzen wird man es sehn, daß er mit dem Zusammenhange in der Welt keinen andern Begriff verknüpfe, als den wir eben auseinander gesetzt haben.</p>
+            <p>
+               <pb n="643" facs="#f0012"/>
+Dritter Satz</p>
+            <p>
+               <hi rendition="#i">In der Kette von Leben und Empfindung müssen irgendwo</hi>
+            </p>
+            <p>
+               <hi rendition="#i">solche Wesen, wie die Menschen sind, anzutreffen sein.</hi>
+            </p>
+            <p>1. B. Z. 47.48</p>
+            <p>–in the scale of life and sense, 'tis plain</p>
+            <p>There must be, some where, such a rank as Man.</p>
+            <p>Dieser Satz folgt unmittelbar aus dem vorhergehenden. Denn sollen in der besten Welt alle Grade der Vollkommenheit ihre Wirklichkeit erlangen; so muß auch der Rang, der für den Menschen gehört, nicht leer bleiben. Der Mensch hat also weder in der besten Welt ausbleiben, noch vollkommener geschaffen werden können. In beiden Fällen würde ein Grad der Vollkommenheit nicht wirklich geworden, und daher kein Zusammenhang in der besten Welt gewesen sein.</p>
+            <p>Man bedenke nunmehr wie wenig Popens Schluß bindet, wenn wir den Zusammenhang in der Welt anders erklärten, als es in dem vorigen Satze geschehen ist.</p>
+            <p>Of Systems possible, if 'tis confest,</p>
+            <p>That Wisdom infinite must form the best,</p>
+            <p>Where all etc. – –</p>
+            <p>Then in the scale of life and sense, 'tis plain</p>
+            <p>There must be, some where, such a rank as Man.</p>
+            <p>Aus keiner andern <hi rendition="#i">Ursache</hi>, sagt Pope, mußte ein solcher Rang, ein solcher Grad der Vollkommenheit, als der Mensch begleitet, wirklich werden, als, weil in der besten Welt alles in einander fallen oder zusammenhangen, und in einem gehörigen Grade sich erheben muß; das heißt, weil kein Rang unbesetzt bleiben darf.</p>
+            <p>Besser hat Pope vermutlich dem Einwurfe begegnen zu können, nicht geglaubt; warum so ein Wesen, wie der Mensch, erschaffen worden, oder warum er nicht vollkommener erschaffen worden? Auf das letztere noch näher zu antworten nimmt er (Brief 1. Zeile 251 und folgende) die Unveränderlichkeit der Wesen aller Dinge zu Hülfe, und sagt, daß dieses Verlangen eben so lächerlich sei als jenes, wenn der Fuß die <pb n="644" facs="#f0013"/>
+Hand, die Hand der Kopf, und der Kopf mit seinen Sinnen nicht bloß das Werkzeug des Geistes zu sein begehrten. In dem vierten Briefe (Zeile 160) drücket er sich hierüber noch stärker aus, wo er behauptet: die Frage, warum der Mensch nicht vollkommen erschaffen worden, wollte mit veränderten Worten nichts anders sagen, als dieses, warum der Mensch nicht ein Gott, und die Erde nicht ein Himmel sei?</p>
+            <p>Vierter Satz</p>
+            <p>
+               <hi rendition="#i">Die Glückseligkeit eines jeden Geschöpfs bestehet in einem</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Zustande, der nach seinem Wesen abgemessen ist.</hi>
+            </p>
+            <p>1. Brief. Zeile 175</p>
+            <p>All in exact proportion of the state.</p>
+            <p>und in der 71ten Zeile eben desselben Briefes sagt er von dem Menschen insbesondere:</p>
+            <p>His being measur'd to his state and place.</p>
+            <p>Folglich, sagt Pope, kömmt es nur hauptsächlich darauf an, daß man beweise, der Mensch sei wirklich in der Welt in einen Zustand gesetzt worden, welcher sich für sein Wesen und seinen Grad der Vollkommenheit schickt:</p>
+            <p>I. Brief. 49. 50. Zeile</p>
+            <p>And all the question (wrangle e're so long)</p>
+            <p>Is only this, if God has plac' d him wrong?</p>
+            <p>Fünfter Satz</p>
+            <p>
+               <hi rendition="#i">Der Mensch ist so vollkommen als er sein soll.</hi>
+            </p>
+            <p>1. Brief. Zeile 70</p>
+            <p>Man's as perfect as he ought.</p>
+            <p>Das heißt: der Zustand des Menschen ist wirklich nach seinem Wesen abgemessen, und daher ist der Mensch vollkommen. <pb n="645" facs="#f0014"/>
+Daß aber jenes sei, erhelle klar, wenn man den Zustand, darin der Mensch lebe, selbst betrachte; welches er in den folgenden Zeilen tut.</p>
+            <p>Sechster Satz</p>
+            <p>
+               <hi rendition="#i">GOtt wirkt nach allgemeinen, und nicht nach besondern</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Gesetzen; und in besondern Fällen handelt er nicht wider seine allgemeine Gesetze um eines Lieblings Willen.</hi>
+            </p>
+            <p>4. B. Z. 33. 34</p>
+            <p>––the universal cause</p>
+            <p>Acts not by partial but by general laws.</p>
+            <p>und Z. 119. ebd. B.</p>
+            <p>Think we like some weak Prince th' eternal Cause</p>
+            <p>Prone for his Fav'rites to reverse his Laws?</p>
+            <p>Diesen Gedanken führt der Dichter in dem Folgenden weiter aus, und erläutert ihn durch Beispiele. Er scheint aber damit das System des Malebranche angenommen zu haben, der nur die allgemeinen Gesetze zum Gegenstande des göttlichen Willens macht, und so den Urheber der Welt zu rechtfertigen glaubt, wenn gleich aus diesen allgemeinen Gesetzen Unvollkommenheiten erfolgten.</p>
+            <p>Die Schüler dieses Weltweisen behaupten folglich, Gott habe seiner Weisheit gemäß handeln und daher die Welt durch allgemeine Gesetze regieren müssen. In besondern Fällen könnte die Anwendung dieser allgemeinen Gesetze wohl so etwas hervorbringen, das an und für sich selbst entweder völlig unnütze oder gar schädlich, und daher den göttlichen Absichten eigentlich zuwider sei: allein es sei genug, daß die allgemeinen Gesetze von erheblichem Nutzen wären, und daß die Übel, welche in wenigen besondern Fällen daraus entstehen, nicht ohne einen besondern Ratschluß hätten gehoben werden können. Sie führen zum Exempel an: die allgemeinen mechanischen Gesetze, nach welchen der Regen zu gewissen Zeiten herunter falle, hätten einen unaussprechlichen Nutzen. Allein wie oft befeuchte der Regen nicht einen unfruchtbaren <pb n="646" facs="#f0015"/>
+Stein, wo er wirklich keinen Nutzen schaffe; und wie oft richte er nicht Überschwemmungen an, wo er gar schädlich wäre? Ihrer Meinung also nach, können dergleichen Unvollkommenheiten auch in der besten Welt entstehen, weil keine allgemeine Gesetze möglich sind, die den göttlichen Absichten in allen besondern Fällen genug täten. Oder, fragen sie, sollte Gott um eines Lieblings Willen – – – der wißbegierige Weltweise sei, zum Exempel, dieser Liebling – – die allgemeinen Gesetze brechen, nach welchen ein Ätna Feuer speien muß?</p>
+            <p>4. B. Z. 121. 122</p>
+            <p>Shall burning Aetna, if a sage requires,</p>
+            <p>Forget to thunder, and recall her fires?</p>
+            <p>Siebender Satz;</p>
+            <p>
+               <hi rendition="#i">Kein Übel kömmt von Gott.</hi>
+            </p>
+            <p>Das ist: das Übel, welches in der Welt erfolgt, ist niemals der Gegenstand des göttlichen Willens gewesen.</p>
+            <p>4. B. Z. 110</p>
+            <p>God sends not ill.</p>
+            <p>Pope hat dieses aus dem Vorhergehenden ohngefähr so geschlossen. Wenn das Übel nur in besondern Fällen entsteht, und eine Folge aus den allgemeinen Gesetzen ist; Gott aber nur diese allgemeine Gesetze, als allgemeine Gesetze, für gut befunden, und zum Gegenstande seines Willens gemacht hat: so kann man nicht sagen, daß er das Übel eigentlich gewollt habe, welches aus ihnen fließt, und ohne welches sie keine allgemeine Gesetze gewesen wären. Unser Dichter sucht diese Entschuldigung um ein großes kräftiger zu machen, wenn er sagt, daß noch dazu dieses aus den allgemeinen Gesetzen folgende Übel sehr selten sei. Er hat hiermit vielleicht nur so viel sagen wollen, daß Gott solche allgemeine Gesetze gewählt habe, aus welchen in besondern Fällen die wenigsten Übel entstünden. Allein er drückt sich auf eine sehr sonderbare Art <pb n="647" facs="#f0016"/>
+aus; er sagt: (1. B. Z. 143) th' exceptions are few, und an einem andern Orte Nature lets it fall, das Übel nämlich. Ich werde diesen Punkt in meinem dritten Abschnitte berühren müssen.</p>
+            <p>Achter Satz</p>
+            <p>
+               <hi rendition="#i">In der Welt kann nicht die mindeste Veränderung vorgehen, welche nicht eine Zerrüttung in allen Weltgebäuden, aus welchen das Ganze besteht, nach sich ziehen sollte.</hi>
+            </p>
+            <p>1. Br. Z. 233–236</p>
+            <p>––On superior pow'rs</p>
+            <p>Were we to press, inferior might on ours:</p>
+            <p>Or in the full creation leave a Void,</p>
+            <p>Where, one step broken, the great scale's destroy'd.</p>
+            <p>und Z. 239–242</p>
+            <p>And if each System in gradation roll</p>
+            <p>Alike essential to th' amazing whole;</p>
+            <p>The least confusion but in one, not all</p>
+            <p>That system only, but the whole must fall.</p>
+            <p>Neunter Satz</p>
+            <p>
+               <hi rendition="#i">Das natürliche und moralische Böse sind Folgen aus den allgemeinen Gesetzen, die Gott öfters zum Besten des Ganzen gelenkt, öfters auch lieber zugelassen hat, als daß er durch einen besondern Willen seinem allgemeinen hätte zuwider handeln sollen.</hi>
+            </p>
+            <p>1. Br. Z. 145. 146</p>
+            <p>If the great end be human happiness,</p>
+            <p>Then Nature <hi rendition="#i">deviats</hi>, and can man do less?</p>
+            <p>4. Br. Z. 112. 113</p>
+            <p>Or partial ill is universal good</p>
+            <p>– – – – or Nature lets it fall.</p>
+            <p>
+               <pb n="648" facs="#f0017"/>
+1. Br. Z. 161. 162.</p>
+            <p>– all subsists by elemental strife</p>
+            <p>And Passions are the Elements of life.</p>
+            <p>Zehnter Satz</p>
+            <p>
+               <hi rendition="#i">Es ist nicht alles um des Menschen Willen geschaffen worden, sondern der Mensch selbst ist vielleicht um eines andern Dinges Willen da.</hi>
+            </p>
+            <p>1. Br. Z. 57</p>
+            <p>–man, who here seems principal alone,</p>
+            <p>Perhaps acts second to some sphere unknown.</p>
+            <p>3. Br. Z. 24</p>
+            <p>Made beast in aid of man, and man of beast.</p>
+            <p>Eilfter Satz</p>
+            <p>
+               <hi rendition="#i">Die Unwissenheit unsers zukünftigen Zustandes ist uns zu unserm Besten gegeben worden.</hi>
+            </p>
+            <p>Wer würde ohne sie, sagt der Dichter, sein Leben hier ertragen können? (1. Br. Z. 76)</p>
+            <p>Und ebd. Z. 81</p>
+            <p>Oh blindness of the future! kindly giv'n</p>
+            <p>That each etc.</p>
+            <p>Anstatt der Kenntnis des Zukünftigen aber, sagt Pope, hat uns der Himmel die Hoffnung geschenkt, welche allein vermögend ist, uns unsre letzten Augenblicke zu versüßen.</p>
+            <p>Zwölfter Satz</p>
+            <p>
+               <hi rendition="#i">Der Mensch kann sich, ohne sein Nachteil, keine schärfern Sinne wünschen.</hi>
+            </p>
+            <p>
+               <pb n="649" facs="#f0018"/>
+Die Stelle, worin er dieses beweiset, ist zu lang, sie hier abzuschreiben. Sie stehet in dem ersten Briefe, und geht von der 185ten Zeile bis zu der 198ten. Dieser Satz aber, und die zwei vorhergehenden, sind eigentlich nähere Beweise des fünften Satzes, und sollen dartun, daß dem Menschen wirklich solche Gaben und Fähigkeiten zu Teil worden, als sich für seinen Stand am besten schicken. Die Frage wäre also beantwortet, auf welches es, nach Popens Meinung, in dieser Streitigkeit hauptsächlich ankömmt:</p>
+            <p>if God has placed him (man) wrong?</p>
+            <p>Dreizehnter Satz</p>
+            <p>
+               <hi rendition="#i">Die Leidenschaften des Menschen, die nichts als verschiedene Abänderungen der Eigenliebe sind, ohne welche die Vernunft unwirksam bleiben würde, sind ihm zum Besten gegeben worden.</hi>
+            </p>
+            <p>2. B. Z. 83</p>
+            <p>Modes of self-love the Passions we may call.</p>
+            <p>Ebend. Z. 44</p>
+            <p>Self-love to urge, and Reason to restrain.</p>
+            <p>und 1. Br. Z. 162</p>
+            <p>Passions are the Elements of life.</p>
+            <p>Pope gesteht zwar, daß unzählig viel Schwachheiten und Fehler aus den Leidenschaften entstehen; allein auch diese gründen sich auf ein allgemeines Gesetz, welches dieses ist: daß sie alle von einem wirklichen, oder einem anscheinenden Gute in Bewegung gesetzt werden sollen. Gott aber habe (nach dem 9ten Satze) alle Übel zulassen müssen, die aus den allgemeinen Gesetzen erfolgten, weil er sonst die allgemeinen Gesetze durch einen besondern Ratschluß hätte aufheben müssen.</p>
+            <p>2. Br. Z. 84</p>
+            <p>'Tis real good, or seeming, moves them all.</p>
+            <p>
+               <pb n="650" facs="#f0019"/>
+Schlussatz</p>
+            <p>Aus allen diesen Sätzen nun zusammen glaubt Pope den Schluß ziehen zu können, <hi rendition="#i">daß alles gut sei;</hi> que tout ce qui est, est bien. Ich drücke hier seinen Sinn in der Sprache seiner Übersetzer aus. Allein ist es wohl gut, sich auf diese zu verlassen? Wie wenn Pope nicht gesagt hätte, daß alles <hi rendition="#i">gut</hi>, sondern nur, daß alles<hi rendition="#i"> recht</hi> sei? Wollte man wohl <hi rendition="#i">recht</hi> und <hi rendition="#i">gut</hi> für einerlei nehmen? Hier sind seine Worte: (1. Br. Z. 286)</p>
+            <p>– Whatever is, is <hi rendition="#i">right</hi>.</p>
+            <p>Man wird hoffentlich einem Dichter, wie Pope ist, die Schande nicht antun, und sagen, daß er durch den Reim gezwungen worden, <hi rendition="#i">right</hi> hier anstatt irgend eines andern Worts zu setzen. Wenigstens war er in dem vierten Briefe (Z. 382) wo er diesen Ausspruch wiederholt, des Reimzwanges überhoben, und es muß mit ernstlichem Bedacht geschehen sein, daß er nicht good oder well gesagt hat. Und warum hat er es wohl nicht gesagt? Weil es offenbar mit seinen übrigen Gedanken würde gestritten haben. Da er selbst zugesteht, daß <hi rendition="#i">die Natur manche Übel fallen lasse;</hi> so konnte er wohl sagen, daß dem ohnegeachtet alles<hi rendition="#i"> recht</hi> sei, aber unmöglich, daß alles <hi rendition="#i">gut</hi> sei. <hi rendition="#i">Recht</hi> ist alles, weil alles, und das Übel selbst, in der Allgemeinheit der Gesetze, die der Gegenstand des göttlichen Willens waren, gegründet ist. <hi rendition="#i">Gut</hi> aber würde nur alsdenn alles sein, wenn diese allgemeinen Gesetze allezeit mit den göttlichen Absichten übereinstimmten. Zwar gestehe ich gern, daß auch das französische bien, weniger sagt als bon, ja daß es fast etwas anders sagt; desgleichen auch, daß das deutsche <hi rendition="#i">gut</hi>, wenn es <hi rendition="#i">adverbialiter</hi> und nicht <hi rendition="#i">substantive</hi> gebraucht wird, oft etwas ausdrückt, was eigentlich nur<hi rendition="#i"> recht</hi> ist. Allein es ist die Frage, ob man an diesen feinen Unterschied stets gedacht hat, so oft man das Popische: es ist <hi rendition="#i">alles gut,</hi> oder tout ce qui est, est bien gehöret?</p>
+            <p>Ich habe hier weiter nichts zu erinnern. – – Will man so gut sein, und die vorgetragnen Sätze für ein System gelten lassen, so kann ich es unterdessen recht wohl zufrieden sein. Ich will wünschen, daß es sich in dem Verstande des Lesers wenigstens <pb n="651" facs="#f0020"/>
+so lange aufrecht er halten möge, bis ich es in dem dritten Abschnitte, zum Teil mit den eignen Waffen seines Urhebers, selbst niederreißen kann. Ich würde mich der Gefahr, ein so schwankendes Gebäude nur einen Augenblick vor sich stehen zu lassen, nicht aussetzen, wenn ich mich nicht notwendig zu dem zweiten von der Akademie vorgeschriebenen Punkte vorher wenden müßte.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e135838" type="chapter">
+            <head>Zweiter Abschnitt</head>
+            <p>
+               <hi rendition="#i">Vergleichung obiger Sätze mit den Leibnizischen Lehren</hi>
+            </p>
+            <p>Wenn ich der Akademie andre Absichten zuschreiben könnte, als man einer Gesellschaft, die zum Aufnehmen der Wissenschaften bestimmt ist, zuschreiben kann; so würde ich fragen: ob man durch diese befohlene Vergleichung mehr die Popischen Sätze für philosophisch, oder mehr die Leibnizischen Sätze für poetisch habe erklären wollen?</p>
+            <p>Doch, wie gesagt, ich kann meine Frage sparen, und mich immer zu der Vergleichung selbst wenden. Aufs höchste möchte eine gar zu übertriebene Meinung von dem, mehr als menschlichem, Geiste des Engländers zum Grunde liegen.</p>
+            <p>Ich will in meiner Vergleichung die Ordnung der obigen Sätze beibehalten, doch ohne sie alle zu berühren. Verschiedne stehen nur der Verbindung wegen da; und verschiedne sind allzuspeziell, und mehr moralisch als metaphysisch. Beide Arten werde ich füglich übergehen können, und die Vergleichung wird dennoch vollständig sein.</p>
+            <p>Erster Satz</p>
+            <p>
+               <hi rendition="#i">Gott muß von allen möglichen Systemen das beste erschaffen haben.</hi> Dieses sagt Pope, und auch Leibniz hat sich an mehr als einem Orte vollkommen so ausgedrückt. Was jeder besonders dabei gedacht hat, muß aus dem Übrigen erhellen. Warburton aber hat völlig Unrecht, wenn er diesen Satz, unabhängig <pb n="652" facs="#f0021"/>
+von den andern Sätzen, nicht sowohl für Leibnizisch als für Platonisch erkennen will. Ich werde es weiter unten zeigen. Hier will ich nur noch erinnern, daß der Konzipient der akademischen Frage anstatt des Satzes: <hi rendition="#i">alles ist gut,</hi> notwendig diesen und keinen andern hätte wählen müssen, wenn er mit einigem Grunde sagen wollen, daß ein System darin liegen könne, welches vielleicht nicht das Leibnizische, aber doch etwa ein ähnliches wäre.</p>
+            <p>Zweiter Satz</p>
+            <p>
+               <hi rendition="#i">In dem besten System muß alles zusammenhangen.</hi> Was Pope unter diesem Zusammenhange verstehe, hat man gesehen. Diejenige Beschaffenheit der Welt nämlich, nach welcher alle Grade der Vollkommenheit von Nichts bis zur Gottheit mit Wesen angefüllt wären.</p>
+            <p rendition="#et">Leibniz hingegen setzt diesen Zusammenhang darin, daß alles in der Welt, eines aus dem andern, verständlich erkläret werden kann. Er siehet die Welt als eine Menge zufälliger Dinge an, die Teils neben einander existieren, Teils auf einander folgen. Diese verschiednen Dinge würden zusammen kein Ganzes ausmachen, wenn sie nicht alle, wie die Räder der Maschine, mit einander vereiniget wären: das heißt, wenn sich nicht aus jedem Dinge deutlich erklären ließe, warum alle übrigen so, und nicht anders neben ihm sind; und aus jedem vorhergehenden Zustande eines Dinges, warum dieser oder jener darauf folgen wird. Dieses muß ein unendlicher Verstand völlig daraus begreifen können, und der mindeste Teil der Welt muß ihm ein Spiegel sein, in welchem er alle übrigen Teile, die neben demselben sind, so wie alle Zustände, in welchen die Welt war, oder je sein wird, sehen kann.</p>
+            <p rendition="#et">Nirgends aber hat Leibniz gesagt, daß alle Grade der Vollkommenheit in der besten Welt besetzt sein müßten. Ich glaube auch nicht, daß er es hätte sagen können. Denn wenn er gleich mit Popen sagen dürfte:<hi rendition="#i"> die Schöpfung ist voll;</hi> so müßte er dennoch einen ganz andern Sinn mit diesen Worten <pb n="653" facs="#f0022"/>
+verknüpfen, als Pope damit verknüpft hat. Mit Leibnizen zu reden, ist die Schöpfung in der besten Welt deswegen allenthalben voll, weil allenthalben eines in dem andern gegründet ist, und daher der Raum oder die Ordnung der neben einander existierenden Dinge nirgends unterbrochen wird. Auf gleiche Art ist sie auch der Zeit nach <hi rendition="#i">voll</hi>, weil die Zustände, die in derselben auf einander folgen, niemals aufhören, wie Wirkungen und Ursachen in einander gegründet zu sein. Etwas ganz anders aber versteht Pope unter seiner <hi rendition="#i">full creation,</hi> wie sich aus der Verbindung seiner Worte schließen läßt.</p>
+            <p>1. Br. Z. 235</p>
+            <p>–––On superior pow'rs</p>
+            <p>Were we to press, inferior might on ours:</p>
+            <p>Or in the full creation leave a Void.</p>
+            <p>Die Schöpfung nämlich ist ihm nur deswegen <hi rendition="#i">voll</hi>, weil alle Grade darin besetzt sind.</p>
+            <p rendition="#et">Und dieses ist ein Beweis mehr, daß zwei verschiedne Schriftsteller deswegen noch nicht einerlei Meinung sind, weil sie sich an gewissen Stellen mit einerlei Worten ausdrücken. Pope hatte einen ganz andern Begriff von <hi rendition="#i">leer</hi> und <hi rendition="#i">voll</hi> in Ansehung der Schöpfung, als Leibniz; und daher konnten sie beide sagen: the creation is full, ohne weiter etwas unter sich gemein zu haben, als die bloßen Worte.</p>
+            <p>Dritter Satz</p>
+            <p>Aus dem Vorhergehenden schließt Pope a priori, daß notwendig der Mensch in der Welt angetroffen werden müsse, weil sonst die ihm gehörige Stelle unter den Wesen leer sein würde.</p>
+            <p rendition="#et">Leibniz hingegen beweiset das notwendige Dasein des Menschen a posteriori, und schließt, weil wirklich Menschen vorhanden sind, so müssen solche Wesen zur besten Welt gehört haben.</p>
+            <p>
+               <pb n="654" facs="#f0023"/>
+Sechster Satz</p>
+            <p>Pope, wie man gesehen hat, scheinet mit dem P. Malebranche in diesem Satze einerlei Meinung gehabt zu haben. Er behauptet nämlich, Gott könne in der Welt bloß deswegen böses geschehen lassen, weil er seinen allgemeinen Willen nicht durch besondre Ratschlüsse aufheben wolle. Notwendig müßten also in der Welt Mängel anzutreffen sein, die Gott, der besten Welt unbeschadet, hätte vermeiden können, wenn er seinen allgemeinen Willen in einigen Fällen durch einen besondern Ratschluß hätte aufheben wollen. Man darf nur folgende Stelle ansehen, um zu erkennen, daß dieses wirklich Popens Meinung gewesen sei.</p>
+            <p>4. Br. Z. 112</p>
+            <p>Or partial ill is universal good</p>
+            <p>– – or Nature lets it fall.</p>
+            <p>Dieses <hi rendition="#i">oder oder</hi> zeigt genugsam, daß das Übel in dem zweiten Falle zu der Vollkommenheit der Welt nichts beitrage, sondern daß es die Natur, oder die allgemeinen Gesetze fallen lassen.</p>
+            <p rendition="#et">Allein was behauptet Leibniz von allem diesen? – Leibniz behauptet, der allgemeine Ratschluß Gottes entstehe aus allen besondern Ratschlüssen zusammen genommen, und Gott könne, ohne der besten Welt zum Nachteile, kein Übel durch einen besondern Ratschluß aufheben. Denn nach ihm hanget das System der Absichten mit dem System der wirkenden Ursachen so genau zusammen, daß man dieses als eine Folge aus dem erstern ansehen kann. Man kann also nicht sagen, daß aus den allgemeinen Gesetzen der Natur, das ist, aus dem System der wirkenden Ursachen etwas erfolge, das mit den göttlichen Absichten nicht übereinstimmt; denn bloß aus der besten Verknüpfung der besondern Absichten, sind die allgemein wirkenden Ursachen und das allerweiseste Ganze entstanden. (Man sehe hievon die Theodizee §. 204. 205. 206)</p>
+            <p rendition="#et">Und hieraus nun erhellet, daß Pope und Leibniz nicht einmal in dem Begriffe der besten Welt einig sein können. Leibniz <pb n="655" facs="#f0024"/>
+sagt: wo verschiedene Regeln der Vollkommenheit zusammengesetzt werden sollen, ein Ganzes auszumachen; da müssen notwendig einige derselben wider einander stoßen, und durch dieses Zusammenstoßen müssen entweder Widersprüche entstehen, oder von der einen Seite Ausnahmen erfolgen. Die beste Welt ist also nach ihm diejenige, in welcher die wenigsten Ausnahmen, und diese wenigen Ausnahmen noch darzu von den am wenigsten wichtigen Regeln geschehen. Daher nun entstehen zwar die moralischen und natürlichen Unvollkommenheiten, über die wir uns in der Welt beschweren; allein sie entstehen vermöge einer höhern Ordnung, die diese Ausnahmen unvermeidlich gemacht hat. Hätte Gott ein Übel in der Welt weniger entstehen lassen, so würde er einer höhern Ordnung, einer wichtigern Regel der Vollkommenheit zuwider gehandelt haben, von deren Seite doch durchaus keine Ausnahme geschehen sollte.</p>
+            <p rendition="#et">Pope hingegen und Malebranche räumen es ein, daß Gott, der besten Welt unbeschadet, einige Übel daraus hätte weglassen können, ohne etwas merkliches in derselben zu verändern. Allein dem ohngeachtet habe er die Allgemeinheit der Gesetze, aus welcher diese Übel fließen, lieber gewollt, und wolle sie auch noch lieber, ohne diesen seinen Entschluß jemals, um eines Lieblings willen, zu ändern.</p>
+            <p>Achter Satz</p>
+            <p>Ferner, wie wir gesehen haben, behauptet Pope, die mindeste Veränderung in der Welt erstrecke sich auf die ganze Natur, weil ein jedes Wesen, das zu einer größern Vollkommenheit gelange, eine Lücke hinter sich lassen müsse, und diese Lücke müsse entweder leer bleiben, welches den ganzen Zusammenhang aufheben würde, oder die untern Wesen müßten heran rücken, welches durch die ganze Schöpfung nichts anders, als eine Zerrüttung verursachen könne.</p>
+            <p rendition="#et">Leibniz weiß von keiner solchen Lücke, wie sie Pope annimmt, weil er keine allmälige Degradation der Wesen behauptet. Eine Lücke in der Natur kann, nach seiner Meinung, <pb n="656" facs="#f0025"/>
+nirgend anders werden, als wo die Wesen in einander gegründet zu sein aufhören; denn da wird die Ordnung unterbrochen, oder welches eben so viel ist, der Raum bleibt leer. Dennoch aber behauptet Leibniz in einem weit strengern Verstande als Pope, daß die mindeste Veränderung in der Welt einen Einfluß in das Ganze habe, und zwar weil ein jedes Wesen ein Spiegel aller übrigen Wesen, und ein jeder Zustand der Inbegriff aller Zustände ist. Wenn also der kleinste Teil der Schöpfung anders, oder in einen andern Zustand versetzt wird, so muß sich diese Veränderung durch alle Wesen zeigen; eben wie in einer Uhr alles, sowohl dem Raume, als der Zeit nach, anders wird, sobald das mindeste von einem Rädchen abgefeilet wird.</p>
+            <p>Neunter Satz</p>
+            <p>Die Unvollkommenheiten in der Welt erfolgen, nach Popens System, <hi rendition="#i">entweder</hi> zum Besten des Ganzen (worunter man zugleich die Verhütung einer größern Unvollkommenheit mit begreift) <hi rendition="#i">oder</hi> weil keine allgemeinen Gesetze den göttlichen Absichten in allen besondern Fällen haben genug tun können.</p>
+            <p rendition="#et">Nach Leibnizens Meinung hingegen müssen notwendig alle Unvollkommenheiten in der Welt zur Vollkommenheit des Ganzen dienen, oder es würde sonst ganz gewiß ihr Außenbleiben aus den allgemeinen Gesetzen erfolgt sein. Er behauptet, Gott habe die allgemeinen Gesetze nicht willkürlich, sondern so angenommen, wie sie aus der weisen Verbindung seiner besondern Absichten, oder der einfachen Regeln der Vollkommenheit, entstehen müssen. Wo eine Unvollkommenheit ist, da muß eine Ausnahme unvermeidlich gewesen sein. Keine Ausnahme aber kann Statt finden, als wo die einfachen Regeln der Vollkommenheit mit einander streiten; und jede Ausnahme muß daher vermöge einer höhern Ordnung geschehen sein, das ist, sie muß zur Vollkommenheit des Ganzen dienen.</p>
+            <p rendition="#et">– – Wird es wohl nötig sein, noch mehrere Unterschiede <pb n="657" facs="#f0026"/>
+zwischen den Popischen Sätzen und Leibnizischen Lehren anzuführen? Ich glaube nicht. Und was sollten es für mehrere Unterschiede sein? In den besondern moralischen Sätzen, weiß man wohl, kommen alle Weltweisen überein, so verschieden auch ihre Grundsätze sind. Der übereinklingende Ausdruck der erstern muß uns nie verleiten, auch die letztern für einerlei zu halten; denn sonst würde es sehr leicht sein, jeden andern, der irgend einmal über die Einrichtung der Welt vernünfteln wollen, eben so wohl als Popen, zum Leibnizianer zu machen.</p>
+            <p rendition="#et">Verdient nun aber Pope diese Benennung durchaus nicht, so wird auch notwendig die Prüfung seiner Sätze etwas ganz anders, als eine Bestreitung des Leibnizischen Systems von der besten Welt sein. Die<hi rendition="#i"> Gottschede</hi> sagen, sie werde daher auch etwas ganz anders sein, als die Akademie gewünscht habe, daß sie werden möchte. Doch was geht es mich an, was die <hi rendition="#i">Gottschede</hi> sagen; ich werde sie dem ohngeachtet unternehmen.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e136047" type="chapter">
+            <head>Dritter Abschnitt</head>
+            <p>
+               <hi rendition="#i">Prüfung der Popischen Sätze</hi>
+            </p>
+            <p>Ich habe oben gesagt, Pope, als ein wahrer Dichter, müsse mehr darauf bedacht gewesen sein, das sinnlich Schöne aus allen Systemen zusammen zu suchen, und sein Gedicht damit auszuschmücken, als sich selbst ein eignes System zu machen, oder sich an ein schon gemachtes einzig und allein zu halten. Und daß er jenes wirklich getan habe, bezeugen die unzähligen Stellen in seinen Briefen, die sich mit seinen obigen Sätzen auf keinerlei Weise verbinden lassen, und deren einige sogar ihnen schnurstracks zuwider laufen.</p>
+            <p rendition="#et">Ich will diese Stellen bemerken, indem ich die Sätze selbst nach der Strenge der Vernunft prüfe.</p>
+            <p>
+               <pb n="658" facs="#f0027"/>
+Zweiter Satz</p>
+            <p>Durch welche Gründe kann Pope beweisen, daß die Kette der Dinge in der besten Welt nach einer allmäligen Degradation der Vollkommenheit geordnet sein müsse? Man werfe die Augen auf die vor uns sichtbare Welt! Ist Popens Satz gegründet; so kann unsre Welt unmöglich die beste sein. In ihr sind die Dinge nach der Ordnung der Wirkungen und Ursachen, keines Weges aber nach einer allmäligen Degradation neben einander. Weise und Toren, Tiere und Bäume, Insekten und Steine sind in der Welt wunderbar durch einander gemischt, und man müßte die Glieder aus den entlegensten Teilen der Welt zusammen klauben, wenn man eine solche Kette bilden wollte, die allmälig vom Nichts bis zur Gottheit reicht. Dasjenige also, was Pope den Zusammenhang nennt, findet in unsrer Welt nicht Statt, und dennoch ist sie die beste, dennoch kann in ihr keine Lücke angetroffen werden. Warum dieses? Wird man hier nicht augenscheinlich auf das Leibnizische System geleitet, daß nämlich, vermöge der göttlichen Weisheit, alle Wesen in der besten Welt in einander gegründet, das heißt, nach der Reihe der Wirkungen und Ursachen neben einander geordnet sein müssen?</p>
+            <p>Dritter Satz</p>
+            <p>Und nun fällt der Schluß von dieser eingebildeten Kette der Dinge auf die unvermeidliche Existenz eines solchen Ranges, als der Mensch bekleidet, von sich selbst weg. Denn was war es nötig, zu Erfüllung der Reihe von Leben und Empfindung, diesen Rang wirklich werden zu lassen, da doch ohnedem die Glieder derselben in dem unendlichen Raume zerstreut liegen, und nimmermehr in der allmäligen Degradation neben einander stehen?</p>
+            <p>Sechster Satz</p>
+            <p>Hier kömmt es, wo sich Pope selbst widerspricht! – Nach seiner Meinung, wie wir oben dargetan haben, müssen aus den <pb n="659" facs="#f0028"/>
+allgemeinen Gesetzen manche besondre Begebenheiten erfolgen, die zur Vollkommenheit des Ganzen nichts beitragen, und nur deswegen zugelassen werden, weil Gott, eines Lieblings halber, seinen allgemeinen Willen nicht ändert.</p>
+            <p>Or partial ill is universal good,</p>
+            <p>Or change admits, or Nature lets it fall.</p>
+            <p>So sagt er in dem vierten Briefe. Nur manche Übel also, die in der Welt zugelassen worden, sind nach ihm allgemein gut; manche aber, die eben so wohl zugelassen worden, sind es nicht. Sind sie es aber, nach seinem eigenen Bekenntnisse, nicht, wie hat er am Ende des ersten Briefes gleichwohl so zuversichtlich sagen können:</p>
+            <p>All discord, harmony not understood:</p>
+            <p>All partial evil, universal good?</p>
+            <p>Wie verträgt sich dieses entscheidende all, mit dem obigen or, or? Kann man sich einen handgreiflichern Widerspruch einbilden?</p>
+            <p>Doch wir wollen weiter untersuchen, wie er sich gegen das System, welches ich für ihn habe aufrichten wollen, verhält. Man sehe einmal nach, was er zu der angezogenen Stelle aus dem ersten Briefe</p>
+            <p>––the first almighty Cause</p>
+            <p>Acts not by partial, but by gen'ral Laws</p>
+            <p>unmittelbar hinzu setzt:</p>
+            <p>Th' Exeptions few.</p>
+            <p>
+               <hi rendition="#i">Der Ausnahmen sind wenig?</hi> Was sind das für Ausnahmen? Warum hat denn Gott auch von diesen allgemeinen Regeln, die ihm allenthalben zur Richtschnur gedient, Ausnahmen gemacht? Eines Lieblings wegen hat er sie nicht gemacht; (S. den 4. Brief Z. 119) auch zur Vermeidung einer Unvollkommenheit nicht; denn sonst hätte er nicht die geringste Unvollkommenheit zulassen sollen. Er hat <hi rendition="#i">nur wenige</hi> Ausnahmen gemacht? Warum nur wenige? – Gar keine, oder soviel als nötig waren?</p>
+            <p rendition="#et">
+               <pb n="660" facs="#f0029"/>
+Man könnte sagen: Pope verstehe unter dem Worte <hi rendition="#i">Exceptions</hi> solche Begebenheiten, die nicht mit den göttlichen Absichten übereinstimmen, und dennoch aus den allgemeinen Gesetzen fließen. Dieser gibt es wenige in der Welt; denn Gott hat solche allgemeine Gesetze erwählt, die in den meisten besondern Fällen mit seinen Absichten übereinstimmen. – Gut! Aber alsdann müßte sich das Wort <hi rendition="#i">Exceptions</hi> nicht auf <hi rendition="#i">general laws</hi> beziehen. Von Seiten der allgemeinen Gesetze hat Gott nicht die geringsten Ausnahmen gemacht, sondern alle Ausnahmen betreffen die Übereinstimmung der allgemeinen Gesetze mit den göttlichen Absichten. Nun übersehe man des Dichters Worte:</p>
+            <p>––the first almighty Cause</p>
+            <p>Acts not by partial, but by general Laws;</p>
+            <p>Th' Exceptions few etc.</p>
+            <p>Bezieht sich hier das Wort <hi rendition="#i">Exceptions</hi> irgend auf etwas anders, als auf <hi rendition="#i">general Laws?</hi> O! Ich will lieber zugeben, Pope habe sich in einem einzigen Gedichte hundertmal metaphysisch widersprochen, als daß ihm ein schlecht verbundner und verstümmelter Vers entwischt wäre, wie dieser sein würde, wenn sich <hi rendition="#i">th' Exceptions few</hi> nicht auf die allgemeinen Gesetze, von welchen er gleich vorher spricht, sondern auf die göttlichen Absichten beziehen sollten, deren er hier gar nicht gedenkt. Nein! Ganz gewiß hat er sich hier wiederum alle Übel als Ausnahmen aus den allgemeinen Gesetzen eingebildet, und folglich das Malebranchische System unvermutet verworfen, das er sonst durchgehends angenommen haben muß, wenn er irgend eines angenommen hat.</p>
+            <p>Achter Satz</p>
+            <p>Was Pope in diesem Satze behauptet, daß nämlich keine Veränderung in der Welt vorgehen könne, ohne daß sich die Wirkung davon in dem Ganzen äußerte, kann aus andern Gründen hinlänglich dargetan werden, als aus den seinigen, welche hier ganz und gar nichts beweisen. <hi rendition="#i">Wenn wir,</hi> sagt er, <hi rendition="#i">
+                  <pb n="661" facs="#f0030"/>
+die obern Kräfte verdringen wollen, so müssen die untern an unsre Stelle rücken, oder es bleibt eine Lücke in der vollen Schöpfung.</hi> Ist es noch nötig, diesen Schluß zu widerlegen, nachdem man gesehen, daß in der Welt nicht alles so stufenweise hinaufsteigt, wie Pope annimmt, sondern daß vollkommene und unvollkommene Wesen, ohne diese eingebildete Ordnung, durch einander vermengt sind? Eben so wenig werde ich die zweite Stelle zu widerlegen nötig haben, die oben zur Bestätigung dieses achten Satzes angeführt worden. Pope bezieht sich immer auf seine allmälige Degradation, die nur in seiner poetischen Welt die Wirklichkeit erlangt, in unserer aber gar nicht Statt gefunden hat.</p>
+            <p>Neunter Satz</p>
+            <p>In diesem Satze sind oben zwei Ursachen des Übels in der Welt, nach Popens Meinung, angeführt worden; eine dritte Ursache aber, die der Dichter gleichfalls angibt, habe ich weggelassen, weil ich sie nicht begreifen konnte. Hier ist die Stelle aus dem vierten Briefe ganz:</p>
+            <p>Or partial ill is universal good</p>
+            <p>
+               <hi rendition="#i">Or change admits,</hi> or Nature lets it fall.</p>
+            <p>Die Worte <hi rendition="#i">Nature lets it fall</hi> habe ich so erklärt, als ob sie eben das sagten, was der Dichter mit den Worten <hi rendition="#i">Nature deviates</hi> sagen will. Diese nämlich, wenn sie einen verständlichen Sinn haben sollen, können nichts anders bedeuten als, daß die Natur, vermöge der allgemeinen Gesetze, die ihr Gott vorgeschrieben, manches hervorbringe, was den göttlichen Absichten zuwider sei, und nur deswegen von ihr zugelassen werde, weil er seinen allgemeinen Entschluß nicht ändern wolle.</p>
+            <p>If the great end be human happiness,</p>
+            <p>Then Nature deviats, and can Man do less?</p>
+            <p>
+               <hi rendition="#i">D. i. Wenn die Glückseligkeit des Menschen der große Zweck ist, und die Natur abweicht etc.</hi> Eben diesen Gedanken <pb n="662" facs="#f0031"/>
+nun, glaub ich, hat Pope durch Nature lets it fall, <hi rendition="#i">die Natur läßt es fallen,</hi> ausdrücken wollen. Die Natur bringt manche Übel als Folgen aus den allgemeinen mechanischen Gesetzen hervor, ohne daß die göttliche Absicht eigentlich darauf gerichtet gewesen.</p>
+            <p rendition="#et">Allein was für einen Sinn verknüpfen wir mit den Worten Or change admits, <hi rendition="#i">oder die Abwechslung läßt es zu?</hi> Kann nach Popens System – – wenn man es noch ein System nennen will – – etwas anders die göttliche Weisheit entschuldigen, daß sie Böses in der Welt zugelassen, als die Vollkommenheit des Ganzen, welches den besondern Teilen vorzuziehen gewesen, oder die Allgemeinheit der Gesetze, die Gott nicht hat stören wollen? Was für eine dritte Entschuldigung soll uns die Abwechslung oder die Veränderung darbieten?</p>
+            <p rendition="#et">Ich denke hierbei nichts; und ich möchte um so viel lieber wissen, was diejenigen dabei denken, die sich dem ohngeachtet ein Popisches System nicht wollen ausreden lassen. Vielleicht sagen sie, eben diese letztere Stelle beweise, daß ich das wahre System des Dichters verfehlt habe, und daß es ein ganz anders sei, aus welchem man sie erklären müsse. Welches aber soll es sein? Wenigstens muß es ein ganz neues sein, das noch in keines Menschen Gedanken gekommen; indem allen andern bekannten Systemen von dieser Materie, hier und da in den Briefen, eben so wohl widersprochen wird.</p>
+            <p rendition="#et">Zum Beweise berufe ich mich auf eine Stelle, die in dem ersten Briefe anzutreffen ist, und die eben so wenig mit unserm vorgegebenen Popischen Systeme, als mit irgend einem andern bestehen kann. Es ist folgende:</p>
+            <p>Z. 259 und folgende</p>
+            <p>All are but parts of one stupendous whole,</p>
+            <p>Whose body Nature is, and God the soul;</p>
+            <p>That, chang'd thro' all, and yet in all the same</p>
+            <p>– – – – – –</p>
+            <p>Lives thro' all life, extends thro' all extent,</p>
+            <p>Spreads undivided – – –</p>
+            <p>– – – – –</p>
+            <p>He fills, he bounds, connects, and equals all.</p>
+            <p>
+               <hi rendition="#i">
+                  <pb n="663" facs="#f0032"/>
+D. i. Alle Dinge sind Teile eines erstaunlichen Ganzen, wovon die Natur der Körper und Gott die Seele ist. Er ist in allen Dingen verändert, und doch allenthalben eben derselbe – – Er lebt in allem was lebt; er dehnt sich aus durch alle Ausdehnung und verbreitet sich, ohne sich zu zerteilen – – Er erfüllt, umschränkt und verknüpft alles, und macht alles gleich.</hi> Ich bin weit davon entfernt, Popen hier gottlose Meinungen aufbürden zu wollen. Ich nehme vielmehr alles willig an, was Warburton zu dessen Verteidigung wider den Herrn Crousaz gesagt hat, welcher behaupten wollen, der Dichter habe diese Stelle aus des Spinosa irrigem Lehrgebäude entlehnt. Durchgehends kann sie unmöglich mit Spinosens Lehren bestehen. Die Worte</p>
+            <p>Whose body Nature is, and God the soul,</p>
+            <p>
+               <hi rendition="#i">Wovon die Natur der Körper und Gott die Seele ist,</hi> würde <hi rendition="#i">Spinosa</hi> nimmermehr haben sagen können; denn der Ausdruck, Seele und Körper, scheinet doch wenigstens anzudeuten, daß Gott und die Natur zwei verschiedne Wesen sind. Wie wenig war dieses die Meinung des Spinosa! Es hat aber andre irrige Weltweisen gegeben, die Gott wirklich für die Seele der Natur gehalten haben, und die vom Spinosismo eben so weit abstehen, als von der Wahrheit. Sollte ihnen also Pope diese seltnen Redensarten abgeborgt haben, wie steht es um die Worte Extends thro' all extent; <hi rendition="#i">Er dehnt sich aus durch alle Ausdehnung?</hi> Wird diese Lehre einem andern als Spinosen zugehören? Wer hat sonst die Ausdehnung der Natur für eine Eigenschaft Gottes gehalten, als dieser berufene Irrgläubige? Jedoch, wie gesagt, es stehet nicht zu glauben, daß Pope eben in diesen Briefen ein gefährliches System habe auskramen wollen. Er hat vielmehr – – und dieses ist es, was ich bereits oben, gleichsam a priori, aus dem, was ein Dichter in solchen Fällen tun muß, erwiesen habe, – – bloß die schönsten und sinnlichsten Ausdrücke von jedem System geborgt, ohne sich um ihre Richtigkeit zu bekümmern. Und daher hat er auch keine Bedenken getragen, die Allgegenwart Gottes, Teils in der Sprache der Spinosisten, Teils in der Sprache derjenigen, die Gott für die Seele der Welt halten, <pb n="664" facs="#f0033"/>
+auszudrücken, weil sie in den gemeinen rechtgläubigen Ausdrücken all zu idealisch und all zu weit von dem Sinnlichen entfernt ist. Eben so wie sich Thomson, in seiner Hymne über die vier Jahrszeiten, nicht gescheuet hat, zu sagen: these as the changes – – are but the varied God. Ein sehr kühner Ausdruck, den aber kein vernünftiger Kunstrichter tadeln kann.</p>
+            <p rendition="#et">Hätte sich Pope ein eignes System abstrahiert gehabt, so würde er ganz gewiß, um es in dem überzeugendsten Zusammenhange vorzutragen, aller Vorrechte eines Dichters dabei entsagt haben. Da er dieses aber nicht getan hat, so ist es ein Beweis, daß er nicht anders damit zu Werke gegangen, als ich mir vorstelle, daß es die meisten Dichter tun. Er hat diesen und jenen Schriftsteller über seine Materie vorher gelesen, und, ohne sie nach eignen Grundsätzen zu untersuchen, von jedem dasjenige behalten, von welchem er geglaubt, daß es sich am besten in wohlklingende Verse zusammenreimen lasse. Ich glaube ihm so gar, in Ansehung seiner Quellen, auf die Spur gekommen zu sein, wobei ich einige andre historisch kritische Anmerkungen gemacht habe, welchen ich folgenden Anhang widme.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e136347" type="chapter">
+            <head>Anhang</head>
+            <p>Warburton, wie bekannt, unternahm die Verteidigung unsers Dichters wider die Beschuldigungen des Crousaz. Die Briefe, die er in dieser Absicht schrieb, erhielten Popens vollkommensten Beifall. <hi rendition="#i">Sie haben mir, sagt dieser in einem Briefe an seinen Retter, allzuviel Gerechtigkeit widerfahren lassen; so seltsam dieses auch klingen mag. Sie haben mein System so deutlich gemacht, als ich es hätte machen sollen, und nicht gekonnt habe</hi> – – Man sehe die ganze Stelle unten in der Note,<note place="foot" n="1">
+                  <p> I can only say, you do him (Crousaz) too much honour and me too much right, so odd as the expression seems, for you have made my system as clear, as i ouhgt to have done, and could not. It is indeed the same system as mine, but illustrated with a ray of your own, as they say our natural body is the same still when it is glorified. I am sure i like it better, than i did before, and so will every man else. I know i meant just what you explain, but i did not explain my own meaning so well as you. You understand me as well, as i do myself, but you express me better, than i could express myself. In einem Briefe an Warburton vom 11. April 1739.</p>
+               </note> aus welcher ich nur noch die Worte anführe: <hi rendition="#i">Sie verstehen mich vollkommen so wohl, als ich mich selbst verstehe; <pb n="665" facs="#f0034"/>
+allein Sie drücken mich besser aus, als ich mich habe ausdrücken können.</hi>
+            </p>
+            <p rendition="#et">Was sagt nun denn aber dieser Mann, welcher die Meinung des Dichters, nach des Dichters eignem Geständnisse, so vollkommen eingesehen hat, von dem Systeme seines Helden? Er sagt: Pope sei durchaus nicht dem Hrn. von Leibniz, sondern dem Plato gefolgt, wenn er behauptet, Gott habe von allen möglichen Welten die beste wirklich werden lassen.</p>
+            <p rendition="#et">Plato also wäre die erste Quelle unsers Dichters! – Wir wollen sehen. – Doch Plato war auch eine Quelle für Leibnizen. Und Pope könnte also doch wohl noch ein Leibnizianer sein, indem er ein Platoniker ist. Hierauf aber sagt Warburton »nein! denn Pope hat die Platonische Lehren in der gehörigen Einschränkung angenommen, die Leibniz auf eine gewaltsame Art ausgedehnt. Plato sagte: <hi rendition="#i">Gott hat die beste Welt erwählt.</hi> Der Herr von Leibniz aber: <hi rendition="#i">Gott hat nicht anders können, als die beste wählen.</hi>
+            </p>
+            <p rendition="#et">Der Unterschied zwischen diesen zwei Sätzen soll in dem Vermögen liegen, unter zwei gleich ähnlichen und guten Dingen, eines dem andern vorzuziehen; und dieses Vermögen habe Plato Gott gelassen; Leibniz aber ihm gänzlich genommen. Ich will hier nicht beweisen, was man schon unzähligmal bewiesen hat, daß dieses Vermögen eine leere Grille sei. Ich will nicht anführen, daß sie auch Plato dafür müsse erkannt haben, weil er bei jeder freien Wahl Bewegungsgründe zugesteht; wie Leibniz bereits angemerkt hat. (Theodizee 1. Abt. §. 45) Ich will nicht darauf dringen, daß folglich der Unterschied selbst wegfalle; sondern ich will ihn schlechter Dings so annehmen, wie ihn Warburton angegeben hat.</p>
+            <p rendition="#et">Plato mag also gelehrt haben: Gott habe die Welt gewählt, ob er gleich eine andre vielleicht eben so gute Welt hätte wählen können; und Leibniz mag gesetzt haben: Gott habe nicht <pb n="666" facs="#f0035"/>
+anders können als die beste wählen. Was sagt denn Pope? Drückt er sich auf die erste oder auf die andre Art aus? Man lese doch:</p>
+            <p>Of systems possible, if 'tis confest</p>
+            <p>That Wisdom infinite <hi rendition="#i">must</hi> form the best etc.</p>
+            <p>»<hi rendition="#i">Wenn es ausgemacht ist, daß die unendliche Weisheit von allen möglichen Systemen das beste wählen muß etc.</hi>« – – Daß sie <hi rendition="#i">muß</hi>? Wie ist es möglich, daß Warburton diesen Ausdruck übersehen hat? Heißt dieses mit dem Plato reden, wenn Plato anders, wie Warburton will, eine ohne alle Bewegungsgründe wirkende Freiheit in Gott angenommen hat?</p>
+            <p rendition="#et">Genug von dem Plato, den Pope folglich gleich bei dem ersten Schritte verlassen zu haben selbst glauben mußte! Ich komme zu der zweiten Quelle, die Warburton dem Dichter gibt; und diese ist der Lord Shaftesbury, von welchem er sagt, daß er den Platonischen Satz angenommen, und in ein deutlicher Licht gesetzt habe. In wie weit dieses geschehen sei, und welches das verbesserte System dieses Lords sei, will die Akademie jetzt nicht wissen. Ich will also hier nur so viel anführen, daß Pope den Shaftesbury zwar offenbar gelesen und gebraucht habe, daß er ihn aber ungleich besser würde gebraucht haben, wenn er ihn gehörig verstanden hätte.</p>
+            <p rendition="#et">Daß er ihn wirklich gebraucht habe, könnte ich aus mehr als einer Stelle der »Rhapsody« des Shaftesbury beweisen, welche Pope seinen Briefen eingeschaltet hat, ohne fast von dem Seinigen etwas mehr, als das Sylbenmaß und die Reime hinzu zu tun. Statt aller aber, will ich nur diese einzige anführen. Shaftesbury läßt den Philocles dem Palemon, welcher das physikalische Übel zwar entschuldigen will, gegen das moralische aber unversehnlich ist, antworten: The very Storms and Tempests had their Beauty in your account, those alone excepted, which arose in human Breast. »<hi rendition="#i">Selbst die Stürme und Ungewitter haben, Ihrem Bedünken nach, ihre Schönheit, nur diejenigen nicht, die in der menschlichen Brust aufsteigen.</hi>« Ist dieses nicht eben das, was Pope sagt:</p>
+            <p>If Plagues or earthquakes break not heav'n's design,</p>
+            <p>Why then a <hi rendition="#i">Borgia</hi> or a <hi rendition="#i">Catiline</hi>?</p>
+            <p>
+               <pb n="667" facs="#f0036"/>
+Doch Pope muß den Shaftesbury nicht verstanden haben, oder er würde ihn ganz anders gebraucht haben. Dieser freie Weltweise war in die Materie weit tiefer eingedrungen, und drückt sich weit vorsichtiger aus, als der immer wankende Dichter. Hätte ihm Pope gefolgt, so würden seine Gedanken einem System ungleich ähnlicher sehen; er würde der Wahrheit und Leibnizen ungleich näher gekommen sein. Shaftesbury zum Exempel, sagt: <hi rendition="#i">Man hat auf vielerlei Art zeigen wollen, warum die Natur irre, und wie sie mit so vielem Unvermögen und Fehlern von einer Hand kömmt, die nicht irren kann. Aber ich leugne, daß sie irrt etc.</hi> Pope hingegen behauptet: die Natur weicht ab. – Ferner sagt unser Lord: <hi rendition="#i">die Natur ist in ihren Wirkungen sich immer gleich; sie wirkt nie auf eine verkehrte oder irrige Weise; nie Kraftlos oder nachlässig; sondern sie wird nur durch eine höhere Nebenbuhlerin und durch die stärkere Kraft einer andern Natur überwältiget.</hi>
+               <note place="foot" n="2">
+                  <p> Much is alledg'd in answer, to shew why Nature errs, and how she came thus impotent and erring from an unerring hand. But i deny she errs – – Nature still working as before, and not perversly or erroneously; not faintly or with feeble Endeavours; but o'erpower'd by a superior Rival, and by another Nature's justly conquering Force. <hi rendition="#i">Rhapsody Part. 2. Sect. 3.</hi>
+                  </p>
+               </note> Leibniz selbst würde den Streit der Regeln einer zusammengesetzten Vollkommenheit nicht besser haben ausdrücken können. Aber was weiß Pope hievon, der dem Shaftesbury gleichwohl soll gefolgt sein? Auch sagt dieser: <hi rendition="#i">Vielmehr bewundern wir eben wegen dieser Ordnung der untern und obern Wesen die Schönheit der Welt, die auf sich einander entgegenstehende Dinge gegründet ist, weil aus solchen mannigfaltigen und widerwärtigen Grundursachen eine allgemeine Zusammenstimmung entspringt.</hi>
+               <note place="foot" n="3">
+                  <p> 'Tis on the contrary, from this Order of inferiour and superiour Things that we admire the World's Beauty, founded thus on Contrarietys: whilst from such various and <hi rendition="#i">disagreeing Principles</hi> a Universal Concord is established. Eben daselbst.</p>
+               </note> Die Worte <hi rendition="#i">mannigfaltige</hi> und <hi rendition="#i">widerwärtige</hi> Grundursachen bedeuten hier abermals die Regeln der Ordnung, die oft neben einander nicht bestehen können; und hätte Pope davon einen Begriff <pb n="668" facs="#f0037"/>
+gehabt, so würde er sich weniger auf die Seite des Malebranche geneigt haben. Desgleichen von der Ordnung hat Shaftesbury einen vollkommenen richtigen Begriff, den Pope, wie wir gesehen, nicht hatte. Er nennt sie a Coherence or Sympathizing of Things; und unmittelbar darauf a Consent and Correspondence in all. Dieser Zusammenhang, dieses Sympathisieren, diese Übereinstimmung ist ganz etwas anders als des Dichters eingebildete Staffelordnung, welche man höchstens nur für poetisch schön erkennen kann.</p>
+            <p rendition="#et">Überhaupt muß ich gestehen, daß mir Shaftesbury sehr oft so glücklich mit Leibniz übereinzustimmen scheinet, daß ich mich wundre, warum man nicht längst beider Weltweisheit mit einander verglichen. Ich wundre mich sogar, warum nicht selbst die <hi rendition="#i">Akademie</hi> lieber das System des Shaftesbury, als das System des Pope zu untersuchen und gegen das Leibnizische zu halten, aufgegeben. Sie würde alsdenn doch wenigstens Weltweisen gegen Weltweisen, und Gründlichkeit gegen Gründlichkeit gestellt haben, anstatt daß sie den Dichter mit dem Philosophen, und das Sinnliche mit dem Abstrakten in ein ungleiches Gefechte verwickelt hat. Ja auch für die, würde bei dem Shaftesbury mehr zu gewinnen gewesen sein, als bei dem Pope, welche Leibnizen gern, vermittelst irgend einer Parallel mit einem andern berühmten Manne, erniedrigen möchten. Das Werk des Shaftesbury »The Moralists, a Philosophical Rhapsody« war bereits im Jahr 1709 herausgekommen; des Leibniz »Theodizee« hingegen trat erst gegen das Ende des Jahrs 1710 an das Licht. Aus diesem Umstande, sollte ich meinen, wäre etwas zu machen gewesen. Ein Philosoph, ein englischer Philosoph, welcher Dinge gedacht hat, die Leibniz erst ein ganzes Jahr nachher gedacht zu haben zeiget, sollte dieser von dem letztern nicht ein wenig sein geplündert worden? Ich bitte die<hi rendition="#i"> Akademie</hi> es überlegen zu lassen!</p>
+            <p rendition="#et">Und also hat Pope auch aus dem Shaftesbury die wenigsten seiner metaphysischen Larven<note place="foot" n="4">
+                  <p> Eine beiläufige Erklärung der Vignette unsers Titels!</p>
+               </note> entlehnt. Wo mag er sie wohl sonst her haben? Wo mag er besonders die her haben, <pb n="669" facs="#f0038"/>
+die eine Leibnizische Miene machen? Ich verstehe diejenigen Sätze, die mit den Worten <hi rendition="#i">mögliche Systeme</hi> und dergleichen ausgedrückt sind. Die Anweisung Warburtons verläßt mich hier; ich glaube aber gleichwohl etwas entdeckt zu haben.</p>
+            <p rendition="#et">Man erinnere sich desjenigen Buches de Origine mali, über welches Leibniz Anmerkungen gemacht hat, die man gleich hinter seiner Theodizee findet. Er urteilet davon, der Verfasser desselben stimme, in der einen Hälfte der Materie, von dem Übel überhaupt, und dem physikalischen Übel insbesondre, sehr wohl mit ihm überein, und gehe nur in der andern Hälfte, vom moralischen Übel, von ihm ab. Es war dieser Verfasser der Hr. W. King, nachheriger Erzbischof von Dublin. Er war ein Engländer, und sein Werk war schon im Jahr 1702 herausgekommen.</p>
+            <p rendition="#et">Aus diesem nun behaupte ich, hat sich unser Dichter ungemein bereichert; und zwar so, daß er nicht selten, ganze Stellen aus dem Lateinischen übersetzt, und sie bloß mit poetischen Blümchen durchwirkt hat. Ich will bloß die vornehmsten derselben zum Beweise hersetzen, und die Vergleichung den Lesern, welche beider Sprachen mächtig sind, selbst überlassen.</p>
+            <p>1.</p>
+            <p>
+               <hi rendition="#i">King. cap. III.</hi> p. m. Ed. Brem. 56</p>
+            <p>Credendum vero est, praesens mundi Systema optimum fuisse, quod fieri potuit, habito respectu ad Dei mentem in eo fabricando.</p>
+            <p>
+               <hi rendition="#i">Pope. Ep. I. v. 43. 44</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Of systems possible, if 'tis confest</hi>,</p>
+            <p>
+               <hi rendition="#i">That Wisdom infinite must form the best.</hi>
+            </p>
+            <p>2.</p>
+            <p>
+               <hi rendition="#i">King</hi>. p. m. 58</p>
+            <p>Oportet igitur multos perfectionum gradus, forte infinitos, dari in opificiis divinis.</p>
+            <p>
+               <hi rendition="#i">Pope. Ep. I. v. 46–47</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Where all must fall or not coherent be</hi>
+            </p>
+            <p>
+               <hi rendition="#i">And all that rises, rise in due degree etc.</hi>
+            </p>
+            <p>
+               <pb n="670" facs="#f0039"/>
+3.</p>
+            <p>
+               <hi rendition="#i">King</hi>. p. m. 72</p>
+            <p>Opus erat in systemate mundi globo materiae solidae, qualis est terra, et eam quasi rotae vicem habere credimus in magno hoc automato.</p>
+            <p>
+               <hi rendition="#i">Pope. Ep. 1. v. 56 etc.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">So man, who here seems principal alone</hi>,</p>
+            <p>
+               <hi rendition="#i">Perhaps acts second to some sphere unknown,</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Touches some wheel, or verges to some gole.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">'Tis but a part we see and not the whole.</hi>
+            </p>
+            <p>4.</p>
+            <p>
+               <hi rendition="#i">King</hi>. p. m. 89</p>
+            <p>– Quaedam ejusmodi facienda erant, cum locus his in opificio Dei restabat, factis tot aliis, quot conveniebat. At optes alium tibi locum et sortem cessisse; fortasse. Sed si tu alterius locum occupasses, ille alter aut alius aliquis in tui locum sufficiendus erat, qui similiter providentiae divinae ingratus, locum illum quem jam occupasti, optaret. Scias igitur necessarium fuisse, ut aut sis, quod es, aut nullus. Occupatis enim ab aliis omni alio loco et statu, quem systema aut natura rerum ferebat, aut is, quem habeas, a te implendus, aut exulare te a rerum natura necesse est. An expectes enim, dejecto alio a statu suo, te ejus loco suffectum iri? id est, ut aliorum injuria munificentiam peculiarem et exsortem tibi Deus exhiberet. Suspicienda ergo est divina bonitas, non culpanda, qua ut sis, quod es, factum est. Nec alius nec melior fieri potuisti sine aliorum aut totius damno.</p>
+            <p rendition="#et">Den ganzen Inhalt dieser Worte wird man in dem ersten Briefe des Pope wieder finden; besonders gegen die 157te und 233te Zeile. Die Stellen selbst sind zu lang, sie ganz herzusetzen; und zum Teil sind sie auch bereits oben angeführt worden, wo von dem Popischen Begriffe der Ordnung, und der notwendigen Stelle, die der Mensch in der Reihe der Dinge erhalten müssen, die Rede war.</p>
+            <p rendition="#et">Was kann man nun zu so offenbaren Beweisen, daß Pope den metaphysischen Teil seiner Materie mehr zusammen geborgt, als gedacht habe, sagen? Und was wird man vollends <pb n="671" facs="#f0040"/>
+sagen, wenn ich sogar zeige, daß er sich selbst nichts besser bewußt zu sein scheinet? – Man höre also, was er in einem Briefe an seinen Freund den D. Swift schreibt. Pope hatte seinen Versuch über den Menschen, ohne seinem Namen drucken lassen, und er kam Swiften in die Hände, ehe ihm Pope davon Nachricht geben konnte. Swift las das Werk, allein er erkannte seinen Freund darin nicht. Hierüber nun wundert sich Pope und schreibt: <hi rendition="#i">ich sollte meinen, ob Sie mich gleich in dem ersten dieser Versuche aus dem Gesichte verloren, daß Sie mich doch in dem zweiten würden erkannt haben</hi>
+               <note place="foot" n="5">
+                  <p> I fancy, tho' you lost sight of me in the first of those Essays, you saw me in the second.</p>
+               </note>. Heißt dieses nicht ungefähr: ob Sie mir gleich die metaphysische Tiefsinnigkeit, die aus dem ersten Briefe hervor zu leuchten scheinet, nicht zutrauen dürfen; so hätten Sie doch wohl in den übrigen Briefen, wo die Materie leichter und des poetischen Putzes fähiger wird, meine Art zu denken erkennen sollen? – – Swift gesteht es in seiner Antwort auch in der Tat, daß er Popen für keinen so großen Philosophen gehalten habe, eben so wenig als sich Pope selbst dafür hielt. Denn würde er wohl sonst, gleich nach obiger Stelle, geschrieben haben: <hi rendition="#i">Nur um eines bitte ich Sie; lachen Sie über meine Ernsthaftigkeit nicht, sondern erlauben Sie mir, den philosophischen Bart so lange zu tragen, bis ich ihn selbst ausrupfe, und ein Gespötte daraus mache</hi>
+               <note place="foot" n="6">
+                  <p> I have only one piece of mercy to beg of you; do not laugh at my gravity, but permit to me, to wear the beard of a Philosopher till i pull it off and make a jest of it myself. In einem Briefe an den D. Swift, welcher in dem 9ten Teile der Popischen Werke, der Knoptonschen Ausgabe von 1752 auf der 254. Seite stehet.</p>
+               </note>. Das will viel sagen! Wie sehr sollte er sich also wundern, wenn er erfahren könnte, daß gleichwohl eine berühmte <hi rendition="#i">Akademie</hi> diesen falschen Bart für wert erkannt habe, ernsthafte Untersuchungen darüber anzustellen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

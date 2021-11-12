@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Das Gespräch über Gedichte</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118552759">
+                  <forename>Hugo</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Hofmannsthal</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:04Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005090601</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Hofmannsthal, Hugo von/Essays, Reden, Vorträge/Das Gespräch über Gedichte</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/qdtg.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-79DC-B</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Hugo von Hofmannsthal: Gesammelte Werke in zehn Einzelbänden. Erzählungen, Erfundene Gespräche und Briefe, Reisen. Frankfurt a.M. 1979</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gesammelte Werke in zehn Einzelbänden</title>
+                  <title level="m" type="sub">Erzählungen, Erfundene Gespräche und Briefe, Reisen</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">509 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>S. Fischer Verlag</name>
+                  </publisher>
+                  <pubPlace>Frankfurt a. M.</pubPlace>
+                  <date type="publication">1979</date>
+                  <date type="firstPublication">1904</date>
+                  <date type="firstPublication" subtype="clariah">1904</date>
+                  <date type="firstPublication" subtype="zeno">1904</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1874"
+                        notAfter="1929"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Hofmannsthal-Hu-d1e155638">Erstdruck in: Die neue Rundschau. 15. Jahrgang der freien Bühne (Berlin), 1. Bd., 2. Heft, Februar 1904.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Essays, Reden, Vorträge</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Hugo von Hofmannsthal</p>
+            <p rend="h2">Das Gespräch über Gedichte</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Hofmannsthal-Hu-d1e155638">
+            <p>
+               <pb n="495" facs="#f0001"/>
+Es leben jetzt, die wenigen ausgenommen, die selbst im Lyrischen etwas hervorbringen, keine fünf Menschen in Deutschland, welche über diese zartesten Geburten der Seele ein Urteil hätten.</p>
+            <p>
+               <hi rendition="#i">Hebbel, Brief vom 27. IV. 1838.</hi>
+            </p>
+            <p>GABRIEL. Ich habe dir hier aufs Fenster einen Band Gedichte gelegt.</p>
+            <p>CLEMENS. Keats?</p>
+            <p>GABRIEL. Nein, es sind deutsche Gedichte. Sie bilden eine Einheit, so sind sie angeordnet. Das Ganze heißt »Das Jahr der Seele«. Da ist der Herbst. Es beginnt mit dem Herbst.</p>
+            <p>Die Wespen mit den goldengrünen Schuppen</p>
+            <p>Sind von verschlossnen Kelchen fortgeflogen,</p>
+            <p>Wir fahren mit dem Kahn in weitem Bogen</p>
+            <p>Um bronzebraunen Laubes Inselgruppen.</p>
+            <p>CLEMENS. Das ist der Herbst. Aber lies ein Ganzes oder gar nichts.</p>
+            <p>GABRIEL. Kannst du zuhören?</p>
+            <p>Komm in den totgesagten Park und schau:</p>
+            <p>Der Schimmer ferner lächelnder Gestade,</p>
+            <p>Der reinen Wolken unverhofftes Blau</p>
+            <p>Erhellt die Weiher und die bunten Pfade.</p>
+            <p>Dort nimm das tiefe Gelb, das weiche Grau</p>
+            <p>Von Birken und von Buchs: der Wind ist lau,</p>
+            <p>Die späten Rosen welkten noch nicht ganz,</p>
+            <p>Erlese, küsse sie und flicht den Kranz.</p>
+            <p>Vergiß auch diese letzten Astern nicht,</p>
+            <p>Den Purpur um die Ranken wilder Reben</p>
+            <p>Und auch was übrig blieb vom grünen Leben</p>
+            <p>Verwinde leicht im herbstlichen Gesicht.</p>
+            <p>CLEMENS. Es ist schön. Es atmet den Herbst. Obwohl es kühn ist, zu sagen, »der reinen Wolken unverhofftes Blau«, da diese Buchten von sehnsuchterregendem sommerhaften Blau ja <hi rendition="#i">zwischen</hi> den Wolken sind. Aber freilich nur an den Rändern <hi rendition="#i">reiner</hi> Wolken. Nirgends sonst auf dem ganzen verschlissenen rauhen Gefilde des herbstlichen Himmels. Goethe hätte dies »reiner Wolken« geliebt. Und »unverhofftes Blau« ist tadellos. Es ist schön. Ja, es ist der Herbst.</p>
+            <p>GABRIEL. Willst du noch mehr Herbst?</p>
+            <p>Vom Tore, dessen Eisenlilien rosten,</p>
+            <p>Entfliegen Vögel zum verdeckten Rasen</p>
+            <p>Und andre trinken frierend auf den Pfosten</p>
+            <p>Vom Regen aus den hohlen Blumenvasen.</p>
+            <p>Noch mehr?</p>
+            <p>Wir suchen nach den schattenfreien Bänken – –</p>
+            <p>Wir laben uns am langen milden Leuchten,</p>
+            <p>Wir fühlen dankbar, wie zum leisen Brausen</p>
+            <p>Von Wipfeln Strahlenspuren auf uns tropfen,</p>
+            <p>Und blicken nur und horchen, wenn in Pausen</p>
+            <p>Die reifen Früchte an den Boden klopfen.</p>
+            <p>CLEMENS. Ich bitte dich: lies ein Ganzes oder gar nichts.</p>
+            <p>GABRIEL. Willst du den Winter? Willst du den Sommer? Die abenteuernde Sehnsucht des Sommers? Die Beklommenheit des Sommers? Den Sommermorgen? Den Sommerabend?</p>
+            <p>Der Hügel, wo wir wandeln, liegt im Schatten,</p>
+            <p>Indes der drüben noch im Lichte webt,</p>
+            <p>Der Mond auf seinen zarten grünen Matten</p>
+            <p>Nur erst als kleine weiße Wolke schwebt.</p>
+            <p>Die Straßen weithin deutend werden blasser,</p>
+            <p>Den Wandrern bietet ein Gelispel Halt:</p>
+            <p>Ist es vom Berg ein unsichtbares Wasser,</p>
+            <p>Ist es ein Vogel, der sein Schlaflied lallt?</p>
+            <p>CLEMENS.</p>
+            <p>Der Mond auf seinen zarten grünen Matten</p>
+            <p>Nur erst als kleine weiße Wolke schwebt ...</p>
+            <p>Ich sehe eine Landschaft meiner Kindheit. Es scheint ein schönes Buch zu sein, dieses »Jahr«. Warum eigentlich: »Jahr der Seele«? Ich liebe die einfachen Überschriften.</p>
+            <p>GABRIEL. Ich auch, darum scheint mir diese so ausgezeichnet. Denn hier ist ein Herbst, und mehr als ein Herbst. Hier ist ein Winter, und mehr als ein Winter. Diese Jahreszeiten, diese Landschaften sind nichts als die Träger des <hi rendition="#i">Anderen</hi>.</p>
+            <p>Sind nicht die Gefühle, die Halbgefühle, alle die geheimsten und tiefsten Zustände unseres Inneren in der seltsamsten Weise mit einer Landschaft verflochten, mit einer Jahreszeit, mit einer Beschaffenheit der Luft, mit einem Hauch? Eine gewisse Bewegung, mit der du von einem hohen Wagen abspringst; eine schwüle sternlose Sommernacht; der Geruch feuchter Steine in einer Hausflur; das Gefühl eisigen Wassers, das aus einem Laufbrunnen über deine Hände sprüht: an ein paar tausend solcher Erdendinge ist dein ganzer innerer Besitz geknüpft, alle deine Aufschwünge, alle deine Sehnsucht, alle deine Trunkenheiten. Mehr als geknüpft: mit den Wurzeln ihres Lebens festgewachsen daran, daß – schnittest du sie mit dem Messer von diesem Grunde ab, sie in sich zusammen schrumpften und dir zwischen den Händen zu nichts vergingen. Wollen wir uns finden, so dürfen wir nicht in unser Inneres hinabsteigen: draußen sind wir zu finden, draußen. Wie der wesenlose Regenbogen spannt sich unsere Seele über den unaufhaltsamen Sturz des Daseins. Wir besitzen unser Selbst nicht: von außen weht es uns an, es flieht uns für lange und kehrt uns in einem Hauch zurück. Zwar – unser »Selbst«! Das Wort ist solch eine Metapher. Regungen kehren zurück, die schon einmal früher hier genistet haben. Und sind sies auch wirklich selber wieder? Ist es nicht vielmehr nur ihre Brut, die von einem dunklen Heimatgefühl hierher zurückgetrieben wird? Genug, etwas kehrt wieder. Und etwas begegnet sich in uns mit anderem. Wir sind nicht mehr als ein Taubenschlag.</p>
+            <p>CLEMENS. Seltsam, daß dich dieser Gedankengang darauf führt. Ich bin auf einem anderen Wege darauf gekommen, auf einem ganz anderen: es ist schwer, nicht daran zu zweifeln, daß es in der menschlichen Natur irgend eine Wesenheit gibt. Furchtbar ist es, die Gewalt der Äußerlichkeiten zu erwägen: es muß unendlich schwer sein, ein Drama zu schreiben, und unendlich hart, über einen Mörder zu Gericht zu sitzen.</p>
+            <p>GABRIEL. Aber es ist wundervoll, wie diese Verfassung unseres Daseins der Poesie entgegenkommt: denn nun darf sie, statt in der engen Kammer unseres Herzens, in der ganzen ungeheueren, unerschöpflichen Natur wohnen. Wie Ariel darf sie sich auf den Hügeln der heroischen purpurstrahlenden Wolken lagern und in den zitternden Wipfeln der Bäume nisten; sie darf sich vom wollüstigen Nachtwind hinschleifen lassen und sich auflösen in einen Nebelstreif, in den feuchten Atem einer Grotte, in das flimmernde Licht eines einzelnen Sternes. Und aus allen ihren Verwandlungen, allen ihren Abenteuern, aus allen Abgründen und allen Gärten wird sie nichts anderes zurückbringen als den zitternden Hauch der menschlichen Gefühle. Treibe sie, die wie Ariel keines Schlafes bedarf, empor, hoch über die dumpfe schlaftrunkene Erde, dorthin, wo an dem lichten Himmel ein einzelner Stern, ein heiliger Wächter, sich kühn und treu entzündet, stets an der gleichen Stelle, über dem zitternden Lichtabgrund im Westen, der dem Durchgang der Sonne nachbebt: laß sie aus Geisternähe, aus einer Höhe, die kein Adler kreisend erklimmt, dies Schauspiel in sich saugen – und wenn sie herabtaumeln wird, zurück zu dir, wird sie beladen sein mit einem ungeheuren, aber einem menschlichen Gefühl. Denn sie hat keine Grenzen ihres Fluges, aber in ihrem Wesen ist sie begrenzt: wie könnte sie aus irgend einem Abgrund der Welten etwas anderes zurückbringen als menschliche Gefühle, da sie doch selbst nichts anderes ist als die menschliche Sprache!</p>
+            <p>CLEMENS. Sie ist doch nicht ganz die Sprache, die Poesie. Sie ist vielleicht eine gesteigerte Sprache. Sie ist voll von Bildern und Symbolen. Sie setzt eine Sache für die andere.</p>
+            <p>GABRIEL. Welch ein häßlicher Gedanke! Sagst du das im Ernst? Niemals setzt die Poesie eine Sache für eine andere, denn es ist <pb n="499" facs="#f0005"/>
+gerade die Poesie, welche fieberhaft bestrebt ist, die Sache selbst zu setzen, mit einer ganz anderen Energie als die stumpfe Alltagssprache, mit einer ganz anderen Zauberkraft als die schwächliche Terminologie der Wissenschaft. Wenn die Poesie etwas tut, so ist es das: daß sie aus jedem Gebilde der Welt und des Traumes mit durstiger Gier sein Eigenstes, sein Wesenhaftestes herausschlürft, so wie jene Irrlichter in dem Märchen, die überall das Gold herauslecken. Und sie tut es aus dem gleichen Grunde: weil sie sich von dem Mark der Dinge nährt, weil sie elend verlöschen würde, wenn sie dies nährende Gold nicht aus allen Fugen, allen Spalten in sich zöge.</p>
+            <p>CLEMENS. Es gibt also keine Vergleiche? Es gibt keine Symbole?</p>
+            <p>GABRIEL. Oh, vielmehr, es gibt nichts als das, nichts anderes. Aber ich glaube, ich langweile dich, wir wollen von etwas anderem sprechen. Wir könnten ausgehen, willst du? Wie du willst. Da ist noch ein schönes Gedicht, aus denen des »Sommers«.</p>
+            <p>Gemahnt dich noch das schöne Bildnis dessen,</p>
+            <p>Der nach den Schluchtenrosen kühn gehascht,</p>
+            <p>Der über seiner Jagd den Tag vergessen,</p>
+            <p>Der von der Dolden vollem Seim genascht?</p>
+            <p>Der nach dem Parke sich zur Ruhe wandte,</p>
+            <p>Trieb ihn ein Flügelschillern allzuweit,</p>
+            <p>Der sinnend saß an jenes Weihers Kante</p>
+            <p>Und lauschte in die tiefe Heimlichkeit.</p>
+            <p>Und von der Insel moosgekrönter Steine</p>
+            <p>Verließ der Schwan das Spiel des Wasserfalls</p>
+            <p>Und legte in die Kinderhand, die feine,</p>
+            <p>Die schmeichelnde, den schlanken Hals.</p>
+            <p>CLEMENS. Ja, das ist schön. Das ist der Zauberkreis der Kindheit, in dem reinen tiefen Spiegel unstillbarer Sehnsucht aufgefangen. Wie rein es ist! Es schwebt wie eine freie leichte kleine Wolke hoch über einem Berg. Wie rein es ist! Es drückt einen grenzenlosen Zustand so einfach aus.</p>
+            <p>GABRIEL. Das tun alle Gedichte, alle guten zum mindesten. Alle drücken sie einen Zustand des Gemütes aus. Das ist die Berechtigung ihrer Existenz. Alles andere müssen sie anderen Formen überlassen: dem Drama, der Erzählung. Nur diese können Situationen schaffen. Nur diese können das Spiel der Gefühle zeigen.</p>
+            <p>CLEMENS. Ich meine, dieses Gedicht drückt einen Zustand so ganz einfach aus. Es bedient sich keines Symbols. Ich erinnere ein anderes, das du früher gerne hattest. Zwei Schwäne kamen vor. War es nicht von Hebbel?</p>
+            <p>GABRIEL. Es ist von Hebbel. Dieses ist es:</p>
+            <p>Von dunkelnden Wogen</p>
+            <p>Hinunter gezogen,</p>
+            <p>Zwei schimmernde Schwäne, die gleiten daher:</p>
+            <p>Die Winde, sie schwellen</p>
+            <p>Allmählich die Wellen,</p>
+            <p>Die Nebel, sie senken sich finster und schwer.</p>
+            <p>Die Schwäne sie meiden</p>
+            <p>Einander und leiden,</p>
+            <p>Nun tun sie es nicht mehr: sie können die Glut</p>
+            <p>Nicht länger verschließen,</p>
+            <p>Sie wollen genießen,</p>
+            <p>Verhüllt von den Nebeln, gewiegt von der Flut.</p>
+            <p>Sie schmeicheln, sie kosen,</p>
+            <p>Sie trotzen dem Tosen</p>
+            <p>Der Wellen, die Zweie in Eins verschränkt:</p>
+            <p>Wie die sich auch bäumen,</p>
+            <p>Sie glühen und träumen,</p>
+            <p>In Liebe und Wonne zum Sterben versenkt.</p>
+            <p>Nach innigem Gatten</p>
+            <p>Ein süßes Ermatten.</p>
+            <p>Da trennt sie die Woge, bevor sies gedacht.</p>
+            <p>Laßt ruhn das Gefieder!</p>
+            <p>Ihr seht euch nicht wieder,</p>
+            <p>Der Tag ist vorüber, es dämmert die Nacht.</p>
+            <p>Mein Freund, auch dieses Gedicht drückt einen Zustand aus und nichts weiter, einen tiefen Zustand des Gemüts, voll banger Wollust, voll trauervoller Kühnheit.</p>
+            <p>CLEMENS. Und diese Schwäne? Sie sind ein Symbol? Sie bedeuten –</p>
+            <p>GABRIEL. Laß mich dich unterbrechen. Ja, sie bedeuten, aber sprich es nicht aus, was sie bedeuten: was immer du sagen wolltest, es wäre unrichtig. Sie bedeuten hier nichts als sich selber: Schwäne. Schwäne, aber freilich gesehen mit den Augen der Poesie, die jedes Ding jedesmal zum erstenmal sieht, die jedes Ding mit allen Wundern seines Daseins umgibt: dieses hier mit der Majestät seiner königlichen Flüge; mit der lautlosen Einsamkeit seines strahlenden weißen Leibes, auf schwarzem Wasser trauervoll, verachtungsvoll kreisend; mit der wunderbaren Fabel seiner Sterbestunde ... Gesehen mit diesen Augen sind die Tiere die eigentlichen Hieroglyphen, sind sie lebendige geheimnisvolle Chiffren, mit denen Gott unaussprechliche Dinge in die Welt geschrieben hat. Glücklich der Dichter, daß auch er diese göttlichen Chiffren in seine Schrift verweben darf –</p>
+            <p>CLEMENS. Und dennoch glaubte ich dich sagen zu hören, daß die Poesie niemals eine Sache für eine andere setzt.</p>
+            <p>GABRIEL. Niemals tut sie das. Wenn sie das täte, müßte man sie austreten wie ein häßliches schwelendes Irrlicht. Was wollte sie dann neben der gemeinen Sprache? Verwirrung stiften? Papierblüten an einen lebendigen Baum hängen?</p>
+            <p>CLEMENS. Und diese Schwäne? und alle deine andern Chiffren?</p>
+            <p>GABRIEL. Es sind Chiffren, welche aufzulösen die Sprache ohnmächtig ist. Verstehst du mich? Jener herbstliche Park, diese von der Nacht umhüllten Schwäne -du wirst keine Gedankenworte, keine Gefühlsworte finden, in welchen sich die Seele jener, gerade jener Regungen entladen könnte, deren hier ein Bild sie entbindet. Wie gern wollte ich dir das Wort »Symbol« zugestehen, wäre es nicht schal geworden, daß michs ekelt. Man müßte ein Gespräch wie dieses mit Kindern, mit Frommen oder mit Dichtern führen können. Dem Kind ist alles ein Symbol, dem Frommen ist Symbol das einzig <pb n="502" facs="#f0008"/>
+Wirkliche und der Dichter vermag nichts anderes zu erblicken.</p>
+            <p>CLEMENS. Du springst: – die Symbole des Glaubens? Wir sprachen von Gedichten.</p>
+            <p>GABRIEL. Das tue ich noch. Aber ich möchte ein vom tiefsten Geist der Sprache geprägtes Wort erst von seiner Lehmkruste reinigen. Weißt du, was ein Symbol ist? ... Willst du versuchen dir vorzustellen, wie das Opfer entstanden ist? Mir ist, als hätten wir früher einmal darüber gesprochen. Ich meine das Schlachtopfer, das hingeopferte Blut und Leben eines Rindes, eines Widders, einer Taube. Wie konnte man denken, dadurch die erzürnten Götter zu begütigen? Es bedarf einer wunderbaren Sinnlichkeit, um dies zu denken, einer bewölkten lebenstrunkenen orphischen Sinnlichkeit. Mich dünkt, ich sehe den ersten, der opferte. Er fühlte, daß die Götter ihn haßten: daß sie die Wellen des Gießbaches und das Geröll der Berge in seinen Acker schleuderten; daß sie mit der fürchterlichen Stille des Waldes sein Herz zerquetschen wollten, oder er fühlte, daß die gierige Seele eines Toten nachts mit dem Wind hereinkam und sich auf seine Brust setzte, dürstend nach Blut. Da griff er, im doppelten Dunkel seiner niedern Hütte und seiner Herzensangst, nach dem scharfen krummen Messer und war bereit, das Blut aus seiner Kehle rinnen zu lassen, dem furchtbaren Unsichtbaren zur Lust. Und da, trunken vor Angst und Wildheit und Nähe des Todes, wühlte seine Hand, halb unbewußt, noch einmal im wolligen warmen Vließ des Widders. – Und dieses Tier, dieses Leben, dieses im Dunkel atmende, blutwarme, ihm so nah, so vertraut – – auf einmal zuckte dem Tier das Messer in die Kehle, und das warme Blut rieselte zugleich an dem Vließ des Tieres und an der Brust, an den Armen des Menschen hinab: und einen Augenblick lang muß er geglaubt haben, es sei sein eigenes Blut; einen Augenblick lang, während ein Laut des wollüstigen Triumphes aus seiner Kehle sich mit dem ersterbenden Stöhnen des Tieres mischte, muß er die Wollust gesteigerten Daseins für die erste Zuckung des Todes genommen haben: er muß, einen Augenblick lang, in dem Tier gestorben sein, nur so konnte das Tier für ihn sterben. Daß das Tier für ihn sterben <pb n="503" facs="#f0009"/>
+konnte, wurde ein großes Mysterium, eine große geheimnisvolle Wahrheit. Das Tier starb hinfort den symbolischen Opfertod. Aber alles ruhte darauf, daß auch er in dem Tier gestorben war, einen Augenblick lang. Daß sich sein Da sein, für die Dauer eines Atemzugs, in dem fremden Dasein aufgelöst hatte. – Das ist die Wurzel aller Poesie: wie durchsichtig im Großen: denn was ist klarer, als daß sich mein Fühlen in Hamlet auflöst, solange Hamlet auf der Bühne steht und mich hypnotisiert? Aber wie durchsichtig auch im Kleinen: faßt mich, für eines Gedankenblitzes Dauer, nicht das Gefieder jener Schwäne so gut wie Hamlets Haut? Aber es wirklich zu glauben, zu glauben, daß es wirklich so ist! Diese Magie ist uns so furchtbar nahe: nur darum ist es so schwer, sie zu erkennen. Die Natur hat kein anderes Mittel, uns zu fassen, uns an sich zu reißen, als diese Bezauberung. Sie ist der Inbegriff der Symbole, die uns bezwingen. Sie ist, was unser Leib ist, und unser Leib ist, was sie ist. Darum ist Symbol das Element der Poesie, und darum setzt die Poesie niemals eine Sache für eine andere: sie spricht Worte aus, um der Worte willen, das ist ihre Zauberei. Um der magischen Kraft willen, welche die Worte haben, unseren Leib zu rühren, und uns unaufhörlich zu verwandeln.</p>
+            <p>CLEMENS. Mir entschwindet, was du mit dem Menschen wolltest, der das Blut des Tieres anstatt seines eigenen vergoß?</p>
+            <p>GABRIEL. Er vollbrachte eine symbolische Handlung. Er starb in dem Tiere, Clemens, weil er sich einen Augenblick lang in dies fremde Dasein aufgelöst hatte, weil einen Augenblick lang wirklich sein Blut aus der Kehle des Tieres gequollen war. –</p>
+            <p>CLEMENS. Du sagst <hi rendition="#i">wirklich,</hi> Gabriel?</p>
+            <p>
+               <hi rendition="#i">Eine Pause.</hi>
+            </p>
+            <p>CLEMENS. Er starb in dem Tier. Und wir lösen uns auf in den Symbolen. So meinst du es?</p>
+            <p>GABRIEL. Freilich. Soweit sie die Kraft haben, uns zu bezaubern.</p>
+            <p>CLEMENS. Woher kommt ihnen diese Kraft? Wie konnte er in dem Tier sterben?</p>
+            <p>GABRIEL. Davon, daß wir und die Welt nichts Verschiedenes sind.</p>
+            <p>CLEMENS. Etwas Seltsames liegt in dem Gedanken, etwas Beunruhigendes.</p>
+            <p>GABRIEL. Im Gegenteil, etwas unendlich Ruhevolles. Es ist das einzig Süße, einen Teil seiner Schwere abgegeben zu sehen, und wäre es nur für die mystische Frist eines Hauches. In unserem Leib ist das All dumpf zusammengedrückt: wie selig, sich tausendfach der furchtbaren Wucht zu entladen.</p>
+            <p>CLEMENS. Und dennoch, ist mir, muß es Gedichte geben, die schön sind ohne diese schwüle Bezauberung. Es gibt Lieder von Goethe, welche leicht sind wie ein Hauch und einfach wie eine Mozartsche Melodie. Es gibt antike Gedichte, welche so sind wie ein dunkles Weinblatt gegen den blauen Abendhimmel. Die Anthologie ist voll von solchen. Du kennst sie besser als ich.</p>
+            <p>GABRIEL. Ich kenne sie: Der Gärtner Lamon opfert dem Priapus die schönsten Früchte: in den Bastkorb legt er schöne gezackte Blätter und darauf den Granatapfel, den aufgesprungenen, dem das feuchte, zitternde, purpurne Fleisch die tausend süßen Kerne umhüllt; runzlige Feigen legt er dazu und die rötlich schimmernde erdbeerduftende Traube, und flaumige Quitten, die reifende Nuß, die schon ihr grünes Gehäuse sprengt, und saftgeschwellte Gurken: so legt er es auf den Altar des Gottes anstatt eines Gebetes für sein eigenes Leben und für die Gesundheit seiner Bäume. Und Niko, die Zauberin, opfert der Kypris den amethystnen Kreisel, umsponnen mit Fäden purpurner Wolle, den zauberkräftigen Kreisel, mit dem sie Männer heranzieht über das Meer, Mädchen hervorlockt aus der Kammer. Ein Mädchen setzt der toten Zikade, die zwei Jahre in ihrer Schlafkammer wohnte, ein Grabmal. Fischer ziehen das schwere Netz empor und finden einen vom Meer verschlungenen Mann, zur Hälfte verzehrt von Fischen. Und sie begraben ihn und die Fische mit ihm unter dem spärlichen Sand des Felsenstrandes; daß die Erde ihn ganz zurücknehme, begraben sie mit ihm die Fische, die ihn angenagt, die von ihm gezehrt haben. Eine schwellende Traube liegt auf dem Altar der Aphrodite, das Dankgeschenk für eine süße, gnädig gewährte Nacht, liegt da, überantwortet der göttlichen Gewalt, nackt, allein, und nicht mehr breitet <pb n="505" facs="#f0011"/>
+die Mutter um sie die freundlichen Ranken, umschattet nicht mehr ihren nackten jungen Leib mit Blättern, die süß duften, voll lauen heimlichen Dunkels.</p>
+            <p>CLEMENS. Und die, welche keltern! und die, welche lieben! weißt du keines Wort für Wort?</p>
+            <p>GABRIEL. Die, welche keltern, fühlen sich wie die Götter. Es ist ihnen, als wäre Bacchus mitten unter ihnen beim nächtlichen Werk. Als stampfte er neben ihnen, das lange Gewand hinaufgenommen bis übers Knie, im roten Saft, dessen Hauch schon trunken macht. Gleichzeitig sind sie Badende und Tanzende: und die Trunkenheit ihres Tanzes ist es, die ihnen das Bad immer höher und höher steigen macht. Stromweis fließt von der Kelter der Most; wie kleine Schiffe schaukeln die hölzernen Schöpfbecher auf der purpurnen Flut. Da bückt sich die schöne Rhodanta tief zur Kelter hinab, und schon ist ihr das weiße leinene Gewand durchnäßt, schon glänzt es triefend ihr um Brust und Hüften:</p>
+            <p>Da schlug jeglichem höher die Brust, und keiner von uns war,</p>
+            <p>Welcher dem Bacchus nicht und Aphroditen erlag.</p>
+            <p>Im dunstigen Dunkel, unter Schreien, unter taumelndem Fackelschein, unterm Sprühen des Blutes der Traube, ist auf einmal Aphrodite aus dem Purpurschaum geboren: Bacchus hob sich aus der Kelter, wild wie eine springende Welle, und durchtränkte ein Gewand, daß es niederfloß wie eine leuchtende Nacktheit, und schuf aus einem Mädchen die Göttin, um deren Leib Verlangen und Entzücken fließt.</p>
+            <p>CLEMENS. Und jene süßen, schamlosen? Jenes, wo sie die Gewänder tauschen und einander aufs neue fester umschlingen? Und jenes, wo sie ineinander verflochten sind und die Götter herausfordern, wo sie sich einander in die Arme sehnen und das Netz des Hephästos um sich herum wünschen und die Götter und Menschen sich herbeiwünschen, sie zu sehen, sie zu beneiden? Sind sie nicht alle schön, diese Gedichte, einfach und schön wie die schönen Muscheln mit rosigem Mund? Sind sie nicht so schön wie schöne flache Trinkschalen aus Onyx und Jadestein? Nicht schön wie ein kupfernes getriebenes <pb n="506" facs="#f0012"/>
+Becken, bis an den Rand mit lauterem Wasser gefüllt? Wie die steinerne Brücke, die in einem Bogen über den Bergfluß hinsetzt? Wie das geschwungene Joch der pflügenden Stiere? Und hat Goethe sie nicht geliebt wie nichts zweites auf der Welt? War er nicht selig, als er sie fand, wie der Wanderer, wenn er die Berghalde niederklimmt und zwischen Moos und Gestein, eine Herberge der Eidechsen, ein wundervolles marmornes Gebilde findet, das leuchtende Trümmer eines Götterbildes, die feine gebietende Hand, oder die strahlende Schulter mit dem Knoten des Gewandes? Hat er nicht von da an die Töne seiner Jugend verschmäht und alles in diese Pansflöte gehaucht? Wurden nicht von da an das odysseische Schiff und die leierförmig gekrümmte Bucht, wurden nicht der Fruchtkorb, der Kranz, der marmorne Brunnenrand, das Bett, auf dem Tibull nach der Geliebten seufzte, wurden nicht Pferch und Speicher Vergils, und die idyllischen Weiden des Bion, wurden nicht alle diese geformten Gebilde, alle diese Dinge, welche die Hand der Götter geformt hat, welche wie getriebene Arbeit von den Hämmern des Hephästos den funkelnden kreisrunden Schild der Erde zieren, wurden sie nicht die Heimat seiner Seele? Fühlte er sich nicht dem Bildner näher verwandt als dem Redner? Wen hat er so gepriesen wie jenen, der mit kunstreichen Händen den Brustschmuck der ephesischen Diana schuf? In den Euphrat kühn zu greifen, die Flut in den Händen zu ballen, das war ihm Dichten. Spottete er nicht der Schweifenden? Der ewig Sehnenden? Derer, denen nichts frommt, als ein unablässiges Dürsten nach dem Durste? War ihm nicht die Natur die ewige Bildnerin? Waren ihm nicht alle Kräfte, alle Dämonen, selber die Schmerzen noch Bildner? Antworte mir, Gabriel, ist der geformte Gedanke nicht schön? Hat er nicht den Glanz des Lebens verzehnfacht in sich, wie die Perlen den feuchten Schimmer der nackten Hand in sich saugen und zehnfach widerstrahlen?</p>
+            <p>GABRIEL. Ja, der Gedanke ist etwas Schönes und du hast so großes Recht, ihn der Perle und dem Edelstein zu vergleichen. Diesen beiden gleicht er, die schöner sind als alles Blühen und Leben, weil sie über das Blühen und Leben und Sterben hinaus sind. Und für eine junge Welt, die daliegt in Blindheit, ist <pb n="507" facs="#f0013"/>
+er das Wunder der Wunder. Was ein Vogel in der Luft für den Seemann, für den, der die Hundswache hat und allein dalehnt, in den Mantel gewickelt: totenstill das schwere dunkle Meer und darüber nicht Nacht nicht Tag; über den grauen kahlen Inseln hängen Wolkenbänke, regungslos, als hingen sie hier seit Tausenden von Jahren, Inseln der Luft; das Deck, die Raaen überziehen sich mit einem blauen dunstigen Licht, das an ihnen herunterfließt und in die Atmosphäre hineinsickert; unerträglich ist die wortlose Erwartung, die Stummheit der lichtlosen, der schattenlosen Welt: was hier der Flügelschlag eines wundervollen Meervogels ist, der heransegelt hoch im Osten, königlich die Schwingen schlagend, der erste Abglanz des heraufblitzenden Tages funkelnd auf ihm: das ist für eine frühe dumpfe Welt der Gedanke. Wir aber sind reicher an Gedanken, als der endlose Meeresstrand an Muscheln. Was uns not tut, ist der Hauch.</p>
+            <p>Wovon unsere Seele sich nährt, das ist das Gedicht, in welchem, wie im Sommerabendwind, der über die frischgemähten Wiesen streicht, zugleich ein Hauch von Tod und Leben zu uns herschwebt, eine Ahnung des Blühens, ein Schauder des Verwesens, ein Jetzt, ein Hier und zugleich ein Jenseits, ein ungeheueres Jenseits. Jedes vollkommene Gedicht ist Ahnung und Gegenwart, Sehnsucht und Erfüllung zugleich. Ein Elfenleib ist es, durchsichtig wie die Luft, ein schlafloser Bote, den ein Zauberwort ganz erfüllt; den ein geheimnisvoller Auftrag durch die Luft treibt: und im Schweben entsaugt er den Wolken, den Sternen, den Wipfeln, den Lüften den tiefsten Hauch ihres Wesens und der Zauberspruch aus seinem Munde tönt getreu und doch wirr, durchflochten mit den Geheimnissen der Wolken, der Sterne, der Wipfel, der Lüfte. Und Goethe? Seine Taten sind vielfältig wie die Taten eines wandernden Gottes. Er gleicht dem Herakles, dessen Abenteuer, jedes eingehüllt in eine Glorie, jedes wohnend in einer anderen Landschaft, nichts voneinander wissen. Die Lieder seiner Jugend sind nichts als ein Hauch. Jedes ist der entbundene Geist eines Augenblickes, der sich aufgeschwungen hat in den Zenith und dort strahlend hängt und alle Seligkeit des Augenblickes rein in sich saugt und verhauchend sich löst in <pb n="508" facs="#f0014"/>
+den klaren Äther. Und die Gedichte seines Alters sind zuweilen wie die dunklen tiefen Brunnen, über deren Spiegel Gesichte hingleiten, die das aufwärts starrende Auge nie wahrnimmt, die für keinen auf der Welt sichtbar werden als für den, der sich hinabbeugt auf das tiefe dunkle Wasser eines langen Lebens. Meinst du wirklich, er habe immer und immer den geformten Gedanken ans Licht der Sonne gehoben wie eine gestielte Schale aus Sardonyx und Chrysopras? Hör zu:</p>
+            <p>Sagt es niemand, nur den Weisen,</p>
+            <p>Weil die Menge gleich verhöhnet,</p>
+            <p>Das Lebendge will ich preisen,</p>
+            <p>Das nach Flammentod sich sehnet.</p>
+            <p>In der Liebesnächte Kühlung,</p>
+            <p>Die dich zeugte, wo du zeugtest,</p>
+            <p>Überfällt dich fremde Fühlung,</p>
+            <p>Wenn die stille Kerze leuchtet.</p>
+            <p>Nicht mehr bleibest du umfangen</p>
+            <p>In der Finsternis Beschattung</p>
+            <p>Und dich reißet neu Verlangen</p>
+            <p>Auf zu höherer Begattung.</p>
+            <p>Keine Ferne macht dich schwierig,</p>
+            <p>Kommst geflogen und gebannt</p>
+            <p>Und zuletzt, des Lichts begierig,</p>
+            <p>Bist du, Schmetterling, verbrannt.</p>
+            <p>Und so lang du das nicht hast</p>
+            <p>Dieses: Stirb und werde!</p>
+            <p>Bist du nur ein trüber Gast</p>
+            <p>Auf der dunklen Erde.</p>
+            <p>Hörst du diesen Laut, wie von einem verzauberten Nachtvogel hineingesungen in das Zimmer, wo einer stirbt? Man sagt, er habe es in der Nacht gemacht, in welcher Christiane Vulpius gestorben war. Das wirkliche Erlebnis der Seele, welche Worte möchten es ausdrücken, wenn nicht bezauberte! Ein Augenblick kommt und drückt aus tausenden und tausenden <pb n="509" facs="#f0015"/>
+seinesgleichen den Saft heraus, in die Höhle der Vergangenheit dringt er ein und den tausenden von dunklen erstarrten Augenblicken, aus denen sie aufgebaut ist, entquillt ihr ganzes Licht: was niemals da war, nie sich gab, jetzt ist es da, jetzt gibt es sich, ist Gegenwart, mehr als Gegenwart; was niemals zusammen war, jetzt ist es zugleich, ist es beisammen, schmilzt ineinander die Glut, den Glanz und das Leben. Die Landschaften der Seele sind wunderbarer als die Landschaften des gestirnten Himmels: nicht nur ihre Milchstraßen sind Tausende von Sternen, sondern ihre Schattenklüfte, ihre Dunkelheiten sind tausendfaches Leben, Leben, das lichtlos geworden ist durch sein Gedränge, erstickt durch seine Fülle. Und diese Abgründe, in denen das Leben sich selber verschlingt, kann ein Augenblick durchleuchten, entbinden, Milchstraßen aus ihnen machen. Und diese Augenblicke sind die Geburten der vollkommenen Gedichte, und die Möglichkeit vollkommener Gedichte ist ohne Grenzen wie die Möglichkeit solcher Augenblicke. Wie wenige gibt es dennoch, Clemens, wie sehr wenige. Aber daß ihrer überhaupt welche entstehen, ist es nicht wie ein Wunder? Daß es Zusammenstellungen von Worten gibt, aus welchen, wie der Funke aus dem geschlagenen dunklen Stein, die Landschaften der Seele hervorbrechen, die unermeßlich sind wie der gestirnte Himmel, Landschaften, die sich ausdehnen im Raum und in der Zeit, und deren Anblick abzuweiden in uns ein Sinn lebendig wird, der über alle Sinne ist. Und dennoch entstehen solche Gedichte ...</p>
+         </div>
+      </body>
+   </text>
+</TEI>

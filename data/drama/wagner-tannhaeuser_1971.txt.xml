@@ -1,0 +1,2271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Tannhäuser und Der Sängerkrieg auf Wartburg</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118594117">
+                  <forename>Richard</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-01T12:22:57Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000415</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q560619</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005854555</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Wagner, Richard/Musikdramen/Tannhäuser und Der Sängerkrieg auf Wartburg</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/wzpn.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0005-89A7-9</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Richard Wagner: Die Musikdramen. Hamburg 1971</bibl>
+            <bibl>Richard Wagner: Die Musikdramen. Mit einem Vorwort von Joachim Kaiser, Hamburg: Hoffmann und Campe, 1971.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Die Musikdramen</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118594117">
+                        <forename>Richard</forename>
+                        <surname>Wagner</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">251 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Hoffmann und Campe</name>
+                  </publisher>
+                  <pubPlace>Hamburg</pubPlace>
+                  <date type="publication">1971</date>
+                  <date type="firstPublication">1845</date>
+                  <date type="firstPublication" subtype="clariah">1845</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1813"
+                        notAfter="1883"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d1969e296">Komponiert von Richard Wagner. Uraufführung am 19.10.1845, Königlich-Sächsisches Opernhaus (Semperoper), Dresden.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <personGrp xml:id="sirenen" sex="FEMALE">
+                  <name>Sirenen</name>
+               </personGrp>
+               <person xml:id="venus" sex="FEMALE">
+                  <persName>Venus</persName>
+               </person>
+               <person xml:id="tannhaeuser" sex="MALE">
+                  <persName>Tannhäuser</persName>
+               </person>
+               <person xml:id="der_hirt" sex="MALE">
+                  <persName>Der Hirt</persName>
+               </person>
+               <person xml:id="die_aelteren_pilger" sex="MALE">
+                  <persName>Die älteren Pilger</persName>
+                  <persName type="variant">Die Pilger</persName>
+               </person>
+               <person xml:id="der_landgraf" sex="MALE">
+                  <persName>Der Landgraf</persName>
+                  <persName type="variant">Landgraf</persName>
+               </person>
+               <person xml:id="walther" sex="MALE">
+                  <persName>Walther von der Vogelweide</persName>
+               </person>
+               <person xml:id="biterolf" sex="MALE">
+                  <persName>Biterolf</persName>
+               </person>
+               <person xml:id="wolfram" sex="MALE">
+                  <persName>Wolfram von Eschenbach</persName>
+               </person>
+               <person xml:id="heinrich_der_schreiber" sex="MALE">
+                  <persName>Heinrich der Schreiber</persName>
+               </person>
+               <person xml:id="reinmar_von_zweter" sex="MALE">
+                  <persName>Reinmar von Zweter</persName>
+               </person>
+               <person xml:id="elisabeth" sex="FEMALE">
+                  <persName>Elisabeth</persName>
+               </person>
+               <personGrp xml:id="die_ritter" sex="MALE">
+                  <name>Die Ritter</name>
+                  <name type="variant">Chor der Ritter</name>
+                  <name type="variant">Ritter</name>
+               </personGrp>
+               <personGrp xml:id="edelfrauen" sex="FEMALE">
+                  <name>Edelfrauen</name>
+                  <name type="variant">Frauen</name>
+                  <name type="variant">Die Edelfrauen</name>
+               </personGrp>
+               <personGrp xml:id="vier_edelknaben" sex="MALE">
+                  <name>Vier Edelknaben</name>
+               </personGrp>
+               <personGrp xml:id="die_juengeren_pilger" sex="MALE">
+                  <name>Die jüngeren Pilger</name>
+                  <name type="variant">Gesang der jüngeren Pilger</name>
+               </personGrp>
+               <personGrp xml:id="maennergesang" sex="MALE">
+                  <name>Männergesang</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Musikdramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d1969e296">
+      <front>
+         <div type="front">
+            <head>Richard Wagner</head>
+            <head>Tannhäuser und Der Sängerkrieg auf Wartburg</head>
+            <head>Grosse romantische Oper in drei Akten</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="222" facs="#f0001"/> Personen</head>
+               <castItem>Hermann, Landgraf von Thüringen</castItem>
+               <castItem>Tannhäuser</castItem>
+               <castItem>Wolfram von Eschenbach</castItem>
+               <castItem>Walther von der Vogelweide</castItem>
+               <castItem>Biterolf</castItem>
+               <castItem>Heinrich der Schreiber</castItem>
+               <castItem>Reinmar von Zweter</castItem>
+               <castItem>Elisabeth, Nichte des Landgrafen</castItem>
+               <castItem>Venus</castItem>
+               <castItem>Ein Junger Hirt</castItem>
+               <castItem>Vier Edelknaben</castItem>
+               <castItem>Thüringische Ritter, Grafen und Edelleute</castItem>
+               <castItem>Edelfrauen</castItem>
+               <castItem>Ältere und Jüngere Pilger</castItem>
+               <castItem>Sirenen. Najaden. Nymphen. Bacchantinnen</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Thüringen. Wartburg.</p>
+            <p>Zu Anfang des 13. Jahrhunderts</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Akt</head>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Die Bühne stellt das Innere des Venusberges dar. Weite Grotte, welche sich im
+            Hintergrunde durch eine Biegung nach rechts wie unabsehbar dahinzieht. Im fernsten
+            sichtbaren Hintergrunde dehnt sich ein bläulicher See aus; in ihm erblickt man die
+            badenden Gestalten von Najaden; auf seinen erhöhten Ufervorsprüngen sind Sirenen
+            gelagert. Im äußersten Vordergrunde links liegt Venus auf einem Lager ausgestreckt, vor
+            ihr halb kniend Tannhäuser, das Haupt in ihrem Schoße. Die ganze Grotte ist durch
+            rosiges Licht erleuchtet. – Den Mittelgrund nimmt eine Gruppe tanzender Nymphen ein; auf
+            etwas erhöhten Vorsprüngen an den Seiten der Grotte sind liebende Paare gelagert, von
+            denen sich einzelne nach und nach in den Tanz der Nymphen mischen. – Ein Zug von
+            Bacchantinnen kommt aus dem Hintergrunde in wildem Tanze dahergebraust; sie durchziehen
+            mit trunkenen Gebärden die Gruppen der Nymphen und liebenden Paare, welche durch sie
+            bald zu größerem Ungestüm hingerissen werden. – Dem immer wilder gewordenen Tanze
+            antwortet wie im Echo der Gesang der</stage>
+               <sp who="#sirenen">
+                  <speaker>SIRENEN.</speaker>
+                  <p>Naht euch dem Strande!</p>
+                  <stage>Die Tanzenden halten in der leidenschaftlichsten Gruppe plötzlich an und lauschen
+              dem Gesange</stage>
+                  <lg>
+                     <l>Naht euch dem Lande,</l>
+                     <l>wo in den Armen</l>
+                     <l>glühender Liebe</l>
+                     <l>selig Erwarmen</l>
+                     <l>still' eure Triebe!</l>
+                  </lg>
+                  <stage>Von Neuem belebt sich der Tanz und gelangt zu dem äußersten Grade wilden
+              Ungestümes. – Mit dem Momente der trunkensten bacchantischen Wut tritt eine schnell um
+              sich greifende Erschlaffung ein. Die liebenden Paare scheiden sich nach und nach vom
+              Tanze aus und lagern sich wie in angenehmer Ermattung auf den Vorsprüngen der Grotte.
+              Der Zug der Bacchantinnen verschwindet nach dem Hintergrunde zu, vor welchem sich ein
+              immer dichter werdender Duft ausbreitet. <pb n="223" facs="#f0002"/> Auch im Vordergrunde senkt sich
+              allmählich ein dichterer Duft herab und verhüllt die Gruppen der Schlafenden wie in
+              rosige Wolken, so daß endlich der sichtbare Teil der frei gelassenen Bühne sich nur
+              noch auf einen kleinen Raum beschränkt, in welchem bloß Venus und Tannhäuser in ihrer
+              früheren Stellung zurückbleiben. In weiter Ferne verhallt der Gesang der
+              Sirenen</stage>
+               </sp>
+               <sp who="#sirenen">
+                  <speaker>SIRENEN</speaker>
+                  <stage>sehr entfernt.</stage>
+                  <lg>
+                     <l>Naht euch dem Strande!</l>
+                     <l>Naht euch dem Lande!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Tannhäuser zuckt mit dem Haupte empor, als fahre er aus einem Traume auf. – Venus
+            zieht ihn schmeichelnd zurück. – Tannhäuser führt die Hand über die Augen, als suche er
+            ein Traumbild festzuhalten</stage>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>Geliebter, sag? Wo weilt dein Sinn?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Zuviel! Zuviel! O, daß ich nun erwachte!</p>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>Sag, was kümmert dich?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Im Traum war mir's, als hörte ich –</l>
+                     <l>was meinem Ohr so lange fremd –</l>
+                     <l>als hörte ich der Glocken frohes Geläute ...</l>
+                     <l>O sag, wie lange hört' ich's doch nicht mehr?</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>Wohin verlierst du dich? Was faßt dich an?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Die Zeit, die hier ich verweil, ich kann sie nicht</l>
+                     <l>ermessen! Tage, Monde – gibt's für mich</l>
+                     <l>nicht mehr, – denn nicht mehr sehe ich die Sonne,</l>
+                     <l>nicht mehr des Himmels freundliche Gestirne; –</l>
+                     <l>den Hahn seh ich nicht mehr, der frisch ergrünend</l>
+                     <l>den neuen Sommer bringt; – die Nachtigall</l>
+                     <l>hör ich nicht mehr, die mir den Lenz verkünde!</l>
+                     <l>Hör ich sie nie, seh ich sie niemals mehr?</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS</speaker>
+                  <stage>sich in dem Lager aufrichtend.</stage>
+                  <lg>
+                     <l>Ha, was vernehm ich!</l>
+                     <l>Welche tör'ge Klagen!</l>
+                     <l>Bist du so bald der holden Wunder müde,</l>
+                     <l>die meine Liebe dir bereitet? Oder</l>
+                     <l>wie? Reut es dich so sehr, ein Gott zu sein?</l>
+                     <l>Hast du so bald vergessen, wie du einst</l>
+                     <l>gelitten, während jetzt du dich erfreust?</l>
+                     <l>Mein Sänger, auf! Ergreife deine Harfe!</l>
+                     <l>
+                        <pb n="224" facs="#f0003"/> Die Liebe feire, die so herrlich du besingst,</l>
+                     <l>daß du der Liebe Göttin selber dir gewannst, –</l>
+                     <l>die Liebe feire, da ihr höchster Preis dir ward!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>zu einem plötzlichen Entschlusse ermannt, ergreift seine Harfe und stellt sich
+              feierlich vor Venus hin.</stage>
+                  <lg>
+                     <l>Dir töne Lob! Die Wunder sei'n gepriesen,</l>
+                     <l>die deine Macht mir Glücklichem erschuf!</l>
+                     <l>Die Wonnen süß, die deiner Huld entsprießen,</l>
+                     <l>erheb mein Lied in lautem Jubelruf!</l>
+                     <l>Nach Freude, ach! nach herrlichem Genießen</l>
+                     <l>verlangt' mein Herz, es dürstete mein Sinn:</l>
+                     <l>da, was nur Göttern einstens du erwiesen,</l>
+                     <l>gab deine Gunst mir Sterblichem dahin. –</l>
+                     <l>Doch sterblich, ach! bin ich geblieben,</l>
+                     <l>und übergroß ist mir dein Lieben;</l>
+                     <l>wenn stets ein Gott genießen kann,</l>
+                     <l>bin ich dem Wechsel untertan;</l>
+                     <l>nicht Lust allein liegt mir am Herzen,</l>
+                     <l>aus Freuden sehn ich mich nach Schmerzen!</l>
+                     <l>Aus deinem Reiche muß ich fliehn, –</l>
+                     <l>oh, Königin! Göttin, laß mich ziehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <lg>
+                     <l>Was muß ich hören? Welch ein Sang!</l>
+                     <l>Welch trübem Ton verfällt dein Lied?</l>
+                     <l>Wohin floh die Begeistrung dir,</l>
+                     <l>die Wonnesang dir nur gebot?</l>
+                     <l>Was ist's? Worin war meine Liebe lässig?</l>
+                     <l>Geliebter, wessen klagest du mich an?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Dank deiner Huld, gepriesen sei dein Lieben!</l>
+                     <l>Beglückt für immer, wer bei dir geweilt!</l>
+                     <l>Ewig beneidet, wer mit warmen Trieben</l>
+                     <l>in deinen Armen Götterglut geteilt!</l>
+                     <l>Entzückend sind die Wunder deines Reiches,</l>
+                     <l>die Zauber aller Wonnen atm' ich hier;</l>
+                     <l>kein Land der weiten Erde bietet Gleiches,</l>
+                     <l>was sie besitzt, scheint leicht entbehrlich dir.</l>
+                     <l>Doch ich aus diesen ros'gen Düften</l>
+                     <l>verlange nach des Waldes Lüften,</l>
+                     <l>nach unsres Himmels klarem Blau,</l>
+                     <l>nach unsrem frischen Grün der Au, –</l>
+                     <l>nach unsrer Vöglein liebem Sange,</l>
+                     <l>nach unsrer Glocken trautem Klange; –</l>
+                     <l>aus deinem Reiche muß ich fliehn!</l>
+                     <l>O Königin! Göttin, laß mich ziehn!</l>
+                     <pb n="225" facs="#f0004"/>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <lg>
+                     <l>Treuloser! Weh, was lässest du mich hören?</l>
+                     <l>Du wagest meine Liebe zu verhöhnen!</l>
+                     <l>Du preisest sie und willst sie dennoch fliehn!</l>
+                     <l>Zum Überdruß ist dir mein Reiz gediehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Ach, schöne Göttin! Wolle mir nicht zürnen!</l>
+                     <l>Dein übergroßer Reiz ist's, den ich fliehe!</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <lg>
+                     <l>Weh dir, Verräter! Heuchler! Undankbarer! Weh!</l>
+                     <l>Ich laß dich nicht! Du darfst nicht von mir ziehen!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Nie war mein Lieben größer, niemals wahrer,</l>
+                     <l>als jetzt, da ich für ewig dich muß fliehn!</l>
+                  </lg>
+                  <stage>Venus hat ihr mit den Händen bedecktes Gesicht leidenschaftlich von Tannhäuser
+              abgewendet; nach einer Pause wendet sie es ihm lächelnd und mit verführerischem
+              Ausdruck wieder zu.</stage>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <lg>
+                     <l>Geliebter, komm! Sieh dort die Grotte,</l>
+                     <l>von ros'gen Düften mild durchwallt!</l>
+                     <l>Entzücken böt selbst einem Gotte</l>
+                     <l>der süß'sten Freuden Aufenthalt.</l>
+                     <l>Besänftigt auf dem weichsten Pfühle</l>
+                     <l>flieh deine Glieder jeder Schmerz!</l>
+                     <l>Dein brennend Haupt umwehe Kühle,</l>
+                     <l>wonnige Glut durchschwelle dein Herz!</l>
+                     <l>Aus holder Ferne mahnen süße Klänge,</l>
+                     <l>daß dich mein Arm in trauter Näh umschlänge;</l>
+                     <l>von meinen Lippen schlürfst du Göttertrank,</l>
+                     <l>aus meinen Augen strahlt dir Liebesdank!</l>
+                     <l>Ein Freudenfest soll unsrem Bund entstehen,</l>
+                     <l>der Liebe Feier laß uns froh begehen!</l>
+                     <l>Nicht sollst du ihr ein scheues Opfer weihn,</l>
+                     <l>nein! mit der Liebe Göttin schwelge im Verein!</l>
+                  </lg>
+               </sp>
+               <sp who="#sirenen">
+                  <speaker>SIRENEN</speaker>
+                  <stage>aus weiter Ferne, unsichtbar.</stage>
+                  <p>Naht euch dem Strande! Naht euch dem Lande!</p>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS</speaker>
+                  <stage>während sie sucht Tannhäuser sanft nach sich zu ziehen.</stage>
+                  <p>Mein Ritter, mein Geliebter! Willst du fliehen?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>auf das Äußerste hingerissen, greift mit trunkener Gebärde in die Harfe.</stage>
+                  <lg>
+                     <l>Stets soll nur dir, nur dir mein Lied ertönen,</l>
+                     <l>gesungen laut sei nur dein Preis von mir!</l>
+                     <l>Dein süßer Reiz ist Quelle alles Schönen,</l>
+                     <l>und jedes holde Wunder stammt von dir.</l>
+                     <l>Die Glut, die du mir in das Herz gegossen,</l>
+                     <l>als Flamme lodre hell sie dir allein!</l>
+                     <l>
+                        <pb n="226" facs="#f0005"/> Ja, gegen alle Welt will unverdrossen</l>
+                     <l>fortan ich nun dein kühner Streiter sein!</l>
+                  </lg>
+                  <stage>Er läßt sich die Harfe entsinken</stage>
+                  <lg>
+                     <l>Doch hin muß ich zur Welt der Erden, –</l>
+                     <l>bei dir kann ich nur Sklave werden;</l>
+                     <l>nach Freiheit doch verlangt es mich,</l>
+                     <l>nach Freiheit, Freiheit dürste ich: –</l>
+                     <l>zu Kampf und Streite will ich stehn,</l>
+                     <l>sei's auch zum Tod und Untergehn!</l>
+                     <l>Drum muß aus deinem Reich ich fliehn –!</l>
+                     <l>Oh, Königin! Göttin! Laß mich ziehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS</speaker>
+                  <stage>im heftigsten Zorne.</stage>
+                  <lg>
+                     <l>Zieh hin, Wahnsinniger! Zieh hin!</l>
+                     <l>Verräter, sieh, nicht halt ich dich!</l>
+                     <l>Ich geb dich frei! Zieh hin! Zieh hin!</l>
+                     <l>Was du verlangst, das sei dein Los!</l>
+                     <l>Zieh hin! Zieh hin!</l>
+                     <l>Hin zu den kalten Menschen flieh,</l>
+                     <l>vor deren blödem, trübem Wahn</l>
+                     <l>der Freude Götter wir entflohn</l>
+                     <l>tief in der Erde wärmenden Schoß.</l>
+                     <l>Zieh hin, Betörter, suche dein Heil!</l>
+                     <l>Suche dein Heil, und find es nie!</l>
+                     <l>Bald weicht der Stolz aus deiner Seel,</l>
+                     <l>demütig seh' ich dich mir nahn!</l>
+                     <l>Zerknirscht, zertreten suchst du mich auf,</l>
+                     <l>flehst um die Zauber meiner Macht!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Ach, schöne Göttin, lebe wohl!</l>
+                     <l>Nie kehre ich zu dir zurück!</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>Ha! kehrtest du mir nie zurück! ...</p>
+                  <stage>Verzweiflungsvoll</stage>
+                  <lg>
+                     <l>Kehrst du nicht wieder, ha! so sei verfluchet</l>
+                     <l>von mir das ganze menschliche Geschlecht!</l>
+                     <l>Nach meinen Wundern dann vergebens suchet!</l>
+                     <l>Die Welt sei öde und ihr Held ein Knecht!</l>
+                     <l>Kehr wieder, kehre mir zurück!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Nie mehr erfreu mich Liebesglück!</p>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>Kehr wieder, wenn dein Herz dich zieht!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Für ewig dein Geliebter flieht!</p>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>Wann alle Welt dich von sich stößt ...</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Vom Bann werd ich durch Buß erlöst!</p>
+                  <pb n="227" facs="#f0006"/>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <lg>
+                     <l>Nie wird Vergebung dir zuteil!</l>
+                     <l>Kehr wieder,schließt sich dir das Heil!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Mein Heil! Mein Heil ruht in Maria!</p>
+                  <stage>Venus sinkt mit einem Schrei zusammen und verschwindet. Mit Blitzesschnelle
+              verwandelt sich die Bühne.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Tannhäuser, der seine Stellung nicht verlassen, befindet sich plötzlich, in ein
+            schönes Tal versetzt. Blauer Himmel, heitere Sonnenbeleuchtung. – Rechts im Hintergrunde
+            die Wartburg; durch die Talöffnung nach links erblickt man den Hörselberg. – Rechts
+            führt auf der halben Höhe des Tales ein Bergweg von der Richtung der Wartburg her nach
+            dem Vordergrunde zu, wo er dann seitwärts abbiegt; in demselben Vordergrunde ist ein
+            Muttergottesbild, zu welchem ein niedriger Bergvorsprung hinaufführt. – Von der Höhe
+            links vernimmt man das Geläut von Herdeglocken; auf einem hohen Vorsprunge sitzt ein
+            junger Hirt mit der Schalmei dem Tale zugekehrt</stage>
+               <sp who="#der_hirt">
+                  <speaker>DER HIRT</speaker>
+                  <stage>spielt auf der Schalmei.</stage>
+                  <lg>
+                     <l>Frau Holda kam aus dem Berg hervor,</l>
+                     <l>zu ziehn durch Fluren und Auen, –</l>
+                     <l>gar süßen Klang vernahm da mein Ohr,</l>
+                     <l>mein Auge begehrte zu schauen;</l>
+                     <l>da träumt ich manchen holden Traum,</l>
+                     <l>und als mein Aug erschlossen kaum,</l>
+                     <l>da strahlte warm die Sonnen,</l>
+                     <l>der Mai, der Mai war kommen.</l>
+                     <l>Nun spiel ich lustig die Schalmei,</l>
+                     <l>der Mai ist da, der liebe Mai!</l>
+                  </lg>
+                  <stage>Er spielt auf der Schalmei. Man hört den Gesang der älteren Pilger, welche, von
+              der Richtung der Wartburg herkommend, auf dem Bergwege sich nähern</stage>
+               </sp>
+               <sp who="#die_aelteren_pilger">
+                  <speaker>DIE ÄLTEREN PILGER.</speaker>
+                  <lg>
+                     <l>Zu dir wall ich, mein Jesus Christ,</l>
+                     <l>der du des Pilgers Hoffnung bist!</l>
+                     <l>Gelobt sei, Jungfrau süß und rein!</l>
+                     <l>Der Wallfahrt wolle günstig sein!</l>
+                  </lg>
+                  <stage>Der Hirt, den Gesang vernehmend, hält auf der Schalmei ein und hört andächtig
+              zu</stage>
+                  <lg>
+                     <l>Ach, schwer drückt mich der Sünden Last,</l>
+                     <l>
+                        <pb n="228" facs="#f0007"/> kann länger sie nicht mehr ertragen;</l>
+                     <l>drum will ich auch nicht Ruh noch Rast,</l>
+                     <l>und wähle gern mir Müh und Plagen,</l>
+                     <l>Am hohen Fest der Gnad und Huld</l>
+                     <l>in Demut büß ich meine Schuld,</l>
+                     <l>gesegnet, wer im Glauben treu!</l>
+                     <l>Er wird erlöst durch Buß und Reu.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_hirt">
+                  <speaker>DER HIRT</speaker>
+                  <stage>als die Pilger auf der ihm gegenüberliegenden Höhe angelangt sind, ruft ihnen,
+              die Mütze schwenkend, laut zu.</stage>
+                  <lg>
+                     <l>Glück auf! Glück auf nach Rom!</l>
+                     <l>Betet für meine arme Seele!</l>
+                  </lg>
+                  <stage>Tannhäuser, der in der Mitte der Bühne wie festgewurzelt gestanden, sinkt heftig
+              erschüttert auf die Knie</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Allmächt'ger, dir sei Preis!</l>
+                     <l>Groß sind die Wunder deiner Gnade!</l>
+                  </lg>
+                  <stage>Der Zug der Pilger biegt von hier an auf dem Bergwege bei dem Muttergottesbilde
+              links ab und verläßt so die Bühne. – Der Hirt entfernt sich ebenfalls mit der Schalmei
+              rechts von der Höhe; man hört die Herdeglocken immer entfernter</stage>
+               </sp>
+               <sp who="#die_aelteren_pilger">
+                  <speaker>DIE PILGER.</speaker>
+                  <lg>
+                     <l>Zu dir wall ich, mein Jesus Christ,</l>
+                     <l>der du des Pilgers Hoffnung bist!</l>
+                     <l>Gelobt sei, Jungfrau süß und rein!</l>
+                     <l>Der Wallfahrt wolle günstig sein!</l>
+                  </lg>
+                  <stage>Die Pilger haben hier bereits die Bühne verlassen</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>auf den Knien, wie in brünstiges Gebet versunken.</stage>
+                  <lg>
+                     <l>Ach, schwer drückt mich der Sünden Last,</l>
+                     <l>kann länger sie nicht mehr ertragen;</l>
+                     <l>drum will ich auch nicht Ruh noch Rast,</l>
+                     <l>und wähle gern mir Müh und Plagen ...</l>
+                  </lg>
+                  <stage>Tränen ersticken seine Stimme; er neigt das Haupt tief zur Erde und scheint
+              heftig zu weinen. – Aus dem Hintergrunde, sehr entfernt, wie von Eisenach her, hört
+              man Glockengeläute</stage>
+               </sp>
+               <sp who="#die_aelteren_pilger">
+                  <speaker>DIE PILGER</speaker>
+                  <stage>sehr entfernt.</stage>
+                  <lg>
+                     <l>Am hohen Fest der Gnad und Huld</l>
+                     <l>in Demut sühn ich meine Schuld,</l>
+                     <l>gesegnet, wer im Glauben treu! ...</l>
+                  </lg>
+                  <stage>Während sich der Klang der Hörner allmählich nähert, schweigt das entfernte
+              Geläute</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Von der Anhöhe links herab, aus einem Waldwege, treten der Landgraf und die Sänger
+            in Jägertracht einzeln auf. Im Verlaufe <pb n="229" facs="#f0008"/> der Szene findet sich der ganze
+            Jagdtroß des Landgrafen nach und nach auf der Bühne ein</stage>
+               <sp who="#der_landgraf">
+                  <speaker>DER LANDGRAF</speaker>
+                  <stage>auf halber Höhe, Tannhäuser erblickend.</stage>
+                  <p>Wer ist dort in brünstigem Gebete?</p>
+               </sp>
+               <sp who="#walther">
+                  <speaker>WALTHER.</speaker>
+                  <p>Ein Büßer wohl.</p>
+               </sp>
+               <sp who="#biterolf">
+                  <speaker>BITEROLF.</speaker>
+                  <p>Nach seiner Tracht ein Ritter.</p>
+                  <stage>Wolfram eilt zunächst auf Tannhäuser zu und erkennt ihn</stage>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Er ist es!</p>
+               </sp>
+               <sp who="#wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter #der_landgraf">
+                  <speaker>DIE SÄNGER UND DER LANDGRAF.</speaker>
+                  <p>Heinrich! Heinrich! Seh ich recht?</p>
+                  <stage>Tannhäuser, der überrascht schnell aufgefahren ist, faßt sich und verneigt sich
+              stumm gegen den Landgrafen, nachdem er einen flüchtigen Blick auf ihn und die Sänger
+              geworfen</stage>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <lg>
+                     <l>Du bist es wirklich? Kehrest in den Kreis zurück,</l>
+                     <l>den du in Hochmut stolz verließest?</l>
+                  </lg>
+               </sp>
+               <sp who="#biterolf">
+                  <speaker>BITEROLF.</speaker>
+                  <lg>
+                     <l>Sag, was uns deine Wiederkehr bedeutet?</l>
+                     <l>Versöhnung? Oder gilt's erneutem Kampf?</l>
+                  </lg>
+               </sp>
+               <sp who="#walther">
+                  <speaker>WALTHER.</speaker>
+                  <p>Nahst du als Freund uns oder Feind? Als Feind?</p>
+               </sp>
+               <sp who="#biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>DIE ANDEREN SÄNGER AUSSER WOLFRAM.</speaker>
+                  <p>Als Feind?</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Oh, fraget nicht! Ist dies des Hochmuts Miene?</p>
+                  <stage>Er geht freundlich auf Tannhäuser zu</stage>
+                  <lg>
+                     <l>Gegrüßt sei uns, du kühner Sänger,</l>
+                     <l>der, ach, so lang in unsrer Mitte fehlt!</l>
+                  </lg>
+               </sp>
+               <sp who="#walther">
+                  <speaker>WALTHER.</speaker>
+                  <p>Willkommen, wenn du friedlich nahst!</p>
+               </sp>
+               <sp who="#biterolf">
+                  <speaker>BITEROLF.</speaker>
+                  <p>Gegrüßt, wenn du uns Freunde nennst!</p>
+               </sp>
+               <sp who="#wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>ALLE SÄNGER.</speaker>
+                  <p>Gegrüßt, gegrüßt, gegrüßt sei uns!</p>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <lg>
+                     <l>So sei willkommen denn auch mir!</l>
+                     <l>Sag an, wo weiltest du so lang?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Ich wanderte in weiter, weiter Fern, –</l>
+                     <l>da, wo ich nimmer Rast noch Ruhe fand.</l>
+                     <l>Fragt nicht! Zum Kampf mit euch kam ich nicht her;</l>
+                     <l>seid mir versöhnt – und laßt mich weiterziehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <p>Nicht doch! Der Unsre bist du neu geworden.</p>
+               </sp>
+               <sp who="#walther">
+                  <speaker>WALTHER.</speaker>
+                  <p>Du darfst nicht ziehn!</p>
+               </sp>
+               <sp who="#biterolf">
+                  <speaker>BITEROLF.</speaker>
+                  <p>Wir lassen dich nicht fort!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Laßt mich! Mir frommet kein Verweilen,</l>
+                     <l>und nimmer kann ich rastend stehn!</l>
+                     <l>Mein Weg heißt mich nur vorwärts eilen,</l>
+                     <l>und nimmer darf ich rückwärts sehn.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>DER LANDGRAF UND DIE SÄNGER.</speaker>
+                  <lg>
+                     <l>O bleib! Bei uns sollst du verweilen,</l>
+                     <l>wir lassen dich nicht von uns gehn!</l>
+                     <l>
+                        <pb n="230" facs="#f0009"/> Du suchtest uns, warum enteilen</l>
+                     <l>nach solchem kurzen Wiedersehn?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>sich losreißend.</stage>
+                  <p>Fort! Fort von hier! Laßt mich! Fort, fort!</p>
+               </sp>
+               <sp who="#wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>DIE SÄNGER.</speaker>
+                  <p>Bleib, bleib bei uns!</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM</speaker>
+                  <stage>mit erhobener Stimme.</stage>
+                  <p>Bleib bei Elisabeth!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>heftig und freudig erschüttert, bleibt wie festgebannt stehen.</stage>
+                  <lg>
+                     <l>Elisabeth! O Macht des Himmels,</l>
+                     <l>rufst du den süßen Namen mir?</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Nicht sollst du Feind mich schelten, daß ich ihn genannt. –</p>
+                  <stage>Zu dem Landgrafen</stage>
+                  <lg>
+                     <l>Erlaubest du mir, Herr, daß ich</l>
+                     <l>Verkünder seines Glücks ihm sei?</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <lg>
+                     <l>Nenn ihm den Zauber, den er ausgeübt;</l>
+                     <l>und Gott verleih ihm Tugend,</l>
+                     <l>daß würdig er ihn löse!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Als du in kühnem Sange uns bestrittest,</l>
+                     <l>bald siegreich gegen unsre Lieder sangst,</l>
+                     <l>durch unsre Kunst Besiegung bald erlittest,</l>
+                     <l>ein Preis doch war's, den du allein errangst.</l>
+                     <l>War's Zauber, war es reine Macht,</l>
+                     <l>durch die solch Wunder du vollbracht,</l>
+                     <l>an deinen Sang voll Wonn und Leid</l>
+                     <l>gebannt die tugendreichste Maid?</l>
+                     <l>Denn ach! als du uns stolz verlassen,</l>
+                     <l>verschloß ihr Herz sich unsrem Lied;</l>
+                     <l>wir sahen ihre Wang erblassen,</l>
+                     <l>für immer unsren Kreis sie mied.</l>
+                     <l>O kehr zurück, du kühner Sänger,</l>
+                     <l>dem unsren sei dein Lied nicht fern!</l>
+                     <l>Den Festen fehle sie nicht länger,</l>
+                     <l>auf's Neue leuchte uns ihr Stern!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>DIE SÄNGER.</speaker>
+                  <lg>
+                     <l>Sei unser, Heinrich! Kehr uns wieder!</l>
+                     <l>Zwietracht und Streit sei abgetan!</l>
+                     <l>Vereint ertönen unsre Lieder,</l>
+                     <l>und Brüder nenne uns fortan!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>innig gerührt, umarmt Wolfram und die Sänger mit Heftigkeit.</stage>
+                  <lg>
+                     <l>Zu ihr! Zu ihr! O führet mich zu ihr!</l>
+                     <l>Ha, jetzt erkenne ich sie wieder,</l>
+                     <l>die schöne Welt, der ich entrückt!</l>
+                     <l>Der Himmel blickt auf mich hernieder,</l>
+                     <l>
+                        <pb n="231" facs="#f0010"/> die Fluren prangen reich geschmückt!</l>
+                     <l>Der Lenz mit tausend holden Klängen</l>
+                     <l>zog jubelnd in die Seele mir!</l>
+                     <l>In süßem, ungestümem Drängen</l>
+                     <l>ruft laut mein Herz: Zu ihr! Zu ihr!</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>LANDGRAF UND DIE SÄNGER.</speaker>
+                  <lg>
+                     <l>Er kehrt zurück, den wir verloren!</l>
+                     <l>Ein Wunder hat ihn hergebracht!</l>
+                     <l>Die ihm den Übermut beschworen,</l>
+                     <l>gepriesen sei die holde Macht!</l>
+                     <l>Nun lausche unsren Hochgesängen</l>
+                     <l>von Neuem der Gepries'nen Ohr!</l>
+                     <l>Es tön' in frohbelebten Klängen</l>
+                     <l>das Lied aus jeder Brust hervor!</l>
+                  </lg>
+                  <stage>Während des Vorhergehenden hat sich nach und nach der ganze Jagdtraß des
+              Landgrafen mit Falkenträgern usw. auf der Bühne versammelt. Die Jäger stoßen in die
+              Hörner. – Das ganze Tal wimmelt jetzt vom immer noch stärker angewachsenen Jagdroß. –
+              Der Landgraf und die Sänger wenden sich dem Jagdtroß zu; der Landgraf stößt in sein
+              Horn: lautes Hornschmettern und Rüdengebell antwortet ihm. – Während der Landgraf und
+              die Sänger die Pferde, die ihnen von der Wartburg zugeführt worden sind, besteigen,
+              fällt der Vorhang</stage>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Akt</head>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Die Sängerhalle auf der Wartburg; im Hintergrunde freie Aussicht auf den Hof und
+            das Tal</stage>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH</speaker>
+                  <stage>tritt freudig bewegt ein.</stage>
+                  <lg>
+                     <l>Dich, teure Halle, grüß ich wieder,</l>
+                     <l>froh grüß ich dich, geliebter Raum!</l>
+                     <l>In dir erwachen seine Lieder</l>
+                     <l>und wecken mich aus düstrem Traum.</l>
+                     <l>Da Er aus dir geschieden,</l>
+                     <l>wie öd erschienst du mir!</l>
+                     <l>Aus mir entfloh der Frieden,</l>
+                     <l>die Freude zog aus dir!</l>
+                     <l>
+                        <pb n="232" facs="#f0011"/> Wie jetzt mein Busen hoch sich hebet,</l>
+                     <l>so scheinst du jetzt mir stolz und hehr;</l>
+                     <l>der mich und dich so neu belebet,</l>
+                     <l>nicht länger weilt er ferne mehr!</l>
+                     <l>Sei mir gegrüßt! Sei mir gegrüßt!</l>
+                     <l>Du teure Halle, sei mir gegrüßt!</l>
+                  </lg>
+                  <stage>Tannhäuser, von Wolfram geleitet, tritt mit diesem aus der Treppe im Hintergrunde
+              auf.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Elisabeth erblickt Tannhäuser</stage>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Dort ist sie; nahe dich ihr ungestört!</p>
+                  <stage>Er bleibt an die Mauerbrüstung gelehnt im Hintergrunde. – Tannhäuser stürzt
+              ungestüm zu Elisabeths Füßen</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>O, Fürstin!</p>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH</speaker>
+                  <stage>in schüchterner Verwirrung.</stage>
+                  <p>Gott! Stehet auf! Laßt mich! Nicht darf ich Euch hier sehn!</p>
+                  <stage>Sie macht eine Bewegung sich zu entfernen</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Du darfst! O bleib, und laß zu deinen Füßen mich!</p>
+                  <stage>Elisabeth wendet sich ihm freundlich zu</stage>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <lg>
+                     <l>So stehet auf!</l>
+                     <l>Nicht sollet hier Ihr knien, denn diese Halle</l>
+                     <l>ist Euer Königreich. O, stehet auf!</l>
+                     <l>Nehmt meinen Dank, daß Ihr zurückgekehrt!</l>
+                     <l>Wo weiltet Ihr so lange?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>sich langsam erhebend.</stage>
+                  <lg>
+                     <l>Fern von hier,</l>
+                     <l>in weiten, weiten Landen; – dichtes Vergessen</l>
+                     <l>hat zwischen heut und gestern sich gesenkt.</l>
+                     <l>All mein Erinnern ist mir schnell geschwunden,</l>
+                     <l>und nur des Einen muß ich mich entsinnen,</l>
+                     <l>daß ich nie mehr gehofft, Euch zu begrüßen,</l>
+                     <l>noch je zu Euch mein Auge zu erheben.</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <p>Was war es dann, das Euch zurückgeführt?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Ein Wunder war's,</l>
+                     <l>ein unbegreiflich hohes Wunder!</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH</speaker>
+                  <stage>freudig aufwallend.</stage>
+                  <p>Ich preise dieses Wunder aus meines Herzens Tiefe!</p>
+                  <stage>Sich mäßigend, in Verwirrung</stage>
+                  <lg>
+                     <l>Verzeiht, wenn ich nicht weiß, was ich beginne!</l>
+                     <l>Im Traum bin ich und tör'ger als ein Kind,</l>
+                     <l>
+                        <pb n="233" facs="#f0012"/> machtlos der Macht der Wunder preisgegeben.</l>
+                     <l>Fast kenn ich mich nicht mehr ...O helfet mir,</l>
+                     <l>daß ich das Rätsel meines Herzens löse!</l>
+                     <l>Der Sänger klugen Weisen</l>
+                     <l>lauscht ich sonst wohl gern und viel;</l>
+                     <l>ihr Singen und ihr Preisen</l>
+                     <l>schien mir ein holdes Spiel.</l>
+                     <l>Doch welch ein seltsam neues Leben</l>
+                     <l>rief Euer Lied mir in die Brust!</l>
+                     <l>Bald wollt es mich wie Schmerz durchbeben,</l>
+                     <l>bald drang's in mich wie jähe Lust;</l>
+                     <l>Gefühle, die ich nie empfunden,</l>
+                     <l>Verlangen, das ich nie gekannt!</l>
+                     <l>Was sonst mir lieblich, war verschwunden</l>
+                     <l>vor Wonnen, die noch nie genannt! –</l>
+                     <l>Und als Ihr nun von uns gegangen,</l>
+                     <l>war Frieden mir und Lust dahin;</l>
+                     <l>die Weisen, die die Sänger sangen,</l>
+                     <l>erschienen matt mir, trüb ihr Sinn;</l>
+                     <l>im Traume fühlt ich dumpfe Schmerzen,</l>
+                     <l>mein Wachen ward trübsel'ger Wahn:</l>
+                     <l>die Freude zog aus meinem Herzen –</l>
+                     <l>Heinrich! Heinrich! Was tatet Ihr mir an?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>begeistert.</stage>
+                  <lg>
+                     <l>Den Gott der Liebe sollst du preisen!</l>
+                     <l>Er hat die Saiten mir berührt,</l>
+                     <l>er sprach zu dir aus meinen Weisen,</l>
+                     <l>zu dir hat er mich hergeführt.</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <lg>
+                     <l>Gepriesen sei die Stunde,</l>
+                     <l>gepriesen sei die Macht,</l>
+                     <l>die mir so holde Kunde</l>
+                     <l>von Eurer Näh gebracht!</l>
+                     <l>Von Wonneglanz umgeben</l>
+                     <l>lacht mir der Sonne Schein;</l>
+                     <l>erwacht zu neuem Leben,</l>
+                     <l>nenn ich die Freude mein!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Gepriesen sei die Stunde,</l>
+                     <l>gepriesen sei die Macht,</l>
+                     <l>die mir so holde Kunde</l>
+                     <l>aus deinem Mund gebracht!</l>
+                     <l>Dem neu erkannten Leben</l>
+                     <l>darf ich mich mutig weihn;</l>
+                     <l>ich nenn in freud'gem Beben</l>
+                     <l>sein schönstes Wunder mein!</l>
+                     <pb n="234" facs="#f0013"/>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM</speaker>
+                  <stage>im Hintergrunde.</stage>
+                  <lg>
+                     <l>So flieht für dieses Leben</l>
+                     <l>mir jeder Hoffnung Schein!</l>
+                  </lg>
+                  <stage>Tannhäuser trennt sich von Elisabeth; er geht auf Wolfram zu, umarmt ihn heftig
+              und entfernt sich mit ihm durch die Treppe. – Elisabeth blickt Tannhäuser vom Balkon
+              aus nach.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Der Landgraf tritt aus einer Seitentüre ein. Elisabeth eilt auf ihn zu und birgt
+            ihr Gesicht an seiner Brust</stage>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <lg>
+                     <l>Dich treff ich hier in dieser Halle, die</l>
+                     <l>so lange du gemieden? Endlich denn</l>
+                     <l>lockt dich ein Sängerfest, das wir bereiten?</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <p>Mein Oheim! O, mein güt'ger Vater!</p>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <lg>
+                     <l>Drängt</l>
+                     <l>es dich, dein Herz mir endlich zu erschließen?</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <p>Sieh mir ins Auge! Sprechen kann ich nicht.</p>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <lg>
+                     <l>Noch bleibe denn unausgesprochen</l>
+                     <l>dein süß Geheimnis kurze Frist;</l>
+                     <l>der Zauber bleibe ungebrochen</l>
+                     <l>bis du der Lösung mächtig bist.</l>
+                     <l>So sei's! Was der Gesang so Wunderbares</l>
+                     <l>erweckt und angeregt, soll heute er</l>
+                     <l>enthüllen und mit Vollendung krönen;</l>
+                     <l>die holde Kunst, sie werde jetzt zur Tat!</l>
+                  </lg>
+                  <stage>Man hört im Hintergrunde, tief, wie im Schloßhof, Trompeten</stage>
+                  <lg>
+                     <l>Schon nahen sich die Edlen meiner Lande,</l>
+                     <l>die ich zum seltnen Fest hieher beschied;</l>
+                     <l>zahlreicher nahen sie als je, da sie</l>
+                     <l>gehört, daß du des Festes Fürstin seist.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Der Landgraf und Elisabeth treten an den Balkon, um nach der Ankunft der Gäste zu
+            sehen. Vier Edelknaben treten auf und melden an. Sie erhalten vom Landgrafen Befehl für
+            den Empfang usw. – Die Ritter und Grafen treten einzeln mit Edelfrauen und Gefolge,
+            welches im Hintergrunde bleibt, ein und werden vom Landgrafen und von Elisabeth
+            empfangen</stage>
+               <pb n="235" facs="#f0014"/>
+               <sp who="#die_ritter #edelfrauen">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Freudig begrüßen wir die edle Halle,</l>
+                     <l>wo Kunst und Frieden immer nur verweil,</l>
+                     <l>wo lange noch der frohe Ruf erschalle:</l>
+                     <l>Thüringens Fürsten, Landgraf Hermann, Heil!</l>
+                  </lg>
+                  <stage>Die Versammelten haben alle die ihnen angewiesenen, einen großen Halbkreis
+              bildenden Plätze eingenommen. Der Landgraf und Elisabeth nehmen im Vordergrunde unter
+              einem Baldachin Ehrensitze ein. – Trompeten. – Die Sänger treten auf, begrüßen die
+              Versammlung und werden von den Edelknaben nach ihren Sitzen geleitet (die in der leer
+              gelassenen Mitte des Saales einen engeren Halbkreis bilden. Tannhäuser im Mittelgrunde
+              rechts, Wolfram am entgegengesetzten Ende links, der Versammlung gegenüber). – Der
+              Landgraf erhebt sich</stage>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>LANDGRAF.</speaker>
+                  <lg>
+                     <l>Gar viel und schön ward hier in dieser Halle</l>
+                     <l>von euch, ihr lieben Sänger, schon gesungen;</l>
+                     <l>in weisen Rätseln wie in heitren Liedern</l>
+                     <l>erfreutet ihr gleich sinnig unser Herz.</l>
+                     <l>Wenn unser Schwert in blutig ernsten Kämpfen</l>
+                     <l>stritt für des deutschen Reiches Majestät,</l>
+                     <l>wenn wir dem grimmen Welfen widerstanden,</l>
+                     <l>und dem verderbenvollen Zwiespalt wehrten:</l>
+                     <l>so ward von euch nicht mindrer Preis errungen.</l>
+                     <l>Der Anmut und der holden Sitte,</l>
+                     <l>der Tugend und dem reinen Glauben</l>
+                     <l>erstrittet ihr durch eure Kunst</l>
+                     <l>gar hohen, herrlich schönen Sieg.</l>
+                     <l>Bereitet heute uns denn auch ein Fest,</l>
+                     <l>heut, wo der kühne Sänger uns zurückgekehrt,</l>
+                     <l>den wir so ungern lang vermißten.</l>
+                     <l>Was wieder ihn in unsre Nähe brachte,</l>
+                     <l>ein wunderbar Geheimnis dünkt es mich;</l>
+                     <l>durch Liedes Kunst sollt ihr es uns enthüllen;</l>
+                     <l>deshalb stell ich die Frage jetzt an euch:</l>
+                     <l>könnt ihr der <hi rendition="#i">Liebe</hi> Wesen mir ergründen?</l>
+                     <l>Wer es vermag, wer sie am würdigsten</l>
+                     <l>besingt, dem reich Elisabeth den Preis, –</l>
+                     <l>er fordre ihn so hoch und kühn er wolle,</l>
+                     <l>ich sorge, daß sie ihn gewähren solle.</l>
+                     <l>Auf, liebe Sänger! Greifet in die Saiten!</l>
+                     <l>Die Aufgab ist gestellt, – kämpft um den Preis,</l>
+                     <l>und nehmet All im voraus unsren Dank!</l>
+                     <pb n="236" facs="#f0015"/>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter #edelfrauen">
+                  <speaker>CHOR DER RITTER UND EDELFRAUEN.</speaker>
+                  <lg>
+                     <l>Heil! Heil! Thüringens Fürsten Heil!</l>
+                     <l>Der holden Kunst Beschützer Heil! Heil! Heil!</l>
+                  </lg>
+                  <stage>Alle setzen sich. Die vier Edelknaben treten hervor; sie sammeln in einem
+              goldenen Becher von jedem der Sänger seinen auf ein zusammengerolltes Blättchen
+              gezeichneten Namen; darauf reichen sie den Becher Elisabeth, welche eines der
+              Blättchen herauszieht und wiederum den Edelknaben reicht; diese lesen, treten
+              feierlich in die Mitte und rufen:</stage>
+               </sp>
+               <sp who="#vier_edelknaben">
+                  <speaker>VIER EDELKNABEN.</speaker>
+                  <p>Wolfram von Eschenbach beginne!</p>
+                  <stage>Sie setzen sich zu Füßen des Landgrafen und Elisabeths nieder. – Wolfram erhebt
+              sich. Tannhäuser stützt sich, wie in Träumerei verfallend, auf seine Harfe.</stage>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Blick ich umher in diesem edlen Kreise,</l>
+                     <l>welch hoher Anblick macht mein Herz erglühn!</l>
+                     <l>So viel der Helden, tapfer, deutsch und weise,</l>
+                     <l>ein stolzer Eichwald, herrlich, frisch und grün; –</l>
+                     <l>und hold und tugendsam erblick ich Frauen,</l>
+                     <l>lieblicher Blüten düftereichster Kranz.</l>
+                     <l>Es wird der Blick wohl trunken mir vom Schauen,</l>
+                     <l>mein Lied verstummt vor solcher Anmut Glanz.</l>
+                     <l>Da blick ich auf zu <hi rendition="#i">einem</hi> nur der Sterne,</l>
+                     <l>der an dem Himmel, der mich blendet, steht: –</l>
+                     <l>es sammelt sich mein Geist aus jeder Ferne,</l>
+                     <l>andächtig sinkt die Seele in Gebet.</l>
+                     <l>Und sieh, mir zeiget sich ein Wunderbronnen,</l>
+                     <l>in den mein Geist voll hohen Staunens blickt;</l>
+                     <l>aus ihm er schöpfet gnadenreiche Wonnen,</l>
+                     <l>durch die mein Herz er namenlos erquickt.</l>
+                     <l>Und nimmer möcht ich diesen Bronnen trüben,</l>
+                     <l>berühren nicht den Quell mit frevlem Mut:</l>
+                     <l>in Anbetung möcht ich mich opfernd üben,</l>
+                     <l>vergießen froh mein letztes Herzensblut!</l>
+                     <l>Ihr Edlen mögt in diesen Worten lesen,</l>
+                     <l>wie ich erkenn der Liebe reinstes Wesen.</l>
+                  </lg>
+                  <stage>Er setzt sich</stage>
+               </sp>
+               <sp who="#die_ritter #edelfrauen">
+                  <speaker>DIE RITTER UND FRAUEN</speaker>
+                  <stage>in beifälliger Bewegung.</stage>
+                  <p>So ist's! So ist's! Gepriesen sei dein Lied!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>der gegen das Ende von Wolframs Gesänge wie aus dem Traume aufgefahren ist,
+              erhebt sich.</stage>
+                  <lg>
+                     <l>Auch ich darf mich so glücklich nennen</l>
+                     <l>zu schaun, was, Wolfram, du geschaut.</l>
+                     <l>Wer sollte nicht den Bronnen kennen?</l>
+                     <l>
+                        <pb n="237" facs="#f0016"/> Hör, seine Tugend preis ich laut!</l>
+                     <l>Doch, ohne Sehnsucht heiß zu fühlen</l>
+                     <l>ich seinem Quell nicht nahen kann;</l>
+                     <l>des Durstes Brennen muß ich kühlen,</l>
+                     <l>getrost leg ich die Lippen an –</l>
+                     <l>in vollen Zügen trink ich Wonnen,</l>
+                     <l>in die kein Zagen je sich mischt,</l>
+                     <l>denn unversiegbar ist der Bronnen,</l>
+                     <l>wie mein Verlangen nie erlischt.</l>
+                     <l>So, daß mein Sehnen ewig brenne,</l>
+                     <l>lab an dem Quell ich ewig mich.</l>
+                     <l>Und wisse, Wolfram, so erkenne</l>
+                     <l>der Liebe wahrstes Wesen ich!</l>
+                  </lg>
+                  <stage>Er setzt sich. – Elisabeth macht eine Bewegung, ihren Beifall zu bezeugen; da
+              aber Alles in ernstem Schweigen verharrt, hält sie sich schüchtern zurück</stage>
+               </sp>
+               <sp who="#walther">
+                  <speaker>WALTHER VON DER VOGELWEIDE</speaker>
+                  <stage>erhebt sich.</stage>
+                  <lg>
+                     <l>Den Bronnen, den uns Wolfram nannte,</l>
+                     <l>ihn schaut auch meines Geistes Licht;</l>
+                     <l>doch, der in Durst für ihn entbrannte,</l>
+                     <l>du, Heinrich, kennst ihn wahrlich nicht.</l>
+                     <l>Laß dir denn sagen, laß dich lehren:</l>
+                     <l>der Bronnen ist die <hi rendition="#i">Tugend</hi> wahr;</l>
+                     <l>du sollst in Inbrunst ihn verehren</l>
+                     <l>und opfern seinem holden Klar.</l>
+                     <l>Legst du an seinen Quell die Lippen,</l>
+                     <l>zu kühlen frevle Leidenschaft,</l>
+                     <l>ja, wolltest du am Rand nur nippen,</l>
+                     <l>wich ewig ihm die Wunderkraft!</l>
+                     <l>Willst du Equickung aus dem Bronnen haben,</l>
+                     <l>mußt du dein Herz – nicht deinen Gaumen laben.</l>
+                  </lg>
+                  <stage>Er setzt sich</stage>
+               </sp>
+               <sp who="#die_ritter #edelfrauen">
+                  <speaker>CHOR DER RITTER UND FRAUEN.</speaker>
+                  <p>Heil Walther! Preis sei deinem Liede!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>erhebt sich mit Heftigkeit.</stage>
+                  <lg>
+                     <l>O Walther, der du also sangest,</l>
+                     <l>du hast die Liebe arg entstellt!</l>
+                     <l>Wenn du in solchem Schmachten bangest,</l>
+                     <l>versiegte wahrlich wohl die Welt!</l>
+                     <l>Zu Gottes Preis in hoch erhabne Fernen</l>
+                     <l>blickt auf zum Himmel, blickt auf zu seinen Sternen:</l>
+                     <l>Anbetung solchen Wundern zollt,</l>
+                     <l>da ihr sie nicht begreifen sollt!</l>
+                     <l>
+                        <pb n="238" facs="#f0017"/> Doch was sich der Berührung beuget,</l>
+                     <l>euch Herz und Sinnen nahe liegt,</l>
+                     <l>was sich, aus gleichem Stoff erzeuget,</l>
+                     <l>in weicher Formung an euch schmiegt,</l>
+                     <l>dem ziemt Genuß in freud'gem Triebe,</l>
+                     <l>und im Genuß nur kenn ich Liebe!</l>
+                  </lg>
+                  <stage>Er setzt sich</stage>
+               </sp>
+               <sp who="#biterolf">
+                  <speaker>BITEROLF</speaker>
+                  <stage>erhebt sich schnell und zornig.</stage>
+                  <lg>
+                     <l>Heraus zum Kampfe mit uns Allen!</l>
+                     <l>Wer bliebe ruhig, hört er dich?</l>
+                     <l>Wird deinem Hochmut es gefallen,</l>
+                     <l>so höre, Lästrer, nun auch mich!</l>
+                     <l>Wenn mich begeistert hohe Liebe,</l>
+                     <l>stählt sie die Waffen mir mit Mut;</l>
+                     <l>daß ewig ungeschmäht sie bliebe,</l>
+                     <l>vergöss ich stolz mein letztes Blut!</l>
+                     <l>Für Frauenehr und hohe Tugend</l>
+                     <l>als Ritter kämpf ich mit dem Schwert;</l>
+                     <l>doch was Genuß beut deiner Jugend,</l>
+                     <l>ist wohlfeil keines Streiches wert!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter #edelfrauen">
+                  <speaker>CHOR DER RITTER UND FRAUEN</speaker>
+                  <stage>in tobendem Beifall.</stage>
+                  <p>Heil Biterolf! Hier unser Schwert!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>mit immer steigender Hitze auffahrend.</stage>
+                  <lg>
+                     <l>Ha, tör'ger Prahler Biterolf!</l>
+                     <l>Singst du von Liebe, grimmer Wolf?</l>
+                     <l>Gewißlich hast du nicht gemeint,</l>
+                     <l>was mir genießenswert erscheint!</l>
+                     <l>Was hast du, Ärmster, wohl genossen?</l>
+                     <l>Dein Leben war nicht liebereich –</l>
+                     <l>und was von Freuden dir entsprossen,</l>
+                     <l>das galt wohl wahrlich keinen Streich!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER</speaker>
+                  <stage>in größter Aufregung.</stage>
+                  <p>Laßt ihn nicht enden! Wehrt seiner Kühnheit!</p>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>DER LANDGRAF</speaker>
+                  <stage>zu Biterolf, der das Schwert zieht.</stage>
+                  <p>Zurück das Schwert! Ihr Sänger, haltet Frieden!</p>
+                  <stage>Wolfram erhebt sich; sogleich tritt wieder Ruhe ein</stage>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>O Himmel! Laß dich jetzt erflehen!</l>
+                     <l>Gib meinem Lied der Weihe Preis!</l>
+                     <l>Gebannt laß mich die Sünde sehen</l>
+                     <l>aus diesem edlen, reinen Kreis!</l>
+                     <l>Dir, hohe Liebe, töne</l>
+                     <l>begeistert mein Gesang,</l>
+                     <l>die mir in Engels Schöne</l>
+                     <l>
+                        <pb n="239" facs="#f0018"/> tief in die Seele drang!</l>
+                     <l>Du nahst als Gottgesandte,</l>
+                     <l>ich folg aus holder Fern:</l>
+                     <l>so führst du in die Lande,</l>
+                     <l>wo ewig strahlt dein Stern!</l>
+                  </lg>
+                  <stage>Tannhäuser springt auf</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>in äußerster Verzückung.</stage>
+                  <lg>
+                     <l>Dir, Göttin der Liebe,</l>
+                     <l>soll mein Lied ertönen,</l>
+                     <l>gesungen, laut sei jetzt dein Preis von mir!</l>
+                     <l>Dein süßer Reiz ist Quelle alles Schönen,</l>
+                     <l>und jedes holde Wunder stammt von dir!</l>
+                     <l>Wer dich mit Glut in seine Arme geschlossen,</l>
+                     <l>was Liebe ist, kennt der, nur der allein!</l>
+                     <l>Armsel'ge, die ihr Liebe nie genossen,</l>
+                     <l>zieht hin! Zieht in den Berg der Venus ein!</l>
+                  </lg>
+                  <stage>Allgemeiner Aufbruch und Entsetzen</stage>
+               </sp>
+               <sp who="#der_landgraf #die_ritter #edelfrauen #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Ha! Der Verruchte! Fliehet ihn!</l>
+                     <l>Hört es! Er war im Venusberg!</l>
+                  </lg>
+               </sp>
+               <sp who="#edelfrauen">
+                  <speaker>DIE EDELFRAUEN.</speaker>
+                  <p>Hinweg! Hinweg! Aus seiner Näh!</p>
+               </sp>
+               <stage>Alle Frauen verlassen in größter Bestürzung und unter Gebärden des Abscheus die
+            Halle. Elisabeth, die dem Streite der Sänger mit wachsender Angst zugehört hatte, bleibt
+            von den Frauen allein zurück – bleich, nur mit dem größten Aufwand ihrer Kraft an einer
+            der hölzernen Säulen des Baldachins sich aufrecht erhaltend. – Der Landgraf, alle Ritter
+            und Sänger haben ihre Sitze verlassen und treten zusammen. Tannhäuser zur äußersten
+            Linken, verbleibt noch eine Zeitlang wie in Verzückung</stage>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>LANDGRAF, RITTER UND SÄNGER.</speaker>
+                  <lg>
+                     <l>Ihr habt's gehört! Sein frevler Mund</l>
+                     <l>tat das Verbrechen schrecklich kund:</l>
+                     <l>er hat der Hölle Lust geteilt,</l>
+                     <l>im Venusberg hat er geweilt!</l>
+                     <l>Entsetzlich! Scheußlich! Fluchenswert!</l>
+                     <l>In seinem Blute netzt das Schwert!</l>
+                     <l>Zum Höllenpfuhl zurückgesandt,</l>
+                     <l>sei er gefemt, sei er gebannt!</l>
+                  </lg>
+                  <stage>Alle dringen mit gezücktem Schwerte auf Tannhäuser ein, der eine trotzige
+              Stellung einnimmt; Elisabeth stürzt dazwischen</stage>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <p>Haltet ein!</p>
+               </sp>
+               <stage>Alle halten in größter Betroffenheit an</stage>
+               <pb n="240" facs="#f0019"/>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>LANDGRAF, RITTER UND SÄNGER.</speaker>
+                  <lg>
+                     <l>Was hör ich? Wie? Elisabeth!</l>
+                     <l>Die keusche Jungfrau für den Sünder?</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH</speaker>
+                  <stage>Tannhäuser mit ihrem Körper deckend.</stage>
+                  <lg>
+                     <l>Zurück! Des Todes achte ich sonst nicht!</l>
+                     <l>Was ist die Wunde eures Eisens gegen</l>
+                     <l>den Todesstoß, den ich von ihm empfing?</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>LANDGRAF, RITTER UND SÄNGER.</speaker>
+                  <lg>
+                     <l>Elisabeth, was muß ich hören?</l>
+                     <l>Wie ließ dein Herz dich so betören,</l>
+                     <l>von dem die Strafe zu beschwören,</l>
+                     <l>der auch so furchtbar dich verriet?</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <lg>
+                     <l>Was liegt an mir? Doch er – sein Heil!</l>
+                     <l>Wollt ihr sein ewig Heil ihm rauben?</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>LANDGRAF, RITTER UND SÄNGER.</speaker>
+                  <lg>
+                     <l>Verworfen hat er jedes Hoffen,</l>
+                     <l>niemals wird ihm des Heils Gewinn!</l>
+                     <l>Des Himmels Fluch hat ihn getroffen!</l>
+                     <l>In seinen Sünden fahr er hin!</l>
+                  </lg>
+                  <stage>Sie dringen von neuem auf Tannhäuser ein</stage>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <lg>
+                     <l>Zurück von ihm! Nicht ihr seid seine Richter!</l>
+                     <l>Grausame! Werft von euch das wilde Schwert!</l>
+                     <l>Und gebt Gehör der reinen Jungfrau Wort!</l>
+                     <l>Vernehmt durch mich, was Gottes Wille ist!</l>
+                     <l>Der Unglücksel'ge, den gefangen</l>
+                     <l>ein furchtbar mächt'ger Zauber hält, –</l>
+                     <l>wie, sollt er nie zum Heil gelangen</l>
+                     <l>durch Sühn und Buß in dieser Welt?</l>
+                     <l>Die ihr so stark im reinen Glauben,</l>
+                     <l>verkennt ihr so des Höchsten Rat?</l>
+                     <l>Wollt ihr des Sünders Hoffnung rauben,</l>
+                     <l>so sagt, was euch er Leides tat?</l>
+                     <l>Seht mich, die Jungfrau, deren Blüte</l>
+                     <l>mit einem jähen Schlag er brach,</l>
+                     <l>die ihn geliebt tief im Gemüte,</l>
+                     <l>der jubelnd er das Herz zerstach! –</l>
+                     <l>Ich fleh für ihn, ich flehe für sein Leben;</l>
+                     <l>zur Buße lenke er reu'voll den Schritt!</l>
+                     <l>Der Mut des Glaubens sei ihm neu gegeben,</l>
+                     <l>daß auch für ihn einst der Erlöser litt.</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>in furchtbarer Zerknirschung zusammenstürzend.</stage>
+                  <p>Weh! Weh mir Unglücksel'gem!</p>
+               </sp>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>LANDGRAF, RITTER UND SÄNGER.</speaker>
+                  <lg>
+                     <l>Ein Engel stieg aus lichtem Äther,</l>
+                     <l>zu künden Gottes heil'gen Rat!</l>
+                     <l>Blick hin, du schändlicher Verräter!</l>
+                     <l>
+                        <pb n="241" facs="#f0020"/> Werd inne deiner Missetat!</l>
+                     <l>Du gabst ihr Tod, sie bittet für dein Leben!</l>
+                     <l>Wer bliebe rauh, hört er des Engels Flehn?</l>
+                     <l>Darf ich auch nicht dem Schuldigen vergeben,</l>
+                     <l>dem Himmelswort kann ich nicht widerstehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Zum Heil den Sündigen zu führen,</l>
+                     <l>die Gottgesandte nahte mir;</l>
+                     <l>doch ach! – sie frevelnd zu berühren</l>
+                     <l>hob ich den Lästerblick zu ihr!</l>
+                     <l>O du, hoch über diesen Erdengründen,</l>
+                     <l>die mir den Engel meines Heils gesandt!</l>
+                     <l>Erbarm dich mein, der, ach so tief in Sünden,</l>
+                     <l>schmachvoll des Himmels Mittlerin verkannt!</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf">
+                  <speaker>DER LANDGRAF</speaker>
+                  <stage>feierlich in die Mitte tretend.</stage>
+                  <lg>
+                     <l>Ein furchtbares Verbrechen ward begangen;</l>
+                     <l>es stahl mit heuchlerischer Larve sich</l>
+                     <l>zu uns der Sünde fluchbeladner Sohn. –</l>
+                     <l>Wir stoßen dich von uns, bei uns darfst du</l>
+                     <l>nicht weilen! Schmachbefleckt ist unser Herd</l>
+                     <l>durch dich, und dräuend blickt der Himmel selbst</l>
+                     <l>auf dieses Dach, das dich zu lang schon birgt!</l>
+                     <l>Zur Rettung doch vor ewigem Verderben</l>
+                     <l>steht offen dir ein Weg – von mir dich stoßend,</l>
+                     <l>zeig ich ihn dir: nütz ihn zu deinem Heil!</l>
+                     <l>Versammelt sind aus meinen Landen</l>
+                     <l>bußfert'ge Pilger, stark an Zahl;</l>
+                     <l>die ältren schon voran sich wandten,</l>
+                     <l>die Jüngren rasten noch im Tal.</l>
+                     <l>Nur um geringer Sünde willen</l>
+                     <l>ihr Herz nicht Ruhe ihnen läßt;</l>
+                     <l>der Buße frommen Drang zu stillen,</l>
+                     <l>ziehn sie nach Rom zum Gnadenfest.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>LANDGRAF, RITTER UND SÄNGER.</speaker>
+                  <lg>
+                     <l>Mit ihnen sollst du wallen</l>
+                     <l>zur Stadt der Gnadenhuld,</l>
+                     <l>im Staub dort niederfallen</l>
+                     <l>und büßen deine Schuld;</l>
+                     <l>vor ihm stürz dich darnieder,</l>
+                     <l>der Gottes Urteil spricht!</l>
+                     <l>Doch kehre nimmer wieder,</l>
+                     <l>ward dir sein Segen nicht!</l>
+                     <l>Mußt unsre Rache weichen,</l>
+                     <l>weil sie ein Engel brach,</l>
+                     <l>
+                        <pb n="242" facs="#f0021"/> dies Schwert wird dich erreichen,</l>
+                     <l>harrst du in Sünd und Schmach!</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH.</speaker>
+                  <lg>
+                     <l>Laß hin zu dir ihn wallen,</l>
+                     <l>du Gott der Gnad und Huld!</l>
+                     <l>Ihm, der so tief gefallen,</l>
+                     <l>vergib der Sünden Schuld!</l>
+                     <l>Für ihn nur will ich flehen,</l>
+                     <l>mein Leben sei Gebet!</l>
+                     <l>Laß ihn dein Leuchten sehen,</l>
+                     <l>eh er in Nacht vergeht!</l>
+                     <l>Mit freudigem Erbeben</l>
+                     <l>Laß dir ein Opfer weihn: –</l>
+                     <l>nimm hin, o nimm mein Leben!</l>
+                     <l>Ich nenn es nicht mehr mein!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Wie soll ich Gnade finden?</l>
+                     <l>Wie büßen meine Schuld?</l>
+                     <l>Mein Heil sah ich entschwinden,</l>
+                     <l>mich flieht des Himmels Huld!</l>
+                     <l>Doch will ich büßend wallen,</l>
+                     <l>zerschlagen meine Brust,</l>
+                     <l>im Staube niederfallen;</l>
+                     <l>Zerknirschung sei mir Lust!</l>
+                     <l>Oh! Daß nur er versöhnet,</l>
+                     <l>der Engel meiner Not,</l>
+                     <l>der sich, so frech verhöhnet,</l>
+                     <l>zum Opfer doch mir bot!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_juengeren_pilger">
+                  <speaker>GESANG DER JÜNGEREN PILGER</speaker>
+                  <stage>im Hintergrunde, tief, wie aus dem Tale heraufschallend.</stage>
+                  <lg>
+                     <l>Am hohen Fest der Gnad und Huld</l>
+                     <l>in Demut sühn ich meine Schuld.</l>
+                     <l>Gesegnet, wer im Glauben treu!</l>
+                     <l>Er wird erlöst durch Buß und Reu!</l>
+                  </lg>
+                  <stage>Alle haben, den Gesang vernehmend, von der leidenschaftlichsten und drohendsten
+              Gebärde zu einer milderen und gerührten übergehend, gelauscht. – Tannhäuser, dessen
+              Züge von einem Scheine schnell erwachter Hoffnung verklärt werden, wendet sich rasch
+              zum Abgange</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Nach Rom!</p>
+                  <stage>Er eilt ab</stage>
+               </sp>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter">
+                  <speaker>ALLE</speaker>
+                  <stage>rufen ihm nach.</stage>
+                  <p>Nach Rom!</p>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Dritter Akt</head>
+            <stage>Tal vor der Wartburg, links der Hörselberg – wie am Schlusse des ersten Aktes, nur in
+          herbstlicher Färbung. Der Tag neigt sich zum Abend. – Auf dem kleinen Bergvorsprunge
+          rechts, vor dem Marienbilde, liegt Elisabeth betend auf den Knien. – Wolfram kommt links
+          von der waldigen Höhe herab; auf halber Höhe hält er an, als er Elisabeth gewahrt</stage>
+            <div>
+               <head>Erste Szene</head>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Wohl wußt ich hier sie im Gebet zu finden,</l>
+                     <l>wie ich so oft sie treffe, wenn ich einsam</l>
+                     <l>aus wald'ger Höh mich in das Tal verirre.</l>
+                     <l>Den Tod, den er ihr gab, im Herzen,</l>
+                     <l>dahingestreckt in brünst'gen Schmerzen,</l>
+                     <l>fleht für sein Heil sie Tag und Nacht: –</l>
+                     <l>o heil'ger Liebe ew'ge Macht!</l>
+                     <l>Von Rom zurück erwartet sie die Pilger;</l>
+                     <l>schon fällt das Laub, die Heimkehr steht bevor.</l>
+                     <l>Kehrt Er mit den Begnadigten zurück? –</l>
+                     <l>Dies ist ihr Fragen, dies ihr Flehen, –</l>
+                     <l>ihr Heil'gen, laßt erfüllt es sehen!</l>
+                     <l>Bleibt auch die Wunde ungeheilt, –</l>
+                     <l>o würd ihr Lindrung nur erteilt!</l>
+                  </lg>
+                  <stage>Als er tiefer in das Tal hinabsteigen will, vernimmt er den Gesang der Pilger und
+              hält an</stage>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH</speaker>
+                  <stage>erhebt sich, dem Gesange lauschend.</stage>
+                  <lg>
+                     <l>Dies ist ihr Sang. – Sie sind's! Sie kehren heim!</l>
+                     <l>Ihr Heil'gen, zeigt mir jetzt mein Amt,</l>
+                     <l>daß ich mit Würde es erfülle!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM</speaker>
+                  <stage>während der Gesang sich langsam nähert.</stage>
+                  <lg>
+                     <l>Die Pilger sind's; – es ist die fromme Weise,</l>
+                     <l>die der empfangnen Gnade Heil verkündet.</l>
+                     <l>O Himmel, stärke jetzt ihr Herz</l>
+                     <l>für die Entscheidung ihres Lebens!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_aelteren_pilger">
+                  <speaker>DIE ÄLTEREN PILGER</speaker>
+                  <stage>aus großer Ferne sich langsam der Bühne nähernd.</stage>
+                  <lg>
+                     <l>Beglückt darf nun dich, o Heimat, ich schauen,</l>
+                     <l>und grüßen froh deine lieblichen Auen;</l>
+                     <l>nun laß ich ruhn den Wanderstab,</l>
+                     <l>weil Gott getreu ich gepilgert hab.</l>
+                     <l>
+                        <pb n="244" facs="#f0022"/> Durch Sühn und Buß hab ich versöhnt</l>
+                     <l>den Herren, dem mein Herze frönt,</l>
+                     <l>der meine Reu mit Segen krönt,</l>
+                     <l>den Herren, dem mein Lied ertönt!</l>
+                  </lg>
+                  <stage>Hier betreten die Pilger die Bühne von rechts her, im Vordergrunde; sie ziehen
+              während des Folgenden an dem Bergvorsprunge vorbei langsam das Tal entlang dem
+              Hintergrunde zu</stage>
+                  <lg>
+                     <l>Der Gnade Heil ist dem Büßer beschieden,</l>
+                     <l>er geht einst ein in der Seligen Frieden;</l>
+                     <l>vor Höll und Tod ist ihm nicht bang,</l>
+                     <l>drum preis ich Gott mein Lebelang.</l>
+                  </lg>
+                  <stage>Bereits dem Hintergrunde zugewendet, sich allmählich entfernend</stage>
+                  <p>Halleluja! Halleluja in Ewigkeit!</p>
+                  <stage>Sich immer mehr entfernend und endlich durch die Talöffnung nach rechts
+              verschwindend</stage>
+                  <lg>
+                     <l>Beglückt darf nun dich, o Heimat, ich schauen,</l>
+                     <l>und grüßen froh deine lieblichen Auen!</l>
+                     <l>Nun laß ich ruhn den Wanderstab ...</l>
+                  </lg>
+               </sp>
+               <sp who="#elisabeth">
+                  <speaker>ELISABETH</speaker>
+                  <stage>die von ihrem erhöhten Standpunkte aus mit großer Aufregung unter den
+              vorüberziehenden Pilgern nach Tannhäuser geforscht hat, in schmerzlicher, aber ruhiger
+              Fassung.</stage>
+                  <p>Er kehret nicht zurück!</p>
+                  <stage>Sie senkt sich mit großer Feierlichkeit auf die Knie</stage>
+                  <lg>
+                     <l>Allmächt'ge Jungfrau! Hör mein Flehen!</l>
+                     <l>Zu dir, Gepries'ne, rufe ich!</l>
+                     <l>Laß mich im Staub vor dir vergehen,</l>
+                     <l>o! nimm von dieser Erde mich!</l>
+                     <l>Mach, daß ich rein und engelgleich</l>
+                     <l>eingehe in dein selig Reich!</l>
+                     <l>Wenn je in tör'gem Wahn befangen</l>
+                     <l>mein Herz sich abgewandt von dir,</l>
+                     <l>wenn je ein sündiges Verlangen,</l>
+                     <l>ein weltlich Sehnen keimt in mir: –</l>
+                     <l>so rang ich unter tausend Schmerzen,</l>
+                     <l>daß ich es töt in meinem Herzen. –</l>
+                     <l>Doch, konnt ich jeden Fehl nicht büßen,</l>
+                     <l>so nimm dich gnädig meiner an!</l>
+                     <l>Daß ich mit demutvollem Grüßen</l>
+                     <l>als würd'ge Magd dir nahen kann, –</l>
+                     <l>um deiner Gnaden reichste Huld</l>
+                     <l>nur anzuflehn für seine Schuld!</l>
+                  </lg>
+                  <stage>Sie verbleibt eine Zeitlang wie in andächtiger Entrücktheit; <pb n="245" facs="#f0023"/> als
+              sie sich dann langsam erhebt, erblickt sie Wolfram, welcher sich ihr nähert, um sie
+              anzureden. – Sie bittet ihn durch eine Gebärde, nicht mit ihr zu sprechen</stage>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Elisabeth, dürft ich dich nicht geleiten?</p>
+                  <stage>Elisabeth drückt ihm abermals durch Gebärden aus: sie danke ihm und seiner treuen
+              Liebe aus vollem Herzen; ihr Weg führe sie aber gen Himmel, wo sie ein hohes Amt zu
+              verrichten habe – er solle sie daher ungeleitet gehen lassen, ihr aber auch nicht
+              folgen. Sie besteigt die halbe Berghöhe und verschwindet allmählich auf dem Fußsteige,
+              welcher auf dieser nach der Wartburg führt, nachdem man ihre Gestalt lange noch in der
+              Entfernung erblickt hat. – Wolfram, der Elisabeth lange noch mit den Augen verfolgt
+              hat, setzt sich am Fuße des linken Talhügels nieder und beginnt auf der Harfe zu
+              spielen</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Wie Todesahnung Dämmrung deckt die Lande,</l>
+                     <l>umhüllt das Tal mit schwärzlichem Gewande;</l>
+                     <l>der Seele, die nach jenen Höh'n verlangt,</l>
+                     <l>vor ihrem Flug durch Nacht und Grausen bangt.</l>
+                     <l>Da scheinest du, o lieblichster der Sterne, –</l>
+                     <l>dein sanftes Licht entsendest du der Ferne,</l>
+                     <l>die nächt'ge Dämmrung teilt dein lieber Strahl,</l>
+                     <l>und freundlich zeigst du den Weg aus dem Tal.</l>
+                     <l>O du mein holder Abendstern,</l>
+                     <l>wohl grüßt ich immer dich so gern;</l>
+                     <l>vom Herzen, das sie nie verriet,</l>
+                     <l>grüße sie, wenn sie vorbei dir zieht, –</l>
+                     <l>wenn sie entschwebt dem Tal der Erden,</l>
+                     <l>ein sel'ger Engel dort zu werden.</l>
+                  </lg>
+                  <stage>Er verbleibt mit gen Himmel gerichtetem Auge, auf der Harfe fortspielend</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Es ist gänzlich Nacht geworden. Tannhäuser tritt auf: er trägt zerrissene
+            Pilgerkleidung, sein Antlitz ist bleich und entstellt; er geht matten Schrittes an
+            seinen Stab gestützt</stage>
+               <pb n="246" facs="#f0024"/>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>mit matter Stimme.</stage>
+                  <lg>
+                     <l>Ich hörte Harfenschlag, wie klang er traurig!</l>
+                     <l>Der kam wohl nicht von ihr!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Wer bist du, Pilger,</l>
+                     <l>der du so einsam wanderst?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Wer ich bin? –</l>
+                     <l>Kenn ich doch dich recht gut! Wolfram bist du,</l>
+                  </lg>
+                  <stage>Höhnisch</stage>
+                  <p>der wohlgeübte Sänger!</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM</speaker>
+                  <stage>heftig auffahrend.</stage>
+                  <lg>
+                     <l>Heinrich! Du?</l>
+                     <l>Was bringt dich her in diese Nähe? Sprich!</l>
+                     <l>Wagst du es, unentsündigt noch den Fuß</l>
+                     <l>nach dieser Gegend herzulenken?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Sei außer Sorg, mein guter Sänger!</l>
+                     <l>Nicht such ich dich, noch deiner Sippschaft Einen. –</l>
+                  </lg>
+                  <stage>Mit unheimlicher Lüsternheit</stage>
+                  <lg>
+                     <l>Doch such ich wen, der mir den Weg wohl zeige, –</l>
+                     <l>den Weg, den einst so wunderleicht ich fand –</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Und welchen Weg?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Den Weg zum Venusberg!</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Entsetzlicher! Entweihe nicht mein Ohr!</l>
+                     <l>Treibt es dich dahin?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Kennst du wohl den Weg?</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Wahnsinn'ger! Grauen faßt mich, hör ich dich!</l>
+                     <l>Wo warst du? Zogst du denn nicht nach Rom?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>wütend.</stage>
+                  <p>Schweig mir von Rom!</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Warst nicht beim heil'gen Feste?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Schweig mir von ihm!</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>So warst du nicht? Sag! – Ich</l>
+                     <l>beschwöre dich!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>wie sich besinnend, mit schmerzlichem Ingrimm.</stage>
+                  <p>Wohl war auch ich in Rom ...</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>So sprich! Erzähle mir! Unglücklicher!</l>
+                     <l>Mich faßt ein tiefes Mitleid für dich an!</l>
+                  </lg>
+                  <stage>Tannhäuser betrachtet Wolfram lange mit gerührter Verwunderung</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Wie sagst du, Wolfram? Bist du denn nicht mein Feind?</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Nie war ich es, solang ich fromm dich wähnte.</l>
+                     <l>Doch sag, du pilgertest nach Rom?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Nun denn, hör an! Du, Wolfram, du ...sollst es erfahren.</p>
+                  <stage>
+                     <pb n="247" facs="#f0025"/> Er setzt sich erschöpft am Fuße des Bergvorsprunges nieder; Wolfram
+              will sich an seiner Seite ebenfalls niederlassen</stage>
+                  <lg>
+                     <l>Zurück von mir! Die Stätte, wo ich raste,</l>
+                     <l>ist verflucht!</l>
+                  </lg>
+                  <stage>Wolfram bleibt in geringer Entfernung vor Tannhäuser stehen</stage>
+                  <lg>
+                     <l>Hör an, Wolfram! Hör an!</l>
+                     <l>Inbrunst im Herzen, wie kein Büßer noch</l>
+                     <l>sie je gefühlt, sucht ich den Weg nach Rom.</l>
+                     <l>Ein Engel hatte, ach! der Sünde Stolz</l>
+                     <l>dem Übermütigen entwunden;</l>
+                     <l>für ihn wollt ich in Demut büßen,</l>
+                     <l>das Heil erflehn, das mir verneint –</l>
+                     <l>um ihm die Träne zu versüßen,</l>
+                     <l>die er mir Sünder einst geweint! –</l>
+                     <l>Wie neben mir der schwerstbedrückte Pilger</l>
+                     <l>die Straße wallt, erschien mir allzuleicht: –</l>
+                     <l>betrat sein Fuß den weichen Grund der Wiesen,</l>
+                     <l>der nackten Sohle sucht ich Dorn und Stein;</l>
+                     <l>ließ Labung er am Quell den Mund genießen,</l>
+                     <l>sog ich der Sonne heißes Glühen ein;</l>
+                     <l>wenn fromm zum Himmel er Gebete schickte,</l>
+                     <l>vergoß mein Blut ich zu des Höchsten Preis;</l>
+                     <l>als im Hospiz der Müde sich erquickte,</l>
+                     <l>die Glieder bettet ich in Schnee und Eis; –</l>
+                     <l>verschloßnen Augs, ihr Wunder nicht zu schauen,</l>
+                     <l>durchzog ich blind Italiens holde Auen. –</l>
+                     <l>Ich tat's, denn in Zerknirschung wollt ich büßen,</l>
+                     <l>um meines Engels Tränen zu versüßen!</l>
+                     <l>Nach Rom gelangt ich so zur heil'gen Stelle,</l>
+                     <l>lag betend auf des Heiligtumes Schwelle: –</l>
+                     <l>der Tag brach an; da läuteten die Glocken, –</l>
+                     <l>hernieder tönten himmlische Gesänge: –</l>
+                     <l>da jauchzt es auf in brünstigem Frohlocken,</l>
+                     <l>denn Gnad und Heil verhießen sie der Menge.</l>
+                     <l>Da sah ich ihn, durch den sich Gott verkündigt, –</l>
+                     <l>vor ihm all Volk im Staub sich niederließ.</l>
+                     <l>Und Tausenden er Gnade gab, entsündigt</l>
+                     <l>er Tausende sich froh erheben hieß –</l>
+                     <l>Da naht auch ich, das Haupt gebeugt zur Erde,</l>
+                     <l>klagt ich mich an mit jammernder Gebärde</l>
+                     <l>der bösen Lust, die meine Sinn empfanden,</l>
+                     <l>des Sehnens, das kein Büßen noch gekühlt;</l>
+                     <l>und um Erlösung aus den heißen Banden</l>
+                     <l>
+                        <pb n="248" facs="#f0026"/> rief ich ihn an, von wildem Schmerz durchwühlt ...</l>
+                     <l>Und er, den so ich bat, hub an:</l>
+                     <l>»Hast du so böse Lust geteilt,</l>
+                     <l>dich an der Hölle Glut entflammt,</l>
+                     <l>hast du im Venusberg geweilt,</l>
+                     <l>so bist nun ewig du verdammt!</l>
+                     <l>Wie dieser Stab in meiner Hand</l>
+                     <l>nie mehr sich schmückt mit frischem Grün,</l>
+                     <l>kann aus der Hölle heißem Brand</l>
+                     <l>Erlösung nimmer dir erblühn!«</l>
+                     <l>Dann sank ich in Vernichtung dumpf darnieder, –</l>
+                     <l>die Sinne schwanden mir ... Als ich erwacht,</l>
+                     <l>auf ödem Platze lagerte die Nacht, –</l>
+                     <l>von fern her tönten frohe Gnadenlieder ...</l>
+                     <l>Da ekelte mich der holde Sang!</l>
+                     <l>Von der Verheißung lügnerischem Klang,</l>
+                     <l>der eiseskalt mir durch die Seele schnitt,</l>
+                     <l>trieb Grauen mich hinweg mit wildem Schritt!</l>
+                     <l>Dahin zog's mich, wo ich der Wonn und Lust</l>
+                     <l>so viel genoß, an ihre warme Brust!</l>
+                  </lg>
+                  <stage>In grauenhafter Begeisterung</stage>
+                  <lg>
+                     <l>Zu dir, Frau Venus, kehr ich wieder,</l>
+                     <l>in deiner Zauber holde Nacht;</l>
+                     <l>zu deinem Hof steig ich darnieder,</l>
+                     <l>wo nun dein Reiz mir ewig lacht!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Halt ein! Halt ein, Unsel'ger!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Ach, laß mich nicht vergebens suchen!</l>
+                     <l>Wie leicht fand ich doch einsten dich!</l>
+                     <l>Du hörst, daß mir die Menschen fluchen, –</l>
+                     <l>nun, süße Göttin, leite mich!</l>
+                  </lg>
+                  <stage>Finstere Nacht; leichte Nebel verhüllen allmählich die Szene</stage>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM</speaker>
+                  <stage>in heftigem Grausen.</stage>
+                  <p>Wahnsinniger! Wen rufst du an?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Ha! Fühlest du nicht milde Lüfte?</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Zu mir! Es ist um dich getan!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Und atmest du nicht holde Düfte?</p>
+                  <stage>Die Nebel beginnen in rosiger Dämmerung zu erglühen</stage>
+                  <p>Hörst du nicht jubelnde Klänge?</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>In wildem Schauer bebt die Brust!</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>immer aufgeregter, je näher der Zauber kommt.</stage>
+                  <lg>
+                     <l>
+                        <pb n="249" facs="#f0027"/> Das ist der Nymphen tanzende Menge!</l>
+                     <l>Herbei! Herbei! Herbei, herbei zu Wonn und Lust!</l>
+                  </lg>
+                  <stage>Wirre Bewegungen tanzender Gestalten werden erkennbar</stage>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Weh! Böser Zauber tut sich auf!</l>
+                     <l>Die Hölle naht mit wildem Lauf!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Entzücken dringt durch meine Sinne,</l>
+                     <l>gewahr ich diesen Dämmerschein!</l>
+                     <l>Dies ist das Zauberreich der Minne,</l>
+                  </lg>
+                  <stage>außer sich</stage>
+                  <p>im Venusberg drangen wir ein!</p>
+                  <stage>In einer hellen rosigen Beleuchtung erscheint Venus, auf ihrem Lager
+              ruhend</stage>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <lg>
+                     <l>Willkommen, ungetreuer Mann!</l>
+                     <l>Schlug dich die Welt mit Acht und Bann?</l>
+                     <l>Und findest nirgend du Erbarmen,</l>
+                     <l>suchst Liebe du in meinen Armen?</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <lg>
+                     <l>Frau Venus, oh, Erbarmungsreiche!</l>
+                     <l>Zu dir, zu dir zieht es mich hin!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Zauber der Hölle weiche, weiche!</l>
+                     <l>Berücke nicht des Reinen Sinn!</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <lg>
+                     <l>Nahst du dich wieder meiner Schwelle,</l>
+                     <l>sei dir dein Übermut verziehn;</l>
+                     <l>ewig fließe dir der Freuden Quelle,</l>
+                     <l>und nimmer sollst du von mir fliehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>indem er sich mit wilder Entschlossenheit von Wolfram losreißt.</stage>
+                  <lg>
+                     <l>Mein Heil, mein Heil hab ich verloren,</l>
+                     <l>nun sei der Hölle Lust erkoren!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Allmächt'ger! Steh dem Frommen bei!</p>
+                  <stage>Er hält Tannhäuser von neuem</stage>
+                  <lg>
+                     <l>Heinrich! Ein Wort, es macht dich frei!</l>
+                     <l>Dein Heil!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>zu Wolfram.</stage>
+                  <p>Laß ab! Laß ab von mir!</p>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS</speaker>
+                  <stage>in keimender Angst.</stage>
+                  <p>O komm! O komm! Auf ewig sei nun mein!</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <p>Noch soll das Heil dir Sünder werden!</p>
+                  <stage>Tannhäuser und Wolfram ringen heftig</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Nie, Wolfram! Nie! Ich muß dahin!</p>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>O komm! Komm, o komm! Zu mir! Zu mir!</p>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM.</speaker>
+                  <lg>
+                     <l>Ein Engel bat für dich auf Erden,</l>
+                     <l>bald schwebt er segnend über dir:</l>
+                     <l>Elisabeth!</l>
+                  </lg>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>der sich soeben losgerissen, bleibt plötzlich wie an die Stelle geheftet.</stage>
+                  <p>Elisabeth!</p>
+                  <stage>
+                     <pb n="250" facs="#f0028"/> Die Nebel verfinstern sich allmählich: heller Fackelschein leuchtet
+              dann durch sie auf</stage>
+               </sp>
+               <sp who="#maennergesang">
+                  <speaker>MÄNNERGESANG</speaker>
+                  <stage>hinter der Szene.</stage>
+                  <lg>
+                     <l>Der Seele Heil, die nun entflohn</l>
+                     <l>dem Leib der frommen Dulderin!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM</speaker>
+                  <stage>in erhabener Rührung.</stage>
+                  <lg>
+                     <l>Dein Engel fleht für dich an Gottes Thron,</l>
+                     <l>er wird erhört – Heinrich, du bist erlöst!</l>
+                  </lg>
+               </sp>
+               <sp who="#venus">
+                  <speaker>VENUS.</speaker>
+                  <p>Weh! Mir verloren!</p>
+                  <stage>Sie verschwindet, und mit ihr die ganze zauberische Erscheinung. Das Tal, vom
+              Morgenrot erleuchtet, wird wieder sichtbar. Von der Wartburg her geleitet ein
+              Trauerzug einen offenen Sarg</stage>
+               </sp>
+               <sp who="#maennergesang">
+                  <speaker>MÄNNERGESANG.</speaker>
+                  <lg>
+                     <l>Ihr ward der Engel sel'ger Lohn,</l>
+                     <l>himmlischer Freuden Hochgewinn!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolfram">
+                  <speaker>WOLFRAM</speaker>
+                  <stage>Tannhäuser sanft umschlungen haltend.</stage>
+                  <p>Und hörst du den Gesang?</p>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER</speaker>
+                  <stage>ersterbend.</stage>
+                  <p>Ich höre!</p>
+                  <stage>Von hier an betritt der Trauerzug die Tiefe des Tales, die älteren Pilger voran;
+              den offenen Sarg mit der Leiche Elisabeths tragen Edle, der Landgraf und die Sänger
+              geleiten ihn zur Seite, Grafen und Edle folgen</stage>
+               </sp>
+               <sp who="#maennergesang">
+                  <speaker>MÄNNERGESANG.</speaker>
+                  <lg>
+                     <l>Heilig die Reine, die nun vereint</l>
+                     <l>göttlicher Schar vor dem Ewigen steht!</l>
+                     <l>Selig der Sünder, dem sie geweint,</l>
+                     <l>dem sie des Himmels Heil erfleht!</l>
+                  </lg>
+                  <stage>Auf Wolframs Bedeuten ist der Sarg in der Mitte der Bühne niedergesetzt worden.
+              Wolfram geleitet Tannhäuser zu der Leiche, an welcher dieser niedersinkt</stage>
+               </sp>
+               <sp who="#tannhaeuser">
+                  <speaker>TANNHÄUSER.</speaker>
+                  <p>Heilige Elisabeth, bitte für mich!</p>
+                  <stage>Er stirbt</stage>
+               </sp>
+               <sp who="#die_juengeren_pilger">
+                  <speaker>DIE JÜNGEREN PILGER</speaker>
+                  <stage>während des Sonnenaufgangs die Bühne vom Vordergrund her betretend.</stage>
+                  <lg>
+                     <l>Heil! Heil! Der Gnade Wunder Heil!</l>
+                     <l>Erlösung ward der Welt zuteil.</l>
+                     <l>Es tat in nächtlich heil'ger Stund</l>
+                     <l>der Herr sich durch ein Wunder kund:</l>
+                     <l>Den dürren Stab in Priesters Hand</l>
+                     <l>hat er geschmückt mit frischem Grün:</l>
+                     <l>dem Sünder in der Hölle Brand</l>
+                     <l>soll so Erlösung neu erblühn!</l>
+                     <l>
+                        <pb n="251" facs="#f0029"/> Ruft ihm es zu durch alle Land,</l>
+                     <l>der durch dies Wunder Gnade fand!</l>
+                     <l>Hoch über aller Welt ist Gott,</l>
+                     <l>und sein Erbarmen ist kein Spott!</l>
+                     <l>Halleluja! Halleluja!</l>
+                     <l>Halleluja!</l>
+                  </lg>
+               </sp>
+               <sp who="#der_landgraf #die_ritter #wolfram #walther #biterolf #heinrich_der_schreiber #reinmar_von_zweter #die_aelteren_pilger">
+                  <speaker>LANDGRAF, RITTER, SÄNGER UND DIE ÄLTEREN PILGER</speaker>
+                  <stage>in höchster Ergriffenheit.</stage>
+                  <lg>
+                     <l>Der Gnade Heil ist dem Büßer beschieden</l>
+                     <l>er geht nun ein in der Seligen Frieden!</l>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

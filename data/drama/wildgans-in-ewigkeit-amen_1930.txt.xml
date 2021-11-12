@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">In Ewigkeit Amen</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118632841">
+                  <forename>Anton</forename>
+                  <surname>Wildgans</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-01T12:22:51Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000163</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q51435303</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005919525</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Wildgans, Anton/Dramen/In Ewigkeit Amen</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/x90w.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0005-A840-8</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Anton Wildgans: Gesammelte Werke. Band 3, Leipzig 1930</bibl>
+            <bibl>Anton Wildgans: Gesammelte Werke. Leipzig: L. Staackmann Verlag, 1930.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gesammelte Werke</title>
+                  <title level="m" type="volume">Band 3</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118632841">
+                        <forename>Anton</forename>
+                        <surname>Wildgans</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">71 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>L. Staackmann Verlag</name>
+                  </publisher>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date type="publication">1930</date>
+                  <date type="firstPublication">1913</date>
+                  <date type="firstPublication" subtype="clariah">1913</date>
+                  <date type="firstPublication" subtype="zeno">1913</date>
+                  <date type="firstPublication" subtype="i5">1912</date>
+                  <date type="firstPublication" subtype="gerdracor">1913</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d1150e259">Entstanden 1912. Erstdruck: Leipzig (Staackmann), 1913. Uraufführung am 24.05.1913, Deutsches Volkstheater, Wien.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="kanzlist" sex="MALE">
+                  <persName>Kanzlist</persName>
+               </person>
+               <person xml:id="rat" sex="MALE">
+                  <persName>Untersuchungsrichter (Rat)</persName>
+               </person>
+               <person xml:id="staatsanwalt" sex="MALE">
+                  <persName>Der Staatsanwalt</persName>
+               </person>
+               <person xml:id="doktor_zwirn" sex="MALE">
+                  <persName>Doktor Zwirn (Schriftführer)</persName>
+               </person>
+               <person xml:id="dworschak" sex="FEMALE">
+                  <persName>Zeugin Marie Dworschak</persName>
+               </person>
+               <person xml:id="kritzenberger" sex="MALE">
+                  <persName>Zeuge Leopold Kritzenberger</persName>
+               </person>
+               <person xml:id="gschmeidler" sex="MALE">
+                  <persName>Anton Gschmeidler</persName>
+               </person>
+               <person xml:id="justizsoldat" sex="MALE">
+                  <persName>Justizsoldat</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d1150e259">
+      <front>
+         <div type="front">
+            <head>Anton Wildgans</head>
+            <head>In Ewigkeit Amen</head>
+            <head>Ein gerichtliches Vorspiel in einem Akt</head>
+         </div>
+         <div type="dedication">
+            <head>[Widmung]</head>
+            <p>
+               <pb n="10" facs="#f0001"/> Meinem Freunde Karl Gatter gewidmet</p>
+            <pb n="11" facs="#f0002"/>
+         </div>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>Untersuchungsrichter.</castItem>
+               <castItem>Staatsanwalt.</castItem>
+               <castItem>Schriftführer.</castItem>
+               <castItem>Kanzlist.</castItem>
+               <castItem>Zeugin Marie Dworschak.</castItem>
+               <castItem>Zeuge Leopold Kritzenberger.</castItem>
+               <castItem>Beschuldigter Anton Gschmeidler.</castItem>
+               <castItem>Justizsoldat.</castItem>
+               <pb n="11" facs="#f0003"/>
+               <pb n="13" facs="#f0004"/>
+            </castList>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>[Stücktext]</head>
+            <stage>Das Amtszimmer des Untersuchungsrichters.</stage>
+            <stage>Im Hintergrund die Tür auf den Gang. Links von ihr ein braungestrichener
+          Kleiderkasten. Rechts von ihr ein schmaler ebensolcher Waschtisch. In der Mitte der
+          Rechtswand einflügelige braune Tür in die Abteilungskanzlei. Rechts vorne an der Wand ein
+          Stehpult, darauf das Kruzifix und die beiden Schwurkerzen. An der Linkswand ein grün
+          überzogenes Sofa. Davor ein Tisch, auf dem Aktenstöße und Gesetzbücher liegen, und zwei
+          Fauteuils. Über dieser Gruppe an der Wand das Bildnis des Landesherrn. In der Mitte des
+          Bühnenraums sind zwei ebenfalls braungestrichene Schreibtische aneinandergeschoben. Der
+          rechte ist der des Untersuchungsrichters. Bei ihm steht ein großer, bequemer, aber schon
+          sehr abgenutzter Lederfauteuil. Der linke Schreibtisch ist der des Schriftführers. Bei ihm
+          steht ein einfacher Holzsessel. Ein ebensolcher Sessel befindet sich an der dem Publikum
+          zugekehrten Schmalseite des Untersuchungsrichtertisches. Auf ihm nehmen später die Zeugen
+          und der Angeklagte Platz. An der dem Publikum abgekehrten Schmalseite des
+          Untersuchungsrichtertisches steht ein kleiner Lederfauteuil, den später der Staatsanwalt
+          benutzt. Auf dem Schreibtisch des Richters ein Telephonapparat, verschiedene Drucksorten,
+          Aktenumschläge usw.</stage>
+            <stage>Wenn der Vorhang aufgegangen ist, bleibt die Bühne einige Augenblicke leer. Dann
+          tritt durch die Tür der Rechtswand aus der Abteilungskanzlei der.</stage>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>mit einem großen zusammengebundenen Aktenstoß ein, den er auf den Tisch des
+            Untersuchungsrichters legt und sorgfältig aufbindet.</stage>
+               <stage>Der Kanzlist ist ein langer, hagerer Mensch mit zimmerfarbenem Gesicht und blondem
+            Schnurrbart. Er ist ärmlich gekleidet. Sein ganzes <pb n="13" facs="#f0005"/> Gehaben und Aussehen
+            subaltern. Während der Kanzlist mit dem Ordnen der Akten beschäftigt ist, tritt durch
+            die Mitteltür im Hintergrunde der.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>UNTERSUCHUNGSRICHTER</speaker>
+               <stage>im folgenden kurz Rat genannt ein.</stage>
+               <stage>Er ist ein Mann gegen Fünfzig, von mittelgroßer, schlanker, sehniger Statur. Sein
+            angegrautes Haar ist kurzgeschoren, der noch blonde Schnurrbart englisch gestutzt. Sein
+            Gesicht macht den Eindruck des Glattrasierten und hat etwas von der Strenge eines
+            Römerkopfes. Seine Augen sind groß und grau. Wenn er erregt ist, ähneln sie denen eines
+            Geiers. Dieses Phänomen wird im Text durch die Bemerkung »Geieraugen« angedeutet. Alle
+            seine Bewegungen sind von beherrschter Energie. Wenn er über etwas mißvergnügt ist, leg
+            er den Kopf mit gehässigem Gesichtsausdruck ein wenig zur Seite, und seine Lippen machen
+            stumme Bewegungen, als schimpfe er in sich hinein. Dies wird im Text durch »Kopfhaltung«
+            angedeutet. Er trägt einfachen, aber adretten dunkelblauen Sakkoanzug, vorne
+            geschlossenen niederen Stehkragen und dunkle Krawatte, an den Füßen Zugstiefeletten in
+            der Art eines alten Militärs, für den man ihn auch halten möchte. Nachdem er eingetreten
+            ist, bleibt er mit dem Hut auf dem Kopf und mit ungehaltenem Gesichtsausdruck einen
+            Augenblick stehen.</stage>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>devot.</stage>
+               <p>Ergebenster Diener, guten Morgen, Herr Rat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mürrisch.</stage>
+               <p>Guten Tag. <stage>Er legt Hut und Überzieher ab und versorgt beides im
+            Kasten.</stage>
+               </p>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>beflissen.</stage>
+               <p>Den Akt habe ich dem Herrn Rat bereits auf den Tisch gelegt.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>abweisend.</stage>
+               <p>Wünschen Sie <hi rendition="#i">sonst</hi> noch etwas von mir?</p>
+               <pb n="14" facs="#f0006"/>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST.</speaker>
+               <p>Nicht im mindesten, Herr Rat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit erstaunter Betonung.</stage>
+               <p>Na also!</p>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>devot und zudringlich.</stage>
+               <p>Ich wollte nur gehorsamst melden, daß die Zeugen auch schon erschienen sind.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ungehalten.</stage>
+               <p>Sind doch erst für zehn Uhr vorgeladen!</p>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>zuckt fatalistisch die Achseln.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>gehässig.</stage>
+               <p>Ist der Schriftführer auch schon <hi rendition="#i">erschienen</hi>?</p>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST.</speaker>
+               <p>Habe ihn leider noch nicht gesehen.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>bösartig.</stage>
+               <p>Also: nein! <stage>Für sich durch die Zähne.</stage> Verdammte jüdische
+            Unpünktlichkeit. <stage>Kopfhaltung.</stage>
+               </p>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>lacht kurz und albern auf, macht aber sofort so, als sich räusperte.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>scharf, mit Geieraugen.</stage>
+               <p>Wie bitte?</p>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>verlegen.</stage>
+               <p>Ich habe mir nur erlaubt –</p>
+               <pb n="15" facs="#f0007"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>endgültig abschneidend.</stage>
+               <p>Danke.</p>
+            </sp>
+            <sp who="#kanzlist">
+               <speaker>KANZLIST</speaker>
+               <stage>mit stummer Verbeugung rechts ab.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ihm mit Kopfhaltung nachsehend, dann halblaut losbrechend.</stage>
+               <p>Kretin! <stage>Er setzt sich zum Schreibtisch, blättert in den Akten, lehnt sich
+              nachdenkend zurück, sieht dann plötzlich auf die Uhr und läutet hierauf am
+              Tischtelephon. Ins Sprechrohr.</stage> Verbinden Sie mich mit dem Präsidium! – Ja,
+            hier Landesgerichtsrat Doktor Groll – <stage>Freundlich.</stage> Habe die Ehre, Herr
+            Collega – Bitte, teilen Sie mir doch endlich einen anderen Schriftführer zu! – Wie mein
+            jetziger heißt? <stage>Ironisch.</stage> Doktor Samuel Zwirn! Der Name sagt, glaube ich,
+            alles – <stage>Gereizt.</stage> Warum denn nicht? Seit wann ist so ein Mangel an
+            Schriftführern? Die Diaspora ist doch bei uns sehr ausgiebig! <stage>Lacht
+              maliziös.</stage> – So? – So? <stage>Plötzlich sehr unangenehm.</stage> Dann ersuche
+            ich Sie, dienstlich zur Kenntnis zu nehmen, daß der Rechtspraktikant Doktor Zwirn, trotz
+            wiederholter Mahnung wegen Zuspätkommens, heute um einhalbzehn Uhr noch nicht im Amte
+            ist. Ergebener Diener. <stage>Während er das Hörrohr auf das Gestell legt, klopft es an
+              der Tür im Hintergrund. Mit Kopfhaltung.</stage> Herein!</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>DER STAATSANWALT</speaker>
+               <stage>tritt ein.</stage>
+               <stage>Er ist gegen Vierzig, schlank, blond, soweit noch Haare vorhanden. Blasses, <pb n="16" facs="#f0008"/> nervöses Gesicht, englischer Schnurrbart. Er sieht geistig überarbeitet aus,
+            trägt schwarzes Jackett, wohlgebügelte Modehose, dunkle, teure Krawatte. Die
+            Dienstkappe, die er in der Hand hält, gleicht einer altösterreichischen Offizierskappe.
+            Seine Redeweise ist gelassen, überlegt, bestimmt, aber dabei doch ungemein höflich und
+            gesellschaftlich.</stage>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>noch an der Tür, mit eleganter Verbeugung.</stage>
+               <p>Ich habe die Ehre, Herr Rat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ihm mit etwas übertriebener Zuvorkommenheit entgegengehend.</stage>
+               <p>Oh, der Herr Staatsanwalt! Was verschafft mir das besondere Vergnügen?</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>besonders liebenswürdig.</stage>
+               <p>Eine kleine Morgenvisite. Ich störe doch hoffentlich nicht.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Nicht im geringsten! Bitte doch einen Augenblick Platz zu nehmen! <stage>Mit
+              Betonung.</stage> Die Vertreter der <hi rendition="#i">Anklage</hi>behörde sehe ich, ganz
+            abgesehen von allen privaten Sympathien, immer gerne bei mir.</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>scherzhaft.</stage>
+               <p>Hoffentlich sind in meinem Falle Ihre Sympathien für meine private Persönlichkeit
+            lebhafter als die für meine amtliche!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ebenso.</stage>
+               <p>Das würde nicht allzuviel heißen! Denn – seien Sie mir <pb n="17" facs="#f0009"/> nicht böse! –
+              <stage>Sarkastisch.</stage> mit Ihnen als Staatsanwalt bin ich nicht immer so ganz
+            einverstanden.</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>lachend.</stage>
+               <p>Das ist mir bekannt! Ich bin Ihnen nicht scharf genug.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>trocken.</stage>
+               <p>Mitunter. Ganz richtig. Aber das kommt schon noch. <stage>Falschfreundlich.</stage> Wie
+            geht es übrigens der Frau Gemahlin und den Kindleins?</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>ebenso.</stage>
+               <p>Danke, recht gut.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sich zurücklehnend, lauernd.</stage>
+               <p>Sehen Sie, das gehört auch zu den Dingen, die ich in meinem arbeitsreichen Leben
+            glattwegs versäumt habe: Frau und Kinder –</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>lächelnd.</stage>
+               <p>Dazu ist es doch noch nicht zu spät! Bei Ihrer Rüstigkeit!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>boshaft.</stage>
+               <p>Ich weiß, daß meine Rüstigkeit vielen meiner Hintermänner ein Dorn im Auge ist. Aber
+            gerade deswegen trachte ich, mich möglichst frisch und tüchtig zu erhalten, und heirate
+            eben <hi rendition="#i">nicht</hi>. Ganz abgesehen davon, daß ich immer das Gefühl hatte:
+              <stage>Nicht ohne Größe.</stage> ein Richter soll sein wie ein <pb n="18" facs="#f0010"/> Priester,
+            an nichts Irdisches mit seinem Herzen gebunden, unvermählt. <stage>Geieraugen, dann
+              mißvergnügt abbrechend.</stage> Na ja.</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>ablenkend.</stage>
+               <p>Herr Rat haben heute, wenn ich nicht irre, die Zeugen in der Sache Gschmeidler
+            vorgeladen –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit galligem Humor.</stage>
+               <p>Ja, ja, ja! Für zehn Uhr. Ich höre aber, daß sich einige verdächtige Gestalten bereits
+            seit neun Uhr auf dem Gange herumtreiben. Herr Collega haben übrigens die Einvernahme
+            eines gewissen Kritzenberger zu beantragen geruht. Wurde natürlich vorgeladen, obwohl
+            ich nicht einzusehen vermag, was der Mann aussagen soll. Er war gar nicht Tatzeuge.</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT.</speaker>
+               <p>Ich weiß. Es will mir aber scheinen, als ob hinter dieser Sache etwas steckte, worüber
+            noch nicht volle Klarheit herrscht. Zwischen dem Anlaß zur Tat und ihrer ganz
+            unvermittelten, förmlich übertriebenen Ausführung ist kein rechtes Verhältnis. Ich bin
+            nicht abgeneigt, an irgendeine Psychose zu glauben.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>höhnisch-überlegen.</stage>
+               <p>Psychose?! Diesen Ausdruck habe ich bisher nur von Verteidigern gehört, und was ich von
+            dieser Menschenklasse <pb n="19" facs="#f0011"/> halte, dürfte Ihnen ja bekannt sein. Wir Richter, die
+            es wirklich sind, wissen, <stage>Stark.</stage> daß es ein An-sich-Böses gibt!</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>mit feiner Ironie.</stage>
+               <p>Ja, daran hat man früher einmal geglaubt.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>temperamentvoll.</stage>
+               <p>Ich glaube mit Ihrer Genehmhaltung auch jetzt noch daran! Der Fall Gschmeidler ist ja
+            das Schulbeispiel dafür. Dieses Individuum hat vor siebenundzwanzig Jahren seinen
+            Dienstherrn wegen eines Frauenzimmers umgebracht und wurde zum Tode verurteilt. Statt
+            ihm aber den Garaus zu machen, hat man ihn zu lebenslänglichem Zuchthaus begnadigt, und
+            nach siebenundzwanzig Jahren gibt man ihm auf einmal die Freiheit zurück, in der
+            falschen Voraussetzung, das Böse in ihm sei durch die lange Haft ausgetilgt. Aber das
+            Böse erweist sich stärker als der Verstand der Leute, die an die Besserungsmöglichkeit
+            eines Verbrechers glauben. Einen Monat nach Entlassung aus der Strafanstalt begeht der
+            Mann ein ganz ähnliches Delikt wie das erste Mal, nur daß der Anschlag diesmal gegen ein
+            Weibsbild gerichtet war und der Mord nicht gelungen ist. Wahrscheinlich stecken ähnliche
+            Ursachen dahinter.</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>nachdenklich.</stage>
+               <p>Eine Diskussion über Ihre Annahme, Herr Rat, würde <pb n="20" facs="#f0012"/> uns zu weit führen,
+            zumal ich persönlich keineswegs davon überzeugt bin, daß wirklich ein Mordversuch
+            vorliegt.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>aufgebracht.</stage>
+               <p>Wieso denn nicht?! Es nimmt einer einen Fleischschlägel, also ein absolut taugliches
+            Werkzeug, und drischt damit einer Frauensperson auf den Kopf! Noch dazu in tückischer
+            Weise von rückwärts! Ein Gesellschaftsspiel ist das doch nicht! Sie werden hoffentlich
+            nicht glauben, daß man so planmäßig in der beliebten Sinnesverwirrung vorgehen kann!</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>sachlich.</stage>
+               <p>Immerhin gibt es gewisse Fälle, in denen ein bloß psychisch mißhandeltes Individuum als
+            letzten Ausweg aus lange und wehrlos erduldeter Qual einen Exzeß verübt, der scheinbar
+            in keinem Verhältnis zu dem steht, was ihm zugefügt wurde.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>kalt.</stage>
+               <p>Das zu beurteilen, wird Sache der Geschworenen sein.</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>undurchdringlich.</stage>
+               <p>Ich habe allerdings die persönliche Empfindung, daß wir diesen Fall nicht vor die
+            Geschworenen bringen können werden.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>bösartig.</stage>
+               <p>Ach so! <stage>Mit steigender Heftigkeit.</stage> Ich verstehe bereits. Die
+            Staatsanwaltschaft interessiert sich nicht für den Fall. Die <pb n="21" facs="#f0013"/>
+            Staatsanwaltschaft möchte die <hi rendition="#i">causa</hi> gerne an das Bezirksgericht abtreten,
+            und da kommt die hohe Staatsanwaltschaft in Ihrer geschätzten Person zu mir, um mir
+            quasi nahezulegen, in der Voruntersuchung durch die Finger zu sehen. Natürlich! Man kann
+            ja einen Dieb auch so verhören, daß es schließlich den Anschein hat, als habe ihm jemand
+            das gestohlene Gut heimlich in die Tasche gesteckt. Gewiß kann man auch so verhören,
+            aber <stage>Mit mühsam gebändigtem Grimm.</stage> diese Zumutung –!</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>nicht ohne Schärfe.</stage>
+               <p>Herr Rat irren sich! Ich habe nur von <hi rendition="#i">persönlichen</hi> Empfindungen
+            gesprochen.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>stark.</stage>
+               <p>
+                  <hi rendition="#i">Hoffentlich</hi> irre ich mich! Denn andernfalls läge der Versuch vor, an meine
+            richterliche Unabhängigkeit zu tasten, und darin bin ich sehr empfindlich, Herr Collega,
+            sehr empfindlich! <stage>Geieraugen.</stage>
+               </p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>sich erhebend.</stage>
+               <p>Davon kann gewiß nicht die Rede sein.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sich gleichfalls erhebend, unbeugsam.</stage>
+               <p>Ich werde also die Untersuchung, meiner Überzeugung gemäß, so lange in der Richtung des
+            Verbrechens führen, als die Abtretung an das Bezirksgericht nicht rechtskräftig verfügt
+            ist.</p>
+               <pb n="22" facs="#f0014"/>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>knapp.</stage>
+               <p>Selbstverständlich.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit kühler Verbeugung.</stage>
+               <p>Ich habe die Ehre, Herr Collega.</p>
+            </sp>
+            <sp who="#staatsanwalt">
+               <speaker>STAATSANWALT</speaker>
+               <stage>mit vollendeter Höflichkeit.</stage>
+               <p>Ergebenster Diener, Herr Rat.</p>
+               <stage>Der Rat bleibt bei seinem Schreibtisch aufgerichtet stehen, dem Staatsanwalt
+            nachsehend. Dieser verneigt sich noch einmal formell an der Tür. Indessen tritt.</stage>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>mit allen Erregungszeichen eines Zuspätkommenden hinter dem Staatsanwalt durch die
+            Mitteltür des Hintergrundes ein. Er behält die Schnalle der noch offenen Tür in der Hand
+            und läßt den Staatsanwalt, vor dem er sich verbeugt, abgehen, schließt dann die Tür und
+            bleibt, den Blick auf den Rat gerichtet, einige Augenblicke nächst der Tür
+            stehen.</stage>
+               <stage>Doktor Zwirn ist klein, ungefähr sechsundzwanzigjährig und sieht, ohne es zu sein,
+            etwas verwachsen und ungewaschen aus. Er hat schwarzes, gescheiteltes, wolliges
+            Haupthaar und ebensolchen kleinen Schnurrbart. Sein Teint ist gelblich und unrein, seine
+            Hände sind rot und hager. Er trägt Zwicker. Er spricht polnisch-akzentuiertes Deutsch
+            mit starken Anklängen an den jüdischen Jargon. Sein schwarzer Salonrock und die dunkle
+            Hose sind abgetragen. Er hält einen grauen Filzhut in der Hand.</stage>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>mit kleinlautem Unterton.</stage>
+               <p>Guten Tag, Herr Rat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>dienstlich.</stage>
+               <p>Herr Doktor Zwirn, ich teile Ihnen mit, daß ich mich über Sie soeben in aller Form beim
+            Präsidium beschwert habe.</p>
+               <stage>Blättert im Akt.</stage>
+               <pb n="23" facs="#f0015"/>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>treuherzig.</stage>
+               <p>Herr Rat, heute tun Sie mir aber wirklich unrecht.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ohne aufzusehen.</stage>
+               <p>Schon erledigt. Bitte mir übrigens den mir gebührenden Titel <hi rendition="#i">unverkürzt</hi> zu
+            geben!</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>verlegen sich verbessernd.</stage>
+               <p>Pardon: Herr Landesgerichtsrat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Bitte, rufen Sie mir jetzt die Zeugin Marie Dworschak auf! <stage>Da er bemerkt, daß
+              Zwirn unschlüssig steht, unangenehm.</stage> Kann ich Ihnen mit etwas dienen?</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>mit der Erregung des Gekränkten.</stage>
+               <p>Herr Rat – Pardon: Herr Landesgerichtsrat! – jeden Beschuldigten läßt man sich
+            verantworten.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sich zurücklehnend, mit ironischer Resignation.</stage>
+               <p>Ach so, Sie wollen mir eine Geschichte erzählen Bitte! Aber möglichst kurz.</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN.</speaker>
+               <p>Herr Rat, Sie wissen doch, daß ich schon auf dem Land wohn' –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>diabolisch.</stage>
+               <p>Ich weiß es nicht, und es interessiert mich auch nicht.</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN.</speaker>
+               <p>Ich erwähn' das nur, weil ich täglich mit der Bahn hereinfahr' <pb n="24" facs="#f0016"/> in die
+            Stadt und weil mein Zug heute gehabt hat fünfunddreißig Minuten Verspätung. Ein großes
+            Unglück ist passiert! Mein Wort, ich bin noch ganz erschüttert davon.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mißtrauisch, aber mit erwachendem Interesse.</stage>
+               <p>Soo? Was war denn?</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>dramatisch.</stage>
+               <p>In einer Station will aufspringen ein Mann auf den fahrenden Zug, kommt unter die
+            Räder, und beide Füße werden ihm abgeführt. Ich hör' schreien, was sag' ich, brüllen,
+            beug' mich hinaus zum Fenster, und ausgerechnet vor <hi rendition="#i">mir</hi> liegt der Mann im
+            Blut! Ganz schlecht ist mir geworden.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit unterdrückter Erregung, heiser.</stage>
+               <p>Na und? So etwas sieht man doch nicht alle Tage!</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>mit nicht unkomischem Grauen.</stage>
+               <p>Gott behüte!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>kurz und rauh auflachend, dann sofort beherrscht.</stage>
+               <p>Abgesehen davon, daß dem Manne nur recht geschehen ist, da man ja bekanntlich auf
+            fahrende Züge nicht aufspringen <hi rendition="#i">darf</hi>, so ist Menschenblut doch – schön!
+              <stage>Wieder erregter werdend, sich vergessend und mit immer steigender Benommenheit
+              im folgenden.</stage> Ich bin einmal zweiundsiebenzig Stunden hin und zurück nach
+            Paris gefahren, für <hi rendition="#i">einen</hi> Tag, um einer Guillotinierung bei zuwohnen.
+            Jawohl, um entfesseltes <pb n="25" facs="#f0017"/> Menschenblut zu sehen! Das war gewiß der stärkste
+            Eindruck meines Lebens. – Ich habe ja auch bei uns schon Hinrichtungen mitgemacht. Aber
+            das Hängen reicht an das Köpfen bei weitem nicht hinan. Eine Justifikation, der das
+            Pathos des Blutes mangelt, ist nur Surrogat. Erst das vergossene Menschenblut gibt eine
+            Idee von der Größe der Gerechtigkeit. Nur wer Blut sehen kann, hat das Recht, ein
+            Todesurteil zu fällen. Jawohl! – Dazu kommt in Frankreich, daß die Hinrichtungen
+            öffentlich stattfinden. Und das ist recht so. Denn der von unabhängigen, gerechten
+            Richtern verhängte Tod soll keine lichtscheue Beseitigung, sondern ein öffentliches Fest
+            sein, das die beleidigte Rechtsordnung allen, die daran teilzunehmen geeignet sind,
+            veranstaltet. Jawohl! <stage>Geieraugen, die sich höhnisch an dem ratlos betroffenen
+              Gesichte Doktor Zwirns weiden. Dann plötzlich wegwerfend.</stage> Rufen Sie mir jetzt
+            die Zeugin Marie Dworschak herein! <stage>Blickt wieder in die Akten, seine Erregung
+              sichtlich niederkämpfend.</stage>
+               </p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>noch unter dem Eindruck des Gehörten, mit raschen, unsicheren Seitenblicken auf den
+            Rat zur Tür. Er öffnet diese und ruft auf den Gang hinaus.</stage>
+               <p>Zeugin Marie Dworschak!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>blickt ihm mit Kopfhaltung nach und sieht ebenso dem Eintritt der Zeugin
+            entgegen.</stage>
+               <pb n="26" facs="#f0018"/>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>ZEUGIN MARIE DWORSCHAK</speaker>
+               <stage>tritt auf und nickt kurz mit dem Kopf.</stage>
+               <stage>Sie ist über Dreißig, hat blasses, etwas verquollenes Gesicht mit stechenden
+            schwarzen Augen. Ihre Haare sind dunkelblond, die Frisur aufgedonnert. Sie trägt
+            schwarzes Spitzenkopftuch, schwarze Satinbluse, dunkelroten Rock und dunkelblaue kurze
+            Jacke. Im ganzen erweckt sie den Eindruck einer ausrangierten Prostituierten minderster
+            Sorte, ist aber immerhin noch ziemlich hübsch. Sie spricht heiser und mit tschechischem
+            Akzent.</stage>
+               <stage>Der Rat deutet ihr durch eine herrische Handbewegung an, sich auf den Sessel neben
+            seinem Schreibtische zu setzen. Dieser Aufforderung kommt sie mit sichtlichem
+            Widerwillen nach.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>dienstlich-mechanisch.</stage>
+               <p>Sie heißen Marie Dworschak. Ihre Generalien sind bereits im Akt. Sie werden als Zeugin
+            vernommen. Das heißt, daß Sie in allem und jedem, worum ich Sie befragen werde, die
+            volle und reine Wahrheit zu sagen haben. Andernfalls würden Sie das Verbrechen des
+            Betruges begehen. Verstehen Sie mich?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>nickt.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Sind Sie mit dem Beschuldigten Anton Gschmeidler verwandt oder verschwägert?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>beleidigt.</stage>
+               <p>Das wär' <hi rendition="#i">noch</hi> schöner!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>energisch.</stage>
+               <p>Sagen Sie einfach: nein! – Sie sind bereits bei der <pb n="27" facs="#f0019"/> Polizei einvernommen
+            worden. Geben Sie acht, ich werde Ihnen den Sachverhalt, wie er aus Ihrer polizeilichen
+            Aussage hervorgeht, kurz rekapitulieren. <stage>Das Folgende, das er aus den Akten
+              entnimmt, spricht er nicht ohne Genugtuung über die eigene Darstellung.</stage> Sie
+            leben mit dem Zahlkellner Leopold Kritzenberger in gemeinsamem Haushalt und haben mit
+            diesem eine aus Zimmer und Küche bestehende Wohnung im vierten Stocke des Hauses V.
+            Phorusgasse 11 inne. – Anfangs September vorigen Jahres machte Ihr Geliebter in dem
+            Kaffeehaus, besser gesagt, in der Kaffeeschänke, in der er angestellt ist, die
+            Bekanntschaft des Beschuldigten. Er nahm denselben in die Wohnungsgemeinschaft auf,
+            wogegen sich der Beschuldigte verpflichten mußte, Ihnen und Ihrem Geliebten seinen
+            gesamten Verdienst aus der Arbeit während der Strafzeit und seine Pfründe im Betrage von
+            zwanzig Kronen monatlich abzuliefern. Ist das wahr?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>gereizt.</stage>
+               <p>Für nichts kann man solchen Menschen doch nicht füttern!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Antworten Sie anständig! – Außerdem verwendeten Sie den Gschmeidler zu kleinen
+            Verrichtungen in der Wirtschaft wie: zu Botengängen, zum Aufräumen, Schuheputzen
+            usw.</p>
+               <pb n="28" facs="#f0020"/>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Das ist nicht wahr. Nur eigenes Bett hat er aufräumen müssen, nur eigene Schuh' putzen.
+            Bin ich vielleicht Dienstbot' von ihm?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>bös.</stage>
+               <p>Lassen Sie alle Nebenbemerkungen! – Für die genannten materiellen und persönlichen
+            Leistungen erhielt er von Ihnen Wohnung und Verpflegung in Ihrem Haushalte, außerdem von
+            Zeit zu Zeit kleine Geldbeträge.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Alle Wochen hat ihm mein Geliebter ganze Krone gegeben. Das wird doch genug sein!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ungeduldig.</stage>
+               <p>Schön! – Am Vormittag des 22. Jänner dieses Jahres geschah es nun, daß der Beschuldigte
+            zu Ihnen in die Küche kam, wo Sie mit der Zubereitung des Mittagessens befaßt waren. Er
+            trat auf Sie zu und verlangte, angeblich in barschem Tone, etwas zu essen.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Das glaub' ich, daß Ton barsch war!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Unterbrechen Sie mich nicht! – Sie sagten ihm, daß Sie momentan nichts für ihn zu Hause
+            hätten, und wiesen ihn <pb n="29" facs="#f0021"/> an, er solle zum Greisler gehen und sich etwas zum
+            Essen kaufen. Hat er denn Geld gehabt?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Der hat mehr Geld gehabt als wir!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Woher?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Weiß <hi rendition="#i">ich</hi>?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>nach erbostem Blick.</stage>
+               <p>Gleichzeitig ersuchten Sie ihn, Ihnen etwas, dessen Sie zum Kochen benötigten, vom
+            Greisler mitzubringen. Gschmeidler lehnte dies ab und begann, Sie zu beschimpfen.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>mit Rachsucht.</stage>
+               <p>Und <hi rendition="#i">wie</hi> er g'schimpft hat!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Da Sie mit dem Gschmeidler allein in der Wohnung waren und sich angeblich vor ihm
+            fürchteten, ließen Sie sich in keinen Streit mit ihm ein. Wieso hatten Sie übrigens
+            Furcht vor ihm?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Und <hi rendition="#i">ob</hi> ich Furcht gehabt hab'! Hat dieser Gschmeidler schon drei Tage
+            vorher zur Partei <hi rendition="#i">vis-à-vis</hi> gesagt, daß er mich umbringen wird!</p>
+               <pb n="30" facs="#f0022"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>So? Das ist neu. Wie heißt die Partei?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>eifrig.</stage>
+               <p>Frau Amalia Hansel, Witwe nach Gendarmeriewachtmeister.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Notieren Sie das, Herr Schriftführer. Die Frau werden wir vorladen.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>wie oben.</stage>
+               <p>Ja, ja, ja! Laden S' nur vor!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>nach einem längeren Blick in die Akten.</stage>
+               <p>Sie kehrten sich also an die Schimpfreden des Gschmeidler nicht, sondern setzten
+            zunächst Ihre Arbeit fort. Dann verabreichten Sie der Katze das Futter. Worin bestand
+            dieses Futter?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>mit scheinheiliger Freundlichkeit.</stage>
+               <p>Na, was halt Katzerl frißt: bissel Milch, bissel kalte Mehlspeis', was unsereins stehen
+            laßt.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Sie fütterten also die Katze und knieten zu diesem Behufe auf dem Fußboden der Küche
+            nieder. Dabei wendeten Sie dem Gschmeidler den Rücken. Dieser hatte sich inzwischen
+            scheinbar beruhigt. Da hörten Sie plötzlich, wie sein Atem <pb n="31" facs="#f0023"/> in ein heftiges
+            Schnaufen überging. Sie waren im Begriffe, sich nach ihm umzuwenden, Sie vernahmen noch,
+            daß er mit heiserer Stimme die Worte: »Jetzt bring' ich dich um, du Luder!« keuchte, Sie
+            wollten aufspringen – erhielten jedoch im nächsten Momente mehrere wuchtige Schläge mit
+            einem harten Gegenstande auf den Kopf.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>die die Darstellung mit lebhaften Gesten begleitet hat, aufgeregt.</stage>
+               <p>Mit Fleischschlägel, Herr Gerichtshof, mit Fleischschlägel!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>abwinkend.</stage>
+               <p>Sie verloren im ersten Augenblicke das Bewußtsein, kamen jedoch alsbald wieder zu sich,
+            sahen den Gschmeidler über Sie hingebeugt, nahmen Ihre Kräfte zusammen und liefen mit
+            Hilferufen auf den Gang. – Soweit Ihre Aussage bei der Polizei. Halten Sie dieselbe
+            aufrecht?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>eifrig.</stage>
+               <p>Wahr! Alles wahr!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Herr Schriftführer, schreiben Sie: Die Zeugin hält ihre polizeiliche Aussage
+            vollinhaltlich aufrecht und gibt über Befragen an – <stage>Nach einem Moment des
+              Nachdenkens.</stage> Sie Dworschak, haben Sie das Gefühl gehabt, daß Sie der
+            Beschuldigte umbringen wollte?</p>
+               <pb n="32" facs="#f0024"/>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>gereizt.</stage>
+               <p>Na, was <hi rendition="#i">denn</hi>? Wenn er schon drei Tage vorher zu Partei –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ungeduldig.</stage>
+               <p>Ja, schön! – Sagen Sie mir, wie sind Sie, respektive Ihr Geliebter in den ersten drei
+            Wochen Ihres Beisammenwohnens mit dem Gschmeidler ausgekommen?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>falsch.</stage>
+               <p>Wie Kind im Haus war er bei uns in erster Zeit!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Wann hat sich sein Benehmen geändert?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Viel später.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Das heißt: in den letzten vier Tagen vor der Tar. Nicht?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>ausweichend.</stage>
+               <p>Seitdem halt Streit war mit meinem Geliebten.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Wann und warum hat der Beschuldigte mit Ihrem Geliebten Streit gehabt?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>lauernd, verschlossen.</stage>
+               <p>Weiß <hi rendition="#i">ich</hi>?</p>
+               <pb n="33" facs="#f0025"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit ironischem Erstaunen.</stage>
+               <p>So? Das wissen Sie nicht? – Na, dann werde <hi rendition="#i">ich</hi> es Ihnen später sagen. Sie
+            Dworschak, in Ihrer Aussage befindet sich nämlich irgend ein Haken. Unterbrechen Sie
+            mich nicht! – Irgend etwas stimmt da nicht. Wenn es tatsächlich wahr wäre, daß Sie der
+            Gschmeidler nur deswegen, weil Sie ihn zum Greisler schickten und weil Sie momentan
+            nichts für ihn zu essen hatten, zu ermorden versuchte – <hi rendition="#i">wenn</hi> dies, wie
+            gesagt, wahr wäre, dann hätten wir es mit der Tat eines Irrsinnigen zu tun <stage>Mit
+              lauernder Beobachtung.</stage> und müßten den Gschmeidler, anstatt ihn zu bestrafen,
+            in ein Narrenhaus stecken. Haben Sie Anzeichen von Irrsinn an ihm bemerkt?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>aufgebracht.</stage>
+               <p>Ja freilich irrsinnig! Böser, rabiater Mensch ist er!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Hat er getrunken? War er an dem Tage der Tat betrunken?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Woher soll er denn getrunken haben? War doch nicht außer Haus. Hat ganz gut gewußt, was
+            er tut.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Protokollieren Sie, Herr Schriftführer: Der Beschuldigte war am kritischen Tage
+            nüchtern. – Sie sagen, der <pb n="34" facs="#f0026"/> Beschuldigte sei in den ersten drei Wochen
+            verträglich gewesen und erst infolge eines Streites mit Ihrem Geliebten »rabiat«
+            geworden. Fiel dieser Streit vielleicht nach einer Nacht vor, die Ihr Geliebter nicht zu
+            Hause verbracht hatte?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>verschlossen.</stage>
+               <p>Das weiß ich nicht. Mein Geliebter hat jeden zweiten Tag Nachtdienst und kommt erst um
+            sieben Uhr früh nach Hause.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Aber es ist <hi rendition="#i">möglich</hi>, daß der bewußte Streit nach einer solchen Nacht, die
+            Ihr Geliebter nicht zu Hause verbrachte, vorfiel! Ich erinnere Sie nochmals an Ihre
+            Pflicht, die Wahrheit zu sagen.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>unwirsch.</stage>
+               <p>Möglich ist schon.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>befriedigt.</stage>
+               <p>Aha! <stage>Geieraugen.</stage> Und was geschah in dieser Nacht?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>unwillig.</stage>
+               <p>Was soll denn g'schehn sein? Geschlafen haben wir.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Wer »wir«?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>nachäffend.</stage>
+               <p>Wer »wir«? <stage>Losbrechend.</stage> Ich und Gschmeidler!</p>
+               <pb n="35" facs="#f0027"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Wo haben Sie und wo hat der Gschmeidler geschlafen?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Ich im Bett und Gschmeidler auf Strohsack.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Im selben Zimmer?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Natürlich im selben Zimmer. Wir haben doch nur <hi rendition="#i">ein</hi> Zimmer.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>scharf.</stage>
+               <p>Sie Dworschak, antworten Sie anständig!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>macht unwillige Bewegungen der unterdrückten Wut.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>Geieraugen.</stage>
+               <p>Da konnte also der Gschmeidler genau beobachten, was im Zimmer vorging.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>kurz.</stage>
+               <p>
+                  <hi rendition="#i">War</hi> nichts zum Beobachten.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>eindringlich, unwidersprechbar.</stage>
+               <p>Sie sollen in jener Nacht einen fremden Menschen bei sich im – Zimmer gehabt haben.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>aufgebracht.</stage>
+               <p>Das ist nicht wahr!</p>
+               <pb n="36" facs="#f0028"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ruhig.</stage>
+               <p>Der Gschmeidler hat alles deutlich gehört und gesehen.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK.</speaker>
+               <p>Was so ein alter Verbrecher lügt, muß nicht wahr sein!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>beinahe demütig.</stage>
+               <p>Es ist durch die Hausmeisterin, die ich als Zeugin vernommen habe, erwiesen, daß Sie
+            einige Tage vor der Tat um zwölf Uhr nachts mit einem fremden Menschen in Ihre Wohnung
+            gingen, und weiter erwiesen, daß derselbe fremde Mensch um vier Uhr früh das Haus,
+            respektive Ihre Wohnung verlassen hat.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>schon schwankend, aber noch frech.</stage>
+               <p>Ah, Leute reden gar viel im Haus.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ruhig.</stage>
+               <p>Die Hausmeisterin hat als <hi rendition="#i">Zeugin</hi> vor Gericht ausgesagt. Wenn Sie also
+            nicht behaupten wollen, daß sie falsch ausgesagt und dadurch das Verbrechen des
+            Meineides begangen habe, dann geben Sie diesen Umstand ruhig zu.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>gehässig.</stage>
+               <p>Ich weiß nicht, bin ich Zeugin oder Angeklagte?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sachlich.</stage>
+               <p>Sie sind Zeugin. Und deshalb haben Sie auch die Pflicht die volle und reine Wahrheit
+            auszusagen. Sie dürfen aber <pb n="37" facs="#f0029"/> auch nichts verschweigen, was Ihnen bekannt
+            ist. Nur in dem Falle, daß Ihnen die Aussage strafgerichtliche Verfolgung oder Schande
+            zuziehen könnte, haben Sie das Recht, dieselbe zu verweigern –</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>triumphierend.</stage>
+               <p>Ich verweigere die Aussage!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit höhnischer Überlegenheit fortfahrend, stark.</stage>
+               <p>Das ist aber hier nicht der Fall. Denn: da Sie mit dem Kritzenberger nicht verheiratet
+            sind, so begründet eine Untreue gegen ihn nicht die Übertretung des Ehebruches, kann
+            Ihnen daher auch nicht strafgerichtliche Verfolgung zuziehen. Da Sie ferner, wie erhoben
+            ist, vor Ihrem Verhältnisse mit dem Kritzenberger Prostituierte und daher an den
+            gleichzeitigen Umgang mit mehreren Männern gewöhnt waren, so kann Ihnen nicht zugemutet
+            werden, daß Sie einen gelegentlichen Rückfall in Ihre früheren Gewohnheiten als Schande
+            empfinden. <stage>Plötzlich mit Gewalt.</stage> Antworten Sie mir daher, hatten Sie in
+            der bewußten Nacht einen fremden Menschen bei sich oder nicht?!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>unwirsch.</stage>
+               <p>Es war kein fremder Mensch.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Also ein Bekannter aus Ihrer früheren Praxis! <stage>Zynisch lächelnd.</stage>
+                  <pb n="38" facs="#f0030"/> Das kommt auf's selbe heraus. Jedenfalls war es ein anderer Mann als Ihr
+            Geliebter. Protokollieren Sie das, Herr Schriftführer! – Sie Dworschak, ich habe Sie um
+            diese Umstände nicht deshalb befragt, weil Ihnen das Gericht aus Ihrer Handlungsweise
+            etwa einen Vorwurf machen wollte. Im Gegenteil, das Gericht hat nicht die Absicht, Ihr
+            Vergnügen zu stören. Wohl aber konnte der Beschuldigte, der Sie vielleicht bis zu jener
+            Nacht für eine anständige Person gehalten haben <hi rendition="#i">mag</hi>, durch jenen Vorfall,
+            dessen Zeuge er sein mußte, auf den Gedanken gekommen sein, etwas von Ihnen zu wollen,
+            was Sie außer Ihrem Geliebten auch einem anderen Manne gewährten. Das wäre nur
+            menschlich. Ich frage Sie daher: war der Beschuldigte nach jener Nacht eifersüchtig?
+            Oder hat er Ihnen vielleicht sogar Anträge gemacht, die darauf ausgingen, Sie
+              <hi rendition="#i">so</hi> zu besitzen, wie Sie in seiner Gegenwart vermutlich besessen worden
+              <hi rendition="#i">sind</hi>?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>schweigt mit allen Anzeichen starker Erregung.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>aufbrausend.</stage>
+               <p>Darüber <hi rendition="#i">müssen</hi> Sie mir Auskunft geben! Jetzt ist meine Geduld zu
+            Ende!!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>heiser.</stage>
+               <p>So alten Kerl möcht' ich gar nicht anrühren!</p>
+               <pb n="39" facs="#f0031"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>Geieraugen.</stage>
+               <p>Das ist eine andere Sache. Ich frage Sie nochmals –</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>losbrechend.</stage>
+               <p>Wenn dieser alte Vagabund, dieser Zuchthäusler, dieser abgestrafte Falott vielleicht
+            gesagt hat –! <stage>Hält keuchend inne.</stage>
+               </p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sich im Sessel hoch aufrichtend, Geieraugen zwingend.</stage>
+               <p>Nun?!!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>außer sich, schreiend.</stage>
+               <p>Ich bin anständige Person! Ich hab' niemand Anträge gemacht! – Was gewesen ist, ist
+            vorbei! Jetzt bin ich anständige Person. Seit drei Jahren bin ich treu meinem Geliebten.
+            Nur <hi rendition="#i">einmal</hi>, ausnahmsweise, ist was passiert! Kann mir kein Mensch was
+            nachsagen. Geht niemand was an! <stage>Mit Klassenhaß.</stage> Wenn armes Mädel Kind
+            kriegt, muß Geld nehmen, wo's liegt! Kann's nicht verhungern lassen! Und wenn auf
+            Straßen gehn muß! <stage>Mit weinerlicher Wut.</stage> Kann's nicht verhungern lassen!
+            Kann's nicht verhungern lassen! <stage>Schluchzt ein paarmal kurz auf, dann wieder
+              rauh.</stage> Und niemand mach' ich Anträge!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>dessen Gesicht während des Ausbruches der Zeugin allmählich einen höhnischen
+            Ausdruck angenommen hat, mit diabolischer Freundlichkeit.</stage>
+               <p>Regen Sie sich nur nicht auf, Dworschak. Ich habe Sie nicht gefragt, ob
+              <hi rendition="#i">Sie</hi> dem Gschmeidler, sondern ob der <pb n="40" facs="#f0032"/> Gschmeidler
+              <hi rendition="#i">Ihnen</hi> Anträge gemacht hat. Nur das letztere interessiert das Gericht. Für
+            das indirekte Geständnis, daß <hi rendition="#i">Sie</hi> der aggressive Teil waren, haben wir
+            keine Verwendung.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>erbost schreiend.</stage>
+               <p>
+                  <hi rendition="#i">Wer</hi> war agrestiver Teil? Ich? Ich bin anständige Person!! Er war
+            agrestiver Teil! Nicht ich! Er war!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>wieder aufgerichtet.</stage>
+               <p>Also <hi rendition="#i">doch</hi> er?! Erzählen Sie davon!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>innerlich arbeitend.</stage>
+               <p>Jetzt werd' ich alles erzähl'n. Wie's war, werd' ich sagen. Nichts als die Wahrheit
+            werd' ich sagen –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ungeduldig ermutigend.</stage>
+               <p>Na also!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>unsicher aber immer sicherer werdend.</stage>
+               <p>Wie fremder Gast weg war – um vier Uhr früh – ist Gschmeidler zu meinem Bett kommen und
+            hat g'sagt – <stage>Sie stockt und sieht zu Boden.</stage>
+               </p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Nun?!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>wieder unsicher.</stage>
+               <p>Alles wird er meinem Geliebten sagen, hat er g'sagt, wenn – <stage>Einen Moment
+              zögernd, dann mit Entschluß.</stage> wenn ich ihm nicht auch –</p>
+               <pb n="41" facs="#f0033"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>scheinfreundlich.</stage>
+               <p>Was? – Na, genieren Sie sich nicht!</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>sich selbst betäubend.</stage>
+               <p>Ah, <hi rendition="#i">ich</hi> genier' mich nicht. Was brauch <hi rendition="#i">ich</hi> mich genieren? Ich
+            hab' ihm nicht Antrag gemacht! <stage>Mit Selbstaufmunterung.</stage> Er hat
+              <hi rendition="#i">mir</hi> Antrag gemacht!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Nun, das wäre schon kein Antrag mehr, das wäre Erpressung gewesen –</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>sich daran klammernd.</stage>
+               <p>Natürlich, Erpressung! Erpressung, natürlich, natürlich!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>lauernd.</stage>
+               <p>Wenn es – nur wahr ist, Sie Dworschak! <stage>Er faßt sie durchdringend ins
+              Auge.</stage>
+               </p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>unter seinem Blick hilflos.</stage>
+               <p>Warum soll denn <hi rendition="#i">nicht</hi> wahr sein?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit tiefer Stimme.</stage>
+               <p>Sie Dworschak, kann ich das, was Sie jetzt über den Gschmeidler gesagt haben,
+            protokollieren lassen? Überlegen Sie sich's gut! Denn wenn es Ihnen vielleicht auch die
+            irdische Gerechtigkeit nicht nachweisen können sollte, falls Sie gelogen haben,
+              <stage>Mit wohlberechnetem Pathos.</stage> es ist ein Gott im Himmel! An den glauben
+            Sie doch, Dworschak! Nicht?</p>
+               <pb n="42" facs="#f0034"/>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>kleinmütig.</stage>
+               <p>O ja! Wenn eins so viel mitgemacht hat –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>väterlich.</stage>
+               <p>Bleiben Sie also dabei, daß Ihnen der Beschuldigte nach den Vorgängen der bewußten
+            Nacht die angegebenen Anträge gemacht hat? Ja oder nein?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>nach einigem Kampf, beteuernd.</stage>
+               <p>Aber ja, aber ja!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>rasch.</stage>
+               <p>Waren Sie diesen Anträgen gefügig?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>wegwerfend.</stage>
+               <p>Ah, wo <hi rendition="#i">werd'</hi> ich!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Hat Sie der Beschuldigte daraufhin bei Ihrem Geliebten verklagt?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>bösartig, auflachend.</stage>
+               <p>Hat verklagen <hi rendition="#i">wollen</hi>! Hat ihm mein Geliebter aber gleich Ohrfeigen
+            geben!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit diabolischem Lächeln.</stage>
+               <p>So? – Ihre Aussage resümiert sich also dahin: Sie haben <hi rendition="#i">vor</hi> der Tat an dem
+            Beschuldigten keinerlei Anzeichen eines abnormalen Geisteszustandes bemerkt. Hingegen
+            hat sich derselbe zu einer Frau im Hause verlauten<pb n="43" facs="#f0035"/> lassen, daß er Sie noch
+            einmal umbringen werde. Am Tage der Tat war der Beschuldigte vollkommen nüchtern. Der
+            Anlaß war der mehrfach erwähnte Streit, den Sie konform mit Ihrer Aussage bei der
+            Polizei schildern. Sie geben zu, daß Sie in der bewußten Nacht einen fremden Mann bei
+            sich gehabt haben, und behaupten, daß nach Entfernung dieses Mannes der Beschuldigte
+            Ihnen erpresserische Anträge in einer gewissen Richtung gestellt hat. Haben Sie sonst
+            noch etwas anzugeben?</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>zuckt die Achseln.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Also nein. Haben Sie alles protokolliert, Herr Schriftführer?</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>schreibend.</stage>
+               <p>Gleich, Herr Rat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>nachdem Doktor Zwirn fertig geschrieben hat.</stage>
+               <p>Lesen Sie sich das Protokoll durch, Dworschak, und unterschreiben Sie es! Dann können
+            Sie gehen. <stage>Er lehnt sich in seinen Sessel zurück und versinkt in
+              Nachdenken.</stage>
+               </p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>geht zum Schriftführer hinüber, liest das Protokoll und unterschreibt es. Dann
+            steht sie zögernd da und sieht den Rat an.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>barsch.</stage>
+               <p>Wollen Sie noch etwas?</p>
+               <pb n="44" facs="#f0036"/>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>schweigt, dann gibt sie sich einen Ruck und sagt sehr freundlich.</stage>
+               <p>Küss' die Hand, Herr kaiserlicher Rat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit höhnischem Lächeln.</stage>
+               <p>Adieu.</p>
+            </sp>
+            <sp who="#dworschak">
+               <speaker>DWORSCHAK</speaker>
+               <stage>ab.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>erhebt sich und geht in mißvergnügtem Nachdenken auf und ab.</stage>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>der sich gleichfalls erhoben hat, bescheiden, aber bestimmt.</stage>
+               <p>Herr Rat –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>in Gedanken, ungern gestört.</stage>
+               <p>Bitte?</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN.</speaker>
+               <p>Glauben Sie, daß das wahr ist, was die Zeugin gesagt hat?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>unangenehm berührt.</stage>
+               <p>Was?</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN.</speaker>
+               <p>Na, das.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>geärgert.</stage>
+               <p>Drücken Sie sich gefälligst etwas präziser aus!</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN.</speaker>
+               <p>So ein alter Mann wie der Beschuldigte wird doch der jungen Person keine Anträge
+            machen.</p>
+               <pb n="45" facs="#f0037"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>überlegen, abweisend.</stage>
+               <p>Sie kennen das Leben nicht, junger Mann! – Übrigens wird es Sache der öffentlichen
+            Verhandlung sein, darüber Klarheit zu schaffen. In ihr wird die Zeugin Gelegenheit
+            haben, ihre Aussage zu wiederholen oder zu widerrufen.</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>hartnäckig.</stage>
+               <p>Bis dahin hat sie sich aber möglicherweise an die Lüge gewöhnt und bringt sie ganz
+            anders vor als bei uns. <hi rendition="#i">Wir</hi> haben sehen können, wie sie hat mit sich
+            gekämpft, wie der Verdacht, daß <hi rendition="#i">sie</hi> dem Beschuldigten Anträge gemacht haben
+            könnte, ihr weibliches Ehrgefühl verletzt und den Gedanken erzeugt hat, das Umgekehrte
+            zu behaupten. <hi rendition="#i">Wir</hi> haben das gesehen, aber der Gerichtshof und die
+            Geschworenen werden das wahrscheinlich nicht sehen! Hab' ich recht?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mißgünstig.</stage>
+               <p>Herr Doktor Zwirn – Ihre Bemerkungen mögen an sich sehr lichtvoll sein, heben Sie sich
+            aber Ihre Beredsamkeit für die Zeit auf, wo Sie Verteidiger sein werden.
+              <stage>Höhnisch.</stage> Das werden Sie doch, nicht?</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>familiär.</stage>
+               <p>Kann auch sein, daß ich eintret' in das Geschäft von meinem Vater.</p>
+               <pb n="46" facs="#f0038"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit ironischer Gemütlichkeit.</stage>
+               <p>Na, wie Sie wollen. Rufen Sie mir jetzt den Zeugen Leopold Kritzenberger! <stage>Blickt
+              ihm, der nach stummer Verbeugung zur Tür im Hintergrund geht, mit gehässiger
+              Kopfhaltung nach.</stage>
+               </p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>auf den Gang rufend.</stage>
+               <p>Zeuge Leopold Kritzenberger!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>ZEUGE LEOPOLD KRITZENBERGER</speaker>
+               <stage>tritt auf.</stage>
+               <stage>Er ist gegen Vierzig. Fahles, übernächtiges Gesicht mit großem rotblondem
+            Schnurrbart. Dunkles, gescheiteltes Haar. Niedere Stirn, rotgeränderte ausdruckslose
+            Augen. Er trägt unsauberen Smokinganzug mit schmutzigem weichem Vorhemd. Darüber
+            schäbigen, kurzen, gelben Überzieher und dazu grünen Steirerhut mit Gamsbart.</stage>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>kellnermäßig.</stage>
+               <p>Guten Morgen, habe die Ehre, die Herrn!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>barsch.</stage>
+               <p>Setzen Sie sich!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER.</speaker>
+               <p>Bin so frei. <stage>Setzt sich.</stage>
+               </p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Sie werden als Zeuge vernommen, haben daher die volle und reine Wahrheit zu sagen.
+            Verstehen Sie?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>hochdeutsch.</stage>
+               <p>Ich sage immer die Wahrheit. Das ist mein Prinzip.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sarkastisch.</stage>
+               <p>Um so besser. Bei der Tat selbst waren Sie nicht anwesend, <pb n="47" facs="#f0039"/> können über
+            dieselbe daher nichts aussagen. Sie werden lediglich darüber befragt werden, ob Ihnen
+              <hi rendition="#i">vor</hi> der Tat an dem Beschuldigten Anzeichen einer geistigen Störung
+            aufgefallen sind.</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>wichtig.</stage>
+               <p>Aus dessen Grunde glaube ich, Herr kaiserlicher Rat, daß der Mensch verrückt gewesen
+            sein muß, weil ein vernünftiger Charakter so etwas nicht tut.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>geärgert.</stage>
+               <p>Ich frage Sie nicht, was Sie <hi rendition="#i">glauben</hi>, sondern, ob Sie etwas beobachtet
+            haben.</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>verständnislos.</stage>
+               <p>Alsdann, Herr kaiserlicher Rat, ich muß vorausschicken, daß der Gschmeidler überhaupt
+            ein rabiater Mensch ist. Er hat sich in meiner Anwesenheit erfrecht, meine Frau –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>außer sich.</stage>
+               <p>Es ist zum Verzweifeln! – <stage>Wieder gefaßt.</stage> Sie, schwätzen Sie nicht herum!
+            Ich frage Sie nochmals: haben Sie <hi rendition="#i">vor</hi> der Tat irgendwelche Zeichen einer
+            Geistesstörung, Verrücktheit oder überhaupt ein außergewöhnliches Betragen des
+            Beschuldigten bemerkt? Ja oder nein?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>eingeschüchtert.</stage>
+               <p>Vor der Tat? – Nein.</p>
+               <pb n="48" facs="#f0040"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Ist der Gschmeidler ein Trinker?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER.</speaker>
+               <p>Hier und da wird er sich schon a Vierterl g'kauft haben.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>nach verzweifeltem Seufzer.</stage>
+               <p>Haben Sie ihn jemals betrunken gesehen?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER.</speaker>
+               <p>Ist mir nicht aufgefallen.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Hat er sich vielleicht am Tage vor der Tat betrunken?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>gemütlich.</stage>
+               <p>Aber da san mir ja bis zirka elfe Nacht beieinander g'sessen und haben tarokiert in der
+            Kuchel!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Sie sollen aber einige Tage vor der Tat mit dem Gschmeidler einen Streit gehabt haben.
+            Warum und wie ist es dazu gekommen?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>ausholend.</stage>
+               <p>Das hat sich folgendermaßen abgespielt, Herr kaiserlicher Rat: ich komm' in der Früh um
+            zirka achte aus meinem Nachtdienst nach Hause. Da hör ich auf dem Gang vor meiner
+            Wohnung in der Küche drinnen meine Frau schreien. »Ich lass' mir das nicht gefallen!«
+            hör' ich s' schreien. Ich sperr' die Wohnungstür <pb n="49" facs="#f0041"/> auf, und wie mich die
+            beiden ansichtig werden, sind s' auf'm Fleck still. Ich frag' meine Frau, sie gibt mir
+            keine Antwort, ich frag' den Beschuldigten, er gibt mir keine Antwort. Mir ist das zu
+            dumm, und ich schrei' den Gschmeidler an, was er mit meiner Frau herumzustreiten hat.
+            Herr kaiserlicher Rat, da is Ihna dieser Mensch rot word'n wie a Piperhahn, und wissen
+            S', was er g'sagt hat? – »Sie möchten auch eine bessere Frau verdienen, als dös
+            Luder!«</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>boshaft belustigt.</stage>
+               <p>Na also, das ist ja sehr schmeichelhaft für Sie.</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER.</speaker>
+               <p>Aber nicht für meine Frau! Na, ich hab' ihm aber auch gleich eine g'schmiert,
+            entschuldigen schon.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Und haben Sie sich darüber keine Gedanken gemacht, wieso der Gschmeidler dazu kommen
+            konnte, Ihre Geliebte so zu beschimpfen?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>ritterlich.</stage>
+               <p>Da gibt's doch nix zum Gedanken machen! Jeder Mann in meiner Lage hätte so
+            gehandelt.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>vieldeutig.</stage>
+               <p>Immerhin waren Sie doch die Nacht vor diesem Auftritte nicht zu Hause gewesen!</p>
+               <pb n="50" facs="#f0042"/>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER.</speaker>
+               <p>Das versteh' ich nicht.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>boshaft.</stage>
+               <p>Um so besser für Sie. <stage>Ablenkend.</stage> Sagen Sie mir –</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>stutzig.</stage>
+               <p>Meine Frau ist eine anständige Frau!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Wie man's nimmt. – Sagen Sie mir, haben Sie bemerkt, daß sich der Gschmeidler um
+            Frauenzimmer gekümmert hat?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>nicht bei der Sache.</stage>
+               <p>Das weiß ich nicht.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Haben Sie vielleicht bemerkt, daß er die Dworschak irgendwie angesehen hat, als ob er
+            etwas von ihr gewollt hätte? Sie verstehen mich.</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>plötzlich angstvoll.</stage>
+               <p>Herr kaiserlicher Rat, wenn Sie vielleicht was wissen –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>auflachend.</stage>
+               <p>Sehr gut! Sie wollen das Gericht als Auskunftsbureau benützen!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>losbrechend.</stage>
+               <p>Wenn leicht der Gschmeidler, dieser Hund –!</p>
+               <pb n="51" facs="#f0043"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sich aufrichtend.</stage>
+               <p>Ruhig!! Sie sind bei Gericht!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>unbeirrt.</stage>
+               <p>Wenn der leicht behauptet, daß er mit meiner Frau was g'habt hat –!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Niemand hat das behauptet! Oder hat Ihnen die Dworschak dergleichen erzählt?!
+              <stage>Geieraugen.</stage>
+               </p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>niedergeschmettert.</stage>
+               <p>
+                  <hi rendition="#i">Mir</hi> hat s' nix erzählt! – Da steckt was dahinter!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sich weidend.</stage>
+               <p>Gewiß steckt etwas dahinter. Aber das geht Sie nichts an.</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>flehentlich.</stage>
+               <p>Herr kaiserlicher Rat, wenn Sie vielleicht was wissen –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Sie sind nicht vorgeladen worden, um das Gericht zu befragen, sondern um vom Gericht
+            befragt zu werden. Aber Sie wissen nichts oder wollen nichts wissen. Habe ich auch nicht
+            anders erwartet.</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>wild.</stage>
+               <p>Gut. So wer i mi selber derkundigern! Und wenn i was derfahr', dann kann sich der alte
+            Zuchthäusler anschaun – und das Mensch a!</p>
+               <pb n="52" facs="#f0044"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Werden Sie sich anständig benehmen!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>unbeirrt.</stage>
+               <p>Mir is alles wurscht! Aber i derfahr's! <stage>Schmerzlich gesenkt.</stage> I
+            derfahr's! <stage>Plötzlich wieder demütig, außer sich.</stage> Herr kaiserlicher Rat –
+            ich bitt' Ihnen um Gottes willen – i kenn' mi nimmer aus – i waß net, was i tua!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>angeekelt.</stage>
+               <p>Spielen Sie keine Komödie!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>schluchzend.</stage>
+               <p>Wann mir die Marie net treu is – was hab' i denn dann auf der Welt? – Für wem plag' i
+            mi dann –?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Pfui Teufel! Wie ein Weib sind Sie! <stage>Sich abwendend.</stage> Herr Schriftführer,
+            schreiben Sie: Der Zeuge gibt an, daß er vor der Tat keinerlei Anzeichen einer
+            Geistesstörung an dem Beschuldigten bemerkt habe. Derselbe sei auch kein Trinker gewesen
+            und habe sich insbesondere am Abend vor der Tat nicht betrunken. Der Zeuge hat nicht
+            bemerkt, daß der Beschuldigte es auf die Dworschak abgesehen gehabt habe, auch habe ihm
+            dieselbe keine diesbezüglichen Mitteilungen gemacht. <stage>Zum Zeugen barsch.</stage>
+            Sie haben gehört, was ich diktiert habe. Wenn Sie damit einverstanden sind,
+            unterschreiben Sie das Protokoll!</p>
+               <pb n="53" facs="#f0045"/>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>rührt sich nicht.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>gereizt.</stage>
+               <p>Herr Doktor, lesen Sie ihm das Protokoll vor!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>trotzig.</stage>
+               <p>I will nix vorg'lesen und i unterschreib' a nix.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>gleichmütig.</stage>
+               <p>Schön. Herr Doktor, schreiben Sie: Der Zeuge verweigert die Anhörung des Protokolls und
+            die Unterschrift. – Sie können schon gehen, Kritzenberger.</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>aufgestanden.</stage>
+               <p>Aber jetzt möcht' i mei Zeugengebühr!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>scheinbar darauf eingehend.</stage>
+               <p>Wie groß ist Ihr Anspruch?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>versöhnter.</stage>
+               <p>Drei Kronen verlier' ich am Vormittag.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Also drei Kronen. <stage>Als wenn es ihm erst jetzt einfiele.</stage> Übrigens, stehen
+            Sie denn als Zahlkellner im Tag- oder Wochenlohn?</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER.</speaker>
+               <p>Nein, aber meinen Schaden hab' ich doch!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>schadenfroh, brutal.</stage>
+               <p>Das Gesetz gewährt aber nur jenen einen Anspruch auf <pb n="54" facs="#f0046"/> Zeugengebühr, die im
+            Tag- oder Wochenlohn stehn. Empfehle mich!</p>
+            </sp>
+            <sp who="#kritzenberger">
+               <speaker>KRITZENBERGER</speaker>
+               <stage>grimmig in sich hineinmurmelnd, mit gehässigem Blick ohne Gruß ab.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ihm erst mit Kopfhaltung nachblickend, dann sich vergessend.</stage>
+               <p>Mit solchen Subjekten muß man sich an <hi rendition="#i">einen</hi> Tisch setzen!</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>begütigend.</stage>
+               <p>Ein armer Teufel, Herr Rat –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>abschneidend.</stage>
+               <p>Herr Doktor, ich danke für Privatgespräche. <stage>Telephoniert.</stage>
+            Vorführzimmer!! – Vorführen auf Abteilung siebenundsechzig den Anton Gschmeidler von
+            Zelle einundachtzig! Aber rasch!!</p>
+               <stage>Pause. Der Rat lehnt sich in seinem Sessel zurück. Doktor Zwirn schreibt. Nach
+            Verlauf von zirka einer Minute hört man vom Gange her schwere Schritte und das Klirren
+            eine Schlüsselbundes. Dann wird die Tür energisch aufgemacht, und der
+            Beschuldigte.</stage>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>ANTON GSCHMEIDLER</speaker>
+               <stage>tritt in Begleitung eines Justizsoldaten ein. Er steht an der Tür unschlüssig und
+            niedergeschlagen. Der Justizsoldat entfernt sich nach militärischem Strammstehn und
+            Gruß.</stage>
+               <stage>Anton Gschmeidler ist mittelgroß, schmächtig, etwas gebeugt in seiner Haltung.
+            Gutes, altes österreichisches Gesicht. Kurzgeschorene grauweiße Haare, Kinn und Wangen
+            voll langer weißer Bartstoppel, Schnurrbart nach abwärts, wirr und weiß. Sieht aus wie
+            ein alter Einspännerkutscher. Trägt abgetragenen Anzug von undefinierbarer Farbe und
+            weder Krawatte noch Hemdkragen.</stage>
+               <pb n="55" facs="#f0047"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit Handbewegung.</stage>
+               <p>Dahersetzen! <stage>Rasch aus dem Akt.</stage> Sie heißen Anton Gschmeidler, sind 51
+            Jahre alt, katholisch, ledig, in Wien geboren und zuständig.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>nickend.</stage>
+               <p>Jawohl.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Sie sind vorbestraft und zwar wegen Mordes, begangen an dem Schlossermeister Gustav
+            Wuck. – Nachdem Ihnen anläßlich der Amnestie der Rest Ihrer lebenslänglichen
+            Kerkerstrafe nachgesehen wurde, haben Sie zuletzt bei dem Zahlkellner Leopold
+            Kritzenberger und dessen Konkubine als Bettgeher gewohnt. Wie haben Sie diese Leute
+            kennengelernt?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>freundlich.</stage>
+               <p>Ganz durch Zufall. – Ich hab' den Kritzenberger in seinem Kaffeehaus kennengelernt, wo
+            er Marqueur ist. Er ist mir gleich gut zu G'sicht gestanden. Da hab' ich ihm halt alles
+            erzählt, wer ich bin und woher ich komm' und daß ich halt gar keinen Unterstand hab'. Da
+            hat er mich gleich eing'laden, daß ich bei ihm und seiner Frau wohn'. Na, ich war damals
+            froh, daß ich so einen guten Menschen gefunden hab'.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>boshaft.</stage>
+               <p>Die Einladung bestand darin, daß Sie dem Kritzenberger <pb n="56" facs="#f0048"/> alles, was Sie an
+            barem Gelde besaßen, abliefern und sich verpflichten mußten, auch Ihre monatliche
+            Pfründe von zwanzig Kronen an ihn abzuführen. Also gar so weit her war es mit der Güte
+            dieses Menschen nicht.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>mild.</stage>
+               <p>Na ja, das stimmt schon. Aber dafür hab' ich doch auch mein Wohnen gehabt und mein
+            Essen. Wer nimmt denn gleich einen entlassenen Sträfling ins Haus? Umsonst kann man das
+            nicht verlangen.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Warum haben Sie sich nicht nach Arbeit umgesehen?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>mit gütiger Überlegenheit.</stage>
+               <p>Umschauen ist leicht, aber Kriegen ist schwer, Herr Richter.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Was haben Sie vor Ihrer Abstrafung für einen Beruf gehabt?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>schlicht.</stage>
+               <p>G'lernter Schlosser bin ich.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Na also, Schlosser werden ja auch heute noch benötigt.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>Aber, Herr Richter! Wer nimmt denn einen alten Mann, wo so viele junge gelernte Leute
+            herumrennen und verhungern!</p>
+               <pb n="57" facs="#f0049"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Reden Sie sich nicht aus! Fleiß und Anständigkeit haben noch immer ihr Auskommen
+            gefunden.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>weise.</stage>
+               <p>Ja, sagt man – aber wahr is's net.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mißvergnügt.</stage>
+               <p>Sie waren also im Hause Kritzenberger so gut aufgenommen, daß Sie zum Dank dafür die
+            Dworschak erschlagen wollten.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>sich verwahrend.</stage>
+               <p>Wer sagt denn, daß ich s' hab' derschlagen wollen?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Na, Ihnen ist alles zuzutrauen.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>Nein, nein! Vom Erschlagen kann keine Red' nicht sein. Züchtigen hab' ich s' wollen.
+            Das geb' ich schon zu. Denn das hat s' verdient.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Wieso?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>beinahe schmerzlich.</stage>
+               <p>Das ist ein gar schlechtes Frauenzimmer, Herr Richter –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Und wenn schon! Was geht das Sie an?</p>
+               <pb n="58" facs="#f0050"/>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>wie früher.</stage>
+               <p>Da plagt sich so ein braver, fleißiger Mensch Tag und Nacht für das Weibsbild, nur daß
+            er ihr alles schafft, was so eine in ihrem Übermut verlangt, und dann geht sie her und
+            nimmt sich den ersten besten von der Straßen! – Ah, reden wir lieber net, Herr Richter
+            –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>sarkastisch.</stage>
+               <p>Ein sonderbarer Heiliger sind Sie, Gschmeidler.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>ergeben.</stage>
+               <p>Wohl, wohl, heilig kunnt' man schon werden, wenn man sechsundzwanzig Jahr' lang
+            Pappschachteln g'leimt hat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ironisch.</stage>
+               <p>Sie wollen also offenbar sagen, daß Sie die moralische Entrüstung über das liederliche
+            Verhalten der Dworschak zur Tat veranlaßt habe. Sie werden jedoch zugeben, daß man Ihnen
+            ein so empfindliches sittliches Gefühl nicht gut zutrauen kann. Auch ist die Untreue
+            einer Frauensperson gegenüber einem Manne, mit dem sie nicht verheiratet ist, kein
+            solches Verbrechen, daß ein gänzlich Unbeteiligter wie Sie an ihr deshalb die
+            Todesstrafe vollziehen dürfte. Oder Sie <hi rendition="#i">waren</hi> kein Unbeteiligter!
+              <stage>Geieraugen.</stage>
+               </p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>unbefangen.</stage>
+               <p>Das muß doch einen jeden empören, Herr Richter.</p>
+               <pb n="59" facs="#f0051"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>wegwerfend.</stage>
+               <p>Ah, reden Sie nicht! Sie haben schon einmal einen Menschen wegen eines Frauenzimmers
+            umgebracht – aus Eifersucht!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>verletzt, aufbrausend.</stage>
+               <p>Das war kein so ein Frauenzimmer! Das war meine Braut! Die hat mir Treue geschworen
+            gehabt fürs ganze Leben! Und dann ist dieser Mensch – Gott hab' ihm selig – hinter
+            meinem Rücken hergangen und hat ihr Verleumdungen über mich g'sagt und hat ihr selber
+            das Heiraten versprochen und hat s' verführt, und dann hat er s' sitzen lassen.
+            Weggeworfen wie was Schlechtes meine Hermine, meine Braut! <hi rendition="#i">Dafür</hi> hab' ich
+            ihm umbracht! Net wegen Eifersucht.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>höhnisch.</stage>
+               <p>Wie kommt es dann, daß die Dworschak hier vor Gericht als Zeugin ausgesagt hat, Sie
+            hätten ihr in der bewußten Nacht, nachdem sich der fremde Mann entfernt hatte, ganz
+            bestimmte unsittliche Anträge gestellt?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>verzeihend.</stage>
+               <p>Das is ja g'logen, Herr Richter.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>gefährlich.</stage>
+               <p>Geben Sie acht, was Sie sagen! Die Dworschak hat sogar weiter behauptet, daß Sie ihr
+            gedroht haben, Sie <pb n="60" facs="#f0052"/> würden alles dem Kritzenberger mitteilen, wenn sie, die
+            Dworschak, sich Ihnen gegenüber nicht auch gefügig erweisen sollte. – Lassen Sie mich
+            ausreden! – Und in der Tat haben Sie auch den Versuch gemacht, dem Kritzenberger zu
+            tratschen, sind aber von diesem »guten« Menschen mit Ohrfeigen abgespeist worden!
+              <stage>Geieraugen.</stage>
+               </p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>empört.</stage>
+               <p>So is dös net wahr, Herr Richter! – Wie der fremde Herr in der Nacht weg war, da hab'
+            ich der Fräuln Marie g'sagt, daß ich alles g'hört und g'sehen hab' und daß sie sich
+            schamen soll und daß ich's dem Kritzenberger erzählen werd', wenn sowas noch einmal
+            vorkommt. Aber wie der Kritzenberger in der Früh nach Haus kommen is, da hat s' ihm glei
+            mit die Wort' empfangen: »Du, Poldi, der alte Zuchthäusler behaupt', daß ich heut nacht
+            an fremden Menschen bei mir g'habt hab'. Das laß ich mir net g'fall'n!« <stage>Mit
+              gesenkter Stimme.</stage> Na, und da hat er <hi rendition="#i">ihr</hi> halt mehr geglaubt als
+            mir und hat mich geschlagen. <stage>Wieder lebhaft.</stage> Aber von dem Tag an war's
+            aus und g'schehn, Herr Richter! Von dem Moment an hat mir die Dworschak nix mehr zum
+            Essen geben. Aber dafür hat s' mi den ganzen Tag umerdum g'hetzt: einmal zum Greisler,
+            einmal zum Mehlmesser, zum Drogisten, in die Trafik, zum Branntweiner. Zehnmal im Tag
+            fünf Stöck' auf und ab! I bin <pb n="61" facs="#f0053"/> ja ein alter Mann, Herr Richter! Und wenn i
+            net glei hab' gehn woll'n, so hat s' g'sagt: »So kriegst nix zum Fressen, du Hund!« Da
+            bin i halt gangen. Und wenn i dann zurückkommen bin und hab' s' bitt: »Fräuln Marie,
+            geben S' mir jetzt a Schluckerl Kaffee!« – da hat s' g'lacht und g'sagt: »Am Gang is d'
+            Wasserleitung. Das ist der beste Kaffee für an alten Zuchthäusler!«
+              <stage>Gesenkt.</stage> So is das fortgangen durch vier Täg'!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>boshaft.</stage>
+               <p>Sie spielen sich jetzt auf den Märtyrer hinaus. Warum haben Sie sich nicht beim
+            Kritzenberger beklagt?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>schwer.</stage>
+               <p>Ich hab' mit <hi rendition="#i">einmal</hi> Schläg' genug gehabt.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Und wie war das am Tage der Tat? Da hat Sie die Dworschak wieder zum Greisler
+            geschickt. Warum sind Sie nicht gegangen?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>aufgeregt.</stage>
+               <p>Vier Tag' nix im Magen, Herr Richter! Ich war schon ganz schwach vom Hungerleiden!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Es hat sich aber gezeigt, daß Sie gleich darauf sehr stark waren – mit dem
+            Fleischschlägel!</p>
+               <pb n="62" facs="#f0054"/>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>mit dramatischer Steigerung.</stage>
+               <p>In der Verzweiflung, Herr Richter, in der Verzweiflung! – Denn wie ich der Fräuln Marie
+            g'sagt hab', daß i net geh', da is sie zum Küchenkastel gangen, hat's aufg'sperrt und
+            hat mir a Häferl zeigt, wo s' kalte Nudeln von gestern drin g'habt hat. Die hat s' mir
+            unter's G'sicht g'halten und hat g'spott': »Siehgst, die Mehlspeis' hätt'st zum Fressen
+            kriegt, wanns d' mir zum Greisler gangen warst! So kriegt's die Katz!« – I hab' ihr gar
+            nix mehr antworten können und hab' s' nur ang'schaut. – Dann is sie hergangen und hat
+            die Nudeln in a Reindl geben und Milch draufgossen aus an Flaschl. – I hab' immer nur
+            g'schaut. – Und dann hat s' die Katz g'rufen. »Miez, Miez, Miez!« hat s' g'rufen. Aber
+            die Katz is net kumma! Die is hinterm Herd g'hockt und hat kan Hunger g'habt. – Da hat
+            s' a Wut kriegt und hat die Katz hinterm Herd fürizog'n. Dabei hat s' mi von der Seiten
+            ang'schaut, was i für a G'sicht mach'. Und dann hat s' der Katz die Nasen in die Milch
+            einig'stößen und hat g'sagt: »Friß, Miezerl, friß! Gut – gut! Sonst frißt's der alte
+            Zuchthäusler!« Dabei hat sie sich auf d' Erd niederkniet und hat das Viech um jeden
+            Preis nötigern wolln! – Da is mir plötzlich ganz schlecht wor'n, Herr Richter! I hab'
+            nimmer g'wußt, was i tua! So wahr ein Gott im Himmel ist, i hab' nimmer g'wußt, was i
+            tua!</p>
+               <pb n="63" facs="#f0055"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>aufgeregt.</stage>
+               <p>Sie Gschmeidler, Ihre Verantwortung ist sehr schön, aber sie hat ein Loch. Sie stellen
+            die Sache so dar, als hätten Sie die Tat in einem momentanen unwiderstehlichen Zwange
+            oder in Sinnesverwirrung verübt –</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>überzeugend.</stage>
+               <p>Im unwiderstehlichen Zwang!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>unbeirrt.</stage>
+               <p>Dem ist aber <hi rendition="#i">nicht</hi> so. Sie sollen nämlich bereits geraume Zeit
+              <hi rendition="#i">vor</hi> der Tat einer gewissen Frau Hansel gegenüber geäußert haben, daß Sie
+            die Dworschak noch einmal umbringen würden. Also hatten Sie den Mord bereits erwogen.
+            Oder leugnen Sie, jene Äußerung getan zu haben?!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>I leugn' nix! Möglich ist's schon. Wie man halt so redt, wenn man in der Verzweiflung
+            ist.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>funkelnd.</stage>
+               <p>Sie geben also die Äußerung zu?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>Aber ja, Herr Richter.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>aufgeregt.</stage>
+               <p>Sie stenographieren doch hoffentlich, Herr Doktor?</p>
+               <pb n="64" facs="#f0056"/>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN.</speaker>
+               <p>Jawohl, Herr Rat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>scheinbar teilnahmsvoll.</stage>
+               <p>Sie Gschmeidler, wenn das wahr ist, was Sie früher erzählt haben – und ich glaube es
+            Ihnen beinahe – dann ist es Ihnen bei den Kritzenbergers ja sehr schlecht gegangen.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>In der letzten Zeit wohl.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>immer erregter.</stage>
+               <p>Haben Sie denn keine Verwandten, an die Sie sich wenden konnten?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>mit leiser Bitterkeit.</stage>
+               <p>An Bruder hab' ich, der hat's Schlosserg'schäft von meinem Vater verkauft und is jetzt
+            Gemeinderat.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Sind Sie zu dem nicht gegangen?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>Wohl, wohl. Er hat mir fünf Gulden geben und hat mir viel Glück auf den Lebensweg
+            gewünscht. Da bin i wieder fort.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>väterlich.</stage>
+               <p>Und sonst haben Sie keine Verwandten?</p>
+               <pb n="65" facs="#f0057"/>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>Ah schon, aber die haben mich gar nimmermehr kennt. Und etliche, die haben mich net
+            kennen wolln und haben mich ang'schaut wie einen verstorbenen Geist. – Na, i hätt' s' ja
+            a nimmer kennt, wenn i sie auf der Straßen begegnet hätt'. Überhaupts, keinen Menschen
+            hab' i mehr kennt in der ganzen Stadt. In die Vorstadt bin i gangen, wo meinem Vatern
+            sein G'schäft war. Glauben S', i hab's g'funden? Net einmal das Haus steht mehr, wo's
+            drin war! – Und wie ich dann endlich vor dem neuen Laden g'standen bin und les' gar an
+            wildfremden Namen und nur ganz klein in der Klammer: Johann Gschmeidlers Nachfolger – da
+            hab' i g'spürt, daß i g'storben bin für das Schild und für die Leut a. <stage>Immer mehr
+              in sich versinkend.</stage> Ja, ja. – Und dann hab' i den Garten gesucht von meinem
+            Vatern. Ja freilich! Dort steht jetzt a Fabrik. Und das Wirtshaus zur Roten Brezen is a
+            net mehr. Und wo i früher jedes Gesicht gekannt hab' auf der Straßen, da sind lauter
+            fremde Leut gangen. I hab' niemand mehr kennt. Und dann bin i in die innere Stadt
+            hinein, Herr Richter. Du lieber Gott! Grad daß no der Stefansturm auf seinem alten Platz
+            steht! – Es is a andere Stadt, Herr Richter, und i kenn' niemandn mehr, und mich kennt
+            auch niemand mehr. Das is so viel wie g'storbn – aus und amen.</p>
+               <pb n="66" facs="#f0058"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>in höchster aber bemeisterter Erregung, mit Geieraugen, aber gütig verstellter,
+            innerlich zitternder Stimme.</stage>
+               <p>Haben Sie sich da nicht in die Strafanstalt zurückgesehnt, Gschmeidler? – Dort waren
+            Sie ja gut angeschrieben, und schlecht geht es einem ja nicht in der Strafanstalt, wenn
+            man sich nur brav verhält, und Sie <hi rendition="#i">haben</hi> sich brav verhalten! Das weiß ich.
+            Sie war ja Ihre zweite Heimat, die Strafanstalt, Ihr zweites Vaterhaus. Das andere haben
+            Sie ja verloren.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>dumpf vor sich hin.</stage>
+               <p>Verloren –</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>immer erregter.</stage>
+               <p>Und dann: dort hat man Sie schon lange gekannt, und auch Sie haben Menschen gekannt,
+            wenn es auch nur Ihresgleichen waren. Auch hat Ihnen dort sicher niemand vorgeworfen,
+            daß Sie vor langer, langer Zeit einmal einen Menschen umgebracht haben! Denn dazu waren
+            Sie ja dort, um es zu büßen und zu sühnen! – Haben Sie sich da nicht in die Strafanstalt
+            zurückgesehnt, Gschmeidler?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>ohne aufzusehen.</stage>
+               <p>Einesteils schon, Herr Richter.</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>kaum mehr an sich haltend.</stage>
+               <p>Und andernteils haben Sie doch gewußt, daß es nur einen <pb n="67" facs="#f0059"/> einzigen Weg gibt,
+            wieder dahin zurückzugelangen! <stage>Seine Stimme ist bei den letzten Worten aus der
+              Rolle gefallen.</stage>
+               </p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>dadurch stutzig geworden, blickt auf und sieht den glühenden Geierblick auf sich
+            gerichtet; er schrickt zusammen.</stage>
+               <p>Jesus Maria!!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>aufgerichtet, unentrinnbar, mächtig.</stage>
+               <p>Und dieser <hi rendition="#i">eine</hi> Weg war ein neues <hi rendition="#i">Verbrechen</hi>!!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>in höchster Bestürzung.</stage>
+               <p>Herr Richter! Herr Richter!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>in höchster Anspannung.</stage>
+               <p>Denn das wissen Sie, daß leichte Verletzungen nur mit Arrest bestraft werden!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>mechanisch.</stage>
+               <p>Nur mit Arrest!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>funkelnd.</stage>
+               <p>Daraus folgt, daß Ihre Absicht auf eine <hi rendition="#i">schwere</hi> Verletzung der Marie
+            Dworschak gerichtet war, wenn nicht gar auf deren <hi rendition="#i">Tod</hi>!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>aufstehend, hilflos.</stage>
+               <p>Ich hab' s' net umbringen wollen!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>ist gleichfalls aufgestanden.</stage>
+               <pb n="68" facs="#f0060"/>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>die Hände faltend, ganz still, wie ein Kind.</stage>
+               <p>Ich hab' s' nicht umbringen wollen! Züchtigern ja! Züchtigern –!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>eisern.</stage>
+               <p>Aber so »züchtigern«, daß Sie wieder in die Strafanstalt kommen! Ja oder nein?!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>sich auf den Sessel fallen lassend.</stage>
+               <p>In Gottes Namen – <stage>Gemartert.</stage> Ja!!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>triumphierend, aufatmend.</stage>
+               <p>Na also!</p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>ist schon früher aufgestanden und steht nun beinahe über Gschmeidler gebeugt da.
+            Sein sonst so häßliches Gesicht ist von schöner Milde.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>saturiert, lächelnd.</stage>
+               <p>Nun, Herr Doktor Zwirn? – Nicht wahr, Sie werden die Güte haben, das Protokoll aus dem
+            Stenogramm ins reine zu übertragen! Aber nur das Wesentliche, Herr Doktor! Morgen werden
+            wir es dann dem Beschuldigten vorlesen. Sind Sie damit einverstanden, Gschmeidler?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>der ganz in sich versunken dagesessen war, nickt jetzt beinahe zufrieden.</stage>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>hat sich niedergesetzt und richtet, seine Aufregung verbergend, den Blick auf
+            Gschmeidler.</stage>
+               <pb n="69" facs="#f0061"/>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>mit ironischem Lächeln zu Zwirn.</stage>
+               <p>Das hat Sie, wie mir scheint, sehr hergenommen, Herr Doktor! <stage>Er zündet sich eine
+              Zigarre an.</stage> Da werde ich schon selber telephonieren müssen, daß der
+            Beschuldigte abgeführt werde. Oh, bitte sich nicht zu bemühen, Herr Doktor!
+              <stage>Telephonierend.</stage> Vorführzimmer! – Bitte abführen von Abteilung
+            siebenundsechzig! – Ja, danke. – So, und ich gehe jetzt zu einer Obduktion. Es ist
+            gerade Zeit. Sowas lasse ich mir nicht gerne entgehen. <stage>Er steht aufgeräumt und
+              Wolken passend auf.</stage>
+               </p>
+               <stage>Vom Augenblick an, da der Rat, am Tische sitzend, die ersten Rauchwolken
+            ausgeblasen hat, ist mit Gschmeidler eine Veränderung vor sich gegangen. Der stumpfe,
+            teilnahmlose Gesichtsausdruk ist einer tierischen Verklärtheit gewichen. Er beginnt zu
+            schnuppern und den Rauch einzuziehen. Er gerät dabei in eine Art Aufregung und fängt
+            auch an, sich die Rauchwolken verstohlen zuzufächeln. Doktor Zwirn hat es bereits
+            bemerkt, nun im Aufstehen bemerkt es auch der Rat.</stage>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>erstaunt, aber nicht unfreundlich.</stage>
+               <p>Was machen Sie denn da?</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>leise, animalisch.</stage>
+               <p>Guat, Herr Richter, guat! <stage>Zieht den Rauch ein.</stage>
+               </p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>kurz auflachend.</stage>
+               <p>Sonderbarer Mensch!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>beinahe flehentlich.</stage>
+               <p>Wann ich wenigstens was zum Rauchen hätt', Herr <pb n="70" facs="#f0062"/> Richter! <stage>Nach einem
+              begehrlichen Blick in die Aschenschale auf dem Tische des Rates.</stage> Derfert ich
+            mir das Stummerl da nehmen?</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT</speaker>
+               <stage>wieder hart.</stage>
+               <p>Nein.</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER.</speaker>
+               <p>Nur a paar Züag, Herr Richter –!</p>
+            </sp>
+            <sp who="#rat">
+               <speaker>RAT.</speaker>
+               <p>Hören Sie auf! Selbst wenn ich wollte, ich <hi rendition="#i">darf</hi> Ihnen nichts zu rauchen
+            geben. <stage>Er geht in den Hintergrund, wo er sich ankleidet. Dann halbwegs
+              freundlich.</stage> Adieu, Herr Collega. <stage>Ab durch die Mitteltür des
+              Hintergrunds.</stage>
+               </p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>macht eine stumme Verbeugung dem Rat nach, aber seine Blicke sind auf Gschmeidler
+            gerichtet, der nun ganz stumpf dasitzt, förmlich kleiner geworden. Zwirn steht ein paar
+            Augenblicke in innerer Erregung, dann nimmt er vorsichtig, als fürchtete er überrascht
+            zu werden, eine Zigarre aus seinem Etui. Ein paar Sekunden hält er sie unschlüssig in
+            der Hand, dann streckt er diese mit der Zigarre langsam und zaghaft dem Gschmeidler über
+            den Schreibtisch hin.</stage>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>wird aufmerksam, blickt auf, sieht die Zigarre und das ergriffene Gebaren Doctoris
+            Zwirn. Eine plötzliche Freude tritt von innen in seine Augen. Ohne die Zigarre
+            anzusehen, den Blick in Zwirns Antlitz gerichtet, nähert er seine Hand der Zigarre. Fast
+            hat er sie ergriffen, da tritt der.</stage>
+            </sp>
+            <sp who="#justizsoldat">
+               <speaker>JUSTIZSOLDAT</speaker>
+               <stage>ein und pflanzt sich an der Tür auf. Im Moment seines Eintrittes ist Doktor Zwirn
+            mit der Hand zurückgeschreckt, wobei ihm die Zigarre entfallen ist.</stage>
+               <pb n="71" facs="#f0063"/>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>hat die Hand sinken lassen, aber er sieht Zwirn unverwandt an.</stage>
+            </sp>
+            <sp who="#justizsoldat">
+               <speaker>JUSTIZSOLDAT</speaker>
+               <stage>barsch.</stage>
+               <p>Kommen Sie mit!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>mit letztem, gerührtem Blick leise, verständnisinnig.</stage>
+               <p>Gelobt sei Jesus Christus! <stage>Sieht Zwirn an, als wolle er ihm die Antwort
+              suggerieren.</stage>
+               </p>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>ZWIRN</speaker>
+               <stage>errötend, wie nach der richtigen Antwort im Gedächtnis suchend, dann sie gefunden
+            habend, sich befreiend, leise.</stage>
+               <p>In Ewigkeit, Amen. <stage>Dann stärker, ein wenig vorgebeugt.</stage> In Ewigkeit,
+            Amen!</p>
+            </sp>
+            <sp who="#gschmeidler">
+               <speaker>GSCHMEIDLER</speaker>
+               <stage>nickt ihm im Abgehen freundlich zu, dann mit dem Soldaten ab.</stage>
+            </sp>
+            <sp who="#doktor_zwirn">
+               <speaker>DOKTOR ZWIRN</speaker>
+               <stage>wendet sich dem Zuschauerraum zu. Sein Gesicht ist von edler Hilflosigkeit.</stage>
+               <stage>Der Vorhang fällt langsam.</stage>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>

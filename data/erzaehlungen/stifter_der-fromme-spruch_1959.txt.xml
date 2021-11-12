@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der fromme Spruch</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118618156">
+                  <forename>Adelbert</forename>
+                  <surname>Stifter</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:16Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005720559</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Stifter, Adalbert/Erzählungen/Der fromme Spruch</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/vs3m.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0005-18F7-4</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Adelbert Stifter: Gesammelte Werke in sechs Bänden, Band 3, Wiesbaden 1959</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gesammelte Werke in sechs Bänden</title>
+                  <title level="m" type="volume">Band 3</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118618156">
+                        <forename>Adelbert</forename>
+                        <surname>Stifter</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Max</forename>
+                        <surname>Stefl</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">802 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Insel-Verlag</name>
+                  </publisher>
+                  <pubPlace>Wiesbaden</pubPlace>
+                  <date type="publication">1959</date>
+                  <date type="firstPublication">1869</date>
+                  <date type="firstPublication" subtype="clariah">1869</date>
+                  <date type="firstPublication" subtype="zeno">1869</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1805"
+                        notAfter="1868"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Stifter-Adalber-d1e60511">Erstdruck in einer Bearbeitung von Johannes Aprent in: Erzählungen, Pest 1869.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Stifter-Adalber-d1e60511">
+            <p rend="h3">Adalbert Stifter</p>
+            <p rend="h2">Der fromme Spruch</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Stifter-Adalber-d1e60528" type="chapter">
+            <head>
+               <pb n="717" facs="#f0001"/>
+1</head>
+            <p>Dietwin von der Weiden hatte die Gepflogenheit, an jedem vierundzwanzigsten Tage des Monates April gegen den Abend in das Gut seiner Schwester einzufahren. So geschah es auch diesmal wieder, daß an dem genannten Tage um fünf Uhr nachmittags sein Wagen durch das Tor des Schlosses rollte. Er wurde von der Dienerschaft empfangen und in seine zwei wohlbestellten Zimmer ge leitet. Dort kleidete er sich mit der Hilfe seines Kammerdieners sorgsam um, während der andere Diener die Gepäcksachen von dem Wagen heraufschaffen und der Kutscher die zwei Schimmel in dem Stalle gehörig versorgen ließ. Als der Kammerdiener erklärt hatte, daß nichts mehr an dem Anzuge fehle, ging Dietwin zu seiner Schwester. Diese saß in einem schwarzseidenen Kleide auf einem erhöhten Platze ihres Prunkzimmers, und er wartete ihn. Etwas tiefer saß eine Kammerfrau, die gleich falls in schwarze Seide gekleidet war. Als sich die Flügeltüren geöffnet hatten, und er hereingetreten war, stand die Schwester auf, und ging ihm entgegen. In der Mitte des Gemaches kamen sie zusammen. Er nahm sie bei der Hand, neigte sich gegen sie, und küßte sie auf die Stirne. Sie behielt seine Hand, erhob sich gegen ihn, und gab ihm den Kuß zurück. Darauf geleitete er sie zu ihrem Sitze. Zwei Diener rückten für ihn einen Armstuhl auf der Erhöhung dem Stuhle ihrer Gebieterin gegenüber. Dann verneigten sie sich tief gegen beide, stiegen <pb n="718" facs="#f0002"/>
+von der Erhöhung, gingen aus dem Saale, und schlossen hinter sich die Flügeltüren. Dietwin setzte sich in den Armstuhl, die Schwester bedeutete die Kammerfrau, welche aufgestanden war, sich wieder zu setzen, und als dieses geschehen war, wendete sie sich zu dem Bruder, und sagte: »Sei gegrüßt, Dietwin.«</p>
+            <p rendition="#et">»Sei gegrüßt, Gerlint«, antwortete er.</p>
+            <p rendition="#et">»Erfreust du dich einer vollkommenen Gesundheit?« fragte sie.</p>
+            <p rendition="#et">»Ich bin frisch und gesund, wie ich es alle lage meines Lebens gewesen bin,« antwortete er, »und kann ich von dir das gleiche erfahren?«</p>
+            <p rendition="#et">»So wie mich Gott der Herr noch nie mit einer Krankheit heimgesucht hat,« entgegnete sie, »so bin ich auch seit unserem letzten Zusammensein gesund geblieben. Ich habe mein einfaches Leben zur Erhaltung meines Körperwohles fortgesetzt, und nehme eine Krankheit, wenn sie Gott sendet, demütig an, und trage, was sie bringt.«</p>
+            <p rendition="#et">»An diesen Gesinnungen erkenne ich dich«, sagte er.</p>
+            <p rendition="#et">»Und ist deine Gemütsruhe nicht gestört worden?« fragte sie.</p>
+            <p rendition="#et">»Wie es in der Verwaltung von Liegenschaften Verdrießlichkeiten gibt,« antwortete er, »und wie ein leichter Unmut über den Gang der öffentlichen Dinge zuweilen in das Gehirn kommt, so rechnete ich diese Sachen in der letzten Zeit so wenig wie früher, und so glaube ich, daß nichts meinen jetzigen Gleichmut zu erschüttern im Stande wäre.«</p>
+            <p rendition="#et">»Das ist recht gut«, erwiderte sie.</p>
+            <p rendition="#et">»Und wie ist es mit deiner Seelenruhe beschaffen?« fragte er.</p>
+            <p rendition="#et">»Da ich immer weniger auf das achte, was Dienstleute und Untergebene gegen meinen Sinn tun,« antwortete sie, »da ich immer weniger in die öffentlichen Angelegenheiten eingehe, weil mir ein Urteil über sie nicht zusteht, <pb n="719" facs="#f0003"/>
+und da ich immer mehr alle Vorkommnisse als Schickungen Gottes betrachte, so kommt stets dauernder eine Stille meines Herzens zu mir, die wohl durch nichts mehr einen Abbruch erleiden wird.«</p>
+            <p rendition="#et">»Das ist auch recht gut«, sagte er.</p>
+            <p rendition="#et">»Ist kein Unfall vorgekommen?« fragte sie.</p>
+            <p rendition="#et">»Ein zerbrochenes Rad, das wieder gemacht worden ist,« entgegnete er, »eine kranke Kuh, die wieder gesund ist, und anderes, dessen ich mich nicht mehr entsinne.«</p>
+            <p rendition="#et">»Das ist ohne Bedeutung,« sagte sie, »bei mir ist gar nichts vorgekommen.«</p>
+            <p rendition="#et">»So stehen die Sachen vortrefflich«, antwortete er.</p>
+            <p rendition="#et">»Es geht so gut, wie alles nur immer gehen kann,« sagte sie, »und so sei noch einmal gegrüßt, Dietwin.«</p>
+            <p rendition="#et">»Sei gegrüßt, Gerlint«, erwiderte er.</p>
+            <p rendition="#et">Darauf stand er auf, küßte ihre Hand, und verließ den Saal.</p>
+            <p rendition="#et">Die Geschwister verzehrten diesen Abend noch ein kleines Mahl mit einander.</p>
+            <p rendition="#et">Als der nächste Tag angebrochen war, und als Dietwin das Frühmahl in seinem Wohngemache eingenommen hatte, ließ er sich noch viel festlicher kleiden als des Tages zuvor. Dann ging er in seinen zwei Zimmern auf und nieder. Nach einer Zeit erscholl die Glocke der Schloßkapelle. Auf dieses Zeichen ging er in die Kapelle und nahm seinen Sitz in einem wohlgepolsterten Stuhle an der linken Seite des Altares ein. Nach ihm kam Gerlint in einem äußerst schönen aschgrauen Seidenkleide, und setzte sich in einen gleichen Stuhl an der rechten Seite des Altares. In der Tiefe der Kirche saß die Dienerschaft und saßen die Leute Gerlints, es saßen der Kammerdiener, der Diener und der Kutscher Dietwins, und es saßen noch dicht gedrängt viele andere Menschen. Alle waren festlich angetan. Nach der Ankunft Gerlints wurde ein feierlicher Gottesdienst in der Kapelle gehalten.</p>
+            <p rendition="#et">
+               <pb n="720" facs="#f0004"/>
+Nach dem Gottesdienste ging Dietwin in seine Wohnung. Dort nahm er ein großes, breites, flaches Fach von dunkelblauem Leder aus einer Schublade, und ging mit dem Fache in den großen Saal des Schlosses. In dem Saale war ein kostbarer Teppich auf den Marmorboden gebreitet, auf dem Teppiche stand ein sehr geräumiger rotseidener Armstuhl, und in dem Armstuhle saß in ihrem aschgrauen Seidenkleide Gerlint. Sonst war kein einziger Mensch in dem Saale. Sie stand auf, da Dietwin herein getreten war. Er ging zu ihr, und die Geschwister küßten sich. »Gottes Heil mit dir, Gerlint,« sagte er, »und möge dir dieser Tag noch recht oft wiederkehren.«</p>
+            <p rendition="#et">»Gottes Heil auch mit dir, Dietwin,« sagte sie, »möge auch dir dieser Tag noch recht oft wiederkehren.«</p>
+            <p rendition="#et">Als diese Worte gesprochen waren, öffnete er das Fach, das er in der Hand hielt. Ein ebener blaßroter Sammet stellte sich dar, und auf dem Sammte lagen vier Reihen großer, gleich makelloser Perlen, in ein Halsband geschlungen.</p>
+            <p rendition="#et">»Diese Perlen sind schwache Abbilder schöner Gedanken,« sagte er, »möge deine Schönheit sie erst zieren und sie wert machen, daß du dich bei ihnen künftig deines heutigen Geburtstages erinnerst.«</p>
+            <p rendition="#et">»Dietwin,« sagte sie, »du bist immer gut bei frevelhaften Reden, und diese Perlen sind ein Rittergut.«</p>
+            <p rendition="#et">»Jede ist ein Ritter unseres Hauses,« antwortete er, »und seit wir keine Vasallen mehr zur Last haben, können wir solche Ritter leicht stellen.«</p>
+            <p rendition="#et">»Sie werden keine Felonie an unserem Hause üben,« entgegnete sie, »und in diesem Verstande nehme ich sie als eine gemeinschaftliche Macht. Ich danke dir herzlich, Dietwin.«</p>
+            <p rendition="#et">Sie nahm das Fach, schloß es, und legte es auf einen Tisch, der neben ihrem Stuhle stand.</p>
+            <p rendition="#et">Von dem Tische nahm sie ein Fach, das aus braunem <pb n="721" facs="#f0005"/>
+Leder war. Sie öffnete das Fach, und auf weißem Sammet stellte sich eine blaßbraune einfache Brieftasche dar. Sie nahm die Brieftasche heraus, schlug sie auseinander, und auf weißer Seide zeigte sich eine sehr feine Stickerei aus Gold und kleinen Perlen, die einen Lorbeerkranz bildete.</p>
+            <p rendition="#et">»Du siehst, wie wir immer die nämlichen Gedanken haben,« sagte sie, »du gibst mir zu meinem Geburtstage Perlen, und ich gebe dir zu deinem Geburtstage, den der Himmel auch an dem heutigen Tage beschert hat, ebenfalls Perlen.«</p>
+            <p rendition="#et">»Nur daß du noch eine herrliche Arbeit dazu gemacht hast,« antwortete er, »oder ich müßte mich sehr irren, wenn nicht dieser feine Kranz aus deinen sehr kunstgeübten Händen hervorgegangen wäre.«</p>
+            <p rendition="#et">»Ich habe mich bestrebt, ihn so gut zu machen, als ich konnte«, sagte sie.</p>
+            <p rendition="#et">»Und ich kann dir eine Arbeit gar nicht machen,« erwiderte er, »es müßte nur ein Gedicht sein, deren ich aber nie andere verfertigte, als uns in der Schule aufgegeben waren, und diese, sagte der Lehrer, seien allemal keine gewesen.«</p>
+            <p rendition="#et">»Die beste Arbeit, die du mir machst, Dietwin,« sagte sie, »ist dein Leben, daran ich mich erfreue. Der Lorbeerkranz soll dein Kriegsleben bedeuten.«</p>
+            <p rendition="#et">»Das hat keinen Lorbeerkranz verdient«, antwortete er. »Und mein Leben, wenn es dir Freude macht, freut mich auch, sonst ist es ein verwirrtes Stückwerk gegen deine klare Arbeit, Gerlint. Ich danke dir von dem Grunde meines Herzens für deine Gabe.«</p>
+            <p rendition="#et">Dann sagte Gerlint: »Lassen wir jetzt die Leute herein treten.«</p>
+            <p rendition="#et">»Tue es«, antwortete Dietwin.</p>
+            <p rendition="#et">Gerlint schellte mit einer Glocke.</p>
+            <p rendition="#et">Da öffneten sich die Türen des Saales, und es traten <pb n="722" facs="#f0006"/>
+mehrere Menschen herein. An der Spitze derselben war der Schloßverwalter, neben ihm die Kammerfrau, und hinter den beiden die Dienerschaft; es waren die Knechte und Mägde des Gutes, es waren der Kammerdiener und Kutscher Dietwins, und es waren Leute aus der Gegend, welche früher Untertanen des Gutes gewesen waren.</p>
+            <p rendition="#et">Sie stellten sich in eine Reihe.</p>
+            <p rendition="#et">Da trat der Schloßverwalter etwas vor, verneigte sich vor Gerlint und dann vor Dietwin, reichte Gerlint einen Blumenstrauß, und sagte: »In Gnaden und Huld sind wir vorgelassen worden. Viel Glück und Segen und langes Leben bringen wir im Wunsche. Ich bin zum Sprecher für alle erkoren worden, und ich spreche für alle. Der Wunsch ist doppelt, weil auch das hohe, erhabene, preisliche Geburtsfest ein doppeltes ist. Und also wie die Tulpen und die Narzissen und der Rosmarin und alle die andern Blumen aus verschiedenen Weltgegenden stammen und bei uns aus dem freien Grunde und aus dem Gewächshause in diesen Strauß vereinigt worden sind, so stammen die Diener und Leute des Schlosses aus verschiedenen Orten, und sind vereiniget worden, hier ihre Pflicht zu erfüllen, und haben sich heute in einen Strauß versammelt, ihre Geistesgaben darzubringen, und wie die Blumen unzählige Blätter haben, und Wohlgeruch und tausendfältige Farben, so soll das Glück unzählbar und angenehm und tausendfältig sein, was wir wünschen. Und wir bitten um die Gewogenheit noch ferner, und diese Leute, welche nicht mehr Untertanen des Schlosses sind, bleiben doch Untertanen des Herzens unserer erhabenen Frau, und bringen gleich uns ihre Wünsche dar.«</p>
+            <p rendition="#et">Als er diesen Spruch geendet hatte, verneigte er sich wieder gegen Gerlint und Dietwin.</p>
+            <p rendition="#et">»Ich danke dir, Adam,« sagte Gerlint, »ich danke euch allen, meine Kinder; möge es mir noch gegönnt sein, <pb n="723" facs="#f0007"/>
+euch bessere Gaben geben zu können, als ich euch an diesem Tage zu bescheren vermag.«</p>
+            <p rendition="#et">Die Kammerfrau trat hervor, sagte nichts, neigte sich auf die Hand ihrer Gebieterin, und küßte sie.</p>
+            <p rendition="#et">»Agathe,« sagte Gerlint, »du hast einen griechischen Namen, der etwas Gutes bedeutet. Du bist wie der Name. Daure noch ein wenig bei mir aus.«</p>
+            <p rendition="#et">Die Kammerfrau antwortete nichts, und trocknete sich nur die Augen.</p>
+            <p rendition="#et">Und noch mehrere traten hervor, und verneigten sich, oder küßten Gerlint die Hand.</p>
+            <p rendition="#et">Da alles vorüber war, ging Gerlint zu einem Tische, auf dem ein graues seidenes Tuch über Gegenstände gebreitet war, hob das Tuch empor, und sagte: »Da sind wieder Kleinigkeiten, die ich an diesem Tage mit meinen eigenen Händen an euch zu verteilen mir das Vergnügen mache, um euch für das Liebe meinen Dank zu bezeigen, das ihr mir tut. Adam, diese Dose fühlt sich recht glatt in der Hand, und öffnet und schließt sich leicht und genau. Agathe, in dem Buche sind Gedanken an Gott, wie du sie gerne hast, und die silbernen Spangen weisen auf einen reinlichen Sinn. Mathias, teile deinem Vater von dem Gelde mit, ihr brauchet es jetzt mehr als etwas anderes. Martha, deine Augen schauen noch auf Flitter, an Sonntagen wird dir das Tuch recht gut anstehen. Anna, dieser Latz wird dir auch nicht mißfallen. Sebastian, halte deine Zeit regelmäßig wie die Zeiger dieser Uhr. Katharina, nimm das Linnen, wozu du es brauchen kannst. Eva, lasse dir aus dem Stoffe ein nicht gar zu auffälliges Kleid schneiden. Ferdinand, mir ist das Rauchen in Zimmern und feuergefährlichen Orten sehr zuwider; ich mag dir aber doch gerne eine Freude machen, rauche aus dieser Pfeife nicht an den Orten, die ich genannt habe. Joseph, ich denke, diese Weste könnte dir gefallen, und dir Maria, diese Bänder, und, Margareta, dir diese Sonntagschuhe, <pb n="724" facs="#f0008"/>
+und euch andern das andere. So tretet doch näher.«</p>
+            <p rendition="#et">Die Angeredeten, welche etwas weiter zurückgestanden waren, gingen vorwärts, und jedes empfing seine Gabe aus der Hand der Gebieterin.</p>
+            <p rendition="#et">»Und ihr,« sagte sie dann, »welche ihr in der vergangenen Zeit meine Untertanen gewesen seid, und denen ich mich nicht glaube als eine Herrin bewiesen zu haben, sondern als eine Freundin, werdet wissen, daß ich eure Freundin noch bin, und wenn ihr auch die Steuern nicht mehr auf mein Schloß tragt, so sind doch die andern Bande geblieben. Kann ich jemanden aus euch ein Gutes tun, so komme er und eröffne sich mir. Jetzt, Kinder, gehet, und genießet des heutigen Tages als eines Feiertages.«</p>
+            <p rendition="#et">»Ich bitte dich, Gerlint,« sagte Dietwin, »gib ihnen mir zu Liebe ein Glas guten Weines, daß sie außer deiner Gesundheit auch die meine trinken und die Gesundheit meiner Leute zu Hause, welche alljährlich dieses Fest ohne mich begehen müssen. Eure Geschenke von mir, meine Lieben, sind schon in dem Vorsaale, und jedes hat den Namen.«</p>
+            <p rendition="#et">»Sie haben den besten Tischwein meines Kellers,« entgegnete Gerlint, »und sollen ein Glas feinen Nachtischwein bekommen, wie wir ihn selber bei unserem heutigen Mahle haben.«</p>
+            <p rendition="#et">»Und so wäre nun alles in diesem Saale in Ordnung«, sprach Dietwin.</p>
+            <p rendition="#et">»Ich glaube, alles«, entgegnete Gerlint.</p>
+            <p rendition="#et">Die Leute drängten sich noch herzu, küßten Gerlint die Hand, oder verbeugten sich, und taten Ähnliches bei Dietwin.</p>
+            <p rendition="#et">Dann verließen sie den Saal.</p>
+            <p rendition="#et">»Geliebte Schwester,« sagte nun Dietwin, als er mit Gerlint allein war, »lasse uns jetzt in deiner trauten Kammer das Gespräch pflegen, das wir an diesem Tage gerne <pb n="725" facs="#f0009"/>
+über unsere Angelegenheiten führen, ehe die aus der Nachbarschaft kommen, die wieder zahlreich sein werden, weil du sie nach deinem Gebrauche an keinem früheren Tage zum Wunsche zulässest. Ich habe dir heute Besonderes zu sagen.«</p>
+            <p rendition="#et">»So komme«, sprach Gerlint.</p>
+            <p rendition="#et">Sie nahm das Fach mit den Perlen, er steckte die Brieftasche zu sich, reichte ihr den Arm, und führte sie aus dem Saale in ihr Wohngemach. Dort schloß sie die Perlen in einen Kasten, und setzte sich dann in einen Armstuhl. Dietwin setzte sich in einen andern, ihr schräge gegenüber.</p>
+            <p rendition="#et">»Und nun sprich, Dietwin«, sagte sie.</p>
+            <p rendition="#et">»Ich glaube, ich bringe heute gute Dinge«, sagte er »Zuerst kann ich dir eröffnen, daß unser Neffe nun völlig frei ist. Er hat sich ohne Zureden von irgend einer Seite entschlossen, seinen Abschied zu fordern, und vor drei Wochen hat er ihn erhalten. Du weißt, wie wir von der Sache stets gesprochen haben. Er hat sich ausgezeichnet; aber da der Krieg längst aus ist, was hätte er weiter vollbringen können? In der Zeit, die er nun völlig frei in Weidenbach zubrachte, ist er völlig doppelt eifrig geworden, so daß ich glaube, er hat aus Freude an der Sache die Städte und die Waffen verlassen. Das sage ich dir von der Freiwerdung Dietwins, jetzt komme ich zu dem zweiten. Die lange Waldnase, welche von dem Gute Sebenau in die Gründe von Weiden herein ragte, und den Verdruß und Störefried für mich und meine Vorfahrer so wie für den Besitzer von Sebenau darstellte, ist für Weiden erworben. Der Lindmayer hat sich plötzlich besonnen, und hat mir endlich, freilich für schweres Geld, sein Waldland, das an den Sebenauerforst grenzt, angeboten. Ich habe, ohne vorher mit dir reden zu können, zugegriffen, daß er nicht wieder reuig würde, und habe das Waldland gegen die Nase vertauscht. Da es doppelt größer ist als <pb n="726" facs="#f0010"/>
+die Nase, und da die Sebenauer ihr Gut als Familiengut wohl vergrößern, aber nicht verkleinern dürfen, so ist Julias von Sebenau über den Handel so erfreut wie ich. Wir sind beide nun gerundet, und haben die Ärgerlichkeiten aus Streiten und Übergriffen unserer Leute hinter uns.</p>
+            <p rendition="#et">Und nun, liebe Schwester, komme ich zu dem dritten. Ich sage nur so meine Gedanken, ohne dir etwas einreden zu wollen. Wir könnten jetzt vielleicht das, was wir beide so sehnlich wünschen, mit Gefügigkeit erreichen. Wenn ich an Dietwin zu Weidenbach noch Weiden abtrete, du an Gerlint Biberau, und wenn Dietwin Gerlint heiratete, so hätte das Paar einen Güterverein, wie weit und breit keiner von solcher Große und von so kurzer Grenze gefunden werden könnte. Ich rede nicht einmal von der Güte des Bodens, der Strotzigkeit der Wälder, der guten Sonnenlage und der Schönheit für die Augen. Wenn ich dann auf Weidenholz ginge, und du nach Bergen, so wären wir unter uns und mit den Kindern Nachbarn, und könnten uns sehr oft besuchen. Etwas Schöneres ist kaum zu denken. Und weil es doch in der Wesenheit der Dinge liegt, daß wir früher sterben können als Dietwin und Gerlint, und weil wir niemanden haben, der uns nahe ist, so fielen nach unserem Tode Weidenholz und Bergen auch zu dem Ganzen, und wenn Steinberg und Tannheim, und wenn die Forste in den Brunnenbergen, weil diese Dinge doch zu entlegen sind, ein mal vorteilhaft verkauft werden könnten, und hier etwas Angrenzendes zu erwerben wäre, so bekäme unser Geschlecht beinahe ein völliges Herzogtum, und wenn sie es durch gute Wirtschaft und Ersparungen wieder vergrößerten, so könnten sie mächtig und tüchtig und reich sein in undenkliche Zeiten hinein. Das sind meine Vorstellungen, Gerlint.«</p>
+            <p rendition="#et">»Mein sehr verehrter Bruder,« antwortete Gerlint, »ich werde dir auch meine Vorstellungen sagen. Biberau ist <pb n="727" facs="#f0011"/>
+längst Gerlint zugedacht, und du weißt, daß sie es erhält, wenn sich ein annehmbarer Gatte für sie findet. Ich gehe lieber nach Bergen als an einen andern Ort, und um so lieber, weil wir uns dann so nahe sind, wie es, seit wir das Elternhaus verlassen haben, nie der Fall gewesen ist. Und wenn Dietwin Gerlint heiratet, so haben sie einen schönen Grundbesitz, der, wie auch das, was sie von uns noch erben, bei unserem Geschlechte bleibt. Das ist sehr schön. Nun aber kommt das Bedenken. Mit den Gütern können wir schalten, aber mit der Ehe nicht. Ich habe einen alten, frommen Spruch gehört: Ehen werden in dem Himmel geschlossen. Es mußten sehr viele Erfahrungen über diese Angelegenheit gemacht worden sein, sonst wäre der Spruch nicht entstanden. Und ich selber bin eine solche Erfahrung. Wer hätte gedacht, daß Erwin mein Gatte werden würde, als er mit der Gräfin Erklam die Brautbesuche in der Gegend machte? Und doch ist er es geworden. Ein wunderbarer Umstand mußte eine frühere, geheime, nie ganz erloschene Liebe des Fräuleins, die sie ihren Eltern zum Opfer bringen wollte, enthüllen, wunderbare Umstände mußten die Verbindung des Fräuleins mit dem früheren Geliebten ermöglichen und Erwin von seinem Opfer erlösen. Eine Schrift mußte in dem langen Rechtsstreite zwischen Erwins und unsern Eltern gefunden werden, die den Streit günstig für uns entschied. Erwin mußte die Schrift bringen, er mußte so zum ersten Male in unser Haus kommen, und das Herz meines Vaters für sich, den armen Mann, rühren, und dann mußten sich erst noch sein und mein Gemüt in Liebe zusammen finden. Und bist nicht du selbst in jener Zeit noch heftig gegen die Verbindung gewesen? Aber sie wurde geschlossen, und ist so glücklich gewesen, daß kaum eine glücklichere auf der Welt sein kann. Ich werde diesen Mann nie vergessen, und werde, so lange ich noch lebe, nie ein anderes Kleid tragen als ein schwarzes oder <pb n="728" facs="#f0012"/>
+graues. Und die gute Agathe trägt sie auch mit mir, obwohl sie sich andere und schönere anschaffen könnte.«</p>
+            <p rendition="#et">»Und werden alle Ehen in dem Himmel geschlossen, Gerlint?« fragte Dietwin.</p>
+            <p rendition="#et">»Nicht alle«, antwortete Gerlint; »dann sind sie aber völlig keine Ehen. Als die Eltern Erwins ihn mit seiner Braut verbinden wollten, wäre es eine Ehe geworden, die nicht in dem Himmel geschlossen worden wäre; der Himmel verhinderte sie, und schloß dafür eine andere. Ob nun der Himmel die Ehe zwischen Dietwin und Gerlint schließen wird, weiß ich nicht. Ich habe einige Furcht darüber. Du weißt, wie beide Gemüter heftig sind, und heftige Gemüter sträuben sich gegen einander, weil keines das andere sänftigt und zu sich zieht. Haben sie nicht schon damals, da er ein Knabe und sie ein Kind war, immer gezankt? Sie schrie und tobte mit den Füßlein gegen seinen Willen, und er zerstörte ihre Spielsachen und höhnte sie, wenn sie sich nicht fügte. Da er größer wurde, und sie durch einen Bach trug, setzte er sie plötzlich in das Wasser nieder, weil sie ungebärdig war. Die Kinder der Nachbarn und des Dorfes, die ich gerne zu ihnen gesellte, mußten sich ihm unterwerfen, Gerlint tat es nie, und sammelte selber solche um sich, die sich ihr unterwarfen, und wenn zwischen den zwei Scharen im Spiele ein Kampf war, artete er stets in Ernst aus. Du erinnerst dich des Schreckens, da er das Mädchen einmal bei dem Nacken faßte, es zu Boden warf, und mit dem Haupte so lange in das Gras hielt, bis es sich nicht mehr regte, und wie er es dann los ließ, und wie sie aufsprang, ein Messer von unserem Gartentische nahm und nach ihm stach, und wie er die Wunde von uns nicht untersuchen ließ, den Hemdärmel zurückstreifte, und den Arm, von dem Blut herunter rann, wie im Kriegsruhme empor hielt. Sie war blaß geworden, er aber ging schweigend davon. Und als einmal im Sommer Gerlint und die Mädchen <pb n="729" facs="#f0013"/>
+eine seidene Schnur über die Brücke zogen, und keinen der jungen Männer hinüber ließen, wenn er sich nicht durch eine Blume oder ein anderes sinniges Zeichen löste, warf er sich in den Kleidern in das Wasser und schwamm neben der Brücke hinüber. Du nahmst ihn dann zu dir, und gabst ihn später in die Stadtschulen. Ich gab sie in die Anstalt. Und wenn sie dann nach Jahren zusammen kamen, selbst in der Zeit, als er schon in dem Kriege gewesen war, und jeden Mann in unserer Gegend übertraf, und als sie so schön geworden war, daß sich kein Mädchen mit ihr vergleichen konnte, waren sie da jemals anders als schroff gegen einander? Und war das nicht die Ursache, daß ich sie um zwei Jahre länger in der Anstalt ließ, als ihre Erziehung forderte? Nach diesen Erfahrungen habe ich Zweifel, ob da eine Ehe in dem Himmel geschlossen werden wird?«</p>
+            <p rendition="#et">»Könnten wir nicht dem Himmel ein wenig helfen?« fragte Dietwin.</p>
+            <p rendition="#et">»Du redest wieder freventlich, mein Bruder, wie manchmal im Übermute«, antwortete Gerlint; »wie kann ein sterblicher Mensch dem Himmel helfen?«</p>
+            <p rendition="#et">»Nun, nicht geradezu helfen,« erwiderte Dietwin, »sondern uns mit unsern Kräften helfen, daß uns Gott hilft. Unser Hauptmann Grünau pflegte zu sagen: ›Hilf Gott, daß er dir hilft.‹«</p>
+            <p rendition="#et">»Du glaubst an meinen Spruch nicht, Dietwin?« sagte Gerlint.</p>
+            <p rendition="#et">»Ich glaube daran,« entgegnete Dietwin, »und will dir gleich die Beweise sagen. Ich habe über die Dinge nachgedacht, von denen du gesprochen hast; ich habe aber auch andere Dinge entdeckt, durch die der Himmel günstig zu uns redet. Höre an. Unser Geschlecht hat wunderbar lange gedauert. Zur Zeit des ersten Hohenstaufen, Konrad, hat einer der Unsern, Dietwin, der Kardinal, diesen König gekrönt. Dietwin ist immer ein Name in unserem <pb n="730" facs="#f0014"/>
+Stamme gewesen, so wie Gerlint. Und der Stamm, wenn er schon im Erlöschen war, hat sich stets wunderbar erneuert. Es ist wunderbar, daß wir zwei, du und ich, an dem nämlichen Monatstage geboren worden sind, nur du um sechs Jahre später. Und heißen wir nicht Dietwin und Gerlint? Und ist es nicht wunderbar, daß die zwei jüngeren Dietwin und Gerlint, wenn sie auch nicht an dem nämlichen Monatstage geboren worden sind, doch gerade auch wieder um sechs Jahre von einander abstehen? Und hat nicht unser Bruder Jakob, da ihm ein Sohn geboren wurde, ihn nach mir Dietwin genannt, zu einer Zeit, da er nicht ahnen konnte, daß dieser Dietwin nach dem Tode seiner Eltern an mir seinen zweiten Vater wird finden müssen? Und ist es nicht mit der Tochter des Bruders Archibald der nämliche Fall, die nach dir genannt wurde, die du der Verwaisten jetzt auch eine Mutter bist? Viel wunderbarer aber ist es noch, daß in den Zügen des Angesichtes und in der Gestalt die Nichte dir und der Neffe mir gleicht. Der Graf Arkan hat ihn neulich für mich gehalten. Wenn da nicht der Finger des Himmels ist, wo ist er dann noch? Und gerade eine Eingebung des Himmels könnte es auch sein, daß du die verwaisten Kinder zuerst in deinem Schlosse Biberau erzogen hast, daß dann der Knabe bei mir und das Mädchen bei dir war, und daß in uns der nämliche Gedanke entstand, sie einmal mit einander zu verheiraten, welchen Gedanken wir lange heimlich trugen, ehe wir ihn einander mitteilten. Ich will noch von einem Umstande reden. Du bist in deinem Leben nie krank gewesen, ich bin nie krank gewesen, und Dietwin und Gerlint sind auch nie krank gewesen, und mögen sie es nie werden, bis sie unser Alter erreicht haben, ja darüber hinaus sind. Und was die Heftigkeit der beiden jungen Leute anbelangt, so weißt du wohl, daß in unserem ganzen Stamme fast ohne Ausnahme die nämliche Eigenschaft besteht, bei Männern <pb n="731" facs="#f0015"/>
+wie bei Frauen. Unser Leben hat drei Abteilungen. In der ersten Abteilung herrscht die Heftigkeit, dann kommen allerlei Einbildungen, und dann erscheint eine große Sanftmut und Gutmütigkeit, die bis ins hohe Alter andauert. Sind wir beide doch auch nicht von dem Schicksale unseres Geschlechtes ausgeschlossen gewesen. Ich rede Dicht davon, da ich ein junger Soldat war; ihr habt mich genug getadelt. Dann, als ich das Schwert weglegte, machte ich einen Plan, den ewigen Frieden zu gründen, und machte Reisen in aller Herren Länder, um ihn ins Werk zu setzen. Und nun glaube ich, endlich in die dritte Abteilung eingerückt zu sein.«</p>
+            <p rendition="#et">»Ja, lieber Bruder,« sagte Gerlint, »du bist jetzt sanft und gut, verschenkst Rittergüter und Perlen.«</p>
+            <p rendition="#et">»Rittergüter und Perlen verschenke ich nur an gute Schwestern und hoffnungsvolle Neffen«, antwortete Dietwin. »Und was dich betrifft, teure Schwester, verbrachtest du auch ein Weilchen in den ersten zwei Abteilungen unseres Stammes und bist jetzt, obgleich um so viel jünger als ich, in der dritten Abteilung, und verschenkst auch Güter und kostbare Sachen.«</p>
+            <p rendition="#et">»Nun, ich bestrebe mich, so gütig und einfach zu sein, als es möglich ist,«sagte Gerlint, »nehme meinen Verstand zusammen, und hoffe, so zu bleiben. Güter und Kostbarkeiten verschenke ich auch nicht an alle Menschen. Ich habe auch an die Dinge, von denen du gesprochen hast, schon sehr oft gedacht, und habe ihre Merkwürdigkeit gefunden. Wunderbar sind die Namen der Kinder, wunderbar ihr gleicher Alterunterschied, wunderbar die Verhältnisse, die sie zu uns gebracht haben, wunderbar ihre Ähnlichkeit mit uns, und am wunderbarsten, daß wir beide unabhängig von einander den Gedanken ihrer Verehlichung faßten. Weil nun die Sache diese zwei Seiten hat, was meinst du denn, daß wir tun sollen, um nach dem Spruche deines Hauptmannes Gott zu helfen, <pb n="732" facs="#f0016"/>
+daß er uns hilft. Sollen wir etwa die Kinder einander empfehlen?«</p>
+            <p rendition="#et">»Du scherzest, Gerlint,« antwortete Dietwin, »das wäre eine Ehe, die nicht in dem Himmel geschlossen ist, und wäre wie bei uns Soldaten ein Gebet auf Befehl. Ich glaube, ich bin unvermählt geblieben, weil man mir so viele Mädchen so sehr empfohlen hat.«</p>
+            <p rendition="#et">»Siehst du also,« sagte Gerlint, »wie mißlich es ist, dem Himmel helfen zu wollen. Und darum kann ich mich auch mit dem Gedanken gar nicht befreunden. Oder meinst du, daß wir die Empfehlung nur so, wie man zu sagen pflegt, auf Umwegen versuchen sollen?«</p>
+            <p rendition="#et">»Die werden bemerkt,« entgegnete Dietwin, »und dann ist es erst recht nichts mit der Sache. Ich meine nur so: Dietwin ist jetzt in Weidenbach, er kommt sehr oft zu dir nach Biberau und sehr oft zu mir nach Weiden. Gerlints Erziehung ist, wie du sagst, vollendet; es ist nun nichts natürlicher, als daß sie zu dir unter deine mütterliche Aufsicht kommt. So sehen sich die jungen Leute dann sehr oft. Das genügt für den Anfang. Wer weiß es, wie sie sich jetzt betrachten. Beide sind von Bedeutung, und müssen es bemerken. Dietwin scheint schon in die zweite Abteilung unseres Stammwesens eingetreten zu sein; er glaubt, alle Erdstellen, unter denen Quellen verborgen sind, zu kennen, und hat in seinem Verwalter einen großen Musikgeist entdeckt. Gerlint wird auch allerlei Sänftigungen und Milderungen aus der Anstalt mitgebracht haben. Und wenn er in der Abteilung der Einbildungen ist, so nützt uns das; denn es bedarf nur eines Funkens, und er setzt alle seine Einbildungen für Gerlint in Flammen, und wenn Gerlint auch gelassener ist, so muß sie den Unterschied zwischen ihm und andern Männern sehen, und es können mannigfaltige Gedanken in ihr Herz kommen. Und so lassen wir die Dinge gehen, und erwarten, was sich ereignen wird.«</p>
+            <p rendition="#et">
+               <pb n="733" facs="#f0017"/>
+»Wenn nur dein Neffe nicht schon Einbildungen hat,« sagte Gerlint, »es ist ein Gerücht zu mir herein gekommen, er habe eine Herzenskönigin, der er es nicht sagt, und zu der auch kein anderer sein Auge erheben darf.«</p>
+            <p rendition="#et">»Ich habe auch davon gehört,« antwortete Dietwin, »glaube es aber nicht, wenn er mir es nicht selber sagt. Und wenn es ist, so ist es in der ersten Abteilung gewesen, und solche Schäume zerstäuben und zerrinnen; denn sonst hätte ich jedes Mädchen, für das ich mich vielleicht geschlagen hätte, auch heiraten müssen. Die Zeit bringt neue Dinge, und so könnte wohl auch Neigung aus Abneigung hervorgehen, die übrigens bei Dietwin und Gerlint nicht so arg gewesen sind; denn du erinnerst dich, daß, wenn irgend jemand einem von ihnen gegen das andere helfen wollte, sie es nicht litten.«</p>
+            <p rendition="#et">»Weil sie beide herrschsüchtig sind, und die alleinige Macht haben wollen«, sagte Gerlint.</p>
+            <p rendition="#et">»Nun, das werden sie an einander achten, und das wird sie reizen, daß jedes versucht, das andere zu unterwerfen, und so werden sie beide unterworfen werden«, sagte Dietwin.</p>
+            <p rendition="#et">»Nun, ich will Gerlint kommen lassen«, antwortete die Schwester; »es ist ja ohne dem nötig, daß ich ihre Erziehung fortsetze, soweit es meine Gaben vermögen. Wenn aber dann die Kinder anders als sich gegenseitig wählen, und die Wahl eine vernünftige ist, dürften wir ihnen nicht entgegentreten.«</p>
+            <p rendition="#et">»In Gottes Namen, dann sind diese Ehen im Himmel geschlossen«, sagte Dietwin.</p>
+            <p rendition="#et">»Ja, dann sind sie in dem Himmel geschlossen«, erwiderte Gerlint.</p>
+            <p rendition="#et">»Und so ist denn auch, wenn du mir nichts mehr zu eröffnen hast, unser Frühlingsreichstag geschlossen«, sagte Dietwin.</p>
+            <p rendition="#et">»Er ist geschlossen,« sprach Gerlint, »und habe Dank dafür, <pb n="734" facs="#f0018"/>
+geliebter Bruder, daß du auch heute wieder gekommen bist, den Tag mit mir nach meiner Weise zu feiern. Du bist ja immer gut und lässest mich nach meiner Art leben, und schenkest mir manchen Tag und manche Stunde.«</p>
+            <p rendition="#et">»Ich ehre dich und deine Art zu leben,« sagte Dietwin, »wenn sie auch in manchen Stücken anders ist als die der andern.«</p>
+            <p rendition="#et">»Manche werden sie auffällig finden,« erwiderte Gerlint, »und manche werden sie tadeln. Aber mir tut es wohl, in der Vergangenheit zu leben, und die Weise in Ehren zu halten, die unsern Vorfahren würdig und sinnvoll erschienen ist. Vielleicht werden auch die, die nach uns kommen, sie ehren; vielleicht aber werden auch sie ihren Blick mehr nach den Gestaltungen der Zukunft richten. Mögen sie es, und mögen jene Gestaltungen der Zukunft nur eben so würdig und sinnvoll sein, wie die der Vergangenheit es waren.«</p>
+            <p rendition="#et">»Möge es so sein«, sagte Dietwin.</p>
+            <p rendition="#et">Dann standen die Geschwister auf, und küßten sich noch einmal recht herzlich.</p>
+            <p rendition="#et">Hierauf schellte Gerlint mit einer Glocke. Ein Diener trat ein.</p>
+            <p rendition="#et">»Ist etwas zu berichten, oder ist jemand gekommen?« fragte sie.</p>
+            <p rendition="#et">»Der junge Herr Baron wartet schon lange, und ein Brief und ein Päckchen von dem Fräulein ist da«, sagte der Diener.</p>
+            <p rendition="#et">»So bringe den Brief und das Päckchen, und sage dem Herrn Baron, er möge noch ein wenig Geduld haben«, befahl Gerlint.</p>
+            <p rendition="#et">Der Diener ging fort, kam bald wieder, und brachte auf einem silbernen Teller einen Brief und ein Päckchen in grauer Seide.</p>
+            <p rendition="#et">Gerlint nahm beides, und der Diener entfernte sich.</p>
+            <p rendition="#et">
+               <pb n="735" facs="#f0019"/>
+Die Geschwister setzten sich wieder.</p>
+            <p rendition="#et">»So vergißt denn das gute Kind seine Wünsche und seine Gaben nie, und immer treffen sie zu gleicher Stunde ein«, sagte Gerlint; »nun, ich hoffe, im nächsten Frühlinge wird sie persönlich an dem Feste Teil nehmen, und stets hat sie die Zartheit, meine Farbe zur Einhüllung zu wählen.«</p>
+            <p rendition="#et">»Möge sie dem nächsten Feste schon als Gattin nach unserem Wunsche beiwohnen«, sprach Dietwin.</p>
+            <p rendition="#et">»Das wäre rasch«, sagte Gerlint.</p>
+            <p rendition="#et">»Alle Himmelsgaben erscheinen rasch«, entgegnete Dietwin Gerlint öffnete den Briefumschlag, und nahm zwei Briefe heraus.</p>
+            <p rendition="#et">»Da ist der an dich«, sagte sie zu dem Bruder.</p>
+            <p rendition="#et">»Ich lasse dem deinen wie gewöhnlich den Vorzug«, sprach Dietwin.</p>
+            <p rendition="#et">»So höre«, sagte Gerlint, und las den Brief.</p>
+            <p rendition="#et">»Hochverehrte, geliebte Tante! Nimm auch heuer wieder meine schwachen Worte zu dem Feste, zu welchem ich, an die Satzungen der Anstalt gebunden, nicht eilen kann. Philipp wird sie um zehn Uhr über geben. Zuerst muß ich berichten, daß ich heute wieder im heiligen Gottesdienste für Dich gebetet habe. Ich habe Gott um alles Gute für Dich gebeten, dessen nur immer ein Mensch in Deiner Stelle teilhaftig werden kann. Ich habe auch wieder das Gelübde getan, daß ich Dir jedes Opfer bringen werde, das notwendig sein sollte. Dann sage ich Dir abermals meinen tiefsten Dank für die unaussprechliche Mutterliebe, die Du mir schon so lange zuwendest, und ich könnte meinen Dank nicht besser erweisen, als wenn mein Gelübde wahr würde. Ich suche mich Deiner ferneren Liebe immer würdiger zu machen, und bin ich Deiner so großen Liebe auch nicht wert, so gib sie mir, ich bitte, als Geschenk, wie Du sie mir bisher als Geschenk <pb n="736" facs="#f0020"/>
+gegeben hast. Lege das kleine Ding, welches in dem Päckchen mitfolgt, zu anderen ähnlichen Sachen, und habe eine kleine Freude daran. Ich habe es selber ganz allein gearbeitet. Denke in einer Minute dieses Tages an mich, die alle Minuten desselben an Dich denkt. Und alle Minuten aller Tage, die für mich noch folgen werden, bleibe ich die Dich liebende und verehrende und Dir dankende Gerlint.«</p>
+            <p rendition="#et">»Nun höre mich«, sagte Dietwin, und las:</p>
+            <p rendition="#et">»Herzlieber Oheim! Ich sende Dir wieder in dem Päckchen der Tante den Brief. Nimm ihn freundlich an. Ich bitte den Himmel, daß er Dein liebes Haupt segne und bewahre, daß er es eine lange Reihe von Jahren erhalte, und daß er Dir gebe, was Dir lieb ist. Ich lebe in die Erkenntnis Deiner Güte hinein, und danke Dir mehr, als ich Dir in den früheren Jahren zu danken vermocht habe, weil ich unvernünftiger war. Gib mir auch in der Zukunft Deine Neigung, die ich erst verdienen muß. Ich will dies zu erreichen ernstlich bestrebt sein. Nimm die Arbeit, welche ich Dir verfertigt habe, wieder gütig an, und denke dabei unter Deinen vielen Sorgen auch zuweilen an Deine in Liebe ergebene Nichte Gerlint.«</p>
+            <p rendition="#et">»Nun, die Briefe sind wieder artig«, sagte Dietwin.</p>
+            <p rendition="#et">»Wie sie das in der Anstalt lernen«, sagte Gerlint. »Aber ich bin nur die hochverehrte, geliebte Tante, und du bist der herzliebe Oheim.«</p>
+            <p rendition="#et">»Närrchen, mit welchem Dinge ist man denn die geliebte als auch mit dem Herzen?« sagte Dietwin. »Mache nun das Seidenpäckchen auf!«</p>
+            <p rendition="#et">Gerlint öffnete das Päckchen. Zwei sehr kleine Gegenstände kamen aus der Seide. Der eine war ein Stückchen schmales Seidenband, oder eigentlich waren es zwei Seidenbänder, die über einander befestigt waren: ein schwarzes und ein aschgraues. Auf dem schwarzen war ein winziges hinlaufendes Rosengeschlinge, auf dem grauen eines <pb n="737" facs="#f0021"/>
+aus Vergißmeinnicht. Beides war Seidenstickerei. Ein Papierstreifen sagte: ›Der lieben Tante.‹</p>
+            <p rendition="#et">»Das habe ich noch nicht in dieser Kleinheit und Feinheit gesehen,« sagte Gerlint, »und diese Geduld von dem heftigen Mädchen.«</p>
+            <p rendition="#et">»Aber wozu denn dieses Streifchen Band?« fragte der Bruder.</p>
+            <p rendition="#et">»Es ist unter allen Gaben, die sie mir je geschickt hat, die zarteste,« sagte die Schwester, »es ist ein Schlüsselbändchen für den Schlüssel des Ebenholzkästchens, das in der Wand meines Zimmers ist, und in dem alle meine andern Schlüssel hängen. Du weißt, ich trage das Schlüsselchen, um es nicht zu verlegen, immer mittelst eines Bandes an meinem Kleide befestigt, und da hat sie zu ihrem Bande sinnvoll die graue und schwarze Farbe je nach der Farbe meiner Kleider gewählt. Ich will heute noch die graue Seide zu meinem grauen Kleide tragen.«</p>
+            <p rendition="#et">»Tue das, Schwester,« sagte Dietwin, »und zeige mir nun auch das andere Ding.«</p>
+            <p rendition="#et">Gerlint wickelte aus feinem Papiere ein Geldtäschchen heraus, auf dessen einer Seite unter Glas auf weißer Seide ein sehr kleiner Lorbeerkranz war, eben so zart in Gold gestickt wie die Blumen auf dem Bande in Seide. Ein Papierstreifchen enthielt die Worte: ›Dem lieben Oheime.‹</p>
+            <p rendition="#et">»Da muß man völlig betroffen sein,« sagte Gerlint, »sie hat keine Ahnung von dem gehabt, was ich dir zu deinem heutigen Geburtstage bestimmt hatte. Welches merkwürdige Zusammentreffen!«</p>
+            <p rendition="#et">»Gib das Sächelchen,« sagte Dietwin, »siehe, so niedlich, und die Lage der Blätter wie bei dir. Ist das nicht wieder ein Zeichen?«</p>
+            <p rendition="#et">»Möge es sein, und möge alles gut enden«, sagte Gerlint.</p>
+            <p rendition="#et">»Es wird, es wird,« versetzte Dietwin, »wir werden uns bei dem Mädchen schön bedanken, und nun lasse den <pb n="738" facs="#f0022"/>
+Sausemann kommen, sonst wird er vollständig unwirsch.« Gerlint schellte mit der Glocke, ein Diener kam, und sie sagte: »Wir lassen den Herrn Baron in mein Wohnzimmer bitten.«</p>
+            <p rendition="#et">Der Diener ging, und gleich darauf kam Dietwin, der Neffe, in das Gemach. Einer seiner Leute, festlich gekleidet, trug ihm ein längliches Kästchen aus Palisanderholz auf dem Arme nach. Der Neffe winkte, der Mann stellte das Kästchen auf einen Tisch, und verließ das Zimmer.</p>
+            <p rendition="#et">Dann näherte sich der Neffe ehrerbietig der Tante, küßte ihre Hand, und faßte dann mit gleicher Ehrerbietung die Hand des Oheims. Hierauf trat er ein wenig zurück, und sprach: »Weil es schon der Brauch in dem Schlosse Biberau ist, daß zum Geburtstags-Glückwunsche der Herrin des Schlosses und zum Geburtstags-Glückwunsche ihres Bruders, der den gleichen Tag mit ihr in dem Schlosse feiert, niemand früher vorgelassen wird als an dem Tage selber, auch der leibliche Neffe nicht, so bin ich beim Anbruche des Tages von Weidenbach weggefahren, um der erste hier zu sein, und ich bin der erste gewesen, nur ein Brief meiner lieben Muhme Gerlint hat mir den Rang abgelaufen. Hochverehrte Tante, hochverehrter Oheim, alles Glück, allen Segen, alles Heil bringe dieser Tag, und es sollen ihm lauter solche Tage folgen. Er ist kein gewöhnlicher Geburtstag, heute ist er ein Abschnittsgeburtstag, der fünfzigste des geliebten Oheims. Mögen noch weit mehr als fünfzig kommen, und möge Tante und Oheim in traulicher Eintracht fortan beglückt sein, wie ihre Bilder traulich in dem Saale neben einander hängen. Mir ist von beiden unverdiente Güte zu Teil geworden, und wird mir noch zu Teil, ich sage den tausendfachen, aber verdienten Dank dafür. Ich werde alle Mühe anwenden, meine Fehler zu verringern, daß ich vor künftiger Güte nicht erröten darf.«</p>
+            <p rendition="#et">
+               <pb n="739" facs="#f0023"/>
+Nach diesen Worten küßte er wieder der Tante die Hand, und reichte dem Oheim seine Rechte.</p>
+            <p rendition="#et">Hierauf sagte Gerlint: »Ich danke dir für deinen Wunsch, Dietwin, ich weiß, daß du mir alles Gute zuwenden möchtest. Es ist aber schon einiges genug, und in ein ganzes Jahrhundert hinein zu leben, wie du in Aussicht stellst, dürfte für mich alte Frau eher eine Strafe als ein Glück sein.«</p>
+            <p rendition="#et">»Die in solcher Schönheit blüht, ist mit hundert Jahren noch nicht alt«, unterbrach sie der Neffe.</p>
+            <p rendition="#et">»Gewöhne dir nur nicht die frevlen Reden deines Oheims an,« sagte Gerlint, »und was deine Muhme anbelangt, so haben wir ihren Brief zuerst vorgenommen, weil er abgetan sein muß, ehe die Leute kommen, und von den Leuten bist du immer der erste und wirst in meiner Wohnstube empfangen. Ich sage dir noch einmal den herzlichsten Dank für alle deine Wünsche.«</p>
+            <p rendition="#et">»Ich sage dir auch vom Grunde des Herzens meinen Dank,« sagte der Oheim, »und es freut mich, daß du deine Fehler verringern willst, und unsere Güte gegen dich wird nicht aufhören, sie ist größer, als du glaubst. Und das weißt du auch, daß ich heute fünfzig Jahre alt bin?«</p>
+            <p rendition="#et">»Ich habe sie gezählt«, sagte der Neffe.</p>
+            <p rendition="#et">»Poche nicht, du wirst auch so alt werden, ehe du es denkst«, entgegnete der Oheim.</p>
+            <p rendition="#et">»Wenn ich nur dann auch so sehr einem Dreißiger ähnlich sehe, wie du, Oheim«, sagte der Neffe.</p>
+            <p rendition="#et">»Trinke nicht viel Wein, enthalte dich der Leidenschaften, und sei mäßig, dann wird es bei dir auch so sein,« sprach der Oheim, »unser Geschlecht hat Ausdauer und Kraft.«</p>
+            <p rendition="#et">»Ich trinke, wie du weißt, nicht viel Wein,« antwortete der Neffe, »bin auch sonst mäßig, habe gar keine Leidenschaften, nur Gefühle, und da sind die für dich und die Tante die mächtigsten.«</p>
+            <pb n="740" facs="#f0024"/>
+            <p rendition="#et">»So wirst du sehr alt werden, und mußt dann die Tante oder mich heiraten«, sagte der Oheim. »Und im übrigen danke ich dir auch noch einmal von ganzem Herzen für deine Wünsche.«</p>
+            <p rendition="#et">»Möge es dir gefällig sein, das Kästchen zu öffnen, liebe Tante,« sagte der Neffe, »ich habe es gewagt, dir auch ein Angebinde zu bringen.«</p>
+            <p rendition="#et">Mit diesen Worten reichte er der Tante ein kleines Schlüsselchen. Dann rückte er eines ihrer Arbeitstischchen vor sie, und stellte das Kästchen darauf. Gerlint drehte den Schlüssel, schlug den Deckel empor, löste das weiße, feine Papier auseinander, das sich zeigte, und rief: »Ach, die unvergleichlichen Edelmarderbälge!«</p>
+            <p rendition="#et">»Es ist nicht etwa der oberste der schönste, wie Geschäftsleute die Dinge gerne legen,« sagte der Neffe, »sie sind alle gleich.«</p>
+            <p rendition="#et">»Ich habe nie so schöne gesehen«, sagte die Tante.</p>
+            <p rendition="#et">»Es ist nicht leicht möglich, sie im Verkehre zu bekommen,« antwortete der Neffe, »ich habe sie in der Zeit gesammelt, und aus hundert Stücken diese zwanzig für dich ausgelesen, daß du von ihnen wieder nur die vornehmsten Teile zu einem Pelze für dich verwendest.«</p>
+            <p rendition="#et">»Zwanzig sind zu viel«, sagte die Tante.</p>
+            <p rendition="#et">»Es sind eben zwanzig, und nimm die zwanzig«, sagte der Neffe.</p>
+            <p rendition="#et">»Ich nehme sie«, antwortete die Tante.</p>
+            <p rendition="#et">Und nun legte man die Stücke heraus, und betrachtete sie. Dieselben waren wirklich alle gleich und herrlich. Und nach vielfacher Bewunderung legte man sie wieder zierlich in das Kästchen.</p>
+            <p rendition="#et">»Das ist ein adeliges Geschenk,« sagte die Tante, »der edle Stoff in dem edlen Gefäße. Was werde ich dir geben können?«</p>
+            <p rendition="#et">»Ich fordere etwas sehr Hohes,« antwortete der Neffe, »die Dauer deiner Neigung zu mir.«</p>
+            <p rendition="#et">
+               <pb n="741" facs="#f0025"/>
+»Die hast du ja ohne die Bälge, du unvernünftiger Mensch«, sagte die Tante.</p>
+            <p rendition="#et">»So bleiben die Bälge ein Überschuß«, entgegnete der Neffe. »Was ich dir gebracht habe, teurer Oheim, konnte ich nicht in die Stabe tragen lassen, die Tante hätte es nicht zugegeben. Es sind die zwei Rappenfüllen, an denen, wie du neulich gesagt hast, kein weißes Härchen ist. Ich habe sie für dich auferzogen, und habe mich ein wenig mit ihrer Erziehung abgegeben. Und damit die Gaben zu dem heutigen Tage doch in dem Schlosse vereinigt sind, stehen sie unten in dem Stalle der Pferdejugend. Habe eine kleine Freude an ihnen.«</p>
+            <p rendition="#et">»Eine große habe ich, du Narr,« sagte der Oheim, »du machst heute Geschenke, wie die Herzoge und Könige der alten Zeit: Pferde und Pelzwerk. Und verlangst du von mir auch die Neigung als Gegengeschenk?«</p>
+            <p rendition="#et">»Freilich, mein verehrter Oheim«, antwortete der Neffe.</p>
+            <p rendition="#et">»Nun, die hast du, und meinen Dank dazu,« sagte der Oheim, »und es wird sich schon sonst auch noch etwas finden. Die Pferde freuen mich, du wirst sehen, wie die werden eingeschult sein, und Leiber werden sie haben wie die feinsten Schlangen.«</p>
+            <p rendition="#et">»Das glaube ich,« antwortete der Neffe, »ich werde indessen die Braunen heranziehen, und wir werden wetteifern.«</p>
+            <p rendition="#et">»Und wer die beste Erziehung geliefert hat, fahrt mich mit dem neuen Pelze im Schlitten«, sagte die Tante.</p>
+            <p rendition="#et">»Die Füllen müssen wir auch besehen wie die Marderfelle,« sagte der Oheim, »lasse sie in den Hof bringen.«</p>
+            <p rendition="#et">»Ich führe sie vor«, rief der Neffe.</p>
+            <p rendition="#et">Er nahm seinen Hut, und eilte aus dem Zimmer.</p>
+            <p rendition="#et">Die Geschwister gingen in den großen Schloßhof hinab.</p>
+            <p rendition="#et">Als sie dort angekommen waren, führte der Neffe an purpurroten, silberverzierten Zäumen die zwei schwarzen Pferdlein hervor, und führte sie vor Oheim und Tante.</p>
+            <p rendition="#et">
+               <pb n="742" facs="#f0026"/>
+»Sie sind wahrhaftig weit schöner geworden, als sie waren, da ich sie zum letzten Male sah«, rief der Oheim.</p>
+            <p rendition="#et">»Und manierlich sind sie und sittig wie Pagen«, entgegnete der Neffe.</p>
+            <p rendition="#et">Er ließ sie Bewegungen machen, wie sie solchen Tieren in solchem Alter angeboren und angebildet sind.</p>
+            <p rendition="#et">»Es ist schon gut,« sagte der Oheim, »und ich danke dir noch einmal. Das ist ein fünfzigster Geburtstag! Lasse dich umhalsen, du heilloser Flederwisch.«</p>
+            <p rendition="#et">Nach diesen Worten nahm er den Neffen bei dem Haupte und küßte ihn auf den Mund und auf die Wange.</p>
+            <p rendition="#et">»Nun fort mit ihnen, da kommen sie schon in hellen Haufen«, sagte er dann.</p>
+            <p rendition="#et">Man hörte ein entferntes Wagenrollen gegen den Hügel des Schlosses heran.</p>
+            <p rendition="#et">»Komme, Gerlint,« fuhr er fort, »steige zu dem Saale empor, und rüste dich, die Huldigungen zu empfangen.«</p>
+            <p rendition="#et">Er reichte seiner Schwester den Arm, sie nahm ihn, und er führte sie die Treppe in das Schloß hinan.</p>
+            <p rendition="#et">Dietwin, der Neffe, gab die Zügel der Pferdchen dem Reitknechte und folgte den beiden Geschwistern.</p>
+            <p rendition="#et">Sie gingen jetzt in den großen Saal. Hier betrachteten sie noch ein Weilchen die zwei Bilder der Geschwister, die neben einander an der Wand hingen, sehr schöne Gestalten, in den Gewändern der früheren Zeit gemalt. Die Tante schüttelte lächelnd den Kopf, der Oheim war sehr zufrieden.</p>
+            <p rendition="#et">Dann setzte sich Gerlint in ihren großen Prunksessel, und die beiden Dietwin nahmen auf anderen Stühlen ihre Plätze ein.</p>
+            <p rendition="#et">Sofort hörte man auch das Wagenrollen im Schloßhofe, und die Diener meldeten bald darauf die, welche angekommen waren.</p>
+            <p rendition="#et">Sie wurden angenommen, und traten durch die Flügeltüren herein. Kurze Zeit darauf wurden auch andere gemeldet, <pb n="743" facs="#f0027"/>
+und kamen in den Saal; diesen folgten wieder mehrere, und so ging es eine Weile fort. Es waren die Bewohner der umliegenden Gegenden, die ihr größerer Grundbesitz und ihre Lebensweise geeignet machten, mit der Herrin des Schlosses Umgang zu pflegen. Sie sagten ihre Wünsche zu dem Geburtsfeste zuerst der Schloßfrau, und dann dem Bruder derselben. Dann nahmen sie auf Stühlen, die in mehreren Kreisen herum standen, Platz, und es wurden nun Gespräche über verschiedene Gegenstände, und man teilte sich allerlei mit, was man der Mitteilung wert erachtete.</p>
+            <p rendition="#et">Einige fuhren bald wieder fort, andere blieben bei dem Festmahle, zu dem an diesem Tage jeder, der sich einfand, ein geladener Gast war.</p>
+            <p rendition="#et">Da die Eßglocke tönte, gingen die Anwesenden in den Speisesaal, und verzehrten ein heiteres Mahl.</p>
+            <p rendition="#et">Für alle die Dienerschaft war in der großen, unteren Schloßhalle gedeckt, und es fehlte nicht an dem feinen Weine, um den der Oheim für sie gebeten hatte.</p>
+            <p rendition="#et">Nach dem Mahle erging man sich teils in dem Garten, teils in den Wirtschaftsgebäuden, teils in dem Schloßwalde, teils brachte man die Zeit auch wieder in dem großen Saale zu.</p>
+            <p rendition="#et">Als die Abenddämmerung kam, hatten alle Gäste bis auf den Oheim und Neffen Abschied genommen.</p>
+            <p rendition="#et">Des andern Morgens schickte der Oheim die Füllen nach Weiden. Dann besahen die Geschwister und der Neffe die Dinge im Schlosse und in seiner nächsten Umgebung, und besprachen sich, wie man in den nächsten Tagen das Entferntere besuchen, und wie man in die am weitesten gelegenen Werke und Gebreite fahren wolle. Die Ausführung des Besprochenen nahm fünf Tage in Anspruch.</p>
+            <p rendition="#et">Nach dem Verlaufe derselben fuhr der Oheim mit seinen Schimmeln gegen Weiden, der Neffe mit seinen Braunen gegen Weidenbach zurück.</p>
+            <pb n="744" facs="#f0028"/>
+         </div>
+         <div xml:id="Stifter-Adalber-d1e61149" type="chapter">
+            <head>2</head>
+            <p>In Folge der Verabredung mit ihrem Bruder schrieb Gerlint, die Tante, an die Vorsteherin der Anstalt, in welcher sich Gerlint, ihre Nichte, befand, so wie auch an die Nichte selber. Und am letzten Tage des Monates Mai kam die Nichte in das Schloß Biberau.</p>
+            <p rendition="#et">Zwei sehr schöne, dunkelgraue Pferde zogen den Wagen in den Schloßhof. In dem Wagen saß Gerlint, an ihrer Seite saß ein Kammermädchen, und auf dem Rücksitze saß Adam, der Verwalter. Als sie ausgestiegen waren, reichte der Verwalter Gerlint den Arm, und führte sie die Schloßtreppe hinan. Das Mädchen folgte. Sie gingen in das Prunkgemach der Tante, in welchem diese ihren Bruder an dem beiderseitigen Geburtstage empfangen hatte. Sie saß im schwarzen Seidenkleide auf dem nämlichen Stuhle wie damals, und hatte das Schlüsselbändchen ihrer Nichte mit der schwarzen Seite nach auswärts an dem Kleide.</p>
+            <p rendition="#et">Die Kammerfrau Agathe saß etwas unterhalb ihr, und trug ebenfalls ein schwarzes Seidenkleid.</p>
+            <p rendition="#et">Als Gerlint das Zimmer betreten hatte, erhob sich die Tante. Gerlint näherte sich ihr, neigte sich auf ihre Hand, und küßte sie.</p>
+            <p rendition="#et">»Komme an mein Herz, du liebes Kind,« sagte die Tante, »sei willkommen, und möge dein Eingang gesegnet sein.« Sie umarmte das Mädchen, und küßte es auf die Wange. »Ich danke dir, Adam,« sprach sie weiter, »daß du mir das Kind wohlerhalten gebracht hast. Eure Reise ist doch glücklich gewesen?«</p>
+            <p rendition="#et">»Wie eine Fahrt durch unsere Wiesen«, antwortete der Verwalter.</p>
+            <p rendition="#et">»Du hast ja ein schwarzes Seidenkleid an, wie ich, liebe Gerlint«, sagte die Tante.</p>
+            <p rendition="#et">»Ich wußte, daß du entweder Schwarz oder Grau trägst,« <pb n="745" facs="#f0029"/>
+antwortete Gerlint, »und so wählte ich auf gutes Glück Schwarz.«</p>
+            <p rendition="#et">»Und siehe da, ich trage heute Schwarz,« sprach die Tante, »vor vierundzwanzig Jahren wäre ich eben so schmuck in einem solchen dagestanden, wie du heute. Du wirst die traurigen Farben Schwarz und Grau zur Genüge hier sehen. Aber wie zart auch dein Gedanke für deine Ankunft ist, so muß er ein Gedanke nur für die Ankunft bleiben, und du mußt künftig zur Blüte der Jahre die Blüte der Farben tragen, und mußt mir einige Heiterkeit in mein einfarbiges Schloß bringen. Der Schnitt des Kleides ist aber vortrefflich.«</p>
+            <p rendition="#et">»Wir lernen in der Anstalt das selber entwerfen«, sagte Gerlint.</p>
+            <p rendition="#et">»Das ist gut,« antwortete die Tante, »so seid ihr nicht von dem Ungeschicke anderer Leute abhängig. Und so sei noch einmal willkommen, und es sei dein Eingang gesegnet. Ich versage mir es nicht, dir selber deine Stube zu zeigen, und dich in sie einzuführen. Folge mir.«</p>
+            <p rendition="#et">Sie trat von ihrer Stufe herab, und ging zu einem Ebenholzgetäfel der Zimmerwand. Sie sperrte mit dem Schlüsselchen, das sie an ihrem Bande trug, das Getäfel auf, und man sah in das Innere eines Kästchens, in welchem ganze Reihen von Schlüsseln hingen. Sie nahm einen, schloß das Kästchen wieder zu, und gab den Schlüssel in die Hand Adams. Dann ging sie gegen die Tür. Die andern folgten ihr. Adam öffnete die Tür, und sie schritt hinaus. Sie ging den hohen Schloßgang entlang, und blieb vor einer der großen Eichentüren, die den Gang säumten, stehen. Adam sperrte die Tür auf. Die Tante wendete sich um, trat vor Gerlint, und machte ihr ein Kreuz auf die Stirne.</p>
+            <p rendition="#et">»Das ist deine Stube,« sagte sie, »tritt ein.«</p>
+            <p rendition="#et">Sie nahm Gerlint an der Hand, und führte sie in das Innere.</p>
+            <p rendition="#et">
+               <pb n="746" facs="#f0030"/>
+Man gelangte in ein geräumiges Vorzimmer. Links an demselben waren zwei Gemächer für die Dienerinnen Gerlints, rechts drei Zimmer für sie selber, ein Empfangsgemach, ein Wohngemach und ein Schlafgemach. Die Geräte waren nicht neu, sondern solche, wie sie die Bewohner des Schlosses zu verschiedenen Zeiten gehabt hatten; aber sie waren kostbar, und an ihnen haftete ein Stück Geschichte des Schlosses.</p>
+            <p rendition="#et">»Hier kannst du wohnen, wenn es dir gefällt,« sagte die Tante, »und hieher kannst du gehen, wenn du in dem gemeinschaftlichen Gesellschaftszimmer nicht sein willst, und irgend eine andere Stelle nicht vorziehst. Hier bist du unbeschrankte Herrin. Sonst ist auch jeder Raum des Schlosses, seiner Umgebung, seiner Gärten, seiner Fluren für dich offen. Du kommst nun in einen neuen Abschnitt deines Lebens. Du bist an den Umgang deiner Gespielinnen in der Anstalt gewöhnt. Sie werden sich wohl auch zu den Ihrigen zerstreuen, manche werden dich besuchen, und manche werden dir schreiben, bis auch diese Verhältnisse allmählig in andere übergehen. In diesem Schlosse verkehren nicht viele Menschen, wie in einem Stadthause. Es kommen Nachbarn, und wir besuchen sie, es kommen Menschen aus der Stadt, und wir kommen auch zuweilen in die Stadt. Deinen Hauptumgang werden folgende Menschen bilden: ich, dein Oheim Dietwin in Weiden, dein Vetter Dietwin in Weidenbach, dann die gute Agathe, dann Adam und unsere anderen Leute. Ich werde deine Freundin sein, ich darf wohl sagen, deine Mutter. Wenn dir mein Wort, mein Rat, und vielleicht auch mein Beispiel von Nutzen sein kann, wird es mich sehr freuen. Der Umgang mit dem Oheime wird angenehm und fördernd sein. Das Zusammenkommen mit dem Vetter wird die Verwandtschaftsbande stärken. Agathe wird dir freundlich sein, wie sie es mir ist. Adam wird dir mit seiner Erfahrung beistehen, und die andern <pb n="747" facs="#f0031"/>
+Leute werden dir dienlich sein, und werden dich lieben. Und der entferntere Umgang mit denen, die uns hier auf dem Lande ähnlich sind, kann auch manches Ersprießliche bringen. Ich wünsche von ganzem Gemüte, daß du in der Zeit, in der du hier bist, nur Gutes erlebest, bis der Tag kommt, der dich, der Bestimmung der Frauen gemäß, in dein eigenes Haus als Gebieterin desselben und als Gattin eines rechtlichen Mannes führt. Und so richte dich in deiner Wohnung zurecht, wie du vermagst, und so zeichne ich noch einmal das Kreuz auf deine Stirne«</p>
+            <p rendition="#et">Und sie machte nach diesen Worten wieder das Zeichen des Kreuzes auf Gerlints Stirne.</p>
+            <p rendition="#et">Gerlint antwortete auf die Rede ihrer Tante: »Meine geliebte, hochverehrte Mutter. So nenne ich dich, und so werde ich dich immer nennen, weil du es gewesen bist, seit die, welche ich vermöge meiner Geburt Vater und Mutter hätte nennen sollen, und welche ich kaum gekannt habe, in dem Grabe ruhen. Du nimmst mich nun noch näher an dich, als ich es bisher gewesen bin. Ich danke dir innigst dafür, ich werde willig und gehorsam sein, und streben, jedes Gute von dir in mich aufzunehmen. Den Oheim werde ich öfter sehen als bisher, und ihm meine Liebe mehr beweisen können. Der Vetter Dietwin wird in unserem Kreise wohl immer willkommen sein. Mit den Nachbarn hoffe ich in gutes Einvernehmen zu gelangen. Agathe wird mit meiner Unerfahrenheit Nachsicht haben, von Adam werde ich jede Belehrung dankbar annehmen, wie ich ihm für seine Sorge und Mühe auf der Herreise schon sehr dankbar bin, und die Zuneigung der Schloßleute will ich mir erwerben. Und so nimm mich, liebe Mutter, und lasse mich bei dir, und rede von keiner Zeit, in der ich dich verlassen soll, diese Zeit wird niemals kommen.«</p>
+            <p rendition="#et">Es quollen Tränen bei diesen Worten aus Gerlints braunen <pb n="748" facs="#f0032"/>
+Augen. Sie nahm die Hand der Tante und küßte sie, und warf sich dann an ihre Brust und schluchzte laut.</p>
+            <p rendition="#et">Die Tante legte ihre Arme um sie, streichelte dann ihr braunes Haar an der Stirne, und sagte: »Beschwichtige dich, und sei beruhigt, mein liebes, mein teures Kind.«</p>
+            <p rendition="#et">»Stoße mich nur nicht zu einem fremden Manne«, sagte Gerlint.</p>
+            <p rendition="#et">»Närrlein, bleibe bei mir, so lange du willst, ich freue mich deiner«, antwortete die Tante; »aber das Fräulein von der Weiden wird ohne ihren Willen die Strahlen in das Land senden und Fremdes herbei ziehen, und vielleicht für eines hold leuchten.«</p>
+            <p rendition="#et">»Mögen die Strahlen eher abhalten und wegwenden,« sagte Gerlint, »bei mir ist es so, daß das, wovon du sprichst, nie geschehen kann, so lange ein Hauch in meinem Leben ist.«</p>
+            <p rendition="#et">»Handle genau, wie du willst,« antwortete die Tante, »Zwang und Willkür herrscht nicht in unserem Stamme.« »Ich weiß, ich weiß«, sagte Gerlint.</p>
+            <p rendition="#et">»So sind wir hierin einig«, sagte die Tante.</p>
+            <p rendition="#et">Darauf reichte Gerlint Agathe die Hand, und sagte: »Sei gegrüßt, Agathe, nimm mich als neuen Hausgenossen.«</p>
+            <p rendition="#et">»Sei gegrüßt, Gerlint,« antwortete Agathe, »ach Gott, ich sage du, als ob du noch das Kind wärest.«</p>
+            <p rendition="#et">»Ich bin es,« antwortete Gerlint, »und spiele mit mir wieder wie mit einem Kinde.«</p>
+            <p rendition="#et">Dann reichte sie Adam die Hand, und sagte: »Sei gegrüßt, Adam.«</p>
+            <p rendition="#et">»Das hochgeborne Fräulein blüht schöner als die Rosen von Jericho, die in unserem Garten sind, und werde es hier gehegt, daß es noch immer schöner und alleweile bei uns blühe«, antwortete Adam.</p>
+            <p rendition="#et">»Lasse mir die gute Sophie hier, liebe Mutter,« sagte Gerlint, »die mir schon einige Jahre zur Seite war.«</p>
+            <p rendition="#et">»Sophie ist ja auf meine Veranlassung zu dir gekommen,« <pb n="749" facs="#f0033"/>
+antwortete die Tante, »sie wird noch das gute Mädchen sein, wie sonst, und soll bei dir bleiben, so lange ihr euch zusammen wünscht. Sei willkommen bei uns, Sophie.«</p>
+            <p rendition="#et">Das Mädchen küßte der Tante die Hand.</p>
+            <p rendition="#et">»Nun, Kinder, lasset den Wagen abpacken, und richtet euch hier ein.«</p>
+            <p rendition="#et">»Ich habe den Befehl schon gegeben,« sagte Adam, »und die Sachen werden bereits in dem Gange harren.«</p>
+            <p rendition="#et">»Ich verlasse dich, Gerlint,« sagte die Tante, »wen du noch zu deiner Bedienung brauchst, und was du in dieser Hinsicht wünschest, darüber werden wir morgen eine Wahl treffen. Für heute wird dir Sophie genügen«</p>
+            <p rendition="#et">»Sie genügt für immer«, sagte Gerlint.</p>
+            <p rendition="#et">Die Tante wendete sich nun zum Gehen, Gerlint und Agathe begleiteten sie, Adam verließ auch die Zimmer, nur Sophie blieb in denselben zurück.</p>
+            <p rendition="#et">Nach einer Weile kam Gerlint wieder. Sie ging rasch durch das Vorzimmer und durch das Empfangzimmer. Im Wohngemache nahm sie den Hut ab, legte ihn auf einen Tisch, warf sich auf ein Sofa, und rief: »So sind wir hier, und es sei, wie es will. Sophie, lasse unsere Habseligkeiten hereinbringen, und beginne, sie ein wenig zu ordnen.«</p>
+            <p rendition="#et">Sophie entfernte sich, und mit Hilfe von Dienern wurden Koffer und Fächer und gestickte Säcke und lederne Säcke und Päckchen und dergleichen in die Zimmer gebracht. Als dieses vollendet war, und die zwei Mädchen sich allein befanden, kniete Sophie vor Gerlint nieder, legte ihr Haupt in ihren Schoß, und blieb eine Weile so.</p>
+            <p rendition="#et">Dann stand sie auf, ging zu einem Koffer, sperrte ihn auf, und legte die Dinge heraus. So tat sie mit den andern Koffern und mit den übrigen Fächern, und entledigte alles Gepäcke des Inhalts. Dann suchte sie die Gegenstände in den Geräten, die in den Zimmern waren, unterzubringen. Gerlint schaute zu, und sprach nichts.</p>
+            <p rendition="#et">
+               <pb n="750" facs="#f0034"/>
+Als die Dinge notdürftig geordnet waren, setzte sich Gerlint vor ein kleines Spiegeltischchen, und Sophie brachte ihr die braunen Haare wieder mehr in Ordnung. Das schwarze Seidenkleid der Reise wurde mit einem andern, aber auch schwarzen Seidenkleide vertauscht. Es reichte bis zum Halse, und denselben umschloß ein feiner weißer Streifen. Auf das Haupt wurde ein blaßgelber Strohhut gesetzt.</p>
+            <p rendition="#et">So ging Gerlint zur Tante, und nach einiger Zeit sah man die zwei schwarzen Gestalten, Tante und Nichte, in dem Garten des Schlosses lustwandeln. Gegen den Untergang der Sonne kamen sie in das Schloß zurück. Am Abende war ein feierlicheres Mahl als gewöhnlich, und der Verwalter und seine Gattin waren dazu geladen. Dann wurde Gerlint in ihre Wohnung geleitet, und die erste Nacht ging über die neue Schloßbewohnerin dahin.</p>
+            <p rendition="#et">Am nächsten Morgen kleidete sie Sophie nach dem Frühmahle in ein dunkelveilchenfarbenes Seidenkleid. Dann wurde sie zu der Tante in den großen Saal gerufen.</p>
+            <p rendition="#et">Sie ging in denselben.</p>
+            <p rendition="#et">Dort saß die Tante in aschgrauem Seidenkleide in ihrem gewöhnlichen feierlichen Armstuhle. Der Oheim Dietwin und der Neffe Dietwin saßen neben ihr. Die zwei Männer standen auf, als Gerlint eingetreten war; die Tante aber blieb sitzen, und sprach: »Dein Oheim und dein Vetter sind gekommen, dich zu begrüßen.«</p>
+            <p rendition="#et">Der Oheim ging gegen Gerlint, und rief: »Es ist doch toll, welche Gedanken oft über einen Menschen kommen; aber sie kommen wie ein Sturmwind, und man muß sie sogar sagen, und mein holdes Töchterlein wird es schon erlauben: So wie die Füllen des Neffen da, die kleinen Räpplein, seit ich sie zum letzten Male gesehen habe, weit schöner geworden sind, so ist das Mühmlein noch unendlich schöner geworden, seit ich das kleine Küchlein in die Anstalt getragen habe.«</p>
+            <p rendition="#et">
+               <pb n="751" facs="#f0035"/>
+»Das sind ja freilich tolle Worte,« sprach die Tante, »wenn man eine demütige Nichte gleich bei ihrer Ankunft mit Rappen vergleicht.«</p>
+            <p rendition="#et">»Die demütige Nichte verzeiht es, es ist mir plötzlich eingefallen,« sagte der Oheim, »komme her, mein liebes, schönes, demütiges Nichtchen!«</p>
+            <p rendition="#et">Und er nahm Gerlint bei den Schultern und küßte sie auf den Mund und auf die Wangen.</p>
+            <p rendition="#et">Gerlint schlang die Arme um seinen Nacken, küßte ihn auf den Mund, und rief: »Du lieber, lieber Oheim.«</p>
+            <p rendition="#et">»Nun, so ist es recht,« sagte der Oheim, »wenn man uns vor der ganzen Welt küßt, sind wir nicht mehr gefährlich. Liebes, gutes Kind, jetzt bist du unter den Deinigen. Es wird dir da immer wohler werden. Sie haben doch nur das rechte Herz für dich. Da ist nun deine Tante, deine Mutter, du kannst dein Herz aus ihrem Herzen nähren. Da bin ich, der dich wahrhaftig ungemein liebt, und da ist einer, der dich auch nicht mit Feuer und Schwert verfolgen wird. Er ist zu deinem Gruße herbei gefahren.«</p>
+            <p rendition="#et">Der Oheim schwieg.</p>
+            <p rendition="#et">Dietwin, der Neffe, aber ging gegen Gerlint, reichte ihr die Hand, und sagte: »Sei gegrüßt, meine sehr liebe Base Gerlint.«</p>
+            <p rendition="#et">Gerlint reichte ihm auch die Hand, und sagte: »Sei gegrüßt, mein sehr lieber Vetter Dietwin.«</p>
+            <p rendition="#et">»Möge es dir in deiner neuen Lage sehr wohl gefallen, und mögest du sehr glücklich sein«, sagte Dietwin.</p>
+            <p rendition="#et">»Ich werde es sein, wenn man mich ein wenig liebt«, sprach Gerlint.</p>
+            <p rendition="#et">»Wir werden schon auch für allerlei Annehmlichkeiten sorgen,« sagte der Oheim. »vielleicht ergötzt dich verschiedenes, das in den Vorkommnissen unserer Güter liegt, es ist in diesen Dingen viel mehr enthalten, als manche glauben. Junge Gemüter lieben die Zerstreuungen, <pb n="752" facs="#f0036"/>
+es wird nicht ganz daran fehlen. Da sind mannigfaltige Menschen um uns, die mit dir Kinder waren, sind nun auch große Leute, die andern sind älter geworden. Sie sind so ziemlich alle gut, die Unterschiede wirst du schon selber sehen. Und die Städte sind ja dann auch nicht außer der Welt, und wir nicht gar arme Fremdlinge in ihnen. Was du von sehr ernsthaften Beschäftigungen da unter uns beginnen willst, davon rede ich nicht, das versteht ihr, die Tante und du, besser als ich. Mich mußt du schon öfter hier in den Kauf nehmen. Die Tante fordert mich selber hiezu auf; denn sie hat meine Wohnung erweitern lassen. Du darfst mir aber nicht etwa den Hof machen, sondern wir leben ohne Zwang so fort. In meinem Hause in Weiden bist du nach der Tante die zweite Herrin. Richtet euch dort alles nach Wunsch zusammen. Und wenn wir nach Weidenbach kommen, so wird dein Vetter doch wohl auch die Sachen so zu richten verstehen, daß feine Frauen nicht so großes Ärgernis an seiner Junggesellenwirtschaft nehmen. So, du hoffnungsvolle Nichte, wir haben dir unsere Aufwartung gemacht, mache uns du nun auch bald die deinige.«</p>
+            <p rendition="#et">»Wie ich die hochverehrte Tante mit Ehrerbietung in Weidenbach aufgenommen habe, wenn sie mich besuchte,« sagte Dietwin, »so werde ich meine Base Gerlint mit Zuneigung empfangen, wenn sie in Weidenbach einen Zuspruch macht.«</p>
+            <p rendition="#et">»Und ich werde dir mit Zuneigung danken, lieber Vetter«, sagte Gerlint.</p>
+            <p rendition="#et">»Und nun, meine Kinder, höret mich an«, sprach die Tante. »Alle Glieder des Stammes derer von der Weiden, die sich auf dieser Erde befinden, sind in diesem Saale versammelt. Sie haben sich eingefunden, um sich zu begrüßen, weil sie nun in einem kleineren Raume bei einander leben werden, als dieses in früheren Zeiten hatte geschehen können. Möge das Zusammenleben ein glückliches <pb n="753" facs="#f0037"/>
+und heiteres sein. Und weil mir mein Bruder, wenn ich auch nicht die Älteste des Stammes bin, doch als der Besitzerin des Hauptgutes manche Vorrechte eingeräumt und mir manches anzuordnen überlassen hat, so sage ich euch hinsichtlich des Grußes: Ihr beiden Dietwine, Bruder und Neffe, seid wie vorher nicht Gäste, sondern wie Eigentümer und Mitbesitzer dieses Schlosses. Du, Gerlint, bist das Kind des Hauses und ein bedeutsames Mitglied des Stammes. Und weil dieser Stamm durch Jahrhunderte seinen Wert und seine Würde bewahrt hat, so ist es mir wohl nicht zu verdenken, wenn ich den Wunsch ausspreche, mögen wir, die wir jetzt die einzigen des Stammes sind, nicht die letzten sein. Und so sei nun jedes von uns sich und seiner Zeit wieder zurückgegeben.«</p>
+            <p rendition="#et">Nach diesen Worten erhob sich die Tante von ihrem Sitze und näherte sich den Flügeltüren des Saales, und die andern folgten ihr.</p>
+            <p rendition="#et">Man geleitete sie bis zu ihrer Wohnung, und verabschiedete sich dort.</p>
+            <p rendition="#et">Dann geleiteten die zwei Männer auch Gerlint zu ihrer Wohnung, und verabschiedeten sich auch von ihr.</p>
+            <p rendition="#et">Nachdem Gerlint eine kurze Zeit in ihrem Wohnzimmer gewesen war, kam ein Diener zu ihr, und sagte, die Frau Baronin lasse das Fräulein bitten, auf einige Augenblicke zu ihr zu kommen.</p>
+            <p rendition="#et">Gerlint leistete Folge.</p>
+            <p rendition="#et">Sie traf die Tante in ihrem Wohngemache. Diese wies ihr einen Platz neben sich an, und sagte dann: »Ich muß dich noch einmal plagen, liebes Kind, es werden aber diese ersten Unbequemlichkeiten doch wohl bald vorüber sein.« »Was du wünschest, ist mir keine Plage, teure Mutter«, sagte Gerlint.</p>
+            <p rendition="#et">»Es betrifft dich«, antwortete die Tante. »Ich habe dir gestern gesagt, daß wir heute eine Wahl über das treffen werden, was du noch zu deiner Bedienung brauchst. Du <pb n="754" facs="#f0038"/>
+hast dich heute über die Nacht mit deiner Sophie allein behelfen müssen. Ich schlage dir vor, daß du noch Martha dazu nimmst. Du warst ja mit ihr immer zufrieden, wenn du bei mir warst. Sie ist ein junges Ding, liebt schöne Kleider und Tändeleien; aber sie ist gutwillig und stets heiter, und wird deiner Jugend neben deiner Sophie wohl anstehen. Sie soll mit Sophie die zwei Dienstgemächer teilen. Ist dir diese Anordnung genehm?«</p>
+            <p rendition="#et">»Du bist immer so gütig gegen mich, wie sollte sie mir nicht genehm sein?« antwortete Gerlint.</p>
+            <p rendition="#et">»Für alles, was schwerere Arbeit in deiner Wohnung braucht, ist Judith angewiesen. Du darfst nur die Schelle dreimal nach ihr ziehen. Sie ist ein Schatz unseres Hauses, und gewältigt so vieles unscheinbar, in dem sie die andern Leute richtig anleitet. Sie war einmal in einer besseren Lage. Ihr Gatte war ein Weber, und arbeitete mit zehn Gesellen. Sein Handgeschäft wurde durch die neuen Erfindungen immer schlechter. Zuletzt arbeitete er nur mehr allein, und es meldete sich die Not im Hause und endlich die Hilflosigkeit. Da raffte sich Judith auf, tat schwere und grobe Arbeit jeder Art, weil sie anderes nicht verstand, und ernährte den Mann und die Kinder. So kam sie in mein Haus, und hat jetzt, glaube ich, eine gesicherte Stellung. Vor solchen Menschen muß man Achtung haben. Sie tut ihre Arbeit fröhlich und lachend, die ihr untergeordnet sind, lieben sie, und du wirst sie, und sie wird dich lieben.«</p>
+            <p rendition="#et">»Ich achte Judith, und werde mir ihre Neigung zu erwerben suchen«, sagte Gerlint.</p>
+            <p rendition="#et">»Zu Sendungen habe ich dir Mathias und Ferdinand befohlen,« sprach die Tante, »und irgend eine gelegentliche Verrichtung ist dir jeder meiner Diener und jede meiner Dienerinnen schuldig. So, meine ich, ist für das Bedürfnis und für die Würde gesorgt, und ich bitte dich, sage mir, ob du die Sache anders wünschest.«</p>
+            <p rendition="#et">
+               <pb n="755" facs="#f0039"/>
+»Du sorgest reichlicher für mich, als ich es bedarf, meine vielgeliebte Mutter,« sprach Gerlint, »ich wünsche nichts mehr. Und dann habe ich ja noch eine Dienerin, die schaffen und schalten wird.«</p>
+            <p rendition="#et">»Nun?« fragte die Tante.</p>
+            <p rendition="#et">»Mich selber«, antwortete Gerlint.</p>
+            <p rendition="#et">»Ich weiß, du ergriffest alles, da du ein Kind warst, und suchtest es zu Überwinden,« sagte die Tante, »du wirst jetzt auch deine Zeit mit deiner Tätigkeit erfüllen, wie es dir deine Einsicht gebietet. Diese Mauern sollen dir die Mittel geben, wie sie es nur vermögen, und nicht bloß die Mauern, sondern auch Wald und Flur und Feld, die zu uns gehören, und die Nachbarschaft soll Zeuge dessen sein, was du wirkest, den Ruhm und Wert unseres Hauses zu erhöhen.«</p>
+            <p rendition="#et">»Ich werde die letzte nicht sein, den Wert des Stammes zu bewahren«, antwortete Gerlint.</p>
+            <p rendition="#et">»Ich glaube es dir,« sagte die Tante, »und nun gehen wir in deine Wohnung, daß dir die Leute vorgestellt werden.«</p>
+            <p rendition="#et">Und die Tante erhob sich, und Gerlint auch, und sie gingen in das Wohngemach Gerlints.</p>
+            <p rendition="#et">Die Tante schellte, und als ein Diener erschienen war, sagte sie: »Die sollen kommen, welche in der Halle warten.«</p>
+            <p rendition="#et">Der Diener ging fort.</p>
+            <p rendition="#et">»Setze dich, Gerlint«, sagte die Tante. Gerlint setzte sich, die Tante auch.</p>
+            <p rendition="#et">Nach kurzer Zeit kamen Sophie, Martha, Judith, Mathias und Ferdinand.</p>
+            <p rendition="#et">»Stellt euch in eine Reihe«, sagte die Tante. Sie taten es.</p>
+            <p rendition="#et">Dann sprach die Tante: »Das Fräulein von der Weiden, meine geliebte Nichte, hat genehmigt, daß ihr die Dienste bei ihr tut, zu denen ich euch angewiesen habe. Ihr <pb n="756" facs="#f0040"/>
+steht vor dem Angesichte eurer jungen Herrin. Küßt ihr zum Zeichen eures Diensteintrittes die Hand.«</p>
+            <p rendition="#et">Jedes von den Angeredeten näherte sich, und küßte Gerlint die Hand.</p>
+            <p rendition="#et">»Nun entferne ich mich,« sagte die Tante, »eure Herrin wird euch noch sagen, was ihr gut deucht. Lebe wohl, Gerlint, und bringe deine Zeit bis zum Mittagmahle hin.«</p>
+            <p rendition="#et">»Ich werde dich bis zu deiner Wohnung geleiten«, sprach Gerlint.</p>
+            <p rendition="#et">»Es freut mich«, antwortete die Tante. Und sie gingen zur Türe hinaus.</p>
+            <p rendition="#et">Nach kurzem kam Gerlint wieder zurück, und sprach zu den Leuten: »Meine lieben Kinder, ich habe euch nicht viel zu sagen. Ich hoffe, daß wir mit einander gut sein werden. Tut mir manchen Gefallen, ich werde nichts Unbilliges fordern.«</p>
+            <p rendition="#et">»Ich werde jeden Befehl erfüllen«, sagte Sophie. »Ich auch, ich auch«, riefen die andern.</p>
+            <p rendition="#et">»Und nun könnt ihr euch entfernen«, sprach Gerlint.</p>
+            <p rendition="#et">Die Leute küßten ihr noch einmal die Hand, und gingen fort.</p>
+            <p rendition="#et">Gerlint aber setzte sich auf ihr Sofa.</p>
+            <p rendition="#et">Als sie dort eine geraume Zeit gesessen war, schellte sie. Sophie kam.</p>
+            <p rendition="#et">»Sophie,« sagte sie, »suche mir das leichte graue Tuch hervor, ich werde allein in den Garten gehen. Richte dich indessen mit Martha in den zwei Zimmern zurecht. Seid verträglich und zankt nicht.«</p>
+            <p rendition="#et">»Ich werde gehorchen«, sagte Sophie.</p>
+            <p rendition="#et">Nach diesen Worten nahm sie ein weiches silbergraues Tuch aus einem Fache, und legte es ihrer Herrin um die Schultern. Dann wurde noch ein Hut aufgesetzt, und ein leichter Schirm genommen.</p>
+            <p rendition="#et">Hierauf verließ Gerlint das Zimmer.</p>
+            <p rendition="#et">
+               <pb n="757" facs="#f0041"/>
+Sie ging über die große Schloßtreppe in den Hof hinunter, und von dem Hofe durch einen Bogen in den Garten. Zuerst war ein dichtes Wäldchen von wilden Kastanien. Unter den Bäumen standen Tische und Stühle. Sie schritt durch das Wäldchen. Außerhalb desselben waren dann links die Gewächshäuser, rechts ein Blumengarten, untermischt mit Zwergobst und Gemüsen. Sie erwiderte freundlich den Gruß des Gärtners und seiner Gehilfen, die da arbeiteten. Weiter hin ging sie durch den Gemüse- und Obstgarten. Dann kam ein Wald von Bäumen des verschiedensten edlen Obstes. Sie ging durch den Wald dahin. Hierauf gelangte sie auf grünen Rasen, auf dem zerstreute Bäume standen. Es waren Obstbäume, es war edles Laubholz, darunter manches aus entfernten Erdgürteln, es waren Nadelbäume, besonders alte mächtige Weimutskiefern. Sie ging unter den Bäumen dahin, dann kam sie auf einen ganz freien Rasenplatz, welcher sich links zu einem sanften Hange erhob. In der Mitte der Dachung dieses Hanges stand eine einzige Eiche, die als gewaltiges Gebilde die geneigte Fläche beherrschte. Auf diese Eiche ging Gerlint zu. Als sie sich ihr näherte, sah sie Dietwin, den Jüngeren, von der Eiche weg gegen den Rand des Hanges gehen. Sie blieb ein Weilchen stehen. Dann ging sie wieder weiter gegen die Eiche. In einer angemessenen Entfernung von derselben blieb sie stehen, legte ihre Arme vor der Brust über einander, und betrachtete den Baum. Sein Schaft ging schlank empor, und man hätte dessen Mächtigkeit nicht erkannt, wenn nicht von ihm die untersten Äste in der Dicke zweier Männer in die Breite gegangen wären. Und von ihnen bis zum Wipfel empor waren die Äste, an Stärke abnehmend, rings um die tragende Säule in gleichförmiger Gefälligkeit verbreitet. An ihren tausend Ausläufen war das strotzige, kraftvolle Laub. Gerlint sah lange auf die Gestalt dieses Baumes. Dann ging sie in einem <pb n="758" facs="#f0042"/>
+Kreise um ihn herum und betrachtete ihn von allen Seiten. Als sie ihre Betrachtung geendigt hatte, ging sie langsam gegen den Rand der Höhe hinan. Sie ging zu einer Stelle, auf welcher ein großer Fels auf dem grünen Rasen lag. Da sie bei dem Steine war, sah sie wieder Dietwin auf dem Rande des Hanges in der Richtung gegen Morgen dahin gehen. Sie aber blieb bei dem Steine stehen. Er war der einzige ringsum, er ragte ein wenig schief wie ein länglichter Würfel aus der Erde empor. Gerlint sah den Stein an. Er war ein Granit von ernster grauer Farbe, es waren die tausend Zeichnungen des trockenen grauen Mooses auf ihm, und die Bäche des Lichtes der Sonne gossen sich auf seine Fläche. Gerlint blieb bei dem Steine lange, wie früher bei der Eiche, stehen. Dann ging sie auf dem Rande des Hanges in der Richtung gegen Morgen dahin, in welcher sie Dietwin hatte gehen gesehen. Der Rand des Hanges wurde breiter, er war endlich mit Wald bestanden, und begann sachte aufwärts zu steigen. Die Bäume des Waldes waren Eichen, Eschen, Fichten, Föhren, und es war Gestrüppe niederen Ranges. Gerlint ging auf einem Pfade des Waldes fort. Der Pfad war anfangs eben, dann erhob er sich, und zuletzt klomm er steil hinan. Auf der Höhe war eine Blöße, die gegen Mitternacht von hohem Baumwuchse gesäumt war, und gegen Mittag einen Überblick über den Wald und die Gegend bot. An dem Rande der mitternächtlichen Bäume lief eine lange Reihe steinerner Bänke dahin. Gerlint ging zu einer der Bänke, und setzte sich auf dieselbe. Sie sah in der Richtung gegen Mittag hin. Zu ihren Füßen war die Blöße, dann strich der Blick über die Wipfel des Waldes dahin, dann traf er Gebäude mit Feldern, Wiesen, Wäldchen, Obstbeständen, zerstreuten Meierhöfen, Ortschaften, Kirchtürmen und Schlössern, und endete mit dem Gürtel des blauen Gebirgszuges, der den glänzenden Himmel schnitt. Gerlint blieb eine geraume Zeit auf dieser <pb n="759" facs="#f0043"/>
+Bank sitzen. Dann ging sie über die Blöße hinunter, bis sie wieder der Wald umfing. Sie ging in dem Walde abwärts, und gelangte endlich auf ebenen Boden, der mit lauter Eichen besetzt war. Gerlint wandelte unter den Eichen dahin, und schaute öfter in die Äste empor, die sich nach allen Seiten verschränkten. Sie wich manches Mal von dem Pfade ab und ging auf dem dunkeln grünen Rasen. Der Wald endete mit starken Stämmen an einem großen Teiche, der klares Wasser enthielt, und in dem Fische gehegt wurden. Gerlint ging an dem Saume des Wassers dahin in der Richtung gegen das Schloß zu. Neue Eichen empfingen sie am Ausgange des Teiches. Als sie unter diesen durchgegangen war, lag eine breite Wiese vor ihr. Auf dieser Wiese sah sie zum dritten Male Dietwin. Er ging über die Wiese dem Schlosse zu. Wo die Eichen die Wiese begrenzten, standen mehrere Tische und Bänke und Stühle. Sie hatten nichts Besonderes an sich, und waren, wie derlei Geräte in den meisten Gärten sind. Dann ging Gerlint über die Wiese zu dem Schlosse. Sie kam jetzt gegen die Vorderseite desselben, ging durch das Haupttor hinein, stieg die große Treppe hinan, und begab sich in ihre Wohnung. Sie setzte sich in ihrem Gemache auf ein Sofa. Da ihre Dienerin Sophie herein gekommen war, bedeutete sie dieselbe, wieder fortzugehen. Sie blieb lange auf dem Sofa sitzen.</p>
+            <p rendition="#et">Als es gegen Mittag ging, schellte sie um Sophie, und kleidete sich mit Hilfe derselben zu dem Mittagessen.</p>
+            <p rendition="#et">Dann, als die Glocke ertönte, ging sie in den Speisesaal. Hier fand sie den Oheim und Dietwin.</p>
+            <p rendition="#et">Gleich darauf trat die Tante herein. Sie war in ihrem aschgrauen Seidenkleide, und an demselben hing das Bändchen Gerlints nieder mit der grauen Seite nach auswärts.</p>
+            <p rendition="#et">Man setzte sich zu Tische. Obenan saß die Tante, zu ihrer Rechten saß der Oheim, zu ihrer Linken Dietwin, <pb n="760" facs="#f0044"/>
+und neben dem Oheime saß Gerlint, und neben Dietwin Agathe. Sonst war niemand bei dem Mahle.</p>
+            <p rendition="#et">»Ich habe ein kleines Ankunfts- und Verbindungsmahl veranstaltet,« sagte die Tante, »es ist so bei uns der Gebrauch, liebe Gerlint. Ich habe dir das Mahl zweiten Ranges zugeordnet mit dem Silber, den Blumen, den Früchten, den Speisen und der Dienerschaft im zweiten Range. Die Mahle ersten Ranges sind in dem großen Speisesaale bei Vermählungen, Verlobungen und andern Gelegenheiten hoher Feier. Dann sind noch die Mahle dritten Ranges und unser gewöhnliches Speisen. Du wirst schon alle Ordnungen dieses Schlosses kennen lernen, wenn du länger hier gewesen bist.«</p>
+            <p rendition="#et">»Meinem lieben Oheime und meinem lieben Vetter kommt wohl eine Auszeichnung zu,« sagte Gerlint, »ich bedeute aber noch nicht viel.«</p>
+            <p rendition="#et">»Der Eintritt eines Mitgliedes unseres Geschlechtes in unsere nähere Verbindung und in unseren näheren Umgang muß gefeiert werden«, sprach die Tante.</p>
+            <p rendition="#et">»So ist es«, sagte der Oheim.</p>
+            <p rendition="#et">Dann begann das Mahl, und hatte seinen Fortgang.</p>
+            <p rendition="#et">Während desselben waren verschiedene, aber gewöhnliche Gespräche. Man sprach über die Ankunft Gerlints, über Vorkommnisse und Veränderungen in den Gütern der Tante, des Oheims, Dietwins, über die Nachbarschaft, über Zeitereignisse. Dietwin sprach wenig, Gerlint beinahe nichts. Nach dem Mahle wurde auf dem breiten Söller des Schlosses der Kaffee aufgetragen.</p>
+            <p rendition="#et">Am Nachmittage gingen alle gemeinschaftlich durch den Garten, durch Felder, über Wiesen und durch Wäldchen des Gutes.</p>
+            <p rendition="#et">Am Abende war ein einfaches Abendmahl in dem gewöhnlichen Speisezimmer, und dann konnte jedes seine Nachtruhe suchen.</p>
+            <p rendition="#et">Nach dem Frühmahle des folgenden Tages kam die Tante <pb n="761" facs="#f0045"/>
+zu Gerlint in ihr Zimmer, setzte sich zu ihr, und sagte: »Ich habe dir noch eine Eröffnung zu machen, Gerlint, die dich vielleicht freuen wird. Auguste von Schilden kommt. Du wärest ja unter uns gar so einsam. Ich habe ihr geschrieben, und habe sie eingeladen, doch wieder eine Weile bei uns zu sein. Sie hat freundlich geantwortet; aber vermöge unserer unerquicklichen Botenverhältnisse hat der alte Kajetan den Brief eine Woche bei sich vergessen, und hat ihn mir heute morgens gebracht, und so trifft Auguste fast zugleich mit ihrem Briefe ein. Ich erwarte sie jeden Augenblick. Weil bis gestern kein Brief eingetroffen war, habe ich dir von der Sache gar nichts gesagt. Jetzt aber eröffne ich sie dir, daß du auf diese Ankunft gefaßt bist. Wenn auch Auguste gewöhnlich nicht lange bei ihren Verwandten verweilt, so hoffe ich doch, daß sie nicht gar kurze Zeit bei uns bleiben wird.«</p>
+            <p rendition="#et">»Du bist in allem so besorgt, geliebte Mutter,« antwortete Gerlint, »daß ich dir auch für diese Güte wieder sehr zum Danke verpflichtet bin. Ich werde bestrebt sein, deine Zufriedenheit mit mir in jedem Stücke nach allen Kräften zu erringen. Ich freue mich der Ankunft Augustens, und freue mich, daß sie eine Weile bei uns sein will.«</p>
+            <p rendition="#et">»Ich verlasse dich, und sehe der Ankunft Augustens entgegen«, sagte die Tante.</p>
+            <p rendition="#et">Dann entfernte sie sich aus Gerlints Zimmer.</p>
+            <p rendition="#et">Ungefähr zwei Stunden nach diesem Gespräche kam Auguste in dem Schlosse an.</p>
+            <p rendition="#et">Gerlint und Dietwin empfingen sie an dem Wagen, und führten sie in das Zimmer der Tante, wo diese und der Oheim ihrer harrten.</p>
+            <p rendition="#et">Man begrüßte sie auf das herzlichste, und tauschte gute, verwandtschaftliche Worte aus.</p>
+            <p rendition="#et">Darauf geleiteten sie alle in ihre Wohnung, die neben der Gerlints war.</p>
+            <p rendition="#et">
+               <pb n="762" facs="#f0046"/>
+Dort verabschiedeten sich die Männer.</p>
+            <p rendition="#et">Auguste aber küßte die Hand der Tante, und sagte: »Wie danke ich dir, teure Muhme, daß du mir erlaubst, die erste Zeit, die Gerlint in diesem Schlosse zubringt, mit ihr teilen zu dürfen.«</p>
+            <p rendition="#et">»Ich habe dir hier eine kleine Wohnung zurecht richten lassen,« antwortete die Tante, »möge sie dir nicht mißfallen.«</p>
+            <p rendition="#et">»Du weißt ja, wie gerne ich seit dem Tode meiner teuern Eltern bei dir war,« sagte Auguste, »und ich bin jetzt wieder gerne bei dir und Gerlint, und was du anordnest, muß ja jedem Menschen gefallen.«</p>
+            <p rendition="#et">»Du schmeichelst mir wieder,« sprach die Tante, »nun, ich will die Schmeichelei zu verdienen suchen. Du und Gerlint waret euch zugetan, da Gerlint ein Kind war. Vielleicht ist jetzt die Neigung noch da, und wird wachsen.«</p>
+            <p rendition="#et">»Sie ist ja da, und bedarf nicht zu wachsen«, sagte Auguste.</p>
+            <p rendition="#et">»Liebe Auguste«, rief Gerlint.</p>
+            <p rendition="#et">Und die beiden Mädchen schlossen sich in die Arme, und küßten sich.</p>
+            <p rendition="#et">»So lasse mich einen Augenblick bei dir ausruhen,« sagte die Tante, »was ich sehe, gefällt mir.«</p>
+            <p rendition="#et">Sie setzte sich mit diesen Worten auf ein Sofa. Die beiden Mädchen setzten sich ihr dicht gegenüber, und faßten sie an den Händen.</p>
+            <p rendition="#et">»Du bist um einige Jährlein älter, und wirst mir die läßliche Gerlint da schon ein wenig leiten«, sagte die Tante.</p>
+            <p rendition="#et">»Und ich werde gehorchen«, sagte Gerlint.</p>
+            <p rendition="#et">»Wir werden uns beide lieben«, sagte Auguste.</p>
+            <p rendition="#et">»Nun, wir werden schon auch für einige Vergnügungen in dem Schlosse sorgen,« sprach die Tante, »wo zwei so zierliche Gestalten wohnen, dahin werden wohl auch die Nachbarn gerne kommen.«</p>
+            <p rendition="#et">
+               <pb n="763" facs="#f0047"/>
+»Meinetwegen kommt keiner«, sagte Auguste.</p>
+            <p rendition="#et">»Frevle nicht, Mühmlein,« sprach die Tante, »du hast doch Seufzer auf deinem Gewissen, die du nicht erhöret hast.«</p>
+            <p rendition="#et">»Sie waren vielleicht nicht Ernst, weil ich sie nicht verstanden habe«, entgegnete Auguste.</p>
+            <p rendition="#et">»Ehen werden in dem Himmel geschlossen,« sagte die Tante, »und wenn es der Himmel fügt, wirst du die Seufzer schon verstehen. Und nun, meine Kinder, lasset mich, und tut, was ihr in den ersten Augenblicken eures Beisammenseins für ersprießlich erachtet.«</p>
+            <p rendition="#et">Sie befreite ihre Hände von denen der Mädchen, und verließ das Zimmer.</p>
+            <p rendition="#et">Die Mädchen aber gingen daran, mit Hilfe der Dienerinnen die Wohnung Augustens in Ordnung zu richten.</p>
+            <p rendition="#et">An diesem Tage war auch ein Mahl zu Ehren der Ankunft Augustens.</p>
+            <p rendition="#et">Dann wandelte man herum, wie an dem vorherigen Tage.</p>
+            <p rendition="#et">Und so wurden vier Tage in gegenseitigem verwandtschaftlichen Umgange und Verkehre zugebracht.</p>
+            <p rendition="#et">Am fünften Tage nahm Dietwin nach dem Frühmahle von der Tante, von Gerlint und Auguste Abschied, weil er nach Weidenbach zurückkehren wollte.</p>
+            <p rendition="#et">Darauf wurde ein Wagen, der mit Silber verziert war, aus dem Wagenbehälter in den Hof geschoben, und zwei braune Pferde in silberbeschlagenen Geschirren davor gespannt. Hinter den Staatswagen wurde der leichte Wagen Dietwins gestellt, und zwei junge, goldlichte Pferde vor denselben gespannt.</p>
+            <p rendition="#et">Dann stiegen die drei, die Tante, der Oheim und Gerlint, in den Staatswagen, und Ferdinand und Joseph sprangen hinten auf das Brett desselben.</p>
+            <p rendition="#et">Dietwin setzte sich auf den Bock seines Wagens, und sein Kutscher setzte sich hinein.</p>
+            <p rendition="#et">
+               <pb n="764" facs="#f0048"/>
+Auf diese Weise fuhren sie eine ziemliche Strecke auf der Straße von dem Schlosse weg.</p>
+            <p rendition="#et">Dann aber lenkte der erste Wagen rechts in einen Seitenweg ein, und ging auf demselben fort. Dietwins Wagen fuhr auf der geraden Straße weiter, daß der Staub empor wirbelte, und daß man die Räder kaum zu sehen vermochte.</p>
+            <p rendition="#et">Der Staatswagen kam nach einer Zeit vor das Schloß Wengern.</p>
+            <p rendition="#et">Der Oheim und die Tante stellten Gerlint dem Herrn und der Frau des Schlosses und ihren Angehörigen als eine neue Mitbewohnerin von Biberau vor.</p>
+            <p rendition="#et">Nach einer kurzen Zeit fuhren sie wieder weiter.</p>
+            <p rendition="#et">Gerlint wurde an diesen und an den folgenden Tagen noch in mehreren andern Schlössern vorgestellt.</p>
+            <p rendition="#et">Darauf begannen die Besuche der Nachbarn in dem Schlosse Biberau.</p>
+            <p rendition="#et">Es kamen reiche Grundbesitzer, es kamen solche, die in einem Schlosse wie einst Ritter in ihrer Burg hausten, und es kamen auch Leute ohne Adel, mit denen aber ihrer Stellung wegen die von der Weiden stets Umgang gepflogen hatten. Vielfache Unruhe wurde dadurch in dem Schlosse bereitet, und seine Gastfreundschaft in mancherlei Weise in Anspruch genommen. Der Oheim war in dieser Zeit immer in Biberau, weil er mit seiner Schwester die Nichte Gerlint bei den Leuten vorgestellt hatte. Dietwin fuhr zuweilen unvermutet mit seinen goldhellen Pferden in das Schloß, und tat sich unter den Bewohnern und Besuchern herum. Hierauf fuhr er wieder von dannen. Er lenkte die Pferde immer selbst.</p>
+            <p rendition="#et">Die Feierlichkeitsbesuche der Nachbarn endeten zuletzt, nachdem alle da gewesen waren, zu denen die Geschwister Gerlint geführt hatten.</p>
+            <p rendition="#et">Man konnte jetzt erst recht daran gehen, sich in dem Schlosse und in den neuen Verhältnissen zurecht zu finden. <pb n="765" facs="#f0049"/>
+Die Tante, welche bisher an dem einen Tage ein schwarzes, an dem andern ein aschgraues Seidenkleid getragen hatte, ging nun fortwährend in einem schwarzen. Gerlint und Auguste konnten die verschiedenen Festkleider, welche die Besuche geboten hatten, in die Laden legen, oder von den Schäden, die ihnen etwa verursacht worden waren, heilen lassen. Der Oheim packte manches aus seiner Wohnung ein, und fuhr eines Tages mit seinen Schimmeln nach Weiden. Gerlint begann ihre Wohnung, wie sie es in ihrem Sinne meinte, zu ordnen. Es stand ein sehr kostbarer Flügel in ihrem Empfangszimmer, und obwohl das Spiel auf dem Flügel zu den Unterrichtsgegenständen der Anstalt, in welcher Gerlint gewesen war, gehört hatte, und obwohl die Briefe der Vorsteherin vielfach nach Biberau gemeldet hatten, daß Gerlint darin hervorrage, sperrte sie doch mit dem Schlüssel den Flügel zu, und bat die Tante, daß sie nicht zürne, wenn sie selber auf dem Flügel nicht spiele, und auch nicht gestatte, daß es sonst jemand tue.</p>
+            <p rendition="#et">»Ich habe dir gesagt,« erwiderte die Tante, »daß du in deiner Wohnung die Herrin bist, und tun kannst, wie es deine Einsicht gebietet.«</p>
+            <p rendition="#et">»Und ich habe geantwortet,« sagte Gerlint, »daß ich nicht die letzte sein werde, den Wett des Stammes zu wahren.« »So sind wir einig«, entgegnete die Tante.</p>
+            <p rendition="#et">In den Zimmern Gerlints waren auf Tischen vor Spiegeln oder auf andern Platzen allerlei kleine Dinge von Porzellan, oder Glas, oder Holz, oder Metall, und darunter menschliche Gestalten in verschiedener Weise. Alle diese Dinge stellte Gerlint der Tante wieder zur Verfügung, und die Tische und die Plätze, auf denen sie gewesen waren, blieben leer.</p>
+            <p rendition="#et">Dann entfernte sie alle Bilder und Kupferstiche von den Wänden, und ließ die Wände leer. Von ihrem Bette ließ sie die Vorhänge wegnehmen und das Bett so stellen, <pb n="766" facs="#f0050"/>
+daß sie beim Erwachen durch die großen Fenster in den Himmel sehen konnte. Die Spiegel wurden alle bis auf einen, der zum Ankleiden dienen sollte, aus der Wohnung entfernt. An den Fenstern legte sie die Stoffe, die zu Vorhängen dienten, in Falten, wie sie ihr gefielen, befestigte die Stoffe an den Seiten der Fenster, und ließ sie nicht zuziehen. In das Wohnzimmer und in das Empfangszimmer wurden Gewächse gestellt. An dem Haupte ihres Bettes standen zu beiden Seiten Bücherschreine, und in der Nähe des Fensters des Schlafgemaches stand ein großer Schreibtisch. Von Gerätschaften zu weiblichen Arbeiten, Stickrahmen oder dergleichen, war nichts zu erblicken, auch konnte man keine Vorrichtungen für Musik oder irgend eine andere Kunst entdecken. Die Geräte, mit denen die Tante die Zimmer hatte versehen lassen, stellte sie, wie es ihr passend schien, und gab auch einiges, was ihr überflüssig deuchte, der Tante zurück. Hierauf entwarf sie mit der Hilfe Augustens Zeichnungen zu verschiedengestaltigen Tongefäßen, die als Untersätze für die Gewächse ihrer Zimmer dienen sollten, und die sie wollte verfertigen lassen. Ingleichen wurden auch Zeichnungen zu Gewächsgestellen gemacht.</p>
+            <p rendition="#et">Als alles dieses geschehen war, wurde die Tante davon verständigt und um ihre Billigung gefragt.</p>
+            <p rendition="#et">Die Tante antwortete: »Unsere Vorfahrer sind ihre eigene Wege gegangen; aber jeder den rechten. Darum wurde nie einer von einem andern getadelt, und darum hat auch meine ganze Billigung, was du getan hast.«</p>
+            <p rendition="#et">Als die Wohnung vorläufig so geordnet war, begann das gewöhnliche Leben.</p>
+            <p rendition="#et">Die Tante, Gerlint, Auguste und Agathe fuhren in einem geräumigen Wagen durch die Besitzung. Adam fuhr in einem leichten Wägelchen hinterdrein. Die Tante besah die Zustände, zeigte dieselben Gerlint und Auguste, besprach sich mit ihnen und mit Adam, und ordnete an. So <pb n="767" facs="#f0051"/>
+lernte Gerlint nach und nach die Bestandteile ihrer Besitzung und die Zweige ihrer Verwaltung kennen. Sie kam bei diesen Gelegenheiten mit den Leuten zusammen, die in der Besitzung arbeiteten.</p>
+            <p rendition="#et">In den Garten und in die nächste Umgebung des Schlosses ging man zu Fuße.</p>
+            <p rendition="#et">Wie die Tagesordnung und die sonstige Ordnung in dem Schlosse sei, lernte Gerlint schon nach einer kurzen Zahl von Tagen kennen. Denn die Tante hatte hierin nicht nur eine sehr große Einfachheit, sondern auch eine sehr große Pünktlichkeit.</p>
+            <p rendition="#et">Um fünf Uhr des Morgens verließ Gerlint ihr Bett. Sie brachte die Stunde bis sechs Uhr an ihrem Schreibtische zu. Dann ging sie zu Auguste, oder Auguste kam zu ihr, und sie lasen aus irgend einem Buche bis sieben Uhr. Um sieben Uhr tönte das Zeichen zu dem Frühmahle. Gerlint und Auguste gingen in den Kleidern, die man zu dem Frühmahle gewöhnlich hatte, in den kleinen Speisesaal, und in demselben wurde gemeinschaftlich unter Gesprächen das Frühmahl eingenommen. Nach einer Stunde verließ man den Saal. Gerlint geleitete meistens die Tante in ihr Gemach, und sprach noch verschiedenes mit ihr. Nach dieser Zeit ordnete sie mit ihren Mädchen an, was diese an dem Tage tun sollten. Hierauf ging sie entweder mit der Tante, die in ihren Geschäften war, herum, oder sie ging allein in den Garten oder in eines der Wäldchen, oder in die Felder und Wiesen. Sie besuchte zu dieser Zeit auch bisweilen mit der Tante eines oder das andere Haus der Umwohner des Schlosses. Auguste war manches Mal mit der Tante und ihr, oder mit ihr allein; meistens aber brachte sie diese Zeit allein zu. Um zwölf Uhr kleidete man sich festlich zu dem Mahle an. Um ein Uhr tönte die Speiseglocke, und es wurde in dem kleinen Saale das Mittagmahl eingenommen. Nach demselben war Gerlint mit Auguste und Agathe eine <pb n="768" facs="#f0052"/>
+Weile bei der Tante. Dann brachte sie wieder eine Stunde an ihrem Schreibtische zu. Sie blieb in der wärmeren Tageszeit in ihrer Wohnung. Dann war sie wieder viel im Freiem Die Zeit nach dem Abendmahle brachte man öfter in dem Gemache der Tante zu. Es war aber dies keine Regel, und jedes durfte diese Zeit auch verwenden, wie es wollte.</p>
+            <p rendition="#et">Gerlint lernte, was die Tage in der Verwaltung des Gutes brachten, immer genauer kennen, und die Tante und Adam und der Gärtner waren ihre Lehrmeister. Ihre Tätigkeit, die anfangs unbestimmter war, wurde immer geregelter, und die Tante ließ sie an manchem Teil nehmen, und ließ ihr in manchem freie Hand.</p>
+            <p rendition="#et">Der Oheim kam öfter in das Schloß, öfter kam Dietwin, öfter kamen sie mit einander.</p>
+            <p rendition="#et">Gerlint und Dietwin waren sehr höflich gegen einander, aber gemessen. In ihren Meinungen war oft Streit, und er wurde mit Kraft geführt.</p>
+            <p rendition="#et">Die Tante besuchte mit Gerlint und Auguste und Agathe ihren Bruder und auch Dietwin, und alles wurde auf den Gütern derselben genau besichtigt.</p>
+            <p rendition="#et">Zuweilen kamen Besuche der Nachbarn nach Biberau, zuweilen fuhren die Tante und Gerlint und Auguste zu den Nachbarn, und der Oheim und Dietwin gesellten sich manches Mal dazu.</p>
+            <p rendition="#et">Indessen waren die Gefäße zu den Blumen und die Gestelle nach den Zeichnungen fertig geworden. Gerlint schmückte nun ihre Wohnung mit Gewächsen, die Tante gab ihre Genehmigung hiezu, und der Gärtner lieferte aus, was Gerlint verlangte.</p>
+            <p rendition="#et">In dieser Zeit verschrieb Gerlint die schönsten und auch alle neuesten Rosen. Sie mußten sämtlich aus Reisern auf Hagebuttenstämme gepfropft sein. Als die Bäumchen angekommen waren, legte sie an einer Stelle des Gartens, die ihr geeignet schien, und die sie mit Hilfe des <pb n="769" facs="#f0053"/>
+Gärtners hatte zurichten lassen, ein Rosengehege an. Sie pflegte die Stämmchen selber, und Judith war hiebei ihre Handlangerin. Dietwin kam eines Tages, und besah diese Anlage sehr genau; sprach aber kein Wort darüber. Eben so sagte er nichts über die Gewächsanordnung in der Wohnung Gerlints, als er einmal mit dem Oheim von der Tante zu Gerlint geführt worden war.</p>
+            <p rendition="#et">Unter den Besuchern, welche zuweilen in das Schloß kamen, waren auch junge Männer, und manche wendeten Gerlint Aufmerksamkeiten zu. Sie aber war gegen alle gleich. Auf dieselbe Weise war es auch, wenn die Bewohner von Biberau und der Oheim und Dietwin auf irgend ein Gut zu einer Festlichkeit oder bei einer andern Gelegenheit geladen wurden.</p>
+            <p rendition="#et">So kam nach und nach der Herbst.</p>
+            <p rendition="#et">Im Anfange des Aufenthaltes Gerlints in Biberau kamen sehr viele Briefe von Freundinnen, die mit ihr in der Erziehungsanstalt gewesen waren, an. Diese Briefe wurden gegen die späte Jahreszeit seltener, und Gerlint hatte also auch seltener zu antworten.</p>
+            <p rendition="#et">Der Herbst ging mit seinen mannigfaltigen Beschäftigungen, die er gebracht hatte, vorüber, und es ging der Winter nach mancher häuslichen Arbeit, die man sich auferlegte, nach manchen Zusammenkünften, die man pflegte, nach manchen Belustigungen, die man im Zimmer, dann im Freien auf Spaziergängen, auf dem Eise, auf Schlittenfahrten veranstaltete, vorüber.</p>
+            <p rendition="#et">Als der vierundzwanzigste April in dem Schlosse Biberau gefeiert wurde, und als der Oheim und die Tante ihr alljährliches Zwiegespräch in der Stube der Tante hielten, sagte sie: »Du hast gemeint, lieber Bruder, Dietwin werde stürmischer verfahren, als Erwin verfahren ist, und nun zeigt sich noch gar nichts.«</p>
+            <p rendition="#et">»Es ist eben die Zeit noch nicht gekommen, in welcher der Sturm seinen Anfang nehmen sollte«, antwortete der <pb n="770" facs="#f0054"/>
+Oheim. »Das ist wahr,« sagte die Tante, »und er wird vielleicht noch lange nicht, oder vielleicht auch gar nie, anfangen.« »Wer kann das wissen?« fragte der Oheim.</p>
+            <p rendition="#et">»Dietwin sieht so viele schöne, gesittete, wohlgebildete Mädchen,« antwortete die Tante, »und er sieht sie, als ob sie gemalte Bilder wären, nein, nicht einmal so, denn die gutgemalten Bilder würde er bewundern, Gerlint ist auch so gegen die jungen Männer, und gegen einander sind sie beide, wie sie immer gewesen sind.«</p>
+            <p rendition="#et">»Das muß ich sagen,« sprach der Oheim, »schneller als er wäre ich in meinem einundfünfzigsten Jahre noch; aber siehe zu, eines Tages wird er mit der Tür ins Haus fallen.«</p>
+            <p rendition="#et">»Erwarten wir, welcher Art der Fall sein wird«, sagte die Tante.</p>
+            <p rendition="#et">»Der rechten Art, wie kraus er auch aussehen mag«, sprach der Oheim.</p>
+            <p rendition="#et">»Gebe es Gott«, erwiderte die Tante.</p>
+            <p rendition="#et">»Der Himmel schließt ja die Ehen«, sprach der Oheim.</p>
+            <p rendition="#et">»Er schließt sie, wenn eine rechte zu schließen, oder wenn überhaupt eine zu schließen ist«, antwortete die Tante.</p>
+            <p rendition="#et">»Vielleicht schließt er mehrere,« sagte der Oheim, »da bist ja du in dem Schlosse, dann Gerlint, Auguste, die Kammermädchen, Agathe. Nur für Judith hat er die Ehe schon geschlossen.«</p>
+            <p rendition="#et">»Führe heute nicht Frevelreden,« entgegnete die Tante, »warten wir, was uns die Geschicke bringen werden.«</p>
+            <p rendition="#et">»Warten wir,« sagte der Oheim, »wir können warten. Dietwin und Gerlint sind noch jung genug. Und selbst wenn sie einander nicht wählen, so werden sie gewiß so wählen, daß wir auch zufrieden sein können. Ich weiß überhaupt noch nicht, sind die beiden noch in der ersten Abteilung unseres Geschlechtes oder in der zweiten.«</p>
+            <p rendition="#et">»Sind sie wo immer,« sprach die Tante, »sie haben einen <pb n="771" facs="#f0055"/>
+hohen Sinn, und eine Wegwerfung ist nicht zu befürchten«</p>
+            <p rendition="#et">»Sie ist nicht zu befürchten, und würde nicht geduldet«, sagte der Oheim.</p>
+            <p rendition="#et">So schloß an diesem Tage die Verhandlung, weil nichts mehr da war, das verhandelt werden konnte.</p>
+            <p rendition="#et">Der Frühling ging nach dieser Zeit immer rascher in das Land, und wurde immer heißer.</p>
+            <p rendition="#et">Gerlint sorgte für ihre Rosen, die in Üppigkeit dastanden, sie sorgte noch für allerlei andere Blumen und Gewächse, die sie in ihre Aufmerksamkeit genommen hatte, sie half der Tante in der Verwaltung von Feld und Wiese und Wald, sie wendete ihre Augen auch all den Tieren des Schlosses zu, sie kaufte Bücher und las allein oder mit Auguste in ihnen, sie ritt oft auf ihrem schwarzen Pferde herum, und zuweilen so rasch wie der Vetter Dietwin, und sie gab den jungen Männern der Nachbarschaft und der Stadt keine zuvorkommenden Blicke.</p>
+            <p rendition="#et">Und als die Zeit der Rosenblüte gekommen war, sandte die Tante ohne Gerlints Wissen Boten an ihren Bruder, an Dietwin und an zahlreiche Nachbarn, daß sie kämen und die Rosen Gerlints bewunderten. Sie kamen und bewunderten die vielen, in der Gegend größten Teils noch unbekannten Rosen, die so reichlich dastanden, daß das Ganze ein Wäldchen von Rosen war. Der Oheim setzte sich sogleich nieder und schrieb an die vorzüglichsten Pflanzenhändler nach England, um seiner Nichte noch vielleicht Rosenschätze zu verschaffen, die sie nicht hatte. Zwei Tage nach dem Abschiede von Biberau kam ein Bote von Dietwin und lud die Bewohner von Biberau nach Weidenbach ein, dort etwas zu besehen. Die Tante, Gerlint, Auguste und Agathe fuhren hin. Sie fanden den Oheim dort und viele Menschen aus der Nachbarschaft. Als auserlesene Erfrischungen dargeboten worden waren, führte Dietwin die ganze Gesellschaft in den Garten. Sie <pb n="772" facs="#f0056"/>
+kamen vor ein Gitter, hinter dem eine grüne Wand von Haselnußgesträuchen war. Dietwin öffnete mit einem Schlüssel die Tür des Gitters, und die Gäste traten ein. Nachdem sie einen kurzen Gang in dem Gebüsche zurückgelegt hatten, öffnete sich ein großes, ebenes Feld, auf dem lauter Rosenbäume standen. Waren Gerlints Rosen ein Wäldchen, so waren Dietwins Rosen ein Wald. Das sah man auch gleich, daß sie in Gruppen und nach Farben geordnet waren. Nach allen Richtungen gingen Wege, daß jeder Stamm betrachtet werden konnte. Fast alle waren in Blüte, und der Anblick machte eine berauschende Wirkung.</p>
+            <p rendition="#et">»Da hast du ja alle Rosen, die wir in Biberau gesehen haben,« rief der Oheim, »nur in größerer Zahl, und noch andere dazu, vielleicht schon die, welche ich aus England verschrieben habe.«</p>
+            <p rendition="#et">»Es sind mir aus England, Holland, Belgien, Frankreich, Spanien und aus der Türkei Rosen gesendet worden«, sagte Dietwin.</p>
+            <p rendition="#et">»Und das hast du geheim getan«, sprach der Oheim.</p>
+            <p rendition="#et">»Es ist eine grüne Mauer um das Feld, und das Gitter war immer gesperrt, damit die Überraschung gelinge«, sagte der Neffe.</p>
+            <p rendition="#et">»Bei mir ist sie dir gelungen«, antwortete der Oheim. »Bei mir auch«, sagte die Tante.</p>
+            <p rendition="#et">»Bei allen, bei allen«, riefen fast die sämtlichen Anwesenden.</p>
+            <p rendition="#et">Und man konnte der Bewunderung kein Ende finden.</p>
+            <p rendition="#et">Dietwin führte die Tante durch alle Gänge, und zeigte ihr und erklärte ihr alle vorzüglichen Blumen. Die Gäste zerstreuten sich, und betrachteten, was jedem der Betrachtung am würdigsten erschien. Es durfte aber keine Blume abgeschnitten werden. Nur der Tante band Dietwin einen Strauß der schönsten Rosen zusammen.</p>
+            <p rendition="#et">»Wenn mein schönes Mühmchen Gerlint den einen oder <pb n="773" facs="#f0057"/>
+den andern Stamm für ihre Sammlung bedarf und wünscht, so gebiete sie nur darüber«, sagte er.</p>
+            <p rendition="#et">»Wenn ich Stämmchen bedarf, so werde ich meinen guten Vetter darum ersuchen«, antwortete Gerlint.</p>
+            <p rendition="#et">Außer den Rosen wurde von den Gästen darauf der ganze Garten besehen, dann auch die Wirtschaftsgebäude, selbst nahegelegene Felder, und endlich das Schloß. Große Bewunderung erregten zwei herrlich gebildete schneeweiße Kühe, an denen kein anderes Härchen war, und ein Feld mit so schönem Weizen, wie man noch nie einen in der Gegend gesehen hatte.</p>
+            <p rendition="#et">»Ich hoffe, endlich alle meine Rinder in allen Farben in der trefflichsten Zucht und alle meine Getreide so schön und schöner als diesen Weizen hier zu haben«, sagte Dietwin.</p>
+            <p rendition="#et">Ein ausgesuchtes Mahl folgte auf die Beschauung, und nach demselben verließen die Gäste das Schloß. Nur die von Biberau und der Oheim blieben über die Nacht in Weidenbach, und fuhren des andern Tages nach Hause.</p>
+            <p rendition="#et">Der Sommer verging, wie der vorige vergangen war, und der Winter verging auch so, nur daß in demselben schon die Zuchten des Paares schwarzer Pferde des Oheims und des Paares brauner Pferde des Neffen vor Schlitten wetteifern konnten. Die Tante hatte wirklich aus den Marderfellen nicht früher einen Pelz machen lassen, als bis die Pferde erzogen waren, und nun saß sie in dem untadeligsten weitfaltigen Marderpelze bald in dem Schlitten ihres Bruders, bald in dem ihres Neffen, und der außerordentlichste Pferdekenner hätte nicht unterscheiden können, welchem Paare der Vorzug gebühre, so fein und ebenmäßig und kraftvoll waren die Körper, und so feurig und ehrgeizig und sanft waren die Geister der Tiere. Der Oheim und der Neffe waren so gerecht, selber keinen Unterschied in den Tieren finden zu können; aber jeder suchte die Vorzüge der seinigen, wenn er <pb n="774" facs="#f0058"/>
+einen edlen Gast in dem Schlitten hatte, in das rechte Licht zu stellen.</p>
+            <p rendition="#et">Bei der nächsten Rosenblüte waren die Rosenwälder Gerlints und Dietwins noch größer geworden, besonders Gerlints; sie hatten sich an Arten und Schönheit vermehrt, aber man konnte, wie bei den Pferden des Oheims und des Neffen, nicht unterscheiden, welchem man den Vorzug geben sollte.</p>
+            <p rendition="#et">»Dem muß gesteuert werden,« sagte der Oheim, »wenn es so fortgeht, so sind bald die Gründe von Weidenbach und Biberau ein einziger Rosenstrauch.«</p>
+            <p rendition="#et">»Die Grenze wird sich wohl finden«, sagte der Neffe.</p>
+            <p rendition="#et">Aber zwei Dinge waren es, in denen Gerlint heuer Dietwin übertraf: in einer eigenen Abteilung des Stalles von Biberau standen zwei Kühe von dem alleredelsten Baue, von milchweißer Farbe, mit rabenschwarzen Köpfen und schwarzen Wedeln, beide ganz gleich, und auf Feldern neben dem Schlosse war Weizen und Korn, so schön, wie es noch nie erlebt worden war, und wie es im vorigen Jahre und heuer bei Dietwin nicht gesehen wurde.</p>
+            <p rendition="#et">Die Festlichkeiten und Zusammenkünfte waren wie sonst, und eher noch mehr, und wie sich die Aufmerksamkeiten von jungen Männern gegen Gerlint steigerten, so blieb ihr Anstand gegen jeden derselbe, und ihre Kälte blieb dieselbe. Dietwin ritt jetzt sehr oft nach Biberau, wie er früher gefahren war, und man bemerkte, daß er meistens sehr schnell ritt. Auch an Gerlint bemerkte man, daß ihr Reiten jetzt etwas viel Schnelleres und Hastigeres habe als früher.</p>
+            <p rendition="#et">Um diese Zeit näherte sich der junge Graf von Steinheim auf zarte Weise Augusten, und Auguste schien ihm nicht abgeneigt.</p>
+            <p rendition="#et">Gegen den Herbst ereignete es sich, daß der Sohn des Herrn vom Schlosse Wengern an seinem rechten Arme verwundet wurde. Er lag eine Zeit im Bette, und trug <pb n="775" facs="#f0059"/>
+den Arm dann in der Schlinge. Es hieß, daß er sich mit seinem eigenen Gewehre, als er in dem Walde ging, verwundet habe. Allein es schlich auch ein Gerücht, er habe sich mit Dietwin geschlagen. Den Grund konnte niemand auch nur vermutungsweise angeben. Als dieses auch der Oheim erfuhr, sprach er mit Dietwin darüber. Dietwin aber antwortete: »Darüber, was ich von dieser Geschichte weiß, lieber Oheim, habe ich zu schweigen versprochen.«</p>
+            <p rendition="#et">Diese Antwort überbrachte der Oheim seiner Schwester, und es wurde in dem Schlosse Biberau jetzt nicht weiter von dieser Angelegenheit geredet.</p>
+            <p rendition="#et">Der Herbst und der Winter vergingen, wie der frühere Herbst und Winter vergangen war. Als wieder der vierundzwanzigste April gekommen war, gab Dietwin der Tante ein ganz besonderes Geschenk, ein Bild, welches einer der ersten Meister gemalt hatte. Es stellte das Schloß Biberau vor, und wurde auf tausend Taler geschätzt. Gerlint gab dem Oheime Vorhänge für die Fenster des Saales in Weiden, auf denen täuschend Glasmalerei nachgeahmt war. Die Tante und der Oheim hatten an den Geschenken eine außerordentliche Freude.</p>
+            <p rendition="#et">Als das Zwiegespräch dieses Tages zwischen dem Oheime und der Tante vorüber war, als alle Bewohner des Schlosses Biberau sich in ihre Schlafgemächer zurückgezogen hatten, saß die Tante in dem ihrigen an dem Tische und hielt ihr Haupt in den beiden Händen. Und als sie dann ihre Zofen gerufen und sich hatte entkleiden lassen, und als sie in ihrem Bette lag, und die Sterne durch manchen Teil der Fenster, der durch die Vorhänge nicht bedeckt war, herein schienen, konnte sie den ersehnten Schlummer nicht finden.</p>
+            <pb n="776" facs="#f0060"/>
+         </div>
+         <div xml:id="Stifter-Adalber-d1e61916" type="chapter">
+            <head>3</head>
+            <p>Da am nächsten Morgen die Sonne aufgegangen war, da man das Frühmahl verzehrt hatte, da in einer Zeit darauf der Oheim und Dietwin einen Spaziergang angetreten hatten, und Gerlint auf ihrem schwarzen Pferde rasch in die Felder ritt, ließ die Tante Auguste zu sich in ihr Gemach bitten. Als diese gekommen war, und man zwei Plätze an dem Tische eingenommen hatte, sagte die Tante: »Meine geliebte Auguste, meine Auguste, die mir immer teuer gewesen ist, erfülle mir heute eine Bitte, sei ganz rückhaltlos offen, du tust es zu keinem schlechten Zwecke.«</p>
+            <p rendition="#et">»Meine geliebte, verehrte Base,« antwortete Auguste, »ich weiß, daß du immer gütig gegen mich gewesen bist, daß du mich ohne mein Verdienst geliebt hast, ich habe es gefühlt, ich habe die Empfindungen der größten Dankbarkeit gegen dich gehegt, und ich habe dich deiner Eigenschaften willen im höchsten Maße verehrt und geliebt. Wenn du mir nun eine Gelegenheit gibst, dir dies alles durch die Tat beweisen zu können, so gewährest du mir ein Glück, für das ich dir wieder dankbar bin. Ich werde dir mit allen meinen Kräften zu Diensten sein, wenn ich es nämlich kann.«</p>
+            <p rendition="#et">»Vielleicht kannst du es nicht, mein Kind,« sagte die Tante, »vielleicht kannst du es nur wenig, wir wollen es versuchen, höre mich an. Gerlint ist nicht in dem Zustande, in dem sie war, als sie dieses Schloß betreten hatte. Sie ist sehr tätig, oft zu sehr, sie ergreift die fernsten Dinge, belehrt sich über Wirtschaftszweige, wie sonst Männer, kümmert sich um Angelegenheiten mancher Bewohner der Gegend, und ist wieder ernst, als schwiege sie immer, sie macht schnelle Ritte, und von allen, die ihr Aufmerksamkeiten erweisen, kann keiner sagen, daß er einen ermunternden Blick erhalten habe. <pb n="777" facs="#f0061"/>
+Du, meine Auguste, hast gewählt, du wirst ein gutes Glück finden, und hast unsern Segen dazu.«</p>
+            <p rendition="#et">Auguste stand bei diesen Worten auf, und küßte der Tante die Hand.</p>
+            <p rendition="#et">Diese aber schloß sie in die Arme.</p>
+            <p rendition="#et">Darauf fuhr die Tante fort: »Mein Bruder und ich haben ber Gerlint gesprochen. Wir möchten gerne helfen, und renn du etwas Genaueres weißt und mitteilen darfst, so age es, und erhöhe die Mittel, wodurch vielleicht zu helfen ist.«</p>
+            <p rendition="#et">»Meine teure, meine hochgeehrte Base,« sagte Auguste, »Gerlint ist so lieb und so freundlich und so offen mit mir wie eine Schwester, wir teilen unsere Bestrebungen einander mit, wir teilen, was wir in Büchern lesen, wir teilen, was wir empfinden, und es ist nie die Bedingung gestellt worden, daß etwas verschwiegen werde. Ich darf dir also alles sagen, was ich von Gerlint weiß. Aber ich weiß nichts von ihr, als was du, und was der Oheim, und was alle sehen und alle wissen. Ich denke schon einige Zeit, daß Gerlint in einem befangenen Gemütszustande ist; aber nie hat die leiseste Äußerung etwas kundgetan. Als ich einmal von ihren Anbetern sprach, und von den jungen Männern, die das Haus besuchen, und auf eine ferne Verbindung deutete, sah sie mich mit ihren großen Augen ruhig an, und schüttelte später kaum merklich das Haupt. Ich redete nie wieder von dergleichen Dingen. Mir ist, als habe sie einen Wunsch über die Möglichkeit der Erreichung hinaus. Sonst geht sie strenge ihren Geschäften nach, du weißt, wie sie ihre Zeit verwendet, in der sie schreibt, in der wir lesen, in der sie ihren Mädchen die Anweisungen gibt, in der sie nach ihren Blumen sieht, in der sie sich dir und den Angelegenheiten des Gutes hingibt. Selten kommen Nebendinge, daß sie zu einer ungewöhnlichen Zeit lustwandelt, oder, was öfter geschieht, in den Saal geht und das Bild des Oheims betrachtet. <pb n="778" facs="#f0062"/>
+Am widrigsten scheinen ihr größere Besuche, die kommen, oder wenn wir solche machen müssen. Das, meine hochverehrte Base, ist alles, was ich weiß.«</p>
+            <p rendition="#et">»Wir müssen nun in Geduld warten,« sagte die Tante, »was noch wird; sie geradezu fragen, wäre ein Fehler.«</p>
+            <p rendition="#et">»Tue es nicht, Tante, ich bitte dich, tue es nicht«, sagte Auguste.</p>
+            <p rendition="#et">»Ich tue es nicht,« antwortete die Tante, »lassen wir die Sache, und stellen wir sie Gott anheim. Wenn ihr unser Beistand nötig sein sollte, wird er nicht fehlen, und du wirst ihr immer eine Freundin sein.«</p>
+            <p rendition="#et">»Du wirst ihr am besten beistehen, Tante,« sagte Auguste, »alle werden ihr beistehen, und ich bin ihre Freundin und ihre Schwester, wie ihre Seele und ihre Liebe zu mir es verdient.«</p>
+            <p rendition="#et">»So pflege deines Amtes, du guter Anwalt,« sprach die Tante, »und lasse dich die Zeit nicht gereuen, die du in meinem Hause lebst.«</p>
+            <p rendition="#et">»Sie ist die schönste meines Daseins«, antwortete Auguste.</p>
+            <p rendition="#et">»Ich glaube es dir, mein Kind,« sagte die Tante, »jetzt gehe zu deinen Beschäftigungen, von denen ich dich abgehalten habe.«</p>
+            <p rendition="#et">Beide erhoben sich. Auguste küßte die Hand der Tante, die Tante küßte sie auf die Stirne.</p>
+            <p rendition="#et">Einen Monat nach diesem Tage kamen der Oheim und die Tante in dem Gemache der letzteren zu einer Beratung zusammen.</p>
+            <p rendition="#et">»Lieber Bruder,« sagte die Tante, »es muß doch einmal von dem geredet werden, wovon geredet werden muß.«</p>
+            <p rendition="#et">»So rede, liebe Gerlint,« antwortete der Oheim, »wovon, wie du meinst, geredet werden muß.«</p>
+            <p rendition="#et">»Mein herzlieber Bruder Dietwin,« sagte die Tante, »mein lieber Bruder, es ist sehr seltsam und sonderbar; aber es ist nicht unerhört; allein es ist auch nicht gewöhnlich, <pb n="779" facs="#f0063"/>
+und ich weiß nicht, wie ich es sagen soll. Ich meine, Gerlint trage eine heimliche Liebe in dem Herzen, und zwar zu dir, mein Bruder.«</p>
+            <p rendition="#et">»Aber, Gerlint, Gerlint,« antwortete der Oheim, »das wären ja krause Dinge, die da zusammenträfen. Es ist ja fast unglaublich. Hast du denn auch recht bedacht, was du sagst, liebe Schwester? Gerlint, das beginnende, blühende Leben, und ich, der den Jahren zugeht, wo man nicht sich, sondern den Sohn oder die Tochter vermählt. Liebe Schwester, sage, wie wäre denn das möglich?«</p>
+            <p rendition="#et">»Es ist eine Verirrung der Natur,« sagte die Schwester, »und es ist nicht gewöhnlich, aber es kommt dennoch vor. Gerlint ist jetzt in den Jahren, wo das Herz das Bedürfnis fühlt, die Stütze des Mannes zu suchen, aber ihr Herz ist zu stolz, sich einem Manne gefangen zu geben, der nicht höher steht als sie selbst. Dich verehrt es, und es fällt ihm leicht, sich dir zu unterwerfen. Die eine Liebe, die dir als dem Oheim und zweiten Vater gebührt, besitzest du von jeher; so, in ihrer Hilflosigkeit, gibt sie dir auch noch die andere, halb aus Furcht, ein anderer könnte sie ihr rauben. Es ist eine Verirrung, aber sie kommt zuweilen vor, und bei Gerlint, fürchte ich, ist sie da.«</p>
+            <p rendition="#et">»Aber woraus erkennst du denn, liebe Schwester, daß sie da ist«, fragte der Oheim.</p>
+            <p rendition="#et">»So höre mich,« sagte die Tante, »denke an den Brief vor zwei Jahren. Ich bin in der Aufschrift nur die hochverehrte, geliebte Tante, du bist der herzliebe Oheim, in der Unterschrift ist sie die mich liebende und verehrende und mir dankende Gerlint, dir ist sie die in Liebe ergebene Nichte Gerlint. Im Briefe bittet sie den Himmel, daß er dein liebes Haupt segne, und daß er dir gebe, was dir lieb ist. Mir verspricht sie nur, jedes Opfer bringen zu wollen, das mir zur Freude gereichen kann. Zudem sagt sie, daß sie in die Erkenntnis deiner Güte immer mehr <pb n="780" facs="#f0064"/>
+hinein wachse, und dir mehr dankt, als sie danken konnte, da sie noch unvernünftig war. Ich habe damals ohne Ahnung schon den Unterschied hervorgehoben, und ich glaube, daß schon damals etwas in ihr war, dem ähnlich, was jetzt in ihr ist. Dann kam sie hieher. Wie sie dir anhing, weißt du, wie sie sich freute, wenn wir uns auf den Weg nach Weiden begaben, weiß ich, daß jetzt etwas in ihrem Herzen ist, können fast alle, die ihr näher sind, bemerken, und Auguste, mit welcher ich vor einiger Zeit von der Sache sprach, hat, wenn sie sich auch scheute, dich zu nennen, doch fast mit Bestimmtheit auf dich hingedeutet. Gerlint ist unstät trotz ihrer Ordnung, sie ist viel ernster, als Mädchen ihres Alters zu sein pflegen, ihre Beschäftigungen führt sie mit einer Art Übertreibung, sie reitet sehr heftig, als triebe sie eine Empfindung, die sie, wie einen unerfüllbaren Wunsch, mit Gewalt unterdrücken möchte, denke, was sie dir für ein kostbares Geschenk zu deinem letzten Geburtstage gab, sie mußte die Ersparungen einiger Jahre darauf verwendet haben, bedenke dann ihren unbegreiflichen Abscheu vor allen jungen Männern, und bedenke endlich, daß sie sehr oft in den großen Saal geht, und lange, lange dein Bild anstarrt.«</p>
+            <p rendition="#et">Darauf sprach der Oheim: »Ja, es muß von dem geredet werden, wovon geredet werden muß. Höre mich. Unser Neffe Dietwin hat auch eine Liebe im Herzen. Lasse mich zu Ende reden. Er ist ebenfalls unstät, er treibt ebenfalls seine Geschäfte nicht mehr folgerichtig, wie in der ersten Weidenbacher Zeit, er überstürzt alles. Erst ritt er noch viel heftiger als Gerlint, und jetzt fährt er mit seinen Pferden wie verrückt, er hat sich geschlagen, das ist nun wohl sicher, und kein Mensch weiß, weshalb, er haßt die schönsten Mädchen der Welt, und die andern auch, dafür kommt er sehr oft nach Biberau, er hat dir zu deinem letzten Geburtstage das Bild dieses Schlosses <pb n="781" facs="#f0065"/>
+gegeben, ein Bild um hohen Preis, das Bild deines Wohnortes, und er geht ebenfalls sehr oft in den Saal von Biberau, und schaut lange, lange dein Bild an.«</p>
+            <p rendition="#et">Der Oheim schwieg.</p>
+            <p rendition="#et">Die Tante sprach »Das wäre ja – wenn es wäre – das ist – ich weiß es nicht, sage es mir, das wäre merkwürdig.«</p>
+            <p rendition="#et">»Ich habe ihn beobachtet, ich bin in dem Saale gewesen, und es ist so«, antwortete der Oheim.</p>
+            <p rendition="#et">»Ich habe auch Gerlint beobachtet, wie es mir nur möglich war«, sagte die Tante.</p>
+            <p rendition="#et">»Das ist,« sagte der Oheim, »es kommt zuweilen einmal vor, aber hier zweimal, es wäre, wie du sagst, merkwürdig.«</p>
+            <p rendition="#et">»Das Herz des Menschen hat oft wunderbare Fügungen«, antwortete die Tante. »Und in unserm Geschlechte ist etwas Stätiges, so daß sich immer alles gleich bleibt, und fast alles sich wiederholt, was schon einmal gewesen ist; und doch ist es bei uns wieder ganz anders als bei andern. Hat nicht Dietwin, der Neffe des Kardinals, der bis in sein zweiunddreißigstes Jahr unvermählt blieb, sich, als er aus Italien zurückkehrte, mit seiner Tante vermählt, die damals gerade um zwei Jahre älter war als ich jetzt. Und es entsproßten dieser Ehe ein Sohn, der sich in den nachmaligen Kriegen so hervortat, und zwei Töchter, von denen die eine zwar als Kind starb, die andere aber ein so hohes Alter erreichte, daß an ihrem letzten Geburtstage, der so wie der unsere in den April fiel, sechsundvierzig Kinder, Enkel und Urenkel um sie versammelt waren.«</p>
+            <p rendition="#et">»Sie gönnte in der Tat keinem aller jungen Männer einen Blick, und gegen Dietwin war sie beinahe noch mehr zurückhaltend als gegen die andern«, sagte der Oheim.</p>
+            <p rendition="#et">»Und er wendete an Frauen und Mädchen fast nicht einmal die gewöhnliche Höflichkeit«, sprach die Tante.</p>
+            <p rendition="#et">
+               <pb n="782" facs="#f0066"/>
+»Das muß übrigens viel genauer untersucht werden, liebe Gerlint«, sagte der Oheim.</p>
+            <p rendition="#et">»Setzen wir die Beobachtungen fort, daß wir zu triftigerer Einsicht gelangen«, sprach die Tante.</p>
+            <p rendition="#et">»Ich denke, Schwester Gerlint,« sagte der Oheim, »wenn wir etwas täten, das weniger Zeit in Anspruch nimmt«</p>
+            <p rendition="#et">»Ja,« sprach die Tante, »und was könnte das sein?«</p>
+            <p rendition="#et">»Ich meine,« sagte der Oheim, »du redest mit Dietwin von seiner einstigen Vermählung, und hörest, was er sagt, und ich tue das gleiche mit Gerlint.«</p>
+            <p rendition="#et">»Das ist ein schwieriges Gespräch,« antwortete die Tante, »und alles kommt auf die Verfahrungsweise an.«</p>
+            <p rendition="#et">»Aber wir könnten da einen tieferen Blick tun«, versetzte der Oheim. »Du, liebe Gerlint, wirst die rechte Verfahrungsweise schon finden, und ich werde bestrebt sein, nicht gar weit irre zu gehen.«</p>
+            <p rendition="#et">»So versuchen wir es in Gottes Namen,« sagte die Tante, »und möge der Himmel seinen Segen geben.«</p>
+            <p rendition="#et">»So spreche ich auch,« entgegnete der Oheim, »und möchte, daß das Ding vorüber wäre.«</p>
+            <p rendition="#et">Nach diesen Worten stand er auf, und sagte: »Ich spreche jetzt von andern Angelegenheiten nichts mehr. Wenn eine Entscheidung nötig wird, vereinigen wir uns wieder.«</p>
+            <p rendition="#et">»Möge es bald sein«, sagte die Tante, und geleitete den scheidenden Bruder bis zur Tür.</p>
+            <p rendition="#et">Fünf Tage nach diesem Gespräche waren die Geschwister wieder in dem Gemache bei einander, und setzten sich zu demselben Tische.</p>
+            <p rendition="#et">Der Oheim sagte: »Nun, Gerlint, rede.« »Rede du zuerst, Bruder«, sagte sie.</p>
+            <p rendition="#et">»Also, weil du es wünschest, rede ich«, antwortete der Oheim. »Ich bin mit Gerlint an der großen Eiche gewesen. Da habe ich nun auch endlich gesagt: ›Gerlint, diese Eiche sieht weit in das Land hinein, wir können fast alle <pb n="783" facs="#f0067"/>
+Gründe und mitunter auch die Schlösser darin erblicken, deren Bewohner mit uns bekannt sind und in Gastlichkeit leben. Aber auch von dorther wird die Eiche weit und breit gesehen, und, weil sie ein so mächtiger Baum ist, leicht von andern unterschieden. Und darum wird mancher, der an dich denkt, auf diese Eiche schauen, und doppelt an dich denken. Wann wird uns denn unsere liebe Nichte einmal mit einem recht artigen, schönen, tüchtigen Gemahle erfreuen?‹ Sie aber schlang den Arm um mich, und küßte mich mit Heftigkeit und rief: ›Oheim, wünschet mich nicht fort, sondern lasset mich mit euch leben, wie ich lebe, hin und hin, und redet nicht mehr von solchen Dingen.‹ Ich antwortete darauf: ›Wenn du nicht selber sehr gern gehest, wünschen wir dich nicht fort, Gerlint, wir wünschen dich in alle Zukunft sehr in unserer Nähe und in traulichem Umgange mit uns, und ich werde von dieser Sache nicht mehr reden.‹ Darauf sagte sie nichts, wir schlugen den Heimweg ein, und da wir in die Nähe des Schlosses kamen, sprach sie von Bäumen und Gesträuchen und von solchen Dingen. Das ist nun mein Bericht, liebe Schwester, jetzt bringe du auch den deinen.«</p>
+            <p rendition="#et">»Nun, mein guter Bruder,« sagte die Schwester, »ich habe mit Dietwin geredet. Da er wieder in dem Saale war, ging ich hinein. Er schritt mir entgegen, und wollte mich zu einem Sitze führen; ich lehnte es aber ab, und wir betrachteten die Bilder. Du kannst wohl denken, geliebter Bruder, daß ich nicht ungehörig gesprochen habe; als wir aber deine und meine Eltern und die Großeltern und die Urgroßeltern und deren Eltern angeschaut hatten, redete ich von dem Glücke der Familie, die so geschlossen fortgeht, und das Ihrige hin und hin auf liebe Glieder forterben kann. Und da sagte ich auch, daß es uns freuen wird, wenn er sich einmal eine holde Gattin wählt. Er antwortete sehr schnell: ›Tante, Tante, Tante, <pb n="784" facs="#f0068"/>
+diese Puppen, nie, nie, nie. Ich werde zu keiner Puppe herabsteigen, nein, niemals, und ich bitte dich, Tante, rede nicht davon, ich bitte dich, rede nicht davon.‹ Ich erwiderte: ›Nun, ich rede nicht davon.‹ Und wir gingen an ein Fenster und sahen auf die Landschaft, und verließen bald darauf den Saal. Und so ist es, wie ich sage.«</p>
+            <p rendition="#et">»Und was sagst du nun weiter, Gerlint?« fragte der Oheim.</p>
+            <p rendition="#et">»Was ich weiter sage, lieber Bruder, will ich dir offenbaren«, antwortete die Tante. »Ich habe in der letzten Zeit her immer an das gedacht, was sich jetzt ereignet. Du weißt, daß ich um Erwin Trauer angelegt habe, und die trage ich lebenslang. Es ist seit seinem Lebensende kein anderes Kleid auf meinen Körper gekommen als ein schwarzes oder ein graues, und so wird es bleiben. Eine Frau aber, welche Trauer trägt, schließt keine Ehe. Es haben sich mir ja Männer genähert, darunter waren edle und gute, und du weißt, wie ich jedes Werben abgelehnt habe. Ich bin noch nicht in den Jahren, in denen eine Ehe zu den Seltenheiten gehört; aber ich denke nicht daran. Und mit Dietwin wäre es gar vom Übel. Wenn auch viele Verbindungen, bei denen das Alter der Frau größer ist als das des Mannes, glücklich ablaufen, so ist doch etwas nicht ganz Natürliches in der Sache. Dietwin, wie ich sein Wesen kenne, würde mit mir nicht glücklich. Zudem erscheint der Welt eine solche Verbindung stets lächerlich, ob mit Recht, untersuche ich nicht; aber ich mag nicht unserem Stamme eine wenn auch törichte Lächerlichkeit anhängen, wie ich keinem der Mitglieder desselben irgend eine Unbill zufügen möchte. Das sind meine Gedanken, Bruder, über diese Sache.«</p>
+            <p rendition="#et">»Ich erkenne an, was du sprichst,« sagte der Oheim, »und werde nun auch dir, wie du mir getan, offenbaren, was ich von meiner Seite glaube. Es kommt nicht selten vor, daß Männer in meinen Jahren sich noch verehelichen, es <pb n="785" facs="#f0069"/>
+geschieht öfter als bei Frauen, und meistens wählen sie auch junge Mädchen. Und solche Verbindungen sind auch öfter glücklich als die Verbindungen älterer Frauen mit jüngeren Männern. Bei mir kommt noch ein Gutes dazu, daß ich nie eine Gattin gehabt habe, also um keine traure, und daß kein Vergleich zwischen einer frühern und einer spätern angestellt werden könnte. Aber dessenungeachtet denke ich an keine Verbindung. Sie hat auch bei mir wie bei dir etwas nicht Passendes. Und das Schiefe der Sache mag auch ich dir und unserem Geschlechte nicht antun. Und so bleibe ich, wie ich bisher gewesen bin. Dieses ist meine Meinung über mich.«</p>
+            <p rendition="#et">»So sind wir in dieser Hinsicht eines Sinnes«, sagte die Tante.</p>
+            <p rendition="#et">»Wir sind wieder eines Sinnes, wie wir es so oft gewesen sind«, antwortete der Oheim.</p>
+            <p rendition="#et">»Was ist aber nun weiter zu tun?« sagte die Tante. »Es ist ein Glück, daß die Leute ihre Gefühle bisher noch nicht deutlicher dargelegt haben.«</p>
+            <p rendition="#et">»Sie empfinden etwas Ungeheuerliches in der Sache, das zeigt die Spannung, und sie wagen sich nicht vorwärts. Aber die Lösung muß gefunden werden«, sprach der Oheim.</p>
+            <p rendition="#et">»Wäre das«, sagte die Tante.</p>
+            <p rendition="#et">»Weil es nur ein Irrtum ihrer verwandtschaftlichen Gefühle ist,« antwortete der Oheim, »so wird durch den rechten Weg die Aufhellung gewiß kommen.«</p>
+            <p rendition="#et">»Werden wir den rechten Weg ergründen?« fragte die Tante. »Versuchen wir es«, antwortete der Oheim. »Sie dürfen keine Gegenneigung ahnen.«</p>
+            <p rendition="#et">»Aber wie werden wir die Verwandtenneigung und die andere Neigung abwägen?« fragte die Tante.</p>
+            <p rendition="#et">»Nun, du hast dein Ansehen und deine Würde ja immer im Stande gehalten, und ich werde bestrebt sein, das gleiche zu tun«, antwortete der Oheim.</p>
+            <p rendition="#et">
+               <pb n="786" facs="#f0070"/>
+»Und dann?« fragte die Tante.</p>
+            <p rendition="#et">»Ich denke auch an eine zeitliche Trennung«, erwiderte der Oheim.</p>
+            <p rendition="#et">»Wohl,« sagte die Tante, »aber wie?«</p>
+            <p rendition="#et">»Der Neffe ist in der Verwaltung seines Gutes, er hat sich für diese Zeit jetzt eingelebt, wir können ihn nicht, ohne daß er auf den Kern der Sache käme, entfernen. Eben so kann kein Grund aufgefunden werden, die Nichte von dir zu geben. Also müssen wir beide von dem Platze fort. Ich meine, wir rüsten uns, und machen eine Reise«, sagte der Oheim.</p>
+            <p rendition="#et">»Das war mir auch schon in dem Herzen,« sprach die Tante, »obgleich ich schon lange her an keine Reise mehr dachte.«</p>
+            <p rendition="#et">»Ich habe auch nie an eine Reise gedacht«, sagte der Oheim. »Siehst du, Gerlint, wie du, als ich dir einmal zu dem Geburtstage Perlen gab, und du mir desselben Tages zu dem Geburtstage Perlen gabst, gesprochen hast, daß wir immer die nämlichen Gedanken haben, so haben wir sie.«</p>
+            <p rendition="#et">»Die Reise müßte aber bald angetreten werden, und länger dauern«, sprach die Tante.</p>
+            <p rendition="#et">»Sobald du mit deinen Vorbereitungen fertig bist, mag sie beginnen,« sagte der Oheim, »ich kann jeden Tag gehen.«</p>
+            <p rendition="#et">»Meine Vorbereitungen werden nicht viele Zeit in Anspruch nehmen«, antwortete die Tante.</p>
+            <p rendition="#et">»Und was die Dauer anbelangt,« sagte der Oheim, »so können wir sie nach den Umständen länger oder kürzer machen. Wir werden wohl erfahren, wie es zu Hause steht, zum Teile auch aus den Briefen der bei den selber, die wir aber durch Verzögerungen der Antworten zu seltenen machen müssen.«</p>
+            <p rendition="#et">»Wenn nur alles fruchtet«, sprach die Tante.</p>
+            <p rendition="#et">»Unsere Nichte Gerlint«, antwortete der Oheim, »hat <pb n="787" facs="#f0071"/>
+sich in die Geschäfte deines Gutes eingeübt, daß du ihr beruhigt die ganze Verwaltung übertragen kannst. Ich werde Dietwin die Oberleitung von Weiden geben. Sie können sich schicklicher Weise nur sehr selten besuchen, sind also viel allein, viel beschäftigt, und das wird wirken. Und weil ihre Empfindungen etwas Unnatürliches haben, und weil die Natur nach dem Natürlichen drängt, so ist vielleicht die Lösung leichter, als wir ahnen.«</p>
+            <p rendition="#et">»Nun, so machen wir in Gottes Namen die Reise«, sagte die Tante. »Du mußt sie den beiden ankündigen.«</p>
+            <p rendition="#et">»Ich werde es morgen tun,« antwortete der Oheim, »weil Dietwin in dem Schlosse bleibt.«</p>
+            <p rendition="#et">»So erfüllen wir unsere Pflicht«, sprach die Tante.</p>
+            <p rendition="#et">»Weil wir nur so einig sind«, entgegnete der Oheim.</p>
+            <p rendition="#et">»Der Himmel erhalte die Eintracht der Geschwister, sie ist ein großes Gut«, sagte die Tante.</p>
+            <p rendition="#et">»Sie ist eines,« sprach der Oheim, »und sie wird auch dauern. Und also, lebe wohl, Gerlint, und morgen nach dem Essen reden wir etwa davon, wohin wir denn reisen wollen.« »Denke darüber nach,« sagte die Tante, »ich werde es auch tun. Und lebe wohl.«</p>
+            <p rendition="#et">Nach diesen Worten erhoben sie sich von ihren Sitzen, und der Oheim verließ das Gemach.</p>
+            <p rendition="#et">Als des andern Tages nach dem Frühmahle noch alle bei einander saßen, sagte der Oheim: »Meine lieben Kinder, wir beide, meine Schwester und ich, haben vor, in kurzem eine Reise zu machen. Wenn sie länger dauern soll, könnte Gerlint die Verwaltung von Biberau übernehmen, und du, Dietwin, würdest mir wohl eine Zeit die Oberaufsicht über Weiden führen. Doch das Nähere wird sich erst gestalten, und wir werden schon noch davon reden.«</p>
+            <p rendition="#et">Alle schwiegen, da er diese Worte gesagt hatte.</p>
+            <p rendition="#et">Endlich sprach die Tante: »Und würdest du denn meine Stelle hier vertreten, liebe Gerlint, und was sagst du denn, wenn ich dir davon gehe?«</p>
+            <p rendition="#et">
+               <pb n="788" facs="#f0072"/>
+»Geliebte Tante,« sagte Gerlint, »es wird sehr einsam sein, wenn du fort bist, es wird mir sehr schmerzlich sein, dich zu missen, und den Wagen des lieben Oheims lange nicht mehr in das Schloß hereinfahren zu sehen; aber es geziemt mir nicht, gegen deinen Willen zu sprechen, und ich habe ihn nur zu verehren. Und wenn du mir Geschäfte in deiner Abwesenheit überträgst, so wünsche ich nur, daß ich die Einsicht und Kraft habe, sie verrichten zu können.«</p>
+            <p rendition="#et">»Du hast die Einsicht und Kraft,« sagte die Tante, »und wirst alles recht machen. Und Auguste und Agathe bleiben bei dir, und sprechet manches Mal von uns, und schreibet uns. Es wird mich immer freuen, wenn du mir den Stand der Dinge in Biberau kund gibst und ihr Vorwärtsschreiten auseinandersetzest.«</p>
+            <p rendition="#et">»Und du,« sagte der Oheim zu Dietwin, »was redest du?«</p>
+            <p rendition="#et">»Sage, Oheim, was soll ich reden?« sprach Dietwin. »Ihr habt euern Willen, und wenn euer Wille nach einer Reise steht, so ist es meine Pflicht, ihn zu achten, wenn auch meine Gefühle sehr gegen ihn wären. Was du mir über Weiden aufträgst, werde ich nach bestem Gewissen zu erfüllen bestrebt sein.«</p>
+            <p rendition="#et">»Du wirst es gut erfüllen,« sagte der Oheim, »und wir werden schon noch über die Angelegenheiten sprechen.«</p>
+            <p rendition="#et">»Und Auguste wird wohl bei Gerlint bleiben,« sprach die Tante, »und Agathe auch, und ihr werdet euch wohl über unsere Abwesenheit hinüber helfen.«</p>
+            <p rendition="#et">»Ich bleibe gerne in Biberau,« antwortete Auguste, »und was dir, hochverehrte Base, und deinem hochverehrten Bruder Freude macht, das macht mir auch Freude, wenngleich das liebliche Zusammenleben hier, das unserem Herzen wohl tat, unterbrochen wird, und wir die Unterbrechung tragen müssen. Möge euch die Reise alles gewähren, was ihr erwartet.«</p>
+            <p rendition="#et">»Und du, Agathe?« fragte die Tante.</p>
+            <p rendition="#et">
+               <pb n="789" facs="#f0073"/>
+»Ich werde Gerlint zur Hand sein, wie sie es wünscht,« sagte Agathe, »und möge der Himmel die Reise segnen.«</p>
+            <p rendition="#et">Man redete noch einiges Gleichgiltige, und zerstreute sich dann wie gewöhnlich nach dem Frühmahle.</p>
+            <p rendition="#et">Etwa zwei Stunden nach dem Mittagessen ging Gerlint in den großen Saal, stellte sich vor das Bild des Oheims und betrachtete es.</p>
+            <p rendition="#et">Nach kurzem kam auch Dietwin in den Saal. Er ging einige Schritte auf und nieder, und stellte sich dann vor das Bild der Tante. Sie sprachen nichts. Nach einer Weile sagte Dietwin: »Das sind herrliche Bilder.«</p>
+            <p rendition="#et">»Ja«, sagte Gerlint.</p>
+            <p rendition="#et">»Sie sind weit trefflicher gemalt als alle andern in dem Saale«, sprach Dietwin.</p>
+            <p rendition="#et">»Ja«, entgegnete Gerlint.</p>
+            <p rendition="#et">»Es hat sie ein Meister gemacht, der zu jener Zeit sehr berühmt war,« sprach Dietwin, »und man verehrt ihn jetzt noch.«</p>
+            <p rendition="#et">»Ich weiß es«, sagte Gerlint.</p>
+            <p rendition="#et">»Darum werden diese Bilder ihre Geltung haben, wenn auch viele Jahre vergangen sind, und wenn selber eine Zeit käme, in der man gar nicht mehr wüßte, wen sie vorstellen«, sprach Dietwin.</p>
+            <p rendition="#et">»Ich meine auch, daß es so ist«, erwiderte Gerlint.</p>
+            <p rendition="#et">Dietwin ging nun gegen ein Fenster, dann ging er gegen die große Tür, dann ging er wieder in dem Saale vorwärts, dann sagte er: »Der Oheim und die Tante werden eine Reise machen.«</p>
+            <p rendition="#et">»Sie werden eine Reise machen«, antwortete Gerlint.</p>
+            <p rendition="#et">»Du wirst hier auf dem Schlosse Besuche empfangen«, sagte Dietwin.</p>
+            <p rendition="#et">»Ich werde die empfangen, die sich für mich ziemen«, erwiderte Gerlint.</p>
+            <p rendition="#et">
+               <pb n="790" facs="#f0074"/>
+»Gerlint,« rief Dietwin, »ich kann es nicht ertragen, wenn dein Auge auf irgend einen Mann blickt.«</p>
+            <p rendition="#et">Gerlint wendete sich um, und rief: »Dietwin, ich kann es nicht ertragen, wenn dein Auge auf ein Weib blickt.«</p>
+            <p rendition="#et">»Gerlint«, rief Dietwin. »Dietwin«, rief Gerlint. Und plötzlich faßten sie sich in die Arme, umschlangen sich, und küßten sich auf den Mund.</p>
+            <p rendition="#et">»Dein Auge blickt auf mich als Gattin, Gerlint«, sagte Dietwin.</p>
+            <p rendition="#et">»Und deines blickt auf mich als Gatte, Dietwin«, sprach Gerlint.</p>
+            <p rendition="#et">»Ich will dich auf den Händen tragen, Gerlint«, sagte Dietwin.</p>
+            <p rendition="#et">»Ich werde dir ein treues, gehorsames Weib sein«, antwortete Gerlint.</p>
+            <p rendition="#et">»Wir werden gemeinsam schalten und wirken«, sagte Dietwin.</p>
+            <p rendition="#et">»Und nur in der Liebe wetteifern«, erwiderte Gerlint.</p>
+            <p rendition="#et">»Du hast an dem ersten Tage deines Hierseins die Plätze unserer Kindheit besucht«, sagte Dietwin.</p>
+            <p rendition="#et">»Du bist auch an diesen Plätzen gewesen«, sprach Gerlint.</p>
+            <p rendition="#et">»Du bist lange auf der Stelle gestanden, wo –« sagte Dietwin.</p>
+            <p rendition="#et">»Wo ich nach dir gestochen habe. Es war deine Macht, Dietwin, über mich«, sprach Gerlint.</p>
+            <p rendition="#et">»Ich bin auf die Mauer des Gartens eurer Erziehungsanstalt geklettert«, sagte Dietwin.</p>
+            <p rendition="#et">»Du bist es gewesen?« rief Gerlint.</p>
+            <p rendition="#et">»Ich,« antwortete Dietwin, »kein Mann sollte seine Gedanken zu dir erheben.« »Als du«, sagte Gerlint. »Und nun sind unsere Gedanken ein Gedanke«, sprach Dietwin.</p>
+            <p rendition="#et">
+               <pb n="791" facs="#f0075"/>
+»Sie sind ein Gedanke«, sagte Gerlint.</p>
+            <p rendition="#et">»Und alles muß rasch ins Werk gesetzt werden«, sprach Dietwin.</p>
+            <p rendition="#et">»Wie es dein Wille ist, Dietwin«, entgegnete Gerlint. »Nun den Kuß als Bräutigam«, sagte Dietwin.</p>
+            <p rendition="#et">»Als Braut«, antwortete Gerlint.</p>
+            <p rendition="#et">Und sie gaben sich den Verlobungskuß.</p>
+            <p rendition="#et">»Erlaube mir, dich zu geleiten«, sagte Dietwin.</p>
+            <p rendition="#et">Sie gab ihm den Arm, und er geleitete sie zu der Tür ihrer Wohnung.</p>
+            <p rendition="#et">Dann ging er zur Tante, küßte ihr die Hand, und sagte: »Meine hochverehrte, geliebte Tante, ich hätte eine Bitte an dich und den Oheim.«</p>
+            <p rendition="#et">»Soll ich meinen Bruder, der eben von mir ging, nachdem wir von unserer Reise gesprochen hatten, wieder holen lassen?« fragte die Tante.</p>
+            <p rendition="#et">»Wenn es dir genehm ist, so tue es«, antwortete Dietwin.</p>
+            <p rendition="#et">Die Tante schellte nach einem Diener, und ließ durch denselben ihren Bruder zu sich bitten.</p>
+            <p rendition="#et">Als er gekommen war, und als ihm Dietwin die Hand gereicht hatte, sagte sie: »Unser Neffe will uns um etwas ersuchen.«</p>
+            <p rendition="#et">Dietwin sagte: »Hochverehrte Tante und hochverehrter Oheim. Meine Bitte geht dahin, ob es euch gelegen sei, mich morgen um eilf Uhr in dem großen Saale von Biberau in einer feierlichen Angelegenheit zu empfangen. Wenn ihr ja sagt, fahre ich sogleich nach Weidenbach, und fahre morgen wieder herüber.«</p>
+            <p rendition="#et">»Sprich, Bruder«, sagte die Tante.</p>
+            <p rendition="#et">»Du bist die Herrin des Schlosses und empfängst die Besuche,« antwortete der Oheim, »und wenn ich als Gast auch mit empfangen darf, so sage ich: es ist mir jede Stunde gelegen.«</p>
+            <p rendition="#et">»So komme, Dietwin, du wirst uns schon in dem Saale finden«, sagte die Tante.</p>
+            <p rendition="#et">
+               <pb n="792" facs="#f0076"/>
+»Ich danke, und verabschiede mich«, sprach Dietwin.</p>
+            <p rendition="#et">Er küßte der Tante die Hand, reichte dem Oheime seine Rechte, und verließ den Saal.</p>
+            <p rendition="#et">Wenige Augenblicke darnach sah man ihn durch das Tor des Schlosses hinaus fahren.</p>
+            <p rendition="#et">Des andern Tages um eilf Uhr saß die Tante, in schwarze Seide gekleidet, auf einem Prunkstuhle, der einen kostbaren Teppich unter sich hatte, in dem großen Saale von Biberau. Ihr Bruder saß auf einem zweiten Prunkstuhle neben ihr. Am unteren Ende der großen Treppe stand Adam mit Dienerschaft in Prunkkleidern. Als noch die Klänge der Turmuhr zur eilften Stunde tönten, fuhr der schwere Prachtwagen Weidenbachs durch das Tor herein. Der Kutscher saß im Silbergewande auf dem Bocke. Zwei Jäger standen silberschimmernd auf dem Brette. Der Wagen hielt, und Dietwin stieg aus demselben. Adam und die Diener geleiteten ihn die Treppe hinan zu dem großen Saale. Seine zwei Jäger folgten ihm bis zur Saaltür. Dort blieben sie stehen. Adam öffnete die Flügeltüren des Saales, und Dietwin trat allein in denselben.</p>
+            <p rendition="#et">Dann schlossen sich wieder die Türen, und Dietwin ging zu der Tante und dem Oheim vorwärts, blieb vor ihnen stehen, verneigte sich, und sprach: »Ich, Dietwin von der Weiden, bringe vorerst meiner hochverehrten Tante, Gerlint von Bergen, gebornen von der Weiden, meinen ehrfurchtsvollen Gruß, und so auch meinem hochverehrten Oheim, Dietwin von der Weiden, meinen ehrfurchtsvollen Gruß, und bitte beide um geneigtes Gehör und um Vergunst einer Bitte.«</p>
+            <p rendition="#et">Die Tante sagte darauf: »Ich grüße dich auch, Dietwin von der Weiden, geliebter Neffe, und weil es mein Schloß ist, in dem du die Bitte stellest, so antworte ich zuerst, und sage: wir hören dich, sprich deine Bitte aus.«</p>
+            <p rendition="#et">Der Oheim sagte: »Auch ich grüße dich, geliebter Neffe, und weil ich in dem Schlosse meiner Schwester auch eine <pb n="793" facs="#f0077"/>
+Antwort zu geben die Ermächtigung habe, so sage ich: wir hören dich, sprich deine Bitte aus.«</p>
+            <p rendition="#et">Nach diesen Worten sagte Dietwin: »Weil ihr mir beide Gehör gebt und Vergunst einer Bitte, so werbe ich in Zucht und Recht um die Hand Gerlints von der Weiden, der Nichte meiner hochverehrten Tante, der Frau von Bergen, gebornen von der Weiden, und der Nichte meines hochverehrten Oheimes, des Herren Dietwin von der Weiden, daß ich ihr ein rechtschaffener und treuer Gatte sei zeitlebens, und daß sie mir eine rechtschaffene und treue Gattin sei zeitlebens, und ich bitte, haltet meine Werbung genehm.«</p>
+            <p rendition="#et">Die Tante und der Oheim schwiegen einen Augenblick.</p>
+            <p rendition="#et">Dann sagte die Tante: »Dietwin von der Weiden, mein geliebter Neffe, weil du – weil du bei mir wirbst, ich bin gewisser Maßen die Mutter Gerlints, die keine Eltern hat, und sie ist in meinem Schlosse, und sagt zu mir Mutter, – und weil du wirbst, so spreche ich: in unserem Stamme von der Weiden ist die Sitte, daß auf eine Werbung nach einer Bedenkzeit die Antwort gegeben wird. Diese Bedenkzeit gestehe zu. Deine Werbung gereicht dem Stamme von der Weiden zur Ehre.«</p>
+            <p rendition="#et">Darauf sagte der Oheim: »Dietwin von der Weiden, lieber Neffe, weil du auch bei mir wirbst, und weil Gerlint auch unter meiner Obhut steht, so sage ich: du wirst auf deine Werbung nach der gewöhnlichen Bedenkzeit die Antwort erhalten. Achte diese Zeit. Deine Werbung gereicht dem Stamme von der Weiden zur Ehre.«</p>
+            <p rendition="#et">Auf diese Antworten sagte Dietwin: »So bedanke ich mich in untertäniger Gebühr des Gehöres, bedanke mich der Anerkennung meiner Werbung, verabschiede mich in Ehrbezeigung, und harre in meinem Schlosse Weidenbach der Entscheidung.«</p>
+            <p rendition="#et">Er verneigte sich wieder wie bei seiner Ankunft, verließ den Saal, stieg mit seinen Jägern, von Adam und den <pb n="794" facs="#f0078"/>
+Dienern geleitet, die Treppe hinab, setzte sich in den Wagen, und fuhr durch das Tor des Schlosses hinaus.</p>
+            <p rendition="#et">Als die Geschwister in dem Saale allein waren, sagten sie eine Weile gar nichts.</p>
+            <p rendition="#et">Dann rief die Tante: »Dietwin, Dietwin, Dietwin!«</p>
+            <p rendition="#et">Der Oheim sprach: »Das ist nun freilich anders, als wir gedacht haben, wir müssen es hinnehmen, daß wir gedacht haben, was wir gedacht haben.«</p>
+            <p rendition="#et">»Ja wohl müssen wir es hinnehmen«, sagte die Tante.</p>
+            <p rendition="#et">»Meine liebe Schwester Gerlint,« sagte der Oheim, »nun ist die größte Sorgfalt anzuwenden, daß niemand erfahre, welche Gedanken wir gehabt haben.«</p>
+            <p rendition="#et">»Ich werde sie niemanden offenbaren«, sagte die Tante.</p>
+            <p rendition="#et">»Ich auch nicht,« antwortete der Oheim, »wenn nur nicht jemand durch Ahnungen, Deutungen und dergleichen darauf kommt.«</p>
+            <p rendition="#et">»Das wagt niemand zu denken«, sagte die Tante.</p>
+            <p rendition="#et">»Nun, nun, nun«, sprach der Oheim. »Siehe, ich habe gesagt, daß die Lösung etwa leichter sein wird, als wir ahnen: nun ist sie in der Tat leichter geworden.«</p>
+            <p rendition="#et">»Und es erfüllt sich ja, was wir gewünscht haben«, sagte die Tante.</p>
+            <p rendition="#et">»Wir haben nun wirklich Gott bei der Bewerkstelligung dieser Ehe geholfen,« entgegnete der Oheim, »durch die Ankündigung unseres Reiseplanes ist die Sache beschleunigt worden.«</p>
+            <p rendition="#et">»Siehst du, der Himmel schließt die Ehen, und hat unerforschliche Wege«, sagte die Tante.</p>
+            <p rendition="#et">»Nun, wir haben nur nicht recht geforscht,« erwiderte der Oheim, »denke nur, Gerlint, unsere Bilder sind schon vor einer Reihe von Jahren gemalt worden, ist nicht sie dir, und ist nicht er mir ähnlich, und haben sie nicht einander in unsern Bildern betrachtet?«</p>
+            <p rendition="#et">»So wird es sein, so wird es sein, Dietwin«, sagte die Tante.</p>
+            <p rendition="#et">
+               <pb n="795" facs="#f0079"/>
+»Und wie ist mir denn,« sprach der Oheim, »hat nicht der junge Wengern freundliche Augen auf Gerlint gerichtet?«</p>
+            <p rendition="#et">»Ja, das hat er«, sagte die Tante.</p>
+            <p rendition="#et">»Und dann ist die Verwundung beim Jagen und das Gerücht eines Zweikampfes gekommen«, sprach der Oheim. »Ja, ja, ja«, sagte die Tante.</p>
+            <p rendition="#et">»Und in dem schönen Gemälde des Schlosses Biberau hat er die Wohnung darstellen lassen, in der Gerlint ist«, sprach der Oheim.</p>
+            <p rendition="#et">»Und wie ist es denn nun mit der Reise?« fragte die Tante.</p>
+            <p rendition="#et">»Nun, jetzt muß sie wohl wegen der Verlobung aufgeschoben werden,« antwortete der Oheim, »und dann wegen der Vermählung, und nach derselben sind die allerlei Einrichtungen wegen der Güter, es werden Übersiedlungen bevorstehen, und dann kann es von der Reise ganz sein Abkommen haben, oder wir machen eine kleine.« »Wie es sich fügt«, erwiderte die Tante.</p>
+            <p rendition="#et">»Die Zukunft wissen wir nicht, wie wir sie jetzt nicht gewußt haben«, sagte der Oheim. »Nun werden hinlängliche Geschäfte emporsteigen. Der Tag ist da, an welchem der Sturm von Seite Dietwins beginnt. Geworben hat er schnell genug, und wenn die Bedenkzeit vorüber ist, wird er die Behebung des Hindernisses wegen der Verwandtschaft betreiben, und die Verlobung und die Vermählung und alles. Und selbst nach der Hochzeit wird unser Rat und unsere Mitwirkung nötig sein.«</p>
+            <p rendition="#et">»Es ist nur gut,« sagte die Tante, »daß ich schon seit vielen Jahren zur Ausstattung gesammelt habe, und daß nicht jetzt die ganze Gewalt hereinbricht.«</p>
+            <p rendition="#et">»So tun gute Mütter immer, und solche, die Mutterstellen gut vertreten,« sagte der Oheim, »und besonders tun es verständige Frauen, wie du eine bist, Gerlint. Ich habe übrigens auch manch ein Ding im Verschlusse, das <pb n="796" facs="#f0080"/>
+euch bei diesem Vorkommnisse jetzt sehr zu statten kommen wird.«</p>
+            <p rendition="#et">»Daß du nicht unvorbereitet sein wirst, wenn das, was wir wünschen, zu Stande kommt, habe ich mir immer gedacht«, sagte die Tante.</p>
+            <p rendition="#et">»Ich bleibe jetzt bei dir in dem Schlosse Biberau,« sprach der Oheim, »wir müssen mit Gerlint sprechen, und einmal fährst du mit mir nach Weiden und nimmst die Dinge in Augenschein, und das Verzeichnis gebe ich dir mit, und, wenn du willst, auch die Gegenstände selber.«</p>
+            <p rendition="#et">»Das wird sich finden,« antwortete die Tante, »und mit Gerlint wird leicht zu sprechen sein; denn er muß volle Sicherheit haben.«</p>
+            <p rendition="#et">»Er hat volle Sicherheit,« sagte der Oheim, »und wir, meine liebe Schwester Gerlint, werden nun auch doch in die dritte Abteilung unseres Stammes einrücken.«</p>
+            <p rendition="#et">»Du hast immer Frevelreden, selbst an einem solchen Tage«, sagte die Tante, und stand auf.</p>
+            <p rendition="#et">Er stand auch auf, reichte ihr freundlich und ehrerbietig den Arm, und führte sie aus dem Saale in ihr Gemach.</p>
+            <p rendition="#et">Als der Abend gekommen war, sagte die Tante zu Gerlint, daß sie und der Oheim sie morgen um eilf Uhr feierlich in dem großen Saale empfangen werden.</p>
+            <p rendition="#et">»Ich bin zu eurem Willen«, sagte Gerlint.</p>
+            <p rendition="#et">Und als es am andern Tage eilf Uhr war, ging Gerlint in festlichem Schmucke in den großen Saal. Die Tante und der Oheim, gekleidet wie bei der Werbung Dietwins, saßen auf ihren Stühlen. Gerlint ging zu ihnen und küßte jedem die Hand, dann blieb sie vor ihnen stehen.</p>
+            <p rendition="#et">Da sprach die Tante: »Gerlint, mein liebes Kind, ich habe dich hieher bescheiden lassen. Wir werden dich um etwas fragen, antworte frei und ohne Rücksicht auf irgend ein Ding in dieser Welt als auf dein Herz und dein Gewissen.«</p>
+            <p rendition="#et">»Ich werde es tun, wenn die Antwort in meiner Macht liegt«, sprach Gerlint.</p>
+            <p rendition="#et">
+               <pb n="797" facs="#f0081"/>
+»Sie liegt in deiner Macht«, entgegnete die Tante. »Höre mich an. Dietwin von der Weiden, unser Neffe und dein Vetter, hat bei mir in der Hinsicht, daß ich die Stelle deiner Mutter vertrete, und bei deinem Oheime in der Hinsicht, daß er die Stelle deines Vaters vertritt, feierlich um deine Hand geworben, daß er dir, wie er spricht, ein treuer, rechtschaffener Gatte sei, und daß du ihm eine treue, rechtschaffene Gattin seiest. Wir fragen dich nun: bist du gesonnen, diese Werbung anzunehmen, oder bedingst du dir eine Zeit, in der du die schweren Pflichten des neuen Standes überdenkest, um dann deine Zustimmung oder deine Weigerung anzukündigen?«</p>
+            <p rendition="#et">»Du kannst frei handeln, liebe Gerlint,« sagte der Oheim, »überlege, und tue, wie du willst, wir werden deinen Ausspruch in Betracht ziehen.«</p>
+            <p rendition="#et">Gerlint antwortete darauf: »Hochverehrte Mutter und Tante, hochverehrter Vater und Oheim, ich kenne Dietwin von der Weiden, euren Neffen und meinen Vetter, ich habe über die Pflichten des Ehestandes reiflich und ernstlich nachgedacht, und sage: ich nehme die Werbung Dietwins von der Weiden an, daß ich ihm mit dem Beistande Gottes eine rechtschaffene und treue Gattin sei, und daß er mir mit dem Beistande Gottes ein rechtschaffener und treuer Gatte sei. Eine Bedenkzeit heische ich nicht, sie wäre eine Lüge.«</p>
+            <p rendition="#et">»Und so bist du zu diesem Bündnisse entschlossen?« fragte die Tante.</p>
+            <p rendition="#et">»Ich bin dazu entschlossen«, antwortete Gerlint.</p>
+            <p rendition="#et">»Also werden wir, dein Oheim und ich, deinen Ausspruch, wie er sagt, in Betracht ziehen, und du bist jetzt aus diesem Saale entlassen.«</p>
+            <p rendition="#et">Gerlint küßte der Tante und dem Oheime wieder die Hand, und entfernte sich.</p>
+            <p rendition="#et">Am Nachmittage dieses Tages sah man Gerlint mit Augusten zu einer Zeit, in der sie es sonst nie getan hatten, <pb n="798" facs="#f0082"/>
+im Garten spazieren gehen, und der Spaziergang dauerte sehr lange.</p>
+            <p rendition="#et">Gegen den Abend ging Gerlint zu der Tante in das Wohngemach. Sie blieb vor ihr stehen, und sah auf ihr Angesicht. Die Tante schloß sie in die Arme, und küßte sie auf die Stirne und auf den Mund. Gerlint schlang ihre Arme um den Nacken der Tante, sprach aber nicht.</p>
+            <p rendition="#et">Dann ging sie zu dem Oheime.</p>
+            <p rendition="#et">Als sie in das Zimmer getreten war, legte sie den Arm um seinen Hals und rief: »Lieber, lieber Oheim!«</p>
+            <p rendition="#et">Und er küßte sie sehr herzhaft auf den Mund, und aus seinen Augen quollen Tränen hervor.</p>
+            <p rendition="#et">Gerlint ging wieder in ihre Wohnung.</p>
+            <p rendition="#et">Als nach diesem Tage noch zehn Tage vergangen waren, wurden Adam und zwei reichgekleidete Diener in einem schönen Wagen mit einem Briefe zu Dietwin nach Weidenbach geschickt. In dem Briefe war die Einwilligung zur Eheverbindung mit Gerlint enthalten. Dietwin war die ganze Zeit ununterbrochen in Weidenbach gewesen. Er bewirtete die Abgesandten köstlich, und entließ sie mit reichen Geschenken. Zwei Tage darauf fuhren die Tante und der Oheim im Prunke zu Dietwin nach Weidenbach, und fünf Tage nach diesem Besuche war die feierliche Verlobung in Biberau.</p>
+            <p rendition="#et">Nun begann die eifrigste Tätigkeit von allen Seiten. Adam reichte die Schrift zur Behebung des Verwandtschaftshindernisses in der zierlichsten Art, wie solche Schriftstücke verfaßt werden, ein. Arbeiterinnen wurden nach Biberau berufen, um in zwei Gemächern in allem möglichen Flitter beschäftigt zu sein. Jeder Bewohner des Schlosses bis auf die Frau Judith herab mußte bei den Vorbereitungen helfen. Die Tante und der Oheim fuhren wiederholt in die Stadt, um Einkäufe zu machen. Dietwin ließ in Weidenbach abbrechen und herstellen, um die junge Gattin würdig empfangen zu können. Er <pb n="799" facs="#f0083"/>
+fuhr auch öfter in die Stadt und war in Briefwechsel mit der Hauptstadt. In Weiden suchte der Oheim eine niedliche Wohnung für Besuche des jungen Ehepaares herzurichten. In kurzen Zwischenzeiten wurden auch Brautbesuche bei Nachbarn gemacht.</p>
+            <p rendition="#et">Mitten in diese Dinge fiel die Bewerbung des Grafen Steinheim um Augusten. Es wurde die gewöhnliche Bedenkzeit gefordert.</p>
+            <p rendition="#et">Unter diesen Dingen sprachen die Tante und der Oheim von ihrer Reise nicht mehr, und sonst redete auch niemand davon.</p>
+            <p rendition="#et">Dietwin begab sich auch in die Hauptstadt, und kam nach einiger Zeit wieder zurück.</p>
+            <p rendition="#et">Die Tante und der Oheim fuhren ein paar Male nach Weiden, um von den dortigen Dingen das Geeignete auszuwählen.</p>
+            <p rendition="#et">Nachdem die Bedenkzeit in Bezug auf die Werbung des Grafen Steinheim abgelaufen war, wurde an ihn und die Seinigen die bejahende Antwort eingesendet. Bald darauf kamen der Vater und die Mutter desselben zum feierlichen Besuche nach Biberau, und die Tante und der Oheim erwiderten den Besuch in Steinheim. Nach einigen Tagen war die Verlobung in Biberau.</p>
+            <p rendition="#et">Es kamen nun zu dem, was ohnehin vorzukehren war, noch die Vorbereitungen zu der Vermählung Augustens, und wurden auf das eifrigste betrieben. Auch die Brautbesuche dieses neuen Paares wurden inzwischen auf die herkömmliche und entsprechendste Weise gemacht.</p>
+            <p rendition="#et">So nahte endlich der Tag, der zu der Vermählung Dietwins und Gerlints festgesetzt worden war.</p>
+            <p rendition="#et">Die Vermählung wurde mit jener Festlichkeit, die in dem Geschlechte derer von der Weiden gebräuchlich war, in der Kirche von Biberau vollzogen. Der greise, weißlockige Pfarrer von Biberau hielt an das Brautpaar eine Anrede, die durch seine eigenen Tränen und durch sein <pb n="800" facs="#f0084"/>
+Schluchzen unterbrochen wurde. Die Kirche war von Menschen gedrängt voll, und manche von denen, welche herbei geströmt waren, mußten außerhalb derselben stehen bleiben. Die Wägen der Gäste und sonstiger Besucher standen in drei Reihen fast bis zu dem Schlosse hin. Gerlint hatte an der Haftstelle ihres Schleiers die Diamanten, welche Dietwin aus der Hauptstadt gebracht hatte. Nachdem die kirchliche Feierlichkeit vorüber war, erhielt jede der Freundinnen Gerlints, welche in weißen Seidenkleidern das Fest mitgefeiert hatten, ein auserlesenes Schmuckstück, die jungen Männer edle Gaben, und die Zeugen wurden mit wertvollen Erinnerungszeichen bedacht.</p>
+            <p rendition="#et">Der Oheim sagte: »Gott sei Dank, jetzt ist die Grenze für die Rosen gefunden, daß sie nicht das ganze Gebiet unserer Güter bedecken.«</p>
+            <p rendition="#et">Am Nachmittage war ein Mahl, wie es seit den ältesten Zeiten in dem Geschlechte gebräuchlich gewesen ist, für die Gäste, für die Besucher, für die Dienerschaften, für das Volk. Am nächsten Tage zog das junge Ehepaar nach Weidenbach, eine lange Reihe von Wägen fuhr mit, an allen Stellen, die nur irgend paßten, waren Empfangsfeierlichkeiten, und Dietwin und Gerlint wurden von den Verwandten, von den Freunden und von den Leuten des Gutes in ihre Wohnung geleitet.</p>
+            <p rendition="#et">In der Zeit, die nun nach diesen Festlichkeiten kam, fuhr an manchen Tagen ein Frachtwagen von Biberau oder von Weiden nach Weidenbach, mit Brautgütern beladen, bis das ein Ende hatte.</p>
+            <p rendition="#et">Nachdem auch die Zeit vorüber war, die bis zur Vermählung Augustens mit Steinheim vergehen mußte, wurde diese Vermählung gleichfalls mit aller Pracht in der Kirche und in dem Schlosse von Biberau vollzogen und gefeiert. Als das Fest geendigt war, begab sich das Ehepaar nach Steinheim.</p>
+            <p rendition="#et">
+               <pb n="801" facs="#f0085"/>
+Nun begannen die Geschäfte wegen der Übertragung des Eigentums von Biberau und Weiden an Dietwin und Gerlint. Die Übertragung erfolgte bald; aber der Rest des Herbstes und der Winter wurden in diesen Schlössern noch in der alten Weise zugebracht. Als im Frühlinge die Geburtstagsfeier der Tante und des Oheims vorüber war, begann allmählig die Übersiedlung. Nach derselben wohnte der Oheim in dem Schlosse Weidenholz, die Tante in dem Schlosse Bergen. Dietwin und Gerlint wohnten in Weidenbach. Und zwischen allen diesen und denen in Steinheim begann ein sehr freundlicher und herzlicher Verkehr, und die Tante sagte jetzt öfter als je: »Die Ehen werden in dem Himmel geschlossen.«</p>
+            <pb n="802" facs="#f0086"/>
+         </div>
+      </body>
+   </text>
+</TEI>

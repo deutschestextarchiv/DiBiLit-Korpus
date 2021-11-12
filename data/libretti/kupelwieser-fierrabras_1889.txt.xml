@@ -1,0 +1,2827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Fierrabras</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/134672275">
+                  <forename>Josef</forename>
+                  <surname>Kupelwieser</surname>
+               </persName>
+            </author>
+            <author>
+               <persName role="composer">
+                  <forename>Franz</forename>
+                  <surname>Schubert</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T17:38:19Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000438</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q201295</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005217423</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Kupelwieser, Josef/Libretto/Fierrabras</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rdg5.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-D80B-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Franz Schubert: Fierrabras. Text von Josef Kugelwieser, Leipzig [o.J.]</bibl>
+            <bibl>Franz Schubert: Fierrabras. Heroisch-Romantische Oper in drei Akten, Text von Josef Kugelwieser, für den Bühnengebrauch umgearbeitet von Otto Reitzel, Leipzig: Breitkopf &amp; Härtel, [o._J.].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Fierrabras</title>
+                  <title level="m" type="sub">Text von Josef Kupelwieser</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/134672275">
+                        <forename>Josef</forename>
+                        <surname>Kupelwieser</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName role="composer">
+                        <forename>Franz</forename>
+                        <surname>Schubert</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">39 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Breitkopf &amp; Härtel</name>
+                  </publisher>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date type="publication">1889</date>
+                  <date type="firstPublication">1886</date>
+                  <date type="firstPublication" subtype="clariah">1886</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1791"
+                        notAfter="1866"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d198e316">Komponiert von Franz Schubert. Uraufführung am 09.02.1897, Großherzogliches Hoftheater, Karlsruhe.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <personGrp xml:id="jungfrauen" sex="FEMALE">
+                  <name>Jungfrauen</name>
+               </personGrp>
+               <person xml:id="emma" sex="FEMALE">
+                  <persName>Emma</persName>
+               </person>
+               <person xml:id="eine_spinnerin" sex="FEMALE">
+                  <persName>Eine Spinnerin</persName>
+               </person>
+               <person xml:id="eginhard" sex="MALE">
+                  <persName>Eginhard</persName>
+               </person>
+               <personGrp xml:id="maenner" sex="MALE">
+                  <name>Männer</name>
+               </personGrp>
+               <personGrp xml:id="die_ritter" sex="MALE">
+                  <name>Die Ritter</name>
+                  <name type="variant">Ritter</name>
+                  <name type="variant">Chor der Ritter</name>
+                  <name type="variant">Alle Ritter</name>
+                  <name type="variant">Die übrigen Ritter</name>
+                  <name type="variant">Chor</name>
+               </personGrp>
+               <personGrp xml:id="frauen" sex="FEMALE">
+                  <name>Frauen</name>
+               </personGrp>
+               <person xml:id="karl" sex="MALE">
+                  <persName>Karl</persName>
+               </person>
+               <person xml:id="roland" sex="MALE">
+                  <persName>Roland</persName>
+               </person>
+               <person xml:id="fierrabras" sex="MALE">
+                  <persName>Fierrabras</persName>
+               </person>
+               <personGrp xml:id="maennerchor_maenner_1-7_und_1-8" sex="MALE">
+                  <name>Männerchor/Männer (I/7–8)</name>
+               </personGrp>
+               <personGrp xml:id="krieger" sex="MALE">
+                  <name>Krieger</name>
+               </personGrp>
+               <person xml:id="brutamonte" sex="MALE">
+                  <persName>Brutamonte</persName>
+               </person>
+               <personGrp xml:id="die_mauren" sex="MALE">
+                  <name>Die Mauren</name>
+                  <name type="variant">Chor</name>
+                  <name type="variant">Chor der Mauren</name>
+                  <name type="variant">Mauren</name>
+               </personGrp>
+               <person xml:id="ogier" sex="MALE">
+                  <persName>Ogier</persName>
+               </person>
+               <person xml:id="florinda" sex="FEMALE">
+                  <persName>Florinda</persName>
+               </person>
+               <person xml:id="maragond" sex="FEMALE">
+                  <persName>Maragond</persName>
+               </person>
+               <person xml:id="boland" sex="MALE">
+                  <persName>Boland</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretto</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d198e316">
+      <front>
+         <div type="front">
+            <head>Josef Kupelwieser</head>
+            <head>Fierrabras</head>
+            <head>Heroisch-romantische Oper in drei Akten</head>
+         </div>
+         <div>
+            <castList>
+               <head>Personen</head>
+               <castItem>König Karl</castItem>
+               <castItem>Emma, seine Tochter</castItem>
+               <castGroup>
+                  <castItem>Roland</castItem>
+                  <castItem>Ogier</castItem>
+                  <roleDesc>fränkische Heerführer</roleDesc>
+               </castGroup>
+               <castItem>Eginhard, Ritter an Karl's Hofe</castItem>
+               <castItem>Boland, Fürst der Mauren</castItem>
+               <castItem>Fierrabras, sein Sohn</castItem>
+               <castItem>Florinda, seine Tochter</castItem>
+               <castItem>Maragond, ihre Vertraute</castItem>
+               <castItem>Brutamonte, maurischer Anführer</castItem>
+               <castItem>Fränkische und maurische Ritter und Krieger. Jungfrauen. Volk</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Ort der Handlung: An König Karl's Hoflager, an der französischen Grenze und in Agrimore,
+          dem Sitz des Maurenfürsten.</p>
+            <p>Für den Bühnengebrauch umgearbeitet von Otto Neitzel.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Akt.</head>
+            <stage>Halle im königlichen Schlosse, welche hinten offen ist, links eine Thür, rechts ein
+          Fenster.</stage>
+            <div>
+               <head>Erste Scene.</head>
+               <stage>Emma mit weiblicher Handarbeit beschäftigt. Jungfrauen spinnend.</stage>
+               <stage>Nr. 1. Introduktion.</stage>
+               <sp who="#jungfrauen">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Der zarte Silberfaden rinnt emsig durch die Hand;</l>
+                     <l>Erst glänzt er im Gewebe, und dann im Festgewand.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>(SOLO.)</speaker>
+                  <lg>
+                     <l>Sobald der Säugling grüßet das Licht, das ihn belebt,</l>
+                     <l>Die Hülle ihn umfließet, von Spinnerhand gewebt.</l>
+                     <l>Am Tag der höchsten Freude, am frohen Hochzeitstag,</l>
+                     <l>Formt sich zum Feierkleide, was Spinnerhand vermag.</l>
+                  </lg>
+               </sp>
+               <sp who="#jungfrauen">
+                  <speaker>ALLE.</speaker>
+                  <p>Der zarte Silberfaden etc.</p>
+                  <stage>Emma ist während des Liedes in trübes Nachsinnen versunken.</stage>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>Ihr hört schon auf?</p>
+               </sp>
+               <sp who="#eine_spinnerin">
+                  <speaker>EINE SPINNERIN.</speaker>
+                  <p>Der Schluß ist gar zu traurig.</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>Drum grade lieb' ich ihn.</p>
+               </sp>
+               <sp who="#eine_spinnerin">
+                  <speaker>EINE SPINNERIN.</speaker>
+                  <p>Wohlan, so singt ihn selbst.</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Die Thränen birgt das Linnen um heil'ger Treue Bruch;</l>
+                     <l>Ruft dich der Tod von hinnen, birgt dich das Leichentuch.</l>
+                  </lg>
+                  <stage>Emma steht auf und geht langsam zum Fenster, wo sie gedankenvoll stehen bleibt.
+              Die Mädchen packen während des Folgenden ihre Arbeit zusammen und gehen links
+              ab.</stage>
+                  <pb n="3" facs="#f0001"/>
+               </sp>
+               <sp who="#jungfrauen">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Der zarte Silberfaden rinnt emsig durch die Hand,</l>
+                     <l>Wer weiß, ob er nicht dienet dereinst zum Trauerpfand.</l>
+                  </lg>
+                  <stage>Die Mädchen ab. Eginhard tritt ein. Sobald er sieht, daß die Mädchen weggegangen
+              sind, geht er zu Emma, die ihn nicht bemerkt und faßt ihre Hand.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Scene.</head>
+               <stage>Emma und Eginhard.</stage>
+               <sp who="#eginhard">
+                  <p>Geliebte!</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>erschrickt, dann zärtlich.</stage>
+                  <p>Eginhard, bist du's?</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <p>Was macht dich so erbeben, liebst du mich nicht mehr?</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Ob ich dich liebe!</l>
+                     <l>Ich liebe dich, und laß dich nicht,</l>
+                     <l>Wenn auch Gefahren uns umdrohn!</l>
+                  </lg>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <p>Der König kehrt zurück!</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>Mein Vater! – mein ganzer Muth sinkt mir dahin.</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>zieht sie an sich.</stage>
+                  <lg>
+                     <l>O fasse dich!</l>
+                  </lg>
+               </sp>
+               <stage>Nr. 2. Duett.</stage>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>O mög' auf froher Hoffnung Schwingen</l>
+                     <l>Bald unser Glück der Nacht entflieh'n.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Zum fernen Ziele laß uns ringen</l>
+                     <l>Mit reiner Sehnsucht heißem Glüh'n.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma #eginhard">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Treue Liebe läßt die Seele</l>
+                     <l>Muthig trotzen jeder Pein,</l>
+                     <l>Wie uns auch der Kummer quäle,</l>
+                     <l>Endlich lacht uns Sonnenschein!</l>
+                  </lg>
+                  <stage>Lärm hinter der Scene.</stage>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <p>Der König naht; auf Wiedersehen.</p>
+                  <stage>Er geleitet sie schnell an die Thür links.</stage>
+                  <stage>Emma ab.</stage>
+                  <pb n="4" facs="#f0002"/>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Scene.</head>
+               <stage>Eginhard, König Karl, Roland, Ogier und gefangene Mauren. König Karl, von Roland,
+            Ogier, Rittern, Damen und Pagen umgeben, naht in feierlichem Zuge und besteigt einen an
+            der linken Seite errichteten Thron, während ihm von dem eindringenden Volke laute
+            Huldigungen dargebracht werden. Eginhard verbeugt sich vor ihm, der König und die Ritter
+            begrüßen Eginhard. Trabanten tragen die eroberten Trophäen voraus.</stage>
+               <stage>Nr. 3. Marsch und Chor.</stage>
+               <sp who="#maenner #die_ritter">
+                  <speaker>MÄNNER UND RITTER.</speaker>
+                  <lg>
+                     <l>Aus blutigem Gefechte</l>
+                     <l>Der Sieger kehrt zurück;</l>
+                     <l>Die Feinde wurden Knechte</l>
+                     <l>Uns strahlte hold das Glück.</l>
+                  </lg>
+               </sp>
+               <sp who="#frauen #jungfrauen">
+                  <speaker>FRAUEN UND JUNGFRAUEN.</speaker>
+                  <lg>
+                     <l>Den Sieger laßt uns schmücken</l>
+                     <l>Mit frischem Lorbeerkranz,</l>
+                     <l>Wie strahlt aus seinen Blicken</l>
+                     <l>Des edeln Muthes Glanz.</l>
+                  </lg>
+               </sp>
+               <sp who="#maenner #die_ritter #frauen #jungfrauen">
+                  <speaker>ALLE.</speaker>
+                  <p>Aus blutigem Gefechte etc.</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Den Sieg hat Gott in unsre Hand gegeben,</l>
+                     <l>Euch wackern Helden sagt der König Dank.</l>
+                     <l>Mit dem geschlag'nen Maurenfürsten Boland</l>
+                     <l>Gilt's noch den Frieden zu verhandeln.</l>
+                     <l>Mit milder Botschaft send' ich euch zu ihm.</l>
+                     <l>Du, Eginhard, getreuer Hüter meines Hauses,</l>
+                     <l>Schließ dich dem Friedenszuge an.</l>
+                  </lg>
+                  <stage>Eginhard verbeugt sich mit einiger Verlegenheit; zustimmende Bewegung unter den
+              Übrigen.</stage>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>Geruhe, großer König,</l>
+                     <l>Jetzt der Gefang'nen Schicksal zu entscheiden.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>So sei's; führt die Gefang'nen vor.</p>
+                  <stage>Roland giebt nach dem Hintergrunde zu ein Zeichen. Während des folgenden Chores
+              werden die gefangenen Mauren hereingeführt, welche dem König zu Füßen fallen.
+              Fierrabras befindet sich unter ihnen; er allein bleibt mit verschlungenen Armen und
+              finster trotzigem Ausdruck stehen, ohne aufzublicken.</stage>
+                  <pb n="5" facs="#f0003"/>
+               </sp>
+               <sp who="#maenner #die_ritter #frauen #jungfrauen">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Die Krieger nah'n aus Feindesland,</l>
+                     <l>Die unser Heer stark überwand.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Des Krieges Los hat euch mir übergeben,</l>
+                     <l>Doch fürchtet nichts: im wilden Sturm der Schlachten</l>
+                     <l>Sei von dem Sieger Großmuth nie vergessen.</l>
+                     <l>Steht auf!</l>
+                  </lg>
+                  <stage>Sie stehen auf.</stage>
+                  <lg>
+                     <l>Zur Heimat kann ich euch nicht senden,</l>
+                     <l>Doch wandle jeder frei in meinem Staat,</l>
+                     <l>Bis segenvoll der Friede wiederkehrt.</l>
+                  </lg>
+               </sp>
+               <sp who="#maenner #die_ritter #frauen #jungfrauen">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Dem Fürsten Heil und Segen,</l>
+                     <l>Der milde Eintracht schafft!</l>
+                     <l>Ihm sprießet froh entgegen</l>
+                     <l>Des Volkes beste Kraft.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>nachdem er den noch immer unbeweglich stehenden Fierrabras scharf
+              beobachtet.</stage>
+                  <lg>
+                     <l>Wer bist du, dessen tiefgesenkter Blick</l>
+                     <l>Die Erde sucht? Ob Zorn, ob Scham dich leite,</l>
+                     <l>Sag' an!</l>
+                  </lg>
+                  <stage>Fierrabras macht eine Bewegung des Unwillens.</stage>
+                  <p>Gar ungestümen Sinnes scheinst du.</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Verzeih' ihm, Herr; die Scham –</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Macht ihn verwegen;</l>
+                     <l>Doch soll er Rede steh'n. Sag', stolzer Fremdling,</l>
+                     <l>Was bindet deine Zunge?</l>
+                  </lg>
+                  <stage>Scharf.</stage>
+                  <p>Gieb mir Antwort!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>auffahrend.</stage>
+                  <p>Verdammenswerthes Schicksal!</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>Laß ihn schweigen,</l>
+                     <l>Ihn quälet sein Geschick. – Am Rand der Ebene,</l>
+                     <l>Wo sich des Heeres ganze Macht entfaltet,</l>
+                     <l>Drang durch die engen, dichtgeschloss'nen Reih'n</l>
+                     <l>Mit wildem Muth der Tapfre auf mich ein;</l>
+                     <l>Tod ist sein Blick, Verderben seine Streiche,</l>
+                     <l>
+                        <pb n="6" facs="#f0004"/> Rings Alles weicht; da beut er mir den Kampf.</l>
+                     <l>Alsbald entbrennt ein mörderisches Kämpfen,</l>
+                     <l>Das Alle mit Bewunderung erfüllt;</l>
+                     <l>Lang währt der Streit im Angesicht des Heeres,</l>
+                     <l>Das staunend theils und fürchtend uns umgiebt,</l>
+                     <l>Bis endlich, übermannt, er mir erliegt. –</l>
+                  </lg>
+                  <stage>Gebärde finstren Unmuths von Seite des Fierrabras.</stage>
+                  <p>Gefangen steht er hier, doch als ein Held.</p>
+                  <stage>Fierrabras verharrt in stolzer ablehnender Haltung.</stage>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Ein Held, ward er besiegt von einem Helden.</p>
+                  <stage>Zu Fierrabras.</stage>
+                  <p>Dein Los ist traurig zwar, doch ehrenvoll.</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>O Herr, noch kennst du nicht den Feind, der vor dir steht;</l>
+                     <l>So höre: Fierrabras ist's, den du siehst,</l>
+                     <l>Des Maurenfürsten Sohn.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>steht auf, gewichtig.</stage>
+                  <lg>
+                     <l>Nimm deine Freiheit! bist du ein Held,</l>
+                     <l>Wirst du sie nicht mißbrauchen.</l>
+                  </lg>
+                  <stage>Fierrabras verneigt sich ehrfurchtsvoll vor Karl. Roland geht auf Fierrabras zu
+              und reicht ihm die Hand.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Scene.</head>
+               <stage>Vorige, Emma mit Jungfrauen. Sobald Fierrabras Emma erblickt, läßt er die äußerste
+            Überraschung erkennen.</stage>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>naht Karl und überreicht ihm einen Kranz.</stage>
+                  <lg>
+                     <l>Der Landestöchter fromme Pflichten</l>
+                     <l>Weih'n, Vater, dir die Heldenzier;</l>
+                     <l>Mir ward das Amt, es zu verrichten,</l>
+                     <l>Für sie reich' ich den Lorbeer dir.</l>
+                  </lg>
+                  <stage>Karl schließt Emma zärtlich in die Arme.</stage>
+               </sp>
+               <sp who="#jungfrauen">
+                  <speaker>JUNGFRAUEN.</speaker>
+                  <lg>
+                     <l>Vaterhuld und milder Sinn</l>
+                     <l>Schmückt den hohen Helden.</l>
+                     <l>Seiner Tugenden Gewinn</l>
+                     <l>Wird die Sage melden.</l>
+                     <pb n="7" facs="#f0005"/>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Mir darfst du, Tochter, diesen Kranz nicht weihen,</l>
+                     <l>Der Held des Tags</l>
+                  </lg>
+                  <stage>Auf Roland zeigend.</stage>
+                  <lg>
+                     <l>hat ihn verdient.</l>
+                     <l>Ihm, Roland, ihm, dem Sieger, dem Bezwinger,</l>
+                     <l>Ihm reich' den grünen Kranz, des Sieges Ehre.</l>
+                  </lg>
+                  <stage>Die Jungfrauen nahen, Roland läßt sich auf ein Knie nieder und empfängt den
+              Kranz. Fierrabras betrachtet Emma mit leidenschaftlichen Blicken.</stage>
+               </sp>
+               <sp who="#jungfrauen">
+                  <speaker>JUNGFRAUEN.</speaker>
+                  <lg>
+                     <l>Dir reichen wir mit Freuden</l>
+                     <l>Den Kranz, du starker Held,</l>
+                     <l>Der du der Feinde Scharen</l>
+                     <l>Mit kühner Hand zerschellt.</l>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>leise zu Roland.</stage>
+                  <lg>
+                     <l>Wehe mir! Die Heißgeliebte ist's,</l>
+                     <l>Die ich in Rom beim heil'gen Fest erblickt</l>
+                     <l>Und der mein ganzes Herz gehört.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>in höchster Überraschung, leise.</stage>
+                  <p>Welche Ahnung! – doch sie, die an deiner Seite stand,</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <p>– war meine Schwester.</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Sag', lebt sie noch?</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <p>Sie lebt.</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Nun weiht euch alle der Siegesfreude</l>
+                     <l>Zum Friedenszuge ruft euch der neue Tag.</l>
+                  </lg>
+               </sp>
+               <sp who="#maenner #die_ritter #frauen #jungfrauen">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Aus blutigem Gefechte</l>
+                     <l>Der Sieger kehrt zurück,</l>
+                     <l>Die Feinde wurden Knechte,</l>
+                     <l>Uns strahlte hold das Glück.</l>
+                  </lg>
+                  <stage>Alle ab außer Fierrabras und Roland.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Scene.</head>
+               <stage>Fierrabras und Roland.</stage>
+               <sp who="#roland">
+                  <lg>
+                     <l>Kaum wag' ich es zu glauben:</l>
+                     <l>Die Theure, die so plötzlich ich verlor,</l>
+                     <l>Ist deine Schwester.</l>
+                     <pb n="8" facs="#f0006"/>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <lg>
+                     <l>In Treuen denkt des Frankenritters sie,</l>
+                     <l>Deß liebeglüh'nde Blicke die ihren fanden.</l>
+                     <l>Ja, mein Freund! Dir lacht das Glück auf allen Wegen.</l>
+                     <l>Doch trübe ist mein Geschick: nie nenn'</l>
+                     <l>Ich Emma, die Holde, mein.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>ergreift seine Hand.</stage>
+                  <lg>
+                     <l>Sei der Unsre ganz, und laß uns fest</l>
+                     <l>Auf die Zukunft bauen.</l>
+                  </lg>
+               </sp>
+               <stage>Nr. 4. Duett.</stage>
+               <sp who="#fierrabras #roland">
+                  <speaker>FIERRABRAS UND ROLAND.</speaker>
+                  <lg>
+                     <l>Laß uns muthvoll hoffen,</l>
+                     <l>Bis das Ziel erreicht.</l>
+                     <l>Laß uns kraftvoll ringen</l>
+                     <l>Bis der Kummer weicht.</l>
+                     <l>Noth und Mühe schrecken</l>
+                     <l>Tapfre nicht zurück:</l>
+                     <l>Den, der kühn gerungen,</l>
+                     <l>Lohnt das höchste Glück.</l>
+                  </lg>
+                  <stage>Verwandlung.</stage>
+                  <stage>Garten. Im Hintergrunde links Frauenwohnung mit einem Balkon. Nacht.
+              Mondschein.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Sechste Scene.</head>
+               <stage>Nr. 5. Finale.</stage>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>späht vorsichtig umher, er trägt eine Laute und nähert sich der Wohnung.</stage>
+                  <lg>
+                     <l>Der Abend deckt die stille Flur,</l>
+                     <l>Mein Glück muß ich bald meiden;</l>
+                     <l>Geliebte, hör' der Liebe Schwur,</l>
+                     <l>Bald muß dein Treuer scheiden.</l>
+                     <l>
+                        <pb n="9" facs="#f0007"/> O bittrer Trennung schweres Los,</l>
+                     <l>Die Thräne schwimmt im Blicke,</l>
+                     <l>Sein herb Geschick, es reißt ihn los</l>
+                     <l>Vom kaum gefühlten Glücke.</l>
+                  </lg>
+                  <stage>Emma wird auf dem Balkon sichtbar.</stage>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Doch kehrst du heim im Siegesglanz,</l>
+                     <l>Dann naht dein Glück aufs Neue;</l>
+                     <l>Des Ruhmes schwer errung'nen Kranz</l>
+                     <l>Reicht dir die Hand der Treue.</l>
+                  </lg>
+                  <stage>Emma verschwindet vom Balkon und kommt sogleich unten aus der Thür. Eginhard
+              umarmt sie und geleitet sie zärtlich nach links in den Garten.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Siebente Scene.</head>
+               <stage>Fierrabras hinter der Scene.</stage>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>kommt langsam von rechts.</stage>
+                  <lg>
+                     <l>Was quälst du bange Ahnung mich?</l>
+                     <l>Der Zweifel foltert meine Seele;</l>
+                     <l>Ich sauge Lust aus ihrem Blick</l>
+                     <l>Doch sie! wird sie den Liebenden erhören.</l>
+                     <l>In tiefbewegter Brust</l>
+                     <l>Regt sich ein leises Sehnen;</l>
+                     <l>Die Hoffnung schmeichelt süß,</l>
+                     <l>Darf ich Erfüllung wähnen?</l>
+                     <l>O schweig! verzagtes Herz!</l>
+                     <l>Verstummt, sehnsücht'ge Klagen!</l>
+                     <l>Dem Manne ziemt nicht Schmerz,</l>
+                     <l>Er muß mit Fassung tragen.</l>
+                     <l>In tiefbewegter Brust etc.</l>
+                  </lg>
+                  <stage>Bewegung in der Wohnung, die Fenster werden abwechselnd erhellt.</stage>
+                  <lg>
+                     <l>Doch horch! was regt sich noch in stiller Nacht?</l>
+                     <l>Des Flügels Fenster sind erleuchtet.</l>
+                     <l>Bald leises Murren, bald ein wilder Lärm –</l>
+                     <pb n="10" facs="#f0008"/>
+                  </lg>
+               </sp>
+               <sp who="#maennerchor_maenner_1-7_und_1-8">
+                  <speaker>MÄNNERCHOR</speaker>
+                  <stage>von innen.</stage>
+                  <p>Wo ist sie? schnell, verschwunden ist jede Spur!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <lg>
+                     <l>Seltsam Gebahren! Was mag das sein?</l>
+                     <l>Belauschen will ich das nächtliche Treiben.</l>
+                  </lg>
+                  <stage>Er tritt seitwärts.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Achte Scene.</head>
+               <stage>Fierrabras, Emma, Eginhard, Männer hinter der Scene.</stage>
+               <stage>Emma und Eginhard eilen auf die Bühne.</stage>
+               <sp who="#emma #eginhard">
+                  <speaker>EMMA UND EGINHARD.</speaker>
+                  <lg>
+                     <l>Angst und Schrecken</l>
+                     <l>Tief erfassen, dumpf bedecken</l>
+                     <l>Sie die Brust!</l>
+                     <l>Schnell entfliehe</l>
+                     <l>Wer sich schwerer Schuld bewußt!</l>
+                  </lg>
+               </sp>
+               <sp who="#maennerchor_maenner_1-7_und_1-8">
+                  <speaker>MÄNNER</speaker>
+                  <stage>drinnen.</stage>
+                  <lg>
+                     <l>Ohne Verweilen verfolgt die Spuren,</l>
+                     <l>Schnell verschwunden ist jede Spur!</l>
+                  </lg>
+                  <stage>Eginhard will entfliehen, Fierrabras tritt ihm entgegen.</stage>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <p>Ha, hier waltet ein Verrath!</p>
+                  <stage>Zu Eginhard.</stage>
+                  <p>Ich laß dich nicht entrinnen!</p>
+               </sp>
+               <sp who="#eginhard #emma">
+                  <speaker>EGINHARD UND EMMA.</speaker>
+                  <p>'s ist Fierrabras!</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>Ha, Fierrabras!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <lg>
+                     <l>Wer ihr auch seid, die ihr des Hauses Ehre höhnt,</l>
+                     <l>Zur Rache seht mich hier bereit.</l>
+                  </lg>
+                  <stage>Er stellt sich Eginhard entgegen.</stage>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>O schonet uns!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <p>Was seh' ich, Emma!</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <p>O laß mich flieh'n!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>ihn erkennend.</stage>
+                  <p>Eginhard! Was muß ich seh'n!</p>
+               </sp>
+               <sp who="#emma #eginhard">
+                  <speaker>EMMA UND EGINHARD.</speaker>
+                  <lg>
+                     <l>Wie er verworren blicket,</l>
+                     <l>Kaum birgt er seinen Drang.</l>
+                     <l>Die Schuld, die mich bedrücket,</l>
+                     <l>Erfüllt das Herz so bang!</l>
+                     <pb n="11" facs="#f0009"/>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <lg>
+                     <l>Der Rache Gluth ersticket</l>
+                     <l>In mir des Mitleids Drang;</l>
+                     <l>Er ist's, den sie beglücket,</l>
+                     <l>Der ihre Gunst errang!</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>wirft sich Fierrabras zu Füßen.</stage>
+                  <p>Schütz' den Geliebten, rette mich vor Schmach!</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>hebt sie auf.</stage>
+                  <lg>
+                     <l>Fleh' den <hi rendition="#i">Barbaren</hi> nicht um Großmuth an,</l>
+                     <l>Durch seine Brust bahn' ich uns den Weg.</l>
+                  </lg>
+                  <stage>Eginhard zieht sein Schwert, das ihm Fierrabras mit einem schnellen
+              Schwertstreich aus der Hand schlägt.</stage>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>mit bittrem Hohn.</stage>
+                  <p>Merkt auf, ob der <hi rendition="#i">Barbar</hi> die Großmuth kennt.</p>
+                  <stage>Auf Emma zeigend.</stage>
+                  <lg>
+                     <l>Wie heiß ich sie geliebt, weiß Gott allein,</l>
+                     <l>
+                        <hi rendition="#i">Verderben</hi> könnt' ich <hi rendition="#i">beide</hi> euch! –</l>
+                     <l>
+                        <hi rendition="#i">Seid beide frei!</hi>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="#emma #eginhard">
+                  <speaker>EMMA UND EGINHARD.</speaker>
+                  <p>Hab' Dank, du Retter in Gefahren.</p>
+               </sp>
+               <sp who="#emma #eginhard #fierrabras">
+                  <speaker>EMMA, EGINHARD UND FIERRABRAS.</speaker>
+                  <p>Leb' wohl, mög' dich des Himmels Schutz bewahren!</p>
+                  <stage>Eginhard entflieht, der Lichtschein in der Frauenwohnung ist erloschen.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Neunte Scene.</head>
+               <stage>Emma und Fierrabras.</stage>
+               <sp who="#fierrabras">
+                  <lg>
+                     <l>Nun fasset Muth! Verbannt sei Eure Furcht,</l>
+                     <l>Ich schütze Euch, Ihr habt mein Ehrenwort.</l>
+                     <l>Wollt Ihr mir folgen, hohe Königstochter,</l>
+                     <l>Ich führ' Euch bald an Eures Vaters Brust.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>erschrickt.</stage>
+                  <lg>
+                     <l>Nein nimmermehr!</l>
+                     <l>Ach, was soll ich beginnen,</l>
+                     <l>Laß uns auf Rettung sinnen,</l>
+                     <l>Sieh' meiner Thränen Fluth,</l>
+                     <l>Laß nichts den Vater wissen,</l>
+                     <l>Den Frevel würd' ich büßen</l>
+                     <l>Mit des Geliebten Blut.</l>
+                     <pb n="12" facs="#f0010"/>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <lg>
+                     <l>In Euer Haus geleit' ich Euch zurück!</l>
+                     <l>Eurem Wunsch will ich mich beugen</l>
+                     <l>Mit männlich festem Muth.</l>
+                  </lg>
+                  <stage>Fierrabras faßt Emma an der Hand, um sie in die Frauenwohnung zu geleiten; wie
+              sie an der Pforte sind, tritt der König mit Gefolge, Dienern mit Fackeln, aus der
+              Thür.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zehnte Scene.</head>
+               <stage>Vorige, Karl und Gefolge.</stage>
+               <sp who="#emma #fierrabras">
+                  <p>Ha!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Wie! Emma hier? Und der Barbar bei dir?</p>
+                  <stage>Zu Fierrabras.</stage>
+                  <lg>
+                     <l>So achtest du des Gastrechts heil'ge Sitten?</l>
+                     <l>Verführer!</l>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>auffahrend.</stage>
+                  <p>Das ist zu viel! – So wisset –</p>
+                  <stage>Er sieht auf Emma und hält plötzlich inne.</stage>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Ich weiß genug, dich zu verachten! Man rufe Roland!</p>
+                  <stage>Einige aus dem Gefolge entfernen sich, um Roland zu holen.</stage>
+               </sp>
+               <sp who="#emma #fierrabras">
+                  <speaker>EMMA UND FIERRABRAS.</speaker>
+                  <lg>
+                     <l>Das Blut fühl' ich erstarren</l>
+                     <l>Im Kampf mit Lieb' und Pflicht,</l>
+                     <l>Wird er die Schuld gewahren,</l>
+                     <l>Trifft uns sein Strafgericht.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Mit Strenge zu verfahren,</l>
+                     <l>Gebeut mir Vaterpflicht,</l>
+                     <l>Ich will ihn wohl verwahren,</l>
+                     <l>Der so Verträge bricht.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Elfte Scene.</head>
+               <stage>Vorige und Roland.</stage>
+               <sp who="#karl">
+                  <lg>
+                     <l>Dich rief ich, Roland, dich bewährt und redlich,</l>
+                     <l>Der meines Hauses Ehre stets bewacht.</l>
+                     <l>
+                        <pb n="13" facs="#f0011"/> In deine Hände geb' ich den Verräther,</l>
+                     <l>Daß er den Frevel büß' in Kerkers Nacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Was ist gescheh'n? o sprich!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Wohl wirst du staunen!</l>
+                     <l>An Emma wagt' der Kühne sich vermessen,</l>
+                     <l>Entführte mit Gewalt sie meinem Arm.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Wär's möglich!</p>
+                  <stage>Zu Fierrabras.</stage>
+                  <p>Unsel'ger!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Mit Recht faßt, Edler, dich Entsetzen,</l>
+                     <l>Drum fort mit ihm!</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Vergieb' ihm, den die Leidenschaft verblendet!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Kein Mitleid!</l>
+                     <l>Solch frevle That verdienet solchen Lohn.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>O Herr, bedenk, er hat mir selbst bekannt,</l>
+                     <l>Heiß ist seine Liebe, doch so rein wie Gold!</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>befehlend.</stage>
+                  <lg>
+                     <l>Du schweige und gehorche!</l>
+                     <l>Du haftest mir für ihn!</l>
+                  </lg>
+                  <stage>Trompeten hinter der Bühne.</stage>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Du hörst dies Zeichen, tapf'rer Held, bald will es tagen,</l>
+                     <l>An euer Werk gemahnt der frühe Ruf;</l>
+                     <l>Drum eil', dich zu den Freunden zu gesellen,</l>
+                     <l>Daß ihr die Friedenssendung klug vollbringt.</l>
+                  </lg>
+                  <stage>Auf Fierrabras deutend.</stage>
+                  <lg>
+                     <l>Für meinen Zorn bleib' er indeß verwahrt.</l>
+                     <l>Was er verbrach an meines Hauses Ehre,</l>
+                     <l>Das büße er mit harter Ahndung Schwere!</l>
+                  </lg>
+                  <stage>Während des folgenden Chores füllt sich bei allmählichem Tagesanbruch der
+              Hintergrund mit Rittern und Kriegern, welche zum Gesandtschaftszuge gehören. Sie
+              führen eine weiße Fahne, eine Palme und mehrere Symbole des Friedens.</stage>
+               </sp>
+               <sp who="#die_ritter #krieger">
+                  <speaker>CHOR DER RITTER UND KRIEGER.</speaker>
+                  <lg>
+                     <l>Fort zum Feinde schickt uns König Karls Geheiß,</l>
+                     <l>Doch der Friede bildet unsrer Sendung Preis.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma #fierrabras">
+                  <speaker>EMMA UND FIERRABRAS.</speaker>
+                  <lg>
+                     <l>Dulden still und schweigen</l>
+                     <l>Ist mir Pflichtgeheiß</l>
+                     <l>
+                        <pb n="14" facs="#f0012"/> Und kein Blick darf zeigen,</l>
+                     <l>Was die Seele weiß.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>Ernst und Strenge zeigen,</l>
+                     <l>Ist ihm Pflichtgeheiß,</l>
+                     <l>Und ich muß mich beugen,</l>
+                     <l>Giebt er sie auch preis.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Ernst und Strenge zeigen,</l>
+                     <l>Ist mir Pflichtgeheiß,</l>
+                     <l>Vor des Frevels Zeugen</l>
+                     <l>Gebe ich ihn preis.</l>
+                  </lg>
+                  <stage>Sie ordnen sich zum Zuge. Eginhard tritt in glänzender Rüstung auf, um sich an
+              die Spitze des Zuges zu stellen. Als Emma ihn erblickt, beginnt sie zu wanken und
+              sinkt in Roland's Arme. Eginhard will herbeieilen, wird aber durch eine abweisende
+              Gebärde Karl's zurückgehalten und zieht mit den Rittern davon. Der Vorgang spielt sich
+              sehr schnell ab.</stage>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Akt.</head>
+            <stage>Felsige schluchtenreiche Gegend an der französischen Grenze, von einer Anhöhe
+          begrenzt, über welche die Ritter herabkommen. Rechts ein Felsenvorsprung mit engem Zugang.
+          Morgen.</stage>
+            <div>
+               <head>Erste Scene.</head>
+               <stage>Eginhard, Ogier und Ritter mit der weißen Fahne, Palme und den anderen
+            Friedenszeichen. Als sie am Abhang der Höhe stehen, kehren sie sich noch einmal nach der
+            Seite, von welcher sie gekommen sind.</stage>
+               <stage>Nr. 6. Lied mit Chor.</stage>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>Im jungen Morgenstrahle,</l>
+                     <l>Den Blick dir zugewandt,</l>
+                     <l>Grüß' ich zum letzten Male</l>
+                     <l>Dich, theures Vaterland.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER.</speaker>
+                  <p>Im jungen etc.</p>
+                  <pb n="15" facs="#f0013"/>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>hinter der Scene.</stage>
+                  <stage>Freudige Bewegung unter den Rittern.</stage>
+                  <lg>
+                     <l>Der frühe Morgen sendet</l>
+                     <l>Uns gold'gen Sonnenschein!</l>
+                     <l>Doch wie der Tag noch endet,</l>
+                     <l>Das weiß nur Gott allein.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>hinter der Scene.</stage>
+                  <p>Der frühe Morgen sendet etc.</p>
+                  <stage>Roland kommt mit Rittern auf die Bühne. Herzliche Bewillkommnung zwischen ihm,
+              Eginhard und Ogier, sowie zwischen den Rittern.</stage>
+               </sp>
+               <sp who="#eginhard #roland">
+                  <speaker>EGINHARD UND ROLAND.</speaker>
+                  <lg>
+                     <l>O ew'ge Mächte, weilet</l>
+                     <l>Ob uns in milder Huth,</l>
+                     <l>Eh' uns Verrath ereilet,</l>
+                     <l>Befreiet uns von Schuld.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>ALLE RITTER.</speaker>
+                  <p>O ew'ge Mächte etc.</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>etwas erregt zu Roland.</stage>
+                  <p>Wie geht's Prinzessin Emma?</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>Sie hat sich schnell erholt,</l>
+                     <l>Der Schreck nur übermannte sie,</l>
+                     <l>Da Fierrabras, der Allzukühne,</l>
+                     <l>An ihr sich zu vergreifen wagte.</l>
+                  </lg>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>in höchster Betroffenheit.</stage>
+                  <p>Fierrabras!</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>So ist's.</l>
+                     <l>Dafür schmachtet er jetzt in Ketten.</l>
+                  </lg>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>außer sich.</stage>
+                  <p>Fierrabras in Ketten!</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>Doch Freunde kommt, seid vorsichtig jetzt,</l>
+                     <l>Wir gehn durch Feindesland.</l>
+                  </lg>
+                  <stage>Die Ritter gehen ab, während Eginhard in finster brütender Haltung vorn
+              zurückbleibt.</stage>
+                  <p>Wohlan, Eginhard!</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>fährt auf.</stage>
+                  <p>Laß einen Augenblick mich nur allein, ich folge gleich.</p>
+                  <stage>Roland geht ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Scene.</head>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>allein.</stage>
+                  <lg>
+                     <l>O Gott! was hab' ich gehört!</l>
+                     <l>Fierrabras, schuldlos, schmachtet im Kerker.</l>
+                  </lg>
+               </sp>
+               <stage>
+                  <pb n="16" facs="#f0014"/> Nr. 7. Recitativ, Marsch und Ensemble.</stage>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>mit Entschluß.</stage>
+                  <p>Beschlossen ist's, ich löse seine Ketten!</p>
+                  <stage>Zwei Mauren spähen hinter einem Felsen hervor und verschwinden wieder. Hinter
+              einem anderen Felsen werden andere Mauren sichtbar, die ebenfalls
+              verschwinden.</stage>
+                  <lg>
+                     <l>Der Wunsch erfüllt mich reuevoll und heiß,</l>
+                     <l>Um ihn, den tiefgekränkten Freund zu retten,</l>
+                     <l>Geb' ich mein Leben, meine Liebe preis.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Scene.</head>
+               <stage>Eginhard, Brutamonte und Mauren.</stage>
+               <stage>Eginhard, das Gesicht den links davonziehenden Rittern zugewandt, bleibt, in trübes
+            Nachsinnen versunken, stehen. Von der Höhe und aus der Schlucht im Hintergrunde rechts
+            schleicht Brutamonte mit einer Abtheilung Mauren heran. Als sie Eginhard erblicken,
+            bleiben sie erst, ihn beobachtend, stehen – dann deuten sie auf die in der Entfernung
+            wandernden Ritter, sehen ihnen durch längere Zeit nach, und als sie dieselben entfernt
+            genug glauben, kommen sie von der Anhöhe herab und nähern sich Eginhard, der sie nicht
+            bemerkt. Die Vorderen unter ihnen wollen Eginhard ergreifen. Dieser entwindet sich ihnen
+            mit einer geschickten Seitenbewegung und zieht das Schwert gegen sie. Kämpfend gewinnt
+            Eginhard den Felsenvorsprung im Vordergrunde rechts, auf den er hinaufeilt. Er schlägt
+            die nacheilenden Mauren zurück und stößt ins Horn. In der Ferne ertönt ein
+            Antwortsignal.</stage>
+               <sp who="#brutamonte #die_mauren">
+                  <speaker>BRUTAMONTE UND DIE MAUREN</speaker>
+                  <stage>aufmerksam horchend.</stage>
+                  <lg>
+                     <l>Was mag der Ruf bedeuten?</l>
+                     <l>Seid wohl auf eurer Hut!</l>
+                     <l>Schafft ihn hinweg bei Zeiten,</l>
+                     <l>Sonst strömet unser Blut!</l>
+                  </lg>
+                  <stage>Eginhard stößt ins Horn.</stage>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>Bald wird sich's klar entscheiden,</l>
+                     <l>Ich lache ihrer Wuth;</l>
+                     <l>Das Todeslos zu meiden,</l>
+                     <l>Steh' ich in Freundes Huth!</l>
+                  </lg>
+                  <stage>Eginhard stößt ins Horn.</stage>
+                  <stage>Sie machen einen neuen Angriff, den Eginhard zurückschlägt. Fortwährender Kampf;
+              die Mauren besetzen nach und nach den Zugang.</stage>
+                  <pb n="17" facs="#f0015"/>
+               </sp>
+               <sp who="#brutamonte">
+                  <speaker>BRUTAMONTE</speaker>
+                  <stage>zu den Mauren.</stage>
+                  <lg>
+                     <l>Schnell, eh' sie nahen, fasset ihn!</l>
+                     <l>Zum Fürsten führt den Kühnen hin!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_mauren #brutamonte">
+                  <speaker>DIE MAUREN UND BRUTAMONTE.</speaker>
+                  <lg>
+                     <l>Willst du noch widersteh'n?</l>
+                     <l>Schnell mit dem Frevler fort,</l>
+                     <l>Er kann uns nicht entrinnen:</l>
+                     <l>Verjagt vom sichern Ort,</l>
+                     <l>Muß er mit uns von hinnen.</l>
+                  </lg>
+                  <stage>Die Mauren lauschen auf den Hornruf, dann bedrängen sie ihn von Neuem.</stage>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>Verrath an diesem Ort</l>
+                     <l>Wird euch kein Frommen bringen.</l>
+                  </lg>
+                  <stage>Drei Mauren haben den Felsenvorsprung von hinten erklommen und überwältigen
+              Eginhard. Alle schnell ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Scene.</head>
+               <sp who="#roland #ogier #die_ritter">
+                  <speaker>ROLAND, OGIER UND DIE ÜBRIGEN RITTER</speaker>
+                  <stage>kommen schnell zurück; sie spähen überall umher.</stage>
+                  <lg>
+                     <l>Was ist ihm gescheh'n?</l>
+                     <l>Er ist nicht zu seh'n.</l>
+                     <l>Was hat er begonnen?</l>
+                     <l>Die Zeit ist verronnen!</l>
+                  </lg>
+               </sp>
+               <sp who="#roland #ogier #die_ritter">
+                  <speaker>ROLAND, OGIER UND DIE RITTER.</speaker>
+                  <lg>
+                     <l>Verfolget die Spuren im hastigen Lauf,</l>
+                     <l>Wir folgen den Spuren im hastigen Lauf,</l>
+                     <l>In Thälern und Fluren schnell /suchet wir / finden ihn auf.</l>
+                  </lg>
+                  <stage>Sie zerstreuen sich nach allen Richtungen.</stage>
+               </sp>
+               <stage>Verwandlung.</stage>
+            </div>
+            <div>
+               <head>Fünfte Scene.</head>
+               <stage>Gemach im Schlosse des Maurenfürsten Boland zu Agrimore, nach Art eines Zeltes, mit
+            einem Vorhange geschlossen.</stage>
+               <stage>Florinda und Maragond.</stage>
+               <stage>Nr. 8 Duett.</stage>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Weit über Glanz und Erdenschimmer</l>
+                     <l>Ragt meiner Wünsche hohes Ziel,</l>
+                     <l>
+                        <pb n="18" facs="#f0016"/> Und jedem Glück entsagt' ich immer,</l>
+                     <l>Lohnt mich der Liebe süß Gefühl.</l>
+                  </lg>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND.</speaker>
+                  <lg>
+                     <l>O mög' der Schein dich nicht bethören,</l>
+                     <l>Verrath ist der Gedanke schon.</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Nur seiner Stimme Klang zu hören,</l>
+                     <l>Ist aller Leiden höchster Lohn.</l>
+                  </lg>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND.</speaker>
+                  <lg>
+                     <l>O könnt' ich es umfangen,</l>
+                     <l>Das lieblich holde Bild!</l>
+                     <l>Mein glühendes Verlangen</l>
+                     <l>Wird nimmer wohl erfüllt.</l>
+                     <l>Von trostlos stillem Bangen</l>
+                     <l>Ist meine Brust erfüllt;</l>
+                     <l>Ach, nie wird ihr Verlangen,</l>
+                     <l>Nie ihre Lust gestillt.</l>
+                  </lg>
+                  <stage>Boland tritt ein.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Sechste Scene.</head>
+               <stage>Vorige, Boland und Eginhard.</stage>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Mein gutes Kind, warum so traurig?</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA</speaker>
+                  <stage>sich schnell besinnend.</stage>
+                  <p>Fierrabras', des tapfern Bruders Schicksal macht mir Sorge.</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Mein armer Sohn!</p>
+                  <stage>Brutamonte und einige maurische Soldaten führen den gefangenen Eginhard
+              herein.</stage>
+               </sp>
+               <sp who="#brutamonte">
+                  <speaker>BRUTAMONTE.</speaker>
+                  <lg>
+                     <l>O Herr, diesen Franken nahmen wir gefangen,</l>
+                     <l>Er sagt, er komm' vom König Karl, Frieden zu bringen.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>zu Eginhard.</stage>
+                  <p>Was weißt du von Fierrabras?</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>sehr beklommen.</stage>
+                  <lg>
+                     <l>O frage nicht!</l>
+                     <l>Gefangen ward er in der Schlacht,</l>
+                     <l>König Karl gab ihm die Freiheit;</l>
+                     <l>Doch alsbald schimpflich ward er eingekerkert,</l>
+                     <l>Ihn verrieth ein falscher Freund –</l>
+                     <pb n="19" facs="#f0017"/>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>halb sprachlos.</stage>
+                  <p>Und – dieser Freund –</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>in wildem Schmerz.</stage>
+                  <p>– war ich!</p>
+                  <stage>Boland macht eine heftige Gebärde gegen ihn.</stage>
+               </sp>
+               <stage>Nr. 9. Quintett.</stage>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Verderben denn und Fluch der falschen Frankenbrut!</p>
+               </sp>
+               <sp who="#florinda #maragond #eginhard">
+                  <speaker>FLORINDA, MARAGOND UND EGINHARD.</speaker>
+                  <lg>
+                     <l>Des Fürsten vollen Zorn / wird er / werd' ich/ mit Recht erfahren.</l>
+                     <l>Die Qual, die / er / ich / gebracht, /er / ich / muß sie selbst erfahren.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Hinab in Todesnacht send' ich der Frevler Scharen,</l>
+                     <l>Sie werden meinen Zorn mit vollem Recht erfahren.</l>
+                  </lg>
+               </sp>
+               <sp who="#brutamonte">
+                  <speaker>BRUTAMONTE.</speaker>
+                  <lg>
+                     <l>Auf ihrer Größe Trümmer blüht unsers Ruhmes Ziel.</l>
+                     <l>Das Herz entsaget nimmer der Rache blut'gem Spiel.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Schnell in den Kerker mit dem Frevler.</p>
+                  <stage>Zu Eginhard.</stage>
+                  <p>Mit dem Tode sollst du büßen, was du verbrachst.</p>
+                  <stage>Brutamonte und die Mauren führen Eginhard nach rechts ab. Geräusch hinter der
+              Scene.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Siebente Scene.</head>
+               <stage>Vorige, Roland, Ogier, Ritter, Volk.</stage>
+               <stage>Der Vorhang hinten öffnet sich. Freier Platz. Volk sammelt sich an. Roland, Ogier
+            und die Ritter nahen in feierlichem Zuge. Links wird ein praktikabler Thronhimmel
+            aufgestellt, unter welchem nach beendetem Aufzuge der Ritter Boland Platz nimmt.
+            Maurische Krieger ziehen auf; rechts vom Throne stehen Florinda und Maragond, beide
+            verschleiert.</stage>
+               <stage>Nr. 10 Chor.</stage>
+               <sp who="#die_ritter #die_mauren">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Laßt Friede in die Hallen</l>
+                     <l>Des Fürstensitzes zieh'n,</l>
+                     <l>
+                        <pb n="20" facs="#f0018"/> Wenn Jubellieder schallen,</l>
+                     <l>Muß auch die Palme blüh'n.</l>
+                     <l>Ihr Himmelsmächte, sendet</l>
+                     <l>Die Ruhe diesem Land,</l>
+                     <l>Der Gaben höchste spendet,</l>
+                     <l>Der Eintracht heilig Band.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Wir bringen dir den Frieden!</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA</speaker>
+                  <stage>zu Maragond, leise.</stage>
+                  <p>Er ist's, mein Geliebter!</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Du sprichst vom Frieden, wenn mein Sohn Fierrabras</l>
+                     <l>Unschuldig in Ketten schmachtet.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Unschuldig! wer sagt das?</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Der Euren Einer, den eben wir gefangen –</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>überrascht zu seinen Rittern.</stage>
+                  <p>– Eginhard –</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>– er hat mir selbst bekannt,</l>
+                     <l>Daß für sein Vergehn Fierrabras unschuldig leide.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>finster.</stage>
+                  <p>Fürchterliche Kunde!</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>mit Nachdruck.</stage>
+                  <p>Doch büßen soll er mir für den Verrath,</p>
+                  <stage>Er steht auf.</stage>
+                  <p>Büßen sollt ihr Alle.</p>
+                  <stage>Auf einen Wink Boland's werden in einem Nu die Ritter von den Mauren entwaffnet
+              und umzingelt.</stage>
+               </sp>
+               <stage>Nr. 11. Terzett mit Chor.</stage>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Im Tode sollt ihr büßen,</l>
+                     <l>Was Übermuth gewagt;</l>
+                     <l>Bald deckt zu meinen Füßen</l>
+                     <l>Euch Nacht, die nimmer tagt.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland #die_ritter">
+                  <speaker>ROLAND UND DIE RITTER.</speaker>
+                  <lg>
+                     <l>Das Leben willig lassen</l>
+                     <l>Ist frommer Ritter Pflicht;</l>
+                     <l>Doch Unheil wird ihn fassen,</l>
+                     <l>Der Wort und Ehre bricht.</l>
+                     <pb n="21" facs="#f0019"/>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>O schütz' ihn vor Gefahren,</l>
+                     <l>Du ew'ge Himmelsmacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Ihr sollt es bald erfahren,</l>
+                     <l>Wie euch mein Grimm verlacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_mauren">
+                  <speaker>DIE MAUREN.</speaker>
+                  <lg>
+                     <l>Bald sollen sie's erfahren,</l>
+                     <l>Daß seine Rache wacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Fort! in des Kerkers Grauen</l>
+                     <l>Büßt ihr den frevlen Wahn.</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Muß ich ihn elend schauen,</l>
+                     <l>Zur Rettung treibt's mich an.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland #die_ritter">
+                  <speaker>ROLAND UND DIE RITTER.</speaker>
+                  <lg>
+                     <l>Mit festem Gottvertrauen</l>
+                     <l>Gehn wir die Todesbahn.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_mauren">
+                  <speaker>DIE MAUREN.</speaker>
+                  <lg>
+                     <l>Auf Glück dürft ihr nicht bauen,</l>
+                     <l>Bald ist's um euch gethan.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>In Kerkermauern sollt ihr leben,</l>
+                     <l>Bis euch der Strafe Arm ereilt.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland #die_ritter">
+                  <speaker>ROLAND UND DIE RITTER.</speaker>
+                  <lg>
+                     <l>Des Königs Rache mach' dich beben,</l>
+                     <l>Weil er zum Schutz der Freunde eilt.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_mauren">
+                  <speaker>DIE MAUREN.</speaker>
+                  <lg>
+                     <l>Gar streng bewachen wir ihr Leben,</l>
+                     <l>Bis sie der Strafe Arm ereilt.</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <p>Ach, Vater, hab' Erbarmen!</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>für sich.</stage>
+                  <p>Ha! Diese Stimme!</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>überrascht zu Florinda.</stage>
+                  <p>Dich rührt ihr wohlverdientes Los?</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Kein Zweifel, ja, es ist Florinda.</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>In des Geliebten Armen</l>
+                     <l>Ereil' auch mich das Todeslos.</l>
+                  </lg>
+                  <stage>Die Ritter werden ganz von den Mauren umringt. Alle kommen mehr nach
+              vorn.</stage>
+               </sp>
+               <sp who="#boland #die_mauren">
+                  <speaker>BOLAND UND DIE MAUREN.</speaker>
+                  <lg>
+                     <l>Sie sollen erblassen</l>
+                     <l>In heimlicher Noth,</l>
+                     <l>Die Feinde zu hassen</l>
+                     <l>Ist Rachegebot.</l>
+                     <pb n="22" facs="#f0020"/>
+                  </lg>
+               </sp>
+               <sp who="#florinda #roland #die_ritter">
+                  <speaker>FLORINDA, ROLAND UND DIE RITTER.</speaker>
+                  <lg>
+                     <l>Das Leben zu lassen</l>
+                     <l>In peinlicher Noth!</l>
+                     <l>Es gilt sich zu fassen</l>
+                     <l>Zum schmählichen Tod.</l>
+                  </lg>
+                  <stage>Die Ritter werden mit Gewalt, von den Kriegern und dem Volke begleitet,
+              abgeführt. Der Fürst entfernt sich mit seinem Gefolge. Florinda bleibt allein zurück;
+              sie entschleiert sich.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Achte Scene.</head>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>O Gott! Welch Wiedersehen!</l>
+                     <l>Dem Tode geweiht ist der Geliebte!</l>
+                     <l>Haltet ein, ihr Henker, sein Tod ist auch der meine!</l>
+                     <l>Vergebens sinne ich auf Rettung.</l>
+                  </lg>
+                  <stage>Sie blickt nach rechts.</stage>
+                  <lg>
+                     <l>Doch wie! Unbewacht blieb des Franken Gefängnis –</l>
+                     <l>Der Himmel gab mir den Gedanken ein.</l>
+                  </lg>
+                  <stage>Sie eilt nach rechts und kommt sogleich mit Eginhard zurück.</stage>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>mit Schmerz auf die Scene deutend.</stage>
+                  <p>Was mußt' ich seh'n und hören!</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA</speaker>
+                  <stage>hastig.</stage>
+                  <lg>
+                     <l>Verliere keinen Augenblick,</l>
+                     <l>Geh zu König Karl, bekenne dein Verbrechen,</l>
+                     <l>Befrei den Bruder, er eile schnell herbei!</l>
+                  </lg>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <p>Ich eile!</p>
+                  <stage>Er eilt mit dankbarer Gebärde davon.</stage>
+               </sp>
+               <stage>Nr. 12. Arie.</stage>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Die Brust, gebeugt von Sorgen,</l>
+                     <l>Entbrennt in wilder Gluth;</l>
+                     <l>Ja, tage, wilder Morgen,</l>
+                     <l>Dein Segensgruß ist Blut!</l>
+                     <l>Des Weibes sanfte Sitten</l>
+                     <l>Zerstört der Drang der Noth,</l>
+                     <l>Und mit der Furien Wüthen</l>
+                     <l>Verbreit ich Schreck und Tod.</l>
+                  </lg>
+                  <stage>Verwandlung.</stage>
+                  <pb n="23" facs="#f0021"/>
+               </sp>
+            </div>
+            <div>
+               <head>Neunte Scene.</head>
+               <stage>Roland allein.</stage>
+               <stage>Gemach in einem festen Thurm, mit einer starken eisernen Thüre verschlossen. Nahe
+            der Thüre ein Lager. Einige Stufen führen nach oben zu einem vergitterten Fenster.
+            Nacht.</stage>
+               <stage>Nr. 13. Chor der Ritter.</stage>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER</speaker>
+                  <stage>hinter der Bühne.</stage>
+                  <lg>
+                     <l>O theures Vaterland! Verlassen</l>
+                     <l>Weilt deiner Söhne treue Schar;</l>
+                     <l>Den wird des Todes Graun erfassen,</l>
+                     <l>Der deines Ruhmes Kämpfer war.</l>
+                     <l>Ach, fern von heimischen Gefilden</l>
+                     <l>Droht des Verderbens bittre Schmach,</l>
+                     <l>Und bald zerfließt in Luftgebilden</l>
+                     <l>Die Hoffnung, die das Schicksal brach.</l>
+                     <l>O theures Vaterland!</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>in starrer Haltung.</stage>
+                  <lg>
+                     <l>Die theuren Gefährten sind's,</l>
+                     <l>Von denen mich der Barbar getrennt.</l>
+                  </lg>
+                  <stage>Nr. 14.</stage>
+                  <stage>Plötzliches Geräusch von außen.</stage>
+                  <p>Welch ein Geräusch!</p>
+                  <stage>Man hört einen dumpfen Schlag.</stage>
+                  <p>Sind's die Henker, die mich zum Tode führen?</p>
+                  <stage>Er steigt zum Fenster hinauf.</stage>
+                  <p>Nichts ist zu sehen – stille Nacht – tiefes Dunkel.</p>
+                  <stage>Gepolter an der Thüre des Gemachs. Er steigt herab und nähert sich der Thür, die
+              nach längerer Zeit mühsam geöffnet wird. Roland prallt erstaunt zurück.</stage>
+                  <p>Ein Weib?</p>
+               </sp>
+            </div>
+            <div>
+               <head>Zehnte Scene.</head>
+               <stage>Roland und Florinda.</stage>
+               <stage>Die Thür fliegt auf. Florinda stürzt herein. Sie hat einen Bund Schlüssel bei
+            sich.</stage>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Wo ist er? Nicht des Todes Grauen</l>
+                     <l>Hemmt meiner Schritte schnellen Lauf;</l>
+                     <l>
+                        <pb n="24" facs="#f0022"/> Nur ihn, den Theuren, will ich schauen,</l>
+                     <l>Dann flieh' des Lebens letzter Hauch!</l>
+                  </lg>
+                  <stage>Sie sinkt ermattet in seine Arme. Roland will sie zu dem Lager geleiten. Bei dem
+              schwachen Lichtschimmer, welcher durch die offene Thüre dringt, erkennt er ihre
+              Züge.</stage>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Gerechter Himmel, ja, sie ist's! Florinda!</p>
+                  <stage>Er lehnt sie auf das Lager und ist zärtlich um sie bemüht. Florinda schlägt die
+              Augen auf.</stage>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Gott Lob! Schon schlägt sie die holden Augen auf!</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <p>Wo bin ich?</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>In meinem Arm, in des Geliebten Nähe.</l>
+                     <l>O güt'ger Himmel, ich hab' dich gefunden, mit dir das Glück.</l>
+                     <l>Wie das Geschick auch wüthe, auf ewig bleibst du mir verbunden!</l>
+                     <l>Selbst an des Grabes Rande</l>
+                     <l>Erwacht das Leben neu,</l>
+                     <l>Vom düstern Todesbande</l>
+                     <l>Macht uns die Liebe frei.</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Entzücken strömt und Leben</l>
+                     <l>In die gequälte Brust,</l>
+                     <l>Das Herz fühlt Wonnebeben</l>
+                     <l>Die Seele Himmelslust.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland #florinda">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Wie leicht wird so die Todesstunde,</l>
+                     <l>Da Leben quillt vom theuren Munde.</l>
+                  </lg>
+                  <stage>Er schließt sie in seine Arme.</stage>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Theure Geliebte!</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Eh' die Zeit verrinnt, komm laß' uns flieh'n,</l>
+                     <l>Diese Schlüssel öffnen uns die Pforten.</l>
+                  </lg>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Doch die gefang'nen Genossen, darf ich sie verlassen?</p>
+                  <stage>Florinda ergreift die Schlüssel, eilt rechts dem Hintergrunde zu, sie öffnet eine
+              Thür, aus der die Ritter hervorkommen.</stage>
+                  <pb n="25" facs="#f0023"/>
+               </sp>
+            </div>
+            <div>
+               <head>Elfte Scene.</head>
+               <stage>Vorige und Ritter</stage>
+               <sp who="#die_ritter">
+                  <stage>zu Florinda.</stage>
+                  <lg>
+                     <l>Der Hoffnung Strahl, den du gegeben,</l>
+                     <l>Leiht uns zu neuem Leben Muth!</l>
+                  </lg>
+               </sp>
+               <stage>Draußen erhebt sich ein immer mehr zunehmendes Getümmel, man hört Trompeten,
+            Trommeln und Feldgeschrei der maurischen Krieger. Alle werden auf den Lärm aufmerksam
+            und lauschen.</stage>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <p>Was hör' ich!</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Die Signale der maurischen Krieger sind's.</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Wehe, wenn man uns überraschte!</l>
+                     <l>Sehen will ich, was es giebt.</l>
+                  </lg>
+                  <stage>Sie geht zur Pforte hinaus und kommt gleich darauf athemlos zurück.</stage>
+                  <p>Wir sind verrathen, der Zugang ist besetzt.</p>
+                  <stage>Die Ritter eilen rathlos hin und her, zum Fenster, ins Nebengemach.</stage>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <p>Verschließet schnell die Pforte!</p>
+                  <stage>Vergrößerter Lärm von außen mit anhaltendem Pochen.</stage>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND.</speaker>
+                  <lg>
+                     <l>Dem ersten Angriff hält sie Stand.</l>
+                     <l>– – O hätten wir nur Waffen!</l>
+                  </lg>
+                  <stage>Florinda, kaum ihrer mächtig und von Roland mit zarter Fürsorge umgeben, kommt
+              bei dem Rufe: Waffen! wieder zu sich und steht auf.</stage>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA</speaker>
+                  <stage>zu den Rittern.</stage>
+                  <p>Hierher zu mir!</p>
+                  <stage>Sie weist auf eine Thür hinten links. Die Ritter stemmen sich dagegen, krachend
+              fliegt sie auf, sie schleppen Waffen daraus hervor.</stage>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER</speaker>
+                  <stage>im Hintergrunde.</stage>
+                  <lg>
+                     <l>Gefunden ist der Schatz.</l>
+                  </lg>
+               </sp>
+               <stage>Nr. 16. Zweites Finale.</stage>
+               <stage>Zunehmendes Getöse draußen, Feuerschein. Die Ritter kommen bewaffnet nach
+            vorn.</stage>
+               <sp who="#florinda #roland">
+                  <speaker>FLORINDA UND ROLAND.</speaker>
+                  <p>Euch / Uns führt des Himmels güt'ge Hand</p>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER.</speaker>
+                  <lg>
+                     <l>Im Kampf fürs theure Vaterland.</l>
+                     <l>Das Schwert mit Macht zu schwingen</l>
+                     <l>Im heil'gen Strafgericht,</l>
+                     <l>
+                        <pb n="26" facs="#f0024"/> Die Frevler zu bezwingen</l>
+                     <l>Ist hohe Ritterpflicht.</l>
+                     <l>Wohlan zum Kampf!</l>
+                  </lg>
+                  <stage>Unter Krachen fliegt die Pforte auf; die Ritter schlagen die Eindringenden
+              zurück; alle ab außer Florinda.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zwölfte Scene.</head>
+               <stage>Florinda allein.</stage>
+               <stage>Sie eilt in immerwährender Beängstigung bald an das Fenster, bald zur Pforte.
+            Unausgesetztes Stürmen. Sie faltet die Hände</stage>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <p>Allgütiger! beschütz ihn in Gefahren.</p>
+                  <stage>Sie sieht durchs Fenster.</stage>
+                  <lg>
+                     <l>Ha, wie sie kämpfen, die Tapfern,</l>
+                     <l>Sie werden hart bedrängt – er stürzt sich in die Scharen –</l>
+                     <l>Sie brechen durch, sie haben freie Bahn!</l>
+                  </lg>
+                  <stage>Freudige Gebärde.</stage>
+                  <lg>
+                     <l>Wie pocht mein Herz in freudiger Erregung. –</l>
+                     <l>Er stößt auf neue Scharen,</l>
+                     <l>Die Feinde fallen, rings mäht sein Stahl – ihm winkt der Ausweg!</l>
+                  </lg>
+                  <stage>Knieend.</stage>
+                  <p>Darf ich dir, Ewiger, für seine Rettung danken!</p>
+                  <stage>Steht auf und sieht durchs Fenster.</stage>
+                  <p>Doch sieh, von Neuem sind sie im Gedränge</p>
+                  <stage>Angstvoll.</stage>
+                  <lg>
+                     <l>Ha! sie umgeben ihn, – rings wird es stiller –</l>
+                     <l>Sie verfolgen ihn, noch blinkt sein Schwert!</l>
+                     <l>O Gott, ihm bleibt kein Ausweg! Die Feinde dringen auf ihn ein,</l>
+                  </lg>
+                  <stage>Sie verbirgt das Gesicht in den Händen, dann sieht sie wieder.</stage>
+                  <lg>
+                     <l>O Schreckenstag, er flieht –</l>
+                     <l>– Dort seh' ich ihn – jetzt hier – nun da –</l>
+                     <l>Immer schrecklicher wird das Gewirre –</l>
+                     <l>
+                        <pb n="27" facs="#f0025"/> Er ist umringt, weh ihm – ich seh ihn nicht –</l>
+                     <l>Nacht wird es um mich her –</l>
+                  </lg>
+                  <stage>Sie beginnt zu schwanken, Siegesgeschrei von außen. Die Ritter ohne Roland
+              stürzen zur Thür hinein.</stage>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER.</speaker>
+                  <p>O Mißgeschick!</p>
+                  <stage>Sie wirft einen letzten Blick durchs Fenster und sinkt mit den Worten.</stage>
+                  <p>Roland – gefangen! <stage>Ohnmächtig zusammen.</stage>
+                  </p>
+                  <stage>Die Ritter umgeben sie und bemühen sich vergeblich, sie ins Leben
+              zurückzubringen. Boland erscheint mit Soldaten. Er erblickt Florinda.</stage>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Meine Tochter! Verruchtes Kind!</p>
+                  <stage>Seine Soldaten schleppen die noch Ohnmächtige hinweg, er folgt ihnen langsam und
+              niedergeschlagen.</stage>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER.</speaker>
+                  <lg>
+                     <l>Muth und Besinnung schwinden;</l>
+                     <l>Ein düstres Todesgrau'n</l>
+                     <l>Läßt mich nur Qualen finden,</l>
+                     <l>Doch nirgends Rettung schau'n.</l>
+                  </lg>
+                  <stage>Stumme Gruppe des Entsetzens und der Verzweiflung.</stage>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Dritter Akt.</head>
+            <stage>Gemach im königlichen Schlosse mit einem offenen Ausgang in der Mitte.</stage>
+            <div>
+               <head>Erste Scene.</head>
+               <stage>Emma mit ihren Jungfrauen ist mit der festlichen Ausschmückung des Gemachs
+            beschäftigt.</stage>
+               <stage>Nr. 17. Chor.</stage>
+               <sp who="#jungfrauen">
+                  <speaker>JUNGFRAUEN.</speaker>
+                  <lg>
+                     <l>Bald tönet der Reigen,</l>
+                     <l>Die Lust füllt das Herz;</l>
+                     <l>Die Trauer muß schweigen,</l>
+                     <l>Es weichet der Schmerz,</l>
+                     <l>Die quälenden Plagen,</l>
+                     <l>Die Sorgen entflieh'n,</l>
+                     <l>In wonnigen Tagen</l>
+                     <l>Wird Freude erblüh'n.</l>
+                     <pb n="28" facs="#f0026"/>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Aus diesen Tönen strömet Lebenslust,</l>
+                     <l>Ein süßer Hoffnungsstrahl der kranken Brust,</l>
+                     <l>Mögt ihr die Wahrheit mir verkünden,</l>
+                     <l>Möcht' ich mein Glück bald wiederfinden.</l>
+                     <l>Alles hatt' ich aufgegeben</l>
+                     <l>Was das Herz mit Lust erfüllt;</l>
+                     <l>Endlich blüht mir neues Leben</l>
+                     <l>Aus der Zukunft heitrem Bild.</l>
+                  </lg>
+               </sp>
+               <sp who="#jungfrauen">
+                  <speaker>JUNGFRAUEN.</speaker>
+                  <lg>
+                     <l>Ja, es blüht ein neues Leben</l>
+                     <l>Aus der Zukunft heitrem Bild.</l>
+                  </lg>
+                  <stage>Die Mädchen ziehen sich mit den Kränzen und Guirlanden zurück.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Scene.</head>
+               <sp who="#emma #karl">
+                  <speaker>EMMA UND KARL.</speaker>
+                  <lg>
+                     <l>Schwere Sorge führt mich zu dir,</l>
+                     <l>Noch harrt Fierrabras der Strafe,</l>
+                     <l>Gerechtigkeit zu üben befahl ich offenes Geständnis ihm;</l>
+                     <l>Doch stumm sind seine Lippen.</l>
+                     <l>Nur, daß er dich liebe, bekannte er.</l>
+                     <l>Drum frag ich dich nun, Emma,</l>
+                     <l>Ich bitte, ich befehle, getreu Alles zu berichten;</l>
+                     <l>Und vergriff sich Fierrabras an dir,</l>
+                     <l>Nichts kann vom Tod ihn retten.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>welche mit stets gesteigerter Beklommenheit zugehört hat, stürzt sich flehend zu
+              ihres Vaters Füßen.</stage>
+                  <p>Vergebung, mein Vater!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Du liebst ihn?</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>mit sich ringend.</stage>
+                  <p>Nicht ihn!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>ergreift sie in höchster Wuth bei den Händen.</stage>
+                  <p>Erzittre und bekenne!</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>halb gesprochen und tonlos.</stage>
+                  <lg>
+                     <l>Unschuldig – leidet – Fierrabras.</l>
+                     <pb n="29" facs="#f0027"/>
+                  </lg>
+               </sp>
+               <stage>Nr. 18. Quartett.</stage>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>schleudert sie mit einer Gebärde tiefsten Abscheus von sich.</stage>
+                  <lg>
+                     <l>Bald wird es klar, die That muß ich ergründen,</l>
+                     <l>Du hast des Vaters milde Huld verschmäht!</l>
+                     <l>Wohlan! den <hi rendition="#i">Richter</hi> sollst du in mir finden,</l>
+                     <l>Der auf der Strafe Lohn besteht.</l>
+                  </lg>
+                  <stage>Karl ertheilt den Soldaten einen Befehl, dieselben gehen ab.</stage>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Wo werd ich Trost in meinen Leiden finden,</l>
+                     <l>Da mir des Vaters milde Huld entgeht?</l>
+                     <l>Will er der heil'gen Fesseln sich entbinden,</l>
+                     <l>So hat mein Glück ein wilder Sturm verweht.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Die Gnade muß weichen,</l>
+                     <l>Der Grimm nur erwacht;</l>
+                     <l>Und streng' ohne Gleichen</l>
+                     <l>Sei Strafe vollbracht.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Die Freuden entweichen,</l>
+                     <l>Der Schrecken erwacht,</l>
+                     <l>Mich fassen die bleichen</l>
+                     <l>Gestalten der Nacht.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Scene.</head>
+               <stage>Vorige und Fierrabras, von Wache begleitet.</stage>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>An meine Brust, Unschuldiger, Verrathner!</p>
+                  <stage>Er umarmt ihn.</stage>
+                  <p>Du hast das schwerste Ungemach erlitten!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>zweifelhaft.</stage>
+                  <p>Wie meinst du, Herr?</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA</speaker>
+                  <stage>mit Beschämung.</stage>
+                  <p>O schwere Schmerzensstunde!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>nach einem Blick auf Emma.</stage>
+                  <lg>
+                     <l>Ich übte heil'ge Freundschaftspflicht,</l>
+                     <l>Drum schreckte mich kein Strafgericht.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>Die Scham bedecket mein Gesicht!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Noch fass' ich seine Worte nicht.</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Nun sprich, wenn du Fierrabras nicht liebst, wen liebst du denn?</p>
+                  <pb n="30" facs="#f0028"/>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Scene.</head>
+               <stage>Vorige und Eginhard.</stage>
+               <sp who="#eginhard">
+                  <p>Ich bin's.</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>zieht das Schwert.</stage>
+                  <p>Stirb, Verführer!</p>
+                  <stage>Emma wirft sich dazwischen, auch Fierrabras kommt dazu.</stage>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>Halt ein!</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>Gern will ich sterben, doch zuvor, mein König, höre!</l>
+                     <l>Dem <hi rendition="#i">Kerker</hi> bin ich entronnen –</l>
+                  </lg>
+               </sp>
+               <sp who="#emma #fierrabras #karl">
+                  <speaker>EMMA, FIERRABRAS UND KARL.</speaker>
+                  <p>Ha, unerhört!</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>Des Fürsten Tochter Florinda gab die Freiheit mir,</l>
+                     <l>Doch vom Maurenfürst gefangen,</l>
+                     <l>Bezwungen immerdar,</l>
+                     <l>Und treulos hintergangen</l>
+                     <l>Seufzt deiner Treuen Schar.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Entsetzen bringst du, Unglücksbote,</l>
+                     <l>Ich rufe Wehe über dich!</l>
+                  </lg>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>Die Freunde rette erst vom Tode,</l>
+                     <l>Dann treff' des Fluches Fülle mich!</l>
+                  </lg>
+                  <stage>Mit Eile.</stage>
+                  <lg>
+                     <l>Verworfen ward die Friedenskunde,</l>
+                     <l>Der Kerker wurde Aller Los;</l>
+                     <l>Dem Tod verfallen trauert Roland,</l>
+                     <l>Und können wir nicht Rettung bringen,</l>
+                     <l>So harrt der Andern gleiches Los.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma #fierrabras #karl">
+                  <speaker>EMMA, FIERRABRAS UND KARL.</speaker>
+                  <p>Ha, schändlich!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Sprich, was ist zu thun?</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>mit Wärme.</stage>
+                  <lg>
+                     <l>Nur Fierrabras vermag des Vaters Zorn zu beschwicht'gen,</l>
+                     <l>Nur er vermag die Freunde vom Tode zu befrei'n,</l>
+                     <l>Vertraue dem Redlichen die schöne That.</l>
+                     <pb n="31" facs="#f0029"/>
+                  </lg>
+               </sp>
+               <sp who="#emma #eginhard #fierrabras #karl">
+                  <speaker>EMMA, EGINHARD, FIERRABRAS UND KARL.</speaker>
+                  <lg>
+                     <l>Vollbringen / wird er / will ich / die schöne That</l>
+                     <l>Und hohen Ruhm erwerben.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>zu Fierrabras.</stage>
+                  <p>So wähle schnell die muthigsten der Streiter aus!</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <p>Vergönn', erhab'ner König, daß Eginhard mich begleite.</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>finster.</stage>
+                  <p>Sein Schicksal steht in deiner Hand, Ich habe nichts mit ihm gemein.</p>
+                  <stage>Emma birgt weinend ihr Gesicht.</stage>
+                  <stage>Zu Fierrabras</stage>
+                  <lg>
+                     <l>Und kehrst erfolggekrönt du wieder,</l>
+                     <l>Und liebst du Emma noch, – <hi rendition="#i">dein</hi> sei ihre Hand!</l>
+                  </lg>
+                  <stage>Entsetzen Emma's, Verzweiflung Eginhard's.</stage>
+                  <p>Und so mag Gott deine Fahrt geleiten!</p>
+                  <stage>Er geht ab.</stage>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>O trauervolle Kunde!</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD.</speaker>
+                  <lg>
+                     <l>Lebt wohl, Emma, ewig lebet wohl!</l>
+                     <l>Den Heldentod find' ich in dem Kampfe,</l>
+                     <l>Und sterbend gewinn' ich mir des Königs Huld.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Scene.</head>
+               <sp who="#emma #fierrabras #eginhard">
+                  <speaker>EMMA, FIERRABRAS UND EGINHARD.</speaker>
+                  <lg>
+                     <l>So lang ein Tropfen Blutes in meinen Adern glüht,</l>
+                     <l>So lang vor meinem Schwerte die Feindesschar entflieht,</l>
+                     <l>Werd' ich den Freund beschützen im blut'gen Waffentanz</l>
+                     <l>Ich helf' ihm zu erringen den hehren Siegeskranz.</l>
+                  </lg>
+               </sp>
+               <pb n="32" facs="#f0030"/>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>zu Emma, indem er Fierrabras' Hand umfaßt hält.</stage>
+                  <lg>
+                     <l>Lebt wohl! Im Todeskampfe klaget</l>
+                     <l>Mein Herz um das verlor'ne Glück.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <lg>
+                     <l>Der Hoffnung jetzt mein Herz entsaget;</l>
+                     <l>Es härmt sich ab der trübe Blick.</l>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <lg>
+                     <l>Laßt nicht vom Wahne euch betrüben,</l>
+                     <l>Vertrauet auf des Schicksals Lauf.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma #eginhard">
+                  <speaker>EMMA UND EGINHARD.</speaker>
+                  <lg>
+                     <l>Die Seelen, die so treu verbunden,</l>
+                     <l>Sie schweben bald vereint hinauf.</l>
+                  </lg>
+               </sp>
+               <sp who="#emma #eginhard #fierrabras">
+                  <speaker>EMMA, EGINHARD UND FIERRABRAS.</speaker>
+                  <lg>
+                     <l>Bald endet die Leiden versöhnend der Tod des Siegers Gebot</l>
+                     <l>Es heischet zu scheiden sein mächtig Gebot.</l>
+                     <l>Und lohnende Freuden verscheuchen die Noth.</l>
+                  </lg>
+                  <stage>Fierrabras zieht das Schwert und geht mit Eginhard durch die Mitte, Emma zur
+              Seite ab.</stage>
+                  <stage>Verwandlung.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Sechste Scene.</head>
+               <stage>Florinda und Maragond.</stage>
+               <stage>Dunkles Gemach, hinten eine Thür, rechts ein Fenster. Florinda liegt erschöpft auf
+            einem Lager, Maragond bemüht sich um sie.</stage>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Von Seufzen und von Bangen</l>
+                     <l>Ist mir das Herz betrübt,</l>
+                     <l>Bald wird vom Tod umfangen,</l>
+                     <l>Den heiß mein Herz geliebt;</l>
+                     <l>In bittrer Todesstunde</l>
+                     <l>Fehlt ihm der Liebe Gruß,</l>
+                     <l>Und nicht vom theuren Munde</l>
+                     <l>Wird ihm ein Scheidekuß.</l>
+                  </lg>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND.</speaker>
+                  <lg>
+                     <l>Laß dein Vertrau'n nicht schwinden,</l>
+                     <l>Noch leuchtet uns ein Hoffnungsstrahl,</l>
+                     <l>Noch kann er Rettung finden,</l>
+                     <l>Drum banne der Verzweiflung Qual.</l>
+                     <pb n="33" facs="#f0031"/>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Mit des Geliebten Leben</l>
+                     <l>Flieht auch das meine hin.</l>
+                  </lg>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND.</speaker>
+                  <lg>
+                     <l>Vertrauen und Ergeben</l>
+                     <l>Bringt lohnenden Gewinn.</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Und seines Todes Stunde</l>
+                     <l>Bringt mir Verderben auch;</l>
+                  </lg>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND.</speaker>
+                  <lg>
+                     <l>Des Herzens tiefste Wunden</l>
+                     <l>Heilt froher Hoffnung Hauch.</l>
+                  </lg>
+                  <stage>Marcia funebre.</stage>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <p>Welch ein Geräusch? Was ist geschehn?</p>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND</speaker>
+                  <stage>sieht durch das Fenster.</stage>
+                  <lg>
+                     <l>Vom Thurm her naht eine Schar mit feierlichem Schritte</l>
+                     <l>Bei gelbem Fackelscheine wird ein Holzstoß schnell errichtet.</l>
+                     <l>Sie theilen sich –</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA</speaker>
+                  <stage>in tödlicher Angst.</stage>
+                  <p>Was weiter?</p>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND.</speaker>
+                  <p>In ihrer Mitte das Opfer ihrer Grausamkeit – Roland!</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA</speaker>
+                  <stage>springt auf, entsetzt.</stage>
+                  <p>Ha!</p>
+                  <stage>Sie eilt mit Aufbietung ihrer letzten Kräfte an das Fenster, stößt Maragond
+              hinweg und ruft in Verzweiflung.</stage>
+                  <lg>
+                     <l>Erbarmen, haltet ein! Verlangt mein Leben</l>
+                     <l>Und was ihr wollt, für ihn sei es gegeben!</l>
+                  </lg>
+                  <stage>Sie eilt herab.</stage>
+               </sp>
+               <sp who="#maragond">
+                  <speaker>MARAGOND.</speaker>
+                  <p>O komm zu dir, was willst du wagen!</p>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>Nun giebt's kein Mittel mehr, als mit ihm sterben.</l>
+                     <l>Ich folge ihm!</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda #maragond">
+                  <speaker>FLORINDA UND MARAGOND.</speaker>
+                  <lg>
+                     <l>Ich eile / Ja eile schnell hinab,</l>
+                     <l>Des Vaters Herz zu rühren,</l>
+                     <l>Eh' sie zum Flammengrab</l>
+                     <l>Den Freund, den theuren, führen.</l>
+                  </lg>
+                  <stage>Beide ab.</stage>
+                  <stage>Verwandlung.</stage>
+                  <pb n="34" facs="#f0032"/>
+               </sp>
+            </div>
+            <div>
+               <head>Siebente Scene.</head>
+               <stage>Boland, die Mauren, später Roland und die Ritter. Düsterer Platz im Schloß. Hinten
+            der Thurm, rechts ein Holzstoß.</stage>
+               <stage>Nr. 21. Chor der Mauren und Ensemble.</stage>
+               <sp who="#die_mauren">
+                  <speaker>CHOR DER MAUREN</speaker>
+                  <stage>Volk, Männer und Soldaten aufziehend.</stage>
+                  <lg>
+                     <l>Der Rache Opfer fallen,</l>
+                     <l>Vergeblich war ihr Droh'n;</l>
+                     <l>Ihr Klagen wird verhallen,</l>
+                     <l>Empfangen sie den Lohn.</l>
+                  </lg>
+                  <stage>Boland kommt, von einer Wache umgeben, und setzt sich links auf einen
+              Thron.</stage>
+                  <lg>
+                     <l>Zu spät ist nun ihr Flehen,</l>
+                     <l>Hier gilt kein Widerstand,</l>
+                     <l>Sie müssen untergehen</l>
+                     <l>Durch strenge Richterhand.</l>
+                  </lg>
+                  <stage>Roland und die Ritter werden zum Holzstoß geführt.</stage>
+                  <lg>
+                     <l>Der Rache Opfer fallen,</l>
+                     <l>Vergeblich war ihr Drohn,</l>
+                     <l>Laut wird die Luft erschallen,</l>
+                     <l>Empfangen sie den Lohn.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Achte Scene.</head>
+               <stage>Vorige und Florinda.</stage>
+               <sp who="#florinda">
+                  <lg>
+                     <l>Um Gnade fleht zu deinen Füßen</l>
+                     <l>Die Tochter, die der Gram gebeugt,</l>
+                     <l>Laß deine Gnade mich nicht missen,</l>
+                     <l>Wenn schon des Vaters Liebe schweigt.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Ich kenne dich nicht mehr und aufgegeben</l>
+                     <l>Hab' ich des Vaters milde Pflicht.</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda">
+                  <speaker>FLORINDA.</speaker>
+                  <lg>
+                     <l>
+                        <hi rendition="#i">Ich lieb' ihn</hi> hör' es und vergieb,</l>
+                     <l>Uns ketten ew'ger Treue Bande:</l>
+                     <l>Er ist mein schwer erworb'nes Gut;</l>
+                     <l>
+                        <pb n="35" facs="#f0033"/> Der an des Grabes nahem Rande,</l>
+                     <l>Um ihn verrieth ich Glück und Blut.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Gestehst du ohne Scheu,</l>
+                     <l>Daß er dein höchstes Gut,</l>
+                     <l>Eint dich mit ihm die Treu,</l>
+                     <l>Hast du Verrath geübt,</l>
+                     <l>Hast du den Feind geliebt,</l>
+                     <l>So höre mein Gebot:</l>
+                     <l>Dich eine mit ihm der Tod.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Kann dich ihr Schmerz nicht rühren,</l>
+                     <l>Uns schone nicht, nur sie.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_mauren">
+                  <speaker>MAUREN.</speaker>
+                  <lg>
+                     <l>Ihr Schmerz kann ihn nicht rühren,</l>
+                     <l>Nein, er verschont sie nie.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <lg>
+                     <l>Mich kann ihr Schmerz nicht rühren,</l>
+                     <l>Mit ihnen falle sie.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Führt sie zum Tod!</p>
+                  <stage>Soldaten ergreifen Florinda, als ein Signal ertönt. Allgemeine Spannung.</stage>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND.</speaker>
+                  <p>Was ist das?</p>
+               </sp>
+               <sp who="#roland">
+                  <speaker>ROLAND</speaker>
+                  <stage>freudig zu den Rittern.</stage>
+                  <p>Gottlob, die Franken sind's!</p>
+               </sp>
+               <sp who="#brutamonte">
+                  <speaker>BRUTAMONTE</speaker>
+                  <stage>eilt herbei.</stage>
+                  <lg>
+                     <l>Hoher Herr, der Franke, den wir gefangen,</l>
+                     <l>Eginhard, zieht mit großer Macht herbei,</l>
+                     <l>Mit grimm'gem Muthe führt er seine Scharen,</l>
+                     <l>Verwirrung und Schrecken trägt er in uns're Reihen.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>steht auf.</stage>
+                  <p>Zum Kampf! Zum Siege!</p>
+                  <stage>Er zieht das Schwert.</stage>
+                  <lg>
+                     <l>Zieht aus zum Kampf! Den finstern Höllenmächten</l>
+                     <l>Verfallen ist der Franken freche Brut.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_mauren">
+                  <speaker>DIE MAUREN</speaker>
+                  <stage>das Schwert ziehend.</stage>
+                  <lg>
+                     <l>Wir zieh'n zum Kampf! Den finster'n Höllenmächten</l>
+                     <l>Verfallen ist der Franken freche Brut.</l>
+                  </lg>
+               </sp>
+               <sp who="#florinda #roland">
+                  <speaker>FLORINDA UND ROLAND.</speaker>
+                  <p>Allew'ger, steh' den Freunden bei.</p>
+               </sp>
+               <sp who="#die_ritter">
+                  <speaker>DIE RITTER.</speaker>
+                  <p>Allew'ger, send' uns Rettung, den Freunden steh' bei.</p>
+                  <stage>Boland und die Mauren stürmen nach rechts, werden aber sofort
+              zurückgedrängt.</stage>
+                  <pb n="36" facs="#f0034"/>
+               </sp>
+            </div>
+            <div>
+               <head>Neunte Scene.</head>
+               <stage>Vorige, Eginhard und Ritter, Fierrabras.</stage>
+               <stage>Nr. 22. Finale.</stage>
+               <stage>Eginhard mit Rittern verfolgt Boland auf die Bühne und holt zu einem Streiche gegen
+            ihn aus, als Fierrabras dazwischen eilt.</stage>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <p>Halt ein, er ist mein Vater.</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>umarmt Fierrabras zärtlich.</stage>
+                  <lg>
+                     <l>Mein theurer Sohn, ich hab' dich wieder,</l>
+                     <l>Dich verschonte des Feindes Hinterlist</l>
+                  </lg>
+                  <stage>Auf Eginhard deutend.</stage>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>reicht Eginhard die Hand und führt ihn zu seinem Vater.</stage>
+                  <p>Hat Unrecht er gethan, so hat er's reichlich jetzt gebüßt.</p>
+               </sp>
+            </div>
+            <div>
+               <head>Zehnte Scene.</head>
+               <stage>Vorige, Karl, Emma und Gefolge.</stage>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>führt seinen Vater dem König entgegen, zu Boland.</stage>
+                  <p>Dem besten König wolle dich versöhnen!</p>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>zu Karl.</stage>
+                  <lg>
+                     <l>Des Sohnes Wort ist mir Genüge,</l>
+                     <l>Und deinem Willen ich mich füge.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Gieb mir die Hand zum Friedensbunde,</l>
+                     <l>Nur Heil entsprieße dieser Stunde!</l>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>führt Florinda und den gefesselten Roland zu Boland, Florinda kniet
+              nieder.</stage>
+                  <lg>
+                     <l>Beglücke sie, o Vater, laß dich bitten.</l>
+                     <l>Die treuer Liebe Ungemach erlitten.</l>
+                  </lg>
+               </sp>
+               <sp who="#boland">
+                  <speaker>BOLAND</speaker>
+                  <stage>indem er Florinda aufhebt.</stage>
+                  <lg>
+                     <l>Nach langer Nacht der kummervollen Sorgen</l>
+                     <l>Begrüßet froh der Liebe gold'gen Morgen!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter #die_mauren">
+                  <speaker>CHOR</speaker>
+                  <stage>während dessen die Mauren den Rittern die Fesseln abnehmen.</stage>
+                  <lg>
+                     <l>Die That ist gelungen,</l>
+                     <l>Das Glück ist errungen,</l>
+                     <l>
+                        <pb n="37" facs="#f0035"/> Der Friede erwacht</l>
+                     <l>Aus blutiger Nacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>auf Eginhard deutend zu Karl.</stage>
+                  <lg>
+                     <l>Mag Eginhard's</l>
+                     <l>Verdienst jetzt deinen Zorn erweichen,</l>
+                     <l>Den Feind traf er mit unverzagten Streichen.</l>
+                  </lg>
+                  <stage>Eginhard tritt schüchtern näher und kniet vor Karl.</stage>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Gesündigt hast du frech an meiner Gnade,</p>
+               </sp>
+               <sp who="#emma">
+                  <speaker>EMMA.</speaker>
+                  <p>O Gott!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <lg>
+                     <l>Und irrtest selbst vom Freundschaftspfade;</l>
+                     <l>Doch hat dein Muth meinen Zorn versöhnt,</l>
+                     <l>Vergebens nicht laß ich vom Freund mich mahnen,</l>
+                     <l>Drum folg' aufs Neue meinen Fahnen.</l>
+                  </lg>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS.</speaker>
+                  <p>Hab' Dank, mein König.</p>
+               </sp>
+               <sp who="#eginhard">
+                  <speaker>EGINHARD</speaker>
+                  <stage>küßt des Königs Hand.</stage>
+                  <p>O mein königlicher Herr!</p>
+                  <stage>Er stellt sich zu den andern Rittern.</stage>
+               </sp>
+               <sp who="#die_ritter #die_mauren">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Gepriesen sei des Fürsten Huld,</l>
+                     <l>Der so belohnt gesühnte Schuld.</l>
+                  </lg>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL.</speaker>
+                  <p>Doch jetzt, mein tapfrer Ritter, mag <hi rendition="#i">dein</hi> Glück ich beschließen,</p>
+                  <stage>Er ergreift Emma's Hand und will sie dem Fierrabras zuführen.</stage>
+                  <p>Erlittnen Schmerz mag Liebesglück versüßen.</p>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>nimmt die angstvoll stockende Emma bei der Hand.</stage>
+                  <lg>
+                     <l>Wer jauchzte nicht ob solcher Freudenkunde,</l>
+                     <l>Lacht ihm die Liebe von so holdem Munde,</l>
+                     <l>Doch Emma's Liebe ist nicht mein!</l>
+                     <l>Ihr Herz hat längst gefunden,</l>
+                     <l>Mit dem sie treu verbunden,</l>
+                     <l>Dem tapfern Eginhard gehören meine Rechte.</l>
+                  </lg>
+                  <stage>Emma sinkt, von den Gefühlen der Dankbarkeit überwältigt, an Fierrabras' Brust,
+              der sie und Eginhard zu Karl geleitet. Karl fügt lächelnd Emma's und Eginhard's Hände
+              in einander.</stage>
+               </sp>
+               <sp who="#die_ritter #die_mauren">
+                  <speaker>CHOR.</speaker>
+                  <p>Ihr Herz hat längst etc.</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>zu Fierrabras.</stage>
+                  <p>Und du, mein Held, wo ist ein Lohn, der deiner würdig wäre?</p>
+                  <pb n="38" facs="#f0036"/>
+               </sp>
+               <sp who="#fierrabras">
+                  <speaker>FIERRABRAS</speaker>
+                  <stage>mit Stolz.</stage>
+                  <p>Dem großen Karl zu dienen, ist mir Glück und Ehre!</p>
+               </sp>
+               <sp who="#karl">
+                  <speaker>KARL</speaker>
+                  <stage>reicht ihm die Hand.</stage>
+                  <lg>
+                     <l>Nach langer Leiden Qualen</l>
+                     <l>Erwacht die reine Lust</l>
+                     <l>Und Jubellieder schallen</l>
+                     <l>Aus der entzückten Brust.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_ritter #die_mauren">
+                  <speaker>CHOR.</speaker>
+                  <p>Nach langer Leiden etc.</p>
+               </sp>
+               <sp who="#eginhard #fierrabras #roland #karl #emma #florinda">
+                  <speaker>EGINHARD, FIERRABRAS, ROLAND, KARL, EMMA UND FLORINDA.</speaker>
+                  <lg>
+                     <l>In Nebel zerronnen</l>
+                     <l>Sind Schrecken und Pein,</l>
+                     <l>Das Glück ward gewonnen</l>
+                     <l>Durch Treue allein.</l>
+                     <pb n="39" facs="#f0037"/>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

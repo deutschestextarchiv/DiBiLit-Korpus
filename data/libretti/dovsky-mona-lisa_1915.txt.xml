@@ -1,0 +1,2878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Mona Lisa</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/12686022X">
+                  <forename>Beatrice </forename>
+                  <surname>Dovsky</surname>
+               </persName>
+            </author>
+            <author>
+               <persName role="composer" ref="http://d-nb.info/gnd/186784287">
+                  <forename>Max</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Schillings</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T17:38:18Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000352</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q1943928</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004705858</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Dovsky, Beatrice/Libretto/Mona Lisa</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/mhq9.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-8219-5</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Schillings, Max von: Mona Lisa. Berlin [o. J.]</bibl>
+            <bibl>Schillings, Max von: Mona Lisa. Oper in zwei Akten, Dichtung von Beatrice Dovsky, Berlin: E. &amp; J. Erdmann, [o. J.].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Mona Lisa</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/12686022X">
+                        <forename>Beatrice </forename>
+                        <surname>Dovsky</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName role="composer" ref="http://d-nb.info/gnd/186784287">
+                        <forename>Max</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schillings</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">32 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>E. &amp; J. Erdmann</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1915</date>
+                  <date type="firstPublication">1915</date>
+                  <date type="firstPublication" subtype="clariah">1915</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1866"
+                        notAfter="1923"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d86e312">Komponiert von Max von Schillings. Uraufführung am 26.09.1915, Neues Hoftheater, Stuttgart.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="der_laienbruder" sex="MALE">
+                  <persName>Der Laienbruder</persName>
+                  <persName type="variant">Der Bruder</persName>
+               </person>
+               <person xml:id="die_frau" sex="FEMALE">
+                  <persName>Die Frau</persName>
+               </person>
+               <person xml:id="der_fremde" sex="MALE">
+                  <persName>Der Fremde</persName>
+               </person>
+               <person xml:id="pietro" sex="MALE">
+                  <persName>Pietro</persName>
+               </person>
+               <person xml:id="sandro" sex="MALE">
+                  <persName>Sandro</persName>
+               </person>
+               <person xml:id="masolino" sex="MALE">
+                  <persName>Masolino</persName>
+               </person>
+               <person xml:id="alessio" sex="MALE">
+                  <persName>Alessio</persName>
+               </person>
+               <person xml:id="arrigo" sex="MALE">
+                  <persName>Arrigo</persName>
+               </person>
+               <person xml:id="francesco" sex="MALE">
+                  <persName>Francesco</persName>
+                  <persName type="variant">Francesco's Stimme</persName>
+               </person>
+               <person xml:id="dianora" sex="FEMALE">
+                  <persName>Dianora</persName>
+               </person>
+               <personGrp xml:id="chor" sex="UNKNOWN">
+                  <name>Chor</name>
+               </personGrp>
+               <personGrp xml:id="doppelchor_marienchor" sex="UNKNOWN">
+                  <name>Doppelchor (Marienchor)</name>
+               </personGrp>
+               <personGrp xml:id="venus-chor" sex="UNKNOWN">
+                  <name>Venus-Chor</name>
+               </personGrp>
+               <personGrp xml:id="chor_der_moenche" sex="MALE">
+                  <name>Chor der Mönche</name>
+               </personGrp>
+               <personGrp xml:id="stimmen_des_volkes" sex="UNKNOWN">
+                  <name>Stimmen des Volkes</name>
+               </personGrp>
+               <person xml:id="ginevra" sex="FEMALE">
+                  <persName>Ginevra</persName>
+               </person>
+               <person xml:id="lisa" sex="FEMALE">
+                  <persName>Lisa</persName>
+               </person>
+               <person xml:id="giovanni" sex="MALE">
+                  <persName>Giovanni</persName>
+               </person>
+               <person xml:id="piccarda" sex="FEMALE">
+                  <persName>Piccarda</persName>
+               </person>
+               <personGrp xml:id="frauen-chor" sex="FEMALE">
+                  <name>Frauen-Chor</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretto</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d86e312">
+      <front>
+         <div type="front">
+            <head>Beatrice Dovsky</head>
+            <head>Mona Lisa</head>
+            <head>Oper in zwei Akten</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="1" facs="#f0001"/> Personen</head>
+               <head>
+                  <hi rendition="#i">(der ersten und letzen Szene):</hi>
+               </head>
+               <castItem>Ein Fremder, (Bariton)</castItem>
+               <castItem>Eine Frau, (Sopran)</castItem>
+               <castItem>Ein Laienbruder, (Tenor)</castItem>
+            </castList>
+            <castList>
+               <head>
+                  <hi rendition="#i">(der übrigen Szenen):</hi>
+               </head>
+               <castItem>Messer Francesco del Giocondo, (Bariton)</castItem>
+               <castItem>Messer Pietro Tumoni, (Baß)</castItem>
+               <castItem>Messer Arrigo Oldofredi, (Tenor)</castItem>
+               <castItem>Messer Alessio Beneventi, (Tenor)</castItem>
+               <castItem>Messer Sandro da Luzzano, (Bariton)</castItem>
+               <castItem>Messer Masolino Pedruzzi, (Baß)</castItem>
+               <castItem>Messer Giovanni de' Salviati, (Tenor)</castItem>
+               <castItem>Mona Fiordalisa, Gattin des Francesco, (Sopran)</castItem>
+               <castItem>Mona Ginevra ad Alta Rocca, (Sopran)</castItem>
+               <castItem>Dianora, Francescos Töchterchen aus erster Ehe, (Sopran)</castItem>
+               <castItem>Piccarda, Zofe der Mona Fiordalisa, (Alt)</castItem>
+               <castItem>Sisto, Diener des Messer Francesco, (Tenor)</castItem>
+               <castItem>Volk von Florenz. Nonnen von Santa Trinità. Mönche von San Marco; darunter
+            Savonarola. Diener</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Die Handlung spielt zu Florenz. Die erste und letzte Szene in der Gegenwart, die anderen
+          zu Ende des 15. Jahrhunderts.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Akt.</head>
+            <sp who="#der_laienbruder">
+               <speaker>DER LAIENBRUDER.</speaker>
+               <lg>
+                  <l>Erbaut ward der Palast nach Brunelleschis Plänen,</l>
+                  <l>Mit Fresken ausgeschmückt in Donatellos Art –</l>
+                  <l>Und ausgestattet mit erles'ner Pracht.</l>
+                  <l>Giuliano Pazzi ließ das Haus sich schaffen,</l>
+                  <l>Doch lange blieb es nicht in seiner Hand,</l>
+                  <l>Es wohnte da ein Bardi, dann ein Spini,</l>
+                  <l>Bis es ein reicher Handelsherr erstand.</l>
+                  <l>Francesco del Giocondo war sein Name,</l>
+                  <l>Der längst verschollen wär' im Meer der Zeit,</l>
+                  <l>Hätt' er nicht noch in vorgerückten Jahren</l>
+                  <l>Ein junges, wunderschönes Weib gefreit.</l>
+               </lg>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Ein junges Weib?</p>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <lg>
+                  <l>Madonna Fiordalisa Gherardini,</l>
+                  <l>Durch Lionardos hehre Kunst geweiht –</l>
+                  <l>In seinem Meisterwerke »Mona Lisa«</l>
+                  <l>Gab der Gioconda er Unsterblichkeit!</l>
+               </lg>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Ah, Mona Lisa?</p>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <lg>
+                  <l>Weißt du, deren Bild</l>
+                  <l>Im Louvre zu Paris ... wie war sie schön!</l>
+               </lg>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <lg>
+                  <l>So schön?</l>
+                  <l>Wie heißt der Platz?</l>
+               </lg>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <p>Die Santa Trinità.</p>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Ach, welch ein Blick!</p>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <p>Ja, ja, der Arno ...</p>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Da warst schon hier?</p>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <lg>
+                  <l>Vor zwanzig Jahren schon</l>
+                  <l>Auf meiner ersten Hochzeitsreise.</l>
+               </lg>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <lg>
+                  <l>Vor zwanzig Jahren ...? Und dies ist meine erste!</l>
+                  <l>Alles kennst du schon ... hast alles geseh'n ...</l>
+                  <l>Und ich so wenig noch von dieser Welt ...</l>
+                  <pb n="3" facs="#f0002"/>
+               </lg>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <p>Noch wen'ger ich – – –</p>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Es ist so schwül ...</p>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <lg>
+                  <l>So gib doch acht! Die Perlen!</l>
+                  <l>Mein Brautgeschenk, um das manch eine dich beneidet –</l>
+               </lg>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Beneidet? Ach ...</p>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <p>Perlen bedeuten Tränen, sagt das Volk.</p>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <lg>
+                  <l>Da ... nimm sie fort ...</l>
+                  <l>Ich mein', verwahre sie ...</l>
+                  <l>Ich lieb' sie nicht, die Perlen.</l>
+               </lg>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <p>Zeigt nun den Saal!</p>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <p>Ja, dort ist geschehen, was die Chronik meldet ...</p>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Von Mona Lisa?</p>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <lg>
+                  <l>Das Drama der Faschingsnacht,</l>
+                  <l>Vierzehnhundertneunzigzwei ...</l>
+                  <l>Fra Bartolo, den Schlüssel</l>
+                  <l>Zur »sala dei sospiri« ...</l>
+                  <l>Dieweil erzähl ich die Begebenheit,</l>
+                  <l>Wie sie in unsern alten Büchern steht:</l>
+                  <l>Ein unergründlich Rätsel ist das Weib.</l>
+                  <l>In seiner Seele schlummern unbewußt</l>
+                  <l>An tausend Möglichkeiten ... Weich wie Wachs ist sie</l>
+                  <l>Schmiegt sich jeder Hand</l>
+                  <l>Das Schicksal spielt mit ihr ...</l>
+                  <l>Sie schreckt zurück vor einem rauhen Wort,</l>
+                  <l>Und trägt mit Lächeln unerhörte Qualen ...</l>
+                  <l>Kann einer Blume nichts zu Leide tun,</l>
+                  <l>Berauscht hinwied'rum sich an Grausamkeit,</l>
+                  <l>Die eines Mannes Sinn zu denken kaum vermag.</l>
+                  <l>Lieb' macht sie stark – und Haß unüberwindlich!</l>
+                  <l>Des Weibes Herz, es birgt in seiner Tiefe</l>
+                  <l>Die Lüsternheit der <hi rendition="#i">Eva</hi> nach verbot'ner Frucht;</l>
+                  <l>Der <hi rendition="#i">Magdalena</hi> sündhaft-buhlerischen Trieb</l>
+                  <l>Und ihre wunderbare Kraft der Reue,</l>
+                  <l>Den Blut- und Rachedurst der Mörderin Johannis,</l>
+                  <l>Und der <hi rendition="#i">Maria</hi> Reinheit, Milde und Erbarmnis!</l>
+                  <l>Je nachdem des Lebens Würfel rollen,</l>
+                  <l>Verwandelt sich das rätselhafte Wesen »Weib«.</l>
+               </lg>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <p>Seid ihr so erfahren?</p>
+               <pb n="4" facs="#f0003"/>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <lg>
+                  <l>Herr, ich zitiere!</l>
+                  <l>...Also war auch sie,</l>
+                  <l>Des Messer del Giocondo dritte Frau.</l>
+                  <l>In ihren Augen, ihres Mundes Lächeln</l>
+                  <l>Lag eine Welt von Scheu und Zärtlichkeit,</l>
+                  <l>Von banger Ahnung, seliger Gewißheit,</l>
+                  <l>Von Glaub' und Zweifel, Lust und Qual,</l>
+                  <l>Von Treu und Falschheit ...</l>
+                  <l>Die tausend Möglichkeiten ...</l>
+               </lg>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <lg>
+                  <l>Der Medicäer toller Carneval</l>
+                  <l>Tobte durch Florenz ...</l>
+                  <l>Ein Sinnentaumel hatt' die Welt erfaßt ...</l>
+                  <l>Damals begab es sich ...</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Längst zwanzig ist die Uhr ... Wo bleibt der Zug?</p>
+            </sp>
+            <sp who="#sandro">
+               <speaker>SANDRO.</speaker>
+               <p>Süffig, der Montebrianer! Und 's ist davon noch genug!</p>
+            </sp>
+            <sp who="#masolino">
+               <speaker>MASOLINO.</speaker>
+               <lg>
+                  <l>Nun zum Nachtisch ein kleines Histörchen,</l>
+                  <l>Ein Skandälchen oder ein Märchen!</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Oh ... liebe Messerie, das darf ich nicht hören!</p>
+            </sp>
+            <sp who="#sandro">
+               <speaker>SANDRO.</speaker>
+               <p>Doch würd' euch Lorenzos »ballata« nicht stören?!</p>
+            </sp>
+            <sp who="#alessio">
+               <speaker>ALESSIO.</speaker>
+               <lg>
+                  <l>Arrigo, du sing uns vor!</l>
+                  <l>Sollst stolz sein auf unsern Chor!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Jugend ist so hold und süß,</l>
+                  <l>Schnell entflieht die Zeit –</l>
+                  <l>Wer fröhlich sein will, sei es heut',</l>
+                  <l>Das »Morgen« ist ja ungewiß!</l>
+               </lg>
+            </sp>
+            <sp who="#pietro #sandro #masolino #alessio">
+               <speaker>DIE ANDEREN.</speaker>
+               <lg>
+                  <l>Wer fröhlich sein will, sei es heut',</l>
+                  <l>Das »Morgen« ist ja ungewiß!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Amor lenkt unseres Herzens Wagen,</l>
+                  <l>D'rin Frau Venus in Schönheit thront –</l>
+                  <l>Der ihr dient, wird göttlich belohnt –</l>
+                  <l>Wer wird der Fülle des Glücks entsagen?</l>
+                  <l>Jugend ist so hold und süß,</l>
+                  <l>Schnell entflieht die Zeit –</l>
+                  <l>Venus erschließt uns das Paradies –</l>
+                  <l>Wer glücklich sein will, sei es heut'!</l>
+                  <pb n="5" facs="#f0004"/>
+               </lg>
+            </sp>
+            <sp who="#pietro #sandro #masolino #alessio">
+               <speaker>DIE ANDERN.</speaker>
+               <lg>
+                  <l>Jugend ist so hold und süß,</l>
+                  <l>Schnell entflieht die Zeit –</l>
+                  <l>Venus erschließt uns das Paradies –</l>
+                  <l>Wer glücklich sein will, sei es heut'!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Auf später denn, Messer Salviati!</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Bacchus ist Venus liebster Begleiter –</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Verzeiht, ihr Herren, wenn ich störe.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Was soll's?</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Den Zug säh' ich so gern.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ich lieb es nicht, wenn du allein ...</l>
+                  <l>Ohne die Mutter ...</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Die ist zur Beichte in Camaldoli,</l>
+                  <l>Kehrt heim nicht vor dem Vesperläuten.</l>
+                  <l>Sie kommen schon – – Ach, Vater! ...</l>
+               </lg>
+            </sp>
+            <sp who="#chor">
+               <speaker>CHOR.</speaker>
+               <lg>
+                  <l>Schlagt die Cymbeln! Blast die Trompeten!</l>
+                  <l>Odem der Freude schwellt unsere Brust!</l>
+                  <l>Evoe! Venus! Kön'gin der Lust'</l>
+                  <l>Du bist die Gottheit, zu der wir beten!</l>
+                  <l>Teufel und Tod drohen vergebens,</l>
+                  <l>Jubelnd folgt dir der trunkene Troß!</l>
+                  <l>Gnadespendender, herrlicher Schoß!</l>
+                  <l>Evoe! Venus! Mutter des Lebens!</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Die Brücke herauf!</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Der Zug ist da!</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Der Schönheit Siegeslauf!</p>
+            </sp>
+            <sp who="#sandro">
+               <speaker>SANDRO.</speaker>
+               <p>Venus vulgivaga!</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Seht, dort nah'n die Nonnen.</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Von Santa Trinità.</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Salve, Venus victrix, Genevra!</p>
+            </sp>
+            <sp who="#doppelchor_marienchor">
+               <speaker>DOPPELCHOR (MARIENCHOR).</speaker>
+               <lg>
+                  <l>Jungfrau Maria, mild und süß,</l>
+                  <l>Erkoren und gebenedeit!</l>
+                  <l>Mutter du der Christenheit,</l>
+                  <l>Führe uns zum Paradies!</l>
+                  <l>Wer wird von Sünd uns retten?</l>
+                  <l>Wer aus Verdammnis uns lösen?</l>
+                  <l>Maria sprengt die Ketten,</l>
+                  <l>
+                     <pb n="6" facs="#f0005"/> Befreit uns von dem Bösen!</l>
+                  <l>Mutter du der ew'gen Gnade,</l>
+                  <l>Bitt' für uns bei deinem Sohne;</l>
+                  <l>Leit' uns auf der Buße Pfade</l>
+                  <l>Hin zu Gottes gold'nem Throne!</l>
+               </lg>
+            </sp>
+            <sp who="#venus-chor">
+               <speaker>VENUS-CHOR.</speaker>
+               <lg>
+                  <l>Huldin du, blühenden Angesichts,</l>
+                  <l>Von Zaubern und Wundern umfangen,</l>
+                  <l>Unerschöpfliche Quelle des Lichts,</l>
+                  <l>Brandend umbraust dich Verlangen!</l>
+                  <l>Atem der Welt! Reiz ohne Ende!</l>
+                  <l>Venus, entstiegen dem Meeresschaum!</l>
+                  <l>Rosen der Freude streu'n deine Hände,</l>
+                  <l>Du gibst Erfüllung dem seligsten Traum!</l>
+                  <l>Tönet, ihr Cymbeln, dröhnet, Drommeten</l>
+                  <l>Evoe Venus im goldenen Haar!</l>
+                  <l>Lös' uns aus des Lebens Nöten!</l>
+                  <l>Flammende Herzen bringen wir dar!</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Das wundertätige Marienbild –</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Aus der Kirche Santa Trinità.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Und Sansovinos Muttergottesschild –</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Salve Regina Venus Cypria!</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Die Züge stoßen bald zusammen –</p>
+            </sp>
+            <sp who="#masolino">
+               <speaker>MASOLINO.</speaker>
+               <p>Symbole zweier fremder Welten –</p>
+            </sp>
+            <sp who="#alessio">
+               <speaker>ALESSIO.</speaker>
+               <p>Seht, wie der Nonnen Wangen flammen</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Die beide heut und ewig gelten!</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Die schwarzen Mönche von San Marco</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Ihr Prior dort in weißer Kutte!</p>
+            </sp>
+            <sp who="#chor_der_moenche">
+               <speaker>CHOR DER MÖNCHE.</speaker>
+               <lg>
+                  <l>Fuge, Zion, Fuge</l>
+                  <l>Quae habitas apud filiam Babylonis!</l>
+                  <l>Gladius Dei</l>
+                  <l>Super ferram</l>
+                  <l>Et super fe!</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Savonarola!</p>
+            </sp>
+            <sp who="#sandro #masolino #alessio #arrigo #francesco #dianora">
+               <speaker>ALLE.</speaker>
+               <p>Savonarola!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Wie tönend Erz die Stimme!</p>
+            </sp>
+            <sp who="#alessio">
+               <speaker>ALESSIO.</speaker>
+               <p>Das Auge, das die Weiber zwingt!</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Der Gifthauch des Zeloten!</p>
+               <pb n="7" facs="#f0006"/>
+            </sp>
+            <sp who="#chor_der_moenche">
+               <speaker>CHOR DER MÖNCHE.</speaker>
+               <lg>
+                  <l>Florenz, du feile Dirne!</l>
+                  <l>Schamlose Buhlerin!</l>
+                  <l>Zum Himmel schreien deine Sünden!</l>
+                  <l>Des Herren Schwert</l>
+                  <l>Schwebt über dir!</l>
+                  <l>Untergang ist dir geschworen!</l>
+                  <l>Pest, Krieg vor deinen Toren!</l>
+                  <l>Blut und Feuer wird vom Himmel fallen,</l>
+                  <l>Jammer in deinen Mauern hallen!</l>
+                  <l>Die Höll' ist los!</l>
+                  <l>Florenz, tu' Buße!</l>
+                  <l>Florenz, tu' Buße!</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Der Prior von San Marco!</l>
+                  <l>Blickt herauf! ...</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Zu mir, mein Kind!</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Ja, ja, wir sind verdammt!</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Habt ihr geseh'n? Sein Auge flammt!</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Er nimmt es ernst mit seinem Amt!</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>STIMME DER GINEVRA.</speaker>
+               <p>Ah ...! Misericordia!</p>
+            </sp>
+            <sp who="#stimmen_des_volkes">
+               <speaker>STIMMEN DES VOLKES.</speaker>
+               <lg>
+                  <l>Misericordia, Domine, misericordia!</l>
+                  <l>Misericordia! Misericordia!</l>
+               </lg>
+            </sp>
+            <sp who="#alessio">
+               <speaker>ALESSIO.</speaker>
+               <p>Zertreten der Freude Blumen, – –</p>
+            </sp>
+            <sp who="#sandro">
+               <speaker>SANDRO.</speaker>
+               <p>Erstorben das helle Lachen –</p>
+            </sp>
+            <sp who="#masolino">
+               <speaker>MASOLINO.</speaker>
+               <p>Savonarolas Werk.</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Saht ihr's? Die Venus war's,</l>
+                  <l>Ginevra im Schmuck des goldnen Haars,</l>
+                  <l>Die als die erste ihm zu Füßen sank ...</l>
+                  <l>»Misericordia!« Nun liegt sie da,</l>
+                  <l>In Reu' zerflossen, einer Ohnmacht nah'.</l>
+               </lg>
+            </sp>
+            <sp who="#sandro">
+               <speaker>SANDRO.</speaker>
+               <p>Hol' sie herauf!</p>
+            </sp>
+            <sp who="#alessio #masolino">
+               <speaker>ALESSIO UND MASOLINO.</speaker>
+               <p>Ja, hole sie!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Nein, nein, das geht nicht an ...</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Warum, Francesco? – –</l>
+                  <l>Ach, im Karneval ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Und – Mona Lisa ...</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Wird zu ihr gültig wie zu jedem sein.</p>
+               <pb n="8" facs="#f0007"/>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Geh' nun zur Ruhe!</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Schon ...?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Ich sagts's.</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Gut' Nacht, ihr Herr'n.</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Gott zum Gruße, Kind.</p>
+            </sp>
+            <sp who="#sandro #masolino #alessio #arrigo #francesco">
+               <speaker>DIE ANDERN.</speaker>
+               <p>Signorina, schlafet wohl!</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Die Göttin der Schönheit</l>
+                  <l>Fleht um ein Asyl!</l>
+               </lg>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Ach ja, nur kurze Rast</l>
+                  <l>Vergönnet mir! – –</l>
+                  <l>Oh, Exzellenz –</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <lg>
+                  <l>Verscheucht die düsteren Gedanken,</l>
+                  <l>Die dieser traurige Prophet erweckt –</l>
+               </lg>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Oh nein! – Es ist so süß, so wundersam, zu büßen ...</l>
+                  <l>Ach, eine Wonne eigner Art,</l>
+                  <l>In Reu' dahinzusterben, ihm zu Füßen,</l>
+                  <l>Zu fühlen, wie das Blut zu Eis erstarrt –</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Es ist nicht mein Geschmack!</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Ah ... Das Entsetzen peitschet unsre Nerven</l>
+                  <l>Und stachelt uns zu neuen Lüsten an,</l>
+                  <l>Uns in der Sünde weichen Arm zu werfen,</l>
+                  <l>In den unselig sel'gen Zauberbann!</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Als Stimulans laß ich sein Fluchen mir gefallen!</p>
+            </sp>
+            <sp who="#sandro #masolino #alessio #arrigo #francesco">
+               <speaker>DIE ANDEREN.</speaker>
+               <p>Wenn eines weichen Armes ihr bedürft –</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Ach, versteht's nicht so!</l>
+                  <l>Ihr haltet mich für eine arge Sünderin –</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Für eine unserer schönsten –</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>– und liebsten –</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <lg>
+                  <l>Und Gott verzeiht</l>
+                  <l>Dem Sünder, der so heiß bereut!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Nun aber kommt, trinkt uns Bescheid!</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Was? Trinken ohne Gesang?</l>
+                  <l>Wär' wie eine Glocke ohne Klang!</l>
+                  <l>Schnelle, schnelle – – Ritornelle!</l>
+                  <pb n="9" facs="#f0008"/>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Ritornelle weiß ich eine Masse,</l>
+                  <l>Geb' sie billig her zu jedem Preise,</l>
+                  <l>Halte feil sie auf der off'nen Straße!</l>
+               </lg>
+            </sp>
+            <sp who="#masolino">
+               <speaker>MASOLINO.</speaker>
+               <lg>
+                  <l>Ritornelle weiß ich, nicht zu zählen,</l>
+                  <l>Schütte schönen Frauen sie zu Füßen,</l>
+                  <l>Nach Belieben, bitte nur zu wählen!</l>
+               </lg>
+            </sp>
+            <sp who="#sandro">
+               <speaker>SANDRO.</speaker>
+               <lg>
+                  <l>Ritornelle weiß ich unermessen,</l>
+                  <l>Weiß von euch die schönsten ohne Zweifel –</l>
+                  <l>Aber leider hab' ich sie vergessen!</l>
+               </lg>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Blüte der Granaten!</l>
+                  <l>Einen von euch begehrt mein Herz,</l>
+                  <l>Wer es ist, müßt ihr erraten.</l>
+               </lg>
+            </sp>
+            <sp who="#alessio">
+               <speaker>ALESSIO.</speaker>
+               <lg>
+                  <l>Blüte der Linde!</l>
+                  <l>Sagt, schöne Madonna, mir durch die Blume,</l>
+                  <l>Wo ich heut' Abend euch finde.</l>
+               </lg>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Blüte der Limone!</l>
+                  <l>Fragt nicht so lang, fragt nicht so viel,</l>
+                  <l>Ihr wißt ja doch, wo ich wohne!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Blüte der Nelken!</l>
+                  <l>Ach, die Blume unserer Liebe,</l>
+                  <l>Sagt, wie konnte sie welken?</l>
+               </lg>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Blüte der Resede!</l>
+                  <l>Jammert mir nicht um entschwundene Liebe,</l>
+                  <l>Einmal endet doch jede!</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <lg>
+                  <l>Blüte der Primel!</l>
+                  <l>Sankt Petrus ist, ach, seines Amtes entsetzt,</l>
+                  <l>Denn ihr vergebet den Himmel!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Arrigo brachte Mona Gina her ...</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Nun ja ... und weiter ...?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Wer gab dir die Blumen?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Niemand gab sie mir –</l>
+                  <l>Sie lagen auf dem Weg,</l>
+                  <l>Meine Lieblingsblumen sind's!</l>
+                  <l>Iris, weiße Iris!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Du liebst die Irisblüten? Davon wußt' ich nichts.</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Woher auch solltest du?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Sprachst du mit jemand unterwegs?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Mit keinem sprach ich.</p>
+               <pb n="10" facs="#f0009"/>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Sahst du jemand ...?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Viele sah ich ...</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>'</l>
+                  <l>Ich meine – – Lisa ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ich komme von der Beicht' ...</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Oh, Mona Lisa!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Mona Gina, ich grüße euch!</l>
+                  <l>Und auch euch, Messeri ...</l>
+               </lg>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Ihr sahet nicht den Zug?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>In Camaldoli war ich ...</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Wie kann die Beichte euch Vergnügen machen,</l>
+                  <l>Da ihr doch nichts zu büßen habt?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Vergnügen ...?</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Die Buß' hat doch nur Sinn,</l>
+                  <l>Wenn wir gesündigt,</l>
+                  <l>Daß sie vor neuen Sünden uns schaudern mache –</l>
+                  <l>Dann erst, glaubt mir, hat man Genuß davon.</l>
+                  <l>Wundervoll schmeckt diese Frucht!</l>
+                  <l>Wie schad', daß sie zu essen keine Sünde –</l>
+                  <l>Wie würd' sie dann erst munden!</l>
+                  <l>Ich sage euch:</l>
+                  <l>Die Sünde ist die Würze jeder Lust!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja?</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Ach, ihr seid kalt wie Schnee –</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Vielleicht –</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Doch ich vergaß,</l>
+                  <l>Ich werd' erwartet bei den Palmieri</l>
+                  <l>Erlaubt, daß ich mein Haar in Ordnung bringe.</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Gewiß. Auf meinem Zimmer. Piccarda!</l>
+                  <l>Kommt!</l>
+                  <l>Ihr Herr'n verzeiht!</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <lg>
+                  <l>Was ist's mein Freund?</l>
+                  <l>Nicht glücklich bist du</l>
+                  <l>Und hast solch' schönes Weib ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Es ist <hi rendition="#i">darum</hi>.</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Du hast doch keinen Grund?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Weiß ich das?</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Wenn du's nicht weißt, dann hast du keinen Grund.</p>
+               <pb n="11" facs="#f0010"/>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ich kenn' sie nicht. Sie ist mir wie ein fremdes Wesen,</l>
+                  <l>Ein Buch, indem ich nicht versteh' zu lesen ...</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Sag' mir, was ängstigt dich?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Nichts – als ein Bild.</p>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Wie soll ich das verstehn?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Du hast sie eben hier geseh'n;</l>
+                  <l>Das marmorblasse, ruhige Gesicht ...</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Sie war wie stets. Ich kenn' sie anders nicht.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Das ist's. Auch ich kenn' so sie jeden Tag:</l>
+                  <l>Die Lippen ohne Lächeln, die Augen ohne Frag' –</l>
+                  <l>So still, so willenlos in jeglicher Bewegung,</l>
+                  <l>Und in der klaren Stimme keine Regung.</l>
+                  <l>Ja, ja – so ist es jeden Tag und – jede Nacht ...</l>
+                  <l>Jedoch – sahst du ihr Bildnis je von Lionardos Hand?</l>
+                  <l>Hier ist's verborgen, hier – an dieser Wand –</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <lg>
+                  <l>Wie wunder-, wunder-, wunderbar!</l>
+                  <l>Zum sprechen! Zug für Zug, ja Haar um Haar!</l>
+                  <l>Ein Meisterwerk. Und dieser Ausdruck – ah,</l>
+                  <l>Dies holde, süße Lächeln ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Dieses Lächeln! Ja!</l>
+                  <l>Der Blick, nicht wahr? Geheimnisvoll betörend ...</l>
+                  <l>Und dieser Mund, wie lächelt er gewährend!</l>
+                  <l>Mein Weib, das niemals lächelt, niemals bebt,</l>
+                  <l>Ist wie ein Schatten – und dies Bildnis lebt!</l>
+                  <l>So lächelt' Eva einst im Paradies,</l>
+                  <l>So lächelt' Helena, Semiramis,</l>
+                  <l>Bath-Seba und Kleopatra! –</l>
+                  <l>So sinnberückend, rätselvoll –</l>
+                  <l>So machtbewußt und so entzückend!</l>
+                  <l>Ich muß das Rätsel ihres Lächelns lösen!</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Du kommst noch von Verstand – mich schreckt dein Wesen!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ich forsch' in ihren Zügen, prüfe ihre Mienen ...</l>
+                  <l>Ich überhäufe sie mit Kostbarkeiten</l>
+                  <l>
+                     <pb n="12" facs="#f0011"/> Und sie bleibt still.</l>
+                  <l>Ich küsse sie voll Glut und Leidenschaft</l>
+                  <l>Und sie bleibt kalt.</l>
+                  <l>Ich zeig' mich grausam auch zu Zeiten</l>
+                  <l>Und sie bleibt stumm.</l>
+                  <l>Immer dieselbe, ruhig gelassen</l>
+                  <l>Mit dem Antlitz, dem kühlen, blassen ...</l>
+                  <l>Ich muß das Rätsel ihres Lächelns wissen,</l>
+                  <l>Und sollt' im Höllenfeuer ich es ewig büßen!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Ah, Messer Giovanni!</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Ich komme spät, nicht wahr?</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Was? Unser Florentiner Carneval?</l>
+                  <l>Hattet ihr Vergnügen?</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Ja und nein.</l>
+                  <l>Ich stürze mich in das Treiben hinein,</l>
+                  <l>Aber die tolle Lustbarkeit</l>
+                  <l>Hat mich heute nur mäßig erfreut ...</l>
+                  <l>Weil ich –</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo #sandro">
+               <speaker>ARRIGO UND SANDRO.</speaker>
+               <p>Aha! Aha! Aha!</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Was ihr gleich denkt!</l>
+                  <l>Nur ein Paar Augen hab' ich geseh'n,</l>
+                  <l>Unirdisch schön ...</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Weiter nichts?</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Nur einen Blick.</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Damit beginnt jedes Liebesglück.</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Und der Blick galt nicht einmal mir ...</l>
+                  <l>Ja, blieb' ich hier –</l>
+                  <l>Doch morgen früh reis' ich wieder nach Rom.</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Also addio, schönes Phantom!</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Ja, weiter war es nichts</l>
+                  <l>Als das Phantom eines teuren Gesichts. – –</l>
+                  <l>Nun zum Geschäft, Messer del Giocondo!</l>
+                  <l>Die Perle für den heil'gen Vater –?</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Gleich sollt ihr sie seh'n.</l>
+                  <l>Gelüstet's euch, ihr Freunde, meine Schätze</l>
+                  <l>In Augenschein zu nehmen, also bleibt!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo #sandro #masolino">
+               <speaker>ARRIGO, SANDRO, MASOLINO.</speaker>
+               <p>Herzlich gern.</p>
+            </sp>
+            <sp who="#alessio">
+               <speaker>ALESSIO.</speaker>
+               <lg>
+                  <l>Du gönnst uns ja den Anblick just so selten</l>
+                  <l>Wie den der schönen Mona Lisa, Deiner Frau.</l>
+                  <pb n="13" facs="#f0012"/>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Das ist was andres. – –</l>
+                  <l>Nun wappnet eure Augen,</l>
+                  <l>Daß euch der Glanz nicht blende!</l>
+                  <l>Der Papst zu Rom, der Doge von Venedig,</l>
+                  <l>Die haben herrliche Juwelen,</l>
+                  <l>Jedoch die schönsten Perlen, die hab' ich – –</l>
+                  <l>Für sie ersann ich – diesen Schrein.</l>
+                  <l>Hier öffne ich die eine Türe ...</l>
+                  <l>Ein deutscher Meister hat das Schloß gefügt</l>
+                  <l>Und nicht zu öffnen wüßte es ein anderer,</l>
+                  <l>Noch fester aber schließt die zweite Tür</l>
+                  <l>Durch eine Feder nur – jedoch – die zeig' ich nicht!</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Das ist auch nicht vonnöten.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Durch diese beiden Türen dringt kein Hauch –</l>
+                  <l>Ein lebend Wesen atmete drinn kaum eine Stund' ...</l>
+                  <l>Die kleinen, grünen Fensterchen,</l>
+                  <l>Erzeugen hier ein fahles Dämmerlicht</l>
+                  <l>Wie in des Meeres Schoß.</l>
+                  <l>Und in der engen Kammer, schaut,</l>
+                  <l>Da ist ein Fach und in dem Fach ein Kästchen ...</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Ein Kästchen? Wo?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Das ist versenkt bis auf des Arno Grund –</l>
+                  <l>Ein Arm des Stromes fließt unter dem Haus –</l>
+                  <l>Mit einer Winde hol' ich's herauf –</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Ah, da ist es schon!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Geh, bring' die Lichter her! – –</l>
+                  <l>Die Ketten hake ich nun los – – –</l>
+                  <l>Nehmt ihr die winzigen Löcher wahr ...</l>
+                  <l>Da ringsherum?</l>
+                  <l>Da sickert immerzu das Wasser durch,</l>
+                  <l>Umspült die Perlen, wie das Meer es tat ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Die Sänfte hält am Tor.</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Lebt wohl, ihr Herr'n, ich gehe nun ...</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Wünscht ihr Begleitung?</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Nein, danke, heut' nicht.</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Aha, es harrt der Sünde weicher Arm ...</p>
+               <pb n="14" facs="#f0013"/>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Erraten! – – Wer ist das? Wer?</l>
+                  <l>Beim Himmel, der ist schön!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Doch reißt er morgen früh zurück nach Rom.</l>
+                  <l>Und heute seid ihr ja versorgt – mit Wonnen ...</l>
+               </lg>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Das hat euch nicht zu kümmern ... stellt ihn vor.</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Mona Ginevra ad Alta Rocca, die Venus von Florenz,</l>
+                  <l>Verlangt nach euch, Giovanni de Salviati!</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Der Venus meine Huldigung!</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <lg>
+                  <l>Ihr kommt von Rom ...?</l>
+                  <l>Und bleibt heut' Abend nur ...?</l>
+               </lg>
+            </sp>
+            <sp who="#pietro">
+               <speaker>PIETRO.</speaker>
+               <p>Der fehlte noch in ihrer Sammlung.</p>
+            </sp>
+            <sp who="#piccarda">
+               <speaker>PICCARDA.</speaker>
+               <p>Eure Signoria –</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Die Sänfte! das heißt, der Arm der Sünde ...</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Ich seh' euch also ...?</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Madonna, wenn mir möglich ...</p>
+            </sp>
+            <sp who="#ginevra">
+               <speaker>GINEVRA.</speaker>
+               <p>Ich hoff', Messer, euch ist noch alles möglich!</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Zu unseren Perlen endlich.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Seht hier des Meeres wunderbarsten Schatz,</l>
+                  <l>Der Nereïden kostbares Geschmeide,</l>
+                  <l>Das sie zum wirbelnd wilden Wellentanz</l>
+                  <l>In ihre feuchte Flatterlocken flechten,</l>
+                  <l>Hört, wie mit leis' geheimnisvollem Rauschen</l>
+                  <l>Die Silberkörner durch die Finger rieseln?</l>
+                  <l>Entzückt euch nicht der reine, matte Glanz</l>
+                  <l>Wie Mondesflimmern,</l>
+                  <l>Wie der Sterne Schimmern?</l>
+                  <l>Ich liebe sie, meine Perlen!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Um jede Perle starb die Muschel, die sie trug,</l>
+                  <l>Qualvollen Tod ...</l>
+                  <l>Wie um die Liebe, die es trägt,</l>
+                  <l>So manches Herz ...</l>
+                  <l>Gleich Tränen schimmern sie,</l>
+                  <l>Heimlichen Tränen,</l>
+                  <l>
+                     <pb n="15" facs="#f0014"/> Die aus schlummerlosen Augen</l>
+                  <l>Heiße Sehnsucht preßt ...</l>
+                  <l>Ich lieb' sie nicht, die Perlen!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Seit zwanzig Jahren sammle ich die Perlen,</l>
+                  <l>Wenn ich von einer höre, daß sie schön,</l>
+                  <l>Reis' ich ihr nach und werb' um sie</l>
+                  <l>Und trage sie an meinem Herzen heim.</l>
+                  <l>Und wenn es gilt, von einer mich zu trennen,</l>
+                  <l>So hab ich Kummer, sehne sie zurück ...</l>
+                  <l>Wenn eine krank ward und den Glanz verlor,</l>
+                  <l>Weiß ich, was not ihr tut:</l>
+                  <l>An einen warmen Körper sich zu schmiegen,</l>
+                  <l>An einer weißen Brust zu liegen ...</l>
+                  <l>Allabendlich leg' ich die schönsten Perlen</l>
+                  <l>Um Hals und Busen meiner Mona Lisa ...</l>
+                  <l>Sie nähret sie mit ihrem jungen Blut,</l>
+                  <l>Belebet sie mit ihres Herzens Glut,</l>
+                  <l>Ich liebe sie, meine Perlen!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Mit meinem Herzblut nähr' ich seine Perlen!</l>
+                  <l>Ich fühl', wie sie am Mark mir saugen ...</l>
+                  <l>Die Seele mir vergiften!</l>
+                  <l>Gleich Stahl, so kalt</l>
+                  <l>Und klirrend wie geheime Ketten ...</l>
+                  <l>Krank bin ich selbst</l>
+                  <l>Und weiß, was not mir tät'!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Dies ist die rosa Perle,</l>
+                  <l>Die Seine Heiligkeit begehrt –</l>
+                  <l>Fünftausend Golddukaten ist sie wert –</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Vollmacht hab' ich, jeden Preis</l>
+                  <l>Bezahl' ich.</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ja, ich weiß –</l>
+                  <l>s' ist nicht um das ... Ich lieb' sie sehr!</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Wundervoll ist sie ...</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ein kleines mattes Flecken seh' ich eben ...</l>
+                  <l>Da – erst morgen früh kann ich sie übergeben ...</l>
+                  <l>Heut' Nacht soll Mona Lisa sie noch tragen.</l>
+                  <l>Meerwasser von Marina di Pisa</l>
+                  <l>Bringt mir allwöchentlich mein Marinar –</l>
+                  <l>Drinn nimmt die Perle stets ihr letztes Bad ...</l>
+                  <pb n="16" facs="#f0015"/>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Fiordalisa ...</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Giovanni de' Salviati .... – –</l>
+                  <l>Ich soll die rosa Perle heut' noch tragen?</l>
+                  <l>So gebt sie mir, ich gehe jetzt zur Ruh ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Warst du denn hier?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Dort stand ich ja</l>
+                  <l>Und kurz zuvor sprachst du mit mir.</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>So, so – ja, ja – ich glaub', es ist schon spät.</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Das heißt, wir sollen geh'n ...</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Und meine Perle ...?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Die bring' ich euch beim ersten Hahnenschrei;</l>
+                  <l>– Verlaßt euch drauf.</l>
+                  <l>Doch hätt' ich Lust,</l>
+                  <l>Noch ein paar Schritte weit mit euch zu geh'n ...</l>
+                  <l>Der Wein war schwer ...</l>
+                  <l>Ich lieb' es außerdem,</l>
+                  <l>Allabendlich mein Haus selbst abzuschreiten –</l>
+                  <l>Nur einmal den Lungarno auf und nieder.</l>
+                  <l>Sisto! Meine Schlüssel! – –</l>
+                  <l>Kommt ihr nicht mit?</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Ich hab' es näher über die Piazza –</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Das find' ich nicht ...</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <lg>
+                  <l>Laß' ihn geh'n –</l>
+                  <l>Madonna Gina wünscht ihn noch zu seh'n ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>So?</p>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGO.</speaker>
+               <p>Reiset denn mit Glück!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Auf morgen früh!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Er schließt das Tor nach dem Lungarno ...</l>
+                  <l>Das andre ist noch offen ...</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Fiordalisa ...</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja ...?</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Ich mußt' euch nochmals seh'n,</l>
+                  <l>Ich mußt' euch sprechen ...</l>
+                  <l>Und ihr, ihr müßt mich hören!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja ... wir müssen ...</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Also waren's eure Augen doch, die heut' ich sah ...</l>
+                  <l>Der holde Frühlingssonnenblick,</l>
+                  <l>
+                     <pb n="17" facs="#f0016"/> Der einstens meinen Lebensweg erhellt,</l>
+                  <l>Und den ich dann im Dunkel dieser Welt</l>
+                  <l>Vergeblich sucht' ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Auch mir strahlt' einst ein Licht,</l>
+                  <l>Auch mir erlosch es jäh,</l>
+                  <l>Auch mir flammt's wieder auf, da euch ich seh' ...</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Und müssen so wir uns gegenüber steh'n?</l>
+                  <l>Ich hört, daß ihr vermählt,</l>
+                  <l>Doch wußt' ich nicht, an wen</l>
+                  <l>Und wollt's nicht wissen!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Menschen sind wir, die den Pfad verloren,</l>
+                  <l>Menschen sind wir, die zum Leid geboren –</l>
+                  <l>Auf das Glück, ach, leistet ich schon längst Verzicht.</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Warum habt ihr –?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Oh fragt mich nicht!</l>
+                  <l>Am Pfahl der Sehnsucht angebunden,</l>
+                  <l>Verbrannt' mein Herz in stummer Qual –</l>
+                  <l>Da jede Hoffnung mir entschwunden,</l>
+                  <l>Wählte der Vater mir – den reichen Gemahl!</l>
+                  <l>Ich ahnte nicht, wie schwer zu dulden</l>
+                  <l>Des Ungeliebten Lieb' – –! O geht!</l>
+                  <l>Nun büß' ich schmerzlich mein Verschulden,</l>
+                  <l>Für alles and're ist's zu spät!</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Nein! nicht zu spät, dieweil wir leben,</l>
+                  <l>Die Herzen glüh'n, die Pulse beben!</l>
+                  <l>Und trennten uns der Hölle Flammen.</l>
+                  <l>Ein Wunder führte uns zusammen!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ein Wunder ...?</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Ich brauche nicht des Himmels Zauberkraft,</l>
+                  <l>Weil meine Liebe selbst dies Wunder schafft!</l>
+                  <l>Mit starker Hand lös' ich aus dunklem Bann,</l>
+                  <l>Zu lichten Höh'n trag' ich dein Herz hinan!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Nein! – – nein! – –</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Er bringt mir die Perle, du hörtest es ja,</l>
+                  <l>Zur Frühmesse gehst du nach San Trinità –</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Vannino! – Vannino!</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Am Tore harrt ein Wagen, dein Liebster darin,</l>
+                  <l>Ins Land unserer Sehnsucht wollen wir flieh'n –</l>
+                  <l>
+                     <pb n="18" facs="#f0017"/> Auf einsamen Wegen,</l>
+                  <l>Der Freiheit entgegen!</l>
+                  <l>Weit von hier, in fremder Ferne,</l>
+                  <l>Strahlen unserer Liebe Sterne!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Träume ich, Liebster, so wecke mich nicht!</l>
+                  <l>Lass' meinem Dunkel den Schimmer von Licht!</l>
+                  <l>Oder ist's Wahrheit? – Du lösest den Bann?</l>
+                  <l>Trägst meine Seele zum Glück hinan?!</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <lg>
+                  <l>Das Schicksal, das grausame, wende ich,</l>
+                  <l>Den Zwang, den verhaßten, ende ich!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa #giovanni">
+               <speaker>BEIDE.</speaker>
+               <lg>
+                  <l>Auf einsamen Wegen</l>
+                  <l>Der Freiheit entgegen!</l>
+                  <l>Weit von hier, in fremder Ferne,</l>
+                  <l>Strahlen unsrer Liebe Sterne!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Um Gott – das Tor – sein Schritt!</l>
+                  <l>Schnell in die Loggia hier!</l>
+                  <l>Dann, während er verweilt,</l>
+                  <l>Die Treppe dort hinab –</l>
+                  <l>Das Tor nach der Piazza ist noch offen –</l>
+                  <l>Ich tracht' ihn abzulenken.</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Wirst du mir folgen ... morgen ...?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Es geht nicht, Liebster ...</p>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Nicht –?!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja doch, ja! – – Bei Santa Trinità!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Er hat die Kraft, ja er!</l>
+                  <l>Doch ich bin schwach,</l>
+                  <l>Mir fehlt der Mut zum Glück,</l>
+                  <l>Der Mut zu neuem Leben!</l>
+                  <l>Ich bleib' in meinem Joch – –</l>
+                  <l>Aber schön war es doch,</l>
+                  <l>Was diese Stunde mir gegeben:</l>
+                  <l>Die alte Zeit bracht' sie zurück,</l>
+                  <l>Mein totes Herz ward wieder wach ...</l>
+                  <l>Nimmer gäb' ich die Stunde her!</l>
+                  <l>Was jetzt auch kommt,</l>
+                  <l>In Not und Schmach</l>
+                  <l>Der Liebe Ruf hallt in mir nach!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Sprach hier jemand? – Ah – du bist noch hier?</l>
+                  <l>
+                     <pb n="19" facs="#f0018"/> Wie in dem Flackerschein ihr Antlitz leuchtet,</l>
+                  <l>Als wär's von innrer Glut entflammt'</l>
+                  <l>Was ist ...? Sie lächelt ...?</l>
+                  <l>Da ist es, jenes rätselhaft</l>
+                  <l>Geheimnisvolle Lächeln ...</l>
+                  <l>'s ist wie ein klares, tiefes Wasser,</l>
+                  <l>Dess' Grund man nie erspäht! ...</l>
+                  <l>Was hat sie so gewandelt?</l>
+                  <l>Was spricht aus ihren Augen?</l>
+                  <l>Was ging hier vor?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Komm, wir wollen geh'n ...</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Nun hat sie ihre Maske wieder ...</l>
+                  <l>Das andere Tor, nach der Piazza,</l>
+                  <l>Muß ich noch verwahren ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Lass', der Diener soll ...</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Es ist wohl besser, wenn's der Herr besorgt.</l>
+                  <l>Im Carneval gilt's Vorsicht!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Mach' dir nicht die Müh' ...</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Gottlob, ich bin nicht siech.</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Er sperrt das Tor ...</l>
+                  <l>Nun rasch – hier, durch den Gang –</l>
+                  <l>Verbergt euch in der Nische rechter Hand –</l>
+                  <l>Piccarda läßt euch dann durch ihre Kammer</l>
+                  <l>Die Stiege nach dem Hof hinab.</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNI.</speaker>
+               <p>Und morgen früh ...?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Ja, ja, nur fort ...</l>
+                  <l>Giovanni ... fort ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Die ganze Stiege ist voll Blumen!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Blut?! – Nein, nur die roten Blumen sind's,</l>
+                  <l>Die Blumen des Bösen ...</l>
+                  <l>Komm' endlich, Francesco –</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>»Endlich!« Wie du das sagst –</l>
+                  <l>So sehnsuchtsvoll – begehrend –</l>
+                  <l>Und wie du lieblich doch erröten kannst</l>
+                  <l>Madonna! ...</l>
+                  <l>Ganz wie ein junges, unschuldvolles Mädchen!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ich bitte, komm' – bitte, komm' –</p>
+               <pb n="20" facs="#f0019"/>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ja doch.. ich komm' ... die Nacht ist ja noch lang ...</l>
+                  <l>Erst nur die Fenster zu ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Die Fenster? Nein! Weshalb?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Weil sich ein scharfer Wind erhebt!</l>
+                  <l>Sieh', wie die Fackeln flammen ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>So ... erst dieses hier ... dann dies ...</l>
+                  <l>Brrr ... wie die Fackeln schwelen ...</l>
+                  <l>Nun hab' ich mir fürwahr die Hand verbrannt ...</l>
+                  <l>Wo steckt er nur? – Dort sicherlich ...</l>
+                  <l>Auch da nicht ...?</l>
+                  <l>Aha, nun weiß ich auch, weshalb es hier so zieht!</l>
+                  <l>Die Türe schließt schlecht ... Vom Hofe weht's ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Wozu denn die?</l>
+                  <l>Wir müssen doch hier durch ins Schlafgemach ...</l>
+                  <l>Es ist auch höchste Zeit ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Lisotta, hör',</l>
+                  <l>Solch leidenschaftlich Begehren</l>
+                  <l>Taugt für die Ehe nicht!</l>
+                  <l>Du hast mich ja fürs Leben – und jede Nacht!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Francesco!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Ah – das quält sie – vor dem Buhlen –</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Was willst du noch?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Der Vorhang hängt so schief –</l>
+                  <l>Du weißt, ich bin genau ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa #francesco">
+               <speaker>LISA UND FRANCESCO.</speaker>
+               <p>Er ist im Schrein!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Jetzt lass' uns geh'n ...</l>
+                  <l>Ihr Weiber macht uns Männer doch zu Narren –</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Wie meinst du?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Die Liebessehnsucht meiner schönen Frau zu stillen</l>
+                  <l>Hätt' ich beinah' vergessen,</l>
+                  <l>Den Kasten abzuschließen –</l>
+                  <l>Den Perlenkasten – meinen heil'gen Schrein ...</l>
+                  <l>Merkst du es nun, wie arg verliebt ich bin?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Er ist versperrt!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Nein, nein, er ist es <hi rendition="#i">nicht</hi>,</l>
+                  <l>Die Klinke schnappt' ich einfach ein,</l>
+                  <l>Und jeder könnte da heraus, herein.</l>
+                  <pb n="21" facs="#f0020"/>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Wer sollte wohl?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Je nun, wer kann das wissen?</l>
+                  <l>Bedenk', mein ganzer Reichtum ist darin.</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Francesco ... Francesco ...</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Nun, was soll's?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Francesco ...! Francesco ...!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Sahst du schon den Toledaner Dolch,</l>
+                  <l>Den dieser Tage ich erstand? –</l>
+                  <l>Der schöne, eingelegte Griff ...</l>
+                  <l>Kannst du die Inschrift lesen?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ich sehe nicht ...</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Lies!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>»Ich räche den Verrat an Lieb' und Ehre ...«</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>»Ich räche den Verrat an Lieb' und Ehre ...«</l>
+                  <l>Ein wundervoller Spruch!</l>
+                  <l>Der Jude sagte mir,</l>
+                  <l>Den Dolch hätt' einst ein Grande sich bestellt,</l>
+                  <l>Um seines Weibes Treubruch zu ahnden. –</l>
+                  <l>Warum so schreckhaft?</l>
+                  <l>Ein Liebesabenteuer, weiter nichts!</l>
+                  <l>Die laue Nacht ist ja geschaffen</l>
+                  <l>Für der Liebe Freuden! – –</l>
+                  <l>Nun, sagt ich's nicht?</l>
+                  <l>Da schmachtet schon der sangeskund'ge Ritter</l>
+                  <l>Sein Liebchen an. – –</l>
+                  <l>'s ist drüben bei den Aliprandi,</l>
+                  <l>Und Mona Rita gilt die Serenade,</l>
+                  <l>Der holden, – keuschen Frau!</l>
+                  <l>– – Höre nur! – –</l>
+               </lg>
+            </sp>
+            <sp who="#arrigo">
+               <speaker>ARRIGOS STIMME.</speaker>
+               <lg>
+                  <l>»Wenn, o geliebtes Kind, ein weißer Schleier</l>
+                  <l>Dein schönes Auge neidisch mir entzieht,</l>
+                  <l>Dann bebt's wie heißer Frost in meinem Herzen« –</l>
+                  <l>Ich fühle sinnlos, wie ein kaltes Feuer</l>
+                  <l>Verzehrend mir in Mark und Knochen glüht,</l>
+                  <l>Und meine Seele lechzt in süßen Schmerzen –</l>
+                  <l>So leb' ich sterbend – doch mit jenen Pfeilen,</l>
+                  <l>Die mich verwundet, könntest du mich heilen!</l>
+                  <pb n="22" facs="#f0021"/>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Mein Gott, er ist im Schranke eingeschlossen!</l>
+                  <l>Er stirbt, verschmachtet – wie befrei' ich ihn?</l>
+                  <l>Nicht um mein armes Leben zitt're ich –</l>
+                  <l>Um seins! Denn trifft er ihn, ist er verloren!</l>
+                  <l>Was tu' ich ich nur? Was tu' ich? Großer Gott?</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>'s ist Sannazaros zärtlich Madrigal:</l>
+                  <l>»Wenn, o geliebtes Kind, ein weißer Schleier</l>
+                  <l>Dein schönes Auge neidisch mir entzieht,</l>
+                  <l>Dann bebt's wie heißer Frost in meinem Herzen« –</l>
+                  <l>Der Mann versteht sich auf die Liebe – traun!</l>
+                  <l>Denn also geht es mir: Ich hasse diese Hüllen,</l>
+                  <l>Die deine Reize neidisch mir verbergen!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Francesco, was tust du?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Das Liebeslied hat mir das Blut entflammt,</l>
+                  <l>In das den Funken du geworfen</l>
+                  <l>Mit deinem Lockruf: »Komm' doch, komm' doch endlich!«</l>
+                  <l>Wie schön du bist, Fiordalisa!</l>
+                  <l>Und mein bist du! In meiner starken Hand!</l>
+                  <l>Weg mit dem puritanischen Gewand!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Nein! Nein!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ich liebe es, wenn sich die Frauen wehren,</l>
+                  <l>Du weißt es gut, das steigert mein Begehren ...</l>
+                  <l>So still ist's um uns her ... mit süßem Schall</l>
+                  <l>Umsäuselt uns das Liebesmadrigal!</l>
+                  <l>Nur ist's zu düster hier! Ich will dich seh'n,</l>
+                  <l>Wenn in der Liebe Lust die Sinne dir vergeh'n ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Einerlei, was wird! Befreien muß ich ihn!</l>
+                  <l>Francesco, höre mich!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Nichts hören will ich jetzt als Liebesflüstern.</l>
+                  <l>Wie deine seidenweichen Haare knistern ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ah, drückt dich die Klinge?</l>
+                  <l>Erlaub', daß ich sie in Verwahrung bringe ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Francesco, töte mich! Ich flehe dich darum!</p>
+               <pb n="23" facs="#f0022"/>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Nein, leben sollst du!</l>
+                  <l>Mir zur Lust!</l>
+                  <l>Und meinem Willen ganz ergeben,</l>
+                  <l>Sollst du leben!</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNIS STIMME.</speaker>
+               <p>Oeffnet mir!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Man ruft!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>'s ist niemand hier – 's war auf dem Platz! –</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Francesco, hab' Erbarmen!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Sprich, meine schöne Lisa, liebst du mich? –</l>
+                  <l>Wenn du jetzt folgsam bist, wie sich's gehört,</l>
+                  <l>Sei eine große Bitte dir gewährt!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja? Ja?</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Gewiß, du hast dann nur zu wählen ...</l>
+                  <l>Sag: Ich liebe dich, Francesco!</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNIS STIMME.</speaker>
+               <p>Du Satan! Oeffnet mir!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>O Gott! Ich liebe dich!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ja, das weiß ich wohl!</l>
+                  <l>Sag: Francesco, ich bin dein!</l>
+               </lg>
+            </sp>
+            <sp who="#giovanni">
+               <speaker>GIOVANNIS STIMME.</speaker>
+               <p>Ah!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Hahaha! Francesco, ich bin dein!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Küsse mich! – – Ah, du saugst das Blut mir aus dem Herzen – –</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Was – was ich will? Vielleicht ist's sonderbar ...</l>
+                  <l>Allein ich fleh' dich an – den Schlüssel zu dem Schrank –</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Ah, weil du denkst, die Perlen sind mir werter als meine Frau?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja, ja!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>O eifersücht'ge Weiber!</l>
+                  <l>Den Schlüssel willst du? Weiter nichts?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ich bitt' dich d'rum!</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Da ist er! – – Daß ich nur diesen einen Schlüssel habe,</l>
+                  <l>Das weißt du wohl, nicht wahr?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja ... ich weiß ... ich weiß ...</p>
+               <pb n="24" facs="#f0023"/>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>So höre:</l>
+                  <l>Den einz'gen Schlüssel, der hier in meiner Hand ruht –</l>
+                  <l>Um dir Beweise meiner Lieb' zu geben – –</l>
+                  <l>Den – – werf' ich jetz in des Arno Flut</l>
+                  <l>Und nur Najaden wüßten ihn zu heben! – –</l>
+                  <l>Für mein Liebesopfer</l>
+                  <l>Nur den süßen Lohn!</l>
+                  <l>Schöne Mona Lisa,</l>
+                  <l>Schling' deine weißen Arme um mich,</l>
+                  <l>Laß' aus deinem trunkenen Blick</l>
+                  <l>Den Rausch der Lieb' mich schlürfen!</l>
+               </lg>
+            </sp>
+            <sp who="#piccarda #arrigo">
+               <speaker>PICCARDAS UND ARRIGOS STIMMEN.</speaker>
+               <lg>
+                  <l>Jugend ist so hold und süß,</l>
+                  <l>Schnell entflieht die Zeit –</l>
+                  <l>Wer fröhlich sein will, sei es heut',</l>
+                  <l>Das »Morgen« ist ja ungewiß!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Lächle, schöne Mona Lisa,</l>
+                  <l>Dein strahlendes Lächeln,</l>
+                  <l>Das einst Lionardo entzückt!</l>
+                  <l>So lächelt' Eva einst im Paradies,</l>
+                  <l>So lächelt' Helena, Semiramis,</l>
+                  <l>Bath – Seba und Kleopatra!</l>
+                  <l>So sinnbetörend, rätselvoll.</l>
+                  <l>So hinreißend, – hold gewährend – – –</l>
+                  <l>Lächle, schöne Mona Lisa!</l>
+                  <pb n="25" facs="#f0024"/>
+               </lg>
+            </sp>
+         </div>
+         <div>
+            <head>Zweiter Akt</head>
+            <sp who="#piccarda">
+               <speaker>PICCARDA.</speaker>
+               <lg>
+                  <l>Nichts regt sich im Zimmer Mona Lisas.</l>
+                  <l>Ich pochte – keine Antwort.</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Und sie versprach mir doch,</l>
+                  <l>Zur Aschermittwochsmess' mit mir zu geh'n ...</l>
+                  <l>Sollt mit dem Vater sie ...?</l>
+               </lg>
+            </sp>
+            <sp who="#piccarda">
+               <speaker>PICCARDA.</speaker>
+               <lg>
+                  <l>Den Domine hört' ich vor Tau und Tag</l>
+                  <l>Die Tore öffnen und das Haus verlassen.</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Wie düster es hier ist, wie still, wie kalt ...</l>
+                  <l>Geh, öffne doch die Fenster –</l>
+                  <l>Und ich lösch das Licht.</l>
+                  <l>Gleich einem Armesünderflämmchen flackert es,</l>
+                  <l>Es kann nicht leben und es kann nicht sterben.</l>
+               </lg>
+            </sp>
+            <sp who="#piccarda">
+               <speaker>PICCARDA.</speaker>
+               <p>Welch trüber Tag! Ein rechter Aschermittwoch.</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Komm', Piccarda! Wir gehen dieweil den Lungarno hinab</l>
+                  <l>Und seh'n nach meinem neuen Boot,</l>
+                  <l>Ob's nicht vielleicht ein übermüt'ger Junge</l>
+                  <l>In Faschingslaune von der Kette löste ...</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Grüner, grüner, blaublühender Rosmarin,</l>
+                  <l>Wie gehen die Tage meiner Jugend hin?</l>
+                  <l>Wie die Blätter an deinem Strauch,</l>
+                  <l>Gleichet ein Tag dem andern auch.</l>
+                  <l>Grüner, grüner, blaublühender Rosmarin,</l>
+                  <l>Warum ist so sehnsuchtsschwer mir der Sinn?</l>
+                  <l>Wie deine Blüten drängen ans Sonnenlicht,</l>
+                  <l>Such' ich die Lieb', die Lieb' – und find' sie nicht.</l>
+                  <l>Grüner, grüner, blaublühender Rosmarin,</l>
+                  <l>Sag', was trag' ich in meinem Herzen drinn?</l>
+                  <l>
+                     <pb n="26" facs="#f0025"/> Wie dein Gezweig das Nest der Amsel trägt,</l>
+                  <l>Also mein Herz getreu das Bild des Liebsten hegt.</l>
+                  <l>Grüner, grüner, blaublühender Rosmarin – –</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Was ist ... ach so ... zur Messe läuten sie ...</l>
+                  <l>Wie müd' bin ich ... wie müd' ... wie müde ...</l>
+                  <l>Er ist nicht da ... er ist schon auf ... ach, Gott sei Dank ...</l>
+                  <l>Die fürchterliche Nacht! Solch' schauerlicher Traum.</l>
+                  <l>Wie gut ist's, zu erwachen und zu seh'n,</l>
+                  <l>Daß es nichts weiter war – als nur ein Traum.</l>
+                  <l>Ich weiß nicht, wie mir ist ...</l>
+                  <l>Da ... da ...</l>
+                  <l>Das war ja doch kein Traum ... das ist gescheh'n!</l>
+                  <l>Gott! Gott! Jetzt kehren mir die Sinne wieder!</l>
+                  <l>Das ist gescheh'n! In Wirklichkeit gescheh'n!</l>
+                  <l>Ich hab' geschlafen! Ich – ich hab' geschlafen,</l>
+                  <l>Ließ ungenützt die Stunden vergeh'n</l>
+                  <l>Und tat nichts, ihn zu retten ...?</l>
+                  <l>Den Schlüssel ... den Schlüssel ...</l>
+                  <l>Ah ... der ist im Fluß!</l>
+                  <l>Ich war gelähmt vor Schrecken und Entsetzen ...</l>
+                  <l>Ich tat nichts, ihn zu retten, tat nichts!!</l>
+                  <l>Befreien muß ich ihn –</l>
+                  <l>Alles andere gilt mir gleich –</l>
+                  <l>Befreien – –</l>
+                  <l>Giovanni! Giovanni! Höre mich!</l>
+                  <l>Hör' mich ... Giovanni! Giovanni!</l>
+                  <l>Ich bin's – ich Fiordalisa!</l>
+                  <l>Nur einen Augenblick Geduld noch – –</l>
+                  <l>Ich hole Leute, schlag' die Türe ein.</l>
+                  <l>Giovanni! – – Vannino! – Hörst du mich nicht?</l>
+                  <l>Giovanni, gib mir Antwort, um Himmelswillen!</l>
+                  <l>Ruft er nicht?</l>
+                  <l>Giovanni!!</l>
+                  <l>Rührt sich nichts?</l>
+                  <l>Vannino! – Mein Vannino!</l>
+                  <l>Gott, sei barmherzig! – Giovanni – hörst du mich?</l>
+                  <pb n="27" facs="#f0026"/>
+               </lg>
+            </sp>
+            <sp who="#chor">
+               <speaker>CHOR.</speaker>
+               <lg>
+                  <l>Confixa clavis viscera, tendens manus vestigia,</l>
+                  <l>Redemptionis gratia hic immolata est Hostia ...</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Vannino, ein Wort nur, ich flehe dich an!</l>
+                  <l>Ein Wort nur, ein einziges Wort!</l>
+                  <l>Nichts – – Ich bin bereit, zu folgen dir,</l>
+                  <l>Wohin du willst – – jetzt hab' ich Mut!</l>
+                  <l>In Ewigkeit lass' ich dich nicht, Vannino!!</l>
+                  <l>Nichts – – alles still – – wie im Grab – –</l>
+                  <l>Er ist tot – – – er ist tot – – –</l>
+                  <l>Giovanni ...!</l>
+                  <l>Tot – tot – – tot – – –</l>
+               </lg>
+            </sp>
+            <sp who="#frauen-chor">
+               <speaker>FRAUEN-CHOR.</speaker>
+               <lg>
+                  <l>O Crux benedicta,</l>
+                  <l>Quae sola foisti digna</l>
+                  <l>Portare Regem Coelorum</l>
+                  <l>Et Dominum – Alleluia!</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Es wird schon spät – Ich wecke sie –</l>
+                  <l>Mammina, du bist hier?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Wer ruft mich?</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Nun, ich! 's ist hohe Zeit!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Wozu?</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Mein Gott, zur Aschermittwochsmesse –</l>
+                  <l>Ich wart' schon lange,</l>
+                  <l>Erging mich am Lungarno mittlerweile – –</l>
+                  <l>Und sieh nur, was ich fand in meinem Boot?</l>
+                  <l>Solch' sonderbaren Schlüssel,</l>
+                  <l>Ganz ähnlich dem, wie Vater ihn besitzt</l>
+                  <l>Zum Perlenschrein.</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Den Schlüssel zum Perlenschrein, sagst du?</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Ich sagt', er sei ihm ähnlich.</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Wo fand'st du ihn?</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>In meinem neuen Boot,</l>
+                  <l>Das, wie du weißt, dort unt' – verankert liegt!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Den Schlüssel bringst du? Bringst den Schlüssel?</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Ja, ja –</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Und bringst ihn mir?</p>
+               <pb n="28" facs="#f0027"/>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Gewiß, wenn du ihn willst – –</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ob ich ihn will? Ob ich ihn will?</p>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Ach, Mütterchen, was ist –?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Nichts, Töchterchen ... geh' nun zur Messe ... geh'!</l>
+                  <l>Und bet' für mich.</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <p>Du kommst nicht mit?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Später komm' ich ...</l>
+                  <l>Zur Predigt ... in den Dom ...</l>
+               </lg>
+            </sp>
+            <sp who="#dianora">
+               <speaker>DIANORA.</speaker>
+               <lg>
+                  <l>Nach Santa Maria del Fior!?</l>
+                  <l>Zu Fra Girolamo?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Ja, ja – ich komm' ... – –</l>
+                  <l>Er fiel ins Boot ...</l>
+                  <l>Ich brauchte ein paar Schritte zu geh'n</l>
+                  <l>Hätte ihn gefunden!</l>
+                  <l>Und jetzt ...?</l>
+                  <l>Ich bebe ... mir fehlt die Kraft,</l>
+                  <l>Die Tür zu öffnen ...</l>
+                  <l>Giovanni! – – – Nichts – – –</l>
+                  <l>Giovanni! – Giovanni!</l>
+                  <l>Hier ist die Feder – – und ich kenn den Griff – –</l>
+                  <l>Doch ich kann nicht! Kann nicht!</l>
+                  <l>Ich weiß ja, daß er tot – – – – Er!</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Sie ist nicht hier? – – Lisa! –</l>
+                  <l>– Was tust du dort?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ich schaue – nach – dem Platz –</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ich dachte, in Verzweiflung sie zu finden,</l>
+                  <l>Und sie »schaut nach dem Platz ...?«</l>
+                  <l>Ein trüber Tag ... ich bin schon zeitig fort –</l>
+                  <l>Bei Messer Salviati war ich – –</l>
+                  <l>Die Perle ihm zu bringen. – – –</l>
+                  <l>Ich nahm sie dir des Nachts.</l>
+                  <l>Doch er – war nicht daheim – –</l>
+                  <l>Ein Liebesabenteuer</l>
+                  <l>Hat ihn wohl festgehalten –</l>
+                  <l>Vielleicht auch ließ er sich in einen Handel ein,</l>
+                  <l>Der schlecht für ihn verlief ...?</l>
+                  <l>Der schöne Salviati!</l>
+                  <l>
+                     <pb n="29" facs="#f0028"/> Der schöne glatte Schurke! –</l>
+                  <l>Kurzum, er kam nicht heim.</l>
+                  <l>Sie lächelt ...?</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Sieh, was ich hier habe.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Das ist ja – mein Schlüssel ...?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Ja – zu dem Perlenschrein.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Unmöglich! Den warf ich selbst –</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>In den Arno wohl – doch fiel er</l>
+                  <l>In Dianoras Boot – man bracht' ihn mir ...</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Wann? Wann?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Nun – ganz kurz nachdem du mich verlassen hast.</p>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Wer brachte ihn?</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Das Mädchen – – Piccarda –</l>
+                  <l>Spät kam sie heim – es war ja Karneval! – –</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>So hat sie ihn befreit? So lebt er noch?</l>
+                  <l>Darum lächelt sie so höhnisch?</l>
+                  <l>Gib den Schlüssel!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Ja doch. Mir ist er nicht von Wert,</l>
+                  <l>Du weißt, ich frag' nicht viel nach deinen Perlen.</l>
+                  <l>Und eben fällt mir ein,</l>
+                  <l>Ich hab' heut' Nacht die Schnüre nicht getragen,</l>
+                  <l>Die für Madonna Borgia bestimmt.</l>
+                  <l>Gib sie heraus, ich lege sie gleich an,</l>
+                  <l>Daß sie an Glanz gewinnen.</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <p>Er lebt! Er lebt!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Was zögerst du?</l>
+                  <l>So gib mir doch die Perlen.</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ich bin ganz irre an der Welt – an mir –</l>
+                  <l>Wie war's denn nur?</l>
+                  <l>War er vielleicht – gar nicht dort drinn?</l>
+                  <l>Ich sah ihn doch ...</l>
+                  <l>Wie? Nein, ich sah ihn nicht ...</l>
+                  <l>Hat mich die Eifersucht genarrt,</l>
+                  <l>War ich vom Wein benommen?</l>
+                  <l>War's eine Täuschung?</l>
+                  <l>Könnt' sie so lächeln, unschuldvoll und sanft,</l>
+                  <l>Wenn ich ihr <hi rendition="#i">das</hi> getan? – Ich bin ganz irre –</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <p>Nun?</p>
+               <pb n="30" facs="#f0029"/>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO.</speaker>
+               <lg>
+                  <l>Ja, ja, die Perlen der Lukretia</l>
+                  <l>Ich – hole sie – –</l>
+                  <l>Ah!!</l>
+               </lg>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>Was siehst du? Schlich sich ein Schurke ein?</l>
+                  <l>So fass' ihn, sonst raubt er dir die Perlen.</l>
+               </lg>
+            </sp>
+            <sp who="#francesco">
+               <speaker>FRANCESCO'S STIMME.</speaker>
+               <p>Lisa! Lisa!</p>
+            </sp>
+            <sp who="#lisa">
+               <speaker>LISA.</speaker>
+               <lg>
+                  <l>So! so! Hab' ich dich!</l>
+                  <l>So! so! Halt ich dich!</l>
+                  <l>Hahahahahaha!</l>
+                  <l>Nur einen Augenblick genoß ich ein Glück,</l>
+                  <l>Und du straftest mich mit der Hölle Qualen</l>
+                  <l>Jetzt geb' ich zehnfach sie dir zurück,</l>
+                  <l>Jetzt sollst du zehnfach mir bezahlen!</l>
+                  <l>Hat dich mein Lächeln berückt?</l>
+                  <l>Bist in die Falle gegangen?</l>
+                  <l>Ist mir der Fang geglückt?</l>
+                  <l>Hab' ich dich gefangen?</l>
+                  <l>Hahahahahaha!</l>
+                  <l>Den Teufel hast du in mir geweckt,</l>
+                  <l>Den Dämon hast du beschworen,</l>
+                  <l>Der in jedem Weibe steckt,</l>
+                  <l>Der mit dem ersten Weib geboren!</l>
+                  <l>Hast mich gelehrt die Wollust der Gefahr,</l>
+                  <l>Hast mich gelehrt, mit Entsetzen zu spielen,</l>
+                  <l>Hast ertötet in mir, was menschlich war,</l>
+                  <l>Sollst nun meine teuflische Rache fühlen!</l>
+                  <l>Den Schlüssel – verstecken – –</l>
+                  <l>Niemand – niemand – entdecken – –</l>
+                  <l>Ah – kühl – kühl – tut wohl – tut wohl – –</l>
+                  <l>Zu Fra Girolamo will ich geh'n ...</l>
+                  <l>Der predigt so schön ...:</l>
+                  <l>Untergang ist dir geschworen!</l>
+                  <l>»Pest, Krieg vor deinen Toren – –</l>
+                  <l>Die Höll' ist los! Die Höll' ist los!«</l>
+                  <l>Tut Buße! Tut Buße!</l>
+                  <l>O Gott! Erbarmen!</l>
+                  <l>Misericordia! – Misericordia!</l>
+               </lg>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER LAIENBRUDER.</speaker>
+               <lg>
+                  <l>...Das war des Dramas Ende,</l>
+                  <l>Das End' der Faschingsnacht!</l>
+                  <pb n="31" facs="#f0030"/>
+               </lg>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <p>Und – Mona Lisa?</p>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <lg>
+                  <l>Von ihr gibt die Chronik fürder keine Kunde,</l>
+                  <l>Ihr Name ist verklungen</l>
+                  <l>Seit jener Stunde.</l>
+                  <l>Einzig ihr Bildnis lebt</l>
+                  <l>Und zwingt noch heut' die Herzen in den Bann.</l>
+                  <l>Das Haus der Greuel erbten später</l>
+                  <l>Die Brüder der »Certosa«,</l>
+                  <l>Und sie verwalten es</l>
+                  <l>Zu Nutzen einer frommen Stiftung.</l>
+               </lg>
+            </sp>
+            <sp who="#die_frau">
+               <speaker>DIE FRAU.</speaker>
+               <lg>
+                  <l>Nehmt – mein Bruder –</l>
+                  <l>Laßt eine Messe lesen</l>
+                  <l>Für's Seelenheil der <hi rendition="#i">armen</hi> Mona Lisa!</l>
+               </lg>
+            </sp>
+            <sp who="#der_fremde">
+               <speaker>DER FREMDE.</speaker>
+               <lg>
+                  <l>Der <hi rendition="#i">armen</hi>?</l>
+                  <l>Wir danken, Bruder.</l>
+               </lg>
+            </sp>
+            <sp who="#der_laienbruder">
+               <speaker>DER BRUDER.</speaker>
+               <lg>
+                  <l>Wer bist du? – – – Eva?</l>
+                  <l>Magdalena? – Bath-Seba? – – Versucherin!</l>
+                  <l>Mona – Lisa! – – Mona – Lisa!</l>
+               </lg>
+            </sp>
+            <trailer>Ende</trailer>
+            <pb n="32" facs="#f0031"/>
+         </div>
+      </body>
+   </text>
+</TEI>

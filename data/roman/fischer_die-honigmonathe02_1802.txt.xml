@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Die Honigmonathe</title>
+            <title type="volume">Bd. 02</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118890263">
+                  <forename>Karoline Auguste Ferdinandine</forename>
+                  <surname>Fischer</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T15:12:02Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004756789</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Fischer, Caroline Auguste/Romane/Die Honigmonathe</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/mx7p.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-A7CE-B</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Karoline Auguste Ferdinandine Fischer: Die Honigmonathe, Band 2, Posen und Leipzig 1802</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Die Honigmonathe</title>
+                  <title level="m" type="volume">Band 2</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118890263">
+                        <forename>Karoline Auguste Ferdinandine</forename>
+                        <surname>Fischer</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">198 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Johann Friedrich Kühn</name>
+                  </publisher>
+                  <pubPlace>Posen, Leipzig</pubPlace>
+                  <date type="publication">1802</date>
+                  <date type="firstPublication">1802</date>
+                  <date type="firstPublication" subtype="clariah">1802</date>
+                  <date type="firstPublication" subtype="zeno">1802</date>
+                  <date type="firstPublication" subtype="i5">1802</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1764"
+                        notAfter="1802"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#BFischer-Carolin-d1e7032">Erstdruck (anonym): Posen (Johann Friedrich Kühn) 1802.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Romane</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Roman</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Fischer-Carolin-d1e7032">
+            <p rend="h3">Zweyter Theil</p>
+         </div>
+      </front>
+      <body xml:id="BFischer-Carolin-d1e7032">
+         <div xml:id="Fischer-Carolin-d1e10133" type="chapter">
+            <head>Erster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Wilhelmine hat Dir geschrieben, Du weißt alles. Ach! ich halte nicht mehr die Menschen, welche Götter zu seyn glaubten, für wahnsinnig. Ja! lache nur! ich, ich selbst, dünke mich ein Gott. Meine Wunden? – o die sind geheilt! vergessen! Ich lebe, lebe ein Leben, was nur ein Gott leben und begreifen kann.</p>
+            <p rendition="#et">
+               <pb n="3" facs="#f0001"/>
+Siehe! ich darf sie halten, <hi rendition="#i">halten</hi> in meinen Armen! – darf mich berauschen in den himmlischen Zügen – darf sie <hi rendition="#i">mein</hi> nennen! – O Gott! wer hätte geglaubt, des Menschen Herz könne so viel Seeligkeit fassen! und darum sage ich Dir: ich bin ein Gott; ich kann alles was ich will.</p>
+            <p rendition="#et">Nein, es sind mehr als menschliche Kräfte, die mich beleben. Du hast es gehört, wir haben gesiegt; allenthalben gesiegt. Die Einnahme von B... war nur ein Vorspiel. Ich hatte ihr Wort, wußte, daß Sieg mich wieder zu ihr führte. – Wer konnte mich nun überwinden? –</p>
+            <p rendition="#et">Ach! bevor die Himmlische uns ergreift, <pb n="4" facs="#f0002"/>
+taumeln wir mit gefesselten Sinnen auf der herrlichen Erde; verstehen kein Rauschen des Waldes, kein Flöten der Nachtigall, sehen die Sonne steigen und sinken, und begreifen uns selbst nicht. Aber sie naht, und der Götterfunke hat gezündet. Lichtglanz ergießt sich über alles was uns umgiebt. Kein Stillstand, kein Tod mehr für uns. Wir können nur Leben begreifen, geben, und empfangen.</p>
+            <p rendition="#et">Gott sey gelobt! der Feldzug ist geendigt. Wir haben keine Feinde mehr; aber mögte die ganze Welt sie auch haben, <hi rendition="#i">ich</hi> kenne nur <hi rendition="#i">Freunde</hi>.</p>
+            <p rendition="#et">Verlange nicht, daß ich Dir beschreibe, aus einander setze. – Könnte ich es; so wäre <pb n="5" facs="#f0003"/>
+ich minder seelig. Wer kann das Unbeschreibliche beschreiben! –</p>
+            <p rendition="#et">Erräthst Du es nicht, nun, so lies es denn: Sie trägt schon meinen Nahmen. Er klingt anders seitdem; das behaupte ich, und Du selbst würdest es finden. Ich verführe die Leute, ihn so oft als möglich auszusprechen, und dann horche ich, und habe mein innigstes Wohlgefallen daran.</p>
+            <p rendition="#et">Ach sag was Du willst! lache wie Du willst! ich kehre mich nicht daran. Ich bin glücklich und seelig, und wenn Du mich sähest, würdest Du es auch seyn.</p>
+            <pb n="6" facs="#f0004"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10191" type="chapter">
+            <head>Zweyter Brief</head>
+            <p>Wilhelmine an Julie</p>
+            <p>Wie geht es Dir? Ich sollte wohl nicht darnach fragen; aber – rechne es unter meine Gewohnheitssünden. Ich? – Nun, abermalige Kämpfe. – Mein Herr Vater hielt nicht weniger als drey Heyrathsprojecte für <pb n="7" facs="#f0005"/>
+mich bereit, und wußte sich vor lauter Bewunderung nicht zu lassen.</p>
+            <p rendition="#et">Was er denn so sehr bewundert? Dich! Dich! Deine Klugheit, Weisheit, Nachgiebigkeit. Meine Mutter wollte einige Zweifel dagegen erheben; aber er fuhr sie so wahrhaft ehemännisch an, daß ich zu seinen Ermahnungen weiter keines Kommentars bedurfte.</p>
+            <p rendition="#et">Gottlob! ich bin mündig. Das Vermögen meines Oheims muß mir ausgezahlt werden, und dann säume ich keinen Augenblick. Das Guth ist verpachtet. Mögen sie zerstören, was ich angelegt habe. Was kümmert's mich! Meine Hoffnungen sind auch zerstört.</p>
+            <p rendition="#et">Hin will ich noch einmal, Deine Zimmer <pb n="8" facs="#f0006"/>
+will ich noch sehen. Das eine ist recht hübsch. Es ist gerade so, wie Du mir auf unserer Reise ein Zimmer beschriebest. Sie sollen es zuschließen. Niemand soll es bewohnen bis .... Nein! nein! nichts mehr! es ist alles vergeblich!</p>
+            <p rendition="#et">Schreib mir noch einmal, dann will ich reisen.</p>
+            <pb n="9" facs="#f0007"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10227" type="chapter">
+            <head>Dritter Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>Vormals schien mir meines Oliviers Schmerz der tiefste, jetzt scheint mir der Deinige noch tiefer. O meine Wilhelmine! was sprichst Du von zerstörten Hoffnungen? – Glaubst Du, <pb n="10" facs="#f0008"/>
+diese Hoffnungen würden jemals erfüllt worden seyn? – Glaubst Du, die Natur würde sich nicht rächen? – Hat sie zwey Weiber geschaffen sich alles zu werden, und ihre unwandelbaren Gesetze zu verspotten? –</p>
+            <p rendition="#et">Gewiß! Du würdest noch früher als ich, Dich elend gefühlt haben. Denn siehe, Dir kann ich es wohl vertrauen; ich habe niemals etwas von dem Erdenleben gehofft. Wie soll ich es Dir beschreiben? – Mir ist, als schweben nur Schattengestalten mir vorüber, als sey nichts wirklich von dem was mich umgiebt.</p>
+            <p rendition="#et">Töne, Farben, ja die gröberen Sinne des Geschmacks, des Geruchs, scheinen mir auf etwas Vollkommneres zu deuten. Wenn ich <pb n="11" facs="#f0009"/>
+eine Rose, eine Hyacinthe rieche, erwachen Ahnungen in mir, für die ich keinen Nahmen habe. Sehe ich schöne Gestalten, höre ich harmonisch verbundene Töne; dann verklären sich diese Ahnungen zur Gewißheit, und mir ist, als sollte ich plötzlich der Erde entfliehn.</p>
+            <p rendition="#et">Was mich dann noch hält, was mir dann hier noch wirklich erscheint, ist: ein stiller, heiliger Sinn, der sich stets zu dem Vollkommnen neiget; aber darum die Schattenfreude nicht störet.</p>
+            <p rendition="#et">O mögte ich ihn haben diesen Sinn! mögte ich ihn erhalten, wenn er mir einst zu Theil wird! leider! jetzt bin ich noch weit davon entfernt. Wie könnte sonst Andrer Schmerz <pb n="12" facs="#f0010"/>
+so schrecklich auf mich wirken? – Ist mir die Freude ein Schatten, warum ist er es nicht auch? warum reißt er mich hin zu Irrthümern? warum will ich dem Schicksale vorgreifen? –</p>
+            <p rendition="#et">Doch was schwatze ich! beste Wilhelmine! versuche keinen Sinn da hinein zu bringen. Es ist keiner darin. Gewiß keiner.</p>
+            <pb n="13" facs="#f0011"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10268" type="chapter">
+            <head>Vierter Brief</head>
+            <p>Wilhelmine an Julie</p>
+            <p>Wer bedarf des Lichts, wo es Tag ist? – Ich habe mir keine Mühe gegeben, Sinn in Deine Worte zu bringen. Für mich sind sie nicht dunkel. Auch begreife ich sehr wohl, daß Dir die Freude wie ein Schatten; aber nicht der Schmerz so erscheint.</p>
+            <p rendition="#et">Wollte der Himmel! ich begriffe eben so leicht, wie man sich berufen glauben kann, der ganzen Welt Schmerzen zu lindern, und <pb n="14" facs="#f0012"/>
+gegen seine eigenen die unmenschlichste Gleichgültigkeit zu behaupten.</p>
+            <p rendition="#et">Mag die Natur es verantworten, wenn sie ein Geschöpf dem Andern zum Opfer bestimmt. Aber das Opferthier darf sich wehren, es darf dem Verderben entfliehn. Auch in ihm regt sich der Trieb des Lebens, mahnet es zum Genuß und zur Erhaltung des Wohlseyns. Wer verspottet nun die Gesetze der Natur? wer wird dafür büßen? – –</p>
+            <p rendition="#et">Zwey Weiber können sich nicht alles seyn? – Schlimm genug? schlimm genug, daß die Geschöpfe welche den Weibern dieses sogenannte Alles seyn sollen, dieses Alles so elend repräsentiren.</p>
+            <p rendition="#et">
+               <pb n="15" facs="#f0013"/>
+Im ausschließenden Besitze dessen, was den Geist erheben, ihn zur Selbstüberwindung, zur Tugend entflammen kann, glauben sie sich zu den ausschweifendsten Leidenschaften berechtigt. Nenne mir ein Laster, was sie nicht an uns abscheulich, und an sich erträglich fänden? Nenne mir eine Tugend, die sie nicht von uns foderten, um sie nach Wohlgefallen zu zerstören.</p>
+            <p rendition="#et">Und die Natur sollte mich strafen; wenn ich mich nicht vor einem dieser Sultane niederwürfe, überglücklich, daß er mir die Gnade erzeigte, seinen Fuß auf meinen Nacken zu setzen? –</p>
+            <p rendition="#et">Nein! nein! noch haben wir unsre fünf Sinne! und was die Natur auch versuchen <pb n="16" facs="#f0014"/>
+mag sie zu empören, sie sind der Fesseln gewohnt, und ohnehin, unter allen Umständen, zu einer ewigen Sclaverey verdammt.</p>
+            <p rendition="#et">Ich habe nichts zu gewinnen; aber ein unschätzbares Guth zu verlieren. Meine Freyheit. Welch ein großes, seelenerhebendes Wort! Wo gäbe es ein Glück ohne sie! wo gäbe es einen Schmerz, den sie nicht linderte. Wenn mich alles verläßt, dann wird mein Herz mir die Welt.</p>
+            <pb n="17" facs="#f0015"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10315" type="chapter">
+            <head>Fünfter Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Warum verwechseltest Du mich immer mit Dir selbst? Lachen sollte ich? Was gäbe es da zu lachen? – Es sey denn, daß Du etwas lächerliches ahnetest. Wäre das; so müßte ich Dich bedauern, müßte glauben: Du sähest <pb n="18" facs="#f0016"/>
+schon jetzt die Zeit im Geiste, wo Dir das Höchste, was dem Menschen gegeben ist, wie ein Kinderspiel erscheinen wird.</p>
+            <p rendition="#et">Möge der Himmel Dich vor dieser thörichten Weisheit bewahren. Einen Freund hättest Du dann weniger.</p>
+            <pb n="19" facs="#f0017"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10339" type="chapter">
+            <head>Sechster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Warum nun gleich so kurz und so bitter? Wahrlich Du irrst! Ach wenn ich ein Spiel ahne; so ist es ein sehr ernsthaftes Spiel, und wobey ich leider der verlierende Theil seyn werde. –</p>
+            <p rendition="#et">Mein Glück hat mich berauscht, die Vergangenheit und die Zukunft habe ich vergessen. <pb n="20" facs="#f0018"/>
+Nur so ist es möglich glücklich zu seyn. – Aber der Rausch ist verschwunden, und dafür die Zweifelsucht mit allen Quaalen erwacht.</p>
+            <p rendition="#et">Wie? ist das Liebe, was sie mir zeigt? – Ist es Mitleid? Ist es Ergebung? – Zwar verzeihen wir den Weibern keine Ausbrüche der Sinnlichkeit; aber sollte sie sich darum niemals verrathen? Ist es bey wahrer Liebe möglich, jede Aufwallung zu unterdrücken? Und wenn auch eine ganze Reihe menschlicher Empfindungen diesem schwärmerischen Herzen vormals unbekannt war; mußten sie nun nicht erwachen? Ach was soll ich glauben? – Ihre Aufführung ist untadelhaft. Selbst Antonelli wird mit einer Art Kälte <pb n="21" facs="#f0019"/>
+empfangen. Aber ... ich weiß nichts hinzuzusetzen. Ich fühle es, ich bin ungerecht, und doch ruft eine Stimme in meinem Innern: es ist nicht so wie es seyn sollte.</p>
+            <p rendition="#et">Auch Antonelli ist verändert. Alle seine Munterkeit ist verschwunden. Was fehlt ihm? – Ich vermeide die Antwort auf diese Frage.</p>
+            <pb n="22" facs="#f0020"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10372" type="chapter">
+            <head>Siebenter Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Und, setze ich hinzu, Du wirst wohl thun, sie zu vermeiden. – Doch nein! lieber gleich das Messer an den Schaden! er könnte unheilbar werden.</p>
+            <p rendition="#et">Also – denn warum soll ich nicht schreiben, was Du denkst? – <hi rendition="#i">Antonelli hat seine Munterkeit verlohren</hi>, heißt mit andern Worten; er ist sich seiner Empfindung <pb n="23" facs="#f0021"/>
+bewußt, seine Unschuld ist dahin, er wünscht Julie zu besitzen, das ist nicht möglich, und er fühlt sich elend.</p>
+            <p rendition="#et">
+               <hi rendition="#i">Julie</hi>? ob sie Dich liebt? – Aber hat sie Dir Liebe versprochen? <hi rendition="#i">Ich achte Sie, und werde nie einem Andern gehören</hi>. Das waren ihre Worte. Hast Du sie vergessen? Woher kommen nun mit einemmale die Träume von Liebe?</p>
+            <p rendition="#et">Fasse Dich! was hilft der Zorn? was hilft die Reue? – Ich kenne Dich, und will Dich vor Dir selbst zu retten suchen.</p>
+            <p rendition="#et">Siehe, was vermagst Du über die Vergangenheit? nicht einen Gedanken, viel weniger eine Handlung kannst Du zurücknehmen. <pb n="24" facs="#f0022"/>
+Aber die ganze Zukunft, in so fern Dein Wille auf sie wirken kann, hängt von Dir ab. Darum nun fasse sie unerschrocken ins Auge! Was läßt sich von ihr erwarten?</p>
+            <p rendition="#et">Entweder Du erhebst Dich zur Gerechtigkeit, Du foderst nicht mehr, als sie versprach, und suchst zu verdienen, was Du wünschest. Mag immerhin ihre Sinnlichkeit für einen Andern sprechen, mag es ihr unmöglich seyn, lebhafter für Dich zu empfinden; ihre Pflicht wird die Oberhand behalten. Es ist nicht gedenkbar, es ist schlechterdings unmöglich, daß sie sich jemals zu etwas Unedlem herablasse. Worauf soll nun ein anderer Mann seine Hoffnung gründen? Und was wird aus einer <pb n="25" facs="#f0023"/>
+männlichen Liebe ohne Hoffnung? – Sie erstirbt, sie muß ersterben, und alles kehrt wieder in die ruhige Ordnung zurück.</p>
+            <p rendition="#et">Vielleicht bist Du so glücklich Vater zu werden. Dann ist sie mit tausend Banden an Dich gefesselt. Die ganze Kraft ihres Herzens wird sich in der Mutterliebe erschöpfen. Ihre Welt ist in Deiner Nähe, Du bist der Gott in dieser Welt, und was außerhalb ist wird ihr fremd.</p>
+            <p rendition="#et">So empfindet eine Julie; oder alles müßte mich täuschen.</p>
+            <p rendition="#et">Aber wie wird sie bey aller Reinheit und Vortrefflichkeit empfinden, wenn Du der Leidenschaft folgst?</p>
+            <p rendition="#et">
+               <pb n="26" facs="#f0024"/>
+Du ahnest Mangel an Liebe, und fühlst Dich unglücklich. Aber wird Mißtrauen, Härte und mürrische Kälte, das gewöhnliche Gefolge der Eifersucht, diesen Mangel ersetzen? – Wirst Du glücklicher seyn, wenn Du Furcht, dann Mißfallen und zuletzt Abscheu erregst? – O fort, fort mit den Greueln die ich jetzt ahne! Nein! nein! Du wirst, Du mußt das Beste erwählen.</p>
+            <pb n="27" facs="#f0025"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10435" type="chapter">
+            <head>Achter Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Es ist alles gut was Du sagst; aber es paßt nicht. Sie ist nicht so rein, wie Du glaubst. Grade diese Kälte verräth sie. Wenn sie mich, wenn sie ihr eignes Herz nicht fürchtete, warum blieb sie nicht wie vormals? Nur seit dieser abschreckenden Kälte ist Antonelli traurig, leidenschaftlich geworden.</p>
+            <p rendition="#et">Ach! ihre Sinnlichkeit ist erwacht! sie hat sich auf ihn gewendet, und seine Unschuld ist <pb n="28" facs="#f0026"/>
+ihr lästig. Er soll wünschen, kämpfen, ein Roman soll es werden! und das unter meinen Augen! Tod und Teufel! Ich müßte nicht ich selbst seyn, wenn ich es duldete!</p>
+            <p rendition="#et">Empfindungen kann ich nicht gebieten, das weiß ich; aber die Ehre kann ich retten, und bey meinem Leben! das werde ich nicht unterlassen.</p>
+            <pb n="29" facs="#f0027"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10463" type="chapter">
+            <head>Neunter Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Du antwortest nicht? – ich verstehe Dein Schweigen. Aber höre! höre und erstaune.</p>
+            <p rendition="#et">Ich wollte mit ihr auf meine Güther. Alles war zur Abreise bereit. Ich hatte sie gebeten, sich wegen der lästigen Besuche, für krank auszugeben.</p>
+            <p rendition="#et">Gestern wünscht sie in den Garten zu gehen. Auf meinen Befehl war er verschlossen. Aber der Gärtner glaubt, weil sie es ist, den Augenblick öffnen zu müssen, und, der Dummkopf schließt nicht wieder zu.</p>
+            <p rendition="#et">
+               <pb n="30" facs="#f0028"/>
+Antonelli kommt, frägt nach mir, der Bediente sieht den Garten offen, glaubt, ich sey darin, und läßt ihn hinein gehen.</p>
+            <p rendition="#et">Jetzt kehre ich von einem Besuche zurück, und höre das Alles. Seit einer Stunde war Antonelli in dem Garten. <hi rendition="#i">Seit einer Stunde</hi>! – Ich fasse mich, ich gehe hinein.</p>
+            <p rendition="#et">Es war seine Stimme. Laut rief er ihren Nahmen. Mein Blut wollte erstarren. Ich nähere mich der Laube, worinnen sie waren. Ja! ja! sie beide! allein –</p>
+            <p rendition="#et">Er hält sie bey ihren Kleidern. Sie will entfliehn, sieht mich, und stürzt, laut schreyend, mir in die Arme.</p>
+            <p rendition="#et">Ich dachte, die gegen einander kämpfenden <pb n="31" facs="#f0029"/>
+Empfindungen würden mich tödten. Sie bittet, fleht, ich möge sie auf ihr Zimmer bringen. Sie konnte nicht gehen, ich mußte sie tragen. Der unbesonnene Bube hat die Frechheit mir zu folgen, klagt sich laut an, spricht von einer unüberwindlichen Leidenschaft, sagt: er könne nicht leben, ohne sie zu sehen. –</p>
+            <p rendition="#et">Die Wuth verschließt mir den Mund; aber ich winke dem Kammerdiener. Er versteht mich. Der Wagen fährt vor, ich bringe sie hinein und wir rollen davon.</p>
+            <p rendition="#et">Also, keine Palliative! Ich bin bey meiner empfindlichsten Seite angegriffen, und thue was ich muß.</p>
+            <pb n="32" facs="#f0030"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10517" type="chapter">
+            <head>Zehnter Brief</head>
+            <p>Wilhelmine an Reinhold</p>
+            <p>Helfen Sie! helfen Sie schnell! Er hat sie auf seinen Güthern, sie ist eingesperrt, kein Mensch darf zu ihr. Alles, alles ist gekommen wie ich dachte! schlimmer als ich dachte. Antonelli, der Unglückliche! ist bey mir. Er liebt sie mit einer fürchterlichen Leidenschaft. Wahrscheinlich hat sie sich durch Kälte zu retten geglaubt und ihn dadurch aufs Äußerste gebracht.</p>
+            <p rendition="#et">
+               <pb n="33" facs="#f0031"/>
+Mit aller Unbesonnenheit, und Heftigkeit eines kunstlosen Herzens, hat er ihr seine Liebe gestanden, und Olivier, der ihn in dem Augenblick entdeckte, bis zur schrecklichsten Wuth aufgebracht.</p>
+            <p rendition="#et">Wenden Sie alles an, daß sie nicht leide, daß sie nicht hart behandelt werde. Oder ich kenne mich selbst nicht mehr, ich weiß nicht, zu welchen Mitteln ich greife.</p>
+            <pb n="34" facs="#f0032"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10545" type="chapter">
+            <head>Eilfter Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Ist es wahr? ist es möglich! was ich lese, was ich höre? So plötzlich ist es dahin gekommen? – Du hast nicht einmal den Willen, Dich zu beherrschen! klagst sie selbst an! <hi rendition="#i">Sie</hi> in der Du vormals die höchste Reinheit und Güte erkanntest. – Eine Buhlerin, eine gemeine Buhlerin, der die Unschuld eines junger Mannes lästig ist, soll sie geworden seyn? –</p>
+            <p rendition="#et">
+               <pb n="35" facs="#f0033"/>
+Wer hätte es wagen dürfen, Dir vor wenigen Monaten auch nur etwas ähnliches zu sagen? – wer dürfte es jetzt noch wagen, ohne mit seinem Leben dafür zu büßen?</p>
+            <p rendition="#et">Wie krank mußt Du seyn! daß Dir das Scheußlichste, das Unsinnigste als wahr erscheint.</p>
+            <p rendition="#et">Ich habe um Urlaub angesucht. Erhalte ich ihn; so eile ich zu Dir.</p>
+            <pb n="36" facs="#f0034"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10578" type="chapter">
+            <head>Zwölfter Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Komm' nicht! das Übel würde nur ärger. Ich dulde keinen Mann in ihrer Nähe. Kein Klügeln mehr! Ist die Ehre verlohren, dann kann ich vom Morgen bis zum Abend philosophiren, ich bekomme sie darum nicht wieder.</p>
+            <p rendition="#et">Ja, ich will es glauben, sie war rein, bis ich ihre Sinnlichkeit weckte. Aber jetzt – das verstehst Du nicht! Ein Weib ist ein Weib, und Natur ist stärker, als Vernunft.</p>
+            <p rendition="#et">
+               <pb n="37" facs="#f0035"/>
+Warum stürzte sie mir mit dieser Heftigkeit in die Arme? Woher diese Thränen, diese Todesblässe, und jetzt, dieser unüberwindliche Trübsinn. Ich sehe es, sie will sich darüber erheben; aber sie vermag es nicht.</p>
+            <p rendition="#et">Ist ihr Wille noch so rein wie vormals, was kann ihr dann fehlen? – Sie muß mir danken, daß ich sie gerettet habe, und scheinbar thut sie das auch. Aber im Innersten ihres Herzens wüthet das Gift – und in dem meinigen? – O es war Schicksal! wer konnte entrinnen? –</p>
+            <pb n="38" facs="#f0036"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10608" type="chapter">
+            <head>Dreyzehnter Brief</head>
+            <p>Wilhelmine an Reinhold</p>
+            <p>Antonelli ist fort. Gestern hörte er, Olivier habe R.... zu seinem Aufenthalte gewählt. An Zurückhalten, Überlegen, war gar nicht zu denken.</p>
+            <p rendition="#et">Ich habe ihm Friedrich nachgeschickt. Wo er seinen Bedienten gelassen hat? mag Gott wissen. Ich habe vergessen darnach zu fragen. Aber ihn nun wieder allein gehen zu lassen war mir unmöglich. Nicht wahr? ich habe Recht gethan?</p>
+            <p rendition="#et">
+               <pb n="39" facs="#f0037"/>
+Man sagt, sie dürfe nicht einmal schreiben. Es ist abscheulich. Meine Mutter weint, und mein Vater scheint alle Heyrathsanträge vergessen zu haben.</p>
+            <p rendition="#et">Ich kann nicht aus der Stelle. Alle meine Koffer sind gepackt. Aber was würde bey einer noch größern Entfernung aus mir werden. – Sähe ich nur eine einzige Zeile von ihrer Hand, wüßte ich nur, was sie jetzt denkt und empfindet – ich wollte mich fassen. Aber diese schreckliche Ungewißheit! – O! lange darf sie nicht dauern.</p>
+            <pb n="40" facs="#f0038"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10638" type="chapter">
+            <head>Vierzehnter Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Ob Deine Drohung mich abgehalten haben würde? weiß ich nicht; aber leider ist mir der Urlaub versagt.</p>
+            <p rendition="#et">Ich hoffe, es war nur Übereilung. Du wirst Dich nicht ganz der Leidenschaft hingegeben, <pb n="41" facs="#f0039"/>
+Du wirst Dir gestanden haben, daß alles, was Du von Ehre vorbrachtest, nur aus dem Bedürfniß entstand, Dich wenigstens scheinbar zu rechtfertigen.</p>
+            <p rendition="#et">Aber gut, ich nehme an: Du habest das Alles wirklich geglaubt; aber jetzt? – Ich bitte Dich! erspare die Reue und kehre zurück, weil es noch Zeit ist.</p>
+            <p rendition="#et">Gewiß ich kann von meinem Leben nicht überzeugter, als Du von der Nichtigkeit Deiner Besorgnisse seyn. Doch gesetzt, sie hätten irgend einen Grund; offenbarst Du dann Deine Schande nicht selbst, zeigst Du nicht, daß Du nur der Gewalt Deine sogenannte Ehre verdankst?</p>
+            <p rendition="#et">
+               <pb n="42" facs="#f0040"/>
+Welch eine geringe Meinung Deines Werthes! welch eine überwältigende Furcht: Du mögtest das Schlimmste verdient haben! – In der That, ich zweifle, ob Dich irgend jemand wegen eines auf diese Weise erhaltenen Gutes beneiden, und den Mann ohne Furcht in Dir erkennen wird.</p>
+            <p rendition="#et">Ich bitte Dich! nichts Kleinliches! nichts mehr was Deiner unwürdig ist. –</p>
+            <p>Nachschrift</p>
+            <p>Ich kann mich der Frage nicht erwehren: wie möchte es wohl gegangen seyn, wenn Du Julien nicht befohlen hättest krank zu werden? – Vielleicht wäre das Bekenntniß der Liebe <pb n="43" facs="#f0041"/>
+noch jetzt, noch in vielen Jahren, wahrscheinlich niemals über Antonelli's Lippen gekommen.</p>
+            <p rendition="#et">Willst Du; so wird es, trotz allem was geschehen ist, auch jetzt noch unwirksam. – Ich bitte Dich! wolle es! Du mögtest sonst mehr zu bereuen haben, als Du glaubst.</p>
+            <pb n="44" facs="#f0042"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10690" type="chapter">
+            <head>Funfzehnter Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Du hast immer Deinen Willen gehabt; wenn es Dir gelungen ist, mich im Voraus mit mir selbst zu versöhnen. Aber jetzt zweifle ich daran.</p>
+            <p rendition="#et">Du kennst sie nicht; sonst würdest Du manches nicht geschrieben haben.</p>
+            <p rendition="#et">Ja, ich gebe zu, die Leidenschaft hat mich verblendet. Es ist wohl manches von dem <pb n="45" facs="#f0043"/>
+was ich glaubte, nicht möglich. Aber ich, ich selbst weiß ja, wie man sie liebt, wie man kein Verbrechen scheut, wenn es auf ihren Besitz ankommt.</p>
+            <p rendition="#et">Sieh, bey andern Weibern bleibt noch immer die Hoffnung, man könne etwas Ähnliches, vielleicht gar etwas Besseres wieder finden. Aber bey ihr ist das schlechterdings unmöglich.</p>
+            <p rendition="#et">Diese Engelgestalt kehrt nicht zum zweytenmale wieder. Dieser stillsiegende Geist kann nur <hi rendition="#i">diesen</hi> Körper bewohnen.</p>
+            <p rendition="#et">Du solltest sie erwachen, Du solltest sie einschlummern sehen. – Es ist <hi rendition="#i">einzig</hi>. Letzt habe ich sie eine halbe Nacht beobachtet. Der <pb n="46" facs="#f0044"/>
+Mond schien ihr gerade in das Engelgesicht und – nun ja, ich nannte mich einen Verrückten, daß ich je etwas Unedles von ihr geglaubt hatte.</p>
+            <p rendition="#et">Aber hoffe darum nicht, daß ich sie fremden Augen wieder Preis gebe. Mein Glück ist zu groß, und das Schicksal um so tückischer.</p>
+            <p rendition="#et">Den groben Tagelöhnern fällt, wenn sie in ihre Nähe kommt, das Arbeitszeug aus den Händen. Den Sohn meines Gärtners habe ich wegschaffen müssen. Er stahl Schuhe, Bänder, und alles was er von ihrer Kleidung habhaft werden konnte, um das alles nachher wie Heiligthümer zu verehren. Brachte ganze<pb n="47" facs="#f0045"/>
+ Nächte im Garten, vor unserm Schlafzimmer, auf der feuchten Erde zu.</p>
+            <p rendition="#et">Wir wußten nichts davon. Der Bube hatte sich, seitdem ihn der Vater aus der Fremde kommen ließ, immer vor mir verborgen. Kaum sah ich ihn ein paar Mal im Vorüberlaufen.</p>
+            <p rendition="#et">Gestern Morgen öffnet Julie die Thür, und fliegt heftig erschrocken wieder zurück. »Was ist?« – frag ich nicht minder erschrocken, da ich die Todesblässe auf ihrem Gesicht bemerke. »Es lag ein Mann – antwortet sie, und taumelt mir zitternd entgegen – es lag ein Mann auf der Erde. Beynah wäre ich über ihn gefallen.« – »Wer untersteht <pb n="48" facs="#f0046"/>
+sich!« – ruf ich, und reiße die Thür auf – da sehe ich den Buben in die Wohnung seines Vaters fliehen.</p>
+            <p rendition="#et">Nun erzählt mir der Alte, wie oft er ihn gewarnt habe, wie aber alles fruchtlos gewesen sey. Er irre jetzt ganze Tage in dem benachbarten Walde umher, und kehre nur des Abends wieder zurück.</p>
+            <p rendition="#et">Es versteht sich, daß ich nun auf die Abreise drang. Seitdem habe ich den Tollkopf nicht wieder gesehen.</p>
+            <p rendition="#et">Jetzt läugne, daß ich zu strengen Maaßregeln gezwungen bin.</p>
+            <pb n="49" facs="#f0047"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10761" type="chapter">
+            <head>Sechzehnter Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Wer war der Gärtnerbursche? – O mein weiser Freund! das mögtest Du bey Deinem Sicherheits-System wohl schwerlich errathen. <hi rendition="#i">Der Herr Graf Antonelli</hi>.</p>
+            <p rendition="#et">Nun, was sagst Du dazu? – Auch ich, von Dir eingeschläfert, war dumm genug, nicht sogleich darauf zu verfallen. War dumm genug, nicht einzusehen, daß nur in einem südlichen, brennenden Gehirn der Gedanke entstehen <pb n="50" facs="#f0048"/>
+konnte, der Geliebten auf diese Weise zu nahen.</p>
+            <p rendition="#et">Ich weiß, wie das in diesem Kopfe lodert, kenne die Wünsche dieses kindischen, brennenden Herzens. Über ihn wegschreiten sollte sie. Von ihren Füßen wollte er berührt werden. – Ächt italienisch! – Ein deutscher Mann hat von dieser Selbstvernichtung, von diesem mit Leib und Seele zu eigen geben, keinen Begriff. Aber die deutschen Weiber können das alles gar treflich begreifen.</p>
+            <p rendition="#et">Wie ich es entdeckt habe? Wie man das meiste entdeckt; durch Zufall.</p>
+            <p rendition="#et">Gestern da ich an der Bleiche vorüber gehe, treibt mir ein feines gesticktes Tuch entgegen. <pb n="51" facs="#f0049"/>
+Ich halte es fest, und bemerke ein A. darinne. Noch denke ich nichts bestimmtes; aber in dem Augenblicke sehe ich des Gärtners Frau sich ängstlich zwischen der übrigen Wäsche umhertreiben, und dem Winde ein Stück nach dem andern abjagen.</p>
+            <p rendition="#et">»Wem gehört denn das alles?« – frage ich – »Meinem Sohne« – antwortet sie bluthroth, stotternd, und zitternd.</p>
+            <p rendition="#et">»Ist er noch nicht abgereist?« – »Ach Gott, nein! Er hat ein hitziges Fieber, und da war es doch nicht möglich.«</p>
+            <p rendition="#et">»Versteht sich! – Aber was für einen Arzt habt Ihr denn?«</p>
+            <p rendition="#et">»Einen Arzt? – Du lieber Gott!«</p>
+            <p rendition="#et">
+               <pb n="52" facs="#f0050"/>
+»Nun! Ihr werdet doch nicht wahnsinnig genug seyn den Menschen so liegen zu lassen? Euer einziges Kind so aufzugeben!« –</p>
+            <p rendition="#et">»Laßt mir den Alten kommen! oder – setze ich hinzu, indem ich rasch, ohne weiter auf sie zu hören, fortschreite – besser, ist besser!« Mit diesen Worten stehe ich an der Thür des Hüttchens; aber da fällt mir das A. wieder in die Augen, und ich trete einige Schritte zurück.</p>
+            <p rendition="#et">Indem kommt mir der Alte entgegen, und ich stürze nun mit einer Art von Wuth hinein zu dem Bette.</p>
+            <p rendition="#et">Da lag er, von Fieberhitze glühend. Nannte laut ihren Namen, klagte sich an, <pb n="53" facs="#f0051"/>
+klagte mich an, und wußte nicht, daß ich vor ihm stand.</p>
+            <p rendition="#et">»<hi rendition="#i">Das, das</hi> ist Euer Sohn!« – sage ich zu dem Alten, um mir durch einen Vorwurf Luft zu verschaffen.</p>
+            <p rendition="#et">»Ach gnädiger Herr! machen Sie mich armen Mann nicht unglücklich! Ich hätte kein Mensch seyn müssen« –</p>
+            <p rendition="#et">»Schweig! – sage ich – ich will nichts mehr hören. Geh' zum Haushofmeister. Er soll Leute herschicken und im rechten Flügel ein Zimmer bereit halten.«</p>
+            <p rendition="#et">Der Anblick hatte mich erschüttert. Das Herz hatte den Kopf überwältigt. Jetzt wollte ich den Alten zurückrufen; aber gewaltsam <pb n="54" facs="#f0052"/>
+fühlte ich mich wieder zum Bette hingezogen, und als ich abermals zur Thür gieng, war es zu spät.</p>
+            <p rendition="#et">Da stand ich nun, und mein böser Geist hielt mir den ganzen Brief der Mutter wieder vor Augen. <hi rendition="#i">Mit Todesangst übergebe ich Ihnen mein Alles</hi>. Ich strich und strich an meiner Stirne, und die Zeile wollte nicht fort.</p>
+            <p rendition="#et">Die Leute waren schon gekommen, er war schon in meinem, <hi rendition="#i">meinem eigenen</hi> Hause, eh ich das schreckliche Gewühl meiner Empfindungen entwickeln konnte.</p>
+            <p rendition="#et">Laß mich Athem schöpfen! Ein ander Mal.</p>
+            <pb n="55" facs="#f0053"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10862" type="chapter">
+            <head>Siebenzehnter Brief</head>
+            <p>Reinhold an Wilhelmine</p>
+            <p>Wissen Sie es schon? Antonelli ist krank, ist entdeckt. Der General selbst hat ihn in sein Haus genommen. O er ist mein Freund! und wird es ewiglich bleiben.</p>
+            <p rendition="#et">Sagen Sie! wie ist es möglich, einen Mann zu hassen, bey dem das Herz immer die Oberhand behält? –</p>
+            <p rendition="#et">Allerdings! auch wir hätten unter ähnlichen Umständen dasselbe gethan. Aber <hi rendition="#i">er</hi>! <pb n="56" facs="#f0054"/>
+mit seiner fürchterlichen Heftigkeit! mit seiner glühenden Eifersucht! – Nein! nein! es war schön! es war wirklich sehr edel.</p>
+            <p rendition="#et">Aber, welche Folgen wird es haben? – Ich zittre für Antonelli, für Julie, am meisten für ihn selbst. Wahrlich! das Schicksal nimmt ihn in eine harte Schule. Er, der seines Herzens so oft spottete, wie fürchterlich muß er dadurch büßen. Welch ein Labyrinth! Ich würde nicht hineingekommen seyn, daß darf ich wohl behaupten; aber <hi rendition="#i">ob</hi>, und <hi rendition="#i">wie</hi> ich mich wieder heraus finden würde? – In der That darauf weiß ich <hi rendition="#i">keine</hi> Antwort.</p>
+            <pb n="57" facs="#f0055"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10905" type="chapter">
+            <head>Achtzehnter Brief</head>
+            <p>Wilhelmine an Reinhold</p>
+            <p>Wenn Sie, mein theurer Freund! am Rande eines Abgrundes lustwandeln, sich noch dazu auf dem Wege berauschen, und alle Warnungen Ihrer Freunde nicht achten, so bedarf es keiner Inspiration, um zu wissen, wie es Ihnen gehen wird.</p>
+            <p rendition="#et">Wenn Ihnen aber die Abgründe, wie die starken Getränke von Natur zuwider sind, so <pb n="58" facs="#f0056"/>
+braucht niemand zu antworten, denn niemand wird fragen.</p>
+            <p rendition="#et">Der Herr General muß erndten, was er gesäet hat. Unser allgemeines Schicksal. – Wer sich darüber wundert, gehört in das Land der gebratenen Tauben.</p>
+            <p rendition="#et">Geben Sie mich auf! Sie sehen, das Bewundern wird mir eben so unmöglich, wie das Beklagen. Zu dem Ersten gehört immer eine angemeßne Entfernung von dem Gegenstande, zu dem Zweyten ein gewisser Grad von Hoffnung. Leider fehlt es mir an beyden, und ich bin daher selbst im hohen Grade zu beklagen.</p>
+            <p rendition="#et">Ihr Freund hat alle heitere Aussichten <pb n="59" facs="#f0057"/>
+meines Lebens zerstört. Mich nun unter seine Bewundrer aufnehmen zu lassen, würde in der That zu den Übermenschlichkeiten gehören, die ich, grade um sie recht bewundern zu können, so viel als möglich von mir entfernt halte.</p>
+            <p rendition="#et">Hätte das Jedermann gethan; so stünden die Sachen vielleicht etwas besser. Wie sie nach einigen Jahren, vielleicht schon nach einigen Monaten stehen werden, ist bey mir keinem Zweifel unterworfen. –</p>
+            <pb n="60" facs="#f0058"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10944" type="chapter">
+            <head>Neunzehnter Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Ob sie es weiß? Ob sie ihn erkannt hat? – Das frage ich mich des Abends, wenn ich die Augen schließe, und des Morgens, wenn ich sie wieder öffne.</p>
+            <p rendition="#et">Meine Leute haben den strengsten Befehl, seinen Namen nicht zu nennen. Auch wissen nur drey um die Sache. Doch wäre es möglich. –</p>
+            <p rendition="#et">Sie verräth eine Angst, eine Beklommenheit. – Ihr offner, heiterer Sinn ist gänzlich verschwunden. Oft, wenn ich unvermuthet hereintrete, finde ich sie tief in Gedanken versunken, <pb n="61" facs="#f0059"/>
+und nur meine Stimme weckt sie aus ihren Träumereyen.</p>
+            <p rendition="#et">Diese Schwermuth hat sie unbeschreiblich verschönert. Kein Band, keine Blume kommt in ihr Haar. Ach wer sie so sähe, um dessen Verstand wäre es geschehen.</p>
+            <p rendition="#et">Auf meinen Befehl trägt sie beständig einen Schleyer. Oft, wenn endlich die männlichen Bedienten entfernt sind, ich mir stundenlang den Genuß versagt habe, sie unverhüllt zu sehen, treibt mich mein Wahnsinn den Schleyer wegzureißen. Wie vom Blitze getroffen, stehe ich dann vor ihr.</p>
+            <p rendition="#et">Es ist eine neue Erscheinung. Ohne es zu wissen, habe ich diesen Engelzügen andre, <pb n="62" facs="#f0060"/>
+gemeine Züge untergeschoben, habe zur Lindrung meiner Schmerzen, mir ein andres, minder schönes Bild zusammengesetzt. Jetzt werden sie durch diesen einzigen Blick zur furchtbarsten Quaal wieder erhöht.</p>
+            <p rendition="#et">Mit Wuth, mit Todesangst fasse ich sie dann in meine Arme, stürze mit ihr fort in das entlegenste Zimmer, starre sie an, laufe auf und ab wie ein Rasender, presse ihre Hände gegen meine Brust, frage sie: ob sie mich liebt? ob sie mein ist? ob sie mein seyn will auf ewig?</p>
+            <p rendition="#et">Schwere Thränen rollen dann über das Engelgesicht. Ihr großes, zartes Herz fühlt dann alle meine Leiden. Sie sagt mir: daß <pb n="63" facs="#f0061"/>
+sie für mich leben und sterben, daß sie zur Erhaltung meiner Ruhe jeden menschlichen Anblick vermeiden will.</p>
+            <p rendition="#et">O! wie wird mir dann! Abermals fasse ich sie in meine Arme, hebe sie hoch gen Himmel, falle vor ihr nieder, verstumme, versinke mit namenloser Wonne in ihrem Anblick.</p>
+            <p rendition="#et">Aber plötzlich, dünkt mich, ich höre ein Geräusch. »Den Schleyer!« – ruf ich mit gepreßter Stimme. Reiße die Vorhänge zusammen, stürze durch drey, vier Thüren, schließe sie alle hinter mir zu, komme endlich hinaus – Niemand ist da, und ich erwache zu neuen Zweifeln und zu neuen Quaalen. –</p>
+            <pb n="64" facs="#f0062"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e10998" type="chapter">
+            <head>Zwanzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Er fängt an sich zu bessern, und der Arzt giebt Hoffnung. Was habe ich bey seinen Phantasien gelitten! – Er glaubte mit ihr vereinigt zu seyn, und schilderte seine Liebe unter glühenden Bildern. Aber dann war es, als ob er mich plötzlich erkannte, und eine gräßliche Vorstellung jagte die andre.</p>
+            <p rendition="#et">
+               <pb n="65" facs="#f0063"/>
+Gestern lag er wieder in einem halbwachen Traume, erkannte mich; aber nicht wie vormals, mit Schrecken. Er hielt meine Hand, nannte mich wieder seinen Vater, erzählte mir von seiner unglücklichen Liebe, beschwor mich, Mitleiden mit ihm zu haben, ihm ihren Anblick nur ein einziges Mal zu vergönnen. Er wolle dann alles, alles thun, was ich von ihm verlange.</p>
+            <p rendition="#et">Und ich? – O frag mich nicht? ich bin ein unglücklicher Mann.</p>
+            <pb n="66" facs="#f0064"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11025" type="chapter">
+            <head>Ein und zwanzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Was? bin ich ein Weib geworden? Soll dieser Knabe mich beherrschen? Er darf sie nicht sehen, er muß fort. Zwey können sie nicht besitzen. Meine Rechte sind die ältern, und ich habe mehr Nachsicht gehabt, als ich sollte.</p>
+            <p rendition="#et">Was irre ich herum bey Nacht und bey Tage? Was zweifle ich? was frage ich? Nur <hi rendition="#i">
+                  <pb n="67" facs="#f0065"/>
+Eins</hi> thut hier Noth, und dieß Eine muß geschehen.</p>
+            <p rendition="#et">Will ich Verzicht thun? Will ich es? – Rasender Gedanke! Will ich leben, ohne zu athmen? – und, liebt er sie wie ich? Wie viel Weiber kennt er, um die<hi rendition="#i"> Einzige</hi> zu würdigen.</p>
+            <p rendition="#et">Aber <hi rendition="#i">sie</hi>? – Wenn sie ihn erkannt hätte, wenn sie sich hingerissen fühlte von Jugend, von Schönheit, überwunden von diesem gänzlichen Dahingeben? – O! fort! fort! Zum Wahnsinn ist es noch Zeit genug.</p>
+            <pb n="68" facs="#f0066"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11064" type="chapter">
+            <head>Zwey und zwanzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Jetzt wollte ich Du wärest hier, Du könntest mir rathen. Begreife meine Angst! ihr ist nicht wohl. Ich habe mir den Fall niemals gedacht. Ihre blühende Gesundheit machte mich sicher.</p>
+            <p rendition="#et">Sie klagt nicht, läugnet wenn ich frage; aber der Augenschein straft sie Lügen.</p>
+            <p rendition="#et">Ach ist es ein Wunder! Seit vier Wochen hat sie keinen Athemzug frische Luft geschöpft. <pb n="69" facs="#f0067"/>
+O, ich Grausamer! Wie war es möglich! – Wenn es zu spät wäre, wenn sie krank würde. – Nein! nein! dahin kommt es nicht. Aber schnell muß man helfen. Helfen? – Wie, o mein Gott! – Soll ich sie ihm in die Arme führen? – Nichts! nichts! Keine weibische Schwäche! Er muß fort. Jetzt gleich, jetzt augenblicklich soll Anstalt gemacht werden.</p>
+            <pb n="70" facs="#f0068"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11093" type="chapter">
+            <head>Drey und zwanzigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>Wie lange habe ich Dir nicht geschrieben. Vergieb mir beste Wilhelmine! Ich war es meinem theuern Manne schuldig. Ach Du hast keinen Begrif wie er mich liebt, und wie viel er leidet durch diese Liebe. Wie sehr wäre ich ihrer unwürdig, suchte ich nicht alles zu vermeiden was irgend seiner Ruhe nachtheilig werden könnte.</p>
+            <p rendition="#et">Um jeden Zweifel zu entfernen bin ich sogar eine geraume Zeit nicht aus meinem <pb n="71" facs="#f0069"/>
+Zimmer gekommen, und wäre bald krank darüber geworden. Da hättest Du ihn sehen sollen! – O gewiß! ich muß um vieles besser werden, diese Liebe ganz zu verdienen.</p>
+            <p rendition="#et">Solltest Du glauben, ich würde noch von der gemeinsten Eitelkeit beherrscht? – Vor einigen Wochen öffne ich des Morgens die Thür unsers Schlafzimmers, und sehe einen Mann ausgestreckt auf der Erde liegen. Er hatte das Gesicht unter dem Arme verborgen; aber seine Gestalt blieb mir unvergeßlich.</p>
+            <p rendition="#et">Was ist das nun anders als Eitelkeit! – kann es nicht ein wahnsinniger Mensch gewesen seyn? können ihn nicht tausend mir unbekannte Ursachen, zu dem sonderbaren Entschlusse gebracht <pb n="72" facs="#f0070"/>
+haben, sein Nachtlager vor unsrer Thür zu wählen? Aber nein! die Eitelkeit – oder sollte es wirklich mein Herz seyn? – besteht darauf, um meinetwillen war er da, um meinetwillen ist er wohl oft schon da gewesen.</p>
+            <p rendition="#et">Sonderbar genug verwechsle ich ihn immer, durch eine gewisse Ähnlichkeit getäuscht, mit Antonelli. Mit Antonelli, der mich lange vergessen hat.</p>
+            <p rendition="#et">Ach wie sehr täuscht sich ein junger Mann in diesem Alter. Antonelli glaubte eine unüberwindliche Leidenschaft für mich zu fühlen, und nach einigen Wochen bin ich rein aus seinem Gedächtniß verschwunden.</p>
+            <p rendition="#et">Wenn ich nun meinem thörichten Herzen <pb n="73" facs="#f0071"/>
+gefolgt, und jetzt allen Quaalen der Selbstverachtung Preis gegeben wäre! – Aber Gott sey gelobet! ich bin gerettet.</p>
+            <p rendition="#et">Seit ich die milde herrliche Luft unter den Blüthenbäumen wieder athme, ist himmlischer Friede in mein Herz zurück gekehrt und alle meine Gefühle sind wieder dem Manne geweiht, der mich so einzig, der mich mehr liebt, als ich bis jetzt noch verdiene.</p>
+            <p rendition="#et">Wie sein herrlicher, großer Charakter sich mir alle Tage mehr entwickelt! So wie ein Mensch leidet, hört er auf sein Feind zu seyn und wäre er es auch Jahre lang gewesen. Wer hätte dieses tiefe Erbarmen unter dieser rauhen Hülle gesucht! – Wahrscheinlich hat<pb n="74" facs="#f0072"/>
+ ihn sein Stand gezwungen, so viel als möglich davon zu verbergen und sogar zu vertilgen.</p>
+            <p rendition="#et">Gewiß erscheint er auch seinen Leuten noch immer wie ein harter Mann. Aber ich, der er sich so ganz hingiebt, ich blicke in sein schönes Herz und bewundre ihn im Stillen.</p>
+            <p rendition="#et">O wie freue ich mich, daß dieses Herz mit allen seinen lieblichen Schwächen, in meine Hände gefallen ist. Ich will es schonen und ehren. Seine Leidenschaft soll mir heilig seyn, und wenn sie mir auch jemals als Haß erscheint; immer will ich denken: es war doch nur Liebe.</p>
+            <p rendition="#et">Jetzt eben gieng er von mir. »An wen schreibest Du?« – fragte er, und sah mich <pb n="75" facs="#f0073"/>
+forschend dabey an. »An Wilhelminen« – sagte ich lächelnd. »Klagst Du auch?« – fragte er weiter und eine rührende Trauer verbreitete sich über sein Gesicht. »Weswegen sollte ich klagen?« – antwortete ich heiter – »Etwa deswegen – setzte ich hinzu, indem ich seine Hand küßte – daß ich unbeschreiblich geliebt, weit mehr geliebt werde; als ich verdiene?« –</p>
+            <p rendition="#et">Ach die Worte kamen grade aus meinem Herzen. Sie schienen mir so einfach, und so wahr. Gleichwohl erschütterten sie ihn auf eine sonderbare Weise.</p>
+            <p rendition="#et">Der theure liebe Mann! wann wird er einmal zur Ruhe kommen? –</p>
+            <pb n="76" facs="#f0074"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11163" type="chapter">
+            <head>Vier und zwanzigster Brief</head>
+            <p>Wilhelmine an Julie</p>
+            <p>Gieb Dir keine Mühe! Ich bin zu gut unterrichtet um mich täuschen zu lassen. Aus freyen Willen wärest Du auf Deinem Zimmer geblieben? – Ja, ja! eine ganz gute Erfindung für Deine Bedienten. Aber bey mir – wie gesagt, Du kannst die Mühe ersparen.</p>
+            <p rendition="#et">Ließe mich auch jemand Jahr aus Jahr ein so viel freye Luft schöpfen, und so viele Briefe schreiben als mir beliebte; ich würde <pb n="77" facs="#f0075"/>
+dumm genug seyn mir einzubilden: dergleichen verstünde sich von selbst.</p>
+            <p rendition="#et">Eben so kläglich schicke ich mich zum Bewundern. Freund Reinhold kann Dir ein Lied davon singen.</p>
+            <p rendition="#et">Welche Disharmonie! In der That, nehme sich Dein Herz nicht manchmal die Freyheit, Dir ein Wörtchen zuzuflüstern, unsre Freundschaft würde zum Räthsel. Aber bey diesen Einschiebseln, die Dir wahrscheinlich als Unregelmäßigkeiten erscheinen, fliegt Dir das Meinige wieder zu. Ich triumphire, daß Dir die hochbelobte Kunst unsrer französischen Gouvernante de corriger la nature noch nicht gelungen ist.</p>
+            <p rendition="#et">
+               <pb n="78" facs="#f0076"/>
+Doch wer weiß! mit der Zeit kann alles noch werden. Hast Du doch schon mit Hülfe dieser Kunst herausgebracht: Antonelli habe Dich vergessen, habe Dich <hi rendition="#i">vielleicht</hi> niemals geliebt.</p>
+            <p rendition="#et">Ja! ja! die <hi rendition="#i">Vielleichts</hi> machen einem viel zu schaffen. Wollte der Himmel, ich wäre mit denen, die mir noch auf dieser kleinen schwerfälligen Erde übrig bleiben, schon fertig, dann könnte ich Dir bey den Deinigen helfen.</p>
+            <p rendition="#et">Ob ich jetzt immer so lustig bin? O ganz erschrecklich! Du siehst die Spuren der Freude hier auf dem Papiere.</p>
+            <pb n="79" facs="#f0077"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11210" type="chapter">
+            <head>Fünf und zwanzigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>Die Spuren waren von Thränen. O meine Wilhelmine! noch immer grämst Du Dich; bestehst darauf: ich sey unglücklich. Warum hältst Du diese Vorstellung so fest? Das Gegentheil ist ja doch möglich, und wird sogar immer wahrscheinlicher.</p>
+            <p rendition="#et">Auch ich, Geliebte, habe manches über <pb n="80" facs="#f0078"/>
+mein künftiges Leben nachgedacht. Hätte ich hoffen können, mit einem Manne, den ich leidenschaftlich liebte, glücklich zu werden; wer wüßte was ich gethan haben würde. –</p>
+            <p rendition="#et">Aber welchen Grund konnte ich dieser Hoffnung geben. Alles belehrte mich, daß es auch dem besten Manne unmöglich wird, leidenschaftliche Liebe an einem Weibe zu ertragen, daß Leidenschaft und Weib, ihm eben so widrig klingt, wie Häßlichkeit und Weib, und daß, wo diese traurige Disharmonie sich findet, an kein Glück zu denken ist.</p>
+            <p rendition="#et">Wie wäre es auch möglich? Haben wir uns einmal dem männlichen – für uns wahnsinnigen Gedanken – überlassen: <hi rendition="#i">genießen</hi>
+               <pb n="81" facs="#f0079"/>
+zu wollen; so achten wir keine Schranken. Von einer feinern Organisation, weit mehr als die Männer, zum Streben nach dem Unendlichen getrieben, wollen wir nun eine Verbindung, die unter zwey unvollkommnen Wesen, nicht einmal in der Idee bestehen kann.</p>
+            <p rendition="#et">Alle Täuschungen des Wissens, der Ruhmsucht und der thierischen Sinnlichkeit, mit welchen sich die Männer, oft bis an ihr Ende, so glücklich betäuben, sind bey uns nicht wohl möglich.</p>
+            <p rendition="#et">Wir fühlen nun mit allen Kräften unsers Wesens: daß die Verbindung <hi rendition="#i">Zweyer</hi>, oder <hi rendition="#i">Aller</hi> zu <hi rendition="#i">Eins</hi>, der Zweck aller Schöpfung seyn muß. Die Zeit, wo wir den trüben <pb n="82" facs="#f0080"/>
+Dunstkreis unsrer Erde zu einem vollkommnern Leben durchbrechen werden, ist für uns schon verflossen.</p>
+            <p rendition="#et">Eins! eins wollen wir seyn mit dem Geliebten. Kein Gedanke, keine Ahnung soll uns entgehen. Ein ewiger seeliger Tausch, Zusammenklang alles Wissens und Begehrens. Ach! schon mitten in diesem höchsten Wunsche werden wir plötzlich durch die schreckliche Wirklichkeit unterbrochen, und sinken zurück – – – unter die Herrschaft eines Mannes.</p>
+            <p rendition="#et">Während wir uns so in, ja über den Wolken umhertrieben, wie fürchterlich hat sich diese Herrschaft ausgedehnt! Gleichwohl macht sie den, der sie ausübt, nicht glücklich.</p>
+            <p rendition="#et">
+               <pb n="83" facs="#f0081"/>
+Mit ganz andern Wünschen und Hoffnungen war er zu uns gekommen. Selbst von den Leidenschaften irre geführt, suchte er ein Wesen, das über alle Leidenschaft erhaben, ihm himmlischen Frieden entgegen brächte. In dieser seeligen Stille wird sein Wille sich läutern, sein Verstand von nun an das Beste erwählen.</p>
+            <p rendition="#et">Schon der Anblick dieses Wesens, das rein und vollendet aus den Händen der Natur hervorgieng, hebt ihn über sich selbst. Alles was er mühsam erlernte, ward diesem Wesen angebohren. An Verstand und Willen weit über ihn erhaben, ist es dennoch mit dem beseeligenden Irrthume begabt: es werde in beyden<pb n="84" facs="#f0082"/>
+ von ihm übertroffen. Was hat er zu fürchten? Es ist die liebende Einfalt, der er sich übergiebt.</p>
+            <p rendition="#et">Aber wie schrecklich wird er selbst nun aus diesem Traume erweckt. Statt heiterer, seeliger Stille, findet er leidenschaftliche Unruhe. Hört Foderungen, Klagen. – Ach! Rechenschaft soll er geben von seinen Empfindungen. Man will sie wägen und prüfen. O Gott! statt ertragen zu werden, soll er tragen. Er kann es nicht, sein ganzes Gefühl empört sich dagegen.</p>
+            <p rendition="#et">Um seine Leiden aufs höchste zu bringen sieht er nun noch die Schönheit entfliehen. Die <hi rendition="#i">Schönheit</hi>, ohne die er die Weiblichkeit <pb n="85" facs="#f0083"/>
+nicht denken kann, mit der er die ganze Weiblichkeit ausspricht.</p>
+            <p rendition="#et">Es ist zu viel! er muß sich rächen! – Ach, er hat sich schon gerächt, er ist schon ein Tyrann, eh er es selbst nur ahnet. Die unglücklichen Weiber! Hätten sie gestrebt liebenswürdig – <hi rendition="#i">der Liebe würdig</hi> – zu seyn, statt Liebe zu fodern; sie hätten das, was sie wünschten, und vielleicht weit mehr noch erhalten.</p>
+            <pb n="86" facs="#f0084"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11296" type="chapter">
+            <head>Sechs und zwanzigster Brief</head>
+            <p>Wilhelmine an Julie</p>
+            <p>Liebenswürdig? – Hm! nicht übel. Nun ja, mit dieser Kleinigkeit sind die Männer so ganz leidlich zufrieden. Freilich gehört dazu eine andre Kleinigkeit: die unverwelkliche Schönheit und Jugend. Unglücklicher Weise, hat es meiner theuern Freundin nicht beliebt, anzuzeigen, wie man sich diese Kleinigkeit erhalten, oder, wenn man sie nicht hat, die Götter zwingen kann, sie zu verleihen.</p>
+            <p rendition="#et">Ja! ja! wer kann an alles denken? – <pb n="87" facs="#f0085"/>
+Ihr unglücklichen Geschöpfe, die ihr weder das Eine noch das Andre habt, verzweifelt nur. Mag eure Zahl Legion heißen, ihr seyd zum Elende gebohren.</p>
+            <p rendition="#et">Vormals standet ihr noch in dem tröstlichen Wahne, ihr könntet den Männern durch Tugend ersetzen, was die Natur euch an Schönheit versagt hatte; aber jetzt! – euer Urtheil ist gesprochen! So wie eure Schönheit verwelkt, hört ihr auf Weiber zu seyn. Dann sterben die Blumen; aber euch zwingt die Natur zum martervollen Leben. Leitet nur den herabfahrenden Blitz zu euren Herzen. Oder, wenn er mit der Natur im tückischen Bunde, euch nicht treffen will, suchet nur in den Fluthen <pb n="88" facs="#f0086"/>
+euer Grab. Die beste Welt bleibt dennoch die beste.</p>
+            <p rendition="#et">Leb wohl! Du hast mich erbittert. Ich glaube gar, ich kann aufhören Dich zu lieben. Du bist zu unsern Feinden, zu den Männern übergegangen, und fängst an, eben so methodisch zu .... pfuy! das war häßlich.</p>
+            <p rendition="#et">Ach! da kommt mir ein glücklicher Gedanke! Künftig werde ich statt <hi rendition="#i">häßlich</hi>, immer <hi rendition="#i">männlich</hi> setzen. Nicht wahr? es ist eben so gleichbedeutend, wie<hi rendition="#i"> schön</hi> und <hi rendition="#i">weiblich</hi>. Komisch wäre es, wenn das<hi rendition="#i"> Häßlichste</hi> immer das Männlichste wäre. –</p>
+            <p rendition="#et">Was meinst Du dazu?</p>
+            <pb n="89" facs="#f0087"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11350" type="chapter">
+            <head>Sieben und zwanzigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>Ich meine, Wilhelmine, die da glaubt erbittert zu seyn, und die nie aufhören wird mich zu lieben, könne wohl, ein wenig ab- und zugerechnet, nicht so ganz Unrecht haben. Unter dieses Wenige gehört vorzüglich, alles was man den Windeln, Schnürbrüsten und Ausschweifungen zuschreiben muß. In der That, es wäre ungerecht, dieses sowohl, als mehreres, was Verzärtlung und Verwahrlosung der weiblichen Schönheit geraubt haben, auf die Natur zu werfen.</p>
+            <p rendition="#et">
+               <pb n="90" facs="#f0088"/>
+Nimm dieß weg, Geliebte, und – so übertrieben es auch klingen mag – ich wage es, zu behaupten: daß es Dir schwer, ja vielleicht unmöglich werden soll, ein wirklich häßliches Mädchen zu finden.</p>
+            <p rendition="#et">Reise nach H...., gehe in das Haus der liebenswürdigen R...., siehe hier zwanzig Mädchen, die unter ihrer Aufsicht doch nur seit ihrem siebenten, achten Jahre erzogen werden, und widersprich mir, wenn Du kannst.</p>
+            <p rendition="#et">Wie schnell die Natur ersetzt und verbessert, wenn man ihr nur nicht zu anhaltend widerstrebt, geht beynahe in das Unglaubliche.</p>
+            <p rendition="#et">Aber das alles rechtfertigt mich nicht in Deinen Augen. Dein liebevolles Herz empört <pb n="91" facs="#f0089"/>
+sich gegen die Grausamkeit eines doppelten Todes. Du vergiebst mir nicht, daß ich die Weiblichkeit mit der Schönheit verschwinden lasse. Gleichwohl bestätigst Du, kurz darauf, dieß, und weit mehr.</p>
+            <p rendition="#et">Ja es ist schrecklich; aber es ist wahr: die Sinnlichkeit kann uns auch nicht einmal Augenblicke befriedigen. In dem gegenwärtigen müssen wir vor dem künftigen zittern. Welcher Gott wird uns helfen? – In uns ist der Gott. »Erfülle deine Bestimmung« spricht er – aber suche dich über alles Sinnliche zu erheben. Dann bist du frey und seelig.</p>
+            <pb n="92" facs="#f0090"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11388" type="chapter">
+            <head>Acht und zwanzigster Brief</head>
+            <p>Wilhelmine an Julie</p>
+            <p>Ach Du bist besser als ich! das weiß ich wohl und habe es immer gewußt, so wie ich alles, was Du mir sagst, lange gefühlt habe. Darum wollte ich mich an Dich schließen, in Dir alles wiederfinden, hätte es gefunden.</p>
+            <p rendition="#et">Geh! geh! Du hast doch nicht recht an mir gehandelt. Mein Verstand mag Dich rechtfertigen, mein Herz wird Dich ewig verklagen.</p>
+            <p rendition="#et">Morgen will ich reisen.</p>
+            <pb n="93" facs="#f0091"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11415" type="chapter">
+            <head>Neun und zwanzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Dieser Mensch bringt mich noch um, mit seiner glühenden Phantasie. Meinst Du, er verberge irgend eine Empfindung vor mir? Mit einer Heftigkeit, mit einem verzehrenden Feuer spricht er sie aus, reißt mich hin, überwältigt mich. Oft habe ich, zu meinem eignen Schrecken, mich selbst, und alles, was ich zu fürchten hatte, vergessen.</p>
+            <p rendition="#et">Wenn endlich meine innere Quaal aufs höchste steigt, meine Wuth über seine glühenden <pb n="94" facs="#f0092"/>
+Schilderungen hervorbrechen will, ergreift er mich plötzlich mit seiner gewaltigen Liebe.</p>
+            <p rendition="#et">Ich, ich selbst bin es nun, den er schildert. Mit allen meinen Leiden, mit allen meinen schrecklichen Fragen und Zweifeln.</p>
+            <p rendition="#et">Im höchsten Erstaunen sehe ich ihn in das Innerste meines Herzens dringen, Gefühle entwickeln, für die ich bis jetzt keinen Namen hatte, Begebenheiten hervorrufen, die ich verworren nur ahnete.</p>
+            <p rendition="#et">In dem Augenblicke, wo ich ihn dann mit meinen Händen zerreißen mögte; weil er sie alle nennt, meine Marter, in dem Augenblicke fällt er ein mit seiner seelenerschütternden Klage. Mein Grimm löst sich in Wehmuth <pb n="95" facs="#f0093"/>
+auf, er stürzt in meine Arme, und, ohne es zu wollen, drücke ich ihn fest an mein Herz.</p>
+            <p rendition="#et">Aber ihn hier zu behalten, war mir unmöglich. Alle seine Bitten vermogten nichts, er mußte sich ergeben. Gleichwohl bestand er mit einem unerhörten Trotze darauf, sich nicht weiter als eine halbe Stunde von hier zu entfernen.</p>
+            <p rendition="#et">Nun drohte ich mit meiner eignen Abreise. »Thue es – sagte er – und wenn Du bis an das Ende der Welt gehst; ich folge Dir nach.«</p>
+            <p rendition="#et">»<hi rendition="#i">Mir</hi>?« – wiederholte ich mit Bitterkeit.</p>
+            <p rendition="#et">»Ja <hi rendition="#i">Dir</hi>! Meinst Du, ich könne ohne <pb n="96" facs="#f0094"/>
+Dich, Du ohne mich leben? – Wer versteht Dich, wer tröstet, wer liebt Dich wie ich?«</p>
+            <p rendition="#et">»Bestechungen!«</p>
+            <p rendition="#et">»Wehe Dir, wenn Du es glaubst!« –</p>
+            <p rendition="#et">»Ich werde schon Mittel finden.« –</p>
+            <p rendition="#et">»Sie helfen Dir nichts.«</p>
+            <p rendition="#et">»Was unterstehst Du dich? –</p>
+            <p rendition="#et">»Ich unterstehe mich, das Unmögliche unmöglich zu nennen. Mache was Du willst! uns scheidest Du nicht.«</p>
+            <p rendition="#et">»<hi rendition="#i">Uns</hi>?« –</p>
+            <p rendition="#et">»Ja! <hi rendition="#i">uns</hi>.«</p>
+            <p rendition="#et">»<hi rendition="#i">Sie</hi> meinst du.«</p>
+            <p rendition="#et">»Wenn ich sie meinte; würde ich es sagen.«</p>
+            <p rendition="#et">»Du liebst sie.«</p>
+            <pb n="97" facs="#f0095"/>
+            <p rendition="#et">»Nein, <hi rendition="#i">Dich</hi> liebe ich, <hi rendition="#i">sie</hi> bete ich an.«</p>
+            <p rendition="#et">»Und das soll ich dulden?«</p>
+            <p rendition="#et">»Kannst Du es ändern?«</p>
+            <p rendition="#et">»Nicht in mein Haus!«</p>
+            <p rendition="#et">»Das verspreche ich Dir.«</p>
+            <p rendition="#et">»Nicht in meinen Garten!«</p>
+            <p rendition="#et">»Auch das.«</p>
+            <p rendition="#et">»Noch auf die Anhöhe!«</p>
+            <p rendition="#et">»Sie gehört Dir nicht.«</p>
+            <p rendition="#et">»Ich werde sie kaufen.«</p>
+            <p rendition="#et">»Ich habe sie schon gekauft.«</p>
+            <p rendition="#et">»Das hast Du gethan, um sie zu sehen, um von ihr gesehen zu werden.«</p>
+            <p rendition="#et">»Das Letzte ist nicht wahr, auch ist es unmöglich.«</p>
+            <p rendition="#et">
+               <pb n="98" facs="#f0096"/>
+»Aber <hi rendition="#i">Du</hi> willst sie sehen.«</p>
+            <p rendition="#et">»Ja, weil es Dir nicht schadet.«</p>
+            <p rendition="#et">»Es beunruhigt mich.«</p>
+            <p rendition="#et">»Und mich tödtet es, wenn ich sie nicht sehe. Was willst Du lieber?« –</p>
+            <p rendition="#et">»Du trotzest!«</p>
+            <p rendition="#et">»Nein. Das <hi rendition="#i">sagst</hi> Du nur, Du, <hi rendition="#i">glaubst</hi> es nicht. Sieh mich an! ist es wahr, daß ich ohne sie nicht leben kann? ist es wahr, daß es mir unmöglich ist, jemals etwas Schlechtes zu wollen? ist es wahr, daß ich Dich liebe, daß ich mein Leben für Dich lassen würde?«</p>
+            <p rendition="#et">Ach! dann sehe ich in sein großes, schwarzes Auge, und verstumme.</p>
+            <pb n="99" facs="#f0097"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11597" type="chapter">
+            <head>Dreyßigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>Wo bist Du jetzt, meine Geliebte? Zürnst Du noch mit Deiner Julie? Nein! nein! Du irrst Dich in Dir selbst. Weder Dein Verstand, noch Dein Herz klagt mich an. Wir lieben uns, und werden uns ewiglich lieben.</p>
+            <p rendition="#et">
+               <pb n="100" facs="#f0098"/>
+Noch immer kann ich mich nicht von Deiner Abreise überzeugen. Mich dünkt sogar, Du wärest in meiner Nähe. Besonders wenn ich in den Garten trete, überfällt mich ein wunderbar sehnsüchtiges Wonnegefühl.</p>
+            <p rendition="#et">Ach es ist der Duft von den vielen, köstlichen Pflanzen, der geheimnißvolle Schatten dieser hohen unnachahmlich schönen Bäume. Wirklich, unser Garten ist ein Paradies. Ob er gleich beynahe drey Viertelstunden im Umfange hat, wollte ihn mein lieber Mann doch noch durch eine benachbarte Anhöhe vergrößern. Aber sie ist leider schon verkauft, und so werden wir wohl Verzicht darauf thun müssen.</p>
+            <p rendition="#et">Wie sonderbar! sonst war ich mit so Wenigem <pb n="101" facs="#f0099"/>
+zufrieden, hätte mich bey einem einzigen kleinen Blumenbeete überglücklich gefunden. Jetzt, seitdem von der Anhöhe gesprochen ist, denke ich nur immer: wie viel schöner unser Garten seyn müßte, wenn er sie mit umschlösse.</p>
+            <p rendition="#et">Diese wunderliche Grille beherrscht mich sogar im Schlafe. Letzt dünkte mich, ich werde von einer unsichtbaren Kraft weit über die Mauer unsers Gartens gehoben, und plötzlich auf der Anhöhe niedergelassen.</p>
+            <p rendition="#et">Es war eine andre Welt. Himmlische Kinder wandelten darauf. Ihr Gesicht blühte wie Rosen im Morgenlichte. Ein glänzendes Flügelpaar erhob sich über ihre Schultern. <pb n="102" facs="#f0100"/>
+Schnell, wie Gedanken, eilten sie hin und her und streiften an meiner Wange vorüber wie Frühlingshauche.</p>
+            <p rendition="#et">Jedesmal, wenn sie mich so berührten durchdrang mich ein unaussprechliches Wonnegefühl.</p>
+            <p rendition="#et">Endlich flogen sie alle auf mich zu, schlossen mich in einen dichten Kreis, und tanzten mit unglaublicher Schnelligkeit um mich her.</p>
+            <p rendition="#et">»Wir wechseln das Leben! wir wechseln das Leben!« – so sangen sie.</p>
+            <p rendition="#et">Aber mit einem Male ward ich von einem kalten Hauche angeweht. Kein Tanz mehr, kein Gesang. Die Kinder standen unbeweglich. Ich eile auf sie zu, da sind sie plötzlich in <pb n="103" facs="#f0101"/>
+Blumen verwandelt und ich erwache mit einer Art wehmüthig süßem Schauder.</p>
+            <p rendition="#et">Unser Fenster stand offen, und der Duft eines großen Rosenstrauchs ward vom Winde in das Zimmer getrieben. Der kalte Schauder, die Blumen, das alles war also mehr als begreiflich. Gleichwohl finde ich noch immer wer weiß wie viel Wunderbares in diesem Traume, und eile, sobald ich in den Garten komme, zuerst nach dem Orte, wo ich die Anhöhe sehen kann.</p>
+            <p rendition="#et">Hier sitze ich oft ganze Stunden, und denke nichts als den Traum. Dann ergreift mich eine Bangigkeit, eine Sehnsucht. – Letzt – kannst Du Dir etwas kindischeres denken! – <pb n="104" facs="#f0102"/>
+glaubte ich meinen Nahmen von dort her zu hören. Schnell springe ich auf, eile mit ausgebreiteten Armen durch das Gebüsch, und denke nicht eher an die Mauer, bis ich dichte davor stehe.</p>
+            <p rendition="#et">Mit gefalteten Händen, als geschehe mir Wunder welch Unglück, kehre ich nun wieder um, und ein Strom unaufhaltbarer Thränen stürzt über meine Brust.</p>
+            <p rendition="#et">Nicht wahr? das sieht dem Wahnsinne sehr ähnlich. Gewiß, ich bin krank. Ich muß mit einem Arzte sprechen.</p>
+            <pb n="105" facs="#f0103"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11666" type="chapter">
+            <head>Ein und dreyßigster Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Gestern war T... bey mir. Ich wollte meinen Augen kaum trauen. Seit er zum Günstlinge erhoben ist, habe ich ihn nicht gesehen. Seine hämischen Anmerkungen über Dich führten oft Streit herbey, und so war ich recht wohl damit zufrieden.</p>
+            <p rendition="#et">
+               <pb n="106" facs="#f0104"/>
+Nun aber gestern überfällt er mich plötzlich mit einem ganzen Heere Schmeicheleyen und Freundschaftsversicherungen. Ich lächle, mache einen stummen Bückling über den andern und vertiefe mich so hartnäckig in die Zeremonien, daß ich ihn nach einer Viertelstunde ziemlich in die gehörige Entfernung bringe.</p>
+            <p rendition="#et">Gleichwohl erfolgen nun eine Menge Hof-Stadtneuigkeiten, Erkundigungen nach Dir. – »Wie sich der König sehne Dich einmal bey sich zu haben. Wie es gar nicht artig sey, so spröde zu thun. Das alles würde Dir nichts helfen. Man könne Dich aufsuchen.«</p>
+            <p rendition="#et">Ich erschrack, und fieng an zu sondiren. <pb n="107" facs="#f0105"/>
+»Ja, ich selbst wisse am besten, wie viel an dem eigentlichen Frieden noch fehle. So still werde es nicht abgehen. Ein paar Feldzüge müsse man noch in den Kauf geben. Der König werde Dir das alles schon begreiflich machen und hoffe, Du werdest nicht aufhören, Dein Vaterland zu lieben.«</p>
+            <p rendition="#et">»Darüber ist kein Zweifel; – antwortete ich – aber mich dünkt, man könnte ihn in Ruhe lassen. Für ein Menschenleben hat er genug gethan, und die andern Herren sind ja auch keine Feinde vom Hinaufrücken.«</p>
+            <p rendition="#et">»Ach ja! wenn es nur auf das Rücken ankäme.« –</p>
+            <p rendition="#et">»Nun das Andre wird sich auch finden!«</p>
+            <p rendition="#et">
+               <pb n="108" facs="#f0106"/>
+»Man hat's gesehen!« –</p>
+            <p rendition="#et">»Olivier ist kein Freund vom Kriege.«</p>
+            <p rendition="#et">»Darüber erstaunt man.«</p>
+            <p rendition="#et">»Mich dünkt ohne Grund. Er suchte Lorbeeren; jetzt hat er mehr als er bedarf.«</p>
+            <p rendition="#et">»Aber das Vaterland!« –</p>
+            <p rendition="#et">»Eben das Vaterland – sagt er – braucht Ruhe.«</p>
+            <p rendition="#et">»Das Wort klingt komisch in seinem Munde! – Männer, Frauen und Mädchen nannten ihn vormals den <hi rendition="#i">Unruhigen</hi>.« –</p>
+            <p rendition="#et">»Die Zeiten ändern sich; warum sollten sich die Menschen immer gleich bleiben?« –</p>
+            <p rendition="#et">Er antwortete mit seinem gewöhnlichen Faunenlächeln, umarmte mich, zu meinem <pb n="109" facs="#f0107"/>
+großen Leiden, einmal über das andere, und empfahl sich mit einem Epigramm.</p>
+            <p rendition="#et">Ich setze nichts weiter hinzu. Du selbst mußt am besten wissen was dabey zu thun ist. Rathen kann ich Dir nicht mehr; aber nie werde ich aufhören, Dich zu lieben.</p>
+            <pb n="110" facs="#f0108"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11745" type="chapter">
+            <head>Zwey und dreyßigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Entweder sie wollen mich los seyn und da sie wissen, daß ich die Kugeln nicht fürchte, mich wieder darunter schicken, in der Hoffnung, eine werde doch treffen. Oder der König hat gerade Langeweile, erinnert sich der P...schen Scenen mit Julien, und will die Komödie auf eine andere Art durchspielen. Wahrscheinlich trifft beydes zusammen, und da bin ich denn freylich vor einem Besuche nicht sicher. Hier lassen kann ich sie nicht; aber wem soll ich sie anvertrauen? –</p>
+            <p rendition="#et">
+               <pb n="111" facs="#f0109"/>
+Reinhold Du liebst mich, Du hast es, auch wenn ich nicht daran glaubte, redlich mit mir gemeint. Reinhold! willst Du sie in Schutz nehmen? Dann lasse ich schnell mein Güthgen bey G... in Stand setzen. Ich weiß wohl: Du darfst Dich nicht entfernen. Aber es liegt nur eine Viertelstunde von der Stadt. Da könntest Du doch täglich einen Gang hinaus machen. Ganz allein kann ich sie nicht lassen, noch weniger sie der Mutter übergeben. – Begreife wie ich Dich achte! da ich Dich allen Andern vorziehe.</p>
+            <p rendition="#et">Antworte mir bald. Ich kenne ihn. Bey seinen Grillen ist keine Zeit zu verlieren.</p>
+            <pb n="112" facs="#f0110"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11772" type="chapter">
+            <head>Drey und dreyßigster Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Alles! nur das nicht. Frage nicht weiter. Es geht nicht. Und wenn Du mich auf die Folter spanntest; ich würde Dir immer dasselbe antworten. Wie? Warum? kann ich Dir wahrhaftig nicht auseinander setzen. Genug ich weiß, es geht nicht. Achte mich nun weniger, entziehe mir ganz Deine Freundschaft. <pb n="113" facs="#f0111"/>
+Ich muß es geschehen lassen. Aber ich wiederhole Dir noch einmal: es ist schlechterdings unmöglich.</p>
+            <p>Nachschrift</p>
+            <p>Du hast zwey Fälle angenommen; aber wie, wenn es einen dritten gäbe?</p>
+            <p rendition="#et">Wenn sie Dich nicht entbehren könnten? Dich wirklich haben müßten? –</p>
+            <pb n="114" facs="#f0112"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11805" type="chapter">
+            <head>Vier und dreyßigster Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Hätte ich doch meinen Brief nicht abgeschickt! Schnell muß ich Dir noch melden: daß die Königin ihrem Bruder entgegen reist und auf diese Weise den König begleitet.</p>
+            <p rendition="#et">Sollte es nicht das Sicherste seyn, Julie nun bleiben zu lassen? – Ich bin geneigt es zu glauben. Überlege es, und melde mir Deinen Entschluß.</p>
+            <pb n="115" facs="#f0113"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11828" type="chapter">
+            <head>Fünf und dreyßigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Das Sicherste! Eine Falle ist es. Einladungen, Lockspeisen! – Ich kenne das. Und sollte ich sie Antonelli übergeben, ich wollte es lieber; als sie auf dem glatten Hofpflaster wissen.</p>
+            <p rendition="#et">O wie viel leide ich! Ich bin müde es zu denken. Oft will ich die ganze schreckliche Leidenschaft von mir werfen, die Freyheit, den Tod suchen; aber dann sehe ich sie wieder <pb n="116" facs="#f0114"/>
+und mein zerrissenes Herz kann nicht von ihr lassen.</p>
+            <p rendition="#et">In Dich mag ich nun nicht weiter dringen. Gleichwohl muß Rath geschaft werden. Zwölf Meilen von hier ist ein Fräuleinstift. Ich will mit ihr davon sprechen.</p>
+            <p rendition="#et">Aber gern muß sie es thun; sonst ist es doppelt so schrecklich. Ach den ganzen Tag werde ich sie nicht sehen! Aber die Nacht will ich hin zu ihr fliegen. – Zwölf Meilen! – O Gott es geht nicht! es ist zu weit!</p>
+            <p rendition="#et">Da kommt sie. Ich will sie fragen. Sie selbst soll wählen.</p>
+            <pb n="117" facs="#f0115"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11862" type="chapter">
+            <head>Sechs und dreyßigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Jetzt habe ich den Muth der Verzweiflung. Ich sehe es, für mich ist kein Glück mehr zu hoffen.</p>
+            <p rendition="#et">Was wählte sie? – Rathe es! – Du erräthst es nimmermehr.</p>
+            <p rendition="#et">»Liebste! – sagte ich – wenn wir uns <pb n="118" facs="#f0116"/>
+auf eine kurze Zeit trennen müßten, wenn Du hier nicht bleiben könntest; welchen Aufenthalt würdest Du vorziehen?«</p>
+            <p rendition="#et">Sie behauptete für keinen entfernten Ort eine besondere Vorliebe zu haben. Es sey ihr hier so wohl.</p>
+            <p rendition="#et">»Aber wenn du nun schlechterdings wählen müßtest und Dich ganz nach Deinem Geschmacke bestimmen könntest.« –</p>
+            <p rendition="#et">»Nun – antwortete sie – dürfte es in der Nähe seyn; dann würde ich das Häuschen auf der Anhöhe allen Andern vorziehn.«</p>
+            <p rendition="#et">»Auf welcher Anhöhe?« – fragte ich, denn ich wollte nicht glauben was ich gehört hatte.</p>
+            <p rendition="#et">
+               <pb n="119" facs="#f0117"/>
+»Dort – sagte sie, und zeigte auf Antonelli's Wohnung – diese Gegend hat etwas unbeschreiblich anziehendes für mich.«</p>
+            <p rendition="#et">Ich ließ sie nicht ausreden, stürzte fort, warf alles nieder, was mir in den Weg kam. Mir war als solle ich mir selbst entfliehn. Zum erstenmal in meinem Leben fühlte ich eine Art Unwillen gegen sie, der allmählig in Wuth übergieng. So stand ich vor Antonelli's Thür ohne zu wissen wie ich dahin gekommen war.</p>
+            <p rendition="#et">»Wo ist er« – fragte ich – »Wo er immer ist« – antworteten die Leute, und zeigten nach dem Walde.</p>
+            <p rendition="#et">Schon lange hatte ich vor ihm gestanden, <pb n="120" facs="#f0118"/>
+hatte schon eine Menge Flüche zwischen den Zähnen gemurmelt, noch immer hatte er mich nicht bemerkt. Endlich wurden meine Flüche lauter, und ich riß ihm das Fernglas aus der Hand. Da schien er plötzlich aus einem Traume zu erwachen und umarmte mich trotz meiner Flüche.</p>
+            <p rendition="#et">»Ein schönes Leben – sagte ich – den ganzen Tag so mit Gaffen hinzubringen. Der König kommt. Wo ist das, was ich Dir aufgetragen habe?«</p>
+            <p rendition="#et">Statt zu antworten, nahm er mich lächelnd bey der Hand, und führte mich zu einem Zelte, das er sich mitten im Walde hat aufschlagen lassen. Hier sah ich Karten, Risse, <pb n="121" facs="#f0119"/>
+alles in der größten Ordnung, und weit mehr vorgearbeitet als ich gewollt hatte.</p>
+            <p rendition="#et">»Wann ist denn das alles gemacht?« – fragte ich – nachdem ich es mit Erstaunen untersucht hatte.</p>
+            <p rendition="#et">»Wenn sie nicht da war.«</p>
+            <p rendition="#et">»Woher weißt Du denn, wann sie kommt?«</p>
+            <p rendition="#et">»Ich fühle es.«</p>
+            <p rendition="#et">»Du faselst!«</p>
+            <p rendition="#et">»Ich sage die Wahrheit.«</p>
+            <p rendition="#et">»Du hast ihr Zeichen gegeben, die Flöte gespielt.« –</p>
+            <p rendition="#et">»Niemals!«</p>
+            <p rendition="#et">»Nun, woher soll sie denn wissen, daß Du hier bist?«</p>
+            <p rendition="#et">
+               <pb n="122" facs="#f0120"/>
+»Sie weiß daß ich hier bin?« – fragte er, und sein Gesicht verrieth wirklich das höchste Erstaunen. –</p>
+            <p rendition="#et">»O sage mir! – fuhr er fort, und drückte mir die Hände, und schmeichelte wie ein Kind – sage mir! woher weiß sie es? Hast Du es, hat es irgend jemand anders verrathen?«</p>
+            <p rendition="#et">»Gleichviel – antwortete ich verdrüßlich – genug sie scheint es zu wissen.«</p>
+            <p rendition="#et">»Ach! siehst Du! – rief er – sie fühlt es wie ich.«</p>
+            <p rendition="#et">Nun schrie ich laut auf vor Wuth, riß meine Hand aus der seinigen, stürzte den Berg wieder hinunter, und fand sie in Thränen.</p>
+            <p rendition="#et">
+               <pb n="123" facs="#f0121"/>
+Ach, ich wollte ich wäre bey Dir. Du bist doch mein Einziges. Hier steh ich allein, verwaist. Sie haben mich ausgestoßen aus ihrem Bunde. Von einer höhern Macht hingerissen, vergessen sie mich und die Welt.</p>
+            <p rendition="#et">O ich leide zu viel! Ein Ende! Ein Ende!</p>
+            <pb n="124" facs="#f0122"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e11979" type="chapter">
+            <head>Sieben und dreyßigster Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Dein Leiden zerreißt mir das Herz. Armer, unglücklicher Mann! Mit allen Deinen Schätzen, mit allen Deinen Lorbeeren unglücklich. Ach warum mußt Du gerade jetzt diese Sehnsucht nach Liebe empfinden, jetzt, wo sich das Schicksal so grausam gegen Dich verschwöret.</p>
+            <p rendition="#et">Solltest Du denn gar nicht zu retten seyn?<pb n="125" facs="#f0123"/>
+ – – Hast Du niemals versucht, sie als Deine Kinder zu denken? – in ihnen, durch ihre Liebe glücklich zu seyn? – Du mußt es mehr als einmal in Deinem thatenreichen Leben gefühlt haben: wie schön, wie überschwänglich die Selbstüberwindung lohnet.</p>
+            <p rendition="#et">Wenn ein hartnäckiger, listiger Feind Dich erbitterte, tausend Schwierigkeiten sich Deiner brennenden Ruhmsucht entgegen stellten, Du endlich nahe warst das Ziel zu erreichen, hat Dich da nicht oft Erbarmen mitten im Laufe zurückgehalten, und sind es nicht gerade diese Augenblicke, bey denen Du, wenn Dich alles Übrige anekelte, mit Wohlgefallen verweiltest? –</p>
+            <p rendition="#et">
+               <pb n="126" facs="#f0124"/>
+Gewiß! Dein Schicksal liegt mir schwer am Herzen. Ich habe nur einen Wunsch: Dich mit Dir selbst einig zu sehen. Ich kenne nur eine Möglichkeit – doch, ich schweige. Aber das laß Dir sagen – denn wer wollte Dich um des augenblicklichen Schmerzens willen dem tückischen Irrthume preis geben – aufopfern wirst Du müssen, auf welche Seite Du dich wendest. Auch dann, wenn Du den Tod wählst, opferst Du auf. Wie viel? – wer kann es bestimmen! –</p>
+            <p rendition="#et">Die große unergründliche Natur handelt nach unwandelbaren Gesetzen. Erbarmen ist ihr fremd. Hebst Du gewaltsam ihren Schleyer; welche Macht kann Dich retten? – So <pb n="127" facs="#f0125"/>
+weit das Gedenkbare reicht, findest Du die schreckliche wieder. Darum gieb Dich duldend in ihre Hand. Dann wird sie sanft Dich erlösen.</p>
+            <p rendition="#et">Du sagst: ich bin Dein Einziges. So entschließe Dich dann muthig, und schnell! Komm an mein Herz! Wir wollen meinen Olivier suchen. Vielleicht finden wir ihn wieder.</p>
+            <pb n="128" facs="#f0126"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12019" type="chapter">
+            <head>Acht und dreyßigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Er ist gefunden! – Wohl! ganz Recht! eben weil ich im Tode noch aufopfere, will ich mir, was das Leben gewährt, noch erhalten. Ist kein Erbarmen zu hoffen; warum soll ich mich erbarmen? – Mag ich nun Schmerz hervorbringen; ich selbst leide den höchsten. Ja ich habe mich schnell und muthig entschlossen. Ich selbst will sie nicht sehen; aber dann soll auch kein männliches Auge sie erblicken.</p>
+            <p rendition="#et">
+               <pb n="129" facs="#f0127"/>
+Anfangs wollte ich mich einem deutschen Klotze vertrauen; aber ich sah bald, daß nur ein Südländer meine Leidenschaft begreifen konnte.</p>
+            <p rendition="#et">Ich habe Einen gefunden, der mehr noch begreift als ich empfinde. Er soll sie bewachen.</p>
+            <p rendition="#et">Ein menschenleeres Gütchen ist gekauft, das Haus mit einem Graben umgeben, und durch eine Zugbrücke geschützt. Drey fremde Mädchen habe ich zur Aufwartung kommen lassen, und hoffe der braune Wächter wird sie gehorchen lehren.</p>
+            <p rendition="#et">Keine Anmerkungen! ich bitte Dich! Es war das Einzige was mir übrig blieb.</p>
+            <pb n="130" facs="#f0128"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12052" type="chapter">
+            <head>Neun und dreyßigster Brief</head>
+            <p>Reinhold an Olivier</p>
+            <p>Nein! keine Anmerkungen! aber hier einen Brief von Wilhelminen. Sie glaubt, er würde durch mich am richtigsten besorgt werden. Das gute Mädchen weiß so vieles noch nicht. – Mein Schutzgeist verhüte nur, daß sie nicht nach Juliens Aufenthalt fragt. Ihre ganze <pb n="131" facs="#f0129"/>
+Verachtung würde mich treffen; wenn ich nicht mit Feuer und Schwerdt drein schlüge. Wäre sie hier, ich stünde Dir vor keiner zweyten Entführung.</p>
+            <p rendition="#et">Das arme Mädchen hat sich nur immer an den Schein gehalten. Sie glaubte Dich frey, und Julie gefangen. <hi rendition="#i">Dich</hi> Du Unglücklicher! Einen Sclaven der wüthendsten Leidenschaft frey! –</p>
+            <pb n="132" facs="#f0130"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12079" type="chapter">
+            <head>Vierzigster Brief</head>
+            <p>Wilhelmine an Julie</p>
+            <p>Ich bin in der Schweitz; aber meine Erwartung ist nicht befriedigt. Blendender Schnee auf den Bergen, schneidende Luft in den Thälern, die Menschen eben so kalt und düster wie sie. O das alles ist mir fürchterlich zuwider!</p>
+            <p rendition="#et">Ewiger Zank unter den Hohen, ewige <pb n="133" facs="#f0131"/>
+Klage unter den Niedern. Mangel bey allem Überfluß. Sclaverey bey allem Freyheitstrotz. Ach kein Feuer, keine Lebendigkeit! Einsylbig, langweilig, das prosaischste Volk auf der Erde. (So weit meine Wenigkeit sie gesehen hat.)</p>
+            <p rendition="#et">Ja! donnernde Wasserfälle und schaurige Klüfte. Überhangende Klippen und stürzende Lavinen. Wer Lust hat erschlagen zu werden, der kommt hier schon recht.</p>
+            <p rendition="#et">Ob ich das alles in einer andern Laune nicht anders gesehen haben würde? Kann seyn! aber ganz unwahr ist es nicht; darauf kannst Du Dich verlassen.</p>
+            <p rendition="#et">Nein! nein! mit dieser grausenden, zügellosen Natur kann ich mich nicht vertragen, <pb n="134" facs="#f0132"/>
+mit diesen Menschen nicht sympathisiren. Was helfen mir die feisten Kühe und die üppigen Wiesen? Was mir fehlt können sie mir nicht geben.</p>
+            <p rendition="#et">Aber was fehlt mir denn? – Nun, fürs erste will ich glauben: ein milderer Himmel, ein geistvolleres, lebendigeres Volk, Werke der unsterblichen Kunst, an denen sich mein Geist laben und erheben kann.</p>
+            <p rendition="#et">Italien! Italien! da will ich hin. Antonellis Mutter ist da. Auch die will ich sehen. O was gäbe ich darum, daß sie arm wäre, oder sonst meiner Hülfe bedürfte! Gewiß! sie wird mich lieben; denn ich werde ihr von dem Lieblinge erzählen.</p>
+            <p rendition="#et">
+               <pb n="135" facs="#f0133"/>
+Wäre ich die Mutter dieses Sohnes; Könige und Kaiser müßten mir weichen. Ach! hätte ich nur ein Kind! nur ein einziges Kind! Ein solches Wesen, das ich mit Todesquaal mir erkauft, mit Lebensgefahr mir erhalten hätte! – Ich wollte alles! ja Dich selbst wollte ich darüber vergessen.</p>
+            <p rendition="#et">Nur Geduld! nur Geduld! nur nicht gelächelt! es wird sich alles finden! – In Italien giebt es noch Menschen, die Liebe verstehen. Bauer, oder Bürger, einerley! »Mein Freund – sage ich dann – gefalle ich dir; so mögte ich wohl auf ein Jahr der fünf deine Frau werden. Sind wir glücklich; so geben wir noch vier Jahre zu. Dann drey, dann <pb n="136" facs="#f0134"/>
+zwey, und zuletzt hast du die Freyheit, dich alle Jahr von mir zu trennen.</p>
+            <p rendition="#et">Aber in der Zeit wo du mir gehörst, gehörst du mir<hi rendition="#i"> ganz</hi>. Kein Laufen, kein Gaffen! das sage ich dir! – Ich binde mich; aber auch du bist gebunden. Hältst du nicht Wort; so ziehst du weiter. Aber die Kinder bleiben mir, oder aus der ganzen Sache wird nichts.«</p>
+            <p rendition="#et">Du merkst wohl, daß ich die wichtigste Klausel zuletzt bringe. Ist er damit zufrieden, dann mag er nach den ersten fünf Jahren schon weiter ziehen, und den größten Theil meiner Reichthümer mitnehmen. Ich bleibe doch reicher als er.</p>
+            <p rendition="#et">
+               <pb n="137" facs="#f0135"/>
+Ob er aber dabey glücklich seyn wird? – O ja! wenn er vernünftig ist, warum nicht? – Ich würde für ihn braten und kochen, ihn warten und pflegen und alles, was mir an Freuden bekannt wäre in unserm Hause versammlen. Aber, <hi rendition="#i">die Kinder gehören mir</hi>! damit wecke ich ihn des Morgens, und <hi rendition="#i">die Kinder gehören mir</hi>! wiederhole ich ihm des Abends, und wenn er das nicht vertragen kann; so zieht er weiter; oder zieht gar nicht, weil er nicht kommt.</p>
+            <p rendition="#et">Nichts von Inconsequenz! die gewöhnlichen Ehen widerstehen mir noch eben so sehr wie vormals. Es ist mir unbegreiflich, warum <pb n="138" facs="#f0136"/>
+sich die Leute schlechterdings auf das ganze Leben zusammen schmieden lassen.</p>
+            <p rendition="#et">Was wäre denn nun dabey verlohren? wenn sie alle vier, oder fünf Jahre gesetzmäßig erinnert würden; wie viel große Ränke des Bräutigams und viel kleine der Braut erfoderlich waren, um des heiligen Joches würdig erachtet zu werden.</p>
+            <p rendition="#et">Nein! nein! auf kurze Zeit wenigstens müßten sie getrennt, und ohne feyerliche Erklärung nicht wieder verbunden werden.</p>
+            <p rendition="#et">Denke Dir! alle fünf Jahre eine neue Hochzeit! Welch ein Familienfest! Väter, Mütter, Kinder, Gesinde, alles würde jauchzen, und jede eheliche Frau würde in ihrem <pb n="139" facs="#f0137"/>
+Leben ein paar Dutzend Flitterwochen mehr zählen.</p>
+            <p rendition="#et">Sage nur, warum sind die Menschen nicht längst auf diesen Einfall gekommen? Warum wollen sie schlechterdings vor Langeweile sterben? Bewillkommen sich mit Gähnen Morgens und Abends, und denken auf kein Mittel zur Rettung.</p>
+            <p rendition="#et">Leb wohl! Auf alles was Du mir schreibst antworte ich Dir nichts; die Zeit wird schon antworten.</p>
+            <pb n="140" facs="#f0138"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12174" type="chapter">
+            <head>Ein und vierzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Sie ist in Sicherheit, und ich fange an ruhiger zu athmen. Ach wie ist hier alles verwandelt! – Nachtigallen sind erwacht, Blumen entfaltet, köstliche Früchte zu tausenden gereift! Wohin sie kommt, da blüht ein Paradies ihr entgegen.</p>
+            <p rendition="#et">
+               <pb n="141" facs="#f0139"/>
+Lächelnd schwebte sie über die Zugbrücke und die Ketten bewegten sich nicht. Nur unter mir fiengen sie an zu rasseln. Sie wandte sich um; aber das himmlische Lächeln blieb auf dem Engelgesichte.</p>
+            <p rendition="#et">Nein! nein! ich habe sie nicht unglücklich gemacht! Ach Du hast Recht! unter Ketten ist sie frey, und ich bin der Gefangene. Aber <hi rendition="#i">Geduld</hi>! – sagt Wilhelmine. – Ich fange an mich mit ihr auszusöhnen. Sie hat mich auf etwas sehr Wichtiges geleitet. <hi rendition="#i">Geduld</hi>! aber kein Predigen! kein Vorschreiben! – Was ich thue, muß aus eigner freyer Entschließung geschehen; nicht, weil es Andern so beliebt, weil es Andre für das Beste erkennen.</p>
+            <p rendition="#et">
+               <pb n="142" facs="#f0140"/>
+Euer Einreden, Euer Tadeln, Euer Zurechtweisen hat mich in dieses Labyrinth geführt. Hättet Ihr mich meinen eignen Weg gehen lassen; es wäre jetzt leichter um mich her. Ich hätte früher gewußt, was ich sollte.</p>
+            <p rendition="#et">Habe ich kein menschliches Herz? Bin ich ein Tyrann, ein Barbar? Ich fühle tiefer, lebhafter wie Ihr, mein Vater war einige hundert Meilen südlicher gebohren; daher kommt alles.</p>
+            <p rendition="#et">Gebt mir Euer nordisches Blut, und ich werde sie nicht einschließen, ich werde nicht wissen, was ein Blick, ein Händedruck bedeutet, woher er kommt, und wohin er führt. Ihr Eismassen wißt ja nur von Hörensagen, was <pb n="143" facs="#f0141"/>
+Leidenschaft ist! Thauet erst auf an einem südlichen Strahle, und dann richtet über südliche Naturen.</p>
+            <p rendition="#et">Ich gehe, ich verlasse sie. Sie, <hi rendition="#i">sie</hi>! – Nennt Ihr das nichts? Opfre ich nicht jetzt schon mein Wohlseyn einem höhern Zwecke? – Wer darf mir ein Ziel stecken? Wer darf sagen: »bis hieher und nicht weiter?« – Darum zähmet Euch, und redet mir nicht ein. Der Sclave ist frey, sobald er es seyn will.</p>
+            <pb n="144" facs="#f0142"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12225" type="chapter">
+            <head>Zwey und vierzigster Brief</head>
+            <p>Reinhold an Wilhelmine</p>
+            <p>Ihr Brief, meine theure Freundin, ist so richtig besorgt, als er besorgt werden konnte. Das heißt: er ist durch des Generals Hände gegangen. Ein anderes Mittel giebt es jetzt nicht. Heimliche Wege, Bestechungen, das mag für andre Leute gut seyn; für uns ist dergleichen nicht gemacht.</p>
+            <p rendition="#et">Ihr Brief war offen, und so ist er geblieben. <pb n="145" facs="#f0143"/>
+Der General hat ihn gelesen, und das kann Ihnen sehr gleichgültig seyn. Doch nein! nicht so ganz gleichgültig. Sie haben ihn – dies sind seine Worte – auf etwas sehr Wichtiges geleitet. Auf was? – Die Zeit wird es ja lehren.</p>
+            <p rendition="#et">Mehr als jemals kämpft er mit sich selbst. Das ist gewiß. Aber wie dieser Kampf endigen wird? – wer kann es bestimmen! – Auf mich – ich gestehe es – wirkt das alles ganz sonderbar. Schon seit geraumer Zeit bin ich aufgefodert etwas Entscheidendes für mich zu wagen. »Ein sorgenloseres, bequemeres Amt – sagen meine Freunde – Späterhin brauchst Du mehr Ruhe.«</p>
+            <p rendition="#et">
+               <pb n="146" facs="#f0144"/>
+Aber mir ist wie einem Landmanne, über dessen Saaten ein schweres Gewitter aufsteigt. Man spricht von der nahen, gesegneten Ärndte. »Verbeßre dein Haus! Erweitre die Scheuren!« – ruft man ihm zu. – Aber sein Ohr ist verschlossen, sein Auge starrt unverwandt nach der Wetterwolke. Trifft sie die Saaten; was bedarf er der Scheuren? –</p>
+            <pb n="147" facs="#f0145"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12257" type="chapter">
+            <head>Drey und vierzigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>Du hast noch immer nicht gefunden was Du suchst, meine theure geliebte Freundin; aber mich dünkt Du bist auf dem Wege dazu. Wohl mir! meine Wilhelmine wird glücklich seyn! was habe ich dann noch zu wünschen?</p>
+            <p rendition="#et">Wie sehr hast Du Recht, mir nichts auf mein Geschwätz zu antworten. Es war ein <pb n="148" facs="#f0146"/>
+Fiebergeschwätz. Gott Lob! jetzt bin ich genesen. Der König kommt nach R.... Mein Mann fürchtete mit Recht, mich seinen Zudringlichkeiten auszusetzen, und brachte mich hieher.</p>
+            <p rendition="#et">Julianens Ruh, nennt er diese liebliche Einsiedeley. Macht es der Nahme; oder was ist es sonst? aber in der That, ich bin hier ruhiger. Dort war mir als fehlte ich mir selbst; hier habe ich mich wieder.</p>
+            <p rendition="#et">Zwar ist alles fremd was mich umgiebt. Anna ist fortgeschickt, und ein andres, sehr junges, aber, wie mich dünkt, unschuldiges Mädchen, hat ihre Stelle bekommen. Ein offenbarer Gewinnst für mich. Anna schien mit <pb n="149" facs="#f0147"/>
+ein äußerst verderbtes Geschöpf, und nur weil ich sie einmal in meines Mannes Diensten fand, konnte ich sie dulden.</p>
+            <p rendition="#et">Gleichwohl macht es mir die arme kleine Marie, durch ihre schreckliche Demuth, beynahe unmöglich, in einen zutraulichern Ton mit ihr zu kommen. Meine Bitten scheinen ihr immer Befehle. Zitternd und zagend, als ob das Richtschwerdt sie verfolgte, lauscht sie auf meine Worte, und hat vor Angst immer die Hälfte vergessen.</p>
+            <p rendition="#et">Auch den andern Mädchen geht es nicht besser. Nur Meister Ubaldo, der Oberaufseher scheint von diesem Schrecken nichts zu wissen. Im Gegentheil bedarf er aller seiner Feinheit, <pb n="150" facs="#f0148"/>
+und wirklich angenehmen Gesprächigkeit, um selbst nicht ein wenig schrecklich zu werden.</p>
+            <p rendition="#et">Mir schien er es nur ein paar Stunden. Jetzt sind wir die besten Freunde von der Welt. Ich muß mich noch gar in Acht nehmen; sonst werde ich in der That sein verzogenes Kind.</p>
+            <p rendition="#et">Nichts ist ihm gut genug, wenn es für Donna Julia seyn soll, und darum macht er freywillig Koch, Kellermeister und Gärtner. Schönere Blumen und Früchte erinnere ich mich nicht gesehen zu haben. Zu meiner kleinen Tafel könnte ich Fürsten einladen. Nur Schade, daß ich sie nicht so benutze wie Meister Ubaldo es wünscht.</p>
+            <p rendition="#et">
+               <pb n="151" facs="#f0149"/>
+Den Teller in der Hand steht er mir gegenüber und lauscht mit Ängstlichkeit: ob ich von diesem oder von jenem versuchen werde. Lobe ich dann die gute Auswahl, die treffliche Zubereitung; so werden meine Hände, meine Kleider mit Küssen bedeckt, und der gute Mann scheint wirklich einen Anfall von Wahnsinn zu bekommen.</p>
+            <p rendition="#et">Noch ärger treibt er es, wenn er meinen Flügel, oder meine Stimme hört. Aber leider versteht er keine Note; sonst würde er bey seinem zum Erstaunen richtigen Gefühle, ein sehr angenehmer Begleiter für mich werden.</p>
+            <p rendition="#et">Sonst läßt er sich freylich das Begleiten <pb n="152" facs="#f0150"/>
+sehr angelegen seyn. Nur seitdem ich ihn gebeten habe, kann ich allein in den Garten gehen. Es scheint ihm trotz seines Mißtrauens; oder, wie ich es jetzt lieber nennen mögte – trotz seiner Anhänglichkeit, unmöglich, mir eine unangenehme Empfindung zu verursachen.</p>
+            <p rendition="#et">Und so führe ich dann hier ein sonderbares, beynahe ätherisches Leben. Ich habe angefangen Kräuter und Blumen zu sammlen, Ein unaussprechlich belohnendes Geschäft. Ich glaube es könnte Götter und Menschenfeinde zähmen.</p>
+            <p rendition="#et">Wenn ich so mitten im hohen duftenden Grase die köstlichen Blumen, nur so weit ich sie erreichen kann, sammle, die ganze Pracht <pb n="153" facs="#f0151"/>
+dann über mein weißes Kleid verbreite, sitze ich oft trunken vom Anschauen der unendlichen Mannigfaltigkeit und Schönheit.</p>
+            <p rendition="#et">O nein! ich bin nicht allein, bin nicht verlassen! Allenthalben finde ich die große, gütige Mutter. Im Hauche des Frühlings, im Gesange der Nachtigall, im Rauschen des Wasserfalles spricht sie zu mir. Mit Empfindungen, mit Gedanken, mit Tönen, die sie mir gab, darf ich ihr antworten.</p>
+            <p rendition="#et">O ich unaussprechlich Glückliche! in meinem Herzen ist Friede. Wohl habe ich gefehlt, vielleicht meine Wilhelmine betrübt. – Aber wenn es nicht Selbstsucht, nicht Leidenschaft, wenn es nur Schwäche und Irrthum war, hatte <pb n="154" facs="#f0152"/>
+ich dann Strafe verdient? – Nein! nein! auch meine Wilhelmine wird mir vergeben, und dann bedarf ich keinen andern Himmel, als den ich schon habe.</p>
+            <p rendition="#et">Welche reine köstliche Luft ich hier athme! R.... ist schön; aber es liegt zu tief. Oft wiederholte ich es mir, meine Schwermuth hätte keinen andern Grund. Aber das Herz überwand die Vernunft. Immer sollte noch etwas anderes, wunderbares, übersinnliches auf mich wirken. –</p>
+            <p rendition="#et">Mein Vater erzählte von einem Manne, der ein äußerst angenehmer Gesellschafter war, aber oft durch sich selbst, mitten im fröhlichsten Scherze unterbrochen wurde. Bleich, verstört, <pb n="155" facs="#f0153"/>
+beynahe ohnmächtig sank er dann zurück, verschüttete den köstlichen Wein und hörte nicht mehr das Rufen der fröhlichen Brüder.</p>
+            <p rendition="#et">»Er dachte an mich!« – war dann seine ganze Entschuldigung.</p>
+            <p rendition="#et">Ein Freund von ihm war nämlich in türkische Gefangenschaft gerathen, und erzählte wirklich mehrere Jahre nachher: daß er durch mannigfaltige Arbeiten am Tage zerstreut, nur des Abends, aber dann mit unbeschreiblicher Sehnsucht, seiner gedacht habe.</p>
+            <p rendition="#et">So liebste Wilhelmine war mir in R... »<hi rendition="#i">Laß ab! laß ab</hi>!« – rief manchmal der Freund des türkischen Gefangenen. <hi rendition="#i">Laß ab! Laß ab</hi>! meine Wilhelmine! hätte auch ich <pb n="156" facs="#f0154"/>
+manchmal rufen mögen. Aber, nicht wahr? jetzt denkst Du ruhiger an mich? ziehst mich nicht mehr so schmerzhaft zu Dir hinüber? – Ja! ich fühle es an meinem erleichterten Herzen, wir sehen uns wieder meine Wilhelmine! wir sehen uns wieder!</p>
+            <pb n="157" facs="#f0155"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12359" type="chapter">
+            <head>Vier und vierzigster Brief</head>
+            <p>Wilhelmine an Reinhold</p>
+            <p>Ob der General meinen Brief gelesen hat – ja wohl! mir einerley! Nur Schade, daß er nicht ein wenig mehr für ihn eingerichtet war. Will es mir merken. Ist er so sehr für diese heimlichen Näschereyen; wie viel heilsame Pülverchen lassen sich da beybringen. –</p>
+            <p rendition="#et">Ob er aber auch Juliens Antworten liest? Das wäre nun freilich eine ganz eigne Sache.<pb n="158" facs="#f0156"/>
+ – Hier zum Beyspiel, sehen Sie einmal diese Briefe. Wie mögen ihm wohl die Träume, wie mag ihm wohl das <hi rendition="#i">Laß ab! laß ab</hi>! gefallen? – Ob er es auch, wie Julie, auf mich; oder was ein wenig natürlicher wäre, auf gewisse Bergbewohner<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">Antonelli</hi>
+               </hi> deutet? – Seit der plötzlichen Abreise mögen ihm diese Leute wohl ziemlich zu schaffen machen. In der Angst scheint er sie ganz vergessen zu haben.</p>
+            <p rendition="#et">Ja! ja! da herum stehn die Saaten verzweifelt schlecht. Noch ein wenig schlechter als ich es vor geraumer Zeit verkündigte. Bey andern Orakeln dankt man dem Himmel, wenn <pb n="159" facs="#f0157"/>
+sie nur so halb und halb erfüllet werden. Bey den meinigen giebt es immer ein gerütteltes und geschütteltes Maaß.</p>
+            <p rendition="#et">Finde ich nur erst einen bequemen Ort; der Dreyfuß und die Pythia ist fertig. Dann können Sie sich wegen der Häuser und Scheuren gerade an mich wenden. Mit, und ohne Wetterwolken; ich prophezeihe frisch aus dem Stegreife.</p>
+            <pb n="160" facs="#f0158"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12400" type="chapter">
+            <head>Fünf und vierzigster Brief</head>
+            <p>Reinhold an Wilhelmine</p>
+            <p>Die Prophetin scheint, wie alle übermenschliche Wesen, schwächliche Empfindungen und besonders das Mitleid zu verachten. Aber übermenschlich oder nicht; man ist nicht immer sicher vor dem was man verachtet. Unsrer Prophetin <pb n="161" facs="#f0159"/>
+geht es vielleicht trotz aller Schadenfreude – wie Uneingeweihte es nennen mögten – nicht besser. Die Wetterwolken sind ihr sehr wahrscheinlich noch fürchterlicher als mir.</p>
+            <p rendition="#et">Ohne Bilder! Meine Freundin scheint sie nicht zu lieben. Hier sind die Briefe zurück. Wenn ich Ihnen dafür danke; so danke ich für Schmerz und Freude zugleich. Beydes habe ich im hohen Grade empfunden. Ich begreife, ich entschuldige jetzt alles. Ja für dieses himmlische Herz giebt es freylich keinen Ersatz. Der Erste, der Einzige darin seyn wollen; ach es ist ein schöner, es ist ein sehr menschlicher Wunsch! Wäre ich an Oliviers <pb n="162" facs="#f0160"/>
+Stelle, wer wüßte wozu er mich bringen könnte. – Wahrscheinlich zu Vielem, was ich tadeln und doch nicht unterlassen würde.</p>
+            <p rendition="#et">Meister Ubaldo hat mir ein Lächeln abgezwungen. Armer Olivier; wofern Deine Oberaufseher nicht blind und taub sind; so steht es sehr schlimm mit der Aufsicht.</p>
+            <pb n="163" facs="#f0161"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12430" type="chapter">
+            <head>Sechs und vierzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Der König mag bald kommen; sonst muß er sich andre Wirthe suchen. Ob er glaubt, ich könne mich nicht losreißen? Mehr als einmal habe ich ihm den Dienst aufgekündigt. Immer hat er mich durch allerley Ränke wieder hineingezogen.</p>
+            <p rendition="#et">Hätte ich nur meine Güther verkauft, <pb n="164" facs="#f0162"/>
+noch morgen gienge ich aus dem verwünschten Lande. Das allein hält mich zurück. Nicht die abgeschmackte Puppe, der Ruhm, womit er mich vormals gelockt hat.</p>
+            <p rendition="#et">Von ihr verlassen, bin ich nun dem Wahnsinn des unbändigen jungen Menschen ausgesetzt. An ihm sehe ich, was aus mir werden würde, wenn ich sie nicht mehr hätte.</p>
+            <p rendition="#et">Erklären soll ich ihm: wie diese Trennung möglich war? – entdecken soll ich: wo sie ist? Er will sie nicht sehen; aber bewachen, beschützen will er sie. »Von uns entfernt, droht ihr Gefahr. Der König, tausend Andre können sie rauben. Sie ist schon geraubt, und ich, <hi rendition="#i">ich</hi> habe es zu verantworten.« –</p>
+            <p rendition="#et">
+               <pb n="165" facs="#f0163"/>
+»Was kümmert mich der Dienst und der König! – rief er – Mögt Ihr doch Standrecht über mich halten! Ich gehe davon und suche sie auf!«</p>
+            <p rendition="#et">Kein andrer Rath; ich mußte ihn arretiren lassen. Es hat mich Überwindung gekostet; aber bis der König da ist, muß es so bleiben.</p>
+            <p rendition="#et">Bin ich etwa glücklicher? – Um den leisesten Verdacht zu entfernen, habe ich seit acht Tagen jeder Nachricht von ihr entsagt. Meine Vertrautesten ahnen nicht wo sie ist, und sollen es nicht ahnen.</p>
+            <p rendition="#et">So wie ich sie nicht sehe, bekomme ich meine Festigkeit wieder, bin hart wo ich es seyn muß, und gefaßt mit dem Schicksale in <pb n="166" facs="#f0164"/>
+die Schranken zu treten; falle auf dem Wege Freund, oder Feind.</p>
+            <p rendition="#et">Und so muß es auch seyn. Auf welche Weise ich sie erworben haben mögte; sie ist mein Eigenthum. Wer sich daran wagt, mag es mit mir versuchen.</p>
+            <pb n="167" facs="#f0165"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12484" type="chapter">
+            <head>Sieben und vierzigster Brief</head>
+            <p>Wilhelmine an Julie</p>
+            <p>Ich habe sie gesehen. Das war eine Freude! – Ich dachte sie mir – warum weiß ich selbst nicht – wie ein altes kraftloses Mütterchen, und fand eine angenehme, lebhafte aber freylich, trotz den Spuren großer Schönheit, nicht <pb n="168" facs="#f0166"/>
+auf nordische Art, roth und weiß blühende Frau.</p>
+            <p rendition="#et">Im vierzehnten Jahre wurde sie verheyrathet, Antonelli ist drey und zwanzig; jetzt kannst Du zusammen rechnen.</p>
+            <p rendition="#et">Sie hat Dein Gemählde, und betet alle Tage für Dich. <hi rendition="#i">Eine Deutsche kannst Du nicht seyn</hi>; das ist ihr nicht auszureden. Schon mehr als ein paar Dutzend Heiligenbilder hat sie mit Dir verglichen. Von der Einen hast Du die Stirn, von der Andern die Augen, von der Dritten, Vierten, Fünften, die Nase, den Mund, das Kinn u.s.w. Wohl bemerkt! unter diesen Allen keine Einzige Deutsche. – Ohne Zweifel aber sämmtlich Deine <pb n="169" facs="#f0167"/>
+Frau Muhmen, Basen, Urgroßmütter im hundert und funfzigsten, sechzigsten Gliede. – Ach Gott! wer sich doch auch einer solchen Familie rühmen könnte!</p>
+            <p rendition="#et">Ja, hat es mich jemals geschmerzt, aus keinem heiligen Blute entsprossen zu seyn; so ist es gerade jetzt. In allem könnte ich mit dieser liebenswürdigen Frau sympathisiren; nur die fatale Heiligenfamilie kommt immer dazwischen.</p>
+            <p rendition="#et">Gott weiß wie es zugeht! – Sie selbst hat doch so gar nichts Heiliges. – Nennt alle Dinge bey ihren Nahmen, liebt und haßt so südlich, so unheilig wie möglich. Allen Rosenkränzen und Heiligenbildern unbeschadet.</p>
+            <p rendition="#et">
+               <pb n="170" facs="#f0168"/>
+Indessen ist doch die Glückseeligkeit dieser Auserwählten nicht ohne Wechsel. Auch sie haben ihre Sonnen- und Regentage. Ja manchmal könnten sie den ersten, besten Unheiligen beneiden.</p>
+            <p rendition="#et">Signora Antonelli's Schutzpatron, hat es zwar, im Ganzen genommen, recht gut. Aber ich weiß mich gleichwohl der Zeiten zu erinnern, wo er, statt vier Wachskerzen nur zwey, ja wenn er sich um Briefe von dem geliebten Sohne zu lange bitten ließ, wohl gar keine erhielt.</p>
+            <p rendition="#et">Die Schutzpatrone der Köche, Schiffer und Fuhrleute haben es viel schlimmer. Stöße, Schläge, die ärgsten Schimpfnahmen müssen <pb n="171" facs="#f0169"/>
+sie sich gefallen lassen, wenn sie die Bitten ihrer Gläubigen vergessen, oder zu saumseelig erfüllen.</p>
+            <p rendition="#et">Bey dem allen hat aber ein solcher Schutzgott für den Besitzer sehr viel Angenehmes. Ich wenigstens lasse mir einen machen, und zwar nach dem Modelle eines jungen Bauers hier in der Nähe.</p>
+            <p rendition="#et">Jeden Abend trägt er seine alte Mutter in die Kühle, unter ein Laubdach, was er gerade meinem Fenster gegenüber aufgeschlagen hat. Die Art, wie er ihr Lager bereitet, die Zweige an einander fügt, Blumen und Früchte herbeyholt, giebt ihm wirklich etwas Heiliges.</p>
+            <p rendition="#et">Letzt, als er sie wieder hinaus trug, hatte <pb n="172" facs="#f0170"/>
+er zu gleicher Zeit die Früchte mitgenommen; aber plötzlich stieß er an einen Stein und da lag der Korb und die Früchte.</p>
+            <p rendition="#et">Geschwinde lief ich hinunter, sammelte sie wieder in den Korb und brachte sie ihm entgegen. Er nahm sie, sah mich an, konnte mir nichts sagen, ich ihm auch nicht, und so giengen wir langsam von einander.</p>
+            <p rendition="#et">Als er nun den folgenden Tag wiederkam, fand er schon ein recht hübsches Sopha in der Laube und noch schönere Früchte als die seinigen. Er blickte nach meinem Fenster, legte die Hand aufs Herz und grüßte mich auf eine Art – ja, die sich recht gut sehen, aber nicht beschreiben läßt.</p>
+            <p rendition="#et">
+               <pb n="173" facs="#f0171"/>
+Seitdem haben wir nun unsre ganz eigne Zeichensprache. Mir gefällt sie so wohl, daß ich den Augenblick fürchte, wo sie sich in Worte verwandeln wird. Auch suche ich ihn so viel als möglich zu entfernen.</p>
+            <p rendition="#et">Aber unterdessen der junge Heilige draußen mit seiner Mutter beschäftigt war, bin ich in ihrer Wohnung gewesen, und habe mir da verschiedenes gemerkt, was die arme, kranke Frau entbehrte.</p>
+            <p rendition="#et">Jedesmal nun, wenn er ins Haus tritt, findet er irgend etwas neues. Da kommt er dann gelaufen und peinigt meine Leute: »Sie sollen ihn vorlassen! Es wird zu viel – Er kann es nicht tragen« u.s.w. – Aber da bin <pb n="174" facs="#f0172"/>
+ich nun hart, meine Leute dürfen nicht wanken, und er muß mit seiner ganzen Schuldenlast wieder zurück.</p>
+            <p rendition="#et">Nun, wie gefällt Dir mein Heiliger? – Soll ich Dir eine Kopey machen lassen? oder willst Du lieber den von Signora Antonelli haben? Er gleicht ihrem Sohne, wie ein Tropfen Wasser dem andern.</p>
+            <pb n="175" facs="#f0173"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12569" type="chapter">
+            <head>Acht und vierzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Der König ist hier, und Antonelli ist fort. Kaum war er des Arrests entlassen und dem Könige vorgestellt; so bat er um seinen Abschied. <hi rendition="#i">Bat</hi>? sage ich – <hi rendition="#i">trotzte</hi>, und zwar so arg; daß ihn der König in völligem Unwillen entließ.</p>
+            <p rendition="#et">Er findet sie nicht, das ist gewiß; und doch bin ich auf der Folter. Durch einige absichtliche Nachlässigkeiten habe ich ihn auf ganz <pb n="176" facs="#f0174"/>
+andere Wege zu leiten gesucht. Er findet sie nicht, er kann sie nicht finden. Auch ist Ubaldo eben so behutsam, ja noch behutsamer, als ich.</p>
+            <p rendition="#et">Volle acht, ja vielleicht zwölf, vierzehn Tage soll ich nun diese Marter so dulden. Muß täglich auf neue Feste und andere Spielereyen denken. Die herrliche Frau, die Königin, ist noch das Einzige was mich tröstet. Scheinbar glaubt sie alles, was ich ihr von Juliens Reise zu der Freundin erzähle; aber fühlt sie, daß es meinem gepreßten Herzen Noth thut, verstanden zu werden, – o so versteht, so theilt sie alles, was ich ihr nimmermehr sagen mögte.</p>
+            <p rendition="#et">
+               <pb n="177" facs="#f0175"/>
+Die Gewalt dieser Frau über sich selbst, geht in das Unbegreifliche. Nach allen Schrecklichkeiten die sie erleben mußte, mit welcher Schonung sie ihn behandelt! Nein! ich war ein roher, verwahrloster Mensch; aber so vieler Liebe, so vieler Geistesgröße könnte ich nicht widerstehn.</p>
+            <p rendition="#et">Freylich, es ist wahr, diese außerordentliche Klugheit – ich könnte sie doch nicht an der Einzigen ertragen. Ach die hohe göttliche Einfalt ihres Herzens! beynahe glaube ich: sie ist mir noch reizender, als ihre Schönheit. – Sich selbst kann sie täuschen; Andre nimmermehr. Nein! nein! wenn ich ihr jemals untreu würde; mögte sie mich dann verabscheuen, <pb n="178" facs="#f0176"/>
+mich verstoßen: ich wollte es lieber, als diese Schonung.</p>
+            <p rendition="#et">Auch kann es der König nicht bergen, wie klein er sich fühlt, in der Nähe dieser wahrhaft großen Frau. Denn groß ist sie; mangelt ihr auch die unendliche Liebenswürdigkeit der Einzigen. Ach meiner Einzigen – Ich Überglücklicher! ist es möglich daß ich sie besitze? daß sie mein bleiben wird? – Ich darf dem Gedanken nicht nachhängen! Todesangst überfällt mich. – Nein! nein! er wird, er kann sie nicht finden!</p>
+            <pb n="179" facs="#f0177"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12615" type="chapter">
+            <head>Neun und vierzigster Brief</head>
+            <p>Reinhold an Wilhelmine</p>
+            <p>Diesen Brief, bestes Fräulein! ich kann ihn wahrlich nicht abschicken. Wozu die Anspielung auf Antonelli? – Glauben Sie, mein unglücklicher Freund leide ohnehin nicht genug? – Er würde den Brief zurückbehalten, und wahrscheinlich thäte ich an seiner Stelle dasselbe.</p>
+            <p rendition="#et">Wir können ja nicht bessern, warum sollen wir verschlimmern? Wenn die Erbitterung des Generals aufs höchste steigt; wird Ihre Freundin dann glücklicher? – Ich bitte Sie das zu <pb n="180" facs="#f0178"/>
+bedenken, und Juliens Ruhe nicht Ihrem Unwillen zu opfern. Gerecht, oder ungerecht; darauf kommt es ja nicht mehr an. Noch einmal! wir können nicht bessern, warum wollen wir verschlimmern? –</p>
+            <p rendition="#et">Nein, mag Fräulein Wilhelmine den langweiligen Prediger auch schelten – wahrlich sie ist ein wenig zu muthwillig. Die Heiligenbilder gebe ich ihr preis; aber meine Freunde sollte sie schonen. Ich glaube sogar, es bedürfe dazu keiner andern Ursach, als daß sie <hi rendition="#i">meine</hi> Freunde sind. Sie versicherte mich einst ihrer Achtung – muß ich nun glauben, sie habe meiner gespottet.</p>
+            <pb n="181" facs="#f0179"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12646" type="chapter">
+            <head>Funfzigster Brief</head>
+            <p>Wilhelmine an Reinhold</p>
+            <p>Sie schicken meinen Brief zurück? – Gut! ich werde mir schon helfen. – Sie klagen über Muthwillen? Der Ernst gefällt Ihnen besser. O wie Sie wollen! ich kann auch ernsthaft seyn.</p>
+            <p rendition="#et">Und so sage ich Ihnen denn: daß ich Sie sehr ernsthaft schätze, daß ich aber die Gefangenschaft meiner Freundin – nennen sie es anders, wenn sie können – mit allem Unwillen, dessen ich fähig bin, verabscheue.</p>
+            <p rendition="#et">
+               <pb n="182" facs="#f0180"/>
+Sind es Ihre Freunde, die mein Liebstes auf der Welt so schändlich mißhandeln; da bedauere ich Sie um dieser Freunde willen. Aber billiger Weise könnte ich nun auch einmal fragen: warum es Ihnen denn gar nicht einfällt <hi rendition="#i">mich</hi> zu bedauern? – Weil ich muthwillig bin? Also haben Sie noch nicht gehört, daß oft der tiefste Schmerz sich hinter Muthwillen versteckt?</p>
+            <p rendition="#et">Doch mein Muthwille und meine Geduld ist zu Ende. Ich werde andre Maaßregeln ergreifen, und glaube Niemandem mehr Rechenschaft geben zu müssen.</p>
+            <pb n="183" facs="#f0181"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12679" type="chapter">
+            <head>Ein und funfzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Er ist krank, oder will es scheinen, um mich aufs Äußerste zu bringen.</p>
+            <p rendition="#et">Die Königin zwingt sich wieder daran zu glauben und erschöpft alles, was der sorgsamsten Liebe nur möglich ist.</p>
+            <p rendition="#et">Ich aber kann mich des Gedankens nicht erwehren: es sind Tücke, er will nur meine Geduld ermüden, ich soll Julie wiederkommen <pb n="184" facs="#f0182"/>
+lassen, und dann glaubt er, werden seine und seiner Hofschranzen Ränke das Übrige thun.</p>
+            <p rendition="#et">Wie mich seine süßlichen Schmeicheleyen anekeln! Welche Quaal! das Geschmeiß den ganzen langen Tag so dulden zu müssen. Er hätte nichts Besseres ersinnen können, um mein bischen Ruhe ganz zu zerstören, um mich dem Wahnsinne so nahe als möglich zu bringen.</p>
+            <p rendition="#et">Was macht sie die Einzige, unaussprechlich Geliebte! Ein Blick aus ihrem Himmelauge würde das unbändige Klopfen dieses zerrissenen Herzens mildern. Kann ich sie denn nicht einmal, nicht ein einzigesmal sehen! Ach! da überfällt mich die Todesangst: sie mögte entdeckt werden. –</p>
+            <pb n="185" facs="#f0183"/>
+            <p rendition="#et">Meinen Verstand erhalte mir, o Gott! daß ich der Leidenschaft nicht erliege, daß ich dieses kostbare Kleinod, für das die Welt keinen Ersatz hat, daß ich es nicht preis gebe den tückischen Mördern, die nach meinem Herzen zielen.</p>
+            <p rendition="#et">Nein, ich will entsagen, für eine kurze Zeit entsagen, und dann will ich kommen mit aller, aller meiner Liebe, die sie nicht kennt, die ich selbst noch nicht kannte. Um dieser unendlichen Leidenschaft willen muß sie mich lieben, kann sie nie einem Andern gehören.</p>
+            <pb n="186" facs="#f0184"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12721" type="chapter">
+            <head>Zwey und funfzigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>So bin ich denn schon von allem was ich liebte geschieden! – Ubaldo redet nur durch Blicke, die ich nicht verstehen mag. Die Mädchen zittern und schweigen, mein Mann schweigt, Du, von der ich Verzeihung, Versicherung Deiner wiederkehrenden Liebe hoffte, Du schweigst auch. – So schweigt denn alles! ist alles für mich todt. – Ach Gott! so schauderhaft muß die Meeresstille seyn vor einem Sturme.</p>
+            <p rendition="#et">
+               <pb n="187" facs="#f0185"/>
+Wird man mich diesem Menschen überlassen? Ist er es allein, den ich fürchte; oder was ist es sonst? – Der süße Friede ist von mir gewichen. Eine leidenschaftliche Unruhe, eine Bangigkeit verfolgt mich. – O Gott! was habe ich gethan? was steht mir bevor?</p>
+            <p rendition="#et">Habe Dank, Unglücklicher! du hast meinen Schmerz in Wehmuth aufgelöst. Ich kann weinen. Ach lange habe ich nichts seelenerschütterndes gehört.</p>
+            <p rendition="#et">Da war ein Mensch an der Pforte und verlangte durch Zeichen, eingelassen zu werden. Ubaldo fuhr hart gegen ihn heraus. Aber nun stimmte er auf seiner Klarinette ein Adagio an, das alles, was auf dem Hofe <pb n="188" facs="#f0186"/>
+war, herbeylockte und endlich den harten Oberaufseher überwältigte. Ich selbst stand unbeweglich am Fenster und horchte auf die schön verbundenen Töne.</p>
+            <p rendition="#et">Die Gestalt des fremden Mannes zeugte von dem äußersten Elende. Er war mit Lumpen bedeckt, und hatte ein großes Pflaster über dem einen Auge. Seine Sprache war so unverständlich, daß Ubaldo erst mit vielem Hin- und Herreden, die Bitte um ein Nachtlager, begreifen konnte. Nach mancherley Schwierigkeiten ward es ihm endlich zugestanden. Die Musik hatte aller Herzen für ihn gewonnen.</p>
+            <p>
+               <pb n="189" facs="#f0187"/>
+(Am folgenden Tage.)</p>
+            <p>Der Fremde ist noch hier. Ubaldo, bis zur Narrheit in sein Instrument verliebt, hat sich bey ihm in die Lehre gegeben. Es ist wahr, der sonderbare Mensch spielt zum Entzücken. Mir ist es unbegreiflich, wie er bey so außerordentlicher Geschicklichkeit, in dieses Elend gerathen konnte.</p>
+            <p>Ubaldo hat mir verschiedenes von seinen überstandenen Abentheuern mitgetheilt. Aber das alles ist so romanhaft und zum Theil so unzusammenhängend, daß man, wie Ubaldo, schon ganz und gar eingenommen seyn muß, um es zu glauben.</p>
+            <p rendition="#et">
+               <pb n="190" facs="#f0188"/>
+Sollte er von meinem Manne abgeschickt sollte Ubaldo verdächtig geworden seyn? – Gott gebe es! dann würde ich von diesem, mir jetzt so widrigen Menschen befreyt werden.</p>
+            <p rendition="#et">Wenn er meine Briefe unterschlüge! – Wenn dieß die Ursache Deines, meines Mannes Stillschweigens wäre. – O warum bin ich denn so ganz ohne Rath und ohne Schutz! Warum kommt mein Mann nicht? – Schon nach acht Tagen wollte er mich abholen.</p>
+            <p rendition="#et">Sollte er krank seyn? Sollte Ubaldo es verheelen? – O Gott! O Gott! in der Gewalt dieses Menschen! – Keiner von Euch weiß wo ich bin. Ich selbst kenne nicht einmal den eigentlichen Nahmen dieses Guthes. Welche <pb n="191" facs="#f0189"/>
+Angst überfällt mich! – Ach Niemand kann mir helfen! ich selbst muß mich retten.</p>
+            <p rendition="#et">Wenn ich dem Fremden diesen Brief übergäbe – Wenn ich ihn flehentlich bäte – Er hat ein menschliches Herz; das verräth sein Instrument.</p>
+            <p rendition="#et">Ach ich Unglückliche! einem Landstreicher mich anvertrauen! der vielleicht mit Ubaldo im genauesten Verständnisse, auf nichts als niedrige Ränke bedacht ist.</p>
+            <p rendition="#et">Es wird dunkel um mich her! Wer rettet mich aus dieser Finsterniß! –</p>
+            <pb n="192" facs="#f0190"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12794" type="chapter">
+            <head>Drey und funfzigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>Da liegt der Brief! Ich habe ihn gesiegelt; aber noch weiß ich nicht, wie er in Deine Hände kommen soll. –</p>
+            <p rendition="#et">Wenn ich nun gerade an meinen Mann schriebe – sollte sich der tückische Mensch wirklich unterstehn, den Brief zurückzubehalten? – Aber, wenn er, seiner Schuld sich bewußt, ihn erbricht – sieht, daß ich ihn anklage, ihn anklagen muß – O Gott! was soll ich thun? –</p>
+            <p rendition="#et">
+               <pb n="193" facs="#f0191"/>
+Der unglückliche Fremde scheint mich sprechen zu wollen. Sollte es eine Warnung, ein Wink zu meiner Rettung seyn? – Nein, er ist kein böser Mensch! das sagt mir mein Herz. Er will mir wohl, darauf könnte ich sterben. Ich kann mich ihm anvertrauen. Ja gewiß! ich kann es thun.</p>
+            <p>Voll Unruhe trat ich an mein Klavier. Alceste lag auf dem Pulte. Ohne an die Musik zu denken, spielte ich einige Blätter nach einander weg, und kam endlich an die herrliche Stelle: »<hi rendition="#i">noch lebt Admet in deinem Herzen</hi>.« Wahrscheinlich würde ich sie eben so sinnlos abgespielt haben; wäre der Fremde <pb n="194" facs="#f0192"/>
+nicht in dem Augenblicke mit seiner Klarinette eingefallen.</p>
+            <p rendition="#et">Wie spielte er! Mit einem Thränenstrome eilte ich zum Fenster. Er muß gesehen haben, daß ich weinte. Ich war außer mir. Nein, es ist unmöglich diesem Instrumente mehr Seele einzuhauchen. Gewiß er hat unglücklich geliebt. O da ist mehr als Kunst! man fühlt es an seinem eignen Herzen.</p>
+            <p rendition="#et">Ich bin entschlossen! ich entdecke mich ihm. Nein! ein Mann der liebt, der unglücklich liebt, ist wenigstens in dieser Zeit kein böser Mensch.</p>
+            <pb n="195" facs="#f0193"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12837" type="chapter">
+            <head>Vier und funfzigster Brief</head>
+            <p>Julie an Wilhelmine</p>
+            <p>O was habe ich gethan, daß ich so unglücklich bin! Ich glaubte mich zu retten; und bin trostloser als jemals. Wäre ich bey Dir meine Wilhelmine! wäre ich bey Dir! Ich fürchte meinen Mann. Wer rettet mich! Er ist es! er selbst! Antonelli! Ach das habe ich nicht gewußt! Daran habe ich nicht gedacht. Es hat mich tödtlich erschüttert.</p>
+            <p rendition="#et">Sehr, sehr hat er mich geliebt! und ich? – o ich entfliehe! Entdeckt ihn mein Mann; er ist verlohren! – Ich kann Dir nicht erzählen. <pb n="196" facs="#f0194"/>
+Dieser Brief – er kommt doch nicht in Deine Hände. Ich müßte ihn selbst bringen. Ich schreibe nur um mich zu fassen, um mir selbst deutlich zu machen, was ich denke.</p>
+            <p rendition="#et">Lange war ich so tödtlich betäubt, daß mir alles nur wie ein dunkler Traum erschien. Wie er da vor mich hinstürzte, die Kleider von sich riß, schwur: es solle ihn kein Wesen mehr von mir trennen, er kenne die Furcht nicht mehr, Allem sey er bereit zu widerstehen. O Gott! in seinen Armen war ich! an sein Herz hat er mich gedrückt! mein Mund brennt noch von seinen Küssen! – Ich bin verlohren! ich bin verlohren!</p>
+            <pb n="197" facs="#f0195"/>
+         </div>
+         <div xml:id="Fischer-Carolin-d1e12865" type="chapter">
+            <head>Fünf und funfzigster Brief</head>
+            <p>Olivier an Reinhold</p>
+            <p>Nein, Mutter-Thränen, die trage ich nicht! Er ist dahin! Ja! Antonelli! Ich habe ihn getödtet. Warum wollte er tückisch mein Eigenthum rauben? Ein Herz, für das ich tausend Leben gegeben haben würde. O dieses Herz! nun ist es auch dahin! – Ich kann das Leben nicht tragen.</p>
+            <p rendition="#et">Komm schnell. Schreibe Wilhelminen. <pb n="198" facs="#f0196"/>
+Ich gehe mit dem Könige. Ich will Dich noch sehen. Komm ohne Verzug. Ich reise.</p>
+            <p>* * *</p>
+            <p>Er gieng in die Schlacht, und eine Kugel brachte sein unglückliches Herz zur Ruhe. Julie ward von Wilhelminen und Reinholden schnell aus dem Trauerhause weggeführt. Nach einigen Jahren sah sie ihre Freundin mit dem edlen jungen Landmann verbunden, der schon lange Wilhelminens Herz besessen hatte. Sie selbst konnte sich zu keiner zweyten Verbindung entschließen. Jedesmal, wenn ihre Freunde davon sprachen, suchte Reinhold die Einsamkeit; sie aber blickte lächelnd gen Himmel.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

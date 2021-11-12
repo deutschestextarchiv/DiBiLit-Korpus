@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Rezensionen</title>
+            <title type="volume">Bd. 02</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:11Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005264146</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Ästhetische Schriften/Rezensionen</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rk80.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E7C6-2</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 5, München 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 5</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">29 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1973</date>
+                  <date type="firstPublication">1749</date>
+                  <date type="firstPublication" subtype="clariah">1749</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e80831">Erstdruck in: Bibliothek der schönen Wissenschaften und der freien Künste (Leipzig), Ersten Bandes zweites Stück, 1757.</note>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e81215">Erstdruck in: Berlinische privilegierte Zeitung, 3. Stück, 7.1.1758.</note>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e81316">Erstdruck in: Berlinische privilegierte Zeitung, 30. Stück, 11.3.1758.</note>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e81470">Erstdruck in: Bibliothek der schönen Wissenschaften und der freien Künste (Leipzig), Dritten Bandes zweites Stück, 1758.</note>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e82212">Erstdruck in: Hamburgische Neue Zeitung, 148. Stück, 21.9.1767.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Ästhetische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Ästhetik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="BLessing-Gotthol-d1e78005">
+         <div xml:id="Lessing-Gotthol-d1e80831" type="chapter">
+            <head>Gleim, Im Lager bei Prag</head>
+            <pb n="10" facs="#f0001"/>
+            <pb n="9" facs="#f0002"/>
+            <p>
+               <hi rendition="#i">[Johann Wilhelm Ludwig Gleim:] Im Lager bei Prag</hi>. Unter dem Artikel von Berlin haben wir, auf der vorhergehenden 404. Seite, zwei Siegeslieder eines preußischen Officiers angeführt; und unter diesem wollen wir dem Leser zwei ähnliche aber weit bessere Gesänge mitteilen, die einen gemeinen Soldaten zum Verfasser haben. Der erste, welcher uns nur geschrieben zu Händen gekommen, ist bei Eröffnung des diesjährigen Feldzuges, von ihm gesungen worden, und heißt ein »Schlachtgesang«. Der zweite ist ein »Siegeslied« nach der Schlacht bei Prag (den 6ten Mai 1757) und man hat ihn auf einem Bogen in Quart abgedruckt, dessen Titel den oben vorgesetzten Ort angibt. Sie könnten beide weder poetischer noch kriegrischer sein; voll der erhabensten Gedanken, in dem einfältigsten Ausdrucke. In der gewissen Überzeugung, daß sie gefallen müssen, und daß sich unsre auswärtige Leser nicht an Dinge stoßen werden, die der Verfasser als ein Mann sagt, der die Gerechtigkeit der Waffen seines Königes <hi rendition="#i">voraussetzen muß</hi>, rücken wir sie hiermit ganz ein:</p>
+            <p>
+               <hi rendition="#i">1. Schlachtgesang</hi>
+            </p>
+            <p>Auf, Brüder, <hi rendition="#i">Friedrich</hi> unser Held,</p>
+            <p>Der Feind von fauler Frist,</p>
+            <pb n="9" facs="#f0003"/>
+            <p>Ruft uns nun wieder in das Feld,</p>
+            <p>Wo Ruhm zu holen ist.</p>
+            <p>Was soll, o Tolpatsch und Pandur,</p>
+            <p>Was soll die träge Rast?</p>
+            <p>Auf und erfahre, daß du nur</p>
+            <p>Den Tod verspätet hast.</p>
+            <p>Aus deinem Schädel trinken wir</p>
+            <p>Bald deinen süßen Wein</p>
+            <p>Du Ungar! Unser Feldpanier</p>
+            <p>Soll solche Flasche sein.</p>
+            <pb n="11" facs="#f0004"/>
+            <p>Dein starkes Heer ist unser Spott,</p>
+            <p>Ist unser Waffenspiel;</p>
+            <p>Denn was kann wider unsern Gott</p>
+            <p>Th*** und B*?</p>
+            <p>Was helfen Waffen und Geschütz</p>
+            <p>Im ungerechten Krieg?</p>
+            <p>Gott donnerte bei Lobesitz,</p>
+            <p>Und unser war der Sieg.</p>
+            <p>Und böt uns in der achten Schlacht</p>
+            <p>Franzos und Russe Trutz,</p>
+            <p>So lachten wir doch ihrer Macht,</p>
+            <p>Denn Gott ist unser Schutz.</p>
+            <p>
+               <hi rendition="#i">II. Siegeslied</hi>
+            </p>
+            <p>Victoria, mit uns ist Gott,</p>
+            <p>Der stolze Feind liegt da!</p>
+            <p>Er liegt, gerecht ist unser Gott,</p>
+            <p>Er liegt, Victoria!</p>
+            <p>Zwar unser Vater ist nicht mehr,</p>
+            <p>Jedoch er starb ein Held,</p>
+            <p>Und sieht nun unser Siegesheer,</p>
+            <p>Vom hohen Sternenzelt.</p>
+            <p>Er ging voran der edle Greis,</p>
+            <p>Voll Gott und Vaterland!</p>
+            <p>Sein alter Kopf war kaum so weiß,</p>
+            <p>Als tapfer seine Hand.</p>
+            <p>Mit muntrer jugendlicher Kraft</p>
+            <p>Ergriff sie eine Fahn,</p>
+            <p>Und hielt sie hoch an ihrem Schaft,</p>
+            <p>Daß wir sie alle sahn.</p>
+            <p>Und sagte: »Kinder, Berg hinan,</p>
+            <p>Auf Schanzen und Geschütz!«</p>
+            <p>Wir folgten alle, Mann vor Mann,</p>
+            <p>Geschwinder, wie der Blitz.</p>
+            <p>Ach, aber unser Vater fiel,</p>
+            <p>Die Fahne fiel auf ihn.</p>
+            <p>O, welch glorreiches Lebensziel,</p>
+            <p>Glückseliger <hi rendition="#i">Schwerin</hi>!</p>
+            <pb n="12" facs="#f0005"/>
+            <p>Vielleicht hat <hi rendition="#i">Friedrich</hi> dich beweint,</p>
+            <p>Indem er uns gebot;</p>
+            <p>Wir aber stürzten in den Feind,</p>
+            <p>Zu rächen deinen Tod.</p>
+            <p>Du, <hi rendition="#i">Heinrich</hi>, warest ein Soldat,</p>
+            <p>Du fochtest königlich!</p>
+            <p>Wir sahen alle, Tat vor Tat,</p>
+            <p>Du junger Löw auf dich!</p>
+            <p>Der Pommer und der Märker stritt,</p>
+            <p>Mit rechtem Christenmut.</p>
+            <p>Sein Schwerd ward rot, auf jeden Schritt</p>
+            <p>Floß schwarz Pandurenblut.</p>
+            <p>Aus sieben Schanzen jagten wir</p>
+            <p>Die Mützen von dem Bär;</p>
+            <p>Da, <hi rendition="#i">Friedrich</hi>, ging dein Grenadier</p>
+            <p>Auf Leichen hoch einher!</p>
+            <p>Dacht in dem mörderischen Kampf,</p>
+            <p>Gott, Vaterland und <hi rendition="#i">dich</hi>;</p>
+            <p>Erblickte schwarz von Rauch und Dampf,</p>
+            <p>Dich, seinen <hi rendition="#i">Friederich</hi>;</p>
+            <p>Und zitterte, ward feuerrot</p>
+            <p>Im kriegrischen Gesicht;</p>
+            <p>(Er zitterte vor deinem Tod,</p>
+            <p>Vor seinem aber nicht.)</p>
+            <p>Verachtete die Kugelsaat,</p>
+            <p>Der Stücke Donnerton,</p>
+            <p>Stritt wütender, tat Heldentat,</p>
+            <p>Bis deine Feinde flohn.</p>
+            <p>Nun dankt er Gott für seine Macht</p>
+            <p>Und singt: Victoria!</p>
+            <p>Und alles Blut aus dieser Schlacht</p>
+            <p>Fließt nach Th***</p>
+            <p>Und weigert sie auf diesen Tag</p>
+            <p>Den Frieden vorzuziehn;</p>
+            <p>So stürme, Friedrich, erst ihr Prag,</p>
+            <p>Und dann führ uns nach Wien!</p>
+            <pb n="13" facs="#f0006"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e81215" type="chapter">
+            <head>Gleim, Siegeslied der Preußen nach der Schlacht bei Roßbach</head>
+            <p>
+               <hi rendition="#i">Berlin</hi>. Daß es unter den gemeinen Soldaten unsers unsterblichen Friedrichs, Helden die Menge gibt, ist längst bekannt Nun aber hat sich unter ihnen auch ein Sänger gefunden, der in dem wahren Tone der alten<hi rendition="#i"> Barden</hi>, die Begebenheiten und Siege besingt, deren tätiger Augenzeuge er gewesen. Er ist nur ein Grenadier, aber vollkommen würdig, als ein zweiter Tyrtäus, vor den neuern bessern Spartanern, mit der kriegerischen Laute einher zu ziehen. Kennern ist bereits sein Lied, welches er bei Eröffnung des Feldzuges vorigen Jahres, und ein anderes, das er nach dem Siege bei Prag gesungen, bekannt, und sie haben die erhabne Einfalt derselben nicht genug bewundern können. Diesen Charakter hat er auch in einem neuern und längern Liede nicht verleugnet, welches er über den Roßbachschen Sieg angestimmet. Es ist hier, in Berlin, auf drei Bogen in Quart, unter der Aufschrift gedruckt: »Siegeslied der Preußen nach der Schlacht bei Roßbach« [von Johann Wilhelm Ludwig Gleim]. Wer gegen die Ehre seines Königs und seiner Nation nicht ganz gleichgültig ist, wird es gewiß mit Entzücken lesen. Nur muß er nicht zur Unzeit den Kunstrichter dabei spielen wollen, und sich bei anscheinenden Fehlern verweilen, die da, wo sie stehen, Schönheiten sind. – Wie erhaben ist die Stelle, wo unser <hi rendition="#i">Heldenbarde</hi> von der Nacht, die vor dem großen Tage vorhergegangen, sagt:</p>
+            <p>Vom Sternenvollen Himmel sahn</p>
+            <p>Schwerin und Winterfeld,</p>
+            <p>Bewundernd den gemachten Plan,</p>
+            <p>Gedankenvoll den Held.</p>
+            <p>Gott aber wog, bei Sternen-Klang,</p>
+            <p>Der beiden Heere Krieg;</p>
+            <p>Er wog, und Preußens Schale sank,</p>
+            <p>Und Östreichs Schale stieg.</p>
+            <p>Wie launisch hingegen sind die Beschreibungen, die er von der Flucht der so genannten Reichstruppen macht: z. E. von dem Schwaben:</p>
+            <p>Der Schwabe, der mit einem Sprung,</p>
+            <p>Mit Berganstehndem Haar,</p>
+            <pb n="14" facs="#f0007"/>
+            <p>Von Roßbach bis nach Amelung,</p>
+            <p>In seiner Heimat war.</p>
+            <p>Ferner von dem Paderborner:</p>
+            <p>Dem Paderborner, welcher Gott</p>
+            <p>Hochpries, und seinen Sporn,</p>
+            <p>Und doch von kaltem Schrecken tot</p>
+            <p>Ankam zu Paderborn.</p>
+            <p>Genug zur Probe! – Das Publikum muß es übrigens dem Grenadier nicht übel deuten, daß es jetzt nicht lieber ein Lied auf den Sieg bei Lissa zu lesen bekömmt. Er wird auch diesen Sieg gewiß nicht verschweigen. Aber wessen Muse ist vermögend, mit dem Könige, der jeden Tag mit Liederwürdigen Taten bezeichnet, Schritt zu halten? Kostet in den Vossischen Buchhandlungen hier und in Potsdam 3 Gr.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e81316" type="chapter">
+            <head>Gleim, Siegeslied der Preußen nach der Schlacht bei Lissa</head>
+            <p>
+               <hi rendition="#i">[Johann Wilhelm Ludwig Gleim:] Siegeslied der Preußen, nach der Schlacht bei Lissa, den 5. Dezembr. 1757, Berlin 1758, in Quarto auf 3 Bogen</hi>. Hier ist es, wo wir unseren neuen <hi rendition="#i">Barden</hi>, den liederreichen Grenadier, erwartet haben. Wir zweifelten in der Tat, ob es ihm möglich sein würde, seine Laute in einem noch höheren Tone zu stimmen, und seine vorigen Triumphlieder eben so weit zu übertreffen, als dieser letzte Sieg unsers glorreichen Königs alle vorher erfochtene übertroffen. Doch er hat unsern Zweifel beschämt, und wir wollen in Zukunft seiner Muse nie weniger zutrauen, als den Waffen des Heeres, unter welchem, auch nur ein gemeiner Soldat zu sein, keine geringe Ehre ist. Gleich Anfangs redet er seinen Gesang an, und schreibet ihm alle die Würde und Erhabenheit vor, in welcher er erschallen müsse. Hierauf führt er Gott redend ein, und man urteile ob jemals ein Dichter Gott würdiger hat reden lassen.</p>
+            <p>Ein Starker, ein Allmächtiger</p>
+            <p>Gewann für ihn die Schlacht.</p>
+            <p>Als Rächer will ich, sprach der Herr,</p>
+            <p>Zertreten ihre Macht.</p>
+            <pb n="15" facs="#f0008"/>
+            <p>Mein Donner soll auf ihren Kopf</p>
+            <p>Hart treffen; fressend Schwerd</p>
+            <p>Soll ihn zerspalten, daß der Zopf</p>
+            <p>Des Haars zurücke fährt.</p>
+            <p>Vernichten will ich ihren Bund:</p>
+            <p>Würgengel steig herauf!</p>
+            <p>Nimm, Hölle, nimm in deinen Schlund</p>
+            <p>Die Scharen Toten auf!</p>
+            <p>Warum verschmähn, in stolzer Pracht,</p>
+            <p>Der Erde Fürsten mich?</p>
+            <p>Verlassen sich auf ihre Macht,</p>
+            <p>Stehn wider Friederich?</p>
+            <p>Sind seiner großen Seele feind,</p>
+            <p>Die ich in ihn gelegt?</p>
+            <p>Und machen, daß der Menschenfreund</p>
+            <p>Gezwungen Waffen trägt?</p>
+            <p>So trag er meine Rache dann</p>
+            <p>Und strafe sie! – So sprach</p>
+            <p>Der Herr; sein Himmel hört es an,</p>
+            <p>Sein Donner sprach es nach.</p>
+            <p>Hierauf folgt eine nähere Beschreibung der Schlacht, und die historischen Umstände, die er mit einstreuet, sind der strengsten Wahrheit gemäß. Auch hierin betritt der Grenadier den Weg der alten <hi rendition="#i">Skalden</hi>, die es für zuträglicher hielten, daß die Nachwelt einst ihre Lieder mehr wie glaubwürdige Chroniken, als wie schöne Erdichtungen sänge. Wir wollen uns aber jetzt in keine weitläuftigere Anpreisung einlassen, sondern nur noch melden, daß auch das allererste von seinen Siegesliedern, »Auf den Sieg bei Lowesitz«, mit zugleich im Druck erschienen ist. Es erscheint ein wenig spät, aber doch nicht so spät, daß es interessant zu sein, aufgehört habe. Die Anordnung, die der König zur Schlacht macht, wird unter andern vortrefflich beschrieben.</p>
+            <p>Dort spricht er, stehe Reuterei!</p>
+            <p>Hier Fußvolk! – Alles steht!</p>
+            <p>– – – –</p>
+            <pb n="16" facs="#f0009"/>
+            <p>So stand, als Gott der Herr erschuf,</p>
+            <p>Das Heer der Sterne da!</p>
+            <p>Gehorsam stand es seinem Ruf</p>
+            <p>In großer Ordnung da.</p>
+            <p>Beide Lieder sind in den Vossischen Buchhandlungen, hier und in Potsdam, das erste für 3 Gr. und das andre für 2 Gr. zu haben.</p>
+            <pb n="17" facs="#f0010"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e81470" type="chapter">
+            <head>Gleim, Lieder, Fabeln und Romanzen</head>
+            <p>
+               <hi rendition="#i">
+                  <pb n="18" facs="#f0011"/>
+                  <pb n="18" facs="#f0012"/>Lieder, Fabeln und Romanzen</hi>, von F. W. G[leim]. Leipzig bei David Iversen, 16 Bogen in Oktav.</p>
+            <p>Wir ergreifen die Gelegenheit, um bei einer neuen Auflage dieser Gedichte Nachricht von denselben zu geben. Ihr Verfasser, der schon längst die Ehre des deutschen Parnasses gewesen ist, hat sich zwar nicht genennet, ist aber dennoch bekannt genug. Und wie könnte man einen <hi rendition="#i">Gleim</hi> verkennen? – – –</p>
+            <p>Wir fangen von den Fabeln an, welche den größten Teil dieser Sammlung einnehmen:</p>
+            <p>Das <hi rendition="#i">erste Buch</hi> enthält fünf und zwanzig neuerfundene <pb n="19" facs="#f0013"/>
+Fabeln. Hingegen gehören von den fünf und zwanzigen des <hi rendition="#i">zweiten Buchs</hi> nur die drei ersten dem Verfasser; die übrigen hat er nach dem beigefügten Verzeichnisse aus alten und neuen Dichtern genommen. Vor einem jeden Teile stehet eine poetische Zueignungsschrift an des <hi rendition="#i">Prinzen Friedrichs von Preußen Königl. Hoheit</hi>, in welchen viel schönes enthalten ist. Von dem großen preußischen Monarchen heißt es in der Zueignungsschrift des ersten Buchs:</p>
+            <p>... Oft erholt Er sich ein wenig</p>
+            <p>Vom Ungemach der Monarchie;</p>
+            <p>Denn hat das stille Sans-Souci</p>
+            <p>Den Philosophen, nicht den König.</p>
+            <p>Da denkt Er denn in seiner großen Seele</p>
+            <p>Gedanken, wie die Marc Aurele,</p>
+            <p>Und liest.</p>
+            <p>O Prinz, o wag es doch einmal,</p>
+            <p>Und trag in seinen Büchersaal</p>
+            <p>Dies Fabelbuch, dein Spiel.</p>
+            <p>(Der Held, der jetzt auf einem ganz andern Wege der Unsterblichkeit entgegen zu eilen genötigt ist, mag sich unter dem freudigen Zuruf der Völker sehr oft nach der philosophischen Muße auf dem stillen Sans-Souci zurück sehnen!) Unter den eigenen Erdichtungen unsers Verfassers verdienen die zehnte, zwölfte und drei und zwanzigste des ersten Buchs, wie auch die zwo ersten des zweiten Buchs allen andern vorgezogen zu werden; und auch diese sind nicht von kleinen Fehlern frei, indem man öfters die Wahrheit, Einheit und Moralität der äsopischen Fabel vermißt. Hingegen besitzt unser Dichter die Gabe zu erzählen in einem sehr vorzüglichen Grade, und dieses ist bei dem Fabeldichter wenigstens ein eben so großes Verdienst, als die Gabe zu erfinden. La Motte wird mit allen seinen Erfindungen selten gelesen, und La Fontaine hat sich durch seine meisterhafte Art zu erzählen einen vorzüglichen Platz unter den Dichtern erworben, die die Zeiten Ludewigs des Vierzehnten, oder vielmehr die Zeiten dieser großen Dichter verherrlichen. Unserm Dichter <pb n="20" facs="#f0014"/>
+ist besonders eine glückliche Kürze eigen, die fast niemals in das Trockene verfällt, und dem Vortrage eine besondere Naivite und Lebhaftigkeit verschafft, ohne ihn in das Possenhafte und Niedrige sinken zu lassen. Die dreizehnte Fabel des zweiten Buchs ist meisterlich erzählt, und übertrifft den La Fontaine, aus dem sie genommen ist. Wir wollen das Muster mit der Nachahmung vergleichen. Die hundert und neunzehnte Fabel T. I. des La Fontaine ist:</p>
+            <p>
+               <hi rendition="#i">Le Cheval et l'Ane</hi>
+            </p>
+            <p>En ce monde il se faut l'un l'autre secourir.</p>
+            <p>Si ton voisin vient à mourir,</p>
+            <p>C'est sur toi que le fardeau tombe.</p>
+            <p>Un Ane accompagnoit un Cheval peu courtois,</p>
+            <p>Celui-ci ne portant, que son simple harnois,</p>
+            <p>Et le pauvre Baudet si chargé qu'il succombe.</p>
+            <p>Il pria le Cheval de l'aider quelque peu;</p>
+            <p>Autrement il mourroit avant qu' être à la ville.</p>
+            <p>La Priere, dit-il, n'en est pas incivile:</p>
+            <p>Moitié de ce fardeau ne vous sera que jeu.</p>
+            <p>Le Cheval refusa, fit une petarade,</p>
+            <p>Tant qu'il vit sous le faix mourir son cammarade,</p>
+            <p>Et reconut, qu'il avoit tort.</p>
+            <p>Du Baudet en cette avanture,</p>
+            <p>On lui fit porter la voiture,</p>
+            <p>Et la peau par dessus encor.</p>
+            <p>Unser deutscher Dichter unter eben dem Titel:</p>
+            <p>Einst trug auf seinem schmalen Rücken</p>
+            <p>Ein Esel eine schwere Last,</p>
+            <p>Die fähig war, ihn tot zu drücken.</p>
+            <p>Ein ledig Pferd ging neben ihm. »Du hast</p>
+            <p>Auf deinem Rücken nichts«, sprach das geplagte Tier,</p>
+            <p>»Hilf, liebes Pferdgen, hilf! ich bitte dich, hilf mir.«</p>
+            <p>»Was helfen!« sagt der grobe Gaul,</p>
+            <p>»Du bist der rechte Gast, du bist ein wenig faul,</p>
+            <p>Trag zu!« – – – »Ich sterbe, liebes Pferd – – –</p>
+            <p>Die Last erdrückt mich, rette mich!</p>
+            <p>Die Hälfte wär ein Spiel für dich!«</p>
+            <p>»Ich kann nicht«, sprach das Pferd.</p>
+            <p>Kurz: Unter dem zu schweren Sack</p>
+            <p>Erlag der Esel. Sack und Pack</p>
+            <p>Schmiß man dem Rappen auf;</p>
+            <p>Des Esels Haut noch oben drauf.</p>
+            <pb n="21" facs="#f0015"/>
+            <p>Der Eingang unsers deutschen Dichters ist vortrefflich. Der Vorwurf wird mit vieler Deutlichkeit aus einander gesetzt, und die Handlung in jeder Zeile immer mehr und mehr vorbereitet. »Ein ledig Pferd ging neben ihm«, ist kürzer und weit schöner, als accompagnoit un cheval <hi rendition="#i">peu courtois</hi>, Celui-ci ne portant, que son simple harnois. Peu courtois steht hier sehr am unrechten Orte. Der Leser begreift noch nicht, wodurch sich das Pferd diesen Tadel zugezogen hat. Weit besser ist: »<hi rendition="#i">Was helfen</hi>! sagt der <hi rendition="#i">grobe Gaul</hi>.« Ne portant, que son simple harnois, ist lange nicht so gut, als »Ein ledig Pferd«. Die Unterredung des Esels mit dem Gaul wird von dem französischen Dichter bloß erzählt; der deutsche hingegen läßt die Handlung vor unsern Augen vorgehen. Die demütige Bitte des geplagten Tiers machet mit der beleidigenden Antwort des stolzen Gauls einen vollkommenen Kontrast aus. Man glaubt einen unerbittlichen Pachter mit dem Fröhner reden zu hören:</p>
+            <p>Was helfen! sagt der – –</p>
+            <p>Du bist der rechte Gast, du bist ein wenig faul.</p>
+            <p>Trag zu! – Ich sterbe etc.</p>
+            <p>Wie schwach klingt das Französische: La Priere, dit-il, n'en est pas incivile. So gar die französischen Esel wollen nicht gern unhöflich heißen. En cette Avanture ist eine bloße cheville.</p>
+            <p>Die sehr malerische Beschreibung des Fischreigers im La Fontaine:</p>
+            <p>Un jour sur ses longs pieds alloit, je ne sçai où,</p>
+            <p>Le Heron au long bec, emanché d'un long cou,</p>
+            <p>Il côtoyoit une riviere, u.s.w.</p>
+            <p>Ist im Deutschen glücklich gegeben:</p>
+            <p>Am Ufer eines Bachs, auf einer Wiese, ging</p>
+            <p>Ein Reiger ernsthaft hin, auf langen dürren Beinen,</p>
+            <p>Mit langem Hals, woran ein langer Schnabel hing, u.s.w.</p>
+            <p>Die Worte, <hi rendition="#i">auf einer Wiese</hi>, scheinen überflüssig.</p>
+            <p>Die sechzehnte Fabel, »Der Esel in der Löwenhaut«, gleichfalls aus dem La Fontaine, ist um ein merkliches verschönert. <pb n="22" facs="#f0016"/>
+Man kann dieses auch von der zwanzigsten aus <hi rendition="#i">Gay's Fables</hi> behaupten. – Wir wollen einen Teil der engländischen Fabel samt der deutschen Nachahmung hersetzen.</p>
+            <p>Fable XLIII</p>
+            <p>
+               <hi rendition="#i">The Council of the Horses</hi>
+            </p>
+            <p>Upon a time a neighing steed,</p>
+            <p>Who graz'd among a num'rous breed,</p>
+            <p>With mutiny had fir'd the train,</p>
+            <p>And spread dissention through the plain.</p>
+            <p>On matters that concern'd the state</p>
+            <p>The Council met in grand debate.</p>
+            <p>A colt, whose eye-balls flam'd with ire</p>
+            <p>Elate with strength and youthful fire,</p>
+            <p>In haste stept forth before the rest,</p>
+            <p>And thus the listning throng addrest.</p>
+            <p>Good gods! how abject is our race,</p>
+            <p>Condemn'd to slav'ry and disgrace!</p>
+            <p>Shall we our servitude retain,</p>
+            <p>Because our Sires have born the chain?</p>
+            <p>Consider, friends, your strength and might,</p>
+            <p>'This conquest to assert your right.</p>
+            <p>How cumbrous is the gilded coach!</p>
+            <p>The pride of man is our reproach.</p>
+            <p>Were we design'd for daily toil,</p>
+            <p>To drag the plough-share through the soil;</p>
+            <p>To sweat in harness through the road,</p>
+            <p>To groan beneath the carrier's load?</p>
+            <p>How feeble are the two legg'd Kind!</p>
+            <p>What force is in our nerves combin'd!</p>
+            <p>Shall then our nobler jaws submit</p>
+            <p>To foam and champ the galling bit?</p>
+            <p>Shall haughty man my back bestride?</p>
+            <p>Shall the sharp Spur provoke my side?</p>
+            <p>Forbid it Heav'ns! Reject the rein,</p>
+            <p>Your shame, your infamy disdain.</p>
+            <p>Let him the Lion first controul,</p>
+            <p>And still the tyger's famish'd growl:</p>
+            <p>Let us, like them, our freedom claim,</p>
+            <p>And make him tremble at our name.</p>
+            <p>A general nod approv'd the Cause,</p>
+            <p>And all the circle neigh'd applause etc.</p>
+            <p>Der deutsche Dichter hat die Reden des Aufwieglers verlängert, aber auch zugleich verschönert. Wir wollen ihn hören:</p>
+            <pb n="23" facs="#f0017"/>
+            <p>Ha! sprach ein junger Hengst, wir Sklaven sind es wert,</p>
+            <p>Daß wir im Joche sind. Wo lebt ein edles Pferd,</p>
+            <p>Das frei sein will? O wie glückselig war</p>
+            <p>In jener Zeit der Väter Schar!</p>
+            <p>Die waren Helden, edel, frei</p>
+            <p>Und tapfer. In die Sklaverei</p>
+            <p>Bog keiner seinen Nacken,</p>
+            <p>Engländer nicht, auch nicht Polacken.</p>
+            <p>Der weite Wald</p>
+            <p>War ihr geraumer Aufenthalt,</p>
+            <p>Und scheuten sie kein offnes Feld,</p>
+            <p>Sie grasten in der ganzen Welt</p>
+            <p>Nach freiem Willen. Ach! und wir,</p>
+            <p>Sind Sklaven, gehn im Joch, arbeiten wie der Stier.</p>
+            <p>Dem schwachen Menschen sind wir Starken untertan,</p>
+            <p>Dem Menschen! – – Brüder, seht es an,</p>
+            <p>Das unvollkommne Tier!</p>
+            <p>Was ist es? Was sind wir?</p>
+            <p>Solch ein Geschöpf bestimmte die Natur</p>
+            <p>Uns prächtigen Geschöpfen nicht zum Herrn;</p>
+            <p>Pfui, auf zwei Beinen nur!</p>
+            <p>Riecht er den Streit von fern?</p>
+            <p>Bebt unter ihm die Erde, wenn er stampft?</p>
+            <p>Sieht man, daß seine Nase dampft?</p>
+            <p>Ist er großmütiger als wir?</p>
+            <p>Ist er ein schönes Tier?</p>
+            <p>Hat er die Mähne, die uns ziert?</p>
+            <p>Und doch ist er, ihr Brüder, ach!</p>
+            <p>Der Herr, der uns regiert.</p>
+            <p>Wir tragen ihn, wir fürchten seine Macht,</p>
+            <p>Wir führen seinen Krieg, und liefern seine Schlacht!</p>
+            <p>Er siegt, und höret Lobgesang;</p>
+            <p>Die Schlacht indes, die er gewann,</p>
+            <p>War unser Werk, wir hatten es getan.</p>
+            <p>Was aber ist der Dank?</p>
+            <p>Wir dienen ihm zur Pracht</p>
+            <p>Vor seinem Siegeswagen;</p>
+            <p>Und ach! vielleicht nach dreien Tagen</p>
+            <p>Spannt er den Rappen, der ihn trug,</p>
+            <p>Vor einen Pflug.</p>
+            <p>Entreißet, Brüder, euch der niedern Sklaverei,</p>
+            <p>Entreißet euch dem Joch, und werdet wieder frei.</p>
+            <p>Vielleicht ist es, wenn wir</p>
+            <p>Zusammen halten! Was meint ihr?</p>
+            <p>Er schwieg. Ein wieherndes Geschrei,</p>
+            <p>Ein wilder Lärm entstand, und jeder fiel ihm bei.</p>
+            <p>
+               <pb n="24" facs="#f0018"/>
+Der Eingang des Engländers ist etwas langweilig. Wir würden lieber mit dem Deutschen gleich zur Sache schreiten:</p>
+            <p>Ha! sprach ein junger Hengst, <hi rendition="#i">u.s.w.</hi>
+            </p>
+            <p>wenn wir nur durch ein einziges Wort unterrichtet worden wären, wen der junge Hengst anredet.</p>
+            <p>Gay läßt ihn sagen:</p>
+            <p>Shall we our servitude retain</p>
+            <p>Because our Sires have borne the chain?</p>
+            <p>Bei dem Deutschen tut er gerade das Gegenteil. Er beschreibet den Heldenmut, die Tapferkeit und die Freiheit seiner Vorfahren, und dieses mit Recht. Das Geschlecht der Pferde ist doch unstreitig einst frei gewesen, und was ist natürlicher, als daß sich ein junger Held, durch die Heldentugenden seiner Vorfahren, zu großen Taten anspornen läßt.</p>
+            <p>Der Stolz des aufrührischen Gauls ist im Deutschen unverbesserlich ausgedrückt:</p>
+            <p>Dem Menschen! – –</p>
+            <p>Das unvollkommne Tier!</p>
+            <p>Was ist es? Was sind wir?</p>
+            <p>Pfui, auf zwei Beinen nur!</p>
+            <p>Die folgenden Fragen:</p>
+            <p>Riecht er den Streit von fern?</p>
+            <p>Bebt unter ihm die Erde, wenn er stampft?</p>
+            <p>Sieht man, daß seine Nase dampft? <hi rendition="#i">u.s.w.</hi>
+            </p>
+            <p>beziehen sich auf die Beschreibung von den Tugenden des Pferdes, die wir im Hiob lesen, und sind hier dem Eigendünkel des jungen Hengstes sehr angemessen. Wie lebhaft wird der Undank des Menschen gegen die willigen Tiere am Ende der Rede beschrieben!</p>
+            <p>Was aber ist der Dank?</p>
+            <p>Wir dienen ihm zur Pracht</p>
+            <p>Vor seinem Siegeswagen,</p>
+            <p>Und ach! vielleicht nach dreien Tagen,</p>
+            <pb n="25" facs="#f0019"/>
+            <p>Spannt er den Rappen, der ihn trug,</p>
+            <p>Vor einen Pflug.</p>
+            <p>Kurz! man wird in der Rede des deutschen Rebellen weit mehr Ordnung, mehr Lebhaftigkeit und auch mehr Gründlichkeit antreffen, als in der Rede des Engländers. Man wird diesen Unterschied auch in der Antwort des alten Schimmels bemerken, welche wir der Kürze halber übergehen. Nur den Schloß führen wir aus beiden Fabeln noch an; der engländische Dichter sagt:</p>
+            <p>The tumult ceas'd. The colt submitted,</p>
+            <p>And, like his ancestors, was bitted.</p>
+            <p>Der deutsche mit einer ihm eigenen Lustigkeit:</p>
+            <p>Niemals besänftigte der Redner Cicero</p>
+            <p>Die aufgebrachten Römer so,</p>
+            <p>Als dieser Nestor seine Brüder.</p>
+            <p>Denn er voran, und hinter ihm die Schar</p>
+            <p>Der mutigen Rebellen alle,</p>
+            <p>Nebst dem, der ihr Worthalter war,</p>
+            <p>Begaben alsobald sich wieder nach dem Stalle.</p>
+            <p>Es ist im übrigen zu bedauern, daß der Verfasser, wie er sich in einer angehängten Nachricht beklagt, dem Schicksale der besten Köpfe in Deutschland nicht hat entgehen können. Sie werden mehrenteils mit einer Menge von mechanischen Geschäften belastet, die in ziemlicher Entfernung von den Werken der Musen stehen, und wenn das Genie sich gleich durcharbeitet, und zu gewissen glücklichen Stunden aus dem Felde der Mühseligkeit in das Feld der Schönheit hinüber schweift, so fehlt es ihm doch an der zwoten Muße, die zur Ausbesserung und Wegschaffung der kleinen Fehler erfordert wird. Er dichtet, weil ihn das Dichten belustiget; die Ausbesserung aber ist eine Arbeit, und kann nur von demjenigen unternommen werden, der zur Veränderung arbeitet.</p>
+            <p>Nach denen überaus schönen Proben, die wir von unserm Dichter angeführt, wird es unstreitig den Umständen, in welchen der Verfasser lebt, zuzuschreiben sein, daß er sich selbst so ungleich ist, und in andern Stellen eine ziemliche Nachlässigkeit <pb n="26" facs="#f0020"/>
+verrät. Die vierte Fabel, »Die Milchfrau« aus dem Fontaine, ist weit unter dem Original, und wimmelt von müßigen Ausdrückungen. Die vier und zwanzigste, »Der Fuchs und der Rabe«, die La Fontaine so meisterlich erzählt, hat in der Nachahmung vieles verloren. (Man sehe in Gellerts Vorrede zu seinen Fabeln und Erzählungen, wie schön diese Fabel von einem alten schwäbischen Dichter ist besungen worden.) Wir zweifeln nicht, daß es der Herr Verfasser selbst eingesehen habe; aber wir verwundern uns, daß er nicht, statt der fünf und zwanzig Fabeln im zweiten Buche, lieber ungefähr achtzehn vortrefflich erzählte Fabeln hat liefern wollen.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e82212" type="chapter">
+            <head>Ramler, Oden</head>
+            <p>
+               <hi rendition="#i">Berlin. Karl Wilhelm Ramlers Oden, bei Christian Friedrich Voß. 8. 1767. 114</hi> Seit. Nur wenig Lesern wird der Name eines Ramlers unbekannt sein. Die Welt kennet in ihm einen eben so großen Poeten als Kunstrichter, und Deutschland kann auf seinen Landsmann stolz sein. Wir können ihn, ohne Schmeichelei, unsern Pindar, unsern Horaz nennen, und alle unsre Nachbarn auffodern, uns einen Mann darzustellen, der ihm gleiche. – Auch konnte Ramler in keinem glücklichern Zeitpunkte geboren werden. Große Helden haben allezeit große Dichter gefunden, und kein König ist vielleicht jemals schöner besungen worden. Seine »Ode an den König«:</p>
+            <p>Friedrich! du dem ein Gott das für die Sterblichen</p>
+            <p>Zu gefährliche Los eines Monarchen gab,</p>
+            <p>Und, o Wunder! der du glorreich dein Los erfüllst,</p>
+            <p>Siehe! deiner von Ruhm trunkenen Tage sind</p>
+            <p>Zwanzig tausend entflohn! <hi rendition="#i">u.s.w.</hi>
+            </p>
+            <p>»Die Wiederkunft des Königs«, »An die Muse«, »An die Stadt Berlin«, und mehrere sind mit den prächtigsten Oden des Horaz, Descende caelo etc. Caelo tonantem etc. in eine Reihe zu setzen. »Ptolomäus und Berenice« ist wenigstens eben so zärtlich, eben so vortrefflich <hi rendition="#i">amöbäisiert</hi>, als donec <pb n="27" facs="#f0021"/>
+gratus eram etc. »Auf ein Geschütz« ist eine Nachahmung von Ille et nefasto etc. Und dieser Dichter ist, wenn er reimt, eben so gedrungen, als er in dem Alkäischen Sylbenmaße harmonisch ist. Der öftere Gebrauch der Götterlehre würde bei jedem andern zu tadeln sein, für ihn scheint die Mythologie erfunden. Möchten doch gewisse feindselige Züge, die im Kriege gemacht sind, der Nachwelt kein Denkmal von der Stärke unsers Hasses überliefern! Eine Ode von einem sanftern Inhalte nehme hier den übrigen Raum ein:</p>
+            <p>
+               <hi rendition="#i">An Hymen</hi>
+            </p>
+            <p>Lyäens und Cytheren Sohn</p>
+            <p>Im schönsten Rausch geboren,</p>
+            <p>Gott Hymen, der du dir zum Thron</p>
+            <p>Das Hochzeitbett erkoren.</p>
+            <p>Dir fleht der sorgenvolle Greis:</p>
+            <p>»O Stifter der Geschlechter,</p>
+            <p>Nimm, was ich nicht zu schützen weiß,</p>
+            <p>Nimm mir die großen Töchter!«</p>
+            <p>Dir schmückt das fromme Mädchen sich</p>
+            <p>Bei seinem Morgenliede;</p>
+            <p>Der weise Jüngling hofft auf dich,</p>
+            <p>Des falschen Amors müde.</p>
+            <p>Dich rufen junge Wittben an</p>
+            <p>Im hochbetrübten Schleier;</p>
+            <p>Im Flor bekennt der Trauermann</p>
+            <p>Dir sein gewaltig Feuer.</p>
+            <p>Du mehr als andre Götter wert,</p>
+            <p>Dir flehen auch die Prinzen:</p>
+            <p>»Erfülle, was der Krieg geleert,</p>
+            <p>Erfüll uns die Provinzen.«</p>
+            <p>O! wenn dich noch ein Opferschmaus</p>
+            <p>Herab vom Himmel ziehet:</p>
+            <p>So komm in meines Lenkons Haus,</p>
+            <p>Der am Altare kniet!</p>
+            <p>O komm! zwei Ring an einer Hand,</p>
+            <p>Und um die Schläfe Myrten,</p>
+            <pb n="28" facs="#f0022"/>
+            <p>Und um den Arm ein goldnes Band,</p>
+            <p>Das Knie der Braut zu gürten.</p>
+            <p>Die, wann von Wein und Liebe voll,</p>
+            <p>Ein Gast zu viel begehret,</p>
+            <p>Und sie doch etwas wissen soll,</p>
+            <p>Am liebsten Band entbehret.</p>
+            <p>Die Schar der trunknen Räuber teilt</p>
+            <p>Sich in die goldne Beute:</p>
+            <p>Sie flieht indes, – der Liebling eilt,</p>
+            <p>Und gibt ihr das Geleite.</p>
+            <p>Wir haben in verschiednen Blättern des vorigen Jahres einer vorhabenden Ausgabe der Werke des Demosthenes, und der übrigen attischen Redner, vom Hrn. D. Reiske in Leipzig gedacht. Gegenwärtig können wir den Liebhabern der Griechischen Literatur die Nachricht erteilen, daß mit dem Drucke des Demosthenes bereits wirklich der Anfang gemacht worden, und instehende Ostermesse der erste Teil davon erscheinen soll. Wir haben nicht nötig, zur Anpreisung dieses Unternehmens viele Worte zu verschwenden. Wem der Name Reiske nicht statt aller Anpreisung ist, muß überhaupt ein Fremdling in dieser Art Gelehrsamkeit sein. Aber wie sehr wünschten wir, das kennende, und das sich noch weiter erstreckende vermögende Publikum, wenn es auch nur aus Patriotismus wäre, zur kräftigsten Unterstützung des Hrn. D. Reiske aufmuntern zu können. Es ist kein schlechtes Vorurteil für Deutschland, daß in den letzten fünfzehn bis zwanzig Jahren, ohnstreitig mehr gute und schöne Ausgaben klassischer Schriftsteller, aus beiden Sprachen, da erschienen sind, als in irgend einem andern Lande: und gegenwärtige Ausgabe des Demosthenes insbesondere werden uns selbst die Engländer, ohngeachtet ihrer prächtigen Taylorschen, beneiden müssen. Eine Probe des Drucks ist auf dem Kaiserl. Addreß-Comtoir zu sehen, allwo man auch die Pränumeration von einer halben Pistole auf einen Teil, bis zu gedachter Ostermesse anzunehmen erbötig. Nach <pb n="29" facs="#f0023"/>
+der Zeit wird kein Exemplar unter 3 Rtlr. der Teil, verlassen werden. Eine kleine Anzahl Exemplare wird auf größeres, noch stärkeres und schöners Papier, als die Probe zeiget, abgezogen, auf welche an drei Taler voll pränumeriert werden, und die nach der Hand überhaupt schwerlich zu haben sein dürften.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

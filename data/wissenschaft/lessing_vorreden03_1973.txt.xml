@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Vorreden</title>
+            <title type="volume">Bd. 03</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:14Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005265193</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Ästhetische Schriften/Vorreden</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rkf2.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E859-1</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 5, München 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 5</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">36 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1973</date>
+                  <date type="firstPublication">1752</date>
+                  <date type="firstPublication" subtype="clariah">1752</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e86046">Erstdruck in: [Johann Wilhelm Ludwig Gleim:] Preußische Kriegslieder in den Feldzügen 1756 und 1757 von einem Grenadier. Mit Melodien, Berlin (Voss) 1758.</note>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e86236">Erstdruck in: Friedrich von Logau: Sinngedichte, Leipzig (Weidmann) 1759.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Ästhetische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Ästhetik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="BLessing-Gotthol-d1e85380">
+         <div xml:id="Lessing-Gotthol-d1e86046" type="chapter">
+            <pb n="16" facs="#f0001"/>
+            <pb n="15" facs="#f0002"/>
+            <head>[Johann Wilhelm Ludwig Gleim:]</head>
+            <p>Preußische Kriegslieder</p>
+            <p>in den Feldzügen 1756 und 1757</p>
+            <p>von einem Grenadier</p>
+            <p>Mit Melodien</p>
+            <p>Vorbericht</p>
+            <p>Die Welt kennet bereits einen Teil von diesen Liedern; und die <hi rendition="#i">feinern</hi> Leser haben so
+      viel Geschmack daran gefunden, daß ihnen eine vollständige und verbesserte Sammlung derselben,
+      ein angenehmes Geschenk sein muß.</p>
+            <p rendition="#et">Der Verfasser ist ein gemeiner Soldat, dem eben so viel Heldenmut als
+      poetisches Genie zu Teil geworden. Mehr aber unter den Waffen, als in der Schule erzogen,
+      scheinet er sich eher eine eigene Gattung von Ode gemacht, als in dem Geiste irgend einer
+      schon bekannten gedichtet zu haben.</p>
+            <p rendition="#et">Wenigstens, wenn er sich ein deutscher Horaz zu werden wünschet, kann er
+      nur den Ruhm des Römers, als ein lyrischer Dichter überhaupt, im Sinne gehabt haben. Denn die
+      charakteristischen Schönheiten des Horaz, setzen den feinsten Hofmann voraus; und wie weit ist
+      dieser von einem ungekünstelten Krieger un <pb n="15" facs="#f0003"/> terschieden!</p>
+            <p rendition="#et">Auch mit dem Pindar hat er weiter nichts gemein, als das anhaltende
+      Feuer, und die Ύπερβατα der Wortfügung.</p>
+            <p rendition="#et">Von dem einzigen Tyrtäus könnte er die heroischen Gesinnungen, den Geiz
+      nach Gefahren, den Stolz für das Vaterland zu sterben, erlernt haben, wenn sie einem Preußen
+      nicht eben so natürlich wären, als einem Spartaner.</p>
+            <p rendition="#et">
+               <pb n="17" facs="#f0004"/> Und dieser Heroismus ist die ganze Begeisterung unsers
+      Dichters. Es ist aber eine sehr <hi rendition="#i">gehorsame</hi> Begeisterung, die sich nicht durch wilde
+      Sprünge und Ausschweifungen zeigt, sondern die wahre Ordnung der Begebenheiten zu der Ordnung
+      ihrer Empfindungen und Bilder macht.</p>
+            <p rendition="#et">Alle seine Bilder sind erhaben, und alle sein Erhabnes ist naiv. Von dem
+      poetischen Pompe weiß er nichts; und prahlen und schimmern scheint er, weder als Dichter noch
+      als Soldat zu wollen.</p>
+            <p rendition="#et">Sein Flug aber hält nie einerlei Höhe. Eben der Adler, der vor in die
+      Sonne sah, läßt sich nun tief herab, auf der Erde sein Futter zu suchen; und das ohne
+      Beschädigung seiner Würde. Antäus, um neue Kräfte zu sammeln, mußte mit dem Fuße den Boden
+      berühren können.</p>
+            <p rendition="#et">Sein Ton überhaupt, ist ernsthaft. Nur da blieb er nicht ernsthaft – wo
+      es niemand bleiben kann. Denn was erweckt das Lachen unfehlbarer, als große mächtige Anstalten
+      mit einer kleinen, kleinen Wirkung? Ich rede von den drolligten Gemälden des Roßbachischen
+      Liedes.</p>
+            <p rendition="#et">Seine Sprache ist älter, als die Sprache der jetztlebenden größern Welt
+      und ihrer Schriftsteller. Denn der Landmann, der Bürger, der Soldat und alle die niedrigern
+      Stände, die wir <hi rendition="#i">das Volk</hi> nennen, bleiben in den Feinheiten der Rede immer, wenigstens
+      ein halb Jahrhundert, zurück.</p>
+            <p rendition="#et">Auch seine Art zu reimen, und jede Zeile mit einer männlichen Sylbe zu
+      schließen, ist alt. In seinen Liedern aber erhält sie noch diesen Vorzug, daß man in dem
+      durchgängig männlichen Reime, etwas dem kurzen Absetzen der kriegerischen Trommete ähnliches
+      zu hören glaubet.</p>
+            <p rendition="#et">Nach diesen Eigenschaften also, wenn ich unsern Grenadier ja mit Dichtern
+      aus dem Altertume vergleichen sollte, so müßten es unsere <hi rendition="#i">Barden</hi> sein.</p>
+            <p>Vos quoque, qui fortes animas belloque peremtas</p>
+            <p>Laudibus in longum vates dimittitis aevum,</p>
+            <p>Plurima securi fudistis carmina Bardi.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">3</hi> Lucanus.</hi>
+            </p>
+            <p>
+               <pb n="18" facs="#f0005"/> Karl der große hatte ihre Lieder, so viel es damals noch möglich war,
+      gesammelt, und sie waren die unschätzbarste Zierde seines Büchersaals. Aber woran dachte
+      dieser große Beförderer der Gelehrsamkeit, als er alle seine Bücher, und also auch diese
+      Lieder, nach seinem Tode an den Meistbietenden zu verkaufen befahl? Konnte ein römischer
+      Kaiser der Armut kein ander Vermächtnis hinterlassen?<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">4</hi>
+                  <hi rendition="#i">Eginhartus in vita Caroli</hi> M. cap. 33. Similiter et de libris – statuit, ut ab his, qui
+      eos habere vellent, justo pretio redimerentur, pretiumque in pauperes erogaretur.</hi> – O wenn sie noch vorhanden wären! Welcher Deutsche würde sich nicht,
+      noch zu weit mehrerm darum verstehen, als Hickes?<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">5</hi>
+                  <hi rendition="#i">Georg. Hickesins in Grammatica Franco-Theodisca</hi> c. I. O utinam jam extaret augusta
+      Caroli M. Bibliotheca, in qua delicias has suas reposuit Imperator! O quam lubens, quam
+      jucundus ad extremos Caroli imperii fines proficiscerer, ad legenda antiqua illa, aut barbara
+      carmina!</hi>
+            </p>
+            <p rendition="#et">Über die Gesänge der nordischern <hi rendition="#i">Skalden</hi> scheinet ein günstiger
+      Geschick gewacht zu haben. Doch die<hi rendition="#i"> Skalden</hi> waren die Brüder der <hi rendition="#i">Barden</hi>; und was
+      von jenen wahr ist, muß auch von diesen gelten. Beide folgten ihren Herzogen und Königen in
+      den Krieg, und waren Augenzeugen von den Taten ihres Volks. Selbst aus der Schlacht blieben
+      sie nicht; die tapfersten und ältesten Krieger schlossen einen Kreis um sie, und waren
+      verbunden sie überall hinzubegleiten, wo sie den würdigsten Stoff ihrer künftigen Lieder
+      vermuteten. Sie waren Dichter und Geschichtschreiber zugleich; wahre Dichter, feurige
+      Geschichtschreiber. Welcher Held von ihnen bemerkt zu werden das Glück hatte, dessen Name war
+      unsterblich; so unsterblich, als die Schande des Feindes, den sie fliehen sahen.</p>
+            <p rendition="#et">Hat man sich nun in den kostbaren Überbleibseln dieser uralten nordischen
+      Heldendichter, wie sie uns einige dänische Gelehrte aufbehalten haben,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">6</hi> Andreas Vellejus und Petrus Septimus.</hi>umgesehen, und sich mit ihrem Geiste und ihren Absichten bekannt
+      gemacht; hat man zugleich das jüngere Geschlecht von <hi rendition="#i">Barden</hi> aus dem schwäbischen
+      Zeitalter, seiner Aufmerksamkeit wert geschätzt, und <pb n="19" facs="#f0006"/> ihre naive Sprache, ihre
+      ursprünglich deutsche Denkungsart studiert: so ist man einigermaßen fähig über unsern neuen
+      preußischen <hi rendition="#i">Barden</hi> zu urteilen. Andere Beurteiler, besonders wenn sie von derjenigen
+      Klasse sind, welchen die französische Poesie alles in allem ist, wollte ich wohl für ihn
+      verbeten haben.</p>
+            <p rendition="#et">Noch besitze ich ein ganz kleines Lied von ihm, welches in der Sammlung
+      keinen Platz finden konnte; ich werde wohl tun, wenn ich diesen kurzen Vorbericht damit
+      bereichere. Er schrieb mir aus dem Lager vor Prag: »Die Panduren lägen nahe an den Werken der
+      Stadt, in den Höhlen der Weinberge; als er einen gesehen, habe er nach ihn hingesungen:«</p>
+            <p>Was liegst du, nackender Pandur!</p>
+            <p>Recht wie ein Hund im Loch?</p>
+            <p>Und weisest deine Zähne nur?</p>
+            <p>Und bellst? So beiße doch!</p>
+            <p>Es könnte ein Herausfordrungslied zum Zweikampf mit einem Panduren heißen.</p>
+            <p>Ich hoffe übrigens, daß er noch nicht das letzte Siegeslied soll gesungen haben. Zwar falle
+      er bald oder spät; seine Grabschrift ist fertig:</p>
+            <p>Ειμι δ' εγω ϑεραπων μεν Ενυαλιοιο ανακτος</p>
+            <p>Και Μουσεων ερατον δωρον επισαμενος.</p>
+            <pb n="20" facs="#f0007"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e86236" type="chapter">
+            <pb n="21" facs="#f0008"/>
+            <pb n="337" facs="#f0009"/>
+            <head>Friedrichs von Logau</head>
+            <p>Sinngedichte</p>
+            <p>Zwölf Bücher</p>
+            <p>Mit Anmerkungen über die Sprache des Dichters</p>
+            <p>herausgegeben von</p>
+            <p>C. W. Ramler und G. E. Lessing</p>
+            <p>Vorrede</p>
+            <p>Friedrich von Logau, der gegen die Mitte des vorigen Jahrhunderts, unter dem Namen Salomon
+      von Golau, deutscher Sinngedichte drei Tausend herausgegeben hat, ist mit allem Rechte für
+      einen von unsern besten<hi rendition="#i"> Opitzischen</hi> Dichtern zu halten; und dennoch zweifeln wir sehr,
+      ob er vielen von unsern Lesern weiter als dem Namen nach bekannt sein wird.</p>
+            <p rendition="#et">Wir können uns dieses Zweifels wegen auf verschiedene Umstände berufen.
+      Ein ganzes Jahrhundert, und drüber, haben sich die Liebhaber mit einer einzigen Auflage dieses
+      Dichters beholfen; in wie vieler Händen kann er also noch sein? Und wenn selbst Wernike keinen
+      kennen will, der es gewagt habe, in einer von den lebendigen Sprachen ein ganzes Buch voll
+      Sinngedichte zu schreiben; wenn er dem Urteile seines Lehrers, des berühmten Morhofs, daß
+      insbesondere die Deutsche Sprache, ihrer vielen Umschweife wegen, zu dieser Gattung von
+      Gedichten nicht bequem zu sein scheine, kein Beispiel entgegen zu stellen weiß: so kann er
+      unsern Logau, seinen besten, seinen einzigen Vorgänger, wohl schwerlich gekannt haben. Ist er
+      aber schon damals in solcher Vergessenheit gewesen, wer hätte ihn in dem nachfolgenden
+      Zeitalter wohl daraus gerissen? Ein Meister, oder ein John gewiß nicht, die ihn zwar nennen,
+      die auch Beispiele <pb n="22" facs="#f0010"/> aus ihm anführen, aber so unglückliche Beispiele, daß sie
+      unmöglich einem Leser können Lust gemacht haben, sich näher nach ihm zu erkundigen.</p>
+            <p rendition="#et">Wir könnten eine lange Reihe von Kunstrichtern, von Lehrern der Poesie,
+      von Sammlern der gelehrten Geschichte anführen, die alle seiner entweder gar nicht, oder mit
+      merklichen Fehlern gedenken. Allein wozu sollten uns die Beweise dienen, daß Logau unbekannt
+      gewesen ist? Ein jeder Leser, der ihn nicht kennt, glaubt uns dieses auch ohne Beweis.</p>
+            <p rendition="#et">Was man mit besserm Rechte von uns erwarten dürfte, wäre eine
+      umständliche Lebensbeschreibung dieses würdigen Mannes. Und wie sehr würden wir uns freuen,
+      wenn wir dieser Erwartung ein Genügen leisten könnten! So aber sind alle unsere
+      Nachforschungen nur schlecht belohnt worden; und wir haben wenig mehr als folgendes von ihm
+      entdecken können.</p>
+            <p rendition="#et">Das Geschlecht derer von <hi rendition="#i">Logau</hi>, oder <hi rendition="#i">Logaw</hi>, ist eines von
+      den ältesten adlichen Geschlechtern Schlesiens. Ihr Stammhaus, Altendorf, liegt in dem
+      Fürstentum Schweidnitz. Chr. Gryphius sagt, es sei aus Böhmischen oder Schlesischen
+      Geschichtschreibern zu erweisen, daß schon in dem sechzehnten Jahrhunderte Freiherren von
+      Logau, unter den Kaisern Karl dem fünften, und Ferdinand dem ersten, ansehnliche
+      Kriegsbedingungen bekleidet hätten. Auch blühte unter der Regierung des erstern George von
+      Logau auf Schlaupitz, einer der besten lateinischen Dichter seiner Zeit, dem wir die erste
+      Ausgabe des Gratius und Nemesianus zu danken haben. Desgleichen besaß um eben diese Zeit
+      Caspar von Logau, den Lucä und andere mit nur gedachtem George verschiedentlich verwechseln,
+      den bischöflichen Stuhl zu Breslau.</p>
+            <p rendition="#et">Unser Friedrich von Logau, ward, zu Folge seiner Grabschrift, die uns
+      Cunrad aufbehalten hat, im Monat Junius des Jahres 1604 geboren. Seine Ältern und den Ort
+      seiner Geburt finden wir nirgends benannt; auch nirgends einige Nachricht von seiner
+      Erziehung, wo er studieret, ob er gereiset u.s.w. Wir finden seiner nicht eher als in Diensten
+      des Herzogs zu Liegnitz und Brieg, Ludewigs des Vierten, gedacht.</p>
+            <p rendition="#et">
+               <pb n="23" facs="#f0011"/> Man beliebe sich aus der Geschichte zu erinnern, daß
+      Johann Christian, Herzog von Brieg, drei Söhne hinterließ, die nach seinem 1639 erfolgten Tode
+      das Herzogtum gemeinschaftlich besaßen, doch so, daß jeder von ihnen seine eigenen Räte hatte.
+      Unter den Räten des zweiten, des gedachten Ludewigs, befand sich unser von Logau. Als aber
+      1653 ihres Vaters Bruder, George Rudolph, starb, und die Fürstentümer Liegnitz und Wohlau an
+      sie fielen, fanden sie das Jahr darauf für gut, sich durch das Los aus einander zu setzen.
+      Ludewig bekam Liegnitz, wohin er nunmehr seinen Sitz verlegte, und seinen Logau als
+      Kanzeleirat mit sich nahm.</p>
+            <p rendition="#et">Die Liebe zur Poesie muß sich zeitig bei ihm geäußert haben. Er sagt uns
+      in einem von seinen Sinngedichten selbst, daß er in seiner Jugend verliebte Gedichte
+      geschrieben habe, die ihm in den Unruhen des Krieges von Händen gekommen wären. Nach der Zeit
+      erlaubten ihm seine Geschäfte allzukurze Erholungen, als daß er sich in größern Gedichten, als
+      das kleine Epigramma ist, hätte versuchen können. Unterdessen hat er es in dieser geringern
+      Gattung so weit gebracht, als man es nur immer bringen kann, und es ist unwidersprechlich, daß
+      wir in ihm allein einen Martial, einen Catull und Dionysius Cato besitzen.</p>
+            <p rendition="#et">Er gab anfangs nur eine Sammlung von zwei hundert Sinngedichten ans
+      Licht, die, wie er selbst sagt, wohl aufgenommen worden. Wir haben sie nirgends auftreiben
+      können, und wer weiß, ob sie gar mehr in der Welt ist? Die vollständige Sammlung, die den
+      schon erwähnten Titel: »Salomons von Golau deutscher Sinngedichte drei Tausend« führet, ist zu
+      Breslau, in Verlag Caspar Kloßmanns, gedruckt, und macht einen Oktavband von ohngefähr drei
+      Alphabeten aus. Das Jahr des Drucks finden wir nirgends darin ausdrücklich angezeigt. Es muß
+      aber das Jahr 1654 gewesen sein, welches sich aus verschiednen Sinngedichten schließen läßt,
+      und von den Bücherkennern bestätiget wird. Da unterdessen Sinapius sagt, daß Logau seine
+      Sinngedichte im Jahr 1638 herausgegeben habe, so wird man dieses nicht unwahrscheinlich von
+      der ersten kleinen Sammlung verstehen können.</p>
+            <p rendition="#et">Er war ein Mitglied der fruchtbringenden Gesellschaft, in <pb n="24" facs="#f0012"/> die er 1648, unter dem Namen des <hi rendition="#i">Verkleinernden</hi> aufgenommen ward. Wenn der
+       <hi rendition="#i">Sprossende</hi>, in seiner Beschreibung dieser Gesellschaft, ihn unter diejenigen Glieder
+      nicht rechnet, die sich durch Schriften gezeiget haben, so ist dieses wohl ein abermaliger
+      Beweis, daß das Publikum seine Sinngedichte sehr bald vergessen hat.</p>
+            <p rendition="#et">Er starb zu Liegnitz, den fünften Julius im Jahr 1655, und hinterließ aus
+      einer zweiten Ehe einen einzigen Sohn. Es war dieses der Freiherr Balthasar Friedrich von
+      Logau, der Freund des Herrn von Lohenstein, und der Mäzen des jüngern Gryphius.</p>
+            <p rendition="#et">Wir wollen nunmehr von unsrer neuen Ausgabe das Nötige sagen. Die ganze
+      Anzahl der Sinngedichte unsers Logau beläuft sich, außer einigen eingeschobenen größern
+      Poesien, auf drei tausend, fünfhundert und drei und funfzig, indem zu dem zweiten und dritten
+      Tausend noch Zugaben und Anhänge gekommen sind. Ist es wahrscheinlich, ist es möglich, daß sie
+      alle gut sein können? Unsere wahre Meinung zu sagen, diese ungeheuere Menge ist vielleicht
+      eine von den vornehmsten Ursachen, warum der ganze Dichter vernachlässiget worden ist. Denn es
+      konnte leicht kommen, daß die Neugierde das Buch siebenmal aufschlug, und siebenmal etwas sehr
+      mittelmäßiges fand.</p>
+            <p rendition="#et">Wir ließen es also unsere erste Sorge sein, ihn dieses nachteiligen
+      Reichtums zu entladen. Wir haben ihn fast auf sein Dritteil herabgesetzt; und das ist unter
+      allen Nationen, immer ein sehr vortrefflicher Dichter, von dessen Gedichten ein Dritteil gut
+      ist. Deswegen wollen wir aber nicht sagen, daß alle beibehaltenen Stücke, Meisterstücke sind;
+      genug, daß in dem unbeträchtlichsten noch stets etwas zu finden sein wird, warum es unserer
+      Wahl wert gewesen. Ist es nicht allezeit Witz, so ist es doch allezeit ein guter und großer
+      Sinn, ein poetisches Bild, ein starker Ausdruck, eine naive Wendung, und dergleichen. Auch
+      wird das schlechteste noch immer dazu dienen, dem Leser zu zeigen, wie wenig er den Verlust
+      der übrigen Stücke zu betauern hat.</p>
+            <p rendition="#et">Es ist uns ein Exemplar unsers Dichters zu Händen gekommen, das sich aus
+      der <hi rendition="#i">Stollischen</hi> Bibliothek herschreibt, <pb n="25" facs="#f0013"/> und in welchem hier und da
+      eine unnatürliche, harte Wortfügung mit der Feder geändert worden war. Der Zug der Schrift
+      wäre alt genug, es für die eigene Hand des Herrn von Logau zu halten. Doch dazu gehören
+      stärkere Beweise, und wir wollen es also nicht behaupten. Unterdessen haben wir doch für gut
+      befunden, einige von diesen Änderungen anzunehmen, und einige, ihnen zu Folge, selbst zu
+      wagen. Der Leser stößt nirgends so ungern an, als in einem Sinngedichte, welches allzu kurz
+      ist, als daß man die Unebenheiten darin übersehen könnte.</p>
+            <p rendition="#et">Wir sind uns bewußt, daß wir durch diese wenigen und geringen
+      Veränderungen den alten Dichter nicht im geringsten moderner gemacht haben; wir sind ihm nur
+      da ein wenig zu Hülfe gekommen, wo wir ihn allzuweit unter seiner eignen reinen Leichtigkeit
+      fanden; und haben es alsdann in dem Geiste seiner eignen Sprache zu tun gesucht.</p>
+            <p rendition="#et">Wie groß unsere Hochachtung für diese seine alte Sprache ist, wird man
+      aus unsern Anmerkungen darüber, die wir in Gestalt eines Wörterbuchs dem Werke beigefügt
+      haben, deutlich genug erkennen. Ähnliche Wörterbücher über alle unsere guten Schriftsteller,
+      würden, ohne Zweifel, der erste nähere Schritt zu einem allgemeinen Wörterbuche unsrer Sprache
+      sein. Wir haben die Bahn hierin, wo nicht brechen, doch wenigstens zeigen wollen.</p>
+            <p rendition="#et">Endlich können wir unsern Lesern auch nicht verbergen, daß bereits vor
+      mehr als funfzig Jahren ein Ungenannter eine ähnliche Arbeit mit unserm Logau unternommen
+      gehabt. Er hat nämlich (1702) »S. V. G. auferweckte Gedichte« herausgegeben. Dieser Titel ist
+      der letzte unwidersprechlichste Beweis, daß diese Sinngedichte damals schon <hi rendition="#i">begraben</hi>
+      gewesen sind. Allein dieser Ungenannte war vielleicht Schuld, daß unser Logau noch tiefer in
+      die Vergessenheit geriet, und nunmehr mit Recht zu einer neuen Begrabung verdammt werden
+      konnte. Derjenige Teil seiner Gedichte, welchen man, ohne Wahl, auferweckt hat, ist nicht
+      allein mit unendlich schlechten und pöbelhaften Stücken vermischt worden; sondern die
+      Logauischen selbst sind dergestalt verlängert, verkürzt, verändert worden, daß Nachdruck,
+      Feinheit, Witz, alle Sprachrichtigkeit, <pb n="26" facs="#f0014"/> ein jeder guter poetischer Name, eine
+      jede gute Eigenschaft des Dichters, ja oft der Menschenverstand selber verloren gegangen ist.
+      Wir führen keine Exempel an, um unsern Lesern den Ekel zu ersparen.</p>
+            <p rendition="#et">Werden die Liebhaber der Poesie an unserm alten Dichter, einigen
+      Geschmack finden: so freuen wir uns, daß dadurch die Beschuldigung immer mehr entkräftet
+      werden wird, als ob wir Neuern allbereits von der Bahn des Natürlichschönen abgewichen wären,
+      und nichts mehr empfinden könnten, als was auf einer gewissen Seite übertrieben ist.</p>
+            <p>
+               <hi rendition="#i">Die Herausgeber</hi>
+            </p>
+            <p>Berlin</p>
+            <p>den 5ten Mai 1759</p>
+            <p>Wörterbuch</p>
+            <p>Vorbericht von der Sprache des Logau</p>
+            <p>Die Sprache unsers Dichters ist, überhaupt zu reden, die Sprache des Opitz und der besten
+      seiner Zeitverwandten und Landesleute. Und wenn Tscherningen hierin die erste Stelle nach
+      Opitzen gebühret, so gebühret die erste Stelle nach Tscherningen unserm Logau.</p>
+            <p rendition="#et">Das Sinngedicht konnte ihm die beste Gelegenheit geben, die
+      Schicklichkeit zu zeigen, welche die deutsche Sprache zu allen Gattungen von Materie, unter
+      der Bearbeitung eines Kopfes erhält, der sich selbst in alle Gattungen von Materie zu finden
+      weiß. Seine Worte sind überall der Sache angemessen: nachdrücklich und körnicht, wenn er
+      lehrt; pathetisch und vollklingend, wenn er straft; sanft, einschmeichelnd, angenehm tändelnd,
+      wenn er von Liebe spricht; komisch und naiv, wenn er spottet; possierlich und launisch, wenn
+      er bloß Lachen zu erregen sucht.</p>
+            <p rendition="#et">Der Sprachenmengerei, die zu seiner Zeit schon stark eingerissen
+       war,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">7</hi> Sinngedicht 257 und 398.</hi> und die er nicht unrecht von den vielen fremden <pb n="27" facs="#f0015"/>
+      Völkern, welche der Krieg damals auf deutschen Boden brachte, herleitet,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">8</hi> Sinngedicht 257.Die Musen wirkten zwar, durch kluge Dichtersinnen,Daß Deutschland sollte Deutsch, und artlich reden können,Mars aber schafft es ab, und hat es so geschickt,Daß Deutschland ist blut arm, drum geht es so geflickt.</hi> machte er sich nicht schuldig; und was er mit einem deutschen Worte
+      ausdrücken konnte, das drückte er mit keinem lateinischen und französischen aus, welche
+      letztere Sprache auch seine Zeitverwandten bereits für unentbehrlich hielten.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">9</hi> Sinngedicht 1594.Wer nicht Französisch kann,Ist kein gerühmter Mann etc.</hi> Er hat verschiedene aus andern Sprachen entlehnte Kunstwörter nicht
+      unglücklich übersetzt. So nennt er z. E.</p>
+            <p>Nomen adjectivum et substantivum, das <hi rendition="#i">zusetzliche</hi> und
+       <hi rendition="#i">eigenständige</hi> Wort<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">10</hi> In der Überschrift des 488ten Sinngedichtes.</hi>
+            </p>
+            <p>Accentus, Beilaut<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">11</hi> In der Vorrede zu dem ersten Tausend seiner Sinngedichte, wo er sagt, daß er sich
+      bei prosaischem Gebrauche der unbestimmten einsylbichten Wörter, nach dem <hi rendition="#i">Beilaute</hi>, so
+      wie dieser im Reden und Lesen jedesmal falle, gerichtet habe. Desgleichen Sinngedicht
+      1526.Deutscher Reimkunst meistes Werk, steht im<hi rendition="#i"> Beylaut</hi>, oder Schalle;Ob der Sylben Ausspruch kurz, lang, und wo er hin verfalle.</hi>
+            </p>
+            <p>Inventarium, <hi rendition="#i">Fundregister</hi> etc.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">12</hi> Sinngedicht 2363.Cynthia will ihren Mann, wenn sie stirbt, der Chloris geben;Chloris will die Erbschaft nicht weiter und zuvor erheben,Bis ein <hi rendition="#i">Fundregister</hi> da, (Seht mir an den klugen Rath!)Bis zuvor sie sey gewiß, was für Kraft die Erbschaft hat.Mehrere glücklich übersetzte Kunstwörter wird man in dem Wörterbuche selbst antreffen.</hi>
+            </p>
+            <p>Doch war er auch kein übertriebener Purist, er spottet über die zu weitgehenden Neuerungen
+      des Zesen,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">13</hi> Sinngedicht 1747.</hi> ob er gleich <pb n="28" facs="#f0016"/> mit ihm in <hi rendition="#i">einem</hi> Jahre (1648) in
+       die<hi rendition="#i"> fruchtbringende Gesellschaft</hi> aufgenommen ward.</p>
+            <p rendition="#et">Es bedarf aber nur einer ganz geringen Aufmerksamkeit, zu erkennen, wie
+      sehr die Sprache unserer neuesten und besten Schriftsteller, von dieser alten, lautern und
+      reichen Sprache der guten Dichter aus der Mitte des vorigen Jahrhunderts, unterschieden ist.
+      Der fremden Wendungen und Wortfügungen, welche die erstern aus dem Französischen und
+      Englischen, nach dem diese oder jene eines jeden Lieblingssprache ist, häufig herüber nehmen,
+      nicht zu gedenken; so haben sie keine geringe Anzahl guter, brauchbarer Wörter veralten
+      lassen.</p>
+            <p rendition="#et">Und auf diese veralteten Wörter haben wir geglaubt, daß wir unser
+      Augenmerk vornehmlich richten müßten. Wir haben alle sorgfältig gesammelt, so viele derselben
+      bei <hi rendition="#i">unserm</hi> Dichter vorkommen; und haben dabei nicht allein auf den Leser, der sie
+      verstehen muß, sondern auch auf diejenigen von unsern Rednern und Dichtern gesehen, welche
+      Ansehen genug hätten, die besten derselben wieder einzuführen. Wir brauchen denselben nicht zu
+      sagen, daß sie der Sprache dadurch einen weit größern Dienst tun würden, als durch die Prägung
+      ganz neuer Wörter, von welchen es ungewiß ist, ob ihr Stempel ihnen den rechten Lauf so bald
+      geben möchte. Noch weniger brauchen wir sie zu erinnern, wie ein veraltetes Wort auch dem
+      ekelsten Leser, durch das, was Horaz callidam juncturam nennt, annehmlich zu machen ist.</p>
+            <p rendition="#et">Ferner haben wir unsern Fleiß auf die Provinzialsprache des Dichters
+      gerichtet. Die Schlesische Mundart ist deswegen einer kritischen Aufmerksamkeit, vor allen
+      andern Mundarten würdig, weil wir in ihr die ersten guten Dichter bekommen haben. Die
+      Vorteile, welche diese Männer an eigenen Wörtern, Verbindungsarten und Wendungen darin haben,
+      verdienen, wo nicht für allgemeine Vorteile der Sprache angenommen, doch wenigstens gekannt
+      und geprüft zu werden.</p>
+            <p rendition="#et">Von diesen Vorteilen, so fern wir dergleichen bei unserm Logau bemerkt,
+      wollen wir diejenigen, die in dem Wörterbuche selbst keine fügliche Stelle finden können,
+      unter folgende allgemeine Anmerkungen bringen.</p>
+            <pb n="29" facs="#f0017"/>
+            <p>I.</p>
+            <p>
+               <hi rendition="#i">Logau läßt vielfältig die Geschlechtswörter weg. Z. E.</hi>
+            </p>
+            <p>Man hat den Feind aufs Haupt geschlagen,</p>
+            <p>Doch <hi rendition="#i">Fuß</hi> hat <hi rendition="#i">Haupt</hi> hinweggetragen.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">14</hi> (IV. 51)</hi>
+            </p>
+            <p>Er tut dieses 1. bei denjenigen Hauptwörtern, welche Abstracta ausdrücken, und gewissermaßen
+      zu Geschlechtsnamen werden; allwo es zu einer besondern Schönheit wird:</p>
+            <p>Aber <hi rendition="#i">Neid</hi> hat scheel gesehen;</p>
+            <p>Und Verhängniß ließ geschehen,</p>
+            <p>Daß ein schäumend wilder Eber</p>
+            <p>Ward Adonis Todtengräber.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">15</hi> (VI. 36)</hi>
+            </p>
+            <p>Hier werden der Neid und das Verhängnis, durch die Weglassung des Artikels, zu Personen
+      gemacht, welches weit stärker und poetischer ist, als wenn es hieße: »<hi rendition="#i">Der</hi> Neid hat
+      scheel gesehen; <hi rendition="#i">Das</hi> Verhängniß ließ geschehen.« Eben so auch (IV. II)</p>
+            <p rendition="#et">Scävus wird mit <hi rendition="#i">Ewigkeit</hi> immer in die Wette leben etc. Hier wird
+      die Ewigkeit zu einem lebendigen Wesen.</p>
+            <p>2. Tut er es bei denjenigen Hauptwörtern, welchen der unbebestimmte Artikel <hi rendition="#i">ein, eine</hi>
+      zukömmt, den man in der <hi rendition="#i">vielfachen Zahl</hi> ohnedem schon wegzulassen genötigt ist. Z. E.
+      (VII. 71)</p>
+            <p>Hat Land durch diesen Krieg, hat Stadt mehr ausgestanden?</p>
+            <p>Nicht <hi rendition="#i">die</hi> Stadt, eine <hi rendition="#i">gewisse</hi> Stadt, sondern unbestimmt: Städte. Ferner (X.
+      87)</p>
+            <p>Gieb mir geneigten Blick.</p>
+            <p>Anstatt: einen geneigten Blick, oder geneigte Blicke. Man sehe, welche gute Wirkung dieses
+      in den »Kriegesliedern des Preußischen Grenadiers« hervorbringt.</p>
+            <p>»Wie kriegrische Trompete laut</p>
+            <p>Erschalle, mein Gesang!«</p>
+            <p>anstatt: laut wie eine Trompete, oder wie Trompeten.</p>
+            <pb n="30" facs="#f0018"/>
+            <p>»Drum singet herrlichen Gesang etc.«</p>
+            <p>anstatt: einen herrlichen Gesang, oder, herrliche Gesänge.</p>
+            <p>»Er faßte weisen Schluß,«</p>
+            <p>anstatt: er faßte einen weisen Schluß.</p>
+            <p>II.</p>
+            <p>
+               <hi rendition="#i">Logau läßt die Endung der Beiwörter, nicht allein in dem ungewissen, sondern auch in dem
+       männlichen Geschlechte weg.</hi> Er sagt: »ein <hi rendition="#i">groß</hi> Verdruß, ein <hi rendition="#i">gut</hi>
+       Soldat,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">16</hi> (IV. 4)</hi> ein <hi rendition="#i">stätig</hi> Gaul,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">17</hi> Sinngedicht 91.</hi> ein <hi rendition="#i">kriechend</hi> Erdegeist u.s.w.</p>
+            <p>III.</p>
+            <p>
+               <hi rendition="#i">Logau braucht sehr häufig das Beiwort in dem ungewissen Geschlechte als ein
+       Hauptwort.</hi> Z. E.</p>
+            <p>Seither ist unser <hi rendition="#i">Frey</hi> in Dienstbarkeit verkehret,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">18</hi> Sinngedicht 157.</hi>
+            </p>
+            <p>für: unsere Freiheit.</p>
+            <p>Nachwelt werd ihm alles <hi rendition="#i">Frech</hi> gar vergessen oder schenken;<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">19</hi> (XI. 24)</hi>
+            </p>
+            <p>für: alle Frechheit.</p>
+            <p>– – – – Ein solches <hi rendition="#i">Klug</hi>,</p>
+            <p>Dafür ein keuscher Sinn Entsetz und Grauen trug,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">20</hi> Sinngedicht 1259.</hi>
+            </p>
+            <p>für: eine solche Klugheit.</p>
+            <p>Bey welchem freyes <hi rendition="#i">Wahr</hi>, der Freundschaft Seele wohnt;<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">21</hi> (X. 8)</hi>
+            </p>
+            <p>für: freie Wahrheit.</p>
+            <pb n="31" facs="#f0019"/>
+            <p>Canus geht gar krumm gebückt,</p>
+            <p>Weil ihn <hi rendition="#i">Arm</hi> und <hi rendition="#i">Alt</hi> so drückt;<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">22</hi> Sinnged.</hi>
+            </p>
+            <p>für: Armut und Alter.</p>
+            <p>Und ernähren fremdes <hi rendition="#i">Faul</hi>,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">23</hi> Erste Zugabe, Sinngedicht 201.</hi>
+            </p>
+            <p>für: fremde Faulheit.</p>
+            <p>IV.</p>
+            <p>
+               <hi rendition="#i">Logau läßt von den Zeitwörtern die selbständigen Fürwörter da weg, wo sie zur
+       Deutlichkeit nichts mehr beitragen, und erhält dadurch mehr Nachdruck und Feuer.</hi> Z.
+      E.</p>
+            <p>Mich, sagt Elsa, schreckt es nicht, werde brünstig nur gemacht,</p>
+            <p>Unter Augen dem zu gehn etc.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">24</hi> (III. 31)</hi>
+            </p>
+            <p>für: <hi rendition="#i">ich</hi> werde nur brünstig gemacht.</p>
+            <p>Picus nahm die dritte Frau, immer eine von den Alten:</p>
+            <p>Wollte, meyn ich, ein Spital, schwerlich einen Ehstand halten.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">25</hi> (IV. 48)</hi>
+            </p>
+            <p>für: <hi rendition="#i">er</hi> wollte ein Spital halten.</p>
+            <p>Nisus buhlte stark um Nisa: Dieses gab ihr viel Beschwerden;</p>
+            <p>Wollt' ihn nicht; sie freyt ihn aber, seiner dadurch los zu werden.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">26</hi> (IV. 80)</hi>
+            </p>
+            <p>für: <hi rendition="#i">sie</hi> wollt' ihn nicht.</p>
+            <p>Wenn im Schatten kühler Myrthen</p>
+            <p>Sie sich kamen zu bewirthen:</p>
+            <p>Folgte nichts als lieblich Liebeln,</p>
+            <p>Folgte nichts als tückisch Bübeln;</p>
+            <pb n="32" facs="#f0020"/>
+            <p>Wollten ohne süßes Küssen</p>
+            <p>Nimmer keine Zeit vermissen.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">27</hi> (VI. 36)</hi>
+            </p>
+            <p>für: <hi rendition="#i">sie</hi> wollten keine Zeit vermissen.</p>
+            <p>V.</p>
+            <p>
+               <hi rendition="#i">Logau trennet von den zusammengesetzten Zeitwörtern die Vorwörter auch da, wo wir sie
+       nicht zu trennen pflegen, und setzet zwischen beide irgend ein ander Redeteilchen, um die
+       Worte für das Sylbenmaß bequemer zu machen.</hi> Wenn wir uns dieser Freiheit nicht mehr
+      bedienen, so werden wir wenigstens Ursache finden, ihn darum zu beneiden. Z. E.</p>
+            <p>Ey, ich wills ihm <hi rendition="#i">ein</hi> noch <hi rendition="#i">treiben</hi>; dieses Ding muß seyn gerochen;<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">28</hi> Sinngedicht 1041.</hi>
+            </p>
+            <p>für: ich wills ihm noch <hi rendition="#i">eintreiben</hi>.</p>
+            <p>Lieb und Geiz sind solche Brillen, welche dem, der <hi rendition="#i">auf</hi> sie <hi rendition="#i">stellt</hi>,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">29</hi> Sinngedicht 1317.</hi>
+            </p>
+            <p>für: der sie <hi rendition="#i">aufstellt</hi> etc. Itzo müssen wir uns durch die <hi rendition="#i">Umkehrung</hi> helfen:
+       <hi rendition="#i">er stellt es auf, er trieb es ein</hi>; und in der <hi rendition="#i">unbestimmten Weise</hi> durch das
+      Wörtchen <hi rendition="#i">zu</hi>: einzutreiben, aufzustellen; und in zwei vergangenen Zeiten durch die Sylbe
+       <hi rendition="#i">ge</hi>: er hat eingetrieben, er hatte aufgestellt. Alles gute Mittel; die wir aber
+      zuweilen nicht ohne Zwang und Weitschweifigkeit gebrauchen können.</p>
+            <p>VI.</p>
+            <p>
+               <hi rendition="#i">Logau setzet die Endsylbe,</hi> ley, <hi rendition="#i">die wir itzt nur bei den teilenden Zahlwörtern
+       dulden wollen, auch zu fast allen Arten von Fürwörtern, und erlangt dadurch, (wie man es nun
+       nennen will) ein Nebenwort, oder ein unabänderliches Beiwort von besonderm Nachdrucke.</hi> Z.
+      E.</p>
+            <pb n="33" facs="#f0021"/>
+            <p>Zu etwas Großen noch wird Sordalus wohl werden,</p>
+            <p>Denn <hi rendition="#i">seinerley</hi> Geburt ist nicht gemein auf Erden etc.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">30</hi> Sinngedicht 779.</hi>
+            </p>
+            <p>Wie weitschweifig müssen wir itzt dafür sagen: »denn eine Geburt, wie seine war etc.«</p>
+            <p>Du Schelme, du Bauer! So zierliche Titel</p>
+            <p>Verehrten die Krieger den Bauern ins Mittel.</p>
+            <p>Nun Krieger getreten in Zippelpelzorden</p>
+            <p>Sind <hi rendition="#i">dieserley</hi> Titel Besitzer sie worden.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">31</hi> Sinngedicht 1586.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Dieserley</hi>, sagt hier nicht so viel, als <hi rendition="#i">dieser</hi>; es scheinet auch nicht so viel
+      zu sagen, als <hi rendition="#i">dergleichen</hi>, sondern es begreift beides: <hi rendition="#i">Dieser</hi> und <hi rendition="#i">dergleichen
+       Titel</hi>. Überdem da wir dieses <hi rendition="#i">ley</hi> bei den uneigentlichen Fürwörtern sehr wohl
+      leiden; denn wir sagen ohne Tadel, <hi rendition="#i">mancherlei, solcherlei, keinerlei, vielerlei,
+       allerlei</hi>: warum sollte es nicht auch an die eigentlichen Fürwörter gesetzt werden können?
+      Die Schlesische Mundart kömmt hier mit der Schweizerischen überein, welches man aus folgender
+      Stelle, die Frisch aus Geilers von Kaysersberg <hi rendition="#i">Postille</hi> anführet, ersehen wird. Sie
+      erläutert zugleich den Gebrauch dieser Fürwörter in <hi rendition="#i">ley</hi> vortrefflich. »Ein Sun ist nit
+      anders, dann ein Ding das da lebet von einem lebendigen <hi rendition="#i">seinerley</hi>. Ich hätte einen Sun,
+      der wär <hi rendition="#i">meinerley</hi>, ejusdem speciei. Ich kann die Species nicht baß teutschen. Würme,
+      die du in dir hast, sind nicht <hi rendition="#i">deinerley</hi>.«</p>
+            <p>VII.</p>
+            <p>
+               <hi rendition="#i">Logau konstruiert die Zahlwörter gern mit der Zeugendung</hi>. Z. E.</p>
+            <p>Für ein einzles, das man thut,</p>
+            <p>So es ist zu nennen gut,</p>
+            <p>Kann man zehen <hi rendition="#i">böser</hi> Stücke,</p>
+            <p>Rechnen ab, und ziehn zurücke.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">32</hi> Sinngedicht 2470.</hi>
+            </p>
+            <p>
+               <pb n="34" facs="#f0022"/> Nicht: zehn böse Stücke. Man wird sich dieser Zeugendung sehr wohl bedienen
+      können, so oft das Hauptwort mit einem Selbstlauter anfängt, und man den <hi rendition="#i">Hiatus</hi>
+      vermeiden will.</p>
+            <p>VIII.</p>
+            <p>
+               <hi rendition="#i">Logau läßt von sehr vielen Wörtern die Anfangssylbe</hi> ge <hi rendition="#i">weg, wodurch sie an ihrem
+       Nachdrucke nichts verlieren, oft aber an dem Wohlklange gewinnen. Er sagt</hi> z. E.</p>
+            <p>Die weitgereiste Würze –<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">33</hi> Sinngedicht 403.</hi>
+            </p>
+            <p>wofür wir <hi rendition="#i">Gewürze</hi> sagen und es in ein Neutrum verwandeln; wiewohl wir auch die erste
+      Art, besonders im höhern Stil, beibehalten.</p>
+            <p>Gott sey Dank für meinen Schmack etc.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">34</hi> Sinngedicht 1725.</hi>
+            </p>
+            <p>für <hi rendition="#i">Geschmack</hi>; desgleichen auch <hi rendition="#i">Ruch</hi> für <hi rendition="#i">Geruch</hi>.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">35</hi> Sinngedicht 1727 und 2148.</hi>
+            </p>
+            <p>Wer der Arbeit Mark will <hi rendition="#i">nießen</hi> etc.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">36</hi> (II. 78)</hi>
+            </p>
+            <p>für <hi rendition="#i">genießen</hi>. So auch <hi rendition="#i">Hirn</hi> für <hi rendition="#i">Gehirn</hi>, (welches noch üblich ist)
+       <hi rendition="#i">linde</hi> für <hi rendition="#i">gelinde, Sang</hi> für <hi rendition="#i">Gesang</hi>,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">37</hi> (IV. 101)</hi>
+               <hi rendition="#i">bracht</hi> für <hi rendition="#i">gebracht</hi> etc. Mit der Anfangssylbe <hi rendition="#i">be</hi> verfährt er oft auf
+      gleiche Weise. Z. E. <hi rendition="#i">sonders</hi> für <hi rendition="#i">besonders</hi>:</p>
+            <p>Ein sonders Lob ist dieß, daß einer Lobens werth etc.<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">38</hi> (III. 50)</hi>
+            </p>
+            <p>
+               <hi rendition="#i">müht</hi> für <hi rendition="#i">bemüht</hi>,<hi rendition="#sup"/>
+               <hi rendition="#sup">
+                  <hi rendition="#sup"/>
+                  <hi rendition="#sup">39</hi> (XI. 130)</hi>
+               <hi rendition="#i">hausen</hi> für <hi rendition="#i">behausen, mir liebet</hi> für <hi rendition="#i">mir beliebet</hi> etc.</p>
+            <p>Und so viel von den allgemeinen Anmerkungen über die Provinzialsprache unsers Dichters;
+      einzelne wird man in dem nachstehenden kleinen Wörterbuche häufig antreffen. Man wird aber
+      wohl sehen, daß unsere Absicht weder hier noch dort gewesen ist, alle Eigentümlichkeiten der
+      Schlesischen <pb n="35" facs="#f0023"/> Mundart damit zu erschöpfen. Sie kommen bei unserm Dichter nicht
+      alle vor, und von denen, welche vorkommen, haben wir, wie schon gedacht, nur diejenigen
+      ausgesucht, von welchen er einigen Nutzen gezogen, und von welchen auch noch unsre heutigen
+      Schriftsteller vielleicht einigen Vorteil ziehen könnten.</p>
+            <pb n="36" facs="#f0024"/>
+         </div>
+      </body>
+   </text>
+</TEI>

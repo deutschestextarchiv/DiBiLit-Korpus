@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Jozef Filsers Briefwexel. Zweites Buch</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118622072">
+                  <forename>Ludwig</forename>
+                  <surname>Thoma</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:28Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005783194</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Thoma, Ludwig/Erzählprosa/Jozef Filsers Briefwexel. Zweites Buch</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/wbtq.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0005-4FE8-B</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Ludwig Thoma: Gesammelte Werke in sechs Bänden. Band 4, München 1968</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gesammelte Werke in sechs Bänden</title>
+                  <title level="m" type="volume">Band 4</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118622072">
+                        <forename>Ludwig</forename>
+                        <surname>Thoma</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">540 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Piper</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1968</date>
+                  <date type="firstPublication">1912</date>
+                  <date type="firstPublication" subtype="clariah">1912</date>
+                  <date type="firstPublication" subtype="zeno">1912</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1867"
+                        notAfter="1912"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Thoma-Ludwig-d1e100059">Erstdruck: München (Langen) 1912.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählprosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Thoma-Ludwig-d1e100059">
+            <p rend="h3">Ludwig Thoma</p>
+            <p rend="h2">Jozef Filsers Briefwexel</p>
+            <p rend="h2">Zweites Buch</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Thoma-Ludwig-d1e100077" type="chapter">
+            <head>
+               <pb n="468" facs="#f0001"/>
+               <pb n="463" facs="#f0002"/>Gelibthe Leser</head>
+            <p>Indem das es jez schon zum zweiten mahle ist das ich drukt wehrde mus es nichd gar so thum sein als wies habscheilinge mentschen behaubden und klaube ich schon das meine bolidik eine sähr guthe ist.</p>
+            <p rendition="#et">Disses ist die schprache nichd fon ein studirthen mentschen sontern fon einen bidernen landmahn wodurch mahn es weis das ich das härz auf den rächten fleg hawe und nicht dorth wos der biamthe had der wo die bedirfnise insernes folks nichdmer siecht bahld iem die Briehlenglaßel anlauffen.</p>
+            <p rendition="#et">Sontern es ist geschriem fon einen folksmahn der wo am bfluge stät und einwändig fohler aufriechtikeid ißt und keihne fallscheid durchauß gahr nichd kent.</p>
+            <p rendition="#et">durch disses hawen die mentschen ein wollgefahlen an meiner schrieft und schprechen im lahden ob es nichd schohn wider ein biechlein gibt fon dissem wakheren bauersmahn mid namens Jozef Filser wo so dreihärzig die schprache des folkes kehnt und fileichd in der boliedik nichd gans so thum ist da gibt es benifitzi und kohbrater wo auf ladeinisch studirrt hawen und kehnen aber kein biechlein nichd zusahmen schreim sonter blos ier fozmäul aufreisen fohler has und neit gengen den einfeltingen son des folks wo jäz schohn beriehmt ist und lasens iere schlächte wollußt aus aber hielft nichz indem die leithe nichd ieren schmahrn läsen wohlen sontern das biechlein fon dissem Jozef Filser. damit das sich aber ein jäder auskehnt wiel ich es beschreim wie die bolidiek in baiern ißt und kahn jädermahn durch disses mich ferstehn.</p>
+            <p rendition="#et">das känigreich</p>
+            <p>BAIERN</p>
+            <p>bestät unther der Donnau aus althbaiern und schwahben wo die äldetsten dafon die althbaiern siend. Ober der Donnau siend es frankhen wo die meißten schantharmen und biamthen herkohmen und bfeltzer. die Statzrähligion ißt inser aleihn sälig machender kadollischer klaube. die brohdastanden wo es leuder auch gibt dierfen schohn steiern zalln aber sonzt dirfens nichd fiel.</p>
+            <p rendition="#et">
+               <pb n="469" facs="#f0003"/>
+dadurch das sie abtrienig sind fon rächten klaube sind sie inserne heumlingen feunde und mus mahn sie tratzen wo mahn kahn und schaft ins disses auch der bapscht an. bald mir baiern aleihn wehren dirften mier sie schon efentlich trazen aber leuder siend mir mid den breißen beisahmen wodurch mir ins ferstehlen missen.</p>
+            <p rendition="#et">frieherszeithn wie ich noch ein junger mentsch bien gewäsen da hawen mir fon der geischlikeid gelärnt das mahn auf die breißen schimbfen mus aber jäz had der wiend umgeschlahgen und mir missen freindlich tuhn biß mir wider die warheid schprechen dirfen. das kenigreich Baiern wird regiehrt fon insern angeschtahmten hauße Wiedelsbach und fon zändrum. In jare 1911 had mahn es brobiehrt obs nichd gät das mahn ins fon zändruhm die härschafd entreisen kahn. Es ist aber nichd gangen und had mahn ins zu ähren ahle minischter entlasen und nichd einmahl aufkiendigt sontern auf der stehle hawen sie iere kofer pakhen missen. durch disses weis mahn es deitlich das mir das kenigreich rägirn.</p>
+            <p rendition="#et">Das zändrum zerfalt in mehrere theile wo mahn aber fon ausen nichd siecht.</p>
+            <p rendition="#et">der erschte teihl siend die wo schon ier scheffchen in Drokenen hawen und durch iere bolidiek was <hi rendition="#i">gewohrden siend</hi> zan beispil landgerichtbresadentn und Schuhlrekter und dohmkabiduhlar und sonzt groskobfede.</p>
+            <p rendition="#et">der <hi rendition="#i">zweithe</hi> theil siend die wo noch was wehrden<hi rendition="#i"> wohlen</hi> zan beispil kohbrater und geischlinge auf schlächte bfahreien.</p>
+            <p rendition="#et">die meischten bei ienen sind bei der bosd und eusenban und freien sich das sie gengen iere forgesäzten den foz aufreisen derfen und die hende in hosensakh stekhen bald sie mid einen minischter räden staht bielethen zun ferkaufn wozu sie gebohren siend.</p>
+            <p rendition="#et">der <hi rendition="#i">drithe</hi> theil ist das biderne landfolk und ist der schämel auf den die ahndern steihgen damid das sie gröser ausschaugn.</p>
+            <p rendition="#et">die wo schohn was gewohrden sind und sich ausgeschimbft hawen siend jäz sär freindlich und wädeln mit dem schweiffe bald die kadollischen minister kohmen.</p>
+            <p rendition="#et">Aber die ahndern flätschen die zehne und gnuhren abscheilich biß der minischter ienen einen schenen brokhen hinschmeust zan beispil eine guthe bfahrei oder eine Stehle als bostrad.</p>
+            <p rendition="#et">
+               <pb n="470" facs="#f0004"/>
+dahn wädlen sie auch. disses ist die heumliche bolidiek fon zändrum.</p>
+            <p rendition="#et">Mir andern wo die eigentlichen sähne des folkes siend missen ienen bei disser bolidiek hälfen.</p>
+            <p rendition="#et">dafir siend mir ienen schohn guth genug. wan sie ins nichd so schtark braugen mißten wehre ieberhaupts kein biderner landmahn bein zändrum sontern lauther bost egsbediether und kohbrater und sollchene wierdentreger. Aber dahn ist es keihne folksbardei nichd mär und desweng lasen sie ins hinein.</p>
+            <p rendition="#et">Gelibthe läser.</p>
+            <p rendition="#et">Ich bien ein sollchener mahn des folkes und lase mich nichd fon disse leithe wo blos ein schenen boßten wohlen anbliemeln und bald sie auch auf mich schimbfen.</p>
+            <p rendition="#et">Das macht nichz.</p>
+            <p rendition="#et">Ich hawe iere bolidiek erkahnt und beschriehbn und jez lestz disses biechlein, dahn werz ier auch erkehnen, wahrum das sie das mäu aufreisen. Und ier werz schohn sehgn das ich nichd gahr so thum bien sontern hell auf der Plathen.</p>
+            <p rendition="#et">lestz disses Biechlein und läbet woll fon</p>
+            <p>eiern</p>
+            <p>gelibthen</p>
+            <p>Jozef Filser.</p>
+            <pb n="471" facs="#f0005"/>
+            <pb n="467" facs="#f0006"/>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100200" type="chapter">
+            <head>An Hern Sepastian Hartl</head>
+            <p>An Hern Sepastian Hartl</p>
+            <p>Oegonohm in Felgeding</p>
+            <p>Bosd Dachau</p>
+            <p>Liber Freind.</p>
+            <p rendition="#et">durch dein Schreibn mus ich Dier eine Antword gebn, indem Du es wielst und mier solchene krobe Nahmen gibst, das auch ich ein Rindfiech bin wo das bir teirer machd und Zündhelzer. Das hasd Du fallsch geschribn, indem ich blos in Minken regihre haber nichd in Bärlin.</p>
+            <p rendition="#et">dises Rindfiech bin ich nichd sontern ein anderner und ist läbzelder und Waxziecher in Waserburg mit Namens Razinger, wo insere Wallgreis in Bärlin rebresadiert, indem ich keine Zeid nichd habe, das ich auch in Reistag regihre sontern blos in Lantag. Disses must Du Dier mergen.</p>
+            <p rendition="#et">Mein liber Mentsch, bal Du so schimbfst, ist es gans fallsch, indem Du es nicht weist, wie es geht und ist auch der Razinger blos unfreiwielig.</p>
+            <p rendition="#et">Indem Du beim Milidär gewesen bist mus ich es Dier erkleren, das es nicht blos beim Milider eine Diszaplien gibt sontern auch bei inserner Bardei.</p>
+            <p rendition="#et">der Gäneral isd der gleine Schuhlmeisder Orderer, wo man es zwahr nichd klaubt, bald man ien mit seine krumben Bäckerhaksen anschaugt, haber er isd sär scharrf.</p>
+            <p rendition="#et">dan kohmen die Oberscht, was lauder geischlinge Hären sind und Du kenzt si schon, der Bichler, der Daller und der Schedler. dan kohmen Hauptleute und leidnand, wo auch wider lauder Geischlinge sind.</p>
+            <p rendition="#et">dan kohmen die Fehldwäbl und disses sind die bfahrer und Kobrader, wo die gröbsten Fotzen haben wie beim Milider.</p>
+            <p rendition="#et">Jäzt kohmen erscht die Gemeihnen fon der Gombanie und sind es die Oegonohmen und anderne Folksmäner, wo zum Schtimmen haber nicht zum Reden da siend und blos ja und nein sahgen dierfen auf den befel disser fielen geischlingen Offazier und ierene Fotzen durchaus nimahls aufreisen derfen.</p>
+            <p rendition="#et">Indem es heist schtielgeschtantn! wo Du fom Milider her <pb n="472" facs="#f0007"/>
+weist und riere Dich nichd Du Sauhamel Du geschärter und plinzle nichd mit den Augn Du Rahmel Du pfindiger und Schtier und geschärtes dach und laggel lufdgesellchter Henglender. Disses ist die Bardeidiszaplin.</p>
+            <p rendition="#et">Mein liber Mentsch, da kanzd nichts machen, und mus man ienen folgen disse Härren, wo eine ladeinische Fozzen haben und briehlen auf der Nase, den mein lieber Mentsch was wiesen iberhaupts mier?</p>
+            <p rendition="#et">Indem mier nichz wiesen und geh nur hien und brobire es und wan du in bärlin bist midden unter lauder Breißen und ganz ferlasen.</p>
+            <p rendition="#et">Meinzt Du fileichd das Du so fiel Schneid hasd und halzt eine Rede in dissem Barlamend fon lauder Breissen?</p>
+            <p rendition="#et">Ich draue mier nichd einmahl in Minken wo doch lauder Mentschen sind und redet sogahr das Ministärium inserne Schprache.</p>
+            <p rendition="#et">Haber in Bärlin ist es durchaus gans unmeglich das inser läbzelder das Word ergreifd, wo disse Leite doch fil schneler reden können und eine gifftige Fozzen haben, das sie einen Waserburger damid zu decken.</p>
+            <p rendition="#et">Mein liber Mentsch Da ist man schtille und freid sich, das mahn blos ja oder nein zum sahgen hat, wi es der hochwierninge Her Fehldwäbl befehlt und sogahr das gröste Gschreimaul, wo im Landtag red als were es blos im Wirzhaus, schweigd schtille in Bärlin oder redt blos was mahn iem anschaft und disses ist der Dokter Heim.</p>
+            <p rendition="#et">da kanzt du dier eine Forstelung machen bald sogahr disser Mentsch das Mäu hald und seine Wud bezemt und da kan ein läbzelder auch nichts andernes.</p>
+            <p rendition="#et">dadurch das das bir teirer wierd bin ich auch ferzweifeld und habe insern hochwierningen Härn bfahrer ieber disses befragt, indem er doch seine kristkadollische Zeidung had wo es zum läsen stet warum das inserne geischlinge Offazier das bir teirer machen. Und er had zu mier gesagt liber Jozef sagd er, disses ist fon der Zändrumbardei eine ieberaus weise Handlungsweise sagd er, indem sie durch disses wider das Regament krigen und auch di Breißen kadollisch machen had er gesagd und bald man zum Beischpiel Geld obfert das man die Heuden in Affrika zu Kristen machd und fier die Misionen sein Gäld hergibt sagd er, <pb n="473" facs="#f0008"/>
+mus mahn hald in Gotes Nahmen auch fier die Mas bir mer zallen, damid das dadurch die lutterischen Breißen kadollisch wern und das ahlein sälig machende Regament des Zendrums erhalden sagd er.</p>
+            <p rendition="#et">Ich ferschtehe es nichd hobwohl ich bei der bardei bin und Du ferstehst es noch fiel weninger, haber disses isd wurscht wie beim Milider, wo man auch nichz fersteht sontern man barirt intem es heußt schtillgeschtantn Du Saurahmel du fernagelter und Miestlaggel.</p>
+            <p rendition="#et">Ich habe inserm hochwierningen Bfahrer deinen brif gezeigd durch disses weil du mich ein uldramadanes Rindfiech geschriben hasd und ein Folksverräder und Zendrumswucherer.</p>
+            <p rendition="#et">Inser Her bfahrer ist ser unwielig gewohrden durch disses und er had gesagt mein liber Jozef sagd er, die erschte Aufgahbe wo mier in bärlin gehabt hawen isd, das mir den Feund der kadollischen Kierche schtierzen wo sich Firscht bielof schreibt und disses breiswierdige und von insern heuligen Vater dem babschte gesägnete Werg isd ins auch gelungen und mus mahn eben dafier ein bar Pfäning mär fir die Mas bir zallen und kahn man es ja als einen Peterspfäning bedrachten zu ehren Gottes und des babschtes der auch fier ins eingeschpärt ist im Fadigahn und den sie nichd herauslasen einmahl zum Schbazirrengehen in die Schtadt Rohm, haber disses ferstet dein freind Hartl nichd sagd er, sontern hat er gesagd er isd ein Maulaufreiser und habscheiliger Gwatratlaggel und isd iem die Haubtsache nichd seine unschterblinge Sähle sagd er, sontern seine birwampen.</p>
+            <p rendition="#et">liber Freind, disses schmärzt miech, das er es gesagt had, haber ich mus es dier schreim, damid das du es weist.</p>
+            <p rendition="#et">Jäzt must du es klauben das der läbzelder Razinger auf Wuntsch insernes heuligen Vaters den bielof entfernt had, das man ien nicht mer siecht und auf befel fon inserne Gäneräl und Oberscht und hochwierninge Fehldwäbl, wo keinen Wiederschpruch nicht fertragen sontern mier fohlgen und damit bunktum.</p>
+            <p rendition="#et">Aber fon mier must Du nichz schlechdes bedreff das bir klauben, indem ich in Mingharding bei meinem alden Trachen bien, wo auch keinen Widerschpruch fertragd und ich derf zur Zeid nichd regiehren sontern mus Mischt farren, indem das Wedder so<pb n="474" facs="#f0009"/>
+ mieserabl ist das mahn nichz andernes thun kan. Haber ich freie mich schon, bald das Regihren wider anget in Minken und ich arbet fiel lieber fier das gemeinzame Faderland als wie daheum bei dissem alden Trachen, wo miech im Fertacht had. Du weist es schon.</p>
+            <p rendition="#et">Durch disses läbe woll und es griest dich dein</p>
+            <p>liber Freind Jozef Filser,</p>
+            <p>wo aber nichd das bir teirer gemachd had und Zindhelzer.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100316" type="chapter">
+            <head>An Härn Gorbinian Bechler</head>
+            <p>An Härn Gorbinian Bechler</p>
+            <p>Bosdhalder in Mingharting</p>
+            <p>Bosd daselbs</p>
+            <p>Liber Schpezi</p>
+            <p rendition="#et">Ich bin wider eingerukt zum regihren und disses isd sähr gud das mier ein barlamänt haben den sonzt mus ich das gantze Jar bei dem Trachen hoken und kahn ier nichd aus haber durch disse Schtazgeschefte bin ich hinwäg fon ier und habe meine Ru.</p>
+            <p rendition="#et">Jez schbeiben mier ahle in die Hende und fangen zum regihren an, das ahles gracht und sind auch schon ahle da und haben ins die Mienisder iere aufwardung gemachd, das mir mit ienen gnedig sind. Bis jez weis mahn noch nichd wie mir uns ferhalden und welchene bolidik das gemachd wierd oder ob mier einen schtierzen oder ob mir ahle Minisder behalden und ienen nichd aufsagn, den disses weis plos der Orderer.</p>
+            <p rendition="#et">Der Biechler had gesagd leuder es wierd eine schtille Säsion indem es gans wänig zum schimbfen gibt und disses ist dadurch weil die Minisder keine schneihde mer hamm und wahr es frieher lusdiger wie noch der langhaksete Greillshaim da wahr indem disser sich liberalisch geschtellt had und haben mier was zum fingerhaggeln gehabd, haber jez ist keiner mer da wo mid uns haggelt und missen mier hald schaugen, ob mahn nichd einen Schtreit fiendet. Haber disses ist ser schwär indem ahle Minisder ierene Blätschen hengen lasen und keiner muxt, jedoch mus mahn hobfen das der Heim was zum brillen had, den fier <pb n="475" facs="#f0010"/>
+was hamm mir ein barlamänd, wenn sich nix riehrt? Der Bfahrer fon Sinzing had gesagd das jez eine Kohmisiohn im kadollischen Kashino beisahmen ist die wo suchd das mier was zum schimbfen krigen und das mier insern Heim auslahsen köhnen auf die Minisder haber bis jez isd es draurig dän die Rähligon wo mahn am schensten schimbfen kahn had der Wähner Toni und disser ist ein heumlicher Gabuziener und kahn man fon iem das kadollisch sein noch lärnen und da riehrt sich nichz.</p>
+            <p rendition="#et">Haber es wierd schon was kohmen das die kadollischen Wehler einen Gspas haben und mier ist es wurscht indem ich auf die Fästwise gehe, den disses haben sie gud getrofen, das jez das barlamänd angekohmen ist wo auch zwei Mänascheri angekohmen sind und so fiele Fiecher beisahmen sind, das mahn nur grad schaugen mus.</p>
+            <p rendition="#et">In der Mänascheri sind aber keine inlendische Rindfiecher sontern auslendische Rauptire, wo Menschen fräsen bald sie heraus sind, haber es giebd auch Leide, wo zu ienen hineingehn und ein Weisbild ist auch zu ienen in den Kefich und had einen gans kurtzen Rohk angehabd bis zu die Kniehe und fäste Wahdeln, das du geschaugt häzt, was fier Wahdeln disses wahren und sie had mid einer grosen Hunzbeitschen auf die Löben und Thieger gehaud das sie gewimpseld haben und bald einer sein Fozmäu aufreist und brillt haut sie iem auf die Nasse als wen es plos eine Hauskaz wehre.</p>
+            <p rendition="#et">Mein liber Schpezi mid dissem Weisbield mechte mahn nichd ferheirad sein hobwol sie rechd sauhber isd, haber bei der gibd es keine Wierschtel sontern mahn krigt seine Fohzen.</p>
+            <p rendition="#et">Dan giebt es auch Eißberen wo auf iere ersch ins Wahser rudschen und dan giebt es auch Afen, wo mahn die greste Gauhdi had und mus ich dir sahgen, bald es nichd zwegen der Rähligon were, kahn ich es schon bekreifen, das mier fon disse Afen erzeigt sind, haber durch den kadollischen Kadegisimus ist es der Ahdam gewäsen, hobwol mahn doch ofd nichd weis, wer der Vatter ist und fieleicht war auch ein Afe dabei und had sich blos wegeschwohren. Mein liber Schpezi, bald mahn disse Afen anschaugt, siecht mahn fiele Bekahnte und inser Schullärer isd auch dabei, gans akerat so und inser biergermeister were froh, bald er so gescheid ausschaugen thete. Disse Ahfen <pb n="476" facs="#f0011"/>
+haben ahles was mier auch haben, jädoch sie schehmen sich nichd so, wie mier ins schehmen, indem mir eine göthliche Sähle besiezen und eine hohse darieber anziehgen, haber sie grazen sich dort und fangen Leise und zeichen ahles her und dreiben abscheilinge Schpiele und durch disses klaube ich wider an insern Schtammvater Adahm, wo doch gewies eine Schwiemhossen angehabd had oder ein zimlich groses Feugenblad zwegen seiner unschterblichen Sähle. Näben disser Mänascheri ist ein Zält mit wielde Fölgerschaften, die auch nichd fiel anhaben aber doch ieber die Haubtsache durch die bohlizei mit greßerne hantiecher geschiezt sind und ich mus es dir schreim, das disse Mäntschen nichd fiel wüschter sind als wie kadollische Kristen sontern die Weisbielder sind schehner als wie die meunige und als wie die Deunige, hobwol ich disses ja nichd weis sontern plos errahde, haber disse schwartzen Weisbielder sind gud geschtellt mein liber Schpezi indem sie schtarke Härzen hahben wie die Krahmer Zentzi und iere hinterkwatire sind mir noch liber und sind ehnlich als wie der bfahrerkechin der ierige und mechte mahn sie gärne schtreicheln, haber disse Gegenschtende dierfen nichd beriert werden, mein liber Schpezi und must die Brazen weglahsen. Bloß anschauhgen derf man sie.</p>
+            <p rendition="#et">Haber disses ist leereich und ein groser Underschied fon dem weiblingen Geschlächte was bei ins daheim ist und bald inserne Weisbielder in einen Zälte wonnen und plos Hantiecher anhaben, mechte mahn nichz bezallen, damid das mahn sie anschaugt und es ist sähr gud, das sie kadollisch sind und folgedessen ahles zudäken missen, den fier Heuden sind sie fiel zu schiech und das sexte Geboth ist bei ienen keine Kunzt, sondern man ist froh und zwegen dissem blieht auch bei ins die Rähligon auser nach der Feuertagsschule. Disses habe ich jez erkahnt.</p>
+            <p rendition="#et">Es giebt auch ein Risenmätchen aus Diroll auf der Wihse mit drei Zäntner, haber dise ist sogahr fier eine Bfahrerkechin zu fedd.</p>
+            <p rendition="#et">Es giebt auch Schaugeln, wo fornen ein Mahn schteht, der schaugelt und hinden schteht oft ein Weisbield das die Röke fliehgen, haber man derf nicht so nah hingähen, wie der Bfahrer fon Sinzing, indem ien die Schaugel auf den Gobf getrohfen had und er had eine beile emfangen wie ein Kierbiß, haber plos auf der Schtierne, wo es nichz machd.</p>
+            <p rendition="#et">
+               <pb n="477" facs="#f0012"/>
+Es giebt auch ein Kahrusel, wo ich ofd darauf farre, bald es dunkl wierd und ist sär fidöl, indem mahn gans dahmisch wird und sind auch fiele Mätchen wo gern mitfarren, haber ich trauh mich nichd; Du weist schon.</p>
+            <p rendition="#et">Jez ist auch die landwierdschafdliche Ausstellung, wo das Rindfiech fon inserm Minisder angeschaugt wierd, und ich bin auch dabei, indem mier im barlamänt ein groses Inderäse fier das Gedaihen der landwierdschafd bezeihgen missen und missen auch ahle beahmte und Brinsen ein Inderäse bezeichen.</p>
+            <p rendition="#et">Sie gähen herum mit iere Schiefhüt und buzen die briehlen und schaugen das Rindfiech an und das Rindfiech schaugt sie an. Haber ich klaube, sie kehnen einahnder nichd, sontern sie thun plos so und bald mahn einer Ku den Schweihf aufhäbt, schaugen die Minisder und Brinsen und beahmten wäg, indem sie sich schehmen und si klauben, disses ist so unanschtendig wie bei ienen und bekreifen nichd, das disses beim Rindfiech einen andernen Zwäk had.</p>
+            <p rendition="#et">Und der Regierungsbresadent had gemeint er mus noch merer Inderäse bezeichen und had eine Ku geschtreichelt und had aber gleich seine weisen Hantschu angeschaugt ob fieleichd die Farb fon disser Ku abget, und ein Greisdierarzt ist da gewest, der had gemeint, er mus beweissen, das er mit disse Rindfiecher beser umgähn kahn und dreht einen Ox den Schweihf auf die Saite und last aber die hant dort und der Ox lägt ihm einen grosmechtigen bfannkuchen hinauf, das ich hab lachen miessen, das mier das Wahser fon die Augen gelauffen ist und er schaugt mich gans wild an und sagt, disses kahn jedermann bassieren und ich sahge, es bassiert plos, wenn mahn die Hant auf die Miendung legt und fieleichd had der Ox Zweschgen gefräsen, und da haben ahle gelacht.</p>
+            <p rendition="#et">Haber dan sind sie gegangen, indem die Groskobfeten keine solchene genauhe bekantschaft mit der landwierdschaft doch nicht mägen und indem das Folk schon gesähen had, das sie sich um das Rindfiech kimmern und es liehben.</p>
+            <p rendition="#et">Und disses ist die Haubsache, und jez geh ich wider auf die Fästwihsen, wo man Trachen schteigen sieht, haber den meunigen nichd, indem er Gozeidank angehengt ist und lebe woll du armer Mensch und fieleichd auf Kirta kohme ich weilst Du mich schon ofd eingelahden hast, du bazi du gans ausgschamter <pb n="478" facs="#f0013"/>
+und säu fleisig mein liber Mentsch den ich bin auch fleisig haber nichd mit der Miestgabl wie ier sondern mit dem Gobf.</p>
+            <p rendition="#et">Es griest dich</p>
+            <p>dein liber Freind Jozef Filser.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100407" type="chapter">
+            <head>An Hern Dobias Angerer</head>
+            <p>An Hern Dobias Angerer</p>
+            <p>Gabiedelforstand in Zillhofen</p>
+            <p>bosd Mingharding</p>
+            <p>hochwiern Här Gabidular</p>
+            <p rendition="#et">Kelobd sei Jessas Kristo!</p>
+            <p rendition="#et">Had 'n schon. Kloriha in ekshelsis Teoh.</p>
+            <p rendition="#et">Durch disses schreim schreiwe ich meinen hochwierningen und gelibden Forgesäzten und mermalingen Baichdfadder mid freidingen Gefiehle, das mier den Simblisimus fon der Eusenban hinausgebuzt hawen durch den Beistand Gothes und der heuligen und insren unbeschreiblingen Orderer.</p>
+            <p rendition="#et">Rache ißt sieß schbricht der Här und disses fiehlen mier ahle und hawen auch einen freidenschmauß in der Weiswurscht und mit sär fille Weiswierschte abgehalden und Sembf und Bräzeln und den bolizeibresadent, wo mier haben miduhn lasen damid das er inser Wollwohlen bemergt. den disser Mentsch ist ins jez angenäm und halden mir ien fier eine dreie Säle und zuferläsigen Undergäbenen, wo ien auch inser ahlerhöxter barlamendsher der Orderer ein barmahl freindlich angelöchelt had und iem seine zwei gälben Zene fohler Giete gezeugt had. Fileichd befehrdern mir iem rechd ballt, wen wo sich ein Lohch äfnet wo mir iem underbringen kähnen den disser Mentsch ist ins angenäm.</p>
+            <p rendition="#et">Er had es dadurch fohlbrachd, das er im kadollischen Kasieno gewäsen ist, wo iem der bichler seinen Blahn gezeugt had, wie mir jäz den Simbliesimus backen kähnen indem mier das Hauß Wiedelspach dazu beniezen, den hochwiern Her Gabidular, sie ferstengen mich schon, das mir disses forgehben das es fier den drohn ist und ist aber fier den Orderer, den wo disses Wiezblad iemer derbleggt das fille Mentschen plos lachen bald sie ien sehgen.</p>
+            <p rendition="#et">
+               <pb n="479" facs="#f0014"/>
+Der bolizeibresadent had es auch ferstanden und weis wo der Wind hergät und disser Wiend schtreichd aus dem Zändrum. Daturch ist der Simbliesimus auf der Eusenban ferbothen, das ien kein basaschier mer kauffen kahn und disses ist ein härliches Middel. den das weis mahn schohn, das ahle leithe fier das Gäld sär emfiendlich sind und mier hawen stez gesähen das die Räligohn ieren fästen Siez plos im Gäldbeidel hat. der Schreuner gät in den Rohsengrantz bald er klaubt, das in der Kirchen oder im bfahrhauß eine Arbeid zum folhenden ist und der Schlohser kniegelt gans forn beim Aldahr bald er schpant das fieleichd das Gieter rebahriert wird und der Waxziehger ist der bäste Kadollik wengen seine Kirzen und wo die freilein bfahrerkechin das fleusch hohlt mus der Mäzger ein Gebät zum Hiemel schteigen lasen haber so das man es mergt. Der buchdrugger had einen härlichen Klaubenseifer, intem er den Kierchenanseiger trukt und auch der Schpengler erwäkt sein Gewiesen weul er den bliezableider auf dem bfahrhauße fergohldet und ahles had Goth weuse eingeriechdet, das jäder Mentsch die Rähligon libt intem er seinen Gäldbeidel libt.</p>
+            <p rendition="#et">Durch disses mus es auch der Simbliesimus bemergen das die kadollische Rähligon kein lährer Schain ist sontern eine schtarke Einriechtung wo iere Kiender libreich begienschtigt haber iere feunde beschedigt.</p>
+            <p rendition="#et">Das hawen mier gut fohlbracht das mier der brässe einen Mauhlkorb hinhengen bald sie ins beußen mechte. Mier ahle sind sär freidig, das ins disses Werg so schän hinausgegahngen ist.</p>
+            <p rendition="#et">Hochwiern Här Gabidular jäz mus ich nach dissem frählichen Ereugniese auch was drauriges schreim. Daturch das mier einen schtarken Kuhmer hawen, wie mir das niderne Folk ausschmirren kähnen mit dissen neien Schteiern wo mir durch inserne breissischen Klaubensbrieder erfuhnden hawen. Disses ist ser schwär.</p>
+            <p rendition="#et">Mir hawen ahle Täg geheume Siezungen im Gasieno das mir einen schwiendel erfienden haber bis jez ist ins noch keiner eingefahlen, den wo mahn nichd bemergt.</p>
+            <p rendition="#et">Inserne greßten Erfinder hoggen gans draurig herum und hawen mier ins ahle ferlobt das mier nach Altäting ein gohldenes Schahf schtieften bald ins das Folk einen Schwiendel klaubt.</p>
+            <p rendition="#et">
+               <pb n="480" facs="#f0015"/>
+Es mus ein schtarker Schwiendel sein indem die Sotsi aufbassen haber mier wohlen auch einen grosen Schafhamel schtieften und gans fon Gohld.</p>
+            <p rendition="#et">Disses ist eine draurige bäriode wo nichd ein mahl inserne geischlingen Hären ahles herumdrähen känen und hawen doch auf disses schtudirt, wo man heulige Liehgen heist.</p>
+            <p rendition="#et">Ich mus es ienen mit schmärtzen beriechden das jez fiele schimbfen gengen eunander und der Heum had gesagd das disser kwallfohle Kuhmer fon gewiese Leite herkohmt, woh bei die Gozöbersten heruhmschmeigeln und in Bärlin ahles bewieligen, damid das die Sohne der Gnahde ienen auf die greflichen Blatten scheunt und durch disse hadelige bagaschi in breißen und kadollische leitschiender und arme bärgwergbesiezer wo ihre Leite außauchen und eine hochmiedige Fozen aufsäzen gengen das niderne folk haber am drohne den Schpeichel schläggen und durch disse fornähmen Mähner wo oft noch Laußpuben siend und drekete Schlawiener und Roznassen, wo die Kadollikendage mit ierer sauthumen Fisasche ferhuntsen und ihre fierschten und Grahfengrohnen auf ahle budschamperl hinaufmahlen und durch disse schlamberte bagaschi had das Zändrum das Folk feraden und ferkaufft.</p>
+            <p rendition="#et">hochwiern Här Gabidulahr ich mus es ienen schreim, das durch disse Worde ein habscheilinger Schpetakl sich entstanten had intem der bichler in die freis gefahlen ist und der Orderer had den Hädscher gekriecht und der Dahler ist plau gewohrn und seine Orwatscheln sind kald gewohrn und es ist ein Geschwätz gewäsen wie in dem gresten Sauschtahle bald gefuthert wierd. Den Orderer hawen mir mid Schbiridus eingeriem und er had aber geschnaggelt wie ein alder Schpillhan und had iemer noch einmahl gefragd hob mir das Folk feraden hawen, hob mir das Folk ferkaufft hawen und seine Nassenschpieze ist schnäweis gewäsen.</p>
+            <p rendition="#et">Haber da ist der Schedler aufgeschtanten und had geruhfen mir sohlen schtielle sein und gans meischenschtielle.</p>
+            <p rendition="#et">Und jez had der Schedler sanbf gelöchelt und had mit sießer Schtieme geschbrochen und had gesagd, Kündlein lihbet einahnder sagt er, und ich weuß ja das ier eich härzlich lihbet.</p>
+            <p rendition="#et">Jawoll had er noch einmahl gesagd indem der bichler nemlich seinen Gobf gebeideld had. Jawoll ier lihbet eich.</p>
+            <p rendition="#et">
+               <pb n="481" facs="#f0016"/>
+Disses Zändrum sagt er ist eine sär grose Familli und es kohmt sogahr in einer gleinen Familli for das es einen Schtreid gieb, haber nach einer gleinen Weule wiesen ahle das si eine Familli siend und ist ahles wider guth. So ist es auch bein Zändrum sagt er und die briederlein lihben sich wider.</p>
+            <p rendition="#et">Gelihbte sagd er inser Heum ist die Schtieme der fraien Naduhr haber Biechler ist das Lisbeln der Harbfe und mir schätzen ahle zwei Töhne und mir braugen ahle zwei Töhne intem das mir mit Graft zum Folke räden haber auch mit der Regierung lisbeln hoder umgekährt.</p>
+            <p rendition="#et">Gelihbte sagt er jez ist aber eine schlächte Zeit, indem das mir ahle zwei lisbeln missen und mir missen gans leuse lisbeln, damid das man es nichd genau ferstät, was mier sahgen und das mier es iemer wihder heruhmdrähen känen und das mahn ins nichz beweusen kahn.</p>
+            <p rendition="#et">Gelihbte sagd er mir hawen jäz eine sehr schmärzlinge Obaraziohn an inserm Folke for, intem mir iem seine Narung ferteiern und ien iberhaubts außauchen und sagd er ier wieset ahle das mahn bei einer schmärzlingen Obaraziohn die Leite bedeiben mus das si es nichd soh schpiehren und mir sagd er missen ahlso auch das Folk bedeiben bei disser Mahgenoberaziohn und dierfen nichd laud räden damid das mier den Bahzihenden nichd aus dem Schlahfe erweggen und disses mus inser gelihbter Kohläge Heum bedengen und bei disser bäriohde derf er nichd als Ferdreter des Folkes so laud brillen. Sontern mier missen leuse aufdreten wi di Daschentiebe, das es das Folk nichd mergt wie mir es außäkeln, und iem die Gäldbeidel nähmen. Und mier wohlen ins im Gebät fereuningen, das ins die Ahlmachd ein Middel schengt, das mier das Folk einschlefern kähnen.</p>
+            <p>Oh du heulinger Sepasdian –</p>
+            <p>schigge ins einen Schwiendel!</p>
+            <p>Oh du heulinger Flohrihan –</p>
+            <p>schigge ins einen Schwiendel!</p>
+            <p>Oh ier fiersich Nodhälfer –</p>
+            <p>Schigget ins einen Schwiendel!</p>
+            <p>Oh ier heulingen Nodliegner –</p>
+            <p>Schigget ins einen Schwiendel!</p>
+            <p>
+               <pb n="482" facs="#f0017"/>
+Disse neie barlamändsliedanei hawen mir ahle mit bedriebten Härzen gebäthet. Hochwiern Här Gabidulahr bäthen sie es auch fir</p>
+            <p>ieren liben Jozef Filser</p>
+            <p> Kenigl. Abgeorneter.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100545" type="chapter">
+            <head>An Härn Emerahn Schanderl</head>
+            <p>An Härn Emerahn Schanderl bfahrer</p>
+            <p>in Mingharting</p>
+            <p>Bosd daselbs</p>
+            <p>hochwiern Här bfahrer</p>
+            <p rendition="#et">Kelobt sei Jessas Kristo und ich bin gans tamisch im Gobf, denn es isd so schwär zum regiehrn wi es noch gahr nichd war.</p>
+            <p rendition="#et">Indäm mier nemblich jeden dag ein anderner schreihbt oder auch zwai, das mier keine Folksbardeih nichd mer sind sondern Erbrässer und fohler Tumheit, und fille brief kohmen und sind nichd underschriem.</p>
+            <p rendition="#et">Disses sind aber die gräbsten, wo ich als Lumb und baidelschneiter daschtehe und heist es darien, du gans ausgeschahmter bfahrerwaschl schtielst ins das Gäld wo mier hard ferdienen und hasd die Hende selwer im Hossensak und schaugst plos recht sauthum und sagst ja bald ins die Geischtlingen das Gäld nähmen. der Heiß Kaschper had geschriem, dadurch das er kein esterreichischn Dabak nichd mer raugen kahn haud er mier ein baar Fozen herunder und der Mäzger Hardinger fon Sinzing had geschriem, das er miech auf Wainachden alein schprechen wiel und er freit sich schohn und ich sohl mich forher versiechern lahsen weil es sonzt zu schpäth ist.</p>
+            <p rendition="#et">Hochwiern Här bfahrer, ich mus es ienen beriechten das ich mier auf Wainachden nichd heimdraue, intem das Volk so erbidert und fohler Häslichkeit gengen mich ist und had auch der Stettner Andräh geschriem, das es nichd so fille Haselnusschteken giebt, wie er brauchd bald er mich erwiescht und ahle Leite sahgen, das sie mich herschlahgen missen, das ich gern hin wehrde.</p>
+            <p rendition="#et">hochwiern Här Bfahrer fier disses bin ich nichd gewält, das ich briegel bekohme und fieleichd mit einen Zaunschteken den Tod fiers Faderland erleihden mus oder mit einen Wagscheidel.</p>
+            <p rendition="#et">
+               <pb n="483" facs="#f0018"/>
+disses ist nichd der beruhf fon ins barlamendahrier und bald mahn ein Gliehd fon der Rägierung ist, mus mahn nichd seine andernen Gliehder ferlihren, wo mahn zur Ögohnomih und zu sonzt was braugen kahn.</p>
+            <p rendition="#et">Und fon Reitmoning hawe ich ein brif erhalden wo es heist du drauringer Kähmerling kanzt du nichd nein sahgen, bald mahn drinken und äsen und raugen so deier machd, das es das ahrme Folk nichd mer kahn und weihl die Zindhelzeln so deier siend zinden mir dier mit einen bradschlägl ein Lichd auf du Hergozakeramänd.</p>
+            <p rendition="#et">Hochwiern Här bfahrer disses erfillt mich mid Wähmud, intem ich fier ahles gans unschultig bien und ich schauge sär draurig in di Zuhkunfd, bald das Folk so erbiddert ist und fohl Ferlangen, das es mich mieshanteln sohl.</p>
+            <p rendition="#et">Und auf Wainachden wo es doch Frihde den Menschen auf Erden heußt mus ich fieleichd mein Blud fergiesen?</p>
+            <p rendition="#et">Mein Härz ist sär betriebt fon dissen Follgen der bolidik haber es ist noch nichd das ergste.</p>
+            <p rendition="#et">Sontern das ergste ist was mahn ieber meinen hochwierningen Härn bfahrer und filgelibten Freillein Kächin schreibt und disses ist eine gans firchderliche Refohluzion, intem es heist das mahn den wamberten bfahrer enschuldingens filmahls seine Haud abschählen mus, damid das er es schpiert wie disses schmäkt bald dem Folke die haud abzohgen wierd und die Freilein Kächin sohl mahn sälchen weil das anderne Schweunefleisch jez zu deier ist hoder mahn mus aus ierem fedden Hintergwadier enschuldigens filmahls Unschliddkärzen machen.</p>
+            <p rendition="#et">Disses kahn ich ienen schreim, hochwiern Här bfahrer, aber das anderne kahn ich ienen nichd schreim, was die Leite forschlahgen, das man mit ienen oder dem filgeliebten Freilein Kächin anfangen sohl. Ich bidde ienen recht sähr das sie auf die Kantsel schteigen und disse Folkeswud schtillen, intem es nichd bloß für ienen geferlich ist sontern auch fier mich und die Freilein Kächin und ieberhaubts fier die heuligsten Gieter der Kirche.</p>
+            <p rendition="#et">hochwiern Her bfahrer ich mus es ienen mideilen das inserne Bardeih auch sonst sär draurig ist ieber disse Gesäze, wo sie in der Geschwiendigkeit in Bärlin gemachd had und mir möchten ahle die Freinde des Folkes sein intem mahn es doch bei den <pb n="484" facs="#f0019"/>
+Wahlen brauchd, haber das breißische Zändrum wiel es nichd, das die reichen Leite und die Fierschten und Grahfen fier iren schtarken kadollischen Glauben auch noch was bezallen missen, wo er ienen sowisoh hart ankohmt und da hawen halt inserne bardeibrieder nachgeben, weil mahn seine Iberzeigung schon obfern kahn, aber nichd sein Gäld.</p>
+            <p rendition="#et">Und haben auch fille glaubt, das inserne erhahbene und hochwierninge Geischlichkeit das Folk durch die Machd der brädigt besenfdigen kahn, intem es fieleichd doch sein Sählenheul noch liber hat wie einen bieligen Schnubf hoder rauchdabak.</p>
+            <p rendition="#et">Haber disse ierdischen Genisse sind noch schterker als wie die Rähligiohn und man mus es mit Schmärzen bedrachten, das die ahrmen Leite fier den kadollischen Klauben auch nichd mär bezallen wohlen als wie die raichen Leite.</p>
+            <p rendition="#et">Dadurch ist inserne Zändrumsbardei jez sär bedrofen und mir fersuchen ahles, das mahn disse Gesäze und Schteiern fergist.</p>
+            <p rendition="#et">Hochwiern Her bfahrer, intem sie mier geschriem hawen, das ich in Mingharting und in Sünzing einen Fordrag halten mus, hawe ich ienen geschriem, das es nichd gät.</p>
+            <p rendition="#et">bald ich eine solchene Räde brobire, krige ich schohn eine Fotzen for ich ahnfange, den disses ist der Geißt des Folkes wo jez härscht.</p>
+            <p rendition="#et">Fieleicht kähnen sie einen geischlingen Abgeohrneten ieberräden das er es brobirt und bald es schlächt ausfahlt, leudet er plos fier die Rähligion haber ich nichd, und fieleichd haud das Folk sanbfter zu bald der beträfende im geischlingen Gewahnde befiendlich ist.</p>
+            <p rendition="#et">hochwiern Her bfahrer ich mus es ienen noch schreim das ich in der Fersamlung gewäsen bin, wo sie mir befollen hawen, wo das kadollische Folk fohler Wud had sein missen wegen dem schbanischen Freumauhrer. Enschuldingen filmahls das ich nichd weis waruhm, haber eine Wud hawe ich schohn gehabd und fil gedrunken. Es wahren aber plos eunige Mansbielder anwäsend sonst lauder Weipsbielder, intem ahle Schpitähler auf befähl fon der hochwierningen Geischlichkeit dort gewäsen siend.</p>
+            <p rendition="#et">hochwiern Her bfahrer, ich mus es ienen aber schreim das ich <pb n="485" facs="#f0020"/>
+sonzt auch fille Schmärzen und eine grose Wud erlidden hawe durch disse Fersamlung intem ich nemlich bei einer Mauher geschtanden bien, wo es angeschlahgen wahr wegen disser Fersamlung. Und auf dem Anschlahge hat es geschtanden, eine tife Emböhrung durchziddert das kadollische Folk und disses hawe ich geläsen und da ist ein främder Mentsch dazuh gekohmen und had gesahgt er had keine Embörung sontern eine Endberung und sie kohmt fon die Schteiern und die Schteiern kohmen fom Zändrum und bei dissem Wohrte had er meinen Gobf an die Mauher geschtosen.</p>
+            <p rendition="#et">dadurch hawe ich erkahnt, das mir in disser bäriohde nichd belibt sind.</p>
+            <p rendition="#et">Und ich bidde Hochwiern Härn bfahrer, das ich in Mingharding keine Rede nichd halten mus, und ist es schohn bäser, wenn mir ins schtill ferhalden sonzt mus mahn fielleicht habscheiliche Worthe ieber dem freilein Kächin iehrem Hintergwardier und iere anderne Unfledikeit höhren.</p>
+            <p rendition="#et">Mit fillen Grießen an dise</p>
+            <p>bin ich ier</p>
+            <p>liber Jozef Filser.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100658" type="chapter">
+            <head>An Hern Xafer Gneid</head>
+            <p>An Hern Xafer Gneidl, Dischdrixrad</p>
+            <p>und kenigl. Abgeorneter in Minken</p>
+            <p>in Barlamend</p>
+            <p>Liber Xaferl</p>
+            <p rendition="#et">Durch disses bidde ich Dich inschtendig das du mich bei inserner Bardei zwegen Krankheid enschuhldigest und sahge dem Bresadenten balt er frahgt, das ich eine Infaulensa erwiescht hawe und ahlen ibrigen Bardeibriedern sagst Du es auch und ich kahn noch fiertzen Täg nichd erscheunen im Barlamänd, haber mier sind jo so fille das mahn einen nichd gschpürt.</p>
+            <p rendition="#et">liber Xaferl haber dier sahge ich es schohn ins Ferdrauen das es keine Infaulensia nichd ist sondern mehrerne Geschwielste am Buckel und weider hinab und auch ein Bruhch des gleinen Fiengers an der lienken Hant und auch Schwählungen auf dem <pb n="486" facs="#f0021"/>
+Gobfe und auch ein ferläztes Schinbeihn und mehrerne Schlähge aufs Fotzmäu waß awer keihne Nachdeile nichd erzilt had und disses ahles hawe ich beim Teroken erlidden.</p>
+            <p rendition="#et">Liber Xaferl indem ich nehmlich bei insern Bosdhalter eingekärt bien sind auch zwei Fiechhentler dort gewäsen und had der eihne gesagd, wo sich Schoichl Hans schreibd, das mir so schän beisahmen sint und missen mier einen scharpfen Terogg schpielen das Auhge um ein Zänerl und der Block fünf March und must du es awer nichd ferraden, weil mier doch fon inserner Bardei ferflichdet siend das mier den Klauben fon der nodleudenden Lantwierdschaft niergens zerschteren. Folgedesen hawen mir disses teiere Schpil gemachd, der Schoichl und der anderne Fiechhantler nahmens Wolf und der Bosdhalder und ich und bei der erschten Blohkad hawe ich schon ieber dreisig March gewohnen wodurch eine schtiele Feundschafd gekohmen isd weil auch der Bosdhalder zähn March ferlohren had.</p>
+            <p rendition="#et">Der Wolf had gesahgt mit keihnen Zändrumsmahne sohl man nichd schpilen weil sie die greßten Kardoffel hawen awer ich hawe blos gelechelt und bei der zweiden Blohkad hawe ich schohn wider zän March gewohnen und der Bosdhalder ist sär zohrnig gewäsen, indem das er fiel verschpielt had und jez isd die driete Blohkad gekohmen und da had der Bosdhalder austräten missen, weil er in die Mäzgerei had missen und jez hawe ich gegäben und die läzten Karden fier mich siend fir Asen gewäsen und da schreid der Schoichl hald, er had beschiesen und had falsch gemiescht.</p>
+            <p rendition="#et">Der Wolf had meine Karden genohmen und aufgedäkt und schreid auch gans habscheilich, da klaubt er schohn, das disser geschärte Lump gewient und bei dissen Worthen had er mier ins Andlitz gehaut, das feirige Funkhen wegeschpritzt siend, awer ich hawe mein Gäld gepakt und in den Sak geschtekt und bei disser Beschefdigung hawen mich disse zwei Fiechhantler ferlezt, das ich sär mismuthig wahr und einen Maskrug nam und ist auch der Schoichl sär hefdig an dissen hingestossen, das er bewustlos wahr und had auch der Wolf heulen missen indem ich mich mid dem zerbrochenen Maskrug in einer hefdigen Nodwer befunten hawe.</p>
+            <p rendition="#et">liber Xaferl durch dissen Schpetakel ist der Bosdhalder gekohmen und der Mäzger und disser liderliche Freind had gengen <pb n="487" facs="#f0022"/>
+mich Bardei genohmen und schreid gleich, jez must du schterben du lufdgesälchter Batsi und jez weis ich nichd mär, was mit mier geschähen ist und wie ich wider aufgewachen bien, bin ich in der freihen Lufd gewäsen und hawen die Schterne gescheunt ieber mich und ich hawe geklaubt das mein Gobf in die höche waxt, weil er so geschwohlen gewäsen ist und da bien ich miehsam aufgeschtanden und hawe fohler Schmärtzen geseifzt bis das ich bei meinem Hause angekohmen bien.</p>
+            <p rendition="#et">liber Xaferl bald mier auch ofd behaupden, das das Läben auf dem Lande fil gesünder ist als wie in der Schtadt mus ich jez disses Lohb zuriknähmen, den es ist schon selzam, wie das bidere Landfolk einen Mentschen herschlahgt und ein Folksfertretter in der Schtadt mus nichd mid solchenen Schmärzen erwachen wie ich.</p>
+            <p rendition="#et">Am ahndern Tag ist der Bahder gekohmen und had mich mit hefdbflaster schir gans zubappen missen und hawe ien auch gefragt, ob ich in meinem Beruhfe geschedigt bien und had er gesagd, als Oegonohm bien ich geschedigt, haber als Barlamendarier nichd. Und den Schantarm hawe ich auch hohlen lasen und hawe iem befollen, das er den Bosdhalder wegen Mieshantlung der Obrikeit und Schtazgewald for das Schwuhrgericht briengen mus, haber er had gesagd, das ich nichd in der Ausiebung fon meinem Beruhf gewäsen bien und fieleichd kohme ich selbzt zur Ferhandlung durch den Maskrug.</p>
+            <p rendition="#et">liber Xaferl jez ist der Zwäk disses Schreihbens das du zu insern Jußdizminiesder gähst und iem Ferdrauen zu iem sagst das ieberhaupts keine Ferhantlung nichd schtattfienden derf und wiel ich auch meinen Miesetetern mit kristlicher Dämuth ferzeihgen, und wiel iere Schtrafe nichd haben, und mus disses Forkohmnis mit Schwaigen behantelt wärden, den Du kanzt Dir schohn dengen, was inser Bresadent fier eine Fozen auf mich machen tete bald er es zum wiesen kriegt, das ich grien und plau hergeschlahgen bien in dissem Uhrlaub, wo der Barlamendarier zu seiner Erhohlung beniezen sohl.</p>
+            <p rendition="#et">Gozeidank had keine Zeidung nichz erfarren, blos inser Wochenblad weis es und ist aber schtreng kadollisch und had geschriewen, das inser inigstgelibter Fertreter fon einem bläzlichen Unwollsein ist befahlen wohrden haber durch seinen Schuzengl und die Hilf der Heuligen wider auf dem Wäge der <pb n="488" facs="#f0023"/>
+Beserung sich befiendet, und heust es auch das der wollgeborne Her Filser zwahr noch Schmärzen emfindet haber fiberfrei.</p>
+            <p rendition="#et">Ich schieke dir disses Blad, das Du es dem Bresadenten giebst und kahn er auch sähen, mit welchener Libe der Wallkreis dem Bardeibruder Filser ergehben ist, das mahn iem zertlich eine bahldige Genäsung winscht und kanzt auch erzählen das die hochwierninge Geischtlichkeid dissen kristlichen Abgeorneten in ier Gebed einschlüssen wiel damid das er seine ganse Krafft wider bekohmt und dem Faterlande erhalden bleibt.</p>
+            <p rendition="#et">Fieleicht kanzt du den Andrag schtelen das sich das Barlamänt zum Zeuchen, das es disses auch hawen wil fon seinen Siezen erhäbt und dem Kohlägen Filser seine ienigsten Wiensche zu einer bahldigen Genäsung miteihlt. Disses mechte ich auch wengen dem Bosdhalder, damid das er siecht, das er mich nichd wie einen hantwergspurschen hinausschmeisen kahn, sontern das ganse Land ist betriebt ieber dissen Unfahl und mus er Anxt hawen, weil er ein unferlezliches Mitglid fon der Regihrung mishantelt had. Inser hochwierninger Her Bfahrer ist sär zohrnig auf iem und hawe ich iem gesagd, das ich disse Schlähge erlidden hawe indem ich fier sein Freilein Köchin eingetretten bien und klaubt er disses auch gans fest, und ferathet mich nichd.</p>
+            <p rendition="#et">Liber Xaverl sei so gud und tu disses was ich dier sahge, den ich tu es auch, bald Du mich brauxt, den durch disses sind mier ja der schtarke Tuhrm, das mier einahnder helfen und fon die Minisder Schohnung ferlangen.</p>
+            <p rendition="#et">Es griest dich dein liber Bardeibruder Jozef Filser.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100734" type="chapter">
+            <head>An Emeran Schanderl</head>
+            <p>An hochwierningen Hern Bfahrer</p>
+            <p>Emeran Schanderl</p>
+            <p>in Mingharting</p>
+            <p>Bosd dasels</p>
+            <p>Howiern Her Bfahrer</p>
+            <p rendition="#et">Kelobd sei Jessas Kristo in aler ewigeid Am. Intem das sie mir geschriem haben, das ich sohl dissen Mentschen Bechler insern Bosdhalder ferklahgen wengen Mieshandlung <pb n="489" facs="#f0024"/>
+eines gesezgäbenden Kerpers durch Fusdrite und auch sex Fozen im Antlieze und sohl auch die Beleudigungen der hochwiern freilein Bfahrerskechin beurkundigen damid das ein brozes gengen dissen Mentschen erhohben wierd, so mechde ich schon meinem gelibden Sälsorger gehorsam sein in alen Schtiken.</p>
+            <p rendition="#et">Haber ich wiel meine schmärzen hinämen durch das beischpiel Gotes wo auch gelidden had fier ins und ich habe gelidden fier die Freilein Kechin und mechte es mit Sanbfmud ertragen und auch inserner Gemeinde ein beischpiel geben der kristlichen dämut, wo dem Feunde verzeigt und nichd wiel das er Schaden niemt sontern sich bäsert und seine Sähle retet.</p>
+            <p rendition="#et">Intern es auch gescheuter ist hochwiern Her Bfahrer bald mier disse Eiserungen fon dissem Bosdhalder nichd in der Öfentlichkeit bekant machen den disses sind Eiserungen wo auf ier hochwierninges Geschlächt sich betrefen und dem Freilein Kechin dem seiningen und ferschidene Erläbnise durch disse beuden und wiesen schon hochwiern Her Bfahrer der scheun triegt ofd haber nichd plos fier einen sontern auch gengen einen.</p>
+            <p rendition="#et">Und mechte ich Disses beischpil erwehnen das der Dreg schtinkt bald mahn ien aufriert und intem Hochwiern ein Mahn sint wo besohnen ist und sich auskehnt so wohlen mir den Dreg nichd aufrieren und auch dem Freilein Kechin den seunigen nichd sontern ien ligen lasen und intem das Freilein Kechin als ein Weisbield Disses nichd so ferstet mus mahn ier nichd gehorchen sontern als ein Mahn seunen Wielen bezeugen und brauchen hochwiern Her bfahrer ir blos zu sahgen das auch disser geachtede Mahn Nahmens Filser ahles mit mielde ferzeigt und had doch sex Fozen erhalden fir das Freilein Kechin und mus sie an dissem Forbielde ieren zohrn fergäsen.</p>
+            <p rendition="#et">Und fileichd erwieschen mier schon einmahl den bosdhalder wo es ien wäh tuth und zum beischpil missen hochwiern Her bfahrer den kadollischen Gesehlen ferein seine Teaderforschdelung beim Lamblwierd abhalden, wodurch der bosdhalder fil Gäld ferliert und kahn doch nichz machen. Disses mus mahn bewierken und ist eine Rache wo er spiert und bleibt in der Schtille.</p>
+            <p rendition="#et">Disses wohlen wir folenden, und dissem gans hunzhäutenen Bosdhalder beschedingen, wo er solchene Gespreche iber der freilein Kechin ier alerheuligstes firt, und missen sie iem den <pb n="490" facs="#f0025"/>
+Gesälenferein abdreiben hochwiern Her Bfahrer, haber keinen Dreg nichd aufrieren. Teo Krazias.</p>
+            <p rendition="#et">Inser barlamendarisches Leben ist schtil, intem mir eine so schtarke Bardei sind das mir ahles one schtreiten thun was mir mögen und sahgen mir heumlich das es schahde ist. Den jez ist es so das ahles der Bresadent Orderer beschtiemt und mus mahn fir jeden Kreizer eine Bidschrift bei iem machen und schimbfe ich fein schon liber mit einen lieberahlen oder Sotsi als das ich mit dissem Schuhlmeister freindlich schpreche, den es ist unbeschreublich was disser Mentsch jez fier einen Grehn had. leuder das mir solchene Rindficher sint und dissen schpinneten Schuhlärer noch griesen, den daturch wierd er gans ferwegen und klaubt schohn er ist der Känig fon Bayern und dankt nichd fier einen Grus.</p>
+            <p rendition="#et">Neilich ist iem inser gelibter Bardeibruder Glasel auf der Schtiege begägnet wie er mit dem Minisder Wähner daher gekohmen ist und hat inser Glasel mit fleus gesagd grieß God, Orderer, kimbst heid in Kasieno zum tahrogen, und da had der Orderer gethan als wen er nichz hert und had seinen Hud nicht angeriert aber der Glasel sagt er had iem angeschaugt wie ein löbe, wo acht Täg nichz gefräsen had mid rohlende Augen und er had seine fimbf gälben Zehne geflätscht, daß der Glasel gemeunt had, er beußt. Hochwiern her bfahrer, den disses ist leuder wahr, das inser bresadent gegen das arbeizame Folk häslich ist und plos under die Beahmten get weil disse Däppen iem schmeigeln und serfus reißen und disses thut dem Schuhlärer woll, intem er selbs frieher serfus geriesen had.</p>
+            <p rendition="#et">Jez gengen die Minisder zu iem hin und schprechen ganz liblich zu dissem Schuhlmeister und er thut gans barmhärzig und ferdeilt seine Wohrde unter ienen und sie backen sie wie die Hund einen fleuschbroken. Hochwiern Her bfahrer es ist sehr draurig das ich disses ieber insern kadollischen bresadenten schreiben mus haber mier sind ahle gans bährig ieber dissen hochmiedigen Schuhlmeister wo seine Fotzen verziet bald er einen Mahn aus dem Folke siecht.</p>
+            <p rendition="#et">Haber fieleicht in Duntenhausen get er herum wie der Brinsregänt im Oktoberfäst, und sagt zu einem Bauersmahn, mein lüber wie gets? und klobfd iem auf die Schulder und meunt jez mus dieser Mentsch mit Freiden läben und schterben weul <pb n="491" facs="#f0026"/>
+iem der grosmechtig Schuhlärer fon Baiern mit eigenhentiger Fotzen angeschbrochen had.</p>
+            <p rendition="#et">Mir känen ien nichd mer leuden und mir freien ins bald ein Sotsi dissen gans ferwägenen Knierbs ein bißchen springen last, den fon inserer Bardei derf es ja Nimand und mir missen inserne ganse Hofnung bei den Sotsi haben. Disses ist draurig haber war.</p>
+            <p rendition="#et">Sonst weis ich nichz mer als das es Gozeidank in dissem Garniewahl fiel keischer hergangen ist, wie frieherszeiten intem das die bolizei jez den geschlächtlichen ferkehr iebernohmen had und barigrafisch regaliert.</p>
+            <p rendition="#et">Ich weis es nichd obs den bolizeibresadenten ieberall zuschaugen lasen, haber der barohn Freiberger, wo auch die Erbsinde inschpizirt hat mier gesagt, das fieleichd zwei brohzent weninger geschlächtliche Freiden gewäsen sind als forigs Jar.</p>
+            <p rendition="#et">Disses ist schon ein herrliches Zeignis das die Zuschtende in der Schtadt auch im Abnemen begriefen siend und wohlen mir zur barmherzikeid Gothes hobfen, das es noch mer zurickget bis Disse schweihnerei nur mer in der kristlichen Ehe forkohmt wo sie auch hingehört und sagens dem Freilein Kechin nochmahl das sie keinen Krawall nichd machd und den Dreg nichd aufriert sie wiesen schon.</p>
+            <p rendition="#et">Es griest meinen gelibden Sälsorger im Geischte sein liber</p>
+            <p>Jozef Filser</p>
+            <p>königl. Abgeorneter.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100823" type="chapter">
+            <head>An Hern Kastuhlus Fiendler</head>
+            <p>An Wollgeborn Hern Kastuhlus Fiendler</p>
+            <p>Oegonohm in Bieberekh</p>
+            <p>Bosd Dachau</p>
+            <p>Liber Kolga und Schbezl</p>
+            <p rendition="#et">Intem das du mier ein Brif geschriem hast und es wiesen mechtest was mier jez in Barlamänd ferieben dadurch das du kein Mitglied nichd mer bist wiel ich dier schon ahles genau schreim. Liber Kastuhlus das du schreibs das dich keune zähn Roß nichd mer hineinbringen in Lantag und das du liber ein <pb n="492" facs="#f0027"/>
+naketen Haußknächt anschaugst als wie insern Komadant Orderer disses ist durchaus richdig, haber du bisd glicklicherweis Witiber und hast kein zahneten Trachen nichd und kanzt daheum bleibn haber leuder die meuninge lebt noch ser schtark und in Goznamen schauge ich liber den Orderer einmahl an als wie die meunige zähnmal und mus ja nichd bei iem schlaffen und durch disses bien ich noch bei der Bolidik.</p>
+            <p rendition="#et">Wie du noch dabei befiendlich gewäsen bist da ist sie fil luschtiger gewäsen, haber jez ist sie gans langweulig und mir dierfen keine Entriestung nichd mer beweusen, intem das die Minisder nichd böllen und nichd beußen sonter plos mehr wädeln und had auch inser Fater Daller gesagd das es ein mahlör ist fier die Krefte fon inserner Bardei den was hilft ins die grohbe Fotzen bald mier sie nichd aufreisen dierfen und mier hawen so fille und so grohbe und missen ahle geschlohsen bleibn.</p>
+            <p rendition="#et">Mein liber Mentsch, da ist es in Breißen gans anderst, wo mir jez gehert hawen, das sie gleich mid Bistolen schüßen wohlen und ist ienen nichd genug, das sie einahnder plos selbs umbriengen sontern wohlen sie fon Bärlin bis Minken schüßen und inserne haarmloßen Minisder abmurxen. Inser Kriegsminisder ist schon beina ferlohren gewäsen und hätt mahn nichd mer fiel gäbn fir sein Lehben, haber Gozeidank had er den breißischen Barohn noch derbarmd das er sein Bistoll wider eingsteckt had. Durch disses kohmt man zu der Bedrachtung ieber das Duähl, wo auch bei ins öfter geredt wird.</p>
+            <p rendition="#et">Ich hawe mir gedenkt jez mus ich es einmahl genau wiesen und hawe einen Adjatanden fon insern Krigsminisder gefragd hob er mier nichd eine Auskunft geben wiel und sagd er sär gerne mein liber Her und sahge ich also enschuldigens, balt disser Breiße kein Derbarmnis gehabt häd mus jez inser alder Minisder noch schüßen mid der Bistolle? Jawoll sagd er mein liber Her da gibd es keinen Zweifl durchaus gahr nichd. Enschuldigens sahge ich, bald er aber nicht mahg? Zun beischpil sag ich, balt mich einer beleidinget kahn ich iem schon eine Watschen geben, haber ich mus nichd. Disses ist etwas andernes mein liber Her sagt er. Enschuldigens sage ich wo ist disses geschriebn, das er schüssen mus? Das ist nirgens geschriem sagt er.</p>
+            <p rendition="#et">
+               <pb n="493" facs="#f0028"/>
+Woher weis ers nachher? sahge ich. Mein guder Her, sagd er, disses ist ein Gefiehl.</p>
+            <p rendition="#et">Bald ers aber nichd gspürt? sag ich. Das gibd es nichd, sagd er. Entschuldigens sahge ich, ich hawe es noch nie nichd gspürt.</p>
+            <p rendition="#et">Ja sagd er mein liber Her, disses ist ein Gefiehl, wo mahn nichd fon selber had, sontern man krigt es erscht. Durch die Erzühung.</p>
+            <p rendition="#et">So sahge ich und wie heist den nachher disses Gefiehl? Disses heist das Ehrgefiel, sagd er. Ich dank schön sahge ich, dadurch das ich disses gelärnt hawe. Ich bit schöhn, sagd er, es ist gern geschähen und freit mich das mahn im Folke es lernen wiel.</p>
+            <p rendition="#et">Enschuldigens sahge ich zun Beischpiel inser Wähner Toni, mus der auch mid der Bistolle schüßen, bald ein Breiße ien beleidinget. Der Her Minister Wäner? sagd er. Ja der Toni, sahge ich. Nein sagd er, disser mus nichd schüssen, bald er nichd mahg. Enschuldigens sag ich, had er nichd so lang schtudirt wie inser Krigsminister? Warum liber Her? sagt er. Ich mein plos, sahge ich, ob er fieleichd nichd so fiel Erzühung had, das er das Ehrgefiel gspüren mus? Liber Her, sagt er, disses ist wider was andernes, indem das er kein Ofazier nichd ist. Ach so, sage ich, plos der Ofazier mus es gspüren? Jawoll, sagd er, ein Ofazier mus es gspüren und ein anderner kahn es gspüren. Ich dank recht schön sahge ich dadurch das ich disses gelernt hawe. Ich bitt schön sagt er mein liber Her, es ist ser erfreilich das man im Folke so fiel Indarese had. Enschuldigens sahge ich bald sie es so genau kenen ist es was schenes und had mahn was dafon? O jah liber Her, sagt er, es ist das schenste, was es iberhaups giebt und ein Ofazier kahn gar nichd leben one iem.</p>
+            <p rendition="#et">Haber mus ein Brins, der wo Ofazier ist auch mit der Bistolle schüssen?</p>
+            <p rendition="#et">Nein, sagt er, disses ist etwas andernes, intem der Brins zu hoch ist. Enschuldigens schon sahge ich, bald mahn es ohben auch nichd gspürt für was brauchd mahn den nacher eigens eine Erzühung, intem das es doch ganz wurscht ist ob es unten oder oben nichd glangt und disses Ehrgefiel sahge ich ist das einsige wo Brinsen und Beddelleut miteinahnder die andern Leite zuschauhgen missen. Da hat der Adjatant gesagt, leuder er kahn es mier nichd erklehren, intem im Folke kein Ferstendnies härscht und er ist gangen.</p>
+            <p rendition="#et">
+               <pb n="494" facs="#f0029"/>
+Mein liber Schpezl disses wiel ich dir schon erkleren, das fier die Groskobfeten iemer eigene Supen kocht wern, das sie ienen selbs nichd mer auskennen.</p>
+            <p rendition="#et">Haber das Duwäl lasen mir in insern Barlament nichd einfiehren und braugen inserne Minisder nichd lange die Nasse aufziehgen, ob sie ier Gefiel noch schmöken, und gähen mir liber mit ienen zun Hofbreihausbock, damid das mir ien briefen und balt mier oder dem Krigsminister sein Radi hinaufstößt ist es auch das nemlinge Gefiel und kein Unterschied durchaus nichd. Durch dises grißt dich</p>
+            <p>dein liber Freind</p>
+            <p>Jozef Filser.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100900" type="chapter">
+            <head>An Hern Sepastian Hingerl</head>
+            <p>An Hern Sepastian Hingerl Oegonohm</p>
+            <p>in Haspelmohr bei Brugg.</p>
+            <p>Liber Freind, durch dissen Brif wo Du mier als unbekahnter geschriem hast bien ich schohn ser bedrofen gewest, intem das Du geschriewen hast, das fier ins Oegonohmen und Gitler und ieberhaupts das Landfolk die hohe Geischlichkeid ein Laibschaden ist und mier ausgeschmierbt sind und Du wielst die Schtimme des bidernen Landmahnes fernähmen, wo im Barlamend siezt und was disser eißert wielst Du wiesen nach dissem Ereignis, wo sich drei hochwierninge Bfahrer als unkeisch aufgewisen hawen.</p>
+            <p rendition="#et">Mein liber Mentsch durch disses hawe ich beschlosen, das meine Schtimme ertöhnen sohl und wiel ich Dir schohn die geischlingen Ferheltnise auseinahnder säzen.</p>
+            <p rendition="#et">Zun erschten Bunkt ieber die Geschlächter mus ich mit schmärz sahgen, das es leuder sich öfters begäben had, das ein geischlinger Her damid umget wie ein anderner auch oder gleich gahr wie ein ledinger Bauerngnecht. Und klaube ich das es fon dem guthen Esen herkohmt, wo inserne Bfahrer haben und wo ienen ein hiziges Blüt machd, den balst Du schohn ein unferninftinges Geschäbf gahr so hiezig futherst wierd es auch gans bährig und wield.</p>
+            <p rendition="#et">Ja mein liber Mentsch balst Du inserne Bfahrer anschauxt <pb n="495" facs="#f0030"/>
+had keihner under zwei Zendner und ist lauder kernigs Fleusch und durchwaxen mit einen fästen Späk und die Köbf sind ahle brenrot und aufdrieben und plau, intem sie das Blüt so druckt und hawen auch file bazelte Auhgen, wo disses beweust das einer ein guder Gokhel ist aber leuder er derf nichd.</p>
+            <p rendition="#et">Nach der Frumeß haud der geischlinge Her ein bar Wirschte mid Sembf hinunder und drinkt braf Bier oder Weihn das ers aushalden kahn bis Miedag, wo er Knedl krigt und ein Kalpsbradl und ein bfefferten Salad und ein Hähnerraguh und Kiecheln oder Schmahren und drinkt braf Bier oder Weihn.</p>
+            <p rendition="#et">Und jez get es bei iem los intem das es nichd so schnehl herausget wie bei dem Oegonohm sondern es get umeinahnd und kohmt ins Blüt und jez mus er in Beuchtstul und drukt ien schtark haber er mus Beucht hörn und fieleichd ist es ein junges Mentsch wo ieren Läbenswahndel ofenbahrig machd und ist oft so schweihnern das es unsereins auch erfreien mächte und erfreit den geischlingen Hern fieleichd auch und frahgt rechd lübreich.</p>
+            <p rendition="#et">Mein liber Mentsch nacher weist schohn wis oft get und ist desweng einer kein Batsi sontern ein Mahn wo nichd mer anderst kahn und wie mir ahle, plos ist er geweichd.</p>
+            <p rendition="#et">Oder bald es im Nachmidag nichd so auftrieft und der geischlinge Her ist auf die Nachd ein Gsölchtes und ist schtark gesahlzen und Kraud und drinkt braf Bier oder Weihn und es glopft und kohmt die Kechin hereihn und had ein schtarkes Härz.</p>
+            <p rendition="#et">Jez fragt sie iem wie das es iem geschmökt had und had iem aber ser gud geschmökt und glopft er ier fohler Giethe hinden und durch disses bleubt ofd die Hand dohrt. Mein liber Mentsch, disses get nicht durch die Rähligon sondern durch die Weisbielder, wo mahn schon kent und fiele kohmen in Bfarhof zum jahmern intem das der Mahn under der Wochen miede ist und am sontag ist er besobfen und wiel ieberhaubts seine ru hawen den disses ist auch im Türreiche nichd das ein Gokhel plos eine Hähn mag so lang er läbt und jez laufft das Weisbield in Bfarhof und jahmert und der geischlinge Her mus ahles hörn. Disses ist hard und kanz nichd jäder aushalden und einer schohn gar nichd der wo lädig ist und noch keinen Habschei und Graußen for die Weisbielder had dadurch das er ferheirat ist und filles <pb n="496" facs="#f0031"/>
+siecht, wo eihner nicht siecht der plos mit Lübe kohmt auf eine kleine Weule. Haber mein liber Mentsch ich hawe durch disses das jez so fiele geischlinge Härn fier schweihnern erkahnt werden insern hochwierningen Hern Bfahrer befrahgt woher das es kohmt und er had gesagd mein guder Jozef sagd er disses kohmt durch die Zeidungen wo ahles aufstürn und ofenbahrig machen und sich freien bald sie ins erwieschen. Den sagd er mein guder Jozef frieherszeiten da had die Mentschheid keine so boßhaften Brielen aufgehabd wie jäzd wo sie ahles sähen. Da hawe ich gesagd, das es hald leuder gengen das gelübte der keischheid ist, haber da had er mit lauder Schtime gesagd mein guder Jozef disses ist ein schräklicher ierthum fon die Leite das sie iemer noch klauben, das mier keisch sein missen sontern mier missen es nichd und mier hawen plos das zelabad. Da hawe ich gesagd ob man zwegen dem zelabad ahles ferichten derf? Oh ja had er gesagd, haber plos heuraden derf man nichd, sagd er.</p>
+            <p rendition="#et">Disses mache ich Dir jäzd zum wiesen mein lüber Mentsch weils fieleichd noch nichd weist das der geischlinge Her im zelabad ahles derf und ist der Bedrefende kein Batsi wo sein gelübde ferlezt sontern plos das sexte Geboth wie mir ahle.</p>
+            <p rendition="#et">Und hawe ich auch schon gedenkt das ein zelabad was schenes ist intem das keine keischheid nichd dabei sein mus und bald einer ferheirat ist da ist er fil liber keisch und had seine ru fon ier haber im zelabad da kahn einer schohn luschtig sein weils nichd alerweil die nemlinge ist. Da ist es keine kunzt.</p>
+            <p rendition="#et">Die Weisbielder wo es nichd ferstehen hawen das greste Derbarmniß mit den zelabad und klauben das mahn damid heulig ist und derweil sind plos mir die thumen, intem das mir heiraden.</p>
+            <p rendition="#et">Mein lieber Mentsch jez must Du es wiesen das die geischlingen Hern ahles derfen wie mir und sind aber fiel hieziger zwegen ierer guten Koscht und das zelabad ist kein verbot nichd sondern ein schuzmidel gengen die Folgen der Lübe wo es fier ins im heiraden leuder gibd.</p>
+            <p rendition="#et">Die keischheid insernes heuligen kadollischen Glaubens giebt es schohn aber plos bei die Kabaziner und bei die Fransiganer und fileicht bei die Benadicktiner und kahn aber plos desweng sein weil disse Mähner eingespert siend und sär wenig zum äsen krigen, und auch keine Kechinen haben.</p>
+            <p rendition="#et">
+               <pb n="497" facs="#f0032"/>
+Daturch kohmt es bald in einer Gegent die unsittlichkeid zimlich schtark ist, das mahn die Kabaziner dariber last zum brädigen und wirst es schohn gehärt haben mein liber wie es auf der kantsel zuget bald so einer anfangt und es die weisbilder hinreubt und haben schon ein andernes schmaltz wie inserne Bfahrer.</p>
+            <p rendition="#et">Disses wird ofd ferwexelt das mahn die Bfahrer fier keisch bedrachtet, und sind es aber die Kabaziner intem es die räligohn so eingericht had das sie im kloschter kein weisbield zum sähen krigen und krigen sie wenig fleusch sontern solchene speißen wo nichd ins Blüt gehen; das andere aber wo mahn fieles esen derf und eine kechin dabei had und eine junge Base auf Besuch und zum kochen lärnen heist mahn zelabad und ist nich so draurig wie die keischheid.</p>
+            <p rendition="#et">Dises beschtetigt auf wuntsch der biderne Landmahn im Barlamend mit nahmens Jozef Filser</p>
+            <p>kgl. Abgeorneter.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e100982" type="chapter">
+            <head>Bericht</head>
+            <p>des kenigl.Abgeorneten Jozef Filser ieber die Reiße auf den krigsschaublatz bedräf das bier bei Maserburg,</p>
+            <p>
+               <hi rendition="#i">An das kenigliche Barlamändszändrum in Minchen im kadollischen Gasieno</hi>
+            </p>
+            <p>hochwiernige Hern Bresadent und Abgeornete! Beträf disser Reiße wo ich mid den kenigl. Abgeorneten Glasl und Irzinger folendet habe melde ich gehorsamzt das der kenigl. Abgeornete Glasl im Schbitahl in Waserburg sich befindlich ist und der kenigl. Abgeornete Irzigner im Krankenhauß dahir und ich ein zerbrochenes Nassenbein besieze und disses das Ergäbnis inserner barlamendarischen Reiße, und ist auch das linge Auge des underferdigten mit blüt underlaufen und lege ich auch die erztlichen rächnungen bei und ist auch meine Ur im Dienzte zerbrochen.</p>
+            <p rendition="#et">Auf befäl der barlamänzbardei mus ich es genau beschreim. Kelobt sei Jessas Kristus aber es wahr ein habscheilige Reiße.</p>
+            <p rendition="#et">Am Dienztag kahm der befähl des hern bresadent Orderer <pb n="498" facs="#f0033"/>
+das ich und der Glasl und der Irzinger mich zu iem begübe und sind mier auch zu iem und sagd er meine härn sie missen auf das schlachdfeld fon Waserburg wo jez der bierkrig ist und missen disses unwiesende Folk belären und besenftingen, und bald sie färtig siend mehlden sie das ergäbnis. Und jez siend mir auch ferdig und ligt der kenigl. Abgeornete Glasl im Schpitahl und inser Kohlege Irzinger mus im Krankenhauße ferweulen und auch ich bin ferläzt. Dises ist das ergäbnis, aber sonzt keines und ist auch nimand besenftigt und belärt sontern blos ferläzt.</p>
+            <p rendition="#et">Mir sint eingestigen im Oßtbanhof in Minchen dahir und hawen schohn dort die feundsälikeiten begohnen intem ein Mentsch durch die finger gebfifen had und schauge ich um und frahge was wohlen sie und sahgt er das er mechte kraudköbfe bei mier bestälen haber mus jeder so gros sein wie mein geschwolschedel und hawe ich iem das landesibliche geantwort wo ich aber dem barlamänd nichd deitlich bezeuchnen kahn.</p>
+            <p rendition="#et">hochwierninge bardei und geischliche härn forgesäzte!</p>
+            <p rendition="#et">Um fier ur sind mir in waserburg ankohmen und auch mid gezimender erfurcht fon den beahmten emfangen wohrden und hawe ich disse Leite in audiänz genohmen und frahge ich den bezierksambdman, wo ist der krigschaublaz. Mir sind nahe hiebei sagd er und die flamen des aufrurs gengen den Biergenus läggen schohn an disse stadt.</p>
+            <p rendition="#et">da hawe ich gefragd ob das Folk ieberhaubts kein bier nichd mähr drinken wiel oder plos weninger, und da sagd der bezierksambman, das gahr kein bier gedrunken wierd sontern wahser und schpringerl und limanahdi. Jez hawe ich gleich erkahnt das die Treie gengen Drohn und Aldahr erschittert ist und das ädle baiernhärz mus fohler unmuth sein bald es einmal limanahdi drinkt.</p>
+            <p rendition="#et">Ich hawe zum bezierksambdman gesagd, das mier ahle insere Kraft einsäzen wohlen, das der biergenus und die libe zun hause wiedelsbach nicht erläschen derf und desweng sind mier gekohmen und fraghe ich, wo sohlen mier anfangen zum agatiern und sagd er fileichd in Albaching oder wo sie wohlen es ist ieberall gleich. da sind mier keniglichen Abgeorneten mit der hochwierningen Geischlichkeid und den beahmten ins Wierzhauß gangen damid das mier einen blan endwerfen den had ein geischlinger her gesagd one einen schlachdenblan dierfen <pb n="499" facs="#f0034"/>
+mir ins nichd gengen disse feunde wahgen. dadurch hawen mir bis midernachd beraden und hawe ich zerst gemeunt fieleichd bald disse ferbländeten Leite die Schtimme eines barlamendarischen landesfaters fernähmen das sie iere limanahdi ausschbeiben und wider das bier liben und ier härscherhauß und auch das wolwohlen der ädlen Zäntrumsbardei erkähnen und nichd iere kadollische rähligon ferlieren wohlen wengen zwei Bfening fier die Maas. Haber disser geischliche Wierdendräger wo schon ohben erwöhnt ist had gesagd mein liber Mentsch, inserne Worde sind zu schwach fier disse Biffel und hawen ahle geischlichen Härn auf der Kansel fersuchd das sie doch das Folk fon der limanadih zu ieren angeschtamten bier und rähligiohn zurikbringen haber der zeitgeischt ist so schlächt, das er sogahr dem durscht widerstät.</p>
+            <p rendition="#et">hochwierninges barlamänd und geischlinge forgesäzte ich mus es beriechden das mir ahle erkahnt hawen das diser saustahl durch den ieneren feind gekohmen ist indem disse Breißen insern folksthiemlichen ferstand ferviert haben dadurch das mir die biersteier genähmigt hawen. Bald der zändrumsmahn zu hauße siezt schimbft er sär schtark iber die Breißen wie es sich gehärt damid das mir als folksmäner gelibt werden, haher bald so einer auf bärlin kohmt ist ahles anderst. der brafe baier draut sich gar nichd sei Fozmäu auf machen, weil es nichd fornähm ist und die groskobfeden breißen, wo auch fiele adeliche dabei sind lasen ien nichd dischpartirn. Es kohmt ein Graf zu iem oder gar ein fürscht und glopft iem auf der axel und durch disses fergiest er insere angeschtamte häslichkeid gegen breißen und machd eine dämithige fotzen wie der haußgnechd bald ein fornähmer Mentsch aussteigt und der fornähme Mentsch gibt iem sein Gebäck und seine schwaren Kofer zum dragen und der folksame Gnecht dragt ahles bald es auch sär schwehr ist.</p>
+            <p rendition="#et">Disser bairische zändrumsmahn wo in bärlin under die grafen und fürschten läbt ist kein ädles roß das sich beimt und ausschlahgt sontern ein schtieler ox wo seinen haksen hinhalt und sich beschlahgen last und bald er ein schlächtes hufeisen krigt mus er hienken haber derf nichd wiederschbenstig sein sonzt haud mahn ien mid der geißel ieber das fozmäul.</p>
+            <p rendition="#et">hochwierninge bardei und geischliche forgesäzte leuder disses ist war und mus beschtätigt wern bald mier es auch ins nichd <pb n="500" facs="#f0035"/>
+ankehnen lasen sontern im Folke ferbreiden das mir aus bolidik disse biersteier gemachd hawen, wodurch diser Krawahl gekohmen ist und disse refoluziohn gengen das bier und mid der limanahdi.</p>
+            <p rendition="#et">Indem mir bei dissem krigsrade sär betribt gewäsen sind und nichd gewißt hawen wie mir ins ferhalten sohlen und auch der bezirgsambman nichz gewust had, da ist dem keniglichen abgeorneten Glasl eingefahlen das mir fieleicht einen häktoliter oder zwei bezallen und bei dissem freibier wohlen wir das folk ieberreden. Haber der geischlinge Wirdendreger had gesagd mir missen in jädem dorf ein freibier gäben, sonzt ist es gans gefält und mir köhnen ja die koschten dem barlamänd aufbierden, wo es ja iemer genähmigt bald es fom zändrum ferlangt wierd. Disses hawen mir erkahnt und weil es zur belärung des folkes gehert hawen mir beschlosen das die koschten fier kirchen und schuhlangelägenheid ferechnet werden.</p>
+            <p rendition="#et">Leuder es ist aber anderst gegangen. Mir hawen in Sünzing angefangen und auch bekant geben das jeder bei disser fersammlung umsonzt drinken derf. Mir hawen gemeint bald disses bairische Folk wider ein bier schmäkt das es dan zurikkährt zur angeschtamten libe zum härscherhaus und die sozi und die limanadhi ferabscheit.</p>
+            <p rendition="#et">Disses ist auch eingetrofen fon drei ur bis um acht ur wo das freibier gedrunken wahr und hawen ahle leite ins zugehärt und inserne Worte behärzigd, indem mir sie aufgevordert hawen das sie in Dreie fest wider bier drinken.</p>
+            <p rendition="#et">Haber wie das freibier gahr ist gewäsen und mir geklaubt hawen, das sie es gewähnt siend, da ist ein ögonohm aufgestanden und had gesagd, das es jäz erst rächt bidder ist fier das Folk bald sie sechsazwanzg bfening zalln missen nachdem das sie umsonzt gedrunken haben und das der bayrische Löbe nichd zur dränke ziet bald er so fiel zallen mus.</p>
+            <p rendition="#et">Und er had gesagt durch dises bier wo sie jäzt gedrunken hawen krigen sie mohrgen in der friehe einen häftigen Durscht und da ist es erst rächt schmärzlich, bald sie ien nicht läschen köhnen. Und er had gesagt, das die zändrumsbardei ienen das baradiß gezeugt had durch disses bier wo nichz gekost hat, haber sie dierfen nichd hinein sontern missen sechsazwanzg bfening Eindrittsgäld zallen.</p>
+            <p rendition="#et">
+               <pb n="501" facs="#f0036"/>
+Und er had gesagt, disses hier ist der schpeck wo mahn damid meise fangt und es ist der judaßkus fon disser zändrumsbardei.</p>
+            <p rendition="#et">Da had der kenigliche Abgeornete Glasl geschriehen das disses eine frächheid ist bald mahn zuerscht ahles saufft und dan schimbft, haber da hawen ien schohn dise ferbländeten leite gebakt und auf seinen Gobf fiele maskriege zerschlahgen, bis das er ändlich genug gehabd had und ist hingefahlen, und dem keniglichen Abgeorneten Irzinger haben sie mid einem wagscheitel ieber den fotz geschlahgen und mid zaunlaten mishandelt was aber nichz gemachd häte bald keine negel darien gewäsen weren, haber es wahren negel darien und durch disse had er auf dem hinderkwartir file streiffen erlidden und auch der underfertigte, wo doch fieles gewohnt ist, had ein par solchene ieber seine nasse erhalden, das disses nassenbein gebrochen wahr auch mehrerne schläge mit einen bierschlägel auf das haubt, was aber plos forieber gähend war.</p>
+            <p rendition="#et">Hochwierninge Bardei auch Bresadent und geischliche forgesäzte, ich mus es mid schmärz beriechden das der geischliche wirdentreger hinder dem tisch herforgezohgen ist wohrden und ist so geschlahgen wohrden bis das einer geschriehen had jez köhnen es sechsazwanzg schöllen sein und da wahr sein hochwierniges Andlitz geschwohlen wie eine dambfnudl.</p>
+            <p rendition="#et">Disses it das ergäbnis inserner barlamändarischen misionsreiße und mus ich dadurch leuder beschtetigen, das die anhenglichkeit an das zändrum nichd mer so schtark ist und das drohn und althar undergrahben sind durch dissen aufrur mit limanahdi. Disses beschtetige ich auch fier die verläzten keniglichen Abgorneten und liegt auch eine rächnung fier zwei häktoliter und den Bahder und fier erlitenen dienztliche ferläzungen bei bedreff kirchen und schuhlangelägenheiten</p>
+            <p>fon eiern liben</p>
+            <p>Jozef Filser,</p>
+            <p>fier das zändrum mid glohrie beidelt und gfozt und bleubt aber in dreie fäst.</p>
+            <pb n="502" facs="#f0037"/>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e101089" type="chapter">
+            <head>An Hern Matias Glasel</head>
+            <p>Mingharting am 22. Aug. 1910</p>
+            <p>An Hern Matias Glasel,</p>
+            <p>keniglicher Abgeorneter in Eirasburg und Ögonohm daselbs</p>
+            <p>Liber Hisl</p>
+            <p rendition="#et">Intem das du durch deine wähe Hakse nichd mär am Barlamänzschlus dich bedeiligt gewäsen bist mus ich es schreim wie es wahr.</p>
+            <p rendition="#et">Inser Gozöberschter der Orderer had eine anschprache abgehalden, das man siecht, fier was mier disses jar in der schtadt sind gewäsen. Ich hab mich selm gewuhndert wie fiel mier fohlbracht hawen und einen solchenen hauffen arbeid gemachd und nichz geschpürt dafon. Wie ers aufzählt had, schaugt es schohn fiel aus und meunt mahn himmelsaggeramänd, und disse Abgeorneten sind sär fleußig. Mein liber Mentsch da mus mahn den unterschid fon der fleuschlichen arbeid und fon der geischtingen arbeid schpanen, intem das mahn es rechd gud weuß bald mahn sex Schtunden mähd hoder Woazen bind hoder auflahden mus und thut dirs kreiz wäh fom buken, haber fon der geischtingen arbeid mirkt mahn gar nichz, und nichd einmal im Gobfe, sontern bald es fohlendet ist und feuerabend, mus man es einem exdra sahgen, das es gahr ist und nichd weuter gäht.</p>
+            <p rendition="#et">Mier hawen einen gansen wahgen foler gesäze aufgelahden und bald es gedruckt ist, mus ein ox schohn scharff ziehgen, das ers ziehgt, haber mir hawen nichd dabei geschwiezt. Daturch erkehnt mahn die geischtinge arbeid.</p>
+            <p rendition="#et">Durch insern Orderer hawen mir fernohmen, das mier in dissem jar sind sär fleußig gewäsen und hawen auch einen großen sägen ferbreidet durch schteiern und abgahben und disses ist sär gut das mahn es sagt intem das inserne biffel ofd das gegendeil glauhben. Nach dissem lobe fier ins ist die breisferteulung fier die miniester und beahmten gewäsen und had sie der Orderer aufgeruhfen und sind sie dageschtanden fohler Dähmut, das sie es fernähmen.</p>
+            <p rendition="#et">Den erschten Breis hat sich erhalden und erwohrben Her Antohn Wähner, Minischter in Minken fier Kuhltur. Dersälbige had durch eine härliche Glosterzuchd sich dissen erschten breis <pb n="503" facs="#f0038"/>
+ferdient intem das er dreuhundert Glöster neu gezühgelt had und in der haubsache weubliches Bersonahl.</p>
+            <p rendition="#et">Er had zur anerkehnung seiner Glosterzuchd erhalden ein Diblohm fier sexjärigen Dienscht im Zendruhm mid belohbigung fon seinem fleuß, und seinem Habscheu gengen die Schuhle und die Schuhlehrer. Auch had ien der heulinger Fater und bapscht zun ährengabuziner ernahnt mid der Ferlaubnis zun baarfuß gähen. Auch hawen iem die neien frauenglöster midsamen einen Zändner nohnenfierze geschänkt und disses ist aber nichd was Du meinzt sontern was sießes zum frässen.</p>
+            <p rendition="#et">Auch hat er erhalden eine stähende Fahnen als gröster Glostererziecher. Durch disses ist er zufrieden und weuß auch, das mir ien behalden hobwohl jez in der kuhltur keine arbeid nichd zum ferrichten ist, und lasen mir ien zur aushielf was andernes thun.</p>
+            <p rendition="#et">Den zweiten breis had erhalden der miniester frauhendorpfer fon der Bosd und Eusenbahn durch sein besträben fier die wahlfarzorte, das man seine Sühnden leuchter hinbringen kahn und seine räusch leuchter herbringen kahn. Und had er als breis erhalden eine stähende fahne mid dem öhlgemalenen Gobfe des schuzbadrohns der bayrischen Eusenban, wo sich Pichler schreubt und bald auch der Gobf schüch ist und leuder gud getrofen, ist es doch bässer wie nichz.</p>
+            <p rendition="#et">Den dritten Breis had sich erhalden der bolizeibresadent fon Minken und ist dises ein Abziehgbild fon insern gozöbersten Orderer zum abschläggen.</p>
+            <p rendition="#et">Den fierten breis had erhalden der miniester Mültner fier die juschtiez fier disses, das mehrerne geischliche Hern nichd erwischd sind wohrden, sontern entrohnen.</p>
+            <p rendition="#et">Nach diser breisferteulung ist sich inser groskobfeter Orderer zu die minister hingegangen und had auch die ahndere, wo durchgefahlen siend, mit barmhärzigkeit behandelt, damit das sie mehrer eifer bekohmen, und er had ienen gesagd was sie jez fier aufgahben machen missen, bis die schuhl wieder anget und sohlen nichd fergässen, was sie in disser bäriohde gelärnt hawen.</p>
+            <p rendition="#et">Dan ist disse feuerlichkeit ausgewäsen und die miniester haben ihre zeignisse eingeschteckt und sind gangen. Ich klaube das sie anderst froh sind, das ienen das schräkliche auhge fon insern Orderer nichd mähr zuschaugt, den er schaugt sie an wie <pb n="504" facs="#f0039"/>
+die Katse einen Schtarl for sie ien friest. Die andern bedinten des barlamänz sind auch kohmen und haben abschid genohmen fon ins und leuder wahren keine bahdemätchen mehr dabei sontern mänliche und zwegen was weuß man nicht. Ob fieleicht wer in Fersuchung ist kohmen und welchener abgeornete eine solchene fleuscheslust besiezt, das er in waser auch keine ruh nichd giebd, disses ist ein Geheumnis, haber ich klaube, das es einer fom zelabad ist, den disse mentschen sind fiel hieziger als wie mir und mir geben im waser schon eine ruh.</p>
+            <p rendition="#et">Der Trostbärger Maxl had zu mier gesagd, das es fileichd deswägen ist, das kein geischtlinges mutermahl fon einem mätchen durch das schlisseloch gesähen wird und hinterher sagd sie fieleicht, sie had es wo anderst gesähen. Es ist ein unglick, das die geischlichen Härn gahr so fiel anfächtung erleuden und köhnen sie blos mär im finstern die Hosen umdrahn, den die kochenlärnerin und das basöl und die freilein kechin selbs schaugen zu gärne durch ein schlisseloch.</p>
+            <p rendition="#et">Der forsteher fon die abdrite had mier ein härzliches läbewohl gesagd, den mir kenen ins gut, und er had zu mier gesagd, bald mir wider kohmen krigen mir auch das nemlinge babier wie die groskopfeten fon inserner bardei, das disse schtandesunterschide verschwienden.</p>
+            <p rendition="#et">Der Orderer had es befohlen, das mir bauernmentschen ein andernes babier missen haben, als wie er und die forschtände, und disses ist häslich, das es sogahr bei dissem körperdeil, wo hir bedeiligt ist einen unterschid gibt.</p>
+            <p rendition="#et">Durch solchene sachen zweufelt ein brafer untertahn an seinem Drohn und Aldahr, intem das er es nichd begreufen kahn.</p>
+            <p rendition="#et">Mit dissem Gedangen bin ich fohl gewäsen und bin aus dem barlamänt hinaus und bei der Thiere had der bordiäh zu mier gesagd aufs widersähen machd freide und da hawe ich iem schnubfen lasen und hawe gefragd, was er jäz thut bald kein barlamänt nichd mer da ist. Aber er had gesagd, es giebt imer was zum arbeiden, indem das er dem Orderer seinen Belz einbfeffern mus, das keine schahben nichd hineinkohmen und ieberhaupts gät der Orderer sex mahl im Dag am barlamänt forbei, bald es auch geschlohsen ist, und da mus er iem jedesmahl begrießen und wegen dem get er forbei. Intem mier so dischgurirt haben, ist ein wahgen fohler biecher gekohmen <pb n="505" facs="#f0040"/>
+und sagd der bordiäh, disses sind eiere rehden, wo ier gehalten habz. Fon mier sind aber blos brafo darien und schahlende Heiderkeid und ein baar mahl sär riechtig, und fon dier ist auch nichz darien als wie Gereische des beifales hoder umgekärt.</p>
+            <p rendition="#et">Jez kohmen disse biecher auf eine biblatek und bleiben stähen, bis die meise sie frässen, oder fieleichd giebt es speter auch einen bresadenten, wie den Orderer, der wo eichene Abdrite fier die bauern wiel und giebt ienen disse biecher zum benietzen und disses ist die irdische Fergenglichkeid.</p>
+            <p rendition="#et">Ich hab mier gedenkt, ob nichd fiele Reden schohn an dissen ort gehären fors gehalden siend und dan bin ich auf die Eusenban, und bin luschtig heumgefaren.</p>
+            <p rendition="#et">Der Habern ist noch nichd gans herien gewäsen und hawe selm zugreifen missen und da habe ich gesähen, das ein fuder Habern mer blage ist zum auflahden als wie zähn monath barlamäntarisch sein.</p>
+            <p rendition="#et">Und ist aber auch niezlicher, intern das mir mid dem Habern die roß futhern können, und das, was ahles ist im barlamänt geredet wohrden, frässen blos die meise.</p>
+            <p rendition="#et">Und bei disser arbeid kahn man den Orderer nichd braugen.</p>
+            <p rendition="#et">Ich bien anderst froh, das ich in meinem schtalle herum gähen derf und da giebt es keine bresadenten und bald eine gloken läut ist es fon einer ku, die auf die waide get und friest und bald sie was fahlen last ist es auch ein miest, aber ein niezlicher und bässer, als wie der anderne, den wo mahn im barlamänt zusahmenredt und in die biecher trukt.</p>
+            <p rendition="#et">Hofendlich bist du auch gesund und wierd dein haksen bässer und sind mier wider nizliche mentschen und ögonohmen und bfeifen auf den Orderer. Es grießt dich</p>
+            <p>dein liber Kohlege</p>
+            <p>Jozef Filser.</p>
+            <pb n="506" facs="#f0041"/>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e101207" type="chapter">
+            <head>An Hern Sepastian Gneidl</head>
+            <p>An Hern Sepastian Gneidl,</p>
+            <p>Oegonohm und kenigl. Abgeorneter</p>
+            <p>in Sinzing Bosd daselbs</p>
+            <p>Mein liber Kolga und alder Schpezl dadurch das du nichd hir bist sontern daheim ins bet und dier ein schlächtes Blüt eingschosen ist wiel ich dir ahles berichden. Mir sind Gozeidank wider ahle beinand mit ausnam disser Volksmähner, wo geschtorm sind und for ahlem inser gelibte Fürstand Daler, der ins ahle rechd erbarmd nichd blos weil er had weg missen sontern auch zwegn die andern, wo auf seinen blaz sizen wohlen.</p>
+            <p rendition="#et">Mein liber Mentsch du glaubs nichd wie file disses wohlen und mit Herzn begern intem es die regirung fon bayern bedeitet, bald er auch kein Krohne nichd had.</p>
+            <p rendition="#et">Der erschte wo es wohlen had ist der Bichler haber weil ien keiner schmäken kan blos er selbs, ist er abgefarn und haben mir drei Anwärder auf disse stehle, wo mir noch nichd wisen den welchen mir agaschirn. Disses sind der heulige Alisi Frank fon der Eusenban und der Lärno und der freiberg wo gengen die fleuschliche Sinde den grösten foz had.</p>
+            <p rendition="#et">Der biderne Landmahn mag ahle nichd, hobwol sie ins rechd schmeigeln und auf der axel globfen und ein sißes Mäul haben.</p>
+            <p rendition="#et">Geschtern hat der heulige Alisi bei mir geschtanden und had gesagd wo der Nodschtand am gräßten ist das barlamend am nächschten und had auch gefragd nach mein Habr und Gerschte und hei und krumat und graudköpf und kardofin und had eine midleudige blätschen gemachd als wans mir ferhungern missen oder er selbs und ich hab ien getröst das es schon noch Kardofin gibd zum schweunern und Kraud und die Knädl waxn auch noch in der Schissel Gozeidank.</p>
+            <p rendition="#et">Mein liber Schpezl da must lachn wie die groskofeten jez wähleudig sind mit ins als wan mir blos säkleibn zun frässen haben und heischröcken wie die heuligen Abostl in der Wieste und ist ahles blos damit das der landmahn durch disse Drokenheid nichd sper wird gengen das zäntrum.</p>
+            <p rendition="#et">Liber Schpezl ich klaube das mir den heuligen Alisi zum Fürstand agaschirn, weul die andern auch nichd beser sind und aus bolidik gengen frauentorpfer, damid das sein Untergäbner sein fürgsezter wird und er aus gieft adjä sagd.</p>
+            <p rendition="#et">
+               <pb n="507" facs="#f0042"/>
+Ich weuß es nichd, was sie gengen dissen Eusenbanminischter fier einen Heindel habn und ist mir auch wurscht, bald es gengen einen Minischter get, freit es mich zwegen der Gaudi.</p>
+            <p rendition="#et">Sonzt weis ich keine bolidik nichd zum ferzälen als das in der Zeidung schtet, das mir in dissem Jar ganz wennig zun thun hawen und bald auseinand gehn misen. Disses klaube ich nichd indem ein wenig teug lang werd, bald man ien auseinander ziegt und rechd dinn machd und mier haben Gozeidank schon disse barlamendarier wo einen Dräg auseinand tretten könen. Gozeidank.</p>
+            <p rendition="#et">Du brauxt keine Angst nichd zum haben, das mir schnel ferdig wern und der Orderer hört nichd auf und er find schon eine arbet, bald auch keine mer da ist.</p>
+            <p rendition="#et">Liber freind jez mus ich dir noch schreim, das ich zun letzten mahl in barlamend bin, indem das ich eine feundschafd mit insern Bfarrer habe, haber nicht zwegen dem Bfarer selbs sontern seiner kächin und had er schon fon der kansel ferkünd, das ich kein Ferdrauen des gadollischen Folkes nichd mehr ferdiene. Auch hat inser Bfarer mir geschriem, das ich auf der schtele aufhörn mus und abdange und ich hab iem geschriem, das es draurig ist bald die Geischlichkeid fon einem kuchlmentsch komadirt wird und ich bin nichd so dum das ich mich zwegen einen solchen Weisbild in ein Maußloch ferschlife und bald er darin ist kahn ich nichz dafier.</p>
+            <p rendition="#et">Und zwegen seiner kächin bin ich nicht ins Barlamänd gangen und zwengen ier geh ich nichd herauß, sontern bleiwe keniglicher Abgeorneter und das näxte mahl schreiwe ich dier warum das ich auf einmahl nichd mer gadollisch sein mus. Da baß auf!</p>
+            <p rendition="#et">Es grießt dich</p>
+            <p>Dein liber Freind</p>
+            <p>Jozef Filser</p>
+            <pb n="508" facs="#f0043"/>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e101282" type="chapter">
+            <head>An Hern Sepastian Gneidl [1]</head>
+            <p>An Hern Sepastian Gneidl</p>
+            <p>kenigl. Abgeorneter im uhrlaub</p>
+            <p>in Sinzing, bosd daselbs.</p>
+            <p>Mein liber freind jez mus ich dir bekehnen und schreim wegn was ich kein richdiger Kadolik nichd mer bin und keine ziehrde des zändrum.</p>
+            <p rendition="#et">Du kanzt dier schon einbildn das es eine weisbildergeschicht ist, den durch disses Folk ist ja seid anbegien der weld keine ruhe nichd und bald du meinzt du hast deine gribige ruhe ist schon der teifl loß.</p>
+            <p rendition="#et">Mier mähner läben in friden zusahmen und wohlen terokn und kegl scheibn zusahmen und frelich sein und bald mahn einmahl erziernt ist gegen einahnder sotan fozen mir ins ein pißchen und siend aber wieder gud und frelich zusahmen. Aber disse weisbilder sind bisige hund, die wahn sie einmahl zusamen gerauft ham, einander iemer die zehne flätschen und knuren und gibt es keine fersänung nichd mer.</p>
+            <p rendition="#et">Es falt einer jeden ein das sie ist gebisen worn und wider beisen mus.</p>
+            <p rendition="#et">Mein liber Mentsch ich wiel es dir bekehnen das meine bäurin mit der bfarerkechin in krieg ist wegn nichz, als weil sie ir mäul nichd halden kenen. Auf Georgi ham mir ein neien kobrater krigt mit nahmens Alisius Fetter wo aber kein fetter nichd wahr sontern ein zaundirrer wie er zu ins gekohmen ist und heußt mahn ien den kreuselten Alisi indem das er kreuselte har had wie ein budel.</p>
+            <p rendition="#et">For er zu ins gekohmen ist had er ein baar hungersnöth und Teierung midgemachd und die siben magern jar in Egibtien, den so wi der had fresen känen das glaubzt du nichd und ein läberkas so gros wie ein zigelstein had er unterm gebedleiten schnabalirt.</p>
+            <p rendition="#et">Aber nach sex wochn had er schon angesezt, das mahn sich wundern mus, indem das mahn sich als ögonohm doch auskehnt und futert mahn in sex wochn nichd leichd so fil hin wie an den kreiselten Alies.</p>
+            <p rendition="#et">Bald es iemer so anschlahgen wierde, dan wär die landwirdschaft ein gutes gescheft und disses had auch ein jäder mentsch in Mingharding gesagd, und bald der kreuselte Alisi ieber die <pb n="509" facs="#f0044"/>
+straß gangen ist, habn die leite iem nachgeschaugt und geschäzt das er wider eunige bfund mehrer had.</p>
+            <p rendition="#et">Der bosdhalder had es ins ferathen, das die bfarerkächin dreu bfund fleusch mer hohlen last im Tag und die Staldirn sagd, das die henen zwei lecher braucheten zun eiherlegn und wär noch zu wenich.</p>
+            <p rendition="#et">Dadurch fragd mahn waruhm? Aber mir mansbielder habn stiel darieber geredet und einahnder angestößen und gelachd.</p>
+            <p rendition="#et">Aber die weißbilder kehnen es nicht halden und durch disses sagt meine bäurin zu der Obesser Kathl, wo bei ins auf der ster naht, das inser bfarhof ein guther Stall ist fier einen Kobrater zum feth machen und fieleichd ist es aber nicht guth balt mahn einen geischlingen Hern so hiezig futhert und ob fileicht die bfarerkächin foler kristlicher libe ist zu insern kreisleten Alisi, das sie ien gar so einhabert.</p>
+            <p rendition="#et">Disses ist gewäsen an einen Donerschtag und an Suntag ist die bfahrerkechin bei der kierchenthiere geschtanden und had rechd laut gesagt wie meine ahlte forbei ist da geht das abscheilinge Stuk der mahn die Zung mid gliehenden Eusen brehnen mus und den kreisleten Alisi had die brädigt trofen, und er sagd auf der kansel, das es in mingharding schlangen giebd die wo gifftiger sind als wi di kreizodern den si schtechen fon hinden und sie schtechen die brister des härn.</p>
+            <p rendition="#et">Und bei dissen wohrten had er sich umdrat und meine bäurin so deitlich angeschaugt, das es ahle gemärkt ham und ich auch.</p>
+            <p rendition="#et">Mein liber Mentsch jez kanzt dir dengen wie es bei mir daheim zugangen ist und wie meine ahlte die schisseln herumgeschmiesen hat und da ist auch schohn der befell aus dem bfarhof kohmen ich mus auf der schtelle hinein und ich bin hinein.</p>
+            <p rendition="#et">Wie mir die magd aufmachd schebbert es auch in disser kuchl und es schreut wer, das der geschärte hamel seine stifl abbuzen mus und disses wahr die kechin.</p>
+            <p rendition="#et">Und der bfahrer had gebrillt, ich mus auf der schtelle abgangen oder ich mus die bäurin briengen das sie kniefehlig um ferzeiung fläth bei der kechin. Ich habe gesagd das ich nicht abdange indem das ich nichd der Abgeornete fon seiner kechin bien sontern fon insern wallgreis und bald er wiel das die zwei weißbilder zusahmen kohmen sol er es brobirn, und ich mag nichd den das meine bäurin hinkniegelt klaube ich nichd aber <pb n="510" facs="#f0045"/>
+das seine kechin iere hahre ferlirt klaube ich und bald sich zwei beußen wolen mus mahn sie anhengen aber nichd zusahmen lasen.</p>
+            <p rendition="#et">Da had er gesagt er kent mich jez und ich bien auch ein gifftiges Gewierm dem wo er auf den kobf tretten wiel wie der heulige Aerzengel dem Trachen und da habe ich gesagd, er sol seinen Trachen einen mäukorb anhengen bald er schon so dapfer ist und mid einen Trachen kembfen wiel und dan bin ich ford.</p>
+            <p rendition="#et">Liber Schpezl jez had er ein rähligionskrig gegn mich angefangn und der kreislete Alisi hielft iem dabei und aus den kadollischen Burschnferein hawen sie mich hinaus geschtossen durch einen brif, wo es heußt, das ich als schlächter son inserner Muther kirche befundn gewohrden bien, und an ahle Geischlingen fon insern bezierk had er geschriem, das mahn sich mid habscheu fon mier wänden mus. Der Gabidlforstand Angerer fon Zillhofen had mier dissen brif selm gezeigd und had gefragd mein liber sohn fragd er, was habens den gethan? Und ich erzels iem und er sagd, ja mein liber son, disses ist eine sähr schlieme Geschichte fier dich, den der kleibige Krischt mus iemer und iberahl den Gehorsam bezeugen gengen die geischlinge Obrikeit, und hawe ich gefragd, ob auch die kechin dabei ist und sagd er jawoll, indem sie ein glid des bfarhaußes ist und gewiesermasen der geischlingen familli. Und da hab ich gesagd, das ich insern bfahrer ofd ein Mietel ferraden hawe damid das der freilein kechin ier grobf ferget, das sie ien mid hundsschmaltz einreubt oder ein keischer Jüngling mit Kazendräg auf den nahbel und da wahr ich ein guther Kadollik durch disses.</p>
+            <p rendition="#et">Aber jez mus es filleicht der kreislete Alisi ferichten und ich bien in ungnad gefahlen hobwol ich gahr nichz gesag habe sontern die bäurin.</p>
+            <p rendition="#et">Da had er gesagd selbzt wahn einer klaubt, das iem unrechd geschiecht fon der kierche mus er es als liebreuche briefung hinnähmen und seinen bfahrer dankbahr sein.</p>
+            <p rendition="#et">Liber Schpezl da kanzt nichz machen, den sie haken einahnder nichd die Augen aus.</p>
+            <p rendition="#et">Jez bien ich froh, das ich in Minchen bien und disse geischlinge familli nichd mer anschaugen mus, den Schanderl und seine grobfete kechin und sein kreisleten Alisi.</p>
+            <pb n="511" facs="#f0046"/>
+            <p rendition="#et">Hier ist es eine grose Gaudi im barlamend und had jez ein dapferner Mahn der minister einen esel geheußen woriber mir ins ahle sär gefreit hawen, das beim zändrum disse dapferkeid härrscht. In Gasino war ieber dissen siehg ein freidenmahl mit spansäu und merzenbier und hawen mir dissen Held iber sein groses fozmäu gradaliert.</p>
+            <p rendition="#et">Nach die spansäu wahr eine geheume siezung, wo ausgemachd wohrden ist, das bein näxtenmal ein zändrumsmahn den minister auf die kierchweuh lahden mus und diser Held, wo disses folbringt mus erscht durch das los beschtimt werden.</p>
+            <p rendition="#et">Bis jez haben sich fürzehn gemäldet, wo es sahgen wohlen, es derf aber blos einer.</p>
+            <p rendition="#et">Liber wastl sohl ich dich auch anmehlden, fier den Fahl das dein haxen wieder guth ist köntest du es schohn machen, bal du das los gewienst und köntest auf disse weuse auch einmahl eine red halden, das dein wallgreis eine freide had und deine fehigkeiden siecht. Ich habe mich auch gemeldet und freie mich, bald ich iem auf die Kirchweuh laden derf.</p>
+            <p rendition="#et">Aber du hasd einen schwahger, der geischtlich ist und fieleicht hast du durch disses eine Fiersprache und derfst ohne loos.</p>
+            <p rendition="#et">Dir ferguhne ich es haber sonzt keinen. Leuder had inser held seine esel zurikgenohmen zum scheune, aber die kierchweuh nemen mier nichd zurik; disses ist beschlosen.</p>
+            <p rendition="#et">Mein liber Mentsch, jez mus ich aufhörn; kohme bald und wehrde gesund, das du deine ährenpflicht erfielen kanst gengen die ministr, und iebe dich zu hauße ein und lade ahle auf die kirchweuh, so wie ich bien</p>
+            <p>Dein liber freind</p>
+            <p>Jozef Filser.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e101411" type="chapter">
+            <head>Mähklage über das aufgläste barlahmend</head>
+            <p>Auwä zwik! Wer häz denkt indem das mier so freidig zun Oktohberfescht das barlamend eräfnet ham das mir schon auf mardini heim missen? Auwä!</p>
+            <p rendition="#et">Jez is gahr mit insern griebigen Tahrok und kenz eich dengen mit wälchen Gefiehlen das ich heum kohmen bien und sagd <pb n="512" facs="#f0047"/>
+meine bäurin zu mier, Gozeidank das da bischt Jozef, jez kanzt du ohdel farren und mischt farren und ist gescheiter als wie das du bein mischt räden dabei bist.</p>
+            <p rendition="#et">Meine liben leit, den fürzenten nofember bin ich aufgläst worn und an sächzenten bien ich schon parfießig auf mein mischthauffen geschtandn und hawe foler wämuth gedenkt, bald du jez nicht aufgläst warst nacher warstu nichd auf ein mischthauffen sondern in der Prahnerschtrase und nacher stand ich nichd neben ein saubärn und der loaß sontern nebn insern hochwiern hern Piechler und die andern grosen mähner fon bayern. Meine liben leite, disses schmärzt aber sär heftig, bald mahn es riechdig betrachd. Z Mingharding hawen disse unferschemten mentschen eine grose schadnfreide und spoth bewissen und indem das ich geschtern auf die bosd gangen bien, damid das ich jez schon das Folg aufklehre ist der sixnsimmerl bein tiesche hiebei gesäsen und had mich ausgsungen,</p>
+            <p>hams kammer auskiehrt</p>
+            <p>Und de gschehrten naus gspiert?</p>
+            <p>Mögst gern wieda nei?</p>
+            <p>Werd aba kam aso sei.</p>
+            <p>Und der schusterwaschtel had gesungen.</p>
+            <p>Wer häzi dös denkt,</p>
+            <p>Abar ös seiz jezt gschlenkt</p>
+            <p>Wer hät dös fermoant</p>
+            <p>Abar enk hams higloant</p>
+            <p>Ud aa wi d leit sagn</p>
+            <p>Enker fozen hergschlagn.</p>
+            <p>Durch disses bien ich erziernt gewohrden und sahge ich du spineder afe bald ich und die minischter mizamen schtreiten ist es bolidisch und braugen mir keinen sollchen dazu und bei inserner bardei braugen mir kein hanswurschtn. Mir sind ins selbs genug. Und da sagd aber der bosdhalter zu mier, mein liber Jozef sagd er, du bist jez kein stazmentsch nichd mer sontern ein brifatmentsch sagd er und folge dessn sagt er derfst dein fozmäul nichd mer so weid aufreisen sagd er und sinscht mus ich es machn wie inserne regirung und mus dich hinausschmaisen, haber sagd er du weist es schohn liber Jozef bei ins einfache bauernmentschen sagd er ist es anderst als wie bein minischter bodelwies sagd er der wo blos die Thier aufmacht,<pb n="513" facs="#f0048"/>
+ sontern mir backen dich bein Gnack sagt er und schlahgen dir die baterie her und las es liber gud sein sagd er, weil du ein brifatmentsch bist.</p>
+            <p rendition="#et">Durch disses hawe ich gleich bemergt wie schnel oft die mentschliche Gröse ferschwiendet und das ich jez bloß mer meinesglaichen bien.</p>
+            <p rendition="#et">Disses schmärzt ser häftig.</p>
+            <p rendition="#et">Wer ist schuhld daran das mier jez auf dem mischthauffen sich befiendlich sind?</p>
+            <p rendition="#et">Zuerscht ist der Piechler schuhld.</p>
+            <p rendition="#et">libe leite, es gibd file die wo klauben mir sind bein Zändrum die briederlein wo einahnder liben.</p>
+            <p rendition="#et">Disses ist falsch, den bein Zändrum kenen mier file einander nichd schmeggen, und sind häslich auf einahnder und drat sich der mahgen um.</p>
+            <p rendition="#et">Disses ist aber bloß nach ienen, und nach ausen sind mier der schtarke Tuhrm.</p>
+            <p rendition="#et">libe leite, durch disse feschtigkeit ist aber das unglick herbei gekohmen und bien auf den mischthauffen gewahndert.</p>
+            <p rendition="#et">Was get es ins an bald der Piechler mit sein alten schpezi und Eusenbanminischter sich zerkrigt?</p>
+            <p rendition="#et">Gar nichz get es ins an.</p>
+            <p rendition="#et">bis zun fürzenten bien ich fohler freide und schnakelfidöll gewäsen und hawe geklaubt, es get so weider das mahn sein gäld einschibt und sich die fieße wahrmt in siezungssahl und hernach sein Haferltarogg machd oder ein blokahde. Auf einmahl kohmt eine brozäsiohn fon lauter minischter in den siezungssahl und der bodewiesl lest was for und ich denge mier gahr nichz dabei als wie fon mier aus. Und da stößt mich der Eusenberger an und sagd, mier missen jez gähen und mier sind aufgläst.</p>
+            <p rendition="#et">Was bien ich? hawe ich gefragd.</p>
+            <p rendition="#et">liber Jozef sagd er du bist aufgläst und leuder sagd er ich auch.</p>
+            <p rendition="#et">Ja hergozapperamend sahge ich, da geschpühre ich aber nichz, das ich aufgläst bien. Was heist den disses sahge ich.</p>
+            <p rendition="#et">Das mir aussi missen und scheiden fon disser Schtätte inserner würgsamkeid, sagd der Eusenberger und da hawen die sotsi und lieberahlen brafo geschriehen und inser bresadent Orderer <pb n="514" facs="#f0049"/>
+had seine Zehne geflätscht. Jez had es mier gekraust und ich schpahne was, das es aus is und gahr is und ich mus in die Heumath zühen.</p>
+            <p rendition="#et">Da bien ich zu insern hochmächdigen bresadent Orderer hingegangen und hawe ien bein ermel gezubft.</p>
+            <p rendition="#et">Er isd aber sär wield gewäsen und schprichd mid schtarker Stieme was wohlen si?</p>
+            <p rendition="#et">Enschuldingen sahge ich ist es war sag ich das ich aufgläst bien?</p>
+            <p rendition="#et">Machen si das si hinwäg kohmen brillte er und schaugte mich an das es mier schlächt wohrn ist wie einen künihasen den wo eine klabberschlange anschaugt.</p>
+            <p rendition="#et">Aber ich hawe mir gedenkt ich mus es doch wiesen zwegen was ich in die heumath zühe und ich hawe ien noch einmahl gezubft.</p>
+            <p rendition="#et">Da had er mid dem fuse geschtampft und had gebrillt was wohlen si noch iemer?</p>
+            <p rendition="#et">Enschuldingen sage ich, blos das ich es weis sahge ich ob ich aufgläst bien.</p>
+            <p rendition="#et">Er had seine zehne hergezeugt wie ein dakel dem wo mahn sein Gnochen wegnähmen wiel und had geruhfen ob ich wiel das er mich durch ein Hausdiner entfärnt und had geruhfen hinwäg hinab hinwäg.</p>
+            <p rendition="#et">Da bien ich zun Piechler hingangen und frahge ien das nemlige.</p>
+            <p rendition="#et">Er had mir gahr keine andwort nichd gäben sontern had sich umdrat.</p>
+            <p rendition="#et">Und da hawe ich gahr nichd mer gewißt, wie ich darahn bien und da get der her folmahr bei mier forbei und er ist freulich ein sozaldemagrat aber ein mahn des Folkes und ich frahge ien enschuldingen her folmahr ist disses war das ich aufgläst bien.</p>
+            <p rendition="#et">Er had ganz gudmietig gelachd und sagd ja freulich sagd er, mein liber kolehge, mir sind ahle aufgläst.</p>
+            <p rendition="#et">Ja zwegen was frahge ich, intem das doch mier kein krig nichd ham wehrden als wie die Italähner und Tirkeln?</p>
+            <p rendition="#et">Ein krieg hawen mir schohn sagd er zwischen ienen und das minischteri.</p>
+            <p rendition="#et">Zwegen was frahge ich.</p>
+            <p rendition="#et">
+               <pb n="515" facs="#f0050"/>
+Ja sagd der her folmahr und lachd, disses sagd er wissen sie ja beser als wie ich und dan ist er gangen.</p>
+            <p rendition="#et">Aber durch meinen schpezi den Gneidl Sepastiahn bin ich es iene wohrn, waruhm das mir insern schenen Aufendhald in Minken ferliehren und die dihäden zum tarogen.</p>
+            <p rendition="#et">Bis zun fürzenten nofember ist das ganse minischteri auf den bfif gangen und wahr folksahm haber inserne Groskobfeten hawen die fienger nichd mehr aus der fozen gepracht und grad gebfiefen und herein geschriehen. Da siend die minischter handscheih gewohrden und intem das auf die lezt eihner ienen geschimbfd had, ist disses dem minischteri auffählig wohrn, das der lakel aleweihl frächer werd, bald mahn iems hingähen last. Da ist insern groskobfeten eingefahlen, das sie es missen brobiehren, wie fil frächheid in einen minischter hinein get. libe leite, disses weis jäder das bald ein Maskrug fohl ist nichz mer hineihnget, und in den minischter ist auch nichz mer hineingangen, sontern er wahr schon fohl. libe leite, balt mahn ein bar schtarke oxen for einen wahgen schpant, ziehgen sie ien und inser zändrum had den Stazwahgen gezohgen.</p>
+            <p rendition="#et">Aber durch disses bald die oxen auf ein hinternis kohmen und mergen es nichd sontern ziehgen noch schterker an brichd fileichd die Deixel und es ist gahr und mier hawwen auch gemeunt es mus ahles gehen und ist ins die Deixel zerbrogen.</p>
+            <p rendition="#et">Jez stät der Stazwagn da und die oxen stähen auch da. Und wer weuß es ob mir noch einmahl eingeschpant wern.</p>
+            <p rendition="#et">libe leite ich mus eich erzäln wie es einmahl bei ins zugangen ist in Mingharting bein bristerjubaleum fon insern bfahrer.</p>
+            <p rendition="#et">Und da had der schmid kohrbinian ein feierwerg machen wohlen damid das es rechd schen werd und recht schnalt.</p>
+            <p rendition="#et">Zuerst ist es gud gangen, haber da zind der kohrbini einen rakhäten an und gät aber arschling hinauß und ferbrent iem die fozzen und farrt der wierthsleni unter die rökhe und waß es da ahles ferbrent had weuß ich nicht zwegen der schahmhaftikeid. Meine liben Leit gerahde so ist es ins gangen.</p>
+            <p rendition="#et">Der Piechler und der grosmaulede Oßwald haben auch ein feierwerg anziehnden wohlen zu ähren fom zändrum, haber die greste rakhäten ist ienen auch arschling hinauß und had ins ahle mizamen ferläzt, das mier mid der ferbrenten fozen dastähen und schaugen wie die schwaiberln.</p>
+            <p rendition="#et">
+               <pb n="516" facs="#f0051"/>
+Disses gift mich am irgsten das es in der zeidung stät, das mir alesam ins bedeiligt gewäsen siend wo disses beschlosen wohrden ist. Disses ist nichd war.</p>
+            <p rendition="#et">Ins biderne ögonohmen ham die groskobfeten ieberaus nichd gefragd indem das sie ins ja nie frahgen.</p>
+            <p rendition="#et">Mier hawen in der sälbigen Zeid terokt und der gnaidl had noch gesagd, basts auf sagd er und ich hab was leiten hörn, das eine siezung ist gengen das minischteri und ich hawe gesagd disses ist mir wurscht und mach ein mahl das du gibzt und bald du wider die Härzas hinunder miescht mus ich dich rechd herschlahgen und er sagd wo hawe ich die härzas hinunder gemiescht und ich sahge thu dich nichd ferstehlen du hunzheiterner Hamöl du habscheilinger und ich weis es schohn waruhm das du zun erzehlen anfanxt fon der siezung und der bolidik damid das mier nichd aufbassen auf dein mieschen mein liber.</p>
+            <p rendition="#et">Disses wahr ales was mier gesprogen hawen inbedräf der bolidik und jez stät es ieberahl das mier ahle mizamen in dreie fest gengen das minischteri ins befiendlich gewäsen sind.</p>
+            <p rendition="#et">Der asam simmerl wo nichd bei ins gewäsen ist sontern im Gasino had bei der siezung dabei sein wohlen aber sie hawen ien nichd hineun gelasen sontern bald er den schedler fragd was habz den heite sagd er nichz fier dich und haud iem die Thiere for der nassen zu und dann ist noch ein kadoliek fon der bost und Eusenban kohmen, den had er auch gefragd, fier was da eine siezung ist und waruhm das er als zändrumzmitglid nichd dabei sein derf.</p>
+            <p rendition="#et">Weils dich einen Dräg anget had disser bostbeahmte gesagd und weuß mahn schon wie grohb disse mentschen siend indem sie es hinder die schahlter nichd anderst lärnen. Aber jäz gez ins schon was an indem das mier aufgläst siend und inserne Dihäden farren lasen missen.</p>
+            <p rendition="#et">Meine liben Leite ich lase schon ofd was farren haber disses ist doch zu fil, das mahn seine bension ferliert fier ein ganses jar.</p>
+            <p rendition="#et">Fier was siend mier den die abgeorneten des bayrischen faderlandes?</p>
+            <p rendition="#et">Zuerscht wie der rägensburger seine äsel had danzen lasen wahr ahles fohler Freide und ein geischlinger her fon der Oberbfals had gesagd, jez mus es noch gröhber komen und ein tichtiger <pb n="517" facs="#f0052"/>
+landmahn mus den Bodewiesl das bekannte wo mahn nichd schreihben derf andragen und erscht dan ist die härlichkeid der bardei folstendig.</p>
+            <p rendition="#et">Da haben sie ins geschmeigelt das mier es sahgen und mier häten zu ähren insernes Faderlandes disses schon folbracht, haber auf einmahl ist es nichz mer gewäsen.</p>
+            <p rendition="#et">Im Gegendeil bald mahn es riechtig betracht had es jez das minischteri ins angedragen und bald ich nichd aufgläst wär gewohrden und meine dihäden nichd gabut wern häz mich narisch gefreit das es das minischteri insern groskobfeten kreizweuse andragen hat. Ich häzi auch schon daruhm bitt.</p>
+            <p rendition="#et">Meine liben leit wie ich aus der kahmer hinauß hab wohlen und fohler schmärzen wahr ist ein Haußdiner zu mier her der pauli heußt und sagd zu mier Jozef sagd er maxt noch einmahl schnubfen? Und hald mier seine Dusen hien und ich nähm ein bris und dischkariere mit iem. Bauli sag ich jez is gfeit, wer weuß ob mir ins widersähgen und er sagd Jozef sagd er es seiz schäne rindfiecher das ier in winther das gwardir aufgebz. Mein liber bauli sag ich fier so thum must du mich nichd anschaugen das ich freuwielig gäh. Häzt hald gredt sagd er und die ahndern wo in der Schtadt bleiben wohlen und häz eich nichz gefahlen lasen. Bauli sag ich disses ferstähst du zu wänig indem das mier ahrme bauernmentschen in den Tuhrm des Zändrums eingespiert sind und inser Gefengnisdirektar ist der Orderer fon dem mahn eine erlaubnis hawen mus bald mahn ins freie gähen wiel. Auwäh sagd er da mächte ich nichd bei enk sein und ich sahge, ich bien ja auch plos zwegen der ferbflägung dabei gewäsen. Jozef sagd er schnubfe noch einmahl zun abschid und bald du widerkomst bringe mier auch ein gesälchtes mid.</p>
+            <p rendition="#et">Da ist ein mahn bei ins forbei gegangen und der had so geknurd wie er forbei ist und ich hawe ien aber nichd gekent und ist mier aber schon das knuhren bekant gewäsen. Der bauli stößt mich ahn und sagd hergozakerament schauge dissen mahn an disses ist ja der Orderer. Da ist mier ein liecht aufgangen weul er ja imer knuhrt bald er mich sieht und ich hawe ihn bedracht. Er had sich geschwiend sein barth rassieren lasen und is gans glat gewäsen wie ein benefiziad oder ein geischlinger här oder wie eine gerubfte hänne und er had eine plaue briehle aufgehabt und seinen belz had er nichd gehabd sontern ein <pb n="518" facs="#f0053"/>
+hafelog und kein Ziliender nichd sontern eine sporzhauben damid das ien nimand nichd kähnt und das folk fileicht iem zun abschid eine feschtlichkeid gibt und den ziliender eindreibt oder seinen belz mit Drägbatzen anschmaist.</p>
+            <p rendition="#et">Meine liben leit ich hab iem zugeschaugt wie er hinauß ist aber nichd wie sonzt wo er den Gobf häbt wie ein Gokhel sontern er ist hinauß wie ein rentahmtsbothe oder ein adfikatenschreuber wo im nexten haußgang fileicht sein radl eingeschtelt had und er war gans klein und gahr nichd mehr grosmechdig.</p>
+            <p rendition="#et">Meine liben leite disses ist die bolidik fon die Groskobfeten das der geischlinge Wierdendräger bein landtag hinausgeschmiesen ist wohrden und der bresadent mus mid einer plauen briele fortschleigen und der biderne oegonohm ferlirt seine dihäden und mus auf dem misthauffen stähen. Disses ist das resuldath fon ierer gescheidheid und so kenens mier auch bald mier auch keine ladeinische fozen hawen und bald mir auch nichz gelärnt hawen wie läsen und schreim haber das rächnen hawen mir auch gelärnt und häten es nichd so thum gemachd das die Dihäden hin siend.</p>
+            <p rendition="#et">Disse groskobfeten kenen mich auch und nichd blos das minischteri.</p>
+            <p rendition="#et">Jez is gahr mid dem regirn und dihäden einschiben und mier missen ahle wieder da schtähen mid dem hude in der hand und betheln das mir gewält wern.</p>
+            <p rendition="#et">Aber fileichd kohme ich wider hinein und fileichd derf sich der Orderer wider sein barth waxen lasen. Adjäh! Läbe woll auff widersähn machd freide! Adjäh!</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e101670" type="chapter">
+            <head>An das heulige Ohrdenariath</head>
+            <p>An das heulige Ohrdenariath</p>
+            <p>zu händen fon insern heuligen Vather</p>
+            <p>und Aerzbischopf.</p>
+            <p>Minchen bosd daselbs</p>
+            <p>Aigene Angelägenheid des Emfängers.</p>
+            <p>Taminus fobißkum!</p>
+            <p>haläluha sägulo sekalorum!</p>
+            <p>heulig! heulig! heulig!</p>
+            <p>
+               <pb n="519" facs="#f0054"/>
+Alerhochwirningster her ärzbischopf durch disses mus ich ienen aigenhendig schreim und meine schtime zu ienen erhäben bald es auch hoch hinauf get, aber indem mir mid insern Hergoth reden missen, klaube ich das mir mid insern ärzbischopf auch reden derfen.</p>
+            <p rendition="#et">Und bald mahn eine klahge had gegen den knächt get mahn zu seinen härn und durch disses gehe ich zu ienen zwegen insern bfahrer und sählenhirth. Disser Man heußt Emerahn Schanderl und ist bfahrer fon Mingharding zeid fürzen jahre und zuerscht hanzam und riechtig auch foler Dämuth und krischtlicher bekäntnis und iberhaubz so das iem der bapscht ein guthes zeigniß gäben mus und mir auch.</p>
+            <p rendition="#et">Mid der fozzen had er nichd gud füri gekont indem das er so hard schnaubfen mus dadurch das er drithalbe zänthner wägt und fiel späk am halße sich besiezt.</p>
+            <p rendition="#et">Aber disses machd nichz und freit ins sähr bald die brädigd kurtz ist und mir wahren zufriden mit dissem sählenhirth und hawen auch nichd gemuhrt, das er beim beichden eine sär schtarke ausdienstung fon sich geben had, sontern mir wahren zufriden und kristliche schahfe wo sich gern schären lasen.</p>
+            <p rendition="#et">Alerhochwirningster her ärzbischopf und jez mus ich noch beriechden das er eine kächin bei iem had mid namens Emeränsia Schleibinger und auch ein schtarkes weißbild, wo mid iem schon bald die fimbf zänthner fohl machd und auch einen krobf besiezt der wo so groß ist wie ein fohler tabakhbeidel. Fier dissen krobf hawe ich file Mithel gewißt und angäben das er fergät, haber er ist nichd fergangen sontern noch forhanten und fileichd ist sie desweng häßlich auf mich und auch noch sonzt wägen was. Indem das mir einen kohbrater hawen wo sich alisius schreubt und mahn heußt ien den greisleten alisi wengen die hahre wo greislet sind als wie auf dem pukel fon einen schafbokh.</p>
+            <p rendition="#et">Alerhochwirnigster her ärzbischopf jez kohmt es.</p>
+            <p rendition="#et">Disser alisi und die Emeränsia hawen einen krig mid meiner bäuhrin angefangen und missen sie nichd klauben, das ich ahles lobe was sie had sontern ich weiß schon das sie die krankheid fon ahle weißbilder had und beußt und knuhrt und eine abscheilinge drägschleidern besiezt bald sie mahg haber durch disses mus ich bemergen das sie rechd had indem das sie behaupt <pb n="520" facs="#f0055"/>
+das der greislete alisi nichd umsinscht fon disser bfahrerkechin so fiel fleusch zun frässen krigt sontern mahn weis schon wahrum.</p>
+            <p rendition="#et">Inser hochwierninger her bfahrer weis es nichd sinzt mechte er schon wie ein alder gohkel den jungen ferdreiben, aber er hilft zu disser Emeränsia und had mich fier einen schlächten kadollikhen ausgäben, weil es die freilein kechin befollen had.</p>
+            <p rendition="#et">Indem ich aber kristgadollischer abgeorneter gewest bien und jez leuder aufgläst hawe ich fier inserne heulige muther kirche eine wallfersammlung folbracht in Sünsing wo eine stunde fon mingharding ist beim rapenwirth, wo mich ersuchd had das mier was thun fier insern Glaubn und das sein biehr auch getrunkhen wird.</p>
+            <p rendition="#et">bei disser Fersammlung ist auf ainmahl inser her bfahrer erschinen gewäsen und bald er auch sonzt wegen seinen schnaubfen nichd brädigen kahn, had er bei disser fersammlung sähr häßlich gesprogen fon mier und had gesagd das er ein andern mentschen fier dissen wallgreis bestiemt, ein mentschen sagd er der wo kadollisch ist had er gesagd ein mentschen der wo ferstand had sagd er ein mentschen der wo sein härz fohler liebe had fier bayern und fier den Bapscht, sagd er und disses ist der greislete Alisi.</p>
+            <p rendition="#et">Alerhochwierningster här ärzbischopf, disses ist eine häsliche boßheid auf mich, indem das ich schon fiel gäld ferspilt hawe dadurch das mir aufgläst sind und jez wiel der her bfahrer mich gans hinaußschmeisen aus den barlahmend.</p>
+            <p rendition="#et">Da bien ich aufgestahnden und hawe gesagd gelibte zuhärer und meine härrn sag ich bald inser lübreicher Her bfahrer auch ein hirth ist sag ich, sind mier desweng nichd lauder schahfe hawe ich gesagd, aber mier sind schahfe bald mier dissen greisleten alisi wälen, der wo erscht zu ins herein geschmäkt had und sag ich for ein halben jar had er noch kein andern abädid nichd gehabd als wie auf ein schweunernes mid graud oder schmaltznudln und jez sag ich häthe er abadid auf das barlahmend und dihäden aber da mus er sich das mäu abwieschen sag ich den mir brauchen ein mentschen wo die nodleidende landwierthschaft kent sag ich, ein mentschen der wo ein schönen breis fier die millch heraußschlagt ein mentschen der wo den fiehbreis nichd herunder kohmen last und disser alisi hawe ich <pb n="521" facs="#f0056"/>
+gesagd weuß nichz fon insern haußthieren als das mahn sie frässen kahn sag ich.</p>
+            <p rendition="#et">Gelibte sag ich, disser mentsch bien ich und bleiwe ich und gadollisch bien ich auch, indem ich fier disses mein tauffzeignis aufweißen kahn, haber sag ich mein zeignis ist fon einen bfahrer unterschriem und nichd fon einer bfahrerkechin.</p>
+            <p rendition="#et">Alerhochwirningster här ärzbischopf jez mus ich es leuder beriechten das ier knächt wo inser sählenhirth ist, sich fier einen haußknächt aufgefiehrt had und heußt mich einen rinzlädernen Dräghamel wo das heuligste beschmuzt aber fieleicht hawe ich das heuligste nichd da, wo es die Emeränsia had sontern ich hawe es wo anderst.</p>
+            <p rendition="#et">Alerhochwierningster här ärzbischopf sie wiesen es guth das mir ins fiel gefahlen lasen fon inserne geischlingen hern aber es härt auch einmahl auf und bei dissem rinzlädernen Dreghamel härt es bei mier auff und durch disses beschwäre ich mich bei ienen über den hern Emerahn Schanderl und der ausschus fon Sünsing beschtätigt es mid underschrieft und biethen sie auch das sie einen befähl herauslasen, das ich ein son der muther kierche bien und kandiethat fier dissen wallgreis und biethen auch das sie mietleid haben mit der hochwierningen bfahrerkechin und nichd den greisleten Alisi in die schtadt zun barlahmend lasen, den ich bien kein mentsch der wo kain erbahrmniß kent sontern ich libe meine feunde.</p>
+            <p rendition="#et">Theo gratzias.</p>
+            <p rendition="#et">Hosie anna. Sekala sekalorum.</p>
+            <p rendition="#et">Kloriah ien exsälzis!</p>
+            <p rendition="#et">heulig! heulig! heulig!</p>
+            <p rendition="#et">fon ierem befliessenen freinde und wähmietigen sohne</p>
+            <p>Jozef Filser</p>
+            <p>aufgläster abgeorneter.</p>
+            <p>Das ladeinische brauchd ienen nichd wuhndern indem das ich minischtrand gewäsen bien und überhaups ein andechtiger Gadollik und besucher der kierche.</p>
+            <p rendition="#et">Nachschrieft.</p>
+            <p rendition="#et">Durch disses wierd beschtetigt das sich ahles so befunden had und warheiz getrei fon inser hochferährten und gelibten kandiedath <pb n="522" facs="#f0057"/>
+Jozef Filser ist beschriem wohrden und auch der rinzläderne dreghamel ist der wahrheid gemäs.</p>
+            <p rendition="#et">Disses beschtetigt mid underschrieft und nahmen:</p>
+            <p rendition="#et">Nothabehni:</p>
+            <p rendition="#et">Durch disses zeige ich an das ich noch ein schreiben verfase wo ich die schlächtigkeid des greisleten Alisi mit der Emeränsia ofenbahrig mache.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e101820" type="chapter">
+            <head>An hern Sepastian Gneidl [2]</head>
+            <p>An hern Sepastian Gneidl</p>
+            <p>Oegonohm und Kandiethat in Sinzing,</p>
+            <p>Bosd daselbs</p>
+            <p>liber Schpezl jez mus ich dier mit drauringen härzen schreim das inser hochwirninger bfahrer Schanderl von ein schlagl getropfen zu den Aengeln hinauf gefarren ist. Rehg... Rägwießkath... du weist schohn.</p>
+            <p rendition="#et">Mein liber wastl, ich mus es dir sahgen das diser mentsch sär häslich auf mich wahr und bald ich auch keine schattenfreide nichd hawe bien ich doch fohler säligkeit das er jez eingrahben ist. läbe wol!</p>
+            <p rendition="#et">Fon inserner draurigen aufläsung bis heinte ist er fohler gieft auf mich gewäsen und am läzten midwoch had er zun <pb n="523" facs="#f0058"/>
+bosthalter gesagd, das ich eine schlahnge bien, wo er den kobf zerdritt und disser filser had er gesagt ist ein schandfläg der Gemeunde und des dischtrigtes und des landes und mus hinwäg und sagd er, das wiel er sähen ob disser unscheunbahre bauernrahmel kämbfen darf gengen die briester des härn und diehner des althars. Aber am Donerstagh ist er in der Waschkuchl umgefahlen und had einen gmägezer getahn und wahr im jenseiz. Mein liber schpezl du hasd es gewies geläsen wies ein flughblad herumgäben hamm an die bauern, wo darinn geschtanden ist, das ich ein ordanährer kerl bien und fiele schimbfwohrte auf mich und ich weuß es vom lährer das der schanderl einen hunzheiternen lumpn angeriechd had das er gengen mich schreibd aber nichd unterschreibd weul er anxt had das ich ien herfoze. Disses had der schanderl fohlbracht, damid das der ährwirdinge bauernschtand aus dem barlamänd ferschwiendet und plos wamperte bfahrer und glazete bänifizi darien befiendlich wärden.</p>
+            <p rendition="#et">Mein liber ahber ich hawe schon aufdraht und in beinharding bei der fersamlung hawe ich gesagd das mier fieleichd simenthaler und bintschgauer und ferschidene sohrten rindfiecher hawen aber plos eine gathung fon zendrumsleiten und bald auch die bfahrer klauben das sie zuchdinspekter siend und breise ferdeilen missen fier das nietzlichste rindfiech deswägen sind mir nichd damid einferstahnden, sontern mier gäben ahle so fiehl millch wie der anderne und mir gäben eine kadollische millch. Da hawen die leite aber gelachd und sär schtark gebatscht und der greislete alisi ist auf den bohdium gegangen und had gesagd das disser fergleich schon beweußt was ich fier ein kahrakter hawe und da bien ich hinauf und hawe gesagd jawoll und ich bien fon kahrakter ein oegonohm und mus meine sache forbriengen als ein solchener. Und hawe ich gesagd, ich bien bloß ein Bauer der wo in seinen sakh arbeit und bald ich im barlamänd sieze wierd bloß mein leubliches Gud weninger aber bald inser geischlinger Här ins barlamänd get wierd das geischlinge Gud fon ins ahlen weninger und er ferseimt eine arbeith fier die mir ahle zallen und da ist der greislete Alisi hinauf und had gesagd gelibte sagd er bald disser mentsch insern heulingen berufh angreifft braugen mir iberhaups nichz mehr zun räden aber disses sagd er wiehl ich noch hinzusäzen das mahn ins barlamänd leite schikhen mus die wo eine bieldung besiezen <pb n="524" facs="#f0059"/>
+und läsen und schreibn kienen aber nichd einen sollchen gewehnlichen mahn wo insern gelibten wallgreis und seine bewonner als Plamaschi gereicht und wo durch seine unwiesenheit schon so weid um sich gegriefen had, das inser ährwirdinges zändrum fier eine filserbardei beschimpft ist wohrden.</p>
+            <p rendition="#et">Mein liber schpezl da bin ich aber hinauf und sahge ier beinhartinger und lansleite und wehler sahge ich da haben mir jez einen jungen gokhel krahn hörn und mid der Zeid wird es fieleichd ein richtinger gokhel bald sie keinen kabaun daraus machen und iem die fädern beser waxen und ien mehrerne hännen in die lähr nemen, aber jez kahn er noch nichz. Mir wohlen den heulingen berufh fon dissem Jiengling nichd schedigen sontern mir wohlen ien unterschtiezen dadurch das mir wohlen, das die jungen mentschen riechtig auslärnen und nichd zu friehe fom meßläsen zu der bolidik weglauffen und hawe ich gesagd meine liben leite disses ist sehr ferdächtig das inser bfahrer seinen lährling so gärne fier das Barlamänd fortschicken mechte den bald ein meißter einen lährling had wo er braugen kahn last er ien nichd wäg sontern er behalt ien und hawe ich gesagd meine liben leite mir wohlen bei insern bfahrer Schanderl eine bietschrift eingäben, das er dissen Jingling behalt bis er ausgelärnt had und ien nichd ferstost. Meine liben lansleite hawe ich gesagd bedref disses das ich eine Plamaschi bien mus ich bemergen das ich dreitsen jar der biderne Oegonohm und bardeibruder fon seinem hern bfahrer gewäsen bien und fileichd ist jez die freilein bfarrerkächin nichd mer zufriden mid meiner bieldung und gefahlt ier das beser was disser jingling kahn.</p>
+            <p rendition="#et">Mein liber wastl da hätest schaugen missen wie der greislete Alisi ferschwunden ist und ein pahr Täge darnach had den bfahrer der schlahg getropfen und had auch die Kächin gesagd, das ien der schmärz iber meine frächheit umpracht had, aber mir wiesen, das er einen fiel schönern tod gehabd had durch die gäns und anthen und händeln und die menascherieh wo er zamschnabaliert had. Jez ist er toth und kahn seinen greisleten alisi nichd mer ins barlamänd fersäzen.</p>
+            <p rendition="#et">Mein liber wastl hopfenlich kähnen mir bald wider einahnder kahlegen heußen? Ich schon.</p>
+            <p rendition="#et">Inser Gabidlforstand Dobias Angerer fon Zillhofen ist bein <pb n="525" facs="#f0060"/>
+begrebnis da gewäsen und had gesagd zu mir das ich fon zändrum beschtetigt werde.</p>
+            <p rendition="#et">Ich freie mich sär stark bald mir in minchen einrucken, und die gans ahndern missen sich auch freien bald mir aufgläste Abgeornete daher kohmen und mir sind jez wie die wepsen, wo mahn aus ierem näst ferdrieben had und stechen firchterlich und mir hawen keinen respäkt durchaus gar nichd mer sontern stächen auch in der nehe des trohnes. der Salfermoser haz mir geschriem das der lärno fohler wuht ist und der häld fon rägensburg had sich seine breißische schleiffen lasen und had schohn fiel Kraud bestält wo er drauf die miniester ferspeißt und der ortherer had sich fiele zehne einsäzen lasen und bald er auf der strase gäht schnabbt er iemer damid das er sich einiebt. disses wierd anderst fidehl. der her Angerer had zu mier gesagd, das fieleichd baiern eine repabliek werd, bald die wiedelspacher nichd anderne seiten aufziehgen und der bardeiforstand weuß es aber noch nichd gewieß, ob er gnedig sein wiel gengen das angeschtammte härscherhaus. Mit die Minischter machen mir ieberhaupz keine umstend nichd mer und hielft ienen kein flähen sontern sie missen den wahnderschtab ergreuffen und ier broth in schweise ieres angesichz ferdinen und der ärzengel Georg ferdreibt sie aus dem baradisse und der oßwald schmeußt ienen den huth nach bald sie hinauß fliehgen. disses wierd noch fiel fidehler als wie zuerscht und bald mir dissesmahl den schwuhr der Treie gengen das härscherhauß ablägen missen mir ahle einen kalden Eid leißten, das der schwuhr in den bohden farrt und mir gans fräch sein dierfen.</p>
+            <p rendition="#et">läbe woll alter schpezl und läge deinen stäken auch ins waser das er hard wierd bald mier die minischter herum lasen.</p>
+            <p rendition="#et">Juhu!</p>
+            <p rendition="#et">Ich haue anderst zu das den groskobfeten die Briehlen anlauffen.</p>
+            <p rendition="#et">läbe woll</p>
+            <p>fon deinem liben freind</p>
+            <p>Jozef Filser.</p>
+            <pb n="526" facs="#f0061"/>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e101898" type="chapter">
+            <head>Das neie Barlahmend</head>
+            <p>Gelibte in Härn!</p>
+            <p rendition="#et">Zuerscht mus ich es eich zun wiesen machen, das ich bin gewelt wohrden und allsbahld wider nach Minchen kohme. Es had fiele leithe geben, wo mier disse rumfole auferstähung nichd gunnen sontern geschprochen und geschriem hawen das disser mentsch nichd mähr sich bliecken lasen derf, und ich mus es mid schmärzen sahgen das leuder meine ienigen bardeibrieder am frächsten auf mich geschimbft hawen.</p>
+            <p rendition="#et">Dersälbige schreihber fon der Eusenbahn mechte auch schimbfen ieber den althen barlamändarischen fertretter des Folkhes, wo schohn regiehrt had, wies dissem mentschen noch in die hossen gangen ist. So ein harmsäliger mentsch der wo sein läben nichz than had als nuhmern aufgeschriem fon die biehrwägen oder Mielchpietschen oder die säuhe, wo mir biderne landmähner herfor briengen, ein solchener mechte seine fozen schtrabazirn und seine Drägschleidern aufreisen.</p>
+            <p rendition="#et">Mein liber, da rahme ich dich zusahmen du hergozakeramänt und schreihbe die säuhe auf du schreihbersgnächd du halbseihdener, du ausgrunens Dräbernfaß.</p>
+            <p rendition="#et">Was wielst du fon dem mahne des folkhes?</p>
+            <p rendition="#et">Fileichd dadurch das er nichd so schreim kahn wie du indem das seine hende fom bfluge gehärthet siend und keihne sollchen bazigen fienger nichd had wie deine brathwierschte, du schreihbersgesähle!</p>
+            <p rendition="#et">Meine liben leithe ich bien gewies ein kristlicher mahn fohler barmhärzigkeid und wähmuth und thue nimanden nichz, aber jäz geth mier die gedulth aus bald solchene schweinerne brieder herumfarren und auf dem lande ieber mich schiembfen das ich dem bauernschtande zur unähre gereuche.</p>
+            <p rendition="#et">Schreihbe die säuhe auf und die mielchpitschen fir was du fom folkhe bezallt bist und schimbfe nichd ieber mich du hanzwurscht du drieaugeter!</p>
+            <p rendition="#et">Gelibte in härn wohlen mir aber hinwäggehen fon dissem drauringen Kabiedel der mentschlichen hasbegiehrde und Eiffersuchd und mir wohlen in freide schwälgen!</p>
+            <p rendition="#et">Haläluha!</p>
+            <p rendition="#et">Nichz als wie lauder haläluha!</p>
+            <p rendition="#et">
+               <pb n="527" facs="#f0062"/>
+Gelibte in härn!</p>
+            <p rendition="#et">Im winther for es zum schneiben had angefangen had ins ein schlächter wiend hinauß gewaht aus dem härlichen ballaste des barlamänz und mier sind mit drauringen härzen gewahndert in inser libliches heum zu dem gelibten weihbe und insernen kiendern und mir hawen mid betripten auhge herumgeschaugt in unserner wonstette wo mier gehoft gehabt hawen das mier sie nichd bald widersähen. Aber auf einmahl sind mir daheum gewäsen wie anderne mentschen und keine barlamändarischen nichd und mir haben ins im schtiehlen erforschd ob mir fieleichd ins ganz dem Genuse des landläbens hingäben missen oder nichd, den nichz gewieses weuß mahn nichd und durch disse ferbrächerische freindschafd fon insern keniglichen beahmten mid den sotsi ist uns sär schlächt zu muthe geworn.</p>
+            <p rendition="#et">Mir hawen ins sähr schtark ieberlegt ob mir fileichd nichd zu fräch gewäsen siend indäm das mir ins geteischt haben wie fil mir inserner regierung auflahden dierfen und bei einer fersamlung fon geischlingen Ferdrauensmähnern had auch der bäpschtliche hausbrelath Gsothaber gesagd meine kiender sagt er dissesmahl habz eich zu fil trauth und bald auch ein bairischer miniester fil ferdragen kahn habz ier die supen zu schtark geschmaltzen.</p>
+            <p rendition="#et">Da hawen mir ins sähr geschähmt nichd deßzwegen weil mir fräch wahren sontern das mir nicht kent hawen wan mir aufhären missen.</p>
+            <p rendition="#et">Aber disse schahm wahr plos brifatiem und bald ins nimand gehärt had, aber fier die andern leithe hawen mir den stiehl umdraht und ins gewunderth das der ministher so ferbländet ist fier das woll des fatherlandes und die bästen freinde ferstosen derf.</p>
+            <p rendition="#et">Der hausbrelath had auch gesagd das jäz die friechte da siend fon inserner briederschaft mit den sotsie und had er gesagd bald die ärzbischäfe schpezel siend mid solchen leithen köhnen mir nichz sahgen gengen die beamthen, aber disses wahr auch plos brifatiem und in der welth hawen mir die auhgen ferdraht ieber disse mentschen, wo es ins nachgemacht haben. In der bolidik mus mahn es machen wie im wierzhauß bald ein freind zuhaud und eine fozen hergiebt siet mahn es nichd aber bald die andern herschlahgen siet mahn es schon und ist fohler abschei.</p>
+            <p rendition="#et">
+               <pb n="528" facs="#f0063"/>
+Meine lieben leithe so hawen mir die ganse zeid ins durchschwiendeln missen wie die schlächten schieler wo iere aufgab nichd gemachd hawen und siend aus der anxt nichd hinauß kohmen, das inserne wehler was mergen.</p>
+            <p rendition="#et">Aber Gozeidank jez ist es forieber und bald jäz der schwiendel aufkohmt machd es nichz mähr denn da geht es akarad so wie beim fiechhandl, wo der mentsch das fiech behalden mus bald er den gesäzlichen fähler nichd spahnt, und den abgeorneten derf mahn iberhaupz nichd mähr zurikgäben, sondern mus ien behalden bald er noch so fil gesäzlinge fähler had.</p>
+            <p rendition="#et">Gozeidank!</p>
+            <p rendition="#et">Jäz had der schlächte wiend aufgehert zum blassen und mir zihen fon der schänen heumath fort nach minchen hinein fohler wuht und Unbarmhärzikeid, indem das inser Generall Orderer den befähl erdeilt had, das ahle minischter inserne feunde siend und fäldgeschrei ist ausgäben, das sie ausi müssen aus der wiertschafd zun bayrischen löwen.</p>
+            <p rendition="#et">Jäz haben mir wider disse wiertschaft gebachtet und sollchene gäschte köhnen mir nichd leihden wo ins zuerscht hinauß geschmiesen hawen, sontern jäz bfeift der neie wierth, wo sich Orderer schreibt seinen haußgnecht held das er sie hinaustud und bald disses breißische Grippelmahnderl nichd gelangt, siend mier da mit insern arbeizahmen henden und tiechtigen feisten.</p>
+            <p rendition="#et">Meine liben leithe jähz häz ier aber sehgen solen wie schnel die wirzstuben lahr gewohrden ist noch for das mier hinein siend, sontern bloß wies ins aus der färne haben kohmen hären had jäder seinen hud bakt und ist gelauffen das iem die färsen auf den a entschuldigen auf den hientern geschlahgen haben.</p>
+            <p rendition="#et">Der bodewisel ist bei der hinthern Thiere hinauß das der staup geflohgen ist und had schohn geklaubt mier siend hinter iem här mit insern geweichten stehken und ist geflohen in die resadenz wo er um schänes wether bithen wiel.</p>
+            <p rendition="#et">Der wähner toni wo mier sonzt fir einen sär schtarken kadolikhen gehalden hawen und jäz fir einen häslichen tirahnen gengen jeßuithen und einen miesratenen son der muther kierche erkehnen ist bein fänster hinauß und ist iem der frauendorfer wo inser ergster feund ist auf den kobf gesbrungen. Der Mielthner had sein ziliender hint lasen missen und die ahndern hawen auch keine zeid nichd mähr gehabt das die thiere zu machen.</p>
+            <p rendition="#et">
+               <pb n="529" facs="#f0064"/>
+Jäz ist das wierzhauß lär und die minischterstiehle warthen wer sich darauf siezt. Eine sollchene anxt haben die mentschen for dem bidernen landmahn bald er gereizt ist und fier das fatherland schtreiten wiel als wie bei der sändlinger schlachd gengen banduhren und minischter.</p>
+            <p rendition="#et">Disses hawen mir folbracht.</p>
+            <p rendition="#et">Meine liben leithe jäz ist fastnacht wo father und muther und kiender danzen wohlen und herum flankheln und da hawen mir auch einen danz aufgefiehrt mit dem minischteri und hawen den kehrauß gedanzt und mir haben ins ein kaschperlgespiel auffihren lasen das wo heist die dapferen minischter in baiern und mir haben anderst gelachd wie sie dafon gelauffen siend plos weil der hanswurscht zurik gekohmen ist mid seiner britschen.</p>
+            <p rendition="#et">Da fragt der kaschperl buam seiz ahle da und mier schreihen jo und ist aber nichd gans wahr indem das der bliez schon ein wänig eingeschlahgen had in den zändrumsthurm und elfi siend erschlahgen worden.</p>
+            <p rendition="#et">Mir hawen ein leuchenmal gehalden im Gasino und der Orderer had die leuchenräde gehalden und had gesagd, das man nichd weis wie schnäl es ofd dahien geth. Er had es aber schon gewißt und ist als ädler Kämbfer in Inglstad in die schlachd gezohgen wo keine gefarr nichd ist und kein wollf aus der schaffhärde den hamel entreisen kahn.</p>
+            <p rendition="#et">Fon den gefahlenen ädlen Schtreitern ist der ädelste der hochwierninge her haußbraled Schädler, wo schohn zwahnzig jar das barlamänd forziehrt had und so gescheid wahr das er frieher auch in Inglstad gekämbft had aber jäz in Bahmberg haz ien zeriessen.</p>
+            <p rendition="#et">Der kandither und bräzelpacher Forster fon Egenfälden had ins gras biesen und mus jez draurig sein bärendräg und gerschtenschleum fier die schlägghaften mätchen ferkauffen und mir weunen iem eine threne nach, den er wahr ein libreucher waxziehger und had den ährennahmen gehabd der kadollische zwetschgentatschi.</p>
+            <p rendition="#et">Auch der franz Dauer ist hinwäggeraft wohrden und durch ien ist ein schöhner mentsch ferlohren gangen mit einen schnuhrbart wie der schwans von einen eichkazl.</p>
+            <p rendition="#et">Auch dem asesser Jäger ist disses mal die biexe arschlings <pb n="530" facs="#f0065"/>
+losgangen und had ien selbs getrofen, das er schtark ferwundet ist und wider einen asesser machen mus.</p>
+            <p rendition="#et">Der gnahden her landriechter Schöndorf derf auch nichd mähr nach minchen farren sontern daheum bleiben im greise der liben und in dem lahnde wo es keine Dihäden nichd gibd.</p>
+            <p rendition="#et">Jäz missen mir auch noch wähklagen wegen einen, den wo der orderer nichd genant had wegen insern Doktor heum, der wo nichd mär möhgen had wegn seiner gesundheid indem das er die ausdienstung fon hern Bichler nicht ferdragen kahn.</p>
+            <p rendition="#et">Mir biderne landmähner thun bei die andern blos so aber fier dissen mahn seifzen mier sär schtark und bald mier ien gengen sex Kadau und sex Bichler krigen kenten mechten mir gleuch disses gescheft machen und ferlangen nichz herauß sontern geben noch einen Kadau drein bald disen kadau wer wiel, aber leuder so thum ist kein mentsch.</p>
+            <p rendition="#et">Mir biderne landmähner haben beschlosen das es sär schmärzlich ist, das disser mahn nichd mer zun forschein komt indem das er den purschen wo in der bardei sich ein pißchen fiel kraud herausgenohmen haben, auf die fozen geschlahgen had zu inserner grosen freide.</p>
+            <p rendition="#et">Meine liben leithe jäz schlahgt ienen nimand mär auf die fozen und baßt nur auf das mir jäz was erläben bald jäz disse Purschen wield wehrden und mid die haxen ausschlahgen derfen da get es zu als wie im frujahr wan mahn die saubährn auslast und farren gans damisch herum und grunsen abscheilich. Gelibte im härn mir wohlen aber frälich sein das mir selbst wider da sind wo die Dihäden siend.</p>
+            <p rendition="#et">Nachdem das disses leuchenmal mid groser lustbahrkeid ist zu ende gangen haben inserne groskobfeten eine Breißferteilung gehalden fier die landstrieche fon Baiern wo sich fier räligiohn und inserne Dihäden am bästen sich bewehrt haben.</p>
+            <p rendition="#et">Den erschten Breiß had erhalden der bezirk Oberbfaltz mid ahlen bunkten. Es siend zur Ausstehlung gelangd in dissem bezierke fimbzähn mitglider der bairischen zändrumsgenosenschafd und siend ahle fimbzähn angekauft wohrden fier das barlamänd.</p>
+            <p rendition="#et">freihling ist eihner dabei under dissen erwohrbenen, wo nichd fon inserner Rahse ist, aber mahn mus ien haben weil er eingeschriem und eingetrahgen ist in der Genosenschafd. Er ist ein <pb n="531" facs="#f0066"/>
+breiße mid nahmens Held und ist leuder zugereißt und had mahn es frieher ferseimt das mahn iem das Reißgeld ersäzt hät und wider heumgeschiekt had in sein schenes Fatherland, aber dorth missen sie ien nichd braugen känen, weul sie ien gahr so gern herlasen und sie haben ien fileicht erkahnt.</p>
+            <p rendition="#et">In disser oberbfaltz mus es noch fil schener sein als wie bei ins und ich mus den bezierk anschaugen. Der Ixner michel had es mir ferzelt wie es freidefohl ist zun läben und legt mahn schohn dem kiende in seine wigen ein rossengranz und ein schmaizlerglaß und durch disses wierd er ein oberpfaizler und Kadolikh und bleibt es und brauchd mahn keine anxt zu haben, das er nachdänkt sontern er wehlt plos. Aber bald iem der schmaizler ausgät mus mahn iem schnäll einen forschafen sonzt grohlt er gengen den stat und die muther kierche. In disser walbähriode siend fom heulingen father in Rohm fürzen zändner schmaizler nach ambärg geschiggt wohrden wodurch mein bardeibruder lerno mit Driumbf ist gewelt wohrden. Inser Dokter had mier genau ausgelägt, wohär disses komt indem das der schnubfdabak das hiern anfeiert als wie der bfäffer und bald das hiern rechd scharff ist gelangt die anhenglichkeid an das zändrum hinein und kahn nichd mär hinaußgelangen indem das das nassenloch mit dem schubfdabak ferstobpft ist. Durch disses hawen mir inserne ergäbnise in der oberbfaltz und auch den held und den lerno.</p>
+            <p rendition="#et">Den zweithen breiß had erhalden der bezierk Niderbaiern. Es siend auftrieben wohrden zur ausstehlung achzähn schwartze, und leuder siend drei zurikgeschlahgen wohrden und dafier rothgefläkte biendler angenehmen wohrden. Das nextemahl missen wir ein bar wagohn schmaizler auch in disses Land schiekhen obwol im bayrischen Wahld schon fil geschnubft wierd und in bassau gleich so fiel das sie den bichler wehlen.</p>
+            <p rendition="#et">Den drithen breiß had erhalden die landschafd Unterfranken, wo fier schwartze wegtriehben sind wohrden aber fürzen angekaufft. Disses ist ein groser schmärz fier ins oberbaiern das mir durch die stath minchen siend breißferlustig wohrden indem disse gleich dreizähn rothe gelifert had aber mir fom land hawen zwahnzig schwartze ins barlamänd eingelahden, und leuder ist disser katau dabei, wodurch mir erscht recht keinen breiß ferdint hawen.</p>
+            <p rendition="#et">
+               <pb n="532" facs="#f0067"/>
+Jäz ist die breißferteilung foriber und sohl die musiek einen höll klingenden dusch blassen.</p>
+            <p rendition="#et">Gelibte im härn durch disses das mir alßo wider bei sahmen sind wohlen mir ins beraden, was mir jäz begienen.</p>
+            <p rendition="#et">Inser forstand Orderer had ins einen brif forgeläsen den wo ein dafon geloffener minischter an ien geschriem had und wo er um gnahde flät, das mir das känigreich baiern noch bestähen lasen. Mir haben eine lange beradung über disses gehabt, ob mir ins erweuchen lasen und der Orderer selbs ist sär hardhärzig gewäsen und had nichd mär wohlen, und plos mir landmähner haben den drohn gestietzt.</p>
+            <p rendition="#et">Aber die stath Minchen mus eine harthe straffe erhalden und da giebt es keine barmhärzikeit, und bald mir sie auch nichd an alen fier ekhen anzienden mus sie doch um gnade wimbseln. Disses ist beschlosen.</p>
+            <p rendition="#et">Mier sind gans gemiethlich auf den stiehlen der folksfertreter gesässen und hawen an nichz gedenkt bis auf einmahl fräche mentschen uns hienten gestochen hawen das mir haben den siez ferlasen missen.</p>
+            <p rendition="#et">Meine liben leithe disse nahdel wo ins gestochen had stäkt noch darien und mir hawen einen schiefling im a im hienthern der wo ausschwährt und dadurch haben mir einen has auf die groskobfeten der wo nichd fergät.</p>
+            <p rendition="#et">Erst bald mahn ins einen ballsam darauf schmirt und der wähdam fergät wohlen mir wider känigstreie Underthanen sein aber so lang der schifling im baken stäkt hawen mir rachefohle Grundseze und die Gozöbersten solen schaugen das sie bald einen ballsam fienden, den wo sie ins hinaufschmiren.</p>
+            <p rendition="#et">Sonzt ist es aus mid der angeschtamten Treie.</p>
+            <p rendition="#et">Den wo es angeth der fersteth mich schohn und schauge nichd um der fux geth um.</p>
+            <p rendition="#et">Disses gäbe ich zu wiesen, damid das es ahle läsen und werz mich schon gähen hören und beschtetige es durch meine unterschrieft</p>
+            <p>Jozef Filser</p>
+            <p>nei gewelter käniglicher Abgeorneter</p>
+            <p>und Mitglid fon rachebunth.</p>
+            <p>
+               <pb n="533" facs="#f0068"/>
+Bostschkribt</p>
+            <p rendition="#et">Disses bald ich nochmahl erfarre das ein mentsch ieber mich schimbfd und das biderne landfolk anschwiendelt an dissem schlahge ich einen dreizöhligen stäken auseinahnder. Kohme nichd mär hinauß du wahgenschreiber, Du biläthenzwieker, sonzt nähme ich dein andliez in meine arbeizahme hand du hergozapperamend!</p>
+            <p rendition="#et">Und base auf wie ich dich schpringen lase! Und ich iebe an dier meine notwähr aus das du waserbladern krigst.</p>
+            <p rendition="#et">Disses bestetigt zun zweithenmahle</p>
+            <p>Jozef Filser.</p>
+            <p rendition="#et">Nuhmera 2</p>
+            <p rendition="#et">Jäz habe ich es geläsen das ein mentsch fon der kristgadollischen Zeidung ein brif geschriben had als wenz ich geschriben häth. Disses had mich sär gefreith das sollchene rindfiecher sich bäsern und ein guthes Beispiehl sich nämen. Bis jäz had das gadollische folkh immer geklaubt, das dissen mentschen in beirischen Kuhrir ein ox das hiern ausgesopfen had. Und mus er ahber doch ein pißchen was darin gelasen haben. Fileicht haz dem oxen graußt?</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e102128" type="chapter">
+            <head>An hern Sepastian Gneidl [3]</head>
+            <p>An hern Sepastian Gneidl,Oegonohm</p>
+            <p>in Sinzing Bosd daselbs.</p>
+            <p>liber freind und kubferstächer indem das du so draurich biest dadurch das dich der bauhernbindler besigth had und nichd mer gewelt biest worden must du nichd so draurich sein den fileichd ist es eine briefung gothes das du wider bei deiner althen daheum bleiben must und deine geischtingen und fleuschlingen krefte in der familli obferst und nichd In barlamänd als wien ich.</p>
+            <p rendition="#et">Du weist es ja selm wie disser berufh angeschträngt ist und keine anerkähnung nichd had sontern die stieze des aldahrs und trohnes wierd hinausgeschmiesen und aufgläst und weis nichd ob er widerkohmt den es ist so als wie bei den schwahlben wo nach den sieden fortziehgen und obs sie widerkohmen zun ieren näste ist nichd gewies bald sie ein idalänischer makränifrässer <pb n="534" facs="#f0069"/>
+fangt und ferspeißt und dich habens die pauernbiendler ferspeist, aber ich bien heum gekohmen zu meinen näste und häre schon den ortherer zwietschgern, wo auch in seinen näste sich befiendlich ist.</p>
+            <p rendition="#et">mein liber mentsch du must es fier eine briefung gothes nämen, der wo es schon wiesen wird wahrum und bald er keihnen spazen nichd fahlen last ohne das er wiel last er auch keihnen abgeorneten nichd hin durch fahlen ohne forsähung.</p>
+            <p rendition="#et">Du must dein gewiesen briefen und reimiethig erforrschen dan finzt du es schohn zwegen was du hindurch gefahlen biest mein gelibter.</p>
+            <p rendition="#et">Indem du mier geschriem hast ich sohl es dir schreim wie das jäz ausschaugt in der bardei so weist du es ja schohn das mier elf sticke weninger siend und die armäh des zändrums had nach disser bludingen schlacht fiele ädle streither ferlohren wo sich tetlich angeschosen auf den bohden weltsen und du auch.</p>
+            <p rendition="#et">Mir siend durch disse schlachtobfer fohler wuht gewäsen und haben gewolt ins auf die feunde stirzen mit sär starkhen fäldgeschrey aber leuder mir sind gedempft wohrden indem das mahn ins einberuhfen had ins Gasieno wo inser brigadiehrgenerall Ortherer eine ansbrache an seine ofaziehre und Gemeunen gehalden had. Er had unter sich aus seiner briehle herforgeschaut wie mier in reu und glid gestanden siend und had gesbrochen. kamerathen sagd er, mir siend wider auf den schlachtfälde fersahmelt und die bixen siend gelahden aber ier dirfts die schisse nichd mär so starkh abfeiern als wien iers in härbst herauslasen habz, den mir habens jäz eine regiehrung wo eire schisse nichd mer so gerne mag und mir habens eine regiehrung, wo bei der nämlingen fahne geschwohren hat und disses ist die schwartze fahne. kamerathen sagd er ier wiesez schon bald eine kierhweuhmusiek ist da stengen ahle zusahmen wo bei der nemlingen schahr siend und fozen die andernen aber nichd die nemlingen und fier disses mahl ist die regihrung bei inserner schahr und darf nichd gefozt wärden. Ich mache eich bekahnt mit dissen mietglidern, die wo durch anxt und schrökhen for inserner armärh auf die sieze des regiehrens sind gesätzt wohrden.</p>
+            <p rendition="#et">Der öberschte schreibt sich barohn heerdling und ist ein kleihner mahn mid einer briehlen wo aber einen grosen geischt <pb n="535" facs="#f0070"/>
+in sich hat und schohn gans dike biecher had drukhen lasen und ist er ein kadollischer schrieftsäzer gewesen. Auf dissen mahn dirfz ier keine schisse nicht abfeiern indem das er auch kein sollchen spas nichd ferstät wie der abgesägelte bodewies sontern herhaud bald ier hinhauz und had auch schon häsliche wohrte gesagd das mier haußgnächte sind.</p>
+            <p rendition="#et">Gehz iem aus dem wäge und bald fileichd mein gelibter sohn Held seinen foz aufreisen mächte ist dises kein schärz als wie beim bodewies und ist bäser das er sich ein gschloß vor seinen breißischen brodlahden hinhengt und keine unreihnlichkeid nichd herauslast. Der zweithe mahn schreibt sich barohn sohden und ißt ein schwahbe, wo aber schon lange zugereißt ist und immer im wiedelspacher baläh stazioniert gewesen ist bis das disse minischterbänsion fier iem ist gefunden wohrden. Er ißt ein ser starkher kadollik aber sonzt ist er ziemlich schwach und knieschnaklert und darf schohn desweng nichd auf ien geschossen wärden. Und bald mein gelibter Breiße aus rägensburg fileicht auf iem seine bixe ziehlt mus ich rufen bfui has und mus iem herein bfeiffen.</p>
+            <p rendition="#et">Der driehte wo nicht geschosen wärden derf disses ißt der her Seitlein, der wo ahle tag einen sozi ferspeißt und sohl mahn iem nichd seine ferdauung stähren. Obs auf die ahndere schisse abfeiern derfz weis ich aber heite noch niecht.</p>
+            <p rendition="#et">Kamerathen sagt er jez wiest ier eierne barohle und schwaiget aber stiel und bald eich in zändrum was drukt last ien liber wo anderst hinauß und seiz auch sonzt rechd fein und liblich gengen den barohn heerdling.</p>
+            <p rendition="#et">Riehrt eich sagt er und ist fon dahnen und mier hawen ins angeschaugt und indem das mich was drukt hat hawe ich seine ermanung auf der stehle befolgt.</p>
+            <p rendition="#et">Der häld fon rägensburg aber ißt gleich zu einen sathler gegangen und had sich ein futheral machen lasen fier seine breißische, daß sie iem nichd einroßtet bis er sie wider braugen kahn.</p>
+            <p rendition="#et">Mein lieber schpezl indem du geschriem hast was der kathau fier aughen machd bald er mich erblickt so mus ich dier schreim das er geblinselt had aber gans wähleudig indem ich iem meinen stäken gezeugt hawe und sahge ich her bosthalder dissen stab hawe ich ins waser gelägt und ißt er jäz ser hard und mus ich<pb n="536" facs="#f0071"/>
+ starkh obacht gäben das er mier nichd auskohmt und da had er nach luft geschnabt wie ein geangelther karbfen oder fileicht had er brillen gewohlt wie beim schalther und ißt aber meißchenstiel hinweg. Und indem das mich wider was drukt hawe ich disse manung fon insern brigahdiergenerall befohlgt.</p>
+            <p rendition="#et">Mein liber wasthel indem ich disses schreiben beschlüsse must du nichd draurig sein den du derfst es klauben, das es dohrt auch schäner ist wo der kathau nichd ist und läbe woll weul es schmärzlich ißt das ich einspahnig bien und nichd mit Dier mein liber wasthel und es grießt Dich</p>
+            <p>Dein liber freind</p>
+            <p>und wider gewehlte in gothes radschlus</p>
+            <p>Jozef Filser</p>
+            <p>keniglicher abgeornether.</p>
+            <p>Bostskriebtum.</p>
+            <p rendition="#et">Mir wohlen insern ahlgelibten brinsrägenten bithen das er ins bald ein lieberahles Minischteri oder so eins wie den bodewies giebt, damit das die schuszeit wider aufgäth. Er had ja auch seine freide bald es schuszeith ißt.</p>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e102219" type="chapter">
+            <head>An hochwiern hern bfahrer Blasius</head>
+            <p>An hochwiern hern bfahrer Blasius</p>
+            <p>Gletzenbauer in Mingharding</p>
+            <p>Bosd daselbs</p>
+            <p>hochwierninger Her Bfahrer</p>
+            <p rendition="#et">Zuerscht mag ich meihne Gradaliziohn das inser alerheulinger Aerzbischobf ienen zun Sälenhierten fon Mingharding auserkohren had wo sie schohn als kohbrater for dreizähn jare den sahmen des krischtendums in inserne härzen gelägt hawen und wiesen das er härlich aufgangen ist und das sie eine brafe härde zun hüthen hawen.</p>
+            <p rendition="#et">Es sind libreiche schahfe dabei wo ieren hirthen mid freiden begrießen und brafe lähmer wo frelich um ienen herumhibfen und den hiemel fohler dankh anschaugen das er ins einen solchen bfahhern geschpendet had und ich denge mid freiden das mir so oft bein bosdhalder einen griebingen terokh gemachd hawen. Auch mache ich meine danksahgung das mir hochwiern her <pb n="537" facs="#f0072"/>
+bfahrer einen brif geschriem haben wo mahn es siecht das sie fohler Gnahde gegen mich gesohnen sind und disses erfielt mein härz mit groser freide indem das der ferstorbene her schanderl seinen schmärzlichen has auf mich geworffen had und möhge er in friden ruhen aber in ahler ewikeid ahmen.</p>
+            <p rendition="#et">Durch disses das sie schreim mir missen zusahmen arbeithen an der krischtlingen Gesienung der gemeunde haben sie gans rächt und wiel ich schohn hälfen das mir den bohden guth diengen und mischt breithen und ohdlen damid das der klaube waxt.</p>
+            <p rendition="#et">hochwiern her bfahrer dierfens schohn wiesen das ich ein sär schtarker kadollik bien der wo ein härz had fir seine geischlikeit und balzie was braugen oder einen ferdrus hawen mit den schullärer oder anderne ungleibige biahmte so wiel ich schohn die schtieme des Folksfertretters erschahlen lasen das dissen heuden anxt und bange wierd.</p>
+            <p rendition="#et">Disses verspräche ich als ier ienigster freind und buntesgenose.</p>
+            <p rendition="#et">Indem das sie mir auch geschriem hawen zwegen dissen mohdu oder wie mans heußt fon insern heulingen father in rohm das der geischlinge her keine kechin nichd mär besiezen derf und wie das die bairische regihrung gengen die kechienen gesient ist so hawe ich mich fleußig erkundiegt und auch bei ieren hochwiernigen ambsbriedern befragd und kahn ich ienen schohn eine auskumpft ferleihen.</p>
+            <p rendition="#et">Disser befähl gielt nichz in baiern und ieberhaubs in sollchen lendern wo die geischlingen hern an iere kechin gewähnt siend sontern plos in siedlichen lendern gielt es indem das im sieden die leudenschafftlichkeiten fil schterker sind und auch braugens sie dohrt keine kechin weil disse speißen wo die geischlingen hern erhalden auch von menlicher hand bereithet wärden zun beispil sahlamie und bohlenda und makrahni. Aber die hochwierninge Geischlikeid von baiern wo brathene hendeln libt und gense oder schweinerns mid krauth oder gefiehlte brußtbrathen mus eine waibliche kochkunzt bei sich hawen und brauchd eine kechin fier das schweinerne und den brußtbrathen.</p>
+            <p rendition="#et">In rohm had mahn es nicht so gewießt wie die nothdurft in den nerdlichen lendern greser ist als wie in den siedlichen und ist ieberhaupz ein ungliek sagd der kohbrater hiengerl wo abgeorneter ist das die geischlikeid in rohm sich keihnen begrief machd fon der bairischen nothdurft.</p>
+            <p rendition="#et">
+               <pb n="538" facs="#f0073"/>
+In itahlien drunthen kohmt es schohn for das ein geischlinger her durch die fierchterlinge hieze einen sohnenstiech emfängt und fileichd bei der kechin in ierer kahmer erwiescht wird aber in baiern gibz so was nichd.</p>
+            <p rendition="#et">Indem das ieberhaupz die tämperathur eine gans anderne ist.</p>
+            <p rendition="#et">Und ieberhaupz weis disses jäder oegonohm das ein schtarker unterschid ist zwischen der leudenschafft fon sieden und nohrden indem ich zun beispiel einen itahliäner gokhel hawe und einen deitschen. Disser italiähner ist sär hiezig und bald er eine häne siecht auf dreisig schrithe krazt er schohn und stehlt die fädern auf und hußdaxdax haber der deitsche ist gros und feth und had es liber mit dem frässen und mus sich eine häne schohn sär libreuch beweißen bis das iem was einfahlt. Ich klaube das es bei den mentschen akerat so ist und in rohm kehnen sie plos die italihäner gokhel.</p>
+            <p rendition="#et">Sie braugen keine anxt nichd zun haben hochwiern her bfahrer indem das ein grosmechtiger her nach rohm gereißt ist und had es ienen erklehrt das die kechin in Baiern eine ährwirdige einriechtung ist und one geschlächtlichkeid, indem das sie iere leudenschafften bein kochen auslast aber nichd in sexten Geboth.</p>
+            <p rendition="#et">Und sohlen sie nur einen kahrdienal herschiken der wo ein solchenes brafes frauenziehmer betrachdet und disser beobachther wierd es schohn begreufen das sie ier gnakh und hinderkwartiehr nicht durch schlächten läbenswahndel so schtark fermährt.</p>
+            <p rendition="#et">Und ieberhaupz braugen mir in baiern das waibliche geschlächt zun kochen und striembfe stopfen und hematgnöbf einnahen und lasen ins disse angeschtahmten einriechtungen nichd fon eihnen menlichen haußgnächt feriechten und in disse gefiehle lasen mier ins nichd einmahl fom bapscht was einräden.</p>
+            <p rendition="#et">Mir stähen fäst und trei zusahmen zu insern bfahrer und zu inserner bfahrerkechin.</p>
+            <p rendition="#et">Disses beschtetigt feuerlich</p>
+            <p>ier gelibther</p>
+            <p>Jozef Filser</p>
+            <p>keniglicher abgeorneter.</p>
+            <pb n="539" facs="#f0074"/>
+         </div>
+         <div xml:id="Thoma-Ludwig-d1e102312" type="chapter">
+            <head>Nothabeni und Beschlüßung</head>
+            <p>Jez muß ich disses Buch beschlüßen dadurch das es genug ist und mus auch hadjeh sahgen ahlen wo es geläsen haben dissen Brifwexel fon einen bidernen Landmahne nahmens Jozef Filser. Libe Krischtengemeihnde jez habz ier ahles geläsen und ißt bunktum streisand drauf und könz ier meine zeigen machen bald wider so hunzheitene Lumpen sahgen, das durch disse brife wo ich mid meinen härzbluthe geschriem habe ist der ädle bauhernstand beleudigt. Obwoll das ich bein zändrum bien mus ich es doch leuder beschtetingen das die ausgschamtesten lugenbeithel oft bei dissen zändrumshern befiendlich sind wo bolidisieren und das mauhl foler gemeinheid hawen.</p>
+            <p rendition="#et">Ich kehne einen der had eine haud so gälb wie aldes schweinzläder und auch schmierbig wie schmallz und seine auhgen machd er iemer zu damid das mahn nichd bemergen sohl wie schlächt sie siend und schohn schlächter wie fon einer kaze.</p>
+            <p rendition="#et">Bald mahn dissen mahn auf die Häneraugen triet oder iem die biderne faußt hinhäbt ist er sambft wie eine barmherzinge schwäster und er lischpelt ein gebeth und fordraht die auhgen zun hiemel als wen er gleich hinauffarren mächte, aber bald mahn sich umkert bliezen seine auhgen fohler wuth und er schtiecht einen mit seiner gieftingen zunge wie eine kubfernather und kreizother. Disser mahn ist ein hoher geischlinger und bald er mid dem grösten spiezbuhben fon der welth seine fallschheid auswexeln mus krigt er noch was herauß.</p>
+            <p rendition="#et">Er meint ich weis es nichd aber ich weis es schohn, das er das feldgeschrey ieber mich herausgäben had, das ich ein schand und spoth bien fier das biederne Folk der bauhern, und er schiekt seine haußgnechte, wo sich als die gröhsten lakhel aufweißen am lande heruhm das sie ieber dissen Jozef Filser schimbfen.</p>
+            <p rendition="#et">Mein gelibtes landfolk du brauxt dissen gans schweunernen sählenhandlern nicht zum glauhben sontern klaube an dissen Jozef Filser wo bei dir stet und ein bauernhärz had und blos aus bolidiek bein zändrum ist aber in wierklichkeid nichd sondern bei den anschtendigen mentschen. lase disse geweuchten lugenschiepel nur seiseln und hofen mir das disser Jozef Filser ienen noch sär heifig mid einen wagscheithel ieber die geschwohlköbfe haud.</p>
+            <p rendition="#et">
+               <pb n="540" facs="#f0075"/>
+Disses wiel ich mit freiden folbringen und wiensche auch das ier gesund bleibz bis ich wider kohme.</p>
+            <p rendition="#et">Damid beschliese ich disses buch mit bischäflicher abrabaziohn und bäbschtlinger genähmigung. Tominus fobischkum.</p>
+            <p rendition="#et">hadjeh!</p>
+            <p>fon eiern liben</p>
+            <p>Jozef Filser</p>
+            <p>keniglicher abgeorneter und</p>
+            <p>auserwehlter freind gothes</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Maslans Frau</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118528661">
+                  <forename>Marie</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Ebner-Eschenbach</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:19Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004719883</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Ebner-Eschenbach, Marie von/Erzählungen/Maslans Frau</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/mkth.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-8900-7</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Marie von Ebner-Eschenbach: [Gesammelte Werke in drei Bänden.] [Bd. 1:] Das Gemeindekind. Novellen, Aphorismen, München 1956–1958</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gesammelte Werke in drei Bänden</title>
+                  <title level="m" type="volume">Bd. 1: Das Gemeindekind. Novellen, Aphorismen</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118528661">
+                        <forename>Marie</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Ebner-Eschenbach</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Johannes</forename>
+                        <surname>Klein</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">488 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Winkler Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1956</date>
+                  <date type="firstPublication">1897</date>
+                  <date type="firstPublication" subtype="clariah">1897</date>
+                  <date type="firstPublication" subtype="zeno">1897</date>
+                  <date type="firstPublication" subtype="i5">1901</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1830"
+                        notAfter="1916"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Ebner-Eschenbach-d1e30311">Erstdruck in: Deutsche Rundschau, Berlin, 93. Bd., 1897; erste Buchausgabe in: Gesammelte Schriften, 7. Bd., Berlin (Gebrüder Paetel) 1901.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Marie von Ebner-Eschenbach</p>
+            <p rend="h2">Mašlans Frau</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Ebner-Eschenbach-d1e30311">
+            <p>
+               <pb n="454" facs="#f0001"/>
+Michael Vanka, der alte Doktor von Raudnowitz, saß auf der Bank vor seinem kleinen, ebenerdigen Hause, las eine tschechische Kampfzeitung und kränkte sich. Soviel Haß, Verdächtigung, Verleumdung! Wer nicht zu meiner Partei gehört, ist ein Schuft, sprach mehr oder weniger deutlich aus jeder Zeile.</p>
+            <p rendition="#et">Seufzend legte der Doktor das Blatt zusammen, schob es auf das Fenstergesimse und überließ sich der Betrachtung seines Gärtchens und des anstoßenden Hühnerhofes. Vanka war stark im Auffinden überraschender Vergleiche und verglich denn jetzt den edlen Frieden, der zwischen den verschiedenen Nationalitäten der Tauben, Enten, Gänse, der Kotschinchina – und der gemeinen Haushühner herrschte, mit dem tollwütigen Kampf, den die vielerlei Volksstämme in seinem Vaterlande gegeneinander führten.</p>
+            <p rendition="#et">»Da nehmt euch ein Beispiel«, murmelte er, schon halb im Schlafe. Er war müde, hatte bis zum Morgengrauen beim Müller Matej Mašlan gewacht. Wenn einer Pflege so dringend braucht wie der Mann und keine hat, bleibt dem Arzt nichts übrig, als den Krankenwärter zu machen.</p>
+            <p rendition="#et">»Armer Teufel! Dummer Teufel!« Der Alte lehnte sich zurück und schloß seine kleinen, blauen Augen, die immer in Tränen zu schwimmen schienen. Seine eingesunkene Brust begann sich in tieferen Atemzügen zu heben, seine Hände verschränkten sich im Schoße, sein faltenbedecktes, juchtenfarbiges Gesicht nahm den traurigen Ausdruck an, den alte Leute meistens im Schlafe haben.</p>
+            <p rendition="#et">Plötzlich fuhr er auf. Jemand war an den Gartenzaun getreten und hatte gerufen: »Guten Nachmittag, Herr Doktor!«</p>
+            <p rendition="#et">»Guten Nachmittag«, erwiderte er mechanisch, fügte aber <pb n="455" facs="#f0002"/>
+rasch hinzu: »Ah, der neue Herr Pfarrer sind's!« und sah gleich wieder so würdevoll freundlich aus, wie es sich für einen Mann seines Standes gehört. »Belieben einzutreten. Woher, wohin?«</p>
+            <p rendition="#et">Der ›neue‹ Pfarrer, ein noch junger, großer, breitschultriger Herr im langen Priesterrocke, öffnete das Gitterpförtchen. Ein paar Schritte nur, und er stand in seiner ganzen energischen und imponierenden Erscheinung vor dem kleinen, verschlafenen Doktor: »Woher, fragen Sie? Aus der Waldmühle. Wohin? Ins Dorf. Unterwegs wollte ich mich aber bei Ihnen aufhalten. Es ist mir lieb, daß ich Sie finde, Herr Doktor. Sagen Sie mir, wie steht's mit Ihrem Patienten, dem Müller Matej Mašlan?«</p>
+            <p rendition="#et">»Schlecht, Hochwürden.«</p>
+            <p rendition="#et">»Ist Gefahr? Dringende Gefahr?«</p>
+            <p rendition="#et">»Je nun, wissen«, er zog die Augenbrauen in die Höbe, daß sie beinahe an die Wurzeln der starken, stahlgrauen Haare stießen, die ihm tief in die niedere Stirn wuchsen, »das ist, wie wenn einer auf einer geborstenen Planke über den Abgrund geht. Trägt sie ihn, werd ich mich wundern; trägt sie ihn nicht, werd ich mich nicht wundern. Aber vielleicht trägt sie ihn.«</p>
+            <p rendition="#et">»Der Mann ist verheiratet, wie ich höre«, versetzte der Priester, »und in seiner schweren Krankheit auf fremde Leute angewiesen. Wie kommt das? Orientieren Sie mich. Warum ist seine Frau nicht bei ihm?«</p>
+            <p rendition="#et">»Sind Hochwürden über die Sachlage nicht in Kenntnis gesetzt worden, bevor der alte Herr Kanonikus sich von uns verabschiedete? Er war noch da, wie ich zum Kranken gerufen wurde, gleich nach Ihrer Ankunft hier im Orte. Aber, aber kann's mir denken; er wird nichts gesagt haben, er hat von der Geschichte so ungern gesprochen wie der Kaiser Napoleon von der Schlacht bei Aspern.«</p>
+            <p rendition="#et">»So? Dann bitte ich Sie um Aufklärung. Hat die Frau nicht hier im Orte ein großes Bauerngut?«</p>
+            <p rendition="#et">»Das größte nach dem vom Bürgermeister; doch das ihre ist mir lieber. Wegen der Bewirtschaftung. Wer ihre Felder nicht gesehen hat, hat nichts gesehen. Die Stallungen, und dann das Haus. Wenn ich die Wahl hätte zwischen dem und dem zugigen Schloß...«</p>
+            <p rendition="#et">»So«, unterbrach ihn der Geistliche. »Warum lassen Sie also <pb n="456" facs="#f0003"/>
+den Mann nicht hierherbringen, fort aus der kalten, feuchten Mühle?«</p>
+            <p rendition="#et">»Hierherbringen? Das geht nicht, Hochwürden.«</p>
+            <p rendition="#et">»Warum?« Dieses Wort fuhr ziemlich barsch heraus, und Doktor Vanka gab sich einen Ruck, saß jetzt gerade aufgerichtet, und sein dunkles Gesicht nahm etwas Wehmütig Trotziges an.</p>
+            <p rendition="#et">»Das kann nicht sein«, sagte er noch einmal.</p>
+            <p rendition="#et">Der Pfarrer stimmte den Ton herab: »Er ist wohl nicht transportabel? Dann soll also seine Frau ihn pflegen kommen.«</p>
+            <p rendition="#et">»Das kann sie nicht tun, Hochwürden.«</p>
+            <p rendition="#et">»Kann nicht? Will nicht. Die Leute leben schlecht, mögen einander nicht.«</p>
+            <p rendition="#et">»Ich glaube eher, daß sie einander noch gern haben, besonders sie ihn.«</p>
+            <p rendition="#et">»So? Sie geben mir Rätsel auf. Das ist mir völlig unbegreiflich.«</p>
+            <p rendition="#et">»Unbegreiflich nicht«, sagte Vanka mit einer Art schonender Überlegenheit. »Aber vertrackt, verrückt, wie heutzutage alles. Ja, ja, wenn man die Lampe zu hoch hinaufschraubt, raucht sie.«</p>
+            <p rendition="#et">»Da heißt's also zurückschrauben.«</p>
+            <p rendition="#et">»Das ist nicht immer möglich. Beim Müller Mašlan und seiner Frau ist's nicht möglich. Herr Pfarrer lächeln, meinen: Wird doch möglich sein.«</p>
+            <p rendition="#et">»Sie erraten meine Gedanken. Ich aber kann nicht erraten, wie eine Frau, die ihren Mann gern hat, es übers Herz bringen kann, ihn sterben zu lassen, ohne sich um ihn zu kümmern.«</p>
+            <p rendition="#et">»Was das Kümmern betrifft, Hochwürden, da fehlt nichts. An Kummer fehlt's der Frau so wenig wie dem Büßer an Geißelhieben. Dürfen sie nicht für eine ordinäre Person halten, o bei weitem! Ihre Eltern schon waren brave, tüchtige, sehr wohlhabende Leute und die Evi das einzige Kind. Was das heißt bei reichen Bauern, ich weiß nicht, ob Hochwürden das wissen.«</p>
+            <p rendition="#et">»Nehmen Sie's an, Herr Doktor.«</p>
+            <p rendition="#et">»Dann brauch ich Hochwürden nicht zu versichern: keine Prinzessin wird so verwöhnt. Bei den hohen Herrschaften gibt's freilich alles, schöne Kleider, gutes Essen, prächtiges Wohnen, aber – das eiserne Komment, die vielen Zierlichkeiten und <pb n="457" facs="#f0004"/>
+Amabilitäten, zu denen sie angehalten werden – lauter Kappzäume. Die Evi hat nie etwas von einem Kappzaum gewußt; es ist immer alles nach ihrem Kopf gegangen. Es war im Grund ein ganz guter Kopf, sie ist in der Schule immer die Erste gewesen; daß sie's auf dem Tanzplatz war, versteht sich von selbst. Bei der Arbeit brauchte sie nur anzufassen, wenn es ihr beliebte, ich muß aber sagen, daß es ihr immer beliebt hat. Freilich wußte sie: Wohin ich schau, gehört einmal alles mir, und dem, was ihr gehörte, sollte nichts anderes gleichkommen können.«</p>
+            <p rendition="#et">»Hochmut«, murmelte der Pfarrer.</p>
+            <p rendition="#et">»Und was für einer! Ihr Vater – die Mutter ist früh gestorben –, dem war das recht. So will ich sie, sie kann gar nicht genug auf sich halten.«</p>
+            <p rendition="#et">»Auf sich halten ist doch etwas anderes.«</p>
+            <p rendition="#et">»Gewiß, Hochwürden, gewiß; ich sag auch nur, wie er zu sagen pflegte. Als der Mašlan angefangen hat, sich um sie zu bewerben, da hat der Alte gewettert: Der soll mir kommen, ich schmeiß ihn zur Tür hinaus! Und der Mašlan, das war auch so ein Verwöhnter und auch ein einziges Kind, der Sohn des Schloßgärtners, wissen, und auch bei ihm hat in der frühen Jugend die heilsame Massage gefehlt.« Der Doktor streckte den Arm aus und machte langsam und bedächtig die Gebärde des Fuchtelgebens: »Diese Massage da, richtig angewendet: ein Prachtmittel, die Gesundheit eines ganzen Lebens, das ganze Glück der Zukunft bekommt dadurch ein tüchtiges Fundament. Wenn die Eltern das nur glauben wollten – aber die verstehen gewöhnlich vom Erziehen soviel wie die Kuh vom Seiltanzen. Übrigens hat auch der Mašlan sein Gutes gehabt; in seinem Dienst – er war Büchsenspanner beim alten Grafen – soll er unvergleichlich gewesen sein, und die Equipage hat er aufgeputzt...«</p>
+            <p rendition="#et">»Was hat der Büchsenspanner mit der Equipage zu tun?« unterbrach ihn der Pfarrer.</p>
+            <p rendition="#et">»Oben zu sitzen, Hochwürden, auf dem Bock neben dem Kutscher. Ich hab ihn einmal in Wien gesehen bei einer feierlichen Auffahrt der Toisonisten, in seiner reichen, grünen Uniform, mit dem Bandelier, dem Hirschfänger, den goldenen <pb n="458" facs="#f0005"/>
+Epauletten, dem goldbordierten Dreispitz, auf dem der schneeweiße Federbusch bei jeder Bewegung des Wagens ein wenig geflattert und geatmet hat, wie eine Lunge. Darunter sein schönes, braunes Gesicht... und die Haltung von dem Menschen, die prächtige Gestalt... Die Weiber haben alle zu ihm hinaufgeguckt, und er – die Arme gekreuzt und getan, als ob er dächte: Guckt ihr, ich scher mich den Teufel um euer Gucken!</p>
+            <p rendition="#et">In Wirklichkeit hat er sich aber nur viel zu sehr um die Weiber geschoren, um nichts so sehr wie um sie. Und war ihnen gegenüber ganz gewissenlos und hat sich damit eine miserable Berühmtheit gemacht. Werden ja wissen, daß Unmoralität bei uns nicht gang und gäbe ist, wie in den Gebirgsländern; man kennt's den Leuten an den Gesichtern an; sieht einmal einer vertiert aus, ist der Branntwein schuld, nicht die Unzucht. Die Leute heiraten früh, bekommen eine Menge Kinder und bleiben einander treu. Matej Mašlan war eine Ausnahme mit seiner Nichtsnutzigkeit und ist auch immer bei uns als ein Halbfremder betrachtet worden. Mit Recht. Die Mutter war aus Welschtirol, von der hat er das heiße Blut und vom slawischen Vater den Stützkopf.«</p>
+            <p rendition="#et">»So? Also wird seine Frau den ihren von Vater und Mutter haben?«</p>
+            <p rendition="#et">»Jawohl, Hochwürden.«</p>
+            <p rendition="#et">»Stützköpfe bringt man zurecht, Herr Doktor.«</p>
+            <p rendition="#et">Vanka strich mit der Hand über den heute sehr unvollkommen rasierten unteren Teil seines Gesichtes, um das Lächeln zu verbergen, das ihm diese Bemerkung entlockte: »Ja, Hochwürden, so hat damals der Vater der Evi gesprochen. Nachdem er zwanzig Jahre lang ihren Willen getan hat, versuchte der Mann auf einmal, seinen eigenen durchzusetzen. Das hat sie empört, und sie hat...«</p>
+            <p rendition="#et">»Ich kann mir denken, was sie hat«, fiel ihm der Pfarrer mit Entrüstung ins Wort. »Sie hat den Vater dahin gebracht, ihren Geliebten noch bitten zu müssen: Nimm sie!«</p>
+            <p rendition="#et">»O nein, nein! entschuldigen Hochwürden, da irren. Die Evi – da hat's nur einer probieren sollen, die ist wie Hermelin gewesen, o die! Hat sich eine ganz andre Art ausgedacht, den Vater für seine Weigerung zu strafen. Eine viel ärgere. Sterben <pb n="459" facs="#f0006"/>
+wollte sie, und der Mašlan mit ihr. Da sie nicht miteinander leben durften...«</p>
+            <p rendition="#et">Abermals unterbrach ihn der Pfarrer: »Wollten sie miteinander sterben. Nur so ohne weiteres. Was liegt an der Todsünde, an der ewigen Verdammnis!«</p>
+            <p rendition="#et">Der Doktor schüttelte mit leiser Mißbilligung den Kopf: »Alles, Hochwürden, alles liegt daran. Aber so junges Blut ist wie Brausepulver... Der Allmächtige muß Veranlassung zur Gnade gefunden haben; sie hat sichtbarlich über den beiden gewaltet. Sie hatten alles klug eingerichtet und geheimgehalten. Ein Wunder muß man es nennen, daß ihnen das Verbrechen erspart blieb. Ein Wunder hat den Herrn Grafen an die Stelle im Wald geführt, die sie sich zum Schauplatz ihres aberwitzigen Entschlusses ausgesucht hatten. Er ist gerade noch zurechtgekommen, um dem Mašlan die Pistole aus der Hand zu schlagen, mit der er zuerst die Evi und dann sich erschießen wollte. Er hatte schon den Finger am Drücker, der Schuß ist losgegangen, und die Kugel hat der Evi die Stirnhaut aufgerissen. Der rote Streifen war noch deutlich unter dem Brautkranz zu sehen, wie sie am Altar gestanden ist. Dem Herrn Grafen ist es nämlich nachher gelungen, die Heirat seiner Geretteten, wie er die jungen Leute nannte, beim Vater durchzusetzen. Das hat sich 1867 begeben, ein Jahr, nachdem die beiden Söhne des Grafen im Feld geblieben waren; der eine am 24. Juni in Italien, der andere am 3. Juli in Böhmen. Ihre Mutter ist ihnen bald nachgestorben. Im Schloß herrschte eine unbeschreibliche Traurigkeit. Den Herrn Grafen hat nach dem Tod seiner Kinder und seiner Frau rein nichts mehr gefreut, nicht einmal die Jagd. So war der Büchsenspanner immerwährend auf Ferien. Hat sich zu Haus gehalten bei seiner Evi und, besonders nachdem ihr Vater das Zeitliche gesegnet hatte und sie unumschränkte Herrin des Hofes geworden war, sich fleißig in der Wirtschaft umgetan. Hat auf dem besten Weg geschienen, ein tüchtiger Landwirt zu werden.</p>
+            <p rendition="#et">Ein Kindlein ist auch gekommen, freilich nur ein Mädchen. Und er hatte die ganze Zeit über renommiert: Mein Bub soll... Mein Bub muß.. ›Mašlan‹, sagte ich einmal, ›wenn's aber ein Mädel wird?‹-›Dann ist's nicht das meine‹, schreit er, ›dann verleugn' ich's.‹</p>
+            <p rendition="#et">
+               <pb n="460" facs="#f0007"/>
+Nur ein Spaß, ein dummer. Seine Frau ist aber doch bös geworden und hat ihm zugerufen: ›Versündig dich nicht.‹ – Das sind kleine Wolken gewesen, solche, die einen schönen blauen Himmel nur noch schöner machen. Bei der Geburt des Kindes war die Frau einen halben Tag lang zwischen Leben und Tod und Matej vor Verzweiflung völlig außer sich. Dann wieder, als das Kind endlich erschien, außer sich – vor Glück. Fragte nicht einmal, ob Bub oder Mädel. Daß er's nur hatte, daß es da war, bildhübsch, frisch und gesund. Und trieb's mit der Kleinen mehr als die Mutter. Leider ist das Kind, kaum ein Jahr alt, gestorben. Schlimm für die Leute, ein erster Nagel zum Sarg ihres Glückes. Wer weiß, ob nicht alles anders gekommen wäre, wenn das herzige Dirnlein gelebt hätte.</p>
+            <p rendition="#et">Im Spätherbst 1869 ist etwas Unerwartetes geschehen. Der Herr Graf hat den Bitten der Verwandten nachgegeben und sich entschlossen, den Winter einmal wieder in Wien zuzubringen. Daß der Büchsenspanner ihn begleitet, haben Herr und Diener selbstverständlich gefunden. Beileibe aber nicht die Frau des Büchsenspanners. Sie hat nicht anders gedacht, als daß der alte Herr sich von Raudnowitz nie wieder fortrühren werde. Geschieht es aber, dann muß er ihren Mann beurlauben. Ihr Mann bleibt bei ihr. Mašlan wieder sagt: ›Umgekehrt ist auch gefahren: meine Frau bleibt bei mir. Ich bin kein freier Mensch, ich steh im Dienst des Grafen und kann meinen Herrn nicht verlassen.‹</p>
+            <p rendition="#et">Hochwürden, ich bin just dazugekommen, wie der Streit losgebrochen ist. Das Vorspiel zu dem, was sich später ereignen sollte. Es war mir arg fatal. Helfen konnt ich nicht, nur zusehen, wie die zwei immer mehr in Zorn gerieten, er in heftigen, sie in stillen. ›Seinen Herrn kann er nicht verlassen‹, sprach Evi mit einer furchtbaren Bitterkeit an ihm vorüber zu mir. ›Aber seine Frau, die wohl. Was liegt ihm an der? Was liegt ihm daran, daß sie wieder ein Kind erwartet, daß sie wieder einer schweren Stunde entgegengeht?‹</p>
+            <p rendition="#et">Mir blieb nichts übrig, als mich einzumischen, und ich gab eigentlich ihr recht und meinte, er hätte dazubleiben. Es schien mir auch geraten, einen kleinen Scherz einzuflechten. Ein Scherz beschwichtigt manchmal erregte Gemüter, wirkt wie ein kühles Lüftchen an heißen Tagen. So droht ich ihm: ›Sie sehnen sich <pb n="461" facs="#f0008"/>
+halt danach, wieder zu paradieren auf dem Bocke bei den Auffahrten.‹ Er wurde rot und brach aus: ›Komm mit, Evi! Du bist in der Stadt besser dran als hier; ich kann meinen Herrn nicht verlassen, aber ich kann auch nicht ohne dich sein.‹ Mit ausgebreiteten Armen ist er auf sie zugegangen und sie ihm ausgewichen, förmlich scheu, wie einem Irrsinnigen. Hat er denn gänzlich den Kopf verloren? Sie mit ihm gehen, fort von ihrer Wirtschaft, wo man sie nicht einen Tag entbehren kann; betrunken oder verrückt muß sein, der ihr so etwas zumutet. Aber sie weiß sich zu helfen, sie geht zum Grafen. Er natürlich der Frau auf dem Fuße nach, und so stehen sie vor dem alten Herrn. In früherer Zeit hätte der gleich ein Machtwort erlassen: Das geschieht! Jetzt sucht er nur zu beschwichtigen und es soviel wie möglich den andern und – sich selbst recht zu tun.</p>
+            <p rendition="#et">›Kinder, Kinder, das hättet ihr früher miteinander ausmachen müssen‹, so beiläufig soll er gesprochen haben. ›Als ich dem Mašlan erlaubt habe zu heiraten, hat es sich mir von selbst verstanden, daß er bei seiner Frau bleibt. Wenn er aber durchaus mit will nach Wien... Meine liebe Evi, ich bin alt, ich gewöhne mich nicht leicht an ein neues Gesicht, und um meinetwillen werden Sie sich von Ihrem Mann nicht mehr oft zu trennen brauchen. Sehr bald tret ich eine Reise an, auf der mich niemand begleiten wird – dahin.‹ Er deutete nach der Richtung, in der die Gruft liegt.. ›Also tut, was ihr wollt.‹</p>
+            <p rendition="#et">An dem Tag muß noch ein heftiger Auftritt zwischen den Eheleuten stattgefunden haben, denn am Abend, da ich Mašlan im Gasthaus traf, das er seit seiner Verheiratung nur in Gesellschaft seiner Frau betreten hatte, glühte er noch wie ein angeblasener Hochofen. Ausgesprochen hat er sich mir gegenüber nicht, obwohl wir allein waren im Honoratiorenzimmer, nur im allgemeinen gewettert über den Eigensinn der Weiber und über Bauernstolz.</p>
+            <p rendition="#et">Sie hingegen ist auch damals immer die Ruhe, die Würde selbst geblieben, und mit ihm war sie freundlich; freilich nur, sozusagen – beiläufig, so gewiß wie die Wintersonne um vier Uhr nachmittags, und zu den Leuten hat sie gesprochen: ›Mein Mann geht ungern fort; es bleibt ihm aber nichts anderes übrig. Was soll er tun? Der arme, alte Herr entbehrt ihn gar zu<pb n="462" facs="#f0009"/>
+ schwer, er möcht sich völlig verlassen vorkommen ohne den; Matej.‹</p>
+            <p rendition="#et">Knapp vor der Abfahrt ist der noch zu mir gelaufen und hat mich gebeten, ihn zu avisieren, sobald es Ernst werden sollte bei seiner Frau. Lieber natürlich wäre es ihm, erst zur Taufe gerufen zu werden. Wenn seine Anwesenheit seiner Evi aber ein Trost ist – nu denn! soll ich halt schreiben oder telegraphieren.</p>
+            <p rendition="#et">Nicht drei Wochen sind vergangen, und schon war ein Brief von ihm da. Sie hat mir ein paar Stellen daraus vorgelesen. Lauter Liebe und Sehnsucht – eine fressende Sehnsucht. Ungeschickt ausgedrückt, sogar ungern, ist einem vorgekommen, wie wenn sich einer schämt, nicht eingestehen möchte, was ihm in der Seele brennt, und sich doch verrät, widerwillig verrät!</p>
+            <p rendition="#et">›Wenn ich ihn besuchen ginge für einige Tage, was wär's?‹ fragte sie.</p>
+            <p rendition="#et">›Ein Unsinn‹, mußt ich ihr antworten, ich konnte sie nicht reisen lassen. Es ist ihr ja durchaus nicht gut gegangen. Der hinuntergeschluckte Kummer und Zorn – sowas rächt sich. Was sie im stillen durchgemacht haben mag, hat wohl nicht einmal ihr Beichtvater erfahren. Ihr Zustand dazu... Ich machte ihr einen Vorschlag: ›Ich weiß was, Mašlan soll sich für eine kurze Zeit Urlaub ausbitten beim Herrn Grafen.‹ Aber damit bin ich abgeblitzt. Das ging nicht, daran war nicht zu denken. Sollte sie sich Lügen strafen? Hatte sie doch selbst den Leuten versichert, der Herr Graf könne nicht sein ohne den Matej, nicht einen Tag! Das also nicht. Und wie sie ihn kennt, täte Matej es auch nicht, aber – und dabei hat sie mich seltsam angesehen: ›Wer weiß, ob es nicht ein größeres Unglück ist, daß ich jetzt nicht zu ihm darf, als wenn ich ums Kind käme.‹</p>
+            <p rendition="#et">Bald darauf ist, trotz aller Vorsicht, was ich fürchtete, doch eingetreten. Ich habe dem Mašlan schreiben müssen, daß seine Frau eine Fehlgeburt getan hat (diesmal wär's ein Bub gewesen), konnte ihm aber zugleich versichern, daß er keine Sorge um sie zu haben brauche. Sie hat sich rasch und vollständig erholt, war wieder so tätig wie je in ihrer Wirtschaft und ist beim Herannahen des Frühlings im schönsten Flor gestanden; <pb n="463" facs="#f0010"/>
+ein bißchen blaß noch – eine gesunde Maiglockenblässe, und auch sonst ganz Maiglocke, so frisch und hold und ernst. Ich mußt oft denken, ob das ein Unglück wäre, wenn ihrem Mann etwas zustieße. Es wäre kein Unglück, nur ein Schmerz. Sie würde ihn betrauern, ihn im besten Andenken behalten und sich vielleicht mit der Zeit entschließen, einen andern zu nehmen, der besser für sie gepaßt hätte.«</p>
+            <p rendition="#et">Der Doktor seufzte, und über das energische Gesicht des Geistlichen blitzte ein Lächeln. Er sah zu dem kleinen Alten, der in sich zusammengesunken neben ihm kauerte und eben von neuem das bunte Taschentuch zog und bedächtig entfaltete, mitleidig erstaunt nieder und sagte nur: »So, so?«</p>
+            <p rendition="#et">»Statt Ende April, wie bestimmt war«, fuhr Vanka fort, »ist der Herr Graf schon anfangs März zurückgekommen. Die ganze Beamtenschafe und Dienerschaft war im Hof versammelt, um ihn zu erwarten; auch Frau Evi war da. Als der Wagen vor dem Schloßtor hielt, stürzten ihm die Lakaien entgegen, um den Schlag zu öffnen, und Mašlan sprang mit einem Satz vom Kutschbock herunter und eilte auf Evi zu. Sprechen konnte er nicht, aber die Augen funkelten ihm – ach Gott, was für ein schöner Mensch war er! Und sie, stehengeblieben und ihn erwartet und ihn angesehen, so freudig, so selig, so stolz und so bescheiden, Hochwürden – wie eine Braut. Jedem ist's aufgefallen – wie eine Braut.«</p>
+            <p rendition="#et">Vanka rieb sich die Nase mit dem Zeigefinger, den ein breiter goldener Siegelring schmückte. »Die Freude hat nicht lang gedauert«, sprach er nachdenklich. »Viel länger die Mißstimmung, die nachher eingetreten ist, von der keines der beiden etwas merken lassen wollte und die sich doch verraten hat, wie sich das Fieber durch die Hitze verrät. – Das kam so: Eine von der Dienerschaft konnt es nicht unterlassen, die Evi zu necken, zu fragen, ob sie den Mašlan auch tüchtig ins Gebet genommen, sich erkundigt habe, ob er ihr treu gewesen sei den ganzen Winter? Evi lachte dazu, war ihres Mannes sicher! Aber die andre gab so lang keine Ruhe mit ihren Sticheleien, bis die Frau endlich stutzig wurde. Jetzt war's aus. Sie wollte wissen, wie's steht, sie hat in ihn gedrungen, ihr die Wahrheit zu sagen. Und er, ein Gemisch von Ehrlichkeit und Falschheit, wie er von jeher <pb n="464" facs="#f0011"/>
+war, hat gestanden. Was für eine Demütigung das gewesen ist für das stolze Weib, können Hochwürden sich vorstellen. Da ist also dann die lange Zeit der Mißstimmung eingetreten. Aber auch die hat ein Ende genommen, und dann war's, als ob die gestaute Liebe mit verzehnfachter Gewalt wieder hervorbräche. Zu viel, zu heftig, mir ist die Sache gleich nicht geheuer vorgekommen. Die Frau hat, um nur ganz ihm zu Gefallen zu leben, ihren eigenen Geschmack verleugnet, ihre zweite Natur – ihre Solidität. Sie hat sogar die Wirtschaft vernachlässigt. Und Mašlan die Freiheit, die der Graf ihm spendierte, ausgenützt, zeigen wollen, wie gut es ihm geht und wie glücklich er ist. Die größte Gastfreundlichkeit ausgeübt, eingeladen, traktiert und auch mit seiner jungen Frau alle Unterhaltungen mitgemacht, die es in der Gegend gegeben hat. Sie wird wohl gehofft haben, daß sie ihn auf die Art herumkriegt und daß er sie nicht mehr verlassen wird. Weit gefehlt! Im Spätherbst ist es genauso gegangen wie im vorigen Jahr. Er wieder: ›Komm mit! Wenn ich dich hab, denk ich an keine andre.‹ Und sie: ›Ich kann nicht; es ist ohnehin die höchste Zeit für uns beide, zum Rechten zu sehen.‹</p>
+            <p rendition="#et">Verzeihen Hochwürden, daß ich so ausführlich bin«, unterbrach sich Doktor Vanka, als der Pfarrer unwillkürlich ein Zeichen der Ungeduld gegeben hatte. »Mit der Geschichte dieses einen Jahres erzähl ich zugleich die der folgenden Jahre. Es war immer dasselbe, nur – verstehen Hochwürden, die Dimension ist gewachsen. Nach jeder Trennung hat Mašlan; seiner Frau Schwereres abzubitten gehabt, und so wurde ihr denn natürlich auch das Verzeihen immer schwerer.« Er hielt inne, seine Brust hob sich zu einem langen, tiefen Atemzuge. »Nun, ihre Liebe hat auch das Schwerste aufgewogen; es war eine magnifique Liebe; sie ist gewachsen mit dem Kummer, den sie um den Taugenichts erdulden mußte, und glorreich aus jeder Prüfung hervorgegangen.</p>
+            <p rendition="#et">Arme Evi!</p>
+            <p rendition="#et">Zuletzt machte der liebe Mašlan gar keinen Anspruch mehr auf ihre Begleitung. Das Leben, das er sich eingerichtet hatte, paßte ihm ja wie auf den Leib geschnitten. Im Winter lustig in Wien, in der schönen Uniform glänzen und prunken, im Sommer <pb n="465" facs="#f0012"/>
+wieder lustig im Haus der Frau, den Herrn spielen und Gnaden austeilen. Beim letzten Abschied hatte er ihr ganz heiter zurufen: ›Auf Wiedersehen im Frühjahr!‹</p>
+            <p rendition="#et">Das war im Schloßhof bei der Abfahrt des alten Herrn. Alles voll Leut und alle sich um den Wagen gedrängt. Ich habe ich hinter Frau Evi gestellt, weil ich dachte, sie könnt zusammenbrechen. Wirklich ganz danach hat sie ausgeschaut. Wie der Mann ihr denn sagt: ›Auf Wiedersehen im Frühjahr!‹ gibt eine herbe Antwort: ›Oder auch nicht; es kommt auf dich an.‹ Er ist förmlich zurückgefahren und hat mit großer Zärtlichkeit, ja, ja, ich muß es sagen, und völlig schmerzlichem Vorwurf ausgerufen: ›Evi! ...‹ Da erblickt er aber mich und merkt, daß ich ihre Worte gehört habe, wirft sogleich den Kopf in den Nacken, lacht auf, küßt sie und springt auf den Bock.</p>
+            <p rendition="#et">Ein paar Monate sind vergangen; mit Schreiben hat sich Mašlan in der Zeit nicht angestrengt, wie ich glaube. Alle Sonntage, wenn ich seine Frau am Ausgang der Kirche traf, nach der eiligen Messe, sprach ich sie an: ›Gute Nachrichten aus Wien, Frau Mašlan? Was schreibt Ihr Mann?‹ – und immer dieselbe Antwort: ›Jetzt eine Weile nichts. Morgen erwarte ich einen rief von ihm.‹ Wie oft so ein erwarteter Brief gekommen ist, reiß ich nicht; daß auf einmal einer da war, den sie nicht erwartet hatte, haben nachträglich nur zuviel Leute erfahren. Es war ein Brief von einem Frauenzimmer, Hochwürden, von einem jungen Mädchen, das der Mašlan niederträchtig betrogen hatte. Es scheint, daß die Person bis dahin brav und unschuldig gewesen ist. Aber dem Mašlan widerstand nicht leicht eine. In diesem Falle wendete er überdies eine falsche Vorspiegelung an, ab sich für ledig aus und versprach seiner Geliebten das Heiraten. Wie sie hinter den Betrug gekommen ist, war schon alles hin, Ehr' und Reputation und ihre Stelle in einem guten Haus. Eingestellt aber haben sich die Folgen von dem Verhältnis. Was hat die Unglückliche anfangen sollen? Mašlan war der letzte, bei dem sie Rat und Hilfe gefunden hätte. In ihrer Verzweiflung, was tut sie? Sie schreibt an die Frau – eben den rief, von dem ich Hochwürden sagte. Am Tag drauf, das hab vom Postboten erkundschaftet...«</p>
+            <p rendition="#et">»Erkundschaftet? So, so«, fiel hier der geistliche Herr ein mit <pb n="466" facs="#f0013"/>
+einer Nuance von Wegwerfung, und der Doktor seufzte einmal wieder tief auf.</p>
+            <p rendition="#et">»Ja, Hochwürden, die Sache hat mich interessiert. Und auch andre als ich dürften gewußt haben, daß einen Tag nach der Ankunft des Briefes aus Wien mit der fremden Schrift ein dicker, mit viel Geld beschwerter von Frau Evi dem Boten übergeben worden ist. An diesem Tag war sie nirgends zu sehen, nicht auf einem ihrer Felder, nicht im Hof, nirgends. Der nächstfolgende dann war ein Sonntag, und sie ist in die Kirche gekommen. Mir wäre nichts an ihr aufgefallen; nur größer hat sie mir geschienen. Sie muß sich ganz besonders gerade gehalten haben. Nach der heiligen Messe sprach ich sie an, stelle meine gewöhnliche Frage, erhalte aber nicht die gewöhnliche Antwort, vielmehr die: ›Ich erwarte keinen Brief von ihm‹, wendet sich und läßt mich ganz verblüfft stehen.</p>
+            <p rendition="#et">Einen Frühling haben wir in dem Jahr in unserer Gegend gehabt, ich denk keinen schönern. Auch war der März noch nicht zu Ende, und schon ist die Rückkehr des Herrn Grafen angekündigt worden. Er wußte, wie es mit ihm stand, und wollte in seinem Raudnowitz sterben. Ich habe geholfen, ihn aus dem Wagen zu heben, und mir gleich gedacht: Zur nächsten Ausfahrt heben wir ihn im Sarg auf den Leichenwagen.</p>
+            <p rendition="#et">Verzeihen, Hochwürden, wenn ich eine Reflexion mitteile, die ich um die Zeit herum und auch später mehrmals gemacht habe. Die Menschen sterben – der eine zu früh, der andre zu spät und nur die wenigsten im richtigen Moment, so denn auch unser Herr Graf. Wäre der Tod, nach dem er sich aufs innigste sehnte, statt im Frühjahr 1874 im Herbst 1873 bei ihm eingetreten, viel Unglück wäre verhütet worden. Mašlan hätte keinen Grund oder keine Ausrede mehr gehabt, nach Wien zu fahren, wäre bei seiner Frau geblieben, und, das muß man ihm lassen, solang er bei ihr gewesen ist, hat er keine andre angeschaut. Die Ehe hätte sich mit der Zeit ganz glücklich gestalten können, und die arme Person in Wien wäre vielleicht heute noch auf ihrem Platz oder hätte einen braven Mann gefunden...«</p>
+            <p rendition="#et">»Hätte! hätte! Die Menschen sterben, wann es dem Herrn gefällt, sie abzurufen«, versetzte der Pfarrer. »Sie möchten Vorsehung spielen, Herr Doktor, scheint mir.«</p>
+            <p rendition="#et">
+               <pb n="467" facs="#f0014"/>
+»Gott soll mich behüten, Hochwürden – eine Reflexion habe ich mir erlaubt mitzuteilen, ohne jeden Neben- und Hintergedanken. Nun, es kam, wie es mußte: Zum erstenmal war Evi nicht unter denen, die das Hereinfahren der gräflichen Equipage vor dem Schloß erwarteten. Mašlan guckte, guckte, wandte sich an mich: ›Ist ihr was, Herr Doktor?‹ -›Meines Wissens nicht.‹ Er zuckte die Achseln und lächelte hochmütig und kümmerte sich um nichts mehr als um seinen alten Herrn. Wieder – alles, was recht ist: Ein liebreicher Sohn kann seinen Vater nicht sorgfältiger betreuen, als er den Greis betreut hat. Der litt ihn aber nicht lang da. ›Geh zu deiner Frau‹, befahl er und entließ uns beide; er wollte allein sein. Mašlan und ich hatten denselben Weg. Der meine führte am Hause seiner Frau vorbei. Im Anfang des Dorfes begegnete uns der Herr Kanonikus, der von dem, was sich begeben hatte, mehr wußte als wir, und zwar aus der ersten Quelle. ›Ihr! Ihr!‹ sagte er zu dem Ankömmling, ›Ihr habt wieder schöne Sachen getrieben!‹ Mašlan lächelte auch ihn an wie früher mich; nicht so hochmütig vielleicht. Ich weiß nicht, mir hat manchmal geschienen, als ob er so wenig Gewissen hätte und die Reue so wenig kennen würde wie ein Tier. Das hat ihm denn auch eine Art Unschuld gegeben, eine Tierunschuld. Ihm ahnte nichts Böses, er dem geistlichen Herrn die Hand geküßt und weitergeeilt, immer schneller, immer ungeduldiger, und als wir ankommen, was finden wir? – Die Tür versperrt.</p>
+            <p rendition="#et">Er klopft: ›Evi, Evi, mach auf, ich bin's.‹ Keine Antwort. ›Ich bin's, Matej! ich, dein Mann!‹ Ein paar Kinder sind ihm nachgelaufen, andre kommen dazu, er ist ja die populärste Persönlichkeit bei der Dorfjugend, wird immer sehnsüchtig erwartet und jubelnd begrüßt. ›Ist meine Frau nicht da?‹ fragt er einen der Buben. ›Habt ihr meine Frau nicht gesehen?‹ Doch, der eine hat sie gesehen, den Augenblick ist sie aus dem Garten herübergekommen und ins Haus gegangen. Nun fängt die Sache an, ihm befremdlich zu werden, er tritt an eines der Fenster, blickt hinein, und richtig, er sieht sie – mitten im Zimmer stehen.</p>
+            <p rendition="#et">Nun hat er ans Fenster geklopft und gerufen: ›Evi, Evi! Bist taub? bist blind? ... Oder am End gar bös? Ich glaub's nicht, Evi, ich frag nur... Evi, Evi, ich mach dich wieder gut, hör <pb n="468" facs="#f0015"/>
+mich nur an...‹ So sagt er und dergleichen noch vieles und hat dann angefangen, zornig zu werden, sich zur Türe zurückbegeben und an ihr gerüttelt. Es waren nach und nach eine Menge Leute zusammengekommen, sie haben ihn angesprochen, wollten wissen, was es gibt. Er niemanden angeschaut, niemandem geantwortet, sich an die Tür gepreßt, als ob er mit ihr verwachsen wollte, und gerufen, geschrien, zuletzt geweint: ›Evi, Evi, so bös bist du, daß du mir nicht einmal erlauben willst, dich zu bitten: Verzeih mir, Evi, meine Evi!‹</p>
+            <p rendition="#et">Vor dem halben Dorfe hat er sich so gedemütigt, der eitle Mensch, sich in der Raserei seiner Verzweiflung auf die Knie geworfen und mit der Stirn an die Tür geschlagen.</p>
+            <p rendition="#et">Allerlei Stimmen haben sich erhoben, der kleine Schuhmachermeister zu singen angefangen:</p>
+            <p>Bauer, steh auf,</p>
+            <p>Futter dein' Schimmel,</p>
+            <p>Prügel dein Weib,</p>
+            <p>So kommst in' Himmel.</p>
+            <p>Ein Gemeinderat stopft seine Pfeife und sagt: ›Das könnt mir einfalln, und wenn ich in Wien fünfe ausgehalten hätt, vor meiner eigenen Tür zu betteln und zu flennen.‹ Der Schmied schaut herunter zu seinen Riesenfüßen und flucht: ›Der Teufel soll mich holen, wenn ich die Tür nicht eintreten tät und die durchwichsen, die dahinter steht.‹</p>
+            <p rendition="#et">All das Gerede war dem Mašlan wie Blätterrauschen. Aber plötzlich ist er aufgesprungen, hat sich neuerdings an die Tür gelehnt, den Mund an den Spalt gedrückt und gerufen, gar nicht sehr laut, aber durch Mark und Bein ist's einem gegangen. ›Evi, hör zu, du hörst mich, ich weiß, daß du mich hörst. Wenn du nicht aufmachst, gleich – verstehst mich, gleich? –, komm ich über diese Schwelle nimmer, und wenn du auf den Knien liegen tätest, wie ich vorhin gelegen bin, und wenn du mich mit ausgebreiteten Armen bitten tätest: Komm! Das schwör ich, Evi, bei Gott dem Allmächtigen, und mög er mich in meiner letzten Stund verlassen, wenn ich den Schwur breche.‹</p>
+            <p rendition="#et">In dem Augenblick hat man den Riegel zurückschieben gehört, ganz langsam ist die Tür aufgegangen, daß Mašlan Zeit hatte, <pb n="469" facs="#f0016"/>
+auszuweichen. Da wurde gelacht: ›Aha, aha, die Evi! Sie gibt nach, so muß man ihr kommen!‹</p>
+            <p rendition="#et">Mašlan stößt einen Freuden- und Triumphschrei aus – zu früh Die auf die Schwelle getreten ist, die Frau, denkt nicht dran, klein beizugeben. Statt ihr entgegenzustürzen, erschrickt er und taumelt vor ihr zurück. Sie hat ausgesehen wie eine eiche mit lebendigen Augen; und entsetzlich war, wie sie mit einer erloschenen, aber sehr festen Stimme gesprochen hat: ›Schwur gegen Schwur. So heilig wie du, im Angesicht Gottes wie du, schwör ich, daß ich mein Haus lieber mit eigener Hand anzünden werde als zu dir sagen: Tritt ein.‹</p>
+            <p rendition="#et">Da waren viele Männer entrüstet: ›Hoho!‹ hat man durcheinanderrufen gehört, ›du hast nicht zu schwören, du hast zu gehorchen, und der Mann hat zu befehlen, so steht's im Gesetz.‹ Mašlan achtete nicht auf die Einmischung, und, ich bitte Hochwürden, das Gesetz war doch wohl das letzte, auf das sich der berufen hat, wenn er Weibern gegenüber seinen Willen durchsetzen wollte. So höhnte er auch jetzt: ›O du! Davor keine Angst! Von mir aus bist du assekuriert. Bleib du allein in deiner Bauernbaracken. Und wenn die Reu dich packt, schluck sie! Untersteh dich nie, zu mir aufs Schloß zu kommen. Bei mir gibt's kein Verzeihen; ich tät dich jagen wie einen bissigen Hund!‹</p>
+            <p rendition="#et">Wer sie kennt, weiß, daß jedes Wort ihr eine giftige Wunde ins Herz gerissen hat. Sie verriet sich aber nicht, sie kreuzte die Arme, sah ihn an und sprach: ›Matej, Matej, vielleicht kehrt die Reu früher bei dir ein als bei mir, dann wirst du mich schon rufen.‹</p>
+            <p rendition="#et">Er, rot geworden wie glühendes Eisen und getobt und gewettert: ›Ich dich rufen? lieber in die Hölle fahren! ... Ich ruf dich nicht... und wenn der Satan die Hand nach mir ausstrecken tät und niemand als du mich retten könnt – ich ruf dich nicht! ...‹«</p>
+            <p rendition="#et">»Was für Reden! was für Reden!« murmelte der Priester unwillig.</p>
+            <p rendition="#et">»Der bare Aberwitz, Hochwürden. Auch Evi scheint das gefunden zu haben und ist immer ruhiger geworden, und als er wie ein Toller noch einmal schrie: ›Gott ist mein Zeuge, ich ruf <pb n="470" facs="#f0017"/>
+dich nicht!‹ hat sie langsam und feierlich den Arm erhoben, die Schwurfinger ausgestreckt und so laut gesprochen, daß der letzte, der da gestanden ist, es hören mußte: ›So wahr Gott lebt, ich komm nicht ungerufen.‹</p>
+            <p rendition="#et">Kalt ist es einem über den Rücken gelaufen, und die Worte haben mehr Eindruck gemacht als alles Toben Mašlans. Er wollte noch etwas sagen, konnt nicht, die Wut würgte ihn, hatte ihn am Hals gepackt wie eine Beißzange. Von dem Tag an haben die Eheleute nicht mehr miteinander geredet.«</p>
+            <p rendition="#et">»Nicht mehr? und müssen einander doch sehen, begegnen.«</p>
+            <p rendition="#et">Der Doktor setzte eine neuerliche Entfaltung des karierten Taschentuches ins Werk, bediente sich seiner umständlich und lärmend und erwiderte: »Sehen und begegnen einander, ganz recht, Hochwürden. Zum Beispiel waren sie schon bald nach dem großen Auftritt beide zugleich in der Gruftkapelle bei der Beerdigung des Herrn Grafen. Mašlan derart in Schmerz aufgelöst, daß er sogar denen leid tat, die ihn am wenigsten mögen. Evi eiskalt und eher trotzig dreingeschaut. Sie wird wohl gedacht haben: Um mich würdest du nicht weinen wie um deinen toten Herrn. Zehn Jahre sind seitdem vergangen. In seinem Testamente bestimmte der Herr Graf, daß Mašlan die herrschaftliche Mühle in Pacht haben soll, unter Bedingungen, bei denen er leicht ein wohlhabender Mann hätte werden können. Er hat sich aber seiner Sach im Anfang wenig angenommen. Erst in letzter Zeit ist er ordentlicher geworden. Wer weiß warum – vielleicht die Jahre, vielleicht, weil seine Gesundheit ausspannt...«</p>
+            <p rendition="#et">»Warum sagen Sie nicht einfach: durch die Gnade Gottes?« fragte der geistliche Herr.</p>
+            <p rendition="#et">Der Doktor reagierte nicht darauf. »Ich betrachte mir die zwei Leute, wenn sie am Sonntag in die Kirche kommen«, fuhr er fort. »Er in der ersten Bank rechts, sie in der ersten Bank links. Früher haben sie vermieden, einander zu treffen, beim Eingang oder beim Ausgang; jetzt nicht einmal mehr das...«</p>
+            <p rendition="#et">»Und wohnen dem heiligen Liebes- und Versöhnungsopfer unversöhnten Herzens bei?«</p>
+            <p rendition="#et">»Äußerlich unversöhnt wohl, aber wer weiß, was in ihren Herzen vorgeht!«</p>
+            <p rendition="#et">»Ich will suchen, es zu erforschen«, versetzte der Priester und <pb n="471" facs="#f0018"/>
+erhob sich. »Wenn die Frau wirklich noch einen Funken Liebe für ihren Mann, übrig hat, wird sie auch Erbarmen mit ihm haben. Ich werde ihr Erbarmen mit dem Sterbenden anrufen, und hoffentlich nicht umsonst... Sie zweifeln?« unterbrach er sich mit einem mißbilligenden Blick auf Vanka, der die Achseln zuckte.</p>
+            <p rendition="#et">»Leider kann ich nicht zweifeln, Hochwürden, weil ich weiß, daß hier nichts mehr zu hoffen ist.«</p>
+            <p rendition="#et">»Davon will ich mich selbst überzeugen.«</p>
+            <p rendition="#et">Er verabschiedete sich, und der Doktor sah dem stattlichen Herrn nach, der, rasch und energisch ausschreitend, den Weg ins Dorf einschlug.</p>
+            <p>Das Haus Frau Mašlans lag auf dem ziemlich großen und ziemlich gut gehaltenen Platze des Dorfes, dem Teiche gegenüber, zu dem hin das Terrain sich senkte. Als Seitenstück zum siebenhügeligen Rom durfte Raudnowitz sich die siebenbucklige nennen, denn nicht weniger Erhöhungen bildete der Boden, auf dem die Ortschaft erbaut war. Den höchsten von allen krönte das stattlichste Gehöft. Sein mit Schieferplatten gedecktes Dach überragte alle, sogar die ansehnlichsten Bauernhäuser, die den Platz nach rechts und links im unregelmäßigen Halbkreis umschlossen.</p>
+            <p rendition="#et">Der Pfarrer trat in das Vorgärtchen. Es war von einem grün angestrichenen Lattenzaun umgeben, und am Eingang standen zwei riesige Sonnenblumenstauden wie ein paar Wächter. Ein breiter, gut besandeter Weg führte zwischen Gemüsebeeten geradehin zu den gemauerten Stufen der Haustür, teilte sich dort und lief dem Obstgarten hinter dem Hause zu. Junge Birn und Aprikosenbäume, an Traillagen gezogen, breiteten ihre mit Früchten behangenen Zweige zwischen den sechs Fenstern der Fronte aus. Große Fenster mit blinkenden Scheiben und vorspringenden Simsen, auf denen ein farbenheiterer Flor von Rosen, Geranien und Nelken duftete und prangte.</p>
+            <p rendition="#et">Eine kleine, alte Person, die, mit Unkrautjäten beschäftigt, auf dem Boden gekauert hatte, wendete beim Eintreten des Geistlichen den Kopf, schob das Tuch, das ihr über das halbe <pb n="472" facs="#f0019"/>
+Gesicht gefallen war, zu rück und kam auf den Besucher zu mit einem freundlich-demütigen: »Gelobt sei Jesus Christus!«</p>
+            <p rendition="#et">»In Ewigkeit, Amen«, erwiderte er, und sie legte die schmutzigen Hände auf den Rücken, streckte den Hals und küßte, ohne sich bücken zu müssen, die herabhängende Hand des Priesters.</p>
+            <p rendition="#et">»Ich möchte mit der Frau sprechen«, sagte er. »Ist sie da?«</p>
+            <p rendition="#et">»Zu dienen, hochwürdiger Herr, die Bäuerin ist da; wo sollt Sie sein? Im Garten ist sie, in den Erbsen. Ich werd sie gleich rufen.«</p>
+            <p rendition="#et">Der Pfarrer wehrte ab: »Nein, führen Sie mich zu ihr.«</p>
+            <p rendition="#et">»Wie befehlen – wie der hochwürdige Herr befehlen«, und die Kleine lief vor ihm her um das Haus, in den Garten, und rief aus allen ihren Kräften: »Bäuerin! Bäuerin! der hochwürdige Herr Pfarrer will Euch besuchen!«</p>
+            <p rendition="#et">Er folgte ihr und war bald von Bienen umschwärmt, von Tauben umflogen, von Hühnern umgackert; Schafe, die auf den Wiesenplätzen weideten, blökten ihn offenbar fragend an; schöne, weiße Ziegen hoben die Köpfe über die Einfassung ihres Pferches und betrachteten ihn mit ihren großen, friedlichen Augen. Drei ganz junge Hündlein trotteten ihm entgegen, schnüffelten, erhoben ein schrilles, törichtes Gebell, in dem sich Neugier und Verwunderung, aber nicht die geringste Böswilligkeit kundgab.</p>
+            <p rendition="#et">Der Pfarrer ging zwischen den Obstbäumen, über das Gras, einem kleinen Wald von Stangen zu, an denen schlanke Erbsenstauden ihre zierlichen, hellgrünen Ranken emportrieben. Auf dem schmalen Wege, der sie von einer ansehnlichen Baumschule trennte, kam die Hausfrau geschritten. Eine hohe, harmonische, ebensowenig zur Fülle wie zur Hagerkeit neigende Gestalt. Sie trug halbstädtische Kleidung. Eine schwarze, eng anliegende Jacke mit weißem Umschlagkragen, einen dunkeln, faltigen Rock und eine blaue Arbeitsschürze, die sie im Gehen abnahm und über den Arm hängte. Von der bäuerlichen Tracht hatte sie nichts beibehalten als die Schaftstiefel an den schlanken Füßen und das künstlich geknüpfte Kopftuch. Es war aus schwarzer Seide mit bunten Bändern und Fransen, schloß sich eng um den Hinterkopf, bildete einen schmalen Wulst um die dunkelblonden, dichten Scheitel und einen reichen Knoten im Nacken.</p>
+            <p rendition="#et">
+               <pb n="473" facs="#f0020"/>
+Dem Priester fiel die tiefe Ruhe auf, die über der Erscheinung dieses Weibes lag, die Festigkeit, mit der die klaren blauen Augen sich auf ihn hefteten, der sanfte Ernst, den die regelmäßigen, fast klassischen Züge atmeten. Eine im völligsten Gleichgewicht, in völliger Einigkeit mit sich selbst hinlebende Frau kam da heran, langsam, als ob sie ihm und sich Zeit lassen wollte zur Vorbereitung auf eine erste, wie sie voraussah, bedeutungsvolle Zusammenkunft.</p>
+            <p rendition="#et">»Euer Hochwürden erweisen mir eine große Ehre mit Ihrem Besuch«, sprach sie den Geistlichen an, der seinen Hut leicht vor ihr lüpfte. »Belieben Euer Hochwürden ins Haus zu treten?« »Wir wollen da bleiben«, erwiderte er, »im Freien, unter ihren Schützlingen. Ein hübscher Anblick, all dieses Getier; es scheint sich seines Lebens zu freuen und ist so zutraulich.«</p>
+            <p rendition="#et">»Jawohl, zutraulich sind sie schon; warum sollen sie's nicht sein? Es tut ihnen ja niemand nichts.«</p>
+            <p rendition="#et">Sie geleitete ihn zu einem Birnbaum von seltener Größe und Schönheit, in dessen Schatten ein länglicher Tisch zwischen zwei Bänken in den Boden eingerammt war, lud den Gast ein, sich zu setzen, und nahm Platz ihm gegenüber, nachdem sie der Jagd, die in respektvoller Entfernung gefolgt war, einen kurzen Befehl gegeben hatte.</p>
+            <p rendition="#et">Eine kleine Pause entstand. Der Priester bemerkte wohl, laß die äußere Gelassenheit Frau Evis eine wachsende Erregung verbarg. Ihre schmale, gerade Nase, ihre Stirn hatten sich mit kalkiger Blässe bedeckt, den Mund umspielte ein kaum merkliches Beben, als sie gedämpften Tones und mit einer Stimme, die etwas eigentümlich Einschmeichelndes hatte, begann: »Hochwürden sind schon bei meinem Mann gewesen?«</p>
+            <p rendition="#et">Aha, dachte der Pfarrer, sie kommt dem Angriff zuvor! »Ich bin am Tag nach meiner Ankunft hier im Orte zu ihm gerufen worden«, sprach er, »und habe ihm die letzten Tröstungen der Kirche gespendet.«</p>
+            <p rendition="#et">»Ja, ich weiß, er ist krank.«</p>
+            <p rendition="#et">»Vielleicht sterbend; wissen Sie das auch? Der Doktor gibt wenig Hoffnung.«</p>
+            <p rendition="#et">Sie fuhr mit der Hand über ihr Gesicht und schloß einen Moment die Augen: »Es wird nicht so arg sein. Der Herr <pb n="474" facs="#f0021"/>
+Doktor muß es nur ärger machen, als es ist; das ist so der Brauch, er muß es tun wegen der anderen Doktoren.«</p>
+            <p rendition="#et">»So – wieso? Das versteh ich nicht.«</p>
+            <p rendition="#et">»Nicht? Oh, ich bitte untertänig, Hochwürden haben mich zum besten; Sie wissen schon selbst, daß die Doktoren übertreiben müssen; das ist unter ihnen ausgemacht. Warum kann man sich an den Fingern abzählen. Unser Herr Doktor ist ja sehr brav, aber – Klappern gehört zum Handwerk, hat er mir ins Gesicht gesagt...«</p>
+            <p rendition="#et">»Im Scherz, nun ja, im Spaße...«</p>
+            <p rendition="#et">»Im Spaß, Hochwürden, da verrät sich der Mensch, geradesogut wie im Rausch und im Zorn.«</p>
+            <p rendition="#et">Der Pfarrer war erstaunt – ein seltsames Gemisch von Vorurteil und von Vernunft in der Frau. Aber, sagte er sich, die hält was aus, und war entschlossen, sie ohne Schonung zu behandeln. »Ich bin auch heute bei Ihrem Manne gewesen«, sprach er, »und habe ihn viel elender gefunden als vorgestern. Er selbst, das darf ich Ihnen nicht verhehlen – er fühlt sich sterben.«</p>
+            <p rendition="#et">Frau Evi machte genau dieselbe Bewegung wie früher: »Ach er! Er ist immer kindisch ängstlich gewesen, wenn ihm das geringste gefehlt hat. Alle Leute, die ihr Lebtag gesund waren, sind so. Beim kleinsten Übel meinen sie schon, es bringt sie ins Grab.«</p>
+            <p rendition="#et">Der Pfarrer richtete einen festen und strengen Blick auf sie: »Sie weichen aus. Wenn Sie dem Arzt nicht glauben und nicht dem Kranken, glauben Sie doch mir. Ich sage Ihnen: Ihr Mann ist übel dran, braucht Pflege, und Sie, seine Frau, gehören an sein Krankenbett.«</p>
+            <p rendition="#et">Sie erwiderte nichts, sie stand auf. Die kleine Magd war herangekommen, einen Korb am Arme, und die Bäuerin half ihr, seinen Inhalt auf dem Tisch ordnen: blanke Teller und Gläser, eine Flasche mit Wein, ein Laib Brot, ein schönes Stück Butter und herrlichen Lindenhonig in hellgelber Wabe. Die Magd entglitt wie ein fliehender Schatten, die Bäuerin nahm ihren früheren Platz wieder ein und sprach, das Aufgetragene gleichsam vorstellend: »Eine kleine Jause, Hochwürden. Was so <pb n="475" facs="#f0022"/>
+aus der Wirtschaft kommt. Geruhen Sie, vorliebzunehmen, obwohl Sie's zu Hause besser haben.«</p>
+            <p rendition="#et">Der Geistliche ließ das ohne innere Überzeugung vorgebrachte Kompliment unberücksichtigt; er betrachtete den tauklaren, goldgelben Wein, den seine Wirtin ihm ins Glas schenkte, und fragte lächelnd: »Kommt der auch aus Ihrer Wirtschaft?«</p>
+            <p rendition="#et">»Nein, Hochwürden, es ist Vöslauer. Mein Mann hat ihn gern getrunken, so halt ich ihn bis heut im Keller.«</p>
+            <p rendition="#et">Ein langgedehntes: »Deshalb?« kam von den Lippen des Pfarrers. »Und Sie selbst? Es ist kein Glas für Sie da, Sie tun mir nicht Bescheid?«</p>
+            <p rendition="#et">»Entschuldigen Hochwürden, ich mag den Wein von jeher nicht. Früher hab ich manchmal einen Schluck getan, meinem Mann zulieb, wenn er's durchaus wollte. Seitdem es aus ist zwischen uns, nie mehr.«</p>
+            <p rendition="#et">»Aus?« rief der Geistliche, »das sollten Sie nicht sagen. Sie haben Ihrem Manne Liebe, Treue, Gehorsam gelobt bis in den Tod, Sie sind durch ein heiliges Sakrament mit ihm verbunden...«</p>
+            <p rendition="#et">»Gewesen, Hochwürden«, unterbrach sie ihn leise, aber mit großer Entschiedenheit.</p>
+            <p rendition="#et">Er bemeisterte seinen Unwillen und sah ihr zu, wie sie das Brot vom Tische nahm und rasch und mechanisch, bevor sie es zu schneiden begann, mit der Messerspitze das Zeichen des Kreuzes über die untere Fläche machte. »Sie befolgen da einen ehrwürdigen Brauch«, sprach der Pfarrer, und als sie einen fragenden Blick auf ihn richtete: »Ja so, Sie tun's gedankenlos. Frau Mašlan! Frau Mašlan! ich fürchte, Sie führen Ihre religiösen Übungen vielleicht überhaupt gedankenlos aus.«</p>
+            <p rendition="#et">»Was meinen Sie damit, Hochwürden?«</p>
+            <p rendition="#et">Der Priester steigerte sich: »Ich meine, Sie beten, Sie besuchen die heilige Messe, Sie verrichten Ihre Andacht zur vorgeschriebenen Zeit, alles gedankenlos.«</p>
+            <p rendition="#et">Mit stolzem Erstaunen wies Frau Evi diese Anklage zurück: »Sie kennen mich nicht, Hochwürden.«</p>
+            <p rendition="#et">»Ich kenne Ihre Geschichte und habe offene Augen«, fiel er rasch ein. »Sie waren heute in der Frühmesse. Haben Sie andächtig gebetet, Bäuerin?«</p>
+            <p rendition="#et">
+               <pb n="476" facs="#f0023"/>
+Die Frage kam ihr seltsam vor. »Ich habe für meinen Mann gebetet«, erwiderte sie.</p>
+            <p rendition="#et">»So, so – und nicht für sich? nicht darum, daß der Herr Mitleid und Erbarmen in Ihrer Seele erwecke? Ihr Mann hat schwer an Ihnen gesündigt. Ich weiß. Ist aber Verzeihen nicht Christenpflicht, vor allem Pflicht des christlichen Weibes? Was soll Ihr Gebet, was sollen Ihre guten Werke, wenn Sie mitleidslos bleiben gegen einen Sterbenden? ... Ein großer Heiliger lehrt, daß keine Andachtsübung und kein gutes Werk uns am Tage des Gerichts vom geringsten Nutzen sein wird, wenn wir die Erinnerung an erlittene Unbill nicht aus unserem Herzen getilgt haben.. ›Erst gehe hin und versöhne dich mit deinem Feinde‹... spricht unser göttlicher Heiland...« Er stockte, er fühlte, daß die Ungeduld ihn hingerissen und daß er nicht so gesprochen hatte und nicht in dem Zusammenhang, wie er sprechen wollte.</p>
+            <p rendition="#et">»Mein Mann ist nicht mein Feind, Hochwürden«, nahm sie mit ihrer unerschütterlichen, verwirrenden Gelassenheit das Wort, »und – versöhnen... ich trag ihm nichts nach, ich habe ihm alles verziehen.«</p>
+            <p rendition="#et">»Sie ihm? Und er Ihnen? Hat er Ihnen nichts zu verzeihen?«</p>
+            <p rendition="#et">Sie schüttelte langsam und sinnend das Haupt: »Daß ich nicht wüßte, Hochwürden.«</p>
+            <p rendition="#et">»Haben Sie sich keine Härte gegen ihn vorzuwerfen, keinen Mangel an Nachsicht mit seinen Schwächen, seiner Fehlbarkeit?«</p>
+            <p rendition="#et">»Nein, Hochwürden.«</p>
+            <p rendition="#et">»Sie fühlen sich ihm gegenüber schuldlos?«</p>
+            <p rendition="#et">»Ja, Hochwürden.«</p>
+            <p rendition="#et">Die lüge des Priesters verfinsterten sich. Welche Hoffart! dachte er, sprach es aber nicht aus. Er rief in eindringlicher Rede die Langmut der Gerechten für den armen Sünder an und schloß: »Soviel Barmherzigkeit wir geübt haben, soviel werden wir erfahren. Glauben Sie der Barmherzigkeit Gottes nicht zu bedürfen?«</p>
+            <p rendition="#et">»O Hochwürden, wie sollt ich? ... so frevelhaft, das zu glauben, ist kein Mensch.«</p>
+            <p rendition="#et">»Gut also. Geben Sie also, was Sie empfangen wollen. Gehen <pb n="477" facs="#f0024"/>
+Sie hin zu Ihrem Kranken, reichen Sie, die Beleidigte, zuerst die Hand zur Versöhnung. Tun Sie's aus Liebe zu Gott, in seinem allerheiligsten Namen.«</p>
+            <p rendition="#et">Evi hatte die Augen gesenkt gehalten und erhob nun ihren sanften Blick zu dem geistlichen Herrn: »Hochwürden kennen meine Geschichte, sagen Sie, dann müssen Sie auch wissen, daß ich nur darauf warte, daß mein Mann mir sagen läßt: Komm. Will er lieber selbst kommen – mir ist es auch recht. Zu jeder Stund ist alles für ihn bereit. Alles ganz so, wie er's gern hat.«</p>
+            <p rendition="#et">Der Pfarrer betrachtete sie aufmerksam Sie hatte mit dem vollen Akzent der Wahrhaftigkeit gesprochen, und doch erweckten ihre Worte ihm nicht die rechte Zuversicht: »Ich seh Ihren Mann heute noch; soll ich ihm das alles sagen?«</p>
+            <p rendition="#et">»Wenn Sie die Gnade haben wollen, Hochwürden.«</p>
+            <p rendition="#et">»Soll ich es ihm als von Ihnen kommend, als Ihre Botschaft sagen?«</p>
+            <p rendition="#et">Sie zögerte, sie hatte einen Kampf mit sich zu bestehen, sprach aber: »Wenn Hochwürden es wünschen, und weil er jetzt so krank sein soll – auch das.«</p>
+            <p rendition="#et">»So! – Ihr tut recht, Bäuerin«, rief er freudig, zum ersten Male ihr gegenüber das feierliche »Sie« mit dem gebräuchlichen »Ihr« vertauschend. Er stand auf und sah um sich: »Ich will ihm erzählen, wie gut er's hier hätte. Es ist schön bei Euch, Bäuerin. Und eine große Tierfreundin scheint Ihr zu sein.«</p>
+            <p rendition="#et">Die drei Hündlein, die im Grase geschlafen hatten, kamen heran, als der Pfarrer sich erhob, beschnüffelten seine Schnallenschuhe und machten Abschiedskapriolen.</p>
+            <p rendition="#et">»Ich möcht mir nicht soviel aus Tieren machen«, erwiderte Frau Evi, »aber Matej hat sie so gern, besonders Hunde. Die drei hab ich aus dem Teich gezogen, der Halter wollte sie ertränken. ›Sind Hunde genug im Dorf‹, meinte er. Ja, Hochwürden, zweibeinige. Aber – ich bitte! ...« Sie blickte plötzlich erschrocken zum Tische nieder. »Hochwürden haben keinen Tropfen getrunken, keinen Bissen gegessen. Das ist eine Schande für mich, Hochwürden.«</p>
+            <p rendition="#et">»So sollt Ihr's nicht nehmen; ich komme wieder, und wenn <pb n="478" facs="#f0025"/>
+ich das Haus nicht mehr ohne seinen Herrn finde, will ich von Eurem Weine trinken und von Eurem Brote essen.«</p>
+            <p rendition="#et">Sie erwiderte nichts, sie hatte bei seinen Worten traurig zur Seite geblickt und ging nun mit ihrem Gast durch den Garten. Er lobte und bewunderte die Ordnung, die überall herrschte, den guten Stand der Gebäude, die tadellose Reinlichkeit.</p>
+            <p rendition="#et">»Ja, Hochwürden, meine Wirtschaft ist mein Leben«, sagte Evi. »Gut halten würd ich sie immer, aber so schön doch nicht, wenn es nur für mich allein wäre. Aber dem Matej ist ja nie etwas schön genug.«</p>
+            <p rendition="#et">»Das sind lauter gute Worte, und die soll er alle hören«, sprach der Geistliche.</p>
+            <p rendition="#et">Sie waren beim Hause angelangt, und er wollte sich verabschieden; sie gab ihm aber noch ein Stück Weges das Geleite. Sie hatte noch etwas auf dem Herzen.</p>
+            <p rendition="#et">»Wenn er mir also nicht sagen lassen will, daß ich kommen soll – er ist ja stützig, Hochwürden –, braucht nur er kommen. Und wenn er nicht gehen kann – eingespannt ist gleich, und Polster und Decken sind auch gleich in den Wagen gelegt... Also, Hochwürden, ich warte und danke Ihnen, Hochwürden.«</p>
+            <p rendition="#et">»Ich danke Euch, Frau Mašlan. Ich habe Euch anders gefunden, als ich erwartete, viel besser.« Er reichte ihr die Hand, die sie küßte. Dann wendete sie sich wieder ihrer Behausung zu.</p>
+            <p rendition="#et">In ihren Augen war ein stilles, freudiges Leuchten, ihre Züge hatten sich wunderhell belebt: »Vielleicht, vielleicht doch!« flüsterte sie vor sich hin.</p>
+            <p>Die Mühle lag am Ausgang des Waldes, in einer breiten, grünen Schlucht, die der wasserreiche Bach munter durchrauschte. Heute hatte er's gut, brauchte das schwere Rad nicht zu treiben, die Arbeit war eingestellt. Am Himmel neigte die Sonne sich zum Untergang und hauchte einen rosigen Schimmer über das einsame Haus mit den kahlen Mauern und den dicht geschlossenen Fenstern. Auf einer Bank neben dem Tor lag der Länge nach ausgestreckt ein feister Müllerbursche. Er hatte das Gesicht mit dem Hute bedeckt, schlief sanft in den Abend hinein. Der <pb n="479" facs="#f0026"/>
+Pfarrer war im Begriff, ihn zu wecken, um ihn nach seinem Herrn zu fragen, als das Tor geöffnet wurde und eine hinkende Alte heraushumpelte. Sie gab sich als eine Verwandte Mašlans zu erkennen, sie hatte den Herrn Pfarrer kommen gesehen und war ihm entgegengeeilt. Kriechend freundlich empfing sie ihn und führte ihn die stöhnende hölzerne Freitreppe hinauf, durch den mit Ziegeln gepflasterten Flur, ins Krankenzimmer. Ein weißgetünchter, unwohnlicher Raum.</p>
+            <p rendition="#et">Das Bett stand mit dem Kopfende gegen das Fenster an einer feuchtfleckigen Wand, an der zwei Jagdgewehre, eine Waidtasche und ein schöner Hirschfänger – Erinnerungen an glänzende Tage! – hingen. Unter diesen Trophäen war ein Bild des verstorbenen Grafen, ein kleines, schwarzes Kruzifix mit silbernem Heiland, und die völlig verblichene Photographie Evis als junges Mädchen befestigt. Die halb geöffnete Tür eines Schrankes gewährte den Einblick in ein wirres Durcheinander von Kleidern, Wäschestücken und Schuhzeug. Es waren auch noch ein paar Sessel vorhanden und zwei Tische; einer trug das Waschzeug, ein zweiter, den man in die Nähe des Bettes gerückt hatte, eine Wasserflasche, ein Glas und eine Tasse voll Suppe, neben der ein paar Zigarrenstummel lagen. Es roch nach kalt gewordenem Tabakrauch und nach Feuchtigkeit; dumpfe Luft erfüllte die Stube.</p>
+            <p rendition="#et">Der Pfarrer öffnete eines der Fenster und trat an das Bett Matejs, der mit dem Gesicht gegen die Wand gelegen hatte und sich nun jäh emporrichtete. Schlaftrunken starrte er den Besucher an und murmelte: »Herr Doktor... Grüß Gott, Herr Doktor.«</p>
+            <p rendition="#et">»Ich bin's, Mašlan, ich, der Pfarrer.«</p>
+            <p rendition="#et">»Der Pfarrer und – wer?« Sein düsterer, zuckender Blick glitt an dem Geistlichen vorbei und blieb erwartungsvoll an der Tür haften.</p>
+            <p rendition="#et">Der Priester betrachtete ihn mitleidig. Soviel Kraft und Schönheit vorzeitig aufgezehrt und verwelkt. Armes, verpfuschtes Leben, armes, verwüstetes Menschenkind! dachte er und nahm Platz auf dem Sessel, den die alte Frau an das Bett gerückt hatte. »Es ist niemand da als Ihre Verwandte und ich. Ich bin allein gekommen.«</p>
+            <p rendition="#et">
+               <pb n="480" facs="#f0027"/>
+Jetzt erst schien Matej aus seiner Betäubung völlig erwacht, legte sich aufs Kissen zurück und brummte halblaut: »Wozu? Was wünschen Sie noch, geistlicher Herr? Versehen bin ich schon.«</p>
+            <p rendition="#et">»Ich will Euch Trost bringen, Mašlan.«</p>
+            <p rendition="#et">»Brauch keinen, kränke mich nicht.«</p>
+            <p rendition="#et">»So? Gut also, keinen Trost. Aber einen Vorschlag möcht ich Euch machen. Ihr seid hier nicht gut dran, habt auch keine rechte Pflege, ich möchte Euch besser versorgt haben.«</p>
+            <p rendition="#et">»Oh, ich weiß schon«, erwiderte Mašlan wegwerfend, »ich weiß schon, was das heißt: ins Spital möchten Sie mich schicken.«</p>
+            <p rendition="#et">»Durchaus nicht. In einem guten, netten Hause säh ich Euch gern, einem schönen, hellen Hause mit einem großen Garten...«</p>
+            <p rendition="#et">»Ich versteh – Sie meinen den Himmel.«</p>
+            <p rendition="#et">»Nicht doch! nicht doch! Seht, Mašlan...«</p>
+            <p rendition="#et">Die stocktaube Alte hatte den Pfarrer nicht aus den Augen gelassen, mit wahrer Gier beobachtete sie jede seiner Mienen, jede seiner Bewegungen und mischte sich nun auf einmal ins Gespräch: »Oh, Hochwürden, er ist hier so gut aufgehoben, der Matej; besser aufgehoben als hier kann er nirgends sein. Tag und Nacht geb ich acht auf ihn, und was er sich wünscht, bekommt er. Grad früher hat er Suppe haben wollen, da steht sie. Zigarren hat er auch verlangt.«</p>
+            <p rendition="#et">»Ihr raucht, Mašlan?« fragte der Pfarrer vorwurfsvoll, »ein Unsinn bei Eurem Zustand! Der Doktor sagt, daß Ihr knapp an einer Lungenentzündung vorbeigekommen seid.«</p>
+            <p rendition="#et">»Sie sind kein Raucher, geistlicher Herr, sonst wüßten Sie: einem Raucher schadet das Rauchen nicht, und solang der Tabak ihm schmeckt, ist noch alles gut.«</p>
+            <p rendition="#et">»Sprecht nicht, vor allem widersprecht nicht! Auf diese Art kommen wir nicht weiter. Ohne Umschweife also, Mašlan. Ihr sollt zu Eurer Frau. Sie wartet auf Euch, mit offenen Armen wartet sie, hat alles zu Eurem Empfang vorbereitet, und wie vorbereitet! Eine Freude, es zu sehen.« – Er machte die lockendste Beschreibung des Hauses, des Gartens, der Wirtschaft und schloß: »Ich will Euch nicht mehr verraten, will Euch die Überraschung nicht verderben, ich sage bloß: wie Ihr's gern <pb n="481" facs="#f0028"/>
+habt, so ist es, und was Ihr gern habt, ist alles da – Tauben, Schafe, Hunde...«</p>
+            <p rendition="#et">»Ja, Hunde, freilich«, wiederholte Mašlan.</p>
+            <p rendition="#et">»Da ist ein so gescheiter, kleiner, weißer und hat ein braunes Ohr...«</p>
+            <p rendition="#et">»Wie der Bili«, sagte Mašlan, und der Schimmer eines Kinderlächelns glitt über sein abgemagertes Gesicht, sofort aber verzerrte es sich im Zorne: »Die alte Hex dort leidet keinen Hund – mag nur Katzen, vergiftet mir die Hunde, die böse Hexe!«</p>
+            <p rendition="#et">Er ballte die Faust gegen sie, und sie beeilte sich, dem Pfarrer zuzuflüstern: »Er ist nicht recht im Kopf, wissen. Es kommt vom Fieber. Was ich oft von dem anhören muß!« –</p>
+            <p rendition="#et">In die augenblickliche Stille, die nun eintrat, tönte das Getrappel von Pferden – ein Wagen war herangerollt, hielt vor dem Hause, und man vernahm ein ankündigendes, dreimaliges Peitschenknallen.</p>
+            <p rendition="#et">Mašlan horchte auf, der Pfarrer begab sich an das Fenster, die Alte folgte, beugte sich hinaus und kreischte in hellem Schrecken: »Herr Jesus Christus – das Wägelchen vom Hof. Es ist schon leer, sind schon ausgestiegen. – Herr Jesus Christus, am End sind es gar die Bäuerin!«</p>
+            <p rendition="#et">Aus der Brust des Kranken rang sich ein fast tierischer Laut, ein Winseln, ein Stöhnen wonniger Erwartung, an Schmerz grenzenden Entzückens. Freudig bewegt, Worte des Willkomms auf den Lippen, schritt der Pfarrer aus dem Zimmer auf den Flur.</p>
+            <p rendition="#et">Aber die zu begrüßen er gehofft hatte, war nicht gekommen; der Knecht allein trampelte in seinen schweren Stiefeln die Treppe herauf und meldete: Die Frau schicke das Wägelchen. Für alle Fälle, lasse sie sagen, wenn der Herr vielleicht fahren möcht.</p>
+            <p rendition="#et">Der Geistliche befahl ihm zu warten und kehrte in die Stube zurück, seine Enttäuschung so gut wie möglich hinter einer freundlichen Miene verbergend.</p>
+            <p rendition="#et">»Seht nur, seht«, sagte er, »jetzt schickt Eure Frau gar das Wägelchen um Euch. Ja, da hilft nichts, da müßt Ihr fahren. <pb n="482" facs="#f0029"/>
+Wir bringen Euch hinunter, der Knecht und ich, wickeln Euch gut in Decken ein; es wird Euch nicht schaden, es ist ein so schöner, warmer Sommerabend Nun, Matej, nun rafft Euch auf.«</p>
+            <p rendition="#et">Aber Mašlan hatte sich steif auf den Rücken gelegt, die Anne über der Decke fest an den Leib geschlossen. »Es kann nicht sein«, sagte er, »ich kann nicht zu ihr, ich hab's verschworen.«</p>
+            <p rendition="#et">»Mit Eurem Schwur, Matej, was Ihr nur denkt! Ein Schwur, der keine Geltung hat. Keine Geltung!« wiederholte er lauter, als Mašlan ihn unterbrechen wollte, »denn Ihr habt ihn getan in sinnloser Wut... Mit Eurem Schwur! ... Als ob wir Gott zum Zeugen einer ungerechten Handlung anrufen dürften! ... Ein Frevel – betet zu Gott, daß er Euch Euren Frevel verzeihe!«</p>
+            <p rendition="#et">»Das hat der Herr Kanonikus mir alles gesagt«, versetzte Mašlan trotzig, »nicht einmal, hundertmal, das hilft alles nichts bei mir, ich kann's nicht tun, ich hab's verschworen. Und wenn ich's nicht verschworen hätte« – er erhob die Stimme und schrie zwischen zwei Hustenanfällen und kläglich mit Atemnot ringend: »Ich tät's doch nicht. Ich bin der Herr!«</p>
+            <p rendition="#et">Der Priester betrachtete ihn von neuem mit einem langen, wehmütigen Blick und dachte: Ich habe dich ernst genommen, ich hatte unrecht. Dein bißchen Geist ist umnachtet, du armer »Herr«, du Knecht deiner Launen und Triebe. Er bat, besänftigte, gab zu: »Ja, ja, Ihr seid der Herr; und weil Ihr es seid und durchaus nicht zu Eurer Frau gehen wollt, so laßt sie denn herkommen. Wenn sie nur einen Tag da wäre, es würde anders aussehen bei Euch.«</p>
+            <p rendition="#et">»Freilich«, sagte Mašlan.</p>
+            <p rendition="#et">»Ihr seid der Herr – befehlt ihr zu kommen.«</p>
+            <p rendition="#et">»Befehlen? ... Freilich könnt ich, wenn ich wollt.«</p>
+            <p rendition="#et">»So, Matej, also so! Laßt ihr durch mich befehlen, daß sie kommen soll. Ich übernehme die Botschaft.«</p>
+            <p rendition="#et">»Botschaft?« wiederholte der Kranke mißtrauisch, und der Pfarrer beeilte sich zu berichtigen: »Den Befehl. Sie würde so gern gehorchen. Sie sorgt sich um Euch, sehnt sich nach Euch.«</p>
+            <p rendition="#et">»Wirklich?« Wieder flog über seine Züge der verjüngende Glanz.</p>
+            <p rendition="#et">»Wahr und wirklich, und so geh ich zu ihr oder fahre vielmehr. <pb n="483" facs="#f0030"/>
+Ich will den Wagen benützen, den Eure Frau geschickt hat.«</p>
+            <p rendition="#et">Er erhob sich mit kurzem Abschiedsgruß und schritt der Tür zu, entschlossen, keinen Einwand mehr anzuhören. Ein in Zorn und Angst ausgestoßener Schrei gellte ihm nach, seufzend blieb er stehen und sah sich um. Mašlan, auf den Ellbogen gestützt, halb sitzend in seinem Bette, das Gesicht verzerrt, rief ihn an: »Halt! Halt! Was wollen Sie ihr sagen? Wie soll's heißen? Wenn es heißen soll: Komm! sag ich's nicht! Ich nicht. Sie soll von selbst kommen. Ich ruf sie nicht – ich laß sie nicht rufen, ich hab's verschworen, ich käm in die Höll!«</p>
+            <p rendition="#et">Einem Kranken gegenüber kannte des Pfarrers Langmut keine Grenzen. Er ging wieder auf ihn zu, beschwichtigend, beruhigend. Mašlan streckte die Hand abwehrend aus und schrie aus allen seinen Kräften immer von neuem: »Ich sag es nicht, nie, nie, nie! Ich hab's verschworen.«</p>
+            <p rendition="#et">Inzwischen war jemand langsam und bedächtig die Treppe heraufgestiegen und nun eingetreten. Der Doktor stand da und schüttelte in seiner sanft mißbilligenden Art den Kopf: »Mašlan, ich fürchte, Ihr seid übergeschnappt, kullert wie ein beleidigter Truthahn. Wenn Ihr's so treibt, steh ich für nichts. Wollt Ihr Euch töten?«</p>
+            <p rendition="#et">Mašlan hatte gar nicht zugehört. Er lag jetzt still und erschöpft mit geschlossenen Augen. Plötzlich schlug er sie zu dem Priester auf und sprach, als ob zwischen seinen letzten Worten und diesen keine Unterbrechung stattgefunden hätte: »Aber – daß ihr Bild noch da hängt, das können Sie ihr sagen, hochwürdiger Herr.«</p>
+            <p>Bis zum grauenden Morgen hatte der Pfarrer keine Ruhe gefunden, in rastloser Aufregung gewacht, gebetet. Wie ein Dorn im Fleische saßen ihm die Worte Mašlans: »Das hat der Herr Kanonikus mir alles schon gesagt.« Er hatte die Empfindung eines Arztes, der ein neues Heilmittel gereicht zu haben meint und entdeckt, daß er zu einem verbrauchten griff, gegen das der Organismus des Kranken längst abgestumpft ist. Was tun? Um was handelte es sich denn? – Zwei Eheleute, die einander liebten, sich nacheinander sehnten, waren getrennt durch ein <pb n="484" facs="#f0031"/>
+Hirngespinst. Es war nur ein Hirngespinst. Nicht Hochmut nicht Unversöhnlichkeit von Seite der Frau, wie er anfangs gedacht hatte, nicht Gleichgültigkeit von Seite des Mannes. Wirklich nur ein Hirngespinst. Und das sollte er nicht zerreißen können? Die Aufgabe, die so leicht schien, sollte unlösbar sein?</p>
+            <p rendition="#et">Je länger er darüber nachsann, desto mehr wuchs seine Zuversicht. Es mußte gelingen, sich selbst gab er schuld an seinem ersten Mißerfolg. Wenn er sein Gespräch mit Frau Evi überdachte, kam ihm vor, daß er nicht warm genug an ihr Herz appelliert, nicht ein gewichtiges, ergreifendes, erschütterndes Wort zu ihr gesprochen. Er hatte ja nicht gewußt, wie glühend sie ersehnt wurde. Nun wollte er es ihr sagen und ihre schlummernde Liebe und Zärtlichkeit wecken.</p>
+            <p rendition="#et">Bei der Frühmesse sah er sie an ihrem gewohnten Platz in der Kirche, versunken in inbrünstiges Gebet, und als er eine Stunde später in das Gärtchen vor ihrem Hause trat, kam sie ihm entgegen, und in ihren Augen, in ihrem ganzen Wesen lag etwas wie eine bange Frage, die auszusprechen sie zögerte.</p>
+            <p rendition="#et">»Das ist ein Tag, Frau Mašlan«, sagte der Priester nach der ersten Begrüßung, »ein Gottesgeschenk. Auch Euch muß die Sonne bis ins tiefste Herz hinein scheinen und jede Härte darin schmelzen.«</p>
+            <p rendition="#et">Sie bat ihn, ihr die Ehre eines Besuches in ihrem Hause zu schenken, und führte ihn in eine geräumige, für bäuerliche Verhältnisse luxuriös eingerichtete Stube. Der Boden gedielt, die Wände bemalt und mit drei großen Farbendrucken geschmückt ein Muttergottesbild, vor dem ein Flämmchen in einer Lampe aus rotem Glase flackerte, die Bildnisse des Kaisers und der Kaiserin. Ein mächtiger Schrank mit gewundenen Säulen nahm die Tiefe, ein Tisch, auf dem eine buntgestickte Decke lag, die Mitte des Zimmers ein. Dunkle, geschnitzte Holzsessel waren längs der Wände und in den Fenstervertiefungen aufgestellt. Auf einen von diesen deutete Frau Evi.</p>
+            <p rendition="#et">»Ist's gefällig, Platz zu nehmen, Hochwürden?« fragte sie gepreßt, und es war, als ob sie hervorbrechende Tränen niederzukämpfen suche. Schon als er ihrer Aufforderung, ins Haus zu treten, entsprochen, hatte eine schmerzliche Enttäuschung sich ihrer zu bemächtigen geschienen; die wurde herber und herber,<pb n="485" facs="#f0032"/>
+ steigerte sich zu einem Ausdruck frostiger Trostlosigkeit in der Miene des stolzen Weibes. Der Priester verstand sie, und was sie niederbeugte, erhöhte seine Siegeszuversicht.</p>
+            <p rendition="#et">»Ich will Euch nur den Schlaf nicht forttragen«, sagte er, ihrem einladenden Wink folgend, »Euch nicht etwa einen so langen Besuch machen wie gestern. Ich bin da, um Euch abzuholen nach der Mühle.«</p>
+            <p rendition="#et">»Sie waren dort«, versetzte sie und sah ihn fest und forschend an. Der Pfarrer überlegte einen Moment und sprach dann entschlossen: »Gebt jeden Zweifel auf, Euer Mann ist sterbend.«</p>
+            <p rendition="#et">»Ich habe es durch den Herrn Doktor erfahren«, erwiderte sie leise.</p>
+            <p rendition="#et">»So? Nun also, folgt mir, kommt!«</p>
+            <p rendition="#et">»Hat er mich rufen lassen?« brachte sie stockend und mühsam hervor.</p>
+            <p rendition="#et">»Er hat Euch nicht rufen lassen, und trotzdem werdet Ihr zu ihm gehen, weil Ihr sollt, weil es Eure Pflicht ist, weil Ihr nie wiedergutmachen könntet, was Ihr heute versäumt.«</p>
+            <p rendition="#et">Er erzählte, wie schlecht versorgt und lässig betreut er den Kranken gefunden hatte, er berichtete den kleinsten Umstand seiner Unterredung mit ihm, freute sich über den erschütternden Eindruck, den seine Schilderung auf die Bäuerin machte. Als er von dem Entzücken Mašlans sprach, da ihm die Hoffnung auf einen Besuch seiner Frau aufleuchtete, von seiner schmerzvollen Erbitterung bei dem Schwinden dieser Hoffnung, stöhnte Evi, beugte sich vor und vergrub ihr Gesicht in ihre Hände.</p>
+            <p rendition="#et">Der Pfarrer stand auf. »Kommt«, sagte er, ihren Scheitel mit der Rechten sanft berührend, »und wenn noch ein Zweifel in Euch lebt, ob Ihr dürft, so wisset, ich löse Euren Schwur, er besteht nicht, er hat nie bestanden. Gott hat ihn nicht gehört.«</p>
+            <p rendition="#et">Sie hob den Kopf, ihr Gesicht war weiß bis auf die Lippen; die Augen blickten erschreckend starr: »Er hat ihn gehört«, sprach sie mit schwacher, aber klarer Stimme. »Ich weiß es, denn ich hab es gefühlt. Ich werde nie vergessen, Hochwürden, wie ich's gefühlt habe: Gott ist nah und hört dich. Matej hat im Zorn geschworen; sein Schwur ist vielleicht nicht hinauf bis zu Gott gedrungen, barmherzige Engel haben ihn unterwegs <pb n="486" facs="#f0033"/>
+vielleicht abgelenkt, wie sie den Blitzstrahl ablenken oder eine andere Gefahr. Ich, Hochwürden« – sie machte eine kleine Pause und fuhr dann fort mit ihrer weichen, klangvollen Stimme, aus der eine eiserne Überzeugung sprach: »Ich, Hochwürden, war ganz bei mir, ich war wie jetzt. Fragen Sie ihn, ob er sich besinnt, was er gesprochen hat, ob er noch jedes Wort weiß – er weiß es nicht. Ich kann jedes Wort, das ich gesagt habe, wiederholen. Und wenn ich dran denke und es mir recht vorstelle, wie ich damals meine Hand aufgehoben und Gott angerufen habe, läuft es mir wieder aus den Spitzen meiner Finger durch alle meine Glieder: Gott hört dich. Und deshalb...« Sie richtete sich empor, ein seltsamer, fremdartiger Zug, etwas wie ein weltverschmähendes Lächeln prägte sich in den strengen Linien ihres Mundes aus. »Wenn mein Mann stirbt – wie Gott will. Ich bin eine Witfrau seit vielen Jahren. Dieses Leben haben wir uns verdorben, aber es gibt ein andres, ein besseres, das wollen wir uns nicht verderben. Ich hoffe darauf, und ich weiß – auch er hofft darauf.«</p>
+            <p rendition="#et">»Frau! Frau!« rief der Priester ihr zu. »Seid Ihr mit Blindheit geschlagen? Seht Ihr nicht, daß Ihr Euch von dem Wege abkehrt, den Ihr zu wandeln meint? Frau! Frau! der Tag der Reue wird kommen, und er wird furchtbar sein... Und dennoch bet ich zu Gott um diesen Tag, denn das furchtbarste wäre, wenn er zu spät käme!« Seine Augen ruhten drohend auf ihr: das Unüberwindliche blickte ihm aus ihren starren, wie vereisten Zügen entgegen. Ja, dieses Weib hätte man foltern können, sie in ihrer Überzeugung erschüttern – nimmermehr.</p>
+            <p rendition="#et">Er hatte einige Schritte dem Ausgange zu gemacht, blieb plötzlich stehen und sprach: »Euer Bild hängt noch immer über seinem Bette. Das läßt Euch der Sterbende sagen.«</p>
+            <p rendition="#et">»Hochwürden!« Sie schrie es fast, sie bebte am ganzen Leibe. »Aber: Komm! – hat er mir doch nicht sagen lassen!«</p>
+            <p>Oft noch wanderte der Seelsorger von der Mühle zum Hof, vom Hof zur Mühle. Er ruhte nicht, er kämpfte seinen aufreibenden und nutzlosen Kampf mit den Verblendeten treulich bis ans Ende. Und eines Sommerabends gellte der klangarme Schall des Zügenglöckleins durchs Dorf. Die Frauen blieben <pb n="487" facs="#f0034"/>
+aufhorchend stehen, die Männer lüfteten die Hüte, jeder sprach ein Gebet für die scheidende Seele. Alle wußten, Matej Mašlan liegt im Sterben. Matej Mašlan, dem so viele viel zu verzeihen haben. Der Matej, dem keine widerstand, um die er sich ernstlich bemühte, dem die Kinder zuliefen, den die bissigsten Hunde anwedelten. Der Matej stirbt, geht hinüber, Rechenschaft abzulegen vor Gott dem Herrn und Richter. Seit Morgengrauen waren der Pfarrer und der Doktor bei ihm, und im schönsten Hause des Ortes lag ein Weib auf den Knien und rang die Hände, und der Angstschweiß floß über ihre Stirn und netzte ihre trockenen, glühenden Augen.</p>
+            <p>Sie betete und horchte dazwischen auf jeden Laut, auf jeden Schritt, der von der Straße herübertönte. Keiner hielt vor ihrem Hause, niemand verlangte Einlaß; und als endlich gegen Mitternacht an die Tür gepocht und nach der Bäuerin gefragt wurde, da war's ein vom Arzte Abgesandter, der die Todesbotschaft brachte.</p>
+            <p rendition="#et">Mit dem frühesten war Bewegung im Hause, herrschte ein geschäftiges Regen. Vorbereitungen zum Empfang des toten Herrn wurden so leise getroffen, als ob er schon daläge in der stillegebietenden Ruhe des Todes.</p>
+            <p rendition="#et">Die Dorfbasen männlichen und weiblichen Geschlechtes liefen zusammen. Die Neugierigen litten Folterqualen. »Was geschieht? Was wird sie jetzt tun, die Evi?« Und als es hieß: »Sie läßt ihn einholen!« da bemächtigte sich der meisten Leute eine unerklärliche Begeisterung. Die Kinder liefen in Scharen zur Mühle, um die Leiche ihres Freundes zu sehen und dabeizusein, wenn sie auf den Schragen gelegt und fortgetragen wurde. Auch Erwachsene schlossen sich an, und als die irdische Hülle Mašlans beim Dorfteich anlangte, hatte sie ein großes Geleite. Langsam kam der Zug die Anhöhe herauf, und durch die Menge, die sich, immer anwachsend, um den Hof versammelt hatte, lief ein Geflüster: »Sie bringen ihn! Sie bringen ihn!«</p>
+            <p rendition="#et">Aus dem Innern des Hauses aber drang ein gellender Schrei, von einer alten, zitternden Stimme ausgestoßen: »Frau! sie bringen ihn!«</p>
+            <p rendition="#et">Eine Sekunde atemloser Spannung, Evi war auf die Schwelle getreten, ging auf die Gartentür zu und öffnete beide Flügel. <pb n="488" facs="#f0035"/>
+Die schwarz behangene Bahre kam immer näher, und die bleiche Frau am Gittertor breitete ihr die Arme entgegen, ihre zuckenden Lippen murmelten einen Namen. Nun – glaubten alle –, nun wird sie ihm entgegenstürzen, sich über ihn werfen und weinen und sich die Haare raufen.</p>
+            <p rendition="#et">Nichts von alledem geschah. Der Blick Evis war über die Menge geglitten, über neugierige, teilnehmende, schadenfrohe und traurige Gesichter. An ihr Ohr war leises Gekicher, lautes Stöhnen gedrungen. Sie nahm sich zusammen, stand gerade aufgerichtet und blickte zu der Bahre, die an ihr vorbei ins Haus getragen wurde, stumm und tränenlos nieder. Erst als man den Toten hingestellt unter das Muttergottesbild in der großen Stube und sie mit ihm allein gelassen hatte, zog sie das Bahrtuch herab, sank in die Knie, küßte seinen Mund und die Hand die noch den Trauring trug, und sprach zärtlich und liebevoll zu ihm: »Hast mich nicht gerufen, hast deinen Schwur halten wollen. Hast recht gehabt. Es war kein so heiliger Schwur wie der meine, aber ein Schwur! Mein Matej, hast dich nach mir gesehnt? Nicht so, wie ich mich nach dir, o lang, lang nicht, aber doch gesehnt; und jetzt bin ich dein und bist du mein für die Ewigkeit.«</p>
+         </div>
+      </body>
+   </text>
+</TEI>

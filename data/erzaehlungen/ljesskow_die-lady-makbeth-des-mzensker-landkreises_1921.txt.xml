@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Die Lady Makbeth des Mzensker Landkreises</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118640488">
+                  <forename>Nikolai</forename>
+                  <surname>Ljesskow</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:21Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005255201</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Leskov, Semënovič Nikolaj/Erzählungen/Die Lady Makbeth des Mzensker Landkreises</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rj8z.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E49A-F</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Ljesskow, Nikolai: Eine Teufelsaustreibung und andere Geschichten. München 1921</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Eine Teufelsaustreibung und andere Geschichten</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118640488">
+                        <forename>Nikolai</forename>
+                        <surname>Ljesskow</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">216 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Musarion Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1921</date>
+                  <date type="firstPublication">1865</date>
+                  <date type="firstPublication" subtype="clariah">1865</date>
+                  <date type="firstPublication" subtype="zeno">1865</date>
+                  <date type="firstPublication" subtype="i5">1864</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Leskov-Semenovi-d1e1688">Entstanden 1864. Erstdruck unter dem Titel »Ledi Makbet nasego uezda« in ›Épocha‹ Nr. 1, 1865.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Leskov-Semenovi-d1e1688">
+            <p rend="h3">Semënovič Nikolaj Leskov</p>
+            <p rend="h2">Die Lady Makbeth</p>
+            <p rend="h2">des Mzensker Landkreises</p>
+            <p rend="h4">(Ledi Makbet Mcenskogo Uezda)</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Leskov-Semenovi-d1e1715" type="chapter">
+            <head>
+               <pb n="147" facs="#f0001"/>
+I</head>
+            <p>In unserer Gegend kommen manchmal so seltsame Charaktere vor, daß man sich ihrer nicht ohne tiefste Erschütterung erinnern kann, selbst wenn schon viele Jahre nach der letzten Begegnung mit ihnen vergangen sind. Zu solchen Charakteren zählte die Kaufmannsfrau Katerina Lwowna Ismajlowa, die einst im Mittelpunkte eines grauenhaften Dramas gestanden hatte und bei unseren Gutsbesitzern unter dem treffenden Namen »Lady Makbeth des Mzensker Landkreises« bekannt war.</p>
+            <p rendition="#et">Katerina Lwowna war nicht, was man eine Schönheit nennt, doch von angenehmem Äußeren. Sie war erst vierundzwanzig Jahre alt, nicht sehr groß, doch schlank, hatte einen wie aus Marmor gemeißelten Hals, rundliche Schultern, einen prallen Busen, eine gerade, feine Nase, schwarze lebhafte Augen, eine hohe weiße Stirne und schwarzes, sogar blauschwarzes Haar. Man verheiratete sie mit einem Landsmann, dem Kaufmann Ismajlow aus Tuskarj im Kursker Gouvernement. Sie fühlte zwar keine Neigung zu ihm; Ismajlow hatte aber den Antrag gemacht, und sie durfte als armes Mädchen nicht wählerisch sein. Die Ismajlows waren in unserer Gegend angesehen: sie betrieben einen großen Mehlhandel, hatten auf dem Lande eine große Mühle in Pacht, einen einträglichen Garten vor der Stadt und ein schönes Haus in der Stadt und gehörten zu den wohlhabendsten Kaufleuten. Die Familie war <pb n="148" facs="#f0002"/>
+obendrein nicht zu groß und bestand nur aus dem Schwiegervater Boris Timofejitsch Ismajlow, der schon an die achtzig Jahre alt und seit langem verwitwet war, seinem Sohn Sinowij Borissowitsch, Katerinas Mann, der auch nicht mehr jung – über fünfzig – war, und Katerina Lwowna selbst. Nach fünfjähriger Ehe hatte Katerina Lwowna noch immer kein Kind; Sinowij Borissowitsch hatte auch von seiner ersten Frau, mit der er zwanzig Jahre gelebt hatte, bevor er Katerina Lwowna heiratete, keine Kinder. Er hatte gehofft, daß Gott ihm wenigstens in seiner zweiten Ehe Kinder schenken würde, die seine Firma und sein Kapital erben könnten; er hatte aber auch mit Katerina Lwowna kein Glück.</p>
+            <p rendition="#et">Die Kinderlosigkeit machte Sinowij Borissowitsch großen Kummer, und nicht nur ihm allein, sondern auch dem alten Boris Timofejitsch; auch Katerina Lwowna selbst war darüber sehr traurig. Die tödliche Langweile in dem verschlossenen Kaufmannshause mit dem hohen Zaun und den bösen Kettenhunden machte die junge Kaufmannsfrau oft erstarren, so daß sie Gott weiß wie froh gewesen wäre, wenn sie ein Kindchen zu pflegen gehabt hätte; dann hatte sie auch die ewigen Vorwürfe satt: »Warum bist du diese Ehe eingegangen, warum hast du dem Menschen sein Schicksal gebunden, du Unfruchtbare?!« Als ob sie tatsächlich ein Verbrechen an ihrem Manne, am Schwiegervater und am ganzen ehrbaren Kaufmannsgeschlecht begangen hätte!</p>
+            <p rendition="#et">Bei allem Reichtum war das Leben Katerina Lwownas im Hause des Schwiegervaters öde und traurig. Sie kam fast nie aus dem Hause, und selbst wenn sie mit ihrem Manne irgendwo in Kaufmannsfamilien Besuch machte, <pb n="149" facs="#f0003"/>
+hatte sie wenig Freude daran. Es waren lauter strenge Leute, die immer beobachteten, wie sie saß, wie sie ging, wie sie stand, Katerina Lwowna hatte aber einen feurigen Charakter und war als Mädchen ein freies Leben gewohnt; einst durfte sie mit den Eimern zum Fluß laufen, im Hemd am Landungssteg baden oder einen vorbeigehenden Burschen über die Gartenpforte mit Schalen von Sonnenblumenkernen überschütten; hier ist aber alles anders. Der Schwiegervater und der Mann stehen in aller Hergottsfrühe auf, trinken um sechs Uhr Tee und gehen gleich an ihre Geschäfte. Sie aber wandert von Zimmer zu Zimmer. Überall ist es so rein, so still und so leer, vor den Heiligenbildern brennen die Lämpchen, und im ganzen Hause ist kein lebender Ton, keine menschliche Stimme.</p>
+            <p rendition="#et">Katerina Lwowna irrt eine Zeitlang durch die leeren Zimmer, beginnt vor Langweile zu gähnen und geht die Stiege in das eheliche Schlafzimmer im Mezzanin hinauf. Sie sitzt da, schaut zum Fenster hinaus, wie man vor den Speichern den Hanf aufhängt oder das Mehl in Säcke füllt; sie muß wieder gähnen und freut sich, daß sie eine oder zwei Stunden schlafen kann. Und wenn sie erwacht, überkommt sie wieder die Langweile des altrussischen Kaufmannshauses, vor der man sich, wie es heißt, mit Freuden erhängt. Katerina Lwowna fand auch am Lesen keine Freude, und im Hause gab es keine Bücher außer dem Kiewer Heiligenbuch.</p>
+            <p rendition="#et">So öde war das Leben Katerina Lwownas in dem reichen Hause, in dem sie nun schon fünf Jahre an der Seite eines lieblosen Gatten lebte. Aber, wie es so immer geht, niemand schenkte ihrer Langweile auch nur die geringste Beachtung.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e1750" type="chapter">
+            <head>
+               <pb n="150" facs="#f0004"/>
+II</head>
+            <p>Im Frühjahr des sechsten Jahres nach Katerina Lwownas Verheiratung gab es auf der Ismajlowschen Mühle ein Unglück: das Hochwasser hatte den Damm durchbrochen. Die Mühle hatte gerade viel Arbeit, und der Schaden war sehr groß: das Wasser kam unter den Lauftrog des leeren Gerinnes und ließ sich nicht wieder einfangen. Sinowij Borissowitsch trieb die Leute aus der ganzen Umgegend zusammen und überwachte Tag und Nacht die Arbeiten; die Geschäfte in der Stadt versah der Alte, und Katerina Lwowna war tagelang allein zu Hause. Als sie ohne Mann geblieben war, fühlte sie anfangs noch größere Langweile; dieser Zustand gefiel ihr aber mit der Zeit nicht schlecht; sie konnte freier aufatmen. Sie hatte ihn ja niemals geliebt, nun hatte sie wenigstens einen Aufseher weniger.</p>
+            <p rendition="#et">Einmal saß sie in ihrem Mezzanin am Fenster, gähnte, dachte an nichts Bestimmtes und schämte sich zuletzt, immer so zu gähnen. Draußen war aber der herrlichste Tag: warm, heiter, lustig, und durch das grüne Holzgitter des Gartens waren flinke Vöglein zu sehen, die von Zweig zu Zweig hüpften.</p>
+            <p rendition="#et">– Warum gähne ich so? – fragte sich Katerina Lwowna. – Ich will einmal aufstehen und in den Hof oder in den Garten gehen. –</p>
+            <p rendition="#et">Sie warf sich einen alten Pelzumhang um und ging hinaus.</p>
+            <p rendition="#et">Unten auf dem Hofe ist es so hell, die Luft ist so erfrischend, und auf der Galerie bei den Speichern schallt lustiges Gelächter.</p>
+            <p rendition="#et">»Was freut ihr euch so?« fragte Katerina Lwowna die Angestellten des Schwiegervaters.</p>
+            <p rendition="#et">
+               <pb n="151" facs="#f0005"/>
+»Wir haben eben ein lebendes Schwein gewogen,« antwortete ihr der alte Verwalter.</p>
+            <p rendition="#et">»Was für ein Schwein?«</p>
+            <p rendition="#et">»Das Schwein Aksinja, das den Sohn Wassilij geboren und uns zur Taufe nicht eingeladen hat,« berichtete ihr frech und lustig ein Bursche mit kühnem, hübschem Gesicht, pechschwarzen Locken und einem kaum sprossenden Bärtchen.</p>
+            <p rendition="#et">Aus dem Mehlkübel, der am Wagbalken angehängt war, sah in diesem Augenblick das dicke rotbackige Gesicht der Köchin Aksinja heraus.</p>
+            <p rendition="#et">»Verdammte Teufel!« fluchte die Köchin, indem sie nach dem eisernen Wagbalken griff und sich Mühe gab, aus dem hin- und herpendelnden Kübel herauszukriechen.</p>
+            <p rendition="#et">»Acht Pud wiegt sie vor dem Essen, und wenn sie zu Mittag ein Fuder Heu gefressen hat, so langen die Gewichte nicht!« erklärte der gleiche hübsche Bursche. Mit diesen Worten drehte er den Kübel um und warf die Köchin auf die in der Ecke geschichteten Säcke.</p>
+            <p rendition="#et">Die Köchin fluchte noch immer, eigentlich mehr im Scherz, und zupfte sich das Kleid zurecht.</p>
+            <p rendition="#et">»Nun, und wieviel wiege ich?« fragte Katerina Lwowna. Sie stieg auf das Brett und hielt sich an den Stricken fest.</p>
+            <p rendition="#et">»Drei Pud sieben Pfund,« antwortete der hübsche Bursche Ssergej, nachdem er die Gewichte nachgezählt hatte. »Ein Wunder!«</p>
+            <p rendition="#et">»Was wunderst du dich so?«</p>
+            <p rendition="#et">»Daß Sie über drei Pud wiegen, Katerina Lwowna. Ich glaube, daß ich Sie den ganzen Tag auf den Armen herumtragen könnte, ohne dabei müde zu werden. Ich würde es sogar für das größte Vergnügen ansehen.«</p>
+            <p rendition="#et">
+               <pb n="152" facs="#f0006"/>
+»Bin ich denn etwa kein Mensch? Würdest wohl müde werden!« erwiderte leicht errötend Katerina Lwowna, die solche Reden nicht mehr gewohnt war und plötzlich das Verlangen fühlte, lustig zu plaudern und zu scherzen.</p>
+            <p rendition="#et">»Gott behüte! Ich würde Sie bis nach dem glückseligen Arabien tragen,« antwortete Ssergej auf ihre Bemerkung.</p>
+            <p rendition="#et">»Du redest Unsinn,« sagte der Bauer, der das Getreide aufschüttete. »Was ist unsere Schwere? Ist es denn unser Körper, der was wiegt? Unser Körper, mein Lieber, wiegt nicht, es ist nur unsere Kraft, die uns zur Erde zieht, und nicht der Körper!«</p>
+            <p rendition="#et">»Als Mädchen hatte ich eine große Kraft,« sagte Katerina Lwowna, die sich wieder nicht beherrschen konnte. »Mancher Mann konnte mich nicht niederringen!«</p>
+            <p rendition="#et">»Erlauben Sie mal Ihr Händchen, wenn das wahr ist,« bat der hübsche Bursche.</p>
+            <p rendition="#et">Katerina Lwowna errötete wieder, reichte ihm aber die Hand.</p>
+            <p rendition="#et">»Laß los, es tut weh!« schrie Katerina Lwowna auf, als Ssergej ihre Hand in der seinigen zusammendrückte. Mit der freien Hand stieß sie ihn vor die Brust.</p>
+            <p rendition="#et">Der Bursche ließ ihre Hand los und taumelte vor ihrem Stoß einige Schritte zur Seite.</p>
+            <p rendition="#et">»Und das will ein Frauenzimmer sein!« wunderte sich der Bauer.</p>
+            <p rendition="#et">»Nein, nicht so! Wollen wir einmal richtig ringen?« sagte Ssergej, seine Locken schüttelnd.</p>
+            <p rendition="#et">»Nun, versuch's,« antwortete Katerina Lwowna, immer lustiger werdend, und hob die Ellenbogen.</p>
+            <p rendition="#et">Ssergej umschlang die junge Frau und drückte ihre<pb n="153" facs="#f0007"/>
+ pralle Brust an sein rotes Hemd. Katerina Lwowna rührte nur die Schultern, Ssergej hatte sie aber schon in die Höhe gehoben, hielt sie eine Weile in den Armen, drückte sie zusammen und setzte sie zuletzt auf einen umgekehrten Scheffel.</p>
+            <p rendition="#et">Katerina Lwowna hatte nicht einmal Zeit gehabt, ihre Kraft, mit der sie so prahlte, zu zeigen. Über und über rot, zupfte sie den Pelzumhang, der ihr von der Schulter geglitten war, zurecht und ging langsam aus dem Speicher. Ssergej räusperte sich aber und rief:</p>
+            <p rendition="#et">»He, ihr Esel! Schüttet das Getreide auf, schont die Arme nicht! Wenn was übrig bleibt, so ist's unser Verdienst!«</p>
+            <p rendition="#et">Er tat so, als hätte auf ihn der Ringkampf mit Katerina Lwowna nicht den geringsten Eindruck gemacht.</p>
+            <p rendition="#et">»Dieser Ssergej ist ein verdammter Mädchenjäger!« berichtete die Köchin Aksinja, ihrer Herrin nachgehend. »Alles an ihm ist gleich schön: der Wuchs, das Gesicht, die Gestalt. Er kann jedes Frauenzimmer betören und zur Sünde verführen. Dabei ist er ein untreuer, gemeiner Kerl!«</p>
+            <p rendition="#et">»Sag einmal, Aksinja,« sagte die junge Frau, vor der Köchin hergehend, »lebt dein Kind noch?«</p>
+            <p rendition="#et">»Es lebt, Mütterchen, es lebt, was soll ihm geschehen? Wenn man ein Kind nicht braucht, so ist es immer zählebig.«</p>
+            <p rendition="#et">»Wo hast du nur das Kind her?«</p>
+            <p rendition="#et">»Ach, man kriegt es leicht, wenn man unter Menschen lebt.«</p>
+            <p rendition="#et">»Ist dieser Bursche schon lange bei uns?«</p>
+            <p rendition="#et">»Welcher? Meinen Sie Ssergej?«</p>
+            <p rendition="#et">
+               <pb n="154" facs="#f0008"/>
+»Ja.«</p>
+            <p rendition="#et">»An die vier Wochen. Vorher war er bei den Kontschonows in Stellung, wurde aber hinausgejagt.« Aksinja fuhr mit gedämpfter Stimme fort: »Man sagt, er hätte dort mit der Hausfrau selbst angebandelt, darum hat ihn auch der Herr hinausgejagt ... Er ist so furchtbar frech, der Verruchte!«</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e1898" type="chapter">
+            <head>III</head>
+            <p>Eine warme milchweiße Dämmerung schwebte über der Stadt. Sinowij Borissowitsch war noch immer nicht von der Mühle heimgekehrt. Auch der Schwiegervater Boris Timofejewitsch war nicht zu Hause: er war zu einem alten Freund zum Namenstag gefahren und hatte angesagt, daß man ihn zum Abendessen nicht erwarten solle. Katerina Lwowna aß früh zu Abend, stand dann wieder am Fenster ihres Schlafzimmers, lehnte sich mit der Wange an den Pfosten und knackte Sonnenblumenkerne. Die Leute hatten eben in der Küche genachtmahlt und begaben sich zur Ruhe: der eine in die Tenne, der andere in den Speicher, der dritte auf den duftenden Heuboden. Als letzter kam aus der Küche Ssergej. Er schlenderte durch den Hof, ließ die Kettenhunde los, pfiff ein Liedchen, ging am Fenster Katerina Lwownas vorbei, blickte zu ihr hinauf und verneigte sich vor ihr.</p>
+            <p rendition="#et">»Guten Abend,« sagte Katerina Lwowna leise von ihrem Fenster herab, und auf dem Hofe wurde es plötzlich so still wie in einer Wüste.</p>
+            <p rendition="#et">»Gnädige Frau!« tönte es zwei Minuten später vor der versperrten Türe des Schlafzimmers.</p>
+            <p rendition="#et">»Wer ist da?« fragte Katerina Lwowna erschrocken.</p>
+            <p rendition="#et">»Erschrecken Sie nicht: ich bin es, Ssergej.«</p>
+            <p rendition="#et">
+               <pb n="155" facs="#f0009"/>
+»Was willst du, Ssergej?«</p>
+            <p rendition="#et">»Ich habe eine Bitte an Sie, Katerina Lwowna. Gestatten Sie mir, daß ich für einen Augenblick eintrete.«</p>
+            <p rendition="#et">Katerina Lwowna sperrte die Türe auf und ließ ihn ein.</p>
+            <p rendition="#et">»Was willst du?« fragte sie, wieder ans Fenster tretend.</p>
+            <p rendition="#et">»Ich möchte Sie fragen, Katerina Lwowna, ob Sie mir nicht irgendein Büchlein zum Lesen geben können. Ich vergehe vor Langweile.«</p>
+            <p rendition="#et">»Ich habe gar keine Bücher, Ssergej, ich lese niemals,« antwortete Katerina Lwowna.</p>
+            <p rendition="#et">»So furchtbar langweilig ist es hier,« klagte Ssergej.</p>
+            <p rendition="#et">»Was weißt du von Langweile?«</p>
+            <p rendition="#et">»Erlauben Sie einmal! Wie soll ich mich nicht langweilen? Ich bin ja ein junger Mensch, wir leben hier wie in einem Kloster, und ich habe vor mir keine andere Aussicht, als hier in der Einsamkeit zugrunde zu gehen. Zuweilen verzweifle ich an meinem Leben.«</p>
+            <p rendition="#et">»Warum heiratest du nicht?«</p>
+            <p rendition="#et">»Ja, heiraten, das ist leicht gesagt! Wen soll ich hier heiraten? Ich bin ja ein unbedeutender Mensch; ein Mädchen aus dem Kaufmannsstande wird mich nicht nehmen, und die von unserem armen Stande sind viel zu ungebildet, das wissen Sie doch selbst. Kann denn so ein Mädchen die Liebe richtig verstehen? Aber auch die Reichen verstehen sie nicht viel besser. Für jeden andern Menschen wären Sie wohl der Trost seines Lebens, Ihr Gemahl hält Sie aber wie einen Kanarienvogel im Bauer.«</p>
+            <p rendition="#et">»Ja, ich langweile mich,« sagte Katerina Lwowna unwillkürlich.</p>
+            <p rendition="#et">
+               <pb n="156" facs="#f0010"/>
+»Wie soll man sich auch nicht langweilen bei solch einem Leben, gnädige Frau! Selbst wenn Sie einen Geliebten hätten, wie die andern Frauen, so hätten Sie gar keine Möglichkeit, mit ihm zusammenzukommen.«</p>
+            <p rendition="#et">»Nein, du redest Unsinn. Ich glaube aber, daß es mir lustiger zumute wäre, wenn ich ein Kindchen hätte.«</p>
+            <p rendition="#et">»Erlauben Sie die Bemerkung, gnädige Frau: ein Kind kann man auch nicht so von heute auf morgen bekommen. Ich habe ja genug in den Kaufmannsfamilien gelebt und kenne mich in diesen Dingen gut aus. In einem Liede heißt es: ›Wenn du keinen Liebsten hast, stirbt das Herz vor Schmerzenslast.‹ Diesen Schmerz empfinde ich so stark, Katerina Lwowna, daß ich mir das Herz aus der Brust schneiden und es Ihnen vor die Füßchen werfen könnte. Und es würde mir dann viel leichter zumute werden ...«</p>
+            <p rendition="#et">Seine Stimme zitterte.</p>
+            <p rendition="#et">»Was erzählst du mir von deinem Herzen? Ich brauche es nicht. Geh ...«</p>
+            <p rendition="#et">»Nein, erlauben Sie, gnädige Frau,« sagte Ssergej, am ganzen Leibe zitternd und einen Schritt näher kommend. »Ich weiß, ich sehe und begreife, daß auch Sie es nicht leichter haben als ich. Alles hängt jetzt aber nur von Ihnen ab, alles ruht in Ihrer Hand!« Die letzten Worte hauchte er nur.</p>
+            <p rendition="#et">»Was willst du? Was willst du? Was bist du zu mir gekommen? Ich werde mich aus dem Fenster stürzen,« sagte Katerina Lwowna, von einer namenlosen Angst erfaßt, und griff mit den Händen nach dem Fensterbrett.</p>
+            <p rendition="#et">»Du Unvergleichliche, du mein Leben! Was sollst du <pb n="157" facs="#f0011"/>
+dich aus dem Fenster stürzen?« flüsterte Ssergej frech. Er riß die junge Frau vom Fenster los und umschlang sie mit seinen Armen.</p>
+            <p rendition="#et">»Laß los! Laß los!« stöhnte Katerina Lwowna leise, unter Ssergejs heißen Küssen ermattend und sich unwillkürlich an seine mächtige Brust schmiegend.</p>
+            <p rendition="#et">Ssergej nahm sie wie ein kleines Kind auf die Arme und trug sie in eine dunkle Ecke.</p>
+            <p rendition="#et">Im Zimmer trat nun eine Stille ein, die nur durch das gleichmäßige Ticken der Taschenuhr Sinowij Borissowitschs unterbrochen wurde, die über dem Bette Katerina Lwownas hing. Dieses Ticken störte aber niemand.</p>
+            <p rendition="#et">»Geh,« sagte Lwowna nach einer halben Stunde, ohne Ssergej anzublicken, ihr zerzaustes Haar vor dem kleinen Spiegel richtend.</p>
+            <p rendition="#et">»Was soll ich jetzt von hier fortgehen?« fragte Ssergej mit seliger Stimme.</p>
+            <p rendition="#et">»Der Schwiegervater wird die Türe zusperren.«</p>
+            <p rendition="#et">»Ach, meine liebe Seele! Hast du denn nur solche Männer gekannt, die eine Türe brauchen, um zur Geliebten zu gelangen? Wenn ich zu dir oder von dir will, so finde ich überall eine Türe,« antwortete der Bursche, auf die Balken, die die Galerie stützten, zeigend.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e2014" type="chapter">
+            <head>IV</head>
+            <p>Sinowij Borissowitsch blieb noch eine Woche auf der Mühle, und seine Frau ergötzte sich diese ganze Zeit allnächtlich bis an den lichten Tag mit Ssergej.</p>
+            <p rendition="#et">In diesen Nächten wurde im Schlafzimmer Sinowij Borissowitschs gar viel Wein aus dem Keller des Schwiegervaters ausgetrunken, viel Süßes gegessen, viel geküßt <pb n="158" facs="#f0012"/>
+und viel mit den schwarzen Locken auf den weichen Kopfkissen gespielt. Die Landstraße ist aber nicht immer so eben wie eine Tischdecke, es gibt auch Löcher und Buckel.</p>
+            <p rendition="#et">Boris Timofejitsch konnte keinen Schlaf finden. Der Alte irrte in seinem bunten Kattunhemd durch das stille Haus, trat bald an das eine, bald an das andere Fenster und sah plötzlich das rote Hemd Ssergejs langsam den Balken unter dem Fenster der Schwiegertochter hinuntergleiten. Eine schöne Bescherung! Boris Timofejitsch ging in den Hof und packte den Burschen bei den Beinen. Dieser holte zuerst zu einem Schlage aus, überlegte sich aber, daß es zu viel Lärm geben würde.</p>
+            <p rendition="#et">»Sag einmal,« fragte Boris Timofejitsch, »wo warst du eben, du Dieb?«</p>
+            <p rendition="#et">»Wo ich war, da bin ich nicht mehr, Boris Timofejitsch,« antwortete Ssergej.</p>
+            <p rendition="#et">»Hast du bei der Schwiegertochter übernachtet?«</p>
+            <p rendition="#et">»Das ist meine Sache, Herr, wo ich übernachtet habe. Höre aber auf meine Worte, Boris Timofejitsch: was gewesen ist, läßt sich nicht mehr ändern. Tu wenigstens deinem Kaufmannshause keine Schande an. Sag mir, was willst du jetzt von mir? Was für eine Genugtuung soll ich dir geben?«</p>
+            <p rendition="#et">»Du sollst, Verruchter, fünfhundert Peitschenschläge bekommen,« antwortete Boris Timofejitsch.</p>
+            <p rendition="#et">»Die Schuld ist mein, der Wille ist dein,« sagte der Bursche. »Sag, wohin ich dir folgen soll, trinke mein Blut.«</p>
+            <p rendition="#et">Boris Timofejitsch führte Ssergej in seine gemauerte Vorratskammer und schlug ihn so lange mit der Peitsche, <pb n="159" facs="#f0013"/>
+bis sein Arm erlahmte. Ssergej gab keinen Ton von sich, zerkaute aber die Hälfte seines Hemdärmels mit den Zähnen.</p>
+            <p rendition="#et">Boris Timofejitsch ließ Ssergej in der Kammer liegen, bis sein blutiggeschlagener Rücken verheilen würde, stellte ihm einen irdenen Krug mit Wasser hin, versperrte die Kammer mit einem großen Schloß und schickte nach dem Sohn.</p>
+            <p rendition="#et">Auch heute noch legt man hundert Werst auf einer russischen Landstraße nicht an einem Tag zurück, Katerina Lwowna kann aber ohne ihren Ssergej auch nicht eine Stunde aushalten. Ihre ganze zügellose Natur kam zum Durchbruch, und sie wurde sehr kühn und entschlossen. Sie erfuhr, wo Ssergej eingesperrt war, sprach mit ihm durch die Eisentüre einige Worte und machte sich auf die Suche nach den Schlüsseln. »Väterchen, laß doch den Ssergej heraus!« wandte sie sich an den Schwiegervater.</p>
+            <p rendition="#et">Der Alte wurde ganz grün vor Wut. Von seiner sündigen, bisher aber noch immer gehorsamen Schwiegertochter hatte er eine solche Frechheit nicht erwartet.</p>
+            <p rendition="#et">»Was fällt dir ein?« Und er fiel über Katerina Lwowna mit Schimpfworten her.</p>
+            <p rendition="#et">»Laß ihn heraus,« bestürmte sie ihn, »ich schwöre dir bei meinem Gewissen, daß es zwischen uns nichts Schlimmes gegeben hat.«</p>
+            <p rendition="#et">»So, es hat nichts Schlimmes gegeben!« sagt er und knirscht mit den Zähnen. »Was habt ihr dann in den Nächten getrieben? Die Kissen deines Mannes durchgeklopft?«</p>
+            <p rendition="#et">Sie aber hört gar nicht auf: »Laß ihn heraus!«</p>
+            <p rendition="#et">
+               <pb n="160" facs="#f0014"/>
+»Wenn die Dinge so stehen,« sagt Boris Timofejitsch, »so will ich dir folgendes sagen: wenn dein Mann zurückkommt, werden wir dich, du treulose Frau, im Pferdestalle mit eigenen Händen durchpeitschen. Ihn aber, den Schurken, werde ich gleich morgen ins Zuchthaus schicken.«</p>
+            <p rendition="#et">So hatte Boris Timofejitsch beschlossen; sein Beschluß wurde aber nicht zur Tat.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e2090" type="chapter">
+            <head>V</head>
+            <p>Boris Timofejitsch aß an diesem Abend einen Brei mit Pilzen und fühlte gleich darauf ein Brennen im Schlunde; es zwickte ihn im Magen, er bekam Erbrechen und starb gegen Morgen auf die gleiche Weise, wie die Ratten in seinem Speicher. Für die Ratten aber pflegte Katerina Lwowna mit eigenen Händen eine Speise mit einem gefährlichen weißen Pulver, das sie in Verwahrung hatte, anzurichten.</p>
+            <p rendition="#et">Katerina Lwowna ließ ihren Ssergej sofort aus der gemauerten Kammer heraus und legte ihn, ganz ohne Scheu vor den Leuten, auf das Bett ihres Mannes, damit er sich nach den Schlägen des Schwiegervaters erhole; dem Schwiegervater Boris Timofejitsch gab sie aber ein christliches Begräbnis. Seltsamerweise machte sich niemand über den Tod des Alten irgendwelche Gedanken. Boris Timofejitsch war eben gestorben, wie viele nach dem Genuß von Pilzen starben. Man beerdigte ihn in aller Eile, ohne selbst die Rückkehr des Sohnes abzuwarten, denn die Tage waren heiß; der nach Sinowij Borissowitsch geschickte Bote hatte ihn auf der Mühle nicht angetroffen. Sinowij Borissowitsch hatte gerade die <pb n="161" facs="#f0015"/>
+Gelegenheit, einen Wald, der hundert Werst weiter lag, billig zu kaufen; er war hingefahren, um sich den Wald anzusehen, und hatte niemandem angesagt, wo dieser Wald liege.</p>
+            <p rendition="#et">Nachdem Katerina Lwowna dieses erledigt hatte, geriet sie ganz außer Rand und Band. Sie war ja auch sonst keine schüchterne Frau; jetzt konnte man aber unmöglich erraten, was sie noch alles vorhatte. Sie geht stolz einher, kommandiert das ganze Haus und läßt Ssergej nicht von ihrer Seite. Das kam dem Hausgesinde anfangs etwas merkwürdig vor, Katerina Lwowna verstand aber, die Leute so reich zu beschenken, daß ihnen das Staunen verging. Sie sagten sich nur: Die Frau hat wohl mit dem Ssergej angebandelt. Das ist ihre Sache, und nur sie allein wird sich dafür zu verantworten haben.</p>
+            <p rendition="#et">Ssergej genas indessen von seinen Wunden, ging wieder aufrecht einher, tänzelte stolz wie ein Falke um Katerina Lwowna, und die beiden hatten wieder das allerschönste Leben. Die Zeit rollte aber nicht nur für sie beide dahin: der beleidigte Gatte Sinowij Borissowitsch eilte nach langer Abwesenheit nach Hause.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e2115" type="chapter">
+            <head>VI</head>
+            <p>Es war ein glühheißer Nachmittag, und die Fliegen ließen keine Ruhe. Katerina Lwowna schloß die Fenster des Schlafzimmers, verhängte es von innen mit einem wollenen Tuche und legte sich mit Ssergej auf das hochgetürmte Bett, um nach dem Essen auszuruhen. Katerina Lwowna weiß nicht, ob sie schläft oder wacht, es ist aber so furchtbar heiß, der Schweiß läuft ihr von der Stirne, und sie kann vor Hitze kaum atmen. Katerina <pb n="162" facs="#f0016"/>
+Lwowna fühlt, daß es nun Zeit ist, aufzuwachen; daß es Zeit ist, in den Garten zu gehen, um Tee zu trinken; sie kann aber unmöglich aufstehen. Endlich kommt die Köchin vor die Schlafzimmertüre und klopft: »Der Samowar unter dem Apfelbaume wird kalt.« Katerina Lwowna erwacht und beginnt den Kater zu tätscheln. Zwischen ihr und Ssergej wälzt sich auf dem Bette ein prächtiger, grauer Kater; er ist groß und wohlgenährt und hat einen so mächtigen Schnurrbart wie ein Amtmann. Katerina Lwowna streichelt ihm das weiche Fell, und er schnuppert immer mit seiner stumpfen Schnauze an ihrem prallen Busen und schnurrt ein leises Lied, wie wenn er von der Liebe sprechen wollte. »Wie kommt nur der Kater her?« fragt sich Katerina Lwowna. »Ich habe hier auf dem Fenster Sahne stehen, er wird sie sicher fressen. Ich muß ihn hinauswerfen!« sagt sie sich und greift nach dem Kater. Er ist aber unter ihren Fingern wie ein Nebel verschwunden. »Wie kommt nur der Kater zu uns her?« denkt sich Katerina Lwowna im Halbschlummer. »In unserm Schlafzimmer hat es doch niemals einen Kater gegeben, und auf einmal ist so ein Vieh da!« Sie will wieder nach dem Kater greifen, und er ist schon wieder weg. »Was ist denn das? Ist es denn nur ein Kater?« fragt sich Katerina Lwowna wieder. Sie bekommt Angst, und ihre ganze Schläfrigkeit ist auf einmal wie weggeblasen. Sie sieht sich um – es ist gar kein Kater in der Stube, an ihrer Seite liegt nur der hübsche Ssergej und drückt mit seiner starken Hand ihre Brust gegen sein glühendes Gesicht.</p>
+            <p rendition="#et">Katerina Lwowna stand auf, setzte sich auf das Bett und begann ihren Ssergej zu küssen und zu liebkosen. Dann richtete sie die zerwühlten Kissen und ging in den <pb n="163" facs="#f0017"/>
+Garten, um Tee zu trinken. Die Sonne stand aber schon tief am Himmel, und auf die warme Erde senkte sich ein märchenhaft schöner Abend.</p>
+            <p rendition="#et">»Ich habe zu lange geschlafen,« sagte Katerina Lwowna zu Aksinja und setzte sich auf den Teppich unter den blühenden Apfelbaum. »Aksinja, was mag das bedeuten?« fragte sie die Köchin, die Tassen mit dem Handtuch abwischend.</p>
+            <p rendition="#et">»Was denn, Mütterchen?«</p>
+            <p rendition="#et">»Es war kein Traum, ich sah es im Wachen, wie sich an mich irgendein Kater schmiegte.«</p>
+            <p rendition="#et">»Was redest du?«</p>
+            <p rendition="#et">»Es war wirklich ein Kater.«</p>
+            <p rendition="#et">Und Katerina Lwowna erzählte ihr, was sie eben erlebt hatte.</p>
+            <p rendition="#et">»Was brauchtest du ihn zu streicheln?«</p>
+            <p rendition="#et">»Das weiß ich selbst nicht, warum ich ihn gestreichelt habe.«</p>
+            <p rendition="#et">»Es ist doch seltsam!« rief die Köchin aus.</p>
+            <p rendition="#et">»Es kommt auch mir seltsam vor.«</p>
+            <p rendition="#et">»Das bedeutet sicher, daß dir etwas zustößt.«</p>
+            <p rendition="#et">»Was soll mir zustoßen?«</p>
+            <p rendition="#et">»<hi rendition="#g">Was</hi> dir zustoßen wird, kann dir, meine Liebe, niemand erklären. Es wird dir aber sicher etwas zustoßen.«</p>
+            <p rendition="#et">»Ich habe den Mond im Traume gesehen, und dann kam dieser Kater,« fuhr Katerina Lwowna fort.</p>
+            <p rendition="#et">»Der Mond bedeutet ein Kind.«</p>
+            <p rendition="#et">Katerina Lwowna errötete.</p>
+            <p rendition="#et">»Soll ich dir nicht den Sjergej herschicken?« fragte Aksinja mit der Vertraulichkeit einer Freundin.</p>
+            <p rendition="#et">
+               <pb n="164" facs="#f0018"/>
+»Meinetwegen,« antwortete Katerina Lwowna. »Schick ihn mir wirklich her: ich will mit ihm Tee trinken.«</p>
+            <p rendition="#et">»Darum frage ich auch, ob ich ihn herschicken soll,« sagte Aksinja und wackelte wie eine Ente zum Gartentor.</p>
+            <p rendition="#et">Katerina Lwowna erzählte auch Ssergej das von dem Kater.</p>
+            <p rendition="#et">»Es ist nichts als Einbildung,« antwortete Ssergej.</p>
+            <p rendition="#et">»Warum habe ich aber früher diese Einbildung niemals gehabt, Sserjoscha?«</p>
+            <p rendition="#et">»Ja, früher war manches anders! Früher verschmachtete mir das Herz, wenn ich dich auch nur mit einem Auge ansah, und heute habe ich deinen ganzen weißen Leib in meiner Gewalt.«</p>
+            <p rendition="#et">Ssergej nahm Katerina Lwowna auf die Arme, drehte sie einmal in der Luft um und warf sie auf den weichen Teppich.</p>
+            <p rendition="#et">»Ach, es schwindelt mir!« sagte Katerina Lwowna.</p>
+            <p rendition="#et">»Sserjoscha, komm einmal her, setz dich zu mir,« rief sie, sich wollüstig streckend.</p>
+            <p rendition="#et">Ssergej beugte sich, trat unter die tief herabhängenden, mit weißen Blüten beladenen Äste des Apfelbaumes und setzte sich auf den Teppich Katerina Lwowna zu Füßen.</p>
+            <p rendition="#et">»Hast du wirklich nach mir geschmachtet, Sserjoscha?«</p>
+            <p rendition="#et">»Gewiß, ich habe wohl geschmachtet.«</p>
+            <p rendition="#et">»Wie hast du geschmachtet? Erzähl es mir!«</p>
+            <p rendition="#et">»Kann man es denn erklären, wie man schmachtet? Ich habe mich halt nach dir gesehnt.«</p>
+            <p rendition="#et">»Warum habe ich nicht gefühlt, daß du dich nach mir sehntest, Sserjoscha? Es heißt ja, daß man so was immer fühlt.«</p>
+            <p rendition="#et">Sjergej gab keine Antwort.</p>
+            <p rendition="#et">
+               <pb n="165" facs="#f0019"/>
+»Warum hast du immer gesungen, wenn du dich wirklich nach mir gesehnt hast? Ich hab ja gehört, wie du auf der Galerie deine Lieder sangst,« fragte Katerina Lwowna unter Küssen und Liebkosungen.</p>
+            <p rendition="#et">»Was folgt daraus, daß ich gesungen habe? Auch die Mücke singt ihr Leben lang, doch nicht vor Freude,« antwortete Ssjergej trocken.</p>
+            <p rendition="#et">Es entstand eine Pause. Ssergejs Geständnis erfüllte Katerina Lwowna mit höchster Freude.</p>
+            <p rendition="#et">Sie wollte noch mehr darüber sprechen, aber Ssergej runzelte die Stirne und schwieg.</p>
+            <p rendition="#et">»Schau nur, Sserjoscha, was das für ein Paradies ist!« rief Katerina Lwowna aus, durch die dichten Zweige des blühenden Apfelbaumes in den heiteren blauen Himmel mit dem Vollmond blickend.</p>
+            <p rendition="#et">Das Mondlicht drang durch die Blüten und Blätter des Apfelbaumes und überschüttete die Figur und das Gesicht der auf dem Rücken liegenden Katerina Lwowna mit zauberhaften Lichtflecken. Ein leiser warmer Windhauch bewegte kaum die schlafenden Blätter und brachte den feinen Duft der blühenden Gräser und Bäume. Die Luft flößte eine süße Mattigkeit, Wollust und dunkles Sehnen ein.</p>
+            <p rendition="#et">Ssergej sagte noch immer nichts, und Katerina Lwowna hielt wieder inne und blickte durch die blaßrosa Apfelblüten zum Himmel empor. Auch Ssergej schwieg; der Himmel schien ihn aber nicht zu interessieren. Er saß, seine Knie mit beiden Armen umschlingend, und betrachtete aufmerksam seine Stiefel.</p>
+            <p rendition="#et">Eine goldene Nacht! Stille, Licht, Duft und belebende Wärme. In der Ferne hinter dem Garten stimmte jemand <pb n="166" facs="#f0020"/>
+ein wohlklingendes Lied an. In den dichten Faulbeersträuchern am Zaune begann eine Nachtigall zu schlagen; im Bauer an der hohen Stange zwitscherte eine verschlafene Wachtel. Man hörte das wohlgenährte Pferd im Stalle atmen und sah eine lustige Hundeschar über die Wiese hinter dem Gartenzaune lautlos rennen und in dem formlosen schwarzen Schatten der zerfallenen alten Salzspeicher verschwinden.</p>
+            <p rendition="#et">Katerina Lwowna stützte sich auf einen Ellenbogen und blickte auf das hohe Gras, das im Mondlichte schimmerte. Es sah wie vergoldet aus, seltsame Mondflecken huschten wie leuchtende Falter durch die Halme, und das Gras unter den Bäumen schien, in das Netz der Mondlichtstrahlen verfangen, hin und her zu schwanken.</p>
+            <p rendition="#et">»Ach, Sserjoscha, schau nur, wie schön es ist!« rief Katerina Lwowna aus.</p>
+            <p rendition="#et">Ssergej sah sich gleichgültig um.</p>
+            <p rendition="#et">»Was bist du heute so freudlos, Sserjoscha? Bist du vielleicht meiner Liebe schon überdrüssig?«</p>
+            <p rendition="#et">»Sprich nicht solchen Unsinn!« antwortete Ssergej trocken. Er beugte sich träge zu ihr und küßte sie.</p>
+            <p rendition="#et">»Du bist treulos, Sserjoscha,« sagte Katerina Lwowna, »du bist gar zu unbeständig.«</p>
+            <p rendition="#et">»Ich kann diese Worte gar nicht auf mich beziehen,« antwortete Ssergej ruhig.</p>
+            <p rendition="#et">»Warum küßt du mich dann so lässig?«</p>
+            <p rendition="#et">Ssergej gab keine Antwort.</p>
+            <p rendition="#et">»Nur die Ehemänner küssen ihre Frauen so,« fuhr Katerina Lwowna fort, mit seinen Locken spielend, »wie wenn sie die Lippen nur abstauben wollten. Küsse mich, <pb n="167" facs="#f0021"/>
+daß die jungen Blüten vom Apfelbaume, unter dem wir sitzen, herabfallen!«</p>
+            <p rendition="#et">»Siehst du, so!« flüsterte Katerina Lwowna, ihren Geliebten umschlingend und mit leidenschaftlichen Küssen überschüttend.</p>
+            <p rendition="#et">»Hör einmal, Sserjoscha,« fuhr Katerina Lwowna nach einer Weile fort: »warum sagen die Leute, daß du treulos bist?«</p>
+            <p rendition="#et">»Wer wird mich so verleumden?«</p>
+            <p rendition="#et">»Alle sagen es.«</p>
+            <p rendition="#et">»Es mag ja sein, daß ich gegen solche treulos war, die meine Liebe gar nicht verdienten.«</p>
+            <p rendition="#et">»Warum hast du dich denn mit solchen eingelassen? Eine, die es nicht verdient, soll man gar nicht lieben.«</p>
+            <p rendition="#et">»Ja, das ist leicht gesagt! Überlegt man sich denn so eine Sache zuvor? In solchen Dingen wirkt die Versuchung allein. Kaum hat unsereiner so ganz ohne jede Absicht sein Gebot übertreten, als sie sich ihm gleich an den Hals hängt. Das ist die ganze Liebe!«</p>
+            <p rendition="#et">»Hör einmal, Sserjoscha! Wie die andern waren, weiß ich nicht und will es auch gar nicht wissen. Zu unserer Liebe hast du mich aber selbst verführt, du weißt, daß deine Verführungskünste ebenso stark waren wie mein eigener Wille. Darum muß ich es dir sagen: und wenn du mir auch einmal untreu wirst, und wenn du mir eine andere vorziehst, so werde ich, nimm es mir nicht übel, solange ich lebe, nicht von dir lassen!«</p>
+            <p rendition="#et">Ssergej fuhr zusammen.</p>
+            <p rendition="#et">»Katerina Lwowna, du Licht meiner Seele!« sagte er. »Betrachte einmal selbst, wie unsere Sache steht. Du siehst nur, daß ich heute nachdenklich bin; du fragst <pb n="168" facs="#f0022"/>
+dich gar nicht, warum ich es bin. Vielleicht ertrinkt jetzt mein Herz in geronnenem Blut.«</p>
+            <p rendition="#et">»Sserjoscha, erzähle alles, was dich so bedrückt.«</p>
+            <p rendition="#et">»Was soll ich viel erzählen! Da wird bald mit Gottes Hilfe dein Mann gefahren kommen, und es wird gleich heißen: Ssergej Philippowitsch, geh jetzt auf den Hinterhof zu den Spielleuten und sieh hinter der Scheune zu, wie im Schlafzimmer Katerina Lwownas ein Lichtlein brennt, wie sie ihr Bett aufrüttelt und sich mit ihrem ehelichen Gemahl Sinowij Borissowitsch zur Ruhe begibt.«</p>
+            <p rendition="#et">»Das wird niemals sein!« rief Katerina Lwowna voll ausgelassener Freude und winkte mit der Hand.</p>
+            <p rendition="#et">»Warum sollte das nicht sein? Ich glaube, daß es unbedingt so sein wird. Aber auch ich habe ein Herz, Katerina Lwowna, das jede Pein empfindet.«</p>
+            <p rendition="#et">»Genug davon!«</p>
+            <p rendition="#et">Ssergejs Eifersucht machte Katerina Lwowna großes Vergnügen. Sie lachte auf und begann ihn wieder zu küssen.</p>
+            <p rendition="#et">»Und dann muß ich noch dieses sagen«, fuhr Ssergej fort, seinen Kopf behutsam aus den nackten Armen Katerina Lwownas befreiend: »Und dann muß ich noch dieses sagen: mein niederer Stand zwingt mich, mir die Sache doppelt und zehnfach zu überlegen. Wäre ich Ihnen gleich, wäre ich ein vornehmer Herr oder Kaufmann, so würde ich mich von Ihnen, Katerina Lwowna, niemals trennen. Wie stehe ich aber vor Ihnen da? Wenn ich sehe, wie man Sie bei Ihren weißen Händchen nimmt und ins Schlafzimmer führt, wenn mein Herz das alles über sich ergehen lassen muß, so werde ich mir selbst <pb n="169" facs="#f0023"/>
+vielleicht mein ganzes Leben lang ein Ekel sein. Katerina Lwowna! Ich bin nicht wie die andern, die bei der Frau nur Vergnügen suchen. Ich weiß, was die Liebe ist, und fühle, wie sie als schwarze Schlange an meinem Herzen saugt ...«</p>
+            <p rendition="#et">»Was redest du heute in einem fort?« unterbrach ihn Katerina Lwowna.</p>
+            <p rendition="#et">Sie hatte mit Ssergej Mitleid.</p>
+            <p rendition="#et">»Katerina Lwowna! Wie sollte ich davon nicht reden? Wenn es vielleicht schon bestimmt und beschlossen ist, daß Ssergej nicht etwa in der Zukunft, sondern schon morgen dieses Haus räumen muß ...«</p>
+            <p rendition="#et">»Nein, nein, sprich nicht davon, Sserjoscha! Es ist unmöglich, daß ich ohne dich bleibe«, suchte ihn Katerina Lwowna zu beruhigen. »Wenn es einmal so weit ist, so muß entweder er oder ich aus dem Leben scheiden. Du aber bleibst in jedem Falle bei mir.«</p>
+            <p rendition="#et">»Das kann unmöglich sein, Katerina Lwowna«, sagte Ssergej, mit traurigem Kopfschütteln. »Diese Liebe macht mich nicht froh. Wenn ich jemanden liebte, der mir gleich wäre, so wäre ich zufrieden. Wie kann ich aber daran auch nur denken, daß Sie immer mit mir bleiben? Ist es denn eine Ehre für Sie, meine Geliebte zu sein? Ich wollte, ich könnte vor dem heiligen Altar des ewigen Gottes Ihr Gatte werden; ich würde mich dann zwar immer für geringer halten als Sie, wäre aber froh, den Leuten zu zeigen, was für Ehren ich bei meiner Frau dank meiner Liebe genieße ...«</p>
+            <p rendition="#et">Katerina Lwowna war von diesen Worten Ssergejs, von seiner Eifersucht und seinem Wunsche, sie zu heiraten, wie berauscht: solch ein Wunsch ist der Frau stets <pb n="170" facs="#f0024"/>
+angenehm, selbst wenn sie vor der Verheiratung ein noch so kurzes Verhältnis mit dem Manne gehabt hat. Katerina Lwowna war jetzt bereit, für Ssergej ins Feuer und Wasser zu gehen, Kerker und Kreuz zu erdulden. Er hatte sie so verliebt gemacht, daß ihre Ergebenheit ganz grenzenlos war. Sie war vor Glück wie wahnsinnig; ihr Blut siedete, und sie konnte nichts mehr hören. Sie drückte ihm den Mund mit der Hand zu, schmiegte seinen Kopf an ihre Brust und sagte:</p>
+            <p rendition="#et">»Ich weiß schon, wie ich es einrichte, daß du ein Kaufmann wirst und ich mit dir in richtiger Ehe zusammenleben kann. Mache mir aber jetzt keinen Kummer, solange wir noch nicht so weit sind.«</p>
+            <p rendition="#et">Und sie überschüttete ihn wieder mit ihren Küssen.</p>
+            <p rendition="#et">Der alte Verwalter, der in der Scheune schlief, hörte in der Stille der Nacht bald ein Flüstern und Kichern, als ob ausgelassene Kinder sich berieten, wie sie den Alten einen Streich spielen könnten; bald ein helles lustiges Lachen, wie wenn die Nixen im See jemand kitzelten. Katerina Lwowna wälzte sich, vom Mondlichte übergossen, auf dem weichen Teppich und spielte mit dem jungen Burschen. Die weißen Blüten des Apfelbaums regneten auf sie herab und hörten schließlich zu regnen auf. Die kurze Sommernacht ging aber zu Ende, der Mond zog sich hinter den steilen Giebel des hohen Speichers zurück und blickte auf die Erde immer trüber herab; vom Küchendache herab erklang ein durchdringendes Katzenduett; dann hörte man ein böses Fauchen, und gleich darauf rollten zwei oder drei Katzen vom Dache herab.</p>
+            <p rendition="#et">»Komm schlafen«, sagte Katerina Lwowna, langsam, <pb n="171" facs="#f0025"/>
+wie zerschlagen, stand vom Teppich auf und ging im bloßen Hemd und Unterrock, so wie sie war, durch den stillen, wie ausgestorbenen Hof. Ssergej trug ihr aber den Teppich und die Jacke nach, die sie im mutwilligen Spiel von sich geworfen hatte.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e2400" type="chapter">
+            <head>VII</head>
+            <p>Kaum hatte Katerina Lwowna die Kerze ausgeblasen und sich auf dem weichen Pfühle ausgestreckt, als sie auch sofort einschlief. Nach den ausgelassenen Spielen dieser Nacht schläft sie so fest, daß auch Arme und Beine wie erstarrt sind; und sie hört durch den Schlaf, wie die Türe aufgeht und der gestrige Kater als ein schweres Knäuel aufs Bett springt.</p>
+            <p rendition="#et">»Was ist das für eine Plage mit diesem Kater?« fragt sich die todmüde Katerina Lwowna. »Ich habe ja die Türe mit eigenen Händen zugesperrt und auch das Fenster geschlossen, und er ist schon wieder da. Gleich werde ich ihn hinauswerfen!« Katerina Lwowna wollte schon aufstehen, aber die schlafenden Arme und Beine gehorchten ihr nicht. Der Kater stieg aber auf ihrem Körper umher und schnurrte so seltsam, wie wenn er Menschenworte spräche. Katerina Lwowna überlief es kalt.</p>
+            <p rendition="#et">»Morgen muß ich ganz bestimmt Weihwasser mit ins Bett nehmen«, sagt sie sich, »anders kann ich diesen seltsamen Kater gar nicht los werden!«</p>
+            <p rendition="#et">Der Kater aber schnurrt ihr dicht vor dem Ohre und spricht: »Bin ich denn ein Kater? Du urteilst nicht klug, Katerina Lwowna, wenn du mich für einen Kater hältst. Ich bin ja der ehrengeachtete Kaufmann Boris Timofejitsch. Ich sehe jetzt blos darum so schlecht aus, weil mir nach <pb n="172" facs="#f0026"/>
+dem Imbiß, den mir meine liebe Schwiegertochter vorgesetzt hat, alle Gedärme gesprungen sind. Darum erscheine ich auch denen, die von der Sache wenig verstehen, als ein Kater. Wie geht es dir nun jetzt, Katerina Lwowna? Wie beobachtest du Gottes Gebot? Ich bin vom Friedhofe hergekommen, um zu sehen, wie du mit Ssergej Philippowitsch das Bett deines Mannes wärmst. Schnurr – Murr, ich sehe ja nichts. Fürchte mich nicht: nach deinem Imbiß sind mir, wie du siehst, auch die Augen ausgelaufen. Schau mir doch in die Augen, meine Liebe, fürchte dich nicht!«</p>
+            <p rendition="#et">Katerina Lwowna sah hin und schrie vor Entsetzen auf. Zwischen ihr und Ssergej liegt wieder der Kater. Er hat den Kopf des Boris Timofejitsch in der gleichen Größe, wie ihn der Verstorbene bei Lebzeiten gehabt hat, und statt der Augen Feuerkreise, die sich nach verschiedenen Richtungen drehen.</p>
+            <p rendition="#et">Ssergej erwachte, beruhigte Katerina Lwowna und schlief wieder ein. Sie konnte aber nicht mehr einschlafen, und das war gut.</p>
+            <p rendition="#et">Sie liegt mit offenen Augen da, und plötzlich kommt es ihr vor, als ob jemand über das Tor in den Hof gestiegen wäre. Sie hört, wie die Hunde aufspringen, sich aber gleich wieder beruhigen, wie wenn sie jemand streichelte. Es vergeht eine Minute, und sie hört, wie der Riegel unten zurückgeschoben wird und wie die Haustür aufgeht. »Entweder kommt mir das alles nur so vor, oder mein Sinowij Borissowitsch ist eben zurückgekehrt und hat die Türe mit seinem Schlüssel aufgemacht«, dachte sich Katerina Lwowna und stieß Ssergej in die Seite.</p>
+            <p rendition="#et">
+               <pb n="173" facs="#f0027"/>
+»Sserjoscha, hör einmal«, sagte sie, sich auf einen Ellenbogen aufrichtend und die Ohren spitzend.</p>
+            <p rendition="#et">Jemand stieg tatsächlich die Treppe hinauf und näherte sich langsam mit leisen Schritten der versperrten Schlafzimmertüre.</p>
+            <p rendition="#et">Katerina Lwowna sprang schnell im bloßen Hemd aus dem Bett und machte das Fenster auf. Ssergej stürzte im gleichen Augenblick auf die Galerie und umschlang mit den Beinen den Balken, an dem er schon mehr als einmal aus dem Schlafzimmer der Hausfrau hinuntergeglitten war.</p>
+            <p rendition="#et">»Nein, du sollst nicht fort! Leg dich hier nieder ... Bleib in meiner Nähe«, flüsterte Katerina Lwowna und warf ihm durch das Fenster seine Kleider und Schuhe zu. Sie selbst schlüpfte aber wieder unter die Bettdecke und wartete.</p>
+            <p rendition="#et">Ssergej hörte auf Katerina Lwowna; er glitt den Balken nicht hinunter, sondern kauerte sich auf der Galerie unter dem Dachvorsprung nieder.</p>
+            <p rendition="#et">Katerina Lwowna hört indessen, wie ihr Mann dicht vor die Türe kommt und mit verhaltenem Atem lauscht. Sie hört sogar sein Herz vor Eifersucht klopfen; sie fühlt aber kein Mitleid, sondern nur ein böses Lachen in sich aufsteigen.</p>
+            <p rendition="#et">»Ja, suche nur den gestrigen Tag!« denkt sie sich und lächelt so unschuldig wie ein neugeborenes Kind.</p>
+            <p rendition="#et">Das dauerte an die zehn Minuten. Schließlich wurde es Sinowij Borissowitsch zu dumm, draußen zu stehen und zu lauschen, wie seine Frau schläft. Er klopfte an.</p>
+            <p rendition="#et">»Wer ist da?« rief Katerina Lwowna nach einer Weile mit verschlafener Stimme.</p>
+            <p rendition="#et">
+               <pb n="174" facs="#f0028"/>
+»Einer von der Familie«, antwortete Sinowij Borissowitsch.</p>
+            <p rendition="#et">»Bist du es, Sinowij Borissowitsch?«</p>
+            <p rendition="#et">»Natürlich! Als ob du es nicht hörtest!«</p>
+            <p rendition="#et">Katerina Lwowna sprang im bloßen Hemd auf, ließ den Mann ein und schlüpfte wieder in das warme Bett.</p>
+            <p rendition="#et">»Vor Sonnenaufgang ist es immer so kalt,« sagte sie, sich in die Decke hüllend.</p>
+            <p rendition="#et">Sinowij Borissowitsch trat ein, sah sich um, betete vor dem Heiligenbilde und sah sich wieder um.</p>
+            <p rendition="#et">»Nun, wie geht es dir?« fragte er seine Frau.</p>
+            <p rendition="#et">»Es geht«, antwortete Katerina Lwowna, sich aufsetzend und eine vorne offene Jacke anziehend.</p>
+            <p rendition="#et">»Ich soll wohl den Samowar bereiten?« fragte sie.</p>
+            <p rendition="#et">»Nein, wecke die Aksinja, daß sie es macht.«</p>
+            <p rendition="#et">Katerina Lwowna schlüpfte in die Schuhe und lief hinaus. Eine halbe Stunde blieb sie fort. In dieser Zeit machte sie den Samowar und schlich sich leise auf die Galerie hinaus.</p>
+            <p rendition="#et">»Bleib da!« flüsterte sie Ssergej zu.</p>
+            <p rendition="#et">»Wie lange soll ich noch sitzen?« fragte Sserjoscha gleichfalls flüsternd.</p>
+            <p rendition="#et">»Wie dumm du doch bist! Sitz, bis ich dich rufe.«</p>
+            <p rendition="#et">Und Katerina Lwowna setzte ihn wieder auf die gleiche Stelle hin.</p>
+            <p rendition="#et">Ssergej konnte aber von der Galerie alles hören, was im Schlafzimmer vorging. Er hörte, wie die Türe wieder aufging und wie Katerina Lwowna zu ihrem Mann zurückkehrte. Jedes Wort konnte er hören.</p>
+            <p rendition="#et">»Was hast du so lange getrieben?« fragte Sinowij Borissowitsch seine Frau.</p>
+            <p rendition="#et">
+               <pb n="175" facs="#f0029"/>
+»Den Samowar habe ich gemacht«, antwortet sie ruhig.</p>
+            <p rendition="#et">Es vergehen wieder einige Minuten. Ssergej hört, wie Sinowij Borissowitsch seinen Rock auf den Kleiderrechen hängt. Nun wäscht er sich und spritzt mit dem Wasser umher; dann läßt er sich ein Handtuch geben; dann beginnt er wieder ein Gespräch.</p>
+            <p rendition="#et">»Wie habt ihr den Vater beerdigt?« fragt er.</p>
+            <p rendition="#et">»Er ist verschieden, und wir haben ihn beerdigt«, antwortet sie.</p>
+            <p rendition="#et">»Das ist doch wirklich sonderbar!«</p>
+            <p rendition="#et">»Gott allein weiß, wie es gekommen ist,« antwortet Katerina Lwowna, mit den Teetassen klappernd.</p>
+            <p rendition="#et">Sinowij Borissowitsch geht nachdenklich durch das Zimmer.</p>
+            <p rendition="#et">»Nun, und wie hast du die Zeit verbracht?« fragt Sinowij Borissowitsch seine Frau von neuem aus.</p>
+            <p rendition="#et">»Ich glaube, unser Zeitvertreib ist jedermann bekannt; Bälle besuchen wir nicht, Theater ebenfalls nicht.«</p>
+            <p rendition="#et">»Du scheinst dich aber wenig über die Rückkehr des Gatten zu freuen!« beginnt Sinowij Borissowitsch wieder, sie scheel anblickend.</p>
+            <p rendition="#et">»Wir beide sind ja nicht mehr so jung, daß wir vor Freude den Verstand verlieren sollen! Was soll ich mich auch freuen? Nun muß ich wieder für dich arbeiten und herumrennen!«</p>
+            <p rendition="#et">Katerina Lwowna lief hinaus, um den Samowar zu holen, machte wieder einen Sprung auf die Galerie zu Ssergej, zupfte ihn am Ärmel und sagte ihm: »Sserjoscha, paß jetzt auf!«</p>
+            <p rendition="#et">Ssergej wußte zwar nicht recht, was jetzt kommen sollte, machte sich aber bereit.</p>
+            <p rendition="#et">
+               <pb n="176" facs="#f0030"/>
+Katerina Lwowna kehrte ins Schlafzimmer zurück Sinowij Borissowitsch kniete eben auf dem Bett und hängte über dem Kopfende seine silberne Uhr mit der Glasperlenkette auf.</p>
+            <p rendition="#et">»Sagen Sie mir einmal, Katerina Lwowna, warum haben Sie, wo Sie allein waren, beide Betten aufgedeckt?« fragte er plötzlich die Frau mit seltsamem Ausdruck.</p>
+            <p rendition="#et">»Ich habe Sie immer erwartet«, antwortete Katerina Lwowna, ihn ruhig anblickend.</p>
+            <p rendition="#et">»Dafür bin ich Ihnen sehr dankbar ... Wie kommt aber dieser Gegenstand zu Ihnen ins Bett?«</p>
+            <p rendition="#et">Sinowij Borissowitsch hob von ihrem Bett den wollenen Gürtel Ssergejs auf und hielt ihn ihr vor die Augen.</p>
+            <p rendition="#et">Katerina Lwowna verlor gar nicht die Fassung.</p>
+            <p rendition="#et">»Ich habe ihn im Garten gefunden und mir damit den Rock festgebunden.«</p>
+            <p rendition="#et">»So, so!« sagte Sinowij Borissowitsch mit eigentümlicher Betonung. »Von Ihren Röcken haben wir ja auch manches gehört.«</p>
+            <p rendition="#et">»Was haben Sie gehört?«</p>
+            <p rendition="#et">»Manches von Ihren Heldentaten!«</p>
+            <p rendition="#et">»Ich weiß nichts von Heldentaten.«</p>
+            <p rendition="#et">»Das werden wir alles untersuchen«, antwortete Sinowij Borissowitsch, der Frau seine geleerte Teetasse zuschiebend.</p>
+            <p rendition="#et">»Wir werden alle Ihre Taten ans Licht bringen«, sagte Sinowij Borissowitsch nach einer langen Pause, die Brauen runzelnd.</p>
+            <p rendition="#et">»Ihre Katerina Lwowna ist gar nicht so furchtsam. Sie hat keine Angst davor«, antwortet sie.</p>
+            <p rendition="#et">
+               <pb n="177" facs="#f0031"/>
+»Was?!« herrschte sie Sinowij Borissowitsch mit erhobener Stimme an.</p>
+            <p rendition="#et">»Nichts, ist schon vorbei«, antwortete die Frau.</p>
+            <p rendition="#et">»Du, paß auf! Du bist mir hier allzu gesprächig geworden!«</p>
+            <p rendition="#et">»Warum soll ich auch nicht gesprächig sein?« erwiderte Katerina Lwowna.</p>
+            <p rendition="#et">»Hättest doch mehr acht auf dein Benehmen gegeben!«</p>
+            <p rendition="#et">»Das brauche ich nicht. Ich kann gar nicht wissen, was die bösen Zungen über mich alles gesagt haben, und nun muß ich alle diese Schimpfreden über mich ergehen lassen. Das ist doch wirklich unerhört!«</p>
+            <p rendition="#et">»Ich spreche nicht von den bösen Zungen, mir sind aber alle Ihre Liebesabenteuer bekannt.«</p>
+            <p rendition="#et">»Was für Liebesabenteuer?« schrie Katerina Lwowna in aufrichtigem Zorne auf.</p>
+            <p rendition="#et">»Das weiß ich schon selbst.«</p>
+            <p rendition="#et">»Und wenn Sie es wissen, so sagen Sie es mir bitte!«</p>
+            <p rendition="#et">Sinowij Borissowitsch antwortete nichts und schob der Frau wieder die geleerte Tasse hin.</p>
+            <p rendition="#et">»Offenbar wissen Sie selbst nicht, was zu sagen«, sagte Katerina Lwowna verachtungsvoll und warf wütend den Teelöffel in die leere Tasse des Mannes. »Nun, sagen Sie einmal, was Sie gehört haben? Wer soll mein Geliebter sein?«</p>
+            <p rendition="#et">»Keine Eile, Sie werden es schon hören.«</p>
+            <p rendition="#et">»Hat man Ihnen vielleicht etwas von Ssergej gesagt?«</p>
+            <p rendition="#et">»Das werden wir bald alles erfahren, Katerina Lwowna. Niemand hat mir noch meine Gewalt über Sie genommen und niemand kann sie mir nehmen ... Sie werden bald selbst alles sagen ...«</p>
+            <p rendition="#et">
+               <pb n="178" facs="#f0032"/>
+»Ach! Das kann ich nicht leiden!« schrie Katerina Lwowna, mit den Zähnen knirschend, auf, wurde kreideblaß und sprang plötzlich durch die <hi rendition="#g">Türe</hi> hinaus.</p>
+            <p rendition="#et">»Da ist er!« sagte sie nach wenigen Augenblicken, Ssergej bei der Hand ins Zimmer führend. »Fragen Sie ihn und mich aus. Vielleicht wirst du sogar etwas mehr erfahren, als dir lieb ist.«</p>
+            <p rendition="#et">Sinowij Borissowitsch war ganz bestürzt. Er blickte bald Ssergej an, der an der Schwelle stand, bald seine Frau, die ruhig, mit gekreuzten Armen auf dem Bettrande saß, und wußte gar nicht, womit das alles enden sollte.</p>
+            <p rendition="#et">»Was hast du vor, du Schlange?« brachte er mit Mühe hervor, ohne vom Sessel aufzustehen.</p>
+            <p rendition="#et">»Frage mich nun aus, was du so gut weißt«, antwortete Katerina Lwowna frech. »Du willst mich mit Schlägen einschüchtern«, fuhr sie fort, bedeutungsvoll mit den Augen zwinkernd. »Das wird niemals sein! Was ich aber vielleicht noch vor allen deinen Drohungen über dich beschlossen habe, das werde ich jetzt tun.«</p>
+            <p rendition="#et">»Was? Hinaus!« schrie Sinowij Borissowitsch Ssergej an.</p>
+            <p rendition="#et">»Warum nicht gar!« höhnte Katerina Lwowna.</p>
+            <p rendition="#et">Sie sperrte schnell die Türe zu, steckte den Schlüssel in die Tasche und legte sich wieder in ihrer offenen Jacke aufs Bett.</p>
+            <p rendition="#et">»Nun, Sserjoscha, mein Liebster, komm einmal her!« rief sie den Burschen zu sich heran.</p>
+            <p rendition="#et">Ssergej schüttelte seinen Lockenkopf und setzte sich kühn neben die Hausfrau.</p>
+            <p rendition="#et">»Mein Gott! Was ist denn das? Was wollt ihr, ihr<pb n="179" facs="#f0033"/>
+ Barbaren?!« schrie Sinowij Borissowitsch, ganz rot vor Zorn, sich vom Sessel erhebend.</p>
+            <p rendition="#et">»Wie? Paßt dir das nicht? Schau nur, schau nur, mein Liebster, wie schön das ist!«</p>
+            <p rendition="#et">Katerina Lwowna lachte auf und küßte vor den Augen ihres Mannes Ssergej mit großer Leidenschaft.</p>
+            <p rendition="#et">Im gleichen Augenblick brannte auf ihrer Wange ein betäubender Schlag, und Sinowij Borissowitsch stürzte ans offene Fenster.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e2706" type="chapter">
+            <head>VIII</head>
+            <p>»Ach so! ... Ich danke dir, lieber Freund: nur darauf habe ich gewartet!« schrie Katerina Lwowna auf. »Nun wird es wohl weder nach meinem noch nach deinem Willen gehen ...«</p>
+            <p rendition="#et">Mit einem Ruck stieß sie Ssergej von sich, stürzte sich auf den Mann, packte ihn, noch ehe Sinowij Borissowitsch das Fenster erreicht hatte, mit ihren feinen Fingern an der Kehle und warf ihn wie eine Hanfgarbe zu Boden.</p>
+            <p rendition="#et">Sinowij Borissowitsch schlug sich mit dem Nacken am Fußboden an und wurde ganz wahnsinnig vor Entsetzen. Ein so schnelles Ende hatte er nicht erwartet. Die erste Gewalttätigkeit seiner Frau gegen ihn zeigte ihm, daß sie zu allem entschlossen sei, um ihn loszuwerden, und daß er sich in höchster Gefahr befinde. Sinowij Borissowitsch hatte das alles blitzartig im Augenblick seines Sturzes erfaßt; er schrie nicht einmal auf, denn er wußte, daß seine Stimme kein Ohr erreichen und die Sache nur noch beschleunigen würde. Er ließ seinen Blick schweigend um sich schweifen, und richtete ihn zuletzt mit einem <pb n="180" facs="#f0034"/>
+Ausdruck von Haß, Vorwurf und Schmerz auf seine Frau, deren feine Finger seine Kehle zusammenpreßten.</p>
+            <p rendition="#et">Sinowij Borissowitsch wehrte sich nicht, seine Arme mit den geballten Fäusten lagen ausgestreckt da und zuckten wie in einem Krampfe. Der eine Arm war frei, den andern hatte Katerina Lwowna mit dem Knie gegen den Boden gedrückt.</p>
+            <p rendition="#et">»Halt ihn einmal fest,« flüsterte sie gleichgültig Ssergej zu und wandte sich wieder zum Mann.</p>
+            <p rendition="#et">Ssergej setzte sich rittlings auf seinen Herrn und drückte dessen beide Hände mit den Knien gegen den Boden. Er wollte ihn unter den Händen Katerina Lwownas an der Kehle fassen, schrie aber in diesem selben Augenblick selbst wahnsinnig auf. Als Sinowij Borissowitsch seinen Todfeind so nahe vor sich sah, nahm er seine letzten Kräfte zusammen: mit einem verzweifelten Ruck befreite er seine Hände unter Ssergejs Knie, packte ihn an den schwarzen Locken und biß sich wie ein wildes Tier in seine Kehle fest. Dies dauerte aber nur wenige Augenblicke; Sinowij Borissowitsch stöhnte schwer auf, und sein Kopf fiel wieder zurück.</p>
+            <p rendition="#et">Katerina Lwowna stand blaß, fast ohne zu atmen über den Mann und den Geliebten gebeugt; in der rechten Hand hielt sie einen schweren gegossenen Leuchter am oberen Ende, so daß der schwere Fuß nach unten gerichtet war. Über die Schläfe und Wange Sinowij Borissowitschs rieselte ein dünnes Bächlein hellroten Blutes.</p>
+            <p rendition="#et">»Einen Popen ...« stöhnte Sinowij Borissowitsch dumpf, den Kopf voller Ekel so weit es ging vor dem auf ihm sitzenden Ssergej zurückwerfend. »Beichten ...« <pb n="181" facs="#f0035"/>
+sagte er noch dumpfer, am ganzen Leibe zitternd und auf das über sein Gesicht fließende warme Blut schielend.</p>
+            <p rendition="#et">»Bist auch ohne Beichte gut,« flüsterte Katerina Lwowna.</p>
+            <p rendition="#et">»Mach keine langen Geschichten,« sagte sie zu Ssergej. »Pack ihn einmal ordentlich an der Gurgel.«</p>
+            <p rendition="#et">Sinowij Borissowitsch röchelte.</p>
+            <p rendition="#et">Katerina Lwowna beugte sich über ihn, preßte mit ihren Händen Ssergejs Hände, die die Kehle ihres Mannes umklammerten, noch fester zusammen und drückte ihr Ohr an dessen Brust. Nach fünf stummen Minuten stand sie auf und sagte:</p>
+            <p rendition="#et">»Es ist genug, er ist fertig.«</p>
+            <p rendition="#et">Ssergej stand ebenfalls auf und holte tief Atem. Sinowij Borissowitsch lag leblos mit eingedrückter Kehle und zerschmetterter Schläfe da. Auf dem Fußboden links von seinem Kopfe war ein kleiner Blutfleck; aus der kleinen Wunde, an der schon die Haare klebten, kam aber kein neues Blut mehr.</p>
+            <p rendition="#et">Ssergej trug die Leiche in den Keller unter der gemauerten Vorratskammer, in die ihn vor nicht langer Zeit der selige Boris Timofejitsch eingesperrt hatte, und kehrte bald ins Schlafzimmer zurück. Katerina Lwowna hatte die Ärmel ihrer Jacke aufgekrempelt und den Saum ihres Rockes gerafft und wusch mit Seife den Blutfleck, den Sinowij Borissowitsch auf dem Fußboden seines Schlafzimmers hinterlassen hatte. Der Samowar, aus dem er soeben den vergifteten Tee getrunken hatte, war noch nicht erkaltet, und der Blutfleck ließ sich mit dem heißen Wasser spurlos abwaschen.</p>
+            <p rendition="#et">
+               <pb n="182" facs="#f0036"/>
+Katerina Lwowna nahm die kupferne Spülschale und einen eingeseiften Bastwisch in die Hand.</p>
+            <p rendition="#et">»Leuchte mir einmal,« sagte sie zu Ssergej, zu der Türe gehend. »Halte die Kerze tiefer!« sagte sie, die Dielenbretter untersuchend, über die Ssergej die Leiche in den Keller geschleppt hatte.</p>
+            <p rendition="#et">Nur an zwei Stellen waren auf der gestrichenen Diele zwei kirschengroße Flecke zu sehen. Katerina Lwowna rieb sie mit dem Bastwisch, und sie verschwanden spurlos.</p>
+            <p rendition="#et">»Nun wirst du nicht mehr wie ein Dieb zu deiner Frau schleichen und sie belauern,« sagte Katerina Lwowna, sich aufrichtend und einen Blick zur Vorratskammer werfend.</p>
+            <p rendition="#et">»Jetzt ist Schluß,« sagte Ssergej und fuhr vor dem Klange seiner eigenen Stimme zusammen.</p>
+            <p rendition="#et">Als sie ins Schlafzimmer zurückkehrten, zeigte sich im Osten schon der erste feine Streif des Morgenrots, das die blühenden Apfelbäume mit schwachem goldenem Scheine übergoß und durch das grüne Gartengitter in das Schlafzimmer Katerina Lwownas hereinblickte.</p>
+            <p rendition="#et">Über den Hof ging aus der Scheune in die Küche, den Schafspelz über die Schultern geworfen, gähnend und sich bekreuzigend, der alte Verwalter.</p>
+            <p rendition="#et">Katerina Lwowna schloß leise den Fensterladen und warf einen durchdringenden Blick auf Ssergej, als wollte sie ihm in die Tiefe seiner Seele blicken.</p>
+            <p rendition="#et">»Nun bist du Kaufmann,« sagte sie, ihm ihre weißen Hände auf die Schultern legend.</p>
+            <p rendition="#et">Ssergej erwiderte nichts.</p>
+            <p rendition="#et">Er zitterte wie im Fieber. Katerina Lwowna fühlte nur Kälte um die Lippen.</p>
+            <p rendition="#et">
+               <pb n="183" facs="#f0037"/>
+Nach zwei Tagen hatte Ssergej an beiden Händen Schwielen, die vom Brecheisen und dem schweren Spaten herrührten. Sinowij Borissowitsch war dafür so gut verwahrt, daß ihn vor der allgemeinen Auferstehung wohl niemand ohne Beihilfe Katerina Lwownas und ihres Geliebten finden würde.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e2809" type="chapter">
+            <head>IX</head>
+            <p>Ssergej trug ein rotes wollenes Halstuch und klagte über Halsschmerzen. Ehe aber die Male von den Zähnen Sinowij Borissowitschs auf seinem Halse vernarbt waren, fiel den Leuten die allzu lange Abwesenheit des Hausherrn auf. Ssergej selbst sprach am häufigsten von ihm. Wenn er abends mit den anderen Burschen auf der Bank vor dem Tore saß, brachte er oft die Rede auf ihn: »Was bleibt unser Herr so lange aus?«</p>
+            <p rendition="#et">Auch die Burschen wunderten sich.</p>
+            <p rendition="#et">Von der Mühle kam aber die Nachricht, daß Sinowij Borissowitsch schon längst einen Wagen gedungen hatte und nach Hause abgereist war. Der Kutscher, der ihn gefahren hatte, berichtete, daß Sinowij Borissowitsch in einer seltsamen Aufregung gewesen sei; am Kloster, etwa drei Werst vor der Stadt, sei er mit seiner Reisetasche aus dem Wagen gestiegen und hätte den Kutscher entlassen. Als die Leute diesen Bericht hörten, staunten sie noch mehr.</p>
+            <p rendition="#et">Sinowij Borissowitsch schien spurlos verschwunden zu sein.</p>
+            <p rendition="#et">Man fing zu suchen an, konnte aber auch nicht die geringste Spur finden. Der Kutscher, den man bald verhaftete, wußte nur zu berichten, daß der Kaufmann vor <pb n="184" facs="#f0038"/>
+dem Kloster den Wagen verlassen und zu Fuß weitergegangen sei. Die Sache blieb rätselhaft. Katerina Lwowna erfreute sich indessen ihrer Witwenfreiheit und lebte mit Ssergej ohne jede Scheu zusammen. Man meldete zwar ab und zu, daß man Sinowij Borissowitsch bald hier und bald dort gesehen hätte, er kam aber nicht zurück, und Katerina Lwowna wußte am besten, daß er überhaupt nicht mehr zurückkehren konnte.</p>
+            <p rendition="#et">So verging ein Monat, ein zweiter und ein dritter, und Katerina Lwowna fühlte sich in anderen Umständen.</p>
+            <p rendition="#et">»Das Kapital wird uns zufallen, Sserjoscha: ich habe jetzt einen Erben,« sagte sie zu Ssergej. Sie ging auf das Kaufmannsgericht und meldete, daß sie in Umständen sei; die Geschäfte lägen brach; man möchte ihr daher die Vollmacht geben, das Geschäft selbständig zu führen.</p>
+            <p rendition="#et">Man durfte das alte Handelshaus doch nicht zugrunde gehen lassen; Katerina Lwowna war ja die eheliche Gemahlin Sinowij Borissowitschs, Schulden waren keine vorhanden, also konnte man ihr ohne Bedenken die Vollmacht geben.</p>
+            <p rendition="#et">Katerina Lwowna ist nun unumschränkte Herrin, und Ssergej wird auf ihren Wunsch von allen Ssergej Philippowitsch genannt. Plötzlich kommt eine ganz neue Sorge. Man meldet dem Bürgermeister aus Liwny, daß Sinowij Borissowitsch nicht bloß mit eigenem Kapital Handel getrieben habe; in seinem Geschäft hätte auch das Geld seines minderjährigen Neffen Fjodor Ignatjewitsch Ljamin gesteckt, das sein eigenes Kapital um ein Beträchtliches überstiegen habe; diese Sache müsse noch genauer untersucht werden, und man dürfe nicht das ganze Geschäft Katerina Lwowna allein anvertrauen. Als <pb n="185" facs="#f0039"/>
+diese Nachricht eintraf, ließ der Bürgermeister Katerina Lwowna zu sich kommen und teilte ihr alles mit. Nach acht Tagen kommt aber aus Liwny eine alte Frau mit einem halbwüchsigen Jungen.</p>
+            <p rendition="#et">»Ich bin eine Base des seligen Boris Timofejitsch,« sagt sie, »und der Junge ist mein Großneffe Fjodor Ljamin.«</p>
+            <p rendition="#et">Katerina Lwowna nahm sie huldvoll auf.</p>
+            <p rendition="#et">Als Ssergej die Gäste und den Empfang, den ihnen Katerina Lwowna bereitete, sah, wurde er kreideblaß.</p>
+            <p rendition="#et">»Was hast du?« fragte ihn Katerina Lwowna, als er gleich nach den Gästen ins Haus trat und aufgeregt im Vorzimmer stehen blieb.</p>
+            <p rendition="#et">»Nichts,« antwortete der Bursche, aus dem Vorzimmer wieder in den Hausflur gehend. »Ich denke mir nur, was für eine wunderbare Stadt dieses Liwny ist,« fügte er seufzend hinzu, die Haustüre hinter sich schließend.</p>
+            <p rendition="#et">»Was sollen wir jetzt anfangen?« fragte Ssergej Philippowitsch nachts am Teetisch Katerina Lwowna. »Unsere Sache steht jetzt wohl sehr schlecht.«</p>
+            <p rendition="#et">»Warum sollte sie schlecht stehen, Sserjoscha?«</p>
+            <p rendition="#et">»Weil die Erbschaft geteilt werden wird. Wie willst du wirtschaften, wenn dir kein Geld im Geschäfte bleibt?«</p>
+            <p rendition="#et">»Glaubst du, daß es für dich nicht langen wird, Sserjoscha?«</p>
+            <p rendition="#et">»Ich spreche nicht von mir, ich glaube nur, daß wir beide jetzt nicht mehr so glücklich werden leben können.«</p>
+            <p rendition="#et">»Warum glaubst du das, Sserjoscha?«</p>
+            <p rendition="#et">»Ich liebe Sie, Katerina Lwowna, und möchte Sie als wirkliche Dame sehen und nicht in der Lage, in der Sie vor Ihrer Heirat gelebt haben,« antwortete Ssergej <pb n="186" facs="#f0040"/>
+Philippowitsch. »Nun wird aber das Kapital so sehr verringert, daß Sie noch ärmer sein werden, als Sie es als Mädchen waren.«</p>
+            <p rendition="#et">»Brauche ich denn das viele Geld, Sserjoscha?«</p>
+            <p rendition="#et">»Es ist wohl möglich, Katerina Lwowna, daß Sie für das Geld gar kein Interesse haben. Ich achte Sie aber so sehr, daß es mir schmerzlich sein wird, zu sehen, wie die gemeinen und neidischen Menschen Sie anschauen werden. Sie können darüber natürlich urteilen, wie es Ihnen beliebt, ich bin aber der Ansicht, daß ich dann unmöglich so glücklich sein kann, wie ich es bisher gewesen.«</p>
+            <p rendition="#et">Und er redete in einem fort, daß dieser Fedja Ljamin ihn zum unglücklichsten Menschen mache und daß er nicht mehr die Möglichkeit habe, sie, Katerina Lwowna, vor den Augen der ganzen Kaufmannschaft zu erhöhen und zu ehren. Wenn dieser Fedja nicht wäre, so bekäme Katerina Lwowna, nachdem sie vor Ablauf der neunmonatlichen Frist nach dem Verschwinden ihres Mannes ein Kind geboren haben würde, das ganze Kapital; dann würde ihr gemeinsames Glück ganz grenzenlos sein.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e2902" type="chapter">
+            <head>X</head>
+            <p>Nach einiger Zeit hörte aber Ssergej ganz auf, von der Erbschaft zu sprechen. Dafür nahm jetzt Fedja Ljamin alle Gedanken und Regungen Katerina Lwownas gefangen. Sie war nun immer nachdenklich und gegen Ssergej oft sogar unfreundlich. Ob sie schläft, oder den Geschäften nachgeht, oder betet, – immer denkt sie an das eine: »Wie ist es nun? Warum muß ich seinetwegen das ganze Kapital verlieren? Ich habe so viel durchgemacht, habe eine solche Sünde auf mich genommen, <pb n="187" facs="#f0041"/>
+und er kommt gefahren und nimmt mir ruhig alles ab ... Wenn er wenigstens ein erwachsener Mensch wäre, aber er ist nur ein kleines Kind ...«</p>
+            <p rendition="#et">In diesem Jahre kamen die Fröste früh. Von Sinowij Borissowitsch war natürlich nichts zu hören. Katerina Lwowna nahm von Tag zu Tag an Leibesumfang zu und war immer nachdenklich. In der Stadt sprachen die Leute nur noch von ihr: die junge Ismajlowa ist doch immer kinderlos und mager gewesen, und nun ist sie plötzlich so aufgedunsen. Das ist doch seltsam! Der junge Miterbe Fedja Ljamin ging aber indessen in einem leichten Halbpelz aus Eichhornfellen auf dem Hofe herum und brach mit den Absätzen das Eis in den Pfützen ein.</p>
+            <p rendition="#et">»Du, Fjodor Ignatjewitsch!« schrie ihm manchmal die Köchin Aksinja zu. »Paßt es denn für dich, den Kaufmannssohn, in den Pfützen herumzustapfen?«</p>
+            <p rendition="#et">Der Miterbe, der Katerina Lwowna und ihrem Geliebten solche Sorgen machte, sprang aber so vergnügt wie ein Böcklein den ganzen Tag herum; nachts schlief er ruhig und sorglos unter der Obhut seiner Großtante und dachte gar nicht daran, daß jemand ihm in den Weg treten und sein glückliches Dasein verdunkeln könnte.</p>
+            <p rendition="#et">Fedja lief so lange auf dem Hofe herum, bis er eines Tages die Windpocken bekam. Zu den Windpocken gesellte sich auch eine Lungenentzündung. Der Junge lag krank darnieder. Man behandelte ihn zuerst mit allerlei Hausmitteln und ließ schließlich auch den Arzt kommen.</p>
+            <p rendition="#et">Der Arzt kam alle paar Tage ins Haus und schrieb Arzneien auf. Der Junge bekam sie alle paar Stunden nach der Uhr. Die Großtante selbst gab sie ihm ein. Manchmal mußte es auch Katerina Lwowna tun.</p>
+            <p rendition="#et">
+               <pb n="188" facs="#f0042"/>
+»Bemühe dich einmal, Katerina,« sagte sie ihr. »Du bist gesegneten Leibes, erwartest das Gericht Gottes, also kannst du dich auch einmal bemühen.«</p>
+            <p rendition="#et">Katerina Lwowna tat der Alten den Gefallen. Wenn jene in die Kirche ging, um »für den auf dem Krankenlager liegenden Knaben Fjodor« zu beten oder ein Stückchen Hostie für ihn zu holen, saß Katerina Lwowna am Bette des Kranken und gab ihm pünktlich seine Arzneien ein.</p>
+            <p rendition="#et">So ging die Alte auch am Festtage der Darstellung Mariä in die Kirche zur Abendmesse und Frühmesse und bat Katerina Lwowna wieder, nach dem Jungen zu sehen. Fedja ging es schon viel besser.</p>
+            <p rendition="#et">Katerina Lwowna kommt zu Fedja ins Zimmer, er sitzt aber schon in seinem Eichhornpelz auf dem Bette und liest.</p>
+            <p rendition="#et">»Was liest du, Fedja?« fragte Katerina Lwowna, sich in den Sessel vor seinem Bette setzend.</p>
+            <p rendition="#et">»Ich lese im Heiligenleben, Tantchen.«</p>
+            <p rendition="#et">»Ist es interessant?«</p>
+            <p rendition="#et">»Sehr interessant, Tantchen.«</p>
+            <p rendition="#et">Katerina Lwowna stützt den Kopf in die Hand und blickt auf Fedja, der lautlos die Lippen bewegt. Wie wenn sich alle Dämonen von den Ketten losgerissen hätten, bemächtigt sich ihrer plötzlich wieder der alte Gedanke, daß dieser Junge ihr soviel Böses zufüge und daß es viel besser wäre, wenn es ihn gar nicht auf der Welt gäbe.</p>
+            <p rendition="#et">– Er ist krank, – dachte sich Katerina Lwowna. – Er nimmt Arzneien ein ... Einem kranken Kind kann ja manches zustoßen ... Hinterher kann man sagen, daß der Arzt eine unrechte Medizin verordnet hat ...</p>
+            <p rendition="#et">
+               <pb n="189" facs="#f0043"/>
+»Ist es nicht Zeit, die Medizin zu nehmen, Fedja?«</p>
+            <p rendition="#et">»Bitte, Tantchen!« sagte der Junge. Er schluckte die Medizin herunter und fügte hinzu: »Das Buch ist sehr interessant, Tantchen, es wird darin das Leben der Heiligen beschrieben.«</p>
+            <p rendition="#et">»Lies nur, lies,« versetzte Katerina Lwowna. Sie sah sich kaltblütig im Zimmer um und richtete den Blick auf das mit Eisblumen überzogene Fenster.</p>
+            <p rendition="#et">»Man muß die Fenster schließen lassen,« sagte sie. Dann ging sie durch das Gastzimmer in den Saal und von dort zu sich ins Schlafzimmer. Hier setzte sie sich hin.</p>
+            <p rendition="#et">Nach etwa fünf Minuten trat ins Schlafzimmer in einem mit Seebärenfell besetzten Halbpelz Ssergej.</p>
+            <p rendition="#et">»Hat man die Fenster geschlossen?« fragte ihn Katerina Lwowna.</p>
+            <p rendition="#et">»Man hat sie geschlossen,« antwortete Ssergej. Er putzte die Kerze und stellte sich vor den Ofen.</p>
+            <p rendition="#et">Beide schwiegen.</p>
+            <p rendition="#et">»Heute geht die Abendmesse wohl nicht so bald zu Ende?« fragte Katerina Lwowna.</p>
+            <p rendition="#et">»Morgen ist ein großer Feiertag, der Gottesdienst wird heute lange dauern,« antwortete Ssergej.</p>
+            <p rendition="#et">Es entstand wieder eine Pause.</p>
+            <p rendition="#et">»Ich muß nach Fedja schauen, er ist allein,« sagte Katerina Lwowna, sich erhebend.</p>
+            <p rendition="#et">»Allein?« fragte Ssergej, sie mürrisch anblickend.</p>
+            <p rendition="#et">»Ja, allein,« antwortete sie leise: »Warum?«</p>
+            <p rendition="#et">Von einem Augenpaar zum andern zuckten schnelle Blitze; aber keiner von ihnen sagte ein Wort.</p>
+            <p rendition="#et">Katerina Lwowna ging hinunter und machte eine Runde <pb n="190" facs="#f0044"/>
+durch die leeren Zimmer. Überall war es still; vor den Heiligenbildern brannten ruhig die Lämpchen; ihr eigener Schatten huschte über die Wände; die Außenläden waren schon geschlossen, und die Fensterscheiben tauten auf und tränten. Fedja saß auf dem Bett und las. Als er Katerina erblickte, sagte er ihr:</p>
+            <p rendition="#et">»Tantchen, legen Sie, bitte, dieses Buch weg und geben Sie mir das andere, das auf dem Heiligenschrein liegt.«</p>
+            <p rendition="#et">Katerina Lwowna erfüllte die Bitte des Neffen und gab ihm das Buch.</p>
+            <p rendition="#et">»Willst du nicht einschlafen, Fedja?«</p>
+            <p rendition="#et">»Nein, Tantchen, ich möchte auf die Großtante warten.«</p>
+            <p rendition="#et">»Warum willst du auf sie warten?«</p>
+            <p rendition="#et">»Sie versprach mir, geweihtes Brot von der Abendmesse mitzubringen.«</p>
+            <p rendition="#et">Katerina Lwowna wurde plötzlich blaß: ihr eigenes Kind regte sich eben zum erstenmal unter ihrem Herzen, und sie fühlte Kälte in der Brust. Sie stand noch eine Weile mitten im Zimmer da und ging hinaus, die erkaltenden Hände gegeneinander reibend.</p>
+            <p rendition="#et">»Nun!« flüsterte sie, leise ins Schlafzimmer tretend, wo Ssergej noch immer vor dem Ofen stand.</p>
+            <p rendition="#et">»Was denn?« fragte Ssergej kaum hörbar. Ihm stockte der Atem.</p>
+            <p rendition="#et">»Er ist allein.«</p>
+            <p rendition="#et">Ssergej runzelte die Brauen und begann schwer zu atmen.</p>
+            <p rendition="#et">»Komm!« sagte Katerina Lwowna hastig, sich zur Türe wendend.</p>
+            <p rendition="#et">
+               <pb n="191" facs="#f0045"/>
+Ssergej zog sich schnell die Stiefel aus und fragte:</p>
+            <p rendition="#et">»Was soll ich mitnehmen?«</p>
+            <p rendition="#et">»Nichts!« hauchte Katerina Lwowna und führte ihn leise hinaus.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e3069" type="chapter">
+            <head>XI</head>
+            <p>Der kranke Knabe fuhr zusammen und ließ das Buch auf den Schoß sinken, als Katerina Lwowna zum drittenmal zu ihm hereinkam.</p>
+            <p rendition="#et">»Was hast du, Fedja?«</p>
+            <p rendition="#et">»Ach, Tantchen, ich habe solche Angst, ich weiß selbst nicht warum,« antwortete er, lächelnd und sich unruhig in eine Ecke des Bettes drückend.</p>
+            <p rendition="#et">»Wovor hast du Angst?«</p>
+            <p rendition="#et">»Wer war eben mit Ihnen, Tantchen?«</p>
+            <p rendition="#et">»Wo? Niemand war mit mir, mein Liebling.«</p>
+            <p rendition="#et">»Niemand?«</p>
+            <p rendition="#et">Der Knabe beugte sich zum Fußende des Bettes vor, kniff die Augen zusammen, blickte zur Türe, durch die seine Tante soeben gekommen war, und beruhigte sich.</p>
+            <p rendition="#et">»Es ist mir wohl nur so vorgekommen,« sagte er.</p>
+            <p rendition="#et">Katerina Lwowna lehnte sich an die Kopfwand seines Bettes.</p>
+            <p rendition="#et">Fedja blickte die Tante an und fragte sie, warum sie so blaß sei.</p>
+            <p rendition="#et">Katerina Lwowna hüstelte nur und blickte erwartungsvoll auf die Türe des Gastzimmers. Dort knarrte leise ein Dielenbrett.</p>
+            <p rendition="#et">»Ich lese eben die Lebensgeschichte meines Namenspatrons Fjodors des Stratilaten. Was der für ein gottgefälliges Leben führte!«</p>
+            <p rendition="#et">Katerina Lwowna stand schweigend da.</p>
+            <p rendition="#et">
+               <pb n="192" facs="#f0046"/>
+»Tantchen, wollen Sie sich nicht hinsetzen? Ich möchte Ihnen vorlesen!« sagte der Neffe, sie liebevoll anblickend.</p>
+            <p rendition="#et">»Wart, ich komme gleich, ich will nur das Lämpchen im Saal richten,« antwortete Katerina Lwowna und verließ schnell das Zimmer.</p>
+            <p rendition="#et">Im Gastzimmer wurde ganz leise, fast unhörbar geflüstert; das Kind hörte es aber in der tiefen Stille mit seinen scharfen Ohren.</p>
+            <p rendition="#et">»Tantchen! Was ist denn das? Mit wem tuscheln Sie denn?« schrie der Knabe mit tränenerstickter Stimme. »Tantchen, kommen Sie doch her, ich habe solche Angst!« rief er nach einem Augenblick noch klagender: es kam ihm vor, als ob die Tante im Gastzimmer zu jemand »Jetzt!« gesagt hätte. Der Knabe bezog es auf sich.</p>
+            <p rendition="#et">»Was hast du Angst?« fragte Katerina Lwowna heiser, mit festen, entschlossenen Schritten ins Zimmer tretend. Sie stellte sich vor das Bett so hin, daß ihr Körper die Gastzimmertüre vor den Blicken des Kranken verdeckte. »Leg dich!« sagte sie ihm.</p>
+            <p rendition="#et">»Ich will nicht, Tantchen.«</p>
+            <p rendition="#et">»Nein, Fedja, hör auf mich, leg dich ... Es ist spät ... Leg dich ...« wiederholte Katerina Lwowna.</p>
+            <p rendition="#et">»Was fällt Ihnen ein, Tantchen! Ich will noch gar nicht liegen.«</p>
+            <p rendition="#et">»Nein, leg dich, leg dich,« sagte Katerina Lwowna mit veränderter, abgerissener Stimme. Sie nahm den Jungen unter den Achseln und legte ihn gewaltsam hin.</p>
+            <p rendition="#et">In diesem Augenblick stieß Fedja einen wahnsinnigen Schrei aus: er sah Ssergej, blaß und barfuß ins Zimmer treten.</p>
+            <p rendition="#et">
+               <pb n="193" facs="#f0047"/>
+Katerina Lwowna drückte ihre Hand auf den vor Entsetzen weit geöffneten Mund des Kindes und schrie:</p>
+            <p rendition="#et">»Schnell! Halt ihn einmal, damit er nicht zappelt!«</p>
+            <p rendition="#et">Ssergej packte Fedja an Armen und Beinen, Katerina Lwowna warf mit einem schnellen Ruck ein großes Daunenkissen auf das Gesicht des unglücklichen Kindes und legte sich mit der ganzen Schwere ihres Rumpfes darauf.</p>
+            <p rendition="#et">An die vier Minuten herrschte im Zimmer eine Grabesstille.</p>
+            <p rendition="#et">»Er hat genug,« flüsterte Katerina Lwowna. Kaum hatte sie sich aber erhoben, um alles in Ordnung zu bringen, als die Wände des stillen Hauses, das so viele Verbrechen in sich barg, von wuchtigen Schlägen erdröhnten: die Fenster klirrten, die Böden bebten, die Lämpchen vor den Heiligenbildern zitterten an ihren Ketten, und unheimliche Schatten huschten über die Wände.</p>
+            <p rendition="#et">Ssergej fuhr zusammen und stürzte hinaus; Katerina Lwowna rannte ihm nach, und das Dröhnen folgte ihnen. Es war, wie wenn überirdische Kräfte das sündige Haus bis auf den Grund erschütterten.</p>
+            <p rendition="#et">Katerina Lwowna fürchtete, daß der von Entsetzen gepeitschte Ssergej hinauslaufen und sich durch seinen Schreck verraten könnte; er lief aber in das Schlafzimmer hinauf.</p>
+            <p rendition="#et">Als Ssergej die Treppe hinaufgelaufen war, schlug er im Finstern mit der Stirne an die Tür und stürzte, ganz wahnsinnig vor Entsetzen, die Stufen hinunter.</p>
+            <p rendition="#et">»Sinowij Borissowitsch, Sinowij Borissowitsch!« stammelte er, kopfüber die Treppe hinunterstürzend und Katerina Lwowna umwerfend und mit sich reißend.</p>
+            <p rendition="#et">
+               <pb n="194" facs="#f0048"/>
+»Wo?« fragte sie.</p>
+            <p rendition="#et">»Da flog er eben als ein eisernes Blech über uns vorbei! Da fliegt er!« schrie Ssergej auf. »Da dröhnt er schon wieder!«</p>
+            <p rendition="#et">Nun war es klar, daß viele Hände von außen gegen alle Fenster hämmerten und auch die Türe einzuschlagen versuchten.</p>
+            <p rendition="#et">»Narr! Steh auf, Narr!« schrie Katerina Lwowna. Mit diesen Worten lief sie schnell wie der Blitz in Fedjas Zimmer, legte seinen toten Kopf in der natürlichen Stellung eines Schlafenden auf die Kissen hin und machte mit fester Hand die Türe auf, in die ein großer Haufen Menschen einzudringen suchte.</p>
+            <p rendition="#et">Das Bild, das sich ihr bot, war schrecklich. Katerina Lwowna blickte über die Köpfe der Menge, die die Haustüre belagerte, sah viele unbekannte Menschen über den hohen Zaun in den Hof klettern und hörte das Brausen vieler Stimmen.</p>
+            <p rendition="#et">Katerina Lwowna hatte noch nicht Zeit gehabt, die Sachlage zu erfassen, als die Menschen, die vor der Türe standen, über sie herfielen und sie zurück ins Haus drängten.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e3206" type="chapter">
+            <head>XII</head>
+            <p>Dieser Menschenauflauf war aber folgendermaßen entstanden. In allen Gotteshäusern der recht großen und lebhaften Kreisstadt, in der Katerina Lwowna lebte, hatte sich am Vorabend des großen Festes eine Menge Menschen angesammelt; in der Kirche aber, die morgen ihr Altarfest feiern sollte, war das Gedränge so groß, daß keine Stecknadel zu Boden fallen konnte. In dieser Kirche sang ein Chor, der aus Handelsgehilfen bestand und von <pb n="195" facs="#f0049"/>
+einem bekannten Liebhaber der Gesangskunst dirigiert wurde.</p>
+            <p rendition="#et">Unser Volk ist religiös und dem Gottesdienste zugetan; außerdem haben die Leute bei uns eine künstlerische Ader, und schöner Chorgesang und prunkvoller Gottesdienst sind für sie der reinste Hochgenuß. Wenn in einer Kirche ein Chor singt, läuft gleich die halbe Stadt zusammen; in erster Linie aber der Handels- und der Arbeiterstand: Handelsgehilfen, Lehrjungen, Handlanger, Fabrikarbeiter und auch die Geschäftsinhaber selbst mit ihren Gemahlinnen. Alle drängen sich in einer der Kirchen zusammen, ein jeder will wenigstens vor der Kirchentüre oder vor dem Fenster, selbst bei brennender Sonnenglut, selbst bei strengstem Frost stehen und den tiefen Bässen und kunstvollen Tenören, wenn sie ihre Variationen singen, lauschen.</p>
+            <p rendition="#et">In der Kirche, zu deren Sprengel das Ismailowsche Haus gehörte, gab es einen Altar zur Darstellung Mariä. Zu derselben Zeit, als sich alles oben Beschriebene mit Fedja abspielte, hatte sich die Jugend der ganzen Stadt in dieser Kirche versammelt; die Leute verzogen sich nach dem Gottesdienste in Scharen und besprachen die Vorzüge des bekannten Tenors und die Fehler des ebenso bekannten Basses.</p>
+            <p rendition="#et">Aber nicht alle interessierten sich so für die musikalischen Dinge; in der Menge gab es auch Leute, die andere Fragen erörterten.</p>
+            <p rendition="#et">»Seltsame Dinge erzählt man sich von der jungen Ismailowa,« sagte der junge Maschinist, den sich einer der Kaufleute für seine Dampfmühle aus Petersburg verschrieben hatte, mit seinen Freunden am Ismailowschen <pb n="196" facs="#f0050"/>
+Hause vorbeigehend. »Man sagt, daß sie mit ihrem Angestellten Ssergej ein Liebesverhältnis hat ...«</p>
+            <p rendition="#et">»Das ist ja allen bekannt,« sagte ein Mann in einem mit blauem Nanking besetzten Schafspelz. »Sie war heute wohl auch gar nicht in der Kirche.«</p>
+            <p rendition="#et">»Ach was, Kirche! Die Frau ist so tief gesunken, daß sie weder vor Gott, noch vor ihrem Gewissen, noch vor den Menschen Angst hat!«</p>
+            <p rendition="#et">»Schaut nur, da brennt bei ihr Licht,« sagte der Maschinist, auf einen Spalt im Fensterladen zeigend, durch den ein Lichtschein drang.</p>
+            <p rendition="#et">»Sieh mal hinein, was sie jetzt treiben,« schlugen einige Stimmen vor.</p>
+            <p rendition="#et">Der Maschinist stützte sich auf die Schultern zweier Freunde, blickte durch den Spalt hinein und schrie entsetzt auf:</p>
+            <p rendition="#et">»Brüder! Da wird gerade jemand erwürgt!«</p>
+            <p rendition="#et">Der Maschinist begann mit aller Kraft an den Fensterladen zu klopfen. An die zehn Mann folgten seinem Beispiel und hämmerten mit den Fäusten gegen die Fenster.</p>
+            <p rendition="#et">Die Menge wuchs von Augenblick zu Augenblick an, und so entstand die uns bereits bekannte Belagerung des Ismailowschen Hauses.</p>
+            <p rendition="#et">»Ich hab es gesehen, mit meinen eigenen Augen hab ich es gesehen,« bezeugte der Maschinist vor Fedjas Leiche. »Das Kind lag auf dem Bett, und die beiden würgten es.«</p>
+            <p rendition="#et">Ssergej wurde noch am gleichen Abend ins Gefängnis abgeführt; Katerina Lwowna sperrte man aber in ihrem Schlafzimmer ein und stellte zwei Wachtposten vor die Türe.</p>
+            <p rendition="#et">
+               <pb n="197" facs="#f0051"/>
+Im Ismailowschen Hause war es nun unerträglich kalt; die Öfen wurden nicht geheizt, die Türen standen den ganzen Tag offen, und eine neugierige Volksmenge löste die andere ab. Die Leute sahen sich den offenen Sarg mit Fedjas Leiche an, und auch den andern großen geschlossenen Sarg, der daneben stand. Fedja hatte an der Stirne ein weißes Atlasband, das den von der Sektion herrührenden Schnitt verdecken sollte. Die gerichtsärztliche Untersuchung hatte ergeben, daß Fedja an Erstickung gestorben war, und Ssergej, den man vor die Leiche führte, brach, gleich nach den ersten Worten des Geistlichen vom Jüngsten Gericht und von den ewigen Qualen der unbußfertigen Sünder, in Tränen aus und gestand nicht nur den Mord an Fedja ein, sondern bat auch, die Leiche des von ihm ohne christliches Begräbnis verscharrten Sinowij Borissowitsch auszugraben. Die Leiche des letzteren, die im trockenen Sande lag, war noch nicht verwest; man grub sie aus und legte sie in den großen Sarg. Zum allgemeinen Entsetzen bezeichnete Ssergej Katerina Lwowna als die Mitschuldige an den beiden Verbrechen. Katerina Lwowna antwortete auf alle Fragen: »Ich weiß von nichts.« Als man sie aber mit Ssergej konfrontierte, und sie sein Geständnis hörte, blickte sie ihn erstaunt, doch ohne Zorn an und sagte gleichgültig:</p>
+            <p rendition="#et">»Wenn es ihm schon einmal eingefallen ist, alles zu gestehen, so will auch ich nicht länger leugnen: ich habe die Morde begangen.«</p>
+            <p rendition="#et">»Zu welchem Zweck?« fragte man sie.</p>
+            <p rendition="#et">»Nur ihm zuliebe«, antwortete sie, auf Ssergej zeigend, der mit gesenktem Kopf dastand.</p>
+            <p rendition="#et">
+               <pb n="198" facs="#f0052"/>
+Die beiden Verbrecher wurden in getrennte Gefängniszellen gesperrt, und der grauenhafte Fall, der weit und breit Aufsehen und Empörung erregte, kam bald vors Gericht. Ende Februar wurde das Urteil verkündet: Ssergej und die Kaufmannswitwe Katerina Lwowna Ismailowa sollten auf dem Marktplatze ihrer Stadt mit der Knute bestraft und dann auf die Katorga nach Sibirien verschickt werden. An einem frostigen Märzmorgen zeichnete der Scharfrichter Katerina Lwownas entblößten weißen Rücken mit der vorgeschriebenen Zahl von blauroten Striemen; dann verabreichte er die gleiche Portion auch Ssergej und brannte ihm in sein hübsches Gesicht die drei Katorgamale.</p>
+            <p rendition="#et">Ssergej erregte bei den Leuten aus irgendeinem Grunde viel mehr Mitgefühl als Katerina Lwowna. Als er blutbefleckt die Stufen des schwarzen Schafotts herunterging, fiel er beinahe um. Katerina Lwowna hielt sich aber aufrecht und ruhig und war nur darauf bedacht, daß das grobe Hemd ihr nicht den zerfetzten Rücken scheuere.</p>
+            <p rendition="#et">Als man ihr im Gefängnisspital ihr neugeborenes Kind reichte, sagte sie nur: »Hol es der Kuckuck!« Dann wandte sie sich ohne einen Ton von sich zu geben zur Wand und fiel mit der Brust auf das harte Bett.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e3292" type="chapter">
+            <head>XIII</head>
+            <p>Der Sträflingstransport, mit dem Ssergej und Katerina Lwowna nach Sibirien verschickt wurden, brach zu einer Zeit auf, wo der Frühling nur im Kalender stand und die Sonne zwar leuchtete aber noch nicht wärmte.</p>
+            <p rendition="#et">Katerina Lwownas Kind wurde der alten Base des seligen Boris Timofejitsch zur Pflege gegeben: das Kind <pb n="199" facs="#f0053"/>
+war nach dem Gesetz ein ehelicher Sohn des ermordeten Sinowij Borissowitsch und einziger Erbe des ganzen Ismailowschen Vermögens. Katerina Lwowna war damit sehr zufrieden und gab ihr Kind gleichgültig hin. Wie es bei leidenschaftlichen Frauen oft der Fall ist, hatte sich ihre Liebe zum Vater in keiner Weise auf das Kind übertragen.</p>
+            <p rendition="#et">Es gab für sie übrigens kein Licht und kein Dunkel, kein Gut und kein Böse, keine Freude und keine Langweile; sie begriff nichts; liebte niemand, nicht einmal sich selbst. Sie wartete mit Ungeduld auf den Ausmarsch; sie hoffte unterwegs ihren Ssergej zu sehen, ihr Kind hatte sie aber schon ganz vergessen.</p>
+            <p rendition="#et">Katerina Lwownas Hoffnung wurde nicht getäuscht: der gebrandmarkte, mit schweren Ketten beladene Ssergej verließ zugleich mit ihr das Gefängnistor.</p>
+            <p rendition="#et">Der Mensch gewöhnt sich an jedes noch so schreckliche Elend und behält in jeder Lage die Fähigkeit, seinen kümmerlichen Freuden nachzugehen. Katerina Lwowna aber brauchte sich an nichts zu gewöhnen; sie sah ihren Ssergej wieder, und der Weg nach Sibirien bedeutete für sie an seiner Seite den Weg zum Glück.</p>
+            <p rendition="#et">Katerina Lwowna konnte in ihrem Leinensack nur wenig Wertgegenstände und noch weniger bares Geld mitnehmen. Dies alles verteilte sie, noch ehe der Transport Nischnij-Nowgorod erreicht hatte, unter den Gefängnisaufsehern für die Erlaubnis, an Ssergejs Seite zu marschieren und manchmal bei finsterer Nacht ein Stündchen mit ihm in einer kalten Ecke des schmalen Gefängniskorridors zu verbringen.</p>
+            <p rendition="#et">Der gebrandmarkte Freund Katerina Lwownas war<pb n="200" facs="#f0054"/>
+ aber gegen sie lieblos geworden; sie bekam von ihm kein einziges freundliches Wort mehr zu hören; er legte auch wenig Wert auf die geheimen Zusammenkünfte mit ihr, für die sie ihr letztes Geld hergeben mußte, und sagte ihr sogar mehr als einmal:</p>
+            <p rendition="#et">»Statt mit mir im Korridor herumzustehen, hättest du doch lieber das Geld, das du dafür dem Aufseher zahlst, mir gegeben!«</p>
+            <p rendition="#et">»Es waren ja nur fünfundzwanzig Kopeken, Sserjoscha!« rechtfertigte sich Katerina Lwowna.</p>
+            <p rendition="#et">»Sind denn fünfundzwanzig Kopeken kein Geld? Du hast doch unterwegs noch kein einziges Geldstück gefunden, hast aber schon eine ganze Menge ausgegeben.«</p>
+            <p rendition="#et">»Dafür habe ich dich sehen dürfen, Sserjoscha!«</p>
+            <p rendition="#et">»Das Wiedersehen nach all dem Elend ist doch wirklich keine Freude! Ich verfluche mein Leben und will an diese Zusammenkünfte gar nicht denken!«</p>
+            <p rendition="#et">»Mir ist aber alles gleich, Sserjoscha! Wenn ich dich nur sehen kann!«</p>
+            <p rendition="#et">»Das sind Dummheiten«, entgegnete Ssergej.</p>
+            <p rendition="#et">Als Katerina Lwowna solche Antworten zu hören bekam, biß sie sich oft die Lippen blutig. Bei den nächtlichen Zusammenkünften traten ihr oft Tränen der Erbitterung in die Augen, die sonst niemals weinten. Sie trug aber alles schweigend und suchte sich selbst zu betrügen.</p>
+            <p rendition="#et">So sehr hatten sich ihre Beziehungen zueinander geändert, als sie Nischnij-Nowgorod erreichten. Hier schloß sich an ihren Transport ein anderer an, der aus Moskau kam.</p>
+            <p rendition="#et">In diesem sehr großen Transport befanden sich unter <pb n="201" facs="#f0055"/>
+anderm zwei interessante weibliche Individuen: die Soldatenfrau Fiona aus Jaroslawl, ein üppiges, großes, schönes Weib mit langem, schwarzem Zopf und schmachtenden dunklen Augen, die von den langen Wimpern wievon einem geheimnisvollen Schleier beschattet waren. Die andere war ein siebzehnjähriges Ding mit spitzigem Gesicht und zarter, rosiger Haut, kleinem Mündchen, Grübchen in den frischen Wangen und goldblonden Locken, die unter dem leinenen Kopftuch lustig auf die Stirne niederfielen. Dieses Mädel wurde von den Sträflingen Ssonetka genannt.</p>
+            <p rendition="#et">Die schöne Fiona war sanft und faul. Alle Sträflinge kannten sie; keiner von den Männern zeigte besondere Freude, wenn sie ihm ihre Huld schenkte; niemand grämte sich auch, wenn sie diese Huld auf einen andern übertrug.</p>
+            <p rendition="#et">»Fiona ist ein guter Mensch, sie benachteiligt niemand«, scherzten die Sträflinge.</p>
+            <p rendition="#et">Ssonetka war aber ganz anders.</p>
+            <p rendition="#et">Von ihr sagte man:</p>
+            <p rendition="#et">»Sie ist wie ein Aal: sie gleitet einem durch die Finger und läßt sich von niemand einfangen.«</p>
+            <p rendition="#et">Ssonetka hatte Geschmack und war wählerisch; sie wollte, daß man ihr die Leidenschaft nicht im rohen Zustande, sondern mit einer pikanten Sauce entgegenbringe; sie verlangte Leiden und Opfer. Fiona war aber die verkörperte russische Einfalt, die viel zu faul ist, um jemand »Nein« zu sagen und die nur das eine weiß, daß sie ein Weib ist. Solche Frauen werden in den Räuberbanden, Sträflingstransporten und Petersburger sozialistischen Kommunen sehr geschätzt.</p>
+            <p rendition="#et">
+               <pb n="202" facs="#f0056"/>
+Das Erscheinen dieser beiden Frauen in dem gleichen Transport, in dem sich Ssergej und Katerina Lwowna befanden, hatte für diese letztere eine tragische Bedeutung.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e3386" type="chapter">
+            <head>XIV</head>
+            <p>Gleich in den ersten Tagen nach dem Ausmarsche aus Nischnij-Nowgorod begann sich Ssergej in auffälliger Weise um die Gunst der Soldatenfrau Fiona zu bewerben. Er hatte auch bald Erfolg. Die schöne Fiona ließ ihn nicht allzu lange zappeln und erfüllte sein Sehnen, wie sie in ihrer Herzensgüte auch jeden anderen beglückte. Auf der dritten oder vierten Etappe hatte Katerina Lwowna sich wieder die Möglichkeit einer Zusammenkunft mit Ssergej erkauft. Sie liegt auf ihrem Lager und wartet: gleich wird der Aufseher kommen und ihr zuraunen: »Lauf schnell hinaus!« Die Türe geht einmal auf, und eine der Frauen huscht hinaus; die Türe geht wieder auf, und von der Pritsche springt eine andere Frau und verschwindet im Korridor. Endlich zupft jemand Katerina Lwowna am Kittel. Sie springt schnell von der von so vielen Sträflingsrücken glattgescheuerten Pritsche, wirft sich den Kittel um und folgt dem Aufseher.</p>
+            <p rendition="#et">Als Katerina Lwowna durch den Korridor ging, der nur an einer Stelle ganz schwach von einem kleinen Lämpchen beleuchtet war, stieß sie auf zwei oder drei Paare, die sie aus der Entfernung nicht sehen konnte. Aus der Männerabteilung tönte durch das Türgitter verhaltenes Lachen.</p>
+            <p rendition="#et">»Wie die wiehern!« brummte der Begleiter Katerina Lwownas. Er nahm sie bei den Schultern, stieß sie in eine Ecke und zog sich zurück.</p>
+            <p rendition="#et">
+               <pb n="203" facs="#f0057"/>
+Katerina Lwowna stieß mit der Hand auf einen groben Kittel und einen Bart; ihre andere Hand berührte ein heißes Frauengesicht.</p>
+            <p rendition="#et">»Wer ist's?« fragte Ssergej leise.</p>
+            <p rendition="#et">»Und mit wem bist du hier?«</p>
+            <p rendition="#et">Katerina Lwowna riß der Nebenbuhlerin im Finstern das Tuch vom Kopfe. Jene taumelte auf die Seite, fing zu laufen an, stolperte aber und fiel hin.</p>
+            <p rendition="#et">Aus der Männerabteilung erscholl lautes Lachen.</p>
+            <p rendition="#et">»Schurke!« flüsterte Katerina Lwowna und schlug Ssergej mit den Enden des Tuches, das sie seiner neuen Geliebten vom Kopfe gerissen hatte, ins Gesicht.</p>
+            <p rendition="#et">Ssergej erhob seine Hand; Katerina Lwowna huschte aber durch den Korridor zur Türe ihrer Zelle. Aus der Männerabteilung klang nun so lautes Lachen, daß der Wachtposten, der vor dem Lämpchen stand und sich gleichgültig auf die Spitze seines Stiefels spuckte, den Kopf hob und rief:</p>
+            <p rendition="#et">»Ruhe!«</p>
+            <p rendition="#et">Katerina Lwowna legte sich schweigend auf ihre Pritsche und lag so bis zum Morgen da. Sie wollte sich sagen: »Ich liebe ihn nicht mehr«, fühlte aber, daß sie ihn noch mehr, noch glühender liebte. Und sie malte sich aus, wie seine Hand, mit der er die Andere am Kinn gehalten, bei der Berührung mit der ihrigen gezittert, wie seine andere Hand die warmen Schultern der Andern umschlungen hatte.</p>
+            <p rendition="#et">Die arme Frau brach in Tränen aus und wünschte sich, daß die gleichen Hände in diesen Augenblicken ihr Gesicht streicheln und ihre krampfhaft zuckenden Schultern umfassen möchten.</p>
+            <p rendition="#et">
+               <pb n="204" facs="#f0058"/>
+»Gib mir mein Tuch zurück«, mit diesen Worten wurde sie am Morgen von der Soldatenfrau Fiona geweckt.</p>
+            <p rendition="#et">»Du warst es also?«</p>
+            <p rendition="#et">»Gib's mir, bitte, zurück!«</p>
+            <p rendition="#et">»Warum trennst du uns voneinander?«</p>
+            <p rendition="#et">»Trenne ich euch denn? Ist es eine Liebe, oder habe ich irgendeinen Vorteil davon, daß du mir zürnen sollst?«</p>
+            <p rendition="#et">Katerina Lwowna dachte einen Augenblick nach, holte unter dem Kissen das Tuch, das sie der andern nachts vom Kopfe gerissen hatte, warf es Fiona zu und wandte sich zur Wand.</p>
+            <p rendition="#et">Sie fühlte sich ein wenig erleichtert.</p>
+            <p rendition="#et">»Pfui«, sagte sie sich, »werde ich denn auf so einen angemalten Mistkübel eifersüchtig sein? Mag sie in die Erde versinken. Es täte mir weh, mich mit ihr auch nur zu vergleichen.«</p>
+            <p rendition="#et">»Hör einmal, Katerina Lwowna«, sagte ihr am nächsten Tage Ssergej, an ihrer Seite gehend, »merke dir bitte, daß ich nicht Sinowij Borissowitsch, sondern ein Anderer bin und daß du nicht mehr die feine Dame bist. Tu darum, bitte, nicht so stolz. Bockigkeit gilt hier nicht.«</p>
+            <p rendition="#et">Katerina Lwowna erwiderte nichts. In den nächsten acht Tagen wechselte sie mit Ssergej weder ein Wort, noch einen Blick. Sie fühlte sich beleidigt und war stolz genug, um nicht den ersten Schritt zur Versöhnung mit Ssergej, mit dem sie sich zum erstenmal im Leben entzweit hatte, zu machen.</p>
+            <p rendition="#et">Während Katerina Lwowna ihm schmollte, begann Ssergej mit der weißen Ssonetka anzubandeln. Bald begrüßte er sie als »Ergebenster Diener«, bald lächelte er ihr zu, bald versuchte er sie zu umarmen und an sich zu <pb n="205" facs="#f0059"/>
+drücken. Katerina Lwowna sah alles, und in ihrem Herzen siedete es noch mehr.</p>
+            <p rendition="#et">»Soll ich mich mit ihm vielleicht doch aussöhnen?« fragte sie sich, in einemfort stolpernd.</p>
+            <p rendition="#et">Ihr Stolz erlaubte es ihr nun noch weniger als früher, den ersten Schritt zu tun. Ssergej klebte aber immer fester an Ssonetka, und allen kam es vor, als ob die unzugängliche Ssonetka, die sonst allen wie ein Aal durch die Finger glitt, etwas gefügiger geworden wäre.</p>
+            <p rendition="#et">»Du warst mir böse«, sagte einmal Fiona zu Katerina Lwowna: »was habe ich dir aber getan? Mit mir hat er ja nur ganz kurz angebandelt. Ich rate dir aber, auf die Ssonetka aufzupassen.«</p>
+            <p rendition="#et">– Jetzt gebe ich aber meinen Stolz auf: heute noch will ich mich mit ihm aussöhnen! – sagte sich Katerina Lwowna. Sie überlegte sich nur noch, wie sie am besten den ersten Schritt machen sollte.</p>
+            <p rendition="#et">Aus dieser schwierigen Lage befreite sie Ssergej selbst.</p>
+            <p rendition="#et">»Katerina Lwowna!« sagte er ihr auf einer Station: »Komm heute Nacht für einen Augenblick zu mir heraus: ich muß dich sprechen.«</p>
+            <p rendition="#et">Katerina Lwowna sagte nichts.</p>
+            <p rendition="#et">»Zürnst du mir vielleicht noch immer? Wirst du nicht kommen?«</p>
+            <p rendition="#et">Katerina Lwowna sagte noch immer nichts.</p>
+            <p rendition="#et">Ssergej und alle, die Katerina Lwowna beobachteten, sahen aber, wie sie sich vor dem Etappengebäude an den Oberaufseher heranmachte und ihm die siebzehn Kopeken, die sie unterwegs zusammengebettelt hatte, in die Hand drückte.</p>
+            <p rendition="#et">
+               <pb n="206" facs="#f0060"/>
+»Wenn ich noch mehr zusammengebettelt habe, kriegst du noch zehn Kopeken«, flüsterte sie ihm zu.</p>
+            <p rendition="#et">Der Oberaufseher steckte das Geld in den Ärmelaufschlag und sagte:</p>
+            <p rendition="#et">»Gut.«</p>
+            <p rendition="#et">Als diese Unterhandlungen zu Ende waren, blinzelte Ssergej mit einem vielsagenden Hüsteln Ssonetka zu.</p>
+            <p rendition="#et">»Ach, Katerina Lwowna!« sagte er, sie auf den Stufen des Etappengebäudes umarmend. »Kinder, es gibt auf der ganzen Welt kein zweites Weib wie dieses!«</p>
+            <p rendition="#et">Katerina Lwowna errötete vor Glück, und ihr stockte der Atem.</p>
+            <p rendition="#et">Als nachts die Türe leise aufging, sprang sie ungestüm hinaus. Am ganzen Leibe zitternd, tastete sie den dunklen Korridor nach Ssergej ab.</p>
+            <p rendition="#et">»Meine liebe Katja!« sagte Ssergej, sie umarmend.</p>
+            <p rendition="#et">»Ach, du Böser!« antwortete Katerina Lwowna unter Tränen und drückte ihre Lippen auf die seinigen.</p>
+            <p rendition="#et">Der Wachtposten ging im Korrider auf und ab, blieb manchmal stehen, um sich auf die Stiefel zu spucken; die müden Sträflinge schnarchten in ihren Zellen; irgendwo knabberte eine Maus an einem Federkiel; hinter dem Ofen zirpten die Heimchen; Katerina Lwowna aber genoß in vollen Zügen ihr höchstes Glück.</p>
+            <p rendition="#et">Die Verzückung legte sich, und es begann die unvermeidliche Prosa des Alltags.</p>
+            <p rendition="#et">»Ich halt es nicht länger aus; das Bein schmerzt mir vom Knöchel bis zum Knie,« jammerte Ssergej, an ihrer Seite in einem Korridorwinkel sitzend.</p>
+            <p rendition="#et">»Was kann man dagegen tun?« fragte sie, sich unter seinen Kittel schmiegend.</p>
+            <p rendition="#et">
+               <pb n="207" facs="#f0061"/>
+»Soll ich mich vielleicht in Kasan ins Lazarett legen?«</p>
+            <p rendition="#et">»Was fällt dir ein, Sserjoscha?«</p>
+            <p rendition="#et">»Was soll ich denn machen, wenn es mir so weh tut?«</p>
+            <p rendition="#et">»Du wirst im Lazarett bleiben, und ich soll allein weiter marschieren? ...«</p>
+            <p rendition="#et">»Was soll ich machen? Die Ketten werden mir bald die Knochen durchwetzen. – Wenn ich wenigstens ein Paar wollene Strümpfe unter die Ketten tun könnte,« fügte Ssergej nach einer Weile hinzu.</p>
+            <p rendition="#et">»Strümpfe? Sserjoscha, ich habe noch ein paar neue Strümpfe.«</p>
+            <p rendition="#et">»Ach, behalt sie nur!«</p>
+            <p rendition="#et">Katerina Lwowna sagte kein Wort. Sie lief in ihre Zelle, packte in aller Eile ihren Sack aus und brachte Ssergej ein Paar dicke blaue wollene Strümpfe mit grellfarbigen Zwickeln.</p>
+            <p rendition="#et">»Jetzt wird es irgendwie gehen,« sagte Ssergej, sich von ihr verabschiedend und ihr letztes Paar Strümpfe mitnehmend.</p>
+            <p rendition="#et">Katerina Lwowna kehrte überglücklich in ihre Zelle zurück und schlief sofort ein.</p>
+            <p rendition="#et">Sie hörte gar nicht, wie gleich darauf Ssonetka in den Korridor kam und wie sie erst bei Morgengrauen wieder zurückging.</p>
+            <p rendition="#et">Das spielte sich nur zwei Tagemärsche vor Kasan ab.</p>
+         </div>
+         <div xml:id="Leskov-Semenovi-d1e3591" type="chapter">
+            <head>XV</head>
+            <p>Ein kalter trüber Tag mit durchdringendem Wind und einem mit Schnee vermengten Regen empfing den Transport vor dem Tore des dumpfen Etappengefängnisses. <pb n="208" facs="#f0062"/>
+Katerina Lwowna trat recht frisch und munter ins Freie. Als sie sich aber an ihren Platz stellte, erbebte sie am ganzen Leibe und wurde grün. Es wurde ihr finster vor den Augen, und alle ihre Glieder begannen zu schmerzen. Sie hatte Ssonetka in den ihr wohlbekannten blauen wollenen Strümpfen mit den grellfarbigen Zwickeln erblickt.</p>
+            <p rendition="#et">Katerina Lwowna schleppte sich mehr tot als lebendig vorwärts; sie blickte wie irrsinnig und wandte ihre Augen nicht von Ssergej.</p>
+            <p rendition="#et">Auf der ersten Station ging sie ruhig auf ihn zu, flüsterte »Schurke!« und spuckte ihm ganz unerwartet in die Augen.</p>
+            <p rendition="#et">Ssergej wollte sich auf sie stürzen, man hielt ihn aber zurück.</p>
+            <p rendition="#et">»Warte nur!« sagte er, sich das Gesicht abwischend.</p>
+            <p rendition="#et">»Wie tapfer sie doch gegen dich ist!« spotteten unterwegs die Sträflinge über Ssergej. Am lustigsten lachte Ssonetka.</p>
+            <p rendition="#et">Dieses Zwischenspiel war ganz nach ihrem Geschmack.</p>
+            <p rendition="#et">»Ich werde es dir schon zeigen!« drohte Ssergej Katerina Lwowna.</p>
+            <p rendition="#et">Vom anstrengenden Marsch bei dem schlechten Wetter ermüdet, schlief Katerina Lwowna mit blutendem Herzen auf der Pritsche der nächsten Etappe ein. Sie hörte gar nicht, wie in die Frauenabteilung zwei Männer kamen.</p>
+            <p rendition="#et">Bei ihrem Erscheinen erhob sich Ssonetka von der Pritsche, zeigte stumm auf Katerina Lwowna, legte sich wieder hin und hüllte sich in ihren Kittel.</p>
+            <p rendition="#et">In diesem Augenblick wurde Katerina Lwowna der Kittel über den Kopf gezogen, und auf ihren Rücken,<pb n="209" facs="#f0063"/>
+ der nur noch mit dem groben Hemd bekleidet war, sauste das dicke Ende eines doppelt zusammengedrehten Strickes nieder.</p>
+            <p rendition="#et">Katerina Lwowna schrie auf. Der Kittel, der ihr über den Kopf geworfen war, erstickte aber ihre Stimme. Sie versuchte aufzuspringen, konnte sich aber nicht rühren; auf ihren Schultern saß ein kräftiger Mann, der sie an den Händen festhielt.</p>
+            <p rendition="#et">»Fünfzig!« zählte schließlich eine Stimme, in der sie unschwer die Stimme Ssergejs erkennen konnte. Die nächtlichen Gäste verschwanden ebenso plötzlich, wie sie gekommen waren.</p>
+            <p rendition="#et">Katerina Lwowna befreite ihren Kopf und sprang auf. Niemand war mehr in der Zelle. In der Nähe kicherte aber jemand. Katerina Lwowna erkannte Ssonetkas Stimme.</p>
+            <p rendition="#et">Ihr Schmerz wurde nun grenzenlos; grenzenlos war auch der Haß, der in diesem Augenblick in ihrem Herzen aufloderte. Sie sprang auf, um sich auf Ssonetka zu stürzen und fiel ohnmächtig in die Arme Fionas, die ihr zu Hilfe eilte.</p>
+            <p rendition="#et">An der Brust der stumpfsinnigen Nebenbuhlerin, die erst vor kurzem den ungetreuen Geliebten Katerina Lwownas vor Wollust zittern ließ, weinte sie nun vor unerträglichem Schmerz. Sie schmiegte sich an Fiona, wie sich ein Kind an seine Mutter schmiegt. Nun waren sie beide gleich: beide waren im Werte gesunken, beide waren verlassen.</p>
+            <p rendition="#et">Die sich jedem Zufall hingebende Fiona und die Heldin der Liebestragödie, Katerina Lwowna, waren nun einander gleich!</p>
+            <p rendition="#et">
+               <pb n="210" facs="#f0064"/>
+Katerina Lwowna fühlte sich aber dadurch gar nicht verletzt. Als sie alle ihre Tränen ausgeweint hatte, erstarrte sie zu Stein und machte sich bereit, zum Appell zu gehen.</p>
+            <p rendition="#et">Die Trommel wirbelt; die gefesselten und nicht gefesselten Sträflinge stürzen in den Hof; auch Ssergej ist darunter, auch Fiona, Ssonetka und Katerina Lwowna; ein mit einem Juden zusammengeketteter Sektierer, und ein Pole an der gleichen Kette mit einem Tataren.</p>
+            <p rendition="#et">Alle drängten sich zuerst zu einem unordentlichen Haufen zusammen, stellten sich dann in Reihen auf, und der Zug setzte sich in Bewegung.</p>
+            <p rendition="#et">Ein furchtbar trauriges Bild: ein Häuflein Menschen, die von der Welt losgerissen sind und auch nicht den Schatten einer Hoffnung auf eine bessere Zukunft haben, watet durch den kalten schwarzen Straßenkot. Alles ist so häßlich: der unendliche Schmutz, der graue Himmel, die entblätterten, nassen Weiden und die mürrische Krähe, die zusammengekauert in den nackten Ästen hockt. Der Wind stöhnt und wütet, heult und brüllt.</p>
+            <p rendition="#et">Aus diesen höllischen, herzzerreißenden Tönen, die das Grauen des Bildes vervollständigen, klingen die Worte der Frau des biblischen Hiob: »Verfluche den Tag deiner Geburt und stirb!«</p>
+            <p rendition="#et">Wer diesen Worten nicht lauschen will, wen der Gedanke an den Tod selbst in dieser traurigen Lage nicht erfreut, sondern erschreckt, der muß alle die heulenden Stimmen mit einem noch häßlicheren Geheul übertönen. Das einfache Volk weiß das sehr gut: es entfesselt dann seine ganze tierische Natur und beginnt, sich selbst, die andern Menschen und alle Gefühle zu verhöhnen. Es <pb n="211" facs="#f0065"/>
+ist auch sonst nicht besonders zartfühlend; unter solchen Umständen wird es aber noch einmal so roh und boshaft.</p>
+            <p rendition="#et">»Wie geht's, Kaufmannsfrau? Sind Euer Wohlgeboren bei guter Gesundheit?« fragte Ssergej in frechem Tone Katerina Lwowna, als das Dorf, in dem der Transport die letzte Nacht verbracht hatte, hinter dem nassen Hügel verschwunden war.</p>
+            <p rendition="#et">Gleich darauf wandte er sich an Ssonetka, hüllte sie den Schoß seines Mantels und begann mit hoher Stimme zu singen:</p>
+            <p>»Hinterm Fenster leuchten deine Locken, Schätzchen,</p>
+            <p>Ach, mein Jammer schläft nicht, und du schläfst nicht, Kätzchen,</p>
+            <p>Mit des Mantels Saume will ich dich bedecken ...«</p>
+            <p rendition="#et">Bei diesen Worten umarmte er Ssonetka und küßte sie vor aller Augen ...</p>
+            <p rendition="#et">Katerina Lwowna sah es und sah es nicht. Sie war wie geistesabwesend. Die Leute stießen sie in die Seite und machten sie darauf aufmerksam, wie sich Ssergej gegen Ssonetka benahm. Sie wurde zur Zielscheibe des allgemeinen Spottes.</p>
+            <p rendition="#et">»Laßt sie in Ruhe,« trat Fiona für sie ein, sooft jemand von den Sträflingen über die halbohnmächtige Katerina Lwowna zu spotten anfing. »Seht ihr denn nicht, daß die Frau ganz krank ist?«</p>
+            <p rendition="#et">»Sie hat sich wohl die Füßchen durchnäßt,« scherzte ein junger Sträfling.</p>
+            <p rendition="#et">»Natürlich: sie ist ja vom Kaufmannsstande und verwöhnt,« versetzte Ssergej.</p>
+            <p rendition="#et">
+               <pb n="212" facs="#f0066"/>
+»Wenn sie wenigstens warme Strümpfe hätte, würde es ihr wohl weniger machen,« fügte er hinzu.</p>
+            <p rendition="#et">Katerina Lwowna fuhr wie aus dem Schlafe auf.</p>
+            <p rendition="#et">»Gemeine Schlange!« sagte sie, unfähig, sich länger zu beherrschen. »Spotte nur, du Schuft, spotte nur!«</p>
+            <p rendition="#et">»Ich spotte ja gar nicht, sondern meine es ganz ernst: Ssonetka hat ein paar vortreffliche Strümpfe zu verkaufen. Ich frage mich, ob die Kaufmannsfrau sie nicht kaufen will.«</p>
+            <p rendition="#et">Viele lachten. Katerina Lwowna ging wie ein aufgezogener Automat weiter.</p>
+            <p rendition="#et">Das Wetter wurde immer schlechter. Aus den grauen Wolken, die den Himmel bedeckten, fielen nasse Schneeflocken herab, die, sobald sie nur den Boden berührten, tauten und den Straßenschmutz noch vergrößerten. Endlich zeigte sich am Horizont ein dunkler bleigrauer Streif, dessen Breite man gar nicht überblicken konnte: es war die Wolga. Über dem Strome zog ein steifer Wind, der breite, dunkle Wellen vor sich trieb.</p>
+            <p rendition="#et">Die durchnäßten und halberfrorenen Sträflinge gingen langsam zum Landungssteg und blieben in Erwartung der Fähre stehen.</p>
+            <p rendition="#et">Die nasse dunkle Fähre kam ans Ufer. Die Begleitmannschaften trieben die Sträflinge auf die Fähre.</p>
+            <p rendition="#et">»Auf dieser Fähre gibt es Schnaps zu kaufen,« sagte einer der Sträflinge, als die von nassen Schneeflocken überschüttete Fähre vom Ufer stieß und auf den Wellen des Stromes zu schwanken begann.</p>
+            <p rendition="#et">»Es wäre wirklich gut, einen Tropfen zu trinken!« sagte Ssergej. Zur Belustigung Ssonetkas machte er sich wieder an Katerina Lwowna heran und sagte: »Kaufmannsfrau, <pb n="213" facs="#f0067"/>
+wir sind ja alte Freunde: kauf mir etwas Schnaps. Geize nicht. Gedenke doch, Liebste, unserer alten Liebe! Weißt du noch, meine Freude, wie wir die langen Herbstnächte miteinander verbrachten und deine Verwandten ohne Popen und ohne Küster ins Jenseits schickten?«</p>
+            <p rendition="#et">Katerina Lwowna zitterte vor Kälte, die ihr unter den nassen Kleidern durch Mark und Bein drang. In ihr ging aber auch etwas anderes vor. Ihr Kopf brannte wie im Feuer; die Pupillen waren erweitert, von einem irren, scharfen Glanz belebt und starr auf die Wellen gerichtet.</p>
+            <p rendition="#et">»Auch ich würde gerne etwas Schnaps trinken: es ist so unerträglich kalt!« sagte Ssonetka mit ihrer hellen Stimme.</p>
+            <p rendition="#et">»Kaufmannsfrau, kauf uns doch Schnaps!« drang Ssergej in sie ein.</p>
+            <p rendition="#et">»Du hast wirklich kein Gewissen im Leibe!« sagte Fiona, vorwurfsvoll den Kopf schüttelnd.</p>
+            <p rendition="#et">»Das macht dir keine Ehre,« unterstützte der junge Sträfling Gordjuschka die Soldatenfrau.</p>
+            <p rendition="#et">»Wenn du dich vor ihr nicht schämst, so solltest du dich wenigstens vor den Leuten schämen!«</p>
+            <p rendition="#et">»Ach, du, Allerwelts-Schnupftabaksdose!« schrie Ssergej Fiona an. »Was redest du vom Gewissen? Vor wem brauche ich mich zu schämen? Vielleicht habe ich sie überhaupt niemals geliebt, und jetzt ... jetzt ist mir Ssonetkas ausgetretener Schuh lieber als die Fratze dieser geschundenen Katze. Was hast du mir vorzuwerfen? Soll sie nur den schiefmäuligen Gordjuschka lieben, oder ... (er blickte auf den kleinen Wachsoldaten, der in Uniformmütze und langhaarigem Filzmantel im Sattel saß,) oder <pb n="214" facs="#f0068"/>
+diesen Soldaten da: unter seinem Filzmantel ist sie wenigstens vom Regen geschützt.«</p>
+            <p rendition="#et">»Und dann wird sie Offiziersfrau heißen,« lachte Ssonetka.</p>
+            <p rendition="#et">»Gewiß! Und hat auch Geld, um sich Strümpfe zu kaufen,« fügte Ssergej hinzu.</p>
+            <p rendition="#et">Katerina Lwowna wehrte sich nicht; sie blickte immer starrer auf die Wellen und bewegte lautlos die Lippen. Zwischen den häßlichen Worten Ssergejs hörte sie die Wogen dröhnen und heulen. In einem sich brechenden Wolkenkamme erscheint plötzlich der blaue Kopf Boris Timofejewitschs; aus einer anderen Welle erhebt sich die Gestalt ihres Mannes; er schwankt und hält Fedja, der den Kopf gesenkt hat, umarmt. Katerina Lwowna will sich auf irgendein Gebet besinnen, ihre Lippen flüstern aber: »Wie wir die langen Herbstnächte miteinander verbrachten und die Verwandten ohne Popen und ohne Küster ins Jenseits schickten.«</p>
+            <p rendition="#et">Katerina Lwowna zitterte. Ihre irren Blicke waren auf einen Punkt gerichtet. Sie hob einige Male die Arme, streckte sie vor sich aus und ließ sie wieder sinken. Noch einen Augenblick – und sie beugte sich, ohne die Augen von einer dunklen Woge zu wenden, vor, packte Ssonetka an den Beinen und sprang mit ihr über das Geländer der Fähre.</p>
+            <p rendition="#et">Alle waren vor Schreck wie erstarrt.</p>
+            <p rendition="#et">Katerina Lwowna erschien auf dem Kamme einer Woge und ging wieder unter; aus einer andern Welle tauchte Ssonetka auf.</p>
+            <p rendition="#et">»Den Bootshaken her! Werft den Bootshaken aus!« schrieen die Leute auf der Fähre.</p>
+            <p rendition="#et">
+               <pb n="215" facs="#f0069"/>
+Der schwere Bootshaken flog am langen Strick durch die Luft und fiel ins Wasser. Von Ssonetka war wieder nichts zu sehen. Nach zwei Sekunden warf sie, von der Strömung um ein weites Stück von der Fähre fortgetrieben, beide Arme aus dem Wasser empor; in diesem Augenblick tauchte aus einer anderen Welle fast bis zu den Hüften Katerina Lwowna empor. Sie stürzte sich wie ein kräftiger Hecht über eine schwache Plötze auf Ssonetka, und beide kamen nicht mehr zum Vorschein.</p>
+            <pb n="216" facs="#f0070"/>
+         </div>
+      </body>
+   </text>
+</TEI>

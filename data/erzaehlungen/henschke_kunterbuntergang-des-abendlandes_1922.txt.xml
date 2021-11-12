@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Kunterbuntergang des Abendlandes</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118562681">
+                  <forename>Alfred Georg Hermann</forename>
+                  <surname>Henschke</surname>
+                  <addName>Klabund</addName>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:23Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005162718</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Klabund/Erzählungen/Kunterbuntergang des Abendlandes</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/qxqr.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-AAE6-8</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Klabund: Kunterbuntergang des Abendlandes. München 1922</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Kunterbuntergang des Abendlandes</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118562681">
+                        <forename>Alfred Georg Hermann</forename>
+                        <surname>Henschke</surname>
+                        <addName>Klabund</addName>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">152 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Roland-Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1922</date>
+                  <date type="firstPublication">1922</date>
+                  <date type="firstPublication" subtype="clariah">1922</date>
+                  <date type="firstPublication" subtype="zeno">1922</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Klabund-d1e55275">Erstdruck: München (Roland-Verlag) 1922.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Klabund-d1e55275">
+            <p rend="h3">Klabund</p>
+            <p rend="h2">Kunterbuntergang des Abendlandes</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Klabund-d1e55294" type="chapter">
+            <head>
+               <pb n="5" facs="#f0001"/>
+Prolog</head>
+            <p>Graugelb ist sein Gesicht. Die Nase</p>
+            <p>Steigt klippenspitz empor. Die Augen liegen fleckig,</p>
+            <p>Mißtrauisch von den Wimpern tief beschattet,</p>
+            <p>Geduckt zum Sprung wie Panther in der Höhlung.</p>
+            <p>Der rechte Arm mit der Zigarre steht</p>
+            <p>Steif wie ein Schwert, als wolle er damit</p>
+            <p>Sich von den andern sondern, die ihm widerwärtig</p>
+            <p>Und dennoch so sympathisch sind.</p>
+            <p>Schlägt er die Asche ab,</p>
+            <p>So fällt wie Hohn sie aufs Gespräch.</p>
+            <p>Ein kurzes »Ja«, ein scharfes »Nein«</p>
+            <p>Wirft er zuweilen in die Unterhaltung.</p>
+            <p>Mit diesem spitzen »Ja« und »Nein«</p>
+            <p>Spießt er die Leute wie auf Nadeln auf</p>
+            <p>Und nimmt sie mit nach Hause</p>
+            <p>Für seine Käfersammlung.</p>
+            <p>Schlägt man das nächste Buch des Dichters auf,</p>
+            <pb n="6" facs="#f0002"/>
+            <p>O Gott! Schon ist man selber drin verzeichnet.</p>
+            <p>Und wer sich in gerechter Selbsterkenntnis</p>
+            <p>Für ein libellenähnlich Wesen hielt,</p>
+            <p>Der findet sich erstaunt als Mistbock wieder.</p>
+            <pb n="7" facs="#f0003"/>
+         </div>
+         <div xml:id="Klabund-d1e55383" type="chapter">
+            <head>Es war am Morgen eines regnerischen Herbstsonntages</head>
+            <p>Es war am Morgen eines regnerischen Herbstsonntages, als er dieses Buch zu schreiben begann. Er saß im Zimmer Nr. 2 des Gasthofes »Zur Post« in Haag in Oberbayern und blickte auf den alten fünffach gespitzten Turm des Schlosses Haag, der wie ein Paket Bleistifte durch den Nebel sah. Nachdem Leni ihm gestern nacht unterm Kastanienbaum (nicht weit vom Kloster: die Zellen der Nonnen glotzten glitzernd durchs Gesträuch, hin und wieder klopften reife Kastanien auf den mit Blättern verschütteten Boden und zersprangen erschreckt) – jene merkwürdige Geschichte von den silbernen Löffeln erzählt hatte, war er nicht weiter verwundert, sie heuten morgen vorm Kirchgang an der verabredeten Stelle nicht getroffen zu haben. Gewiß hatte sie sich erhängt. Oder war ihr das Wetter zu schlecht für einen Spaziergang auf die Alm? Er zündete sich eine Zigarette an, <pb n="8" facs="#f0004"/>
+die ihn ein wenig wärmte und schlenderte durch die glitschigen Gassen. Er sah die Leute aus der Kirche kommen. Es war schon dreiviertel 8 Uhr. Die Glocke schlug schräg, er sah zum Turm empor und sah das Wappen des Haager Schlosses: das weiße springende Pferd auf rotem Grunde. Es regnete heftiger, und er stellte sich unter den Pavillon. Ein Junge stolperte die Stufen zur Wirtschaft herauf, eine Milchkanne am Arm, stolperte und schlug in den Dreck. Er dachte an die Berge, die man heute den ganzen Tag nicht würde sehen können und an Fiete, und daß er ihr werde schreiben müssen. Er stieg zum Markte ab und schwankte, ob er nicht doch bei Lenis Eltern nachfragen solle, ob sie gestern nach Hause gekommen sei? Vielleicht würde der Vater versuchen, ihn zu ohrfeigen, und die Mutter würde mit einem Küchenbeil auf ihn eindringen. Ich möchte sie schon sehen, wie sie tot im Bette liegt: wie gelbes Glas, und die Augen sind ihr herausgetreten wie ein blauer Fluß über seine Ufer tritt. <pb n="9" facs="#f0005"/>
+Er fragte bei Andreas Lehner, Buchdruckereibesitzer und Eigentümer des »Haager Boten«, nach den neuesten Ereignissen vom Kriegsschauplatz, kaufte ein paar Bogen weißes Papier und ein paar Ansichtskarten, von denen er eine für Fiete bestimmte, und ging in sein Zimmer, um eine Geschichte zu schreiben, welche, wie oben ersichtlich, begann.</p>
+            <pb n="10" facs="#f0006"/>
+         </div>
+         <div xml:id="Klabund-d1e55405" type="chapter">
+            <head>Gestellung</head>
+            <p>Obgleich ich schon längst tot bin, bekam ich eine Aufforderung, mich beim Militär zu stellen. Das verwunderte mich nicht wenig, und ich begab mich trotz dem Aufsehen, das ich in den Straßen erregte, auf das Bezirkskommando.</p>
+            <p rendition="#et">»Entschuldigen Sie,« klapperte ich mit meinen Zähnen und schüttelte den Knochenstaub von meinen Füßen, »hier muß ein Irrtum vorliegen. Ich bin bereits 1797 in der großen Revolution – sonderbarerweise auf dem natürlichen Wege des Erstickens an einem Putenknochen – gestorben. Und jetzt soll ich noch Militärdienste leisten? Das ist eine contradictio in adiecto.«</p>
+            <p rendition="#et">Der Bezirksfeldwebel musterte mich kritisch. »Große Revolution? Sie sind Sozialdemokrat.« »Verzeihen Sie, ich bin überhaupt nicht. Dies zuvor. Ich bin gewesen...« »Keine Wortspaltereien. Sie sind Anarchist. Negieren den Staat, den Sie zu verteidigen hätten.« – »Herr Feldwebel, <pb n="11" facs="#f0007"/>
+wenn man selber negiert ist, bleibt zum Negieren anderer wenig Lust und Zeit.« Der Feldwebel runzelte die Stirne. »Genug. Ich philosophiere schon zu viel. Vergesse die Achtung, die ich der Realität meiner Tressen und Interessen entgegenzubringen habe. Disputiere mit Untergebenen. Sie sind geboren wann?«</p>
+            <p rendition="#et">»1747.«</p>
+            <p rendition="#et">»Jahrgang 1747? Aber Menschenskind, dann gehören Sie ja zum Landsturm letzten Aufgebots. Der Jahrgang wird schwerlich einberufen werden. Überhaupt haben Sie einen verdammt schmalen Brustkasten. Haben Sie irgendeinen bemerkenswerten körperlichen Fehler?«</p>
+            <p rendition="#et">»Knochenfraß!« schrie ich und ließ gelben Staub aus meinen Rippen rinnen.</p>
+            <p rendition="#et">»Bißchen unterernährt sehen Sie ja aus. Sie können gehen. Warten Sie neue Order ab.«</p>
+            <p rendition="#et">Ich stolperte die Treppe hinunter und fiel beinahe über einen blutjungen Leutnant, den ich militärisch grüßte, weil das Vorschrift im Bezirkskommando ist.<pb n="12" facs="#f0008"/>
+ Ich sah seine junge Wange, sein blitzendes Auge, seinen strahlenden Gang, und ehe ich's mir versah, stürzte ich an seine Brust und weinte tränenlos. »Bruder,« rief ich, »auch du wirst sterben müssen wie ich. Erbarme dich meiner und gib mir wieder Blut. Da drinnen, dein Feldwebel, donnerte Paragraphen. Setze mir Fleisch zwischen die Rippen, und ich will gerne tausendfältiges Ziel der Maschinengewehre sein. Nur eine Sekunde atmen! Sieh, ich habe keine Lungen mehr, lebe längst nicht mehr!«</p>
+            <p rendition="#et">Brüsk stieß der Leutnant mich von sich und klemmte das Einglas ins rechte Auge. »Sind Sie besoffen, einen kgl. preußischen Leutnant zu duzen? Drei Tage in den Kasten.«</p>
+            <p rendition="#et">Er winkte einer Ordonnanz. Schnell entsprang ich die Treppe hinab und eilte im Laufschritt auf den Friedhof, wo ich mich, müde von den Ereignissen des Tages und wenig gewillt, in Haft zu treten, in meinem Sarg ausstreckte und den Deckel über mir zuklappte. Mochten sie mich <pb n="13" facs="#f0009"/>
+nun suchen. Sie werden mich schwerlich finden. Der Briefbote, der meine Sargnummer weiß, wird mich nicht verraten, denn er bekommt bei jedem eingeschriebenen Brief mit tödlicher Sicherheit ein beträchtliches Trinkgeld von mir.</p>
+            <pb n="14" facs="#f0010"/>
+         </div>
+         <div xml:id="Klabund-d1e55458" type="chapter">
+            <head>Der Kriegsberichterstatter</head>
+            <p>Siegfried Silbermann, der schon den Buren- und den Balkankrieg als Kriegsberichterstatter der »Neuen Freien Trompete« mitgemacht hatte, wurde telegraphisch in das Hauptquartier von Exzellenz Eydtkuhnen, Oberbefehlshaber Nordost, berufen – jenes Feldherrn, der erst anläßlich dieses Krieges in so glänzende Erscheinung getreten ist.</p>
+            <p rendition="#et">Schon ehe er das Auto des Pressestabes bestieg, wurden Siegfried Silbermann mit einem dunklen Tuch wie einem Parlamentär die Augen verbunden, damit er auf der Fahrt nach der Front ja nichts zu sehen bekäme, was sich im geringsten als militärisches Geheimnis darstellen und von ihm vielleicht als Anlaß zu einer seiner hinlänglich bekannten Plaudereien benützt werden könne. Es gehörte zur seelischen und beruflichen Eigenschaft des Kriegsberichterstatters, daß er nichts, aber auch rein gar nichts vom Kriege sieht: <pb n="15" facs="#f0011"/>
+hin und wieder nur wird ihm die Binde abgenommen, und er fühlt sich erstaunt vor einem toten Pferd oder einem niedergebrannten Haus. Darüber darf er dann als »Augenzeuge« berichten. Wendet er seinen Blick von dem toten Pferd oder dem niedergebrannten Haus ein wenig empor und in die Weite, so sieht er nichts als ein graues, ödes, endloses Feld, das sich viele Meilen bis an den Horizont erstreckt. Das nennt er dann die »Leere des modernen Schlachtfeldes«.</p>
+            <p rendition="#et">Siegfried Silbermann schlug die Augen auf und fand sich einem ältern, stattlichen Herrn gegenüber, dessen Brust mit Orden und Ehrenzeichen übersät war. Breite rote Feldmarschallsbiesen funkelten herrisch an seinen gestrafften Beinen. Er zwirbelte nachdenklich an seinem braun-melierten, altertümlichen Bart.</p>
+            <p rendition="#et">Silbermann zog seinen Notizblock und notierte: martialisch.</p>
+            <p rendition="#et">Exzellenz Eydtkuhnen, der große Feldherr – denn er war es in eigener Person – legte seine große, knochige Hand <pb n="16" facs="#f0012"/>
+schwer auf Siegfried Silbermanns schwankende Schulter.</p>
+            <p rendition="#et">Silbermann zitterte.</p>
+            <p rendition="#et">Er feuchtete den Tintenstift leise an der Zunge an und notierte: leutselig.</p>
+            <p rendition="#et">Silbermann wagte endlich, die nähere Umgebung prüfend zu betrachten.</p>
+            <p rendition="#et">Um ein riesiges rauchiges Lagerfeuer hockte malerisch gekrümmt eine Anzahl höherer und niederer Offiziere. Es war der Stab des Feldherrn. Sie rauchten eine Pfeife, die reihum ging: die sogenannte Friedenspfeife. Über dem Feuer wurde ein Ochse von mehreren Ordonnanzen am Spieß gedreht. Man traf Vorbereitungen zum Mittagsmahl.</p>
+            <p rendition="#et">»Wollen Sie mit uns speisen?« sagte Exzellenz Eydtkuhnen. Des Feldherrn Stimme rollte in gutturalen Kehllauten.</p>
+            <p rendition="#et">Silbermann notierte: nicht nur die Tatze, nein, auch die Stimme des Löwen...</p>
+            <p rendition="#et">»Ich habe mit dem feindlichen Heerführer ausgemacht, daß die Schlacht erst nach dem Mittagessen, sobald der Kaffee abserviert ist, beginnt.«</p>
+            <p rendition="#et">
+               <pb n="17" facs="#f0013"/>
+Silbermann notierte: humane Kriegführung.</p>
+            <p rendition="#et">Es war nur ein Feldstuhl vorhanden.</p>
+            <p rendition="#et">Silbermann notierte: spartanische Lebensweise...</p>
+            <p rendition="#et">»Wollen Sie sich nicht setzen?« lächelte Exzellenz Eydtkuhnen. »Das Schreiben und Denken im Stehen ermüdet.«</p>
+            <p rendition="#et">»Bitte, nach Ihnen, Exzellenz«, verbog sich Silbermann devot.</p>
+            <p rendition="#et">»Oh,« wehrte die Exzellenz ab, »ich stehe schon so lange im Felde, daß ich ruhig noch ein wenig länger stehen kann.«</p>
+            <p rendition="#et">Silbermann notierte: Beharrlichkeit... Ausdauer... germanische Zähigkeit... Oben in den Lüften begann es zu pfeifen und zu surren, zu schnauben und zu knallen.</p>
+            <p rendition="#et">Exzellenz Eydtkuhnen murmelte erheitert: »Feindliche Aeroplane... sie haben es auf mein Hauptquartier abgesehen... aber beruhigen Sie sich, lieber Silbermann: sie treffen nie etwas. Höchstens, wenn man sich etwa auf neutralem Boden befände, könnten sie einem gefährlich werden.«</p>
+            <p rendition="#et">
+               <pb n="18" facs="#f0014"/>
+Krrrrrrrtz... knautz... rum... eine Fliegerbombe platzte in fünfzig Schritt vor Silbermann.</p>
+            <p rendition="#et">Silbermann konnte gerade noch: Kaltblütigkeit notieren, dann fiel er in Ohnmacht. Exzellenz Eydtkuhnen winkte, und Silbermann wurde von den Ordonnanzen, die eben noch den Ochsen gebraten hatten, ins Auto des Pressestabes geschafft. Auf der Redaktion der »Neuen Freien Trompete« war es, wo er wieder zur Besinnung kam. Noch die Abendausgabe der »Neuen Freien Trompete« brachte auf ihrer ersten Seite Silbermanns nachgerade so berühmt gewordenes Interview des Oberbefehlshabers Nordost Exzellenz Eydtkuhnen.</p>
+            <p rendition="#et">Vier Wochen später erschien bei der Verlagsbuchhandlung Brösel &amp; Co. »Die eiserne Mauer«, Eindrücke und Expressionen, Erlebtes und Erschautes von der Nordostfront, von Siegfried Silbermann – ein stattlicher Band in Lexikonformat.</p>
+            <pb n="19" facs="#f0015"/>
+         </div>
+         <div xml:id="Klabund-d1e55553" type="chapter">
+            <head>Im neunten Monat</head>
+            <p>Acht Monate hatte ich den Krieg getragen. Wie eine Mutter verweint und scheu ein Kind unterm Herzen trägt, das ihr ein blauhaariger Vagabund in verwünschter Notzucht aufgedrungen. Im neunten Monat hielt ich es nicht mehr aus.</p>
+            <p rendition="#et">Ich stieß den Krieg von mir.</p>
+            <p rendition="#et">Ich abortierte.</p>
+            <p rendition="#et">Es wurde eine Mißgeburt. Ein riesenhafter wachsweicher Kopf. Eine hölzerne Brust. Und keine Beine. Nur Eisenstümpfe. Ich stopfte ihm Gräser ins Maul. Moos wuchs aus seiner Nase. Die Augen fielen wie goldene Kiesel aus ihren Höhlen. Er erstickte.</p>
+            <p rendition="#et">Ich wurde verrückt.</p>
+            <p rendition="#et">Ich ging zu einem Spezialisten für nervöse Überreizung.</p>
+            <p rendition="#et">Er tanzte wie eine braune Medizinflasche vor mir und ließ immerzu knallend seinen Korken springen: »Sehen Sie weiße Mäuse? Sind Sie Alkoholiker? Klettern <pb n="20" facs="#f0016"/>
+Sie im Traum permanent an Telegraphenstangen empor? Blasen sie das Waldhorn?«</p>
+            <p rendition="#et">Ich schlug dem Arzt die Hirnschale ein und floh entsetzt, als ich – zu spät – bemerkte, daß er die Uniform eines Reservestabsarztes und die gelben Äskulapstäbe auf den Achselklappen trug.</p>
+            <p rendition="#et">Dies brachte mich auf den Gedanken, mir statt eines Spazierstockes, den ich auf meinen nächtlichen Wanderungen im Wolkengebirge und auf der von Sternen ganz verschütteten Milchstraße dringend benötigte, einen Äskulapstab zu kaufen. Übrigens: der liebe Gott sollte auf dem Himmel endlich einmal eine Chaussee bauen lassen, daß man ihn ohne Gefahr eines Genickbruches passieren kann. Wozu hat er denn seine Fremdenlegion, in der ja doch nur Teufel dienen. Höchstens, hier und da, ein Engel als Korporal. Um einen Äskulapstab zu bekommen, frug ich in 111 Geschäften nach. Niemand hatte einen Äskulapstab vorrätig, auch Tietz nicht. Und ob ich vielleicht<pb n="21" facs="#f0017"/>
+ einen dieser modernen Stöcke ohne Griff meine?</p>
+            <p rendition="#et">Ich war sehr erstaunt, daß es Stöcke ohne Griff gibt.</p>
+            <p rendition="#et">Da muß es doch auch Menschen ohne Köpfe geben.</p>
+            <p rendition="#et">Ich kaufte mir Bleisoldaten, und zwar nur Kavallerie, damit ich Reiten lerne, und spielte damit.</p>
+            <p rendition="#et">Abends ging ich auf den Feldern vor dem Schwabinger Krankenhaus spazieren. Wenn ich eine Blume pflückte, rann rotes Blut aus ihrem Stiel. Jagte ich einem Schmetterling nach, so war es ein Totenkopffalter. Wollte ich in eine Trambahn stürzen, so erwies sie sich als Leichenwagen.</p>
+            <p rendition="#et">Ich malte mir ein rotes Kreuz auf die Stirn, schrie: »Christus«, und meldete mich zur freiwilligen Kranken- und Verwundetenpflege.</p>
+            <p rendition="#et">Ich hätte gern noch einmal ein Mädchen geliebt. Aber die Mädchen, die ich traf, hatten allesamt Glasaugen, falsche Haare aus Seetang und künstliche Gliedmaßen. <pb n="22" facs="#f0018"/>
+Die allerschönsten wurden in Rollstühlen gefahren und hatten keinen Unterleib.</p>
+            <p rendition="#et">Fahr wohl, du schöne Welt, sagte ich mir und ließ mich von einer Konservenfabrik zu Büchsenfleisch verarbeiten.</p>
+            <pb n="23" facs="#f0019"/>
+         </div>
+         <div xml:id="Klabund-d1e55625" type="chapter">
+            <head>Der Dauerbrandofen</head>
+            <p>Sebald Eidotter kam als Dauerbrandofen auf die Welt. Den ganzen Tag und die ganze Nacht brennen: für nichts und wieder nichts: das verdroß ihn. Anstatt Beefsteaks und Hammelkotletts – Preßkohlen schlucken müssen, ist peinlich, noch dazu, wenn man einen empfindlichen Magen hat, zum Luxus tendiert, und seine Lebemannsallüren einzig dadurch äußern darf, daß man statt mit Tausendmarkscheinen mit ausgebrannten Holzscheiten knistert. Sebald Eidotter beschloß, dem Menschlichen, dem er verwandt und zugetan, näher zu kommen. Er kaufte sich ein Paar Kürassierstiefel, lernte mit der Ofenklappe: Vorwärts, marsch! klappern und begab sich in einen Schützengraben nach Flandern, wo er als feldgrauer Offizier mit hochmoderner Stahlausrüstung (Brustpanzer und Gasmaske) sogleich Anstellung fand. Er schritt unversehrt durch hundert Sturmangriffe. Schon zierte seine eiserne Brust das <pb n="24" facs="#f0020"/>
+Eiserne erster, als in der Reservestellung ein Musketier auf den Gedanken kam, zu untersuchen, was hinter ihm stecke. Er riß ihm die Ofenklappe auf: da fiel Asche und Staub heraus. Feuer war nicht mehr vorhanden. Er war längst ausgebrannt. Mechanisch klapperte er: Vorwärts, marsch, vorwärts, marsch! Der Musketier lief sofort ins Feuer, um Feuer für ihn zu holen. Zu spät. Als er zurückkam, hatte Sebald Eidotter bereits sein Leben ausgehaucht.</p>
+            <p rendition="#et">Auch ein Dauerbrandofen ist kein Perpetuum mobile.</p>
+            <p rendition="#et">Selbst nicht in dieser perpetuell mobilisierten Zeit.</p>
+            <pb n="25" facs="#f0021"/>
+         </div>
+         <div xml:id="Klabund-d1e55651" type="chapter">
+            <head>Weltgeschichte vom psychoanalytischen Standpunkt</head>
+            <p>Gott, ein typischer Neurotiker und schwerer Psychopath, schuf die Welt, um sein Komplexe abzureagieren. Die Tatsache, daß er keinen Vater und keine Mutter besitzt, läßt ihn von der Autoerotik nicht loskommen. Er krankt am nicht fixierten Ödipuskomplex. Verzweifelt und voll infantiler Regungen versucht er, sich eine Imago patris zu konstruieren. Adam, sein Geschöpf, sein Sohn – wird sein erster Vater. Eva, sein Geschöpf, seine Tochter – deutet er (hoffnungsvoll) sich als Mutter. In Gestalt der Schlange treibt er mit ihr symbolischen Inzest und vertreibt, nachdem er selbst vom Baum der (Selbst)erkenntnis gekostet, Vater und Mutter, Adam und Eva, aus dem Paradiese seiner Autoerotik – Adam stirbt, d.h. sein Gefühl für ihn. Sein Ödipuskomplex schafft neue Väter: Noah. Manche werden Hunderte von Jahren<pb n="26" facs="#f0022"/>
+ alt. Am ältesten: Methusalem, an dem er neunhundert Jahre liebend leidet. Es gelang ihm nicht, sich einen ewigen Vater zu schaffen – die Ewigkeit zu überewigen. Sämtliche Mängel der Schöpfung datieren von Gottes Unerlöstheit (vielleicht Unerlösbarkeit? Vielleicht können nur wir Menschen erlöst, d.h. analysiert werden?) – von der Verdrängung seiner zahlreichen Komplexe.</p>
+            <p rendition="#et">Der heutige Krieg ist ein neues sichtbares Zeichen, daß Gottes Kreatur, die Menschheit, an einer Fülle von Komplexen leidet und Gefühle verdrängt, die sie auf gewaltsame explosive Art abzureagieren trachtet.</p>
+            <p rendition="#et">Das Ultimatum Österreichs an Serbien deutet auf symbolische Analerotik (siehe »Götz von Berlichingen«...).</p>
+            <p rendition="#et">Hindenburg, als gewiegter Psychoanalytiker, versucht Rußland von seinem Ödipuskomplex (»dem Väterchen [!] Zaren«) zu befreien. Da er aber selbst nicht genügend analysiert und von seinem Vaterkomplex (der »Kaiser« vertritt bei ihm <pb n="27" facs="#f0023"/>
+die Stelle des Vaters) befreit war, mußte das Experiment mißlingen und in der Kur(land)pfuscherei ausarten. Rußland zerfiel in viele Teilkomplexe.</p>
+            <p rendition="#et">Das Verhältnis von Deutschland und Frankreich läßt schon im Symbol der Namengebung: Michel und Marianne, auf einen typischen Geschwisterkomplex schließen. Der gegenseitige Haß basiert auf verdrängter Liebe. Da sie sich vom Standpunkt ihres Komplexes aus ethisch nicht lieben dürfen, findet von Zeit zu Zeit seitens des männlichen Teiles (Michel = Deutschland) eine Vergewaltigung des weiblichen Teiles (Marianne = Frankreich) statt.</p>
+            <p rendition="#et">Es braucht nicht näher ausgemalt zu werden, als was für Symbole die Waffen: die Lanzen, die Gewehre, die Kanonen, zu gelten haben.</p>
+            <p rendition="#et">Der Weltkrieg kann nur verstanden werden als eine Betätigung der perversen Sexualität Europas.</p>
+            <p rendition="#et">Die Eroberung und Befreiung der Meere, von der England und Deutschland träumen<pb n="28" facs="#f0024"/>
+, erweist sich als eine ins Ungeheuerlichste gesteigerte Urethralerotik.</p>
+            <p rendition="#et">Die Verschiebung der Grenzen bedeutet nur eine Verschiebung von Affekten.</p>
+            <p rendition="#et">Auf diese Formel läßt sich der Weltkrieg bringen: Die Menschheit ödipussiert.</p>
+            <p rendition="#et">Fort mit der Schulpsychologie – da doch die Buhlpsychologie erst in die tiefsten Tiefen der Menschenseele zu leuchten berufen ist. Sie leuchtet uns gleichsam heim: in unsere wahre Heimat, den infantilen Infantilismus.</p>
+            <p rendition="#et">Herrschsüchtige Infanten sind wir vor ihr.</p>
+            <p rendition="#et">Dr. Jaroslaw Prahas »Weltgeschichte vom psychoanalytischen Standpunkt« (Wien, 1918, bei Hugo Heller) ist auf das dringendste einem jeden Europathen (und wer wäre das nicht – da Gott selbst Europath?) zu empfehlen.</p>
+            <pb n="29" facs="#f0025"/>
+         </div>
+         <div xml:id="Klabund-d1e55713" type="chapter">
+            <head>Ein Vorschlag zur Güte das heißt zur Schlechtigkeit</head>
+            <p>Mit dem größten Befremden verfolge ich den Kampf, den maßgebende Kreise gegen die Schundliteratur, den Kino, die schwarze Hand, den Kannibalismus usw. führen. Seit Jahrtausenden sind Religionsstifter, Oberlehrer und Traktätchenverkäufer bemüht, der Menschheit eine Vorstellung vom Wesen des Guten beizubringen und sie nach besten Kräften zur praktischen Ausübung der Tugend anzuleiten. Mit welchem Erfolg, lehrt zur Genüge die Geschichte. Je eifriger und inbrünstiger die Propheten ihres Amtes walteten, um so niederträchtiger und gottloser gebärdet sich jenes kleinhirnige Säugetier, welches mit Unrecht den Namen Mensch führt. Die Tugend ist eine Sensation: als negatives Stimulans nur ihrem sogenannten Leben eingeordnet. Denn ihr Leben vollzieht sich nur aus dem Geist des Widerspruchs heraus. Jedermann ist bemüht, das Gegenteil von <pb n="30" facs="#f0026"/>
+dem zu tun, was die immanente Vernunft von ihm erwartet. Wird dieses Gesetz der konträren Einstellung erst in seiner ganzen Wucht einmal erkannt, so ist der ethisch-logische Schluß auch von Minderbegabten leicht zu ziehen. Man lehre die Menschen das Schlechte – und sie werden das Gute von selbst tun. Man propagiere in den Volks- und öffentlichen Bibliotheken die Lektüre von Nat-Pinkerton, Otto Ernst, Courths-Mahler, Theodor Körner. In Millionen Exemplaren verbreite das Ministerium für Volksbildung: Rosa, den Backfisch, und Emil, den siebenfachen Massenmörder. Agenten sollen durch die Straßen ziehen, die im staatlichen Auftrag zu Raub- und Lustmord auffordern: in flammenden Phrasen. Was wird die Folge sein? Eine Welle von Sanftmut und Opferbereitschaft, von Güte und Liebe wird über die Menschheit dahinströmen. Warum hat die Zensur noch immer nicht jene kindlich frommen, presbyterianisch harmlosen Aufklärungsfilme verboten? Der wahre Aufklärungsfilm <pb n="31" facs="#f0027"/>
+muß erst noch geschaffen werden: sämtliche Verbrechen der Menschheit sind in wahrheitsgetreuem Filmbild der unmündigen Jugend in extra Kindervorstellung bei freiem Eintritt vorzuführen. Welch ein herrliches Geschlecht werden wir aufziehen. Es wird künftig ein wahres Vergnügen sein, Kinder zu zeugen. Wir werden den Himmel auf Erden haben. Ein Wort noch an die Pazifisten, jene närrischen Halunken Gottes. Sie haben den ewigen Frieden propagiert und haben den ewigen Krieg geerntet. Wir vom B.d.B. (Bund der Bösen) propagieren den ewigen Krieg: Krieg muß sein den ganzen Tag von früh bis spät, hundert Jahre lang. Dann werden wir den ewigen Frieden haben. Treten Sie unserem Bunde bei, wenn Sie es ernst mit der Aufwärtsentwicklung der Menschheit meinen. Für die Menschheit ist das Schlechteste gerade gut genug.</p>
+            <pb n="32" facs="#f0028"/>
+         </div>
+         <div xml:id="Klabund-d1e55735" type="chapter">
+            <head>Der Volkskommissär</head>
+            <p>Eines Morgens lag auf meinem Kaffeeersatztisch eine unfrankierte Postkarte folgenden Inhalts:</p>
+            <p>Genosse!</p>
+            <p>Wie wir hören, sind Sie kürzlich umgezogen. Wären Sie bereit, Ihre Fachkenntnisse in den Dienst der guten, der besten Sache zu stellen und das Volkskommissariat für Transportkrisen zu übernehmen?</p>
+            <p>Mit internationalem Handschlag</p>
+            <p>Blaukraut</p>
+            <p>Vorsitzender</p>
+            <p>im Rat der Volkskommissäre.</p>
+            <p>Aha! dachte ich. Da haben wir nun also die Revolution. Sie, die langersehnte, ist plötzlich über Nacht, unverhofft wie eine Eierkiste aus Holland, eingetroffen. Und ich, gestern abend noch kaisertreu bis in die Knochen, die andere Leute für mich zu Markte trugen, war heute zu einem der führenden neuen Männer auserkoren.</p>
+            <p rendition="#et">Ich schrie: Emmchen! (Womit ich nicht <pb n="33" facs="#f0029"/>
+meine Hunderttausend, sondern die Eine, Einzige, meine Haushälterin Emmi meinte) und befahl ihr, aus dem roten Rande meines Kriegervereinstaschentuches, auf dem die Schlacht bei Sedan abgebildet ist, eine rote Revolutionsrosette unverzüglich zu verfertigen.</p>
+            <p rendition="#et">Mit dieser geschmückt, eine alte Radfahrpelerine, die ich vom Boden holte, lässig umgeschlungen, begab ich mich, also proletarisiert, in das Staatsgebäude.</p>
+            <p rendition="#et">Blaukraut, ein früherer Hausbursche von mir, empfing mich jovial. Er schlug mir auf die Schulter und schrie: »Na, was sagen Sie dazu? Wie haben wir das Ding gedreht? Der Un-mut, der Mehr-als-Mut, der Über-mut des Volkes hat die Tore der Freiheit gesprengt. Freiheit, die ich meine! Freiheit, die ich meine! Gesinnung, das ist jetzt die Hauptsache. Wer die nicht hat, wird um die erste Silbe kürzer gemacht. Ein soziales Gewissen! Na, das haben Sie ja an mir bewiesen! Menschlichkeit! Es gilt die Sozialisierung der Seelen.«</p>
+            <p rendition="#et">
+               <pb n="34" facs="#f0030"/>
+Mir wurde das Hotel Monopol als Bureaugebäude zugewiesen. 120 Zimmer standen mir zur Verfügung.</p>
+            <p rendition="#et">Ich saß in einem tiefen Klubsessel des Zimmers Nr. l und drückte auf einen Knopf. Mein Obersekretär erschien, ein ehemaliger Seiltänzer.</p>
+            <p rendition="#et">Ich befahl ihm, sofort sämtliche Züge im gesamten Deutschen Reich anhalten und stille stehn zu lassen. Die armen Lokomotivführer sollen auch einmal ihre Ruhe haben. Seit meiner Kindheit gehörte nebst den Ammen meine größte Sympathie den Lokomotivführern.</p>
+            <p rendition="#et">Ich mußte mit meinem sozialen Gewissen doch Ehre einlegen – dauernd, wie Kalkeier.</p>
+            <p rendition="#et">Ich drückte wieder auf den Knopf.</p>
+            <p rendition="#et">Es erschien mein zweiter Sekretär, ein ehemaliger Bräukellner.</p>
+            <p rendition="#et">Ich befahl ihm, den Lebensmittelzug D 777 I, A, f. aus Ostpreußen vom Bahnhof Friedrichstraße nach dem Anhalter Bahnhof, in die Nähe meiner Wohnung, überführen zu lassen.</p>
+            <p rendition="#et">
+               <pb n="35" facs="#f0031"/>
+Leider muß ich feststellen, stieß ich mit meinen Maßnahmen nicht überall auf das erhoffte Verständnis.</p>
+            <p rendition="#et">Die Beschwerdebesuche häuften sich. Man machte mich ganz nervös. Ich ernannte einen taubstummen Vetter von mir zum Beschwerdekommissar zwecks Entgegennahme von Beschwerden.</p>
+            <p rendition="#et">Nach und nach bringe ich so alles in den rechten Schwung.</p>
+            <p rendition="#et">Was der Krieg nicht ruiniert hat, das werde ich ruinieren.</p>
+            <p rendition="#et">Todsicher.</p>
+            <p rendition="#et">Da können Sie sich auf mich verlassen.</p>
+            <pb n="36" facs="#f0032"/>
+         </div>
+         <div xml:id="Klabund-d1e55839" type="chapter">
+            <head>Der Absolutismus bricht an...</head>
+            <p>Was, Sie schwören noch auf Einstein? Auf die Relativitätstheorie? Junge, Junge: daß Sie aber auch immer eine Viertelstunde zu spät kommen! Einstein: is nicht mehr. Das wäre ja gelacht, von wegen Brechung der Sonnenstrahlen! Mensch, sind Sie dof! Lassen Sie sich mal schleunigst Ihr Weltbild und Ihren abgetragenen Cheviotsakko wenden. Der Relativismus hat abgewirtschaftet. Wir haben die absolute Wahrheit mit Löffeln gefressen. Merken Sie nicht? Der Absolutismus bricht an.</p>
+            <p rendition="#et">Das is mal absolut richtig, Sie da. Waren Sie neulich im Großen Schauspielhaus? Dufte Sache, dieser Danton. Es ist was Großes um eine Revolution... im Großen Schauspielhaus. Und wie da am Schluß dieser eine mieckrige Bursche kreischt: Die Republik wird erst dann rein sein – wenn die Republik nicht mehr ist... da hätten Sie mal den Applaus des p.t. Publikums hören sollen. Der ganze Pölzig <pb n="37" facs="#f0033"/>
+donnerte. Es war eine riesige Kundgebung gegen die Republik, das heißt den Relativismus: und für den Absolutismus.</p>
+            <p rendition="#et">Da weiß der Mensch doch wenigstens, woran er ist: er ist geborgen, er hat seinen Halt, es gibt absolute Wahrheiten, nach denen man sich zu richten hat, und damit gut. Zum Beispiel: »Rechts gehen!« »Das Betreten dieses Grundstückes ist verboten!« »Sprechstunde des Geheimen Regierungsrates von 5 bis 1/4 6.« »Heute frische Metzelsuppe!« »Herren – dort.« »Nach dem Bezirkskommando – hier.« Daran gibt es nischt zu tifteln und zu deuteln. Das absolute Prinzip denkt und lenkt. Der Mensch braucht überhaupt nicht zu denken.</p>
+            <p rendition="#et">In sämtlichen Kiosken ist »Die absolute Wahrheit« vorrätig, ein Blatt in Kleinquart, Kostenpunkt 15 Pfennig. Da stehen die dreiunddreißig absoluten Wahrheiten gemeinverständlich drin verzeichnet. Alles andere, merken Sie wohl, ist Quatsch, Blödsinn, Humbug, Heckmeck. Wenn Sie uns nicht glauben, dann werden <pb n="38" facs="#f0034"/>
+wir Ihnen die absolute Wahrheit schon beibringen, Onkelchen. Beim Knüppel-Kunze sind tausend Gummiknüppel abgeladen. Einer wird ja auch für Ihre Schädelform passen, Sie Guter. Oder ziehen Sie es vor, mit Handgranate und Browning bekehrt zu werden? Allens da. Bei uns is nich wie bei arme Leute. Wir sind mit allen verfügbaren geistigen Waffen hervorragend ausgerüstet.</p>
+            <pb n="39" facs="#f0035"/>
+         </div>
+         <div xml:id="Klabund-d1e55872" type="chapter">
+            <head>Biographie</head>
+            <p>Mein Vater, der bekannte Raubmörder Klauschke, erzog mich in Ehr- und Gottesfurcht. »Halte stets dein Haus rein!« sagte er mit einem Seitenblick auf meine Mutter, die mit Eimer und hochgekrempelten Röcken im Zimmer stand und planschte. Wie ich erst später erfuhr, war meine Mutter gar nicht meine Mutter, sondern eine entfernte Verwandte meiner Mutter, die ich »Tante« nennen mußte, und mit der ich mich in jugendlichem Überschwang beinahe einmal verlobt hätte. Als ich das sechzehnte Jahr vollendete, gab mich mein Vater in die Lehre zum Porzellanwarenhändler Simson Siegedurch, einem Meister seines Faches. Er hielt Seelenfreundschaft sowohl mit meiner wahren wie mit meiner falschen Mutter und pflegte mich, nicht ohne Anzüglichkeit, »mein Söhnchen« zu rufen. Er war mit meinem Vater von früher her ein wenig böse, weil dieser in einem Anfall von Gedankenschwäche <pb n="40" facs="#f0036"/>
+Frau Siegedurch mit einer Kupferkanne erschlagen hatte. Die Kupferkanne bekam eine beträchtliche Beule. Siegedurch hatte die Kupferkanne sehr geliebt, und die Beule darin verdroß ihn lebhaft. Er war ein Kunstkenner und lehrte auch mich die Kunst kennen, indem er zwei Reihen Porzellantassen vor mich hinstellte und sagte: Links Kunst – rechts keine. – Ja, Anschauen bildet. Das dachte ich mir auch, als ich Röschen Zwitterbauch kennen lernte und ihr ewige Liebe schwor. Mein Vater war mit dieser Lösung meiner Verhältnisse nicht einverstanden. Er gab mir die goldene Lebensregel: schlag tot, schlag tot – er meinte, er sei mit dem</p>
+            <p rendition="#et">Tod im Leben stets am weitesten gekommen. Was soll ich Ihnen weiter erzählen – ich sehe, Sie finden mein Leben reichlich uninteressant und hören schon gar nicht mehr zu. Ich bin leider in einem einfachen, gut bürgerlichen Milieu aufgewachsen, wo das Dasein monoton dahinfließt. Noch einen Steinhäger, Fräulein, und die »Fliegenden Blätter«!</p>
+            <pb n="41" facs="#f0037"/>
+         </div>
+         <div xml:id="Klabund-d1e55895" type="chapter">
+            <head>Elegant möblierte Zimmer</head>
+            <p>Einmal, dachte ich, muß man den Schritt in die große Welt wagen. Und ich mietete bei Frau Dr. rer. nat. Limusine Reisfleisch in der Karolinenstraße 47, Gartenhaus Hochparterre, zwei elegant möblierte Zimmer mit Bad, elektrischem Licht, Zentralheizung und Telephon. Ab 1. September. Am 4. September kehrte ich unerwartet von meiner Sommerreise aus Mittenwald heim. Im Wohnzimmer fand ich ein dreitägiges Baby inmitten eines herzigen Wäschekorbes und im Schlafzimmer ein fremdes Fräulein. Dieser Witz war so alt, daß ich erschrak und zuerst bezweifelte, ihn zu erleben. Danach ging ich in ein Hotel und brach an der Brust des Pikkolos in Weinkrämpfe aus. Diese Weinkrämpfe wurden auf der Hotelrechnung mit fünfunddreißig Pfennig berechnet.</p>
+            <p rendition="#et">Am nächsten Morgen wagte ich wieder bei Frau Dr. rer. nat. Reisfleisch vorzusprechen. Ob es nunmehr genehm sei, <pb n="42" facs="#f0038"/>
+wenn ich einziehe... Es war genehm, und ich zog ein. Mit vielen Koffern und Kisten, die mir nacheinander an die Kniescheibe fielen.</p>
+            <p rendition="#et">Ich wollte, wie üblich, meine Wäsche in die Kommode packen und zog die Schubfächer auf. Im obersten lagen Haar- und Stricknadeln sowie sonstige Utensilien einer Dame von Welt. Aus der untersten Schublade zauberte ich einen verstorbenen Papagei und das vollständige Putzzeug eines Soldaten ans Tages- bzw. elektrische Licht. Denn weil ich es doch bezahlen mußte, hatte ich es gleich bei Tag angedreht.</p>
+            <p rendition="#et">Erfreulich berührte mich die Zentralheizung, welche allein durch die Staubschicht, die auf ihr lastete, wärmte und heizte.</p>
+            <p rendition="#et">Würmer liefen auf den weißen Fensterbrettern. Eine dicke Kreuzspinne schlief in einem Biedermeierlehnstuhl.</p>
+            <p rendition="#et">Um sie nicht zu wecken, zog ich mir die Stiefel aus und ging behutsam auf Socken. Ich gedachte zu baden.</p>
+            <p rendition="#et">
+               <pb n="43" facs="#f0039"/>
+Ich klingelte sanft. Ich klingelte lauter. Ich klingelte ganz laut. Ich klingelte sechsundzwanzigmal.</p>
+            <p rendition="#et">Ein Kind erschien in der Tür. Im weißen Hemd. Und noch ein Kind. Und immer mehr Kinder. Zuletzt Frau Dr. Reisfleisch mit großer Hornbrille und gütig bemoostem Haar. Und Herr Dr. rer. nat. Reisfleisch erschien als oberbayrischer Bua verkleidet oder Bubi, wie man norddeutsch sagt: mit scheckigen Wadenstrümpfen, mahagonibraunen Kniehosen und einem dottergelben Janker.</p>
+            <p rendition="#et">»Ich erkläre die außerordentliche Kündigung«, schrie ich und flog im Zimmer umher. Zu gehen wagte ich schon nicht mehr. »Ich erkläre die außerordentliche Kündigung. Sie haben sämtliche Punkte des Mietvertrages gebrochen...«</p>
+            <p rendition="#et">»Wo ist der schriftliche Vertrag, bitte?« brüllte der akademische Bua und durchbohrte mich höhnisch mit seinem griffesten Messer.</p>
+            <p rendition="#et">Ich wollte zum Telephon laufen, um den nächsten Spezialisten für Herzleiden anzuläuten. <pb n="44" facs="#f0040"/>
+Aber ich fand kein Telephon. Endlich entdeckte ich es im dritten Stock. Es gehörte überhaupt nicht zur Pension Reisfleisch, wie diese behauptet hatte, sondern einem Architekten namens Kohlraum.</p>
+            <p rendition="#et">Herr Kohlraum ließ mich gar nicht erst ans Telephon, sondern unterbreitete mir sofort einen vorteilhaften Kostenanschlag für ein Einfamilienhaus am Ammersee. Darin lebe ich nun fröhlich und guter Dinge. Mit Schaudern erinnere ich mich der elegant möblierten Zimmer, füttere die Fische und züchte Perlhühner und weiße Mäuse. Zuweilen lasse ich mich in einem Kahn über den See treiben... Wer weiß, wohin..., wer weiß, wozu...</p>
+            <pb n="45" facs="#f0041"/>
+         </div>
+         <div xml:id="Klabund-d1e55953" type="chapter">
+            <head>Mucius Mauke</head>
+            <p>Mucius Mauke war schon von klein an auf sich selbst angewiesen. Wenn andere Kinder noch in den Windeln liegen, so wusch er dieselben schon. Als er eines Tages ins Wasser fiel, rettete er sich selbst durch Schwimmen vom Tode des Ertrinkens, ohne daß es dazu eines edelmütigen Arbeiters oder eines tatkräftigen Soldaten bedurfte, der sich etwa die Rettungsmedaille hätte verdienen wollen. Dieser Unglücksfall brachte Mucius auf den Gedanken, es als Schwimmkünstler zu versuchen. Er errang auch mehrere silberne Eierbecher und seidene Ehrenschleifen auf den verschiedensten internationalen Schwimmfesten, die er besuchte. Aber so ganz befriedigte ihn diese Tätigkeit nicht. Sie entbehrte des sittlichen Grundgehaltes, ohne den die Arbeit zur Farce oder zum Grimmassenschneiden wird. So ergriff er nacheinander den Beruf eines Austernfischers, Dentisten, fliegenden Buchhändlers, eines Zauberkünstlers, <pb n="46" facs="#f0042"/>
+Privatdozenten und Traktätchendichters. Jeder Beruf hatte einen Haken, der es einem schwer machte, sich nicht an ihm aufzuhängen. Aber Leben und Leben lassen war Mucius Maukes Prinzip. Er wurde Schneeschipper, wodurch es ihm jedoch im Sommer wieder an Beschäftigung gebrach. Gram umwölkte seine Stirn. Ein reiches Können ging mit ihm verloren, falls er nicht bald den rechten Beruf fand. Da, auf dem Wege nach Milbertshofen, erschien ihm eines Abends sein Gott in einer roten Gewitterwolke und sprach: »Mucius Mauke, wie aus einem Saulus ein Paulus wurde, soll aus einem Mauke quasi ent- und wieder re-materialisiert eine Pauke werden. Erkenne dich selbst.« Mauke sah an sich herab. Er war in der Tat zur Pauke geworden. Er brauchte nichts mehr zu tun, sondern hatte nur zu warten, daß man etwas mit ihm tat. Sein Leben verfloß von nun an geregelt und ohne Aufregung. Er stand im Münchner Hoforchester, das ihn käuflich erworben hatte. Das Ziel seines Lebens war erreicht. <pb n="47" facs="#f0043"/>
+Er war zu Musik, zu Klang, zur Inkarnation einer dröhnenden Sehnsucht geworden. Sehr bald verliebte er sich in die erste Flöte, und sie wurden ein glückliches Paar.</p>
+            <pb n="48" facs="#f0044"/>
+         </div>
+         <div xml:id="Klabund-d1e55975" type="chapter">
+            <head>Kubismus</head>
+            <p>Ein kubistischer Maler namens Täubchen beschloß, nachdem er viele Bilder kubischer Art gemalt, nunmehr als rechter Aktivist auch »so«: nämlich kubisch zu leben. Er ließ sich statt eines Kopfes einen Würfel auf den Hals schrauben, mit der Nummer 6 nach oben, damit jeder sähe, was er für eine Nummer wäre. Er ging deshalb auch Sommer und Winter ohne Hut, nur mit einem achteckigen Brett, welches als Regenschirm und Spazierstock diente, in der Hand.</p>
+            <p rendition="#et">Sein Bauch war ein Parallelepitedon. Seine Beine zwei mit Holzwolle gefüllte Kisten, auf denen stand: Nicht stürzen, Glas! Aber es war kein Glas in den Kisten. Solchermaßen täuschte Täubchen die Umwelt.</p>
+            <p rendition="#et">Jedermann auf der Straße sagte: Wie sehen Sie denn aus, Täubchen? Aber Täubchen kümmerte sich nicht darum. Sein Gesicht, welches aus der 3 am Würfel wuchs, lächelte verzeihend.</p>
+            <p rendition="#et">
+               <pb n="49" facs="#f0045"/>
+Jeder ehrliche Mensch müßte nach seiner optisch seelischen Anschauung leben. Dann wäre weniger Lüge in der Welt. Täubchen hatte unzweifelhaft recht, was ihn nur noch mehr gegen die Torheit der übrigen Menschen, die ihn mißverstanden oder mißverstehen wollten, aufbrachte. Eines Tages stürzte das Haus über Täubchen zusammen. Es stürzte kubisch: in Würfeln und Blöcken. Infolge eines Erdbebens. Täubchen entrann mit knapper Not dem Tode.</p>
+            <p rendition="#et">Er stand vor seinem zusammengefallenen Haus und betrachtete es beseligt und entzückt.</p>
+            <p rendition="#et">Mein Haus – es malt sich selbst –, ein kubistisches Gemälde. – Ich brauche es nicht erst zu malen. – Selig der Mensch, bei dem selbst die Gegenstände und Objekte seines Seins sich seiner Weltanschauung unterordnen. Seine Kraft ist mystisch. Sein Wille wahllos werbend. Das Ding an sich entdingt sich und wird... Sein.</p>
+            <p rendition="#et">
+               <pb n="50" facs="#f0046"/>
+Täubchen photographierte das zusammengestürzte Haus und sandte einen Abzug an Picasso.</p>
+            <p rendition="#et">Picasso schickte seine Visitenkarte zurück. In der Ecke links stand: p.p.c.</p>
+            <p rendition="#et">Täubchen war selig, er wäre beinahe rund vor Freude geworden. Aber er besann sich noch rechtzeitig und lächelte eckig.</p>
+            <pb n="51" facs="#f0047"/>
+         </div>
+         <div xml:id="Klabund-d1e56020" type="chapter">
+            <head>Der Gelbe</head>
+            <p>Ambrosius, der sich als Porträtmaler einen Namen gemacht hatte, wurde eines Morgens in seinem Atelier von einem sonderbaren Besuch überrascht. Ein quittegelber Herr in schlecht sitzendem Gehrock und Zylinder verneigte sich vor ihm und sagte: »Tscheng-ho« und noch einige einsilbige, aber wohlklingende Worte. Ambrosius, dieser Sprache nicht mächtig, begann sofort den kleinen Gelben zu malen. Er malte bis zum Mittagbrot, da war der Kleine auf der Leinwand schon erkenntlich. Der klatschte in die Hände vor Freude und rief in einem fort: »Ho, ho.« Darauf verbeugte er sich und ging.</p>
+            <p rendition="#et">Am nächsten Morgen kam er wieder, beäugte prüfend Staffelei und Palette und setzte sich in Positur.</p>
+            <p rendition="#et">Ambrosius malte bis zum Mittag, und der Gelbe ging.</p>
+            <p rendition="#et">Ambrosius malte tage-, wochen-, monatelang. Er wunderte sich, daß er, ein anerkannter <pb n="52" facs="#f0048"/>
+Meister, es in dieser Zeit nicht weiter brächte.</p>
+            <p rendition="#et">»Das geht nicht mit rechten Dingen zu«, sagte Ambrosius und starrte dem Gelben auf die ungeheuer schwierig zu modellierende Stirn.</p>
+            <p rendition="#et">»Ho«, sagte der Kleine, denn er verstand gar nichts von dem, was Ambrosius sagte oder dachte.</p>
+            <p rendition="#et">Ambrosius war ratlos.</p>
+            <p rendition="#et">Seine Künstlerehre erforderte es, das einmal begonnene Bild zu Ende zu malen. Er schüttelte den Kopf. Das Samtbarett flog in die Ecke. Er zog den Rock aus. Er streifte die Hemdsärmel hoch.</p>
+            <p rendition="#et">Der Gelbe grinste.</p>
+            <p rendition="#et">Da nahm ihn Ambrosius mit beiden Armen und warf ihn auf die mit frischen Ölfarben bestrichene Leinwand.</p>
+            <p rendition="#et">Der Kleine schrie »Tscheng-ho« und noch einige einsilbige Worte, aber er blieb kleben.</p>
+            <p rendition="#et">Er zappelte noch ein paar Stunden, dann verschied er.</p>
+            <p rendition="#et">Ambrosius konservierte ihn zur Mumie. <pb n="53" facs="#f0049"/>
+Im Sommer stellte er ihn in der Sezession aus.</p>
+            <p rendition="#et">Die Kritik rühmte den »Gelben« einstimmig als sein bestes Porträt. Locker in der Form, tonig in der Farbe, überwältigend in der Komposition, erreichte, ja übertraf es sein Vorbild: Tizian.</p>
+            <p rendition="#et">Übrigens wurde es für die neue Pinakothek angekauft. Es hängt im dritten Saal gleich rechts.</p>
+            <pb n="54" facs="#f0050"/>
+         </div>
+         <div xml:id="Klabund-d1e56086" type="chapter">
+            <head>Der Journalist</head>
+            <p>Nichts leichter als dies, dachte ein brünetter, aber unsympathischer Jüngling und schickte ein Schreiben folgenden Inhaltes an die Chefredaktion des »Generalanzeigers«:</p>
+            <p rendition="#et">Gestern kam in den Mittagsstunden auf der wenig belebten Schwanthalerstraße infolge des Glatteises ein lahmer Greis zu Fall. Er ritzte sich seine Wange, so daß in Kürze der Schnee sich im Umfange von 1 cm blutrot färbte, konnte aber ohne ärztliche Hilfe, infolge Eingreifens eines Passanten, seinen Weg fortsetzen.</p>
+            <p rendition="#et">Diese Notiz erschien am nächsten Tage unter der Rubrik »Innerpolitisches« im »Generalanzeiger«, und der Jüngling, welcher sie entworfen hatte, empfing nach einem halben Jahr 60 Pfennig Honorar per Postanweisung. Dieser unerwartete Erfolg ließ seinen Stolz und seine magere Hühnerbrust beträchtlich schwellen. Er setzte sich in eine Gartenwirtschaft und bestellte sich ein paar Würstchen mit <pb n="55" facs="#f0051"/>
+Salat nebst einem halben Hellen. Darauf schrieb er:</p>
+            <p rendition="#et">Die Terrainspekulationen des Kommerzienrates Z. haben sich als im weitesten Umfang als unlauter und verfehlt herausgestellt. Die unsauberen Machenschaften sind enthüllt. Der Übeltäter sieht seiner Bestrafung entgegen. So soll es allen ergehen, welche am Mark des Volkes saugen.</p>
+            <p rendition="#et">Dieses Scriptum, ordentlich kuvertiert, sandte der strebsame junge Mann an das »Schreiende Unrecht«, ein Druckblatt zweifelhafter Observanz, in dem es am übernächsten Tage auf der ersten Seite in Fett- und Sperrdruck erschien unter der Marke: Enthüllungen aus der Finanzwelt. Großstadtkavaliere.</p>
+            <p rendition="#et">Nach knapp drei Monaten empfing unser junger Mann ein Honorar von 1,30 M. in Briefmarken. Er hatte wieder ein halbes Jahr zu leben. Nachdem diese Summe aufgebraucht war, beschloß er, an eine Aktion großen Stiles zu gehen. Er sandte ein Telegramm an die »Tägliche Berliner Kohlrübe«:</p>
+            <p rendition="#et">
+               <pb n="56" facs="#f0052"/>
+Glänzend verlaufenes Gastspiel des Berliner Intimen Theaters in unserer Stadt. Applaus über Applaus. Kränze über Kränze. Direktor Gummiballon siebenunddreißigmal gerufen. Einige unverbesserliche Enthusiasten wurden am nächsten Morgen noch unter den Kleidern der Schauspielerinnen gefunden. Der Eindruck des Gastspiels ist ein unvergeßlicher.</p>
+            <p rendition="#et">Umgehend erhielt unser junger Mann eine telegraphische Postanweisung von 100 M. von der Direktion des Intimen Theaters. Er legte sie in Munitionsaktien an und setzte sich zur Ruhe. Aus seiner Hühnerbrust wurde ein Fettbauch. Er läßt sich nur noch Herr Doktor nennen. Seiner geschätzten Feder begegnet man nur noch selten in den Spalten unserer führenden Blätter. Er hat es nicht mehr nötig zu schreiben. Er hat sich auf indische Philosophie geworfen. An Stelle des Nabels betrachtet er seine dicke goldene Uhrkette.</p>
+            <pb n="57" facs="#f0053"/>
+         </div>
+         <div xml:id="Klabund-d1e56130" type="chapter">
+            <head>Die Zwei</head>
+            <p>»Sie machen mir nichts mehr vor«, fauchte der Dichter.</p>
+            <p>»Sie machen mir nichts mehr nach«, zischte der Erfinder.</p>
+            <p>Mit roten Köpfen gingen sie auseinander.</p>
+            <p>––––––</p>
+            <p>Der Mond sank hernieder. Die Trauerweiden zitterten. Leiser Tropfenfall von Sternen durchtönte die Welt.</p>
+            <p rendition="#et">Der Dichter saß am offenen Fenster. Die laue Luft fegte seine Stirn.</p>
+            <p rendition="#et">Er hörte die Sterne vom Himmel fallen... in den See... wie wenn Weingläser zerspringen.</p>
+            <p rendition="#et">Er dachte: Ich habe ihm unrecht getan... Ich bin nur ein Dichter, ein Verdichter bestehender Wolken, ein Nebelhorn, das vor sich selber warnt. Er ist hell... er findet – ohne zu suchen... Ich sehe ihn jetzt auf dem See fahren, in einem rosa Boot, mit einem Netz... und die Sterne, die ins Wasser klingen: er fängt sie – und es sind Silberfische. Morgen wird <pb n="58" facs="#f0054"/>
+sie ihm seine Frau zu Mittag braten... Er trat vom Fenster zurück, entzündete eine Petroleumlampe, da klopfte es und hereintrat der Erfinder, mit einem Wort auf den Lippen, das um Verzeihung bat, und einer Flasche Rotwein unterm Arm. »Dunkel wollen wir werden, mein Freund, ich bin mir zu klar über mich selbst. Verdunkeln Sie mich! Jene Sterne: sind mir allzu bekannte Sonnenlichtbehälter. Hängen Sie Schleier davor! Blaue Tücher! Agieren Sie die Tragödie des Un-Seins. Machen Sie eine Kette aus den Sternen und hängen Sie sie einer schönen Frau um den Hals. Sie sollen Revolten der Dämmerung entfesseln. Ich möchte unzweckmäßig werden. Kommen Sie! Lesen Sie mir Strophen! Sehen Sie: Wenn man Verse erfinden könnte! Aber man erfindet bloß eine neue Schuhcreme oder das Gesetz von der Anziehungskraft der Erde. Aber das Gesetz von der Anerziehungskraft des Geistes? Der Geist, mein Freund, ist Ihre Sache. Ja: Sache.«</p>
+            <pb n="59" facs="#f0055"/>
+         </div>
+         <div xml:id="Klabund-d1e56177" type="chapter">
+            <head>Die Kette</head>
+            <p>Es war eine venezianische Glaskette aus den Werkstätten von Murano.</p>
+            <p rendition="#et">Er kaufte sie in einem Basar in Lugano: schwarze und weiße Perlen.</p>
+            <p rendition="#et">Er dachte: Die Griechen hielten ihre Volksabstimmungen mit schwarzen und weißen Perlen ab.</p>
+            <p rendition="#et">Weiß bedeutete: ja. Schwarz: nein.</p>
+            <p rendition="#et">Warum ist Weiß das Bejahende, Schwarz das Verneinende?</p>
+            <p rendition="#et">Es wäre das hübscheste, eine Frau damit zu beglücken. Er traf die kleine Adrienne und nahm sie mit nach Hause. Er zog sie ganz nackt aus, und vor einem Spiegel hing er ihr die Kette um den Hals.</p>
+            <p rendition="#et">Er beschloß, sie zu lieben.</p>
+            <p rendition="#et">Die Kette hatte 31 Perlen: 15 schwarze und 16 weiße. Er beschloß, sie 31 Tage zu lieben.</p>
+            <p rendition="#et">Am 31. Tage trug sie den übriggebliebenen weißen Stein an einem Ringe.</p>
+            <p rendition="#et">15 schwarze und 15 weiße Perlen gab sie ihm in den Sarg mit.</p>
+            <p rendition="#et">
+               <pb n="60" facs="#f0056"/>
+Er hatte sich erschossen.</p>
+            <p rendition="#et">15:15 hebt sich auf – lächelte sie dunkel – für wen? Ich... bleibe übrig. Denn die Natur will ihr Recht. Es wird ihr stets votiert – wenn auch nur mit einer Stimme Mehrheit. Die Eins ist es, die überall siegt, beziehungsweise: die</p>
+            <p rendition="#et">Eine...</p>
+            <pb n="61" facs="#f0057"/>
+         </div>
+         <div xml:id="Klabund-d1e56234" type="chapter">
+            <head>Die Bettstatt</head>
+            <p>Adolfine, eine schon etwas ältliche Bettstatt, ächzte in allen Fugen. Sie stand in Zimmer Nr. 3 des Hotels Zur fröhlichen Gans. Die letzte Nacht hatte ein Jüngling in ihr geschlafen, nicht allein, und dies brachte sie außer Rand und Band. Früher, als sie noch jung war, hatte sie an dergleichen Abenteuern ihre helle Freude, sie hatte sich selber, sofern der junge Mann hübsch war, oft in die Lage des betreffenden Fräuleins versetzt, was ihr kraft ihrer vertikalen Veranlagung nicht schwer wurde. Sie hatte gesungen und gezwitschert wie die liebenswürdigen Geschöpfe, die sich aneinander auf heitere Art ergötzen. Jetzt aber, da sie zusehends alterte, meldete sich die Moral. Sie fühlte, im Innersten erzitternd, daß sie bisher zu wenig an das Jenseits gedacht, an dessen dunkler Schwelle sie stand.</p>
+            <p rendition="#et">Kurz entschlossen verließ sie das Zimmer, fuhr im Lift herunter und war im Gewühl der Großstadt bald verschwunden.</p>
+            <p rendition="#et">
+               <pb n="62" facs="#f0058"/>
+Am Pfarrhaus St. Marien zog sie die Glocke. Die Pfarrersköchin, eine dickliche Blondine mit lebhafter Absonderung, öffnete persönlich.</p>
+            <p rendition="#et">Mißtrauisch sah sie auf die Bettstatt, welche sich tief verbeugte, indem sie mit den hölzernen Vorderfüßen auf den Steinfußboden schlug.</p>
+            <p rendition="#et">»Sie wünschen«, fragte die Pfarrersköchin. »Ich möchte den Herrn Pfarrer in einer delikaten kirchlichen Angelegenheit sprechen.«</p>
+            <p rendition="#et">Die Köchin winkte ihr zu folgen; an der Tür des Arbeitszimmers hielten sie an. Während die Köchin melden ging, blieb Adolfine im Gang stehen. Ihr war so übel von der ungewohnten, weiten Promenade, daß sie das Plumeau und die Kopfkissen erbrach. Danach wurde ihr etwas leichter.</p>
+            <p rendition="#et">»Der Herr Pfarrer lassen bitten...«</p>
+            <p rendition="#et">Leichtfüßig hüpfte Adolfine über die Schwelle.</p>
+            <p rendition="#et">Der gütige alte Herr in der Soutane hatte sich vom Schreibtisch erhoben.</p>
+            <p rendition="#et">
+               <pb n="63" facs="#f0059"/>
+»Womit kann ich Ihnen dienen, mein Fräulein?«</p>
+            <p rendition="#et">Adolfine war über die Anrede »Fräulein« hoch entzückt.</p>
+            <p rendition="#et">»Hochwürdiger Herr,« sagte Adolfine und küßte dem Gottesmann die Hand, »ein inneres Gesetz zwingt mich zur Beichte. Ich habe ein sündiges Leben hinter mir.«</p>
+            <p rendition="#et">»Einsicht und Reue kommen nie zu spät; so lassen Sie hören, mein Kind...«</p>
+            <p rendition="#et">Und Adolfine beichtete. Beichtete ihr ganzes Dasein, welches, seitdem sie die Schreinerei verlassen hatte, voller Wollust gewesen war.</p>
+            <p rendition="#et">Sie beichtete jeden einzelnen Fall, denn sie hatte ein vorzügliches Gedächtnis für alle Abscheulichkeiten und Laster und schloß mit der Sünde der letzten Nacht, an welcher sie, hilf- und schuldlos und ohne sich dagegen wehren zu können, beteiligt gewesen war.</p>
+            <p rendition="#et">Der gütige alte Herr hörte ihr ernst und aufmerksam zu.</p>
+            <p rendition="#et">»Absolvo te«, sagte er endlich und strich <pb n="64" facs="#f0060"/>
+ihr leise mit seiner zarten Hand über das Kopfende.</p>
+            <p rendition="#et">Erschüttert, aber erlöst, begab sich Adolfine von dannen.</p>
+            <p rendition="#et">Sie beschloß, von nun an ein neues Leben zu führen. Zur Umkehr war es nie zu spät, begab sich in die Vorstadt in eine Arbeiterwohnung, wo sie nunmehr Mann, Frau und dreiundzwanzig sittlich erzogenen Kindern zur Ruhestatt nach des Tages Lasten dient. Den Begriff des Dienens hat sie demütig zum Symbol ihres Lebensabends erkoren. Um das Hotel Zur fröhlichen Gans macht sie immer einen weiten Bogen. Sie will nicht an die Stätte ihrer ehemaligen Verfehlungen erinnert sein. Sie unterrichtet die dreiundzwanzig Kinder ihres Brotherrn nebenbei in Religions- und Anstandslehre, und ihr oberster Wahlspruch lautet: Fürchte Gott, tue recht, scheue niemand, so wirst Du die Krone des Lebens erringen.</p>
+            <pb n="65" facs="#f0061"/>
+         </div>
+         <div xml:id="Klabund-d1e56313" type="chapter">
+            <head>Der Literaturverein</head>
+            <p>Auch in unserer Stadt mußte ein Literaturverein gegründet werden. Es war sozusagen ein Bedürfnis vorhanden. Bedürfnisse sind dazu da, um befriedigt zu werden. Viehzüchter Schlampke hielt in der vorbereitenden Versammlung eine Rede, in der er in eindringlicher Weise auf die Notwendigkeit einer literarischen Bildung hinwies. Nur mit Hilfe von Goethe kann unserm Volke sein derzeitiger Viehbestand erhalten bleiben. Lautes Bravo lohnte seine löblichen und sachgemäßen Ausführungen. Parkettbodenlegemeister Robbe schloß sich den interessanten Darlegungen des geschätzten Vorredners voll und ganz an. Er erlaubte sich nur, in kurzen, markigen Worten auf die Beziehungen zwischen Bohnerwichse, die er in den vortrefflichen Qualitäten A, B, C, zu 30, 50, 70 Pf. die Büchse, stets frisch auf Lager halte, und der einschlägigen schöngeistigen Literatur, insonders der sogenannten lyrischen <pb n="66" facs="#f0062"/>
+und gereimten Poesie hinzuweisen. Er schloß mit einem kleinen selbstverfertigten Verschen:</p>
+            <p>Es lebe hoch die Literatur –</p>
+            <p>Jedoch mit Bohnerwichse nur!</p>
+            <p>welches beifällig aufgenommen wurde. Darauf schritt man einstimmig zur Gründungsversammlung und zur Festlegung der Statuten. Zum Ersten Vorsitzenden wurde Strumpfstricker Schaulke, zum Vizepräsidenten Oberlehrer Dr. Hartwurst, zum Kassierer Ortsarmer Brötchen gewählt. Ziel des gerichtsamtlich eingetragenen Vereines »Literaria« war die Kenntnis der höheren Literatur a) unter seinen Mitgliedern, b) unter dem Volke zu fördern und zu verbreiten. Dieses sollte geschehen durch Abonnement auf eine Lesemappe bei Buchhändler Kletzke, dem geschätzten Mitglied des Vereins, durch Vortragsabende, Autorenabende und sonstige festliche Veranstaltungen. Am 4. Mai fand unter großem Gepränge die Fahnenweihe der »Literaria« statt, die ein Umzug durch die Stadt eröffnete.<pb n="67" facs="#f0063"/>
+ Das Posaunenkorps der Stadtkapelle marschierte schallend an der Spitze. Ihm folgte im Frack und blauer Radfahrermütze, einen Band Schiller der großen illustrierten Ausgabe unterm Arm, Präsident Schaulke. Rechts von ihm schritt Dr. Hartwurst, das Bild Hindenburgs, des Dichters der großen Zeit, welcher mit Eisen schrieb, in Postkartenformat unter Glas und Rahmen. Links von Schaulke wankte mit einer Sparbüchse in Form eines Tintenfasses raschelnd, der Kassierer, Ortsarmer Brötchen. Hinter dem Vorstande bewegte sich eine Schar von weißgekleideten Ehrengreisinnen, keine unter siebenzig Jahren, ehrwürdig mit den kahlen Köpfen wackelnd, manch eine mit Goethe noch persönlich bekannt. Dann rauschte die – Fahne! Viehzüchter Schlampke schwenkte sie nervig. Sie war von Sattler Säulchen, dem geschätzten Mitgliede des Vereins, gegen den Erlaß des Jahresbeitrages von 1,50 M. gestiftet worden: ein ehemaliger Bettvorleger, von Fräulein Säulchen mit innigen Versen <pb n="68" facs="#f0064"/>
+unserer großen Dichter geschmückt. Hinter der Fahne aber (man telegraphiere nach Berlin, drahte nach Newyork, schreie es in alle Winde: sie sollen es tragen bis Appenzell und Yokohama) rollte ein Kinderwagen aus schwarz-weiß-rotem Korb, geschoben von Frau Präsident Schaulke in platzender Seidentoilette. In dem Wagen lag, sorglich in warme Kissen gebettet, die Füße bis an den rosigen Bauch heraufgezogen, die Händchen ans Gesicht gepreßt, die Augen geschlossen – Kaspar Schmetterling, der große, allgemein bekannte, gerühmte und geachtete, bisher ungeborene vaterländische Dichter. Er war im achten Monat. Weinerlich klang seine Stimme in die von den Häusern zurückprallenden Posaunenstöße der Stadtkapelle. Auf seiner weichen, weißen Stirne sonnte sich ein roter Marienkäfer.</p>
+            <pb n="69" facs="#f0065"/>
+         </div>
+         <div xml:id="Klabund-d1e56351" type="chapter">
+            <head>Der Stielitz</head>
+            <p>Ein Stieglitz, namens Lehmann, hatte das für Tiere seiner Art greisenhafte Alter von 11 Jahren erreicht. Soviel er um sich sah in seiner Bekanntschaft: nirgends lebte ein Stieglitz solchen Alters und solcher Vorgeschrittenheit. Müller, Maier, Huber – sie alle zählten 5, 6, 7, höchstens 8 Jahre. Maier, der nur 8 Jahre zählte, war neulich zum Ehrengreis von Berlin ernannt worden, und die Veteranen und Feuerwehrvereine waren in seiner Wohnung in der Halleschen Straße erschienen, hatten gesungen: »Freude, schöner Götterfunken«, und sich mit Weißbier die Schnäbel begossen. Er, Lehmann, lebte gänzlich zurückgezogen in einer kleinen märkischen Stadt, wo nur das Intelligenzblatt zuweilen meldete: »Unser allverehrter Mitbürger, Herr Lehmann, lebt immer noch.« War das nun eine Ehre? Überhaupt, lohnte dieses Leben noch, gelebt zu werden? Hat die heutige schnellebige <pb n="70" facs="#f0066"/>
+Zeit jeden Respekt vor dem Alter eingebüßt?</p>
+            <p rendition="#et">Lehmann bestieg die Eisenbahn und fuhr nach Berlin. Dort angekommen, betrat er ein Anzeigenbureau und ließ in sämtliche Abendzeitungen folgendes riesige Inserat setzen: »Lehmann wird morgen 11 Jahre alt: Ein Hoch dem wackeren Stieglitz! Es lebe der Greis!« Diese Anzeige hatte nicht die richtige Wirkung. Lehmann wurde gar nicht berühmt, wie er sich das gedacht hatte; vielmehr bekam er (ungerechterweise) ein Mandat wegen groben Unfugs und die Einladung zum Eintritt in einen Begräbnisklub. Dieser Klub hatte den humanen Zweck, seine Mitglieder, falls gestorben, ehrenhaft, solide und mit einem gewissen Pomp zu begraben. Lehmann, enttäuscht, begab sich zu Aschinger und trank eine Flasche französischen Sekt. Schwermütig hüpfte der Greis durch den duftenden Tiergarten, Liebespaare wandelten umschlungen, die Sonne strahlte vom Firmament und brannte Lehmann auf die Glatze. Lehmann trat <pb n="71" facs="#f0067"/>
+auf zwei Polizisten zu: »Lehmann ist mein Name.« Die Polizisten bekamen tellergroße Augen. »Sofort zur Wache«, schäumten die blauen Wogen ihrer Uniform. Lehmann weinte bitterlich. Der schöne Frühling! Auf der Wache wurden Lehmann die Taschen durchsucht. Darauf wurde er photographiert, Profil und von vorne und hinten. »Sie stehen nunmehr im Verbrecheralbum. Schämen Sie sich!« sagte der Wachtmeister. Darauf wurde Lehmann wieder entlassen.</p>
+            <p rendition="#et">Lehmann strahlte: so bin ich für die Nachwelt bewahrt. So oder so. Die Treue ist doch kein Oberlehrer-Wahn. Verbrechen und Ruhm sind gleicherweise (philosophisch) fundiert. Lehmann erinnerte sich, daß er noch bei Simmel Vorlesungen gehört hatte. Was hatte Simmel immer gesagt: Jedes Wesen hat die Vorstellung der Welt, die es braucht. Der Lachs hat die Weltanschauung des Lachses, der Adler die des Adlers. So brauchte also auch er, Lehmann, nur die Weltanschauung eines Lehmann zu haben. <pb n="72" facs="#f0068"/>
+Betroffen und befriedigt flog Lehmann auf einen eben ergrünten Kastanienbaum. Schwer ward es ihm mit seinen 11 Jahren, aber es ging; Vermessenheit war es von ihm gewesen, die traute Heimat zu verlassen und in der Großstadt nach Irrlichtern zu jagen. Wenn er etwas ausgeruht hatte, wollte er mit dem nächsten Zug wieder in die Kleinstadt zurückkehren. Er nickte mit dem Kopf und entschlief.</p>
+            <p rendition="#et">Ein Knabe mit dem Pusterohr, der ihn beobachtete und heute ebenfalls (wie Lehmann) Geburtstag hatte – daher das Pusterohr –, drehte sich aus Papier eine Kugel und schoß nach ihm. Lehmann in seinem Schwächezustand fiel getroffen vom Ast zu Boden. Er starb, ehe er wieder zu sich kam, betagt und hochgeachtet. Die Papierkugel, die ihn tödlich traf, war aus jener Anzeige gemacht, die Lehmann tags zuvor aufgegeben hatte.</p>
+            <p rendition="#et">Man soll niemals etwas Schriftliches von sich geben. Es diskreditiert immer, besonders wenn es nachher gedruckt wird.</p>
+            <pb n="73" facs="#f0069"/>
+         </div>
+         <div xml:id="Klabund-d1e56388" type="chapter">
+            <head>Die Grille</head>
+            <p>Eine Grille, namens Helene, zirpte vom 1. Juni bis 31. Juli (einundsechzig Tage) ununterbrochen, bis ihr der Stoff ausging. Darauf setzte sie sich ihren Kapotthut auf, hängte sich ihre altmodische Markttasche um und begab sich eiligst in die nächstgelegene Klein-bzw. Mittelstadt. Sie trat in ein Posamenteriewarengeschäft und sprach:</p>
+            <p rendition="#et">»Ich möchte siebentausend Meter Stoff.« Der gelbhaarige Kommis errötete bis in die Haarspitzen und klappte sein Mundwerk wie eine Unke verwundert auf und zu:</p>
+            <p rendition="#et">»Wie bitte?«</p>
+            <p rendition="#et">Bereitwillig wiederholte die Grille:</p>
+            <p rendition="#et">»Ich möchte siebentausend Meter Stoff«.</p>
+            <p rendition="#et">Der Kommis schwänzelte:</p>
+            <p rendition="#et">»Sieben-tausend Me-ter Stoff! Zu Diensten, gnädige Frau. Wir werden das Gewünschte durch einen Grossisten besorgen lassen. Darf ich fragen, welchen Stoff Sie benötigen?«</p>
+            <p rendition="#et">
+               <pb n="74" facs="#f0070"/>
+»Siebentausend Meter Stoff«, sagte die Grille und bekam vor Aufregung einen grünen Kopf.</p>
+            <p rendition="#et">Der Kommis knabberte erregt an seinen Fingernägeln.</p>
+            <p rendition="#et">»Gnädige Frau,« flötete er, »darf ich fragen, von welchem Stoff?«</p>
+            <p rendition="#et">»Siebentausend Meter Stoff«, sagte die Grille.</p>
+            <p rendition="#et">Der Kommis wippte wie eine Spitzentänzerin auf seinen Zehen:</p>
+            <p rendition="#et">»Gnädige Frau, von welcher Art darf der Stoff sein: Seide? Voile? Leinen? Samt? Barchent? Wolle? Crêpe de Chine?«</p>
+            <p rendition="#et">»Stoff«, sagte die Grille.</p>
+            <p rendition="#et">Der Schweiß stand ihr auf der Stirn. Sie fiel schwer ächzend in einen Lehnstuhl. Ihr Kleid knackte in allen Nähten. Veitstänzerisch schwankte der Kommis. Sein Ruf klang hilfeheischend wie der Schrei des Nebelhornes in dunkler Nacht.</p>
+            <p rendition="#et">»Was für ein Stoff, gnädige Frau?«</p>
+            <p rendition="#et">»Stoff«, sagte die Grille, »einfach Stoff.«</p>
+            <p rendition="#et">Der Kommis bullerte:</p>
+            <p rendition="#et">
+               <pb n="75" facs="#f0071"/>
+»Wozu benötigen Sie den Stoff, gnädige Frau?«</p>
+            <p rendition="#et">Die Grille raunzte ärgerlich:</p>
+            <p rendition="#et">»Wozu? Frage? Zum Zirpen natürlich...«</p>
+            <p rendition="#et">»Zum – Zirpen –?«</p>
+            <p rendition="#et">Der Kommis platzte wie ein aufgeblasener Frosch.</p>
+            <p rendition="#et">Das gab Stoff – für die Reporter – siebentausend Zeilen.</p>
+            <p rendition="#et">Die Grille ging leer aus.</p>
+            <pb n="76" facs="#f0072"/>
+         </div>
+         <div xml:id="Klabund-d1e56485" type="chapter">
+            <head>Fabel</head>
+            <p>Ich stocherte mit meinem Spazierstock in einem Ameisenhaufen herum. Wild und geängstigt liefen die Tiere durcheinander. Plötzlich hob ich ihn heraus und ging davon. Die Ameisen, die den Stock in den Lüften verschwinden sahen, schrien: »Welch ein seltsamer Vogel!« – Eine besonders kecke Ameise war am Stock emporgeklettert. Ich mußte sie abschütteln. Ganz aufgeregt kam sie bei den anderen an. Atemlos stieß sie hervor: »Er hatte einen Menschen in den Klauen, er frißt Menschen!« – Darauf ging sie hin, fiel in Tiefsinn, schrieb ein Buch: »Art, Abstammung und Organismus des neu entdeckten Stockvogels« und wurde zum ordentlichen Professor der Zoologie an der Ameisenuniversität Przmnldtbk ernannt.</p>
+            <pb n="77" facs="#f0073"/>
+         </div>
+         <div xml:id="Klabund-d1e56503" type="chapter">
+            <head>Das Sprichwort</head>
+            <p>Es ist nicht gut, daß der Mensch allein sei, dachte die Kröte. Denn sie war den ganzen lieben langen Tag und die ganze lange liebe Nacht allein. Niemand mochte sie, niemand ging mit ihr spazieren, niemand spielte mit ihr im Kaffeehaus Tarock, niemand verstand sie.</p>
+            <p rendition="#et">Es war ein schauderhaftes Leben.</p>
+            <p rendition="#et">»Zahlen!« zischte sie in der Bar, wo sie bösartig auf einem hohen Schemel hockte und Glühwein trank, was ihr sowieso nie bekam, zog sich ihre Regenhaut an und begab sich zum Schöpfer aller Dinge. Sie lüftete höflich ihren braunen Plüschhut und trug ihm ihr Anliegen vor.</p>
+            <p rendition="#et">»Es ist nicht gut, daß der Mensch allein sei,« sagte sie, weinerlich und betrübt, »habe ich jemandem etwas Leides getan? Ich sehe nur so aus.«</p>
+            <p rendition="#et">»Entschuldigen Sie,« sagte der liebe Gott, »ich verstehe Sie nicht recht – aber Sie zitierten soeben ein Sprichwort: sind Sie vielleicht ein Mensch?«</p>
+            <p rendition="#et">
+               <pb n="78" facs="#f0074"/>
+Betroffen dachte die Kröte nach, und kleinlaut gab sie schließlich zu:</p>
+            <p rendition="#et">»Nein.« »Also«, sagte der liebe Gott. –</p>
+            <p rendition="#et">Die Kröte lebte hinfort einsam weiter. Was blieb ihr auch anderes übrig? Sie war der Dialektik des lieben Gottes nicht gewachsen.</p>
+            <pb n="79" facs="#f0075"/>
+         </div>
+         <div xml:id="Klabund-d1e56544" type="chapter">
+            <head>Der Onkel</head>
+            <p>Lieber Leser, du hast gewiß auch einen Onkel, welcher über deine Taten und noch mehr über deine Träume die Stirn runzelt und immer davon spricht, daß zu seiner Zeit dies und das ganz anders (und natürlich besser) gewesen sei. Mit einem solchen Onkel ging ich am Rheinufer spazieren, und da es ein schöner Tag war – der Kölner Dom schmetterte seine gotische Fanfare am Horizont in den durchsonnten Nebel –, ein schöner Tag, den man unbedingt ausnützen mußte, so warf ich meinen Onkel in den Rhein. »Fahr hin,« so sprach ich, »lieber Onkel, und schwimme zu deiner Zeit. Schwimme stromaufwärts bis nach Konstanz, vielleicht, daß du sie dann noch findest. Aber auch Konstanz ist eine achtbare Stadt, ich vermute, sie wird dich übel aufnehmen. Und selbst der Bodensee ist tiefer als du denkst. Jedenfalls nicht so flach wie du.«</p>
+            <p rendition="#et">
+               <pb n="80" facs="#f0076"/>
+Mein Onkel wehklagte und versuchte, mit dem Fluß zu schwimmen. Ein Strudel packte ihn. Er schrie, bis ihm die dreckigen Wasser das Maul stopften und er versank.</p>
+            <pb n="81" facs="#f0077"/>
+         </div>
+         <div xml:id="Klabund-d1e56566" type="chapter">
+            <head>Nur ein Viertelstündchen</head>
+            <p>Nur ein Viertelstündchen, stickte Tante Anna auf ein Kissen, das sie Onkel Max zum Geburtstag verehrte. Onkel Max legte sich mit dem Kissen hocherfreut zur Siesta nieder – nur ein Viertelstündchen –, aber es dauerte eine, es dauerte zwei, es dauerte drei Stunden: er stand nicht auf. Da ging man in sein Zimmer und fand ihn – unberufen nicht mehr lebend vor. Ein apoplektischer Anfall hatte seinem Leben ein Ziel gesetzt – gerade an seinem Geburtstag. – – Tante Anna war trostlos. Das schöne Kissen: es hatte seinen Zweck verfehlt! Onkel Max hatte es nicht mehr so ganz genießen dürfen. Sie ließ es vom Steinmetzmeister Hagebusch in Stein aushauen und an Stelle eines Grabsteines auf sein Grab setzen, auf dem zu lesen steht:</p>
+            <p>Hier ruht in Gott Onkel Max</p>
+            <p>Nur ein Viertelstündchen!</p>
+            <pb n="82" facs="#f0078"/>
+         </div>
+         <div xml:id="Klabund-d1e56590" type="chapter">
+            <head>Paula</head>
+            <p>Paula, ein junges Mädchen von zweifelhaftem Berufe und lockeren Sitten, begab sich an den Wannsee und mietete sich dort ein Ruderboot, die Stunde zu 85 Pfennig. Wie sie es so von ihrem Leben gewohnt war, ließ sie sich von der Strömung treiben. Plötzlich teilten sich die Wogen vor ihr und ein junger Mann tauchte gleich einem Nix aus der grauen Flut und schwang sich mit nervigen Fäusten in das Boot. Er trug nicht einmal einen Badeanzug, was sie keineswegs verwunderte.</p>
+            <p rendition="#et">»Sind Sie ein Wassergott?« fragte Paula, die sich zuweilen mit Mythologie beschäftigte.</p>
+            <p rendition="#et">Der junge Mann öffnete den verständnislosen Mund zu einem gewinnenden Lächeln.</p>
+            <p rendition="#et">»Gewiß doch; ich bin Stadtreisender.«</p>
+            <p rendition="#et">»Warum, wenn man fragen darf? Und was suchen Sie bei mir?«</p>
+            <p rendition="#et">
+               <pb n="83" facs="#f0079"/>
+»Eben das«, sagte der junge Mann und deckte seine Blöße mit einem Schatten zu, der von seinem Haupte fiel.</p>
+            <p rendition="#et">Darauf zog er einen Ring von seinem Finger und flüsterte: »Elli, meine süße Braut.«</p>
+            <p rendition="#et">Paula, auf rechten Namen weniger als auf rechte Gesinnung bedacht, wagte es nicht, den Jüngling zu desillusionieren und ihm einen Korb zu geben, den er sich hätte höher hängen können, und sie waren sehr glücklich.</p>
+            <p rendition="#et">Nach einer halben Stunde sah der Jüngling erschreckt zum Himmel und rief: »Es ist schon halb vier«, worauf er in den Wellen mit einem Hechtsprung verschwand, den ihm so leicht kein Hecht nachmachte. Paula winkte ihm, bis er im Freibad verfloß. Dann kam sie wieder zu sich und bemerkte den Ring an ihrem Finger. Sie küßte ihn und ruderte ans Ufer, bis sie Schwielen an den Händen bekam. Sie nahm in der Stadtbahn ein Billett zweiter Klasse, während sie sonst nur dritter fuhr.</p>
+            <p rendition="#et">
+               <pb n="84" facs="#f0080"/>
+Sie ging zu einem Juwelier.</p>
+            <p rendition="#et">Der Ring war falsch.</p>
+            <p rendition="#et">Empört durchbohrte sie den Juwelier, der ihr diese schnöde Auskunft gab, mit einer Hutnadel, welche trotz polizeilicher Vorschrift ungesichert war.</p>
+            <p rendition="#et">Die Polizei sollte wirklich darauf achten, daß ihren Verordnungen besser entsprochen wird. Viele Verbrechen und Unglücksfälle ließen sich so auf die einfachste Art vermeiden.</p>
+            <p rendition="#et">Paula beschloß, Jünglingen ohne Badehose künftig aus dem Wege zu gehen.</p>
+            <pb n="85" facs="#f0081"/>
+         </div>
+         <div xml:id="Klabund-d1e56651" type="chapter">
+            <head>Boschel</head>
+            <p>Kennen Sie Boschel? Boschel ist ein komischer Kauz. Sie werden es mir glauben oder nicht: aber, heute begegnen Sie Boschel auf der Straße. Sie grüßen ihn: »Guten Tag, Herr Boschel, wie geht's?« Und Boschel, unter schwarzem Kalabreser wankend, gibt Ihnen freundlich Bescheid. Am nächsten Tage gehen Sie ins Gesindebureau – wen treffen Sie dort, mit der Wahl eines neuen Dienstmädchens beschäftigt? Frau... Boschel! Sie grüßen höflich:</p>
+            <p rendition="#et">»Guten Morgen, Frau Boschel, wie steht das werte Befinden?« Frau Boschel lächelt: »Danke. Und Ihnen?« – Sie aber erstarren – wie Loths Weib – zur Salzsäule... Wohlbemerkt: Frau... Boschel, das ist wiederum... Boschel, der sich heute in seine Frau verwandelt hat. Am dritten Tage begegnen Sie, auf dem Wege zur Schule: wem? Kind Boschel! Mit einem Tornister auf dem Rücken und einer Pflaumenmusstulle in der Hand. <pb n="86" facs="#f0082"/>
+Sie grüßen freundlich: »Grüß Gott, Boschelchen.« – Und Boschel – denn er ist es – tut mit im Stimmbruch befindlicher Stimme Bescheid: »Grüß Gott.« Der eisigste Schreck fährt Ihnen bis ins Rückenmark. Wohin Sie treten: Boschel! Boschel ist überall. Boschel ist auf der Straße und im Zimmer. Boschel ist jener elegante Reiter und der zerlumpte Bettler an der Kirchenpforte von Sanct Antonio. Boschel hupt im Auto und bellt im Fleischerhund. Und wenn Sie abends schlafen gehen und zum Mond beten wollen: Sie ziehen entsetzt den Fenstervorhang zu: denn groß und golden steht am Himmel: <hi rendition="#i">Boschel</hi>.</p>
+            <pb n="87" facs="#f0083"/>
+         </div>
+         <div xml:id="Klabund-d1e56678" type="chapter">
+            <head>Der Mann mit der Maske</head>
+            <p>Er saß jeden Nachmittag von vier bis sechs in einem bestimmten nischigen Winkel des Cafés und beobachtete aus dem Hinterhalt die Menschen. Er sah den Frauen unter die großen Hüte und in ihre Augen, ohne daß sie wußten, was er ihrer Seele gab oder nahm. Er verfolgte die Mund- und Stirnlinien bei den Männern, ihre Bewegungen beim Rauchen, lauschte ihrer Sprechweise.</p>
+            <p rendition="#et">Die Kellner kannten ihn und behandelten ihn mit scheuer Höflichkeit, der ein Anflug von Mitleid beiwohnte. Die meisten Gäste, unter denen ja viele Stammgäste waren, musterten ihn zuerst mit erstaunter Neugier, beruhigten sich aber, wenn sie sich ein paarmal umgesehen. Nur Fremde und Frauen bestaunten ihn offensichtlicher, als es der guten Sitte angemessen war.</p>
+            <p rendition="#et">Er trug stets eine weiße seidengefütterte Maske vor dem Gesicht und an den Händen graue Handschuhe. Manche flüsterten, <pb n="88" facs="#f0084"/>
+daß er an der Auszehrung litt und Maske und Handschuhe kranke zerfressene Glieder verheimlichten. Sein Gesicht hatte niemand gesehen, niemand konnte bei Erregung oder Gleichmut das Spiel der Muskeln beobachten. Seine Maske, die die Aufmerksamkeit auf ihn lenkte, schützte ihn zugleich vor Überrumpelungen seines eigenen unbedachten Ich. In das Café verirrte sich durch Zufall an einem regnerischen Nachmittag die jüdische Frau Justizrat Ammer und ihre siebzehnjährige Tochter Mimi. Mimi sperrte die braunen Tore ihrer Augen vor Verwunderung angelweit auf. Auch die dicke Frau Justizrat wurde auf die weiße Maske aufmerksam und fragte prustend und schwerfällig in abgebrochenen Lauten, wie Asthmatiker zu reden pflegen, den Kellner nach jenem Herrn in der Nische. Der Kellner gab diskrete und durchsichtige Auskunft.</p>
+            <p rendition="#et">»Du, Mama, was ist?« fragte Mimi. Sie knöpfte sich die Überjacke auf. Es wurde ihr heiß.</p>
+            <p rendition="#et">
+               <pb n="89" facs="#f0085"/>
+»Nichts für kleine Mädchen,« stöhnte Frau Justizrat, etwas laut, denn die Maske hörte es, »nur so... Er ist krank.« »O nein, das ist aber traurig.« Mimi wandte sich um, mit der hastigen eckigen Bewegung junger Mädchen von siebzehn Jahren, die ihren Körper noch nicht in der Gewalt haben. Die Maske lächelte. – Niemand sah es.</p>
+            <p rendition="#et">Mimi wurde rot und rückte verlegen an dem Mokkatäßchen. In ihrer Verlegenheit nahm sie von der Kuchenschale ein Zitronentörtchen, was sie gar nicht gern aß. Sie aß es schluckend und eifrig, scheinbar mit nichts anderem beschäftigt. Frau Justizrat winkte dem Kellner und zahlte. Sie gab fünfzig Pfennig Trinkgeld. »Wir wollen gehen, Mimi.«</p>
+            <p rendition="#et">Der Kellner verbeugte sich.</p>
+            <p rendition="#et">Mimi wollte so gern, aber sie wagte es nicht, sich umzusehen.</p>
+            <p rendition="#et">Am übernächsten Tag erschien Mimi Ammer in Begleitung ihres Bruders, des stud. jur. Julius Ammer, eines korpulenten jovialen Jünglings, im Café. Die <pb n="90" facs="#f0086"/>
+weiße Maske saß schon da und suchte in dem schmalen gebräunten Gesicht und dem länglichen blaßroten Munde nach der Besonderheit dieses Mädchens. Mimi wagte nur einmal zu ihm hinzusehen.</p>
+            <p rendition="#et">»Du, wer das bloß ist?« Sie brannte vor Neugierde. Der Bruder brummte unverständlich. Er las im »Simplicissimus« und hatte den Herrn in der Maske nicht bemerkt.</p>
+            <p rendition="#et">Noch ein paar Tage später kam sie allein. Wie sie sich schämte! Für was man sie halten würde!</p>
+            <p rendition="#et">Die Maske schickte ihr durch den Kellner seine Karte. Ganz vergeblich wird die Bekanntschaft wohl nicht sein. Vielleicht ein Stoff für eine Novelle... oder einen Vierzeiler. Seitdem ich langsam sterbe, bin ich Dichter geworden. Man muß mitnehmen, was sich am Wege bietet. Unsereiner, der vor lauter Abenteuerlichkeiten zu keinem Abenteuer kommt. Sie las den Namen. Sie genas plötzlich von ihrer Unruhe und wurde froh. Der Name schien ihr bekannt. Sie barg das <pb n="91" facs="#f0087"/>
+Kärtchen in ihrer Tasche und war am anderen Tage pünktlich zum Rendezvous. Er lernte einen Backfisch kennen, kapriziös und hausbacken, toll und sehr verständig, sehr anständig und sehr pikant. Wenn sie sich in mich verliebt, d.h. in meine Maske..., wird es gefährlich, sagte er sich, lud sie aber in seine Wohnung zum Tee.</p>
+            <p rendition="#et">Sie freute sich ihrer Heimlichkeiten und kam eines Nachmittags nach der Klavierstunde.</p>
+            <p rendition="#et">Es wird ein wenig langweilig, sagte sich die Maske, wie kann ich sie noch verwerten, in welcher Situation?</p>
+            <p rendition="#et">Er brauchte nicht lange zu warten. Sie fiel vor ihm nieder und sagte, während sie nach seinen behandschuhten Händen griff, die er ihr entzog:</p>
+            <p rendition="#et">»Ich liebe Sie, bitte,« (und dieses »bitte« war inbrünstig herausgestöhnt) »tun Sie die Maske ab. Einmal nur will ich Ihr wahres Gesicht sehen.«</p>
+            <p rendition="#et">Die Maske hinter der Maske lächelte.</p>
+            <p rendition="#et">»Es ist häßlich und beleidigt Ihre Schönheit.« <pb n="92" facs="#f0088"/>
+Nie habe ich mir so weh getan, dachte er. Aber er verlor nicht die Geistesgegenwart und Kraft, seine Regungen bis in ihre feinsten Enden und Verzweigungen zu beobachten.</p>
+            <p rendition="#et">Sie ist nur neugierig, dachte er.</p>
+            <p rendition="#et">Sie schluchzte und lag auf dem Teppich. Ihre kleinen, unentwickelten Brüste schlugen taktmäßig auf den Boden. Er wollte sie aufheben.</p>
+            <p rendition="#et">»Sie werden sich erkälten«, sagte er.</p>
+            <p rendition="#et">Sie blickte auf.</p>
+            <p rendition="#et">»Bitte, bitte. Ihr Gesicht!«</p>
+            <p rendition="#et">Da nahm er die Maske ab. – Langsam wie eine Schlange wuchs ihr schlanker Leib aus dem Boden zu ihm empor.</p>
+            <p rendition="#et">Unnatürlich groß lagen seine blauen Augen in den tiefen Höhlungen: er hatte keine Wimpern mehr. Und der Nasenknochen glänzte, vollständig fleischlos, als hätte ihn ein Tier abgenagt.</p>
+            <p rendition="#et">Sie stand dicht vor ihm, daß er ihren klaren Atem fühlte. Ihre Blicke bohrten sich grausam verzückt in seine häßlichen klaren Augen.</p>
+            <p rendition="#et">
+               <pb n="93" facs="#f0089"/>
+Ehe er es hindern konnte, hatte sie ihn geküßt.</p>
+            <p rendition="#et">Er erschrak und trat einen Schritt zurück. Dann band er sich die Maske wieder vor. »Ist Ihre liebenswürdige Neugier nun – befriedigt?« sagte er leise.</p>
+            <p rendition="#et">Sie atmete tief, gab ihm die Hand und ging.</p>
+            <p rendition="#et">Eine Woche später las er im Café in der Zeitung, daß die junge schöne Tochter des Justizrats Ammer in plötzlicher geistiger Umnachtung einem Anfalle von Selbstverstümmelung zum Opfer gefallen sei. Sie habe sich mit einer Nadel beide Augen ausgestoßen. Man fürchte für ihr Leben.</p>
+            <p rendition="#et">Die Zeitung fiel zur Erde. Seine zitternde behandschuhte Rechte glitt tastend über die kalte Marmorfläche des Tisches. Mit der Linken rückte er die Gesichtsmaske zurecht. Sie hatte sich verschoben.</p>
+            <pb n="94" facs="#f0090"/>
+         </div>
+         <div xml:id="Klabund-d1e56801" type="chapter">
+            <head>Brigitte</head>
+            <p>Ein modernes Mysterium</p>
+            <p>Personen:</p>
+            <p>Frank Cotta, dramatischer Dichter</p>
+            <p>Elias Unversorgt, ein Jüngling</p>
+            <p>Dr. Artur Bodenlos, Privatdozent für Literaturgeschichte an der Universität Tschermeisel</p>
+            <p>Brigitte</p>
+            <p>Adolf, ein Totenkopf</p>
+            <p>Ein Südseeinsulaner</p>
+            <p>Ein Prolog</p>
+            <p>
+               <hi rendition="#i">Der Prolog</hi> tritt vor den Vorhang: Meine Damen und Herren, ich möchte vorausschicken, daß bei diesem Stück nur das Publikum durchfallen kann, nicht aber der Autor! <hi rendition="#i">Stimme</hi> hinter dem Vorhang (sie ähnelt der Frank Cottas): Der Mann scheint an sexuellen Zwangsvorstellungen zu leiden. Der Vorhang geht auf. Wohn- und Arbeitszimmer bei Frank Cotta. Links Tür in ein Schlafzimmer, rechts Tür auf den Korridor. Behagliche bürgerliche Eleganz. An den Wenden hängen sehr viel goldgerahmte weibliche Akte. <hi rendition="#i">Elias</hi>
+               <hi rendition="#i">
+                  <pb n="95" facs="#f0091"/>
+Unversorgt</hi> steht in der Mitte des Zimmers. ein Blatt Papier und einen Bleistift in der Hand. Zwanzig Jahre, kurz geschorenes, blondes Haar, Kneifer, Sportkostüm mit kurzen Hosen. Er hat das Gesicht nach links, nach der Schlafzimmertür, gewandt. <hi rendition="#i">Elias:</hi> Frank... <hi rendition="#i">Frank</hi> (aus dem Schlafzimmer): Ja... <hi rendition="#i">E1ias:</hi> Frank, hörst du? <hi rendition="#i">Frank:</hi> Ja... <hi rendition="#i">Elias:</hi> Du, ich habe etwas ganz Großartiges gemacht...<hi rendition="#i"> Frank:</hi> So? <hi rendition="#i">Elias:</hi>
+            </p>
+            <p rendition="#et">Paß mal auf, also... <hi rendition="#i">Frank:</hi> Mein Gott, laß einem doch wenigstens erst in Ruhe die Zähne putzen. (Man hört ihn gurgeln.) <hi rendition="#i">Elias:</hi> Bei Gott, die Kunst geht vor. <hi rendition="#i">Frank</hi> (man hört ihn rumoren): Geputzte Zähne sind besser als ungeputzte Gedichte. Außerdem ist es für die Gesundheit bedeutend besser, ja förderlicher, seine Zähne zu putzen, als schlechte Gedichte zu schlucken, schlucken zu müssen. Zu müssen, du hörst doch... (man hört ihn wieder gurgeln): <hi rendition="#i">Elias:</hi> Du bist abscheulich, Frank. <hi rendition="#i">Frank:</hi> Um Gedichte ordentlich zu verdauen, müssen die Kauwerkzeuge <pb n="96" facs="#f0092"/>
+in Ordnung sein (gurgelt). <hi rendition="#i">Elias:</hi> Deine Logik ist wie immer äußerst anfechtbar. Sie ist die eines Orang-Utan, der auf einem Pflaumenbaum sitzt und Kokosnüsse frißt.<hi rendition="#i"> Frank:</hi> Sakrament, also lies – du Humorist (gurgelt).<hi rendition="#i"> Elias:</hi> Willst du vielleicht so gut sein und die Weihe der Stunde nicht mit deinen geräuschvollen Rachenlauten verunzieren? <hi rendition="#i">Frank</hi> (hört auf zu gurgeln): Das ist doch, um mit der Jungfrau zur Decke zu fahren! Los. <hi rendition="#i">Elias</hi> (deklamiert):</p>
+            <p>Ja, so geht es in der Welt,</p>
+            <p>Alles fühlt man sich entgleiten:</p>
+            <p>Jahre, Haare, Liehe, Geld,</p>
+            <p>Und die großen Trunkenheiten.</p>
+            <p>
+               <hi rendition="#i">Frank</hi> (gurgelt, hört gleich wieder auf).</p>
+            <p>
+               <hi rendition="#i">Elias:</hi>
+            </p>
+            <p>Ach, bald ist man Doktor Juris</p>
+            <p>Und Assessor und verehelicht,</p>
+            <p>Und was eine rechte Hur' ist,</p>
+            <p>Das verlernt man so allmählich.</p>
+            <p>
+               <hi rendition="#i">Frank</hi> (gurgelt, hört gleich wieder auf):</p>
+            <p rendition="#et">Ich protestiere.</p>
+            <p>
+               <hi rendition="#i">Elias:</hi>
+            </p>
+            <pb n="97" facs="#f0093"/>
+            <p>Nüchtern wurde man und schlecht,</p>
+            <p>Herz, du stumpfer, dumpfer Hammer!</p>
+            <p>Ist man jetzt einmal bezecht,</p>
+            <p>Hat man gleich den Katzenjammer.</p>
+            <p>Frank tritt aus der Tür links. Schlafrock, grau mit braunen Bommeln. Scharfes, bartloses Gesicht, kurzgeschoren, weißblonde Haare. Mittelgroß, fünfundvierzig Jahre etwa alt, die Hände in den Taschen des Schlafrocks, unterm rechten Arm ein Buch, gibt Elias die linke Hand. <hi rendition="#i">Frank:</hi> Bravo, ausgezeichnet. Die zweite Strophe wird konfisziert. Huren darf man nur benützen, aber niemals nennen. Man wird überhaupt kein Gedicht mehr von dir veröffentlichen. Du bist zu unanständig, zu urweltlich. Du bist der eigentliche Orang-Utan von uns beiden, lieber Elias, Jüngling, und so was heißt sich Lyriker. <hi rendition="#i">Elias:</hi> Frank, beschimpf dich nicht. Ich muß dich sonst in Schutz nehmen. <hi rendition="#i">Frank:</hi> Wie spät? – Erst halb eins? Na, das geht ja noch – hast du Brigitte gesehen? <hi rendition="#i">Elias:</hi> Nein.<hi rendition="#i"> Frank:</hi> So? Ich werde mal auf den Korridor gehen. (Geht, Kommt <pb n="98" facs="#f0094"/>
+zurück.) Sie ist nicht in ihrem Schlafzimmer. <hi rendition="#i">Elias:</hi> Vielleicht ist sie spazieren gegangen... bei dem schönen Wetter... wenn du auch so spät aufstehst... <hi rendition="#i">Frank:</hi> Spazieren gegangen... Nein, ich weiß nicht... es ist immerhin möglich... <hi rendition="#i">Elias:</hi> Du bist unruhig, Frank... <hi rendition="#i">Frank</hi> (wirft sich aufs Sofa): Du bist verrückt, Elias. Sie ging wahrscheinlich auf den Strich... <hi rendition="#i">Elias</hi> (erstaunt): Beichtet sie? <hi rendition="#i">Frank:</hi> Es scheint. <hi rendition="#i">Elias:</hi> Ich finde es unpassend, sie, die Frau eines stadtbekannten Mannes, eines weltberühmten Dichters. <hi rendition="#i">Frank:</hi> Das letztere kannst du weglassen – und das erste muß heißen stadtberüchtigt. Stadtbekannt? Ich? Nein! Sie? Ja! Übrigens, da drüben liegen die Zigaretten – da, weiter links, das sind die Russen – <hi rendition="#i">Elias:</hi> Danke, <hi rendition="#i">Adolf</hi> (ein Totenkopf oben auf dem Bücherschrank, beginnt sich mit sich selbst zu unterhalten):... Die sexuelle Hypertrophie, welche heutzutage den Erdgeist in sich gesogen hat... <hi rendition="#i">Elias:</hi> Sie meinen, welche der Erdgeist in sich gesogen hat. Aber Sie <pb n="99" facs="#f0095"/>
+verwechseln Hypertrophie mit Urnatur bzw. Urningnatur, Wenn Sie bloß das Maul mal halten könnten. <hi rendition="#i">Adolf:</hi> Kann sein. kann sein... Ich bin leider nicht mehr zurechnungsfähig. Mir fehlt der körperliche Nachdruck. Mein Fleisch ist weg, also ist auch der Geist weg, der sein eigenes Fleisch hat. <hi rendition="#i">Elias:</hi> O Gott. <hi rendition="#i">Südseeinsulaner</hi> (ist plötzlich durchs Fenster eingestiegen): Verzeihen Sie, bin ich hier richtig?<hi rendition="#i"> Frank:</hi> Nein – Sie sind nicht richtig hier. (Macht eine Fingerbewegung nach der Stirn.) <hi rendition="#i">Südseeinsulaner:</hi> Ich bin nämlich als Lehrer engagiert für sexuelle Aufklärung in den Kindergärten. <hi rendition="#i">Elias:</hi> Sie sprechen ja deutsch. Sie sind doch Australneger? <hi rendition="#i">Südseeinsulaner:</hi> Ja – und? <hi rendition="#i">Elias:</hi> Bei sexueller Aufklärung darf man doch nicht deutsch reden? <hi rendition="#i">Frank:</hi> Und nun lassen Sie uns mal zufrieden, lieber Herr, ich will mein Morgengebet verrichten. (Adolf schweigt. Der Südseeinsulaner geht kopfschüttelnd durch den Schornstein ab. Frank zieht ein Buch hervor und beginnt zu lesen.) <hi rendition="#i">Elias</hi> (sitzt <pb n="100" facs="#f0096"/>
+auf der Lehne eines Sessels).<hi rendition="#i"> Frank</hi> (vom Buch aufschauend): Du wirst es nie zu etwas bringen. Du hast keine Menschenkenntnis.<hi rendition="#i"> Elias:</hi> Dafür kenne ich die Tiere um so besser. <hi rendition="#i">Frank:</hi> Bitte, du bist das, was man im bürgerlichen Leben dumm heißt, bei uns nennt man es egozentrisch, olympisch, in sich selbst beruhend. <hi rendition="#i">Elias:</hi> Brigitte behauptet das von dir. Du beruhtest immer nur auf dir – auch nachts. <hi rendition="#i">Frank:</hi> Brigitte ist nicht gerade feinfühlig. <hi rendition="#i">Elias:</hi> Mein Gott – wie wir drei uns stehen, da fallen eben alle Formalitäten fort. Man sieht sich, wie man ist, nämlich nackt. <hi rendition="#i">Frank:</hi> Siehst du nicht, daß ich über meine Nacktheit einen Schlafrock trage?<hi rendition="#i"> Elias:</hi> Ich trage über meine Nacktheit nur... Bedenken. <hi rendition="#i">Frank:</hi> Du bist ein Trappist. Aber noch Novize.<hi rendition="#i"> Elias:</hi> Leider ist mir der Mund immer verschlossen, wenn ich reden will. <hi rendition="#i">Frank: So</hi> rede doch. <hi rendition="#i">Elias:</hi> Was liest du eigentlich da? <hi rendition="#i">Frank:</hi> Meine Bibel. <hi rendition="#i">Elias:</hi> Das wäre? <hi rendition="#i">Frank:</hi> Das Buch Salomo. <hi rendition="#i">Elias:</hi> Und wer hat <pb n="101" facs="#f0097"/>
+das geschrieben? <hi rendition="#i">Frank:</hi> Selbstverständlich ich. Ich lese nur Bücher, die ich selbst geschrieben habe. Da weiß ich, woran ich bin. <hi rendition="#i">Elias:</hi> Du bist einer von den ganz Großen! (Es klingelt.) <hi rendition="#i">Frank:</hi> Hat das nicht geklingelt? Hilf, Satan, das ist mein Freund, der Bodenlos, der wollte mich ja heute besuchen. (Springt vom Sofa.) Kennst du ihn noch nicht? <hi rendition="#i">Elias:</hi> Ich weiß nicht. <hi rendition="#i">Frank:</hi> Ich muß noch mal ins Schlafzimmer nebenan. Mich ein wenig umkleiden. So darf er mich nicht sehen. Da geht der Respekt flöten (Es klingelt.) Ja doch, mein Gott, daß diese Germanisten nicht warten können? – Er muß mich sehen, wie er mich sehen will. Du bist vielleicht so gut und empfängst ihn, ja? (Es klingelt.) Geh raus, mache die Tür auf. (Frank nach links, kopfschüttelnd, eilig ins Schlafzimmer ab. Elias hinaus. Kommt mit einem großen Herrn, der ein kleines, grünes Hütchen und einen schreiend gelbroten Ulster und eine Aktenmappe unterm Arm trägt, zurück. Der Herr ist etwa dreißig Jahre alt.) <hi rendition="#i">
+                  <pb n="102" facs="#f0098"/>
+Bodenlos:</hi> So, Herr Cotta, unser allverehrter Meister, schläft noch? Natürlich, verargen wir's ihm nicht. Wahrscheinlich wieder bis in die Nacht hinein angestrengt gearbeitet. Er sollte sich etwas schonen. (Bodenlos legt seine Sachen ab, tut, als wenn er zu Hause wäre. Setzt sich.) Aber, bitte, wollen Sie nicht Platz nehmen? <hi rendition="#i">Elias:</hi> Wenn Sie gestatten? Sie sind sehr gütig.<hi rendition="#i"> Bodenlos:</hi> Werter Herr, Sie kommen mir so bekannt vor. <hi rendition="#i">Elias:</hi> Sie mir auch, Herr? <hi rendition="#i">Bodenlos:</hi> Bodenlos.<hi rendition="#i"> Elias:</hi> Unversorgt. <hi rendition="#i">Bodenlos</hi> (sinnend): Ja, das ist wahr. <hi rendition="#i">Elias:</hi> Irre ich mich nicht, so sind Sie der berühmte Germanist und Literarhistoriker an der hiesigen Universität? <hi rendition="#i">Bodenlos</hi> (steht auf, rennt umher, zuckt mit den Mundwinkeln): Germanist? Nein! Sie denken an Philologie? Oh! Nein! Ich bin kein Philologe! Nie! Ich bin nur Philologe geworden, um die Philologie besser bekämpfen zu können. Von innen heraus. <hi rendition="#i">Elias:</hi> Als Parasit? <hi rendition="#i">Bodenlos:</hi> Wie meinen Sie? Ich hasse die Philologie. Ich bin Literaturforscher, bin <pb n="103" facs="#f0099"/>
+Ästhetiker. <hi rendition="#i">Elias</hi> (bescheiden): Was ist für ein Unter schied zwischen Philologe und Ästhetiker? <hi rendition="#i">Bodenlos:</hi> Oh! Nein! Sie denken an die normative Ästhetik. Nein! Ich verwerfe sie. Ich verwerfe sie. Unbedingt. Ich stehe durchaus auf dem Boden einer gefühlsmäßigen subjektiven Ästhetik. (Bricht ab.) Aber das verstehen Sie vielleicht nicht. Sie sind noch zu jung dazu. Übrigens jetzt fällt mir ein: Sie waren voriges Semester mein Schüler, ich habe Sie doch gesehen, in meinen Übungen zur literarischen Kritik. <hi rendition="#i">Elias:</hi> Mit Vergnügen erinnere ich mich des genußreichen Kollegs, das Freitag abends von sechs bis acht im Hörsaal 101 von Ihnen gehalten wurde. <hi rendition="#i">Bodenlos:</hi> Ja, das darf ich wohl sagen: Ich stehe einzig da in Deutschland mit diesen Übungen. Ich habe hier in Tschermeisel eine Zentrale geschaffen zur Aufzucht einer neuen Kritikergeneration. Denn – das versteht sich wohl von selbst: Eine ausgedehnte, gediegene literarische Bildung kann nie und nimmer auf Journalistenschulen gewonnen <pb n="104" facs="#f0100"/>
+werden – einzig und allein auf der Universität – und natürlich nur hier in Tschermeisel. A propos – was haben Sie denn hier bei unserm Meister vor? <hi rendition="#i">Elias:</hi> Ich wollte ihm ein paar Gedichte zur Prüfung vorlegen, ob er nicht geneigt wäre, ein Verlagsangebot bei Georg Meier zu befürworten. Wenn man so gar keine literarischen Beziehungen hat... <hi rendition="#i">Bodenlos:</hi> Junger Freund, Sie sind sehr zuversichtlich. Unser Meister ist ein strenger Kritiker. Belästigen Sie ihn nicht mit Bagatellen, wie Sie eine sind. Sie rauben seine kostbare Zeit. Zeigen Sie mir doch einmal erst die Gedichte. <hi rendition="#i">Elias</hi>: Wenn Sie gestatten, rezitiere ich einiges. <hi rendition="#i">Bodenlos:</hi> Bitte. <hi rendition="#i">Elias:</hi> Hier: Betitelt »Vision« (er rezitiert das Gedicht von vorhin mit Bescheidenheit und Zurückhaltung). <hi rendition="#i">Bodenlos:</hi> Das Gedicht ist mäßig, junger Freund, um nicht zu sagen schlecht. Es fehlt durchaus die innere Dynamik des Geschehens. Es ist eine durchaus oberflächliche Reflexion, die vielleicht private Gefühlswerte besitzt, als offizielles Schaustück <pb n="105" facs="#f0101"/>
+sich aber durchaus als im Sande verlaufend darstellt. <hi rendition="#i">Elias:</hi> Sie meinen, wie Onan etwas im Sande verlaufen ließ? <hi rendition="#i">Bodenlos:</hi> Und dann: Herz, du stumpfer, dumpfer Hammer... Kann man sich so etwas vorstellen, das Herz als Hammer – und stumpf? Gibt es stumpfe Hämmer? Das ist beinahe so, wie wenn Goethe irgendwo sagt; Durstige Gipfel. Haben Gipfel einen Mund? Wie? Oh, nein! Können sie trinken? Können sie also dürsten? Junger Freund, ich rate Ihnen durchaus von der lyrischen Produktion ab. (Die Tür links öffnet sich. Frank Cotta in schwarzem Pierrotkostüm mit violetten Bommeln tritt würdevoll ein.) <hi rendition="#i">Frank:</hi> Guten Morgen, lieber Bodenlos, bitte, behalten Sie Platz! Elias, du hast Herrn Dr. Bodenlos hoffentlich anständig unterhalten? <hi rendition="#i">Elias:</hi> Anständig? <hi rendition="#i">Bodenlos:</hi> Die Herren kennen sich? <hi rendition="#i">Frank:</hi> Gewiß, lieber Bodenlos. Beinah so gut wie wir beide uns. <hi rendition="#i">Bodenlos:</hi> Sie haben gearbeitet, nicht geschlafen?<hi rendition="#i"> Frank:</hi> Geschlafen? Wo denken Sie hin! Gearbeitet habe ich!</p>
+            <p rendition="#et">
+               <pb n="106" facs="#f0102"/>
+Sehen Sie hier mein Arbeitskleid. Ich schreibe an einem neuen Drama: »Gotthilf Tschimborasso«, ein männlicher Agnes Bernauer. Es wird hinreißend, lieber Bodenlos. <hi rendition="#i">Bodenlos:</hi> Alles, was Sie schaffen, verehrter Meister, reißt hin. <hi rendition="#i">Elias:</hi> Ja, es sind sogenannte Reißer. <hi rendition="#i">Bodenlos:</hi> Junger Mann, Sie sind vorlaut.<hi rendition="#i"> Frank:</hi> Mein Gott, Elias, wer wird immer gleich die Wahrheit sagen? – Was bringen Sie uns, lieber Bodenlos? <hi rendition="#i">Bodenlos:</hi> Ich habe Ihnen eine Mitteilung zu machen, die Sie sehr erfreuen wird. Ihr neues Drama ist bis auf einige kleine Streichungen von der Zensur, wenn auch nicht zur Aufführung, so doch zur Vorlesung freigegeben. Was sagen Sie? Ich war selbst auf dem Polizeipräsidium. Ich habe mich mit allen meinen Kräften dafür verwandt, daß einem derartigen Kunstwerk, das turmhoch über jeder kleinlichen Polizeimoral steht, die Wirkungsmöglichkeiten nicht verrammelt werden. <hi rendition="#i">Frank</hi> (reicht ihm beide Hände): Mein lieber Bodenlos, herzlichen, innigen <pb n="107" facs="#f0103"/>
+Dank. Sie sind ein wahrer Apostel meiner so oft mißverstandenen Kunst. (Sinkt ihm an die Brust.) Mein Freund, mein einziger Freund. Sie werden doch die Kritik in der »Abendpost« schreiben? <hi rendition="#i">Bodenlos</hi> (erschüttert): Oh! die Welt ruht an meinem Busen. <hi rendition="#i">Elias:</hi> Die verkehrte Welt. <hi rendition="#i">Frank:</hi> Und zum Dank, teuerer Freund, widme ich die Buchausgabe des Stückes Ihnen. (Mit erhobener Stimme.) Dr. Artur Bodenlos zu eigen.<hi rendition="#i"> Elias:</hi> Da ist ja der Boden von los. <hi rendition="#i">Frank:</hi> Halt's Maul, Elias, den »Gotthilf Tschimborasso« widme ich dir – du männliche Ophelia! <hi rendition="#i">Bodenlos:</hi> Wann werden Sie das Stück vortragen? <hi rendition="#i">Frank:</hi> Noch diese Woche. Elias, du gehst vielleicht bei Meier mit ran, er soll Plakate drucken lassen: Donnerstag, den 29. Februar: Frank Cotta, »Brigitte«, moderner Urweltmythos in fünf Akten. Populäre Einheitspreise. (Es klingelt.) <hi rendition="#i">Elias:</hi> Es klingelt. <hi rendition="#i">Frank:</hi> Sieh mal nach... (Elias geht hinaus, kommt zurück, lächelnd.) <hi rendition="#i">Elias:</hi> Es ist eine Dame. Sie hat scheinbar <pb n="108" facs="#f0104"/>
+den Schlüssel zu dir vergessen. <hi rendition="#i">Frank</hi> Ja – ich bin ein rechtes Schlüsselstück. Wer den Schlüssel nicht hat, der kann mich nicht erschließen. <hi rendition="#i">Elias</hi> (an der Tür, läßt die Dame eintreten). <hi rendition="#i">Frank:</hi> Brigitte! <hi rendition="#i">Brigitte</hi> (nur in fleischfarbenes, Trikot gekleidet): Gott sei Dank. Frank, daß ich wieder bei dir bin. Es war entsetzlich auf dem Polizeipräsidium. Nein – diese rohen Leute! Und immer allein hat man mich gelassen. Die ganze Nacht. Da war ich fast so allein wie bei dir, Frank. Nur jeden Morgen um neun Uhr fand Leibesvisitation statt. Ganz nackt ausziehen mußte ich mich, als ob ich nicht schon nackt genug wäre. Und dann hat man mich untersucht, ob nichts Obszönes an mir zu entdecken sei. Und immer fanden sie etwas. Oh! Wie eine Dirne hat man mich behandelt, Frank. <hi rendition="#i">Frank:</hi> Du bist ja auch eine, sei stolz darauf. Brigitte. <hi rendition="#i">Brigitte:</hi> Ah, da ist ja auch mein Befreier, Herr Dr. Armin Bodenlos: <hi rendition="#i">Bodenlos:</hi> Artur, bitte. <hi rendition="#i">Brigitte:</hi> Oh, nein! Armin. Als Armin der Befreier sind Sie <pb n="109" facs="#f0105"/>
+mir erschienen. Heißen Dank. Wie geht es Ihrer Frau? Sind Sie schon geschieden? <hi rendition="#i">Bodenlos:</hi> Danke sehr, gnädiges Fräulein, das Kleine ist wohlauf. <hi rendition="#i">Brigitte:</hi> Grüßen Sie bitte Ihre Gattin von mir. (Zu Elias:) Guten Tag, Elias. <hi rendition="#i">Elias:</hi> Guten Tag, Brigitte. <hi rendition="#i">Frank</hi> (zu Bodenlos): Also, Ihr Kleiner wird mit Soxleth aufgezogen?<hi rendition="#i"> Bodenlos:</hi> Und Milchzucker. Oh, er gedeiht prächtig.<hi rendition="#i"> Brigitte</hi> (leise zu Elias): Bist du morgen früh bis elf zu Hause? <hi rendition="#i">Elias</hi> (leise): Ich warte, Brigitte. <hi rendition="#i">Bodenlos</hi> (zu Frank): Übrigens, Sie wissen, verehrter Meister, daß ich die Bestrebungen der freien Studentenschaft unterstütze. Würden Sie der literarischen Abteilung für den Vortrag einige Freikarten zur Verfügung stellen? <hi rendition="#i">Frank:</hi> Aber mit Vergnügen, lieber Freund, selbstverständlich. Nicht wahr, Brigitte? <hi rendition="#i">Brigitte:</hi> Warum nicht? Wenn es hübsche junge Leute sind? Das habe ich gern, Frank. (Küßt ihn.)</p>
+            <p>Vorhang.</p>
+            <pb n="110" facs="#f0106"/>
+         </div>
+         <div xml:id="Klabund-d1e57380" type="chapter">
+            <head>Der Zahn der Zeit</head>
+            <p>Ehe ich sterbe, will ich noch meinen Leichnam waschen und einbalsamieren, sagte Josua.</p>
+            <p rendition="#et">Er kaufte sich eine große Flasche Eau de Cologne, eine Flasche Kanadolin für die Haare, einen Karton Lilienmilchseife, sowie Dantes Göttliche Komödie und ging in das Türkenbad.</p>
+            <p rendition="#et">Die Badedienerin war ein scheußliches Weib mit einer moosigen Flechte mitten auf der Stirn und einem Grinsen nach dem Sofa hin.</p>
+            <p rendition="#et">Er badete sorgfältig, nahm eine kalte Dusche, begoß sich von oben bis unten mit Eau de Cologne und legte sich aufatmend auf den Diwan, um in der Göttlichen Komödie zu lesen.</p>
+            <p rendition="#et">Beim Anziehen zerbrach ihm der Kragenknopf.</p>
+            <p rendition="#et">Er klingelte der alten Vettel.</p>
+            <p rendition="#et">Haben Sie vielleicht einen Kragenknopf?</p>
+            <p rendition="#et">Sie schlurfte davon und kam im Moment zurück.</p>
+            <p rendition="#et">
+               <pb n="111" facs="#f0107"/>
+Ihr zahnloser, fauler Mund verzog sich höhnisch in die Breite – als sie ihm einen grauweißen, unansehnlichen Kragenknopf überreichte und wieder hinter der Türe verschwand, noch in das Zimmer zurückbrummelnd:</p>
+            <p rendition="#et">Es ist mein letzter –...</p>
+            <p rendition="#et">Er wollte den Kragenknopf eben anlegen, als er noch einen Blick darauf warf.</p>
+            <p rendition="#et">Es war ein schmutziger, kariöser, menschlicher Zahn.</p>
+            <p rendition="#et">Des alten Weibes letzter Zahn.</p>
+            <p rendition="#et">Und ihr eben ausgefallen.</p>
+            <pb n="112" facs="#f0108"/>
+         </div>
+         <div xml:id="Klabund-d1e57440" type="chapter">
+            <head>Der Spieler</head>
+            <p>Eine Szene</p>
+            <p>Der Spieler taumelt in grünem Frack, grünem Zylinder, orangenem Umhang auf die Bühne.</p>
+            <p>Ich habe verspielt ... Ich habe alles verspielt ... Ich hin zu Ende ... ehe ich noch am Anfang war ... Vier Damen hatte ich in der Hand ... Vier Damen mit einemmal ... Ha, dachte ich, endlich lächelt die Fortuna in vierfacher Gestalt ... Ich setzte 10000 ..., mein Gegenspieler war ein nach der letzten Mode gekleidetes Gerippe ... ein ungeheurer Kürbisschädel ... ohne Haare, ohne Fleisch ... ohne Augen. Unbeweglich hielten seine Skelettfinger die fünf Pokerkarten. Zwanzigtausend, quietschte das Skelett wie eine schlecht geölte Draisine. Der Mensch, dachte ich, falls er überhaupt ein Mensch ist, ist irrsinnig, komplett idiotisch ... Ich habe vier Damen in der Hand ... und er will mich übertrumpfen. 40000 schrie ich, und es sang, es zwitscherte in mir:</p>
+            <pb n="113" facs="#f0109"/>
+            <p>Wem je die Muse sich vervierfacht bot,</p>
+            <p>Der wandelt trunken über diese Auen,</p>
+            <p>Was dünken ihn die Haus- und Straßenfrauen.</p>
+            <p>Und was Narzissenwind im Abendrot ...</p>
+            <p>80 000 gackerte das Skelett ... Die Karte heißt es ausnutzen bis zum letzten ... Du bist das Leben, und er ist der Tod ... Die ganze Welt mußt du gegen ihn gewinnen ... Ah, unermeßliches Glück, wenn du die ewige Seligkeit gewinnst ... die Unsterblichkeit ... 160 000 brüllte ich ... 320 000 echote das klapprige Gestell ... Ich rechnete fieberhaft ... 160 und 80 und 40 und 20 und 10 ... Summa 310 000 ... Mein ganzes Vermögen stand im Spiel und auf dem Spiel ... Was konnte ich gegen seine 320 000 setzen?</p>
+            <p rendition="#et">Hinter meinem Platz stand Eveline ... blond und zart und süß wie immer ... Sie war erblaßt ... Ich wandte mich ... Ich hob sie mit meinen Armen auf den Spieltisch ... Sie schloß die Augen und stand still wie eine Statuette ... Da riß ich ihr die seidenen Kleider vom Leibe ... und das Hemd ... Nackt stand sie auf<pb n="114" facs="#f0110"/>
+ dem Tisch. Und ich schrie: ich setze gegen Ihre 320 000 meine Frau und mein Mädchen, meine Geliebte und meine Göttin ... Einverstanden? Das Skelett begrinste und betastete mit seinen leeren Augen das blühende Fleisch des jungen Frauenkörpers ... Einverstanden, bestätigte es meckernd. Eveline stand reglos ... Wir warfen die Karten auf den Tisch ... Er hatte vier Aß ... Ich sah, wie er seine schwarze Pelerine um Eveline warf ... und sie vom Tisch hob ... Ich hörte ihn mit blecherner Stimme beim Klubdiener ein Auto bestellen ... Ich stürzte in die schwarze Nacht hinaus ... Mein Schicksal ist besiegelt ...</p>
+            <p rendition="#et">Bald werden die Apfelbäume wieder blühen ... Ich werde englisch lernen in der Berlitzschool ... Ich habe ein Talent für Sprachen und werde für amerikanische Zeitungen und Magazines schreiben ... Die sollen fabelhaft ... also wirklich fabelhaft zahlen ... 1 000 Dollar für einen Artikel mit Illustrationen .... Nun ..., man muß sich eben einen Kodak anschaffen <pb n="115" facs="#f0111"/>
+und einfach alles photographieren ... einfach alles ... 1 000 Dollar, das sind, warten Sie mal, in heutiger Valuta 20 000 Mark ... 20 Artikel, und ich habe Eveline zurückgewonnen ... Ach, es ist ja alles nicht so schlimm, wie es aussieht ... Spielen, das ist ja doch die einzige Art, um mit dem Leben und mit dem Schicksal fertig zu werden ... Schon als Embryo hatte ich die Angewohnheit, Bakkarat zu spielen. Als ich in neun Monaten zur Welt kam, 9 ... ist die Zahl des Bakkarat, müssen Sie wissen, gewann ich auf diese Weise mit einem Coup 1 000 Mark, die ich zurücklegte, um damit später mein Einjährigfreiwilligenjahr zu bestreiten ... denn meine Eltern waren einfache Leute, mein Vater Delikatessenhändler, meine Mutter eine Kandidatin der Philologie ... Gleiche Interessen hatten sie zusammengeführt, eine heilige Sympathie der Herzen ... Es war eine Liebesheirat, wie sie im Buche steht ... Meine Mutter nährte mich an den Brüsten der Wissenschaft, was sie bedeutend <pb n="116" facs="#f0112"/>
+weniger anstrengte, als wenn sie es an ihren eigenen getan hätte ...</p>
+            <p rendition="#et">Die Erziehungsmethode meines Vaters beschränkt sich darauf, mir Bücklinge, Johannisbrot, amerikanisches Büchsenfleich entweder zu gewähren oder zu entziehen ... So hielten sich praktische Lebenskunde und Ideologie in meiner Erziehung die Wage der Gerechtigkeit ... Mit fünf Jahren fiel mir ein Komet auf den Kopf, wodurch meine Kopfform etwas Eingedrücktes und Abgeplattetes bekam ... Zugleich bemerkte man aus diesem Zeichen des Himmels, daß dieser Großes mit mir vorhatte ... In meinem neunten Jahre, 9 ... ist die Zahl des Bakkarat, bemerken Sie wohl, verlor Eduard der Siebente von England Indien im Bakkarat an mich ... Ich wurde Vizekönig von Indien, welchen Beruf ich bis zu meinem dreizehnten Jahre voll ausfüllte ... Darnach legte ich die Krone in die Hände Seiner englischen Majestät zurück ... Sie war übrigens nur schwach vergoldet ... Seitdem konnte ich das Jeu nicht lassen ...</p>
+            <p rendition="#et">
+               <pb n="117" facs="#f0113"/>
+Aber ich verlor in einem fort, sogar meinen Verstand, den ich für 100 Mark in Zahlung geben mußte ... Denn, um Glück zu haben ... muß man Geld haben ... und um Geld zu haben ... muß man Glück haben ... Glück will und soll der Mensch haben ... Glück ist das, was recht viel Geld kostet .... Ein Nachmittag zum Jazzthee in der Paradiesbar ... Preis: 100 Mark ... Ein Abendessen mit Fern Andra ... nur, um mit ihr gesehen zu werden ... bei Hiller oder sonstwo ... Preis: 1 000 Mark ... Ein Besuch bei Madame H. in der Z.-Straße, wo man einige Backfische trifft ... Preis: 2 000 Mark ... Und zum Schluß zwei Stunden im Spielklub, genannt: Vereinigung jüngerer Terrarienfreunde ... Preis: ... zig Mark ... Pumpen Sie mir 50 Mark ... Ich setze alles auf meine Karte ... Wenn ich gewinne, kaufe ich mir ein Zebra oder eine Frühlingswolke ... Das schöne Geld ... Man findet für das Geld Beiwörter wie sonst nur noch für die Frau ... Wer wird meinen Lackschuhen und <pb n="118" facs="#f0114"/>
+meinen Bügelfalten glauben, daß ich kein Geld habe? ... Ein eleganter Bettler, das ist das schlimmste ... Ich werde in ein erstklassiges Hotel gehen und einige Wochen auf Kredit leben ... In einem Hotel zweiten Ranges bekäme ich keinen ... Es ist ein elendes Leben ... Soll ich im Korsotheater als Exzentriktänzer auftreten? Ach, das schöne Geld und die schönen Karten und die schönen, schönen Frauen ... Karodame ... und Piquedame ... und Treffdame ... und Coeurdame.</p>
+            <pb n="119" facs="#f0115"/>
+         </div>
+         <div xml:id="Klabund-d1e57511" type="chapter">
+            <head>Brief an Asta Nielsen anläßlich ihres Hamlet-Films</head>
+            <p>Hochgeschätzte gnädige Frau! Sie stehen auf dem Standpunkt des ehrengeachteten Professors Weyning, Hamlet sei ein Weib gewesen. Oder vielmehr: der Film steht auf seinem Standpunkt. Gestatten Sie mir die bescheidene Bemerkung, daß es zwischen Ihrer bzw. des Professors Weyning bzw. des Films Auffassung und der normalen üblichen Auffassung, daß Hamlet ein Mann gewesen sei, noch einen sozusagen goldenen Mittelweg gibt, den Professor Gotthold Breitenschröt in seiner grundlegenden Schrift: »Hamlet – ein Mann?« (Leipzig 1851) beschritten hat. Danach war Hamlet ein Zwitter, ein Hermaphrodit, ein Mannweib oder ein Weibmann. Diese These, tief in charakterologischen und psychologischen Studien verankert, hat viel für sich, und ich stelle sie hier zur Diskussion, in der Hoffnung, <pb n="120" facs="#f0116"/>
+sie werde Ihnen einige Anregung für Ihre maßgebende Neuschöpfung der Hamletrolle bieten. –</p>
+            <p rendition="#et">Sie weisen auf die geistigen Führer von heute hin, die bereits dem Film gewonnen sind. Erlauben Sie mir, Ihren Blick auf die geistigen Führer der Vergangenheit zu richten. Insbesondere ist es ein Werk der Weltliteratur, das in seinem farbenprächtigen orientalischen Gewande, in seiner bizarren Erotik, seinen knapp und bildmäßig gestalteten Anekdoten nach einer Verfilmung geradezu schreit: dies ist das Tao-te-king des alten chinesischen Weisen Lao-tse. Tao ist eine alte, Verzeihung, eine junge chinesische Prinzessin, in die sich beim Fünfuhrtee (te) ein alter (also wirklich alter) chinesischer König (king) verliebt, was dann zu allerlei scherzhaften und ernsthaften Verwicklungen Anlaß gibt. Im Film ist die Möglichkeit vorhanden, den ganzen chinesischen Kulturkreis aufrollen zu lassen: fürwahr, eine gewaltige, aber dankbare Aufgabe. Der Kassenerfolg <pb n="121" facs="#f0117"/>
+wird nicht ausbleiben. Niemand anders als Sie, hochgeschätzte gnädige Frau, ist für die Rolle der liebreizenden Tao geradezu prädestiniert. Wir hätten ein Monumentalfilmwerk, wie es uns keine Nation der Erde nachmachen könnte, ein Werk, das die Herrin der Welt, die Geheimnisse von New-York, den Mann mit der schwarzen Maske weit in den Schatten stellen würde. Was sagen Sie zu einem Titel wie: Tao, die träumerische Lotosblüte? Es sind keine geistigen und materiellen Kosten gescheut, dem Volke nur das Erstklassigste zu bieten! Ff. östliche Kultur in prima Aufmachung! Tao, die träumerische Lotosblüte, wird in tausend Lichtspieltheatern vor ausverkauften Häusern in Szene gehen, denn, um das Tao-te-king zu zitieren: Wer der Welt den Spiegel vorhält, der hat Zulauf von allen Seiten...</p>
+            <pb n="122" facs="#f0118"/>
+         </div>
+         <div xml:id="Klabund-d1e57536" type="chapter">
+            <head>Die Wärmflasche</head>
+            <p>Ich leide an kalten Füßen. Ob dieses Gebrechen in meinen verkrüppelten Zehen seinen Ursprung hat, weiß ich nicht. Um es des Nachts zu beheben, bedarf es einer Wärmflasche, die meinen Füßen die lästige Kälte entzieht und sie mit wohliger Wärme wie mit dicker Wolle umhüllt. Leicht sinke ich in tönende Träume. Ich wandle auf heißem Wüstensande. Die Palmen stehen wie Staubwedel am Wege. Kamele trotten, schwer beladen mit Datteln und Feigen, durch meinen dämmernden Blick. Araber in weißem Burnus, silberbeschlagene Pistolen und Gewehre schwenkend, galoppieren auf edlen Pferden an mir vorüber. Auf Gebetteppichen knien die Gläubigen, die Blicke fromm nach Mekka gewandt. Neckische Mädchen, völlig nackt, werfen Perlen schwarzer Blicke nach mir. Die Sonne steht hoch. Die Hitze wird immer unerträglicher. Alle Dinge haben ihren Schatten verloren. Auch der meine ist wie ein dünner <pb n="123" facs="#f0119"/>
+Quell im Wüstensand versickert. Der Schweiß bricht mir aus der Stirn. Meine Sohlen brennen. Sandflöhe beißen sich zwischen meine verkrüppelten Zehen fest. Mit Mühe und Not erreiche ich die schützende Oase. Bäume fächeln plötzlich Kühlung, tausend Schatten laufen ding- und ursachlos über den Weg, und herrlich er wünscht rieselt ein lauwarmer Bach mir über meine nackten Füße... denn die Wärmflasche ist ausgelaufen. Ich liege in einem nassen Bett, und auf das Dienstmädchen fluchend, die den Verschluß der Wärmflasche zu lose angeschraubt, halb schon wieder in sanftem Schlaf, beginne ich vom Eismeer zu träumen.</p>
+            <pb n="124" facs="#f0120"/>
+         </div>
+         <div xml:id="Klabund-d1e57557" type="chapter">
+            <head>Der dämonische Otto</head>
+            <p>Otto war so dämonisch, daß es rein zum Verzweifeln war mit ihm. Er trug einen Fransenbart wie Dostojewsky. Sein atropinbeträufeltes Auge stürzte Männer und Frauen in lähmende Verwirrung. Ja, als er einst in ein Restaurant trat und den Blick ringsum schweifen ließ, wie der Cowboy den Lasso schwenkt, ehe er ihn wirft, ließen sämtliche Kellner vor Schreck die Schüsseln fallen. Geistreiche und körperarme Frauen fielen auf ihn wie in einen tiefen Brunnen herein und mußten erst nach dem Fall bestürzt erkennen, daß sie auf einer leeren Sandwüste gelandet. Der dämonische Otto war ein gelehriger Schüler des Spenglermeisters. Er glaubte an den Untergang des Abendlandes wie der liebe Gott einst an die Schöpfung. Noch sind wir Steiner auf Steinen. Aber der kommende Tag wird uns erlösen. Der dämonische Otto war ein Feind von nichts und alles sagenden Phrasen. Die Zukunft Europas, so lächelte er verführerisch zu <pb n="125" facs="#f0121"/>
+Lilli hinüber, und hob ein Glas, in dem französischer Sekt leise knisterte, wird von den proletarischen Grundtendenzen abhängen, von denen die Zukunft Europas abhängt. Otto verbreitete sich in vorgerückter Stunde noch über Magie und Rosenkreuzer. Er sprach von der ewigen Ampel seines Herzens, als er das elektrische Licht abknipste. Ich werde, so schrie er die verdutzte Lilli an, Seele in deine Tricks schmettern. Wenn Otto allein schlief, so schlief er aus religiösen Gründen in einer Badewanne, durch die ständig Rosenwasser floß, seine Aura zu reinigen. Aber die Läuse auf seinem Kopf entfernte er nicht, da er sich für eine Reincarnation des heiligen Makarius hielt, der bekanntlich das Schutzpatronat der Läuse, Flöhe und Wanzen übernommen hat. Als der dämonische Otto in einem öffentlichen Vortrage die heilige Dreieinigkeit mit der Dreigliederung der sozialen Frage verwechselte, begann sich die Polizei für ihn zu interessieren und lieferte ihn wegen Gotteslästerung in einem Irrenhaus <pb n="126" facs="#f0122"/>
+ab. Eine besondere Änderung in seiner Lebensführung trat nicht ein. Er schlief weiter in einer Badewanne: der üblichen Schlafstätte der Tobsuchtskranken. Nur die Läuse wurden ihm genommen. Denn der Irrenwächter Puffke zeigte auch nicht den geringsten Respekt vor ihm. Seiner Obhut waren 33 Götter, 7 Religionsstifter und 5 Kaiser anvertraut. Wie konnte ihm da der dämonische Otto imponieren? Lachhaft!</p>
+            <pb n="127" facs="#f0123"/>
+         </div>
+         <div xml:id="Klabund-d1e57579" type="chapter">
+            <head>Das Massengrab</head>
+            <p>Wenn ich Ihnen mein Zimmer beschreiben soll, so ist dasselbe drei Meter lang, drei Meter breit, fünf Meter hoch. Ein Tisch, ein Bett, ein Stuhl, ein mehr symbolischer als wirklicher Schrank vervollständigen sein Mobiliar. Außer mir wohnen in dem Zimmer noch ein älteres Perlhuhn, ein trächtiges Meerschwein und ein lahmes, syphilitisches Kaninchen. Das Kaninchen hat mit dem Meerschwein, das Perlhuhn mit dem Kaninchen ein öffentlich nicht diskutables Verhältnis. Bloß ich bin sozusagen ganz allein da. Nur aus dem Bedürfnis heraus, gleichsam mit mir selbst ein Verhältnis anzufangen, in ein Verhältnis zu mir zu kommen, schreibe ich Bücher, welche dann später gedruckt und so der Öffentlichkeit nahegebracht werden. Die meisten Kritiken, die in den Zeitungen darüber erscheinen, sind von mir. Ich schicke sie unter falschem Namen hin, indem ich die Signatur meiner Zimmergenossen verwende: <pb n="128" facs="#f0124"/>
+Joseph Perlhuhn, Isabella Meerschwein, Isidor Ben Kanin Chen. Ich pflege mich teils heftig zu loben, teils heftig zu tadeln, um so eine längere Diskussion in den verschiedenen Blättern hervorzurufen, welche ich ganz allein bestreite. Wenn Sie meine Lebensführung als überaus traurig und fast idiotisch bezeichnen, so haben Sie nicht so ganz un recht. Aber was soll ein lebender Mensch heute anfangen, das nicht böse oder niederträchtig endet? Der Tod ist das einzig Erfreuliche am Leben. Ich habe mir im Garten eine Familiengruft selbst gegraben und hergerichtet: vier Gräber nebeneinander: für mich, für das Perlhuhn, das Meerschwein und das lahme syphilitische Kaninchen. Ein gemeinsames Kreuz wird sich über dem Massengrab erheben, auf dem in goldenen Lettern die fromme Inschrift angebracht ist: <hi rendition="#i">Hic Rhodus, hic salta!</hi>
+            </p>
+            <pb n="129" facs="#f0125"/>
+         </div>
+         <div xml:id="Klabund-d1e57601" type="chapter">
+            <head>Der Boxer</head>
+            <p>Mein Name ist Joseph Peintner, genannt die bayerische Wildkatze. Geboren bin ich in Hals bei Passau. Mein Vater ist Mühlenbesitzer und ein ganz abscheulicher Lackl. Könnt mir leicht 100 000 Mark hergeben, tut's aber ums Verrecken nicht. Den ganzen Tag sitzt er in seinem Kontor und zählt braune Scheine. Seine Kinder hat er nie gezählt. Aber es sind dreizehn. Ich bin der fünfte. Mit 15 Jahren brannte ich nach England durch. All right. Denn das Leben brannte in mir wie eine ungestüme Flamme, ich wußte nicht, wozu, noch wohin. Nur: daß ich brannte. In London angekommen, ging ich ins christliche Kellnerheim. Ich stahl einem Trödler in einer Judengasse einen Frack, der in der Dämmerung am Türpfosten hing wie ein Mensch, der sich erhängt hat. Damit wurde ich Kellnerjunge in einem feinen Hotel. Es war ein sehr feines Hotel: schon am dritten Tage verliebte sich der Gast auf Nummer 33 <pb n="130" facs="#f0126"/>
+in mich, ein eleganter Fabrikant. Zum Teufel, ich wußte nicht, wie mir geschah; er sah mich immer so sonderbar an, wenn ich ihm die Schokolade früh ans Bett brachte. Und nur ich durfte sie ihm ans Bett bringen. Der Zimmerkellner und der Portier, welche die Vorliebe des Herrn aus Liverpool für mich entdeckt hatten, benutzten diese Erkenntnis zu einer kleinen Erpressung, die ihnen über Erwarten gut gelang. Ich erhielt 10 Prozent der Summe. Mit diesem Geld ging ich ins Moulin rouge in Whitechapel: ein gottverfluchtes Lokal, in dem man wie in einem Gemüsekeller herumstolpert. War auch allerlei Gemüse darin anzutreffen, zu dem ich Grünzeug, der ich damals war, vortrefflich paßte.</p>
+            <p rendition="#et">Das Lokal war in dichte Tabakwolken gehüllt. Frauen und Männer, alle auf kuriose Art herausgeputzt, brüllten, pfiffen, schrien durcheinander. Ein Orchester klang irgendwo aus den Wolken. In der Mitte tanzte ein Knäuel. Seitwärts waren Nischen, mit alten Kattuntüchern <pb n="131" facs="#f0127"/>
+verhängt, dahinter verschwand hin und wieder ein Paar. Ich lächelte einer Dame zu, die vorübertanzte. Nie hatte ich ein zarteres, hübscheres Wesen gesehen; zerbrechlich schien sie wie eine Vase, und ihre Augen, voll Unschuld und voll Seele. Plötzlich stand ein Kerl neben mir. Er brüllte, um sich im Lärm verständlich zu machen: »Was lachen Sie der Dame zu? Wollen Sie sie oder nicht? Keine langen und leeren Redensarten!« Er hielt mir die offene Hand hin: »Drei Schilling, und Sie können mit ihr hinter den Kattunvorhang gehen.« Ich erblaßte und wußte nicht, was ich sagen sollte. Der Kerl fuchtelte aufgeregt vor mir hin und her. Irgendwo lächelte mein Engel. In der Mitte des Saales erhob sich ein wildes Geschrei. Messer funkelten plötzlich, und ein Schuß knallte. Das Licht ging wie auf Kommando aus. Und nun begann im Dunkeln ein zäher, verbissener Kampf wie zwischen Ratten: ich wußte nicht, worum es ging, noch welche die Parteien waren. Ich flüchtete in eine Ecke, stürzte <pb n="132" facs="#f0128"/>
+einen Tisch um und verbarg mich dahinter. Der Kampf dauerte eine volle Stunde. Da kam der Morgen. Einer nach dem andern verschwand durch die Kellerluke, von der ein grünlicher Schimmer wie ein Eiterstrom herniederfloß. Schließlich war niemand mehr im Lokal. Ich kroch aus meiner Barrikade hervor. Blutlachen lachten überall. Und in der Mitte, unter dem schmierigen Kronleuchter, lag: mein Engel, noch immer lächelnd, ein Messer stak ihr in der Brust.</p>
+            <p rendition="#et">Ich ging nach Hause, packte meine Siebensachen und wandte mich dem Beruf eines Zeitungsverkäufers zu. Nirgends wird der Kampf ums Dasein, um das bißchen widerlich süße Dasein, erbitterter geführt als zwischen Zeitungsjungen, die an den Straßenecken sich gegenseitig mit allen Mitteln die Kunden abjagen und abluchsen. Die Entscheidung fällt meistens in einem regelrechten Boxkampf. Die Jungen legen ihre Pakete nieder, krempeln die Ärmel auf, und nun beginnt der Kampf. Publikum sammelt sich. Man schließt Wetten <pb n="133" facs="#f0129"/>
+ab. Der Unterlegene darf an der Ecke, da er unterlegen, keine Zeitungen mehr verkaufen. Ich hatte bereits siebzehn Jungen niedergeboxt – denn ich bin ein strammer, sehniger Niederbayer –, da trat nach dem achtzehnten Boxkampf ein eleganter Herr mit Zylinder und weißen Handschuhen, der auf mich gesetzt hatte, auf mich zu, zückte den Zylinder, fragte kurz: »Haben Sie Lust, Boxer zu werden? Ich lasse sie ausbilden...« Ich ließ meine Zeitungen am Boden liegen, sagte »All right« und ging mit ihm. Ich kam zu dem Türken Sadi in die Lehre: ein Meister seines Faches, aber ein Schwein. Und Schwein ist noch zu wenig gesagt. Er hat mich halb zu Tode geprügelt; aber ich habe etwas gelernt, und ich bin stolz darauf, sein Schüler genannt zu werden. Einmal, als ich zehnmal den Herzstoß probierte und er mir immer noch nicht nach seinem Wunsch gelingen wollte, boxte er mich in die Augen, daß ich sie beide nicht mehr aufschlagen konnte, danach gab er mir seinen berühmten Magenstoß, daß ich <pb n="134" facs="#f0130"/>
+umfiel und wie ein Klotz liegen blieb. Da warf er sich über mich und weinte. So sind alle Boxer: brutal und sentimental. Und ich bin's auch. Sadi ist ein großer Schieber. Soll ich Ihnen erzählen, wie er zu seinem Vermögen kam? Es war die Meisterschaft um England ausgeschrieben. Er trat gegen Jones an. Beide erste Klasse. Aber er war bei weitem besser in Form. Er mußte gewinnen. Riesige Summen wurden auf ihn gesetzt: Sadi – Jones, das stand 10 zu 1. Da ging er zu dem Bankhaus, das die Wetten vermittelte und sagte: »Wenn Sie mir 25 Prozent vom Nettoumsatz geben, sage ich Ihnen, wer der Sieger sein wird.« »All right«, sagte der Bankier, dem's um sein Geschäft ging. Da zog Sadi den Mund breit, sagte: »Jones« – ging und ließ sich in der zwanzigsten Runde absichtlich niederboxen, nachdem er selbst noch auf Jones gesetzt hatte. So sind die Boxer. Das meiste ist Schiebung, und es gehört einiges dazu, zwischen einem fairen und ehrlichen Kampf und einer niederträchtigen Schiebung zu <pb n="135" facs="#f0131"/>
+unterscheiden. Sie kennen den Neger Johnson? Ich behaupte, daß er der größte Boxer ist, der je gelebt hat, und der ehrlichste und fairste Kämpfer dazu. Dennoch hat er die Weltmeisterschaft in Amerika abgeben müssen, weil es den Amerikanern unerträglich war, daß ein schwarzer Mann über die weiße Rasse siegen sollte. Mit dem Revolver in der Hand hat man ihn gezwungen, auf die Weltmeisterschaft in einem fiktiven Kampf zu verzichten. Man hat ihm 40 000 Pfund in Gold auf den Tisch gezahlt, er hat das Gold mit seiner riesigen Pratze in einen Sack geschaufelt, hat gesagt: »Schwarzer Mann kein Recht auf der Welt« und ist gegangen. – Ich habe die süddeutsche Meisterschaft. Ich bin erst 23 Jahre alt. Diesen Winter will ich nach Berlin kommen, und wir werden sehen, ob Breitensträtter und Naujocks mir standhalten. Denn ich bin Joseph Peintner, genannt die bayerische Wildkatze, aus Hals bei Passau.</p>
+            <pb n="136" facs="#f0132"/>
+         </div>
+         <div xml:id="Klabund-d1e57637" type="chapter">
+            <head>Die 99. Wiederkehr des Buddha</head>
+            <p>Buddha kam zum 99. Male auf die Erde. Er fand, daß sie gar nicht so grau anzusehen sei, wie sie ihm das letztemal erschienen. Es war allerlei Liebenswertes und Schönes auf ihr anzutreffen. Schmetterlinge, Nachtigallen, Zedern, Sonnenauf- und untergänge, ein silberner Mond, <pb n="137" facs="#f0133"/>
+ein singender Wasserfall. Die wilden Tiere und vollends die Menschen gefielen ihm schon weniger. Aber er gedachte des großen Wortes, das einmal gesprochen ward: Wer zu mir gut ist, zu dem bin ich gut, und wer zu mir nicht gut ist, zu dem bin ich auch gut. Der Buddha gründete eine Akademie, »Die Stimme der Wälder«, und lehrte die jungen Inder sein, wie er selbst: sanft, leise und gütig. Um sie zu unterrichten, schrieb er aus der Tradition seines Volkes allerlei kleine und große Dichtungen und Gedichte. In denen sprach er von Schmetterlingen, Nachtigallen, Zedern, Sonnenauf- und untergängen, einem silbernen Mond, einem singenden Wasserfall. Diese Verse waren nun nichts Besonderes, sondern ganz und gar Indisch-Typisches. Schon tausend indische Dichter hatten solche und ähnliche Verse geschrieben. Aber da trug der Wind einige seiner Klänge wie verwehte Blüten von Indien nach Europa, und dort klangen sie einer kahlen, unnatürlichen, unmenschlichen Welt unerhört. In Europa hatte ein Wohltäter und Menschenfreund, der Erfinder des mörderischen Dynamits, eine Stiftung für Dichter gegründet: auf einige Millionen, die er zum Tode beförderte, kam immer einer, den er zum Leben erweckte, das heißt zur Berühmtheit und zum Ruhme, und dieser eine wurde, als seine Verse bekannt wurden, der Buddha, der sich aus Bescheidenheit Thakur nannte. Thakur war hocherfreut ob des tiefen Eindrucks, den seine sanfte, stille Lehre auf das wilde Europa machte. Er zog sich seinen seidenen Mantel an, strich sich seinen weißen Vollbart und begab sich nach Europa, um seinen Gedanken durch seine Persönlichkeit <pb n="138" facs="#f0134"/>
+mehr Nachdruck zu verleihen. Er sprach in der Universität Berlin, und die Pforten, die sich keinem großen deutschen Dichter geöffnet hatten, sprangen vor ihm auf. Er sprach von der Weisheit der Wälder zu Menschen, die nur von der Schlauheit der Maschinen wußten. Er predigte: Liebet eure Feinde! Und die Rapiere der Studenten klirrten jubelnd ineinander, und von ihren Lippen stieg die »Wacht am Rhein«. Er sagte: Wer zu mir gut ist, zu dem bin ich gut, wer zu mir nicht gut ist, zu dem bin ich auch gut. Und Geheimrat Roethe drückte ihm die Hand. Butterweck, der Vorsitzende im Aufsichtsrat der Nirvanabetriebsgesellschaft m.b.H., ließ sich ihm vorstellen und betonte, daß gleiche Interessen sie verbänden. Und er nahm ihn flüsternd beiseite: »Im Vertrauen, ich brauche zehntausend Buddhastatuen, sofort greifbar, Provision 15 Prozent – – –«. Und der Buddha, der kein Deutsch verstand, freute sich des tiefen Eindrucks, den er überall hinterließ. Mit einem weißen Vollbart <pb n="139" facs="#f0135"/>
+war er ausgezogen: und völlig bartlos traf er in Darmstadt ein, denn die begeisterten Backfische hatten ihm alle Haare zum Andenken ausgerauft. Auch trug er einen eleganten europäischen Gehrock, denn sein seidenes Gewand war im Dom von Berlin neben dem Kürassierhelm des Kaisers Wilhelm II. als Reliquie aufgestellt worden. In Darmstadt thronte der Buddha, bartlos und im Gehrock und mit vor Verwunderung leeren Augen, auf einem ausrangierten Thronsessel. Ein ehemaliger Großherzog machte seinen Maître de plaisir und Haushofmeister, und ein deutscher Philosoph mit blondem Vollbart, um den der Buddha ihn beneidete, hielt buddhistischen Cercle. Er hatte eine Pauke hinter sich stehen, auf die schlug er zuweilen und schrie: »Hier ist zu sehen der einzig wahre, einzig echte Buddha! Nicht zu verwechseln mit ähnlichen Unternehmungen! Es ist nur ein Buddha, und ich bin sein Prophet!« Und er schlug auf die Pauke. Der Buddha wußte nicht, was alles das zu bedeuten habe. Er lächelte hilflos und<pb n="140" facs="#f0136"/>
+ freundlich. Der blonde Philosoph hatte Einladungen in alle Gaue erlassen, wer den Buddha sehen möge, solle kommen, jeder dürfe eine Frage an ihn richten, und aus allen Gauen Deutschlands kamen sie und fragten den Buddha, der auf einem alten ausrangierten Thronsessel saß. Der eine fragte: »Wie wird der Dollar in acht Tagen stehen?« Der andere: »Soll ich Skodaaktien halten oder abstoßen?« Eine Dame der besten Gesellschaft fragte: »Ist mein Mann mir untreu?« Und eine Arbeiterfrau wollte das gleiche wissen. Ein Schriftsteller fragte: »Darf mein Roman auf hundert Auflagen rechnen?« Der Buddha wußte nicht, was er sagen sollte und sagte immer dasselbe, nämlich: »Das Geheimnis aller Dinge ist das Ja – Nein.« Der blonde Philosoph, der die Pauke schon für sich selbst trefflich zu schlagen wußte, schlug sie auch für seinen Meister mit Geschick. Kleine Kinder kamen, die streuten dem Buddha, wie ehemals ihrem Serenissimus, weiße Blumen. Ja, der Serenissimus selber streute ihm Blumen und Weihrauch. <pb n="141" facs="#f0137"/>
+Ein Männerchor sang das Lied von Andreas Hofer, vermutlich, weil auch Andreas Hofer, wie der Buddha und der blonde Philosoph, einen Vollbart getragen hatte. Dann aber stieg aus dem Munde des Volkes, welches weit hergekommen war, den Buddha zu sehen – sie waren gekommen mit Weib, Kind, Bier und Butterbrot –, wie improvisiert, das deutsche Lied zum sommerlichen Himmel: »Ich weiß nicht, was soll es bedeuten.« Aber der Buddha begriff noch immer nicht, was alles das bedeuten solle. Er sah nur die Verehrung, die dem Gott in seiner Person gezollt wurde. Er schloß die Augen und dachte an Schmetterlinge, Nachtigallen, Zedern, Sonnenauf- und untergänge, an den silbernen Mond, an den singenden Wasserfall. Der Gesang war beendet. Er hörte, wie der ehemalige Großherzog den Ton und Takt angab und die Menge brüllend einstimmte: »Seine Eminenz der Buddha – hurra! hurra! hurra!« Der Buddha schlug die Augen auf. Die Sonne war untergegangen, ein Nachtschmetterling <pb n="142" facs="#f0138"/>
+wiegte sich auf seiner zarten Hand. Er stand auf, strich sich mit seiner Hand über die Stirn und sagte: »Ich bin müde. Ich will schlafen gehen.« Und schritt die Stufen des Thronsessels hinab und schritt durch die Menge, die ihm ehrfürchtig Platz machte. Die Dämmerung war herniedergesunken. Er schritt durch den einsamen Park. Hier und da leuchtete eine weiße Statue. Vor einer derselben, auf deren Sockel das Wort Goethe stand, blieb der Buddha stehen. Er hob die Arme, dann sank er am Sockel nieder, und Träne auf Träne tropfte aus seinen leeren, nach innen gewandten Augen.</p>
+            <pb n="143" facs="#f0139"/>
+         </div>
+         <div xml:id="Klabund-d1e57668" type="chapter">
+            <head>Weibertreu</head>
+            <p>Meine Damen, ich hoffe, Sie werden mir die kleine Geschichte nicht übelnehmen, die ich Ihnen hier erzähle: denn sie ist ziemlich leichtfertig. Aber ich möchte Ihnen zur Beruhigung mitteilen, daß sie sich im fernen Indien zugetragen hat. In Europa gilt, wie allgemein bekannt, die Ehe als Sakrament, und noch nie hat in Europa eine Frau ihrem Gatten die Ehe gebrochen. – – –</p>
+            <p rendition="#et">Es war einmal ein Herr, namens Viradhara, und eine Dame, namens Kamadamini. Letztere war ein junges, zartes und fröhliches Geschöpf, während ihr Gatte Viradhara bereits jenes Alter erreicht hatte, von dem es im indischen Sprichwort heißt: ein alter Esel zieht nicht mehr. Kamadamini fand nun, daß es noch genug junge Esel gäbe, die ihren kleinen Korbwagen gerne ziehen möchten, sofern sie sie nur einspanne. Solches tat Kamadamini und geriet in einen Ruf, der selbst bis zu ihrem alten Gatten drang. <pb n="144" facs="#f0140"/>
+Der Gatte ward auf das heftigste bestürzt, als er solches vernahm, schwieg aber still und beschloß bei sich, sein Weibchen auf die Probe zu stellen. Er sprach eines Tages zu ihr: »Meine zärtliche Taube möge verzeihen, wenn ich sie einige Tage allein lasse, denn ich habe in Geschäften eine längere Reise anzutreten« – küßte sie auf die Stirn und verließ das Haus, um auf Umwegen wieder dahin zurückzukehren und durch das Fenster in das Zimmer einzusteigen und sich dort unter dem Bett zu verstecken. Kaum hatte Viradhara das Haus verlassen, als Kamadamini sich putzte und schmückte, kleine Kuchen buk in bester Butter und bestem Mehl und ihre Dienerin mit einer Einladung zu einem jungen Herrn sandte, der ihr schon öfter den kleinen Korbwagen gezogen hatte. Der junge Herr erschien auch mit vielen Freuden, sie aßen und tranken und begaben sich danach in das Zimmer und ins Bett.</p>
+            <p rendition="#et">Hierbei nun berührte Kamadamini mit einem Fuß zufällig den Leib ihres Gatten, <pb n="145" facs="#f0141"/>
+der versteckt lag, um sie auf die Probe zu stellen. Klug, wie die Frauen in allen bösen Dingen nun einmal sind – Verzeihung meine Damen: in Indien... –, wußte sie sofort, wer da liege, und um was es sich handle. Als nun ihr Liebhaber sie umarmen wollte, stieß sie ihn zurück und sprach: »Herr, Ihr dürft mich nicht berühren.« Der junge Herr erwiderte ärgerlich: »Ich bitte Euch, mir Auskunft zu geben, schöne Frau, warum in aller Welt Ihr mich sonst habet rufen lassen?« Sie sprach: »Ich besuchte vor Sonnenaufgang den Tempel der Kandika. Da erscholl plötzlich eine Stimme: 'Unglückliche, du wirst innerhalb dreier Monate Witwe sein'. – Ich erschrak bis ins tiefste Herz, denn ich liebe meinen Mann über alles in der Welt, selbst mehr als mein Leben oder meine Ehre. Und ich flehte: 'Göttin, gibt es ein Mittel, meinen Gatten vor dem Verhängnis zu retten?' Sie erwiderte: 'Ja. Ich will dir dieses Mittel nennen: Du mußt einen fremden Mann umarmen – so wird der deinem Gatten <pb n="146" facs="#f0142"/>
+bestimmte Tod auf diesen übergehen, er aber wird hundert Jahre alt werden.' – Wisset also, daß Ihr mich nun zwar umarmen dürft, daß aber der Tod von der Göttin Kandika Euch sicher ist...«</p>
+            <p rendition="#et">Da lächelte der junge Mann, denn er begann die junge Frau zu begreifen, indes der Ehemann sich in seinem Versteck hin und her wälzte wie ein Kater, den man krault. Und der junge Herr sprach: »Gern will ich den Tod auf mich nehmen, nachdem ich Euch habe umarmen dürfen«, und also umarmten und liebten sie einander, während der Gatte, ob des Opfers, das seine Gattin aus Liebe zu ihm brachte, Tränen der Rührung vergoß.</p>
+            <p rendition="#et">Als sich nun der junge Mann zum Fortgehen anschickte, da kroch auch der Gatte unterm Bett hervor. Tränen noch in den Wimpern, umarmte ihn, der höchlich erschrocken tat, und sprach: »Mein Lebensretter! Mein treuester Freund bis zu deinem unvermeidlichen Tode!« Und er küßte seine Frau und sprach: »Du bist die <pb n="147" facs="#f0143"/>
+treueste Frau, die je auf Erden wandelte. Sei gesegnet.«</p>
+            <p rendition="#et">Hiermit, meine Damen, ist meine Geschichte zu Ende, und ich bemerke, um jedem unliebsamen Mißverständnis vorzubeugen, daß so ungetreue Ehefrauen, so nichtsnutzige junge Burschen und so alberne alte Ehemänner natürlich nur in Indien vorzukommen pflegen.</p>
+            <pb n="148" facs="#f0144"/>
+         </div>
+         <div xml:id="Klabund-d1e57710" type="chapter">
+            <head>Das Schreibmaschinenbureau</head>
+            <p>»Geflügelte Hand«, Bureau für Schreibmaschinen-Arbeiten, stand unten an der Tür auf schwarzumrändertem Porzellanschild.</p>
+            <p rendition="#et">Ich läutete.</p>
+            <p rendition="#et">Lautlos öffnete sich die Tür, und ich stand im Bureau. Es war völlig schwarz tapeziert. Die Fensterläden waren geschlossen. Auf einem Schreibtisch brannte eine grüne elektrische Lampe.</p>
+            <p rendition="#et">Ein äußerst schwindsüchtiger Herr, der sich in dem grünen Lichte wie ein längst Gestorbener ausnahm, trat, hohl hustend, auf mich zu. Seine Lunge rasselte. Aus seinem Munde kroch fast körperlich, wie eine quallige Masse, fauliger Atem.</p>
+            <p rendition="#et">»Sie wünschen?« flüsterte der Schwindsüchtige.</p>
+            <p rendition="#et">»Ich möchte jemandem diktieren. Haben Sie Angestellte, die Sie mir empfehlen können?«</p>
+            <p rendition="#et">Der Schwindsüchtige schüttelte den Kopf.</p>
+            <p rendition="#et">»Ich habe keine Angestellten –«</p>
+            <p rendition="#et">
+               <pb n="149" facs="#f0145"/>
+»Und die geflügelte Hand? –«</p>
+            <p rendition="#et">» – bin ich selbst ...«</p>
+            <p rendition="#et">Er verneigte sich zeremoniell.</p>
+            <p rendition="#et">Ich sah unwillkürlich auf seine Hände; sie waren zart und schlank wie die Hände von Frauen. Sie allein schienen noch von Blut durchpulst, das bis zum Kopf nur noch in spärlichen Fasern und Rinnen gelangte.</p>
+            <p rendition="#et">Es war eine sonderbare Situation. Unleugbare Sympathien zogen mich zu diesem Verwesenden, dessen Gegenwart mich dennoch peinvoll bedrückte.</p>
+            <p rendition="#et">»Ich möchte Ihnen mein ... Leben diktieren,« sagte ich zögernd. »Radiotelegraphisch. Werden Sie folgen können? Ich bin noch jung. Ich stehe fiebernd in allen Flammen. Selbst meine Ruhe rast. Sehen Sie meine Augen! Sie prüfen die Dinge tausendstrahlig wie mit den Armen eines Polypen. Meine Fäuste zerschmettern die Sterne und die Türen, die sich mir nicht öffnen wollen. Ich glaube glücklich, etwas zu gelten. Den Enkeln soll mein Leben noch lebendig sein. Ich<pb n="150" facs="#f0146"/>
+ werde kurz vor meinem Tode bei Ihnen vorsprechen und das Manuskript korrigieren. Schreiben Sie! Ich zahle mit meinem Blut ...«</p>
+            <p rendition="#et">Der Dürre verbeugte sich, und ich ging. Das Leben wurde bunter mit jedem Tag. Die Jahreszeiten schaukelten wie Schmetterlinge an mir vorbei: silbern, grün, rot und golden. Eine Kette von Frauen schlang sich um meinen Schlaf.</p>
+            <p rendition="#et">Taten türmte ich. Mein Wille wirkte. Bis an den Thron scholl mein Ruhm. Orden bewiesen, daß ich für Ordnung warb. Geld, daß ich galt. Ruhm, daß ich rühmte. Das Volk klatschte den Herren und Helden, die meinem Griffel entgeistert über die Bühne schwankten, begeistert zu. Schon lasen ehrfürchtig er starrte Schüler in den Schullesebüchern meine moralischen Geschichten, meine göttlichen Gedichte. An den Universitäten begann man Vorlesungen über meine Werke zu halten. Ich alterte zusehends.</p>
+            <p rendition="#et">Als ich meine letzte Stunde nahen fühlte, begab ich mich, mühselig am Stocke dem <pb n="151" facs="#f0147"/>
+Auto entsteigend, in das Bureau der »Geflügelten Hand.«</p>
+            <p rendition="#et">Der Dürre empfing mich gemessen lächelnd und heiser hustend.</p>
+            <p rendition="#et">»Die Arbeit, die ich Ihnen aufgab«, sagte ich und sank mühselig in einen Stuhl.</p>
+            <p rendition="#et">»Ich habe wenig Arbeit mit Ihnen gehabt. Weniger als ich vermutete. Hier ist das Manuskript.« Und er reichte mir einen winzigen Zettel, darauf standen diese Worte: »Er war ein Mensch, nicht weniger, nicht mehr. Er starb, bevor er starb. Möge er leben, nachdem er lebte.«</p>
+            <p rendition="#et">Ich schrie, zermalmt von den wenigen Worten: »Siebzig Jahre bin ich alt geworden und schrieb siebzig Bücher: ist dies das Resultat meiner Rechnung? der Wert meines Wesens?«</p>
+            <p rendition="#et">Da strich der Dürre mit knochiger Hand über meine Stirn: »Beruhigen Sie sich, bitte, mein Bester. Millionen gehen mit einem leeren, weißen Zettel zu Grab. Bleibt nur ein Wort von Ihnen für die <pb n="152" facs="#f0148"/>
+Ewigkeit, so leben Sie unsterblich im Liede des menschlichen Leides ...«</p>
+            <p rendition="#et">Ich lehnte den kahlen Kopf an das Polster des Stuhles: »Was habe ich zu zahlen, bitte? –«</p>
+            <p rendition="#et">Maßlos übermüdet fiel ich, weinend wie ein Kind, trostlos erschüttert in den letzten Schlaf.</p>
+            <p rendition="#et">Ich bemerkte noch, wie der Dürre mir das Herz aus dem Leibe, die Augen aus dem Kopfe schnitt und wieder eintönig auf seiner Maschine zu klappern begann.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Ein Vade mecum für den Hrn. Sam Gotthl. Lange. Pastor in Laublingen</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:13Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/2000526538X</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Ästhetische Schriften/Ein Vade mecum für den Hrn. Sam Gotthl. Lange. Pastor in Laublingen</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rjvr.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E680-8</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 3, München 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 3</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">587 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1972</date>
+                  <date type="firstPublication">1754</date>
+                  <date type="firstPublication" subtype="clariah">1754</date>
+                  <date type="firstPublication" subtype="zeno">1754</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1729"
+                        notAfter="1754"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e88932">Erstdruck: Berlin (Haude und Spener) 1754.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Ästhetische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Ästhetik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Gotthold Ephraim Lessing</p>
+            <p rend="h2">Ein</p>
+            <p rend="h2">VADE MECVM</p>
+            <p rend="h2">für den</p>
+            <p rend="h2">HRN. SAM. GOTTH. LANGE</p>
+            <p rend="h2">Pastor in Laublingen</p>
+            <p rend="h4">in diesem Taschenformate ausgefertiget von GOTTH. EPHR. LESSING</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Lessing-Gotthol-d1e88932">
+            <p>
+               <pb n="547" facs="#f0001"/>
+Mein Herr Pastor,</p>
+            <p>Ich weiß nicht, ob ich es nötig habe, mich viel zu entschuldigen, daß ich mich mit meiner Gegenantwort ohne Umschweif an Sie selbst wende. Zwar sollte ich, nach Maßgebung Ihrer Politik, einem dritten damit beschwerlich fallen; wenigstens demjenigen Unbekannten, dem es gefallen hat, meine Kritik über Ihren verdeutschten Horaz in dem Hamburgischen Korrespondenten bekannter zu machen. Allein ich bin nun einmal so; was ich den Leuten zu sagen habe, sage ich ihnen unter die Augen, und wann sie auch darüber bersten müßten. Diese Gewohnheit, hat man mich versichert, soll so unrecht nicht sein; ich will sie daher auch jetzt beibehalten.</p>
+            <p rendition="#et">Um Ihnen, mein Herr Pastor, gleich Anfangs ein vorläufiges Kompliment zu machen, muß ich Ihnen gestehen, daß es mir von Herzen leid ist, Ihrer in dem zweiten Teile meiner Schriften erwähnt zu haben. Zu meiner Entschuldigung muß ich Ihnen sagen, was mich dazu bewog. Sie standen, und stehen noch, in dem Rufe eines großen Dichters, und zwar eines solchen, dem es am ersten unter uns gelungen sei, den öden Weg jenes alten Unsterblichen, des Horaz, zu finden, und ihn glücklich genug zu betreten. Da Sie also eine Übersetzung Ihres Urbildes versprochen hatten, so vermutete man mit Recht von Ihnen ein Muster, wie man den ganzen Geist dieses Odendichters in unsre Sprache einweben könne. Man hoffte, Sie würden mit einer recht tiefen kritischen Kenntnis seiner Sprache, einen untrüglichen Geschmack, und eine glücklich kühne Stärke des deutschen Ausdrucks verbinden. Ihre Übersetzung erschien; und ich sage es noch einmal, daß ich sie in der Versicherung, unüberschwengliche Schönheiten zu finden, in die Hand genommen habe. Wie schändlich aber ward ich betrogen! Ich wußte vor Verdruß nicht auf wen ich erzürnter sein sollte, ob auf Sie, oder auf mich: auf Sie, daß Sie meine Erwartung so getäuscht hatten; oder auf mich, daß ich mir so viel von Ihnen versprochen hatte. Ich klagte in mehr als einem Briefe an meine Freunde darüber, und zum <pb n="548" facs="#f0002"/>
+Unglücke behielt ich von einem, den ich ausdrücklich deswegen schrieb, die Abschrift. Diese fiel mir bei Herausgebung des zweiten Teils meiner Schriften wieder in die Hände, und nach einer kleinen Überlegung beschloß ich Gebrauch davon zu machen. Noch bis jetzt, dachte ich bei mir selbst, hat niemand das Publikum für diese Mißgeburt gewarnet; man hat sie so gar angepriesen. Wer weiß in wie viel Händen angehender Leser des Horaz sie schon ist; wer weiß wie viele derselben sie schon betrogen hat? Soll Herr Lange glauben, daß er eine solche Quelle des Geschmacks mit seinem Kote verunreinigen dürfe, ohne daß andre, welche so gut als er daraus schöpfen wollen, darüber murren? Will niemand mit der Sprache heraus? – – – Und kurz, mein Brief ward gedruckt. Bald darauf ward er in einem öffentlichen Blatte wieder abgedruckt; Sie bekommen ihn da zu lesen; Sie erzürnen sich; Sie wollen darauf antworten; Sie setzen sich und schreiben ein Paar Bogen voll; aber ein Paar Bogen, die so viel erbärmliches Zeug enthalten, daß ich mich wahrhaftig, von Grund des Herzens schäme, auf einen so elenden Gegner gestoßen zu sein.</p>
+            <p rendition="#et">Daß Sie dieses sind, will ich Ihnen, mein Herr Pastor, in dem ersten Teile meines Briefes erweisen. Der zweite Teil aber soll Ihnen dartun, daß Sie noch außer Ihrer Unwissenheit, eine sehr nichtswürdige Art zu denken verraten haben, und mit einem Worte, daß Sie ein Verleumder sind. Den ersten Teil will ich wieder in zwei kleine absondern: Anfangs will ich zeigen, daß Sie die von mir getadelten Stellen nicht gerettet haben, und daß sie nicht zu retten sind; zweitens werde ich mir das Vergnügen machen, Ihnen mit einer Anzahl neuer Fehler aufzuwarten. – – Verzeihen Sie mir, daß ich in einem Briefe so ordentlich sein muß!</p>
+            <p rendition="#et">Ein Glas frisches Brunnenwasser, die Wallung Ihres kochenden Geblüts ein wenig niederzuschlagen, wird Ihnen sehr dienlich sein, ehe wir zur ersten Unterabteilung schreiten. Noch eines Herr Pastor! – – Nun lassen Sie uns anfangen.</p>
+            <p>
+               <hi rendition="#i">Sublimi feriam sidera vertice.</hi>
+            </p>
+            <p>Ich habe getadelt, daß <hi rendition="#i">vertex</hi> hier durch Nacken ist übersetzt worden. Es ist mit Fleiß geschehen, antworten Sie. So? Und also haben Sie mit Fleiß etwas abgeschmacktes gesagt? Doch lassen Sie uns Ihre Gründe betrachten. Erstlich entschuldigen Sie sich damit: Dacier habe auch gewußt, was <hi rendition="#i">vertex</hi> heiße, und habe es gleichwohl durch Stirne übersetzt. – Ist denn aber Stirn und Nacken einerlei? Dacier verschönert einiger maßen das Bild; Sie aber verhunzen es. Oder glauben Sie im Ernst, daß man mit dem Nacken in der Höhe an etwas anstoßen kann, ohne ihn vorher gebrochen zu haben? Dacier über dieses mußte <hi rendition="#i">Stirne</hi> setzen, und wissen Sie warum? Ja, wenn es nicht schiene, als ob Sie von dem Französischen eben so wenig verstünden, als von dem Lateinischen, so traute ich es Ihnen zu. Lernen Sie also, Herr Pastor, was Ihnen in Laublingen freilich niemand lehren kann; daß die französische Sprache kein eignes Wort hat, der Lateiner <hi rendition="#i">vertex</hi> oder unser <hi rendition="#i">Scheitel</hi> auszudrücken. Wenn sie es ja ausdrücken will, so muß sie sagen: sommet de la tête. Wie aber würde dieses geklungen haben, wenn es Dacier in einer nachdrücklichen Übersetzung eines Dichters hätte brauchen wollen? Daß meine Anmerkung ihren Grund habe, können Sie schon daraus sehen, weil er nicht einmal in der wörtlichen Übersetzung, die er bei abweichenden Stellen unter den Text zu setzen gewohnt ist, das sommet de la tête hat brauchen können, sondern bloß und allein sagen muß: de ma tête glorieuse je fraperai les astres. Sind Sie nun in gleichem Falle? Ist <hi rendition="#i">Nacken</hi> etwa kürzer, oder nachdrücklicher, oder edler als <hi rendition="#i">Scheitel</hi>? – – Lassen Sie uns Ihre zweite Ursache ansehen. Ich habe, sagen Sie, mehr nach dem Verstande, als nach den Worten übersetzt, – – (in der Vorrede sagen Sie gleich das Gegenteil) – und habe meinem Horaze auf das genauste nachfolgen wollen. Sie setzen sehr witzig hinzu: ich sollte mir ihn nicht als ein Cartesianisches Teufelchen vorstellen, welches im Glase schnell aufwärts fährt, oben anstößt, und die Beine gerade herunter hangen läßt. Wen machen Sie denn damit lächerlich <pb n="550" facs="#f0004"/>
+Herr Pastor? Mich nicht. Wenn Horaz nicht sagen will: <hi rendition="#i">Dann werde ich für stolzer Freude auffahren, und mit erhabnem Scheitel an die Sterne stoßen;</hi> was sagt er denn? Wir sprechen in gemeinem Leben: für Freuden mit dem Kopfe wider die Decke springen. Veredeln Sie diesen Ausdruck, so werden Sie den Horazischen haben. Eine proverbialische Hyperbel haben alle Ausleger darinne erkannt, und Dacier selbst führt die Stelle des Theocritus:</p>
+            <p>Ες ουρανον αμμιν αλευμαι</p>
+            <p>als eine ähnliche an. Hat sich dieser nun auch den Horaz als ein Glasmännchen vorgestellt? Doch Sie finden ganz etwas anders in den streitigen Worten, und sehen hier den Dichter, wie er an dem Sternenhimmel schwebet und herab schauet – – O daß er doch auf Sie herab schauen, und sich wegen seiner Schönheiten mit Ihnen in ein Verständnis einlassen möchte! – – Ich soll mir ihn nicht als ein Cartesianisches Teufelchen einbilden, und Sie, Herr Pastor, – – Sie machen ihn zu einem Diebe am Galgen, oder wenigstens zu einem armen Terminusbilde, welches mit dem Nacken ein Gebälke tragen muß. Ich sage mit Bedacht tragen, weil ich jezo gleich auf einen Verdacht komme, der nicht unwahrscheinlich ist. Hui, daß Sie denken <hi rendition="#i">feriam</hi> heiße: ich will tragen; weil Sie sich erinnern von feram einmal ein gleiches gehört zu haben? Wenn das nicht ist, so können Sie unmöglich anders als im hitzigen Fieber auf den Nacken gekommen sein.</p>
+            <p>
+               <hi rendition="#i">galeaeque leves</hi>
+            </p>
+            <p>Sie sind ein possierlicher Mann, mein Herr Gegner! Und also glauben Sie es noch nicht, daß levis, wenn die erste Sylbe lang ist, allezeit <hi rendition="#i">glatt</hi> oder <hi rendition="#i">blank</hi> heißt? Und also meinen Sie wirklich, daß es bloß auf meinen Befehl so heißen solle? Wahrhaftig Sie sind listig! Die Gebote der Grammatik zu meinen Geboten zu machen, damit Sie ihnen nicht folgen dürfen! Ein Streich, den ich bewundere! Doch, Scherz bei Seite; haben Sie denn niemals gehört, wie l;ēvis nach der Meinung großer Stylisten eigentlich solle geschrieben werden? Haben Sie nie gehört, <pb n="551" facs="#f0005"/>
+daß alle Diphthonge lang sind? Ich vermute, daß in Laublingen ein Schulmeister sein wird, welcher auch ein Wort Latein zu verstehen denkt. Erkundigen Sie sich bei diesem, wenn ich Ihnen raten darf. Sollte er aber eben so unwissend sein, als Sie; so will ich kommen und die Bauern aufhetzen, daß sie ihm Knall und Fall die Schippe geben. Ich weiß auch schon, wen ich ihnen zum neuen Schulmeister vorschlagen will. Mich. Ihr Votum Herr Pastor habe ich schon. Nicht? Alsdann wollen wir wieder gute Freunde werden, und gemeinschaftlich Ihre Übersetzung rechtschaffen durchackern. Vor der Hand aber können Sie, auf meine Gefahr, die <hi rendition="#i">leichten</hi> Helme immer in <hi rendition="#i">blanke</hi> verwandeln: Denn was Ihre Ausflucht anbelangt, von der weiß ich nicht, wie ich bitter genug darüber spotten soll. – Horaz, sagen Sie, kehrt sich zuweilen nicht an das Sylbenmaß, so wenig als an die Schönheit der Wortfügung. – – Kann man sich etwas seltsameres träumen lassen? Horaz muß Schnitzer machen, damit der Herr Pastor in Laublingen keine möge gemacht haben. Doch stille! es steht ein Beweis dabei. In der 19ten Ode des zweiten Buchs, soll Horaz noch einmal die erste Sylbe in levis lang gebraucht haben, ob es schon daselbst offenbar leicht heiße:</p>
+            <p>Disjecta non levi ruina.</p>
+            <p>– – Allein, wenn ich bitten darf, lassen Sie den Staub weg, den Sie uns in die Augen streuen wollen. Schämen Sie sich nicht, eine fehlerhafte Lesart sich zu Nutze zu machen? Es ist wahr, wie Sie den Vers anführen, würde ich bei nahe nicht wissen, was ich antworten sollte. Zum guten Glücke aber kann ich unsern Lesern sagen, daß die besten Kunstrichter für levi hier leni lesen, und daß man ihnen notwendig beifallen muß. Ich berufe mich deswegen von Herr Langen dem Übersetzer, auf Herr Langen den Dichter. Dieser soll mir sagen, ob nicht <hi rendition="#i">non levis ruina ein nicht leichter Fall</hi> für den Horaz ein sehr gemeiner Ausdruck sein würde? Und ob das Beiwort <hi rendition="#i">non lenis ein nicht sanfter</hi> ihm nicht weit anständiger sei? Sie setzen mir die besten Handschriften entgegen. Welche haben Sie denn gesehen, mein Herr Pastor? War keine von denen darunter, von welchen Lambinus ausdrücklich<pb n="552" facs="#f0006"/>
+ sagt, <hi rendition="#i">leni</hi> habent aliquot libri manuscripti? Und wissen Sie denn nicht, daß auch in den allerbesten die Verwechslung des <hi rendition="#i">n</hi> in <hi rendition="#i">u</hi>, und umgekehrt, nicht selten ist? Überlegen Sie dieses, vielleicht sagen Sie endlich auch hier: als ich <hi rendition="#i">recht genau</hi> zu sahe, so fand ich, daß ich Unrecht hatte. – – – Ich hatte hier die Feder schon abgesetzt, als ich mich besann, daß ich zum Überflusse Ihnen auch Autoritäten entgegen setzen müsse. Bei einem Manne, wie Sie, pflegen diese immer am besten anzuschlagen. Hier haben Sie also einige, die mir nachzusehen die wenigste Mühe gekostet haben. Lambinus schreibt laeves. Mancinellus erklärt dieses Wort durch splendentes; Landinus durch politae und setzt mit ausdrücklichen Worten hinzu: leve cum prima syllaba correpta sine pondere significat: sin autem prima syllaba prodocta profertur significat <hi rendition="#i">politum</hi>. Beruht dieser Unterscheid nun noch bloß auf meinem Befehle? Hermannus Figulus umschreibt die streitige Stelle also: qui horrendo militum concurrentium fremitu et formidabili armorum strepitu <hi rendition="#i">ac fulgore</hi> delectatur. Lassen Sie uns noch sehen, wie es Dacier übersetzt; er, der so oft Ihr Schild und Schutz sein muß: qui n'aimés à voir que l'eclat de casques. In der Anmerkung leitet er levis von λειος her und erklärt es durch polies und luisantes. Habe ich nun noch nicht Recht? O zischt den Starrkopf aus!</p>
+            <p>
+               <hi rendition="#i">Vina liques.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Zerlaß den Wein.</hi> Ich habe diesen Ausdruck getadelt, und mein Tadel besteht noch. Mein ganzer Fehler ist, daß ich mich zu kurz ausgedruckt, und Sie, mein Herr Lange, für scharfsichtiger gehalten habe, als Sie sind. Sie bitten mich die Rute wegzulegen. Vielleicht, weil Sie zum voraus sehen, daß Sie sie hier am meisten verdienen würden. Ihre Antwort beruht auf vier Punkten; und bei allen vieren werde ich sie nötig haben. Man wird es sehen.</p>
+            <p rendition="#et">1. Sie sagen, liquare heiße zerlassen und zerschmelzen; beides aber sei nicht einerlei. Beides aber, sage ich, ist einerlei, weil beides in dem Hauptbegriffe <hi rendition="#i">flüssig machen</hi> liegt. Ein <pb n="553" facs="#f0007"/>
+Fehler also! Der andere Fehler ist eine Bosheit, weil Sie wider alle Wahrscheinlichkeit meine Kritik so aufgenommen haben, als ob ich verlangte, daß Sie vinum liquare durch <hi rendition="#i">den Wein schmelzen</hi> hätten geben sollen. Sie fragen mich, ob es in den Worten des Plinius alvum liquare auch<hi rendition="#i"> schmelzen</hi> heiße? Ich aber tue die Gegenfrage: heißt es denn <hi rendition="#i">zerlassen</hi>? Die Hauptbedeutung ist <hi rendition="#i">flüssig</hi>, und folglich auch, klar machen; wie ich schon gesagt habe.</p>
+            <p rendition="#et">2. Nun wollen Sie, Herr Pastor, gar Scholiasten anführen, und zwar mit einem so frostigen Scherze, daß ich beinahe das kalte Fieber darüber bekommen hätte. Den ersten Scholiasten nennen Sie: Acris. <hi rendition="#i">Acris</hi>? Die Rute her! Die Rute her! Er heißt <hi rendition="#i">Acron</hi>, kleiner Knabe! Laß doch du die Scholiasten zufrieden. – – Den andern nennen Sie, Herr Pastor, Landin. <hi rendition="#i">Landin</hi>? Da haben wirs! Merkts, ihr Quintaner, indem ich es dem Herrn Lange sage, daß man keinen Kommentator aus dem 16ten Jahrhunderte einen Scholiasten nennen kann. Es wär eben so abgeschmackt, als wenn ich den Joachim Lange zu einem Kirchenvater machen wollte.</p>
+            <p rendition="#et">3. Ich weiß es, Herr Pastor, daß bei liquefacere in dem Wörterbuche zerlassen steht. Es ist aber hier von liquare und nicht liquefacere die Rede. Doch, wenn Sie es auch bei jenem gefunden haben, so merken Sie sich, daß nur unverständige Anfänger ohne Unterscheid nach dem Wörterbuche übersetzen. Bei vertex hätten Sie dieses tun sollen, und nicht hier; hier wo es, wenn Sie anders deutsch reden wollten, durchaus nicht anging.</p>
+            <p rendition="#et">4. Gut; Sanadon soll Recht haben; vinum liquare soll den Wein filtrieren, oder ihn durchsäugen heißen; ob gleich noch etwas mehr dazu gehört. Ich weiß es, daß es dieses heißt, zwar nicht aus dem Sanadon, sondern aus dem Columella und Plinius, von welchem letztern Sie, mein Herr Lange, nichts mehr zu wissen scheinen, als was alvum liquare heißt. Eine Belesenheit, die einen Apothekerjungen neidisch machen mag! – – Doch worauf ging denn nun meine Kritik? Darauf, daß kein Deutscher bei dem Worte <hi rendition="#i">zerlassen</hi> auf eine Art von Filtrieren denken wird, und daß ein jeder, dem ich sage, ich habe den Wein zerlassen, glauben muß, er sei vorher <pb n="554" facs="#f0008"/>
+gefroren gewesen. Haben Sie dieses auch gemeint, Herr Pastor? Beinahe wollte ich das juramentum credulitatis darauf ablegen! Denn was Sie verdächtig macht ist dieses, daß die Ode, in welcher die streitige Stelle vorkommt, augenscheinlich zur Winterszeit muß sein gemacht worden. Diesen Umstand haben Sie in Gedanken gehabt, und vielleicht geglaubt, daß Italien an Lappland grenzt, wo wohl gar der Brandewein gefrührt. – – In der Geographie sind Sie ohnedem gut bewandert, wie wir unten sehen werden. – – Sie lassen also den Horaz der Leuconoe befehlen, ein Stück aus dem Fasse auszuhauen, und es an dem Feuer wieder flüssig zu machen. So habe ich mir Ihren Irrtum gleich Anfangs vorgestellt, und in der Eil wollte mir keine andre Stelle aus einem Alten, als aus dem Martial, beifallen, die Sie ein wenig aus dem Traume brächte. Was sagen Sie nun? Kann ich die Rute weglegen? Oder werden Sie nicht vielmehr mit Ihrem Dichter beten müssen:</p>
+            <p>– – – neque</p>
+            <p>Per nostrum patimur scelus</p>
+            <p>Iracunda Jovem ponere fulmina.</p>
+            <p>Zwar, das möchte zu erhaben sein; beten Sie also nur lieber Ihr eignes Verschen.</p>
+            <p>
+               <hi rendition="#i">O wie verfolgt das Glück die Frommen!</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Hier bin ich garstig weggekommen.</hi>
+            </p>
+            <p>– – Bei Gelegenheit sagen Sie mir doch, auf welcher Seite Ihrer Horazischen Oden stehen diese Zeilen? Sie machen Ihnen Ehre!</p>
+            <p>
+               <hi rendition="#i">Gravesque principum amicitiae.</hi>
+            </p>
+            <p>Was soll ich von Ihnen denken, Herr Pastor? Wenn ich Ihnen zeige, daß Sie der einzige weise Sterbliche sind, der hier unter <hi rendition="#i">graves</hi> etwas anders als <hi rendition="#i">schädlich</hi> verstehen will, was werden Sie alsdenn sagen? Lassen Sie uns von den französischen Übersetzern anfangen; sie sind ohnedem, wie ich nunmehr wohl sehe, Ihr einziger Stecken und Stab gewesen. Ich habe <pb n="555" facs="#f0009"/>
+aber deren nicht mehr als zwei bei der Hand; den Dacier und den Batteux. Jener sagt vous nous decouvrés le secret des funestes ligues des Princes: dieser sagt fast mit eben diesen Worten: les ligues funestes des Grands. – – Betrachten Sie nunmehr alte und neue Commentatores. Acron setzt für graves, perniciosas aut infidas; Mancinellus erklärt es durch noxias. Hermannus Figulus setzt zu dieser Stelle: puta societatem Crassi, Pompeji et Caesaris; qua orbis imperium occuparunt, afflixerunt atque perdiderunt. Chabotius fügt hinzu: amicitiae Principum istorum fictae et simulatae erant, ideo et ipsis inter se et pop. Roman.<hi rendition="#i"> perniciosae</hi> fuerunt. Rodellius endlich in seiner für den Dauphin gemachten Umschreibung gibt es durch perniciosas procerum coitiones – – Sagen Sie mir, ist es nun noch bloß <hi rendition="#i">Lessingisch</hi>? Sie erweisen einem jungen Kritiker, wie Sie ihn zu nennen pflegen, allzuviel Ehre, die Erklärungen so verdienstvoller Männer nach ihm zu benennen. Lassen Sie sich noch von ihm sagen, daß Horaz hier ohne Zweifel auf einen Ausspruch des jüngern Cato zielet, nach welchem er behauptet: non ex inimicitiis Caesaris atque Pompeji sed ex ipsorum et Crassi societate amica omnia Reipubl. profecta esse mala – – Ich bin des Aufschlagens müde; wann Sie aber mehr Zeit dazu haben als ich, so fordre ich Sie hiermit auf, mir denjenigen Ausleger zu nennen, welcher auf Ihrer Seite ist. Ihre Entschuldigung von der Bescheidenheit des Horaz ist eine Grille, weil der Dichter nicht das zweite sondern das erste Triumvirat will verstanden wissen. Daß gravis eigentlich <hi rendition="#i">schwer</hi> heiße, brauche ich von Ihnen nicht zu lernen und ich würde es sehr wohl zufrieden gewesen sein, wenn Sie schwer gesetzt hätten. Allein Sie setzen <hi rendition="#i">wichtig</hi> und das ist abgeschmackt. Bei <hi rendition="#i">schweren Bündnüssen</hi> hätte man wenigstens noch so viel denken können, daß sie der Republik schwer gefallen wären; bei Ihrem Beiworte hingegen, läßt sich ganz und gar nichts denken. Überhaupt muß Ihnen das <hi rendition="#i">gravis</hi> ein sehr unbekanntes Wort gewesen sein, weil Sie es an einem andern Orte gleichfalls falsch übersetzen. Ich meine die zweite Ode des ersten Buchs, wo Sie<hi rendition="#i"> graves Persae</hi> durch <hi rendition="#i">harte Perser</hi> geben. Diese Übersetzung ist ganz wider den Sprachgebrauch, nach welchem die Perser eher ein <hi rendition="#i">
+                  <pb n="556" facs="#f0010"/>
+weichliches</hi> als ein <hi rendition="#i">hartes</hi> Volk waren. In eben dieser Ode sagt Horaz <hi rendition="#i">grave seculum Pyrrhae</hi> welches Sie ein klein wenig besser durch <hi rendition="#i">der Pyrrha betrübte</hi> Zeit ausdrücken. Was erhellet aber aus angeführten Orten deutlicher als dieses, daß es dem Dichter etwas sehr gemeines sei, mit dem Worte <hi rendition="#i">gravis</hi> den <hi rendition="#i">Begriff</hi>, schädlich, schrecklich, fürchterlich zu verbinden? Ohne Zweifel glauben Sie dem Dacier mehr als mir; hören Sie also was er sagt, und schämen Sie sich auch hier Ihres Starrkopfs: il apelle les Perses <hi rendition="#i">graves</hi>, c'est à dire terribles, redoutables, à cause du mal qu'ils avoient fait aux Romains, comme il a deja apellé le siecle de Pyrrha, <hi rendition="#i">grave</hi>, par la même raison. An einem andern Orte sagt eben dieser Ausleger, daß gravis so viel als horribilis wäre; ein Beiwort welches Horaz den Medern, so wie jenes den Persern gibt.</p>
+            <p>
+               <hi rendition="#i">Cujus octavum trepidavit aetas</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Claudere lustrum.</hi>
+            </p>
+            <p>Hier weiß ich nicht, wo ich zuerst anfangen soll, Ihnen alle Ihre Ungereimtheiten vorzuzählen. Sie wollen mir beweisen, daß trepidare an mehr als einer Stelle, <hi rendition="#i">zittern</hi> heiße, und verlangen von mir, ich solle Ihnen die Ausgabe des Cellarius angeben, in welcher<hi rendition="#i"> eilen</hi> stehe. Sagen Sie mir, Herr Pastor, führen Sie sich hier nicht als einen tückischen Schulknaben auf? Als einen Schulknaben, daß Sie verlangen, Ihnen aus dem Cellarius mehr zu beweisen, als darinne stehen kann; als einen tückischen, daß Sie meine Worte verdrehen, als ob ich gesagt hätte, daß trepidare überall eilen heiße. Sehen Sie doch meinen Brief nach: wie habe ich geschrieben? Trepidare, sind meine Worte, kann <hi rendition="#i">hier</hi> nicht zittern heißen; es heißt nichts als eilen. Verstehen Sie denn nicht, was ich mit dem <hi rendition="#i">hier</hi> sagen will? Ein Quintaner weiß es ja schon, wenn er dieses Wörtchen lateinisch durch h. l. ausgedrückt findet, daß eine nicht allzugemeine Bedeutung damit angemerkt werde. Doch was predige ich Ihnen viel vor? Sie müssen mit der Nase darauf gestoßen sein. Nun wohl! Erst will ich Ihnen zeigen, daß trepidare gar oft, auch bei andern Schriftstellern eilen heiße;<pb n="557" facs="#f0011"/>
+ und zum andern, daß es hier nichts anders heiße. Schlagen Sie also bei dem Virgil das neunte Buch der Äneis nach; wie heißt der 114. Vers?</p>
+            <p>Ne trepidate meas, Teucri, defendere naves.</p>
+            <p>Was heißt es nun hier? Eilen. Haben Sie den Julius Cäsar gelesen? haben Sie nicht darinne gefunden, daß dieser trepidare und concursare mit einander verbindet? Was muß es da heißen? Eilen. Drei Zeugen sind unwidersprechlich. Schlagen Sie also noch in dem Livius nach, so werden Sie, wo ich nicht irre, in dem 23ten Buche finden: cum in sua quisque ministeria discursu trepidat. Trepidare kann also <hi rendition="#i">eilen</hi> heißen, und heißt auch nichts anders in der streitigen Stelle des Horaz. Alle Ausleger, so viel ich deren bei der Hand habe, sind auf meiner Seite. Acron erklärt es durch festinavit: Landinus durch properavit. Chabotius setzt hinzu verbum est celeritatis: Lambinus fügt bei: usus est verbo ad significandum celerrimum aetatis nostrae cursum aptissimo. Noch einen kann ich anführen, den Jodocus Badius, welcher sich mit dem Scholiasten des Worts festinavit bedienet. Wollen Sie einen neuern Zeugen haben, so wird Ihnen vielleicht Dacier anstatt aller sein können. Sie scheinen seine Übersetzung nur immer da gebraucht zu haben, wo sie zweifelhaft ist. Hätten Sie doch auch hier nachgesehen, so würden Sie gefunden haben, daß er es vollkommen nach meinem Sinne gibt: un homme dont l'age s'est haté d'accomplir le huitieme lustre – – Hier könnte ich abbrechen und meine Kritik wäre erwiesen genug, wenn ich nicht noch auf Ihre seltsame Entschuldigungen etwas antworten müßte. Ich hatte gesagt, es müsse deswegen hier eilen heißen, weil man in dem 40ten Jahre schwerlich schon zittere. Hierauf aber antworten Sie ganz eifrig: Was? ist das so etwas seltsames, daß ein Trinker, wie Horaz, der auch nicht keusch lebte, im 40ten Jahre zittert? – – Mit Ihrer Erlaubnis, Herr Pastor, das ist nicht Ihr Ernst. Oben lachte ich schon über Sie, daß Sie, sich zu entschuldigen, den Horaz zu einem Dichter machen, welcher sich weder um das Sylbenmaß, noch um die Wortfügung bekümmert. Was soll ich nun hier tun, hier, wo Sie ihn, sich zu retten, <pb n="558" facs="#f0012"/>
+gar zu einem Trunkenbolde und Hurer machen, welcher in seinem vierzigsten Jahre die Sünden seiner Jugend büßen muß? Wann Sie von dem guten Manne so schlecht denken, so ist es kein Wunder, daß er Sie mit seinem Geiste verlassen hat. Daß dieses wirklich müsse geschehen sein, zeigen Sie gleich einige Zeilen darauf, indem Sie auf eine recht kindische Art fragen: Was denn das <hi rendition="#i">eilen</hi> hier sagen könne? Ob Horaz schneller 40 Jahr alt geworden, als es von Rechts wegen hätte sein sollen? Ob sein achtes Lustrum weniger Wochen gehabt, als das siebende? Wahrhafte Fragen eines Mannes, bei dem die gesunde Vernunft Abschied nehmen will! Sind Sie, Herr Pastor, in der Tat noch eben der, welcher in seinen Horazischen Oden so vielen leblosen Dingen Geist und Leben gegeben, so manchem notwendigen Erfolge Vorsatz und Absicht zugeschrieben, so manchen Schein für das Wesen genommen, kurz alle poetischen Farben so glücklich angebracht hat? Wie kann Sie jetzt ein Ausdruck befremden, der wenn er auch uneigentlich ist, doch unmöglich gemeiner sein kann? Das Jahr eilt zu Ende; die Zeit eilt herbei; sind Redensarten, die der gemeinste Mann im Munde führet. Aber wohin verfällt man nicht, wenn man sich, in den Tag hinein, ohne Überlegung verteidigen will! Die Rechthaberei bringt Sie so gar so weit, daß Sie sich selbst an einem andern Orte eines Fehlers beschuldigen, um Ihren Fehler nur hier gegen mich zu retten. Was ich tadle muß recht sein, und was ich lobe muß falsch sein. Ich hatte nämlich Ihre eigene Übersetzung der Stelle:</p>
+            <p>Sed vides quanto trepidet tumultu</p>
+            <p>Pronus Orion</p>
+            <p>wider Sie angeführt, wo Sie das trepidare schlecht weg durch eilen übersetzt haben. Allein Sie wollen lieber das Zittern weggelassen haben, als mir Recht geben. <hi rendition="#i">Pronus trepidat</hi>, sagen Sie, heißt: <hi rendition="#i">er eilt zitternd hinunter. Ich habe das Wort pronus</hi> – – (Hier mag ich mich in Acht nehmen, daß ich für Lachen nicht einen Klecks mache) – – <hi rendition="#i">durch eilen ausgedrückt, das Zittern habe ich weggelassen, weil ich zu schwach war das schöne Bild vollkommen nachzumalen.</hi> Und also haben Sie in der Tat pronus durch eilen ausgedrückt? <pb n="559" facs="#f0013"/>
+Ich denke dieses heißt hier <hi rendition="#i">zum Untergange?</hi> Sagen Sie es nicht selbst?</p>
+            <p>
+               <hi rendition="#i">Doch siehst du nicht mit was vor Brausen Orion</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Zum Untergang eilet.</hi>
+            </p>
+            <p>Wahrhaftig Sie müssen jetzt Ihre Augen nicht bei sich gehabt haben; oder Ihre Übersetzung hat ein anderer gemacht. Sie wissen ja nicht einmal was die Worte heißen, und wollen das durch <hi rendition="#i">eilen</hi> gegeben haben, was doch wirklich durch zum <hi rendition="#i">Untergange</hi> gegeben ist. – – Ich will nur weiter gehen, weil es lächerlich sein würde, über einen Gegner, der sich im Staube so herum winden muß, zu jauchzen.</p>
+            <p>
+               <hi rendition="#i">Nondum munia comparis</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Aequare (valet.)</hi>
+            </p>
+            <p>Dieses hatten Sie, mein Herr Pastor, durch: sie ist noch der <hi rendition="#i">Huld des Gatten nicht gewachsen,</hi> übersetzt. Ich tadelte daran, teils daß Sie hier ganz an der unrechten Stelle, allzu edle Worte gebraucht, teils daß Sie den Sinn verfehlt hätten. Auf das erste antworten Sie: Horaz brauche selbst <hi rendition="#i">edle</hi> Worte, welches auch Dacier erkannt habe. Allein verzeihen Sie mir, Horaz braucht nicht edle sondern <hi rendition="#i">ehrbare</hi> Worte, und wenn Dacier sich erkläret c'est un mot honête, so kann nur einer welcher gar kein Französisch kann, wie Sie hinzusetzen: <hi rendition="#i">merks ein edel Wort!</hi> Merks selber: honête heißt nicht <hi rendition="#i">edel</hi> sondern <hi rendition="#i">ehrbar</hi>. Ich habe Ihnen nicht verwehren wollen <hi rendition="#i">ehrbare</hi> Worte von Tieren zu brauchen; wohl aber edle. Jene haben schon Chabotius, und andre, in der Stelle des Horaz erkannt, ob dieser gleich hinzu setzt: non minus esse in his verbis translatis obscoenitatis, quam si res fuisset propriis enunciata, aut rigido pene, aut mutone. etc. Diese aber finde ich nicht, weil Horaz ein viel zu guter Dichter war, als daß er nicht alle seine Ausdrücke nach der Metapher, in der er war, hätte abmessen sollen. Oder glauben Sie wirklich, daß munia und <hi rendition="#i">Huld</hi>, von gleichem Werte sind? Überlegen Sie denn nicht, daß<hi rendition="#i"> Huld</hi> ein Wort ist, welches von dem Höhern <pb n="560" facs="#f0014"/>
+gegen den Niedrigern, ja gar von GOtt gebraucht wird, das Unbegreifliche in seiner Liebe gegen den Menschen auszudrücken? Doch genug hiervon; lassen Sie uns meinen zweiten Tadel näher betrachten, welcher die Übersetzung selbst angeht. Die ganze Strophe bei dem Horaz ist diese:</p>
+            <p>Nondum subacta ferre jugum valet</p>
+            <p>Cervice: nondum munia comparis</p>
+            <p>Aequare, nec tauri ruentis</p>
+            <p>In Venerem tolerare pondus.</p>
+            <p>Ich würde es ungefähr so ausdrücken: <hi rendition="#i">Noch taugt sie nicht mit gebändigtem Nacken das Joch zu tragen; noch taugt sie nicht die Dienste ihres Nebengespanns zu erwidern, und die Last des zu ihrem Genusse sich auf sie stürzenden Stiers zu erhalten.</hi> Sie aber, der Sie noch den Nachdruck des Sylbenmaßes voraus haben, lassen den Dichter sagen:</p>
+            <p>
+               <hi rendition="#i">Sie kann noch nicht mit dem gebeugten Nacken</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Das Joch ertragen, sie ist noch</hi>
+            </p>
+            <p>
+               <hi rendition="#i">der Huld des Gatten nicht gewachsen,</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Sie trägt noch nicht die Last des brünstigen Stiers.</hi>
+            </p>
+            <p>Hier nun habe ich getadelt, und tadle noch, daß Sie bei dem zweiten Gliede, nondum munia comparis aequare valet, ohne Not und zum Nachteile Ihres Originals von den Worten abgegangen sind. Ich sage zum Nachteile, weil Horaz dadurch ein Schwätzer wird, und einerlei zweimal sagt. Der Huld des Gatten nicht gewachsen sein, und die Last des brünstigen Stiers nicht tragen können, sind hier Tautologien, die man kaum einem Ovid vergeben würde. Sie fallen aber völlig weg, so wie ich den Sinn des Dichters ausdrücke; ob Sie gleich ganz ohne Überlegung vorgeben, daß ich alsdann das zweite Glied zu einer unnötigen Wiederholung des ersten mache. Da, das Joch noch nicht tragen können, ohne Zweifel weniger ist, als die Dienste des Nebengespanns noch nicht erwidern können; so steigen bei mir die Ideen, nach dem Geiste des Horaz, vollkommen schön. Muß man dieses noch einem Manne deutlich machen, der auf dem Lande in der Nachbarschaft solcher Gleichnisse lebt? Vergebens stellen Sie mir hier <pb n="561" facs="#f0015"/>
+einige Ausleger entgegen, welche unter munia die Beiwohnung verstehen. Diese Männer wollen weiter nichts sagen, als was es bei Anwendung der ganzen Metapher auf ein unreifes Mägdchen heißen könne. Sie fangen schon bei jugum an, die Einkleidungen wegzunehmen, und kein ander<hi rendition="#i"> jugum</hi> darunter zu verstehen, als das bei dem Plautus, wo Palinurus fragt: jamne ea fert <hi rendition="#i">jugum</hi>? und worauf Phädromus antwortet: pudica est neque dum cubitat cum viris. Wann Sie ihnen, Herr Pastor, dort gefolgt sind, warum auch nicht hier? Warum haben Sie nicht gleich gesagt: <hi rendition="#i">sie kann noch nicht besprungen werden?</hi> Es würde zu Ihrem: <hi rendition="#i">sie ist der Huld des Gatten noch nicht gewachsen,</hi> vollkommen gepaßt haben. – – Doch ich will mich hier nicht länger aufhalten; ich will bloß noch ein Paar Zeugnisse für mich anführen, und Sie laufen lassen. Erasmus sagt: Metaphora ducta a juvenca, cui nondum suppetunt vires ut in ducendo aratro pares operis vires sustineat. Cruquius setzt hinzu: quae nondum est jugalis, quae non aequo et pari labore concordiaque cum suo pari, id est marito, jugum et munia molestiasque tractat familiares. Lubinus erklärt die streitige Stelle: nondum munia, <hi rendition="#i">onera et labores,</hi> una cum compare suo <hi rendition="#i">(cum quo jugo juncta incedit)</hi> pari robore ferre et ex aequo praestare valet. Alle diese werden es auch gewußt haben, was man unter munia verstehen könne, wenn man es nach dem sensu nupto nehmen wolle; sie haben aber gesehen, daß man es hier nicht verstehen müsse, und dieses, Herr Pastor, hätten Sie auch sehen sollen.</p>
+            <p>Dum flagrantia detorquet ad oscula</p>
+            <p>Cervicem.</p>
+            <p>Auch hier wollen Sie noch streiten? Ihr <hi rendition="#i">den Hals den heißen Küssen entziehen</hi> soll also nicht das Gegenteil von dem sein, was Horaz sagen will? Ich bitte Sie, betrachten Sie doch die Stelle mit kaltem Blute, wann Sie es fähig sind, noch einmal.</p>
+            <p>Dum flagrantia detorquet ad oscula</p>
+            <p>Cervicem, aut facili saevitia negat</p>
+            <p>Quae poscente magis gaudeat eripi etc.</p>
+            <p>Finden Sie, der Sie sonst ein Mann von Geschmack sind, denn nicht, daß Horaz hier durch das aut einen kleinen Gegensatz macht? <hi rendition="#i">Jetzt</hi>, will er sagen, <hi rendition="#i">dreht sie den Hals schmachtend den heißen Küssen entgegen; jetzt versagt sie das mit verstellter Grausamkeit, was sie sich doch nur allzugern rauben läßt.</hi> – – Doch Sie wollen keine Gründe annehmen; Sie wollen alles nur durch Zeugnisse berühmter Ausleger beigelegt wissen. Auch mit diesen könnte ich Sie überschütten, wenn mich die Mühe des Abschreibens nicht verdrösse. Ich muß Ihnen aber sagen, daß sie alle auf meiner Seite sind, nur die zwei nicht, welche Sie anführen. Und wer sind die? Den einen nennen Sie Acrisius und den andern Porphyr. Was ist das für ein Mann, <hi rendition="#i">Acrisius</hi>? – – Endlich werde ich Erbarmung mit Ihnen haben müssen, Herr Pastor. Sie wollen abermals <hi rendition="#i">Acron</hi> sagen. Ich hätte Ihr obiges <hi rendition="#i">Acris</hi> gerne für einen Druckfehler gehalten, wann mir nicht diese noch falschere Wiederholung so gelinde zu sein verwehrte. Wissen Sie denn aber, mein lieber Herr Gegner, warum die beiden Scholiasten Acron und Porphyrio auf Ihrer und nicht auf meiner Seite sind? Deswegen, weil sie, wie es aus der Anmerkung des erstern offenbar erhellt, eine andre Lesart gehabt, und anstatt detorquet ad oscula, detorquet ab osculis gefunden haben. Haben Sie denn auch diese Lesart? Sie haben sie nicht, und sind ihr auch nicht gefolgt, weil Sie es sonst in Ihrer Antwort würden erinnert haben. Die Anmerkung die Dacier zu dieser Stelle macht ist sehr gründlich; und nur Ihnen scheinet sie nicht hinlänglich. Aber warum denn nicht? Etwa weil sie Ihnen widerspricht? Oder haben Sie sie nicht verstanden? Das kann sein, ich will also ein Werk der Barmherzigkeit tun und sie Ihnen übersetzen, weil sie ohnedem die beste Rechtfertigung meiner Kritik sein wird. »Es läßt sich, sagt er, nichts galanters und nichts besser ausgedrücktes, als diese vier Verse, erdenken. Den ersten aber hat man nicht wohl verstanden, weil die Ausleger geglaubt, Horaz wolle sagen, daß Licinia ihren <pb n="563" facs="#f0017"/>
+Mund den Küssen des Mäcenas entziehen wolle; allein sie haben nicht überlegt, daß er, wenn dieses wäre, notwendig hätte sagen müssen detorquet ab osculo und nicht, ad osculum. Horaz sagt also, daß Mäcen von Liebe gleich stark entflammt sei, Licinia möge nun mit ihrem Munde seinen Küssen begegnen wollen, oder auch auf eine nicht abschreckende Art seiner Liebe widerstehen. Detorquet cervicem ad oscula sagt man von einem Mägdchen, das, indem es tut als ob es den Küssen ausweichen wolle, seinen Hals so zu wenden weiß, daß ihr Mund mit dem Munde ihres Geliebten zusammen kömmt. Man wird gestehen, daß diese Erklärung gegenwärtiger Stelle eine ganz andre Wendung gibt.« – – Ich bin hier mit dem Dacier vollkommen zufrieden, nur daß er mir ein wenig zu stolz tut, gleich als ob dieser Einfall bloß aus seinem Gehirne gekommen sei, da ihn doch alle gehabt haben, und notwendig haben müssen, welche ad oscula lesen. So gar der Paraphrast Lubinus sagt: dum roseam suam cervicem ad oscula tua, <hi rendition="#i">ut tibi gratificetur, inclinat</hi> et detorquet.</p>
+            <p>Nun komm ich auf einen Punkt, der Ihnen, Herr Pastor, Gelegenheit gegeben hat, eine wahrhafte Bettelgelehrsamkeit zu verraten. Ich habe in dieser Ode getadelt, daß Sie prisci Catonis durch Priscus Cato übersetzt haben. Ich habe dazu gesetzt, daß man sich diese Ungereimtheit kaum einbilden könne, und endlich die Frage beigefügt, welcher von den Catonen Priscus geheißen habe? Erstlich also muß ich Ihnen zeigen, daß Sie Ihrer Rechtfertigung ungeachtet dennoch falsch übersetzt haben, und hernach muß ich selbst meine eigene Frage rechtfertigen. Doch ich will das letztere zuerst tun, weil ich alsdann etwas kürzer sein kann. Welcher von den Catonen hat Priscus geheißen? Wider diese Frage führen Sie mir, grundgelehrter Herr Pastor, das Zeugnis des Dacier, und des Mancinelli an, welche beide sagen, daß der ältere Cato Priscus geheißen habe. Ei! Dacier und Mancinelli! Mancinelli und Dacier! Sind das die Leute, mit welchen man etwas Streitiges aus den Altertümern beweiset? Keine bessern <pb n="564" facs="#f0018"/>
+wissen Sie nicht? Wahrhafte Bettelgelehrsamkeit, um es noch einmal zu wiederholen! Wann ich nun behauptete, Dacier habe den Mancinelli ausgeschrieben, und Mancinelli rede ohne Beweis; was würden Sie wohl tun? Sie würden diese Ihre Fontes noch einmal zu Rate ziehen; Sie würden sehen, ob sie keine andre Fontes anführen. Allein sie führen keine an; was nun zu tun? Das weiß GOtt! Doch, Herr Pastor, ich will Sie in diese Verlegenheit nicht setzen. Was hätte ich davon mit etwas zurückzuhalten, welches im geringsten nicht wider mich ist. Lernen Sie also von mir, was ich weder von dem Mancinelli noch dem Dacier habe lernen dürfen, daß diese Ihre beiden Helden ohne Zweifel auf eine Stelle des Plutarchs in dem Leben des ältern Cato zielen. Εκαλειτο δε, heißt es auf meiner 336. Seite der Wechelschen Ausgabe, τω τριτω των ονοματων προτερον ου Κατων αλλα Πρισκος, ύσερον δε τον Κατωνα της δυναμεως επωνυμον εσχε. Ρωμαιοι γαρ τον εμπειρον Κατωνα ανομαζουσιν. Wann es Ihnen, mein lieber Herr Pastor, mit dem Griechischen etwa so gehet, wie mit den algebraischen Aufgaben, die zu verstehen, nach der 4ten Seite Ihres Schreibens, es sehr viel kosten soll, so schlagen Sie die Übersetzung des Herrn Kinds, die 520. Seite des 3ten Teiles auf, wo Sie folgendes finden werden: »im Anfange hieß sein dritter Name <hi rendition="#i">Priscus</hi>, und nicht Cato, welchen man ihm wegen seiner Klugheit beilegte, weil die Römer einen klugen und erfahrnen Mann Cato hießen.« – – Ei, mein Herr Lange! Mache ich Ihnen hier nicht eine entsetzliche Freude! Ich gebe Ihnen den Dolch selbst in die Hand, womit Sie mich ermorden sollen. Nicht? Ehe Sie aber zu stoßen, bitte ich, so sehen Sie die griechische Stelle noch einmal an. Liegen folgende Sätze nicht deutlich darinnen? Der ältere Cato hat niemals mehr als drei Namen gehabt; er hieß <hi rendition="#i">Priscus</hi> bis er anfing <hi rendition="#i">Cato</hi> zu heißen: so bald er <hi rendition="#i">Cato</hi> hieß, verlor er den Namen <hi rendition="#i">Priscus</hi>; und nie hat er zusammen <hi rendition="#i">Priscus Cato</hi> geheißen, welches vier Namen ausmachen würde, die er nach dem Zeugnisse Plutarchs nie geführt hat. Wann ich also gefragt habe: welcher von den Catonen Priscus genennet worden; so hat nur Herr Pastor Lange, der seinen Gegner für so unwissend hält, als er selbst ist, glauben können, als ob ich so viel fragen wolle, welcher <pb n="565" facs="#f0019"/>
+von den Catonen, ehe er Cato geheißen, den Namen <hi rendition="#i">Priscus</hi> geführt habe? Was würde dieses zu der Stelle des Horaz helfen, wo nicht von einem Manne geredet wird, der zu verschiednen Zeiten, erst <hi rendition="#i">Priscus</hi> und hernach <hi rendition="#i">Cato</hi> geheißen, sondern von einem, welcher beide Namen zugleich, wie Herr Lange will, geführet haben soll? Meine Frage scheinet durch die Auslassung eines einzigen Worts ein wenig unbestimmt geworden zu sein. Ich hätte nämlich, um auch den Verdrehungen keine Blöße zu geben, mich so ausdrücken sollen: Welcher von den Catonen hat denn <hi rendition="#i">Priscus Cato</hi> geheißen? Auf diese Frage nun ist unmöglich anders zu antworten als: <hi rendition="#i">keiner</hi>. Mancinelli und Dacier selbst unterscheiden die Zeiten, und sagen nicht, daß er <hi rendition="#i">Priscus Cato</hi> zugleich geheißen habe. Sie begehen folglich einen Schnitzer, wann Sie nach Ihrer Art recht witzig sein wollen, und im Tone der alten Weiber sagen: es war einmal ein Mann, der hieß Priscus, und bekam den Zunamen Cato. Nein, mein altes Mütterchen, das ist falsch; so muß es heißen: es war einmal ein Mann, dessen Zuname Priscus durch einen andern Zunamen, Cato, verdrungen ward. – – Doch lassen Sie uns weiter gehen. – – Da es also historisch unrichtig ist, daß jemals ein <hi rendition="#i">Priscus Cato</hi> in der Welt gewesen ist, so könnte es, wird man mir einwenden, gleichwohl dem Dichter erlaubt sein, diese zwei Namen zusammen zu bringen. Gut! und das ist der zweite Punkt, auf den ich antworten muß; ich muß nämlich zeigen, daß Horaz hier gar nicht Willens gewesen ist, eine Probe seiner Kenntnis der Catonischen Familiengeschichte zu geben, und daß ein Herr Lange, der dieses glaubt, ihn gelehrter macht, als er sein will. Dieses zu tun will ich, um mir bei Ihnen ein Ansehen zu machen, alte und neue Ausleger anführen, und zugleich die Gründe untersuchen, welche sie etwa mögen bewogen haben, so wie ich zu denken. Überhaupt muß ich Ihnen sagen, daß ich unter mehr als dreißig beträchtlichen Ausgaben keine einzige finde, die das priscus mit einem großen P. schreibet, welches doch notwendig sein müßte, wenn ihre Besorger es für einen Zunamen angesehen hätten. Nennen Sie mir doch, Wunders halber, diejenige die in diesem Punkte so etwas besonders hat. Ihr eigner Text, welchem es <pb n="566" facs="#f0020"/>
+sonst an dem Besondern, wenigstens in Ansehung der Fehler, nicht mangelt, hat die gemeine Schreibart beibehalten; so daß ich schon entschuldiget genug wäre, wann ich sagte, ich habe Sie beurteilt, so wie ich Sie gefunden. Denn weswegen läßt ein Übersetzer sonst sein Original an die Seite drucken, wenn er es nicht deswegen tut, damit man sehen soll, was für einer Lesart, was für einer Interpunktion er gefolgt sei? Geschieht es nur darum, damit das Buch einige Bogen stärker werde? Umsonst sagen Sie: es sei mit Fleiß geschehen, und die Ursache gehöre nicht hieher. Sie gehört hierher, Herr Pastor, und nicht sie, sondern Ihr unzeitiges Siegsgeschrei hätten Sie weglassen sollen – – Lassen Sie sich nun weiter lehren, daß alle Ausleger bei dieser Stelle sich in zwei Klassen abteilen. Die einen verstehen den ältern Cato, den Sittenrichter, darunter; die andern den jüngern, welchen sein Tod berühmter als alles andre gemacht hat. Jene, worunter Acron, Badius, Glareanus, Lubinus und wie sie alle heißen, gehören, erklären das prisci durch antiquioris oder veteris, und lassen sich es nicht in den Sinn kommen, das Vorgeben des Plutarchs hierher zu ziehen, ob es ihnen gleich, ohne Zweifel, so wenig unbekannt gewesen ist, als mir. Diese, welche sich besonders darauf berufen, daß man den <hi rendition="#i">Sittenrichter</hi> wohl wegen der aller außerordentlichsten Mäßigung gelobt, nirgends aber wegen des übermäßigen Trunks getadelt finde; da man hingegen von seinem Enkel an mehr als einem Orte lese, daß er ganze Nächte bei dem Weine gesessen und ganze Tage bei dem Brettspiele zugebracht habe: diese, sage ich, Lambinus, Chabotius etc. verstehen unter <hi rendition="#i">priscus</hi> einen solchen welcher seinen Sitten nach aus der alten Welt ist, und nehmen es für severus an. Einer von ihnen, Landinus, scheinet so gar eine andre Lesart gehabt und an statt prisci prisca, welches alsdenn mit virtus zu verbinden wäre, gefunden zu haben. Er setzt hinzu: <hi rendition="#i">prisca virtus,</hi> quae talis fuit qualis olim in priscis hominibus esse consuevit. Ich gestehe, daß mir diese Abweichung ungemein gefallen würde, wann sie nicht offenbar wider das Sylbenmaß wäre. – – Doch was suche ich Ihre Widerlegung so weit? Ihre zwei Wehrmänner, Mancinellus und Dacier sind Ihnen ja selbst zuwider; und wenn es nicht <pb n="567" facs="#f0021"/>
+jedem Leser in die Augen fällt, so kömmt es nur daher, weil Sie ihre Zeugnisse minder vollständig ausgeführet haben. Ich will diesen kleinen Betrug entdecken. Bei dem Dacier hätten Sie nicht bloß einen Teil der Anmerkung, sondern auch die Übersetzung selbst, beifügen sollen. Doch das war Ihnen ungelegen, weil diese ausdrücklich für mich ist. Wann Dacier fest geglaubt hat, daß priscus den erstern Zunamen des Cato bedeute, so sagen Sie mir doch, warum gibt er es gleichwohl durch la vertu du<hi rendition="#i"> vieux</hi> Caton? Scheint er dadurch nicht erkannt zu haben, daß seine Anmerkung, so gelehrt sie auch sei, dennoch nicht hierher gehöre? Was vollends den Mancinelli anbelangt, so hätten Sie nur noch einen Perioden mehr hinzusetzen dürfen, um sich lächerlich zu machen. Sagt er denn nicht ausdrücklich: poeta abusus est nomine, man muß den jüngern Cato und nicht den <hi rendition="#i">Sittenrichter</hi> verstehen? Oder meinen Sie etwa, daß der Widerpart des Cäsars auch Priscus einmal geheißen habe? Wenn Sie dem Mancinelli ein Factum glauben, warum auch nicht das andere? – – Doch ich will mich nicht länger bei Zeugnissen der Ausleger aufhalten, sondern will nur noch durch den Parallelismum, die wahre Bedeutung des priscus unwidersprechlich bestimmen. Ich finde zwei Stellen bei dem Horaz, von welchen ich mich wundre, daß sie kein einziger von den Auslegern, die ich habe zu Rate ziehen können, angeführet hat. Sie entscheiden alles. Die erste stehet in dem 19. Briefe des ersten Buchs. Horaz versichert gleich Anfangs den Mäcenas, daß keine Gedichte lange leben könnten, welche von Wassertrinkern geschrieben würden; er macht diese Wahrheit zu einem Ausspruche des Cratinus und sagt:</p>
+            <p>Prisco si credis, Maecenas docte, Cratino.</p>
+            <p>Prisco Cratino. Ei, Herr Pastor; Sie sehen, es ist hier auch vom Weintrinken, wie in unsrer streitigen Stelle, die Rede; sollte wohl Cratinus auch einmal mit dem Zunamen <hi rendition="#i">Priscus</hi> geheißen haben? Schlagen Sie doch geschwind den Dacier oder Mancinelli nach! – – Die andre Stelle werden Sie in dem zweiten Briefe des zweiten Buchs finden, wo Horaz unter andern <pb n="568" facs="#f0022"/>
+sagt, daß ein Dichter, die alten nachdrücklichen Worte, um stark zu reden, wieder vorsuchen müsse:</p>
+            <p>Obscurata diu populo bonus eruet atque</p>
+            <p>Proferet in lucem speciosa vocabula rerum</p>
+            <p>Quae priscis memorata Catonibus atque Cethegis.</p>
+            <p>Hier haben Sie nun gar priscis Catonibus. Wenn in der Ode prisci der Zuname gewesen ist, warum soll er es nicht auch hier sein? Ohne Zweifel haben alle Catone, nicht der Sittenrichter allein, Priscus geheißen. Nicht Herr Pastor? Den Dacier nachgesehen! hurtig! – – Als den letzten Keil, will ich noch das Zeugnis eines noch lebenden Gelehrten anführen,</p>
+            <p>nostrum melioris utroque.</p>
+            <p>Es ist dieses der Herr Prof. Gesner, welcher in der Vorrede zu seinen scriptoribus rei rusticae das <hi rendition="#i">priscus</hi> ausdrücklich zu nichts als einem Horazischen Epitheto macht, ob ihm schon die Stelle des Plutarchs bekannt war, und ob er schon in andern alten Schriften gefunden hatte, daß man dieses <hi rendition="#i">Priscus</hi> mit unter die Namen des Cato setze. Er redet nämlich von dem Buche dieses alten Römers über den Ackerbau, und nennt es, so wie wir es jetzt aufzuweisen haben, congeriem parum digestam <hi rendition="#i">oraculorum</hi> quae Plinius vocat veri et <hi rendition="#i">Prisci</hi> Catonis, und setzt hinzu: Horatianum illud epitheton tribuunt illi etiam inter nomina libri antiqui. Dieses aber ohne Zweifel auf keine andre Art, als ihn dadurch von dem jüngern Cato, durch das Beiwort des <hi rendition="#i">Ältern</hi>, zu unterscheiden. – – Was meinen Sie nun? Haben Sie noch richtig übersetzt? Müssen Sie nun nicht gestehen, daß ich mit Grund getadelt habe? Werden Sie noch glauben, daß ich von Ihnen etwas lernen kann? Wenn Sie der Mann wären, so würde ich weiter gehen; ich würde Ihnen über die Stelle des Plutarchs selbst, ob sie mir gleich, wie Sie oben gesehen haben, nicht widerspricht, einige Zweifel machen; Zweifel, die mir nicht erst seit gestern und heute beigefallen sind. Doch, wahrhaftig ich will sie hersetzen. Wann ich schon von Ihnen keine Erläuterung zu erwarten habe; so sind doch die Leute eben so rar nicht, welche mehr als ich und Sie kennen. Vielleicht lieset <pb n="569" facs="#f0023"/>
+uns einer von diesen, und nimmt des Geschichtschreibers Partei gegen mich, welches mir sehr angenehm sein wird. Sie aber, Herr Pastor, überhüpfen Sie nur</p>
+            <p>
+               <hi rendition="#i">Eine kleine Ausschweifung über obige Stelle</hi>
+            </p>
+            <p>
+               <hi rendition="#i">des Plutarchs</hi>
+            </p>
+            <p>Der Griechische Schriftsteller meldet uns in dem angeführten Zeugnisse dreierlei. <hi rendition="#i">Erstlich</hi> daß Marcus Porcius der erste aus seiner Familie gewesen sei, welcher den Zunamen <hi rendition="#i">Cato</hi> geführt; <hi rendition="#i">Zweitens</hi>, daß er diesen Zunamen wegen seiner Klugheit bekommen; <hi rendition="#i">Drittens</hi>, daß er vorher den Zunamen <hi rendition="#i">Priscus</hi> geführet habe. – – Nun will ich meine Anmerkungen nach Punkten ordnen.</p>
+            <p rendition="#et">I. So viel ist gewiß, daß Plutarch der genaueste Geschichtschreiber nicht ist. Seine Fehler, zum Exempel, in der Zeitrechnung sind sehr häufig. Alsdann aber kann man ihm am allerwenigsten trauen, wenn er Umstände anführt, welche eine genauere Kenntnis der Lateinischen Sprache erfordern. Diese, wie bekannt ist, hat er nicht besessen. Er sagt in dem Leben des ältern Cato von sich selbst, daß er die Reden des Sittenrichters nicht beurteilen könne, und die Art, wie er die lateinische Sprache erlernt zu haben vorgibt, ist bekannt: aus griechischen Büchern nämlich, welche von der römischen Historie geschrieben. Grundes also genug, ihn allezeit für verdächtig zu halten, so oft er sich in die römische Philologie wagt, die er wenigstens aus keinem griechischen Geschichtschreiber hat lernen können.</p>
+            <p rendition="#et">II. Daß unser Sittenrichter der erste aus der Porciusischen Familie gewesen sei, welcher <hi rendition="#i">Cato</hi> geheißen habe, muß ich dem Plutarch deswegen glauben, weil man auch andre Zeugnisse dafür hat. Eines zwar von den vornehmsten, wo nicht gar das einzige, ich meine das Zeugnis des Plinius, (B. 7 Kap. 27) ist sehr zweideutig. Er sagt Cato primus Porciae gentis. Kann dieses nicht eben sowohl heißen: Cato welcher der erste war, der den Namen Porcius führte; als es nach der gemeinen Auslegung heißen soll: derjenige aus dem Porciusischen <pb n="570" facs="#f0024"/>
+Geschlechte, welcher den Namen Cato bekam? Doch es mag das letzte heißen, so kann ich doch wenigstens</p>
+            <p rendition="#et">III. die Plutarchische Ableitung mit Grunde verdächtig machen. Er sagt Ρωμαιοι τον εμπειρον Κατωνα ανομαζουσιν. Dieses ist offenbar falsch und er hätte anstatt Κατωνα, notwendig Κατον schreiben sollen; weil das Adjectivum der Lateiner nicht cato sondern catus heißt. Sein lateinischer Übersetzer Hermannus Cruserus scheint diesen Fehler gemerkt zu haben, und gibt deswegen die angeführten Worte: Romani experientem Catum vocant. Doch, wird man sagen, ungeachtet dieses Fehlers, kann die Ableitung dennoch richtig sein; das Adjectivum mag catus heißen; vielleicht aber ist es in cato verwandelt worden, wann es die Römer als einen Zunamen gebraucht haben – – Allein auch dieses <hi rendition="#i">vielleicht</hi> ist ungegründet. Man sieht es an dem Beispiele des Aelius Sextus welcher eben diesen Zunamen bekam; und gleichwohl nicht <hi rendition="#i">Cato</hi> sondern <hi rendition="#i">Catus</hi> genennet ward. Ein Vers, welchen Cicero in dem 1ten Buche seiner Tusculanischen Streitunterredungen anführt, und der ohne Zweifel von dem Ennius ist, soll es beweisen:</p>
+            <p>Egregie cordatus homo Catus Aeliu' Sextus.</p>
+            <p>Das Catus kann hier nicht als ein bloßes Beiwort anzusehen sein, weil cordatus das Beiwort ist, und die lateinischen Dichter von Häufung der Beiwörter nichts halten. Es muß also ein Zuname sein, und wann es dieser ist, so sage man mir, warum ist er auch nicht hier in Cato verwandelt worden, oder warum hat nur bei dem Porcius das catus diese Veränderung erlitten? Wollte man sagen, jenes sei des Verses wegen geschehen, so würde man wenig sagen; oder vielmehr man würde gar nichts sagen, weil ich noch ein weit stärkeres Zeugnis für mich aufbringen kann. Das Zeugnis nämlich des Plinius, welcher (7. B. Kap. 31) mit ausdrücklichen Worten sagt: praestitere ceteros mortales sapientia, ob id Cati, Corculi apud Romanos cognominati. Warum sagt <hi rendition="#i">er</hi>, welcher den alten Cato bei aller Gelegenheit lobt, Cati und nicht Catones, wenn er geglaubt hätte, daß die letzte Benennung eben diese Abstammung habe?</p>
+            <p rendition="#et">
+               <pb n="571" facs="#f0025"/>
+IV. Ich will noch weiter gehen, und es auch durch einen historischen Umstand höchst wahrscheinlich machen, daß er den Zunamen <hi rendition="#i">Cato</hi> nicht seines Verstandes und seiner Weisheit wegen bekommen habe. Ich berufe mich deswegen auf das, was Cicero de senectute anführt; er berichtet uns nämlich, daß Cato erst in seinem Alter den Zunamen Sapientis, des Weisen, erhalten habe. Nun sage man mir, wenn man hieran nicht zweifeln kann, ist es wohl wahrscheinlich, daß man ihm aus einer Ursache zwei Zunamen solle gegeben haben? daß man ihn schon in seiner Jugend <hi rendition="#i">den Klugen</hi> genennt, erst aber in seinem Alter für würdig erkannt habe, den Zunamen <hi rendition="#i">der Weise</hi> zu führen? Denn dieses ist aufs höchste der Unterscheid, welchen man zwischen catus und sapiens machen kann. Wenn mir jemand diesen Zweifel heben könnte, so wollte ich glauben, daß auch die andern zu heben wären. Die Ausflucht wenigstens, catus für acutus anzunehmen, so wie es Varro bei dem Aelius Sextus haben will, und zu sagen, unser Porcius sei in seiner Jugend acutus, das ist <hi rendition="#i">verschmitzt</hi>, und in seinem Alter erst <hi rendition="#i">weise</hi> genennt worden, wird sich hierher nicht schicken, weil das <hi rendition="#i">Verschmitzte</hi> ganz wider den Charakter des alten Sittenrichters ist, der in seinem ganzen Leben immer den geraden Weg nahm, und mit der falschen Klugheit gerne nichts zu tun hatte.</p>
+            <p rendition="#et">V. Weil nun Plutarch in den obigen Stücken höchst verdächtig ist, so glaube ich nunmehr das Recht zu haben, über das <hi rendition="#i">Priscus</hi> selbst eine Anmerkung zu machen. Da der ältere Cato von verschiednen Schriftstellern mehr als einmal Priscus genennt wird, teils um dadurch die Strenge seiner Sitten anzuzeigen, welche völlig nach dem Muster der alten Zeiten gewesen waren, teils ihn von dem jüngern Cato zu unterscheiden; da vielleicht dieses Beiwort auch in den gemeinen Reden, ihn zu bezeichnen, üblich war, so wie etwa in den ganz neuern Zeiten, einer von den allertapfersten Feldherren beinahe von einem ganzen Lande der <hi rendition="#i">Alte</hi>, mit Zusetzung seines Landes, genennt ward; da, sage ich, diese Verwechselung eines Beiworts in einen Zunamen ungemein leicht ist: so urteile man einmal, ob sie nicht ein Mann, welcher die lateinische Sprache nur halb inne hatte, ein Plutarch, gar wohl <pb n="572" facs="#f0026"/>
+könne gemacht haben? Ich glaube, meine Vermutung wird noch ein außerordentliches Gewichte mehr bekommen, wann ich zeige, daß ein Römer selbst, und sonst einer von den genauesten Geschichtschreibern, einen gleichen Fehler begangen habe. Ich sage also, daß so gar Livius das Wort priscus als einen Namen angenommen hat, wo es doch nichts als ein Unterscheidungswort ist; bei dem ersten Tarquinius nämlich, welcher bloß deswegen Priscus genennet ward, um ihn mit dem <hi rendition="#i">Superbo</hi> gleiches Namens nicht zu verwechseln. Festus bezeiget dieses mit ausdrücklichen Worten, wenn er unter Priscus sagt: Priscus Tarquinius est dictus, quia prius fuit quam superbus Tarquinius. Man schließe nunmehr von dem Livius auf den Plutarch. Wäre es unmöglich, daß ein Grieche da angestoßen hätte, wo ein Römer selbst anstößt?</p>
+            <p rendition="#et">Hier, mein Herr Pastor, können Sie wieder anfangen zu lesen. Haben Sie aber ja nichts überhüpft, so sollte es mir leid tun, wann durch diese Ausschweifung etwa Ihre Vermutung lächerlich würde, daß ich deswegen von dem Namen Priscus nichts gewußt habe, weil Bayle seiner nicht gedenket. Wer weiß zwar, was ich für eine Ausgabe dieses Wörterbuchs besitze. Wo es nur nicht gar eine ist, die ein prophetischer Geist mit den Schnitzern des Laublingschen Pastors vermehrt hat. – – Doch lassen Sie uns weiter rücken.</p>
+            <p>
+               <hi rendition="#i">Uxor invicti Jovis esse nescis.</hi>
+            </p>
+            <p>O Herr Pastor, lehren Sie mich es doch nicht, daß diese Stelle eines doppelten Sinnes fähig ist. Als Sie vor neun Jahren den Horaz auf deutsch zu mißhandeln anfingen, wußte ich es schon, daß es heißen könne:<hi rendition="#i"> Du weißt es nicht, daß du die Gattin des Jupiters bist und du weißt dich nicht als die Gattin des Jupiters aufzuführen.</hi> Wenn ich nötig hätte mit üblen Wendungen meine Kritik zu rechtfertigen, so dürfte ich nur sagen, daß Ihre Übersetzung von diesem doppelten Sinne keinen, sondern einen dritten ausdrücke.</p>
+            <p rendition="#et">
+               <hi rendition="#i">Du weißts nicht und bist des großen Jupiters Gattin.</hi> Kann dieses nicht ohne viele Verdrehung heißen:<hi rendition="#i"> Ob du schon des <pb n="573" facs="#f0027"/>
+Jupiters Gattin bist, so weißt du dennoch dieses oder jenes nicht.</hi> Doch ich brauche diese Ausflucht nicht; und meinetwegen mögen Sie den ersten Sinn haben ausdrücken wollen. Sie haben doch noch Schulknaben mäßig übersetzt. Denn was tut ein Schulknabe bei solchen Gelegenheiten? Er nimmt den ersten den besten Sinn, ohne sich viel zu bekümmern, welchen er eigentlich nehmen sollte. Er ist zufrieden, es sei nun auf die eine, oder auf die andere Weise, den Wortverstand ausgedrückt zu haben. Dieses nun haben Sie auch getan, atqui, ergo. Umsonst sagen Sie mit dem Dacier, Ihr Sinn sei dem Zusammenhange gemäßer. Ich sage: nein, und jedermann wird es mit mir sagen, der das, was darauf folgt, überlegen will. Durch was hat Horaz das zweideutige</p>
+            <p>Uxor invicti Jovis esse nescis;</p>
+            <p>gewisser bestimmen können, als durch das gleich darauf folgende?</p>
+            <p>Mitte singultus: bene ferre magnam</p>
+            <p>Disce Fortunam.</p>
+            <p>Was ist deutlicher, als daß Horaz sagen will: glaubst du, daß Seufzer und Tränen einer Gattin des Jupiters anstehen? Lerne dich doch in dein Glück finden! Lerne doch zu sein, was du bist! – – Ich will noch einen Beweis anführen, den sich ein Herr Lange freilich nicht vermuten wird, der aber nicht weniger schließend ist. Es ist unwidersprechlich, daß Horaz in dieser Ode das Idyllion des Moschus, Europa, in mehr als einer Stelle vor Augen gehabt hat. Es ist also auch höchst wahrscheinlich, daß Horaz die Europa in den Umständen angenommen habe, in welchen sie Moschus vorstellt. Nun weiß sie es bei diesem, daß notwendig ein Gott unter dem sie tragenden Stiere verborgen sein müße. Sie sagt:</p>
+            <p>Πη με φερεις, ϑεοταυπε; – – –</p>
+            <p>– – – – –</p>
+            <p>Η ηρα τις εσσι ϑεος: – – – –</p>
+            <p>– – – – εελπομαι εισοραασϑαι</p>
+            <p>Τονδε κατιϑυνοντα πλοον προκελευϑον εμειο.</p>
+            <p>
+               <pb n="574" facs="#f0028"/>
+Und der Stier spricht ausdrücklich zu ihr:</p>
+            <p>Θαρσει παρϑενικη – – –</p>
+            <p>Αυτος τοι Ζευς ειμι, και εγγυϑεν ειδομαι ειναι</p>
+            <p>Ταυρος.</p>
+            <p>Sollte ihr also Horaz nicht eben diese Wissenschaft gelassen haben? Notwendig, weil er sie erst alsdenn klagen läßt, nachdem ihr Jupiter, unter einer bessern Gestalt, den Gürtel gelöset hatte.</p>
+            <p>– – Ζευς δε παλιν έτερην ανελαζετα μορφην,</p>
+            <p>Λυσε δε όι μιτρην – – –</p>
+            <p>Wußte sie es aber schon, daß Jupiter ihr Stier gewesen war, so wäre es wahrhaftig sehr abschmackt, wann ihr Cupido bei dem Horaz mit dem</p>
+            <p>Uxor invicti Jovis esse nescis</p>
+            <p>nicht mehr sagen wollte, als sie schon wußte, und wann seine Worte keine consolatio cum <hi rendition="#i">reprehensione</hi> wären, wie sich ein Ausleger darüber ausdrückt.</p>
+            <p>Nehmen Sie mir es doch nicht übel, mein Herr Pastor; mit dem Vorwande eines Druckfehlers kommen Sie hier nicht durch. Denn gesetzt auch, es sollte statt <hi rendition="#i">Ziegen, Zähne</hi> heißen; so würde Ihre Übersetzung gleichwohl noch fehlerhaft sein. Sehen Sie doch die Stelle noch einmal an! Heißt denn caprea lacte depulsum leonem dente novo peritura vidit, <hi rendition="#i">die Ziege sieht den Löwen, und nimmt den Tod von jungen Zähnen wahr?</hi> Es ist hier etwas mehr als wahrnehmen, Herr Pastor. Sie soll selbst der Raub der jungen Zähne sein. Außerdem ist noch dieses zu tadeln, daß Sie caprea durch Ziege übersetzen, und es für einerlei mit capra halten. Einem wörtlichen Übersetzer, wie Sie sein wollen, muß man nichts schenken!</p>
+            <p>
+               <pb n="575" facs="#f0029"/>
+            </p>
+            <p>Und endlich, komme ich auf die letzte Stelle, bei welcher ich das wiederholen muß, was ich schon oben angemerkt habe. Sie scheinen dem Dacier nur da gefolgt zu sein, wo seine Übersetzung zweifelhaft ist. So geht es einem Manne, dem das Vermögen zu unterscheiden fehlt! Wann doch dieser französische Übersetzer so gut gewesen wäre, und hätte nur ein einziges anderes Exempel angeführt, wo impar, <hi rendition="#i">indigne</hi> heißt. Zwar Herr Pastor, auch alsdenn würden Sie nicht Recht haben: denn ich muß auch hier Ihre Unwissenheit in der französischen Sprache bewundern! Heißt denn indigne <hi rendition="#i">nichtswürdig? Unwürdig</hi> heißt es wohl, und dieses hätte in Ihrer Übersetzung mögen hingehen. <hi rendition="#i">Nichtswürdig</hi> aber ist wahrhaftig zu toll. Oder glauben Sie, daß beides einerlei ist? Gewiß nicht! Sie sind zum Exempel ein <hi rendition="#i">unwürdiger</hi> Übersetzer des Horaz; sind Sie deswegen ein <hi rendition="#i">nichtswürdiger</hi>? Das will ich nicht sagen; ich hoffe aber, daß es die Welt sagen wird. – – Ohe jam satis est – –</p>
+            <p rendition="#et">Ja wirklich genug und allzuviel; ob es schon für einen Mann, wie Sie mein Herr Lange sind, noch zu wenig sein wird! Denn niemand ist schwerer zu belehren, als ein alter, hochmütiger Ignorante. Zwar bin ich einigermaßen selbst daran Schuld, daß es mir schwer geworden ist. Warum habe ich Ihnen nicht gleich Anfangs lauter Fehler wie das ducentia vorgeworfen? Warum habe ich einige untermengt, auf die man zur äußersten Not noch etwas antworten kann? – – Doch was ich damals nicht getan habe, das will ich jetzt tun. Ich komme nämlich auf meine zweite Unterabteilung, in welcher wir mit einander, wann Sie es erlauben, nur das erste Buch der Oden durchlaufen wollen. Ich sage mit Fleiß nur das erste, weil ich zu mehrern nicht Zeit habe, und noch etwas Wichtigers zu tun weiß, als Ihre Exercitia zu korrigieren. Ich verspreche Ihnen im Voraus, durch das ganze Buch in jeder Ode wenigstens einen Schnitzer zu weisen, welcher unvergeblich sein soll. Alle werden sie mir freilich nicht in der Geschwindigkeit in die Augen fallen; nicht einmal die von der ersten Größe alle. Ich erkläre also, daß es denjenigen <pb n="576" facs="#f0030"/>
+die ich übersehen werde, nicht präjudizierlich sein soll; sie sollen Fehler, nach ihrem ganzen Umfange bleiben, so gut als wenn ich sie angemerkt hätte! Zur Sache.</p>
+            <p>Trabe Cypria heißt nicht <hi rendition="#i">auf Balken aus Cyprien.</hi> Die Insel heißt Cyprus, oder Cypern; Cyprius, a, um, ist das Adjectivum davon. Hier macht also der Herr Schulmeister ein Kreuz! Es ist sein Glück, daß sich der Knabe hier nicht mit dem Druckfehler entschuldigen kann, weil Cypern, so wie es eigentlich heißen sollte, wider das Sylbenmaß sein würde.</p>
+            <p>Am Ende dieser Ode sagen Sie, Hr. Pastor: <hi rendition="#i">Die Flöte beziehen.</hi> Eine schrecklich abgeschmackte Redensart!</p>
+            <p>Die Zeilen:</p>
+            <p>Vidimus flavum Tiberim, retortis</p>
+            <p>Littore Etrusco violenter undis</p>
+            <p>übersetzen Sie:</p>
+            <p>
+               <hi rendition="#i">So sahn auch wir die rückgeschmißnen Wellen</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Des gelben Tibers am Etruskischen Ufer etc.</hi>
+            </p>
+            <p>Falsch! Es muß heißen:</p>
+            <p>So sahn auch wir die vom Etruskischen Ufer</p>
+            <p>Des gelben Tibers rückgeschmißne Wellen.</p>
+            <p>Tristes Hyadas würde nicht der <hi rendition="#i">trübe Siebenstern</hi> sondern das trübe Siebengestirn heißen, wann nur Plejades und Hyades nicht zweierlei wären. Ha! ha! ha!</p>
+            <p rendition="#et">Vada hätten Sie nicht durch <hi rendition="#i">Furten</hi> geben sollen, weil man über Furten nicht mit Nachen zu setzen nötig hat. Sehen Sie nach, was Dacier bei diesem Worte angemerkt hat.</p>
+            <p>Cytherea Venus geben Sie durch <hi rendition="#i">Zythere</hi>. Wann dieses Wort auch recht gedruckt wäre, so würde es dennoch falsch sein; weil <hi rendition="#i">Cythere</hi> zwar die Insel, aber nicht die Venus die nach dieser Insel genennt wird, heißen kann.</p>
+            <p>
+               <pb n="577" facs="#f0031"/>
+            </p>
+            <p>Quis multa gracilis te puer in rosa</p>
+            <p>Perfusus liquidis urget odoribus,</p>
+            <p>Grato, Pyrrha, sub antro.</p>
+            <p>Dieses übersetzen Sie so:</p>
+            <p>
+               <hi rendition="#i">Was vor ein wohlgestalter Jüngling, o Pyrrha,</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Bedient dich im dicken Rosengebüsche</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Von Balsam naß in angenehmer Grotte.</hi>
+            </p>
+            <p>Wachsen etwa in Laublingen dicke Rosengebüsche in Grotten? Das in rosa hätten Sie durch, <hi rendition="#i">auf dem Rosenbette,</hi> geben sollen.</p>
+            <p>Die Zeile cantamus vacui, sive quid urimur haben Sie ungemein schlecht übersetzt: <hi rendition="#i">von Arbeit befreit, und wenn die Liebe mich reizet.</hi> Erstlich haben Sie den Gegensatz verdorben und das sive in <hi rendition="#i">und</hi> verwandelt, welches ohne Zweifel daher entstanden ist, weil Sie, zweitens, die Kraft des Worts vacuus nicht eingesehen haben; es heißt hier vacuus ab amore nicht aber a labore.</p>
+            <p>Es ist Ihnen nicht zu vergeben, daß Sie in der 15. Zeile die wahre Stärke des mobilibus nicht gewußt, und es durch Ihr elendes <hi rendition="#i">nimmer stille</hi> gegeben haben.</p>
+            <p>Aus dieser Ode ist der getadelte Ölzweig. Ich kann sie aber deswegen auch hier nicht übergehen, weil ich aus Ihrer Übersetzung mit Verwunderung gelernet habe, daß schon die alten Römer, vielleicht wie jetzt die sogenannten Schützengilden, nach der Scheibe geschossen haben. Sie sagen:</p>
+            <p>
+               <hi rendition="#i">Den ehemals der Scheibenschuß und Wurfspieß erhoben.</hi>
+            </p>
+            <p>Hier tadle ich, daß Sie Diota durch <hi rendition="#i">Urne</hi> übersetzt haben. Sie müssen eine vortreffliche Kenntnis der alten römischen Maße haben! Merken Sie sich doch, daß Diota so viel als Amphora, Urna aber das dimidium amphorae ist.</p>
+            <p>Nepos Atlantis – – zusammen ihr Schulknaben um ihn auszuzischen! – – gibt Herr Lange durch: <hi rendition="#i">Du Sohn des Atlantes.</hi> Erstlich <hi rendition="#i">des Atlantes;</hi> es heißt nicht <hi rendition="#i">Atlantes</hi> gen. <hi rendition="#i">Atlantis</hi> sondern Atlas, antis. Zweitens Nepos heißt nicht Sohn, sondern <hi rendition="#i">Enkel</hi>. Merkur war der Maja und des Jupiters Sohn; Maja aber war die Tochter des Atlas.</p>
+            <p>Aus dieser kleinen Ode ist das <hi rendition="#i">zerlaß den Wein.</hi> Noch will ich anmerken, daß das oppositis pumicibus durch <hi rendition="#i">nahe Felsen</hi> schlecht übersetzt ist.</p>
+            <p>Quem virum, aut heroa, lyra vel acri</p>
+            <p>Tibia sumis celebrare Clio?</p>
+            <p>Quem deum?</p>
+            <p>Dieses übersetzen Sie:</p>
+            <p>
+               <hi rendition="#i">Sprich Clio, was ists vor ein Mann,</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Was vor ein Held, den du jetzt mit der Leier,</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Was ists vor ein Gott, den du</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Mit scharfer Flöte feierlich willst loben?</hi>
+            </p>
+            <p>Bestimmen Sie doch nichts, was Horaz hat wollen unbestimmt lassen! Sie stolpern überall, wo Sie auch nur den kleinsten Tritt vor sich tun wollen. Sie ziehen die Flöte auf den Gott, und die Leier auf den Mann, welches gleich das Gegenteil von dem ist was Dacier und andre angemerkt haben. On remarque, sagt jener, que la lire etoit pour les louanges des Dieux, et la flute pour celles des hommes.</p>
+            <p>Seu tibi candidos turparunt humeros immodicae mero rixae: Dieses geben Sie so: <hi rendition="#i">wenn deine Schultern ein schrankenloser Zank mit Weine beflecket.</hi> Ei! wo ist denn Ihr kleiner Schulknabe, den Sie das <hi rendition="#i">Nachdenken</hi> getauft haben, hier gewesen? Er würde Ihnen gewiß gesagt haben, daß man das mero nicht zu turparunt sondern zu immodicae ziehen müsse.</p>
+            <p>Carinae würden Sie in der siebenden Zeile nicht durch <hi rendition="#i">Nachen</hi> gegeben haben, wann Sie die wahre Bedeutung dieses Worts gewußt hätten. Carina ist der untere Teil des Schiffs; und eben das, was die Griechen τροπις nennen.</p>
+            <p>Calami spicula Gnossii übersetzen Sie durch <hi rendition="#i">Gnossus scharfe Pfeile,</hi> zum sichern Beweise, daß Sie weder wissen was calamus heißt, noch warum Horaz das Beiwort <hi rendition="#i">Gnossisch</hi> dazu gesetzt hat.</p>
+            <p>Die Überschrift dieser Ode ist vollkommen falsch. Sie sagen: <hi rendition="#i">An eine Freundin, die er durch ein Spottgedicht beleidiget hatte.</hi> Sie irren mit der Menge; nicht diese Freundin selbst, sondern ihre Mutter hatte er ehedem durchgezogen, wie es aus der Ode selbst unwidersprechlich erhellet.</p>
+            <p rendition="#et">Noch finde ich hier zu erinnern, daß man bei Dindymene, das e wie Sie getan haben nicht weglassen darf, weil man es alsdenn für ein Masculinum annehmen könnte.</p>
+            <p rendition="#et">Ferner; wenn Sie sagen: <hi rendition="#i">aus seiner Grotte die er bewohnt,</hi> so haben Sie das lateinische incola ganz falsch auf adytis gezogen, anstatt daß Sie es auf mentem sacerdotum hätten ziehen sollen.</p>
+            <p>Die Verstümmlung des Thyoneus in <hi rendition="#i">Thyon</hi> ist unerträglich.</p>
+            <p>Nullam sacra vite prius severis arborem; <hi rendition="#i">Pflanze eher keinen Baum als den geweihten Weinstock.</hi> Prius heißt <hi rendition="#i">eher</hi>, ja: allein hier heißt es noch etwas mehr, weil Horaz nicht bloß sagen will, daß er den Weinstock eher, vor andern Bäumen, der Zeit nach, sondern auch vorzüglich, mit Hintenansetzung andrer Bäume, pflanzen soll. So ein vortrefflicher Boden, ist seine Meinung, muß mit nichts schlechtern besetzt werden, als mit Weinstöcken.</p>
+            <p>In der letzten ohne eine Zeile tadle ich das <hi rendition="#i">geschlachtet</hi>. Nur derjenige hat mactare so grob übersetzen können, welcher nicht gewußt hat, daß man der Venus nie ein blutiges Opfer habe bringen dürfen. Noch muß ich an dieser Ode aussetzen, daß der Schluß der dritten Strophe, welcher doch so viel sagt, nec quae nihil attinent, in der Übersetzung schändlich ausgeblieben ist.</p>
+            <p>Hier kommen zwei entsetzliche geographische Schnitzer. Sie sagen <hi rendition="#i">die Keltern um Calenis,</hi> und es muß Cales heißen. Sie sagen <hi rendition="#i">der Berg bei Formian</hi> und der Ort heißt gleichwohl Formiae. Sie haben sich beidemal durch die Adjectiva <hi rendition="#i">Caleno</hi> und <hi rendition="#i">Formiani</hi> verführen lassen. Einem Manne wie Sie, wird alles zum Anstoße.</p>
+            <p>Auch in dieser Ode ist ein eben so abscheulicher Schnitzer, als die vorhergehenden sind. Natalem Delon Apollinis, übersetzen Sie, mein vielwissender Herr Lange, durch <hi rendition="#i">Delos die Geburtsstadt des Apollo.</hi> Delos also ist eine Stadt? Das ist das erste, was ich höre.</p>
+            <p>Lupus heißt keine <hi rendition="#i">Wölfin</hi>, wie Sie wollen, sondern ein Wolf. Lernen Sie es ein wenig besser, welche Worte επικοινα sind. Eine Wölfin heißt lupa.</p>
+            <p>Wann ich doch Ihres sel. Herrn Vaters lateinische Grammatik bei der Hand hätte, so wollte ich Ihnen Seite und Zeile zitieren wo Sie es finden könnten, was sequor für einen Casum zu sich nimmt. Ich habe Schulmeister gekannt, die ihren Knaben einen Eselskopf an die Seite malten, wenn sie sequor mit dem Dativo konstruierten. Lassen Sie einmal sehen, was Sie gemacht haben?</p>
+            <p>Tandem desine matrem</p>
+            <p>Tempestiva sequi viro.</p>
+            <p>Dieses übersetzen Sie:</p>
+            <p>
+               <hi rendition="#i">Laß die Mutter gehen</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Nun reif genug dem Mann zu folgen.</hi>
+            </p>
+            <p>Sie haben also wirklich geglaubt, daß man nicht sequi matrem, sondern sequi viro zusammen nehmen müsse.</p>
+            <p>In dieser Ode ist ein Schnitzer nach Art des <hi rendition="#i">Priscus</hi>; und er kann kein Druckfehler sein, weil er, sowohl über dem Texte als über der Übersetzung stehet. <hi rendition="#i">An den Virgilius Varus.</hi> Was ist das für ein Mann? Sie träumen Herr Pastor; Sie vermengen den, an welchen die Ode gerichtet ist, mit dem, über welchen sie verfertiget worden, und machen aus dieser Vermengung ein abgeschmacktes Ganze. Sie ist an den <hi rendition="#i">Virgil</hi> gerichtet, über den Tod des <hi rendition="#i">Quintilius Varus.</hi>
+            </p>
+            <p>Angiportus durch <hi rendition="#i">Gang</hi> übersetzen, heißt gestehen, daß man nicht wisse, was angiportus heißt.</p>
+            <p>Fons integer heißt kein reiner Quell, sondern ein Quell woraus man noch nicht geschöpft hat.</p>
+            <p>
+               <hi rendition="#i">Der schärfliche Falernus</hi> sagen Sie? Wieder etwas von Ihnen gelernet. Vinum ist also generis masculini, und es ist falsch wenn man sagt vinum Falernum. Sie werden sagen, es sei ein Druckfehler für <hi rendition="#i">Falerner</hi>. Aber warum erklären Sie nicht gleich Ihr ganzes Buch für einen Druckfehler?</p>
+            <p>In dieser Ode setzt es mehr wie einen Schnitzer. Erstlich lassen Sie sich wieder durch das Adjectivum <hi rendition="#i">matinum</hi> verführen, ein Ding daraus zu machen welches Matinus heißen soll. Zweitens sagen Sie <hi rendition="#i">Panthus</hi> anstatt, daß Sie sagen sollten Panthous. Wollen Sie es zu einem Druckfehler machen, so wird Ihnen Ihr Sylbenmaß widersprechen. Drittens heißen <pb n="581" facs="#f0035"/>
+hier Fluctus Hesperii nicht das spanische Meer, wie Sie es übersetzt haben, sondern das italienische. Behalten Sie doch lieber ein andermal das Hesperische, wenn Sie es nicht ganz gewiß wissen, ob Hesperia magna oder ein anderes zu verstehen sei.</p>
+            <p>Puer ex aula heißt Ihnen ein Prinz. Mir und andern ehrlichen Leuten heißt es ein Page.</p>
+            <p>Sperne in der zweiten Zeile durch <hi rendition="#i">Verachte</hi> geben, heißt die wörtliche Übersetzung bis zu dem Abgeschmackten und Unsinnigen treiben.</p>
+            <p>In der zweiten Zeile sagen Sie <hi rendition="#i">ein Dichter</hi> und es muß <hi rendition="#i">der Dichter</hi> heißen. Der Fehler ist größer, als man denken wird. Novum liquorem geben Sie durch<hi rendition="#i"> jungen Saft,</hi> zum Beweise daß Sie es nicht wissen wem der junge Wein, oder die Erstlinge des Weins geopfert wurden. Merken Sie es, niemanden als dem Jupiter, und nicht dem Apollo. Sie hätten bei dem Worte bleiben sollen, welches Sie bei nahe nur immer da tun, wo es falsch ist. Novus liquor heißt hier Saft, der bei einer neuen Gelegenheit vergossen wird.</p>
+            <p>Sie sagen die <hi rendition="#i">Calensche Hippe,</hi> und sollten die Calesische sagen; ein Fehler den ich schon vorher angemerkt habe, und den ich hier noch einmal anmerke, um zu zeigen, daß er aus keiner Übereilung, sondern aus einer wahrhaften Unwissenheit herkommt.</p>
+            <p>Sive jactatam religarat udo</p>
+            <p>Littore navim.</p>
+            <p>Das religarat übersetzen Sie hier durch <hi rendition="#i">befestigen</hi> und hätten es durch <hi rendition="#i">losbinden</hi> geben sollen. Sie sagen also hier gleich das Gegenteil von dem was Horaz sagen will. Religare ist hier nach Art des refigere der 28. Ode des ersten Buchs, und des recludere in der 24. Ode eben desselben Buchs, zu nehmen.</p>
+            <p>Auch hier hätten Sie bei dem Worte bleiben und junior nicht durch <hi rendition="#i">ein neuer Buhler,</hi> sondern durch <hi rendition="#i">ein jüngrer Buhler</hi> geben sollen. Sie gehen eben so unglücklich davon ab, als unglücklich Sie dabei bleiben.</p>
+            <p>Diese ganze Ode haben Sie verhunzt. Da Sie die Erklärung, welche Dacier davon gegeben hat, nicht annehmen, sondern die gemeine, so hätten Sie die zweite Strophe ganz anders geben sollen. Ich will mich mit Fleiß näher nicht ausdrücken, sondern Sie Ihrem Schulknaben, dem Nachdenken, überlassen.</p>
+            <p>Clavos trabales übersetzen Sie durch <hi rendition="#i">Balken und Nägel.</hi> Sie wissen also die Stärke des Adjectivi trabalis, e, nicht, und können es jetzt lernen. Wenn die Lateiner etwas recht großes beschreiben wollen, so sagen sie: so groß wie ein Balken. Bei dem Virgil werden Sie daher telum trabale finden, welches man nach Ihrer Art zu übersetzen durch Pfeil und Balken geben müßte.</p>
+            <p>Breve lilium heißt nicht <hi rendition="#i">kleine Lilie.</hi> Horaz setzt das breve dem vivax entgegen, daher es denn notwendig die kurze Dauer ihrer Blüte anzeigen muß. Auch das vivax haben Sie durch das bloße <hi rendition="#i">frisch</hi> sehr schlecht gegeben.</p>
+            <p>Velut leporem citus venator in campis nivalis Aemoniae. Dieses übersetzen Sie: <hi rendition="#i">gleich dem schnellen Jäger, der Hasen jaget auf den Feldern des stets beschneiten Hömus.</hi> Wer heißt Ihnen denn, aus der Landschaft Aemonien, oder welches einerlei ist, Thessalien, den Berg <hi rendition="#i">Hömus</hi> zu machen? Und wer heißt Ihnen denn, auf dem Berge Hasen hetzen zu lassen? Der Jäger bricht den Hals; es ist augenscheinlich. Wollen Sie denn mit aller Gewalt lieber</p>
+            <p>equitem rumpere quam leporem?</p>
+            <p>
+               <pb n="583" facs="#f0037"/>
+            </p>
+            <p>Ende gut alles gut! Ich weiß wahrhaftig bei dieser letzten Ode des ersten Buchs nichts zu erinnern. Sie ist aber auch nur von acht Zeilen. Wann Sie, Herr Pastor, alle so übersetzt hätten, wie diese, so würden Sie noch zur Not ein Schriftsteller sein, qui culpam vitavit, laudem non meruit.</p>
+            <p rendition="#et">Und so weit wären wir. – – Glauben Sie nun bald, daß es mir etwas sehr leichtes sein würde, zwei hundert Fehler in Ihrer Übersetzung aufzubringen, ob ich gleich nirgends diese Zahl versprochen habe? Wenn das erste Buch deren an die funfzig hält, so werden ohne Zweifel die übrigen vier Bücher nicht unfruchtbarer sein. Doch wahrhaftig, ich müßte meiner Zeit sehr feind sein, wenn ich mich weiter mit Ihnen abgeben wollte. Diesesmal habe ich geantwortet, und nimmermehr wieder. Wann Sie sich auch zehnmal aufs neue verteidigen sollten, so werde ich doch weiter nichts tun, als das Urteil der Welt abwarten. Schon fängt es an, sich für mich zu erklären, und ich hoffe die Zeit noch zu erleben, da man sich kaum mehr erinnern wird, daß einmal ein Lange den Horaz übersetzt hat. Auch meine Kritik wird alsdenn vergessen sein, und eben dieses wünsche ich. Ich sehe sie für nichts weniger, als für etwas an, welches mir Ehre machen könnte. Sie sind der Gegner nicht, an welchem man Kräfte zu zeigen Gelegenheit hat. Ich hätte Sie von Anfange verachten sollen, und es würde auch gewiß geschehen sein, wann mir nicht Ihr Stolz und das Vorurteil welches man für Sie hatte, die Wahrheit abgedrungen hätten. Ich habe Ihnen gezeigt, daß Sie weder Sprache, noch Kritik, weder Altertümer, noch Geschichte, weder Kenntnis der Erde noch des Himmels besitzen; kurz daß Sie keine einzige von den Eigenschaften haben, die zu einem Übersetzer des Horaz notwendig erfordert werden. Was kann ich noch mehr tun?</p>
+            <p rendition="#et">Ja, mein Herr, alles dieses würde eine sehr kleine Schande für Sie sein, wenn ich nicht der Welt auch zugleich entdecken müßte, daß Sie eine sehr niederträchtige Art zu denken haben, und daß Sie, mit einem Worte, ein Verleumder sind. Dieses ist der zweite Teil meines Briefes, welcher der kürzeste aber auch der nachdrücklichste werden wird.</p>
+            <p rendition="#et">
+               <pb n="584" facs="#f0038"/>
+Unser Streit, mein Herr Pastor, war grammatikalisch, das ist, über Kleinigkeiten, die in der Welt nicht kleiner sein können. Ich hätte mir nimmermehr eingebildet, daß ein vernünftiger Mann eine vorgeworfene Unwissenheit in denselben für eine Beschimpfung halten könne; für eine Beschimpfung, die er nicht allein mit einer gleichen, sondern auch noch mit boshaften Lügen rächen müsse. Am allerwenigsten hätte ich mir dieses von einem Prediger vermutet, welcher beßre Begriffe von der wahren Ehre und von der Verbindlichkeit bei allen Streitigkeiten den moralischen Charakter des Gegners aus dem Spiele zu lassen, haben sollte. Ich hatte Ihnen Schulschnitzer vorgeworfen; Sie gaben mir diese Vorwürfe zurück, und damit, glaubte ich, würde es genug sein. Doch nein, es war Ihnen zu wenig, mich zu widerlegen; Sie wollten mich verhaßt, und zu einem Abscheu ehrlicher Leute machen. Was für eine Denkungsart! Aber zugleich was für eine Verblendung, mir eine Beschuldigung aufzubürden, die Sie in Ewigkeit nicht nur nicht erweisen, sondern auch nicht einmal wahrscheinlich machen können!</p>
+            <p rendition="#et">Ich soll Ihnen zugemutet haben, mir meine Kritik mit Gelde abzukaufen. – – Ich? Ihnen? Mit Gelde? – – Doch es würde mein Unglücke sein, und ich würde mich nicht beruhigen können, wenn ich Sie bloß in die Unmöglichkeit setzte, Ihr Vorgehen zu erhärten; und wenn ich mich nicht durch ein gutes Schicksal in den Umständen befände, das Gegenteil unwidersprechlich zu beweisen.</p>
+            <p rendition="#et">Der dritte, durch den ich das niederträchtige Anerbieten soll getan haben, kann kein andrer sein als eben der Hr. P. N. dessen Sie auf der 21ten Seite gedenken; weil dieses der einzige lebendige Mensch ist, der Sie und mich zugleich von Person kennt, und der einzige, mit dem ich von meiner Kritik über Ihren Horaz, ehe sie gedruckt war, gesprochen habe. Nun hören Sie.</p>
+            <p rendition="#et">Es war im Monat März des 1752. Jahrs als dieser Herr P. N. durch Wittenberg reisete, und mich daselbst der Ehre seines Besuchs würdigte. Ich hatte ihn nie gesehen, und ihn weiter nicht als aus seinen Schriften gekannt. In Ansehung Ihrer aber war es ein Mann, mit welchem Sie schon viele Jahre eine <pb n="585" facs="#f0039"/>
+vertraute Freundschaft unterhalten hatten. Als er wieder in Halle war, fanden wir es für gut unsre angefangne Freundschaft in Briefen fortzusetzen. Gleich in meinem ersten, wo ich nicht irre, schrieb ich ihm, daß ich Ihren Horaz gelesen und sehr merkliche Fehler darinne gefunden hätte; ich sei nicht übel Willens die Welt auf einem fliegenden Bogen dafür zu warnen, vorher aber wünschte ich, sein Urteil davon zu wissen. Sehen Sie nun, was er hierauf antwortete – – Es tut mir leid, daß ich freundschaftliche Briefe so mißbrauchen muß. – –</p>
+            <p rendition="#et">»Öffentlich, sind seine Worte, wollte ich es niemanden raten, Herrn Langen anzugreifen, der etwa noch – – – – – – – – Indessen kenne ich ihn als einen Mann, der folgt, wenn man ihm etwas sagt, das ihm begreiflich ist. Diese Fehler, dächte ich, wären ihm begreiflich zu machen. Sollte es also nicht angehen, daß man ihn selbst aufmunterte Verleger von den Bogen zu sein, die Sie wider ihn geschrieben haben? Nicht in der Absicht daß er dieselben drucken läßt; sondern daß es in seiner Gewalt stehet, die Verbesserungen derselben bei einer neuen Auflage oder besonders drucken zu lassen. Er muß sich aber auch alsdenn gegen den Hrn. Verfasser so bezeigen, als ein billiger Verleger gegen den Autor. Sie müssen keinen Schaden haben, sondern ein Honorarium für gütigen Unterricht – – – –«</p>
+            <p rendition="#et">Ich wiederhole es noch einmal, dieses schrieb ein Mann, den ich in meinem Leben ein einzigmal gesprochen hatte, und der Ihr vertrauter Freund seit langer Zeit war. Ich habe nicht Lust, mich durch niederträchtige Aufbürdungen Ihnen gleich zu stellen, sonst würde es mir etwas leichtes sein, die Beschuldigung umzukehren, und es wahrscheinlich zu machen, daß Sie selbst hinter diesem guten Freunde gesteckt hätten. So wahrscheinlich es aber ist, so glaube ich es doch nicht, weil ich den friedfertigen Charakter dieses ohne Zweifel freiwilligen Vermittlers kenne. Ich will wünschen, daß er meine Briefe mag aufgehoben haben; und ob ich mich schon nicht erinnere was ich ihm eigentlich auf seinen Vorschlag geantwortet, so weiß ich doch so viel gewiß, daß ich an kein Geld, an kein Honorarium gedacht habe. Ja, ich will es nur gestehen; <pb n="586" facs="#f0040"/>
+es verdroß mich ein wenig, daß mich der Hr. P. N. für eine so eigennützige Seele ansehen können. Gesetzt auch, daß er aus meinen Umständen geschlossen habe, daß das Geld bei mir nicht im Überflusse sei, so weiß ich doch wahrhaftig nicht, wie er vermuten können, daß mir alle Arten Geld zu erlangen, gleichgültig sein würden. Doch schon diesen Umstand, daß ich ihm meine Kritik nicht geschickt habe, hat er für eine stillschweigende Mißbilligung seines Antrags annehmen müssen, ob ich ihn schon ohne Verletzung meiner Denkungsart hätte ergreifen können, weil er ohne mein geringstes Zutun an mich geschah.</p>
+            <p rendition="#et">Was antworten Sie nun hierauf? Sie werden sich schämen ohne Zweifel. Zwar nein; Verleumder sind über das schämen hinaus.</p>
+            <p rendition="#et">Sie sind übrigens zu Ihrem eignen Unglücke so boshaft gewesen, weil ich Ihnen heilig versichre, daß ich ohne die jetzt berührte Lügen, Ihrer Antwort wegen gewiß keine Feder würde angesetzt haben. Ich würde es ganz wohl haben leiden können, daß Sie als ein senex ABC darius, mich einen jungen frechen Kunstrichter, einen Scioppius, und ich weiß nicht was nennen; daß Sie vorgeben, meine ganze Gelehrsamkeit sei aus dem Bayle; zu meiner Kritik über das Jöchersche Gelehrten Lexikon hätte ich keinen Verleger finden können, (ob ich gleich einen so gar zu einer Kritik über Sie gefunden habe) und was dergleichen Fratzen mehr sind, bei welchen ich mich unmöglich aufhalten kann. Mein Wissen und Nichtwissen kann ich ganz wohl auf das Spiel setzen lassen; was ich auf der einen Seite verliere, hoffe ich auf der andern wieder zu gewinnen. Allein mein Herz werde ich nie ungerochen antasten lassen, und ich werde Ihren Namen in Zukunft allezeit nennen, so oft ich ein Beispiel eines rachsüchtigen Lügners nötig habe.</p>
+            <p rendition="#et">Mit dieser Versicherung habe ich die Ehre meinen Brief zu schließen. Ich bin – – doch nein, ich bin nichts. Ich sehe, mein Brief ist zu einer Abhandlung geworden. Streichen Sie also das übergeschriebne<hi rendition="#i"> Mein Herr</hi> aus, und nehmen ihn für das auf, was er ist. Ich habe weiter nichts zu tun als ihn in Duodez drucken zu lassen, um ihn dazu zu machen, wofür Sie<pb n="587" facs="#f0041"/>
+ meine Schriften halten; zu einem Vade mecum, das ich Ihnen zu Besserung Ihres Verstandes und Willens recht oft zu lesen rate. Weil endlich ein Gelehrter, wie Sie sind, sich in das rohe Duodez Format nicht wohl finden kann, so soll es mir nicht darauf ankommen, Ihnen eines nach Art der ABCBücher binden zu lassen, und mit einer schriftlichen Empfehlung zuzuschicken. Ich wünsche guten Gebrauch!</p>
+         </div>
+      </body>
+   </text>
+</TEI>

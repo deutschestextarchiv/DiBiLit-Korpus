@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Letzte der Abenceragen</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118520237">
+                  <forename>François René</forename>
+                  <roleName>Vicomte</roleName>
+                  <nameLink>de</nameLink>
+                  <surname>Chateaubriand</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:22Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004649559</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Chateaubriand, François René de/Erzählungen/Der Letzte der Abenceragen</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/kw85.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-4EE5-4</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>[Chateaubriand, François René, Vicomte de]: Chateaubriands Erzählungen. Leipzig und Wien [1855]</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Chateaubriands Erzählungen</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118520237">
+                        <forename>François René</forename>
+                        <roleName>Vicomte</roleName>
+                        <nameLink>de</nameLink>
+                        <surname>Chateaubriand</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">194 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Bibliographisches Institut</name>
+                  </publisher>
+                  <pubPlace>Leipzig, Wien</pubPlace>
+                  <date type="publication">1855</date>
+                  <date type="firstPublication">1826</date>
+                  <date type="firstPublication" subtype="clariah">1826</date>
+                  <date type="firstPublication" subtype="zeno">1826</date>
+                  <date type="firstPublication" subtype="i5">1826</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1768"
+                        notAfter="1848"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Chateaubriand-F-d1e2105">Erstdruck in: Oeuvres complètes, Bd. 14, Paris 1826. Der Text folgt der Übersetzung von Maria von Andechs (Baronin von Leinburg).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Chateaubriand-F-d1e2105">
+            <p rend="h4">François René de Chateaubriand</p>
+            <p rend="h2">Der Letzte der Abenceragen</p>
+            <p>(Les aventures du dernier Abencérage)</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Chateaubriand-F-d1e2128" type="preface">
+            <head>
+               <pb n="145" facs="#f0001"/>
+Vorwort.</head>
+            <p>Die Schicksale des letzten Abenceragen sind vor ungefähr zwanzig Jahren (im J. 1805) geschrieben; die darin enthaltene Schilderung der Spanier erklärt hinlänglich ihr Nichterscheinen unter der Regierung Napoleons. Der Widerstand der Spanier gegen den Löwen von Corsika, der Kampf eines wehrlosen Volkes gegen einen Erobrer, der Europas beste Soldaten geschlagen, erweckte damals Enthusiasmus in den Herzen Derer, welche noch höherer Eindrücke fähig waren. Saragossas Ruinen dampften noch, und die Censur möchte wohl schwerlich eine Lobrede erlaubt haben, worin sie mit Recht ein verborgenes Interesse für die Opfer wahrnahm. Die Schilderung des ehemaligen Europa, die Erinnrung an den Ruhm einer vergangnen Zeit und den Hof eines unserer glänzendsten Monarchen wären ihr nicht angenehmer gewesen, da sie überdies zu bereuen begann, daß sie mich so oft von der frühern französischen Königsdynastie und der Religion unserer Väter reden ließ: diese Todten gaben den Lebenden doch gar zu viel zu denken!</p>
+            <p rendition="#et">Man bringt in Gemälden oftmals eine häßliche Gestalt an, um dadurch die Schönheit der anderen desto mehr hervorzuheben. Ich habe in dieser Novelle drei Personen von gleich erhabenem Charakter zu schildern versucht, die indeß durchaus nichts Unnatürliches haben, und die mit den Leidenschaften auch die Gewohnheiten, ja sogar gewisse Vorurtheile des Heimatlandes beibehielten, welches sie gebar und erzog. Nach gleichem Maß und Verhältniß ist auch der Charakter der weiblichen Hauptfigur <pb n="146" facs="#f0002"/>
+darin wiedergegeben. Die ideale Welt soll uns doch wenigstens dann und wann für die wirkliche entschädigen.</p>
+            <p rendition="#et">Man wird leicht herausfühlen, daß diese Novelle das Werk eines Mannes ist, der die Leiden des Exils selbst schon schmerzlich empfunden hat, und der mit ganzer Seele an seiner Heimat hängt.</p>
+            <p rendition="#et">Ich habe darin Granada und seine Alhambra, sowie die berühmte Kathedrale von Cordova so zu sagen nach der Natur gezeichnet. Diese Beschreibungen sind also eine Art von Zugabe zu einer Stelle meines<hi rendition="#i"> »Itinéraire«,</hi> wo es heißt:</p>
+            <p rendition="#et">»Von Cadix begab ich mich nach Cordova, wo ich die ehemalige Moschee sah, welche nunmehr die christliche Kathedrale dieser Stadt ist. Ich durchwanderte das alte Betika, das die Dichter zur seligen Wohnstatt des Glückes gemacht. Dann zog ich weiter bis nach Andujar, und kehrte auf meinem Wege wieder um, um Granada zu sehen. Das Schloß Alhambra schien mir nach den Tempeln Griechenlands wohl des Anschauens werth. Das Thal von Granada ist herrlich, und gleicht in vieler Hinsicht dem von Sparta; man kann sich leicht denken, wie schmerzlich den Mauren der Verlust eines solchen Landes sein mußte.« <hi rendition="#i">(Itinéraire,</hi> VII. <hi rendition="#i">etc. dernière partie.)</hi>
+            </p>
+            <p rendition="#et">Es wird in dieser Novelle oft auf die Geschichte der Zegris und der Abenceragen angespielt. Ueber diese Geschichte ist schon so Vieles geschrieben worden, daß es mir unnöthig erschien, in diesem Vorwort noch mehr davon zu sagen. Uebrigens enthält die Novelle nähere Details genug zum Verständniß des Texts.</p>
+            <p>F.A. Chateaubriand.</p>
+         </div>
+         <div xml:id="Chateaubriand-F-d1e2174" type="chapter">
+            <head>
+               <pb n="147" facs="#f0003"/>
+Der letzte der Abenceragen.</head>
+            <p>Als Boabdil, der letzte König von Granada, sich gezwungen sah, das Reich seiner Väter zu verlassen, hielt er einen Augenblick Rast auf dem Gipfel des Berges Padul. Von dieser Höhe herab erblickte man das Meer, wo der unglückliche Maurenfürst sich nach Afrika einzuschiffen gedachte; man erblickte auch Granada, die Vega und den Xenil, an dessen Ufern sich die Zelte Ferdinands und Isabels erhoben. Beim Anblick dieses schönen Landes und der Cypressen, welche noch hie und da die Gräber der Mamelucken bezeichneten, brach Boabdil in Thränen des Schmerzes aus. Da nahm die Sultanin Aixa, seine Mutter, welche ihm nebst den Großen seines ehemaligen Hofes in das Land der Verbannung folgte, das Wort, und sprach zu ihm: Beweine nur jetzt wie ein Weib ein Reich, das du nicht die Kraft gehabt hast, wie ein Mann zu vertheidigen. – Sie stiegen herab von der Höhe des Berges, und zum letzten Male für immer erblickte ihr Auge <hi rendition="#g">Granada.</hi>
+            </p>
+            <p rendition="#et">Die spanischen Mauren, welche das Schicksal ihres Königs theilten, zerstreuten sich rings in Afrika. Die Stämme der Zegris und der Gomelen ließen sich im Königreich Fez, dem Lande ihrer Herkunft, nieder. Die Vanegas und Alabes zogen sich nach der Küste zwischen Oran und Algier zurück. Die Abenceragen endlich wählten die Umgebungen von Tunis zu ihrem bleibenden Aufenthalt. Sie bildeten dadurch, im Angesicht der Ruinen von Karthago, eine Kolonie, welche sich noch jetzt von den andern Mauren in Afrika durch die angenehmen Umgangsformen der Landesbewohner und durch die Milde der daselbst herrschenden Gesetze vortheilhaft unterscheidet.</p>
+            <p rendition="#et">
+               <pb n="148" facs="#f0004"/>
+Diese Familien brachten das Andenken ihrer ehemaligen Heimat in ihre neue mit. Das Paradies von Granada lebte unsterblich schön und lieblich in ihrer Erinnrung fort; die Kinder sogen schon mit der Muttermilch den Namen Granada ein, und die Romanzen der Zegris und der Abenceragen waren die Wiegenlieder, womit sie in den Schlaf gesungen wurden. Jeden fünften Tag betete man in der Moschee, das Angesicht gegen Granada gekehrt; man flehte zu Allah, seinen Erwählten dieses Land der Freuden wieder zurückzugeben. Vergebens bot das Land der Lotofagen den Verbannten seine Quellen, seine Haine, seine herrliche Sonne; fern von den <hi rendition="#g">rothen Thürmen</hi> gab es für sie weder liebliche Früchte, noch eine klare Quelle, weder frisches Grün der Bäume, noch eine des Anschauens würdige Sonne mehr. Zeigte man einem dieser Flüchtlinge die Ebenen von Bagrada, so schüttelte er traurig sein Haupt und seufzte: Granada!</p>
+            <p rendition="#et">Von all diesen Mauren waren es hauptsächlich die Abenceragen, welche der schönen spanischen Heimat das treueste und zärtlichste Andenken bewahrten. Den Tod im Herzen, hatten sie den Schauplatz ihres ehemaligen Ruhms und die Gestade verlassen, die so oft von ihrem Feldgeschrei <hi rendition="#g">Liebe und Ehre</hi> wiederhallten. Da sie nun in der Wüste keinen Speer mehr schwingen, noch unter einer Kolonie von Ackerbauern ihr Haupt mehr mit einem glänzenden Helm schmücken konnten, widmeten sie sich dem Studium der Arzneiwissenschaft, einer Beschäftigung, die von den Arabern nicht minder hoch geschätzt zu werden pflegte, wie das edle Waffenhandwerk. So gab sich dieser Stamm von Kriegern, der ehemals selbst Wunden schlug, jetzt mit der Heilung derselben ab; und damit hatten sie zugleich etwas von ihrem früheren Geist zurückbehalten; denn die Ritter verbanden gar oft selbst die Wunden, die sie dem Feind im Kampfe geschlagen.</p>
+            <p rendition="#et">Das ärmliche Wohnhaus dieses Geschlechtes, das vormals in Palästen gewohnt, stand nicht unter denen der übrigen Verbannten am Fuß des Berges Mamalifa, sondern erhob sich gerade unter den Trümmern Karthagos, am Strand des Meeres, an derselben Stelle, wo auf der Asche der heilige Ludwig verschied, und wo man heutzutage noch eine mahomedanische Einsiedelei erblickt. <pb n="149" facs="#f0005"/>
+An den Wänden dieses Wohnhauses hingen Schilde von Löwenfell, auf deren blauem Felde man als Sinnbild zwei Wilde erblickte, die eine Stadt mit Keulen zerstörten, und rings darumher las man die Worte: <hi rendition="#g">Das ist geringe Mühe.</hi> – Letzteres war nämlich das Wappen und die Devise der Abenceragen. Lanzen, geschmückt mit weiß und blauen Fähnchen, Alburnos und Mäntel von geschlitztem Seidenstoff hingen neben den Schilden und glänzten zwischen den Schwertern und Dolchen. Auch sah man mehrere Panzerhandschuhe, reich mit Edelsteinen besetzte Roßzäume, silberne Steigbügel, lange Schwerter, deren Scheiden von den Händen der Prinzessinnen gestickt waren, und goldene Sporen, welche die Isolden, die Genievren und Orianen einst mit eigenen Händen den tapfern Rittern angeschnallt hatten.</p>
+            <p rendition="#et">Auf den Tischen, gerade unter den Trophäen des Kriegsruhms, lagen die Trophäen des Friedens. Es waren Pflanzen, auf dem Gipfel des Atlas und in der Wüste Sahara gepflückt; ja, einige derselben waren sogar noch von den Ebenen Granadas mitgebracht worden. Die einen dienten zur Linderung der Schmerzen des Leibes, die andern erstreckten ihre Macht sogar auf die Leiden der Seele. Die Abenceragen schätzten am höchsten die, welche nach ihrem Dafürhalten die Kraft besaßen, den eiteln Schmerz der Seele zu stillen, trügerische Täuschungen und die beständig neuauflebenden Hoffnungen auf bessere Tage, die doch nie mehr kamen, verschwinden zu machen. Zum Unglück brachten jedoch solche Pflanzen oft gerade die entgegengesetzten Wirkungen hervor, und mehr als einmal war der Duft einer Heimatblume nur Gift für die edeln Verbannten.</p>
+            <p rendition="#et">Vier und zwanzig Jahre waren seit der Wiedereroberung Granadas durch die Spanier verflossen. In diesem kurzen Zeitraum waren nicht weniger als vierzehn Abenceragen dem Einfluß des neuen Klimas, den Unbequemlichkeiten des Wanderlebens und besonders dem tiefen Schmerze, der die Kräfte des Menschen still untergräbt, erlegen und in ein frühes Grab gesunken. Die Hoffnungen des erlauchten Stammes waren jetzt nur noch an einen einzigen und letzten Sprößling geknüpft. Abdel-Hamet <pb n="150" facs="#f0006"/>
+trug den Namen jenes Abenceragen, den die Zegris beschuldigten, die Sultanin Alfaima verführt zu haben. In seinem Wesen schienen die glänzendsten Tugenden seiner Vorfahren, schienen Schönheit, Tapferkeit, Galanterie und Edelmuth verschmolzen zu sein mit jenem Zauber und jenem leisen Anflug von Schmerz und Trauer, welchen das Unglück verleiht, wenn es mit Muth und Edelsinn ertragen wird. Er war erst zwei und zwanzig Jahre alt, als er seinen Vater verlor; da beschloß er, um dem Drang seines Herzens zu genügen, eine Pilgerfahrt nach dem Land seiner Vorfahren anzutreten, und einen Plan zu vollführen, den er seiner Mutter auf das Sorgfältigste verheimlichte.</p>
+            <p rendition="#et">Er schiffte sich auf der Rhede von Tunis ein, und ein günstiger Wind brachte ihn bald nach Karthagena. Dort stieg er ans Land und machte sich sogleich auf den Weg nach Granada, indem er sich für einen arabischen Arzt ausgab, der gekommen war, um in den Felsen der Sierra-Nevada heilsame Kräuter zu suchen. Ein friedliches Maulthier brachte ihn in das Land, wo vormals die Abenceragen auf stolzem Streitroß durch die Auen flogen, und ein Führer zog vor ihm her, der zwei andere Maulthiere, mit kleinen Glöckchen und bunten Schabraken geschmückt, am Zügel führte. Abdel-Hamet durchzog die weiten Ebenen und die Palmenwälder des Königreichs Murcia; er sah es dem Alter dieser Palmen an, daß sie schon von seinen Vätern gepflanzt worden waren, und die Seele schwoll ihm von tiefer Wehmuth bei diesem Gedanken. Dort erhob sich ein Thurm, wo zur Zeit des Krieges zwischen den Christen und den Mauren eine Wache stand; hier gewahrte er eine Ruine, deren Bauart den maurischen Ursprung verrieth: lauter Stacheln des Schmerzes für den Abenceragen! – Er stieg von seinem Maulthiere und, unter dem Vorwande Pflanzen und Kräuter zu suchen, verbarg er sich auf einen Augenblick zwischen diesen Trümmern, und ließ seinen Thränen freien Lauf. Dann zog er, in träumerischen Gedanken verloren, still des Weges weiter, bei dem Klange der Glöckchen und dem monotonen Gesange des Maulthiertreibers. – Letzterer unterbrach nur dann und wann seine endlos langen Romanzen, wenn es Noth that, seine Maulthiere entweder mit dem Lob: Ihr <pb n="151" facs="#f0007"/>
+Schönen und Braven! oder mit den Scheltworten: Ihr Faulen und Widerspänstigen! anzutreiben und zu ermuntern.</p>
+            <p rendition="#et">Heerden von Schafen, die, gleich einem kleinen Heer, von dem Hirten ins Thal und in die unbebauten, gelblichen Ebenen hinabgetrieben wurden, und von Zeit zu Zeit ein einsamer Reisender, welcher des nämlichen Weges zog, dienten nur dazu, ihm die Straße noch trauriger und einsamer zu machen, statt sie zu beleben. All diese Reisenden trugen ein Schwert am Gürtel: ein Mantel umflog ihre Schultern, und ein Hut mit breiten Krempen bedeckte die Hälfte ihres Gesichtes. Sie grüßten den Mauren, der von diesem edeln Gruß nur die Worte: <hi rendition="#g">Gott, Herr</hi> und <hi rendition="#g">Ritter</hi> verstand. Am Abend nahm der Abencerage im Einkehrwirthshause einfach und anspruchslos unter den Fremden Platz, ohne weiter von ihrer Neugier belästigt zu werden. Man sprach nicht mit ihm, man richtete keine Fragen an ihn; weder sein Turban, noch sein Kleid, noch sein Schwert fielen Jemandem auf. Wenn es auch Allahs Wille gewesen war, daß die Mauren Spaniens ihr schönes Vaterland verloren, so konnte Abdel-Hamet doch nicht umhin, die stolzen Erobrer desselben zu achten.</p>
+            <p rendition="#et">Noch lebhaftere Gemüthsbewegungen erwarteten den Abenceragen am Ziele seiner Pilgerfahrt. Granada liegt am Fuß der Sierra-Nevada, auf zwei, durch ein tiefes Thal geschiednen, nicht unansehnlichen Hügeln. Die am Abhange der Höhen in dem Thal erbauten Häuser geben der Stadt das Aussehen und die Form einer entzweigeschnittenen Granate, wovon auch ihr Name herrührt. Zwei Flüsse, der Xenil und der Darro, wovon der eine Gold-, der andere Silbersand mit sich führt, umspülen den Fuß der Hügel, vereinigen sich mit einander, und schlängeln sich dann durch ein liebliches Thal, die Vega. Dieses Thal, welches Granada beherrscht, ist mit Granat-, Feigen-, Maulbeer- und Orangenbäumen bepflanzt, und mit Bergen von bewunderungswürdigen Formen und Farben umkränzt. Ein bezaubernd liebliches Klima, eine reine und köstliche Luft erfüllen die Seele mit einer geheimnißvollen, süßen Sehnsucht, deren sich selbst ein blos vorüberziehender Reisender kaum erwehren kann. Man fühlt es, in diesem <pb n="152" facs="#f0008"/>
+herrlichen Lande wären durch die zarten und sanfteren Gefühle nur allzubald die der Kraft und des Heldenmuths erstickt worden, wenn reine Liebesglut und wahrer Ruhm nicht stets und überall mit einander Hand in Hand gegangen wären.</p>
+            <p rendition="#et">Als Abdel-Hamet die Giebel der ersten Gebäude von Granada erblickte, schlug ihm das Herz so gewaltig, daß er sein Thier anhalten mußte. Er kreuzte seine Arme über der Brust, und verlor sich ganz und gar in dem Anblick der heiligen Stadt. Auch der Führer hielt stille, und da der Spanier erhabene Gefühle stets begreift, schien auch er gerührt und errieth, daß der Araber seines ehemaligen Vaterlands wieder gedachte. Endlich unterbrach der Abencerage das Stillschweigen.</p>
+            <p rendition="#et">Führer, nahm er das Wort, Glück sei mit dir! Verhehle mir die Wahrheit nicht, denn still waren die Fluten am Tage deiner Geburt, und der Mond war im ersten Viertel. Was sind das für Thürme, die dort gleich Sternen aus dem Grün der Waldesnacht hervorglänzen?</p>
+            <p rendition="#et">Das ist Alhambra, gab ihm der Führer zur Antwort.</p>
+            <p rendition="#et">Und das andere Schloß da drüben, auf dem zweiten Hügel?</p>
+            <p rendition="#et">Das ist das Generalife, antwortete der Spanier. In jenem Schlosse ist ein Garten, ganz mit Myrthen bepflanzt, wo, wie man behauptet, der Abencerage mit der Sultanin Alfaima überrascht worden ist. Weiterhin seht ihr Albaycin, und dort, etwas näher gegen uns her, die rothen Thürme.</p>
+            <p rendition="#et">Jedes Wort des Führers fuhr dem Abenceragen wie ein Pfeil durch die Seele. Ach, wie ist es so schmerzlich, der Fremden zu bedürfen, um durch sie die Denkmale seiner Väter kennen zu lernen, und sich die Geschichte seiner Familie und seiner Freunde von Gleichgültigen erzählen zu lassen! – Der Führer unterbrach die Betrachtungen des Mauren mit den Worten: Vorwärts, Herr Maure, laßt uns gehen! Gott hat's so gewollt. Sitzt nicht gerade jetzt der König von Frankreich in unserm Madrid gefangen? Gott hat's gewollt! – Und, den Hut abnehmend, machte er das Zeichen des Kreuzes, und trieb seine Thiere von neuem an; da <pb n="153" facs="#f0009"/>
+rief auch der Abencerage seinerseits: <hi rendition="#g">Es stand so geschrieben!</hi>
+               <note place="foot" n="1">
+                  <p> Ein Ausdruck, dessen sich die Mahomedaner bei allen Gelegenheiten zu bedienen pflegen.</p>
+               </note> und sie ritten selbander auf Granada zu.</p>
+            <p rendition="#et">Sie kamen bei der großen Esche vorüber, die unter der Regierung des letzten Königs von Granada durch den Kampf Muças und des Großmeisters von Calatrava berühmt geworden ist. Sie durchzogen die Alameda, die schöne Promenade am Xenil, und traten durch das Thor, welches den Namen Elvirenpforte trägt, in die Stadt. Bald kamen sie auf einen Platz, den Häuser von maurischer Bauart auf beiden Seiten umgaben. Auf diesem Platze befand sich ein Chan für die afrikanischen Mauren, welche der Seidenhandel der Vega in Menge nach Granada zog, und dorthin führte denn der Maulthiertreiber den Abenceragen.</p>
+            <p rendition="#et">Indeß war er zu aufgeregt, um in der neuen Wohnung der Ruhe pflegen zu können; das Vaterland schmerzte ihn. – Außer Stande, den Gefühlen seines Herzens zu widerstehen, verließ er mitten in der Nacht das Haus, um durch Granadas Straßen zu wandern. Er suchte mit den Augen und den Händen nach einigen jener Denkmale, welche die Greise ihm so oft beschrieben. Vielleicht war jenes hohe Gebäude, dessen Mauern durch das Dunkel schimmerten, vormals die Wohnung der Abenceragen; vielleicht wurden auf diesem einsamen Platze die Feste gefeiert, welche Granadas Ruhm zu den Wolken trugen. Dort zogen vielleicht Schaaren von Rittern, prachtvoll in Goldbrokat gekleidet; hier nahten Galeeren, mit glänzenden Wappenschildern und Blumen bedeckt; Drachen, welche Feuer spieen, und in ihren Flanken tapfere Ritter verbargen: sinnige Erfindungen des Vergnügens und der Galantrie.</p>
+            <p rendition="#et">Doch ach! Da, wo einst Zinken, Trompeten und Liebesgesänge erklangen, herrschte jetzt die Ruhe eines Kirchhofs. – Diese stille Stadt hatte ihre Bewohner gewechselt, und die Sieger ruhten jetzt auf den Pfühlen der Besiegten. – So schlaft ihr denn jetzt, ihr stolzen Spanier, sagte voll Unmuths der letzte Sproß vom Stamm der Abenceragen, in denselben Wohnungen, woraus ihr die <pb n="154" facs="#f0010"/>
+Mauren vertrieben habt! Und ich, der Abencerage, irre und wache als armer Fremdling, einsam und müde, vor dem Palaste meiner Väter! –</p>
+            <p rendition="#et">Dann dachte der edle Jüngling nach über die menschlichen Schicksale, über die Unbeständigkeit des Glückes, über den Fall der Königreiche und endlich über dieses Granada selbst, das, mitten unter seinen glänzenden Vergnügungen vom Feind überfallen, plötzlich seine Blumenguirlanden mit der eisernen Kette vertauschte. Seine Bürger, die den häuslichen Herd im Festkleide verließen, schienen ihm Gästen zu gleichen, welche plötzlich durch eine Feuersbrunst, wie sie gingen und standen, vom fröhlichen Bankett verjagt wurden.</p>
+            <p rendition="#et">All diese Gedanken und Bilder stürmten auf ihn ein, voll Schmerz und Trauer dachte er vor Allem daran, das zu vollbringen, weßhalb er eigentlich nach Granada gekommen war. Der Tag überraschte ihn. Er hatte sich verirrt, und befand sich fern von seinem Chan, in einer abgelegenen Vorstadt.</p>
+            <p rendition="#et">Alles schlief noch, kein Geräusch unterbrach die Stille; Hausthüren und Fenster waren geschlossen, und nur der Hahnenruf verkündete im Hof des Armen die Rückkehr der Mühen und Arbeiten des Tages.</p>
+            <p rendition="#et">Nachdem er lange umhergeirrt war, ohne den rechten Weg wieder finden zu können, bemerkte er plötzlich, wie sich eine Pforte öffnete, und sah, wie eine junge Dame heraustrat, welche beinahe wie die Königinnen auf den Monumenten unserer gothischen Abteien gekleidet war. Ihr schwarzes mit Stickereien besetztes Mieder umschloß knapp ihren schlanken Leib; ein kurzer, enganschließender und fast gar keine Falten werfender Rock ließ ein schönes Bein und einen niedlichen, kleinen Fuß sehen; über den Kopf hatte sie eine ebenfalls schwarze Mantilla geworfen; mit der Linken hielt sie diese Mantilla, wie einen Brustschleier gekreuzt, unter dem Kinn fest, so daß man von dem Gesichte nur die großen, funkelnden Augen und den feingeschnittenen, rosigen Mund erblickte. Eine Duenna begleitete sie, und ein Page trug ihr das Gebetbuch; zwei Lakaien in prächtiger Livree folgten in einiger Entfernung der schönen Unbekannten. Sie begab sich zum Morgengebete, <pb n="155" facs="#f0011"/>
+zu dem die frommen Glockenklänge eines nahen Klosters die Andächtigen zusammen riefen.</p>
+            <p rendition="#et">Der Abencerage glaubte den Engel Israfil oder die jüngste der Huris zu erblicken. Nicht weniger überrascht sah die Spanierin den Mauren an, dessen Turban, Kleid und prächtiges Wehrgehäng seine edle Gestalt noch mehr hervorhoben. Von ihrem ersten Erstaunen zurückgekommen, gab sie dem Fremden ein Zeichen, sich zu nähern, mit einer Grazie und Freiheit, welche den Frauen jenes Landes eigen ist. – Herr Maure, sprach sie zu ihm, Ihr scheint mir fremd in Granada zu sein; habt Ihr Euch vielleicht verirrt?</p>
+            <p rendition="#et">Sultanin der Blumen, erwiderte Abdel-Hamet, Augenlust der Sterblichen, Christensklavin, schöner als die Jungfrauen Georgiens, du hast es errathen! ich bin fremd in dieser Stadt und bin irr gegangen zwischen ihren Palästen, so daß ich den Chan der Mauren nicht mehr wiederfinden konnte. Mahomed rühre dein Herz und lohne dir deine Gastfreundlichkeit!</p>
+            <p rendition="#et">Die Mauren sind berühmt für ihre Galantrie, antwortete holdlächelnd die schöne Dame; aber ich bin weder Sultanin der Blumen noch Sklavin, noch zufrieden mit einer solchen Empfehlung an Mahomed. Folgt mir, Herr Ritter, ich will Euch zum Chan der Mauren zurückführen!</p>
+            <p rendition="#et">Mit diesen Worten schwebte sie vor dem Abenceragen her bis an das Thor des Chans, zeigte mit dem Finger auf das Haus, und verschwand dann hinter einem Palaste.</p>
+            <p rendition="#et">Woran hängt denn die Ruhe eines Menschen? – Das Vaterland beschäftigt nicht mehr ganz und ausschließlich die Seele des jungen Mauren: Granada hat bereits aufgehört, einsam, verlassen, verwittwet für ihn zu sein; es ist seinem Herzen theurer als jemals, aber es liegt jetzt gleichsam ein neuer Glanz darüber, der seine Ruinen verschönt; es ist zu dem Andenken an den Ruhm der Ahnen jetzt noch ein anderer Zauber hinzugekommen. Der Jüngling hat jetzt den Friedhof gefunden, in dem die Asche der Abenceragen ruht; aber indem er sich mit frommer Andacht darauf niederwirft und kindliche Thränen darüber vergießt, denkt er doch daran, daß der Fuß der schönen Spanierin mehr als <pb n="156" facs="#f0012"/>
+einmal an diesen heiligen Gräbern vorübergegangen ist – und er kann seine Vorfahren nicht mehr so ganz und gar unglücklich finden.</p>
+            <p rendition="#et">Vergebens will er sich nur mit seiner Pilgerschaft nach dem Land seiner Väter beschäftigen, vergebens durcheilt er die vom Darro und Xenil durchströmten Fluren, um dort bei Anbruch des Tages Blumen zu suchen: die Blume, die er jetzt sucht, ist die schöne Christin. Wie viele vergebliche Versuche hat er nicht schon gemacht, um ihren Palast wieder zu finden! Wie oft hat er schon die Wege zu gehen versucht, welche seine Führerin mit ihm gegangen ist! Mehr als einmal glaubte er schon den Ton jener Glocke, die Stimme des Hahnes wiederzuerkennen, die er in der Nähe ihrer Wohnung vernahm! – Getäuscht durch den ähnlichen Schall, lief er oft nach einer Richtung hin, aber der magische Palast bot sich seinen suchenden Augen nicht mehr dar. Oft gab ihm die gleiche Kleidung der Frauen in Granada einen Augenblick Hoffnung auf Erfolg: von ferne glichen die meisten Christinnen seiner Herzenskönigin, doch in der Nähe besaß keine einzige ihre Schönheit und Grazie. Er durchsuchte zuletzt selbst die Kirchen, um da vielleicht seine schöne Unbekannte wiederzufinden; ja, er war sogar zum Grabmal Ferdinands und Isabels gegangen, aber das war auch das größte Opfer, das er bis jetzt seiner Leidenschaft brachte.</p>
+            <p rendition="#et">Eines Tages suchte er Pflanzen im Thal des Darro. Der gegen Süden gelegne Hügel trug auf seinem Scheitel die Alhambra und die Gärten des Generalifes; der nördliche Hügel war mit dem prächtigen Albaycin, mit lachenden Obstgärten und mit einer Unzahl von Grotten geschmückt, die von vielen armen Leuten bewohnt waren. Am westlichen Ende des Thales erblickte man die Kirchthürme Granadas, die sich in großer Anzahl aus einem Walde von grünenden Eichen und Eypressen erhoben. Am andern Ende, gegen Morgen, gewahrte das Auge auf Felsenhöhen einzelne Klöster und Einsiedeleien, einige Ruinen des alten Illiberis, und in der Ferne die Höhen der Sierra-Nevada. Der Darro floß mitten durch das Thal, und bot in seinem Lauf mehrere neuerbaute Mühlen, schäumende Wasserfälle, die zerfallnen <pb n="157" facs="#f0013"/>
+Trümmer eines römischen Aquädukts und einer maurischen Brücke dem Blick des Wanderers dar.</p>
+            <p rendition="#et">Abdel-Hamet war weder unglücklich noch glücklich genug, um sich den Reizen der Einsamkeit von ganzer Seele hingeben zu können; zerstreut und gleichgültig durcheilte er diese paradiesische Flur. Planlos hin und her wandernd, folgte er endlich einer Baumallee, die sich rings um den Gipfel des Hügels von Albaycin herumzog, als sich ein Landhaus, von einem Orangenhaine umgeben, seinen Augen darbot; indem er näher kam, vernahm er plötzlich die Töne einer Stimme und einer Guitarre. Es giebt ein Verhältniß zwischen den Zügen, den Blicken und der Stimme der Frauen, welche den Liebenden nie täuschen. – Das ist meine Huri! rief der Abencerage freudig aus, und mit klopfendem Herzen lauschte er eine Zeitlang dem Gesange. Bei dem oft wiederholten Namen der Abenceragen schlug sein Puls mit noch rascheren Schlägen. Die Unbekannte sang gerade eine kastilische Romanze von der Fehde der Zegris und der Abenceragen. Abdel-Hamet konnte seiner Rührung nicht widerstehn: er drang durch eine Myrtenhecke, und befand sich plötzlich mitten in einer Gesellschaft von jungen Damen, die bei seinem unvermutheten Anblick erschrocken und schreiend nach allen Seiten flohen. Nur die Spanierin, welche soeben gesungen und die noch die Guitarre in der Hand hielt, rief: Das ist ja der Herr Maure! und winkte ihren Gefährtinnen zu, wieder zurückzukommen. – O Liebling der Genien! sprach der Abencerage, ich suchte dich wie der Araber nach einem frischen Quell sucht in der Glut des Mittags, ich vernahm die Guitarrentöne, als du die Helden meines Landes feiertest, ich habe dich an der Lieblichkeit deiner Stimme wieder erkannt, und hiermit leg' ich dir Abdel-Hamets Herz zu Füßen.</p>
+            <p rendition="#et">Und ich dachte an Euch, erwiderte Donna Blanka, als ich die Romanze von den Abenceragen sang. Seit ich Euch gesehen, habe ich mir stets gedacht, daß die maurischen Ritter Euch gleichen müßten.</p>
+            <p rendition="#et">Eine leichte Röthe überflog bei diesen Worten Blankas Gesicht. Der Abencerage wollte sich ihr zu Füßen werfen und erklären, daß er selbst der Letzte seines Stammes sei, aber ein Rest <pb n="158" facs="#f0014"/>
+von Klugheit hielt ihn zurück: er fürchtete, sein in Granada nur allzu berühmter Name möchte dem Statthalter Besorgnisse einflößen. Der Krieg mit den Mauren war kaum beendigt, und die Anwesenheit eines Abenceragen in diesem Augenblick konnte den Spaniern gerechte Furcht einjagen. Nicht daß Abdel-Hamet vor irgend einer Gefahr erschrocken wäre, aber er erbleichte bei dem Gedanken, er möchte am Ende genöthigt werden, auf immer von Don Rodrigos Tochter zu scheiden.</p>
+            <p rendition="#et">Donna Blanka stammte von einer Familie ab, welche Rodrigo de Bivar, den Cid, und Chimene, die Tochter des Grafen Gomez von Gormas, unter ihren Ahnen zählte. Die Nachkommenschaft des glorreichen Siegers von <hi rendition="#g">Valencia</hi> versank, durch die Undankbarkeit des kastilischen Königshofs, nach und nach in Dürftigkeit; ja, sie war zuletzt so vergessen, daß man während mehrerer Jahrhunderte sie für ganz und gar erloschen hielt. Zur Zeit der Wiedereroberung Granadas zeichnete sich jedoch einer der letzten Sprößlinge aus dem Hause Bivar, und zwar Blankas Großvater, weniger noch durch seine Würden, als durch seine Tapferkeit aus. Nach Vertreibung der Unglücklichen schenkte Don Ferdinand dem Nachkommen des Cid ein paar ehemalige Güter maurischer Familien, und erhob ihn zum Herzog von Santa-Fé. Der neue Herzog lebte von da an in Granada und erreichte kein hohes Alter; er hinterließ einen einzigen, schon verehlichten Sohn, Don Rodrigo nämlich, den Vater der schönen Blanka.</p>
+            <p rendition="#et">Donna Theresia de Xeres, die Gemahlin Don Rodrigos, gebar einen Sohn, der gleich seinen Vorfahren den Namen Rodrigo erhielt, den man aber zur Unterscheidung von seinem Vater Don Carlos zu nennen pflegte. Die großen Begebenheiten, welche Don Carlos seit seiner Kindheit bereits erlebt, die Gefahren, denen er von Jugend an ausgesetzt war, machten seinen von Natur ernsten Charakter nur noch düsterer und verschloßner. In einem Alter von vierzehn Jahren folgte er bereits dem kühnen Cortez nach Mexiko; er hatte sämmtliche Gefahren dieses bewunderungswürdigen Feldzuges getheilt, er war ein Augenzeuge all seiner Gräuel gewesen, er hatte den Sturz des letzten Königs einer <pb n="159" facs="#f0015"/>
+bis dahin unbekannten Welt gesehen. Drei Jahre nach dieser Katastrophe befand sich Don Carlos mit in der Schlacht von Pavia, gleichsam um die gekrönte Ehre und Tapferkeit unter den Schlägen des Schicksals fallen zu sehen. Der Anblick einer neuen Welt, Reisen auf noch von keinem menschlichen Fahrzeug beschifften Meeren, das große Schauspiel der Umwälzungen und der Wandelbarkeit des Glücks, hatten Carlos religiöse und schwärmerische Phantasie auf das Mächtigste angeregt; er war in den Ritterorden von Calatrava getreten und hatte, ungeachtet der freundlichen Gegenvorstellungen Rodrigos der Ehe entsagend, all seine Güter seiner Schwester zugedacht.</p>
+            <p rendition="#et">Blanka von Bivar, Don Carlos einzige, viel jüngere Schwester, war der Abgott ihres Vaters: sie hatte ihre Mutter bereits durch den Tod verloren, und trat gerade in ihr achtzehntes Jahr, als Abdel-Hamet in Granada erschien. Alles war hinreißend an dieser zauberhaft schönen Dame; ihre Stimme war entzückend, ihr Tanz leichter, als der Zephyr; bald führte sie einen Wagen wie Armida, bald flog sie auf dem Rücken eines feurigen andalusischen Rosses dahin, jenen Feen gleich, die Tristan und Galaor in der Nacht der Wälder erschienen. Von Athen wäre sie für Aspasia, von Paris für Diana von Poitiers gehalten worden, deren Blüthezeit gerade damals anfing. Mit den Reizen der Französin verband sie die Leidenschaften einer Spanierin, und eine gewisse naive Koketterie that bei <hi rendition="#g">ihr</hi> der natürlichen Sicherheit, der Kraft und dem Aufschwung des Gefühls durchaus keinen Schaden.</p>
+            <p rendition="#et">Auf das Geschrei der jungen Spanierinnen beim Erscheinen des schönen jungen Mauren war Don Rodrigo herbeigekommen. Mein Vater, sagte Blanka, das ist der maurische Ritter, von dem ich Euch erzählt habe. Er hat mich singen hören, und ist in den Garten hereingekommen, um mir noch einmal dafür zu danken, daß ich ihm neulich den Weg gezeigt habe.</p>
+            <p rendition="#et">Der Herzog von Santa-Fé empfing den Abenceragen mit der ernsten und doch ungezwungenen Höflichkeit der Spanier. Man bemerkt bei dieser Nation keine jener unterthänigen Mienen, man bekommt da keine jener Phrasen zu hören, welche nur auf <pb n="160" facs="#f0016"/>
+eine gewisse Gemeinheit der Gedanken und der Gefühle deuten. Die Sprache des großen Herrn und die des Landmannes ist in Spanien überall eine und dieselbe, der Gruß ist der nämliche, Redensarten, Gebräuche und Gewohnheiten sind überall die nämlichen. So groß das Zutrauen und die Großmuth des Spaniers gegen den Fremden sind, so schrecklich ist auch seine Rache, wo er sich mißbraucht und verrathen glaubt. Von einer Unerschrockenheit, von einem Muth und einer Geduld sonder Gleichen, ist er unfähig, dem Unglück zu weichen, und muß es entweder besiegen, oder er selbst wird erdrückt davon. Er besitzt wenig von dem, was man <hi rendition="#g">Geist</hi> zu nennen beliebt; die Glut seiner Leidenschaft ersetzt ihm diesen Vorzug, der nur in der Feinheit und einem gewissen Reichthum an Gedanken seine Quelle hat. Der Spanier, der oft einen ganzen Tag hinbringen kann, ohne auch nur ein Wort zu reden, der nur wenig von der Welt gesehen hat und darum auch wenig nach ihr fragt, der nichts gelesen, studirt und verglichen hat, findet im Augenblick des Unglücks schon in der Größe seiner Entschlüsse die nöthige Kraft zum Kampfe gegen das Mißgeschick.</p>
+            <p rendition="#et">Es war gerade Don Rodrigos Geburtstag, und Blanka gab ihrem Vater zu Ehren auf diesem reizenden Landhaus eine sogenannte Tertullia.<note place="foot" n="2">
+                  <p> Ein bei Geburts- und Namenstagen, Hochzeiten u.s.w. in Spanien gebräuchliches kleines Fest.</p>
+               </note> Der Herzog von Santa-Fé lud den Abenceragen ein, zwischen den jungen Damen Platz zu nehmen, denen der Turban und der Anzug des Fremden ungemein wohlgefielen. Man brachte ihm sammtene Polster, auf denen er sich nach Art der Mauren niederließ. Man richtete Fragen an ihn über sein Land und seine Schicksale, und er antwortete mit Geist und heiterer Anmuth. Er sprach das Kastilianische sehr rein, und man hätte ihn für einen Spanier halten mögen, wenn er nicht fast jedesmal Du statt <hi rendition="#g">Ihr</hi> gesagt hätte. Dieses trauliche <hi rendition="#g">Du</hi> hatte jedoch in seinem Munde etwas so Liebliches, daß Blanka sich eines geheimen Unmuths nicht erwehren konnte, wenn er es dann und wann auch an eine ihrer Gespielinnen richtete.</p>
+            <p rendition="#et">
+               <pb n="161" facs="#f0017"/>
+Zahlreiche Diener erschienen jetzt: sie brachten Chokolade, Obstkuchen und kleine Brode von Malagazucker, welche weiß wie Schnee, und leicht und porös wie Schwämme waren.</p>
+            <p rendition="#et">Nach dieser Erfrischung bat man Blanka, einen ihrer schönen spanischen Nationaltänze zu tanzen, worin sie die geschicktesten Guitanas übertraf. Sie sah sich zuletzt genöthigt, dem Andringen ihrer Freundinnen nachzugeben. Abdel-Hamet hatte geschwiegen, aber seine flehenden Blicke galten statt der Worte. Blanka wählte eine Zambra, einen ungemein ausdrucksvollen Tanz, den die Spanier von den Mauren überkommen haben.</p>
+            <p rendition="#et">Eine von den jungen Damen begann nun auf einer Guitarre die Melodie des fremden Tanzes zu spielen. Rodrigos Tochter nahm ihren Schleier ab, und befestigte an ihre Lilienfinger ein paar Castagnetten von Ebenholz. Ihr schwarzes Haar umflog in Locken ihren Alabasterhals; Mund und Augen lachten, ihre Wangen glühten von dem Feuer der Leidenschaft. Dann ließ sie plötzlich die Castagnetten erschallen, gab dreimal das Zeichen des Anfangs, hob den Gesang La Zambra zu singen an, und flog, ihre Stimme mit den Klängen der Guitarre verschmelzend, schnell zum Tanz.</p>
+            <p rendition="#et">Welche Abwechslung in ihren Schritten, welche Grazie in ihren Stellungen! Bald hob sie lebhaft die Arme empor, bald ließ sie dieselben wieder nachlässig herabsinken. Manchmal stürzte sie auf einen Punkt hin, wie von Lust berauscht, und gleich darauf zog sie sich wieder zurück, wie von dem heftigsten Schmerz bewegt. Sie wandte ihr Haupt nach rückwärts, indem sie einen für die Andern unsichtbaren Geliebten herbeizuwinken schien, bot ihm die blühenden Wangen zum Kuß, kehrte dann gleichsam in holder Scham schnell wieder um, und kam zurück voll seligen Trostes und strahlend von Glück und Lust. Dann begann sie plötzlich einen gravitätischen, fast kriegerischen Volksreigen zu tanzen, bis sie sich zuletzt wieder in die Glut und die schmachtenden Stellungen des maurischen Tanzes verlor. Vollkommen war die Harmonie ihrer Bewegungen, ihres Gesanges und der Guitarrenklänge. Blankas etwas gedämpfte Stimme besaß jenen Ausdruck, der die <pb n="162" facs="#f0018"/>
+Leidenschaften im Grunde der Seele aufregt. Die spanische Musik, zusammengesetzt aus Seufzern, lebhaften Gemüthsbewegungen, klagenden Refrains und plötzlich abgebrochenen Melodien, ist eine eigenthümliche Mischung von Lust und Schwermuth. Diese Musik und dieser Tanz entschieden für immer das Schicksal des letzten Abenceragen; – ach, sie hätten hingereicht, ein weniger krankes Herz, als das seinige, in Aufruhr zu bringen!</p>
+            <p rendition="#et">Am Abende kehrte man durch das Thal des Darro nach Granada zurück. Der Herzog Don Rodrigo, von des Abenceragen edeln und seinen Manieren entzückt, entließ ihn nur gegen die Zusage, seine Tochter noch recht oft durch die Wundererzählungen des Orients erfreuen zu wollen. Der Ueberglückliche nahm die Einladung des Herzogs an, und begab sich schon am folgenden Tage wieder nach dem Palaste, in welchem Sie athmete, die er schon mehr liebte, als das Licht der Morgenröthe.</p>
+            <p rendition="#et">Bald erglühte auch Blanka von einer heftigen Leidenschaft für den edeln Jüngling, einer Leidenschaft, welche noch vermehrt ward durch den Wahn, daß eine solche Leidenschaft bei ihr ja im Grunde unmöglich sei. Einen Ungläubigen, einen Mauren zu lieben, erschien ihr anfangs so ganz und gar undenkbar, daß sie gegen das Gift, welches durch ihre Adern zu schleichen begann, gar keine Vorsicht anwandte; sobald sie das Uebel merkte, benahm sie sich dagegen wie eine echte Spanierin. Die Gefahren und Schmerzen, die sie vorhersah, schreckten sie nicht von der Nacht des Abgrunds zurück, an dem sie stand, und kühn blickte sie zuletzt dem Unabänderlichen ins Auge. Sie sprach zu sich selbst: Wäre er Christ und wüßte ich, ob er mich liebte, o Gott weiß es, ich folgte ihm bis ans Ende der Welt.</p>
+            <p rendition="#et">Der Abencerage seinerseits fühlte sich von der ganzen Macht einer unwiderstehlichen Leidenschaft hingerissen: er lebte nur noch für Blanka. Ihn beschäftigten nicht mehr die Gedanken und Gefühle, die ihn nach Granada gebracht; es war ihm leicht, die Aufklärungen zu erhalten, die er gewünscht; doch jedes andere Interesse, als das seiner Leidenschaft, mußte jetzt für ihn in den Hintergrund treten. Ja, er fürchtete sich jetzt sogar vor Mittheilungen, welche Veränderungen in seinem Leben zur Folge gehabt haben würden. <pb n="163" facs="#f0019"/>
+Er fragte nach nichts weiter, wollte nichts weiter wissen, und sagte nur zu sich selbst manchmal: Blanka nehme meinen Glauben an, sie liebe mich, und ich will ihr bis zu meinem letzten Athemzug dienen!</p>
+            <p rendition="#et">Nachdem die beiden Liebenden diesen Entschluß gefaßt, warteten sie nur noch auf den schicklichen Augenblick, um einander ihre Gefühle zu gestehen. – Die schönste Zeit des Jahres war gekommen. Ihr habt die Alhambra noch nicht gesehen, sagte die Tochter Rodrigos eines Tages zu Abdel-Hamet. Wenn ich einigen, Euch entschlüpften Worten Glauben schenken darf, so ist ja eure eigene Familie aus Granada. Vielleicht ist es Euch angenehm, einmal den Palast eurer ehemaligen Könige zu besuchen. Ich selbst will diesen Abend eure Führerin sein.</p>
+            <p rendition="#et">Abdel-Hamet schwur beim Propheten, daß keine Wanderung auf der Welt ihm lieber sein könne.</p>
+            <p rendition="#et">Als die zu dieser Wallfahrt nach der Alhambra festgesetzte Stunde gekommen war, bestieg Donna Blanka einen weißen Zelter, der gewohnt war, felsige Gebirgswege gleich Gemsen hinanzuklimmen. Abdel-Hamet begleitete die herrliche Spanierin auf einem nach türkischer Art gezäumten andalusischen Rosse. Bei dem raschen Ritt des jungen Mauren flog sein prächtiger Purpurmantel im Winde hin und her, sein krummer Säbel schlug gegen den Sattel, und in der Luft wehte der Federbusch seines Turbans. Die Vorübergehenden, von seiner edeln Haltung und von seinem angenehmen Wesen entzückt, sprachen zu einander: Das ist gewiß ein maurischer Prinz, den Donna Blanka bekehren wird.</p>
+            <p rendition="#et">Sie bogen in eine Straße ein, die noch jetzt den Namen einer berühmten maurischen Familie trug; diese Straße endete an den äußersten Wallgräben der Alhambra. Dann führte sie der Weg durch einen Ulmenwald; dann kamen sie zu einer Quelle, und bald befanden sie sich im innern Raume von Boabdils Palaste. In einer mit Thürmen und Zinnen flankirten Mauer öffnete sich ein Thor, es hieß das <hi rendition="#g">Thor des Gerichtes.</hi> Durch dieses Hauptthor kamen sie auf einen engen Weg, der sich zwischen hohen Mauern und halbverfallenem Gemäuer hindurchschlängelte, und sie auf den Platz der Algiben führte, an dem Karl V. damals einen <pb n="164" facs="#f0020"/>
+Palast erbauen ließ. Dann sich gegen Norden wendend, hielten sie endlich in einem einsamen Hofe, am Fuße einer schmucklosen, von der Zeit bereits schwer mitgenommenen Mauer an. Abdel-Hamet sprang jetzt vom Pferde herab, und bot auch Blanka die Hand zum Absteigen. Die Diener pochten an einer verlassenen Thüre, deren Schwelle Gras bedeckte; die Pforte öffnete sich, und erschloß den staunenden Blicken mit Einemmale die geheimsten Gemächer Alhambras.</p>
+            <p rendition="#et">All die Lust und all der selige Zauber, durch den die Nähe der Geliebten auf den Jüngling wirkt, der zum erstenmal in seinem Leben liebt, all die schmerzlichen Erinnerungen, die das Heimweh und das Unglück eines theuern Vaterlands im Herzen erwecken, drangen zu gleicher Zeit und mit übermächtiger Gewalt auf die Seele des letzten Abenceragen ein. Unbeweglich und stumm heftete er seine trunkenen Augen auf diesen Wohnsitz der Genien; er glaubte sich an das Thor eines Palastes aus Tausend und Einer Nacht versetzt. Zierlich gearbeitete Gallerien, Wasserrinnen von weißem Marmor, mit blühenden Citronen- und Orangenbäumen umpflanzt, plätschernde Brunnen, einsame stille Höfe, boten sich den Blicken des Schauenden überall dar, und durch die weiten Oeffnungen der Gewölbe hindurch erblickte man neue Labyrinthe und neue Zauberwohnungen. Das Blau des schönsten Himmels lachte zwischen den Säulen, auf denen eine Reihenfolge von gothischen Bogen ruhte. Die mit Arabesken bedeckten Mauern glichen einem jener Teppiche des Orients, welche in den von der Langeweile bewohnten Gemächern des Harems die Laune einer Sklavin stickt. Etwas Wollüstiges, Religiöses und Kriegerisches schien in diesem magischen Gebäude zu athmen; es war wie ein Liebeskloster anzuschauen, in welchem die maurischen Könige die höchsten Freuden und Seligkeiten genossen, um darüber die höchsten Pflichten des Lebens zu vergessen und zu vernachlässigen.</p>
+            <p rendition="#et">Nach einigen Augenblicken des Stillschweigens und der Ueberraschung traten die beiden Liebenden in diesen Königssaal ehemaliger Macht und verschollenen Menschenglücks ein. Zuerst gingen sie durch den Saal des Mesukar, berauscht von dem Duft der lieblichsten Blumen und dem Rauschen der Fontainen. Dann <pb n="165" facs="#f0021"/>
+traten sie in den Löwenhof. Des Abenceragen Rührung ward bei jedem Schritt größer. – Wenn du jetzt nicht meine Seele mit Seligkeit erfülltest, sprach er zu Blanka, mit welchem Schmerze müßt' ich nicht dich, o Spanierin, nach der Geschichte dieser Wohnungen fragen! Ach, dieser Ort ist wie dazu gemacht, dem Glück zur Zuflucht zu dienen, und ich .....!</p>
+            <p rendition="#et">Der Abencerage erblickte jetzt den Namen Boabdils unter den vielen andern Namen des Mosaikbodens. O mein König! rief er aus, was ist aus dir geworden? Warum thronst du nicht mehr in deiner verlaßnen Alhambra?</p>
+            <p rendition="#et">Thränen der Treue, der Redlichkeit und der Ehre netzten die Augen des edeln Mauren. – Eure ehemaligen Herrscher, sagte Blanka, oder vielmehr die Könige eurer Väter, waren Undankbare. – Was liegt daran, erwiederte der Abencerage; sie waren so unglücklich!</p>
+            <p rendition="#et">Blanka führte ihn jetzt in ein Gemach hinein, welches das Heiligthum dieses Liebestempels zu sein schien. Nichts kam der Pracht desselben gleich. Die ganze Decke, in Gold und Blau gemalt, und von herrlichen Arabesken gebildet, ließ das Licht wie durch ein Gewebe von Blumen hineinfallen. Eine Quelle sprudelte inmitten des Raumes, und das in Thau niederregnende Wasser sammelte sich in einem alabasternen Becken. Abdel-Hamet, sagte die Tochter des Herzogs von Santa-Fé, seht gut hinein in diese Quelle, sie empfing die abgeschlagenen Köpfe der Abenceragen. Ihr seht da noch auf dem Marmor Blutspuren der Unglücklichen, die Boabdil seinem Verdachte opferte. So behandelt man bei euch die Männer, welche die allzu leichtgläubigen Frauen verführen.</p>
+            <p rendition="#et">Der Abencerage vernahm nichts mehr von Blankas Rede; zur Erde gebeugt, küßte er ehrfurchtsvoll und mit Inbrunst die theuren Blutspuren; dann erhob er sich mit den Worten: O Blanka, bei diesem heiligen Blute schwöre ich dir, dich mit der Beständigkeit, der Treue und der Glut eines Abenceragen zu lieben! –</p>
+            <p rendition="#et">Also liebt Ihr mich wirklich? antwortete Blanka, indem sie ihre schönen Hände faltete und wie zum Gebete erhob. Aber <pb n="166" facs="#f0022"/>
+bedenkt Ihr denn auch, daß Ihr ein Ungläubiger, daß Ihr ein Maure, ein Feind unseres Glaubens seid, und daß ich eine Christin, und noch dazu eine Spanierin bin?</p>
+            <p rendition="#et">O heiliger Prophet, sagte der Abencerage, ich rufe dich zum Zeugen meines Schwurs! Doch Blanka unterbrach ihn: Wie soll ich den Schwüren eines Mauren Glauben schenken, der meinen Gott und Herrn verfolgt? Wißt Ihr denn, ob ich Euch liebe, daß Ihr so mit mir sprecht?</p>
+            <p rendition="#et">Bestürzt entgegnete Abdel-Hamet: Es ist wahr, ich bin nur dein Sklave, du hast mich nicht zu deinem Kavalier erwählt.</p>
+            <p rendition="#et">Maure, sagte Blanka, laß uns ohne Rückhalt mit einander reden; du hast in meinem Blick meine Liebe gelesen; meine Leidenschaft für dich übersteigt jedes Maß; laß dich taufen, und nichts soll mich hindern, dir fürs Leben anzugehören. Aber wenn die Tochter des Herzogs von Santa-Fé es wagt, so freimüthig mit dir zu reden, so kannst du daraus schließen, daß sie sich auch zu beherrschen wissen, und daß ein Feind des Christenthums <hi rendition="#g">niemals</hi> ein Recht über sie erhalten wird.</p>
+            <p rendition="#et">Abdel-Hamet, von Leidenschaft hingerissen, nahm Blanka bei den Händen, legte dieselben sanft auf seinen Turban, und darauf an seine Brust: Allah ist mächtig, rief er aus, und Abdel-Hamet ist glücklich! O Mahomed, daß doch die edle Christin da deinen heiligen Glauben annähme! O nichts soll dann ...... – Du frevelst, sagte Blanka; komm, laß uns gehen!</p>
+            <p rendition="#et">Sie nahm den Arm des Mauren, und indem sie sich so an ihn lehnte, kam sie mit ihm an den Brunnen der zwölf Löwen, der einem Hofe der Alhambra seinen Namen gegeben hat. Fremdling, sagte die liebliche Spanierin, wenn ich so deine Kleidung, deinen Turban, dein Schwert betrachte, und wenn ich dann an unsere Liebe denke, so glaube ich den Schatten des schönen Abenceragen mit der unglücklichen Alfaima in dieser Einsamkeit lustwandeln zu sehen. Erkläre mir doch die arabische Inschrift da auf dem Marmor dieses Brunnens.</p>
+            <p rendition="#et">Abdel-Hamet las die Worte:<note place="foot" n="3">
+                  <p> Diese Inschrift befindet sich wirklich in einem Saal der Alhambra.</p>
+               </note>
+            </p>
+            <p rendition="#et">
+               <pb n="167" facs="#f0023"/>
+»Die schöne Prinzessin, welche, mit Perlen bedeckt, in ihrem Garten lustwandelt, erhöht so sehr die Schönheit desselben .....« Der Rest der Inschrift war verlöscht.</p>
+            <p rendition="#et">Für dich ist sie gemacht, diese Inschrift, sprach der Abencerage. Geliebte Sultanin, diese Paläste waren selbst, als sie noch neu und in Pracht und Herrlichkeit dastanden, nicht so schön als sie es jetzt sind, wo sie in Trümmern liegen. Höre doch das sanfte Rauschen der Brunnen, deren blaue Fluten das Moos umschlingt. Schau die Gärten, die sich zwischen diesen halb eingesunkenen Arkaden zeigen; blick' empor zu dem Stern des Tages, wie schön seine letzten Strahlen durch die Bogengänge hereinspielen: o wie süß ist es, einen solchen Ort der Lust gerade mit dir zu durchwandeln! Dein holdes Gespräch verherrlicht dieses einsame Schloß, gleichwie sich eine Rose um den Stamm einer Palme rankt und ihn schmückt. Wie freudig erkenn' ich in deiner Sprache einige Töne der Sprache meiner Väter wieder! Das bloße Rauschen deines Kleides auf diesem Marmor zu hören, macht mich glühn vor Wonne und Schmerz; die Luft ist voll von süßem Wohlgeruch, weil sie dein Haar berührte; schön bist du wie der Genius meines Vaterlands im Schutt und Graus seiner Ruinen. Ach, was giebt mir, dem armen Fremdling, ein Recht, zu hoffen, daß du ihm auch ferner treu bleibst? Was bin ich neben dir? Ich habe mit meinem Vater die Gebirge durchstreift, ich kenne die Pflanzen der Wüste: ach, keine von ihnen kann die Wunden heilen, die du mir geschlagen! Ich trage ein Schwert, und doch fehlt mir die Ritterschaft, welche die Söhne eures Landes adelt. Ich sprach einst so zu mir: Das Stück Meer, welches in einer einsamen Felsenbucht schläft, ist still und stumm, während nahe daran die große See stürmisch tobt und braust; Abdel-Hamet, so wird auch dein Leben still, ruhig und ruhmlos hinschwinden in einem abgelegenen Winkel der Erde, während der Hof des Sultans von Stürmen erregt ist. – So sprach ich einst zu mir, schöne Christin, und du hast mir bewiesen, daß der Sturm auch das Stück Meer wild emporzuwühlen im Stande ist, welches in einer Bucht zwischen einsamen Felsenufern schläft. –</p>
+            <p rendition="#et">
+               <pb n="168" facs="#f0024"/>
+Blanka vernahm entzückt diese ihr neue Sprache, deren orientalische Wendungen ihr wohl zu dem Feenpalaste zu passen schienen, in dem sie sich gerade befanden. Die Leidenschaft bemächtigte sich völlig ihres Herzens, sie fühlte ihre Knie wanken, und war genöthigt, sich fester auf den Arm des geliebten Führers zu stützen. Abdel-Hamet, die süße Last aufrecht haltend, seufzte wiederholt im Gehen: Ach, warum bin ich kein glänzender Abencerage!</p>
+            <p rendition="#et">Du würdest mir minder gefallen als jetzt, antwortete Blanka; denn die Qual meiner Hoffnungslosigkeit wäre dann nur um so größer; – bleibe in deiner Dunkelheit und lebe für mich! Oft vergißt ein berühmter Kriegsheld über dem Ruhm seiner Geliebten.</p>
+            <p rendition="#et">Das würdest du nicht bei mir zu fürchten haben! entgegnete lebhaft Abdel-Hamet.</p>
+            <p rendition="#et">Und wie würdest du mich lieben, wenn du ein Abencerage wärest?</p>
+            <p rendition="#et">Mehr als den Ruhm, sagte der Maure, und weniger als die Ehre!</p>
+            <p rendition="#et">Die Sonne war während dieses Spaziergangs der beiden Liebenden untergegangen. Sie hatten die ganze Alhambra gesehen! Welche Erinnerungen für den Abenceragen! Hier sog die Sultanin durch kleine Oeffnungen im Gemäuer den Duft der Wohlgerüche ein, die von dem Feuer unter ihr zur Höhe stiegen. Dort in jenem für jeden Fremden unzugänglichen Gemache schmückte sie sich mit der ganzen Pracht des Orients. Und es war Blanka, es war die angebetete Geliebte, welche das Alles dem schönen jungen Schwärmer erzählte!</p>
+            <p rendition="#et">Im blauen Ost schwebte jetzt der Mond herauf und beglänzte mit seinem falben Dämmerlicht die verlassenen Heiligthümer und einsamen Höfe der Alhambra. Seine bleichen Strahlen zeichneten auf den Rasen der Fußböden, auf die Mauern der Säle die zierlichen Ränder einer luftigen Architektur, die schlanken Bogengewölbe der Gänge, das bewegliche Schattenbild der sprudelnden Fontainen und das vom Zephyr hin und her geschaukelte Gesträuch. Die Nachtigall flötete im dunkeln Grün einer Cypresse, welche durch die Gewölbe einer in Trümmern liegenden Moschee<pb n="169" facs="#f0025"/>
+ drang, und das Echo wiederholte ihre schmelzenden Klagen. Abdel-Hamet schrieb beim Licht des Mondes Blankas Namen auf den Marmor des Saals der beiden Schwestern hin; er schrieb ihn in arabischen Buchstaben, damit der Wanderer von nun an noch ein Geheimniß mehr in diesem Palaste der Geheimnisse zu errathen haben möchte.</p>
+            <p rendition="#et">Maure, sagte Blanka, diese Spiele sind grausam; laß uns jetzt gehen. Das Schicksal meines Lebens ist nun für immer entschieden. Präge dir wohl ein, was ich dir jetzt sage: Bleibst du ein Muselmann, so bin ich nichts als deine hoffnungslose Geliebte; wirst du ein Christ, so bin ich deine beglückte Braut.</p>
+            <p rendition="#et">Abdel-Hamet erwiderte: Verbleibst du im christlichen Glauben, so bin ich trostlos, so bin ich dein trauernder Sklave bis in den Tod; bekehrst du dich mit der Zeit zu Mahomeds Glauben, dein ruhmvoller Bräutigam. Und damit verließen die edeln Liebenden die für sie so gefährliche Alhambra.</p>
+            <p rendition="#et">Beider Leidenschaft wuchs von Tag zu Tage; der Abencerage fühlte sich so in tiefer Seele glücklich darüber, sich einzig um seiner selbst willen geliebt zu sehen, und keinem fremden Einfluß die Gefühle zu verdanken, die er erregte, daß er der Tochter des Herzogs von Santa-Fé das Geheimniß seiner Geburt und seines wahren Standes nicht entdeckte; er machte sich ein zartes Vergnügen daraus, ihr zu sagen, daß er an dem Tage, wo sie ihn mit ihrer Hand beglücke, einen berühmten Namen tragen werde. Da ward er plötzlich nach Tunis zurückberufen; seine Mutter, von einer unheilbaren Krankheit aufs Krankenlager geworfen, wollte ihren einzigen Sohn noch einmal in diesem Leben umarmen und segnen. Abdel-Hamet begab sich in Blankas Palast. Sultanin, sprach er zu ihr, meine Mutter liegt im Sterben und verlangt mich zu sich, um ihr die Augen zuzudrücken. Wirst du mir deine Liebe und Treue bewahren?</p>
+            <p rendition="#et">Wie? Du verläßt mich? sagte Blanka erbleichend, werde ich dich jemals wiedersehn?</p>
+            <p rendition="#et">Komm, sprach der Maure, ich will von dir einen Eid fordern, und selbst einen schwören, welchen nur der Tod lösen kann. Folge mir!</p>
+            <p rendition="#et">
+               <pb n="170" facs="#f0026"/>
+Sie gingen ins Freie hinaus, und kamen zu einem früher den Mauren gehörigen Friedhofe. Man sah noch hie und da kleine Todtensäulen, auf welchen der Bildhauer vormals einen Turban gemeißelt, der jedoch später von den Christen durch ein Kreuz ersetzt worden war. Abdel-Hamet führte Blanka zu diesen Säulen hin. –</p>
+            <p rendition="#et">Blanka, sprach er zu ihr, meine Väter ruhen hier; bei ihrer Asche schwöre ich, dich zu lieben bis zu dem Tage, an dem der Engel des Gerichts mich vor Allahs Thron führen wird. Ich verspreche dir, <hi rendition="#g">nie</hi> eine Andere zu lieben und der Deinige zu werden, sobald du das heilige Licht des Propheten anerkennen wirst. Jedes Jahr will ich um die nämliche Zeit nach Granada zurückkehren, um zu sehen, ob du mir deine Treue bewahrt und ob du dich von deinen Irrthümern bekehrt hast.</p>
+            <p rendition="#et">Und ich, sagte Blanka, die schönen Augen voll Thränen, ich will dich Jahr für Jahr erwarten, und bis zum letzten Athemzuge will ich dir die geschworne Treue bewahren. Ich will dich als meinen Bräutigam empfangen, wenn der Gott der Christen, mächtiger als deine arme Geliebte, deine ungläubige Seele mit seiner Gnade gerührt haben wird!</p>
+            <p rendition="#et">Abdel-Hamet reiste ab, günstige Winde brachten ihn bald an Afrikas Küste: – seine Mutter war bereits verschieden. Er beweinte sie kindlich an ihrem Grabe. Die Monden verflogen, und bald auf Karthagos Trümmern umherirrend, bald hingestreckt in das Gras am Grabe des heiligen Ludwig, erwartete der Abencerage mit Sehnsucht den Tag, welchen er zu seiner Wiederkehr nach Granada festgesetzt. Endlich leuchtete der Morgen dieses Tages; Abdel-Hamet bestieg ein Schiff, das nach Malaga segelte. Wie jauchzte seine Seele, wie schwoll sie ihm von frohen Hoffnungen, und doch zugleich von banger Wehmuth, als er im fernen Blau des Horizonts die spanische Küste wieder erblickte! Stand seine Blanka sehnsuchtsvoll am Gestade? Gedachte sie noch des armen Mauren, der Tag und Nacht an sie gedacht unter der Palme der Wüste?</p>
+            <p rendition="#et">Auch Blanka war ihrem Schwure treu geblieben. Sie hatte ihren Vater gebeten, sie nach Malaga zu führen, und von den <pb n="171" facs="#f0027"/>
+Gipfeln des Gebirgs herab, welches die öde Küste dieses Weinlands umgiebt, beobachtete sie die fernen Schiffe und die flüchtigen Segel. Während des Sturmes blickte sie mit Schrecken ins wilde Meer hinaus. Dann machte es ihr Freude, sich bis in die Wolken zu verlieren, und sich an recht gefährliche Ufergegenden hinzubegeben, sich von denselben Wogen benetzt, von denselben Wirbeln gepeitscht zu fühlen, die Abdel-Hamets theures Leben bedrohten. Wenn sie die klagende Möve mit ihren langgestreckten Flügeln nach Afrika hin übers Meer streichen sah, gab sie ihr die süßesten Liebesgrüße, die sehnsuchtsheißesten Wünsche eines von der Leidenschaft verzehrten Herzens mit auf den Weg.</p>
+            <p rendition="#et">Eines Tages, als sie an der flachen sandigen Düne hin und her schweifte, erblickte sie ein längliches Schiff auf dem Meer, dessen hohes Verdeck, gesenkter Mast und sogenanntes lateinisches Segel die maurische Bauart verrieth. Blanka eilte ans Gestade, und sah das Barbareskenschiff, das bei der Schnelle seines Laufes die Flut erschäumen machte, sehr bald in den Hafen einlaufen.</p>
+            <p rendition="#et">Ein prächtig gekleideter Maure stand auf dem Verdeck; zwei schwarze Sklaven hielten hinter ihm die Zügel eines Araberrosses, dessen dampfende Nüstern und wild emporgesträubte Mähne seine muthige Natur und zugleich seine Furcht vor dem Getöse des Sturms und der Welle erkennen ließen. Das Schiff kam näher, strich die Segel, drehte die Planken dem Hafendamm zu, und der Maure schwang sich ans Land, das von seinem Sprung und von dem Geklirr seines prächtigen Wehrgehänges erdröhnte. Die Sklaven brachten das gleich einem Leoparden gefleckte Roß von dem Schiff herab, das vor Freude, wieder festen Grund und Boden unter den Füßen zu haben, hellauf wieherte und sich empor bäumte. Andere Sklaven setzten behutsam eine von Binsen geflochtne Schwinge ans Land, in welcher zwischen Palmblättern eine Gazelle lag. Ihre zarten Füße waren unter ihr festgemacht, aus Furcht, sie möchten bei dem Schaukeln des Schiffes brechen; sie trug ein Halsband von Aloekörnern, auf dessen goldenem Schloß in arabischen Buchstaben ein Name und ein Talisman eingegraben waren.</p>
+            <p rendition="#et">
+               <pb n="172" facs="#f0028"/>
+Auf das Freudigste überrascht, erkannte Blanka den Geliebten; sie wagte es jedoch nicht, sich vor den vielen Leuten zu verrathen; sie zog sich daher zurück und befahl Dorotheen, einer ihr treuergebenen Duenna, dem Abenceragen zu sagen, daß sie ihn im Maurenpalaste erwartete. Abdel-Hamet überreichte gerade dem Statthalter seinen Ferman, der auf herrliches Pergament mit azurnen Buchstaben geschrieben war und in einer seidenen Kapsel lag. Dorothea näherte sich dem glücklichen Abenceragen und führte ihn zu Blankas Füßen. Welches Entzücken, als die beiden Liebenden sich treu wieder fanden! Welches Glück, sich nach so langer Trennung wiederzusehen! Welche neuen Schwüre, einander bis in den Tod zu lieben!</p>
+            <p rendition="#et">Die zwei schwarzen Sklaven führten jetzt das herrliche numidische Roß herbei, das statt des Sattels nur eine mit einem Purpurgurt befestigte Löwenhaut auf dem Rücken trug. Auch die Gazelle brachte man. Sultanin, sprach der Maure, das ist ein Reh meines Landes, und ist beinahe so leicht wie du! Blanka band mit eigenen Händen das liebliche Thier los, welches ihr dafür zu danken schien, indem es sie mit traulichen Blicken ansah. Während Abdel-Hamets Abwesenheit hatte sie das Arabische erlernt: entzückt las sie nun ihren eigenen Namen auf dem Halsband der Gazelle. Letztere, von ihren Banden losgemacht, war kaum im Stande, sich auf den so lange zusammengebundenen Füßen zu erhalten; sie legte sich auf den Boden nieder, und stützte den Kopf auf die Knie ihrer neuen Herrin. Blanka gab ihr frische Datteln, und streichelte das nette Thier der Wüste, dessen feines Fell noch den Geruch des Aloeholzes und der Rose von Tunis bewahrt zu haben schien.</p>
+            <p rendition="#et">Der Abencerage, der Herzog von Santa-Fé und seine Tochter reisten zusammen nach Granada. Die Tage schwanden dem glücklichen Paar dahin wie im verflossenen Jahre: – dieselben Spaziergänge, dieselbe Trauer beim Anblick des ehemaligen Heimatlandes, dieselbe oder vielmehr eine noch von Tag zu Tag wachsende Leidenschaft; jedoch bei Beiden auch noch dieselbe Treue gegen den Glauben, in dem sie erzogen worden waren. Werde Christ! sagte Blanka; bekenne dich zu meinem Glauben! sagte <pb n="173" facs="#f0029"/>
+Abdel-Hamet. Und noch einmal schieden sie von einander, ohne der Leidenschaft zu erliegen, die sie an einander fesselte.</p>
+            <p rendition="#et">Abdel-Hamet kehrte zum drittenmal zurück, gleich jenen Zugvögeln, welche die Liebe zur Frühlingszeit in unsere Gegenden zurückführt. Er fand die Geliebte nicht wie das Jahr vorher am Hafen, sondern ein Brief seiner Angebeteten berichtete dem Mauren die Abreise des Herzogs nach Madrid, und die Ankunft ihres Bruders Don Carlos in Granada in Gesellschaft eines französischen Kriegsgefangenen und Freundes von ihm. Der Abencerage fühlte beim Lesen dieses Briefes das Blut in seinen Adern stocken. Er reiste mit traurigen Ahnungen von Malaga nach Granada. Die Gebirge schienen ihm jetzt eine schreckliche Oede, und mehr als einmal blickte er nach dem Meer zurück, von dem er soeben hergekommen war.</p>
+            <p rendition="#et">Blanka konnte, während ihr Vater in Madrid war, den geliebten Bruder, der zu ihren Gunsten auf sein ganzes Vermögen verzichtete, und den sie seit sieben Jahren nicht mehr gesehen, unmöglich verlassen. Don Carlos besaß den ganzen Muth und den ganzen Stolz seiner Nation; schrecklich, wie die Erobrer der neuen Welt, unter denen er seine Kriegsschule durchgemacht, fromm, wie die spanischen Helden, welche die Mauren geschlagen, nährte er in seiner Brust gegen die Ungläubigen jenen fanatischen Haß, den er vom Blute des Cid geerbt.</p>
+            <p rendition="#et">Thomas von Lautrec, aus dem berühmten Hause der Foix, in welchem die Schönheit der Frauen und der Muth und die Tapferkeit der Männer so zu sagen sprichwörtlich waren, war der jüngste Bruder der Gräfin von Foix und des heldenmüthigen und unglücklichen Odet de Foix, Herrn von Lautrec. In einem Alter von achtzehn Jahren war Thomas durch Bayard zum Ritter geschlagen worden, und zwar bei dem nämlichen Rückzuge, welcher dem Ritter ohne Furcht und Tadel das Leben kostete. Einige Zeit hernach ward er bei Pavia verwundet und gefangen, während er den ritterlichen König vertheidigte, der Alles verlor, nur seine Ehre nicht.<note place="foot" n="4">
+                  <p>
+                     <hi rendition="#i">»Tout est perdu, hors l'honneur!«</hi> der bekannte Ausspruch König Franz' I nach der unglücklichen Schlacht bei Pavia gegen Karl V.</p>
+               </note>
+            </p>
+            <p rendition="#et">
+               <pb n="174" facs="#f0030"/>
+Don Carlos von Bivar, der ein Augenzeuge von Lautrecs Tapferkeit gewesen war, sorgte für den verwundeten jungen Franzosen, und bald verband sie eine jener heroischen Freundschaften, die auf gegenseitiger Achtung und Tapferkeit beruhn. Franz I. war nach Frankreich zurückgekehrt, Kaiser Karl V. hielt jedoch die übrigen Gefangenen noch in Spanien zurück. Lautrec hatte die Ehre gehabt, des Königs Gefangenschaft theilen, und zu seinen Füßen schlafen zu dürfen.</p>
+            <p rendition="#et">Nach des Königs Abreise blieb er in Spanien, wo er dem Don Carlos auf sein Ehrenwort übergeben ward, und mit diesem kam er denn nach Granada.</p>
+            <p rendition="#et">Als man Abdel-Hamet in Don Rodrigos Palast und in das Zimmer, in welchem sich Blanka befand, einführte, empfand er bis dahin ungekannte Leiden. Zu Füßen seiner Geliebten saß ein junger Mann, der sie stillschweigend und mit einer Art von Entzücken betrachtete. Dieser Mann trug Beinkleider von hellgelbem Leder, ein Wamms von derselben Farbe, und ein mit Lilien verziertes Schwert blitzte an seinem Wehrgehäng. Seine Schultern waren von einem seidenen Mantel umhüllt, und sein Haupt bedeckte ein Hut mit sehr schmalen Krämpen, von dem prächtige Federn herabhingen; ein bis auf die Brust herabreichender Spitzenkragen ließ den unbedeckten Hals sehn. Ein kleiner Schnurrbart, schwarz wie Ebenholz, gab dem von Natur sanften Gesichte einen gewissen männlichen und kriegerischen Ausdruck. Stiefel mit breiten, zierlichen Umschlägen trugen den goldenen Sporn, das Zeichen der Ritterschaft.</p>
+            <p rendition="#et">In einiger Entfernung stand, mit unbedecktem Haupt, ein anderer Ritter, gestützt auf das eiserne Kreuz seines langen Schwertes; er war wie der Andere gekleidet, nur schien er etwas älter. Seine strengen, wiewohl leidenschaftlichen Gesichtszüge flößten Achtung und zugleich Furcht ein. Das rothe Calatravakreuz war auf seinen Mantel gestickt, mit der Devise: <hi rendition="#g">Für dieses und für meinen König.</hi>
+            </p>
+            <p rendition="#et">Ein unwillkürlicher Schrei entfuhr Blanka, als sie den Abenceragen erblickte. Meine Herrn, sprach sie sogleich, das ist der Maure, von dem ich euch so oft erzählt habe; seht euch vor, <pb n="175" facs="#f0031"/>
+daß er euch nicht aus dem Felde schlägt. Die Abenceragen glichen ihm: Niemand übertraf sie an Muth, Redlichkeit und Galanterie.</p>
+            <p rendition="#et">Don Carlos ging auf Abdel-Hamet zu. Herr Maure, sprach er zu ihm, mein Vater und meine Schwester haben mir bereits von Euch gesagt: man hält Euch für den Abkömmling eines edeln und tapfern Geschlechts, und Ihr selbst besitzt in der That ein feines, höfisches Wesen. Bald wird mein König Karl die Flamme des Kriegs nach Tunis hinübertragen, und ich hoffe, wir werden einander dann auf dem Felde der Ehre wiedersehn.</p>
+            <p rendition="#et">Abdel-Hamet legte die Hand aufs Herz, setzte sich ohne zu antworten zur Erde nieder, und blickte unverwandt auf Blanka und Lautrec hin. Letzterer bewunderte und musterte mit der Neugier seines Volks die herrliche Kleidung, den glänzenden Wehrschmuck und die Schönheit des Mauren. Blanka schien durchaus nicht verlegen, ihre ganze Seele lag in ihren Blicken: die aufrichtige Spanierin gab sich keine Mühe, das Geheimniß ihres Herzens zu verbergen. Nach einigen Augenblicken des Stillschweigens erhob sich Abdel-Hamet wieder, bog ehrfurchtsvoll das Knie zur Erde nieder vor Don Rodrigos Tochter und verließ den Saal. Ueberrascht durch das Benehmen des Mauren und Blankas Blicke, entfernte sich auch Lautrec mit einem Argwohn, der sich nur allzubald in schmerzliche Gewißheit verwandelte.</p>
+            <p rendition="#et">Nur Don Carlos blieb bei seiner Schwester zurück; Blanka, sprach er zu ihr, erkläre dich! Woher kam dieses eigenthümliche Benehmen von dir beim Anblicke dieses Fremden? – Lieber Bruder, erwiderte Blanka, ich liebe Abdel-Hamet, und wenn er sich taufen läßt und Christ wird, so wähle ich ihn und keinen Andern zum Gemahl.</p>
+            <p rendition="#et">Was? rief Don Carlos, du liebst Abdel-Hamet? Die Tochter der Bivar liebt einen Mauren, einen Ungläubigen, einen Feind, den wir aus diesen Palästen verjagt haben?</p>
+            <p rendition="#et">Don Carlos, sagte Blanka, ich liebe Abdel-Hamet, Abdel-Hamet liebt mich: seit drei Jahren liebt er mich schon, und kämpft mit sich selbst, und giebt lieber seine Leidenschaft für mich preis, als den Glauben seiner Väter. – Seine Seele ist voll Adels, er <pb n="176" facs="#f0032"/>
+glüht für wahres Ritterthum und Ehre; bis zu meinem letzten Athemzug werde ich ihn lieben.</p>
+            <p rendition="#et">Don Carlos dachte groß genug, um diesen Hochsinn Abdel-Hamets in seiner ganzen Größe würdigen zu können, wie sehr er auch dabei die Blindheit des Ungläubigen bedauerte. Unglückliche Blanka, nahm er das Wort wieder, wohin wird dich deine Leidenschaft führen? Ich hoffte, mein Freund Lautrec sollte mein Bruder werden.</p>
+            <p rendition="#et">Dann gabst du dich einer falschen Hoffnung hin, versetzte Blanka: – ich kann diesen Franzosen nicht lieben. Was meine Gefühle für Abdel-Hamet betrifft, so habe ich Niemandem darüber Rechenschaft zu geben. Halte du deine Gelübde, wie ich die meinem Geliebten geschwornen Eide halte; zu deinem Troste sage ich dir nur das Eine: <hi rendition="#g">nie</hi> wird ein Ungläubiger, ein Feind unseres heiligen Glaubens, deine Schwester Blanka als Braut heimführen.</p>
+            <p rendition="#et">So wird denn unsere Familie von der Erde verschwinden, rief Don Carlos.</p>
+            <p rendition="#et">Gieb du selbst ihr einen neuen Erben! sagte Blanka. Was liegt dir übrigens an Söhnen, die du doch nie siehst, und die vielleicht von deiner Tapferkeit abarten. Ich habe ein Gefühl, Don Carlos, daß wir die Letzten unseres Geschlechtes sind; wir weichen zu sehr von der gemeinen Ordnung ab, als daß unser Blut noch nach uns blühen könnte. Der Cid war unser Ahnherr, er sei auch unsere Nachkommenschaft! Hierauf verließ Blanka das Gemach.</p>
+            <p rendition="#et">Don Carlos suchte auf der Stelle den Abenceragen auf. Maure! rief er ihm zu, begieb dich deiner Ansprüche auf meine Schwester, oder folge mir zum Zweikampf!</p>
+            <p rendition="#et">Hat deine Schwester dich gesandt, antwortete Abdel-Hamet, um von mir die Eide zurückzufordern, welche sie mir geschworen?</p>
+            <p rendition="#et">Nein, versetzte ihm Don Carlos, sie liebt dich mehr als je.</p>
+            <p rendition="#et">Ha, würdiger Bruder Blankas, unterbrach ihn Abdel-Hamet, ich soll also mein ganzes Glück auf Erden nur deinem Blute zu danken haben! O glückseliger Abdel-Hamet, schon glaubte ich Blanka untreu um dieses französischen Cavaliers willen. – – –</p>
+            <p rendition="#et">
+               <pb n="177" facs="#f0033"/>
+Das ist gerade dein Unglück, rief Carlos außer sich; Lautrec ist mein Freund, und ohne dich wäre er mein Bruder. Gieb mir Rechenschaft für die Thränen, die du in deiner Tollheit den Meinigen verursachst!</p>
+            <p rendition="#et">Ich will es wohl, sagte Abdel-Hamet; aber, obschon ich aus einem Geschlechte bin, welches das deine ruhmvoll bekämpfte, so fehlt mir doch eine wichtige Eigenschaft: ich bin in euern Augen kein<hi rendition="#g"> Cavalier.</hi> Ich sehe hier Niemand, der mir das Recht und die Erlaubniß ertheilte, mich mit dir zu schlagen, ohne daß du dir selbst etwas dadurch vergiebst.</p>
+            <p rendition="#et">Don Carlos, überrascht von dieser edeln Demuth des Mauren, sah ihn einen Augenblick mit einer Mischung von Bewunderung und Wuth an. Dann sprach er plötzlich: Ich selbst will dich zum Ritter schlagen, du verdienst es.</p>
+            <p rendition="#et">Abdel-Hamet bog ein Knie vor Don Carlos, der ihm den Ritterschlag ertheilte, indem er dreimal seine Achseln mit der Fläche seines Schwerts berührte, und ihn dann mit demselben tödtlichen Stahl umgürtete, welchen der Abencerage ihm vielleicht schon wenige Minuten später in die Brust stieß. – So gebot es Pflicht und Ehre in jener Zeit.</p>
+            <p rendition="#et">Beide schwangen sich jetzt auf ihre Rosse, verließen Granada, und flogen zum Pinienbrunnen, einer Stelle, die seit langer Zeit durch die Zweikämpfe der Mauren und Christen berühmt geworden war. Dort hatte Malic Alabés gegen Ponce von Leon gekämpft, dort hatte der Großmeister von Calatrava den schrecklichen <hi rendition="#g">Albayaldos</hi> getödtet. Man sah noch die Ueberbleibsel von dem furchtbaren Speer, von Helm und Schild des Mauren am Gezweige der Pinie hangen, und in der Rinde des Baumes las man noch einige Buchstaben einer Grabschrift. Don Carlos wies mit der Hand auf das Grab des maurischen Helden. Ahme diesen tapfern Heiden nach, sprach er zu dem Abenceragen, und empfange von meiner Hand die Taufe und den Tod!</p>
+            <p rendition="#et">Den Tod vielleicht, antwortete Abdel-Hamet, doch gepriesen sei Allahs Name, und sein Prophet!</p>
+            <p rendition="#et">Sie nahmen ihre Stellungen ein, und stürzten mit Wuth auf einander los. Sie führten nichts weiter als ihre bloßen Schwerter. <pb n="178" facs="#f0034"/>
+Abdel-Hamet war im Kampf weniger geübt, als Don Carlos, aber die Trefflichkeit seiner Damascenerklinge und die Leichtigkeit seines Pferdes gaben ihm dafür andere Vortheile über seinen Gegner. Er führte sein Roß nach maurischem Gebrauche, und durchschnitt mit dem breiten, scharfen Bügel dem Pferde des Don Carlos das rechte Bein. Das Thier bäumte sich und stürzte. Carlos griff nun den Feind zu Fuße an; auch dieser sprang jetzt von seinem Roß herab, und empfing muthig den Spanier. Die ersten Schläge desselben wehrte er ab, als das Schwert des Letzteren an seinem Damascener zersprang. Da vergoß Carlos, zweimal vom Glücke betrogen, Thränen der Wuth, und rief seinem Feinde zu: Tödte mich nur, Maure! Wehrlos noch trotzt dir Carlos, er trotzt dir und deinem ungläubigen Geschlechte!</p>
+            <p rendition="#et">Du konntest mich tödten, antwortete der Abencerage, aber nie dachte ich daran, <hi rendition="#g">dir</hi> das geringste Leid anzuthun: ich wollte dir blos zeigen, daß ich würdig bin, dein Bruder zu werden, und dich hindern, mich zu verachten.</p>
+            <p rendition="#et">In diesem Augenblick erhob sich eine Staubwolke, Lautrec und Blanka kamen auf zwei windschnellen afrikanischen Pferden des Weges hergesprengt. Als sie zur Quelle kamen, war der Kampf bereits zu Ende.</p>
+            <p rendition="#et">Ich bin besiegt, sprach Don Carlos; dieser tapfere Maure hat mir das Leben geschenkt. Lautrec, vielleicht hast du mehr Glück, als ich! –</p>
+            <p rendition="#et">Meine Wunden, sprach Lautrec mit edler und lieblicher Stimme, erlauben mir den Kampf nicht gegen diesen edeln maurischen Cavalier. Ich will nicht in das Geheimniß eurer Feindschaft dringen; – eine Angelegenheit, fügte er erröthend hinzu, für mich so schmerzlicher Natur, daß sie mir den Tod bringt. Bald gehe ich in meine Heimat, und vielleicht kehrt dann der Friede wieder unter euch zurück; es sei denn, daß Donna Blanka mir geböte, noch länger zu ihren Füßen zu weilen.</p>
+            <p rendition="#et">Ritter, sagte Blanka, bleibt Ihr bei meinem Bruder und seht mich als eure Schwester an! Jedes von uns trägt seinen besondern Schmerz, und Ihr werdet unter uns die Leiden des Lebens leichter ertragen lernen.</p>
+            <p rendition="#et">
+               <pb n="179" facs="#f0035"/>
+Blanka versuchte nun die drei Ritter dazu zu bewegen, einander zur Versöhnung die Hände zu reichen; dazu war jedoch Keiner davon zu bewegen. Ich hasse Abdel-Hamet, sagte Carlos. – Ich beneide ihn, sagte Lautrec; und ich, erwiederte der Abencerage, achte Don Carlos und beklage Lautrec, lieben jedoch kann ich sie nicht.</p>
+            <p rendition="#et">Bleiben wir beisammen, sagte Blanka, und früher oder später wird die Freundschaft von selbst der Achtung folgen. Möge das verhängnisvolle Ereigniß, welches uns hier zusammengeführt hat, für Granada ein ewiges Geheimniß bleiben!</p>
+            <p rendition="#et">Abdel-Hamet war von diesem Augenblick an der Geliebten noch tausendmal theurer geworden. Die Frauen lieben nun einmal die Tapferkeit, und dem Abenceragen fehlte nichts, da er tapfer war und Don Carlos ihm sein Leben dankte. Auf Blankas Rath mied Abdel-Hamet während einiger Tage den Palast, damit ihres Bruders Zorn sich legen möchte. Ein Gemisch von süßen und schmerzlichen Empfindungen zog durch die Seele des Abenceragen; wenn einerseits die Gewißheit, so treu und heiß geliebt zu werden, ihm eine unerschöpfliche Quelle von Seligkeit war, so betrübte ihn andrerseits doch wieder das Bewußtsein, niemals glücklich werden zu können, wenn er nicht den Glauben seiner Väter abschwor und sich taufen ließ. – Schon waren Jahre dahingegangen, ohne daß seine Leiden geheilt wurden; sollte er so auch den Rest seiner Tage entschwinden sehen?</p>
+            <p rendition="#et">In ernsten und süßen Betrachtungen verloren, saß er so eines Abends da, als er zu dem Gebete läuten hörte, das bei den Christen den Tag beschließt. Es kam ihm in den Sinn, einmal den Tempel von Blankas Gott zu betreten, und den Herrn der Natur um Rath zu fragen.</p>
+            <p rendition="#et">So begab er sich denn nach einer ehemaligen Moschee hin, welche die Spanier nunmehr als christlichen Dom benützten. Die Seele voll Trauer und Gottesfurcht, trat er in den Tempel, welcher früher der seines Gottes und seines Vaterlands gewesen war. Das Gebet war zu Ende, die Kirche bereits leer. Heilige Dunkelheit herrschte zwischen dem Labyrinth von Säulen, welche den Baumstämmen eines nach den Regeln der Kunst gepflanzten <pb n="180" facs="#f0036"/>
+Waldes glichen. Die leichte maurische Bauart war hier mit der gothischen verschmolzen, und ohne etwas von der ihr eigenthümlichen Anmuth zu verlieren, hatte sie einen zu religiösen Betrachtungen sich noch mehr eignenden Ernst angenommen. Einige Lampen erhellten kaum die Nischen der Gewölbe; beim Schein mehrerer brennenden Kerzen sah man jedoch den mit Gold und Edelsteinen geschmückten Altar glänzen. Die Spanier setzten von jeher eine Art Stolz darein, ihre köstlichsten Reichthümer und Kleinode dahinzugeben, um ihre Kirchen und Altäre damit zu zieren, und das Bild des lebenden Gottes, das von Spitzenschleiern, Perlen- und Rubinenkronen förmlich erdrückt ist, wird von einem halbnackten Volke verehrt.</p>
+            <p rendition="#et">Man bemerkte keinen Sitz in diesem großen Raume; ein marmorner Fußboden, der Grüfte zudeckte, diente den Hohen, wie den Niedern, um in Anbetung darauf hinzuknien. Abdel-Hamet schritt langsam durch die weiten Gewölbe, die von dem Geräusch seiner Schritte wiederhallten: sein Gemüth war getheilt zwischen den Erinnerungen, welche dieser ehemalige Tempel der Mauren seinem Gedächtniß vorhielt, und den Gefühlen, welche die christliche Religion in seiner Brust erweckte. Da gewahrte er am Fuß eines Pfeilers eine unbewegliche Gestalt, welche er Anfangs für eine Bildsäule auf einem Grabe hielt. Still trat er näher und merkte nun, daß es ein auf dem Fußboden knieender junger Krieger war, der das Haupt ehrfurchtsvoll geneigt und die Arme über die Brust gekreuzt hatte. Er rührte sich nicht bei dem Schall von Abdel-Hamets Schritten; kein äußeres Lebenszeichen schien ihn zu stören in seiner tiefen Andacht. Sein Schwert lag vor ihm, sein Federhut neben ihm auf dem Marmor; es sah aus, wie wenn er von einem Zauber berührt, wie wenn er zu Stein geworden wäre. – Es war Herr Lautrec. Ach, sprach der Abencerage zu sich selbst, dieser Franzose erfleht sich gewiß vom Himmel irgend eine besondre Gunst; dieser durch seinen Muth schon ruhmvolle Krieger schließt hier sein Herz auf vor dem Herrn, gleich dem Niedrigsten und Unscheinbarsten der Sterblichen. So will denn auch ich zum Gott des Ritterthums und des Ruhmes beten.</p>
+            <p rendition="#et">
+               <pb n="181" facs="#f0037"/>
+Abdel-Hamet war gerade im Begriff, auf den Marmor niederzuknieen, da gewahrte er beim Schein einer Ampel arabische Schriftzüge und einen Spruch aus dem Koran. Gewissensbisse ergriffen sein Herz, und hastig verließ er wieder das Gebäude, wo er beinahe seinem Gott und Vaterland untreu geworden wäre.</p>
+            <p rendition="#et">Der Friedhof, der an diese ehemalige Moschee anstieß, war eine Art Garten, mit Orangenbäumen, Cypressen und Palmen bepflanzt, von zwei plätschernden Brunnen belebt, und von einem Kreuzgang umgeben. Als der Abencerage gerade aus einer der hohen Wölbungen dieses Kreuzgangs heraustrat, gewahrte er eine Dame, welche im Begriff zu stehen schien, durch die Thür in die Kirche hineinzutreten. Obgleich sie einen Schleier trug, erkannte sie Abdel-Hamet doch auf der Stelle. Es war Blanka. Hastig trat er auf sie zu mit den Worten: Du suchst wohl Lautrec im Tempel?</p>
+            <p rendition="#et">Laß diese niedrige Eifersucht, antwortete Blanka. Liebte ich dich nicht mehr, so würde ich es dir sagen, und Betrug verschmähen. Ich komme, um für dich zu beten; du allein bist der Gegenstand meiner Wünsche; ich vergesse meine Seele für die deinige. Du mußtest mich nicht mit dem Gift deiner Leidenschaft berauschen, oder einwilligen, dem Gott zu dienen, dem auch ich diene. Du zerstörst durch deinen Eigensinn das Glück und den Frieden meiner ganzen Familie; mein Bruder haßt dich und mein armer Vater ist in tiefer Trauer, weil ich mich weigere, mir einen andern Mann zum Gemahl zu wählen. Bemerkst du nicht, wie die Rosen meiner Gesundheit zu welken anfangen? Schau, da stehn wir ja an einem Zufluchtsort des Todes; er ist lieblich. Bald, bald, mein geliebter Abdel-Hamet, ruhe auch ich in einem dieser Gräber, wenn du dich nicht beeilst, mit mir am Altare unseres Gottes zu knieen. Die Kämpfe, die ich erdulde, untergraben allmählich mein junges Leben; die heiße Leidenschaft, welche du mir einflößest, wird nicht immer im Stande sein, mein geschwächtes Sein aufrecht zu erhalten; bedenke, o Maure, um in deiner Sprache zu reden, daß das Feuer, welches die Fackel entzündet, sie auch verzehrt.</p>
+            <p rendition="#et">
+               <pb n="182" facs="#f0038"/>
+Bei diesen Worten trat sie in die Kirche und ließ den Abenceragen, erdrückt von der Wucht dieses letzten Worts, draußen stehen.</p>
+            <p rendition="#et">Es ist geschehen! – Abdel-Hamet ist besiegt; er will den Irrthümern seines Glaubens abschwören; er hat jetzt genug gekämpft. Die Furcht vor Blankas Tode drängt jedes andere Gefühl in ihm in den Hintergrund. Und kann denn, spricht er zu sich selbst, kann der Gott der Christen nicht doch am Ende der wahre Gott sein? Er ist doch immer der Gott edler Seelen, da meine Blanka, da Carlos und Lautrec ihn verehren.</p>
+            <p rendition="#et">Unter diesen Gedanken erwartete Abdel-Hamet mit Ungeduld den nächsten Morgen, um der Geliebten seinen Entschluß mitzutheilen, und ein Leben voll Trauer und Thränen mit einem Schlag in ein glückliches und freudenvolles zu verwandeln. Erst gegen Abend konnte er sich nach dem Palaste begeben. Er erfuhr, daß Blanka mit ihrem Bruder nach dem Generalife gegangen sei, wo Lautrec ihnen ein kleines Fest gäbe. Von neuem Argwohn geängstigt, eilte er dahin. Lautrec erröthete, als er den Abenceragen eintreten sah; Carlos empfing ihn mit kalter, aber achtungsvoller Höflichkeit.</p>
+            <p rendition="#et">Lautrec hatte die herrlichsten Früchte Spaniens und Afrikas in einem Saal des Generalifes auftragen lassen, den man den Rittersaal nannte. Ringsum an der Wand hingen die Bildnisse der Fürsten und berühmten Kriegshelden, welche die Mauren besiegt, die von Pelasgus, von Cid und Gonsalvo von Cordova. Das Schwert des letzten Königs von Granada war darunter befestigt. Abdel-Hamet bezwang seinen Schmerz, und sagte blos, indem er die Gemälde anschaute, mit den Worten des Löwen: Wir können nicht malen.</p>
+            <p rendition="#et">Als der edelmüthige Lautrec des Abenceragen Augen sich unwillkürlich nach des Königs Schwerte wenden sah, sprach er zu ihm: Hätte ich geahnt, Herr Maure, daß Ihr mir die Ehre eures Besuches schenken würdet, so hätte ich Euch nicht hier empfangen. Ein Schwert kann man jeden Tag verlieren, und ich selbst habe gesehn, wie der tapferste der Könige das seinige dem glücklichern Feind übergab.</p>
+            <p rendition="#et">
+               <pb n="183" facs="#f0039"/>
+Ach, rief der Maure schmerzlich aus, indem er sich mit seinem Gewande das Gesicht verhüllte, man kann es verlieren wie Franz I., aber wie Boabdil ....!</p>
+            <p rendition="#et">Die Nacht brach an, man brachte Fackeln, und das Gespräch nahm eine andere Wendung. Man bat den Don Carlos, die Erobrung von Mexiko zu erzählen. Er sprach von dieser neuen Welt mit jener pomphaften Beredtsamkeit, die der spanischen Nation so eigen ist. Er erzählte von Montezumas Schicksalen, von den Sitten und Gebräuchen der Amerikaner, von den Wundern der kastilischen Tapferkeit, und selbst von den Grausamkeiten seiner Gefährten, die ihm weder Lob noch Tadel zu verdienen schienen. Seine Erzählung entzückte Abdel-Hamet, dessen Leidenschaft für wunderbare Geschichten seine morgenländische Herkunft verrieth. Er schilderte nun seinerseits das ottomanische Reich, das sich vor nicht langer Zeit auf Konstantinopels Ruinen erhoben, nicht ohne dabei mit Wehmuth Mahomeds zu gedenken und seines ersten Reichs; jener glücklichen Zeit, wo der Beherrscher der Gläubigen neben sich die liebliche Zobejide glänzen sah, die Blume der Schönheit, die Kraft der Herzen, und jenen heldenmüthigen Ganem, den Sklaven seiner Liebesglut. – Lautrec endlich unternahm es, den galanten Königshof Franz' I. von Frankreich zu schildern, sprach von Kunst und Wissenschaft, die sich aus dem Dunkel der Barbarei erhoben, von Ehre und Unterthanentreue, von dem höfischen Wesen der frühern Zeit in Verbindung mit der Feinheit der jetzigen, von den gothischen Thürmen, geschmückt mit griechischen Säulen, und von den reizenden französischen Damen, welche die prächtige und stattliche Art, wie sie sich trugen, noch durch griechische Anmuth und griechischen Geschmack erhöhten.</p>
+            <p rendition="#et">Nach diesen Reden ergriff Lautrec, um dadurch dieses göttlich schöne Fest noch heiterer und reizender zu machen, eine Guitarre, und sang folgende Romanze<note place="foot" n="5">
+                  <p> Das Publikum kennt bereits diese Romanze. Ich habe den Text einer auf den Gebirgen von Auvergne bekannten und durch ihre Einfachheit ausgezeichneten Weise angepaßt. </p>
+                  <p>zenoPR<hi rendition="#g">Anm. des Verf.</hi>
+                  </p>
+               </note>, welche er einer Gebirgs-Melodie seines Vaterlands angepaßt:</p>
+            <pb n="184" facs="#f0040"/>
+            <p>O sprecht! Mit Schmerz und Sehnsuchtsklage</p>
+            <p>Wer denkt nicht seiner Kindheitstage? –</p>
+            <p>Ach, wo ich lebe, wo ich bin,</p>
+            <p>In Glück und Plage</p>
+            <p>Zur Heimat meiner Lieben hin</p>
+            <p>Steht mir der Sinn.</p>
+            <p>Weißt du es, Schwester hold und theuer,</p>
+            <p>Wie stillbeglückt am Herdesfeuer</p>
+            <p>Wir saßen bei des Spätroths Glut?</p>
+            <p>Wie wir in treuer,</p>
+            <p>In lieber Arme Bann geruht</p>
+            <p>In sichrer Hut?</p>
+            <p>O Schwester, denkst du denn der Welle,</p>
+            <p>Die waldstromwild die öde Schwelle</p>
+            <p>Der Stammburg am Gestad umschwoll? –</p>
+            <p>Des Thurms am Quelle,</p>
+            <p>Wo Glockenklang am Morgen scholl</p>
+            <p>So hell und voll?</p>
+            <p>Denkst du des Walds und seiner Weiher,</p>
+            <p>Worüber still hinflog der Reiher,</p>
+            <p>Und wo im schwanken Schilfeskranz</p>
+            <p>In sel' ger Feier</p>
+            <p>Erlosch des Abends Purpurglanz</p>
+            <p>Am Fels des Strands?</p>
+            <p>O Gott! Laß mich die Freudenauen</p>
+            <p>Der Jugendwelt noch einmal schauen!</p>
+            <p>Ach, wo ich lebe, wo ich bin,</p>
+            <p>Nach Frankreichs Gauen,</p>
+            <p>Nach meiner schönen Heimat hin</p>
+            <p>Steht mir der Sinn.</p>
+            <p rendition="#et">Als Lautrec ans Ende der letzten Strophe kam, zerdrückte er mit dem Handschuh eine Thräne, welche die Schmerzenserinnerung an seine schöne Heimat Frankreich seinem Auge erpreßte. Die Trauer des schönen Gefangnen erweckte die innigste Theilnahme im Herzen des Abenceragen, der wie Lautrec den Verlust seines geliebten Vaterlands beklagte. Als man ihm daher die <pb n="185" facs="#f0041"/>
+Guitarre reichte, entschuldigte er sich und bemerkte, er wisse nur eine einzige Romanze, und diese möchte einem <hi rendition="#g">christlichen</hi> Ohr schwerlich angenehm klingen.</p>
+            <p rendition="#et">Wenn Ungläubige eine Niederlage darin beklagen, eine verlorne Schlacht gegen uns, bemerkte Don Carlos stolz, dann gebt eure Romanze nur rückhaltslos zum Besten: – Thränen und Klagen sind dem Unterliegenden erlaubt.</p>
+            <p rendition="#et">Darum, fiel Blanka lebhaft ein, haben unsere Väter, die so oft von den Mauren besiegt worden sind, uns auch so viele Klagelieder hinterlassen.</p>
+            <p rendition="#et">Abdel-Hamet trug nun folgende Romanze vor, die ihm von einem Dichter aus dem Stamm der Abenceragen mitgetheilt worden war:<note place="foot" n="6">
+                  <p> Als ich einmal einen gebirgigen Landstrich zwischen Algesiras und Cadix bereiste, hielt ich mich in einer Herberge auf, welche im Walde lag. Ich fand dort nur einen Knaben von ungefähr vierzehn Jahren, und ein Mädchen, das etwa ebenso alt sein mochte; Bruder und Schwester, welche Binsen flochten. Sie sangen mir eine Romanze vor, deren Melodie höchst einfach und volksthümlich klang. Ich paßte ihr meine Romanze des Abenceragen an. Uebrigens ist das Gespräch zwischen dem Könige von Leon und der Stadt Granada die Nachahmung einer bekannten spanischen Romanze. </p>
+                  <p>zenoPR<hi rendition="#g">Anm. des Verf.</hi>
+                  </p>
+               </note>
+            </p>
+            <p>Zu Roß durch Feld und Plar:</p>
+            <p>Jagt König Don Juan,</p>
+            <p>Als er an Bergeshöhn</p>
+            <p>Erblickt Granada schön.</p>
+            <p>Da ruft er zu den Gruß</p>
+            <p>Der Stadt am Darrofluß:</p>
+            <p>O du im Schönheitskranz</p>
+            <p>Du Blume dieses Lands!</p>
+            <p>O du im Myrtenthal,</p>
+            <p>Dich wähl' ich zum Gemahl,</p>
+            <p>Du Stadt der Städte, mir!</p>
+            <p>Sevilla bring' ich dir,</p>
+            <p>Cordovas Glanz und Schein,</p>
+            <p>Und Perlen und Gestein,</p>
+            <p>Ort meiner Sehnsucht du,</p>
+            <p>Als Morgengabe zu.</p>
+            <pb n="186" facs="#f0042"/>
+            <p>Jedoch Granada spricht:</p>
+            <p>Deiner begehr' ich nicht.</p>
+            <p>Ich bin die Braut, ich bin</p>
+            <p>Des Mauren Königin.</p>
+            <p>Spar' deine Mitgift fein,</p>
+            <p>König von Leon mein:</p>
+            <p>An meines Trauten Brust</p>
+            <p>Erblüht mir Glück und Lust.</p>
+            <p>So sprachst du da voll Lug,</p>
+            <p>So brachst du da voll Trug</p>
+            <p>Granada, hehr und licht,</p>
+            <p>Der Treue holde Pflicht.</p>
+            <p>O falsches Siegerglück!</p>
+            <p>Der Spanier nahm zurück</p>
+            <p>Die Pracht des Maurenlands:</p>
+            <p>
+               <hi rendition="#g">Also geschrieben stand's!</hi>
+            </p>
+            <p>Zu keinem Grabe mehr</p>
+            <p>Wankt müde jetzt hieher</p>
+            <p>In Locken silberweiß</p>
+            <p>Medinas Pilgergreis.</p>
+            <p>O falsches Siegerglück!</p>
+            <p>Der Spanier nahm zurück</p>
+            <p>Die Pracht des Maurenlands:</p>
+            <p>
+               <hi rendition="#g">Also geschrieben stand's!</hi>
+            </p>
+            <p>O Dom, so stolz und schön!</p>
+            <p>Alhambras Stadt und Höhn!</p>
+            <p>O Strom, o Felsenquell!</p>
+            <p>O Wiesen sonnenhell!</p>
+            <p>Ach, hin ist Ruhm und Glück!</p>
+            <p>Der Spanier nahm zurück</p>
+            <p>Die Pracht des Maurenlands:</p>
+            <p>
+               <hi rendition="#g">Also geschrieben stand's!</hi>
+            </p>
+            <p rendition="#et">Das Naive dieser Klagen rührte sogar den stolzen Carlos, so sehr auch der Haß gegen die Christen darin durchklang, indeß hätte er es für seine Person im Grunde lieber gesehn, wenn ihm die Pflicht, nun auch seinerseits eine Romanze zu singen, von den Andern geschenkt worden wäre; aus Höflichkeit gegen Lautrec <pb n="187" facs="#f0043"/>
+glaubte er jedoch der Gesellschaft diesen kleinen Zoll der Rücksicht nicht schuldig bleiben zu dürfen, und gab endlich dem Andringen des Freundes nach. Abdel-Hamet gab ihm daher die Guitarre, worauf jener die Thaten des Cid, seines berühmten Ahnherrn, feierte:</p>
+            <p>Um zu zücht'gen freche Mauren,</p>
+            <p>Uebers Meer hin will der Cid.</p>
+            <p>Herrlich steht er da und furchtbar,</p>
+            <p>Herrlich, und von Gold umblitzt.</p>
+            <p>Doch im Arm die Mandoline,</p>
+            <p>Zu Chimenens Füßen hin</p>
+            <p>Wirft sich einmal noch der Mächt'ge,</p>
+            <p>Tieferglüht für Ehr' und Pflicht.</p>
+            <p>Also spracht Ihr jüngst, Infantin,</p>
+            <p>Also spracht Ihr jüngst zu mir:</p>
+            <p>In die Schlacht hinein, Rodrigo,</p>
+            <p>In den Sturm des Maurenkriegs!</p>
+            <p>Kämpft als Held, so will ich's glauben,</p>
+            <p>Daß Ihr eure Dame liebt,</p>
+            <p>Und noch mehr, als eure Dame,</p>
+            <p>Gott und König, Ehr' und Pflicht.</p>
+            <p>O so gebt mir denn den Goldhelm,</p>
+            <p>O so gebt mir Schwert und Schild!</p>
+            <p>Zeigen will ich es im Kampfe,</p>
+            <p>Daß Rodrigo Muth besitzt:</p>
+            <p>Und wo in der Mauren Reihen</p>
+            <p>Glanzumstrahlt sein Helmbusch nickt,</p>
+            <p>Sei sein Feldruf seine Dame,</p>
+            <p>Gott und Heimat, Ruhm und Pflicht.</p>
+            <p>Maurenjüngling! Jede Blume</p>
+            <p>Flichtst du in den Kranz des Lieds,</p>
+            <p>Doch die Palme des Gesanges,</p>
+            <p>Sohn der Wüste, blüht dir nicht.</p>
+            <p>Meiner Heimat schöne Lieder,</p>
+            <p>Spaniens Lieder fromm und schlicht</p>
+            <p>Singen Liebesglück und Treue,</p>
+            <p>Singen Gott und Ehr' und Pflicht.</p>
+            <pb n="188" facs="#f0044"/>
+            <p>In dem Thal von Andalusien</p>
+            <p>Stirbt Rodrigos Name nie,</p>
+            <p>Christen singen seine Thaten,</p>
+            <p>Und die Mauren preisen sie.</p>
+            <p>Ja, die Lieder werdens künden:</p>
+            <p>Seinem Leben zog der Cid</p>
+            <p>Seine Dame vor, Chimenen,</p>
+            <p>Gott und König, Ehr' und Pflicht.</p>
+            <p rendition="#et">Don Carlos nahm bei diesem schönen Gesange einen so stolzen Ausdruck an: – man hätte ihn in der That für den Cid selbst halten mögen. – Lautrec theilte den kriegerischen Enthusiasmus seines Freundes, der Abencerage war erblaßt, als er den Namen des Cid vernahm.</p>
+            <p rendition="#et">Dieser euer Held, sprach er zu Don Carlos, den die Christen die Blume der Schlachten nennen, führt bei uns den Namen des Grausamen. Wäre seine Großmuth seiner Tapferkeit gleich gewesen ......</p>
+            <p rendition="#et">Seine Großmuth, nahm Don Carlos gereizt das Wort, übertraf noch seinen Muth, und, so wahr ein Gott ist, nur maurischer Haß kann es wagen, einen Stein auf den Helden zu werfen, welcher der Stammvater meines Geschlechtes ist.</p>
+            <p rendition="#et">Was sagst du, schrie jetzt Abdel-Hamet, indem er sich schnell von seinem Sitz erhob, du zählst den Cid unter deine Ahnen?</p>
+            <p rendition="#et">Sein Blut fließt in meinen Adern, erwiderte Don Carlos, und daß ich wirklich von diesem Blute bin, erkenne ich an dem Haß gegen die Feinde meines Gottes, der mich durchglüht.</p>
+            <p rendition="#et">Also, sagte Abdel-Hamet, mit einem Blick auf Blanka, ihr seid aus dem Hause jener Bivars, die nach der Einnahme Granadas die Wohnsitze der unglücklichen Abenceragen einnahmen, und einen edeln Greis dieses Geschlechtes tödteten, der das Grab seiner Vorfahren vertheidigen wollte?</p>
+            <p rendition="#et">Maure! schrie Don Carlos, von Zorn erglüht, wisse, daß ich dir keine Rechenschaft zu geben habe. Wenn ich jetzt die ehemaligen Güter der Abenceragen besitze, so haben meine Väter sie mit ihrem Blut erkauft, und verdanken sie nur ihrem tapfern Schwert.</p>
+            <p rendition="#et">
+               <pb n="189" facs="#f0045"/>
+Noch ein Wort, sprach Abdel-Hamet mit einer Stimme, die vor Schmerz fast tonlos geworden war; wir wußten in unserm Exile nicht, daß die Bivars jetzt den Namen Santa-Fé tragen: das hat meinen Irrthum veranlaßt.</p>
+            <p rendition="#et">Diesen Titel gab König Ferdinand der Katholische jenem nämlichen Bivar, welcher der Herrschaft der Abenceragen in Spanien auf ewige Zeiten ein Ende gemacht hat.</p>
+            <p rendition="#et">Abdel-Hamet trat, den Kopf auf die Brust gesenkt, zwischen Carlos, Lautrec und Blanka, die ihn mit Staunen ansahen. Ein Strom von Thränen benetzte seinen am Gürtel hängenden Dolch. Endlich sagte er: Verzeiht, ich weiß es wohl, Männer sollen nicht weinen: meine Thränen sollen auch in Zukunft nicht mehr fließen, obschon mir mehr als genug des Beweinenswerthen in diesem Leben bleibt. Höre, meine Blanka, was ich dir jetzt sage:</p>
+            <p rendition="#et">Du Geliebte meiner Seele! Meine Leidenschaft für dich gleicht den glühenden Winden Afrikas. Ich war bereits besiegt, ohne dich glaubte ich nicht länger mehr leben zu können. Gestern noch hatte ich bei dem Anblick dieses französischen Cavaliers und nach deinen letzten Worten den festen Entschluß gefaßt, deinen Gott anzuerkennen und dir meinen Glauben zu opfern.</p>
+            <p rendition="#et">Eine freudige Bewegung Blankas, eine staunende, welche Don Carlos machte, unterbrachen Abdel-Hamet; Lautrec bedeckte sein Gesicht mit beiden Händen. Der Maure errieth seine Gedanken und sprach zu ihm mit einem trüben Lächeln: O! deine Hoffnungen blühen noch! Du aber, meine Blanka, beweine für dieses Leben <hi rendition="#g">den letzten Abenceragen!</hi>
+            </p>
+            <p rendition="#et">Blanka, Carlos und Lautrec riefen zu gleicher Zeit mit dem Ausdruck des höchsten Erstaunens: Der letzte Abencerage!</p>
+            <p rendition="#et">Ein feierliches Stillschweigen herrschte. Furcht und neue Hoffnungen, Haß und Liebesglut, Staunen und Eifersucht setzten abwechselnd die Herzen in Sturm und Aufruhr. Blanka warf sich auf die Knie nieder und rief: Gütiger Gott, du rechtfertigst meine Wahl: ich konnte keinen Anderen als einen Heldensprößling lieben!</p>
+            <p rendition="#et">
+               <pb n="190" facs="#f0046"/>
+Schwester, sprach Carlos zu ihr voll Unmuths, bedenke, daß hier Lautrec vor dir steht: – Lautrec, aus dem erlauchten Hause der Foix!</p>
+            <p rendition="#et">Don Carlos, sagte Abdel-Hamet, laß jetzt deinen Zorn fahren; ich will euch sämmtlich die Ruhe wiedergeben.</p>
+            <p rendition="#et">Und das Wort an Blanka richtend, die sich wieder gesetzt hatte, sprach der Abencerage:</p>
+            <p rendition="#et">Huri des Paradieses, Genius der Liebe und der Schönheit! Abdel-Hamet wird bis zum letzten Athemzug dein Sklave bleiben; erkenne jedoch den ganzen Umfang seines Elends. Der durch deinen Großvater bei der Erstürmung seines Palastes getödtete Greis<hi rendition="#g"> war der Vater meines Vaters;</hi> erfahre noch ein Geheimniß, das ich dir verhehlt habe, oder das du mich vielmehr nur vergessen gemacht hast. Als ich das erstemal mein trauriges Vaterland wieder besuchte, hatte ich den Plan gefaßt, in Granada noch einen Sohn der Bivars zu suchen, und von ihm Rechenschaft zu fordern für das Blut, das seine Väter vergossen haben.</p>
+            <p rendition="#et">Nun wohl, sprach Blanka mit schmerzlich bewegter Stimme, doch gehoben durch den Ausdruck einer großen Seele; was hast du jetzt beschlossen?</p>
+            <p rendition="#et">Was deiner am würdigsten ist, antwortete Abdel-Hamet. Ich gebe dir deine Schwüre zurück, und genüge durch den Schmerz eines ewigen Exils und meinen Tod Dem, was wir Beide der Feindschaft unserer Religionen, unseres Vaterlands und unserer Familien schuldig sind. Wenn je mein Bild in deinem Herzen erbleicht, wenn die allzerstörende Zeit das Andenken an den armen letzten Abenceragen aus deiner Brust getilgt haben wird .... dann wird vielleicht dieser erlauchte französische Ritter .... Du bist dies Opfer deinem edeln Bruder schuldig!</p>
+            <p rendition="#et">Da sprang Herr Lautrec schnell auf und stürzte dem Mauren an die Brust. – Abdel-Hamet, sprach er zu ihm, denke nicht, mich an Großmuth zu übertreffen: Bayard hat mich zum Ritter geschlagen, und ich habe mein Blut verspritzt für meinen König; auch ich will gleich Jenen ohne Furcht und Tadel sein. Wenn du bei uns bleibst, so bitte ich meinen Freund, dir die Hand seiner <pb n="191" facs="#f0047"/>
+Schwester zu geben; verläßt du Granada, so soll nie ein Wort mehr von mir deine Geliebte beunruhigen. Ich will nicht, daß du in die Nacht des Exils die schlechte Meinung von Lautrec mitnimmst, als habe er kein Gefühl für deine seltenen Tugenden, und als suchte er Vortheil zu ziehen aus deinem Unglück.</p>
+            <p rendition="#et">Und der edle Jüngling drückte den Abenceragen mit der ganzen Glut und Lebhaftigkeit eines Franzosen an seine Brust.</p>
+            <p rendition="#et">Ihr edeln Freunde, sprach jetzt Don Carlos, das war von euren erlauchten Geschlechtern zu erwarten. – Abdel-Hamet, an welchen Merkmalen erkenne ich Euch als den Letzten der Abenceragen?</p>
+            <p rendition="#et">An mir selbst und an der Art, wie ich mich benehme, erwiederte Abdel-Hamet.</p>
+            <p rendition="#et">Ich bewundere euer Benehmen, sagte der Spanier; indeß, bevor ich mich näher erkläre, laßt mich irgend ein Zeichen eurer erlauchten Abkunft sehen.</p>
+            <p rendition="#et">Abdel-Hamet zog nun den Erbsiegelring seiner Familie, den er an einer goldenen Kette trug, aus dem Busen.</p>
+            <p rendition="#et">Da reichte Don Carlos dem unglücklichen Abenceragen die Hand. Herr Ritter, sprach er zu ihm, ich halte Euch für einen edlen Mann, und für den wahrhaften Sprößling von Königen. Ihr ehrt mich durch eure Absichten auf meine Familie: ich nehme den Zweikampf an, welcher der erste geheime Zweck eures Hierseins war. Geht Ihr als Sieger aus dem Kampf hervor, so sollen meine Güter, ehemals die eurigen, Euch treulich wieder zurückgegeben werden. Wünscht Ihr jetzt nicht mehr mit mir zu kämpfen, so nehmt denn meinen Vorschlag an: werdet Christ und empfangt die Hand meiner Schwester; Lautrec selbst ist es, der jetzt für seinen ehemaligen Nebenbuhler darum anhält.</p>
+            <p rendition="#et">Die Versuchung war groß, aber sie ging nicht über Abdel-Hamets Kräfte. Wenn die heftigste Leidenschaft mit all ihrer Macht zu dem Herzen des Abenceragen sprach, so dachte er andrerseits nur mit Schrecken daran, sein Blut mit dem der Todfeinde seines Volkes zu vermischen. Er glaubte den Schatten seines Ahnherrn aus dem Grabe hervortreten und ihm dieses<pb n="192" facs="#f0048"/>
+ gottlose Band vorwerfen zu sehen. Von Schmerz ergriffen rief Abdel-Hamet aus: O warum muß ich hier so viele erhabne Herzen, so viele großmüthige Charaktere finden, um dadurch meinen Verlust nur um so schmerzlicher zu empfinden! Blanka rede! Sie sage, was ich thun soll, um ihrer Liebe noch würdiger zu werden.</p>
+            <p rendition="#et">Da seufzte Blanka: Kehre in deine Wüste zurück! – und sank ohnmächtig zu Boden.</p>
+            <p rendition="#et">Abdel-Hamet, der seine Blanka mehr als seine Seele liebte, warf sich mit einem Schmerzensschrei neben ihr auf die Knie nieder und verließ dann, ohne ein Wort weiter zu sagen, den Saal und den Palast. Noch die nämliche Nacht reiste er nach Malaga ab, und bestieg daselbst ein Schiff, das auf seiner Fahrt Oran berührte. Er fand in der Nähe dieser Stadt die Karavane, welche alle drei Jahre von Marokko aus Afrika und Egypten durchzieht, und sich dann in Yemen mit der Karavane von Mekka vereinigt. Abdel-Hamet schloß sich den Pilgern an.</p>
+            <p rendition="#et">Blanka, an deren Aufkommen man anfangs zweifelte, genas endlich wieder. Lautrec, dem Worte treu, das er dem Abenceragen gegeben, begab sich hinweg, und nie mehr vernahm die Tochter des Herzogs von Santa-Fé ein Wort von seiner Liebe und seinem Schmerze. Jedes Jahr begab sich Blanka zu der Zeit, wo ihr Geliebter aus Afrika zurückzukehren pflegte, nach Malaga hinab; dort saß sie auf dem Felsen, blickte auf das Meer und die fernen Schiffe hinunter, und kehrte dann nach Granada zurück. Den Rest ihrer Tage brachte sie in den Ruinen der Alhambra zu. Sie klagte nicht, sie weinte nicht, sie sprach nicht von Abdel-Hamet; ein mit den Verhältnissen Unbekannter hätte sie sogar für glücklich halten können. Sie überlebte ihre Familie. Ihr greiser Vater starb vor Gram; Carlos fiel in einem Zweikampfe, wobei Lautrec ihm mit gewohnter Treue sekundirte. Nie hat man mehr erfahren, was aus Abdel-Hamet geworden ist. –</p>
+            <p rendition="#et">Wenn man von Tunis aus durch das Thor geht, welches zu Karthagos Ruinen hinführt, so gewahrt man unter Palmbäumen einen Friedhof; in einer Ecke desselben zeigte man mir ein Grab, <pb n="193" facs="#f0049"/>
+einer Sage nach das <hi rendition="#g">Grab des letzten Abenceragen.</hi> Es hat durchaus nichts Ausgezeichnetes; der Grabstein ist höchst einfach, und man hat nur, nach maurischem Gebrauche, in den Stein eine kleine Höhlung gemacht, welche den Zweck hat, das Regenwasser darin zu sammeln und damit, in dem brennenden Klima, den Vogel des Himmels freundlich zu tränken und zu erquicken.</p>
+            <pb n="194" facs="#f0050"/>
+         </div>
+      </body>
+   </text>
+</TEI>

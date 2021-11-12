@@ -1,0 +1,3402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Moloch</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/11656640X">
+                  <forename>Emil</forename>
+                  <surname>Gerhäuser</surname>
+               </persName>
+            </author>
+            <author>
+               <persName role="composer" ref="http://d-nb.info/gnd/186784287">
+                  <forename>Max</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Schilling</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T17:38:19Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000398</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q52895614</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004825497</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Gerhäuser, Emil/Libretto/Der Moloch</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/ndms.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-D49F-A</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Max von Schillings: Der Moloch. Dichtung frei nach Fr. Hebbels »Moloch-Fragment« von Emil Gerhäuser, Berlin [1906]</bibl>
+            <bibl>Max von Schillings: Der Moloch. Musikalische Tragödie in drei Aufzügen, Dichtung frei nach Fr. Hebbels »Moloch-Fragment« von Emil Gerhäuser, Berlin: Bote &amp; Bock, [1906].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Der Moloch. Musikalische Tragödie in drei Aufzügen</title>
+                  <title level="m" type="sub">Dichtung frei nach <persName>Friedrich Hebbels</persName> »Moloch-Fragment«</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/11656640X">
+                        <forename>Emil</forename>
+                        <surname>Gerhäuser</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName role="composer" ref="http://d-nb.info/gnd/186784287">
+                        <forename>Max</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schilling</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">64 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Bote &amp; Bock</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1906</date>
+                  <date type="firstPublication">1907</date>
+                  <date type="firstPublication" subtype="clariah">1907</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5">1906</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1868"
+                        notAfter="1906"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d114e321">Komponiert von Max von Schillings. Uraufführung am 08.12.1906, Königlich-Sächsisches Opernhaus (Semperoper), Dresden.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <personGrp xml:id="maenner" sex="MALE">
+                  <name>Männer</name>
+               </personGrp>
+               <personGrp xml:id="frauen" sex="FEMALE">
+                  <name>Frauen</name>
+               </personGrp>
+               <personGrp xml:id="einzelne" sex="UNKNOWN">
+                  <name>Einzelne</name>
+               </personGrp>
+               <personGrp xml:id="andere" sex="UNKNOWN">
+                  <name>Andere</name>
+               </personGrp>
+               <person xml:id="hiram" sex="MALE">
+                  <persName>Hiram</persName>
+               </person>
+               <personGrp xml:id="volk" sex="UNKNOWN">
+                  <name>Volk</name>
+               </personGrp>
+               <person xml:id="wolf" sex="MALE">
+                  <persName>Wolf</persName>
+               </person>
+               <person xml:id="teut" sex="MALE">
+                  <persName>Teut</persName>
+               </person>
+               <personGrp xml:id="alle_1-4" sex="UNKNOWN">
+                  <name>Alle (I/4)</name>
+               </personGrp>
+               <person xml:id="theoda" sex="FEMALE">
+                  <persName>Theoda</persName>
+               </person>
+               <person xml:id="velleda" sex="FEMALE">
+                  <persName>Velleda</persName>
+               </person>
+               <personGrp xml:id="einzelne_maenner" sex="MALE">
+                  <name>Einzelne Männer</name>
+               </personGrp>
+               <personGrp xml:id="krieger" sex="MALE">
+                  <name>Krieger</name>
+               </personGrp>
+               <person xml:id="koenig" sex="MALE">
+                  <persName>König</persName>
+               </person>
+               <personGrp xml:id="alles_2-3" sex="UNKNOWN">
+                  <name>Alles (II/3)</name>
+               </personGrp>
+               <personGrp xml:id="alle_3-1" sex="UNKNOWN">
+                  <name>Alle (III/1)</name>
+               </personGrp>
+               <person xml:id="ein_junger_krieger" sex="MALE">
+                  <persName>Ein junger Krieger</persName>
+               </person>
+               <personGrp xml:id="molochpriester" sex="MALE">
+                  <name>Molochpriester</name>
+                  <name type="variant">Priester</name>
+               </personGrp>
+               <person xml:id="ein_krieger" sex="MALE">
+                  <persName>Ein Krieger</persName>
+               </person>
+               <person xml:id="ein_anderer" sex="MALE">
+                  <persName>Ein anderer</persName>
+               </person>
+               <person xml:id="eine_stimme" sex="UNKNOWN">
+                  <persName>Eine Stimme</persName>
+               </person>
+               <personGrp xml:id="alle_3-7" sex="UNKNOWN">
+                  <name>Alle (III/7)</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretto</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d114e321">
+      <front>
+         <div type="front">
+            <head>Emil Gerhäuser</head>
+            <head>Der Moloch</head>
+            <head>Musikalische Tragödie in drei Aufzügen</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="3" facs="#f0001"/> Personen</head>
+               <castItem>Der König in Thule</castItem>
+               <castItem>Teut, sein Sohn</castItem>
+               <castItem>Velleda, die Königin</castItem>
+               <castItem>Theoda, ein junges Mädchen</castItem>
+               <castItem>Wolf, des Königs Waffenfreund</castItem>
+               <castItem>Hiram, aus Karthago</castItem>
+               <castItem>Einwohner Thules: zuerst als Fischer und Krieger mit Frauen und Kindern;
+            späterhin auch als Landleute und Priester des Moloch</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Ort: Thule.</p>
+            <p>Zeit: Nach der Zerstörung Karthagos.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Aufzug.</head>
+            <stage>Auf einer Halbinsel: Fels, Wald und Meer. Landschaft ähnlich der Insel Rügen. Rechts
+          zieht sich ein freier Raum unter hohen, alten Bäumen bis zum Meere. Links bildet weißes
+          Gestein eine Höhle; weiter rückwärts auf einem Felsen der Moloch. Überhängendes Ast- und
+          Laubwerk überschneidet das Götzenbild. Im Hintergrunde schwarze drohende See. –
+          Gewitterstimmung.</stage>
+            <div>
+               <head>Erste Szene.</head>
+               <stage>Auf roh gezimmerten Flößen nahen, vom Fischfange heimkehrend,</stage>
+               <sp who="#maenner #frauen">
+                  <speaker>MÄNNER UND FRAUEN.</speaker>
+                  <lg>
+                     <l>Regenschwer und nebelgrau</l>
+                     <l>Droht der Himmel, dräuen Wogen;</l>
+                     <l>Heimwärts zu der heil'gen Au</l>
+                     <l>Kommen flehend wir gezogen.</l>
+                     <l>Zünden wir die Weiheglut,</l>
+                     <l>Mög' uns schonen Blitz und Flut.</l>
+                  </lg>
+                  <stage>Sie bergen Geräte und Fang am Ufer. Einzelne haben sich dem Lande zugewandt und
+              gewahren den Moloch.</stage>
+               </sp>
+               <sp who="#einzelne">
+                  <speaker>EINZELNE.</speaker>
+                  <lg>
+                     <l>Seht, ein Unhold! An heil'ger Stätte!</l>
+                     <l>Ein Schreckensbild am Weihestein.</l>
+                     <pb n="4" facs="#f0002"/>
+                  </lg>
+               </sp>
+               <sp who="#andere">
+                  <speaker>ANDERE</speaker>
+                  <stage>vom Meeresufer herbeieilend.</stage>
+                  <lg>
+                     <l>Ihr ruft, ihr klagt? Was soll's, was ist? –</l>
+                     <l>Welch furchtbar drohend Antlitz!</l>
+                  </lg>
+               </sp>
+               <sp who="#frauen">
+                  <speaker>FRAUEN</speaker>
+                  <stage>aufschreiend.</stage>
+                  <p>Wehe!</p>
+                  <stage>Alle drängen sich Moloch gegenüber zu wirrem Knäuel zusammen. Aus Molochs Rachen
+              und Augen beginnt schwelender Qualm zu ziehen, wie von nassem Holz, welches nicht
+              brennen will.</stage>
+               </sp>
+               <sp who="#maenner #frauen">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Ha! Wolken brechen aus dem Antlitz,</l>
+                     <l>Schlangen ziehen durch die Lüfte,</l>
+                     <l>Dunkler Schrecken stieg ins Land,</l>
+                     <l>Wilde Sagen werden wahr –</l>
+                     <l>Dem fernen König sendet Boten,</l>
+                     <l>Fort, holet Waffen, rufet Teut!</l>
+                  </lg>
+                  <stage>In wildem Entsetzen fliehen sie rechts in den Wald. Sturm kündet das nahende
+              Gewitter an.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene.</head>
+               <stage>Hiram tritt aus der Höhle: Züge und Erscheinung sind seltsam und fremdartig.
+            Drohend blickt er den Fliehenden nach.</stage>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Die Stunde kam – Schicksal, herauf!</l>
+                     <l>Der Zauber wirkt, sie kehren wieder –</l>
+                     <l>Nun, Willens eherne Gewalt,</l>
+                     <l>Steh fest, gebier mir Sieg und Macht!</l>
+                     <l>Karthagos Gott auf kühner Fahrt</l>
+                     <l>An Thules Felsenstrand zu führen,</l>
+                     <l>Zwang meines Willens Macht die Sklaven;</l>
+                     <l>Feigheit trieb sie aufs Meer zurück:</l>
+                     <l>Der Feigen Flucht stählt meine Stärke –</l>
+                  </lg>
+                  <stage>
+                     <pb n="5" facs="#f0003"/> Dämonisch lachend.</stage>
+                  <lg>
+                     <l>Fahrt zu! Der Tod ist euch gewiß!</l>
+                     <l>Der Gott am Ziel – mein die Gewalt!</l>
+                  </lg>
+                  <stage>Er wendet sich langsam zum Moloch.</stage>
+                  <lg>
+                     <l>Du Eisenklumpen, wie du dräust</l>
+                     <l>Am Weihestein des starken Volks!</l>
+                     <l>Moloch! Einst mein Gott, nun Knecht!</l>
+                     <l>Heut lohnst du mir, daß übers Meer</l>
+                     <l>Ich dich entführt in jener Nacht,</l>
+                     <l>Wo's Tag ward, eh' die Sonne stieg,</l>
+                     <l>Wo tausend Opfer deines Rachens</l>
+                     <l>In Flammen schrien: »Moloch, hilf!</l>
+                     <l>Entreiß' Karthago den Klauen Roms!«</l>
+                     <l>Doch du standst stumm – Karthago sank!</l>
+                     <l>Da kannt' ich dich – ohnmächtig Bild,</l>
+                     <l>Da war mein wilder Plan gefaßt:</l>
+                     <l>Noch herrscht im Lande Teuts kein Gott;</l>
+                     <l>Nur wirre Ahnung füllt die Seelen,</l>
+                     <l>Dunkle Sagen gehen um,</l>
+                     <l>In Einsamkeit und Donnerrollen,</l>
+                     <l>In Schrecken, Sturm und Not werd' einst</l>
+                     <l>Ein Gott vom Himmel niedersteigen: –</l>
+                     <l>Da stehst nun du: – Der Gott erschien!</l>
+                     <l>Als meiner Rache Knecht hier büße,</l>
+                     <l>Was an Karthago du verbrachst.</l>
+                     <l>Dies Volk zwingst du zu meinen Füßen,</l>
+                     <l>Des wilder Kraft das Ziel ich weise!</l>
+                     <l>Ein Götze macht Hiram zum Gott!</l>
+                     <l>Dann zittre, Welt! Vom Norden braust</l>
+                     <l>Der Sturm in Romas bleiche Mauern,</l>
+                     <l>Den Tiber tränk' ich mit Blut,</l>
+                     <l>Die Flamme rast in trunknem Wüten,</l>
+                     <l>Karthagos Rächer schürt die Glut,</l>
+                     <l>In Trümmer stürzt das Kapitol: –</l>
+                     <l>Dort soll zum Hohn dann Moloch thronen!</l>
+                  </lg>
+                  <stage>Aus dem Walde werden verworrene Stimmen hörbar.</stage>
+                  <pb n="6" facs="#f0004"/>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene.</head>
+               <sp who="#volk">
+                  <speaker>VOLK</speaker>
+                  <stage>noch unsichtbar, in langgezogenen, gequälten Lauten.</stage>
+                  <p>Oh – oh – oh –</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Sie nahen!</p>
+                  <stage>Ferner Donner.</stage>
+                  <p>Grollt mir der Himmel? Nein, er hilft!</p>
+                  <stage>Er breitet die Arme zum Himmel.</stage>
+                  <lg>
+                     <l>Jetzt tu' ein Wunder! Dann vielleicht</l>
+                     <l>Beug' ich noch einmal dieses Knie!</l>
+                     <l>Sende den Blitz mir, daß die Glut</l>
+                     <l>Aus Molochs Flammenaugen sprühe –</l>
+                  </lg>
+                  <stage>Das Gewitter naht mit Macht.</stage>
+                  <p>So recht! – Den Blitz! – Das Wunder naht –</p>
+                  <stage>Ein Blitz fährt nieder und schlägt in den Moloch; sofort brechen Flammen aus ihm.
+              Am Waldrand erscheint das Volk, mit ihm Wolf nebst einer Schar Krieger, Teut und
+              Theoda.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>wie in Verzückung.</stage>
+                  <p>Heil dir, Moloch, Gott der Welten!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Oh – oh – oh –</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>'s ist wahr, an heiliger Stätte Fremde!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Oh Segen, heil'ge Gottesglut!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Oh – oh – oh –</p>
+                  <pb n="7" facs="#f0005"/>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Wer bist du? Was soll's am Weihestein?</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>gewaltig.</stage>
+                  <p>Heil dir, Moloch! Gott der Helden!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Oh – oh – oh –</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>zum Volk.</stage>
+                  <p>Kniet nieder! Beugt euch seiner Glut!</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Wir knien? Wie Knechte? Zu den Waffen!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Sahst du den Blitz, in dem Gott nahte?</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Dein Gott und du – ihr sollt vergehen!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK</speaker>
+                  <stage>in Lauten, die aus Furcht in Drohung übergehen.</stage>
+                  <p>Oh – oh – oh –</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Folgt mir!</p>
+                  <stage>Er dringt mit mehreren auf Hiram ein, der sich am Moloch hoch aufrichtet.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Glaubt ihr, mit mir den Gott zu töten?</l>
+                     <l>Er lebt, sinkt auch sein Priester hin!</l>
+                     <l>Ich selbst bring' mich ihm dar als Opfer!</l>
+                  </lg>
+                  <stage>Er setzt seinen Dolch auf die Brust. Da springt Teut, der bis jetzt in starrem
+              Staunen verloren stand, hervor.</stage>
+                  <pb n="8" facs="#f0006"/>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene.</head>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Halt ein! Zurück! Wer wagt's mit mir?</p>
+                  <stage>Teut hat sich mit jähem Ruck neben Hiram auf die Felsenstufen, welche zum Moloch
+              führen, geschwungen. Das Antlitz immer dem Moloch zugekehrt, faßt er Wolf bei der
+              Hand, zieht ihn mit sich hinab und drängt so die Angreifenden langsam zurück. Dann
+              kniet er am Fuß des Felsens nieder, schließt die Augen und breitet erregt die Hände
+              zur Erde.</stage>
+                  <lg>
+                     <l>Da ist er, wie ich ihn geträumt!</l>
+                     <l>Ist's nur ein Trugbild?</l>
+                  </lg>
+                  <stage>Er schaut auf.</stage>
+                  <p>Nein doch, nein!</p>
+                  <stage>Er erhebt sich.</stage>
+                  <lg>
+                     <l>Er ist noch da! – Längst sah ich ihn so,</l>
+                     <l>In Schlaf und Wachen, aus Himmelshöh'n</l>
+                     <l>Ein Flammenbild, von Wolkenschlangen</l>
+                     <l>Umleuchtet rings, durchglüht von Sonnen –</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Teut, sag, was soll's? Bist du von Sinnen?</l>
+                     <l>Mehrst du die Not mit Knabenträumen?</l>
+                     <l>Der König ist fern und schlichtet Streit,</l>
+                     <l>Du bist sein Sohn, sag du für ihn:</l>
+                     <l>Ins Meer zurück das Ungetüm!</l>
+                     <l>In Thule ist dafür nicht Raum.</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>immer wie gebannt.</stage>
+                  <lg>
+                     <l>Ein Ungetüm dies Flammenbild?</l>
+                     <l>Ein Ungetüm – du armer Tor!</l>
+                     <l>All brennende Sehnsucht fand Gestalt,</l>
+                     <l>Denn sieh, ein Gott stieg glühend nieder,</l>
+                     <l>Erfüllungsschauer stärkt die Glieder,</l>
+                     <l>Jed' Wesen sprengt er mit Gewalt –</l>
+                     <pb n="9" facs="#f0007"/>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Gewalt? Dich wird Gewalt wohl wecken!</l>
+                     <l>Du schüre nicht des Vaters Wut,</l>
+                     <l>Sein Grimm geht her in grauem Schrecken</l>
+                     <l>Und taucht den Wald in dunkles Blut –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Ah, Waffen, Waffen, den Gott zu schirmen!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>löst von seiner Seite ein seltsames, reich verziertes Schwert.</stage>
+                  <lg>
+                     <l>Du Jüngling, den Moloch sich erwählt,</l>
+                     <l>Nimm hier das Schwert! Es ist gehärtet</l>
+                     <l>In Molochs Glut und trägt den Blitz</l>
+                     <l>Auf seiner Spitze! Führ' es treu!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>ergreift die dargebotene Waffe.</stage>
+                  <lg>
+                     <l>Ha, Gotteswehr! Schreckenswaffe!</l>
+                     <l>Es wächst der Stahl in meine Faust,</l>
+                     <l>Strömt Kraft mir bis ins tiefste Mark,</l>
+                     <l>Als hätt' ich tausend Heldenarme!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Den König holen wir!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Ruft ihn und sagt:</l>
+                     <l>Vom Himmel ist ein Gott erschienen,</l>
+                     <l>Wer herrschen will, muß ihm erst dienen!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Ha, Teut, befiehl du nur! Du tust,</l>
+                     <l>Was keiner tut, was keiner kann!</l>
+                     <l>Mit Wind und Wogen sprichst du laut,</l>
+                     <l>Als raunten Worte Meer und Sturm –</l>
+                     <l>
+                        <pb n="10" facs="#f0008"/> Genug der Torheit, hört auf mich:</l>
+                     <l>Zum König, wer der Heimat treu!</l>
+                  </lg>
+                  <stage>Er geht mit einigen Kriegern ab. Die Zurückbleibenden sehen unschlüssig auf Teut.
+              Dieser breitet die Arme weit gegen den Moloch und bedeckt dann mit beiden Händen
+              ehrfurchtsvoll seine Stirne.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>geheimnisvoll.</stage>
+                  <lg>
+                     <l>Senkt tiefer noch die Stirn zur Erde:</l>
+                     <l>Sehnen und Schauen sind göttliches Eins!</l>
+                     <l>Daß unser Leben geläutert werde,</l>
+                     <l>Brecht auf, ihr tiefsten Quellen des Seins!</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>mit zwingender Gewalt in Gebärde und Ausdruck.</stage>
+                  <lg>
+                     <l>Ins dunkle Leben mit den Gluten</l>
+                     <l>Gieß', »Moloch«, deine Gaben aus!</l>
+                     <l>Der Feinde Zahl muß vor dir bluten,</l>
+                     <l>Uns schütztest du im Sturmgebraus!</l>
+                  </lg>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK</speaker>
+                  <stage>fragend und murmelnd.</stage>
+                  <p>Uns schützte er im Sturmgebraus?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Ich glaub' ihn! Gibt's ein tiefer Wissen?</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Er glaubt ihn!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Ich seh' ihn! Gibt's ein höher Glück?</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Wir sehn ihn!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Er gibt aus nächt'gen Finsternissen</l>
+                     <l>Dem Leben Licht und Glut zurück!</l>
+                     <pb n="11" facs="#f0009"/>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>groß.</stage>
+                  <p>Sein ist die Macht!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Sein ist die Macht!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Es rasen Flammen</l>
+                     <l>Dem frevlen Leugner ins Gebein!</l>
+                     <l>Ihr glaubt ihn!</l>
+                  </lg>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Wir glauben ihn!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Schließt euch zusammen,</l>
+                     <l>Und Moloch segnet euer Sein!</l>
+                  </lg>
+                  <stage>Teut stürzt auf beide Kniee nieder.</stage>
+               </sp>
+               <sp who="#alle_1-4">
+                  <speaker>ALLE.</speaker>
+                  <p>Und Moloch segne unser Sein!</p>
+                  <stage>Sie folgen überwältigt dem Beispiele Teuts.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>als ob er die Menge segne.</stage>
+                  <lg>
+                     <l>Der Gnaden Fülle wird euch laben;</l>
+                     <l>Gesegnet soll der Glaube sein!</l>
+                     <l>Dem Hunger Brot, dem Durste Wein,</l>
+                     <l>Aus Hirams Hand nehmt Molochs Gaben.</l>
+                     <l>Folgt mir! Aus übervollen Händen</l>
+                     <l>Will Moloch euch den Segen spenden!</l>
+                  </lg>
+                  <stage>Alle erheben sich, mit Ausnahme Teuts und Theodas, und folgen Hiram in einer Art
+              gierigen Taumels in die Höhle.</stage>
+               </sp>
+               <sp who="#alle_1-4">
+                  <speaker>ALLE.</speaker>
+                  <p>Und Moloch segnet unser Sein!</p>
+                  <pb n="12" facs="#f0010"/>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Szene.</head>
+               <stage>Theoda, die Teuts Tun stumm und leuchtenden Blickes verfolgte, ist allen voran an
+            einem Steine niedergestürzt. Jetzt hebt sie lächelnd ihr Haupt, sieht nach Teut und ruft
+            durch die hohlen Hände, leise, gedehnt, als ob sie dem Echo zuriefe. </stage>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Teut! Teut!</p>
+                  <stage>Das Echo wiederholt den Ruf.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>erhebt sich ruhig.</stage>
+                  <lg>
+                     <l>Wer ruft mich? Welch ein Klang?</l>
+                     <l>Soll ich noch neue Wunder hören?</l>
+                  </lg>
+                  <stage>Theoda ist langsam aufgestanden und nähert sich stumm mit bittender Gebärde
+              Teut.</stage>
+                  <p>Du, Theoda? Wo kamst du her?</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>mit schalkhafter Zartheit.</stage>
+                  <lg>
+                     <l>Ich kniete</l>
+                     <l>Just neben dir, als uns dein Wort</l>
+                     <l>Zu Boden warf.</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Auf deiner Stirn</l>
+                     <l>Ein blutig Mal. Trägt Wunden denn</l>
+                     <l>Ein Weib?</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Sieh, Teut, als du hier jäh</l>
+                     <l>Vor diesem Bild zur Erde fielst,</l>
+                     <l>Mit solcher Glut im Angesicht,</l>
+                     <l>Daß mir das Flammenbild verblaßt –</l>
+                     <l>Da stürzt' ich mit dir selig nieder</l>
+                     <l>Und schlug mit meiner Stirn den Stein.</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Du knietest vor dem Gott mit mir?</p>
+                  <pb n="13" facs="#f0011"/>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Nur weil <hi rendition="#i">du</hi> knietest.</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Dies Gottes-Mal</l>
+                     <l>Trägst <hi rendition="#i">du</hi> von solcher Stunde?</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>sehr warm.</stage>
+                  <lg>
+                     <l>Oh Teut!</l>
+                     <l>Mir war's, als ob die Purpurglut,</l>
+                     <l>Die uns mit heißem Schein umleuchtet,</l>
+                     <l>Ein Blitz aus deinem Aug' entzündet –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>mit aufsteigender Wärme.</stage>
+                  <p>Ah – du bist schön!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Und ach, als ob jetzt</l>
+                     <l>Der Sonnenschein im Wald dir</l>
+                     <l>Aus den Augen bräche –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>mit ausgebreiteten Armen.</stage>
+                  <p>Theoda!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Ach Teut, wach auf, wach endlich auf!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>faßt Theoda bei einer Hand und blickt ihr tief in die Augen.</stage>
+                  <lg>
+                     <l>Aus deiner Augen Dunkel bricht</l>
+                     <l>Geheimnisvoll ein Leuchten vor,</l>
+                     <l>Wie mildes Frühlingsmorgenlicht</l>
+                     <l>Strömt's aus der Seele Sonnentor:</l>
+                     <l>Funken, die Gott entstammen,</l>
+                     <l>Lodern, das Herz zu durchflammen!</l>
+                     <l>
+                        <pb n="14" facs="#f0012"/> Oh Wunder in allen Gestalten,</l>
+                     <l>In Gotteserkennen und Liebesgewalten!</l>
+                  </lg>
+                  <stage>Er ergreift Theodas beide Hände, um sich mit ihr zum Bilde Molochs zu
+              wenden.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>macht sich aber leise los, läuft zu einem Strauche, bricht einen Blütenzweig und
+              reicht ihn Teut.</stage>
+                  <lg>
+                     <l>Die Blüte will dir Frucht verheißen;</l>
+                     <l>Komm mit mir, Teut, dich ruft das Glück!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>in aufkeimender Unruhe.</stage>
+                  <p>Ich fort von hier?</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Die Drossel lockt:</l>
+                     <l>Zu nächt'gem Jagen ziehn sie heut!</l>
+                     <l>Du lachtest, wenn ich mit dem Spieß</l>
+                     <l>Kühn mit euch Männern losgewandert</l>
+                     <l>Und flink das scheue Eichhorn traf.</l>
+                     <l>Kommst du nicht mit?</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>führt den Blütenzweig zum Antlitz.</stage>
+                  <lg>
+                     <l>Die Drossel lockt;</l>
+                     <l>Ihr Schlag ist süß und wild! Oh, schweig!</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Ich bin dein Jagdgenoss' wie sonst!</l>
+                     <l>Des Mondes Licht lockt uns zum Bach,</l>
+                     <l>Wo Rehe ziehen durch die Furt;</l>
+                     <l>Und streift ein Schreck mit Vogelflug</l>
+                     <l>Mein Haar, scheuchst du den nächt'gen Spuk –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Horch, sprach nicht wer?</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Des Meeres Rauschen</l>
+                     <l>Und der Wipfel Raunen – rings der Wald.</l>
+                     <pb n="15" facs="#f0013"/>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>In mir ein Fluten und ein Steigen –</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Ob's glückt, den Bären zu beschleichen?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Ein Hämmern nun, und heißes Würgen –</p>
+                  <stage>Er wirft den Zweig von sich.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>mit plötzlichem Ernst in erwachender Angst.</stage>
+                  <lg>
+                     <l>Zur Mutter, Teut! Dort sollst du ruhn,</l>
+                     <l>Treu wird ihr Rat dich weisen, komm!</l>
+                     <l>Komm fort! Hier droht der Wald voll Grau'n.</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Dir graut? Und hier, bei unserem Gott?</l>
+                     <l>Hat seine Glut uns nicht vereint?</l>
+                     <l>Schreckt dich das Wunder seiner Nähe?</l>
+                     <l>So fliehe ihn – und fliehe mich!</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Er ist dir fremd! Bleib du dir treu,</l>
+                     <l>Treu deines Vaters ernstem Mahnen:</l>
+                     <l>Bewahr' der Heimat Art im Herzen!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>fanatisch.</stage>
+                  <lg>
+                     <l>Hier lebe ich, hier sterbe ich!</l>
+                     <l>Dem Wundergott gehört mein Herz.</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>wendet sich von Teut ab.</stage>
+                  <lg>
+                     <l>Mein liebendes Mahnen vergebens!</l>
+                     <l>Die Warnung verweht im Wind!</l>
+                     <l>Ein Irrwahn hält dich, wildes Träumen,</l>
+                     <l>Wie sonst, wenn du aus Wolkensäumen</l>
+                     <l>Dir Bilder schufst, die schnell zerflossen.</l>
+                     <l>
+                        <pb n="16" facs="#f0014"/> So träume, Feuertrunk'ner – träume!</l>
+                     <l>Zur Ferne bist du hingerissen,</l>
+                     <l>Mich laß in meinen – Finsternissen!</l>
+                  </lg>
+                  <stage>Sie hebt den Blütenzweig vom Boden auf und eilt übermütig mit ihm davon. Teut
+              will ihr folgen, bleibt aber unschlüssig stehen, als er ihre Stimme aus dem Walde
+              erklingen hört.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Die Drossel lockt, das Eichhorn springt,</l>
+                     <l>Ich pflücke weiße, weiße Blüten;</l>
+                     <l>Und wer die hellsten Weisen singt,</l>
+                     <l>Dem will ich, will ich sie behüten!</l>
+                  </lg>
+                  <stage>Teut greift nach dem Herzen und versinkt in schmerzliches Sinnen, aus welchem er
+              bei der Wiederkehr des Volkes auffährt.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Sechste Szene.</head>
+               <stage>Hiram tritt mit allem Volke wieder auf. Einige Männer tragen lange, ungegürtete,
+            violette Gewänder und in den Händen goldene Weihgefäße; andere Schläuche mit Wein und
+            einfache Schalen; andere einen schlicht geformten Pflug auf den Schultern; die Frauen
+            rote Körbe mit Korn und Brot. Hiram besteigt die Stufen vor dem Moloch.</stage>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Vom Brote zehrt: es gibt euch Kraft!</l>
+                     <l>Die Erde schenkt euch reiche Frucht,</l>
+                     <l>Daraus wir täglich neu es schaffen.</l>
+                  </lg>
+                  <stage>Er verteilt aus den Körben Brot an gierige Hände.</stage>
+                  <lg>
+                     <l>Ein Wundertrank, der Durstesqual</l>
+                     <l>In Wonne wandelt, fließt euch hier!</l>
+                  </lg>
+                  <stage>Er gießt Wein aus einem Schlauch in ein goldenes Gefäß.</stage>
+                  <lg>
+                     <l>Trink, Teut, des Gottes Gluten strömen</l>
+                     <l>Mit diesem Tranke dir ins Blut!</l>
+                  </lg>
+                  <stage>Teut nimmt das Gefäß und trinkt.</stage>
+                  <p>Der Wein gießt Feuer dir ins Herz –</p>
+                  <stage>Wirre Stimmen, wie von einem Haufen nahenden Volkes, werden laut; Hiram hält
+              inne:</stage>
+                  <p>Wer naht!</p>
+                  <pb n="17" facs="#f0015"/>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Die Königin!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>gibt die Schale zurück.</stage>
+                  <p>Die Mutter!</p>
+               </sp>
+               <sp who="#frauen">
+                  <speaker>FRAUEN</speaker>
+                  <stage>welche der Königin voraneilen.</stage>
+                  <p>Hier ist's! Hier steht das Wunderbild!</p>
+                  <stage>Velleda, die Königin, eine erhabene Frauengestalt, schreitet langsam, wie blind
+              und seherhaft, aus dem Walde. Teut stürzt der Mutter entgegen, beugt vor ihr das Knie
+              und küßt den Saum ihres Gewandes.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Nahst du, Mutter? Göttlich Walten!</p>
+                  <stage>Velleda legt die Hand auf das Haupt ihres Sohnes. Teut erhebt sich und deutet auf
+              den Moloch.</stage>
+                  <lg>
+                     <l>Aus Traumes dämmernden Gestalten</l>
+                     <l>Stieg uns Erfüllung leuchtend nieder!</l>
+                     <l>Hier sieh, und sinke mit mir nieder!</l>
+                     <l>Der Wipfel Rauschen singt ihm Lob,</l>
+                     <l>Die Wogen brausen ihm zur Ehr',</l>
+                     <l>Des Donners Stimme sprach aus ihm:</l>
+                     <l>All Sehnen ist im Schau'n versunken,</l>
+                     <l>Und Gottes Glut hab' ich getrunken!</l>
+                  </lg>
+               </sp>
+               <sp who="#velleda">
+                  <speaker>VELLEDA</speaker>
+                  <stage>bleibt regungslos stehen.</stage>
+                  <lg>
+                     <l>Führ mich, mein Sohn! Die Schritte zagen.</l>
+                     <l>Noch seh' ich rings nur Dämmer weben.</l>
+                     <l>Hör' ich das Meer? Was raunt der Wind?</l>
+                     <l>Liegt Sonnenleuchten auf der Flut?</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>In Sturm und Wetter stieg er nieder!</p>
+               </sp>
+               <sp who="#velleda">
+                  <speaker>VELLEDA.</speaker>
+                  <lg>
+                     <l>Doch sagt sein gütig Angesicht,</l>
+                     <l>In Liebe löse sich das Leben?</l>
+                     <pb n="18" facs="#f0016"/>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Gewaltig dräut des Gottes Bild!</p>
+               </sp>
+               <sp who="#velleda">
+                  <speaker>VELLEDA.</speaker>
+                  <lg>
+                     <l>Es zieht mich nicht – es drängt zurück –</l>
+                     <l>Hemmt wilder Wind den bangen Schritt?</l>
+                     <l>In Lüften Dämpfe heißen Bluts,</l>
+                     <l>Die qualvoll das Gehirn umdüstern?</l>
+                     <l>Weh! Schlangen recken sich nach mir, –</l>
+                     <l>In schwerem Traum sah ich das Grausen –</l>
+                  </lg>
+                  <stage>Sie erkennt das Bild.</stage>
+                  <p>Wer hat dies Bild ans Land getragen?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>O, Mutter, Mutter, sieh ihn an!</p>
+               </sp>
+               <sp who="#velleda">
+                  <speaker>VELLEDA</speaker>
+                  <stage>immer erregter.</stage>
+                  <lg>
+                     <l>Starr blickt's nach mir aus schwarzen Höhlen,</l>
+                     <l>Mich friert – erwacht das Grausen?</l>
+                  </lg>
+                  <stage>Sie schreit klagend auf und bedeckt ihre Augen.</stage>
+                  <lg>
+                     <l>Vom Felsen steigt's und packt mich an –</l>
+                     <l>Ich will nicht – will nicht – laß mich – Nacht –</l>
+                     <l>In Wirbel stürz' ich – wilde See –</l>
+                  </lg>
+                  <stage>Sie richtet sich seherhaft auf.</stage>
+                  <lg>
+                     <l>Verderben kam und rings ist Tod!</l>
+                     <l>Komm, Teut!</l>
+                  </lg>
+                  <stage>Sie faßt Teut bei der Hand, stößt ihn aber plötzlich zurück.</stage>
+                  <lg>
+                     <l>Ah! grimme Pranken!</l>
+                     <l>Die wühlen reißend sich ins Fleisch –</l>
+                     <l>Welch furchtbar Bild steigt dort empor?</l>
+                  </lg>
+                  <stage>Zu Teut gewandt.</stage>
+                  <lg>
+                     <l>Du selber in des Untiers Rachen,</l>
+                     <l>Du selber – ein Opfer seiner Glut!</l>
+                     <l>Helft mir – Nacht wird's – verloren – Teut!</l>
+                  </lg>
+                  <stage>Sie verhüllt ihr Haupt und schreitet wankend in den Wald zurück. Ihre Frauen
+              folgen ihr bestürzt. Alles schweigt in Bangen.</stage>
+                  <pb n="19" facs="#f0017"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>leise, noch wie gebannt.</stage>
+                  <p>Hiram, hörtest du die Mutter?</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>kalt und hart.</stage>
+                  <p>Ihr zeigte sich der Gott im Zürnen.</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>gequält.</stage>
+                  <p>Warum?</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Weil sie im Zweifel nahte,</l>
+                     <l>Ihn formen wollt' nach ihrem Bild,</l>
+                     <l>Hat Moloch ihr den Sinn verwirrt!</l>
+                     <l>Doch, die ihn ehren, tränket er</l>
+                     <l>Mit seines Segens Purpurregen –</l>
+                     <l>Wer hemmte das Werk, das Gott euch weist?</l>
+                  </lg>
+                  <stage>Teut rafft sich mit energischer Bewegung aus seiner Versunkenheit auf.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Bringt Äxte, dort den Wald zu fällen!</l>
+                     <l>In tiefe Schatten helles Licht!</l>
+                  </lg>
+                  <stage>Er zeigt auf die Pflugschar.</stage>
+                  <lg>
+                     <l>Die Pflugschar bricht die Erde um,</l>
+                     <l>Ihr Mutterschoß empfängt die Saat –</l>
+                  </lg>
+                  <stage>Er streut Samenkörner zur Erde.</stage>
+                  <lg>
+                     <l>Und Korn und Wein wird herbstlich reifen:</l>
+                     <l>So wirkt Molochs Sonne Wunder!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>aufs neue hingerissen.</stage>
+                  <lg>
+                     <l>Ins dunkle Leben mit den Gluten</l>
+                     <l>Gießt Moloch seine Gaben aus,</l>
+                     <l>Ein Meer von Licht wird uns umfluten,</l>
+                     <l>Dem Segen weichet Not und Graus!</l>
+                     <l>Im Namen Molochs: Auf zum Werk!</l>
+                     <pb n="20" facs="#f0018"/>
+                  </lg>
+               </sp>
+               <sp who="#maenner">
+                  <speaker>MÄNNER.</speaker>
+                  <p>Im Namen Molochs, auf zum Werk!</p>
+                  <stage>Die Dämmerung ist allmählich niedergesunken.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Dem Morgen spart die große Tat!</l>
+                     <l>Der Abend sinkt, nun werft euch nieder,</l>
+                     <l>Des Mächt'gen Schutz erfleht eurem Werk,</l>
+                     <l>Weiht seiner Glut nun das erste Opfer!</l>
+                  </lg>
+                  <stage>Er steigt zu Molochs Bild empor. Teut und die als Priester gekleideten Männer
+              stellen sich auf den Stufen auf und reichen Hiram die Opfergaben. Der Moloch beginnt
+              zu glühen.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>ergreift eine Schale mit Getreidekörnern, sie Moloch weihend.</stage>
+                  <lg>
+                     <l>Moloch ist König, ist Herr der Macht,</l>
+                     <l>Herrschet von ewig glühenden Thronen.</l>
+                     <l>Sei, was uns nährt, ihm zum Opfer gebracht,</l>
+                     <l>In reifendem Segen wird er es lohnen.</l>
+                  </lg>
+                  <stage>Während das Volk den Weihegesang wiederholt, wirft Hiram das Getreide in den
+              Moloch.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>greift ein paar Tauben.</stage>
+                  <lg>
+                     <l>Moloch ist König, ist Herr der Macht,</l>
+                     <l>Leben und Tod beherrschet sein Wille,</l>
+                     <l>Sei, was wir lieben, zum Opfer gebracht,</l>
+                     <l>Daß seine Glut nur das Herz uns erfülle!</l>
+                  </lg>
+                  <stage>Während das Volk den Gesang aufnimmt, opfert Hiram die Tauben.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>während ihm ein Widder zugeführt wird.</stage>
+                  <lg>
+                     <l>Moloch ist König, ist Herr der Welt,</l>
+                     <l>Lenkt die Gestirne, gebietet der Sonne!</l>
+                     <l>Sei, wer ihm feind, gleich dem Widder gefällt!</l>
+                     <l>Herr! mach' uns schauern in Glauben und Wonne</l>
+                  </lg>
+                  <stage>Das Volk stimmt ein, der Widder fällt von Hirams Dolchstoß. Alle stürzen auf die
+              Knie, der Moloch, vom Rauch umwirbelt, erglüht zum ersten Male in ganzer
+              Gestalt.</stage>
+                  <pb n="21" facs="#f0019"/>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Aufzug.</head>
+            <stage>Die erste Rodung im Urwald. Moosiger, sanft ansteigender Waldgrund dehnt sich gegen
+          eine Bucht. Jenseits derselben, im Hintergrunde, ist eine bewaldete Halbinsel sichtbar,
+          auf deren klippenstarren Ende der Moloch scharf umrissen gegen den Horizont steht. Hier
+          und dort gefällte Bäume mit wirrem Astwerk; im Mittelgrunde, etwas links, eine uralte Eibe
+          mit rotbraunem Stamm und tiefgrünen, seltsamen Ästen; von den Zweigen hängt langes, weißes
+          Moos zur Erde. Rechts ein mit Schilf umgebener Quell.</stage>
+            <div>
+               <head>Erste Szene.</head>
+               <stage>Theoda steht im Hintergrunde auf einer Erhebung und späht, die Hand vor den Augen,
+            im grellen Sonnenlicht nach der Seite. Da sie Schritte nahen hört, verbirgt sie sich
+            hinter einem Busche. Wolf kommt hastig von vorne rechts.</stage>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Noch steht die heil'ge Königseibe!</l>
+                     <l>Doch weh –! Von rasendem Orkan</l>
+                     <l>Die Bäume, ferner Tage Zeugen,</l>
+                     <l>Die treue Wacht um sie gehalten,</l>
+                     <l>Gleich greisen Helden hingefällt!</l>
+                     <l>Der Erde heil'ger Mutterboden</l>
+                     <l>Ruchlos vom Eisen aufgerissen!</l>
+                     <l>Aus dunklen Wunden strömt ihr Atem,</l>
+                     <l>Und klagt um Rache wider Teut.</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>tritt vor.</stage>
+                  <p>Du, Wolf, zurück?</p>
+                  <pb n="22" facs="#f0020"/>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Sag, sahst du Teut?</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Vom Hügel dort späht' ich nach ihm;</l>
+                     <l>Zu neuer Tat führt er das Volk.</l>
+                     <l>In weitem Bogen streuen sie</l>
+                     <l>In offne Erde gelbes Korn.</l>
+                     <l>Mit Hand und Mund grüßt Teut die Sonne,</l>
+                     <l>Wirft Vögeln lachend Körner zu.</l>
+                     <l>Und hold umkreist von ihrer Schar,</l>
+                     <l>Schreitet er jauchzend in den Morgen,</l>
+                     <l>Und jauchzend folgt zum Werk das Volk.</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Teut! Mit seinem Kinderlachen</l>
+                     <l>Vergiftet er das ganze Volk!</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Er geht so sicher, fand so viel,</l>
+                     <l>Was wir in Träumen nicht geahnt. –</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Du bist vergafft!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Du liebst ihn nicht!</l>
+                     <l>Zum Heil führt er vielleicht noch alles.</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Zum Heil? O Heimat, heil'ge Heimat!</l>
+                     <l>In Not und Schande schreit sie auf,</l>
+                     <l>Dem fremden Unhold ausgeliefert!</l>
+                     <l>Was wär' der Fremdling ohne Teut?</l>
+                     <l>Was seines Gottes glühend Drohen?</l>
+                     <l>Teut heißt der Frevler, den wir –</l>
+                  </lg>
+                  <stage>Er führt mit der Faust einen Schlag durch die Luft.</stage>
+                  <pb n="23" facs="#f0021"/>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Nicht du, der König nur darf richten!</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Er kommt. Hier fällt der Richterspruch.</l>
+                     <l>Er kann nur lauten: Todeswürdig –</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Wolf, halt ein!</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>– und todverfallen!</p>
+                  <stage>Theoda klammert sich bittend und beschwörend an Wolf, der sie rauh von sich
+              schüttelt.</stage>
+                  <lg>
+                     <l>Er übt Verrat – Verräter sterben,</l>
+                     <l>Wie Feiglinge, erstickt im Moor!</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>schreit auf und wendet sich heftig zu Wolf.</stage>
+                  <lg>
+                     <l>Erstick du selbst am grimmen Haß,</l>
+                     <l>Der dich dein halbes Leben würgt!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF</speaker>
+                  <stage>mit Größe.</stage>
+                  <p>Treulos ist Teut! Drum hass' ich ihn.</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Ein Leuchten seines trunknen Auges</l>
+                     <l>Wiegt dich samt deiner Treue auf!</l>
+                  </lg>
+                  <stage>Sie eilt davon.</stage>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Zeit ist's König, ihn zu richten!</p>
+                  <stage>Gemessen schreitet er in den Wald nach rechts.</stage>
+                  <pb n="24" facs="#f0022"/>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene.</head>
+               <stage>Von der Feldarbeit kommend, treten Hiram und Volk im Hintergrunde links auf. Als
+            Letzter erscheint Teut in lebhafter Bewegung.</stage>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Trinkt Labung euch, und ruhet hier!</p>
+                  <stage>Einzelne schöpfen Wasser mit der hohlen Hand aus der Quelle; alle lassen sich zur
+              Rast nieder; Hiram und Teut sitzen etwas erhöht auf einem gefällten Stamme.</stage>
+                  <lg>
+                     <l>Der Arbeit Lohn ist Erntelust.</l>
+                     <l>Heut sprach der Gott ein neues »Werde«.</l>
+                     <l>Gleich Milch in einer Mutterbrust</l>
+                     <l>Schwellt frischer Saft die alte Erde.</l>
+                     <l>Euch wird der Herbst ein Fest bereiten,</l>
+                     <l>Und eure Heimat wird sich weiten:</l>
+                     <l>Dann werdet ihr, das Meer zu knechten,</l>
+                     <l>Statt Flößen schnelle Schiffe bauen,</l>
+                     <l>In Hütten euch bei Frost und Nächten</l>
+                     <l>Des Feuers heil'ger Glut vertrauen.</l>
+                     <l>Zum Dank den segnenden Gewalten</l>
+                     <l>Soll Teut für euch die Hand mir reichen –</l>
+                  </lg>
+                  <stage>Hiram erhebt sich feierlich; Teut folgt seinem </stage>
+                  <stage>Beispiele.</stage>
+                  <lg>
+                     <l>So schwörst du, Moloch Treu' zu halten,</l>
+                     <l>Der König ist ob allen Reichen?</l>
+                  </lg>
+                  <stage>Teut legt beide Hände zum Schwur in die Hirams und blickt ihm voll und sicher in
+              die Augen. Alle haben in steigender Ehrfurcht gelauscht. Teut tritt träumerisch etwas
+              vor, beginnt leise und leise fällt das Volk ein.</stage>
+               </sp>
+               <sp who="#teut #volk">
+                  <speaker>TEUT UND VOLK.</speaker>
+                  <lg>
+                     <l>Moloch ist König, ist Herr des Seins;</l>
+                     <l>Ihm weih' das Herz ich, ihm meine Stärke:</l>
+                     <l>Sehnen und Schauen sind göttliches Eins.</l>
+                     <l>Mich stählt der Glaube zu höchstem Werke.</l>
+                     <pb n="25" facs="#f0023"/>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Nun greift die Äxte, frisch ans Werk!</p>
+                  <stage>Er deutet auf die Eibe.</stage>
+                  <lg>
+                     <l>Aus dieses Stammes rotem Holz</l>
+                     <l>Werden den ersten Kiel wir bilden.</l>
+                  </lg>
+                  <stage>Alle erheben sich unruhig.</stage>
+               </sp>
+               <sp who="#einzelne_maenner">
+                  <speaker>EINZELNE MÄNNER.</speaker>
+                  <p>Die Eibe?</p>
+               </sp>
+               <sp who="#frauen">
+                  <speaker>FRAUEN.</speaker>
+                  <p>Sie ist heilig.</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Wem?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Der Heimat Atem lebt in ihr,</l>
+                     <l>Geheimnis wohnt in ihren Zweigen;</l>
+                     <l>In hellen Nächten schritten wir,</l>
+                     <l>Dem Lenz zum Gruß, um sie im Reigen.</l>
+                     <l>Hier fiel des Königs Richterspruch,</l>
+                     <l>Hier klang der Mutter Lied –</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Genug!</l>
+                     <l>Im Sturm wird Moloch zürnend grollen</l>
+                     <l>Dem, der nicht ihn allein verehrt!</l>
+                     <l>Wer ihn zu hören einst begehrt,</l>
+                     <l>Der kann nicht andern dienen wollen!</l>
+                  </lg>
+                  <stage>Teut schweigt betroffen. Hiram ergreift eine Axt.</stage>
+                  <lg>
+                     <l>So heb' ich selbst zum Streich die Axt!</l>
+                     <l>Wer will mir wehren?</l>
+                     <pb n="26" facs="#f0024"/>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene.</head>
+               <sp who="#krieger">
+                  <speaker>KRIEGER</speaker>
+                  <stage>treten von rechts auf.</stage>
+                  <p>Der König naht!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Der König!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Mein Vater!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>schlägt die Axt in den Stamm der Eibe.</stage>
+                  <lg>
+                     <l>Die Eibe fällt!</l>
+                  </lg>
+                  <stage>Der König, seine Zeltgenossenschaft und Theoda treten von rechts auf. Teut eilt
+              dem Vater entgegen. Der König aber weist ihn mit der Hand von sich und drängt sich mit
+              den Seinen wie ein Keil zwischen Hiram und die Eibe, so die Molochdiener in zwei
+              Hälften teilend. Teut kommt links, Hiram rechts vom König vor die Krieger zu stehen,
+              welche den Mittelgrund einnehmen. Theoda bleibt nahe beim König, welcher mit
+              verhaltenem Grimm unter die Eibe tritt.</stage>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Die heil'ge Eibe schützt mein Arm. –</l>
+                     <l>Gericht zu halten kam ich her.</l>
+                     <l>In fernen Gau rief mich die Pflicht,</l>
+                     <l>Zur Heimkehr grüßt mich Hochverrat!</l>
+                     <l>Fühlt ihr im Hirn den Schrecken hämmern,</l>
+                     <l>Folgt ihr verblendet jedem Toren.</l>
+                     <l>Ein Unhold, hör' ich', stieg ins Land</l>
+                     <l>Aus eines Narren Kinderträumen – –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Kein Trugbild, Vater! Schau und glaube!</l>
+                     <l>Dort sieh den Gott auf Felsen thronen!</l>
+                     <pb n="27" facs="#f0025"/>
+                  </lg>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG</speaker>
+                  <stage>immer verhalten.</stage>
+                  <lg>
+                     <l>Im Aufruhr wider mich mein Sohn!</l>
+                     <l>Leg ab die Waffe, Teut, tritt her!</l>
+                  </lg>
+                  <stage>Teut bleibt ruhig stehen und legt die Hand aufs Schwert.</stage>
+                  <p>Was soll's? Du trägst ein fremdes Schwert?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>düster.</stage>
+                  <p>Zu Molochs Schutz ist mir's verliehen.</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Nur Vaterhand leiht Söhnen Wehr.</l>
+                     <l>Zu meinen Füßen leg es nieder.</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>In heil'ger Pflicht führ' ich es heut:</l>
+                     <l>Dein Schwert mußt du dem Gotte weihen!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG</speaker>
+                  <stage>den Zorn noch meisternd.</stage>
+                  <lg>
+                     <l>Mein Schwert? Dies Schwert, ha, tör'ger Jüngling!</l>
+                     <l>Weißt du, woher es stammt? Im Tod</l>
+                     <l>Hielt es mein Vater noch umklammert;</l>
+                     <l>Aufbrechen mußt' ich seine Faust –</l>
+                     <l>Dies Schwert, als höchstes Eigen mein,</l>
+                     <l>Ich sollt' es – sollt' es hier – – ha, ha!</l>
+                  </lg>
+                  <stage>Er stößt das Schwert, das er halb gezogen, grimmig in die Scheide zurück.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>tritt auf den König zu.</stage>
+                  <p>Moloch gebietet, gib dein Schwert!</p>
+                  <pb n="28" facs="#f0026"/>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Du also hast aus dunkler Fremde</l>
+                     <l>Ein Ungetüm ins Land geschleppt,</l>
+                     <l>Das Menschen bannt. Hier bin ich Herr –</l>
+                  </lg>
+                  <stage>Er zieht das Schwert. Hiram zückt wie zur Wehr seinen Dolch; aus hocherhobener
+              Hand aber läßt er plötzlich die Waffe fallen und breitet die Arme zum Himmel.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Hier gibt es keinen König mehr!</l>
+                     <l>In eigner Kraft und Majestät</l>
+                     <l>Erschien der Herr, und er allein –</l>
+                  </lg>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG</speaker>
+                  <stage>der verwundert innegehalten.</stage>
+                  <p>Solch Unkraut rott' ich aus. Da nimm!</p>
+                  <stage>Er dringt auf Hiram ein. In diesem Augenblicke wirft sich Teut zwischen Hiram und
+              den Vater.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Vater!</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <p>Nun!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Erst mir den Tod!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Teut, muß ich dein Ende sehen?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>zieht sein Schwert.</stage>
+                  <p>Mein Leben eher als das seine!</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG</speaker>
+                  <stage>in maßlosen Zorn ausbrechend.</stage>
+                  <lg>
+                     <l>Was sagt ihr? Seht ihr diesen Sohn?</l>
+                     <l>Ins Feuer starrt er, bis er toll</l>
+                     <l>
+                        <pb n="29" facs="#f0027"/> Von seiner Mutter wirren Sagen –</l>
+                     <l>Das ist die Frucht der Winternächte,</l>
+                     <l>Die er mit seiner Mutter saß.</l>
+                     <l>Mein eigen Blut steht da vor mir,</l>
+                     <l>Empört, voll Trotz, mit blankem Schwert,</l>
+                     <l>Das lehrte ihn sein Gott!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>dessen Trotz tiefer Trauer zu weichen scheint.</stage>
+                  <lg>
+                     <l>Nein, nein!</l>
+                     <l>Das lehrt er nicht! – ich komme – seht!</l>
+                     <l>Die Füße küss' ich dir – mein Vater!</l>
+                  </lg>
+                  <stage>Er sinkt zu seines Vaters Füßen, doch ohne das Schwert von sich zu legen. Hiram
+              blickt starr auf Teut.</stage>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Was soll's? Erst drohn, dann knien?</l>
+                     <l>Unwürd'ger Tat unwürd'ge Buße!</l>
+                     <l>Wer küßt die Füße? Knechte nur!</l>
+                  </lg>
+                  <stage>Teut zuckt zusammen.</stage>
+                  <lg>
+                     <l>Erheb dich denn und zück' das Schwert.</l>
+                     <l>Das dir der arge Fremdling gab,</l>
+                     <l>Durchbohr ihn, stürz' ihn ins Meer – –</l>
+                  </lg>
+                  <stage>Teut, noch kniend, blickt auf; sein Auge trifft Hirams Blick.</stage>
+                  <lg>
+                     <l>Ins Totental dann schließe dich</l>
+                     <l>Mit deinem Hunger ein und harre,</l>
+                     <l>Ob sich ein Tier –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>erhebt sich jäh und beginnt stockend.</stage>
+                  <lg>
+                     <l>Wohl küßt' ich</l>
+                     <l>Die Füße dir, doch nicht – aus Reu'!</l>
+                     <l>In Qual und Angst, für dich und mich,</l>
+                     <l>Hemmte den Arm mir heil'ge Scheu.</l>
+                     <l>Denn träf' ich dich, für alle Zeit</l>
+                     <l>Wär' starr mein Herz in stummem Harm –</l>
+                  </lg>
+                  <stage>Er erhebt das Schwert.</stage>
+                  <lg>
+                     <l>
+                        <pb n="30" facs="#f0028"/> Drum sieh mich flehn aus tiefster Not:</l>
+                     <l>Rette dich selbst – diene dem Gott!</l>
+                  </lg>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Sprichst du, als läge ich schon hier?</l>
+                     <l>Verflucht die Stund', da ich dich zeugte!</l>
+                     <l>Ihr alle merkt, der König richtet!</l>
+                  </lg>
+                  <stage>Die Schwerter kreuzen sich. Theoda stürzt sich zwischen die beiden, umfaßt Teuts
+              Kniee und drängt ihn nach rückwärts.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>sehr rasch, erregt und aufs äußerste angespannt.</stage>
+                  <p>Teut, liebst du mich? Wirf fort das Schwert!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>ebenso.</stage>
+                  <p>Was redest du?</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Ich liebe dich,</l>
+                     <l>Ich kann dich so nicht stehen sehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Was willst du mir? Ich kenn' dich kaum!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Du kennst mich kaum?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Ei, biete du</l>
+                     <l>Doch Blütenzweige wem du willst!</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>in wilder Scham.</stage>
+                  <p>Dir gab ich nie –</p>
+                  <pb n="31" facs="#f0029"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Doch, einst im Wahn</l>
+                     <l>Griff ich danach.</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Den nächsten Tag</l>
+                     <l>Hatt' ich's vergessen!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Ich noch denselben!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>springt jählings auf.</stage>
+                  <p>Verlorner du!</p>
+                  <stage>Zum Vater.</stage>
+                  <lg>
+                     <l>Gib ihm den Tod!</l>
+                     <l>Den Tod! Nichts andres ist er wert!</l>
+                  </lg>
+                  <stage>Teut steht bei dieser Verwünschung einen Augenblick unschlüssig.</stage>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <p>Nun? Feig?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>wie von einer Natter gestochen.</stage>
+                  <lg>
+                     <l>Feig!? Dies Wort für mich?</l>
+                     <l>Feig!?</l>
+                  </lg>
+                  <stage>Er schlägt sich selbst.</stage>
+                  <lg>
+                     <l>Ein Hase? Ha, ein Hund,</l>
+                     <l>Wer dies erträgt! Du bist mein Feind,</l>
+                     <l>Mein einzger Feind! Komm an! – Doch nein –</l>
+                     <l>Nicht so!</l>
+                  </lg>
+                  <stage>Er wirft sein Schwert von sich.</stage>
+                  <lg>
+                     <l>Wer dieses Wort vernimmt,</l>
+                     <l>Dem wachsen Krallen, jedes Haar</l>
+                     <l>Sträubt sich zum starren Spieß,</l>
+                     <l>Daß er auch waffenlos noch siegt.</l>
+                     <pb n="32" facs="#f0030"/>
+                  </lg>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <p>Auch dies ist Schmach!</p>
+                  <stage>Er wirft gleichfalls sein Schwert von sich.</stage>
+                  <lg>
+                     <l>Jetzt komm –</l>
+                     <l>Die Natter will ich so erwürgen!</l>
+                  </lg>
+                  <stage>Sie fahren aufeinander los und ringen. Die Krieger bilden mit gehobenen
+              Streitäxten einen Halbkreis um sie.</stage>
+               </sp>
+               <sp who="#hiram #volk">
+                  <speaker>HIRAM UND VOLK.</speaker>
+                  <lg>
+                     <l>Moloch, Moloch, segne ihn,</l>
+                     <l>Moloch, Moloch, stärke ihn!</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Für Teut den Tod!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Wer siegt, hat recht!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>im Ringen.</stage>
+                  <p>Der andre beugt sich!</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <p>Wenn er lebt!</p>
+               </sp>
+               <sp who="#alles_2-3">
+                  <speaker>ALLES.</speaker>
+                  <p>Der König fällt!</p>
+               </sp>
+               <sp who="#wolf #theoda">
+                  <speaker>WOLF UND THEODA.</speaker>
+                  <p>Muß ich das sehen? Weh!</p>
+                  <stage>Die Krieger senken die Äxte.</stage>
+               </sp>
+               <sp who="#hiram #volk">
+                  <speaker>HIRAM UND VOLK.</speaker>
+                  <p>Sieg! Heil! Moloch! Weh!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>das Knie noch auf des Vaters Brust.</stage>
+                  <p>Du liegst!</p>
+                  <pb n="33" facs="#f0031"/>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG</speaker>
+                  <stage>wie sterbend.</stage>
+                  <p>Wer liegt, den tötet man.</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>springt entsetzt empor.</stage>
+                  <p>Mein Vater liegt –! Was nun? – Das Schwert!</p>
+                  <stage>Er nimmt das Königsschwert auf; gefaßt:</stage>
+                  <p>Nun wird es ruhn, zu Molochs Füßen!</p>
+                  <stage>Er tritt zu Hiram. Wolf und Theoda mühen sich um den König.</stage>
+                  <stage>Theoda, Teut, Hiram, Wolf und das Volk gleichzeitig.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Herr, stirb nicht, wache, stehe auf!</l>
+                     <l>Noch ist die Heimat nicht verloren!</l>
+                     <l>Hast du gesiegt in mancher Schlacht,</l>
+                     <l>Und gäbst du so dein Recht verloren?</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Das Gottesreich steigt nun herauf.</l>
+                     <l>Zu schwerer Tat ward ich erkoren.</l>
+                     <l>Herr, nimm mich auf in deine Macht!</l>
+                     <l>Vergessen laß mich, was verloren!</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Nun richt' ich meine Herrschaft auf!</l>
+                     <l>Zum Siege ist dies Volk geboren.</l>
+                     <l>Gen Süden braust die wilde Macht,</l>
+                     <l>Die Rache siegt vor Romas Toren.</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Nimm, Unheil, deinen Schreckenslauf!</l>
+                     <l>Der Tod sei Teut nun zugeschworen!</l>
+                     <l>Mich lebend beugen fremder Macht?</l>
+                     <l>Frei sterb' ich, wie ich frei geboren!</l>
+                     <pb n="34" facs="#f0032"/>
+                  </lg>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <lg>
+                     <l>Dem Rechte gibt der Sieg den Lauf.</l>
+                     <l>Der König hat den Kampf verloren.</l>
+                     <l>Teut hält das Schwert und hat die Macht,</l>
+                     <l>Zur Herrschaft ist er auserkoren.</l>
+                  </lg>
+                  <stage>Der König erwacht aus seiner Ohnmacht. Alle verstummen und sehen gespannt auf
+              ihn.</stage>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <p>Wo bin ich?</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Steh auf!</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <p>So lieg' ich?</p>
+                  <stage>Er richtet sich etwas auf.</stage>
+                  <lg>
+                     <l>Ist denn die Nacht schon da? Doch nein,</l>
+                     <l>Noch ist es hell – mein Kopf ist heiß –</l>
+                  </lg>
+                  <stage>Zu Theoda.</stage>
+                  <p>Kennst du das auch? Das ist – wie Schmerz!</p>
+                  <stage>Er befühlt sich das Haupt.</stage>
+                  <lg>
+                     <l>Doch Schmerz, woher? – Gibt's Schmerzen</l>
+                     <l>Ohne Wunden? Eine Wunde!</l>
+                     <l>Ah, – schlagt mir eine mit der Axt!</l>
+                     <l>Ich brauche eine Wunde!</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Herr!</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>War das ein Tier, das mich geworfen?</l>
+                     <l>Wenn das ein Tier tat – fürchterlich!</l>
+                  </lg>
+                  <stage>Er fährt sich über die Stirn.</stage>
+                  <lg>
+                     <l>
+                        <pb n="35" facs="#f0033"/> Weg, weg! Auf, jagen wir's!</l>
+                     <l>Sogleich! Wenn sich dies Tier vermehrt,</l>
+                     <l>Vertilgt's uns alle – –</l>
+                  </lg>
+                  <stage>Er springt auf.</stage>
+                  <lg>
+                     <l>Folgt mir nach!</l>
+                     <l>Mein Schwert – wer hat mein Schwert?</l>
+                  </lg>
+                  <stage>Er wendet sich und gewahrt Teut.</stage>
+                  <p>Du?!</p>
+                  <stage>Er bricht furchtbar aus:</stage>
+                  <p>Ha, besiegt von meinem Sohn!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Von unserm Gott besiegt durch Teut.</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Dem Rechte gibt der Sieg den Lauf!</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>So fallt ihr alle ab? – Und ich? – –</l>
+                     <l>Seit wann steht der Besiegte auf?</l>
+                  </lg>
+                  <stage>Er wendet sich zu Teut.</stage>
+                  <p>Nein! – töte mich, du Held!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>mit Ernst und edler Ruhe.</stage>
+                  <lg>
+                     <l>Zieh hin!</l>
+                     <l>Was mir geboten, ist vollbracht:</l>
+                     <l>Das Königsschwert in Gottes Macht.</l>
+                     <l>Schilt nur – stumm trag' ich Schimpf und Hohn,</l>
+                     <l>Dein Haupt ist heilig deinem Sohn.</l>
+                  </lg>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Fehlt dir der Mut? – – – Im Totental</l>
+                     <l>Scheid' ich vom Lichte mich –</l>
+                  </lg>
+               </sp>
+               <sp who="#wolf #theoda">
+                  <speaker>WOLF UND THEODA.</speaker>
+                  <p>Und wir?</p>
+                  <pb n="36" facs="#f0034"/>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Doch aus der Höhle nächt'ger Qual</l>
+                     <l>Schreit' ich zur Rache einst an dir!</l>
+                     <l>Mein Wehrgehenk, Wolf, wahr du treu!</l>
+                     <l>Bei solchem Sieg wohnt nicht das Recht!</l>
+                  </lg>
+                  <stage>Zu Teut:</stage>
+                  <lg>
+                     <l>Du rufst mich selbst! Weh deiner Reu'!</l>
+                     <l>Du Sieger? Nein – des Fremdlings Knecht!</l>
+                  </lg>
+                  <stage>Er will gehen. Da stürzt sich Theoda vor ihm auf die Kniee.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Nimm mich mit dir!</p>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG</speaker>
+                  <stage>er will ihr wehren; dann aber übermannt es ihn, er neigt sich zu Theoda und küßt
+              sie auf die Stirne.</stage>
+                  <p>Komm! – Du bist echt!</p>
+                  <stage>Er erhebt Theoda und schreitet ungebeugten Hauptes davon, mit dem Blicke noch
+              Teut bedrohend, welcher in schmerzlichster Bewegung die Linke auf sein Herz
+              preßt.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>tritt voller Entrüstung hart an Teut heran.</stage>
+                  <lg>
+                     <l>Und wirklich, Teut, du läßt ihn ziehn?</l>
+                     <l>Den Vater gibst du preis der Not?</l>
+                     <l>Hör mich! Vor Hunger schütz' ich ihn,</l>
+                     <l>Bewahre ihn vor sichrem Tod;</l>
+                     <l>Doch dir sei Frieden nun verwehrt,</l>
+                     <l>Sei von Erinnerungsqual verzehrt,</l>
+                     <l>Du Unhold du!</l>
+                  </lg>
+                  <stage>Sie will schluchzend abgehen, wendet sich aber nochmals zurück.</stage>
+                  <lg>
+                     <l>Hör', lächelt je</l>
+                     <l>Ein Mädchen deinen Augen zu,</l>
+                     <l>Vergafft in langgelocktes Haar,</l>
+                     <l>– So töt' ich sie! –</l>
+                     <l>Denn unser aller Feind bist du!</l>
+                  </lg>
+                  <stage>Sie eilt dem Könige nach. Wolf folgt ihr.</stage>
+                  <pb n="37" facs="#f0035"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>steht eine Weile stumm, dann ringt es sich leise und gequält von seinen
+              Lippen.</stage>
+                  <lg>
+                     <l>Das Schwert wird heiß und schwer;</l>
+                     <l>Es glüht in meinen schwachen Händen.</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>tritt mit herrischer Größe und Kraft in die Mitte.</stage>
+                  <lg>
+                     <l>Zu Molochs Füßen trag es hin!</l>
+                     <l>Schwert und Gewalt gebührt nur ihm,</l>
+                     <l>Gesetz und Ordnung schafft nur Er!</l>
+                     <l>So höret heut sein erst' Gebot:</l>
+                  </lg>
+                  <stage>Er tritt unter die Eibe und weist mit bedeutsamer Bewegung nach dem Bilde Molochs
+              auf der Halbinsel.</stage>
+                  <lg>
+                     <l>Ein Wall umfriede dort den Hain!</l>
+                     <l>Denn heilig ist er, euch verschlossen!</l>
+                     <l>Am Tag nur naht ihm ehrfurchtscheu,</l>
+                     <l>Vor Molochs Wunderbild zu opfern.</l>
+                     <l>Doch, höret, nachts, da flieht ihn weit!</l>
+                     <l>Die Brandung brüllt, der Sturmwind stöhnt,</l>
+                     <l>Im Donner spricht der Herr zu mir!</l>
+                     <l>Wer da den Hain beträte, ihm</l>
+                     <l>Brächte Tod der erste Schritt – –!</l>
+                     <l>Wie Er's gebeut, im Feierzug,</l>
+                     <l>Bringt jetzt das Königsschwert ihm dar!</l>
+                     <l>Singt heilig Moloch, Moloch heilig!</l>
+                  </lg>
+                  <stage>Das Volk ordnet sich zum Zuge. Teut an seiner Spitze, das Schwert auf beiden
+              Händen tragend, als ob er es dem Gotte darbrächte.</stage>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <lg>
+                     <l>Heilig ist Moloch, der Herr des Schwerts!</l>
+                     <l>Heilig ist Moloch, der Herr des Hains,</l>
+                     <l>Heilig ist Moloch, der Herr der Welt!</l>
+                  </lg>
+                  <stage>In feierlicher Bewegung ziehen sie dem Haine zu.</stage>
+                  <pb n="38" facs="#f0036"/>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene.</head>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>allein, ergreift das noch am Boden liegende Schwert Teuts und schwingt es in
+              wildem Triumphe.</stage>
+                  <lg>
+                     <l>Jetzt bin ich Herr! Das ist so viel,</l>
+                     <l>Als ob das Blut, das Tausenden</l>
+                     <l>Die Adern schwellt, in meine eigenen</l>
+                     <l>Sich gösse und die Riesenkraft,</l>
+                     <l>Die sie durchglüht, in meine Brust</l>
+                     <l>Hinüberströmte, wie wilde Flüsse</l>
+                     <l>Ins stille Meer.</l>
+                  </lg>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK</speaker>
+                  <stage>von ferne.</stage>
+                  <p>Heilig Moloch!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Unsterblich nicht, doch stark genug,</l>
+                     <l>Die rohe Kraft zum Ziel zu lenken,</l>
+                     <l>Will ich des Südens Zauberbild</l>
+                     <l>Als Lockung in Teuts Seele senken:</l>
+                     <l>Ein Bergstrom wälzt sich gegen Rom!</l>
+                  </lg>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK</speaker>
+                  <stage>wie vorhin.</stage>
+                  <p>Moloch ist König, ist Herr der Welt!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>So siegt die Rache ob dem Tod!</l>
+                     <l>Denn, was ich will, mit tausend Armen</l>
+                     <l>Führt es für mich ein Jüngling aus!</l>
+                     <l>Dies Götterart, – wenn's Götter gäbe!</l>
+                     <l>Verwaist ihr Thron – es herrscht mein Wille:</l>
+                     <l>Ich habe das Gesetz gestellt,</l>
+                     <l>Zu meinen Füßen liegt die Welt!</l>
+                  </lg>
+                  <stage>Er steht gleichsam verzückt. – Da ertönt, noch von außen, Teuts Schreckensruf in
+              langgezogenen Lauten.</stage>
+                  <pb n="39" facs="#f0037"/>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Szene.</head>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Moloch, Moloch!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Wer stöhnt? Wer klagt?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>stürzt, wie von Entsetzen gepeitscht, herein.</stage>
+                  <p>Moloch, Moloch!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Was ist? Teut!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>In meinem Nacken sitzt der Tod –</p>
+                  <stage>Er schüttelt wild das Haupt.</stage>
+                  <p>Entsetzen peitscht mich! – Fort, hinweg!</p>
+                  <stage>Hiram legt seine Hand auf Teuts Schulter; Teut stößt ihn zurück.</stage>
+                  <lg>
+                     <l>Grabt, Nägel, euch in diese Brust,</l>
+                     <l>Wühlt euch ins Fleisch, reißt auf das Herz!</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Was gab's?</p>
+                  <stage>Teut faßt Hiram bei den Schultern und starrt ihn an.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Will das dein grimmer Gott?</l>
+                     <l>Muß, was zur Wonn' uns lebt, ihm sterben?</l>
+                     <l>Ist töten Gottes erste Tat?</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Was soll's?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Wann sahst du je ein Weib</l>
+                     <l>Vom Felsen in das Meer sich stürzen?</l>
+                     <l>Die Mutter tat's! Und ich steh' hier!</l>
+                     <l>Hörst du? Ich stürzte ihr nicht nach!</l>
+                     <l>
+                        <pb n="40" facs="#f0038"/> Des Vaters Schwert sieht sie mich bringen,</l>
+                     <l>Und »Moloch, Moloch«, schreit sie auf,</l>
+                     <l>Stürzt sich hinab – ah –</l>
+                  </lg>
+                  <stage>Er starrt vor sich hin als ob er das Bild der Mutter sähe; dann schreit er
+              auf:</stage>
+                  <p>Moloch! Moloch!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>mit zwingender Kraft.</stage>
+                  <lg>
+                     <l>Gelöst bist du von allen Banden,</l>
+                     <l>Die sich um deine Seele wanden!</l>
+                     <l>Wir alle müssen Moloch opfern,</l>
+                     <l>Hätt' ich ein Kind, ich gäb' es hin –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>schreit wie in Verzweiflung.</stage>
+                  <p>Moloch! Moloch!</p>
+                  <stage>Man hört von außen das Volk fanatisch</stage>
+                  <p>»Moloch, Moloch«</p>
+                  <stage>rufen. Hiram faßt Teut wild am Herzen und zieht den Taumelnden in den
+              Vordergrund.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Werd kalt und hart in Not und Graus!</l>
+                     <l>Das Herz ist ein Geschwür vom Weib her –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>stöhnt auf.</stage>
+                  <p>Moloch!</p>
+                  <stage>Man hört die »Moloch«-Rufe des Volkes näher.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Moloch – brenn es aus!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>indem er zu Hirams Füßen sinkt.</stage>
+                  <p>Moloch – Moloch – brenn es aus!</p>
+                  <stage>Das Volk stürzt fanatisch herein. Hiram weist gebieterisch auf die Eibe. Die
+              Männer beginnen unter Tumult und wilden Rufen den Stamm zu fällen.</stage>
+                  <pb n="41" facs="#f0039"/>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Dritter Aufzug.</head>
+            <stage>Vor dem Todeshaine. Die niedere Umwallung desselben zieht sich, aus Felsenstücken roh
+          gefügt, vom Vordergrunde rechts, wo sie sich zu einem Torbogen erhebt, schräg nach
+          rückwärts bis zum Strande. Jenseits der Mauer finsterer Hochwald. Der Mittelgrund dehnt
+          sich flach gegen die tiefblaue See. Dort liegen in der Bucht eine Reihe rohgezimmerter
+          Schiffe zur Ausfahrt bereit.</stage>
+            <stage>Links gegen den Hintergrund erheben sich steile Klippen.</stage>
+            <stage>Heller Nachmittag; klare, sonnige Herbststimmung.</stage>
+            <div>
+               <head>Erste Szene.</head>
+               <stage>Das erste Erntefest: Männer und Frauen schichten schwere Garben im Mittelgrunde zu
+            hauf, kränzen sie mit Gewinden von Feldblumen und krönen den Aufbau mit
+            früchtebehangenen Zweigen. Erntelust und Erntejubel bewegen jung und alt. Lachende
+            Kinder schicken sich zu einem Reigen um die Garben an.</stage>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <lg>
+                     <l>Es klingen die Sicheln, es tönt unser Sang,</l>
+                     <l>Reicht euch die Hände, schreitet zu zweien!</l>
+                     <l>Die Schnitter jauchzen den Berg entlang,</l>
+                     <l>Erntetag, Erntetanz! Schlinget den Reihen!</l>
+                  </lg>
+                  <stage>Der Reigen der Kinder hat begonnen. Junge Mädchen und Frauen nehmen ihn anmutig
+              auf, bilden einen zweiten Ring um die Garben und singen:</stage>
+               </sp>
+               <sp who="#frauen">
+                  <speaker>FRAUEN.</speaker>
+                  <lg>
+                     <l>Schaffende Erde, fruchtbarer Schoß,</l>
+                     <l>In Wunden und Schweigen hast du empfangen;</l>
+                     <l>Vom Taue genährt, von Sonnen gereift,</l>
+                     <l>Herrliche Saat ist aufgegangen!</l>
+                     <pb n="42" facs="#f0040"/>
+                  </lg>
+               </sp>
+               <sp who="#maenner">
+                  <speaker>DIE MÄNNER</speaker>
+                  <stage>treten ihrerseits in den Reigen ein, bilden einen dritten Kreis der Tanzenden und
+              singen:</stage>
+                  <lg>
+                     <l>In Garben gebunden die goldene Frucht,</l>
+                     <l>Von Trauben schwer die schwellenden Reben,</l>
+                     <l>Die Kelter gefüllt, zermahlen das Korn,</l>
+                     <l>Ein neues Leben ist uns gegeben!</l>
+                  </lg>
+                  <stage>Der Rhythmus des Tanzes steigert sich zu feuriger Wucht, die Ringe lösen sich,
+              und Paar um Paar wiegt sich in freudigfeierlichem Tanzschritte.</stage>
+               </sp>
+               <sp who="#alle_3-1">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Es klingen die Sicheln, es tönt unser Sang,</l>
+                     <l>Bekränzt euch mit Ähren und kränzt uns mit Reben!</l>
+                     <l>Gesegnet, siegender Weltengang,</l>
+                     <l>Gepriesen, gepriesen, heiliges Leben!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene.</head>
+               <stage>Aus dem Todeshaine nahen in feierlichem Zuge Molochpriester, welche in roten Körben
+            frisches Brot tragen. Ihnen folgt Teut, in weißem Gewande, mit Kriegern, und Hiram in
+            reichem, golddurchwirktem Mantel.</stage>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Heil euch und eurer Erntelust!</l>
+                     <l>Die Freude stählt den Mut zur Tat,</l>
+                     <l>Die morgen nun der Kühnsten harrt:</l>
+                     <l>Aufs weite Meer trag' euch der Kiel</l>
+                     <l>Und führ' euch fernen Landen zu.</l>
+                     <l>Drum in den Schiffen bergt das Brot,</l>
+                     <l>Auf erster Fahrt soll es euch nähren!</l>
+                  </lg>
+               </sp>
+               <sp who="#ein_junger_krieger">
+                  <speaker>EIN JUNGER KRIEGER.</speaker>
+                  <p>Und wo winkt uns das erste Ziel?</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Gen Westen segelt! Weiße Küsten</l>
+                     <l>Seht ihr die wilde Brandung säumen –</l>
+                     <l>Dann lenkt nach Süden euern Kiel.</l>
+                     <l>
+                        <pb n="43" facs="#f0041"/> Dort lockt ein fernes Zauberland,</l>
+                     <l>Smaragden gleich enttaucht's der Flut,</l>
+                     <l>Blickt stumm zum blauen Himmel auf,</l>
+                     <l>Der ewig lächelnd ob ihm ruht.</l>
+                     <l>Die Nacht naht dort auf Purpursäumen,</l>
+                     <l>In hellem Gold der junge Morgen,</l>
+                     <l>Ein sanftes Rauschen, lichtes Träumen,</l>
+                     <l>Im Segen ist die Not geborgen. –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>unterbricht ihn begeistert.</stage>
+                  <lg>
+                     <l>Dorthin zu ziehn, zu fernen Sonnen,</l>
+                     <l>Dem klaren Blau nur anvertraut,</l>
+                     <l>Der Nacht und aller Qual entronnen,</l>
+                     <l>Am Strand, wo Wonne niedertaut. –</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Dort brechet ein, dem Sturme gleich,</l>
+                     <l>Und schauet euer künftig Reich!</l>
+                     <l>Die Ferne will der Gott euch weisen</l>
+                     <l>Und ihrer Wunderwelten Pracht,</l>
+                     <l>Die Herrschaft ist euch dort verheißen,</l>
+                     <l>Der Erdkreis beugt sich eurer Macht!</l>
+                     <l>Kehrt wieder, meldet, was ihr saht,</l>
+                     <l>Dann folgen wir zu neuer Tat:</l>
+                     <l>Ziehn aus, das Sonnenland zu finden</l>
+                     <l>Und neu dort Molochs Reich zu gründen!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>in hinreißender Kraft.</stage>
+                  <p>Nach Süden auf!</p>
+               </sp>
+               <sp who="#volk">
+                  <speaker>VOLK.</speaker>
+                  <p>Ins Sonnenland!</p>
+               </sp>
+               <sp who="#molochpriester">
+                  <speaker>MOLOCHPRIESTER.</speaker>
+                  <p>Besteigt die Schiffe!</p>
+               </sp>
+               <sp who="#frauen">
+                  <speaker>FRAUEN.</speaker>
+                  <p>Bleibt noch heut!</p>
+                  <pb n="44" facs="#f0042"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Der Morgenwind treibt uns vom Strand!</l>
+                     <l>Ich führe euch!</l>
+                  </lg>
+               </sp>
+               <sp who="#krieger">
+                  <speaker>KRIEGER.</speaker>
+                  <p>Auf, führ uns, Teut!</p>
+                  <stage>Sie drängen in freudiger Unternehmungslust zu den Schiffen und bergen ihre Waffen
+              darin.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>So rüstet euch zu kühner Fahrt!</l>
+                     <l>Kehrt heim, die Ruhe soll euch stärken.</l>
+                     <l>Am Morgen nahet, treu geschart,</l>
+                     <l>Mit Teut zu ziehn zu neuen Werken!</l>
+                  </lg>
+               </sp>
+               <sp who="#maenner">
+                  <speaker>MÄNNER.</speaker>
+                  <p>Ins Sonnenland! Zum Zauberstrand!</p>
+                  <stage>Das Volk verliert sich. Die Garben werden von den Priestern in den Hain getragen.
+              Hiram und Teut folgen ihnen.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene.</head>
+               <stage>Es dämmert. Roter Abendhimmel, golden leuchtende See. – Wolf steigt mit einigen
+            Getreuen hastig und vorsichtig die Klippen herunter.</stage>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Wißt ihr's nun?</p>
+               </sp>
+               <sp who="#ein_krieger">
+                  <speaker>EIN KRIEGER.</speaker>
+                  <p>Das darf nicht sein!</p>
+               </sp>
+               <sp who="#ein_anderer">
+                  <speaker>EIN ANDERER.</speaker>
+                  <p>Wer hilft da? Der König ist uns fern!</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Not gibt Recht und bricht die Schranken,</l>
+                     <l>Für ihn zu handeln heischt die Pflicht.</l>
+                  </lg>
+                  <stage>Er zieht das Wehrgehenk des Königs aus dem Gürtel.</stage>
+                  <lg>
+                     <l>
+                        <pb n="45" facs="#f0043"/> Des Königs Wehrgehenk, hier nimm es,</l>
+                     <l>Schick's aus, was treu ist, nah zu rufen!</l>
+                  </lg>
+                  <stage>Er gibt es einem Krieger, der davoneilend sagt:</stage>
+               </sp>
+               <sp who="#ein_krieger">
+                  <speaker>EIN KRIEGER.</speaker>
+                  <p>Den letzten, der es bringt, trifft Tod!</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Die Heimat sollten sie verlassen?</l>
+                     <l>Noch segelt ihr nicht auf den Fluten!</l>
+                     <l>Die Hirten steigen vom Berg mit Waffen,</l>
+                     <l>Die Jäger lassen Wald und Wild –</l>
+                     <l>Thule, Thule in Gefahr!</l>
+                  </lg>
+               </sp>
+               <sp who="#krieger">
+                  <speaker>KRIEGER</speaker>
+                  <stage>wiederholen den Ruf.</stage>
+                  <p>Thule, Thule in Gefahr!</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Den Schrecken ruft dem Echo zu,</l>
+                     <l>Daß es den fernsten Schläfer weckt,</l>
+                     <l>Und zu des Königs Herzen dringt.</l>
+                     <l>Thule, Thule in Gefahr!</l>
+                     <l>Blutrot geht die Sonne unter –</l>
+                     <l>Den Morgen netzet blut'ger Tau!</l>
+                  </lg>
+                  <stage>Mit dem Rufe: »Thule, Thule in Gefahr!« eilen sie davon.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene.</head>
+               <sp who="#molochpriester">
+                  <speaker>MOLOCHPRIESTER</speaker>
+                  <stage>treten aus dem Todestor; ihren langen, gedehnten Rufen antworten Priesterstimmen
+              aus der Ferne:</stage>
+                  <lg>
+                     <l>Es naht die Nacht! Fliehet den Hain!</l>
+                     <l>Berget euch still und flieht den Tod! –</l>
+                     <l>In eure Hütten schließt euch ein!</l>
+                     <l>Fliehet den Hain, hier ist der Tod! –</l>
+                  </lg>
+               </sp>
+               <stage>Sie sind in der Dämmerung verschwunden.</stage>
+               <stage>
+                  <pb n="46" facs="#f0044"/> Das Dunkel wird stärker. Teut tritt mit Pfeil und Bogen aus dem Tor
+            und läßt sich nahe demselben auf einem Steine nieder.</stage>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Nun sank das Licht, es steigt die Nacht,</l>
+                     <l>Vom Walde weht's wie dunkle Trauer –</l>
+                     <l>Es kam die Zeit – das Schweigen wacht –</l>
+                     <l>Vom Meere schreitet bleicher Schauer:</l>
+                     <l>Die Brandung singt das Totenlied,</l>
+                     <l>Im Wald der Drossel letztes Klagen,</l>
+                     <l>Ein Stöhnen durch die Lüfte zieht, –</l>
+                     <l>O Qual der Nacht, und Zweifels Zagen!</l>
+                     <l>Am Todeshain hüt' ich das Tor, –</l>
+                     <l>Wer will dem Sinn Erleuchtung geben?</l>
+                     <l>O Wahrheit, Sonne, steig empor!</l>
+                     <l>Gieß aus dein Licht, ström nieder, Leben!</l>
+                  </lg>
+                  <stage>Eine weiche, durchsichtige Vollmondstimmung und tiefe Ruhe sind über Land und
+              Meer gebreitet.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Szene.</head>
+               <sp who="#eine_stimme">
+                  <speaker>EINE STIMME</speaker>
+                  <stage>bricht jäh das Schweigen.</stage>
+                  <p>Hussa! Ich muß dich haben!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>springt auf.</stage>
+                  <p>Wer sprach?</p>
+                  <stage>Er greift nach Pfeil und Bogen und blickt gespannt nach links in den
+              Wald.</stage>
+                  <p>Dem Haine naht ein Wild –</p>
+                  <stage>Er spannt den Bogen.</stage>
+                  <lg>
+                     <l>Mein Pfeil</l>
+                     <l>Fehlt nie sein Ziel.</l>
+                  </lg>
+                  <stage>Ein Reh jagt im Hintergrunde von links kommend vorüber. Teut drückt den Pfeil ab
+              in dem Augenblicke, da das Reh über die Mauer des Todeshaines setzt.</stage>
+                  <p>Hier ist der Tod!</p>
+                  <stage>
+                     <pb n="47" facs="#f0045"/> Theoda kommt eiligen Laufes, einen Jagdspieß in der Hand, von links
+              daher, das Reh verfolgend. Sie stutzt vor der Mauer des Haines.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Halt ein! Zurück! Der Todeshain!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>ist bereits über die Mauer in den Hain gesprungen.</stage>
+                  <p>Das Wild für meines Königs Mahl!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>voller Entsetzen.</stage>
+                  <lg>
+                     <l>Ha, Theoda – war's deine Stimme –?</l>
+                     <l>Zurück! Ein Schritt im Hain bringt Tod – –</l>
+                  </lg>
+                  <stage>Er lauscht atemlos.</stage>
+                  <p>Zu spät? – –Verloren –?</p>
+                  <stage>Er wirft in jähem Entschluß den Bogen von sich.</stage>
+                  <lg>
+                     <l>Grimmer Gott,</l>
+                     <l>Dies Opfer kann ich dir nicht gönnen –</l>
+                     <l>Liebe bricht dein Gebot,</l>
+                     <l>Liebe gibt ihr Tod!</l>
+                  </lg>
+                  <stage>Er stürmt nach rückwärts und folgt Theoda in den Hain. Die Bühne bleibt
+              leer.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>kommt aus dem Tor, in der Hand ihren Speer und Teuts Pfeil.</stage>
+                  <lg>
+                     <l>Dort liegt das Wild! Doch hat's mich weit</l>
+                     <l>Gelockt, und da, ein fremd' Geschoß</l>
+                     <l>Stak bei dem Spieß. Will wer die Beute</l>
+                     <l>Mit mir teilen?</l>
+                  </lg>
+                  <stage>Sie späht unsicher umher.</stage>
+                  <lg>
+                     <l>Wo bin ich nur?</l>
+                     <l>Der Wall dünkt mich bekannt – die Bäume –</l>
+                     <l>Das Tor – des Wächters Ruf – gewiß –</l>
+                     <l>Weh mir – ich war – im Todeshain!</l>
+                  </lg>
+                  <stage>Sie bleibt im Schrecken wie angewurzelt stehen.</stage>
+                  <pb n="48" facs="#f0046"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUTS STIMME</speaker>
+                  <stage>aus dem Haine.</stage>
+                  <p>Theoda!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>So muß ich sterben?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>in vollster Sehnsucht rufend.</stage>
+                  <p>Theoda!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Wer ruft mich? Wer?</p>
+                  <stage>Teut erscheint unter dem Tor; Theoda stürzt auf ihn zu, umklammert seine Knie in
+              höchster Angst.</stage>
+                  <p>Ich will nicht sterben, hilf mir Teut!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Laß mich –</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>verzweiflungsvoll.</stage>
+                  <p>– Leben!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Laß mich – Tod!</p>
+                  <stage>Er umklammert mit beiden Händen ihren Hals. Theoda springt in wildem Entsetzen
+              auf, sucht sich ihm zu entwinden und stemmt beide Arme gegen seine Brust. Während sie
+              mit ihm kämpft:</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Wie? Du? – Du willst mich töten? Du!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Dem Tod bist du verfallen, hör –</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Willst mich – mit mir den Vater morden?</p>
+                  <pb n="49" facs="#f0047"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Du warst im Hain –</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Denn er stirbt Hungers ohne mich!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>So hör mich doch!</p>
+                  <stage>Theoda starrt ihn bewegungslos an.</stage>
+                  <lg>
+                     <l>Nicht sollst du dumpf als Opfer fallen,</l>
+                     <l>Den Tod nimm von der Liebe Händen,</l>
+                     <l>Ein Todverfallner beut dir Tod!</l>
+                  </lg>
+                  <stage>Sie löst sich langsam aus Teuts Händen, tritt zurück, betrachtet ihn erst scheu,
+              nähert sich ihm dann noch halb in Angst, halb in Entzücken, und ergreift seine
+              Hand.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Du – mit mir – sterben? Teut – du? Teut!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>in ruhiger Entzückung.</stage>
+                  <p>Schon naht der Tod – das Sein verdämmert –</p>
+                  <stage>Er tastet nach Theodas Haupt und zieht sie näher zu sich.</stage>
+                  <lg>
+                     <l>Ich fühl's, wie mir's zum Herzen quillt, –</l>
+                     <l>Ist dies der Tod, so ist er Wonne,</l>
+                     <l>Qual das Leben!</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>leise und erstaunt.</stage>
+                  <lg>
+                     <l>Teut! Nein, nein!</l>
+                     <l>Dein Auge leuchtet hell, du lebst!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>ebenso.</stage>
+                  <p>Ich lebe? Theoda? – Das kann nicht sein –</p>
+                  <pb n="50" facs="#f0048"/>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>sehr zart beginnend.</stage>
+                  <lg>
+                     <l>– – Und doch – schau her!</l>
+                     <l>Ich kann, – nicht wahr? – den Fuß hier heben,</l>
+                     <l>Ich kann, – nicht wahr? – noch gehn, die Arme</l>
+                     <l>Nun dir entgegenbreiten – den Spieß</l>
+                     <l>Noch schleudern – und ich schleudre ihn!</l>
+                     <l>Oh, Teut – das ist – ach, ich muß lachen!</l>
+                  </lg>
+                  <stage>Sie bricht in ein glückliches Lachen aus. Teut hat ihr mit steigender
+              Verwunderung zugehört. Nun ist's, als ob Theodas Lachen ihn aus einem Traume wecke –
+              eine gewaltige Bewegung geht in ihm vor: er prallt vor Theoda zurück.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Du lachst! – Und du darfst lachen?</p>
+                  <stage>Er schlägt sich mit geballten Händen vor die Stirne, </stage>
+                  <stage>wendet sich gegen den Hain und bricht drohend aus:</stage>
+                  <p>Moloch!</p>
+                  <stage>Erinnerung übermannt ihn.</stage>
+                  <p>– Mutter! –</p>
+                  <stage>Er taumelt.</stage>
+                  <lg>
+                     <l>Wo bin ich? Nacht! Des Truges Rachen</l>
+                     <l>Mir wild und drohend aufgerissen!</l>
+                     <l>Auf dunklem Pfad ein Silberlachen</l>
+                     <l>Weist es den Weg aus Finsternissen –?</l>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Mich macht die Freude jauchzen, Teut!</l>
+                     <l>Kann ich nicht sterben? Log dein Gott?</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Wie Brandung braust's in meinem Hirn;</l>
+                     <l>Verraten wär' ich und zertreten?</l>
+                     <l>Da Gott ich sucht' in heißem Drang</l>
+                     <l>Ward ich verstrickt in Nacht und Lügen;</l>
+                     <l>Doch sie, die mir in Wettern klang,</l>
+                     <l>Die Gottesstimme, kann sie trügen?</l>
+                     <pb n="51" facs="#f0049"/>
+                  </lg>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Nein! Hiram log!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>nun in klarer Erkenntnis.</stage>
+                  <lg>
+                     <l>Ein jäher Blitz</l>
+                     <l>Hellt mir die Nacht: Ja, Hiram log!</l>
+                     <l>Das Götterbild, er hat's gebracht,</l>
+                     <l>Es diente ihm zu frevlem Spiel:</l>
+                     <l>In fremden Fernen liegt sein Ziel!</l>
+                     <l>Mit Wundern rief er Sehnsucht wach,</l>
+                     <l>Durch Gaben wollt' er uns verführen;</l>
+                     <l>Und ich jagt' wirren Träumen nach,</l>
+                     <l>Wollt' treulos selbst das Volk entführen –</l>
+                     <l>Entzwei, entzwei der Lüge Macht!</l>
+                  </lg>
+                  <stage>Er reißt das weiße Übergewand von sich.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA</speaker>
+                  <stage>in ausbrechender Glückseligkeit.</stage>
+                  <lg>
+                     <l>Mein Teut! So bist du heimgekehrt,</l>
+                     <l>Jetzt glühn uns neu des Glückes Sonnen!</l>
+                     <l>Der Heimat treu, die dich genährt,</l>
+                     <l>Bist du dem Vater neu gewonnen!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>plötzlich von Reuegedanken erfaßt.</stage>
+                  <lg>
+                     <l>Dem Vater? Weh, wo siecht sein Leben?</l>
+                     <l>Im Totental! – Der Hungerqual</l>
+                     <l>Für seinen Sohn dahingegeben,</l>
+                     <l>Der König, er! Muß ich in Schmach</l>
+                     <l>Nicht sühnen, was irrend ich verbrach?</l>
+                  </lg>
+                  <stage>Er sinkt auf den Stein am Tore und bedeckt sein Gesicht mit den Händen. Theoda
+              neigt sich tröstend über ihn.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Du wirst des Vaters Leiden enden.</l>
+                     <l>Blich auch sein Haar, sein Aug' blickt hell,</l>
+                     <l>Die Hand hier durft ihm Nahrung spenden,</l>
+                     <l>Und Wasser holt' ich ihm vom Quell.</l>
+                     <pb n="52" facs="#f0050"/>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>kniet gerührt vor Theoda nieder und küßt innig ihre Hände.</stage>
+                  <stage>Sehr allmählich weicht die Nacht.</stage>
+                  <lg>
+                     <l>Oh, laß mich diese Hände küssen,</l>
+                     <l>Die ich im Irrwahn von mir stieß,</l>
+                     <l>Und laß mich danken dir zu Füßen,</l>
+                     <l>Die einst mir weiße Blüten wies!</l>
+                  </lg>
+                  <stage>Er erhebt sich.</stage>
+                  <lg>
+                     <l>Wie strömt's von dir mir heiß ins Blut!</l>
+                     <l>Oh, holder Zauber deiner Nähe!</l>
+                     <l>Dich floh ich Tor! Die sel'ge Glut,</l>
+                     <l>Die ich aus dir nun leuchten sehe –</l>
+                  </lg>
+                  <stage>Plötzlich auffahrend.</stage>
+                  <lg>
+                     <l>Wie sagte <hi rendition="#i">er</hi>? »Das Herz ist ein</l>
+                     <l>Geschwür vom Weib her – Moloch brenn'</l>
+                     <l>Es aus« –</l>
+                  </lg>
+                  <stage>In beseligter Erkenntnis.</stage>
+                  <lg>
+                     <l>Ach nein, es ist nicht tot!</l>
+                     <l>Wie wilder Hammer rast sein Schlag,</l>
+                     <l>Und sprengt des Lügentruges Klammer,</l>
+                     <l>Der Quell der Liebe bricht zutag</l>
+                     <l>Und löscht den Wahn und löst den Jammer, –</l>
+                  </lg>
+                  <stage>Er preßt die Hände aufs Herz.</stage>
+                  <lg>
+                     <l>Hier lebt mein Gott! In meinem Blut</l>
+                     <l>Kreist er gleich in dem Quell der Sonnen,</l>
+                     <l>Dort webt er ewige Weltenglut,</l>
+                     <l>Und loht in unsrer Liebe Wonnen!</l>
+                  </lg>
+                  <stage>Theoda wirft sich an Teuts Brust. – Teut nimmt Theoda bei der Hand; einfach und
+              freudig:</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Nun auf!</p>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Wohin?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Zum Leben! Führe</l>
+                     <l>Du den Vater mir zurück!</l>
+                  </lg>
+                  <stage>
+                     <pb n="53" facs="#f0051"/> Theoda will aufjauchzen, läßt aber plötzlich Teuts Hand los und
+              beginnt leise:</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Den Blütenzweig, den einst ich bot,</l>
+                     <l>Warfst du von dir in tör'gem Zagen;</l>
+                     <l>Nun trägt er Beeren, frisch und rot,</l>
+                     <l>Die will ich heut' als Brautschmuck tragen!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>die Arme öffnend.</stage>
+                  <p>Theoda! Bring mir die roten Beeren!</p>
+                  <stage>Theoda entzieht sich ihm und eilt die Klippen hinan. Als sie verschwunden ist,
+              ertönt ihre Stimme:</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Die Drossel lockt, das Eichhorn springt,</l>
+                     <l>Ich pflücke rote, rote Beeren –</l>
+                     <l>Und wer die hellsten Weisen singt,</l>
+                     <l>Dem will ich, will ich sie gewähren!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Sechste Szene.</head>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>rafft sich auf und schlägt mit der Faust auf ein großes Bronze-Becken, welches am
+              Todestor steht.</stage>
+                  <stage>Ein wolkiger Morgen bricht an.</stage>
+                  <p>Hiram, wach auf! Der Morgen naht!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAMS STIMME</speaker>
+                  <stage>aus dem Haine.</stage>
+                  <p>Wer ruft?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Dein Gott nicht! Ich hier, Teut.</p>
+                  <stage>Er schlägt abermals die Becken.</stage>
+                  <pb n="54" facs="#f0052"/>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>tritt aus dem Tore.</stage>
+                  <p>Was schlägst du laut die Becken, sprich!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Daß du erwachtest!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Schlief ich denn?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Du schufst dir wohl zu Molochs Füßen</l>
+                     <l>Aus Moos ein Ruhelager?</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Teut!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Und hieltest Zwiesprach' mit dem Gott?</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Du warst um Mitternacht im Hain?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Und – lebe noch!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>will auffahren, faßt sich aber schnell.</stage>
+                  <lg>
+                     <l>So hat dich Gott</l>
+                     <l>Erwählt, mein heil'ges Amt zu teilen.</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Dein heil'ges Amt? Welch' Dunkel spie</l>
+                     <l>Solch' ekle Lüge hier ans Land?</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Wer log? Trog dich dein eigen Herz,</l>
+                     <l>Als du zu Molochs Füßen stürztest?</l>
+                     <pb n="55" facs="#f0053"/>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Mein Herz? Wähnst du's nicht ausgebrannt?</p>
+                  <stage>Er tritt flammenden Blicks auf Hiram zu.</stage>
+                  <lg>
+                     <l>Hörst du den Sturm zu Häupten nicht?</l>
+                     <l>Sein schwarzer Fittich rauscht dir Tod!</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Dein Auge glüht – von welchem Licht?</l>
+                     <l>Was gab dir, Jüngling, solche Stärke?</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Im Morgenlicht der Wahrheit wandle</l>
+                     <l>Ich auf der Liebe Sonnenbahn –</l>
+                  </lg>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>jäh ausbrechend.</stage>
+                  <p>Der Liebe Bahn!?</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Und Trug und Lügen</l>
+                     <l>Soll Thules Volk in Treue richten.</l>
+                  </lg>
+                  <stage>Er will auf das Tor zu; Hiram tritt ihm entgegen.</stage>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>mit Größe.</stage>
+                  <lg>
+                     <l>In Flammen starb mir eine Welt;</l>
+                     <l>Die Rache hat mein Ziel geboren.</l>
+                     <l>Durch Sturm und Nacht peitscht' ich den Kiel</l>
+                     <l>Den starren Klippen Thules zu –</l>
+                     <l>Das Ziel ist nah, ein starkes Volk</l>
+                     <l>Führt meine Rache wider Rom –</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Nach Rom?</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Und eines Knaben Hand</l>
+                     <l>Will mir den Preis, die Macht, entreißen?</l>
+                     <pb n="56" facs="#f0054"/>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Fremdling, ich rief den König heim!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <p>Zu spät! In meinem Bann das Volk.</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Der Heimat Treu' ist aufgewacht!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Noch bin ich Herr! Und euer Blut</l>
+                     <l>Soll Molochs Herrschaft fest besiegeln.</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>schlägt mit der Faust auf die Becken.</stage>
+                  <p>Hörst du den Tod?</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>in wilder Verzweiflung.</stage>
+                  <p>Mir drohn? So stirb!</p>
+                  <stage>Er reißt einen Dolch aus dem Gürtel und dringt auf Teut ein; dieser aber umfaßt
+              seine Hand mit eisernem Griff und richtet die Spitze der Waffe gegen Hirams eigene
+              Brust. So drängt er ihn gegen den Hintergrund, die Klippen empor.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Ins Meer mit dir, zur Klippe dort!</p>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM</speaker>
+                  <stage>versucht vergeblich Teut zu umklammern.</stage>
+                  <p>Du stürzest mit mir!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>In die See!</p>
+                  <stage>Hiram reißt sich von Teut los, welcher den Dolch in seiner Hand behält, und eilt
+              selbst die letzte Klippe frei hinan; er wendet sich mit dem grimmigen Ausdruck eines
+              zu Tode gehetzten Tieres.</stage>
+                  <pb n="57" facs="#f0055"/>
+               </sp>
+               <sp who="#hiram">
+                  <speaker>HIRAM.</speaker>
+                  <lg>
+                     <l>Verloren denn – alles verloren!</l>
+                     <l>Rache, Gewalt, des Willens Macht,</l>
+                     <l>An eines Knaben Sinn zerbrochen!</l>
+                  </lg>
+                  <stage>Er preßt die Hände auf die Brust, da fühlt er das Hämmern seines Herzens.</stage>
+                  <lg>
+                     <l>Wie? Noch immer schlägt dies Herz?</l>
+                     <l>Stand es nicht längst vor Grausen still?</l>
+                     <l>Nun denn – mit eigner Faust</l>
+                     <l>Zertrümmr' ich meine Welt!</l>
+                  </lg>
+                  <stage>Er schlägt mit aller Gewalt vor sein Herz, taumelt und sinkt rückwärts in die
+              Fluten. Teut eilt die Klippe empor, um ihm nachzusehen, steht hochaufatmend und
+              breitet die Arme aus.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Heimat, Heimat, du bist frei!</p>
+                  <stage>Er schreitet die Klippen herunter auf das Tor zu. Plötzlich hemmt er seinen
+              Schritt, wie von unsichtbarer Macht gehalten.</stage>
+                  <p>Seufzt nicht die Erde rings? Was hält mich?</p>
+                  <stage>Er starrt auf die Schwelle des Tores.</stage>
+                  <p>Dort auf der Schwelle rotes Blut?</p>
+                  <stage>Er sieht sich langsam um.</stage>
+                  <lg>
+                     <l>Das Morgenrot grüßt meinen Weg –</l>
+                     <l>Vater, dir hol' ich dein Schwert!</l>
+                  </lg>
+                  <stage>Er geht in den Hain.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Siebente Szene.</head>
+               <stage>Wolf tritt mit zahlreichem Kriegsvolk von links rückwärts au, und teilt es in zwei
+            Haufen. Vom Haine her tönt Beckenschall.</stage>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <lg>
+                     <l>Der Beckenschall ruft her das Volk –</l>
+                     <l>Bergt euch im Haine, nah dem Strand,</l>
+                     <l>Aus Molochs Bauch reißt Feuerbrände</l>
+                     <l>Und werft sie in der Schiffe Bug!</l>
+                  </lg>
+                  <stage>Einige Krieger eilen über die Mauer in den Hain.</stage>
+                  <lg>
+                     <l>
+                        <pb n="58" facs="#f0056"/> Den Rückweg sperren wir mit Waffen:</l>
+                     <l>Wer Moloch nicht entsagt, der fällt! –</l>
+                  </lg>
+                  <stage>Er birgt sich mit den übrigen Kriegern in den Klippen.</stage>
+               </sp>
+               <sp who="#molochpriester">
+                  <speaker>MOLOCHPRIESTER</speaker>
+                  <stage>treten von vorne links in geschlossenem Zuge auf.</stage>
+                  <stage>Ihr Gesang war schon bei Wolfs Worten hörbar.</stage>
+                  <lg>
+                     <l>Moloch ist König, ist Herr der Welt,</l>
+                     <l>Herrschet von ewig glühenden Sonnen;</l>
+                     <l>Er sendet euch aus vom heimischen Belt,</l>
+                     <l>Der lockende Süden wird euch gewonnen!</l>
+                  </lg>
+                  <stage>Hinter den Molochpriestern naht das Volk; Frauen </stage>
+                  <stage>und Kinder geleiten die ausziehenden Krieger, abschiednehmend, zu den
+              Schiffen.</stage>
+               </sp>
+               <sp who="#frauen">
+                  <speaker>FRAUEN.</speaker>
+                  <lg>
+                     <l>Moloch führt euch ins Sonnenland,</l>
+                     <l>Wir wahren den Herd, wahrt ihr uns die Treue!</l>
+                     <l>Moloch schützet euch unverwandt!</l>
+                     <l>Lebt wohl, der Frühling vereint uns aufs neue!</l>
+                  </lg>
+               </sp>
+               <sp who="#krieger">
+                  <speaker>KRIEGER</speaker>
+                  <stage>gleichzeitig.</stage>
+                  <lg>
+                     <l>Ins Sonnenland! Wir wahren euch Treue!</l>
+                     <l>Hier unsre Hand! Treue um Treue!</l>
+                  </lg>
+               </sp>
+               <sp who="#alle_3-7">
+                  <speaker>ALLE</speaker>
+                  <stage>gewaltig vereint.</stage>
+                  <lg>
+                     <l>Moloch ist König, ist Herr der Welt – – –</l>
+                  </lg>
+                  <stage>Der Gesang bricht jäh ab, von fern und nah scheint der Ruf: »Thule, Thule in
+              Gefahr!« zu ertönen. Man sieht Feuerbrände in die Schiffe wersen, es entsteht
+              Verwirrung und Tumult auf der Bühne.</stage>
+               </sp>
+               <sp who="#molochpriester #volk">
+                  <speaker>MOLOCHPRIESTER UND VOLK</speaker>
+                  <stage>einzelne beginnen erregt, die anderen fallen ein.</stage>
+                  <lg>
+                     <l>Feuer! Feuer in den Schiffen!</l>
+                     <l>Weh! Wer wagt's, die Fahrt zu hemmen?</l>
+                     <l>
+                        <pb n="59" facs="#f0057"/> Verrat! Wer tat's? Auf! Feinde! Feinde!</l>
+                     <l>Der Plan zerstört! Oh, Frevel! Not!</l>
+                     <l>Die Schiffe brennen! Moloch, hilf!</l>
+                     <l>Wo ist der Priester? Hiram! Teut!</l>
+                  </lg>
+                  <stage>Alle stürzen auf das Tor zu; da erscheint Teut unter </stage>
+                  <stage>demselben, das Königsschwert in der Hand. Er blickt nach den brennenden
+              Schiffen.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Wer dies auch tat, half meinem Werk!</p>
+                  <stage>Neuer Tumult.</stage>
+               </sp>
+               <sp who="#volk #molochpriester">
+                  <speaker>VOLK UND MOLOCHPRIESTER.</speaker>
+                  <lg>
+                     <l>Half deinem Werk? Und unsre Fahrt?</l>
+                     <l>Willst du uns neue Wirrnis bringen?</l>
+                     <l>Hast du die Schiffe dort verbrannt?</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Oh, schmückt eure Speere mit Eibengrün,</l>
+                     <l>Von Ebereschen mit roten Beeren;</l>
+                     <l>Der König kehrt heim! Im Morgenglühn</l>
+                     <l>Geloben wir neu die Heimat zu ehren.</l>
+                  </lg>
+               </sp>
+               <sp who="#volk #molochpriester">
+                  <speaker>VOLK UND PRIESTER.</speaker>
+                  <lg>
+                     <l>Das Sonnenland ist uns verheißen!</l>
+                     <l>Die Herrschaft will der Gott uns weisen!</l>
+                     <l>Verrat! Was willst du? – Weh dir, Teut!</l>
+                     <l>Wo ist der Priester? Hiram! Hiram!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Hiram ist tot!</p>
+               </sp>
+               <sp who="#alle_3-7">
+                  <speaker>ALLE</speaker>
+                  <stage>in einem furchtbaren Aufschrei.</stage>
+                  <p>Tot!?</p>
+                  <pb n="60" facs="#f0058"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <lg>
+                     <l>Lüge und Schrecken</l>
+                     <l>Trieb ich mit ihm von der Klippe ins Meer!</l>
+                  </lg>
+               </sp>
+               <sp who="#alle_3-7">
+                  <speaker>ALLE</speaker>
+                  <stage>in wildem Tumulte durcheinander.</stage>
+                  <lg>
+                     <l>Hiram ist tot, – Weh, wilde Rache!</l>
+                     <l>Schützet Moloch, Molochs Reich!</l>
+                     <l>Verräter du, welch neue Schrecken!</l>
+                     <l>Der Priester tot, – gebt ihm den Tod!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Verblendete, hört – –</p>
+               </sp>
+               <sp who="#alle_3-7">
+                  <speaker>ALLE.</speaker>
+                  <p>Laßt ihn nicht reden!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Verscheucht sei die Nacht – –</p>
+               </sp>
+               <sp who="#alle_3-7">
+                  <speaker>ALLE.</speaker>
+                  <p>Nehmt ihm das Schwert!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Durch mich hat Hiram <hi rendition="#i">euch</hi> getrogen!</p>
+               </sp>
+               <sp who="#alle_3-7">
+                  <speaker>ALLE.</speaker>
+                  <p>Der Segen sein Werk!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>mit ganzer Energie.</stage>
+                  <p>Machtlos ist Moloch!</p>
+               </sp>
+               <sp who="#alle_3-7">
+                  <speaker>ALLE</speaker>
+                  <stage>fanatisch.</stage>
+                  <p>Lästerung!</p>
+                  <pb n="61" facs="#f0059"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Ein Götze, – kein Gott!</p>
+                  <stage>Wilder Aufschrei aller. – Die Molochpriester stürzen sich auf Teut, der das
+              Schwert umklammert hält, und suchen ihn zum Haine zu schleppen. Gleichzeitig erscheint
+              Wolf auf den Klippen mit den Seinen.</stage>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF.</speaker>
+                  <p>Thule, Thule in Gefahr!</p>
+                  <stage>Er kommt herab und bahnt sich den Weg zu Teut.</stage>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>im Getümmel.</stage>
+                  <p>Rettung! – – Thule in Gefahr!</p>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF</speaker>
+                  <stage>ist vor dem Tore angelangt; die Priester lassen Teut los, der wie betäubt
+              steht.</stage>
+                  <lg>
+                     <l>Mir gehört er, nicht eurem Wahn.</l>
+                     <l>Der Heimat zur Sühne fällt der Verführer!</l>
+                  </lg>
+                  <stage>Teut wird von Wolf in die Seite getroffen. Wolfs Scharen stürzen sich im selben
+              Augenblick von den Klippen und vom Haine her auf die Anhänger Molochs und fegen sie
+              alle, Frauen, Kinder, Priester und die waffenlosen Männer nach kurzem Getümmel von der
+              Bühne. Teut hält sich, an einen Torpfeiler gestützt, aufrecht. – Der König, von Theoda
+              geführt, die im Schmucke roter Beeren prangt, erscheint auf der Klippe:</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Teut!</p>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>schmerzlich aufschreiend.</stage>
+                  <p>Theoda! – – die roten Beeren!</p>
+                  <stage>Theoda ist herzugeeilt und stützt Teut, der das </stage>
+                  <stage>Schwert auf die Wunde preßt.</stage>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <p>Mein Sohn!</p>
+                  <pb n="62" facs="#f0060"/>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <p>Mein holdes Leben!</p>
+                  <stage>Teut will dem Vater entgegen, bricht aber vor seinen Füßen zusammen.</stage>
+               </sp>
+               <sp who="#wolf">
+                  <speaker>WOLF</speaker>
+                  <stage>stark.</stage>
+                  <lg>
+                     <l>Der König, Heil, ist heimgekehrt.</l>
+                     <l>Thule frei und seiner wert!</l>
+                  </lg>
+                  <stage>Die Krieger huldigen dem König. Dieser gebietet durch eine Gebärde Einhalt. Die
+              Krieger ziehen sich zurück.</stage>
+               </sp>
+               <sp who="#theoda">
+                  <speaker>THEODA.</speaker>
+                  <lg>
+                     <l>Teut, mein Alles, stirb jetzt nicht!</l>
+                     <l>Hetzt dich der wilde Jäger Tod?</l>
+                     <l>Sieh, wer dich rufet, Teut, zum Licht,</l>
+                     <l>Zum Leben, das dir Blüten bot!</l>
+                  </lg>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT</speaker>
+                  <stage>faßt Theodas Hand und blickt ihr in die Augen.</stage>
+                  <lg>
+                     <l>Oh – heller Glanz beim jähen Scheiden!</l>
+                     <l>Dich grüß' ich, holdes Angesicht, –</l>
+                  </lg>
+                  <stage>Er sucht mit dem Blick das Morgenrot.</stage>
+                  <lg>
+                     <l>Dich, – heil'ges Leben, – Lust und Leiden, –</l>
+                     <l>Dich grüß' ich – goldnes Sonnenlicht.</l>
+                  </lg>
+                  <stage>Er sinkt zurück.</stage>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG</speaker>
+                  <stage>ergriffen.</stage>
+                  <lg>
+                     <l>Vom Dunkel schritt ich in den Tag,</l>
+                     <l>Vom Totental in goldne Auen,</l>
+                     <l>Das Wunder, das rings leuchtend lag,</l>
+                     <l>Durft' ich mit trunknem Auge schauen.</l>
+                     <l>Aus deinem Irren sproß uns Segen,</l>
+                     <l>So wuchs aus deinem Sieg das Recht.</l>
+                     <l>Grüß' ich ihn heut' als rein und echt, –</l>
+                     <l>Wolf, weh – was trafst du ihn verwegen?</l>
+                  </lg>
+                  <stage>Wolf wendet sich ab.</stage>
+                  <pb n="63" facs="#f0061"/>
+               </sp>
+               <sp who="#teut">
+                  <speaker>TEUT.</speaker>
+                  <p>Vater, – – – er war treu –</p>
+                  <stage>Er reicht dem Vater mühsam das Schwert. Dann blickt er noch einmal Theoda an,
+              verlöschend:</stage>
+                  <p>Theoda – die roten Beeren – –</p>
+                  <stage>Er tastet nach dem Kranz auf Theodas Haupt, – der Arm erlahmt ihm, – er sinkt tot
+              zusammen. – Theoda sinkt auf seine Brust. – Stille. – Der König läßt sich auf ein Knie
+              nieder und lauscht nach Teuts Atem, – dann steht er auf, betrachtet ergriffen das
+              Schwert in seiner Hand und bedeckt das Gesicht mit der Hand.</stage>
+                  <stage>Theoda erhebt sich langsam; wie aus einem Traum erwachend blickt sie sich um,
+              heftet den Blick auf Teut, nimmt von ihrem Haupte den Kranz von roten Beeren, drückt
+              ihn auf Teuts Stirne und schmückt seinen Leib mit den Blumengewinden, die ihr Gewand
+              zierten. – Dann wendet sie mit inniger Wehmut den Blick zum König; dieser beugt sich
+              nieder, hebt sie an seine Brust und küßt ihr die Stirne. – In wildem Schmerze bricht
+              er dann plötzlich zu den Kriegern aus:</stage>
+               </sp>
+               <sp who="#koenig">
+                  <speaker>KÖNIG.</speaker>
+                  <lg>
+                     <l>Stürzet Moloch!</l>
+                  </lg>
+                  <stage>Wolf und die Männer schreiten dem Haine zu. Der Vorhang schließt sich
+              schnell.</stage>
+               </sp>
+               <trailer>Ende.</trailer>
+               <pb n="64" facs="#f0062"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

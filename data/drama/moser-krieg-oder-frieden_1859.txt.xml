@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Krieg oder Frieden?</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/116937807">
+                  <forename>Gustav</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Moser</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-01T12:22:56Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000315</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q56379343</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005393566</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Moser, Gustav von/Dramen/Krieg oder Frieden?</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/sj6s.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0004-43A6-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gustav von Moser: Krieg oder Frieden? Berlin [o.J.]</bibl>
+            <bibl>Gustav von Moser: Krieg oder Frieden? Berlin: Eduard Bloch, [o.J.].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Krieg oder Frieden?</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/116937807">
+                        <forename>Gustav</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Moser</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">22 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Eduard Bloch</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1859</date>
+                  <date type="firstPublication">1859</date>
+                  <date type="firstPublication" subtype="clariah">1859</date>
+                  <date type="firstPublication" subtype="zeno">1880</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor">1859</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d1850e263">Erstdruck: Berlin (Bloch), ohne Jahr [um 1880].</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="johann" sex="MALE">
+                  <persName>Johann</persName>
+               </person>
+               <person xml:id="major" sex="MALE">
+                  <persName>Major</persName>
+               </person>
+               <person xml:id="jenny" sex="FEMALE">
+                  <persName>Jenny</persName>
+               </person>
+               <person xml:id="barbier" sex="MALE">
+                  <persName>Barbier</persName>
+               </person>
+               <person xml:id="milchfrau" sex="FEMALE">
+                  <persName>Milchfrau</persName>
+               </person>
+               <person xml:id="paddemann" sex="MALE">
+                  <persName>Paddemann</persName>
+                  <persName type="variant">Paddermann</persName>
+               </person>
+               <person xml:id="assessor" sex="MALE">
+                  <persName>Assessor</persName>
+               </person>
+               <person xml:id="kulike" sex="MALE">
+                  <persName>Kulike</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d1850e263">
+      <front>
+         <div type="front">
+            <head>Gustav von Moser</head>
+            <head>Krieg oder Frieden?</head>
+            <head>Dramatische Bagatelle in einem Akt</head>
+         </div>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>von Voß, Major a.D.</castItem>
+               <castItem>Jenny, seine Tochter.</castItem>
+               <castItem>Arthur Stein, Assessor.</castItem>
+               <castItem>Paddeman, Rentier und Hauseigenthümer.</castItem>
+               <castItem>Johann, Bedienter des Major v. Voß.</castItem>
+               <castItem>Anton Kulicke, Portier.</castItem>
+               <castItem>Ein Barbier.</castItem>
+               <castItem>Eine Milchfrau.</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Das Stück spielt zu Berlin, in der Wohnung des Majors von Voß. Zeit: Gegenwart.</p>
+         </set>
+         <div>
+            <castList>
+               <head>Charakteristik der Personen.</head>
+               <castItem>
+                  <hi rendition="#i">Major von Voß:</hi> Weißes Haar, weißer Schnurrbart, militairische
+            Haltung und Manieren, nur wo es besonders angegeben, feiner; sonst rauh, doch nie
+            verletzend und roh. Anzug kann sein: schwarzer Militairrock, offen; weiße Aeste oder
+            auch Civil, jedenfalls mit Sporen.</castItem>
+               <castItem>
+                  <hi rendition="#i">Jenny:</hi> Munter, naiv, jung.</castItem>
+               <castItem>
+                  <hi rendition="#i">Arthur:</hi> Elegant – jung.</castItem>
+               <castItem>
+                  <hi rendition="#i">Paddemann:</hi> Berliner Bürger der Mittelklasse, geschwätzig,
+            klein-bürgerliche Gespreitzheit. Anzug: etwas karrikirte Morgentoilette.</castItem>
+               <castItem>
+                  <hi rendition="#i">Johann:</hi> Ganzer Berliner.</castItem>
+               <castItem>
+                  <hi rendition="#i">Kulike:</hi> Dick – sehr pomadig – Anzug eines Portiers, langer weißer
+            Rock. (Figur wie der Schulze Nüneke in: Berlin, wie es weint und lacht.)</castItem>
+               <castItem>
+                  <hi rendition="#i">Milchfrau.</hi> Berliner Milchfrau.</castItem>
+               <castItem>
+                  <hi rendition="#i">Barbier.</hi> Berliner Barbier.</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Zimmer im Hause des Major v. Voß. Thüren: in der Mitte, rechts und links. Vorne rechts
+          kleiner Tisch mit Stuhl, ebenso links.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erste Scene.</head>
+            <stage>Major. Johann.</stage>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>sitzt am Tisch rechts, hat die Vossische Zeitung in der Hand.</stage>
+               <p>Wo es nu man stehen mag, des nu Krieg werden soll! Ich schnöckere un schnöckere de
+            ganze Tante durch, und finde Nischt, als daß se überall uf Erhaltung des Friedens
+            hoffen, von Kriegserklärung keene Spur! – Selbst in Frankreich, wo doch sonst immer der
+            Deibel los is – Allens stille. – Natürlich is es ejentlich, denn se haben sich doch nu
+            erst um den Türken ordentlich abrabatzt. <stage>Liest.</stage> Rußland – abgebranntes
+            Theater – is nich – Allens stille.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>von innen.</stage>
+               <p>Johann – die Zeitung noch nicht da?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>ohne aufzusehen.</stage>
+               <p>Ne – Herr Major. <stage>Liest weiter.</stage> Italien: Kunstschätze – Frühling wie noch
+            nie – is nich. England Baumwolle, Belmoral, Chloroform, is nich. Deutschland: Reiz
+            Schleitz – Pferdeausfuhrverbot, is nich – ne – schon lange nich – bange machen gilt
+            nich. Hehehe! – Berlin, erster Maikäfer – hat seine Visitenkarte bei Rellstaben
+            abgegeben – siehste wie de bist – nich bloß de Hausknechte, och die Maikäfer werden
+            jetzt gebildet. <stage>Liest.</stage> Courszettel – versteh ich nich. Börse: flau – is
+            nich – haben wir Allens schon gehabt und doch kenen Krieg. <stage>Legt die Zeitung
+              zusammen.</stage> Ich sage man blos – bange machen gilt nich.</p>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="1" facs="#f0001"/> Zweite Scene.</head>
+            <stage>Jenny von links. Johann.</stage>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Mein Vater nicht hier?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>aufspringend.</stage>
+               <p>Ne Fräulein, er is noch in seinem Zimmer.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Ach so! <stage>Will fort nach rechts.</stage>
+               </p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>rufend.</stage>
+               <p>Gnädiges Fräulein! Gnädiges.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>umkehrend.</stage>
+               <p>Nun?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>einen Brief hervorziehend.</stage>
+               <p>Ich habe hier 'nen Brief für Ihren Herrn Vater.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>So gieb ihn doch ab – was soll ich dabei? <stage>Will fort.</stage>
+               </p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Fräulein Jenny – Se müssen mir aber nich böse werden – hehehe! – Na – warum soll ich
+            mir denn zieren – Der Herr Assessor Stein waren hier, gnädiges Fräulein.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>bei Seite.</stage>
+               <p>Arthur?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Gab mir dies Zweithalerstück und den Brief – ne diesen Brief und dies Zweithalerstück,
+            damit ich en nur an den Herrn Major abgebe, wenn er bei recht guter Laune ist.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>die Hand auf's Herz, bei Seite.</stage>
+               <p>Er hat um mich angehalten.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na, Fräulein, Unsereens is och nich aus Dummersdorf, und da dacht' ich – hehehe – Sie
+            würden am Ende den richtigen Moment noch besser abschnappen können zu diesem
+            telegräflichen Dokument. Meinen Sie nich?</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Gieb her. Das ist verständig von Dir. <stage>Nimmt den Brief.</stage> Aber weißt Du
+            denn, was darin steht?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>schlau.</stage>
+               <p>Wissen Se, gnädiges Fräulein, heut zu Tage is Allens politisch, und um politisch zu
+            sein, sage ich: wenn des Ledigsein der Friede is – und die Ehe der Krieg <stage>Schnell
+              und beiläufig.</stage> wie se immer sagen – ich bin freilich nich verheirathet – <pb n="2" facs="#f0002"/> ich weeß des nich – so globe ich – deß – deß – Se müssen aber nich böse
+            werden, Fräulein Jenny.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Nun?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Deß – hehehe – deß der Herr Assessor mit Ihnen in Krieg ziehen will. <stage>Verbeugt
+              sich schnell. Ab durch die Mitte.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Dritte Scene.</head>
+            <stage>Major. Jenny.</stage>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>ihrem Vater entgegen.</stage>
+               <p>Guten Morgen, Papa!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Morgen mein Kind! <stage>Mürrisch.</stage> Hat der Mensch hier wieder eingeheizt!
+            Unerträgliche Hitze!</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Findest Du, Papa?</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Oeffne das Fenster ein wenig.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Papa, die Zugluft wird dir nicht bekommen!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Widersprich mir nicht immer, Jenny – Du weißt, daß ich das nicht leiden kann!</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>schnell zum Fenster, es öffnend.</stage>
+               <p>O bitte, Papa! <stage>Bei Seite.</stage> Er ist heut nicht schlechter Laune, also –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Niemand hier gewesen? – Zeitung noch nicht da? –</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Ich weiß nicht, Papa – aber die Zeitungen liegen hier. <stage>Geht an den Tisch, nimmt
+              den Brief aus dem Busen und schiebt ihn in die Zeitung. Bei Seite.</stage> Ich riskire
+            es; wenn ich ihn länger bei mir behielte, könnte er hier brennen. <stage>Laut.</stage>
+            Soll ich Dir eine Pfeife holen, Papa?</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Danke! <stage>Setzt sich an die Zeitungen.</stage>
+               </p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>setzt sich an den Tisch links und nimmt eine Arbeit.</stage>
+               <p>Jetzt sehe ich gar nicht hin! <stage>Wendet halb den Rücken.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>lesend, in kurzen Pausen.</stage>
+               <p>Rother Adlerorden 4. Klasse – im Beisein des Major v. Alvensleben. <stage>Dreht die
+              Zeitung hurtig um.</stage> Erst die Course, <pb n="3" facs="#f0003"/> das ist zu heutzutage die
+            Hauptsache. – Freiwillige Anleihe – Staatsschuldscheine – Hm – Bedenklich!
+              <stage>Oeffnet die Zeitung; der Brief fällt heraus.</stage> Was – ein Brief?
+              <stage>Mürrisch.</stage> Wer hat den Brief hier versteckt.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>krampfhaft arbeitend.</stage>
+               <p>Ich weiß nicht, Papa!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Unsinn – Briefe sollen immer oben liegen. – <stage>Bricht ihn auf.</stage> Hab' es
+            schon oft gesagt! <stage>Den Brief überfliegend.</stage> – wagen darf – Liebe – kühner
+            Schritt – Hand Ihrer Fräulein Tochter – <stage>Läßt die Arme mit dem Brief fallen und
+              sieht seine Tochter an. Nach kurzer Pause.</stage> Jenny!</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>immer heftig fort arbeitend, ohne sich umzusehen.</stage>
+               <p>Papa!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Sei doch so gut und komme einmal zu mir her.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>ängstlich, bei Seite.</stage>
+               <p>Ach, mein Gott, jetzt wird er freundlich! <stage>Geht zu ihm.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Es hat Jemand um Dich angehalten, Jenny.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>verwundert.</stage>
+               <p>So, Papa?</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Der Assessor Stein!</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>wie oben.</stage>
+               <p>Ach – Papa! –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Unsinn – So Papa – ach Papa! – Was soll ich ihm antworten?</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Ach Papa –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Schon wieder! – Hast Du ihn denn lieb?</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>herausplatzend, sehr feurig.</stage>
+               <p>Ach ja, Papa! <stage>Will ihn umarmen.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>ruhig.</stage>
+               <p>Da haben wir's – ich habe die Geschichte kommen sehen.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>schmeichelnd an die Schulter des Majors.</stage>
+               <p>Mein guter Herzenspapa, nicht wahr, Du erfüllst –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Pst! – Pst! – Habe Dich um weiter nichts gefragt. <stage>Zeigt auf eine Stelle der
+              Zeitung hin.</stage> Lies mal hier.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Das, Papa?</p>
+               <pb n="4" facs="#f0004"/>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Ja wohl, hier. – Nun?</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Staatsschuldscheine 80, freiwillige Anleihe 98.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>He – weißt Du, was das heißt? Das heißt: die Actien des Friedens sind gefallen und wir
+            werden wahrscheinlich Krieg bekommen.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Aber Väterchen, das ist doch kein Grund, daß ich nicht heirathen soll? – Arthur ist
+            Assessor.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Sehr richtig, aber auch Landwehrlieutenant. – Geht der Tanz los, muß er mit, und ich
+            werde ruinirt in Briefporto, kann nebenbei in Thränen schwimmen.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Liebes Vaterchen, ich will ganz gewiß recht verständig sein, – ich will nicht öfter
+            schreiben, als einmal –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>einfallend.</stage>
+               <p>Täglich! – Pst! ich kenne das! <stage>Seine Tochter abwehrend.</stage> Na, es ist nun
+            gut.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Liebes Papachen!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>halb weich.</stage>
+               <p>Pst! Laß mich jetzt – werde mir die Sache überlegen. Vor allen Dingen muß ich mit dem
+            jungen Herrn selber sprechen!</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Ach ja, Du Goldpapa!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Pst! sage ich. – Setze Dir nichts in den Kopf, Mädel – <stage>Aufstehend.</stage> Ich
+            habe für meinen Theil gegen den Assessor nichts – aber Krieg oder Frieden von Europa
+            werden diesmal für Dich den Ausschlag geben. Morgen, mein Kind! <stage>Rechts
+              ab.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Vierte Scene.</head>
+            <stage>Jenny allein.</stage>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Ach Du lieber Gott, nun hänge ich armes Wurm von Europa ab. Was doch aus dem Menschen
+            nicht Alles werden kann! Aber böse war der Vater gar nicht, es wird am Ende Alles noch
+            gut gehen, wenn nur Europa wollte. Daß mir der dumme Krieg grade dazwischen kommen muß!
+            Ob ich nun an die Kammern petitionire – Nein, ich werde lieber an die sechs Großmächte
+            schreiben! <stage>Ab nach links.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="5" facs="#f0005"/> Fünfte Scene.</head>
+            <stage>Johann durch die Mitte.</stage>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Es wird wirklich großartig, wo man hinhört – nischt als Krieg. Kommt eben 'ne
+            Bettelfrau – kriegt ihren Sechser, wies hier bei uns Mode ist. Sagt se: »Haben Se nicht
+            en abgelegtes Hemde von de Herrschaft? Ich wolle gern en bisken Charpie zupfen!« Die
+            Großmächte sangen erst an mit's Conferenzeln – und die Bettelfrau is schon beis Charpie
+            zupfen. Da hört wirklich Allens auf! <stage>Es klopft.</stage> Herein!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Sechste Scene.</head>
+            <stage>Barbier. Johann.</stage>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Morgen! – Der Olle zu Hause?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>giebt ihm die Hand.</stage>
+               <p>Jun Morgen! <stage>An der Thür des Majors.</stage> Herr Major, der Barbier.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>von innen.</stage>
+               <p>Soll morgen wiederkommen!</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Morgen? Ich hätte eine wichtige Angelegenheit – Du, des is mir sehr unangenehm!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Unangenehm? Warum?</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>I – des dicke Rennthier hier nebenbei fragt mir alle Morgen beim Einseifen, wie viele
+            Kanonen wir in Preußen haben. Ich habe mit de Militairbärte nich mehr ville zu thun, des
+            is jetzt Allens <hi rendition="#i">Army Razor's</hi> von Austrichen, und da dacht' ich, Deine olle
+            Kanone würde mir des sagen können. Kannst'en nich mal fragen?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ne – er schreibt alleweile. Kanonen – Kanonen – Na, weeßt De, jeder forsche Student hat
+            zwee, des weeß ich wohl, aber die andern kenne ich nich. Aber was will denn der Dicke
+            mit de Kanonen?</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Na, man so – er will abrechnen, von wegen Krieg und Frieden. – Sage mal, was denken se
+            denn hier? Wie denkt denn der Olle, wie denkst Du denn?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Unsinn – deß Ihr Alle verrückt seid mit Euren Krieg <pb n="6" facs="#f0006"/> Sage mir nu mal, wie
+            kommt Ihr denn eigentlich daruf, – warum soll es denn nu mit Gewalt Krieg geben?</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Warum? Naive Frage! – Ich habe eijentlich keenen Augenblick Zeit, aber des muß ich Dir
+            doch noch auseinandersetzen. Ich barbiere nämlich den neapolitanischen Gesandten seinen
+            Kutscher, un da bin ich so immer mit in des Gedrängte von Europa.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na man los.</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Siehste – eijentlich is Allens gut: Außland wird nich – Oesterreich kann nich – Preußen
+            mag nich – England will nich – un Frankreich will eijentlich doch nich – aber Eener will
+            nu doch den Kieg.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Eener? – Een eenziger – na – wer denn?</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER</speaker>
+               <stage>stößt ihn an.</stage>
+               <p>Thu man doch nich so!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ich weeß et wahrhaftig nich!</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Hehehe – Du weeßt es ja.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ne sag ich Dir – <stage>Fragend.</stage> Na?</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Siehste – Na – Du weeßt es schon.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na –</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Na – hehehe – Na – na sag's doch.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na – ach so! – <stage>Will sagen Napoleon.</stage> Nap –</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER</speaker>
+               <stage>hält ihn den Mund zu.</stage>
+               <p>Hehehe – siehste – das Du's weeßt – daß Du meinen Collegen kennst?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Was – Dein –</p>
+            </sp>
+            <sp who="#barbier">
+               <speaker>BARBIER.</speaker>
+               <p>Natürlich – siehste, ich bin man so'n kleener Pfuscher bei meine paar Kunden – aber
+            mein College – Na – des is der Großmeester von des janze, barbierende Europa – Na,
+            Morgen Johann! <stage>Ab durch die Mitte.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="7" facs="#f0007"/> Siebente Scene.</head>
+            <stage>Johann gleich darauf. Milchfrau durch die Mitte.</stage>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ja – wenn die Sachen so stehn – denn wird's wohl heißen: Marsch erstes Ufgebot – Nu ich
+            habe die Ehre, erstes Ufgebot zu sein. – Na, wir wollen die Sache schon kriegen – da is
+            mich nu jar nich bange – jar nich.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU</speaker>
+               <stage>durch die Mitte.</stage>
+               <p>Aber is denn och jar Niemand nich hier? Des is ja ne Zucht – keen Mensch in der Küche –
+            als wenn schon Allens geflohen wäre vor de Franzosen – ach da sind Sie ja, Herr
+            Johann.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ju'n Morgen, Herr Milchmann.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>De drei Quart hab ich in die Küche gestellt. Aber hören Se – es is gut – deß ich Sie
+            finde – ich habe schon ne janze Weile draußen uf'n Flur uf Ihnen gewart.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Uf mir, schöne Michfälscherin?</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Ich hatte mir vorgenommen, Ihnen was zu fragen – Sie sind ja een verständiger Mann – un
+            werden mich gewiß een guten Rath jeben können!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ah – sehr schmeichelbar – mit dem größten Vergnügen.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Sehn Se – die Sache is die – ich fahre nu schon 5 Jahre als Wittwe de Milch aus Groß-
+            Ziethen nach Berlin.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>trocken.</stage>
+               <p>Hm – über'm Gesundbrunnen!</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Hab' mer och janz ehrlich en hübsches Sümmchen verdient. Un nu kenne ich Eenen – der
+            och een paar Iroschens hat – nen soliden Mann – der Freude un Leid des Milchgeschäfts
+            mit mir theilen will.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>trocken.</stage>
+               <p>Hm – so mitplantschern.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Was ich nu aber fragen wollte – Se reden so alleweile jetzt so fürchterlich ville von
+            Krieg –</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na deshalb wird Ihnen de Milch nich zusammenloofen – wenn's noch een Donnerwetter
+            wäre!</p>
+               <pb n="8" facs="#f0008"/>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Ne – des nich – Aber müssen denn nu – wenn's wirklich los jeht – alle Männer mit im
+            Krieg?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>nachdenkend.</stage>
+               <p>Hm – ingesegnet is er doch Ihr Charmanter?</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Na des versteht sich. Was denken Se denn von mich?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Denn muß er ooch mit!</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Er is aber nu schon mehr wie ingesegnet – ville mehr!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ach Herrjeh – een oller Bursche un so ne schöne Alpnerin?</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Na – een gesetzter Mann, wie ich en brauche!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Helft ihm Allens nischt – muß ooch mit. <stage>Beiläufig.</stage> Sagen Se – wie ville
+            haben Se sich denn gespart? Wenn ich Ihnen en juten Rath jeben soll – warten Se de
+            Krisis ab.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>De Krisis – was is denn des?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na – wie soll ich Ihnen des erklären – Krisis is zum Beispiel: Wenn so ne Menge Dokters
+            an een Kranken rumgedoktert haben, een endlich ufgegeben – un de Natur hilft sich denn
+            selber – des ist de Krisis.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Aha – aber was glauben Sie denn nu eijentlich – wird denn Krieg oder Frieden
+            werden?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ja – sehn Se – da kommts nu wieder uf de Krisis an <stage>Beiläufig.</stage> Wieviel
+            haben Se sich denn gespart?</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Na, so meine 600 Thälerchen hab' ich wohl.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>bei Seite.</stage>
+               <p>600 Thaler? Un bei den vorjährigem Wassermangel – na wenn mir nu erst nasse Jahre
+            haben. <stage>Laut.</stage> Hören Sie – ich glaube, es wird een doller Krieg – lassen Se
+            den Ollen schießen <stage>Will sie umarmen.</stage> ich nehme so Theil an Ihnen – ich
+            kann's Ihnen jar nich sagen – Se könnten wahrhaftig noch mal Wittwe werden – eh Se
+            gehairathet hätten <stage>Will ihr einen Kuß geben.</stage> Ich will Ihnen helfen –
+            Nenne mich Du.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU.</speaker>
+               <p>Na hören Se – von wegen <hi rendition="#i">die</hi> Krisis können Se mer leid thun, Herr Johann.
+              <stage>Will gehn.</stage>
+               </p>
+               <pb n="9" facs="#f0009"/>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Oho – aber Krieg wird <hi rendition="#i">doch</hi>, sag ich' Ihnen, schöner Milchmann – un Ihr
+            Oller muß ooch mit – wir müssen Alle mit – ich sage Ihnen, es wird ein
+            Kapitalkriegelchen, – des Blut wird fließen, daß Se die Erdaxe mit einschmieren
+            können.</p>
+            </sp>
+            <sp who="#milchfrau">
+               <speaker>MILCHFRAU</speaker>
+               <stage>abgehend durch die Mitte.</stage>
+               <p>Johann, Sie sind een grausames Ungeheuer!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Achte Scene.</head>
+            <stage>Johann dann. Major von rechts.</stage>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Hahaha – na das wird den Ollen och nich lieb sind, daß ich der den Floh in's Ohr
+            gesetzt habe.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>ihm einen Brief übergebend.</stage>
+               <p>Diesen Brief zum Assessor – aber schnell.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>Brief nehmend.</stage>
+               <p>Mehr als schnell – telegräflich, Herr Major. <stage>Ab durch die Mitte.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Neunte Scene.</head>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>allein.</stage>
+               <p>Neugierig bin ich, wie er sich benehmen wird, der junge Herr – Kenne ihn eigentlich
+            noch wenig – sieht aber aus, wie ein resoluter Mann. Na, denke, wird's auch sein.
+              <stage>Es klopft.</stage> Herein!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Zehnte Scene.</head>
+            <stage>Major. Paddemann.</stage>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Guten Morgen, Herr Major, habe die Ehre, Ihnen guten Morgen zu wünschen – Störe doch
+            nicht?</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Macht sich.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Wollte nicht verfehlen, dem Herrn Major die vierteljährlichen Zinsen von Ihrer Hypothek
+            zu bringen.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Ach so, – bitte, legen Sie dahin!</p>
+               <pb n="10" facs="#f0010"/>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Zugleich aber auch als Wirth des Hauses meine Aufwartung machen, den Herrn Major
+            fragen, ob Sie vielleicht irgend etwas in Ihrer Wohnung befehlen, vielleicht Ofen
+            umsetzen – Oder zieht ein Fenster – oder –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Danke, Herr Paddemann, Alles in Ordnung. Etwas Platz nehmen? Cigarre rauchen? – Bitte,
+            bedienen Sie sich dort.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Zu gnädig, Herr Major – wenn Sie einen Augenblick erlauben.</p>
+               <stage>Major setzt sich an den Tisch rechts, wie vorhin, Paddemann links, steckt sich eine
+            Cigarre an.</stage>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Nichts Neues?</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Immer noch nicht, so viel ich weiß. Se heddern sich diesmal höllisch lange herum.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>mit den Fingern auf den Tisch trommelnd.</stage>
+               <p>Womit meinen Sie, Herr Paddemann?</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Ich meine, eh' es nu wirklich losgeht, Herr Major.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Ach so, mit dem Kriege. Wie denken Sie denn als solider Bürger?</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>reibt sich die Hände.</stage>
+               <p>Na, hören Se, Herr Major, es wird ene wahre Lust sein, wenn's nur erst losgegangen ist
+            – und die Zeitungen kommen erst. Wenn man so Morgens bei de Cigarre liest von
+            Schlachten, Belagerungen und Bombardements!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>ganz erstaunt.</stage>
+               <p>Alle Donnerwetter – Sie wüschen den Krieg?</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Ja, warum denn nich? – Sehn Sie, Herr Major, unser Eener braucht nicht mehrmit und kann
+            die Sache also abwarten. Jetzt, wenn man des Abends zu seine Weiße geht, sitzen se Alle
+            da – Keener weeß en Wort zu sprechen. Nachher wird de Sache ganz anders – wenn se sich
+            man erst en Bisken faßten.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>erstaunt.</stage>
+               <p>Also – Sie wünschen im vollen Ernste Krieg, Herr Paddemann.</p>
+               <pb n="11" facs="#f0011"/>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Ja, Herr Major! Ich habe och keene Bange für uns – ich bin auch kein Hasenfuß –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Kann sein, Herr Paddemann. Aber das muß ich sagen, Sie sind der erste gute Bürger, von
+            dem ich höre, daß er den Krieg wünscht. Der Krieg ist etwas <hi rendition="#i">Schreckliches</hi>.
+            Wir alten Soldaten wissen noch davon zu erzählen. <stage>Von jetzt an immer artiger und
+              freundlicher werdend.</stage> Bis jetzt hab' ich auch immer geglaubt, daß sich ein
+            ruhiger und solider Bürger unmöglich nach Krieg sehnen kann.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>immer sehr freundlich.</stage>
+               <p>O – bitte recht sehr, Herr Major – warum denn nicht?</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Weil ich bis jetzt gefunden habe, daß sich eigentlich nur ruinirte Leute den Krieg
+            wünschen, mindestens <hi rendition="#i">halb</hi> ruinirte – so als kleinen Schleier über den
+            ganzen Ruin.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Bitte recht sehr, Herr Major – nein – o nein.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>bei Seite.</stage>
+               <p>Warte nur, Du alter Weißbierheld! Dich will ich kuriren! <stage>Laut.</stage>
+            Uebrigens, mein lieber Herr Paddemann, haben Sie mich da selbst auf die Gefahren des
+            Krieges aufmerksam gemacht – ich weiß nicht, ob mein Alter daran Schuld ist – aber ich
+            sinde, daß Kapitalien auf Häuser in der jetzigen Zeit nicht ganz sicher untergebracht
+            sind.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>lang.</stage>
+               <p>O, so war es nicht gemeint.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Na, es ist jedenfalls bedenklich und so nehme ich den Moment wahr und würde Sie bitten,
+            mir die Hypothek von 20000 Thaler am nächsten Termin auszuzahlen – ich werde die
+            Kündigung gleich nachher schriftlich und legal besorgen lassen.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>zerschmettert, will aufstehen, fällt wieder zurück.</stage>
+               <p>Herr Major, Sie werden doch nicht? <stage>Läßt die Cigarre fallen.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Mein lieber Paddemann, man kann die Folgen eines Krieges nicht vorher absehen.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN.</speaker>
+               <p>Na, glauben Siedenn wirklich an Krieg? Die Verhältnisse sind ja noch gar nicht so
+            schlimm.</p>
+               <pb n="12" facs="#f0012"/>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Wenn auch – Sie haben mich besorgt gemacht. Es könnte doch auch in der Nähe eine
+            Schlacht sein – man könnte hier belagert werden und bombardirt und dann könnte Ihr Haus
+            und meine Hypothek zusammengeschossen werden. – Also besser ist besser, mein liebes
+            Paddemännchen.</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>aufstehend.</stage>
+               <p>Aber mein guter Herr Major – ich bin überzeugt, wir behalten Frieden, ich glaube an den
+            Frieden, <hi rendition="#i">ich wünsche</hi> ja den <hi rendition="#i">Frieden</hi>. Ich bin ja
+            Stadtverordneter, ich will nur den Frieden.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Bitte recht sehr – das hat ja jetzt mit unseren Geschäften nichts mehr zu thun –
+              <stage>Steht auf.</stage> ich werde Ihnen den Kündigungs-Brief bald besorgen. Guten
+            Morgen, Paddemännchen. <stage>Ab nach rechts.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Eilfte Scene.</head>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>allein, läuft ihm nach bis zur Thür.</stage>
+               <p>Aber Herr Major, ich bitte Sie – guter Herr Oberst- Lieutenant Sie werden doch nicht
+            einen guten soliden Bürger in's Unglück stürzen? – Er hört nicht. <stage>Wieder nach
+              vorne.</stage> Ich glaube – das ist die größte Dummheit, die ich in meinem Leben
+            gemacht habe. Wenn ich nur eine Ahnung gehabt hätte – ich wäre ja gegen den alten
+            Brummbär das reine Olivenblatt gewesen – die Taube mit dem Olivenblatt – der reine Elihu
+            Burrit. Wer wird mir denn jetzt die 20000 Thaler pumpen? Ja, wenn Friede bliebe – aber
+            so – <stage>Nach kurzer Pause.</stage> Es muß auch wirklich Friede bleiben. <stage>Ab
+              durch die Mitte.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Zwölfte Scene.</head>
+            <stage>Jenny von links. Assessor durch die Mitte. Johann.</stage>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Er kömmt – ich muß ihn sprechen, ehe er zum Papa geht.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Liebe Jenny! <stage>Handkuß.</stage>
+               </p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ach so – nun – ich sehe nichts – strenge Neutralität. <stage>Dreht sich um und sieht
+              die Bilder an.</stage>
+               </p>
+               <pb n="13" facs="#f0013"/>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Es geht Alles gut, Arthur – nur das wollte ich Ihnen sagen – reden Sie nicht zu viel
+            vom Krieg mit dem Papa, besonders sein Sie nicht selbst zu kriegerisch. Wenn er denkt,
+            daß Sie mit fort müssen, als mein Bräutigam – besinnt er sich noch länger, »Ja« zu
+            sagen. Hören Sie, sein Sie friedlich.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Ihnen zu Liebe Alles! Jetzt zu Ihrem Vater. <stage>Zu Johann.</stage> Wollen Sie mich
+            dem Herrn Major melden?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>sich wieder umsehend.</stage>
+               <p>Ach so gleich – <stage>Ab nach rechts.</stage>
+               </p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Also vorsichtig!</p>
+               <stage>An der Thür ihm eine Kußhand zuwerfend, links ab.</stage>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Eigentlich bin ich mit Leib und Seele Soldat – Es wird mir schwer werden, den
+            Friedensengel zu spielen – doch es muß sein.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Dreizehnte Scene.</head>
+            <stage>Assessor. Major. Johann.</stage>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Ah, da sind Sie ja schon. <stage>Giebt ihm die Hand. Zu Johann.</stage> Ist gut,
+            Johann.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Is gut, Herr Major. <stage>Ab durch die Mitte.</stage>
+               </p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Sie haben befohlen, und meine Eile, Ihrem Befehl nachzukommen, wird Ihnen erklärlich
+            sein, Herr Major.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>zum Sitzen einladend.</stage>
+               <p>Setzen? <stage>Beide setzen sich, wie in der Scene mit Paddemann.</stage> Sie wünschen
+            also meine Tochter zu heirathen?</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>will aufstehen.</stage>
+               <p>Die innigste aufrichtigste Liebe, Herr Major –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Pst – bitte – sitzen bleiben. <stage>Assessor setzt sich.</stage> Liebe wird
+            vorausgesetzt – habe noch einige andere Punkte mit Ihnen zu reden – weniger
+            schwärmerisch – Müssen die Poesie jetzt bei Seite lassen – praktisch sein – ehrlich,
+            offen.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Ich bin zu jeder Auskunft bereit.</p>
+               <pb n="14" facs="#f0014"/>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Kenne Ihren Vater – ist wohlhabend. Sie haben eine feste Stellung – ich bin auch nicht
+            unvermögend. Geldpunkt würde also kein Hinderniß sein. Ich setze voraus, daß Ihr Vater
+            Ihnen seine Einwilligung nicht versagt.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>aufstehend.</stage>
+               <p>Meinem Vater würde diese Verbindung zur größten Ehre –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Pst – bitte – sitzen bleiben. <stage>Assessor setzt sich.</stage> Setze das auch
+            voraus, doch müssen die Zeiten berücksichtigen, in denen wir leben. Der Friede hängt an
+            einem Haar – sieht sehr kriegerisch aus.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>weich.</stage>
+               <p>O – ich bin überzeugt, daß wir Friede behalten, Herr Major.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Sind Landwehroffizier.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>aufstehend.</stage>
+               <p>Zu Befehl, Herr Major – habe die Ehre.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Pst – bitte – sitzen bleiben. <stage>Assessor setzt sich.</stage> Müssen sich selbst
+            sagen, daß eigentlich jetzt keine Zeit zum Heirathen ist.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>weich.</stage>
+               <p>Ich hoffe doch, daß es der Diplomatie gelingen wird, den Frieden zu erhalten –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Wenn er aber nun nicht erhalten wird – nehmen Sie an, nicht erhalten.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>aufstehend.</stage>
+               <p>O – dann werde auch ich –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>einfallend.</stage>
+               <p>Pst – bitte – sitzen bleiben.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>sich fallen lassend und matt, bei Seite.</stage>
+               <p>Ach ja so – <stage>Laut.</stage> dann werde auch ich mitziehen müssen.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Und dann sitze ich hier mit einer trauernden Braut – kann Ihren Briefträger gleich hier
+            in's Quartier nehmen. Wir haben Beispiele vom 7jährigen, vom 30jährigen Kriege.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>verlegen.</stage>
+               <p>Herr Major –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Nun, was denn?</p>
+               <pb n="15" facs="#f0015"/>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>sehr kleinlaut.</stage>
+               <p>Ich habe Verbindungen – Protektionen im Ministerium – es würde mir vielleicht gelingen,
+            im Fall eines Krieges eine Stellung zu erhalten, bei der ich nicht persönlich erponirt
+            würde.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>bei Seite.</stage>
+               <p>Kein Soldatenblut.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Vielleicht sogar hier bleiben könnte – im Büreau der Intendatur zum Beispiel.
+              <stage>Verlegen mit dem Hut spielend.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>So – so – und Sie würden im Fall eines Krieges gesonnen sein, solchen Posten lieber
+            anzunehmen, als gegen den Feind zu marschiren?</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>kläglich.</stage>
+               <p>Das würde ich, Herr Major!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>sehr artig.</stage>
+               <p>Sie scheinen außerordentlich für Ruhe und Frieden zu sein, mein Herr Assessor.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Das bin ich in der That. <stage>Steht auf.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>aufstehend.</stage>
+               <p>Ich danke Ihnen für Ihre Auskunft. Doch Sie werden mir erlauben, daß ich noch einige
+            Stunden mit meiner Erklärung zögere – ich habe mit meiner Tochter noch zu reden –
+            jedenfalls erhalten Sie bis morgen Nachricht von mir.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Sie sind zu gütig, Herr Major.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Bitte recht sehr – ich verspreche nichts – ich sage nur: <hi rendition="#i">Nachricht</hi>. Adieu,
+            mein Herr Assessor. <stage>Im Abgehen.</stage> Ist kein Kerl auf dem Fleck – der kriegt
+            meine Jenny nicht. <stage>Ab nach rechts.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Vierzehnte Scene.</head>
+            <stage>Assessor. Johann durch die Mitte.</stage>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Ach Gott sei Dank – leicht war das nicht, den Hasenfuß zu spielen. Mir ist meiner Seele
+            zu Muthe, wie Einem, der desertirt ist. Ich schäme mich eigentlich!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Nun, Herr Lieutenant – haben Sie gut im Feuer gestanden? Es ging wohl scharf her?</p>
+               <pb n="16" facs="#f0016"/>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Sagen Sie dem Fräulein Jenny – es ginge Alles gut, der Herr Major wäre sehr freundlich
+            gewesen. <stage>Ab durch die Mitte.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Fünfzehnte Scene.</head>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Au – <stage>Sich den Kopf kratzend.</stage> freundlich? – Hihihi! Das nennt der gut
+            gehen, der kennt den Alten noch nicht. Der is wie en Diplomat, wenn er die Zähne zeigt,
+            denn hat er in sein Portenmonnaie den Frieden – und wenn er en freundliches Gesichte
+            macht, <stage>Faust ballend und in die Tasche steckend.</stage> hat er 'n Krieg in de
+            Tasche.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Sechszehnte Scene.</head>
+            <stage>Johann. Kulike durch die Mitte.</stage>
+            <sp who="#kulike">
+               <speaker>KULIKE</speaker>
+               <stage>sehr pomadig.</stage>
+               <p>Johann – des war nich hübsch von Dir.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ach, ju'n Morgen Kulike!</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Des war jar nich hübsch von Dir.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Was hab' ich denn gemacht?</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Des war wirklich durchaus nich hübsch von Dir.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na aber, was willst De denn?</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Des hätt' ich nich gedacht von Dir!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Herr Jott, wat hast De denn? So rede doch man.</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Siehste, fünf Jahre hab ich nu de Milchfrau ihre Kannen runter vom Wagen gehoben, wenn
+            se unten hielt – un den Schirm hab ich dir ihr gepumpt, wenn's regnete, un rugeholfen
+            hab ich ihr och immer wieder –</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ach Du meine Seele, des is der zukünftige Milchmann.</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Und wenn ihr's Wasser ausgegangen war, hab' ich ihr och immer gepumpt – und nu mit
+            eenmal –</p>
+               <pb n="17" facs="#f0017"/>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Also Kulike, Du bist der Olle, der mitplantschen will?</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Plantschen oder nich – des is hier enjal. Aber sehr eklig is et. Des war nich hübsch
+            von Dir, deß Du ihr de Raupen in Kopp gesetzt hast. Jetzt sagt se, ich müßte mit, un
+            will die Krisis abwarten, ehe wir uns heirathen.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ne, Kulike, wenn ich des gewußt hätte! Aber wie kann ich och denken, daß Du 'ne
+            Sponsade mit en Milchmann hast?</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Und des Dollste is – ich bin doch man Landstürmer; eh Holland nich ganz in Noth is,
+            brauch' ich ja gar nich mit.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na, Du armer Kerl – des thut mich leid.</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Des war jedenfalls nich hübsch von Dir. Jetzt bildt se sich nu steif un fest ein, wir
+            müssen Alle mit, un wie ich ihr des auseindarsetzte, daß ich doch nur eigentlich der
+            Fall der Noth bin, sagt se: Landwehr und Landsturm, des is man Allens ene Schmiere.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na, laß Dir keene graue Haare wachsen, Kulike. Wenn se morgen kommt, wer' ich ihr mit
+            Gewalt an de Thränen drüfen schlagen, un ihr den Kopp uf den Frieden verkeilen, deß sie
+            sich gleich ufbieten läßt.</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Sage mal, globst De denn, des nu eijentlich wirklich Krieg wird?</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na – siehste – na ja – aber ejentlich och wieder nich. –</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Ich hab' es bis jetzt nich jloben wollen, aber nebenbei wohnt doch der Lieutenant – Du,
+            denke Dir, des spricht doch nu eijentlich vor'n Krieg, der fängt jetzt an seine Schulden
+            zu bezahlen.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Donnerwetter ja, da muß es schlimm sind. Aber wenn es losginge, Kulike – ich muß
+            natürlich mit – Landwehr 1. Ufgebots, des is nu ene ganz andere Sache, als Eure Krepelei
+            – ich sage, wenn's nu wirklich losginge, denn ginge ich och gerne mit.</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Du?</p>
+               <pb n="18" facs="#f0018"/>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Ja, siehste, des liegt nu mal in uns Männern – in unser Geschlecht. So'ne ordentliche,
+            flotte Keilerei, des is doch wunderschön – wat?</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>O ja, aber wenn man vorher wüßte, wer nu keilt und wer de Wichse kriegt.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na siehste, des wird nu rüber und nüber gehen, denk' ich mir, wir vertragen schon en
+            Puffst – Aber janz zuletzt wichsen wir se doch, des is gewiß.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>von innen.</stage>
+               <p>Johann!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Der Olle ruft!</p>
+            </sp>
+            <sp who="#kulike">
+               <speaker>KULIKE.</speaker>
+               <p>Ja, wenn man des nu vorher so Allens gewiß wissen duhn dähte! <stage>Ab durch die
+              Mitte.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Siebenzehnte Scene.</head>
+            <stage>Major von rechts. Johann von rechts. Jenny von links.</stage>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Jenny! – Gut, daß ich Dich finde!</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>ihm entgegenhüpfend.</stage>
+               <p>Nun, Papa – nicht wahr, ja?</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>zu Johann.</stage>
+               <p>Es ist gut, Johann.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Is gut, Herr Major. <stage>Ab.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Leider muß ich »nein« sagen, mein Kind.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY</speaker>
+               <stage>bestürzt.</stage>
+               <p>Nein? Papa! Das ist recht grausam! <stage>Weint.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Na – flenne nicht gleich! – Unsinn! – Ich habe die Ueberzeugung gewonnen, daß der
+            Assessor kein Mann für <hi rendition="#i">Dich</hi> ist – weil er <hi rendition="#i">überhaupt</hi> kein Mann
+            ist, und wenn meine Tochter heirathet, soll sie einen wirklichen <hi rendition="#i">Mann</hi>
+            kriegen.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Du kennst ihn ja nicht, Papa! <stage>Weint.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Thu mir den Gefallen und heule nicht! Habe keine Bange – sitzen bleiben wirst Du doch
+            nicht.</p>
+               <pb n="19" facs="#f0019"/>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Aber mein Arthur, mein Arthur! <stage>Weint.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>bei Seite.</stage>
+               <p>Den Guß muß ich vorüber lassen. <stage>Ab nach rechts.</stage>
+               </p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>O ich bin recht unglücklich!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Achtzehnte Scene.</head>
+            <stage>Jenny. Assessor. Major. Johann.</stage>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Jenny, Sie weinen?</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>O Arthur, so haben Sie meine Bitte befolgt? Das hätt' ich nicht geglaubt. Sie haben für
+            den Krieg geschwärmt?</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Nein, Jenny. Hören Sie –</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>O ganz gewiß, und haben meine Hand verscherzt – Ihrer Eitelkeit halber,
+              <stage>Weinend.</stage> um 'nen Orden zu bekommen.</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>O nein, im Gegentheil, Jenny. Ich habe aus Liebe zu Ihnen eine Rolle gespielt, die
+            meinem Herzen fremd war, die mich <hi rendition="#i">vor</hi> mir selbst gedemüthigt hat, und die
+            ich nicht im Stande bin, durchzuführen. – Ich komme, um meine Worte zu widerrufen.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Wie? Ich verstehe Sie nicht!</p>
+               <stage>Johann kommt durch die Mitte, öffnet die Thür des Majors und winkt ihn heraus, so
+            daß Beide Zeuge der nachfolgenden Scene sind.</stage>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Ja, ich habe Ihnen zu Liebe Ihrem Herrn Vater gesagt, ich würde für den Fall des
+            Krieges dem Mitgehen ausweichen. Ich habe es gesagt – aber, bei Gott! ich denke
+            anders.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Was? – Sie wollen mich heirathen und doch in den Krieg ziehen?</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR</speaker>
+               <stage>mit Feuer.</stage>
+               <p>Ja, Jenny, fern sei von mir der Wunsch nach Krieg, – aber schickt Gott den Krieg, ruft
+            unser König, und ist unser Vaterland in Gefahr, dann werde auch ich der erste sein, der
+            alles persönliche Glück opfert, um meine Pflicht zu thun.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Mein Himmel – er opfert mich.</p>
+               <pb n="20" facs="#f0020"/>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Ja, Jenny, so wahr ich Sie liebe, so wahr sind das meine Gedanken, und ich bin
+            gekommen, Ihrem Herrn Vater das zu sagen <stage>Jenny's Hand ergreifend.</stage> Zürnen
+            Sie nicht – ich kann nicht anders. <stage>Will rechts ab.</stage>
+               </p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR</speaker>
+               <stage>vortretend.</stage>
+               <p>Wär' auch schlecht anders. Bravo! Das kam aus der Seele und war recht brav
+            gesprochen.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Himmel, der Vater –</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Herr Major –</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Pst, keine Worte, Sie sind ein ganzer Mann, Assessor <stage>Schüttelt ihm die
+              Hand.</stage> Das war ein Wort zu seiner Zeit.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>ihm gleichzeitig die andere Hand schüttelnd.</stage>
+               <p>Werden sehr flott mitkeilen – Bravo, Herr Lieutenant.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Da ich nun genau weiß, wie Sie so über den Krieg denken, will ich nu mal auf Frieden
+            spekuliren und sagen – da habt Ihr Euch.</p>
+            </sp>
+            <sp who="#jenny">
+               <speaker>JENNY.</speaker>
+               <p>Ach Herzenspapa!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Pst! Na?</p>
+            </sp>
+            <sp who="#assessor">
+               <speaker>ASSESSOR.</speaker>
+               <p>Wie soll ich Ihnen danken, Herr Major!</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>bei Seite.</stage>
+               <p>Eigentlich mir – mir!</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Schwiegerpapa heiß' ich jetzt. – Na? Na?</p>
+               <stage>Jenny und Assessor sehen sich beide verlegen an.</stage>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Na, willst Du ihr nicht en Kuß geben, Junge?</p>
+               <stage>Jenny und Assessor umarmen sich.</stage>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN.</speaker>
+               <p>Na, nu is der Friede fertig – nu fehlt weiter nischt als die Adlerfeder von
+            Dunnemals!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Neunzehnte Scene.</head>
+            <stage>Vorige. Paddemann.</stage>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>hereinstürzend.</stage>
+               <p>Herr Major – Herr Major – es giebt Congreß, es bleibt Friede.</p>
+               <pb n="21" facs="#f0021"/>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>So so! Haben sie die 20000 Thaler Schon aufgenommen, Herr Paddermann?</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDERMANN.</speaker>
+               <p>Nein, Herr Major, guter Herr Major, nein. – Es bleibt zwar Friede – aber pumpen thut
+            Einem das Geldvolk doch nicht. Aber – die Staatsschuldscheine sind wieder gestiegen,
+            glauben Sie mir, Herr Oberstlieutenant – es bleibt Friede – ruiniren Sie 'nen soliden
+            Bürger nicht. Mein dicker Portier heirathet sich die Milchfrau aus Groß-Ziethen – das
+            kann ja nur im tiefsten Frieden geschehen. Lassen Sie mir doch die Lumperei von 20000
+            Thaler, ich steigere Sie och nicht in diesem Jahre, wahrhaftig nich <stage>Bei
+              Seite.</stage> erst nächstens.</p>
+            </sp>
+            <sp who="#major">
+               <speaker>MAJOR.</speaker>
+               <p>Na Paddemännchen, ich habe heute schon mehr auf Frieden spekuliren müssen, und da will
+            ich es mit Ihnen der Consequenz halber auch thun. Wenn Krieg wird, dann gehen wir jungen
+            Leute <stage>Den Assessor bei der Hand nehmend.</stage> mit Gott für König und Vaterland
+            mit – und thun unsere Schuldigkeit; aber ehe es soweit kommt, wünschen wir, lieber Herr
+            Paddemann –</p>
+            </sp>
+            <sp who="#paddemann">
+               <speaker>PADDEMANN</speaker>
+               <stage>mit Haltung.</stage>
+               <p>Wie jeder solide und ruhige Bürger Ruhe und Frieden.</p>
+            </sp>
+            <sp who="#johann">
+               <speaker>JOHANN</speaker>
+               <stage>zum Publikum.</stage>
+               <p>Aber Sie können immer ein Bischen Skandal machen.</p>
+            </sp>
+            <stage>Der Vorhang fällt.</stage>
+            <pb n="22" facs="#f0022"/>
+         </div>
+      </body>
+   </text>
+</TEI>

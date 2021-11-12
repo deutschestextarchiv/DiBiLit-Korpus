@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Sammler und die Seinigen</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118540238">
+                  <forename>Johann Wolfgang</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Goethe</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:09Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004855884</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Goethe, Johann Wolfgang/Theoretische Schriften/Der Sammler und die Seinigen</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/11fx7.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0006-64DD-6</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Johann Wolfgang von Goethe: Berliner Ausgabe.Kunsttheoretische Schriften und Übersetzungen [Band 17–22], Band 19, Berlin 1960 ff</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Kunsttheoretische Schriften und Übersetzungen</title>
+                  <title level="m" type="volume">1: Aufsätze zur bildenden Kunst (1772-1808). Winckelmann
+      und sein Jahrhundert. Philipp Hackert</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">270 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Aufbau Verlag</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1973</date>
+                  <date type="firstPublication">1799</date>
+                  <date type="firstPublication" subtype="clariah">1799</date>
+                  <date type="firstPublication" subtype="zeno">1799</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1749"
+                        notAfter="1832"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="s" type="main">Berliner Ausgabe</title>
+                  <title level="s" type="volume">Band 19</title>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Goethe-Johann-W-d1e340642">Erstdruck in: Propyläen (Tübingen), 2. Bd., 2. Stück, 1799.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Theoretische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theorie</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Goethe-Johann-W-d1e340642">
+            <p rend="h3">Johann Wolfgang Goethe</p>
+            <p rend="h2">Der Sammler und die Seinigen</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Goethe-Johann-W-d1e340659" type="chapter">
+            <head>
+               <pb n="207" facs="#f0001"/>
+Erster Brief</head>
+            <p>Wenn Ihr Abschied nach den zwei vergnügten, nur zu schnell verfloßnen Tagen mich eine große Lücke und Leere fühlen ließ, so hat Ihr Brief, den ich so bald erhielt, so haben die beigefügten Manuskripte mich wieder in eine behagliche Stimmung versetzt, derjenigen ähnlich, die ich in Ihrer <pb n="208" facs="#f0002"/>
+Gegenwart empfand. Ich habe mich unsers Gesprächs wieder erinnert, ich habe mich jetzt wie damals gefreut, daß wir in so vielen Fällen als Kunstbeurteiler zusammentreffen.</p>
+            <p rendition="#et">Diese Entdeckung ist mir doppelt schätzbar, indem ich Ihre Meinung sowie die meinige täglich prüfen kann, ich darf nur ein Fach meiner Sammlung, welches ich will, vornehmen, darf es durchgehen und mit unsern theoretischen und praktischen Aphorismen zusammenhalten. Da geht es denn oft recht gut und heiter, manchmal stoße ich an, manchmal kann ich weder mit Ihnen noch mit mir selbst einig werden. Indessen bewährt sich doch, daß man schon viel gewonnen hat, wenn man in Hauptsachen miteinander übereintrifft, wenn das Kunsturteil, das zwar wie eine Waage immer hin und wider schwankt, doch an einem tüchtigen Kloben befestigt ist und nicht, wenn ich im Gleichnis verharren darf, Waage und Waagschalen zugleich hin und wider geworfen werden.</p>
+            <p rendition="#et">Sie haben für die Schrift, die Sie herauszugeben gedenken, durch diese Probestücke meine Hoffnungen und meine stille Teilnahme verstärkt, und gern will ich auch auf irgendeine Weise, deren ich mich fähig fühle, zu Ihren Absichten mit beitragen. Theorie ist nie meine Sache gewesen, was Sie von meinen Erfahrungen brauchen können, steht von Herzen zu Diensten. Und um hiervon einen Beweis zu geben, fange ich sogleich an, Ihren Wunsch zu erfüllen. Ich werde Ihnen nach und nach die Geschichte meiner Sammlung aufzeichnen, deren wunderliche Elemente schon manchen überrascht haben, wenn er gleich durch den Ruf schon genugsam vorbereitet zu mir kam. Auch Ihnen ist es also gegangen. Sie wunderten sich über den seltsamen Reichtum in den verschiedensten Fächern, und Ihre Verwunderung würde noch gestiegen sein, wenn Zeit und Neigung Ihnen erlaubt hätte, von allem Kenntnis zu nehmen, was ich besitze.</p>
+            <p rendition="#et">Von meinem Großvater brauche ich am wenigsten zu <pb n="209" facs="#f0003"/>
+sagen, er legte den Grund zum Ganzen, und wie gut er ihn gelegt hat, bürgt mir selbst Ihre Aufmerksamkeit auf alles das, was sich von ihm herschrieb. Sie hefteten sich vorzüglich an diesen Pfeiler unsers seltsamen Familiengebäudes mit einer solchen Neigung und Liebe, daß ich Ihre Ungerechtigkeit gegen einige andere Fächer nicht unangenehm empfand und gern mit Ihnen bei jenen Werken verweilte, die auch mir wegen ihres Werts, ihres Alters und ihres Herkommens heilig sind. Freilich kommt es viel auf den Charakter, auf die Neigung eines Liebhabers an, wohin die Liebe zum Gebildeten, wohin der Sammlungsgeist, zwei Neigungen, die sich oft im Menschen finden, ihre Richtung nehmen sollen; und ebensoviel, möchte ich behaupten, hängt der Liebhaber von der Zeit ab, in die er kommt, von den Umständen, unter denen er sich befindet, von gleichzeitigen Künstlern und Kunsthändlern, von den Ländern, die er zuerst besucht, von den Nationen, mit denen er in irgendeinem Verhältnis steht. Gewiß von tausend dergleichen Zufälligkeiten hängt er ab. Was kann nicht alles zusammentreffen, um ihn solid oder flüchtig, liberal oder auf irgendeine Weise beschränkt, überschauend oder einseitig zu machen!</p>
+            <p rendition="#et">Dem Glücke sei es gedankt, daß mein Großvater in die beste Zeit, in die glücklichste Lage kam, um das an sich zu ziehen, was einem Privatmanne gegenwärtig fast unmöglich sein würde. Rechnungen und Briefe über den Ankauf sind noch in meinen Händen, und wie unverhältnismäßig sind die Preise gegen die jetzigen, die eine allgemeinere Liebhaberei aller Nationen so hoch gesteigert hat.</p>
+            <p rendition="#et">Ja, die Sammlung dieses würdigen Mannes ist für mich, für meine übrigen Besitzungen, für mein Verhältnis und mein Urteil, was die Dresdener Sammlungen für Deutschland sind: eine ewige Quelle echter Kenntnis für den Jüngling, für den Mann Stärkung des Gefühls und guter Grundsätze und für einen jeden, selbst für den flüchtigsten Beschauer, heilsam; denn das Vortreffliche wirkt auf Eingeweihte <pb n="210" facs="#f0004"/>
+nicht allein. Ihr Ausspruch, meine Herren, daß keines dieser Werke, die sich von meinem guten Alten herschreiben, sich neben jenen königlichen Schätzen schämen dürfte, hat mich nicht stolz, er hat mich nur zufrieden gemacht, denn in der Stille hatte ich dieses Urteil schon selbst gewagt.</p>
+            <p rendition="#et">Ich schließe diesen Brief, ohne meinen Vorsatz erfüllt zu haben. Ich schwätzte, anstatt zu erzählen. Zeigt sich doch in beiden die gute Laune eines Alten so gern. Kaum habe ich noch Platz, Ihnen zu sagen, daß Oheim und Nichten Sie herzlich grüßen und daß Julie besonders sich öfter und lebhafter nach der lange verzögerten Dresdener Reise erkundigt, weil sie hoffen kann, unterwegs ihre neuen und so lebhaft verehrten Freunde wiederzusehen. Und fürwahr auch keiner ihrer alten Freunde soll sich herzlicher als der Oheim unterzeichnen</p>
+            <p>Ihren treu verbundnen. </p>
+         </div>
+         <div xml:id="Goethe-Johann-W-d1e340702" type="chapter">
+            <head>Zweiter Brief</head>
+            <p>Sie haben durch die gute Aufnahme des jungen Mannes, der sich mit einem Briefe von mir bei Ihnen vorstellte, eine doppelte Freude gemacht, indem Sie ihm einen heitern Tag und mir durch ihn eine lebhafte mündliche Nachricht von sich, Ihrem Zustande, Ihren Arbeiten und Vorsätzen verschafften.</p>
+            <p rendition="#et">Diese lebhafte Unterhaltung über Sie in den ersten Augenblicken seiner Wiederkunft verbarg mir, wie sehr er sich in seiner Abwesenheit verändert hat. Als er auf Akademien zog, versprach er viel. Er trat aus der Schule, stark im Griechischen und Lateinischen, mit schönen Kenntnissen beider Literaturen, bewandert in der alten und neuen Geschichte, nicht ungeübt in der Mathematik und was noch alles erfordert wird, um dereinst ein tüchtiger Schulmann zu werden, und nun kommt er zu unserer größten Betrübnis als Philosoph zurück. Der Philosophie hat er sich vorzüglich, ja ausschließlich gewidmet, und unsere kleine <pb n="211" facs="#f0005"/>
+Sozietät, mich eingeschlossen, die wir denn freilich keine sonderlichen philosophischen Anlagen zu haben scheinen, ist sämtlich um Unterhaltung mit ihm verlegen; was wir verstehen, interessiert ihn nicht, und was ihn interessiert, verstehen wir nicht. Er redet eine neue Sprache, und wir sind zu alt, sie ihm abzulernen.</p>
+            <p rendition="#et">Was ist das mit der Philosophie und besonders mit der neuen für eine wunderliche Sache! In sich selbst hineinzugehen, seinen eignen Geist über seinen Operationen zu ertappen, sich ganz in sich zu verschließen, um die Gegenstände desto besser kennenzulernen! Ist das wohl der rechte Weg? Der Hypochondrist, sieht der die Sachen besser an, weil er immer in sich gräbt und sich untergräbt? Gewiß, diese Philosophie scheint mir eine Art von Hypochondrie zu sein, eine falsche Art von Neigung, der man einen prächtigen Namen gegeben hat. Verzeihen Sie einem Alten, verzeihen Sie einem praktischen Arzte.</p>
+            <p rendition="#et">Doch hievon ja nichts weiter! Die Politik hat mir meinen Humor nicht verdorben, und es soll der Philosophie gewiß auch nicht gelingen; also geschwind, ins Asyl der Kunst! geschwind zur Geschichte, die ich versprochen habe, damit nicht diesem Briefe gerade das mangle, weswegen er angefangen ist.</p>
+            <p rendition="#et">Als mein Großvater tot war, zeigte der Vater erst, daß er nur für eine gewisse Art von Kunstwerken eine entschiedene Liebhaberei habe; ihn erfreute die genaue Nachahmung der natürlichen Dinge, die man damals mit Wasserfarben auf einen hohen Grad getrieben hatte. Erst schaffte er nur solche Blätter an, dann hielt er sich einige Maler im Solde, die ihm Vögel, Blumen, Schmetterlinge und Muscheln mit der größten Genauigkeit malen mußten. Nichts Merkwürdiges kam in der Küche, dem Garten oder auf dem Felde vor, das nicht gleich durch den Pinsel aufs Papier fixiert worden wäre, und so hat er manche Abweichungen verschiedner Geschöpfe bewahrt, die, wie ich sehe, den Naturforschern interessant sind.</p>
+            <p rendition="#et">
+               <pb n="212" facs="#f0006"/>
+Nach und nach ging er weiter, er erhub sich zum Porträt. Er liebte seine Frau, seine Kinder; seine Freunde waren ihm wert, daher die Anlage jener Sammlung von Porträten.</p>
+            <p rendition="#et">Sie erinnern sich auch wohl der vielen kleinen Bildnisse in Öl, auf Kupfer gemalt. Große Meister hatten in früherer Zeit, vielleicht zur Erholung, vielleicht aus Freundschaft, dergleichen verfertigt, es war daraus eine löbliche Gewohnheit, ja eine eigne Art Malerei geworden, auf welche sich besondere Künstler legten.</p>
+            <p rendition="#et">Dieses Format hatte seine eignen Vorteile. Ein Porträt in Lebensgröße, und wäre es nur ein Kopf oder ein Kniestück, nimmt für das Interesse, das es bringt, immer einen zu großen Raum ein. Jeder fühlende, wohlhabende Mann sollte sich und seine Familie, und zwar in verschiednen Epochen des Lebens, malen lassen. Von einem geschickten Künstler bedeutend in einem kleinen Raume vorgestellt, würde man wenig Platz einnehmen, man könnte auch alle seine guten Freunde um sich her versammeln, und die Nachkommen würden für diese Gesellschaft noch immer ein Plätzchen finden. Ein großes Porträt hingegen macht gewöhnlicherweise, besonders in den neuern Zeiten, zugleich mit dem Besitzer den Erben Platz, und die Moden verändern sich so sehr, daß eine selbst gut gemalte Großmutter zu den Tapeten, den Möbels und dem übrigen Zimmerschmuck ihrer Enkelin unmöglich mehr passen kann.</p>
+            <p rendition="#et">Indessen hängt der Künstler vom Liebhaber seiner Zeit, so wie der Liebhaber vom gleichzeitigen Künstler, ab. Der gute Meister, der jene kleinen Porträte fast noch allein zu machen verstand, war gestorben, ein anderer fand sich, der die lebensgroßen Bilder malte.</p>
+            <p rendition="#et">Mein Vater hatte schon lange einen solchen in der Nähe gewünscht, seine Neigung ging dahin, sich selbst und seine Familie in natürlicher Größe zu sehen. Denn wie jeder Vogel, jedes Insekt, das vorgestellt wurde, genau ausgemessen <pb n="213" facs="#f0007"/>
+ward und außer seiner übrigen Wahrheit auch noch der Größe nach genau mit dem Gegenstand übereinstimmen mußte, so wollte er auch, akkurat wie er sich im Spiegel sah, auf der Leinwand dargestellt sein. Sein Wunsch ward ihm endlich erfüllt, ein geschickter Mann fand sich, der sich auch eine Zeitlang bei uns zu verweilen gefallen ließ. Mein Vater sah gut aus, meine Mutter war eine wohlgebildete Frau, meine Schwester übertraf alle ihre Landsmänninnen an Schönheit und Reiz; nun ging es an ein Malen, und man hatte nicht an <hi rendition="#i">einer</hi> Vorstellung genug. Besonders wurde meine Schwester, wie Sie gesehen haben, in mehr als <hi rendition="#i">einer</hi> Maske vorgestellt. Man machte auch Anstalt zu einem großen Familiengemälde, das aber nur bis zur Zeichnung gelangte, indem man sich weder über Erfindung noch Zusammensetzung vereinigen konnte.</p>
+            <p rendition="#et">Überhaupt blieb mein Vater unbefriedigt. Der Künstler hatte sich in der französischen Schule gebildet, die Gemälde waren harmonisch, geistreich und schienen natürlich; doch, genau mit dem Urbilde verglichen, ließen sie vieles wünschen, und einige derselben wurden, da der Künstler die einzelnen Bemerkungen meines Vaters aus Gefälligkeit zu nutzen unternahm, am Ende ganz und gar verdorben.</p>
+            <p rendition="#et">Unvermutet ward endlich meinem Vater sein Wunsch im ganzen Umfange gewährt. Der Sohn unseres Künstlers ein junger Mann voller Anlagen, der bei einem Oheim, den er beerben sollte, einem Deutschen, von Jugend auf in der Lehre gewesen war, besuchte seinen Vater, und der meinige entdeckte in ihm ein Talent, das ihn völlig befriedigte. Meine Schwester sollte sogleich von ihm dargestellt werden, und es geschah mit einer unglaublichen Genauigkeit, woraus zwar zuletzt kein geschmackvolles aber natürliches und wahres Bild entsprang. Da stand sie nun, wie sie gewöhnlich in den Garten ging, ihre braunen Haare teils um die Stirne fallend, teils in starken Zöpfen zurückgeflochten und mit einem Bande hinaufgebunden, den Sonnenhut am Arm, mit den schönsten Nelken, die <pb n="214" facs="#f0008"/>
+der Vater besonders schätzte, ausgefüllt, und eine Pfirsche in der Hand, von einem Baume, der dieses Jahr zuerst getragen hatte.</p>
+            <p rendition="#et">Glücklicherweise fanden sich diese Umstände sehr wahr zusammen, ohne abgeschmackt zu sein; mein Vater war entzückt, und der alte Maler machte seinem Sohne gerne Platz, mit dessen Arbeiten nun eine ganz neue Epoche in unserm Hause sich eröffnete, die mein Vater als die vergnügteste Zeit seines Lebens ansah. Jede Person ward nun gemalt mit allem, womit sie sich gewöhnlich beschäftigte, was sie gewöhnlich umgab. Ich darf Ihnen von diesen Bildern nichts weiter sagen. Sie haben gewiß die neckische Geschäftigkeit meiner Julie nicht vergessen, die Ihnen nach und nach fast das ganze Beiwesen der Gemälde, insofern sich die Requisiten noch im Hause fanden, zusammenschaffte, um Sie von der höchsten Wahrheit der Nachahmung zu überzeugen. Da war des Großvaters Schnupftabaksdose, seine große silberne Taschenuhr, sein Stock mit dem Topasknopfe, die Nählade der Großmutter und ihre Ohrringe. Julie hatte selbst noch ein elfenbeinernes Spielzeug bewahrt, das sie auf einem Gemälde als Kind in der Hand hat; sie stellte sich mit eben der Gebärde neben das Bild, das Spielzeug glich noch ganz genau, das Mädchen glich nicht mehr, und ich erinnere mich unserer damaligen Scherze noch recht gut.</p>
+            <p rendition="#et">Neben der ganzen Familie war in Zeit von einem Jahre nun auch fast der ganze Hausrat abgemalt, und der junge Künstler mochte bei der nicht immer unterhaltenden Arbeit sich öfters durch einen Blick auf meine Schwester stärken, eine Kur, die um desto heilsamer war, als er in ihren Augen das, was er suchte, zu finden schien. Genug, die jungen Leute wurden einig, miteinander zu leben und zu sterben. Die Mutter begünstigte diese Neigung, der Vater war zufrieden, ein solches Talent, das er kaum mehr entbehren konnte, in seiner Familie zu fixieren.</p>
+            <p rendition="#et">Es ward ausgemacht, daß der Freund noch erst eine <pb n="215" facs="#f0009"/>
+Reise durch Deutschland tun, die Einwilligung seines Oheims und Vaters beibringen und sodann auf immer der unsere werden sollte.</p>
+            <p rendition="#et">Das Geschäft war bald vollzogen, und ob er gleich sehr schnell zurückkam, so brachte er doch eine schöne Summe Geldes mit, die er sich an verschiedenen Höfen bald erworben hatte. Ein glückliches Paar ward verbunden, und unsere Familie erlebte eine Zufriedenheit, die bis an den Tod der Teilnehmer fortdauerte.</p>
+            <p rendition="#et">Mein Schwager war ein sehr wohlgebildeter, im Leben sehr bequemer Mann, sein Talent genügte meinem Vater, seine Liebe meiner Schwester, mir und den Hausgenossen seine Freundlichkeit. Er reiste den Sommer durch, kam wohlbelohnt wieder nach Hause, der Winter war der Familie gewidmet, er malte seine Frau, seine Töchter gewöhnlich des Jahres zweimal.</p>
+            <p rendition="#et">Da ihm alles bis auf die geringste Kleinigkeit so wahrhaft, ja so täuschend gelang, fiel endlich mein Vater auf eine sonderbare Idee, deren Ausführung ich Ihnen beschreiben muß, weil das Bild selbst, wie ich erzählen werde, nicht mehr vorhanden ist, sonst würde ich es Ihnen vorgezeigt haben.</p>
+            <p rendition="#et">In dem obern Zimmer, wo die besten Porträte hängen und welches eigentlich das letzte in der Reihe der Zimmer ist, haben Sie vielleicht eine Türe bemerkt, die noch weiter zu führen scheint, allein sie ist blind, und wenn man sie sonst eröffnete, zeigte sich ein mehr überraschender als erfreulicher Gegenstand. Mein Vater trat mit meiner Mutter am Arme gleichsam heraus und erschreckte durch die Wirklichkeit, welche teils durch die Umstände teils durch die Kunst hervorgebracht war. Er war abgebildet, wie er, gewöhnlich gekleidet, von einem Gastmahl, aus einer Gesellschaft nach Hause kam. Das Bild ward an dem Orte, zu dem Orte, mit aller Sorgfalt gemalt, die Figuren aus einem gewissen Standpunkte genau perspektivisch gehalten und die Kleidungen mit der größten Sorgfalt zum entschiedensten <pb n="216" facs="#f0010"/>
+Effekte gebracht. Damit das Licht von der Seite gehörig einfiele, ward ein Fenster verrückt und alles so gestellt, daß die Täuschung vollkommen werden mußte.</p>
+            <p rendition="#et">Leider hat aber ein Kunstwerk, das sich der Wirklichkeit möglichst näherte, auch gar bald die Schicksale des Wirklichen erfahren. Der Blendrahm mit der Leinwand war in die Türbekleidung befestigt und so den Einflüssen einer feuchten Mauer ausgesetzt, die um so heftiger wirkten, als die verschlossene Tür alle Luft abhielt, und so fand man nach einem strengen Winter, in welchem das Zimmer nicht eröffnet worden war, Vater und Mutter völlig zerstört, worüber wir uns um so mehr betrübten, als wir sie schon vorher durch den Tod verloren hatten.</p>
+            <p rendition="#et">Doch ich kehre wieder zurück, denn ich habe noch von den letzten Vergnügungen meines Vaters im Leben zu reden.</p>
+            <p rendition="#et">Nachdem gedachtes Bild vollendet war, schien nichts weiter seine Freude dieser Art vermehren zu können, und doch war ihm noch eine vorbehalten. Ein Künstler meldete sich und schlug vor, die Familie über die Natur in Gips abzugießen und sie alsdann in Wachs, mit natürlichen Farben, wirklich aufzustellen. Das Bildnis eines jungen Gehülfen, den er bei sich hatte, zeigte sein Talent, und mein Vater entschloß sich zu der Operation. Sie lief glücklich ab, der Künstler arbeitete mit der größten Sorgfalt und Genauigkeit das Gesicht und die Hände nach. Eine wirkliche Perücke, ein damastner Schlafrock wurden dem Phantom gewidmet, und so sitzt der gute Alte noch jetzt hinter einem Vorhange, den ich vor Ihnen nicht aufzuziehen wagte.</p>
+            <p rendition="#et">Nach dem Tode meiner Eltern blieben wir nicht lange zusammen. Meine Schwester starb noch jung und schön, ihr Mann malte sie im Sarge. Seine Töchter, die, wie sie heranwuchsen, die Schönheit der Mutter, gleichsam in zwei Portionen, darstellten, konnte er vor Wehmut nicht malen. Oft stellte er die kleinen Gerätschaften, die ihr <pb n="217" facs="#f0011"/>
+angehört hatten und die er sorgfältig bewahrte, in Stillleben zusammen, vollendete die Bilder mit der größten Genauigkeit und verehrte sie den liebsten Freunden, die er sich auf seinen Reisen erworben hatte.</p>
+            <p rendition="#et">Es schien, als wenn ihn diese Trauer zum Bedeutenden erhübe, da er sonst nur alles Gegenwärtige gemalt hatte. Den kleinen, stummen Gemälden fehlte es nicht an Zusammenhang und Sprache. Auf dem einen sah man in den Gerätschaften das fromme Gemüt der Besitzerin, ein Gesangbuch mit rotem Samt und goldnen Buckeln, einen artigen gestickten Beutel mit Schnüren und Quasten, woraus sie ihre Wohltaten zu spenden pflegte, den Kelch, woraus sie vor ihrem Tode das Nachtmahl empfing und den er gegen einen bessern der Kirche abgetauscht hatte. Auf einem andern Bilde sah man neben einem Brote das Messer, womit sie den Kindern gewöhnlich vorzuschneiden, ein Samenkästchen, woraus sie im Frühjahr zu säen pflegte, einen Kalender, in den sie ihre Ausgaben und kleine Begebenheiten einschrieb, einen gläsernen Becher mit eingeschnittnem Namenszug, ein frühes Jugendgeschenk vom Großvater, das sich ungeachtet seiner Zerbrechlichkeit länger als sie selbst erhalten hatte.</p>
+            <p rendition="#et">Er setzte seine gewöhnlichen Reisen und übrigens seine gewohnte Lebensart fort. Nur fähig, das Gegenwärtige zu sehen und nun durch das Gegenwärtige immer an den herben Verlust erinnert, konnte sein Gemüt sich nicht wiederherstellen, eine Art von unbegreiflicher Sehnsucht schien ihn manchmal zu überfallen, und das letzte Stillleben, das er malte, bestand aus Gerätschaften, die ihm angehörten und die, sonderbar gewählt und zusammengestellt, auf Vergänglichkeit und Trennung, auf Dauer und Vereinigung deuteten.</p>
+            <p rendition="#et">Wir fanden ihn vor dieser Arbeit einigemal nachdenkend und pausierend, was sonst seine Art nicht war, in einem gerührten, bewegten Zustande – und Sie verzeihen mir wohl, wenn ich heute nur kurz abbreche, um mich wieder <pb n="218" facs="#f0012"/>
+in eine Fassung zu setzen, aus der mich diese Erinnerung, der ich nicht länger nachhängen darf, unversehens gerückt hat.</p>
+            <p rendition="#et">Und doch soll dieser Brief mit einem so traurigen Schlusse nicht in Ihre Hand kommen, ich gebe meiner Julie die Feder, um Ihnen zu sagen –</p>
+            <p>Mein Oheim gibt mir die Feder, um Ihnen mit einer artigen Wendung zu sagen, wie sehr er Ihnen ergeben sei. Er bleibt noch immer der Gewohnheit jener guten alten Zeit getreu, wo man es für Pflicht hielt, am Ende eines Briefes von einem Freunde mit einer zierlichen Verbeugung zu scheiden. Uns andern ist das nun schon nicht gelehrt worden; ein solcher Knicks scheint uns nicht natürlich, nicht herzlich genug. Ein Lebewohl und einen Händedruck in Gedanken, weiter wüßten wir es nicht leicht zu bringen.</p>
+            <p rendition="#et">Wie machen wir's nun, um den Auftrag, den Befehl meines Onkels, wie es einer gehorsamen Nichte geziemt, zu erfüllen? Will mir denn gar keine artige Wendung einfallen? und finden Sie es wohl artig genug, wenn ich Sie versichre, daß Ihnen die Nichten so ergeben sind wie der Onkel? Er hat mir verboten, sein letztes Blatt zu lesen, ich weiß nicht, was er Böses oder Gutes von mir gesagt haben mag. Vielleicht bin ich zu eitel, wenn ich denke, daß er von mir gesprochen hat. Genug, er hat mir erlaubt, den Anfang seines Briefes zu lesen, und da finde ich, daß er unsern guten Philosophen bei Ihnen anschwärzen will. Es ist nicht artig noch billig vom Oheim, einen jungen Mann, der ihn und Sie wahrhaft liebt und ver ehrt, darum so strenge zu tadeln, weil er so ernsthaft auf einem Wege verharrt, auf dem er sich nun einmal zu bilden glaubt. Sein Sie aufrichtig und sagen Sie mir, ob wir Frauen nicht eben deswegen manchmal besser sehen als die Männer, weil wir nicht so einseitig sind und gern jedem sein Recht widerfahren lassen. Der junge Mann ist wirklich gesprächig und gesellig. Er spricht auch mit mir, und wenn ich gleich seine <pb n="219" facs="#f0013"/>
+Philosophie keinesweges verstehe, so verstehe ich doch, wie mich deucht, den Philosophen.</p>
+            <p rendition="#et">Doch am Ende hat er diese gute Meinung, die ich von ihm hege, vielleicht nur Ihnen zu danken, denn die Rolle mit den Kupfern, begleitet von den freundlichen Worten, die er mir von Ihnen brachte, verschafften ihm freilich sogleich die beste Aufnahme.</p>
+            <p rendition="#et">Wie ich für dieses Andenken, für diese Güte meinen Dank einrichten soll, weiß ich selbst nicht recht, denn es scheint mir, als wenn hinter diesem Geschenk eine kleine Bosheit verborgen liege. Wollten Sie Ihrer gehorsamen Dienerin spotten, als Sie ihr diese elfenhaften Luftbilder, diese seltsamen Feen und Geistergestalten aus der Werkstatt meines Freundes Füßli zusendeten? Was kann die arme Julie dafür, daß etwas Seltsames, Geistreiches sie aufreizt, daß sie gern etwas Wunderbares vorgestellt sieht und daß diese durcheinander ziehenden und beweglichen Träume, auf dem Papier fixiert, ihr Unterhaltung geben!</p>
+            <p rendition="#et">Genug, Sie haben mir eine große Freude gemacht, ob ich gleich wohl sehe, daß ich mir eine neue Rute aufgebunden habe, indem ich Sie zu meinem zweiten Oheim annahm. Als wenn mir der erste nicht schon genug zu schaffen machte! denn auch der kann es nicht lassen, die Kinder über ihr Vergnügen aufklären zu wollen.</p>
+            <p rendition="#et">Dagegen verhält sich meine Schwester besser als ich, diese läßt sich gar nicht einreden. Und weil in unserer Familie denn doch eine Kunstliebhaberei sein muß, so liebt sie nur das, was anmutig ist und was man immer gern um sich herum sehen mag.</p>
+            <p rendition="#et">Ihr Bräutigam (denn alles ist nun richtig, was bei Ihrer Durchreise noch nicht ganz entschieden war) hat ihr aus England die schönsten gemalten Kupfer geschickt, womit sie äußerst zufrieden ist; aber was sind das nicht auch für lange weißgekleidete Schönen, mit blaßroten Schleifen und blaßblauen Schleiern! Was sind das nicht für interessante Mütter, mit wohlgenährten Kindern und wohlgebildeten <pb n="220" facs="#f0014"/>
+Vätern! Wenn das alles einmal unter Glas und Mahagonirahmen, geziert mit den metallnen Stäbchen, die auch bei der Sendung waren, auf einem Lilagrund, das Kabinett der jungen Frau zieren wird, dann darf ich freilich Titanien mit ihrem Feengefolge, um den verwandelten Klaus Zettel beschäftigt, nicht in die Gesellschaft bringen.</p>
+            <p rendition="#et">Nun sieht es aus, als ob ich mich über meine Schwester aufhalte! denn das ist ja wohl das Klügste, was man tun kann, um sich Ruhe zu verschaffen, daß man gegen die andern ein wenig unverträglich ist. Und so wäre ich denn mit diesen Blättern doch endlich fertig geworden, wäre so nahe an den untern Rand unversehens gekommen, daß nur noch der zehnte März und der Name Ihrer treuen Freundin, die Ihnen ein herzliches Lebewohl sagt, unterzeichnet werden kann.</p>
+            <p>Julie</p>
+         </div>
+         <div xml:id="Goethe-Johann-W-d1e340854" type="chapter">
+            <head>Dritter Brief</head>
+            <p>Julie hat in ihrer letzten Nachschrift dem Philosophen das Wort geredet, leider stimmt der Oheim noch nicht mit ein, denn der junge Mann hält nicht nur auf einer besondern Methode, die mir keinesweges einleuchtet, sondern sein Geist ist auch auf solche Gegenstände gerichtet, über die ich weder viel denke noch gedacht habe. In der Mitte meiner Sammlung sogar, durch die ich fast mit allen Menschen in ein Verhältnis komme, scheint sich nicht einmal ein Berührungspunkt zu finden. Selbst den historischen, den antiquarischen Anteil, den er sonst daran zu nehmen schien, hat er völlig verloren. Die Sittenlehre, von der ich außerhalb meines Herzens wenig weiß, beschäftigt ihn besonders; das Naturrecht, das ich nicht vermisse, weil unser Tribunal gerecht und unsere Polizei tätig ist, verschlingt seine nächsten Forschungen; das Staatsrecht, das mir in meiner frühsten Jugend schon durch meinen Oheim verleidet wurde, steht als das Ziel seiner Aussichten.</p>
+            <p rendition="#et">
+               <pb n="221" facs="#f0015"/>
+Da ist es nun um die Unterhaltung, von der ich mir so viel versprach, beinahe getan, und es hilft mir nichts, daß ich ihn als einen edeln Menschen schätze, als einen guten liebe, als einen Verwandten zu befördern wünsche: wir haben einander nichts zu sagen. Meine Kupfer lassen ihn stumm, meine Gemälde kalt.</p>
+            <p rendition="#et">Wenn ich nun so für mich selbst, wie hier gegen Sie, meine Herren, als ein wahrer Oheim in der deutschen Komödie, meinen Unmut auslasse, so zupft mich die Erfahrung wieder und erinnert mich, daß es der Weg nicht sei, sich mit den Menschen zu verbinden, wenn wir uns die Eigenschaften exagerieren, durch welche sie von uns allenfalls getrennt erscheinen.</p>
+            <p rendition="#et">Wir wollen also lieber abwarten, wie sich das künftig machen kann, und ich will indessen meine Pflicht gegen Sie nicht versäumen und fortfahren, Ihnen etwas von den Stiftern meiner Sammlung zu erzählen.</p>
+            <p rendition="#et">Meines Vaters Bruder, nachdem er als Offizier sehr brav gedient hatte, ward nach und nach in verschiednen Staatsgeschäften und zuletzt bei sehr wichtigen Fällen gebraucht. Er kannte fast alle Fürsten seiner Zeit und hatte durch die Geschenke, die mit ihren Bildnissen in Email und Miniatur verziert waren, eine Liebhaberei zu solchen Kunstwerken gewonnen. Er verschaffte sich nach und nach die Porträts verstorbner sowohl als lebender Potentaten, wenn die goldnen Dosen und brillantnen Einfassungen zu den Goldschmieden und Juwelenhändlern wieder zurückkehrten und so besaß er endlich einen Staatskalender seines Jahrhunderts in Bildnissen.</p>
+            <p rendition="#et">Da er viel reiste, wollte er seinen Schatz immer bei sich haben, und es war möglich, die Sammlung in einen sehr engen Raum zu bringen. Nirgends zeigte er sie vor, ohne daß ihm das Bildnis eines Lebenden oder Verstorbenen, aus irgendeinem Schmuckkästchen, zugeflogen wäre; denn das Eigne hat eine bestimmte Sammlung, daß sie das Zerstreute an sich zieht und selbst die Affektion eines Besitzers <pb n="222" facs="#f0016"/>
+gegen irgendein einzelnes Kleinod durch die Gewalt der Masse gleichsam aufhebt und vernichtet.</p>
+            <p rendition="#et">Von den Porträten, unter welchen sich auch ganze Figuren, z.B. allegorisch als Jägerinnen und Nymphen vorgestellte Prinzessinnen fanden, verbreitete er sich zuletzt auf andere kleine Gemälde dieser Art, wobei er jedoch mehr auf die äußerste Feinheit der Ausführung als auf die höhern Kunstzwecke sah, die freilich auch in dieser Gattung erreicht werden können. Sie haben das Beste dieser Sammlung selbst bewundert; nur weniges ist gelegentlich durch mich hinzugekommen.</p>
+            <p rendition="#et">Um nun endlich von mir als dem gegenwärtigen, vergnügten Besitzer, doch auch oft genug inkommodierten Kustoden der wohlbekannten und wohlbelobten Sammlung zu reden, so war meine Neigung von Jugend auf der Liebhaberei meines Oheims, ja auch meines Vaters entgegengesetzt.</p>
+            <p rendition="#et">Ob die etwas ernsthaftere Richtung meines Großvaters auf mich geerbt hatte oder ob ich, wie man es so oft bei Kindern findet, aus Geist des Widerspruchs, mit vorsätzlicher Unart, mich von dem Wege des Vaters, des Oheims entfernte, will ich nicht entscheiden; genug, wenn jener durch die genauste Nachahmung, durch die sorgfältigste Ausführung das Kunstwerk mit dem Naturwerke völlig auf <hi rendition="#i">einer</hi> Linie sehen wollte, wenn dieser eine kleine Tafel nur insofern schätzte, als sie durch die zartesten Punkte gleichsam ins unendliche geteilt war, wenn er immer ein Vergrößerungsglas bei der Hand hielt und dadurch das Wunder einer solchen Arbeit noch zu vergrößern glaubte: so konnte ich kein ander Vergnügen an Kunstwerken finden, als wenn ich Skizzen vor mir sah, die mir auf einmal einen lebhaften Gedanken zu einem etwa auszuführenden Stücke vor Augen legten.</p>
+            <p rendition="#et">Die trefflichen Blätter von dieser Art, welche sich in meines Großvaters Sammlung befanden und die mich hätten belehren können, daß eine Skizze mit ebensoviel <pb n="223" facs="#f0017"/>
+Genauigkeit als Geist gezeichnet werden könnte, dienten, meine Liebhaberei anzufachen, ohne sie eben zu leiten. Das Kühnhingestrichene, Wildausgetuschte, Gewaltsame reizte mich, selbst das, was mit wenigen Zügen nur die Hieroglyphe einer Figur war, wußte ich zu lesen und schätzte es übermäßig; von solchen Blättern begann die kleine Sammlung, die ich als Jüngling anfing und als Mann fortsetzte.</p>
+            <p rendition="#et">Auf diese Weise blieb ich mit Vater, Schwager und Oheim beständig im Widerspruch, der sich um so mehr verlängerte und befestigte, als keiner die Art, sich mir oder mich ihm zu nähern, verstand.</p>
+            <p rendition="#et">Ob ich gleich, wie gesagt, nur meistens die geistreiche Hand schätzte, so konnte es doch nicht fehlen, daß nicht auch manches ausgeführte Stück in meine Sammlung gekommen wäre. Ich lernte, ohne es selbst recht gewahr zu werden, den glücklichen Übergang von einem geistreichen Entwurf zu einer geistreichen Ausführung schätzen; ich lernte das Bestimmte verehren, ob ich gleich immer daran die unerläßliche Forderung tat, daß der bestimmteste Strich zugleich auch empfunden sein sollte.</p>
+            <p rendition="#et">Hierzu trugen die eigenhändigen Radierungen verschiedner italienischer Meister, die meine Sammlung noch aufbewahrt, das ihrige treulich bei, und so war ich auf gutem Wege, auf welchem eine andere Neigung mich frühzeitig weiterbrachte.</p>
+            <p rendition="#et">Ordnung und Vollständigkeit waren die beiden Eigenschaften, die ich meiner kleinen Sammlung zu geben wünschte; ich las die Geschichte der Kunst, ich legte meine Blätter nach Schulen, Meistern und Jahren, ich machte Katalogen und muß zu meinem Lobe sagen, daß ich den Namen keines Meisters, die Lebensumstände keines braven Mannes kennenlernte, ohne mich nach irgendeiner seiner Arbeiten zu bemühen, um sein Verdienst nicht nur in Worten nachzusprechen, sondern es wirklich und anschaulich vor mir zu haben.</p>
+            <p rendition="#et">
+               <pb n="224" facs="#f0018"/>
+So stand es um meine Sammlung, um meine Kenntnisse und ihre Richtung, als die Zeit herankam, die Akademie zu beziehen. Die Neigung zu meiner Wissenschaft, welches nun einmal die Medizin sein sollte, die Entfernung von allen Kunstwerken, die neuen Gegenstände, ein neues Leben drängten meine Liebhaberei in die Tiefe meines Herzens zurück, und ich fand nur Gelegenheit, mein Auge an dem Besten zu üben, was wir von Abbildungen anatomischer, physiologischer und naturhistorischer Gegenstände besitzen.</p>
+            <p rendition="#et">Noch vor dem Ende meiner akademischen Laufbahn sollte sich mir eine neue und für mein ganzes Leben entscheidende Aussicht eröffnen: ich fand Gelegenheit, Dresden zu sehen. Mit welchem Entzücken, ja mit welchem Taumel durchwandelte ich das Heiligtum der Galerie! Wie manche Ahnung ward zum Anschauen! wie manche Lücke meiner historischen Kenntnis ward nicht ausgefüllt! und wie erweiterte sich nicht mein Blick über das prächtige Stufengebäude der Kunst! Ein selbstgefälliger Rückblick auf die Familiensammlung, die einst mein werden sollte, war von den angenehmsten Empfindungen begleitet, und da ich nicht Künstler sein konnte, so wäre ich in Verzweiflung geraten, wenn ich nicht schon vor meiner Geburt zum Liebhaber und Sammler bestimmt gewesen wäre.</p>
+            <p rendition="#et">Was die übrigen Sammlungen auf mich gewirkt, was ich sonst noch getan, um in der Kenntnis nicht stehenzubleiben, und wie diese Liebhaberei neben allen meinen Beschäftigungen hergegangen und mich wie ein Schutzgeist begleitet, davon will ich Sie nicht unterhalten, genug, daß ich alle meine übrigen Fähigkeiten auf meine Wissenschaft, auf ihre Ausübung verwendete, daß meine Praxis fast meine ganze Tätigkeit verschlang und daß eine ganz heterogene Beschäftigung meine Liebe zur Kunst, meine Leidenschaft zu sammeln nur zu vermehren schien.</p>
+            <p rendition="#et">Das übrige werden Sie leicht, da Sie mich und meine Sammlung kennen, hinzusetzen.</p>
+            <p rendition="#et">
+               <pb n="225" facs="#f0019"/>
+Als mein Vater starb und dieser Schatz nun zu meiner Disposition gelangte, war ich gebildet genug, um die Lücken, die ich fand, nicht als Sammler nur auszufüllen, weil es Lücken waren, sondern einigermaßen als Kenner, weil sie ausgefüllt zu werden verdienten. Und so glaube ich noch, daß ich nicht auf unrechtem Wege bin, indem ich meine Neigung mit der Meinung vieler wackern Männer, die ich kennenlernte, übereinstimmend finde. Ich bin nie in Italien gewesen, und doch habe ich meinen Geschmack, soviel es möglich war, ins Allgemeine auszubilden gesucht. Wie es damit steht, kann Ihnen nicht verborgen sein. Ich will nicht leugnen, daß ich vielleicht meine Neigung hie und da mehr hätte reinigen können und sollen. Doch wer möchte mit ganz gereinigten Neigungen leben.</p>
+            <p rendition="#et">Für diesmal und für immer genug von mir selbst. Möge sich mein ganzer Egoism innerhalb meiner Sammlung befriedigen! Mitteilung und Empfänglichkeit sei übrigens das Losungswort, das Ihnen von niemand lebhafter, mit mehr Neigung und Zutrauen zugerufen werden kann als von dem, der sich unterzeichnet</p>
+            <p>Ihren aufrichtig ergebnen.</p>
+         </div>
+         <div xml:id="Goethe-Johann-W-d1e340942" type="chapter">
+            <head>Vierter Brief</head>
+            <p>Sie haben mir, meine Herren, abermals einen überzeugenden Beweis Ihres freundschaftlichen Andenkens gegeben, indem Sie mir die ersten Stücke der »Propyläen« nicht nur so bald zugesendet, sondern mir außerdem noch manches im Manuskripte mitgeteilt, das mir, bei mehrerer Breite, Ihre Absichten deutlicher sowie die Wirkung lebhafter macht. Sie haben den Zuruf am Schlusse meines vorigen Briefes recht schön und freundlich erwidert, und ich danke Ihnen für die günstige Aufnahme, womit Sie die kurze Geschichte meiner Sammlung beehren.</p>
+            <p rendition="#et">Ihre gedruckten, Ihre geschriebenen Blätter riefen mir und den Meinigen jene angenehmen Stunden zurück, die <pb n="226" facs="#f0020"/>
+Sie mir damals verschafften, als Sie, der üblen Jahrszeit ungeachtet, einen ziemlichen Umweg machten, um die Sammlung eines Privatmannes kennenzulernen, die Ihnen in manchen Fächern genugtat und deren Besitzer von Ihnen ohne langes Bedenken mit einer aufrichtigen Freundschaft beglückt ward. Die Grundsätze, die Sie damals äußerten, die Ideen, womit Sie sich vorzüglich beschäftigten, finde ich in diesen Blättern wieder, ich sehe, Sie sind unverrückt auf Ihrem Wege geblieben, Sie sind vorgeschritten, und so darf ich hoffen, daß Sie nicht ohne Interesse vernehmen werden, wie es mir in meinem Kreise ergangen ist und ergeht. Ihre Schrift muntert, Ihr Brief fordert mich auf. Die Geschichte meiner Sammlung ist in Ihren Händen, auch darauf kann ich weiter bauen: denn nun habe ich Ihnen einige Wünsche, einige Bekenntnisse vorzulegen.</p>
+            <p rendition="#et">Bei Betrachtung der Kunstwerke eine hohe, unerreichbare Idee immer im Sinne zu haben, bei Beurteilung dessen, was der Künstler geleistet hat, den großen Maßstab anzuschlagen, der nach dem Besten, was wir kennen, eingeteilt ist, eifrig das Vollkommenste aufzusuchen, den Liebhaber sowie den Künstler immer an die Quelle zu weisen, ihn auf hohe Standpunkte zu versetzen, bei der Geschichte wie bei der Theorie, bei dem Urteil wie in der Praxis immer gleichsam auf ein Letztes zu dringen, ist löblich und schön, und eine solche Bemühung kann nicht ohne Nutzen bleiben.</p>
+            <p rendition="#et">Sucht doch der Wardein auf alle Weise die edlern Metalle zu reinigen, um ein bestimmtes Gewicht des reinen Goldes und Silbers als einen entschiednen Maßstab aller Vermischungen, die ihm vorkommen, festzusetzen! Man bringe alsdann so viel Kupfer, als man will, wieder dazu, man vermehre das Gewicht, man vermindere den Wert, man bezeichne die Münzen, die Silbergeschirre nach gewissen Konventionen, alles ist recht gut! die schlechteste Scheidemünze, ja das Gemünder Silber selbst mag passieren; denn der Probierstein, der Schmelztiegel ist gleich bereit, eine entschiedene Probe des innern Wertes anzustellen.</p>
+            <p rendition="#et">
+               <pb n="227" facs="#f0021"/>
+Ohne Sie daher, meine Herren, wegen Ihres Ernstes, wegen Ihrer Strenge zu tadeln, möchte ich, im Bezug auf mein Gleichnis, Sie auf gewisse mittlere Fächer aufmerksam machen, die der Künstler sowie der Liebhaber fürs gemeine Leben nicht entbehren kann.</p>
+            <p rendition="#et">Zu diesen Wünschen und Vorschlägen kann ich denn doch nicht unmittelbar übergehen, ich habe noch etwas in Gedanken, eigentlich auf dem Herzen. Es muß ein Bekenntnis getan werden, das ich nicht zurückhalten kann, ohne mich Ihrer Freundschaft völlig unwert zu fühlen. Beleidigen kann es Sie nicht, auch nicht einmal verdrießen, es sei daher gewagt! Jeder Fortschritt ist ein Wagestück, und nur durch Wagen kommt man entschieden vorwärts. Und nun hören Sie geschwind, damit Sie das, was ich zu sagen habe, nicht für wichtiger halten, als es ist.</p>
+            <p rendition="#et">Der Besitzer einer Sammlung, der sie, wenn er sie auch noch so gern vorweist, doch immer zu oft vorweisen muß, wird nach und nach, er sei übrigens noch so gut und harmlos, ein wenig tückisch werden. Er sieht ganz fremde Menschen bei Gegenständen, die ihm völlig bekannt sind, aus dem Stegreife ihre Empfindungen und Gedanken äußern. Mit Meinungen über politische Verhältnisse gegen einen Fremden herauszugehen, findet sich nicht immer Veranlassung, und die Klugheit verbietet es; Kunstwerke reizen auf, und vor ihnen geniert sich niemand, niemand zweifelt an seiner eignen Empfindung, und daran hat man nicht unrecht; niemand zweifelt an der Richtigkeit seines Urteils, und daran hat man nicht ganz recht.</p>
+            <p rendition="#et">Solange ich mein Kabinett besitze, ist mir ein einziger Mann vorgekommen, der mir die Ehre antat, zu glauben, daß ich den Wert meiner Sachen zu beurteilen wisse; er sagte zu mir: »Ich habe nur kurze Zeit, lassen Sie mich in jedem Fache das Beste, das Merkwürdigste, das Seltenste sehen!« Ich dankte ihm, indem ich ihn versicherte, daß er der erste sei, der so verfahre, und ich hoffe, sein Zutrauen hat ihn nicht gereut, wenigstens schien er äußerst zufrieden <pb n="228" facs="#f0022"/>
+von mir zu gehen. Ich will eben nicht sagen, daß er ein besonderer Kenner oder Liebhaber gewesen wäre, auch zeugte vielleicht eben sein Betragen von einer gewissen Gleichgültigkeit, ja vielleicht ist uns ein Mann interessanter, der einen einzelnen Teil liebt, als der, der das Ganze nur schätzt; genug, dieser verdiente erwähnt zu werden, weil er der erste war und der letzte blieb, dem meine heimliche Tücke nichts anhaben konnte.</p>
+            <p rendition="#et">Denn auch Sie, meine Herren, daß ich es nur gestehe, haben meiner stillen Schadenfreude einige Nahrung gegeben, ohne daß meine Verehrung, meine Liebe für Sie dadurch gelitten hätte. Nicht allein, daß ich Ihnen die Mädchen aus dem Gesicht brachte – verzeihen Sie, ich mußte heimlich lächeln, wenn Sie von dem Antikenschrank, von den Bronzen, die wir eben durchsahen, immer nach der Türe schielten, die aber nicht wieder aufgehen wollte. Die Kinder waren verschwunden und hatten den Frühstückswein mit den Zwiebacken stehenlassen, mein Wink hatte sie entfernt, denn ich wollte meinen Altertümern eine ungeteilte Aufmerksamkeit verschaffen. Verzeihen Sie dieses Bekenntnis und erinnern Sie sich, daß ich Sie des andern Morgens möglichst entschädigte, indem ich Ihnen im Gartenhause nicht allein die gemalten, sondern auch die lebendigen Familienbilder vorstellte und Ihnen bei einer reizenden Aussicht auf die Gegend das Vergnügen einer fröhlichen Unterhaltung verschaffte – nicht allein, sagte ich – und muß wohl, da mir diese lange Einschaltung meinen Perioden verdorben hat, ihn wieder anders anfangen.</p>
+            <p rendition="#et">Sie erzeigten mir bei Ihrem Eintritt auch eine besondere Ehre, indem Sie anzunehmen schienen, daß ich Ihrer Meinung sei, daß ich diejenigen Kunstwerke, welche Sie ausschließlich schätzten, auch vorzüglich zu schätzen wisse, und ich kann wohl sagen, meistens trafen unsere Urteile zusammen, hie und da glaubte ich eine leidenschaftliche Vorliebe, auch wohl ein Vorurteil zu entdecken; ich ließ es hingehen und verdankte Ihnen die Aufmerksamkeit <pb n="229" facs="#f0023"/>
+auf verschiedene unscheinbare Dinge, deren Wert ich unter der Menge übersehen hatte.</p>
+            <p rendition="#et">Nach Ihrer Abreise blieben Sie ein Gegenstand unserer Gespräche, wir verglichen Sie mit andern Fremden, die bei uns eingesprochen hatten, und wurden dadurch auf eine allgemeinere Vergleichung unserer Besuche geleitet. Wir fanden eine große Verschiedenheit der Liebhabereien und Gesinnungen, doch zeigten sich gewisse Neigungen mehr oder weniger in verschiedenen Personen wieder, wir fingen an, die ähnlichen wieder zusammenzustellen, und das Buch, worin die Namen aufgezeichnet sind, half der Erinnerung nach. Auch für die Zukunft war unsere Tücke in Aufmerksamkeit verwandelt, wir beobachteten unsere Gäste genauer und rangierten sie zu den übrigen Gruppen.</p>
+            <p rendition="#et">Ich habe immer <hi rendition="#i">wir</hi> gesagt, denn ich zog meine Mädchen diesmal, wie immer, mit ins Geschäft. Julie war besonders tätig und hatte viel Glück, ihre Leute gleich recht zu placieren. Denn es ist den Frauen angeboren, die Neigungen der Männer genau zu kennen. Doch gedachte Karoline solcher Freunde nicht zum besten, welche die schönen und seltnen Stücke englischer schwarzer Kunst, womit sie ihr stilles Zimmer ausgeschmückt hatte, nicht recht lebhaft preisen wollten. Darunter gehörten denn auch Sie, ohne daß Ihnen dieser Mangel der Empfänglichkeit bei dem guten Kinde viel geschadet hätte.</p>
+            <p rendition="#et">Liebhaber von unserer Art, denn es ist doch natürlich, daß wir von denen zuerst sprechen, finden sich, genau betrachtet, gar manche, wenn man ein wenig Vorurteil auf oder ab, mehr oder weniger Lebhaftigkeit oder Bedacht, Biegsamkeit oder Strenge nicht eben in Anschlag bringt, und deswegen hoffe ich günstig für Ihre »Propyläen«, nicht allein weil ich gleichgesinnte Personen vermute, sondern weil ich wirklich gleichgesinnte Personen kenne.</p>
+            <p rendition="#et">Wenn ich also in diesem Sinne Ihren Ernst in der Kunst, Ihre Strenge gegen Künstler und Liebhaber nicht tadeln <pb n="230" facs="#f0024"/>
+kann, so muß ich doch, in Betracht der vielerlei Menschenkinder, die Ihre Schrift lesen sollen, und wenn sie nur von denen gelesen würde, die meine Sammlung gesehen haben, noch einiges zum Besten der Kunst und der Kunstfreunde wünschen, und zwar einesteils, daß Sie eine gewisse heitere Liberalität gegen alle Kunstfächer zeigten, den beschränktesten Künstler und Kunstliebhaber schätzten, sobald jeder nur ohne sonderliche Anmaßung sein Wesen treibt; andernteils aber kann ich Ihnen nicht genug Widerstreit gegen diejenigen empfehlen, die von beschränkten Ideen ausgehen und mit einer unheilbaren Einseitigkeit einen vorgezogenen und beschützten Teil der Kunst zum Ganzen machen wollen. Lassen Sie uns zu diesen Zwecken eine neue Art von Sammlung ordnen, die diesmal nicht aus Bronzen und Marmorstücken, nicht aus Elfenbein noch Silber bestehen soll, sondern worin der Künstler, der Kenner und besonders der Liebhaber sich selbst wiederfinde.</p>
+            <p rendition="#et">Freilich kann ich Ihnen nur den leichtesten Entwurf senden, alles, was Resultat ist, zieht sich ins Enge zusammen, und mein Brief ist ohnehin schon lang genug. Meine Einleitung ist ausführlich, und meinen Schluß sollen Sie mir selbst ausführen helfen.</p>
+            <p rendition="#et">Unsere kleine Akademie richtete, wie es gewöhnlich geschieht, erst spät ihre Aufmerksamkeit auf sich selbst, und bald fanden wir in unserer Familie fast für alle die verschiedenen Gruppen einen Gesellschafter.</p>
+            <p rendition="#et">Es gibt Künstler und Liebhaber, welche wir die<hi rendition="#i"> Nachahmer</hi> genannt haben, und wirklich ist die eigentliche Nachahmung, auf einen hohen und schätzbaren Punkt getrieben, ihr einziger Zweck, ihre höchste Freude; mein Vater und mein Schwager gehörten dazu, und die Liebhaberei des einen sowie die Kunst des andern ließ in diesem Fache fast nichts weiter übrig. Die Nachahmung kann nicht ruhen, bis sie die Abbildung womöglich an die Stelle des Abgebildeten setzt.</p>
+            <p rendition="#et">
+               <pb n="231" facs="#f0025"/>
+Weil nun hierzu eine große Genauigkeit und Reinheit erfordert wird, so stehet ihnen eine andere Klasse nah, welche wir die <hi rendition="#i">Punktierer</hi> genannt haben; bei diesen ist die Nachbildung nicht das Vorzüglichste, sondern die Arbeit. Ein solcher Gegenstand scheint ihnen der liebste, bei dem sie die meisten Punkte und Striche anbringen können. Bei diesen wird Ihnen die Liebhaberei meines Oheims sogleich einfallen. Ein Künstler dieser Art strebt gleichsam, den Raum ins unendliche zu füllen und uns sinnlich zu überzeugen, daß man die Materie ins unendliche teilen könne. Sehr schätzbar erscheint dieses Talent, wenn es das Bildnis einer würdigen, einer werten Person dergestalt ins kleine bringt, daß wir das, was unser Herz als Kleinod erkennt, auch vor unserm Auge mit allen seinen äußern Eigenschaften neben und mit Kleinodien erscheinen sehen.</p>
+            <p rendition="#et">Auch hat die Naturgeschichte solchen Männern viel zu verdanken.</p>
+            <p rendition="#et">Als wir von dieser Klasse sprachen, mußte ich mir wohl selbst einfallen, der ich mit meiner frühern Liebhaberei eigentlich ganz im Gegensatze mit jenen stand. Alle diejenigen, die mit wenigen Strichen zu viel leisten wollen, wie die vorigen mit vielen Strichen und Punkten oft vielleicht zu wenig leisten, nannten wir <hi rendition="#i">Skizzisten.</hi> Hier ist nämlich nicht die Rede von Meistern, welche den allgemeinen Entwurf zu einem Werke, das ausgeführt werden soll, zu eigner und fremder Beurteilung erst hinschreiben, denn diese machen erst eine Skizze; Skizzisten nennt man aber diejenigen mit Recht, welche ihr Talent nicht weiter als zu Entwürfen ausbilden und also nie das Ende der Kunst, die Ausführung, erreichen; so wie der Punktierer den wesentlichen Anfang der Kunst, die Erfindung, das Geistreiche oft nicht gewahr wird.</p>
+            <p rendition="#et">Der Skizzist hat dagegen meist zuviel Imagination, er liebt sich poetische, ja phantastische Gegenstände und ist immer ein bißchen übertrieben im Ausdruck.</p>
+            <p rendition="#et">Selten fällt er in den Fehler, zu weich oder unbedeutend <pb n="232" facs="#f0026"/>
+zu sein, diese Eigenschaft ist vielmehr sehr oft mit einer guten Ausführung verbunden.</p>
+            <p rendition="#et">Für die Rubrik, in welcher das Weiche, das Gefällige, das Anmutige herrschend ist, hat sich Karoline sogleich erklärt und feierlich protestiert, daß man dieser Klasse keinen Spitznamen geben möge; Julie hingegen überläßt sich und ihre Freunde, die poetisch geistreichen Skizzisten und Ausführer, dem Schicksal und einem strengern oder liberalern Urteil.</p>
+            <p rendition="#et">Von den <hi rendition="#i">Weichlichen</hi> kamen wir natürlicherweise auf die Holzschnitte und Kupferstiche der frühern Meister, deren Werke, ungeachtet ihrer Strenge, Härte und Steifheit, uns durch einen gewissen derben und sichern <hi rendition="#i">Charakter</hi> noch immer erfreuen.</p>
+            <p rendition="#et">Dann fielen uns noch verschiedene Arten ein, die aber vielleicht schon in die vorigen eingeteilt werden können, als da sind Karikaturzeichner, die nur das bedeutend Widerwärtige, physisch und moralisch Häßliche heraussuchen, Improvisatoren, die mit großer Geschicklichkeit und Schnelligkeit alles aus dem Stegreif entwerfen, gelehrte Künstler, deren Werke man nicht ohne Kommentar versteht, gelehrte Liebhaber, die auch das einfachste, natürlichste Werk nicht ohne Kommentar lassen können, und was noch andere mehr waren, davon ich künftig mehr sagen will; für diesmal aber schließe ich mit dem Wunsche, daß das Ende meines Briefs, wenn es Ihnen Gelegenheit gibt, sich über meine Anmaßung lustig zu machen, Sie mit dem Anfange desselben versöhnen möge, wo ich mich vermaß, einige liebenswürdige Schwachheiten geschätzter Freunde zu belächeln. Geben Sie mir das gleiche zurück, wenn Ihnen mein Unterfangen nicht widerwärtig scheint, schelten Sie mich, zeigen Sie mir auch meine Eigenheiten im Spiegel, Sie vermehren dadurch den Dank, nicht aber die Anhänglichkeit Ihres</p>
+            <p>ewig verbundenen.</p>
+            <pb n="233" facs="#f0027"/>
+         </div>
+         <div xml:id="Goethe-Johann-W-d1e341067" type="chapter">
+            <head>Fünfter Brief</head>
+            <p>Die Heiterkeit Ihrer Antwort bürgt mir, daß Sie mein Brief in der besten Stimmung angetroffen und Ihnen diese herrliche Gabe des Himmels nicht verkümmert hat; auch mir waren Ihre Blätter ein angenehmes Geschenk in einem angenehmen Augenblick.</p>
+            <p rendition="#et">Wenn das Glück viel öfter allein und viel seltner in Gesellschaft kommt als das Unglück, so habe ich diesmal eine Ausnahme von der Regel erfahren; erwünschter und bedeutender hätten mir Ihre Blätter nicht kommen können, und Ihre Anmerkungen zu meinen wunderlichen Klassifikationen hätten nicht leicht geschwinder Frucht gebracht, als eben in dem Augenblick, da sie, wie ein schon keimender Same, in ein fruchtbares Erdreich fielen. Lassen Sie mich also die Geschichte des gestrigen Tages erzählen, damit Sie erfahren, was für ein neuer Stern mir aufging, mit welchem das Gestirn Ihres Briefs in eine so glückliche Konjunktion tritt.</p>
+            <p rendition="#et">Gestern meldete sich bei uns ein Fremder an, dessen Name mir nicht unbekannt, der mir als ein guter Kenner gerühmt war. Ich freute mich bei seinem Eintritt, machte ihn mit meinen Besitzungen im allgemeinen bekannt, ließ ihn wählen und zeigte vor. Ich bemerkte bald ein sehr gebildetes Auge für Kunstwerke, besonders für die Geschichte derselben. Er erkannte die Meister sowie ihre Schüler, bei zweifelhaften Bildern wußte er die Ursachen seines Zweifels sehr gut anzugeben, und seine Unterhaltung erfreute mich sehr.</p>
+            <p rendition="#et">Vielleicht wäre ich hingerissen worden, mich gegen ihn lebhafter zu äußern, wenn nicht der Vorsatz, meinen Gast auszuhorchen, mir gleich beim Eintritt eine ruhigere Stimmung gegeben hätte. Viele seiner Urteile trafen mit den meinigen zusammen, bei manchen mußte ich sein scharfes und geübtes Auge bewundern. Das erste, was mir an ihm besonders auffiel, war ein entschiedener Haß gegen alle <pb n="234" facs="#f0028"/>
+Manieristen. Es tat mir für einige meiner Lieblingsbilder leid, und ich war um desto mehr aufgefordert, zu untersuchen, aus welcher Quelle eine solche Abneigung wohl fließen möchte.</p>
+            <p rendition="#et">Mein Gast war spät gekommen, und die Dämmerung verhinderte uns, weiter zu sehen; ich zog ihn zu einer kleinen Kollation, zu der unser Philosoph eingeladen war, denn dieser hat sich mir seit einiger Zeit genähert; wie das kommt, muß ich Ihnen im Vorbeigehen sagen.</p>
+            <p rendition="#et">Glücklicherweise hat der Himmel, der die Eigenheiten der Männer voraussah, ein Mittel bereitet, das sie ebensooft verbindet als entzweit: mein Philosoph ward von Juliens Anmut, die er als Kind verlassen hatte, getroffen. Eine richtige Empfindung legte ihm auf, den Oheim sowie die Nichte zu unterhalten, und unser Gespräch verweilt nun gewöhnlich bei den Neigungen, bei den Leidenschaften des Menschen.</p>
+            <p rendition="#et">Ehe wir noch alle beisammen waren, ergriff ich die Gelegenheit, meine Manieristen gegen den Fremden in Schutz zu nehmen. Ich sprach von ihrem schönen Naturell, von der glücklichen Übung ihrer Hand und ihrer Anmut, doch setzte ich, um mich zu verwahren, hinzu: »Dies will ich alles nur sagen, um eine gewisse Duldung zu entschuldigen, wenn ich gleich zugebe, daß die hohe Schönheit, das höchste Prinzip und der höchste Zweck der Kunst, freilich noch etwas ganz anders sei.«</p>
+            <p rendition="#et">Mit einem Lächeln, das mir nicht ganz gefiel, weil es eine besondere Gefälligkeit gegen sich selbst und eine Art Mitleiden gegen mich auszudrücken schien, erwiderte er darauf: »Sie sind denn also auch den hergebrachten Grundsätzen getreu, daß Schönheit das letzte Ziel der Kunst sei?«</p>
+            <p rendition="#et">»Mir ist kein höheres bekannt«, versetzte ich darauf.</p>
+            <p rendition="#et">»Können Sie mir sagen, was Schönheit sei?« rief er aus.</p>
+            <p rendition="#et">»Vielleicht nicht!« versetzte ich, »aber ich kann es Ihnen zeigen. Lassen Sie uns, auch allenfalls noch bei Licht, einen sehr schönen Gipsabguß des Apoll, einen sehr schönen <pb n="235" facs="#f0029"/>
+Marmorkopf des Bacchus, den ich besitze, noch geschwind anblicken, und wir wollen sehen, ob wir uns nicht vereinigen können, daß sie schön seien.«</p>
+            <p rendition="#et">»Ehe wir an diese Untersuchung gehen«, versetzte er, »möchte es wohl nötig sein, daß wir das Wort Schönheit und seinen Ursprung näher betrachten. Schönheit kommt von Schein, sie ist ein Schein und kann als das höchste Ziel der Kunst nicht gelten, das vollkommen Charakteristische nur verdient schön genannt zu werden, ohne Charakter gibt es keine Schönheit.«</p>
+            <p rendition="#et">Betroffen über diese Art, sich auszudrücken, versetzte ich: »Zugegeben, aber nicht eingestanden, daß das Schöne charakteristisch sein müsse, so folgt doch nur daraus, daß das Charakteristische dem Schönen allenfalls zugrunde liege, keineswegs aber, daß es<hi rendition="#i"> eins</hi> mit dem Charakteristischen sei. Der Charakter verhält sich zum Schönen wie das Skelett zum lebendigen Menschen. Niemand wird leugnen, daß der Knochenbau zum Grunde aller hochorganisierten Gestalt liege, er begründet, er bestimmt die Gestalt, er ist aber nicht die Gestalt selbst, und noch weniger bewirkt er die letzte Erscheinung, die wir, als Inbegriff und Hülle eines organischen Ganzen, Schönheit nennen.«</p>
+            <p rendition="#et">»Auf Gleichnisse kann ich mich nicht einlassen«, versetzte der Gast, »und aus Ihren Worten selbst erhellet, daß die Schönheit etwas Unbegreifliches oder die Wirkung von etwas Unbegreiflichem sei. Was man nicht begreifen kann, das ist nicht, was man mit Worten nicht klarmachen kann, das ist Unsinn.«</p>
+            <p rendition="#et">Ich: Können Sie denn die Wirkung, die ein farbiger Körper auf Ihr Auge macht, mit Worten klar ausdrücken?</p>
+            <p rendition="#et">Er: Das ist wieder eine Instanz, auf die ich mich nicht ein lassen kann. Genug, was Charakter sei, läßt sich nachweisen. Sie finden die Schönheit nie ohne Charakter, denn sonst würde sie leer und unbedeutend sein. Alles Schöne der Alten ist bloß charakteristisch, und bloß aus dieser Eigentümlichkeit entsteht die Schönheit.</p>
+            <p rendition="#et">
+               <pb n="236" facs="#f0030"/>
+Unser Philosoph war gekommen und hatte sich mit den Nichten unterhalten; als er uns eifrig sprechen hörte, trat er hinzu, und mein Gast, durch die Gegenwart eines neuen Zuhörers gleichsam angefeuert, fuhr fort:</p>
+            <p rendition="#et">»Das ist eben das Unglück, wenn gute Köpfe, wenn Leute von Verdienst solche falsche Grundsätze, die nur einen Schein von Wahrheit haben, immer allgemeiner machen, niemand spricht sie lieber nach, als wer den Gegenstand nicht kennt und versteht. So hat uns Lessing den Grundsatz aufgebunden, daß die Alten nur das Schöne gebildet, so hat uns Winckelmann mit der stillen Größe, der Einfalt und Ruhe eingeschläfert, anstatt daß die Kunst der Alten unter allen möglichen Formen erscheint; aber die Herren verweilen nur bei Jupiter und Juno, bei den Genien und Grazien und verhehlen die unedlen Körper und Schädel der Barbaren, die struppichten Haare, den schmutzigen Bart, die dürren Knochen, die runzliche Haut des entstellten Alters, die vorliegenden Adern und die schlappen Brüste.«</p>
+            <p rendition="#et">»Um Gottes willen !« rief ich aus, »gibt es denn aus der guten Zeit der alten Kunst selbständige Kunstwerke, die solche abscheuliche Gegenstände vollendet darstellen? oder sind es nicht vielmehr untergeordnete Werke, Werke der Gelegenheit, Werke der Kunst, die sich nach äußern Absichten bequemen muß, die im Sinken ist?«</p>
+            <p rendition="#et">Er: Ich gebe Ihnen ein Verzeichnis, und Sie mögen selbst untersuchen und urteilen. Aber daß Laokoon, daß Niobe, daß Dirke mit ihren Stiefsöhnen selbständige Kunstwerke sind, werden Sie mir nicht leugnen. Treten Sie vor den Laokoon, und sehen Sie die Natur in voller Empörung und Verzweiflung, den letzten erstickenden Schmerz, krampfartige Spannung, wütende Zuckung, die Wirkung eines ätzenden Gifts, heftige Gärung, stockenden Umlauf, erstickende Pressung und paralytischen Tod.</p>
+            <p rendition="#et">Der Philosoph schien mich mit Verwunderung anzusehen, <pb n="237" facs="#f0031"/>
+und ich versetzte: »Man schaudert, man erstarrt nur vor der bloßen Beschreibung. Fürwahr, wenn es sich mit der Gruppe Laokoons so verhält, was will aus der Anmut werden, die man sogar darin sowie in jedem echten Kunstwerke finden will! Doch ich will mich darein nicht mischen, machen Sie das mit den Verfassern der ›Propyläen‹ aus, welche ganz der entgegengesetzten Meinung sind.«</p>
+            <p rendition="#et">»Das wird sich schon geben«, versetzte mein Gast, »das ganze Altertum spricht mir zu; denn wo wütet Schrecken und Tod entsetzlicher als bei den Darstellungen der Niobe?«</p>
+            <p rendition="#et">Ich erschrak über eine solche Assertion, denn ich hatte noch kurz vorher freilich nur die Kupfer im Fabroni gesehen, den ich sogleich herbeiholte und aufschlug. »Ich finde keine Spur vom wütenden Schrecken des Todes, vielmehr in den Statuen die höchste Subordination der tragischen Situation unter die höchsten Ideen von Würde, Hoheit, Schönheit, gemäßigtem Betragen. Ich sehe hier überall den Kunstzweck, die Glieder zierlich und anmutig erscheinen zu lassen. Der Charakter erscheint nur noch in den allgemeinsten Linien, welche durch die Werke, gleichsam wie ein geistiger Knochenbau, durchgezogen sind.«</p>
+            <p rendition="#et">Er: Lassen Sie uns zu den Basreliefen übergehen, die wir am Ende des Buches finden. –</p>
+            <p rendition="#et">Wir schlugen sie auf.</p>
+            <p rendition="#et">Ich: Von allem Entsetzlichen, aufrichtig gesagt, sehe ich auch hier nicht das mindeste. Wo wüten Schrecken und Tod? Hier sehe ich nur Figuren mit solcher Kunst durcheinander bewegt, so glücklich gegeneinander gestellt oder gestreckt, daß sie, indem sie mich an ein trauriges Schicksal erinnern, mir zugleich die angenehmste Empfindung geben. Alles Charakteristische ist gemäßigt, alles natürlich Gewaltsame ist aufgehoben, und so möchte ich sagen: das Charakteristische liegt zum Grunde, auf ihm ruhen Einfalt und Würde, das höchste Ziel der Kunst ist Schönheit und ihre letzte Wirkung Gefühl der Anmut.</p>
+            <p rendition="#et">
+               <pb n="238" facs="#f0032"/>
+Das Anmutige, das gewiß nicht unmittelbar mit dem Charakteristischen verbunden werden kann, fällt besonders bei diesem Sarkophagen in die Augen. Sind die toten Töchter und Söhne der Niobe nicht hier als Zieraten geordnet? Es ist die höchste Schwelgerei der Kunst! sie verziert nicht mehr mit Blumen und Früchten, sie verziert mit menschlichen Leichnamen, mit dem größten Elend, das einem Vater, das einer Mutter begegnen kann, eine blühende Familie auf einmal vor sich hingerafft zu sehen. Ja, der schöne Genius, der mit gesenkter Fackel bei dem Grabe steht, hat hier bei dem erfindenden, bei dem arbeitenden Künstler gestanden und ihm zu seiner irdischen Größe eine himmlische Anmut zugehaucht.</p>
+            <p rendition="#et">Mein Gast sah mich lächelnd an und zuckte die Achseln. »Leider«, sagte er, als ich geendigt hatte, »leider sehe ich wohl, daß wir nicht einig werden können. Wie schade, daß ein Mann von Ihren Kenntnissen, von Ihrem Geist nicht einsehen will, daß das alles nur leere Worte sind und daß Schönheit und Ideal einem Manne von Verstand als ein Traum erscheinen muß, den er freilich nicht in die Wirklichkeit versetzen mag, sondern vielmehr widerstrebend findet.«</p>
+            <p rendition="#et">Mein Philosoph schien während des letzten Teiles unsers Gespräches etwas unruhig zu werden, so gelassen und gleichgültig er den Anfang anzuhören schien, er rückte den Stuhl, bewegte ein paarmal die Lippen und fing, als es eine Pause gab, zu reden an.</p>
+            <p rendition="#et">Doch was er vorbrachte, mag er Ihnen selbst überliefern! Er ist diesen Morgen beizeiten wieder da, denn seine Teilnahme an dem gestrigen Gespräch hat auf einmal die Schalen unserer wechselseitigen Entfernung abgestoßen, und ein paar hübsche Pflanzen im Garten der Freundschaft zeigen sich.</p>
+            <p rendition="#et">Diesen Morgen geht noch eine Post, womit ich die gegenwärtigen Blätter abschicke, über denen ich schon einige <pb n="239" facs="#f0033"/>
+Patienten versäumt habe, weshalb ich Verzeihung vom Apoll, insofern er sich um Ärzte und Künstler zugleich bekümmert, erwarten darf.</p>
+            <p rendition="#et">Diesen Nachmittag haben wir noch sonderbare Szenen zu erwarten. Unser Charakteristiker kommt wieder, zugleich haben sich noch ein halb Dutzend Fremde anmelden lassen, die Jahrszeit ist reizend und alles in Bewegung.</p>
+            <p rendition="#et">Gegen diese Gesellschaft haben wir einen Bund gemacht, Julie, der Philosoph und ich; es soll uns keine von ihren Eigenheiten entgehen.</p>
+            <p rendition="#et">Doch hören Sie erst den Schluß unserer gestrigen Disputation und empfangen nur noch einen lebhaftern Gruß von</p>
+            <p>Ihrem</p>
+            <p>zwar diesmal eilfertigen, doch immer</p>
+            <p>beständigen, treuen Freund und Diener.</p>
+         </div>
+         <div xml:id="Goethe-Johann-W-d1e341208" type="chapter">
+            <head>Sechster Brief</head>
+            <p>Unser würdiger Freund läßt mich an seinem Schreibtisch niedersitzen, und ich danke ihm sowohl für dieses Vertrauen als für den Anlaß, den er mir gibt, mich mit Ihnen zu unterhalten. Er nennt mich den Philosophen, er würde mich den Schüler nennen, wenn er wüßte, wie sehr ich mich zu bilden, wie sehr ich zu lernen wünsche. Doch leider hat man schon vor den Menschen, wenn man sich nur auf gutem Wege glaubt, ein anmaßliches Ansehen.</p>
+            <p rendition="#et">Daß ich gestern abend mich in ein Gespräch über bildende Kunst lebhaft einmischte, da mir das Anschauen derselben fehlt und ich nur einige literarische Kenntnisse davon besitze, werden Sie mir verzeihen, wenn Sie meine Relation vernehmen und daraus ersehen, daß ich bloß im Allgemeinen geblieben bin, daß ich mein Befugnis, mitzureden, mehr auf einige Kenntnis der alten Poesie gegründet habe.</p>
+            <p rendition="#et">
+               <pb n="240" facs="#f0034"/>
+Ich will nicht leugnen, daß die Art, wie der Gegner mit meinem Freunde verfuhr, mich entrüstete. Ich bin noch jung, entrüste mich vielleicht zur Unzeit und verdiene um desto weniger den Titel eines Philosophen. Die Worte des Gegners griffen mich selbst an; denn wenn der Kenner, der Liebhaber der Kunst das Schöne nicht aufgeben darf, so muß der Schüler der Philosophie sich das Ideal nicht unter die Hirngespinste verweisen lassen.</p>
+            <p rendition="#et">Nun, so viel ich mich erinnere, wenigstens den Faden und den allgemeinen Inhalt des Gesprächs.</p>
+            <p>Ich: Erlauben Sie, daß ich auch ein Wort einrede !</p>
+            <p>Der Gast (etwas schnöde): Von Herzen gern und wo möglich nichts von Luftbildern.</p>
+            <p>Ich: Von der Poesie der Alten kann ich einige Rechenschaft geben, von der bildenden Kunst habe ich wenige Kenntnis.</p>
+            <p>Der Gast: Das tut mir leid! so werden wir wohl schwerlich näher zusammenkommen.</p>
+            <p>Ich: Und doch sind die schönen Künste nahe verwandt, die Freunde der verschiedensten sollten sich nicht mißverstehn.</p>
+            <p>Oheim: Lassen Sie hören.</p>
+            <p>Ich: Die alten Tragödienschreiber verfuhren mit dem Stoff, den sie bearbeiteten, völlig wie die bildenden Künstler, wenn anders diese Kupfer, welche die Familie der Niobe vorstellen, nicht ganz vom Original abweichen.</p>
+            <p>Gast: Sie sind leidlich genug, sie geben nur einen unvollkommenen, nicht einen falschen Begriff.</p>
+            <p>Ich: Nun! dann können wir sie insofern zum Grunde legen.</p>
+            <p>Oheim: Was behaupten Sie von dem Verfahren der alten Tragödienschreiber?</p>
+            <p>Ich: Sie wählen sehr oft, besonders in der ersten Zeit, unerträgliche Gegenstände, unleidliche Begebenheiten.</p>
+            <p>Gast: Unerträglich wären die alten Fabeln?</p>
+            <p>
+               <pb n="241" facs="#f0035"/>
+Ich: Gewiß! ungefähr wie Ihre Beschreibung des Laokoon.</p>
+            <p>Gast: Diese finden Sie also unerträglich?</p>
+            <p>Ich: Verzeihen Sie! nicht Ihre Beschreibung, sondern das Beschriebene.</p>
+            <p>Gast: Also das Kunstwerk?</p>
+            <p>Ich: Keinesweges! aber das, was Sie darin gesehen haben. Die Fabel, die Erzählung, das Skelett, das, was Sie charakteristisch nennen. Denn wenn Laokoon wirklich so vor unsern Augen stünde, wie Sie ihn beschreiben, so wäre er wert, daß er den Augenblick in Stücken geschlagen würde.</p>
+            <p>Gast: Sie drücken sich stark aus.</p>
+            <p>Ich: Das ist wohl einem wie dem andern erlaubt.</p>
+            <p>Oheim: Nun also zu dem Trauerspiele der Alten.</p>
+            <p>Gast: Zu den unerträglichen Gegenständen.</p>
+            <p>Ich: Ganz recht! aber auch zu der alles erträglich, leidlich, schön, anmutig machenden Behandlung.</p>
+            <p>Gast: Das geschähe denn also wohl durch Einfalt und stille Größe?</p>
+            <p>Ich: Wahrscheinlich.</p>
+            <p>Gast: Durch das mildernde Schönheitsprinzip?</p>
+            <p>Ich: Es wird wohl nicht anders sein.</p>
+            <p>Gast: Die alten Tragödien wären also nicht schrecklich?</p>
+            <p>Ich: Nicht leicht, soviel ich weiß, wenn man den Dichter selbst hört. Freilich, wenn man in der Poesie nur den Stoff erblickt, der dem Gedichteten zum Grund liegt, wenn man vom Kunstwerke spricht, als hätte man an seiner Statt die Begebenheiten in der Natur erfahren, dann lassen sich wohl sogar Sophokleische Tragödien als ekelhaft und abscheulich darstellen.</p>
+            <p>Gast: Ich will über Poesie nicht entscheiden.</p>
+            <p>Ich: Und ich nicht über bildende Kunst.</p>
+            <p>Gast: Ja, es ist wohl das beste, daß jeder in seinem Fache bleibt.</p>
+            <p>Ich: Und doch gibt es einen allgemeinen Punkt, in welchem die Wirkungen aller Kunst, redender sowohl als bildender, <pb n="242" facs="#f0036"/>
+sich sammeln, aus welchem alle ihre Gesetze ausfließen.</p>
+            <p>Gast: Und dieser wäre?</p>
+            <p>Ich: Das menschliche Gemüt.</p>
+            <p>Gast: Ja! ja! es ist die Art der neuen Herren Philosophen, alle Dinge auf ihren eignen Grund und Boden zu spielen, und bequemer ist es freilich, die Welt nach der Idee zu modeln, als seine Vorstellungen den Dingen zu unterwerfen.</p>
+            <p>Ich: Es ist hier von keinem metaphysischen Streite die Rede.</p>
+            <p>Gast: Den ich mir auch verbitten wollte.</p>
+            <p>Ich: Die Natur, will ich einmal zugeben, lasse sich unabhängig von dem Menschen denken, die Kunst bezieht sich notwendig auf denselben: denn die Kunst ist nur durch den Menschen und für ihn.</p>
+            <p>Gast: Wozu soll das führen?</p>
+            <p>Ich: Sie selbst, indem Sie der Kunst das Charakteristische zum Ziel setzen, bestellen den Verstand, der das Charakteristische erkennt, zum Richter.</p>
+            <p>Gast: Allerdings tue ich das. Was ich mit dem Verstand nicht begreife, existiert mir nicht.</p>
+            <p>Ich: Aber der Mensch ist nicht bloß ein denkendes, er ist zugleich ein empfindendes Wesen. Er ist ein Ganzes, eine Einheit vielfacher, innig verbundner Kräfte, und zu diesem Ganzen des Menschen muß das Kunstwerk reden, es muß dieser reichen Einheit, dieser einigen Mannigfaltigkeit in ihm entsprechen.</p>
+            <p>Gast: Führen Sie mich nicht in diese Labyrinthe, denn wer vermöchte uns herauszuhelfen.</p>
+            <p>Ich: Da ist es denn freilich am besten, wir heben das Gespräch auf, und jeder behauptet seinen Platz.</p>
+            <p>Gast: Auf dem meinigen wenigstens stehe ich feste.</p>
+            <p>Ich: Vielleicht fände sich noch geschwind ein Mittel, daß einer den andern auf seinem Platze wo nicht besuchen, doch wenigstens beobachten könnte.</p>
+            <p>Gast: Geben Sie es an.</p>
+            <p>
+               <pb n="243" facs="#f0037"/>
+Ich: Wir wollen uns die Kunst einen Augenblick im Entstehen denken.</p>
+            <p>Gast: Gut.</p>
+            <p>Ich: Wir wollen das Kunstwerk auf dem Wege zur Vollkommenheit begleiten.</p>
+            <p>Gast: Nur auf dem Wege der Erfahrung mag ich Ihnen folgen! Die steilen Pfade der Spekulation verbitte ich mir.</p>
+            <p>Ich: Sie erlauben, daß ich ganz von vorn anfange.</p>
+            <p>Gast: Recht gern.</p>
+            <p>Ich: Der Mensch fühlt eine Neigung zu irgendeinem Gegenstand. Sei es ein einzelnes, belebtes Wesen.</p>
+            <p>Gast: Also etwa zu diesem artigen Schoßhunde.</p>
+            <p>Julie: Komm, Bello! es ist keine geringe Ehre, als Beispiel zu einer solchen Abhandlung gebraucht zu werden.</p>
+            <p>Ich: Fürwahr, der Hund ist zierlich genug! und fühlte der Mann, den wir annehmen, einen Nachahmungstrieb, so würde er dieses Geschöpf auf irgendeine Weise darzustellen suchen; lassen Sie aber auch seine Nachahmung recht gut geraten, so werden wir doch nicht sehr gefördert sein, denn wir haben nun allenfalls nur zwei Bellos für einen.</p>
+            <p>Gast: Ich will nicht einreden, sondern erwarten, was hieraus entstehen soll.</p>
+            <p>Ich: Nehmen Sie an, daß dieser Mann, den wir wegen seines Talents nun schon einen Künstler nennen, sich hierbei nicht beruhigte, daß ihm seine Neigung zu eng, zu beschränkt vorkäme, daß er sich nach mehr Individuen, nach Varietäten, nach Arten, nach Gattungen umtäte, dergestalt, daß zuletzt nicht mehr das Geschöpf, sondern der Begriff des Geschöpfs vor ihm stünde und er diesen endlich durch seine Kunst darzustellen vermöchte.</p>
+            <p>Gast: Bravo! Das würde mein Mann sein. Das Kunstwerk würde gewiß charakteristisch ausfallen.</p>
+            <p>Ich: Ohne Zweifel.</p>
+            <p>
+               <pb n="244" facs="#f0038"/>
+Gast: Und ich würde mich dabei beruhigen und nichts weiter fordern.</p>
+            <p>Ich: Wir andern aber steigen weiter.</p>
+            <p>Gast: Ich bleibe zurück.</p>
+            <p>Oheim: Zum Versuche gehe ich mit.</p>
+            <p>Ich: Durch jene Operation möchte allenfalls ein Kanon entstanden sein, musterhaft, wissenschaftlich schätzbar; aber nicht befriedigend fürs Gemüt.</p>
+            <p>Gast: Wie wollen Sie auch den wunderlichen Forderungen dieses lieben Gemüts genugtun?</p>
+            <p>Ich: Es ist nicht wunderlich, es läßt sich nur seine gerechten Ansprüche nicht nehmen. Eine alte Sage berichtet uns, daß die Elohim einst untereinander gesprochen: »Lasset uns den Menschen machen, ein Bild, das uns gleich sei«, und der Mensch sagte daher mit vollem Recht: »Lasset uns Götter ma chen, Bilder, die uns gleich seien.«</p>
+            <p>Gast: Wir kommen hier schon in eine sehr dunkle Region.</p>
+            <p>Ich: Es gibt nur <hi rendition="#i">ein</hi> Licht, uns hier zu leuchten.</p>
+            <p>Gast: Das wäre?</p>
+            <p>Ich: Die Vernunft.</p>
+            <p>Gast: Inwiefern sie ein Licht oder ein Irrlicht sei, ist schwer zu bestimmen.</p>
+            <p>Ich: Nennen wir sie nicht; aber fragen wir uns die Forderungen ab, die der Geist an ein Kunstwerk macht. Eine beschränkte Neigung soll nicht nur ausgefüllt, unsere Wißbegierde nicht etwa nur befriedigt, unsere Kenntnis nur geordnet und beruhigt werden; das Höhere, was in uns liegt, will erweckt sein, wir wollen verehren und uns selbst verehrungswürdig fühlen.</p>
+            <p>Gast: Ich fange an, nichts mehr zu verstehen.</p>
+            <p>Oheim: Ich aber glaube einigermaßen folgen zu können. Wie weit ich mitgehe, will ich durch ein Beispiel zeigen. Nehmen wir an, daß jener Künstler einen Adler in Erz gebildet habe, der den Gattungsbegriff vollkommen ausdrückte; nun wollte er ihn aber auf den Zepter Jupiters <pb n="245" facs="#f0039"/>
+setzen. Glauben Sie, daß er dahin vollkommen passen würde?</p>
+            <p>Gast: Es käme darauf an.</p>
+            <p>Oheim: Ich sage nein! Der Künstler müßte ihm vielmehr noch etwas geben.</p>
+            <p>Gast: Was denn?</p>
+            <p>Oheim: Das ist freilich schwer auszudrücken.</p>
+            <p>Gast: Ich vermute.</p>
+            <p>Ich: Und doch ließe sich vielleicht durch Annäherung etwas tun.</p>
+            <p>Gast: Nur immer zu.</p>
+            <p>Ich: Er müßte dem Adler geben, was er dem Jupiter gab, um diesen zu einem Gott zu machen.</p>
+            <p>Gast: Und das wäre?</p>
+            <p>Ich: Das Göttliche, das wir freilich nicht kennen würden, wenn es der Mensch nicht fühlte und selbst hervorbrächte.</p>
+            <p>Gast: Ich behaupte immer meinen Platz und lasse Sie in die Wolken steigen. Ich sehe recht wohl, Sie wollen den hohen Stil der griechischen Kunst bezeichnen, den ich aber auch nur insofern schätze, als er charakteristisch ist.</p>
+            <p>Ich: Für uns ist er noch etwas mehr, er befriedigt eine hohe Forderung, die aber doch noch nicht die höchste ist.</p>
+            <p>Gast: Sie scheinen sehr ungenügsam zu sein.</p>
+            <p>Ich: Dem, der viel erlangen kann, geziemt viel zu fordern. Lassen Sie mich kurz sein! Der menschliche Geist befindet sich in einer herrlichen Lage, wenn er verehrt, wenn er anbetet, wenn er einen Gegenstand erhebt und von ihm erhoben wird; allein er mag in diesem Zustand nicht lange verharren, der Gattungsbegriff ließ ihn kalt, das Ideale erhob ihn über sich selbst; nun aber möchte er in sich selbst wieder zurückkehren, er möchte jene frühere Neigung, die er zum Individuo gehegt, wieder genießen, ohne in jene Beschränktheit zurückzukehren, und will auch das Bedeutende, das Geisterhebende nicht fahrenlassen. <pb n="246" facs="#f0040"/>
+Was würde aus ihm in diesem Zustande werden, wenn die Schönheit nicht einträte und das Rätsel glücklich löste! Sie gibt dem Wissenschaftlichen erst Leben und Wärme, und indem sie das Bedeutende, Hohe mildert und himmlischen Reiz darüber ausgießt, bringt sie es uns wieder näher. Ein schönes Kunstwerk hat den ganzen Kreis umlaufen, es ist nun wieder eine Art Individuum, das wir mit Neigung umfassen, das wir uns zueignen können.</p>
+            <p>Gast: Sind Sie fertig?</p>
+            <p>Ich: Für diesmal! der kleine Kreis ist geschlossen, wir sind wieder da, wo wir ausgegangen sind, das Gemüt hat gefordert, das Gemüt ist befriedigt, und ich habe weiter nichts zu sagen. (Der gute Oheim ward zu einem Kranken dringend abgerufen.)</p>
+            <p>Gast: Es ist die Art der Herren Philosophen, daß sie sich hinter sonderbaren Worten, wie hinter einer Ägide, im Streite einherbewegen.</p>
+            <p>Ich: Diesmal kann ich wohl versichern, daß ich nicht als Philosoph gesprochen habe, es waren lauter Erfahrungssachen.</p>
+            <p>Gast: Das nennen Sie Erfahrung, wovon ein anderer nichts begreifen kann!</p>
+            <p>Ich: Zu jeder Erfahrung gehört ein Organ.</p>
+            <p>Gast: Wohl ein besonderes?</p>
+            <p>Ich: Kein besonderes, aber eine gewisse Eigenschaft muß es haben.</p>
+            <p>Gast: Und die wäre?</p>
+            <p>Ich: Es muß produzieren können.</p>
+            <p>Gast: Was produzieren?</p>
+            <p>Ich: Die Erfahrung! Es gibt keine Erfahrung, die nicht produziert, hervorgebracht, erschaffen wird.</p>
+            <p>Gast: Nun, das ist arg genug !</p>
+            <p>Ich: Besonders gilt es von dem Künstler.</p>
+            <p>Gast: Fürwahr! Was wäre nicht ein Porträtmaler zu beneiden, was würde er nicht für Zulauf haben, wenn er <pb n="247" facs="#f0041"/>
+seine sämtlichen Kunden produzieren könnte, ohne sie mit so mancher Sitzung zu inkommodieren!</p>
+            <p>Ich: Vor dieser Instanz fürchte ich mich gar nicht, ich bin vielmehr überzeugt: kein Porträt kann etwas taugen, als wenn es der Maler im eigentlichsten Sinne erschafft.</p>
+            <p>Gast (aufspringend): Das wird zu toll! Ich wollte, Sie hätten mich zum besten und das alles wäre nur Spaß! Wie würde ich mich freuen, wenn das Rätsel sich dergestalt auflöste! Wie gern würde ich einem wackern Mann, wie Sie sind, die Hand reichen!</p>
+            <p>Ich: Leider ist es mein völliger Ernst! und ich kann mich weder anders finden noch fügen.</p>
+            <p>Gast: Nun, so dichte ich, wir reichten einander zum Abschied wenigstens die Hände; besonders da unser Herr Wirt sich entfernt hat, der doch noch allenfalls den Präsidenten bei unserer lebhaften Disputation machen konnte. Leben Sie wohl, Mademoiselle! Leben Sie wohl, mein Herr! Ich lasse morgen anfragen, ob ich wieder aufwarten darf.</p>
+            <p>So stürmte er zur Türe hinaus, und Julie hatte kaum Zeit, ihm die Magd, die sich mit der Laterne parat hielt, nachzuschicken. Ich blieb mit dem liebenswürdigen Kinde allein. Karoline hatte sich schon früher entfernt. Ich glaube, es war nicht lange hernach, als mein Gegner die reine Schönheit ohne Charakter für fade erklärt hatte.</p>
+            <p rendition="#et">»Sie haben es arg gemacht, mein Freund«, sagte Julie nach einer kurzen Pause. »Wenn er mir nicht ganz recht zu haben scheint, so kann ich Ihnen doch auch unmöglich durchaus Beifall geben; denn es war doch wohl bloß, um ihn zu necken, als Sie zuletzt behaupteten: der Porträtmaler müsse das Bildnis ganz eigentlich erschaffen.«</p>
+            <p rendition="#et">»Schöne Julie«, versetzte ich darauf, »wie sehr wünschte ich, mich Ihnen hierüber verständlich zu machen! Vielleicht gelingt es mir mit der Zeit! Aber Ihnen, deren lebhafter <pb n="248" facs="#f0042"/>
+Geist sich in alle Regionen bewegt, die den Künstler nicht allein schätzt, sondern ihm gewissermaßen zuvoreilt und selbst das, was Sie nicht mit Augen gesehen, sich, als stünde es vor ihr, zu vergegenwärtigen weiß, Sie sollten am wenigsten stutzen, wenn vom Schaffen, vom Hervorbringen die Rede ist.«</p>
+            <p rendition="#et">Julie: Ich merke, Sie wollen mich bestechen. Es wird Ihnen leicht werden, denn ich höre Ihnen gern zu.</p>
+            <p rendition="#et">Ich: Lassen Sie uns vom Menschen würdig denken, und bekümmern wir uns nicht, ob es ein wenig bizarr klingt, was wir von ihm sagen. Gibt doch jedermann zu, daß der Poet geboren werden müsse! Schreibt nicht jedermann dem Genie eine schaffende Kraft zu, und niemand glaubt dadurch eben etwas Paradoxes zu sagen. Wir leugnen es nicht von den Werken der Phantasie; aber wahrlich, der untätige, untaugende Mensch wird das Gute, das Edle, das Schöne weder an sich noch an andern gewahr werden! Wo käme es denn her, wenn es nicht aus uns selbst entspränge? Fragen Sie Ihr eigen Herz! ist nicht die Handelsweise zugleich mit dem Handeln ihm eingeboren? Ist es nicht die Fähigkeit zur guten Tat, die sich der guten Tat erfreut? Wer fühlt lebhaft ohne den Wunsch, das Gefühlte darzustellen? und was stellen wir denn eigentlich dar, was wir nicht erschaffen? und zwar nicht etwa nur ein für allemal, damit es da sei, sondern damit es wirke, immer wachse und wieder werde und wieder hervorbringe. Das ist ja eben die göttliche Kraft der Liebe, von der man nicht aufhört zu singen und zu sagen, daß sie in jedem Augenblick die herrlichen Eigenschaften des geliebten Gegenstandes neu hervorbringt, in den kleinsten Teilen ausbildet, im ganzen umfaßt, bei Tage nicht rastet, bei Nacht nicht ruht, sich an ihrem eignen Werke entzückt, über ihre eigne rege Tätigkeit erstaunt, das Bekannte immer neu findet, weil es in jedem Augenblicke, in dem süßesten aller Geschäfte wieder neu erzeugt wird. Ja, das Bild der Geliebten kann <pb n="249" facs="#f0043"/>
+nicht alt werden, denn jeder Moment ist seine Geburtsstunde.</p>
+            <p rendition="#et">Ich habe heute sehr gesündigt, ich handelte gegen meinen Vorsatz, indem ich über eine Materie sprach, die ich nicht ergründet habe, und in diesem Augenblick bin ich auf dem Wege, noch strafwürdiger zu fehlen. Schweigen gebührt dem Menschen, der sich nicht vollendet fühlt. Schweigen geziemt auch dem Liebenden, der nicht hoffen darf, glücklich zu sein. Lassen Sie mich von hinnen gehen, damit ich nicht doppelt scheltenswert sei.</p>
+            <p>Ich ergriff Juliens Hand, ich war sehr bewegt, sie hielt mich freundlich fest. Ich darf es sagen. Gebe der Himmel, daß ich mich nicht geirrt habe, daß ich mich nicht irre !</p>
+            <p rendition="#et">Doch ich fahre in meiner Erzählung fort, der Oheim kam zurück. Er war freundlich genug, das an mir zu loben, was ich an mir tadelte, war zufrieden, daß meine Ideen über bildende Kunst mit den seinigen zusammenträfen. Er versprach, mir in kurzer Zeit die Anschauung zu verschaffen, deren ich bedürfen könnte. Julie sagte mir scherzend auch ihren Unterricht zu, wenn ich gesprächiger, wenn ich mitteilender werden wollte – und ich fühle schon recht gut, daß sie alles aus mir machen kann, was sie will.</p>
+            <p rendition="#et">Die Magd kam zurück, die dem Fremden geleuchtet hatte, sie war sehr vergnügt über seine Freigebigkeit, denn er hatte ihr ein ansehnliches Trinkgeld gegeben; noch mehr aber lobte sie seine Artigkeit. Er hatte sie mit freundlichen Worten entlassen und sie obendrein<hi rendition="#i"> schönes Kind</hi> genannt.</p>
+            <p rendition="#et">Ich war nun eben nicht im Humor, ihn zu schonen, und rief aus: »O ja! das kann einem leicht passieren, der das Ideal verleugnet, daß er das Gemeine für schön erklärt !«</p>
+            <p rendition="#et">
+               <pb n="250" facs="#f0044"/>
+Julie erinnerte mich scherzend: daß Gerechtigkeit und Billigkeit auch ein Ideal sei, wornach der Mensch zu streben habe.</p>
+            <p rendition="#et">Es war spät geworden, der Oheim bat mich um einen Dienst, durch den ich mir zugleich selbst dienen sollte: er gab mir eine Abschrift jenes Briefes an Sie, meine Herren, worin er die verschiedenen Liebhabereien zu bezeichnen suchte. Er gab mir Ihre Antwort, verlangte, daß ich beides geschwind studieren, meine Gedanken darüber zusammenfassen und alsdann gegenwärtig sein machte, wenn die angemeldeten Fremden sein Kabinett besuchten, um zu sehen, ob wir noch mehr Klassen entdecken und aufzeichnen könnten. Ich habe den Überrest der Nacht damit zugebracht und ein Schema aus dem Stegreif verfertigt, das, wo nicht gründlich, doch wenigstens lustig ist und das für mich einen großen Wert hat, weil Julie heute früh herzlich darüber lachen konnte.</p>
+            <p rendition="#et">Leben Sie recht wohl! Ich merke, daß dieser Brief mit dem Briefe des guten Oheims, der noch hier auf dem Schreibtische liegt, zugleich fortkann. Nur flüchtig habe ich das Geschriebene wieder überlesen dürfen. Wie manches wäre anders zu sagen, wie manches besser zu bestimmen gewesen! Ja, wenn ich meinem Gefühl nachginge, so sollten diese Blätter eher ins Feuer als auf die Post. Aber wenn nur das Vollendete mitgeteilt werden sollte, wie schlecht würde es überhaupt um Unterhaltung aussehen! Indessen soll unser Gast gesegnet sein, daß er mich in eine Leidenschaft versetzte, daß er mich in eine Aufwallung brachte, die mir diese Unterhaltung mit Ihnen verschaffte und zu neuen, schönen Verhältnissen Anlaß gab.</p>
+         </div>
+         <div xml:id="Goethe-Johann-W-d1e341647" type="chapter">
+            <head>Siebenter Brief</head>
+            <p>Abermals ein Blatt von Juliens Hand! Sie sehen diese Federzüge wieder, von denen Sie einmal physiognomisierten, daß sie einen leicht fassenden, leicht mitteilenden, über die <pb n="251" facs="#f0045"/>
+Gegenstände hinschwebenden und bequem bezeichnenden Geist andeuteten.</p>
+            <p rendition="#et">Gewiß, diese Eigenschaften sind mir heute nötig, wenn ich eine Pflicht erfüllen soll, die mir im eigentlichsten Sinne aufgedrungen worden: denn ich fühle mich weder dazu bestimmt noch fähig; aber die Herren wollen es so, und da muß es ja wohl geschehen.</p>
+            <p rendition="#et">Die Geschichte des gestrigen Tages soll ich aufzeichnen! die Personen schildern, die gestern unser Kabinett besuchten, und zuletzt Ihnen Rechenschaft von dem allerliebsten Fachwerk geben, worin künftig alle und jede Künstler und Kunstfreunde, die an einem einzelnen Teile festhalten, die sich nicht zum Ganzen erheben, eingeschachtelt und aufgestellt werden sollen. Jenes erste, insofern es historisch ist, will ich wohl übernehmen, an das letztere kommt es heute ohnehin nicht, und morgen will ich schon sehen, wie ich diesen Auftrag ablehne.</p>
+            <p rendition="#et">Damit Sie nun aber wissen, wie ich gerade diesmal dazu komme, Sie zu unterhalten, so will ich Ihnen nur kürzlich erzählen, was gestern abend beim Abschied vorgefallen.</p>
+            <p rendition="#et">Wir hatten lange beisammen gesessen (versteht sich: der Oheim, der junge Freund, der nicht mehr als Philosoph aufgeführt sein will, und die beiden Schwestern), wir hatten uns über die Begebenheiten des Tages unterhalten, uns selbst sowie auch alle bekannten Freunde in die verschiedenen Rubriken eingeteilt. Als wir auseinandergehen wollten, fing der Oheim an: »Nun, wer gibt unsern abwesenden Freunden, die wir heute so oft zu uns gewünscht, deren wir so oft gedacht haben, nunmehr auch schnell Nachricht von den heutigen Vorfällen und von den Vorschritten, die wir in Kenntnis und Beurteilung sowohl unserer selbst als anderer gemacht haben? An dieser Mitteilung muß es nicht fehlen, damit wir auch bald wieder etwas von dorther erhalten und so der Schneeball sich immer fortwälze und vergrößere.«</p>
+            <p rendition="#et">
+               <pb n="252" facs="#f0046"/>
+Ich versetzte darauf: »Mich sollte dünken, daß dieses Geschäft nicht in bessern Händen sein könnte, als wenn unser Oheim die Geschichte des Tags aufzeichnete und unser Freund über die neue Theorie und deren Anwendung einen kurzen Aufsatz zu machen sich entschlösse.«</p>
+            <p rendition="#et">»Eben da Sie das Wort Theorie nennen«, versetzte der Freund, »muß ich schon mit Entsetzen zurücktreten und mich lossagen, so gern ich Ihnen auch in allem gefällig sein wollte. Ich weiß nicht, was mich diese Tage von einem Fehler zum andern verleitet! Kaum habe ich mein Stillschweigen gebrochen und über bildende Kunst geschwatzt, die ich erst studieren sollte, so lasse ich mich bereden, etwas, das theoretisch scheinen könnte, über einen Gegenstand aufzusetzen, den ich nicht übersehe. Lassen Sie mir das süße Gefühl, daß ich diese Schwachheiten aus Neigung gegen meine wertesten Freunde begangen habe; aber sparen Sie mir die Beschämung, mich mit diesen Unvollkommenheiten vor Personen sehen zu lassen, vor denen ich als ein Fremder nicht so ganz im Nachteil erscheinen möchte.«</p>
+            <p rendition="#et">Hierauf versetzte sogleich der Oheim: »Was mich betrifft, so bin ich nicht imstande, unter den ersten acht Tagen an einen Brief zu denken; meine einheimischen und auswärtigen Patienten fordern meine ganze Aufmerksamkeit, ich muß besuchen, Konsultationen schreiben, aufs Land fahren. Seht, liebe Kinder, wie ihr zusammen übereinkommt. Ich dächte, Julie ergriffe kurz und gut die Feder, finge mit dem Historischen an und endigte mit dem Spekulativen. Sie erinnert sich des Geschehenen recht gut, und an ihren Späßen habe ich gesehen, daß sie auch im Räsonnement uns manchmal zuvorläuft. Es kommt nur auf guten Willen an, und den hat sie meist.«</p>
+            <p rendition="#et">So ward von mir gesprochen, und so muß ich von mir schreiben. Ich verteidigte mich, so gut ich konnte, doch mußte ich zuletzt nachgeben, und ich leugne nicht, daß ein paar gute, freundliche Worte des jungen Mannes, der <pb n="253" facs="#f0047"/>
+ich weiß nicht was für eine Gewalt über mich ausübt, mich eigentlich zuletzt noch determinierten.</p>
+            <p rendition="#et">Nun sind also meine Gedanken an Sie gerichtet, meine Herren, meine Feder eilt gleichsam zu Ihnen hin, es scheint mir, als wenn ich, indem ich schreibe, nach und nach den Weg zurücklege, der uns trennt. Schon bin ich bei Ihnen! lassen Sie mich und meine Erzählung eine freundliche Aufnahme finden!</p>
+            <p rendition="#et">Wir hatten gestern mittag kaum abgegessen, als man uns schon zwei Fremde meldete; es war ein Hofmeister mit seinem jungen Herrn.</p>
+            <p rendition="#et">Schalkhaft gesinnt und begierig auf die Beute des Tags, eilten wir sogleich sämtlich nach dem Kabinette. Der junge Herr war ein hübscher, stiller junger Mann, der Hofmeister hatte nicht eben feine, aber doch gute Sitten. Nach dem gewöhnlichen allgemeinen Eingang sah er sich unter den Gemälden um, bat sich die Erlaubnis aus, die vorzüglichsten schriftlich anzumerken. Mein Oheim zeigte ihm gutmütig die besten Stücke jedes Zimmers, der Fremde notierte sich mit einigen Worten den Namen des Malers und den Gegenstand, dabei wünschte er zu wissen, wieviel das Stück gekostet haben möchte? wieviel es wohl allenfalls an barem Gelde wert sei? worin man ihm denn, wie natürlich, nicht immer willfahren konnte.</p>
+            <p rendition="#et">Der junge Herr war mehr nachdenklich als aufmerksam, er schien bei einsamen Landschaften, felsigen Gegenden und Wasserfällen am meisten zu verweilen.</p>
+            <p rendition="#et">Nun kam auch der Gast des vorigen Tages, den ich künftig den <hi rendition="#i">Charakteristiker</hi> nennen werde. Er war heiter und guter Laune, scherzte mit dem Oheim und dem Freunde über den gestrigen Streit und versicherte, daß er sie noch zu bekehren hoffe. Der Oheim führte ihn gleich gesprächig vor ein interessantes Gemälde, der Freund schien düster und verdrießlich, worüber er von mir ausgescholten wurde. Er gestand, daß ihn die Behaglichkeit seines Gegners einen Augenblick verstimmt habe, und versprach mir, heiter zu sein.</p>
+            <p rendition="#et">
+               <pb n="254" facs="#f0048"/>
+Wir konnten bemerken, daß der Oheim mit seinem Gaste sich recht behaglich unterhielt, als eine Dame hereintrat, mit zwei Reisegefährten. Wir Mädchen, die wir uns in Erwartung dieses Besuches zum besten geputzt hatten, eilten ihr sogleich entgegen und hießen sie willkommen. Sie war freundlich und gesprächig, und ein gewisser Ernst befremdete uns nicht, der ihrem Stand und ihrem Alter angemessen war. Um einen Kopf kleiner als meine Schwester und ich, schien sie doch auf uns herabzusehen und sich der Superiorität ihres Geistes und ihrer Erfahrungen zu freuen.</p>
+            <p rendition="#et">Wir fragten sie, was sie zu sehen beliebe? Sie versicherte, daß sie in einer Galerie, in einem Kabinett am liebsten allein herumgehe, sich ihren Gefühlen zu überlassen. Wir überließen sie ihren Gefühlen und hielten uns in einer anständigen Entfernung.</p>
+            <p rendition="#et">Als ich hörte, daß sie über einige niederländische Bilder und deren unedle Gegenstände sich gegen ihren Begleiter mit Tadel herausließ, glaubte ich meine Sache recht gut zu machen, indem ich ein Kästchen auf die Staffelei hob, worin sich eine köstliche liegende Venus befindet. Man ist über den Meister nicht einig, aber einig, daß sie vortrefflich sei. Ich öffnete die Türen und bat sie, ins rechte Licht zu treten. Jedoch wie übel kam ich an! Kaum hatte sie einen Blick auf die Tafel geworfen, als sie die Augen niederschlug und mich alsdann sogleich mit einigem Unwillen ansah. »Ich hätte«, rief sie aus, »von einem jungen bescheidenen Mädchen nicht erwartet, daß sie mir einen solchen Gegenstand gelassen vor die Augen stellen würde.« – »Wieso?« fragte ich. – »Und Sie können fragen!« versetzte die Dame.</p>
+            <p rendition="#et">Ich nahm mich zusammen und sagte mit scheinbarer Naivetät: »Gewiß, gnädige Frau, ich sehe nicht ein, warum ich Ihnen dieses Bild nicht vorstellen sollte, vielmehr, indem ich diesen Schatz unserer Sammlung, den man gewöhnlich nur erst spät zeigt, gleich vom Anfang vorstelle, glaubte ich einen Beweis meiner Achtung abzulegen.«</p>
+            <p>
+               <pb n="255" facs="#f0049"/>
+DIE DAME: Also diese Nacktheit beleidiget Sie nicht?</p>
+            <p>JULIE: Ich wüßte nicht, wie mich das Schönste beleidigen sollte, was das Auge sehen kann; und überdies ist mir der Gegenstand nicht fremd, ich habe ihn von Jugend auf gesehen.</p>
+            <p>DAME: Ich kann die Erzieher nicht loben, die solche Gegenstände nicht vor Ihren Augen verheimlichten.</p>
+            <p>JULIE: Um Vergebung! wie hätten sie das sollen? und wie hätten sie's gekonnt? Man lehrte mich die Naturgeschichte, man zeigte mir die Vögel in ihren Federn, die Tiere in ihren Fellen, man erließ mir die Schuppen der Fische nicht, und man hätte mir sollen ein Geheimnis aus der Gestalt des Menschen machen, wohin alles weist, deutet und drängt ! Sollte das wohl möglich gewesen sein? Gewiß! hätte man mir alle Menschen mit Kutten zugedeckt, mein Geist hätte nicht eher gerastet und geruht, bis ich mir eine menschliche Gestalt selbst erfunden hätte, und bin ich nicht auch ein Mädchen! wie kann man den Menschen vor dem Menschen verheimlichen? und ist es nicht eine gute Schule der Bescheidenheit, wenn man uns, die wir uns überhaupt noch immer für hübsch genug halten, das wahre Schöne kennen lehrt?</p>
+            <p>DAME: Die Demut wirkt eigentlich von innen heraus, Mademoiselle, und die reine Bescheidenheit braucht keinen äußern Anlaß. Auch gehört es, dünkt mich, zu den Tugenden eines Frauenzimmers, wenn man seine Neugierde bezähmen lernt, wenn man seinen Vorwitz zu bändigen weiß und ihn wenigstens von Gegenständen ablehnt, die in so manchem Sinne gefährlich werden können.</p>
+            <p>JULIE: Es kann Menschen geben, gnädige Frau, die zu solchen negativen Tugenden bildsam sind. Was meine Erziehung betrifft, so müßten Sie darüber meinen werten Oheim tadeln. Er sagte mir oft, da ich anfangen konnte, über mich selbst zu denken: »Gewöhne dich ans <pb n="256" facs="#f0050"/>
+freie Anschauen der Natur, sie wird dir immer ernsthafte Betrachtungen erwecken: und die Schönheit der Kunst möge die Empfindungen heiligen, die daraus entstehen.«</p>
+            <p>Die Dame wendete sich um und sprach englisch zu ihrem stummen Begleiter. Sie schien, wie mir es vorkam, mit meiner Freiheit nicht ganz zufrieden, sie kehrte sich um, und da sie nicht weit von einer Verkündigung stand, so begleitete ich sie dahin. Sie betrachtete das Bild mit Aufmerksamkeit und bewunderte zuletzt die Flügel des Engels und deren besonders natürliche Abbildung.</p>
+            <p rendition="#et">Nachdem sie sich lange dabei aufgehalten, eilte sie endlich zu einem Ecce-Homo, bei dem sie mit Entzücken verweilte. Da mir aber diese leidende Miene keinesweges wohltätig ist, suchte ich Karolinen an meine Stelle zu schieben; ich winkte ihr, und sie verließ den jungen Baron, mit dem sie im Fenster stand und der eben ein Blatt Papier wieder einsteckte.</p>
+            <p rendition="#et">Auf meine Frage: womit sie dieser junge Herr unterhalten habe? versetzte sie: »Er hat mir Gedichte an seine Geliebte vorgelesen, Lieder, die er auf Reisen aus der größten Entfernung an sie gerichtet. Die Verse sind recht hübsch«, sagte Karoline, »laß dir sie nur auch zeigen.«</p>
+            <p rendition="#et">Ich fand keine Ursache, ihn zu unterhalten, denn er war eben zur Dame getreten und hatte sich ihr als ein weitläuftiger Verwandter vorgestellt. Sie kehrte, wie billig, dem Herrn Christus sogleich den Rücken, um den Herrn Vetter zu begrüßen, die Kunst schien auf eine Weile vergessen zu sein, und es entspann sich ein lebhaftes Welt- und Familiengespräch.</p>
+            <p rendition="#et">Unser junger philosophischer Freund hatte sich indessen an den einen Begleiter der Dame angeschlossen, er hatte an ihm einen Künstler entdeckt und ging mit ihm ein Gemälde nach dem andern durch, in der Hoffnung, etwas <pb n="257" facs="#f0051"/>
+zu lernen, wie er nachher versicherte; allein er fand seine Wünsche nicht befriedigt, obgleich der Mann schöne Kenntnisse zu haben schien.</p>
+            <p rendition="#et">Seine Unterhaltung führte auf manches Tadelnswürdige im einzelnen. Hier war die Zeichnung, hier die Perspektiv nicht richtig, hier fehlte die Haltung, hier konnte man den Auftrag der Farben, hier den Pinsel nicht loben. Eine Schulter saß nicht gut am Rumpf. Hier war eine Glorie zu weiß, hier das Feuer zu rot, hier stand eine Figur nicht auf dem rechten Plan, und was für Bemerkungen noch alles den Genuß der Bilder störten.</p>
+            <p rendition="#et">Um meinen Freund zu befreien, der, wie ich merkte, nicht sehr erbaut war, rief ich den Hofmeister herbei und sagte zu ihm: »Sie haben die vorzüglichsten Bilder auf ihren Wert bemerkt, hier ist ein Kenner, der Sie auch mit den Fehlern bekannt machen kann, und es ist wohl interessant, auch diese zu notieren.« Kaum hatte ich meinen Freund losgewickelt, als wir fast in einen schlimmern Zustand gerieten. Der andere Begleiter der Dame, ein Gelehrter, der bisher ernst und einsam in den Zimmern auf und ab gegangen war und mit einer Lorgnette die Bilder betrachtet hatte, fing an, mit uns zu sprechen, und bedauerte, daß in so wenig Bildern das Kostüm beobachtet sei! Besonders, sagte er, seien ihm die Anachronismen unerträglich! Denn wie könne man ausstehen, daß der heilige Joseph in einem gebundenen Buche lese, Adam mit einer Schaufel grabe, die Heiligen Hieronymus, Franz, Katharina mit dem Christkinde auf <hi rendition="#i">einem</hi> Bilde stehen! Dergleichen Fehler kämen zu oft vor, als daß man in einer Gemäldesammlung sich mit Behaglichkeit umsehen könnte.</p>
+            <p rendition="#et">Der Oheim hatte sich zwar, der Höflichkeit gemäß, sowohl mit der Dame als den übrigen von Zeit zu Zeit unterhalten; allein mit dem Charakteristiker schien er sich doch am besten zu vertragen. Dieser erinnerte sich dann auch, der Dame schon in irgendeinem Kabinett begegnet <pb n="258" facs="#f0052"/>
+zu sein. Man fing an, auf und ab zu gehen, von fremden Dingen zu sprechen, die Mannigfaltigkeit der übrigen Zimmer nur zu durchlaufen, so daß man zuletzt mitten unter Kunstwerken sich von der Kunst um hundert Meilen entfernt fühlte.</p>
+            <p rendition="#et">Die größte Aufmerksamkeit zog endlich gar unser alter Bedienter auf sich. Diesen könnte man wohl den Unterkustode unserer Sammlung nennen. Er zeigt sie vor, wenn der Oheim verhindert ist oder wenn man gewiß weiß, daß die Leute bloß aus Neugierde kommen. Dieser hat sich bei verschiedenen Gemälden gewisse Späße ausgedacht, die er jedesmal anbringt. Er weiß die Fremden durch hohe Preise der Bilder in Erstaunen zu setzen, er führt die Gäste zu den Vexierbildern, zeigt einige merkwürdige Reliquien und ergötzt die Zuschauer besonders durch die Künste der Automaten.</p>
+            <p rendition="#et">Diesmal hatte er die Dienerschaft der Dame herumgeführt, mit noch einigen Personen dieses Schlags, und sie auf seine Art besser unterhalten, als unsere Weise uns bei den übrigen Gästen gelingen wollte. Er ließ zuletzt einen künstlichen Trommelschläger, den mein Oheim schon lange in eine Nebenkammer verbannt hatte, vor seinem Publico ein Stückchen aufspielen, die vornehme Gesellschaft versammelte sich auch umher, das Abgeschmackte setzte jedermann in einen behaglichen Zustand, und so ward es Nacht, ehe man den dritten Teil der Sammlung gesehen hatte. Die Reisenden konnten sich nicht einen Tag länger aufhalten, eilten sämtlich ins Wirtshaus zurück, und wir blieben abends allein.</p>
+            <p rendition="#et">Nun ging es an ein Erzählen, an eine Rekapitulation boshafter Bemerkungen, und wenn unsere Gäste nicht immer liebevoll mit den Gemälden verfuhren, so will ich nicht leugnen, daß wir dafür mit den Beschauern ziemlich lieblos umgingen.</p>
+            <p rendition="#et">Karoline besonders ward sehr geplagt, daß sie die Aufmerksamkeit des jungen Herrn nicht von seiner entfernten <pb n="259" facs="#f0053"/>
+Geliebten ab und auf sich zu ziehen gewußt. Ich behauptete: es könne einem Mädchen nichts schrecklicher sein, als ein Gedicht auf eine andere vorlesen zu hören! Sie aber versicherte das Gegenteil und behauptete: daß es ihr schön, ja erbaulich vorgekommen sei. Sie habe auch einen abwesenden Liebhaber und wünsche nichts mehr, als daß sich derselbe in Gegenwart anderer Mädchen auch so musterhaft wie der junge Fremde betrage.</p>
+            <p rendition="#et">Bei einer kalten Kollation, bei der wir Ihre Gesundheit zu trinken nicht vergaßen, ward der junge Freund nun aufgefordert, seine Übersicht über Künstler und Liebhaber vorzulegen, und er tat es mit einigem Zögern. Wie das nun eigentlich klingt, kann ich heute unmöglich überliefern. Meine Finger sind müde geworden, und mein Geist ist abgespannt. Auch muß ich sehen, ob ich nicht etwa dieses Geschäft von mir abschütteln kann. Die Erzählung der Eigenheiten unseres Besuches mochte hingehen, allein mich tiefer einzulassen, finde ich bedenklich, und für heute erlauben Sie, daß ich ganz stille aus Ihrer Gegenwart wegschlüpfe.</p>
+            <p>Julie</p>
+         </div>
+         <div xml:id="Goethe-Johann-W-d1e341803" type="chapter">
+            <head>Achter Brief</head>
+            <p>Und noch einmal Juliens Hand! Heute ist's mein freier Wille, ja gewissermaßen ein Geist des Widerspruchs, der mich antreibt, Ihnen zu schreiben. Nachdem ich mich gestern so sehr gesperrt hatte, die letzte Arbeit zu übernehmen und Ihnen von dem, was noch übrig ist, Rechenschaft zu geben, so ward festgesetzt, daß heute abend eine solenne akademische Sitzung gehalten werden sollte, in welcher man die Sache durchsprechen wollte, um sie schließlich an Sie gelangen zu lassen. Nun sind die Herren an ihre Arbeit gegangen, und ich fühle Mut und Beruf, das allein zu übernehmen, wozu sie mir ihren Beistand großmütig zusagten, und ich hoffe sie diesen Abend angenehm <pb n="260" facs="#f0054"/>
+zu überraschen. Denn wie manches unternehmen die Männer, was sie nicht ausführen würden, wenn die Frauen nicht zur rechten Zeit mit eingriffen und das leicht Begonnene, schwer zu Vollbringende gutmütig beförderten.</p>
+            <p rendition="#et">Es trat ein sonderbarer Umstand ein, als wir die Liebhaber, die uns gestern besuchten, auch mit in unsere Einteilung einrangieren wollten. Sie paßten nirgends hin, wir fanden eben gar kein Fach für sie.</p>
+            <p rendition="#et">Als wir darüber unsern Philosophen tadelten, versetzte er: »Meine Einteilung kann andere Fehler haben; aber das gereicht ihr zur Ehre, daß außer dem Charakteristiker niemand Ihrer übrigen diesmaligen Gäste in die Rubriken paßt. Meine Rubriken bezeichnen nur Einseitigkeiten, welche als Mängel anzusehen sind, wenn die Natur den Künstler dergestalt beschränkte, als Fehler, wenn er mit Vorsatz in dieser Beschränkung verharrt. Das Falsche, Schiefe, fremd Eingemischte aber findet hier keinen Platz. Meine sechs Klassen bezeichnen die Eigenschaften, welche, alle zusammen verbunden, den wahren Künstler sowie den wahren Liebhaber ausmachen würden, die aber, wie ich aus meiner wenigen Erfahrung weiß und aus den mir mitgeteilten Papieren sehe, nur leider zu oft einzeln erscheinen.«</p>
+            <p rendition="#et">Nun zur Sache!</p>
+            <p>Erste Abteilung</p>
+            <p>Nachahmer</p>
+            <p>Man kann dieses Talent als die Base der bildenden Kunst ansehen. Ob sie davon ausgegangen, mag noch eine Frage bleiben. Fängt ein Künstler damit an, so kann er sich bis zu dem Höchsten erheben, bleibt er dabei kleben, so darf man ihn einen <hi rendition="#i">Kopisten</hi> nennen und mit diesem Wort gewissermaßen einen ungünstigen Begriff verbinden. Hat aber ein solches Naturell das Verlangen, immer in seinem beschränkten Fache weiterzugehen, so muß zuletzt eine <pb n="261" facs="#f0055"/>
+Forderung an Wirklichkeit entstehen, die der Künstler zu leisten, der Liebhaber zu erfahren strebt. Wird der Übergang zur echten Kunst verfehlt, so findet man sich auf dem schlimmsten Abwege; man gelangt endlich dahin, daß man Statuen malt und sich selbst, wie es unser guter Großvater tat, im damastnen Schlafrock der Nachwelt überliefert.</p>
+            <p rendition="#et">Die Neigung zu Schattenrissen hat etwas, das sich dieser Liebhaberei nähert. Eine solche Sammlung ist interessant genug, wenn man sie in einem Portefeuille besitzt. Nur müssen die Wände nicht mit diesen traurigen, halben Wirklichkeitserscheinungen verziert werden.</p>
+            <p rendition="#et">Der Nachahmer verdoppelt nur das Nachgeahmte, ohne etwas hinzuzutun oder uns weiterzubringen. Er zieht uns in das einzige höchst beschränkte Dasein hinein, wir erstaunen über die Möglichkeit dieser Operation, wir empfinden ein gewisses Ergötzen; aber recht behaglich kann uns das Werk nicht machen, denn es fehlt ihm die Kunstwahrheit als schöner Schein. Sobald auch dieser nur einigermaßen eintritt, so hat das Bildnis schon einen großen Reiz, wie wir bei manchen deutschen, niederländischen und französischen Porträten und Stilleben empfinden.</p>
+            <p rendition="#et">(Notabene! Daß Sie ja nicht irrewerden und, weil Sie meine Hand sehen, glauben, daß das alles aus meinem Köpfchen komme. Ich wollte erst unterstreichen, was ich buchstäblich aus den Papieren nehme, die ich vor mir liegen habe; doch dann wäre zu viel unterstrichen worden. Sie werden am besten sehen, wo ich nur referiere, ja Sie finden die eignen Worte Ihres letzten Briefs wieder.)</p>
+            <p>Zweite Abteilung</p>
+            <p>Imaginanten</p>
+            <p>Mit dieser Gesellschaft sind unsere Freunde gar lustig umgesprungen. Es schien, als wenn der Gegenstand sie reizte, ein wenig aus dem Gleise zu treten, und ob ich gleich <pb n="262" facs="#f0056"/>
+dabeisaß, mich zu dieser Klasse bekannte und zur Gerechtigkeit und Artigkeit aufforderte, so konnte ich doch nicht verhindern, daß ihr eine Menge Namen aufgebürdet wurden, die nicht durchgängig ein Lob anzudeuten scheinen. Man nannte sie <hi rendition="#i">Poetisierer,</hi> weil sie, anstatt den poetischen Teil der bildenden Kunst zu kennen und sich darnach zu bestreben, vielmehr mit dem Dichter wetteifern, den Vorzügen desselben nachjagen und ihre eignen Vorteile verkennen und versäumen. Man nannte sie <hi rendition="#i">Scheinmänner,</hi> weil sie so gern dem Scheine nachstreben, der Einbildungskraft etwas vorzuspielen suchen, ohne sich zu bekümmern, inwiefern dem Anschauen genug geschieht. Sie wurden <hi rendition="#i">Phantomisten</hi> genannt, weil ein hohles Gespensterwesen sie anzieht, <hi rendition="#i">Phantasmisten,</hi> weil traumartige Verzerrungen und Inkohärenzen nicht ausbleiben, <hi rendition="#i">Nebulisten,</hi> weil sie der Wolken nicht entbehren können, um ihren Luftbildern einen würdigen Boden zu verschaffen.</p>
+            <p rendition="#et">Ja zuletzt wollte man nach deutscher Reim- und Klangweise sie als <hi rendition="#i">Schwebler</hi> und <hi rendition="#i">Nebler</hi> abfertigen. Man behauptete, sie seien ohne Realität, hätten nie und nirgends ein Dasein und ihnen fehle Kunstwahrheit als schöne Wirklichkeit.</p>
+            <p rendition="#et">Wenn man den Nachahmern eine falsche Natürlichkeit zuschrieb, so blieben die Imaginanten von dem Vorwurf einer falschen Natur nicht befreit, und was dergleichen Anschuldigungen mehr waren. Ich merkte zwar, daß man darauf ausging, mich zu reizen, und doch tat ich den Herren den Gefallen, wirklich böse zu werden.</p>
+            <p rendition="#et">Ich fragte sie: ob denn nicht das Genie sich hauptsächlich in der Erfindung äußere? und ob man den Poetisierern diesen Vorzug streitig machen könne? Ob es nicht auch schon dankenswert sei, wenn der Geist durch ein glückliches Traumbild ergötzt werde? Ob nicht in dieser Eigenschaft, die man mit so vielen wunderlichen Namen anschwärze, der Grund und die Möglichkeit der höchsten Kunst begriffen sei? Ob irgend etwas mächtiger gegen <pb n="263" facs="#f0057"/>
+die leidige Prosa wirke als eben diese Fähigkeit, neue Welten zu schaffen? Ob es nicht ein seltnes Talent, ein seltner Fehler sei, von dem man, wenn man ihn auch auf Abwegen antrifft, immer noch mit Ehrfurcht sprechen müßte?</p>
+            <p rendition="#et">Die Herren ergaben sich bald. Sie erinnerten mich, daß hier nur von Einseitigkeit die Rede sei; daß eben diese Eigenschaft, weil sie ins Ganze der Kunst so trefflich wirken könne, dagegen so viel schade, wenn sie sich als einzeln, selbständig und unabhängig erkläre. Der Nachahmer schadet der Kunst nie, denn er bringt sie mühsam auf eine Stufe, wo sie ihm der echte Künstler abnehmen kann und muß, der Imaginant hingegen schadet der Kunst unendlich, weil er sie über alle ihre Grenzen hinausjagt, und es bedürfte des größten Genies, sie aus ihrer Unbestimmtheit und Unbedingtheit, gegen ihren wahren Mittelpunkt, in ihren eigentlichen, angewiesenen Umkreis zurückzuführen.</p>
+            <p rendition="#et">Es ward noch einiges hin und wider gestritten, zuletzt sagten sie: ob ich nicht gestehen müsse, daß auf diesem Wege die satirische Karikaturzeichnung als die kunst-, geschmack- und sittenverderblichste Verirrung entstanden sei und entstehe?</p>
+            <p rendition="#et">Diese konnte ich denn freilich nicht in Schutz nehmen: ob ich gleich nicht leugnen will, daß mich das häßliche Zeug manchmal unterhält und der Schadenfreude, dieser Erb- und Schoßsünde aller Adamskinder, als eine pikante Speise nicht ganz übel schmeckt.</p>
+            <p rendition="#et">Fahren wir weiter fort !</p>
+            <p>Dritte Abteilung</p>
+            <p>Charakteristiker</p>
+            <p>Mit diesen sind Sie schon bekannt genug, da Sie von dem Streit mit einem merkwürdigen Individuo dieser Art hinreichend unterrichtet sind.</p>
+            <p rendition="#et">Wenn dieser Klasse an meinem Beifall etwas gelegen ist, <pb n="264" facs="#f0058"/>
+so kann ich ihr denselben versichern; denn wenn meine lieben Imaginanten mit Charakterzügen spielen sollen, so muß erst etwas Charakteristisches dasein; wenn mir das Bedeutende Spaß machen soll, so kann ich wohl leiden, daß jemand das Bedeutende ernsthaft aufführt. Wenn uns also ein solcher Charaktermann vorarbeiten will, damit meine Poetisierer keine Phantasmisten werden oder sich gar ins Schwebeln und Nebeln verlieren, so soll er mir gelobt und gepriesen bleiben.</p>
+            <p rendition="#et">Der Oheim schien auch nach der letzten Unterhaltung mehr für seinen Kunstfreund eingenommen, so daß er die Partei dieser Klasse nahm. Er glaubte, man könne sie auch in einem gewissen Sinne <hi rendition="#i">Rigoristen</hi> nennen. Ihre Abstraktion, ihre Reduktion auf Begriffe begründe immer etwas, führe zu etwas, und gegen die Leerheit anderer Künstler und Kunstfreunde gehalten, sei der Charakteristiker besonders schätzbar.</p>
+            <p rendition="#et">Der kleine, hartnäckige Philosoph aber zeigte auch hier wieder seinen Zahn und behauptete: daß ihre Einseitigkeit, eben wegen ihres scheinbaren Rechtes, durch Beschränkung der Kunst weit mehr schade als das Hinausstreben des Imaginanten, wobei er versicherte, daß er die Fehde gegen sie nicht aufgeben werde.</p>
+            <p rendition="#et">Es ist eine kuriose Sache um einen Philosophen, daß er in gewissen Dingen so nachgiebig scheint und auf andern so fest besteht. Wenn ich nur erst einmal den Schlüssel dazu habe, wo es hinauswill!</p>
+            <p rendition="#et">Eben finde ich, da ich in den Papieren nachsehe, daß er sie mit allerlei Unnamen verfolgt. Er nennt sie<hi rendition="#i"> Skelettisten, Winkler, Steife</hi> und bemerkt in einer Note: daß ein bloß logisches Dasein, bloße Verstandesoperation in der Kunst nicht ausreiche noch aushelfe. Was er damit sagen will, darüber mag ich mir den Kopf nicht zerbrechen.</p>
+            <p rendition="#et">Ferner soll den Charaktermännern die schöne Leichtigkeit fehlen, ohne welche keine Kunst zu denken sei. Das will ich denn auch wohl gelten lassen.</p>
+            <p>
+               <pb n="265" facs="#f0059"/>
+            </p>
+            <p>Vierte Abteilung</p>
+            <p>Undulisten</p>
+            <p>Unter diesem Namen wurden diejenigen bezeichnet, die sich mit den vorhergehenden im Gegensatz befinden, die das Weichere und Gefällige ohne Charakter und Bedeutung lieben, wodurch denn zuletzt höchstens eine gleichgültige Anmut entsteht. Sie wurden auch <hi rendition="#i">Schlängler</hi> genannt, und man erinnerte sich der Zeit, da man die Schlangenlinie zum Vorbild und Symbol der Schönheit genommen und dabei viel gewonnen zu haben glaubte. Diese Schlängelei und Weichheit bezieht sich sowohl beim Künstler als Liebhaber auf eine gewisse Schwäche, Schläfrigkeit und, wenn man will, auf eine gewisse kränkliche Reizbarkeit. Solche Kunstwerke machen bei denen ihr Glück, die im Bilde nur etwas mehr als nichts sehen wollen, denen eine Seifenblase, die bunt in die Luft steigt, schon allenfalls ein angenehmes Gefühl erregt. Da Kunstwerke dieser Art kaum einen Körper oder andern reellen Gehalt haben können, so bezieht sich ihr Verdienst meist auf die Behandlung und auf einen gewissen lieblichen Schein. Es fehlt ihnen Bedeutung und Kraft, und deswegen sind sie im allgemeinen willkommen, so wie die Nullität in der Gesellschaft. Denn von Rechts wegen soll eine gesellige Unterhaltung auch nur etwas mehr als nichts sein.</p>
+            <p rendition="#et">Sobald der Künstler, der Liebhaber einseitig sich dieser Neigung überläßt, so verklingt die Kunst wie eine ausschwirrende Saite, sie verliert sich wie ein Strom im Sand.</p>
+            <p rendition="#et">Die Behandlung wird immer flacher und schwächer werden. Aus den Gemälden verschwinden die Farben, die Striche des Kupferstichs verwandeln sich in Punkte, und so wird alles nach und nach, zum Ergötzen der zarten Liebhaber, in Rauch aufgehen.</p>
+            <p rendition="#et">Wegen meiner Schwester, die, wie Sie wissen, über diesen Punkt keinen Spaß versteht und gleich verdrießlich <pb n="266" facs="#f0060"/>
+ist, wenn man ihre duftigen Kreise stört, gingen wir im Gespräch kurz über diese Materie hinweg. Ich hätte sonst gesucht, dieser Klasse das Nebulistische aufzubürden und meine Imaginanten davon zu befreien. Ich hoffe, meine Herren, Sie werden bei Revision dieses Prozesses vielleicht hierauf Bedacht nehmen.</p>
+            <p>Fünfte Abteilung</p>
+            <p>Kleinkünstler</p>
+            <p>Diese Klasse kam noch so ganz gut weg. Niemand glaubte Ursache zu haben, ihnen aufsässig zu sein, manches sprach für sie, wenig wider sie.</p>
+            <p rendition="#et">Wenn man auch nur den Effekt betrachtet, so sind sie gar nicht unbequem. Mit der größten Sorgfalt punktieren sie einen kleinen Raum aus, und der Liebhaber kann die Arbeit vieler Jahre in einem Kästchen verwahren. Insofern ihre Arbeit lobenswürdig ist, mag man sie wohl <hi rendition="#i">Miniaturisten</hi> nennen; fehlt es ihnen ganz und gar an Geist, haben sie kein Gefühl fürs Ganze, wissen sie keine Einheit ins Werk zu bringen, so mag man sie <hi rendition="#i">Pünktler</hi> und <hi rendition="#i">Punktierer</hi> schelten.</p>
+            <p rendition="#et">Sie entfernen sich nicht von der wahren Kunst, sie sind nur im Fall der Nachahmer, sie erinnern den wahren Künstler immer daran, daß er diese Eigenschaft, welche sie abgesondert besitzen, auch zu seinen übrigen haben müsse, um völlig vollendet zu sein, um seinem Werk die höchste Ausführung zu geben.</p>
+            <p rendition="#et">Soeben erinnert mich der Brief meines Oheims an Sie, daß auch dort schon gut und leidlich von dieser Klasse gesprochen worden, und wir wollen daher diese friedlichen Menschen auch nicht weiter beunruhigen, sondern ihnen durchaus Kraft, Bedeutung und Einheit wünschen.</p>
+            <p>
+               <pb n="267" facs="#f0061"/>
+Sechste Abteilung</p>
+            <p>Skizzisten</p>
+            <p>Der Oheim hat sich zu dieser Klasse schon bekannt, und wir waren geneigt, nicht ganz übel von ihr zu sprechen, als er uns selbst aufmerksam machte, daß die <hi rendition="#i">Entwerfer</hi> eine ebenso gefährliche Einseitigkeit in der Kunst befördern könnten als die Helden der übrigen Rubriken. Die bildende Kunst soll durch den äußern Sinn zum Geiste nicht nur sprechen, sie soll den äußern Sinn selbst befriedigen. Der Geist mag sich alsdann hinzugesellen und seinen Beifall nicht versagen. Der Skizzist spricht aber unmittelbar zum Geiste, besticht und entzückt dadurch jeden Unerfahrnen. Ein glücklicher Einfall, halbwege deutlich und nur gleichsam symbolisch dargestellt, eilt durch das Auge durch, regt den Geist, den Witz, die Einbildungskraft auf, und der überraschte Liebhaber sieht, was nicht dasteht. Hier ist nicht mehr von Zeichnung, von Proportion, von Formen, Charakter, Ausdruck, Zusammenstellung, Übereinstimmung, Ausführung die Rede, sondern ein Schein von allem tritt an die Stelle. Der Geist spricht zum Geiste, und das Mittel, wodurch es geschehen sollte, wird zunichte.</p>
+            <p rendition="#et">Verdienstvolle Skizzen großer Meister, diese bezaubernden Hieroglyphen, veranlassen meist diese Liebhaberei und führen den echten Liebhaber nach und nach an die Schwelle der gesamten Kunst, von der er, sobald er nur einen Blick vorwärts getan, nicht wieder zurückkehren wird. Der angehende Künstler aber hat mehr als der Liebhaber zu fürchten, wenn er sich im Kreise des Erfindens und Entwerfens anhaltend herumdreht; denn wenn er durch diese Pforte am raschesten in den Kunstkreis hineintritt, so kommt er dabei gerade am ersten in Gefahr, an der Schwelle haftenzubleiben.</p>
+            <p rendition="#et">Dies sind ungefähr die Worte meines Oheims.</p>
+            <p rendition="#et">Aber ich habe die Namen der Künstler vergessen, die bei <pb n="268" facs="#f0062"/>
+einem schönen Talent, das sehr viel versprach, sich auf dieser Seite beschränkt und die Hoffnungen, die man von ihnen gehegt hatte, nicht erfüllt haben.</p>
+            <p rendition="#et">Mein Onkel besaß in seiner Sammlung ein besonderes Portefeuille von Zeichnungen solcher Künstler, die es nie weiter als bis zum Skizzisten gebracht, und behauptet, daß dabei sich besonders interessante Bemerkungen machen lassen, wenn man diese mit den Skizzen großer Meister, die zugleich vollenden konnten, vergleicht.</p>
+            <p>Als man soweit gekommen war, diese sechs Klassen voneinander abgesondert eine Weile zu betrachten, so fing man an, sie wieder zusammen zu verbinden, wie sie oft bei einzelnen Künstlern vereinigt erscheinen und wovon ich schon im Lauf meiner Relation einiges bemerkte. So fand sich der Nachahmer manchmal mit dem Kleinkünstler zusammen, auch manchmal mit dem Charakteristiker. Der Skizziste konnte sich auf die Seite des Imaginanten, Skelettisten oder Undulisten werfen, und dieser konnte sich bequem mit dem Phantomisten verbinden.</p>
+            <p rendition="#et">Jede Verbindung brachte schon ein Werk höherer Art hervor als die völlige Einseitigkeit, welche sogar, wenn man sie in der Erfahrung aufsuchte, nur in seltenen Beispielen aufgefunden werden konnte.</p>
+            <p rendition="#et">Auf diesem Weg gelangte man zu der Betrachtung, von welcher man ausgegangen war, zurück: daß nämlich nur durch die Verbindung der sechs Eigenschaften der vollendete Künstler entstehe, so wie der echte Liebhaber alle sechs Neigungen in sich vereinigen müsse.</p>
+            <p rendition="#et">Die eine Hälfte des halben Dutzends nimmt es zu ernst, streng und ängstlich, die andere zu spielend, leicht und lose. Nur aus innig verbundenem Ernst und Spiel kann wahre Kunst entspringen, und wenn unsere einseitigen Künstler und Kunstliebhaber je zwei und zwei einander entgegenstehen,</p>
+            <pb n="269" facs="#f0063"/>
+            <p>der Nachahmer dem Imaginanten,</p>
+            <p>der Charakteristiker dem Undulisten,</p>
+            <p>der Kleinkünstler dem Skizzisten,</p>
+            <p>so entsteht, indem man diese Gegensätze verbindet, immer eins der drei Erfordernisse des vollkommenen Kunstwerks, wie zur Übersicht das Ganze folgendermaßen kurz dargestellt werden kann.</p>
+            <p>
+               <hi rendition="#i">Ernst</hi> allein:</p>
+            <p>Individuelle Neigung,</p>
+            <p>Manier</p>
+            <p>Nachahmer</p>
+            <p>Charakteristiker</p>
+            <p>Kleinkünstler</p>
+            <p>
+               <hi rendition="#i">Ernst und Spiel</hi> verbunden:</p>
+            <p>Ausbildung ins Allgemeine,</p>
+            <p>Stil</p>
+            <p>Kunstwahrheit</p>
+            <p>Schönheit</p>
+            <p>Vollendung</p>
+            <p>
+               <hi rendition="#i">Spiel</hi> allein:</p>
+            <p>Individuelle Neigung,</p>
+            <p>Manier</p>
+            <p>Phantomisten</p>
+            <p>Undulisten</p>
+            <p>Skizzisten</p>
+            <p>Hier haben Sie nun die ganze Übersicht! Mein Geschäft ist vollendet, und ich scheide abermals um so schneller von Ihnen, als ich überzeugt bin, daß ein beistimmendes oder abstimmendes Gespräch eben da anfangen muß, wo ich aufhöre. Was ich noch sonst auf dem Herzen habe, eine Konfession, die nicht gerade ins Kunstfach einschlägt, will ich nächstens besonders tun und mir dazu eigens eine Feder schneiden, indem die gegenwärtige so abgeschrieben ist, daß ich sie umkehren muß, um Ihnen ein Lebewohl zu sagen und einen Namen zu unterzeichnen, den Sie doch ja diesmal, wie immer, freundlich ansehen mögen.</p>
+            <p>Julie</p>
+            <pb n="270" facs="#f0064"/>
+         </div>
+      </body>
+   </text>
+</TEI>

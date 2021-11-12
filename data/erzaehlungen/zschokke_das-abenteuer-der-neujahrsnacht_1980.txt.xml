@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Das Abenteuer der Neujahrsnacht</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118637266">
+                  <forename>Heinrich</forename>
+                  <surname>Zschokke</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:26Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005942349</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Zschokke, Heinrich/Erzählungen/Das Abenteuer der Neujahrsnacht</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/xknh.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0005-BCB3-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Heinrich Zschokke: Hans Dampf in allen Gassen. Frankfurt a.M. {1}1980</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Hans Dampf in allen Gassen</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118637266">
+                        <forename>Heinrich</forename>
+                        <surname>Zschokke</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1">1. Aufl.</edition>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">206 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Insel-Verlag</name>
+                  </publisher>
+                  <pubPlace>Frankfurt a. M.</pubPlace>
+                  <date type="publication">1980</date>
+                  <date type="firstPublication">1814</date>
+                  <date type="firstPublication" subtype="clariah">1814</date>
+                  <date type="firstPublication" subtype="zeno">1818</date>
+                  <date type="firstPublication" subtype="i5">1818</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1771"
+                        notAfter="1848"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Zschokke-Heinri-d1e28696">Erstdruck in »Erheiterungen. Eine Monatsschrift für gebildete Leser«, Aarau (Sauerländer) 1818.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Zschokke-Heinri-d1e28696">
+            <p rend="h3">Heinrich Zschokke</p>
+            <p rend="h2">Das Abenteuer der Neujahrsnacht</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Zschokke-Heinri-d1e28715" type="chapter">
+            <head>
+               <pb n="149" facs="#f0001"/>
+1</head>
+            <p>Mutter <hi rendition="#i">Käthe,</hi> des alten Nachtwächters Frau, schob am Silvesterabend um neun Uhr das Zugfensterlein zurück und steckte den Kopf in die Nacht hinaus. Der Schnee flog in stillen, großen Flocken, vom Fensterlicht gerötet, auf die Straßen der Residenz nieder. Sie sah lange dem Laufen und Rennen der frohen Menschen zu, die noch in den hellerleuchteten Läden und Gewölben der Kaufleute Neujahrsgeschenke einkauften, oder von und zu Kaffeehäusern und Weinkellern, Kränzchen und Tanzsälen strömten, um das alte Jahr mit dem neuen in Lust und Freuden zu vermählen. Als ihr aber ein paar große, kalte Flocken die Nase belegten, zog sie den Kopf zurück, schob das Fensterlein zu und sagte zu ihrem Mann: »Gottliebchen, bleib zu Hause und laß die Nacht den Philipp für dich gehen. Denn es schneit vom Himmel, wie es mag, und der Schnee tut, wie du weißt, deinen alten Beinen kein Gutes. Auf den Gassen wird es die ganze Nacht lebhaft sein. Es ist, als wäre in allen Häusern Tanz und Fest. Man sieht viel Masken. Da hat unser Philipp gewiß keine Langeweile.«</p>
+            <p rendition="#et">Der alte <hi rendition="#i">Gottlieb</hi> nickte mit dem Kopf und sprach: »Käthchen, ich laß' es mir wohl gefallen. Mein Barometer, die Schußwunde über dem Knie, hat mir's schon zwei Tage vorausgesagt, das Wetter werde ändern. Billig, daß der Sohn dem Vater den Dienst erleichtert, den er einmal von mir erbt.«</p>
+            <p rendition="#et">Nebenbei verdient hier gesagt zu werden, daß der alte Gottlieb vorzeiten Wachtmeister in einem Regiment seines Königs gewesen, bis er bei Erstürmung einer feindlichen Schanze, die er der erste im Kampfe für das Vaterland erstieg, zum Krüppel geschossen ward. Sein Hauptmann, der die Schanze bestieg, nachdem sie erobert war, empfing für solche Heldentat auf dem Schlachtfeld das Verdienstkreuz und Beförderung im Rang. <pb n="150" facs="#f0002"/>
+Der arme Wachtmeister mußte froh sein, mit dem zerschossenen Bein lebendig davonzukommen. Aus Mitleid gab man ihm eine Schulmeisterstelle, denn er war ein verständiger Mann, der eine gute Handschrift hatte und gern Bücher las. Bei Verbesserung des Schulwesens ward ihm aber auch die Lehrerstelle entzogen, weil man einen jungen Menschen, der nicht so gut als er lesen, schreiben und rechnen konnte, versorgen wollte, indem einer von den Schulräten dessen Pate war. Den abgesetzten Gottlieb aber beförderte man zum Nachtwächter und adjungierte ihm seinen Sohn Philipp, der eigentlich das Gärtnerhandwerk gelernt hatte.</p>
+            <p rendition="#et">Die kleine Haushaltung hatte dabei ihr kümmerliches Auskommen. Doch war Frau Käthe eine gute Wirtschafterin und gar häuslich und der alte Gottlieb ein wahrer Weltweiser, der mit wenigem recht glücklich sein konnte. Philipp verdiente sich bei dem Gärtner, in dessen Lohn er stand, sein täglich Brot zur Genüge, und wenn er bestellte Blumen in die Häuser der Reichen trug, gab es artige Trinkgelder. Er war ein hübscher Bursche von sechsundzwanzig Jahren. Vornehme Frauen gaben ihm bloß seines Gesichts wegen ein Stück Geld mehr als jedem anderen, der eben solch ein Gesicht nicht aufweisen konnte.</p>
+            <p rendition="#et">Frau Käthe hatte schon das Mäntelein umgeworfen, um aus des Gärtners Hause den Sohn zu rufen, als dieser in die Stube trat.</p>
+            <p rendition="#et">»Vater«, sagte Philipp und gab dem Vater und der Mutter die Hand, »es schneit, und das Schneewetter tut dir nicht wohl. Ich will dich die Nacht ablösen, wenn du willst. Lege du dich schlafen.«</p>
+            <p rendition="#et">»Du bist brav!« sagte der alte Gottlieb.</p>
+            <p rendition="#et">»Und dann, habe ich gedacht, morgen sei es doch Neujahr«, fuhr Philipp fort, »und ich möchte morgen bei euch essen und mir gütlich tun. Mütterchen, hast vielleicht keinen Braten in der Küche ...«</p>
+            <p rendition="#et">»Das eben nicht«, sagte Frau Käthe, »aber doch anderthalb <pb n="151" facs="#f0003"/>
+Pfund Rindfleisch, Erdäpfel zum Gemüse und Reis mit Lorbeerblättern zur Suppe. Auch zum Trunk noch ein paar Flaschen Bier. Komm du nur, Philipp; wir können morgen hochleben. Künftige Woche gibt es auch wieder Neujahrsgeld für die Nachtwächter, wenn sie teilen. Da können wir schon wohlleben.«</p>
+            <p rendition="#et">»Nun, desto besser für euch. Und habt ihr schon die Hausmiete bezahlt?« fragte Philipp.</p>
+            <p rendition="#et">Der alte Gottlieb zuckte die Achseln.</p>
+            <p rendition="#et">Philipp legte Geld auf den Tisch und sagte: »Da sind zweiundzwanzig Gulden, die ich erspart habe. Ich kann sie wohl entbehren. Nehmt sie zum Neujahrsgeschenk. So können wir alle drei das neue Jahr wohlgemut und sorgenlos antreten. Gott gebe, daß wir es gesund und fröhlich durchleben. Der Himmel wird ferner für euch und mich sorgen.«</p>
+            <p rendition="#et">Frau Käthe hatte Tränen in den Augen und küßte ihn. Der alte Gottlieb sagte: »Philipp, du bist wahrhaft der Trost und Stab unseres Alters. Gott wird dir's vergelten. Fahre fort, redlich zu sein und deine Eltern zu lieben. Ich sage dir, der Segen bleibt nicht aus. Zum Neujahr wünsche ich dir nichts, als dein Herz fromm und gut zu bewahren. Das steht in deiner Macht. Dann bist du reich genug. Dann hast du deinen Himmel im Gewissen.«</p>
+            <p rendition="#et">So sprach der alte Gottlieb, ging und schrieb die Summe von zweiundzwanzig Gulden ins große Hausbuch und sagte: »Was du mich als Kind gekostet, hast du beinahe schon alles abbezahlt. Jetzt haben wir aus deinen Ersparnissen schon dreihundertundsiebzehn Gulden empfangen und genossen.«</p>
+            <p rendition="#et">»Dreihundertundsiebzehn Gulden!« rief Frau Käthe mit großem Erstaunen. Dann wandte sie sich mitleidig zu Philipp und sagte mit weicher Stimme: »Herzenskind, du jammerst mich. Ja, recht sehr jammerst du mich. Hättest du die Summe für dich sparen und zurücklegen können, so würdest du jetzt ein Stück Land kaufen, für eigene Rechnung Gärtnerei treiben und <pb n="152" facs="#f0004"/>
+die gute Rose heiraten können. Das geht nun nicht. Aber tröste dich. Wir sind alt; du wirst uns nicht mehr so lange unterstützen müssen.«</p>
+            <p rendition="#et">»Mutter«, sagte Philipp und runzelte die Stirn ein wenig, »was redest du? Röschen ist mir zwar lieb wie mein Leben. Aber hundert Röschen gebe ich für dich und den Vater hin. Ich kann in dieser Welt keine Eltern mehr haben als euch, aber wenn es sein muß, wohl noch manches Röschen, wenn ich schon unter zehntausend Röschen kein anderes als Bittners Röschen möchte.«</p>
+            <p rendition="#et">»Du hast recht, Philipp!« sagte der Alte. »Lieben und Heiraten ist kein Verdienst; aber alte, arme Eltern ehren und unterstützen, das ist Pflicht und Verdienst. Sich selbst opfern mit seinen Leidenschaften und Neigungen für das Glück der Eltern, das ist kindliche Dankbarkeit. Das erwirbt dir Gotteslohn; das macht dich im Herzen reich.«</p>
+            <p rendition="#et">»Wenn nur«, sagte Frau Käthe, »dem Mädchen die Zeit nicht zu lang oder es dir nicht abtrünnig wird! – Denn Röschen ist ein schönes Mädchen, das muß man sagen. Es ist freilich arm, aber an Freiern wird es ihm nicht fehlen. Es ist tugendhaft und versteht die Haushaltung.«</p>
+            <p rendition="#et">»Fürchte dich gar nicht, Mutter!« versetzte Philipp. »Röschen hat's mir feierlich geschworen, sie nehme keinen andern Mann als mich; und das ist genug. Ihre alte Mutter hat eigentlich auch nichts an mir auszusetzen. Und könnte ich heute mein Gewerbe für mich treiben und eine Frau ernähren, morgen hätte ich Röschen am Altar; das weiß ich. Es ist nur verdrießlich, daß die alte Bittnerin uns verbietet, einander so oft zu sehen, als wir gern möchten. Sie sagt, das tue nicht gut. Ich aber finde, und Röschen findet das auch, es tue uns beiden gewiß sehr gut. Auch haben wir verabredet, uns heute um zwölf Uhr vor der Haupttür der Gregorienkirche zu sprechen; denn Röschen bringt den Silvesterabend bei einer ihrer Freundinnen zu. Dann führe ich sie des Nachts heim.«</p>
+            <p rendition="#et">
+               <pb n="153" facs="#f0005"/>
+Unter diesen Gesprächen schlug es im benachbarten Turme Dreiviertel. Da nahm Philipp den Nachtwächtermantel seines Vaters vom warmen Ofen, auf den ihn Käthe vorsorglich gelegt hatte, hing ihn um, nahm das Horn und die Stange, wünschte den Eltern gute Nacht und begab sich auf seinen Posten.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e28803" type="chapter">
+            <head>2</head>
+            <p>Philipp schritt majestätisch durch die beschneiten Gassen der königlichen Residenz, auf welchen noch viel Volk umherwandelte, als wär's am Tage. Kutschen fuhren her und hin. Alles war in den Häusern hell und licht. Unsern Nachtwächter belustigte das heitere Leben. Er sang und blies im angewiesenen Stadtquartier die zehnte Stunde recht frohmütig ab, am liebsten und mit mancherlei Nebengedanken vor dem Hause unweit der Gregorienkirche, wo er wohl wußte, daß Röschen bei ihren Freundinnen war. »Nun hört sie mich«, dachte er, »nun denkt sie an mich und vergißt vielleicht Gespräch und Spiel. Wenn sie nur um zwölf Uhr nicht bei der Kirchtür fehlt!«</p>
+            <p rendition="#et">Und als er seinen Gang durch das Stadtquartier gemacht hatte, kehrte er vor das beliebte Haus zurück und sah nach den erleuchteten Fenstern von Röschens Freundinnen hinauf. Zuweilen sah er weibliche Gestalten am Fenster, dann schlug sein Herz schneller. Er glaubte Röschen zu sehen. Verschwanden die Gestalten, so studierte er ihre verlängerten Schatten an der Wand und Zimmerdecke, um zu erkennen, welcher Röschens Schatten sei und was sie tue. Es war freilich gar nicht angenehm, in Frost und Schnee dazustehen und Beobachtungen zu machen. Aber was fechten Frost und Schnee einen Liebhaber an! Und Nachtwächter lieben heutzutage so romantisch, wie irgend zärtliche Ritter der Vorwelt in Romanzen und Balladen.</p>
+            <p rendition="#et">Er spürte den Einfluß der Kälte erst, als es elf Uhr schlug, und er von neuem die nachtwächterliche Runde beginnen sollte. Die <pb n="154" facs="#f0006"/>
+Zähne klapperten ihm vor Frost. Er konnte kaum die Stunde anrufen und dazu blasen. Er wäre gern in ein Bierhaus eingekehrt, um sich wieder zu erwärmen.</p>
+            <p rendition="#et">Wie er nun durch ein einsames Nebengäßchen ging, trat ihm eine seltsame Gestalt entgegen, ein Mensch mit schwarzer Halblarve vor dem Gesicht, in einen feuerroten Seidenmantel gehüllt, auf dem Haupt einen runden, seitwärts aufgeschlagenen Hut, phantastisch mit vielen hohen, schwankenden Federn geschmückt.</p>
+            <p rendition="#et">Philipp wollte der Maske ausweichen. Diese aber vertrat ihm den Weg und sagte: »Du bist mir ein allerliebster Kerl, du! Du gefällst mir! Wo gehst du hin? Sag mir's.«</p>
+            <p rendition="#et">Philipp antwortete: »In die Mariengasse, da ruf ich die Stunde.«</p>
+            <p rendition="#et">»Göttlich!« rief die Maske, »das muß ich hören. Ich will dich begleiten. So was hört man nicht alle Tage. Komm du nur, närrischer Kerl, und laß dich hören; aber das sag' ich dir, als Virtuose laß dich hören, sonst bin ich nicht zufrieden. Kannst du ein lustiges Stückchen singen?«</p>
+            <p rendition="#et">Philipp sah wohl, der Herr war ein wenig weinselig und vornehmen Standes, und antwortete: »Herr, beim Glase Weins in warmer Stube besser als bei solcher Kälte, die einem das Herz im Leibe erstarrt.« – Damit ging er seines Weges in die Mariengasse und sang und blies.</p>
+            <p rendition="#et">Die Maske hatte ihn dahin begleitet und sprach: »Das ist kein Kunststück. Das kann ich auch, du närrischer Kerl. Gib mir dein Horn; ich will für dich blasen und singen. Du sollst dich halb zu Tode wundern.«</p>
+            <p rendition="#et">Philipp gab auf der nächsten Station den Bitten der Maske nach und ließ sie blasen und singen. Es ging ganz in der Ordnung. So zum zweiten-, zum dritten-und zum viertenmal. Die Maske konnte nicht müde werden, Stellvertreter des Nachtwächters zu sein, und war in Lobeserhebungen seiner Geschicklichkeit unerschöpflich. Philipp lachte von ganzem Herzen <pb n="155" facs="#f0007"/>
+über die wunderlichen Einfälle des lustigen Herrn, der vermutlich aus froher Gesellschaft oder von einem Balle kam und sich mit einem Gläschen Weins über die gewöhnliche Höhe des Alltagslebens hinaufgestimmt hatte.</p>
+            <p rendition="#et">»Weißt du was, Schätzchen? Ich hätte große Lust, ein paar Stunden zu nachtwächtern. Ist es diesmal nicht, komm' ich mein Lebtag nicht zu der Ehre. Gib mir deinen Mantel und breitkrempigen Hut; ich gebe dir da meinen Domino. Geh in ein Bierhaus, trinke dir ein Räuschchen auf meine Rechnung; und hast du eins, so komm wieder und gib mir meinen Maskenanzug zurück. Hier hast du ein paar Taler Trinkgeld. Was meinst du, Schätzchen?«</p>
+            <p rendition="#et">Dazu hatte der Nachtwächter keine Lust. Die Maske gab aber mit Bitten nicht nach, und wie beide in ein finsteres Gäßchen traten, wurde kapituliert. – Philipp fror erbärmlich; eine warme Stube hätte ihm wohlgetan, ein gutes Trinkgeld nicht minder. Er bewilligte dem jungen Herrn also das Nachtwächtervikariat auf eine halbe Stunde, nämlich bis zwölf Uhr; dann sollte er zur Hauptpforte der Gregorienkirche kommen und Mantel, Hut, Horn und Stange gegen den langen roten Seidenmantel, Larve und Federhut austauschen. Auch nannte er ihm noch vier Straßen, in denen er die Stunde abzurufen habe.</p>
+            <p rendition="#et">»Herzensschatz!« rief die Maske entzückt. »Ich möchte dich küssen, wenn du nicht ein Schmierfink wärst. Nun, es soll dich nicht gereuen. Um zwölf Uhr stelle dich bei der Kirche ein und hole zum Trinkgeld dir noch ein Bratengeld. Juchhe, ich bin Nachtwächter!«</p>
+            <p rendition="#et">Die Kleider wurden vertauscht. Die Maske vernachtwächterte sich. Philipp band die Larve um, setzte den von einer funkelnden Schleife gezierten Federhut auf und wickelte sich in den langen feuerroten Seidenmantel. Als er seinen Stellvertreter verließ, fiel es ihm aber doch aufs Herz, der junge Herr könnte vielleicht aus Übermut die nachtwächterliche Würde entweihen. Er drehte sich noch einmal um und sagte: »Ich <pb n="156" facs="#f0008"/>
+hoffe, Sie werden meine Gutwilligkeit nicht mißbrauchen und Unfug treiben. Das könnte mir Verdruß zuziehen und den Dienst rauben.«</p>
+            <p rendition="#et">»Was denkst du denn, närrischer Kerl?« rief der Vikar. »Meinst du, ich wisse nicht, was meines Amtes sei? Dafür laß mich sorgen. Ich bin ein Christenmensch, so gut als du. Packe dich, oder ich werfe dir die Stange zwischen die Beine. Um zwölf Uhr bist du unfehlbar bei der Gregorienkirche und gibst mir meine Kleidung wieder. Adieu! Das ist ein Teufelsspaß für mich.«</p>
+            <p rendition="#et">Trotzig ging der neue Nachtwächter seines Weges. Philipp eilte, ein nahegelegenes Bierhaus zu erreichen.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e28870" type="chapter">
+            <head>3</head>
+            <p>Indem er um die Ecke des königlichen Palastes bog, fühlte er sich von einer maskierten Person berührt, die soeben vor diesem Palast aus einem Wagen stieg. Philipp blieb stehen und fragte nach Maskenart, nämlich mit gedämpfter, leiser Stimme: »Was steht zu Befehl?«</p>
+            <p rendition="#et">»Gnädiger Herr, Sie sind in Gedanken hier vor der Tür vorübergegangen!« erwiderte die Maske. »Wollen Ihre Königliche Hoheit nicht –«</p>
+            <p rendition="#et">»Was? Königliche Hoheit?« sagte Philipp lachend. »Ich bin keine Hoheit. Wie kommen Sie zu dem Einfall?«</p>
+            <p rendition="#et">Die Maske verbeugte sich ehrfurchtsvoll und schielte nach der strahlenden Diamantschleife auf Philipps Federhut: »Ich bitte um Gnade, wenn ich Maskenrecht verletze. Aber in welches Gewand Sie sich hüllen mögen, Ihre edle Gestalt wird Sie immer verraten. Belieben Sie gefälligst vorzutreten. Werden Sie tanzen, wenn ich fragen darf?«</p>
+            <p rendition="#et">»Ich? Tanzen? – Nein. Sie sehen ja, ich habe Stiefel an!« antwortete Philipp.</p>
+            <p rendition="#et">
+               <pb n="157" facs="#f0009"/>
+»Also spielen?« fragte die Maske weiter.</p>
+            <p rendition="#et">»Noch weniger; ich habe kein Geld bei mir!« erwiderte der Nachtwächteradjunkt.</p>
+            <p rendition="#et">»Mein Gott, disponieren Sie doch über meine Börse, über alles, was ich bin und habe!« rief die Maske und bot dem bestürzten Philipp einen vollen Geldbeutel an.</p>
+            <p rendition="#et">»Aber wissen Sie denn, wer ich bin?« fragte dieser und schob die Hand mit dem Geldbeutel zurück.</p>
+            <p rendition="#et">Die Maske flüsterte mit einer graziösen Verbeugung: »Königliche Hoheit, Prinz Julian.«</p>
+            <p rendition="#et">In diesem Augenblick hörte Philipp seinen Stellvertreter in einer benachbarten Gasse vernehmlich und laut die Stunde rufen. Jetzt erst merkte er die Verwandlungen. Prinz Julian, in der Residenz als ein junger, wilder, liebenswürdiger und geistvoller Mann bekannt, hatte den Einfall gehabt, die Rollen mit ihm zu vertauschen. »Nun«, dachte Philipp, »spielt er den Nachtwächter gut, so will ich ihm auch in meiner Prinzenmaske keine Schande machen und zeigen, daß ich wohl eine halbe Stunde lang Prinz sein kann. Es ist seine Schuld, wenn ich allenfalls einen Bock schieße.« – Er wickelte sich fester in den feuerroten Talar, nahm die Geldbörse an, steckte sie ein und sagte: »Maske, wer sind Sie? Ich gebe Ihnen morgen Ihr Geld zurück.«</p>
+            <p rendition="#et">»Ich bin der Kammerherr Pilzow.«</p>
+            <p rendition="#et">»Gut. Gehen Sie voran! Ich folge Ihnen.«</p>
+            <p rendition="#et">Der Kammerherr gehorchte, flog die breiten Marmorstufen hinan, ihm behend nach Philipp. Sie traten in einen unermeßlichen Saal, von tausend Kerzen erleuchtet, deren Strahlen sich an den Wänden in einer Menge Spiegel, an der Decke in den schwebenden Kristalleuchtern brachen. Ein buntes Gewühl von Masken wogte durcheinander, Sultane, Tirolermädchen, Papagenos, geharnischte Ritter, Nonnen, Galanteriekrämer, Liebesgötter, Mönche, Faunen, Juden, Perser und Meder. Philipp war eine Weile ganz verblüfft und verblendet. Solch ein Schauspiel hatte er sein Lebtag nicht gehabt. In der Mitte des <pb n="158" facs="#f0010"/>
+Saales schwammen hundert Tänzer und Tänzerinnen in den harmonischen Wellen der Musik.</p>
+            <p rendition="#et">Philipp, dem die milde Wärme wohltat, die ihn hier anhauchte, war von Verwunderung so gelähmt, daß er kaum mit einem Kopfnicken dankte, wenn unter den Vorbeischwärmenden ihn einige Masken bald neckend, bald ehrerbietig, bald zutraulich grüßten.</p>
+            <p rendition="#et">»Befehlen Sie zum Spieltisch?« flüsterte ihm der Kammerherr zu, der nun beim Licht besehen als Bramine dastand.</p>
+            <p rendition="#et">»Lassen Sie mich nur erst auftauen!« entgegnete Philipp. »Mich friert verzweifelt.«</p>
+            <p rendition="#et">»Aber ein Glas warmen Punsch?« fragte der Bramine und führte ihn in ein Seitenkabinett. Der Pseudoprinz ließ sich nicht bitten. Ein Glas um das andere ward geleert. Der Punsch war gut, und bald ergoß sich sein Feuer durch alle Adern Philipps.</p>
+            <p rendition="#et">»Wie steht's, Bramine, Sie tanzen heute nicht?« fragte er den Kammerherrn, als sie in den Saal zurücktraten.</p>
+            <p rendition="#et">Der Bramine seufzte und zuckte die Achseln. »Für mich ist Spiel und Tanz vorbei, das Lachen ist vorüber. Die einzige, die ich zum Tanze fordern möchte ... die Gräfin Bonau ... ich glaubte, sie liebe mich ... denken Sie sich meine Verzweiflung ... unsere Häuser waren einig ... plötzlich bricht sie gänzlich mit mir ab.«</p>
+            <p rendition="#et">»Ei, das ist das erste, was ich höre!« rief Philipp.</p>
+            <p rendition="#et">»Mein Gott, Sie wissen nicht? Die ganze Residenz spricht davon!« seufzte der Kammerherr. »Schon seit vierzehn Tagen haben wir gebrochen. Sie erlaubt mir nicht einmal, mich zu rechtfertigen. Drei Briefe schickte sie mir unerbrochen zurück. Sie ist eine geschworene Feindin der Baronesse Reizenthal. Ich hatte ihr gelobt, jeden Umgang mit dieser zu meiden. Denken Sie sich mein Unglück: als die Königin Mutter nach Freudenwald zur Jagdpartie fährt, macht sie mich zum Kavalier der Baronesse – was sollte ich tun? Konnte ich widersprechen? Gerade <pb n="159" facs="#f0011"/>
+am Namenstage der göttlichen Bonau mußte ich unerwartet fort ... sie erfuhr alles ... sie verkannte mein Herz.«</p>
+            <p rendition="#et">»Wohlan, Bramine, benutzen Sie den Augenblick. Die allgemeine Freude versöhnt alles. Ist die Gräfin nicht hier?«</p>
+            <p rendition="#et">»Sehen Sie sie nicht dort drüben, links, die Karmeliterin neben den drei schwarzen Masken? Sie hat die Larve abgelegt. O mein Prinz, Ihr gnädiges Fürwort bei ihr ...«</p>
+            <p rendition="#et">Philipp, den der Punsch begeistert hatte, dachte: da ist ein gutes Werk zu tun! und machte sich ohne Umstände zur Karmeliterin. Die Gräfin Bonau betrachtete ihn eine Weile ernst und errötend, als er sich zu ihrer Seite niedersetzte. Sie war ein schönes Mädchen; doch bemerkte Philipp bald, sein Röschen sei noch zehntausendmal schöner.</p>
+            <p rendition="#et">»Meine Gräfin ...« stammelte er und geriet in Verlegenheit, als sie ihren hellen, schwärmerischen Blick auf ihn lenkte.</p>
+            <p rendition="#et">»Prinz«, sagte die Gräfin, »Sie waren vor einer Stunde beinahe zu mutwillig.«</p>
+            <p rendition="#et">»Schöne Gräfin, ich bin dafür jetzt desto ernsthafter.«</p>
+            <p rendition="#et">»Desto besser; so darf ich Sie nicht fliehen, Prinz.«</p>
+            <p rendition="#et">»Schöne Gräfin, eine Frage nur erlauben Sie mir: tun Sie auch in diesem Nonnenkleide aufrichtige Buße für Ihre Sünden?«</p>
+            <p rendition="#et">»Ich habe nichts zu büßen.«</p>
+            <p rendition="#et">»Aber doch, Gräfin, Ihre Grausamkeiten ... Ihr Unrecht gegen den lieben Braminen, der dort drüben von Gott und aller Welt verlassen steht.«</p>
+            <p rendition="#et">Die schöne Karmeliterin schlug die Augen nieder und ward ein wenig unruhig.</p>
+            <p rendition="#et">»Wissen Sie auch, schöne Gräfin, daß der Kammerherr an der Freudenwalder Geschichte so unschuldig ist wie ich?«</p>
+            <p rendition="#et">»Wie Sie, Prinz?« sagte die Gräfin und runzelte die Stirn. »Was sagten Sie mir nicht erst vor einer Stunde?«</p>
+            <p rendition="#et">»Sie haben recht, liebe Gräfin, ich war zu mutwillig. Sie selbst sagen es ja. Nur schwör' ich, der Kammerherr mußte auf <pb n="160" facs="#f0012"/>
+Befehl der Königin Mutter nach Freudenwald, mußte gegen seinen Willen dahin, mußte beständig der Kavalier der ihm verhaßten Reizenthal sein ...«</p>
+            <p rendition="#et">»Der ihm verhaßten!« lächelte spöttisch und bitter die Gräfin.</p>
+            <p rendition="#et">»Ja, er haßt, er verachtet die Baronin. Glauben Sie mir, er hat gegen die Baronesse fast alle Grenzen des Anstandes verletzt, hat sich durch sein Betragen vielen Verdruß zugezogen. Ich weiß es. Und das alles tat er für Sie. Nur Sie liebt er, nur Sie betet er an. Und Sie – Sie können ihn verstoßen!«</p>
+            <p rendition="#et">»Wie kommt es, Prinz, daß Sie sich für Pilzow so lebhaft interessieren? Sonst war's doch nicht so.«</p>
+            <p rendition="#et">»Es geschieht, Gräfin, weil ich ihn vorher nicht kannte, noch weniger seine traurige Lage, in die Sie ihn stürzten. Ich schwöre Ihnen, er ist unschuldig. Sie haben ihm nichts zu verzeihen, aber wohl er Ihnen.«</p>
+            <p rendition="#et">»Still!« lispelte die Karmeliterin mit erheiterten Mienen; »man achtet auf uns. Kommen Sie hinweg von hier!« – Sie legte ihre Larve vor, stand auf und gab dem vermeinten Prinzen den Arm. Beide gingen den Saal entlang, dann in ein leeres Seitenkabinett. Hier führte die Gräfin bittere Klagen gegen den Kammerherrn; aber es waren nur Klagen eifersüchtiger Liebe. Sie trocknete eine Träne ab. Da trat schüchtern der zärtliche Bramine herein. Es entstand tiefe Stille. Philipp wußte hier nichts Besseres zu tun, als er führte den Kammerherrn zur Karmeliterin, legte beider Hände ineinander, ohne ein Wort zu sagen, und überließ sie ihrem Schicksal. Er selbst ging in den Saal zurück.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e29019" type="chapter">
+            <head>
+               <pb n="161" facs="#f0013"/>
+4</head>
+            <p>Hier stieß ihn ein Mameluck an und sagte hastig: »Gut, Domino, daß ich Sie finde. Ist das Rosenmädchen hier im Kabinett?« – Der Mameluck trat hinein und kam den Augenblick wieder zurück. »Auf ein Wort allein, Domino!« und führte Philipp in einen entlegenen Teil des Saals ans Fenster.</p>
+            <p rendition="#et">»Was steht zu Befehl?« fragte Philipp.</p>
+            <p rendition="#et">»Ich beschwöre Sie«, sagte der Mameluck mit gedämpfter, aber fürchterlicher Stimme, »wo ist das Rosenmädchen?«</p>
+            <p rendition="#et">»Was geht mich das Rosenmädchen an?«</p>
+            <p rendition="#et">»Aber mich desto mehr!« entgegnete der Mameluck, dessen gepreßte Stimme, dessen unruhige Bewegungen eine schreckliche Gärung seines ganzen Innern verrieten. »Mich desto mehr! Es ist mein Weib. Sie wollen mich unglücklich machen. Prinz, ich beschwöre Sie, treiben Sie mich nicht zum Wahnsinn. Lassen Sie von meinem Weibe.«</p>
+            <p rendition="#et">»Von Herzen gern!« antwortete Philipp trocken. »Was habe ich mit Ihrer Gemahlin zu schaffen?«</p>
+            <p rendition="#et">»Oh! Prinz! Prinz!« rief der Mameluck. »Ich bin zum Äußersten entschlossen, und sollte es mir das Leben kosten. Verstellen Sie sich keinen Augenblick länger vor mir. Ich habe alles entdeckt. Hier, da – sehen Sie – hier ist das Billett, das Ihnen das falsche Weib in die Hand drückte und Sie, ohne es gelesen zu haben, im Gedränge verloren.«</p>
+            <p rendition="#et">Philipp nahm den Zettel. Mit Bleistift war von einer weiblichen Hand darauf geschrieben: »Ändern Sie die Maske. Alles kennt Sie. Mein Mann beobachtet Sie. Mich kennt er nicht. Wenn Sie artig sind, lohn' ich's Ihnen.«</p>
+            <p rendition="#et">»Hm!« brummte Philipp. »Das ist, so wahr ich lebe, nicht an mich geschrieben. Ich bekümmere mich um Ihre Gemahlin wenig.«</p>
+            <p rendition="#et">»Himmel und Hölle, Prinz, machen Sie mich nicht rasend. Wissen Sie, wen Sie vor sich haben? Ich bin der Marschall <pb n="162" facs="#f0014"/>
+Blankenschwerd. Daß Sie meinem Weibe nachstellen, ist mir seit der letzten Redoute am Hofe nicht mehr unbekannt.«</p>
+            <p rendition="#et">»Herr Marschall«, versetzte Philipp, »nehmen Sie mir's nicht übel, die Eifersucht blendet Sie. Wenn Sie mich recht kennten, Sie würden von mir so tolles Zeug gar nicht denken. Ich gebe Ihnen mein Ehrenwort, Ihre Gemahlin soll Ruhe vor mir haben.«</p>
+            <p rendition="#et">»Ist es Ihr Ernst, Prinz?«</p>
+            <p rendition="#et">»Vollkommen.«</p>
+            <p rendition="#et">»Geben Sie mir den Beweis.«</p>
+            <p rendition="#et">»Wie verlangen Sie ihn?«</p>
+            <p rendition="#et">»Sie haben sie bisher abgehalten, ich weiß es, zu ihren Verwandten nach Polen mit mir zu reisen. Bereden Sie sie jetzt dazu.«</p>
+            <p rendition="#et">»Von Herzen gern, wenn Ihnen damit gedient ist.«</p>
+            <p rendition="#et">»Alles, Königliche Hoheit! Alles! Sie verhüten entsetzliches, unvermeidliches Unglück.«</p>
+            <p rendition="#et">Der Mameluck plauderte noch ein langes und breites, bald weinerlich, bald flehend, bald drohend, daß dem guten Philipp bange ward, der Mensch könne in seiner Tollheit mit ihm vor aller Welt Händel beginnen. Und das war ihm eben nicht gelegen. Er war froh, als er von ihm abkam.</p>
+            <p rendition="#et">Kaum hatte er sich in der Masse der übrigen verloren, kniff ihn eine weibliche Maske, die schwarz beflort in tiefen Trauerkleidern einherging, freundlich in den Arm und flüsterte: »Schmetterling, wohin? – Flößt Ihnen die verlassene Witwe kein Mitleiden ein?«</p>
+            <p rendition="#et">Philipp erwiderte gar höflich: »Schöne Witwen finden nur der Tröster zuviel; darf ich mich zur Zahl Ihrer Tröster zählen?«</p>
+            <p rendition="#et">»Warum sind Sie so ungehorsam und änderten die Maske nicht?« sagte die Witwe, indem sie mit ihm seitwärts ging, wo sie freier mit ihm ins Gespräch treten konnte. »Glauben Sie denn, Prinz, daß Sie nicht von jedem hier erkannt sind?«</p>
+            <p rendition="#et">
+               <pb n="163" facs="#f0015"/>
+»Die Leute«, versetzte Philipp, »sind doch ungewiß und irren sich in mir.«</p>
+            <p rendition="#et">»Wahrhaftig nicht, Prinz; und kleiden Sie sich nicht auf der Stelle anders, so verlasse ich Sie für den ganzen Abend. Denn ich möchte meinem Manne keinen Anlaß zu einem Auftritt geben.«</p>
+            <p rendition="#et">Jetzt wußte Philipp, mit wem er es zu tun hatte. »Sie waren das schöne Rosenmädchen. Sind die Rosen so schnell verblüht?«</p>
+            <p rendition="#et">»Was ist nicht vergänglich? Besonders Männertreue! Ich sah wohl, wie Sie mit der Karmeliterin davonschlichen. Bekennen Sie nur Ihre Flatterhaftigkeit. Sie können nicht mehr leugnen.«</p>
+            <p rendition="#et">»Hm!« versetzte Philipp trocken. »Klagen Sie mich nicht an, sonst klag' ich Sie auch an.«</p>
+            <p rendition="#et">»Zum Beispiel, schöner Schmetterling?«</p>
+            <p rendition="#et">»Es gibt zum Beispiel doch keinen treueren Mann als den Marschall.«</p>
+            <p rendition="#et">»Das ist er wohl. Und ich habe unrecht, wahrlich großes Unrecht, Sie zuviel angehört zu haben. Ich mache mir Vorwürfe genug. Er hat leider unser Verhältnis ausgespürt.«</p>
+            <p rendition="#et">»Seit der letzten Redoute am Hofe, schöne Witwe.«</p>
+            <p rendition="#et">»Wo Sie zu ausgelassen und unvorsichtig waren, schöner Schmetterling.«</p>
+            <p rendition="#et">»Machen wir's wieder gut. Trennen wir uns. Ich schätze den Marschall. Ich mag ihn meinetwillen nicht leiden sehen.«</p>
+            <p rendition="#et">Die Witwe betrachtete ihn eine Weile sprachlos.</p>
+            <p rendition="#et">»Haben Sie«, fuhr Philipp fort, »wirklich einige Achtung für mich, so reisen Sie mit dem Marschall nach Polen zu ihren Verwandten. Es ist besser, daß wir uns nicht zuviel sehen. Eine schöne Frau ist schön; eine treue, tugendhafte Frau ist aber noch schöner.«</p>
+            <p rendition="#et">»Prinz!« rief die bestürzte Marschallin. »Ist das Ihr Ernst? Haben Sie mich je geliebt oder belogen?«</p>
+            <p rendition="#et">
+               <pb n="164" facs="#f0016"/>
+»Sehen Sie«, sagte Philipp, »ich bin ein Versucher ganz eigener Art. Ich suche die Tugend und Treue unter den Weibern und finde sie so selten. Die Treueste und Tugendhafteste kann mich allein fesseln – darum fesselt mich keine. Doch, holla, nein, daß ich nicht lüge. Eine hat mich gefesselt. Aber, es tut mir leid, Frau Marschallin, das sind eben Sie gerade nicht.«</p>
+            <p rendition="#et">»Sie sind in einer abscheulichen Laune, Prinz!« sagte die Witwe, und das Zittern ihrer Stimme und das Auf- und Abwogen ihres Busens verriet, was in ihr vorging.</p>
+            <p rendition="#et">»Nein«, erwiderte Philipp, »ich bin, so wahr ich lebe, in der ehrlichsten Laune von der Welt. Ich möchte gern einen dummen Streich wiedergutmachen. Ich hab' es Ihrem Mann auch gesagt.«</p>
+            <p rendition="#et">»Wie?« rief die Witwe erschrocken. »Sie haben dem Marschall alles offenbart?«</p>
+            <p rendition="#et">»Nicht eben alles, nur was ich wußte.«</p>
+            <p rendition="#et">Die Witwe wandte sich in heftiger Bewegung rechts und links. Sie rang die Hände. Endlich fragte sie: »Wo ist mein Mann?«</p>
+            <p rendition="#et">Philipp zeigte auf den Mamelucken, der in dem Augenblick mit langsamen Schritten daherkam.</p>
+            <p rendition="#et">»Prinz!« sagte die Witwe mit einem Tone voll unaussprechlichen Zorns: »Prinz, verzeihe Ihnen Gott, ich kann Ihnen nie verzeihen. Solcher Abscheulichkeit hielt ich nie das Herz eines Menschen fähig. Sie sind ein Verräter. Mein Mann ist ein Ehrenmann im Mameluckenkleide, Sie sind ein Mameluck im Ehrenkleide. In dieser Welt sehen Sie mich nicht wieder.« – Mit diesen Worten wandte sie ihm schnell und stolz den Rücken, ging auf den Mameluck zu und verlor sich mit ihm, wie man sah, in eine sehr ernste Unterredung.</p>
+            <p rendition="#et">Philipp lachte heimlich vor sich in den Bart und dachte bei sich: »Mein Substitut, der Nachtwächter, mag sehen, wie er zurechtkommt. Ich spiele meine Rolle in seinem Namen so übel <pb n="165" facs="#f0017"/>
+nicht. Wenn er nur morgen so ehrlich fortfährt, wie ich angefangen habe.«</p>
+            <p rendition="#et">Er trat zu den Tanzenden und erblickte mit Vergnügen die schöne Karmeliterin in den Reihen der Tänzerinnen an der Seite ihres überglücklichen Braminen. Dieser ward den feuer-farbenen Domino kaum gewahr, so warf er ihm eine Kußhand zu und bezeichnete pantomimisch die Höhe seiner Seligkeit. Philipp dachte bei sich: »Schade, daß ich nicht Prinz für Zeitlebens bin. Die Leute sollten bald alle mit mir zufrieden sein. Es ist in der Welt nichts leichter, als ein Prinz zu sein. Mit einem Worte vermag er mehr als der beste Advokat mit einer langen Rede. Er hat das Vorrecht, geradezu zu gehen und frei von der Leber weg zu sprechen. Ja, wenn ich Prinz wäre, dann wäre mein Röschen – für mich verloren. Nein, ich möchte nicht Prinz sein.«</p>
+            <p rendition="#et">Er sah nach der Uhr, es war erst halb zwölf Uhr. Da kam der Mameluck in Hast auf ihn zu, zog ihn auf die Seite und gab ihm ein Papier. »Prinz«, rief der Mameluck, »ich möchte zu Ihren Füßen fallen und Ihnen im Staube danken. Ich bin versöhnt mit meiner Frau. Sie haben Ihr Herz gebrochen; aber es ist gut, daß es geschah. Sie will noch diese Nacht abreisen. Sie will auf den Gütern in Polen bleiben. Leben Sie wohl. In welcher Stunde es auch sei, ich erwarte Ihre Befehle, wenn es darauf ankommt, für Ihre Königliche Hoheit in den Tod zu gehen. Mein Dank ist ewig. Leben Sie wohl!«</p>
+            <p rendition="#et">»Halt!« rief Philipp, da der Marschall schnell davonwollte. »Was soll ich mit dem Papier?«</p>
+            <p rendition="#et">Der Marschall antwortete: »Es ist meine Spielschuld von voriger Woche, die ich fast vergessen hatte und jetzt bei der Abreise nicht vergessen möchte. Ich habe den Wechsel auf Ihre Königliche Hoheit endossiert.« Damit verschwand der Marschall.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e29192" type="chapter">
+            <head>
+               <pb n="166" facs="#f0018"/>
+5</head>
+            <p>Philipp schielte in das Blatt, las da etwas von fünftausend Gulden, steckte das Papier zu sich und dachte: »Schade, daß ich nicht Prinz bin.«</p>
+            <p rendition="#et">Indem wisperte ihm jemand ins Ohr: »Königliche Hoheit, wir sind beide verraten. Ich erschieße mich.« – Philipp sah sich mit großen Augen um und erblickte einen Neger.</p>
+            <p rendition="#et">»Was wollen Sie, Maske?« fragte Philipp ganz gelassen.</p>
+            <p rendition="#et">»Ich bin der Oberst Kalt!« antwortete flüsternd der Neger. »Die unselige Marschallin hat dem Herzog Hermann geplaudert, und dieser speit jetzt Feuer und Flammen gegen Sie und mich.«</p>
+            <p rendition="#et">»Meinethalben!« versetzte Philipp.</p>
+            <p rendition="#et">»Aber der König erfährt alles!« seufzte der Neger ängstlich. »Vielleicht werde ich diese Nacht schon arretiert und morgen auf die Festung gebracht. Ich erhänge mich lieber.«</p>
+            <p rendition="#et">»Davon haben Sie keinen Nutzen!« sagte Philipp.</p>
+            <p rendition="#et">»Soll ich mich lebenslänglicher Schande preisgeben? Ich bin verloren. Der Herzog wird blutige Genugtuung fordern. Sein Rücken ist gewiß noch blau von der Tracht Schläge, die ich ihm gab. Ich bin verloren und das Bäckermädchen dazu. Ich springe von der Brücke und ersäufe mich noch diese Nacht.«</p>
+            <p rendition="#et">»Behüte Gott!« sagte Philipp. »Was hätten Sie und das Bäkkermädchen davon?«</p>
+            <p rendition="#et">»Ihre Königliche Hoheit scherzt, und ich bin in Verzweiflung. Ich flehe untertänigst, nur ein paar Augenblicke unter vier Augen gönnen Sie mir.«</p>
+            <p rendition="#et">Philipp folgte dem Neger in ein einsames Seitengemach, wo wenige Kerzen einen düsteren Schein verbreiteten. Der Neger warf sich wie gelähmt auf ein Sofa nieder und seufzte laut. Philipp fand auf einem Tisch Erfrischungen nebst feinen Weinen und ließ sich's schmecken.</p>
+            <p rendition="#et">»Ich begreife nicht, wie Ihre Königliche Hoheit so ruhig bei <pb n="167" facs="#f0019"/>
+der verdammten Geschichte bleiben kann!« sagte der Neger. »Wäre nur der Schelm, der Neapolitaner Salmoni noch hier, der den Geisterbeschwörer spielte; der Kerl war voller Ränke von den Zehen an bis zum Scheitel und hätte uns vielleicht mit einer List retten können. Jetzt hat er sich aus dem Staube gemacht.«</p>
+            <p rendition="#et">»Desto besser!« erwiderte Philipp und füllte sein Glas von neuem. »So schieben Sie alle Schuld auf ihn. Er ist davon.«</p>
+            <p rendition="#et">»Wie auf ihn schieben? Der Herzog weiß nun, daß Sie, ich, die Marschallin und das Bäckermädchen in der Intrige waren, um aus seinem Aberglauben Nutzen zu ziehen. Er weiß, daß Sie den Salmoni zur Geisterbannerei bestachen; daß ich mein Bäkkermädchen, in das er verliebt war, abrichtete, um ihn in die Falle zu locken; daß ich der Geist war, der ihn zu Boden warf und ihm das Fell bläute. Hätte ich nur den Spaß nicht zu weit getrieben! Aber ich wollte ihm die Liebe zu meinem Mädchen ein wenig ausklopfen. Es ist ein verdammter Streich. Ich nehme Gift.«</p>
+            <p rendition="#et">»Nehmen Sie lieber ein Glas Wein; er ist gut!« sagte Philipp und nahm mit großer Eßlust ein frisches Stück Torte. »Und überhaupt«, setzte er hinzu, »muß ich Ihnen offen gestehen, lieber Oberst, daß Sie für einen Obersten sehr feig sind und sich da einer Narrengeschichte willen gleich erschießen, ersäufen, vergiften und aufhängen wollen. Es wäre schon an einem zuviel. Zweitens muß ich Ihnen sagen, daß ich aus Ihrem Geschwätz da untereinander noch zur Stunde nicht klug werde.«</p>
+            <p rendition="#et">»Königliche Hoheit halten zu Gnaden, ich weiß nicht, wo mir der Kopf steht. Der Kammerjunker des Herzogs – er ist mein alter Freund – vertraute mir diesen Augenblick, die Marschallin sei, vom Teufel geplagt, erst vor wenigen Minuten zum Herzog getreten und habe ihm gesagt: die Komödie im Hause des Bäckers hat Ihnen Prinz Julian gestiftet, der Ihnen seine Schwester nicht gönnte. Die Hexe, die Sie sahen, war ich selbst als Abgeordnete der Prinzessin, um Zeugin Ihres Aberglaubens <pb n="168" facs="#f0020"/>
+zu sein. Prinz Julian hat das Verzeichnis Ihrer Schulden, das Sie in die Gruft warfen, aus welcher Sie die Schätze heben sollten, sowie Ihren Revers gegen das Bäckermädchen, das Sie nach der Vermählung mit der Prinzessin als Mätresse zu sich nehmen und adeln lassen wollten. Und der Geist, der Sie abprügelte, war Oberst Kalt, der Handlanger des Prinzen. Darum ging es mit Ihrer Vermählung den Krebsgang. Machen Sie sich keine Hoffnung länger; Sie warten vergebens. – So hat die Marschallin dem Herzog gesagt und ist verschwunden.«</p>
+            <p rendition="#et">Philipp schüttelte den Kopf und brummte: »Das sind mir auch saubere Geschichten! Solcher Streiche schämt man sich ja im gemeinsten Pöbel. Was Teufeleien und kein Ende!«</p>
+            <p rendition="#et">»Nein«, rief der Oberst. »Rasenderes, Pöbelhafteres kann man nicht tun als die Marschallin. Das Weib muß eine Furie sein. – Gnädigster Herr, retten Sie mich.«</p>
+            <p rendition="#et">»Wo ist denn der Herzog?« fragte Philipp.</p>
+            <p rendition="#et">»Der Kammerjunker sagte, er sei schnell aufgestanden und habe bloß gerufen: ›Ich gehe zum König!‹ – Denken Sie, Prinz, wenn der zum König geht und unsere Historie nach seiner Art malt.«</p>
+            <p rendition="#et">»Ist denn der König hier?«</p>
+            <p rendition="#et">»Allerdings. Er spielt im Nebenzimmer mit dem Erzbischof und dem Polizeiminister L'Hombre.«</p>
+            <p rendition="#et">Philipp ging mit großen Schritten durch das Kabinett. Hier war guter Rat teuer.</p>
+            <p rendition="#et">»Königliche Hoheit«, sagte der Neger, »retten Sie mich. Es gilt Ihre eigene Ehre. Es wird Ihnen leicht sein. Übrigens bin ich auf alles gefaßt und beim ersten bösen Wind über die Grenze. Ich packe ein. Morgen erwarte ich Ihre letzten Befehle über mein Verhalten.« – Mit diesen Worten verschwand der Neger.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e29284" type="chapter">
+            <head>
+               <pb n="169" facs="#f0021"/>
+6</head>
+            <p>»Es ist hohe Zeit, daß du wieder Nachtwächter wirst, Philipp!« dachte Philipp bei sich selber. »Du verwickelst dich und deinen Substitut in gottlose Händel, aus denen dich und ihn weder seine noch meine Klugheit rettet. – Das also wäre der Unterschied zwischen einem Nachtwächter und einem Prinzen? Dafür wend' ich keine Hand um. Lieber Himmel, wieviel tolle Dinge geschehen bei den Erdengöttern hier unterm Hofhimmel, wovon wir uns bei Nachtwächterhorn und Webstuhl, bei Spaten und Leisten nichts träumen lassen! Man bildet sich ein, die Götter führen ein Leben wie die Engel, ohne Sünde, ohne Sorgen. Saubere Wirtschaft! Ich habe in einer Viertelstunde hier mehr Bübereien gutzumachen, als ich in meinem ganzen Leben begangen habe.«</p>
+            <p rendition="#et">»So einsam, mein Prinz?« flüsterte hinter ihm eine Stimme. »Ich preise mich glücklich, Ihre Königliche Hoheit einen Augenblick allein zu treffen.«</p>
+            <p rendition="#et">Philipp sah sich um. Es war ein Bergknappe in Gold und Seiden und Juwelen. – »Was wollen Sie?« fragte Philipp.</p>
+            <p rendition="#et">»Nur einen Augenblick gnädigstes Gehör!« antwortete der Knappe. »Es ist dringend, das Resultat Ihnen vielleicht lieb.«</p>
+            <p rendition="#et">»Wer sind Sie denn, Maske, wenn ich fragen darf?«</p>
+            <p rendition="#et">»Graf Bodenlos, der Finanzminister, Ihrer Königlichen Hoheit zu dienen!« versetzte der Knappe und lüpfte die Larve, um ein Gesicht zu zeigen, das mit den kleinen Augen und der großen kupferroten Nase eine neue Larve zu sein schien.</p>
+            <p rendition="#et">»Nun, Herr Graf, was steht zu Befehl?« fragte Philipp weiter.</p>
+            <p rendition="#et">»Darf ich freimütig reden? Ich ließ mich schon dreimal bei Ihrer Königlichen Hoheit melden und genoß nicht die Gnade, vorgelassen zu werden. Und doch – Gott ist Zeuge! – nimmt am ganzen Hofe niemand an Ihrer Königlichen Hoheit Wohl und Weh so lebhaften Anteil als ich.«</p>
+            <p rendition="#et">
+               <pb n="170" facs="#f0022"/>
+»Herr Graf, ich bin Ihnen verbunden!« versetzte Philipp. »Aber was wollen Sie? Machen Sie's kurz.«</p>
+            <p rendition="#et">»Darf ich vom Handelshaus Abraham Levi reden?« fragte der Bergknappe.</p>
+            <p rendition="#et">»Soviel Sie wollen.«</p>
+            <p rendition="#et">»Es hat sich an mich wegen der fünfzigtausend Gulden gewendet, die Sie ihm schuldig geworden sind. Es droht, sich an den König zu wenden. Und Sie wissen, welches Wort Sie dem König gaben, als er Ihre letzten Schulden zu zahlen befahl?«</p>
+            <p rendition="#et">»Können die Leute nicht warten?« fragte Philipp.</p>
+            <p rendition="#et">»So wenig als die Gebrüder Goldschmidt warten wollen, die an Ihnen fünfundsiebenzigtausend Gulden fordern.«</p>
+            <p rendition="#et">»Mir gleich. Wenn die Menschen nicht warten wollen, so muß ich ...«</p>
+            <p rendition="#et">»Keine verzweifelten Entschlüsse, gnädigster Herr! Ich bin imstande, alles wieder ins Geleise zu bringen, wenn ...«</p>
+            <p rendition="#et">»Was denn, wenn?«</p>
+            <p rendition="#et">»Wenn Sie mir Ihre Gnade schenken, wenn Sie mich nur einen Augenblick anzuhören geruhen. Ich hoffe, alle Ihre Schulden ohne Mühe zu decken. Das Haus Abraham Levi hat ungeheure Aufkäufe von Getreide veranstaltet, so daß dasselbe sehr im Preis gestiegen ist. Ein Verbot der Kornausfuhr gegen die benachbarten Staaten wird den Preis um das Doppelte und Dreifache in die Höhe schnellen. Dann gibt man dem Abraham Levi Lizenzen, und alles ist in der Ordnung. Das Haus streicht die Schulden, übernimmt für Sie die Zahlung der fünfundsiebenzigtausend, und ich überreiche Ihnen die Quittungen. Alles aber hängt von dem Umstande ab, daß ich noch einige Jahre an der Spitze der Finanzen bleibe. Gelingt es dem Baron Greifensack, mich aus dem Ministerium zu verdrängen, so bin ich ohnmächtig, für Sie zu handeln, wie es mein heißester Wunsch wäre. Es steht bei Ihrer Königlichen Hoheit, daß Sie die Partei des Greifensack verlassen, und unser Spiel ist gewonnen. Für mich ist es einerlei, ob ich im Ministerium bleibe oder nicht. Ich <pb n="171" facs="#f0023"/>
+sehne mich nach Ruhe. Aber es ist mir für Ihre Königliche Hoheit nicht gleichgültig. Kann ich die Karten nicht nach Gefallen mischen, so habe ich verloren.«</p>
+            <p rendition="#et">Philipp wußte eine Weile nicht, was auf den Antrag erwidern. Endlich, während der Finanzminister, auf Antwort wartend, eine Brillantendose hervorzog und eine Prise nahm, sagte Philipp: »Wenn ich Sie recht verstehe, Herr Graf, wollen Sie das Land ein wenig aushungern, um meine Schulden zu zahlen. Denken Sie auch, wieviel Elend Sie anrichten! Und wird es der König zugeben?«</p>
+            <p rendition="#et">»Wenn ich an den Geschäften bleibe, so lassen Sie das meine Sorge sein, gnädigster Herr. Sobald die Preise der Lebensmittel steigen, wird der König sogleich von selbst an eine Kornsperre denken und die Getreideausfuhr mit schweren Zöllen hemmen. Dann gibt man dem Haus Abraham Levi Ausfuhrbewilligungen für zehn Säcke, und es führt hundert aus. Nichts leichter als das. Allein, wie gesagt, kommt der Greifensack ans Ruder, wird daraus nichts. Ehe er sich ins Fach hineinstudiert, vergehen Jahre. Solange wird er aus Not den ehrlichen Mann spielen, um nachher den König und das Land desto ärger zu prellen. Er muß erst sein Terrain kennen. Es gibt keinen ärgeren Juden als den Greifensack. Sein Geiz ist stinkend.«</p>
+            <p rendition="#et">»Schöne Aussichten!« sagte Philipp. »Wie lange, glauben Sie, muß ein Finanzminister auf seinem Posten stehen, ehe er die Schere an das Volk legen kann, um für sich und unsereins etwas zu schneiden?«</p>
+            <p rendition="#et">»Hm, wenn er Kopf hat, bringt er's in einem Jahr weit.«</p>
+            <p rendition="#et">»So sollte man dem König raten, alle zwölf Monate einen neuen Finanzminister zu machen, wenn er immer ehrlich bedient sein will.«</p>
+            <p rendition="#et">»Ich hoffe, gnädigster Herr, seit ich die Finanzen führe, ist dem König und dem Hofe nichts abgegangen.«</p>
+            <p rendition="#et">»Das glaub' ich, Graf, aber dem armen Volke desto mehr. Es weiß die Menge der Steuern und Auflagen kaum noch zu <pb n="172" facs="#f0024"/>
+erschwingen. Sie sollten ein wenig barmherziger mit uns umgehen.«</p>
+            <p rendition="#et">»Mit <hi rendition="#i">uns?</hi> – Tue ich nicht alles für den Hof?«</p>
+            <p rendition="#et">»Nein, barmherziger mit dem Volke sollten Sie verfahren, meine ich.«</p>
+            <p rendition="#et">»Mein Prinz, ich weiß, welche Achtung ich Ihren Worten schuldig bin. Der König mit seiner erlauchten Familie ist das Volk, dem ich diene; das, was man Volk nennt, kann in keine Betrachtung kommen. Das Land ist des Königs Eigentum. Völker sind nur insofern achtbar, als sie gleich andern Nullen, die der Hauptzahl folgen, den Wert derselben vergrößern. Aber es ist hier nicht der Augenblick, den abgedroschenen Wortkram über den Wert der Völker zu erneuern; sondern ich bitte um gnädigsten Entscheid, ob ich die Ehre haben soll, Ihre Schulden auf die bewußte Weise zu beseitigen?«</p>
+            <p rendition="#et">»Antwort: nein, nein und nimmermehr auf Unkosten von hunderttausend und mehr armen Familien.«</p>
+            <p rendition="#et">»Königliche Hoheit, es geht ja nur auf Rechnung des Hauses Abraham Levi. Und wenn ich dies Haus nötige, Ihnen noch zu den Quittungen Ihrer Schulden fünfzigtausend Gulden bar zuzulegen? Ich denke, es läßt sich machen. Das Haus gewinnt durch die einzige Operation so viel, daß –«</p>
+            <p rendition="#et">»Vermutlich auch für Sie, Herr Graf, noch ein artiges Trinkgeld herauskommt.«</p>
+            <p rendition="#et">»Ihre Königliche Hoheit belieben zu scherzen. Ich gewinne dabei nichts. Ich brenne nur vor Begierde, Ihre Huld wieder zu erhalten.«</p>
+            <p rendition="#et">»Sie sind sehr gütig.«</p>
+            <p rendition="#et">»Also darf ich hoffen, mein Prinz?«</p>
+            <p rendition="#et">»Herr Graf, ich werde tun, was recht ist; tun Sie Ihre Pflicht.«</p>
+            <p rendition="#et">»Meine Pflicht ist, Ihnen zu dienen. Morgen lasse ich den Levi berufen, schließe den Handel mit ihm ab und habe die Ehre, Ihrer Königlichen Hoheit die besagten Quittungen zu <pb n="173" facs="#f0025"/>
+überreichen, nebst Anweisung auf fünfzigtausend Gulden.«</p>
+            <p rendition="#et">»Gehen Sie, ich mag davon nicht hören.«</p>
+            <p rendition="#et">»Und Ihre Königliche Hoheit wenden mir Ihre Gnade wieder zu? Denn ohne im Ministerium zu stehen, könnte ich dem Abraham Levi unmöglich –«</p>
+            <p rendition="#et">»Ich wollte, Sie und Ihr Ministerium und Ihr Abraham Levi säßen alle drei auf dem Blocksberg. Das sag' ich Ihnen, entsteht eine Kornsperre, läßt die Teuerung der Lebensmittel nicht auf der Stelle nach, verkauft Ihr Judenhaus nicht das aufgespeicherte Getreide sogleich um den Ankaufspreis, so gehe ich ohne anderes zum König, decke ihm alle Schelmereien auf und helfe Sie samt dem Abraham Levi aus dem Lande jagen. Verlassen Sie sich darauf; ich halte Wort.«</p>
+            <p rendition="#et">Philipp drehte sich um, ging in den Tanzsaal und ließ den Finanzminister ganz versteinert hingepflanzt stehen.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e29432" type="chapter">
+            <head>7</head>
+            <p>»Wann befehlen Ihre Königliche Hoheit, daß der Wagen vorfahren soll?« flüsterte ihm eine Stimme zu, als er durch die Masken im Saal entlang ging. Es war ein dicker, holländischer Kaufmann mit einer Stutzperücke, der die Worte an ihn richtete.</p>
+            <p rendition="#et">»Ich fahre nicht.«</p>
+            <p rendition="#et">»Es ist halb zwölf Uhr vorbei, Prinz. Die schöne Sängerin erwartet Sie. Sie hat Langeweile.«</p>
+            <p rendition="#et">»So mag sie sich etwas singen.«</p>
+            <p rendition="#et">»Wie, Prinz, hätten Sie Ihren Sinn geändert? – Die reizende Rollina wollten Sie im Stich lassen? – Den goldenen Augenblick verlieren, nach dem Sie seit zwei Monaten vergebens seufzten? – Ihr Billett, das Sie diesen Morgen durch mich an Signora Rollina mit der Brillantenuhr schickten, tat dieses Wunder. Die<pb n="174" facs="#f0026"/>
+ stolze Spröde ergibt sich. Sie waren den Mittag noch so hoch entzückt und nun mit einem Male so kalt wie Eis? Was ist mit Ihnen vorgegangen? Die Verwandlung begreife ich nicht.«</p>
+            <p rendition="#et">»Das gilt mir gleich.«</p>
+            <p rendition="#et">»Sie haben mir aber befohlen, Sie um halb zwölf Uhr zu begleiten. Hätten Sie andere Engagements?«</p>
+            <p rendition="#et">»Freilich.«</p>
+            <p rendition="#et">»Etwa ein Souper bei der Gräfin Born? Sie ist nicht am Ball erschienen; wenigstens ist hier unter allen Masken keine Spur von ihr. Ich könnte sie an ihrem Gang und ihrer eigenen Art, das niedliche Köpfchen zu tragen, unter Tausenden unterscheiden. Wie, Prinz?«</p>
+            <p rendition="#et">»Und wenn es wäre, müßt' ich's Ihnen anvertrauen?«</p>
+            <p rendition="#et">»Ah, ich verstehe und schweige. Wollen Sie aber die Signora Rollina nicht wenigstens wissen lassen, daß Sie nicht kommen werden?«</p>
+            <p rendition="#et">»Hat sie mich zwei Monate nach ihr seufzen lassen, so mag sie auch einmal zwei Monate für mich seufzen. Ich gehe nicht.«</p>
+            <p rendition="#et">»Also aus dem prächtigen Halsschmuck, den Sie ihr zum Neujahrsgeschenk bestimmten, wird nun vermutlich auch nichts.«</p>
+            <p rendition="#et">»Wenn's auf mich ankommt, schwerlich.«</p>
+            <p rendition="#et">»Wollen Sie ganz mit ihr brechen, gnädigster Herr?«</p>
+            <p rendition="#et">»Ich habe mit ihr noch nicht angebunden.«</p>
+            <p rendition="#et">»Nun denn, Prinz – so darf ich offen sein. So darf ich die Wahrheit sagen, die Sie vielleicht aber schon wissen. Ich vermute es wenigstens aus Ihrer schnellen Sinnesänderung. – Nur Ihre Leidenschaft für die Rollina schreckte mich ab, es Ihnen früher zu gestehen. Sie sind betrogen.«</p>
+            <p rendition="#et">»Von wem?«</p>
+            <p rendition="#et">»Von der listigen Operistin. Sie würden die Gunst derselben mit einem Juden teilen müssen.«</p>
+            <p rendition="#et">»Mit einem Juden?«</p>
+            <p rendition="#et">»Nun ja, mit dem Sohn des Abraham Levi.«</p>
+            <p rendition="#et">
+               <pb n="175" facs="#f0027"/>
+»Ist der Schelm denn überall?«</p>
+            <p rendition="#et">»Sie wissen also noch nicht? Ich sage Ihnen die heilige Wahrheit. Wären Ihre Königliche Hoheit nicht dazwischengekommen, der Jude würde die feile Schöne öffentlich unterhalten. Es tut mir nur um die Uhr leid.«</p>
+            <p rendition="#et">»Mir nicht.«</p>
+            <p rendition="#et">»Die Metze verdient den Staupbesen.«</p>
+            <p rendition="#et">»Es wird mancher nicht nach Verdienst gewürdigt.«</p>
+            <p rendition="#et">»Königliche Hoheit, nur zu wahr. Zum Beispiel, ich habe neulich ein Mädchen entdeckt – o Prinz, die ganze Stadt und das ganze Königreich hat nichts Schöneres, nichts Lockenderes aufzuzeigen. Aber wenige Menschen kennen das himmlische Geschöpf. Puh, was ist die Rollina daneben! Eine alte Hexe von Denner. Sehen Sie, ein Mädchen, schlank und schwank wie ein Rohr, eine Farbe, eine zarte Haut wie Abendrot auf Schnee, ein paar Augen wie Sonnen, ein goldener dicker Haarwuchs – kurz in meinem Leben sah ich nichts Schöneres. Aber wer würdigt diese Venus? Es ist eine Liebesgöttin in bürgerlicher Haube. Auf diese müssen wir Jagd machen.«</p>
+            <p rendition="#et">»Also ein Bürgermädchen?«</p>
+            <p rendition="#et">»Freilich nur eine Grisette, aber – nein, Sie müssen sie sehen, und Sie werden brennen. Was hilft da mein Schildern und Preisen! Was Sie sich je in den schönsten Träumen Entzückendes träumen konnten, ist da in der Natur verkörpert, und dabei noch die liebste, zarteste, unentweihteste Unschuld! – Man sieht sie aber selten. Sie weicht selten von ihrer Mutter. Doch kenne ich ihren Sitz in der Kirche und den Sonntagsspaziergang, den sie gewöhnlich mit ihrer Mutter vor das Ulmentor macht. Auch habe ich schon ausgespürt, daß ein junger, hübscher Kerl, ein Gärtner, ihr den Hof macht. Er kann sie aber nicht heiraten, weil er ein armer Teufel ist, und das Mädchen hat auch nichts. Die Mutter ist Witwe eines an der Auszehrung gestorbenen Leinwebers.«</p>
+            <p rendition="#et">»Wie heißt die Mutter?«</p>
+            <p rendition="#et">
+               <pb n="176" facs="#f0028"/>
+»Witwe Bittner im Milchgäßchen, und ihre Tochter, schön wie eine Rose, heißt, was sie in der Tat ist, Röschen.«</p>
+            <p rendition="#et">Dem guten Philipp wurde es bei diesem Namen kalt und warm. Er hätte die beste Lust gehabt, dem Erzähler die geballte Faust auf den Kopf zu geben. »Sind Sie des Teufels?« rief Philipp.</p>
+            <p rendition="#et">»Gelt!« sagte der Holländer. »Ich habe schon gut gekundschaftet. Sie müssen das niedliche Ding erst sehen. Oder wie, mein Prinz, sollte Ihr Scharfblick schon die köstliche Perle entdeckt haben? Kennen Sie sie wirklich?«</p>
+            <p rendition="#et">»Ich kenne sie allerdings.«</p>
+            <p rendition="#et">»Desto besser. Habe ich zuviel gelobt? Stimmen Sie nicht bei? Die soll uns nicht entgehen. Wir wandern miteinander zur Mutter. Sie spielen den Menschenfreund. Die Armut der Witwe ist Ihnen bekannt geworden. Sie mögen keine Notleidenden sehen. Sie erkundigen sich teilnehmend nach den Umständen der guten Frau, lassen ein Geschenk zurück, wiederholen die Besuche, fahren in Mildtätigkeit fort, werden mit Röschen bekannter. Das andere gibt sich. Der Gärtnerlümmel ist bald beseitigt; der hilft vielleicht noch, wenn man ihm ein Dutzend harte Taler in die Hand drückt.«</p>
+            <p rendition="#et">Philipp wußte vor Grimm nicht, was sagen. »Der Donner soll dreinschlagen –«, rief er.</p>
+            <p rendition="#et">»Wenn der Schlingel, der Gärtner, Umstände macht?« unterbrach ihn der Holländer. »O dafür lassen Sie mich sorgen. Königliche Hoheit, bekomm' ich durch Ihr Fürwort den Kammerherrnschlüssel, so gehört Ihnen das Mädchen. Den Gärtner stecke ich unter die Soldaten und schicke ihn zur Armee. Da kann er sich für das Vaterland schlagen. Unterdessen sind Sie Meister im Felde; denn das Mädchen hängt, glaube ich, doch mit bürgerlicher Steifheit dem Burschen etwas an. Es wird überhaupt nicht leicht sein, dem Mädchen die Vorurteile aus dem Kopf zu bringen, die es unter der bürgerlichen Canaille eingesogen hat. Ich will es aber schon in die Schule nehmen.«</p>
+            <p rendition="#et">
+               <pb n="177" facs="#f0029"/>
+»Ich breche Ihnen den Hals dafür.«</p>
+            <p rendition="#et">»Allzu gütig. Nur Ihre Verwendung beim König und der Kammerherrnschlüssel ...«</p>
+            <p rendition="#et">»Herr, ich wollte, ich könnte Sie auf der Stelle ...«</p>
+            <p rendition="#et">»O sagen Sie mir keine Schmeicheleien, gnädigster Herr! Sie wissen, jeden Augenblick ist mir das Leben für Sie feil. Hätte ich geahnt, daß Ihnen das süße Geschöpf bekannt, daß es Ihnen nicht gleichgültig wäre, es läge längst schon in Ihren Armen.«</p>
+            <p rendition="#et">»Kein Wort mehr davon!« rief Philipp grimmig, so grimmig er mit gedämpfter Stimme an diesem Orte und in der Nähe der tanzenden, lärmenden, schwärmenden und lauernden Masken rufen durfte, im sich nicht zu verraten: »Kein Wort mehr!«</p>
+            <p rendition="#et">»Nein, Taten!« fiel der Holländer fröhlich ein. »Schon morgen sollen die Laufgräben gegen die Festung eröffnet werden. Dann rücken Sie vor. Sie sind gewohnt, zu siegen. Mit den lauersamen Vorposten werden wir bald fertig. Den Gärtner nehme ich auf mich; das Mütterlein geht zu Ihren goldenen Fahnen über. Dann Sturmschritt!«</p>
+            <p rendition="#et">Philipp konnte sich kaum mehr mäßigen. Er packte mit seiner Faust den Arm des Holländers und sagte: »Herr, wenn Sie sich unterstehen –«</p>
+            <p rendition="#et">»Um Gottes willen, gnädigster Herr, mäßigen Sie sich in Ihrer Freude. Ich muß laut aufschreien. Sie zerquetschen mir den Arm.«</p>
+            <p rendition="#et">»Wenn Sie sich unterstehen«, fuhr Philipp fort, »und stellen diesem unschuldigen Mädchen nach, so zerquetsche ich Ihnen, so wahr ich lebe, alle Knochen im Leibe.«</p>
+            <p rendition="#et">»Gut, gut!« seufzte der Holländer in schmerzlicher Angst.</p>
+            <p rendition="#et">»Geruhen Sie nur, mich loszulassen.«</p>
+            <p rendition="#et">»Finde ich Sie jemals auf das Mädchen hinschielend nur in der Nähe des Milchgäßchens, so sind Sie ein Kind des Todes von meiner Hand. Danach richten Sie sich.«</p>
+            <p rendition="#et">Der Holländer stand ganz verblüfft da. »Königliche Hoheit«, <pb n="178" facs="#f0030"/>
+sagte er zitternd, »ich konnte nicht wissen, daß Sie das herrliche Mädchen so ernsthaft liebten, wie es scheint.«</p>
+            <p rendition="#et">»Sehr ernsthaft, das will ich vor der ganzen Welt gestehen.«</p>
+            <p rendition="#et">»Und werden wieder geliebt?«</p>
+            <p rendition="#et">»Was geht Sie das an? Reden Sie mir nie wieder davon. Denken Sie nie wieder an das Mädchen; Ihr Gedanke schon besudelt. – Nun wissen Sie meine Meinung. Packen Sie sich.«</p>
+            <p rendition="#et">Mit diesen Worten wandte ihm Philipp den Rücken, und der Holländer ging, hinter den Ohren kratzend, davon.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e29621" type="chapter">
+            <head>8</head>
+            <p>Unterdessen hatte auch Philipps Substitut als Nachtwächter auf den Straßen der Stadt seine Rolle gespielt. Es ist wohl nicht nötig, erst zu sagen, was jeder von selbst weiß, daß dies kein anderer als Prinz<hi rendition="#i"> Julian</hi> war, der, des süßen Weines voll, auf den Einfall gekommen, in die Nachtwächterei hineinzupfuschen. – Sobald er den Philipp verlassen hatte, rief und blies er von Straßenecke zu Straßenecke die Stunden nach Herzenslust, machte zu seinem Gesang allerlei komische Zusätze und bekümmerte sich wenig um das vorgeschriebene Revier, das er zu behüten und zu beblasen hatte.</p>
+            <p rendition="#et">Indem er auf einen neuen Vers sann, ging seitwärts eine Haustür auf, ein wohlgekleidetes Mädchen trat hervor und winkte mit einem lockenden: Bst! bst! Dann zog es sich in die Dunkelheit des Hausgangs zurück.</p>
+            <p rendition="#et">Der Prinz ließ seine Verse fahren und folgte der angenehmen Erscheinung. In der Finsternis ergriff ihn eine zarte Hand, und eine weiche Stimme lispelte: »Guten Abend, lieber Philipp! Sprich leise, daß uns niemand hört. Ich bin nur auf ein Augenblickchen von der Gesellschaft weggeschlichen, dich im Vorbeigehen zu grüßen. Bist du vergnügt?«</p>
+            <p rendition="#et">
+               <pb n="179" facs="#f0031"/>
+»Wie ein Gott vergnügt, du Engel!« sagte Julian. »Wer könnte bei dir auch traurig sein?«</p>
+            <p rendition="#et">»Philipp, ich habe dir etwas Gutes zu sagen. Du sollst morgen abend bei uns essen. Die Mutter hat es erlaubt. Kommst du auch?«</p>
+            <p rendition="#et">»Alle Abend, alle Abend!« rief Julian, »und so lange du willst. Ich wollte, du könntest beständig bei mir sein oder ich bei dir, bis an der Welt Ende. Das wäre ein Götterleben!«</p>
+            <p rendition="#et">»Höre, Philipp, in einer halben Stunde bin ich bei der Gregorienkirche. Da erwarte ich dich. Du fehlst doch nicht? Laß mich nicht lange warten. Dann machen wir noch einen Gang durch die Stadt. Nun geh, damit uns niemand überrascht.«</p>
+            <p rendition="#et">Sie wollte gehen. Julian aber zog sie zurück in seinen Arm. »Willst du mich so kalt von dir scheiden lassen?« fragte er und drückte seinen Mund auf ihre Lippen.</p>
+            <p rendition="#et">Röschen wußte nicht, was zu Philipps Keckheit sagen. Denn Philipp war immer so bescheiden und zärtlich gewesen, daß er höchstens einen Kuß auf ihre Hand gewagt hatte, ausgenommen einmal, da ihnen beiden die Mutter allen und jeden Umgang hatte verbieten wollen. Damals war von ihnen im Gefühl der höchsten Liebe und des höchsten Schmerzes der erste Kuß gewechselt worden; seitdem nie wieder. Röschen sträubte sich; aber der vermeinte Philipp war so ungestüm, daß man, um kein verräterisches Geräusch zu machen, wohl das Sträuben aufgeben mußte. Sie vergalt den Kuß und sagte: »Philipp, nun geh!«</p>
+            <p rendition="#et">Er aber ging nicht, sondern sagte: »Da wäre ich wohl ein Narr. Meinst du, ich hätte mein Nachtwächterhorn lieber als dich? Mitnichten, du Herzchen.«</p>
+            <p rendition="#et">»Ach«, seufzte Röschen, »es ist aber doch nicht recht.«</p>
+            <p rendition="#et">»Warum denn nicht, du Närrchen? Ist denn das Küssen in deinen zehn Geboten untersagt?«</p>
+            <p rendition="#et">»Ja«, versetzte Röschen, »wenn wir uns einander haben dürften, dann wär' es etwas anderes.«</p>
+            <p rendition="#et">
+               <pb n="180" facs="#f0032"/>
+»Haben? Wenn es nichts anderes ist, alle Tage kannst du mich haben, wenn du willst.«</p>
+            <p rendition="#et">»Ach, Philipp, wie sprichst du auch heute so wunderlich! Wir können ja daran noch nicht denken.«</p>
+            <p rendition="#et">»Wahrhaftig, ich denke aber ganz ernstlich daran. Wenn du nur willst.«</p>
+            <p rendition="#et">»Philipp, hast du ein Räuschchen? Ob ich will? Geh, du beleidigst mich. – Höre, Philipp, mir hat die letzte Nacht von dir geträumt.«</p>
+            <p rendition="#et">»War's was Schönes?«</p>
+            <p rendition="#et">»Du habest in der Lotterie gewonnen, Philipp. Da hatten wir beide Jubel. Du hattest dir einen prächtigen Garten gekauft. Kein schönerer Garten ist in und außer der Stadt. Alles hatten wir da vollauf; Blumen an Blumen, wie ein Paradies, und große Beete voll des feinsten Gemüses, und die Bäume hingen schwer von Obst. Ich ward beim Erwachen recht traurig, daß mich der Traum nur geneckt hatte. Sage mir, Philipp, hast du etwa in die Lotterie gesetzt? Hast du etwas gewonnen? Heute war ja Ziehung.«</p>
+            <p rendition="#et">»Wenn ich bei dir, du schönes Kind, das große Los gewänne, wer weiß, was geschähe? Wieviel müßte ich dann gewinnen für dich?«</p>
+            <p rendition="#et">»Wenn du auch nur so glücklich wärst, tausend Gulden zu gewinnen. Dann könntest du schon einen artigen Garten kaufen.«</p>
+            <p rendition="#et">»Tausend Gulden? Und wenn es mehr wäre?«</p>
+            <p rendition="#et">»O Philipp, was sagst du? Ist's wahr? Nein, betrüge mich nicht wie mein Traum! Du hast gesetzt, du hast gewonnen. Gesteh es nur!«</p>
+            <p rendition="#et">»Soviel du willst.«</p>
+            <p rendition="#et">»O Gott!« rief Röschen und fiel ihm freudetrunken an den Hals und küßte ihn mit glühender Freude. »Mehr als tausend Gulden? Wird man dir auch das viele Geld wohl geben?«</p>
+            <p rendition="#et">Unter ihren Küssen vergaß der Prinz das Antworten. Es ward <pb n="181" facs="#f0033"/>
+ihm ganz wunderbar, die zarte, edle Gestalt in seinen Armen zu halten, deren Liebkosungen ihm doch nicht galten, und die er doch so gern für seine Rechnung genommen hätte.</p>
+            <p rendition="#et">»Antworte doch, antworte doch!« rief Röschen ungeduldig. »Wird man dir auch die Menge Geldes geben wollen?«</p>
+            <p rendition="#et">»Ich habe es schon; und macht dir's Freude, so geb' ich's dir.«</p>
+            <p rendition="#et">»Wie, Philipp, du trägst es mit dir?«</p>
+            <p rendition="#et">Der Prinz nahm seine Börse hervor, die er, schwer von Gold, zu sich gesteckt hatte, um sie beim Spieltische anzuwenden. »Nimm und wäge, Mädchen!« sagte er und legte sie, indem er die kleinen, zarten Lippen küßte, in Röschens Hand. »Bleibst du mir dafür hold?«</p>
+            <p rendition="#et">»Nein, Philipp, wahrlich für dein vieles Geld nicht, wenn du nicht mein Philipp wärst.«</p>
+            <p rendition="#et">»Und wie zum Beispiel, wenn ich dir noch einmal soviel geben würde und nicht dein Philipp wäre?«</p>
+            <p rendition="#et">»So wärf' ich dir deine Schätze vor die Füße und machte dir einen höflichen Knicks!« sagte Röschen.</p>
+            <p rendition="#et">Indem ging eine Tür droben auf; man hörte Mädchenstimmen und Gelächter. Der Schimmer eines Lichts fiel von oben auf die Treppe. Röschen erschrak und flüsterte: »In einer halben Stunde bei der Gregorienkirche!« und sprang davon, die Treppe hinauf. Der Prinz stand wieder im Finstern. Er ging zum Hause hinaus und betrachtete das Gebäude und die erleuchteten Fenster. Die plötzliche Trennung war ihm natürlich sehr unzeitig geschehen. Zwar die Geldbörse gereute ihn nicht, mit der das Mädchen davongeflogen war; wohl aber, daß er das Gesicht der unbekannten Schönen nicht beim Lichte gesehen hatte; daß er nicht einmal ihren Namen wußte und noch weniger, ob sie aus der Drohung, ihm das Geld vor die Füße zu werfen, ernst machen würde, wenn er ihr in seiner wahren Gestalt erschiene. Inzwischen vertröstete er sich auf das Finde-mich bei der Gregorienkirche. Eben dies Plätzchen hatte ihm auch der <pb n="182" facs="#f0034"/>
+Nachtwächter angewiesen. Julian verstand bald, daß er sein glückliches Abenteuer nur diesem, doch ohne dessen Willen zu danken hatte.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e29748" type="chapter">
+            <head>9</head>
+            <p>Sei es, daß der Geist des Weins durch die wachsende Kälte der Neujahrsnacht oder durch Röschens Täuschung in seiner Wirkung gesteigert ward, der Mutwille des fürstlichen Nachtwächters nahm überhand.</p>
+            <p rendition="#et">Mitten in einem Haufen von Spaziergängern blieb er an einer Straßenecke stehen und stieß mit solcher Kraft ins Horn, daß alle Frauenzimmer mit lautem Schrei zurücksprangen und die Männer vor Schrecken steif wurden. Dann rief Julian die Stunde und sang dazu:</p>
+            <p>»Der Handel unsrer lieben Stadt</p>
+            <p>Gewaltig abgenommen hat.</p>
+            <p>Selbst unsre Mädchen, weiß und braun,</p>
+            <p>Sucht man nicht mehr zu Ehefraun.</p>
+            <p>Die Ware putzt sich, wie sie kann,</p>
+            <p>Und bringt sich doch nicht an den Mann.«</p>
+            <p rendition="#et">»Das ist doch unverschämt!« riefen einige weibliche Stimmen im Haufen, »uns mit Waren zu vergleichen!« Von den anwesenden Männern aber lachten viele aus vollem Halse. »Da capo!« schrien einige lustige Brüder. »Bravo, Nachtwächter!« schrien andere. »Was unterstehst du dich, Kerl, unsere Frauenzimmer auf öffentlicher Straße zu beleidigen?« schnob ein junger Leutnant, der ein hübsches Mädchen am Arm führte, den Nachtwächter an.</p>
+            <p rendition="#et">»Herr Leutnant, der Nachtwächter singt leider Gottes die Wahrheit!« entgegnete ihm ein junger Müller. »Und gerade das Weibsbild, das Sie am Arm führen, bestätigt die Wahrheit. He, <pb n="183" facs="#f0035"/>
+Jüngferchen, kennst du mich? Weißt du, wer ich bin? He? Geziemt sich das für eine verlobte Braut, des Nachts mit anderen Männern herumzuschwärmen? Morgen sag' ich's deiner Mutter. Ich will nichts mehr mit dir zu schaffen haben!«</p>
+            <p rendition="#et">Das Mädchen verhüllte sich das Gesicht und zupfte am Arm des Offiziers, um davonzukommen. Der Leutnant wollte aber, ein Kriegsheld, vor dem Müller nicht so leicht Reißaus nehmen und mit Ehren das Feld behaupten. Er stieß eine Menge Flüche aus, und da dieser kein Wort schuldig blieb, schwang er den Stock. Plötzlich aber erhoben sich zwei dicke spanische Rohre, von bürgerlichen Fäusten geführt, warnend über dem Haupte des Leutnants.</p>
+            <p rendition="#et">»Herr!« rief ein breitschultriger Bierbrauer dem Kriegsmanne zu: »Hier keine Händel wegen des schlechten Mädchens angefangen. Ich kenne den Müller; er ist ein braver Mann. Er hat recht; und der Nachtwächter hat recht, so wahr ich lebe! Ein ehrlicher Bürgersmann und Professionist kann und mag kaum noch ein Mädchen aus unserer Stadt zur Frau nehmen. Die Weibsbilder wollen sich alle über ihren Stand erheben; statt Strümpfe zu flicken, lesen sie Romane, statt Küche und Keller zu besorgen, laufen sie in Komödien und Konzerte. Im Hause bei ihnen ist Unflat, und auf den Gassen gehen sie geputzt einher wie Prinzessinnen. Da bringen sie dem Manne keine Mitgift ins Haus als ein paar schöne Röcke, Spitzen und Bänder und Liebschaften, Romane und Faulheit. Herr, ich spreche aus Erfahrung. Wären unsere Bürgerstöchter nicht so verderbt, ich wäre längst verheiratet.«</p>
+            <p rendition="#et">Alle Umstehenden erhoben ein gellendes Gelächter. Der Leutnant streckte langsam das Gewehr vor den beiden spanischen Rohren und sagte verdrießlich: »Das fehlte auch noch, hier von dem bürgerlichen Pack Bußpredigten zu hören!«</p>
+            <p rendition="#et">»Was, bürgerliches Pack?« rief ein Nagelschmied, der das zweite spanische Rohr führte. »Ihr adeligen Müßiggänger, die wir euch mit unseren Steuern und Abgaben füttern müssen, <pb n="184" facs="#f0036"/>
+wollt ihr von bürgerlichem Pack sprechen? Eure Liederlichkeit ist an allem Unglück in unsern Haushaltungen schuld. Es blieben nicht halb soviel ehrliche Mädchen sitzen, wenn ihr hättet beten und arbeiten gelernt.«</p>
+            <p rendition="#et">Nun sprangen mehrere junge Offiziere dazu; aber auch Meister und Handwerksburschen sammelten sich. Buben machten Schneebälle und ließen davon in den dicksten Haufen fliegen, um auch ihre Freude dabei zu haben. Die erste Kugel traf den vornehmen Leutnant auf die Nase. Dieser hielt es für Angriff des bürgerlichen Packs und erhob abermals den Stock. Das Treffen begann.</p>
+            <p rendition="#et">Der Prinz, welcher nur den Anfang des Wortwechsels gehört hatte, war längst wohlgemut und lachend davongezogen in eine andere Straße, unbekümmert um die Folgen seines Gesanges. Er kam an den Palast des Finanzministers Bodenlos. Mit diesem Herrn stand er nicht im besten Vernehmen, wie das schon Philipp erfahren hatte. Julian sah alle Fenster erleuchtet. Die Gemahlin des Ministers hatte große Gesellschaft. Julian in seiner satirischen Poetenlaune pflanzte sich dem Palaste gegenüber hin und blies kräftig in sein Horn. Einige Herren und Damen öffneten, vielleicht weil sie eben nichts Besseres zu tun hatten, das Fenster, neugierig, den Nachtwächter zu hören.</p>
+            <p rendition="#et">»Nachtwächter!« rief einer von den Herren herab. »Sing auch ein hübsches Stück zum Neujahr.« Dieser Zuruf lockte noch mehrere von der Gesellschaft der Frau Ministerin an die Fenster.</p>
+            <p rendition="#et">Julian, nachdem er gewohntermaßen die Stunde gerufen, sang mit lauter Stimme gar vernehmlich:</p>
+            <p>»Ihr, die ihr seufzt in Schuldennot</p>
+            <p>Und ohne Witz zum Bankerott,</p>
+            <p>Fleht, daß der Herr in dieser Nacht</p>
+            <p>Euch zum Finanzminister macht,</p>
+            <p>Der ohne Finanzen läßt das Land,</p>
+            <p>Weil er sie behält in seiner Hand.«</p>
+            <p rendition="#et">
+               <pb n="185" facs="#f0037"/>
+»Das ist ja zum Ohnmächtigwerden!« rief die Frau Ministerin, die ebenfalls zu einem der Fenster getreten war. »Wer ist denn der niederträchtige Mensch, der sich dergleichen erfrecht?«</p>
+            <p rendition="#et">»Frau Exzellenz!« antwortete Julian mit verstellter Stimme, indem er den jüdischen Dialekt annahm. »Ich wollte Ihnen doch ein kleines Vergnügen machen. Halten zu Gnaden, ich bin nur der Hofjude Abraham Levi; Frau Exzellenz kennen mich doch schon.«</p>
+            <p rendition="#et">»Weh mir!« schrie eine Stimme oben am Fenster. »Ehrvergessener Kerl, wie willst du sein Abraham Levi? Bin ich nicht selber Abraham Levi? Du bist ein Betrüger!«</p>
+            <p rendition="#et">»Ruft die Wache!« rief die Frau Ministerin. »Laßt den Menschen arretieren!«</p>
+            <p rendition="#et">Bei diesen Worten verließen alle Gäste in großer Behendigkeit die Fenster. Aber auch der Prinz blieb nicht stehen, sondern nahm im Doppelschritt den Weg durch einige kleine Quergassen.</p>
+            <p rendition="#et">Ein Schwarm Bediente, begleitet von einigen Finanzsekretären, stürzte aus dem Palast hervor und jagte umher, den Lästerer zu suchen. Plötzlich riefen einige laut: »Wir haben ihn!« Die andern eilten dem Rufe nach. Wirklich hatten sie den Nachtwächter des Reviers gefunden, der in großer Unschuld auf dem Wege seines Berufs dahintrabte. Er ward umringt, übermannt und, wie sehr er sich auch sträubte, wegen seiner sarkastischen Einfälle auf die Hauptwache geschleppt.</p>
+            <p rendition="#et">Der wachthabende Offizier schüttelte verwundert den Kopf und sagte: »Man hat mir schon einen Nachtwächter zugeführt, der durch Verse, die er auf die Mädchen der Residenz abgerufen, eine fatale Schlägerei zwischen Offizieren und Bürgerlichen verursacht hat.«</p>
+            <p rendition="#et">Der neueingebrachte Gefangene wollte durchaus nichts gestehen und lärmte gewaltig, daß ein Haufe junger Leute, die wahrscheinlich zuviel getrunken haben möchten, ihn in der Ausübung des ihm anvertrauten Amtes gestört hätten. Einer <pb n="186" facs="#f0038"/>
+der Finanzsekretäre sagte ihm aber den ganzen Vers vor, der den gerechten Zorn der Frau Ministerin und aller ihrer Gäste erregt hatte. Sämtliche Soldaten brachen in ein erschütterndes Lachen aus. Der ehrliche Nachtwächter aber schwor mit Tränen, ihm sei so etwas nie in den Sinn gestiegen.</p>
+            <p rendition="#et">Während man noch mit diesem Verhör beschäftigt war, der Nachtwächter seine Unschuld beteuerte, die jungen Herren für alle Folgen ihres Betragens verantwortlich machte und die Finanzsekretäre in der Tat schon anfingen, zweifelhaft zu werden, ob sie auch den rechten Mann ergriffen hätten, rief die Schildwache draußen: »Wacht heraus ins Gewehr!«</p>
+            <p rendition="#et">Die Soldaten sprangen davon. Die Finanzsekretäre fuhren fort, den Nachtwächter mit Fragen zu bestürmen. Indem trat der Feldmarschall in die Wachtstube, begleitet vom wachthabenden Hauptmann.</p>
+            <p rendition="#et">»Lassen Sie mir den Kerl da krumm schließen!« rief der Feldmarschall und zeigte mit der Hand hinter sich. Zwei Offiziere traten herein, die einen entwaffneten Nachtwächter bei den Armen führten.</p>
+            <p rendition="#et">»Sind denn die Nachtwächter alle toll geworden?« rief der wachthabende Hauptmann ganz erstaunt aus.</p>
+            <p rendition="#et">»Ich will dem Bösewicht morgen seine infamen Verse bezahlen!« schrie der Feldmarschall.</p>
+            <p rendition="#et">»Ihre Exzellenz«, versetzte der neugefangene Wächter zitternd und bebend, »ich habe, weiß der Himmel, keine Verse gemacht, in meinem ganzen Leben keinen Vers!«</p>
+            <p rendition="#et">»Schweig, Schurke!« brüllte mit entsetzlicher Stimme der Feldmarschall. »Du sollst mir auf die Festung oder an den Galgen. Und widersprichst du mit einem Muck noch, so haue ich dich auf der Stelle in Krautstücken!«</p>
+            <p rendition="#et">Der wachthabende Hauptmann bemerkte dem Marschall in aller Ehrerbietung, es müsse eine poetische Epidemie unter den Nachtwächtern in der Stadt ausgebrochen sein; denn er habe <pb n="187" facs="#f0039"/>
+nun schon drei dieser Patrone in einer Viertelstunde zu hüten bekommen.</p>
+            <p rendition="#et">»Meine Herren«, sagte der Feldmarschall zu den ihn begleitenden Offizieren, »da der Kerl schlechterdings nicht eingestehen will, daß er den Vers gesungen habe, so besinnen Sie sich auf das Pasquill, ehe Sie es vergessen. Schreiben Sie es auf. Morgen wollen wir ihn schon zum Geständnis bringen. Jetzt will ich keine Zeit verlieren und auf den Ball. Wer weiß es noch?«</p>
+            <p rendition="#et">Die Offiziere besannen sich. Einer half dem andern nach. Der Wachthabende schrieb, und da kam folgendes heraus:</p>
+            <p>»Der Federbusch auf leerem Kopf,</p>
+            <p>Im Nacken einen steifen Zopf,</p>
+            <p>Den Bauch zurück, die Brust heraus,</p>
+            <p>Das macht des Heeres Stärke aus.</p>
+            <p>Man wird bei Tanz und Geigenschall,</p>
+            <p>Bei Kuß und Spiele Feldmarschall.«</p>
+            <p rendition="#et">»Willst du leugnen, Schurke?« fuhr der Feldmarschall den erschrockenen Nachtwächter mit erneuter Wut an. »Willst du leugnen, daß du das gesungen hast, als ich aus der Tür meines Hauses trat?«</p>
+            <p rendition="#et">»Mag es gesungen haben, wer will, ich weiß nichts davon!« antwortete der Nachtwächter.</p>
+            <p rendition="#et">»Warum liefst du denn davon, als du mich vortreten sahst?« fragte der Marschall weiter.</p>
+            <p rendition="#et">»Ich bin nicht gelaufen.«</p>
+            <p rendition="#et">»Was?« riefen die beiden Offiziere. »Du nicht gelaufen? Warst du nicht außer Atem, als wir dich am Markt hier endlich einholten?«</p>
+            <p rendition="#et">»Ja, ich war vor Schrecken außer mir, daß mich die Herren so gewalttätig überfielen. Es liegt mir noch jetzt in allen Gliedern.«</p>
+            <p rendition="#et">»Schließen Sie den hartnäckigen Hund krumm!« rief der <pb n="188" facs="#f0040"/>
+Marschall dem Wachthabenden zu. »Er hat bis morgen Zeit genug, sich zu besinnen.« Mit diesen Worten eilte der Marschall hinweg.</p>
+            <p rendition="#et">Der Lärm auf den Gassen und die Spottgedichte der Nachtwächter hatten die ganze Polizei in Bewegung gesetzt. Noch in derselben Viertelstunde wurden zwei andere Nachtwächter, freilich nicht die rechten, ergriffen und zur Hauptwache geführt. Der eine sollte auf den Minister der auswärtigen Angelegenheiten ein schmähliches Lied gesungen haben, des Inhalts, der Minister wäre nirgends auswärtiger als in seinem Departement. Der andere war beschuldigt, vor dem bischöflichen Palast gesungen zu haben, es fehle den Kirchenlichtern nicht an Talg, aber sie verbreiteten im Lande mehr Qualm und Rauch als Helligkeit.</p>
+            <p rendition="#et">Der Prinz, welcher durch seinen Mutwillen allen Nachtwächtern der Residenz so schlimmes Spiel machte, entschlüpfte überall glücklich und ward eben darum von Gasse zu Gasse kecker. Die Sache machte Geräusch. Man hatte sogar dem Polizeiminister, der beim König am Spieltische saß, von der poetischen Insurrektion der ehemals so friedlichen Nachtwächter rapportiert und zum Beweis einen der Spottverse schriftlich überbracht. Der König hörte den Vers an, der gegen die schlechte Polizei selbst gerichtet war, die ihre Spürnase in alle Familiengeheimnisse der Stadt stecke und doch im eigenen Hause nichts rieche, daher ihr wohl eine Prise zu gönnen sei. Der König lachte laut auf und befahl, ihm einen der nachtwächterlichen Poeten einzufangen und herzubringen. Er stand vom Spieltische auf; denn er sah, der Polizeiminister hatte die gute Laune verloren.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e29964" type="chapter">
+            <head>
+               <pb n="189" facs="#f0041"/>
+10</head>
+            <p>Im Tanzsaale neben dem Spielzimmer hatte Philipp, der gefürstete Nachtwächter, soeben von seiner Sackuhr vernommen, daß es Zeit sei, sich zum Finde-mich bei der Gregorienkirche einzustellen. Er selbst war froh, seinen Purpurtalar und Federhut an den Substituten zurückzugeben, denn ihm ward unter der vornehmen Maske nicht gar wohl zumute.</p>
+            <p rendition="#et">Wie er eben die Tür suchte, um sich davonzuschleichen, kam ihm der Neger nachgetreten und zischelte ihm zu: »Königliche Hoheit, Herzog Hermann sucht Sie allenthalben!« – Philipp schüttelte ärgerlich den Kopf und ging hinaus; ihm nach der Neger. Wie sie beide in das Vorzimmer traten, flüsterte der Neger: »Bei Gott, da kommt der Herzog!« und mit den Worten machte sich der Schwarze wieder eilfertig in den Saal zurück.</p>
+            <p rendition="#et">Eine hohe, lange Maske trat mit schnellen Schritten gegen Philipp auf und rief: »Halten Sie einen Augenblick; ich habe mit Ihnen ein Wörtchen abzutun. Ich suche Sie schon lange.«</p>
+            <p rendition="#et">»Nur geschwind«, entgegnete Philipp, »denn ich habe keine Zeit zu verlieren.«</p>
+            <p rendition="#et">»Ich wollte, ich müßte keine mit Ihnen verlieren. Ich habe Sie lange genug gesucht. Sie sind mir Genugtuung schuldig. Sie haben mir blutige Beleidigung zugefügt.«</p>
+            <p rendition="#et">»Daß ich nicht wüßte.«</p>
+            <p rendition="#et">»Sie kennen mich nicht?« rief der Herzog und zog die Larve ab. »Nun wissen Sie, wer ich bin, und Ihr böses Gewissen muß Ihnen das übrige sagen. Ich fordere Genugtuung. Sie und der verfluchte Salmoni haben mich betrogen.«</p>
+            <p rendition="#et">»Davon weiß ich nichts!« antwortete Philipp.</p>
+            <p rendition="#et">»Sie haben die schändliche Geschichte im Keller des Bäkkermädchens angestellt. Auf Ihr Anstiften hat sich der Oberst Kalt an meiner Person vergriffen.«</p>
+            <p rendition="#et">»Kein wahres Wort.«</p>
+            <p rendition="#et">»Wie, kein wahres Wort? Sie leugnen? – Die Marschallin <pb n="190" facs="#f0042"/>
+Blankenschwerd hat mir erst vor wenigen Minuten alles entdeckt. Sie war Augenzeugin bei der Geisterkomödie, die Sie mit mir spielten.«</p>
+            <p rendition="#et">»Sie hat Ihrer Durchlaucht ein Märchen aufgebunden. Ich habe an Ihren Händeln keinen Teil gehabt. Wenn Sie Geisterkomödien mit sich spielen ließen, war es Ihre Schuld.«</p>
+            <p rendition="#et">»Ich frage Sie, ob Sie mir Genugtuung geben wollen? Wo nicht, so mache ich Lärm. Folgen Sie mir auf der Stelle zum König. Entweder Sie schlagen sich mit mir, oder – zum König.«</p>
+            <p rendition="#et">»Ihre Durchlaucht ...« stotterte Philipp verlegen. »Ich habe weder Lust, mich mit Ihnen zu schlagen, noch zum König zu gehen.«</p>
+            <p rendition="#et">Das war Philipps voller Ernst; denn er fürchtete, die Larve abziehen zu müssen und in empfindliche Strafe wegen der Rolle zu fallen, die er wider seine Absicht hatte spielen müssen. Er machte daher gegen den Herzog allerlei Ausflüchte und sah nur immer nach der Tür, um irgend einmal den Augenblick erwischen und davonspringen zu können. Der Herzog hingegen merkte die Ängstlichkeit des vermeinten Prinzen und ward dadurch mutiger. Er nahm zuletzt den armen Philipp beim Arm und wollte ihn zum Saal führen.</p>
+            <p rendition="#et">»Was wollen Sie von mir?« rief Philipp in Verzweiflung und schleuderte den Herzog zurück.</p>
+            <p rendition="#et">»Zum König!« antwortete der Herzog wütend. »Er soll hören, wie schändlich man an seinem Hofe einem fürstlichen Gast begegnet.«</p>
+            <p rendition="#et">»Gut!« sagte Philipp, der sich nicht mehr zu helfen wußte, als wenn er den Charakter des Prinzen wieder annähme. »So kommen Sie; ich bin bereit. Zum Glück habe ich den Zettel bei mir, auf welchem Sie dem Bäckermädchen eigenhändig die Versicherung ausstellten ...«</p>
+            <p rendition="#et">»Possen! Larifari!« erwiderte der Herzog. »Das war einer von den Späßen, den man wohl mit einem dummen Bürgermädchen <pb n="191" facs="#f0043"/>
+treibt. Zeigen Sie ihn nur dem König. Ich werde mich darüber ausweisen.«</p>
+            <p rendition="#et">Indessen schien es dem Herzog doch mit dem Ausweisen nicht gar ernst zu sein. Er drang gar nicht weiter darauf, Philipp zum König zu führen, und das war dem Philipp schon recht; desto ungestümer bestand der Herzog darauf, daß sie beide in den Wagen sitzen und, der Himmel weiß wohin, fahren wollten, um die Ehrensache mit Pistolen und Säbeln abzutun. Das war nun dem bedrängten Philipp gar nicht gelegen. Er stellte dem Herzog alle bösen Folgen dieses Schrittes vor. Jener aber in seinem Grimme ließ sich durch nichts in seinem Verlangen abwendig machen, versicherte, er habe schon Fürsorge für alles getroffen und werde nach Beendigung ihres Geschäfts noch in der Nacht abreisen.</p>
+            <p rendition="#et">»Wenn Sie nicht«, fuhr der Herzog fort, »der feigste Mensch in Ihrem Lande sind, so folgen Sie mir zum Wagen, Prinz.«</p>
+            <p rendition="#et">»Ich bin kein Prinz!« antwortete Philipp, der sich zum Äußersten getrieben sah.</p>
+            <p rendition="#et">»Sie sind es. Jeder hat Sie hier auf dem Balle erkannt. Ich kenne Sie am Hut. Sie hintergehen mich nicht.«</p>
+            <p rendition="#et">Philipp zog die Larve ab, zeigte dem Herzog sein Gesicht und sprach: »Nun? Bin ich der Prinz?«</p>
+            <p rendition="#et">Herzog Hermann, wie er das wildfremde Gesicht erblickte, prallte zurück und stand wie versteinert. Seine geheimste Angelegenheit einem Unbekannten verraten zu haben, vermehrte seine Bestürzung und Verlegenheit. Ehe er sich noch aus dieser sammeln konnte, hatte Philipp schon die Tür in der Hand, und weg war er.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e30059" type="chapter">
+            <head>
+               <pb n="192" facs="#f0044"/>
+11</head>
+            <p>Sobald sich Philipp im Freien befand, nahm er blitzschnell Hut und Seidenmantel ab, wickelte jenen in diesen, und so, beides unter dem Arm, sprang er die Gasse entlang der Gregorienkirche zu.</p>
+            <p rendition="#et">Da stand Röschen schon in einem Winkel neben der hohen Kirchenpforte und harrte sein.</p>
+            <p rendition="#et">»Ach, Philipp, lieber Philipp!« sagte sie zu ihm, sobald sie ihn erkannte, und drückte seine Hand. »Welche Freude hast du mir doch gemacht! O wie glücklich sind wir! Sieh, ich habe keine Ruhe mehr bei meinen Freundinnen gehabt. Gottlob, daß du da bist. Schon seit beinahe einer Viertelstunde stehe ich hier und friere. Aber ich denke vor Freuden gar nicht an die Kälte, die ich leide.«</p>
+            <p rendition="#et">»Und ich, liebes Röschen, danke Gott auch, daß ich wieder bei dir bin. Hole der Geier all den Schnickschnack der großen Herren. Nun, ich erzähle dir schon ein andermal von den tollen Auftritten, die ich gehabt habe. Sage mir, Herzenskind, wie geht es dir auch? Hast du mich noch ein wenig lieb?«</p>
+            <p rendition="#et">»Ei, du bist nun ein großer Herr geworden, Philipp, und da ist's wohl an mir, zu fragen, ob du mich noch ein wenig lieb hast?«</p>
+            <p rendition="#et">»Wetter, woher weißt du denn schon, daß ich ein großer Herr war?«</p>
+            <p rendition="#et">»Du hast es mir ja selber gesagt. Philipp, Philipp, wenn du nur nicht stolz wirst, nun du so entsetzlich reich bist. Ich bin ein armes Mädchen und nun freilich zu schlecht für dich. Aber, Philipp, ich habe schon bei mir gedacht, wenn du mich verlassen könntest, sieh, ich wollte lieber, du wärest ein Gärtner geblieben. Ich würde mich zu Tode grämen, wenn du mich verlassen könntest.«</p>
+            <p rendition="#et">»Röschen, sage mir, was schwatzest du auch da? Ich bin eine halbe Stunde Prinz gewesen, und es war doch nur Spaß; aber in <pb n="193" facs="#f0045"/>
+meinem Leben mache ich solchen Spaß nicht wieder. Nun bin ich wieder Nachtwächter und so arm wie vorher. Ich habe da wohl noch fünftausend Gulden bei mir, die ich von einem Mamelucken bekommen – die könnten uns beide aus der Not helfen – aber leider, sie gehören mir nicht.«</p>
+            <p rendition="#et">»Du sprichst wunderlich, Philipp!« sagte Röschen und gab ihm die schwere Geldbörse, die sie vom Prinzen erhalten hatte. »Da, nimm dein Geld wieder. Es wird mir doch im Strickbeutel fast zu schwer.«</p>
+            <p rendition="#et">»Was soll ich mit dem vielen Gelde? Woher hast du das, Röschen?«</p>
+            <p rendition="#et">»Du hast es ja in der Lotterie gewonnen, Philipp.«</p>
+            <p rendition="#et">»Was? Hab' ich gewonnen? Und man hat mir doch auf dem Rathaus gesagt, meine Nummern wären nicht herausgekommen! Sieh, ich habe gesetzt und gehofft, es könnte eine Terne für uns zur Aussteuer geben, aber der Gärtner Rotmann sagte mir, als ich den Nachmittag zu spät auf das Rathaus kam: ›Armer Philipp, keine Nummer!‹ – Juchhe, also doch gewonnen! Jetzt kauf ich den großen Garten, und du bist meine Frau. Wieviel ist's denn geworden?«</p>
+            <p rendition="#et">»Philipp, hast du dir ein Räuschchen in der Neujahrsnacht getrunken? Du mußt besser wissen, wieviel es ist. Ich habe bei meinen Freundinnen nur unter dem Tisch heimlich in die Börse hineingeschielt und bin recht erschrocken, als ich ein Goldstück neben dem anderen blitzen sah. Da dachte ich: Nun wundert's mich nicht, daß der Philipp so unbändig war. Ja, recht unbändig bist du gewesen. Aber es war dir nicht zu verargen. Ich möchte dir selber um den Hals fallen und mich recht satt weinen vor Freuden.«</p>
+            <p rendition="#et">»Röschen, wenn du fallen willst, ich mag es wohl leiden. Aber hier ist ein Mißverständnis. Wer hat dir das Geld gebracht und gesagt, es sei mein Lotterielos? Ich habe ja das Los noch zu Hause im Kasten, und kein Mensch hat es mir abgefordert.«</p>
+            <p rendition="#et">
+               <pb n="194" facs="#f0046"/>
+»Philipp, treib keine Possen. Du hast's mir vor einer halben Stunde selber gesagt und mir selber das Geld gegeben.«</p>
+            <p rendition="#et">»Röschen, besinne dich. Diesen Morgen sah ich dich beim Weggehen aus der Messe, da wir miteinander unser Zusammenfinden für diese Nacht verabredeten. Seitdem sahen wir ja einander nicht.«</p>
+            <p rendition="#et">»Außer vor einer halben Stunde, da ich dich blasen hörte und ich dich zu Steinmanns ins Haus hereinrief. Aber was trägst du denn unter dem Arm für ein Bündelchen? Warum gehst du bei der kalten Nacht ohne Hut? – Philipp, Philipp! nimm dich wohl in acht. Das viele Geld könnte dich leichtsinnig machen. Du bist gewiß in einem Wirtshause gesessen und hast dir mehr zugute getan, als du solltest. Gelt? Was hast du da für ein Bündelchen? Mein Himmel, das sind ja wohl Frauenzimmerkleider von Seiden? Philipp, Philipp, wo bist du gewesen?«</p>
+            <p rendition="#et">»Gewiß vor einer halben Stunde nicht bei dir. Du willst dich, glaub' ich, über mich lustig machen? Antworte mir, woher hast du das Geld?«</p>
+            <p rendition="#et">»Antworte mir erst, Philipp, woher hast du diese Frauenzimmerkleider? Wo bist du gewesen?«</p>
+            <p rendition="#et">Da beide ungeduldig waren, Antwort zu hören, und keine Antwort gaben, fingen sie an, aufeinander etwas mißtrauisch zu werden und zu zänkeln.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e30137" type="chapter">
+            <head>12</head>
+            <p>Wie es gewöhnlich in solchen Rechtshändeln geht, wo ein liebendes Pärchen miteinander streitet, ging es auch hier. Sobald Röschen das weiße Schnupftuch hervornahm und ihre Augen trocknete und das Köpfchen wegwandte, und ein Seufzer um den andern aus der Tiefe der Brust hervorzitterte, hatte <hi rendition="#i">sie</hi> offenbares Recht, und <hi rendition="#i">er</hi> offenbares Unrecht. Und er gestand sein Unrecht, indem er sie tröstete und bekannte: er sei auf <pb n="195" facs="#f0047"/>
+einem Maskenball gewesen, und was er unter dem Arm trage, sei kein weibliches Gewand, sondern ein Seidenmantel nebst Larve und Federhut.</p>
+            <p rendition="#et">Nach diesem reumütigen Eingeständnis aber begann erst das strengste Verhör über ihn. Ein Maskenball, das weiß jedes Mädchen in einer großen Stadt, ist für unverwahrte Herzen ein gefährlicher Irrgarten und Kampfplatz. Man stürzt sich in ein Meer anmutiger Gefahren und geht manchmal darin unter, wenn man kein guter Schwimmer ist. Röschen hielt ihren Freund Philipp aber gerade nicht für den besten Schwimmer; es ist schwer zu sagen, warum? Also mußte er zuerst erklären, ob er getanzt habe? Auf das Verneinen hin fragte sie, ob er keine Abenteuer und Händel mit weiblichen Masken gehabt habe? Das ließ sich nicht verneinen. Er bekannte allerlei; doch setzte er jedesmal hinzu, die Frauenzimmer wären insgesamt von vornehmer Abkunft gewesen und hätten ihn für einen anderen gehalten. Röschen wollte zwar ein wenig zweifeln; doch unterdrückte sie den Argwohn. Als er aber auf ihre Frage: für wen man ihn gehalten habe, und von wem er seine Maske geliehen? immer den Prinzen Julian nannte, schüttelte sie doch das ungläubige Köpfchen; und noch unwahrscheinlicher war ihr sein Geschichtchen, daß der Prinz Nachtwächterdienste getan, während Philipp auf dem Balle gewesen. Er aber vernichtete alle ihre Zweifel mit der Versicherung, der Prinz – denn dafür halte er seinen Substituten – werde laut Abrede in wenigen Augenblicken bei der Gregorienkirche erscheinen und die schöne Maske für den Nachtwächtermantel eintauschen.</p>
+            <p rendition="#et">Nun ging dem erschrockenen Röschen über ihr Abenteuer im dunkeln Hausgang ein Licht auf. War es ihr doch damals schon aufgefallen, daß der vermeinte Philipp so etwas Fremdartiges in seinem Wesen gehabt hatte. Da nun die Reihe an sie kam, alles haarklein zu beichten, wie sie zu dem Gelde für das Lotterielos gelangt wäre, stotterte sie lange und suchte nach Worten herum, daß dem Philipp ganz bange ward.</p>
+            <p rendition="#et">
+               <pb n="196" facs="#f0048"/>
+Sie erzählte endlich alles, was vorgefallen war; aber wie es zum Kuß und Gegenkuß kam, stockte sie wieder mit der Sprache. Doch mußte es heraus.</p>
+            <p rendition="#et">»Es ist nicht wahr!« rief Philipp. »Ich habe dir keinen Kuß gegeben und von dir keinen empfangen.«</p>
+            <p rendition="#et">»So hat er dir doch gegolten«, sagte Röschen leise und schmeichelnd. Philipp rieb sich die blonden Haare auf dem Wirbel herum, damit sie nicht zu Berge stehen sollten.</p>
+            <p rendition="#et">»Höre, Philipp, bist du es nicht gewesen«, sagte Röschen ängstlich, »so glaube ich dir alles Unglaubliche, das du mir gesagt hast – so ist es Prinz Julian in deinen Kleidern gewesen.«</p>
+            <p rendition="#et">Das hatte Philipp schon lange geahnt, und er rief: »Der Spitzbube! Er hat mich um deine Küsse bestohlen. Nun begreif' ich! Nur darum gab er mir seine Maske, nur darum wollte er auf eine halbe Stunde Ich sein!« – Und nun fiel ihm die Maske ein, die ihm von der Operntänzerin Rollina, dann von Röschen erzählt hatte, und er erneuerte sein Verhör strenger als vorher: ob und wie sie den Prinzen vorher gesehen? Ob ihr nicht ein Mann aufgefallen sei, ein vornehmer Herr, der ihr beim Kirchengehen nachgeschlichen sei, oder der sich im Milchgäßchen Geschäfte gemacht habe? Oder ob nie ein Herr oder sonst jemand zu ihrer Mutter gekommen sei, um sie mit Geld und Wohltaten in ihrer Verlassenheit zu unterstützen?</p>
+            <p rendition="#et">Röschens Antworten fielen sämtlich so beruhigend aus und trugen so sehr das Gepräge der unbefangensten Unschuld, daß Philipps Herz wieder leicht ward. Er warnte sie vor den Schleichern und vor der Barmherzigkeit der Vornehmen, und Röschen hinwieder warnte vor den Gefahren der Maskenbälle und allen Abenteuern mit Frauenzimmern hohen Standes, durch welche mancher junge Mensch schon recht unglücklich geworden sei. Man vergab sich alle in der Unwissenheit begangenen Sünden, und Philipp stand im Begriff, den Kuß einzufordern, der ihm bestimmt gewesen und den er nicht empfangen hatte – <pb n="197" facs="#f0049"/>
+als das Pärchen im besten Augenblick durch eine fremde Erscheinung unterbrochen wurde.</p>
+            <p rendition="#et">Es kam im vollen Lauf und Sprung ein Mensch gegen sie gerannt, der atemlos bei ihnen stehenblieb. An Mantel, Stange, Hut und Horn erkannte Philipp auf der Stelle seinen Mann. Dieser hingegen suchte den Maskenträger. Philipp reichte ihm den Hut und Seidenmantel und sagte: »Gnädigster Herr, hier Ihre Sachen. In dieser Welt tauschen wir die Rollen nicht wieder miteinander; ich käme zu kurz dabei!«</p>
+            <p rendition="#et">Der Prinz rief: »Nur geschwind, nur geschwind!«, warf die nachtwächterliche Amtstracht von sich in den Schnee, band die Larve und den Mantel um und setzte den Hut auf. Röschen sprang erschrocken zurück. Philipp bedeckte sich mit seinem alten Filz und Mantel und nahm Stange und Horn.</p>
+            <p rendition="#et">»Ich habe dir ein Trinkgeld versprochen, Kamerad«, sagte der Prinz, »aber so wahr ich lebe, ich habe meinen Geldbeutel nicht bei mir.«</p>
+            <p rendition="#et">»Den habe ich!« antwortete Philipp und hielt ihm die Börse hin. »Sie gaben ihn meiner Braut da – aber, gnädigster Herr, wir verbitten uns Geschenke der Art.«</p>
+            <p rendition="#et">»Kamerad, behalte, was du hast, und mache dich geschwind aus dem Staube; es ist für dich hier nicht geheuer!« rief der Prinz eilig und wollte davon. Philipp hielt ihn am Mantel fest. »Gnädiger Herr, wir haben noch eins abzutun!«</p>
+            <p rendition="#et">»Flieh', sag' ich dir, Nachtwächter! Flieh', man stellt dir nach.«</p>
+            <p rendition="#et">»Ich habe keine Ursache, zu fliehen, gnädigster Herr. Aber ich habe Ihnen hier Ihre Börse –«</p>
+            <p rendition="#et">»Die behalte. Lauf, was du kannst!«</p>
+            <p rendition="#et">»Und einen Wechsel des Marschalls Blankenschwerd von fünftausend Gulden zuzustellen.«</p>
+            <p rendition="#et">»Der Hagel, wie kommst du mit dem Marschall Blankenschwerd zusammen, Nachtwächter?«</p>
+            <p rendition="#et">»Er sagte, es sei eine Spielschuld, die er Ihnen zu zahlen habe. <pb n="198" facs="#f0050"/>
+Er will diese Nacht noch mit seiner Gemahlin auf seine polnischen Güter.«</p>
+            <p rendition="#et">»Bist du toll? Woher weißt du das? Wo gab er dir die Verrichtungen an mich?«</p>
+            <p rendition="#et">»Gnädigster Herr, und der Finanzminister Bodenlos will bei Abraham Levi alle Ihre Schulden zahlen, wenn Sie sich für ihn beim König verwenden wollen, daß er im Ministerium bleibe.«</p>
+            <p rendition="#et">»Nachtwächter, du bist vom hellen Teufel besessen!«</p>
+            <p rendition="#et">»Ich habe ihn aber in Hochdero Namen abgewiesen!«</p>
+            <p rendition="#et">»Du den Minister?«</p>
+            <p rendition="#et">»Ja, gnädigster Herr; hingegen habe ich die Gräfin Bonau mit dem Kammerherrn Pilzow wieder vollkommen versöhnt.«</p>
+            <p rendition="#et">»Wer von uns beiden ist ein Narr?«</p>
+            <p rendition="#et">»Noch eins. Die Sängerin Rollina ist eine gemeine Metze, gnädigster Herr. Ich kenne deren Liebesgeschichten. Sie sind der Betrogene. Darum hielt ich es für Ihre Königliche Hoheit unwürdig, sich mit ihr einzulassen, und habe für diese Nacht das Abendmahl bei ihr abbestellt.«</p>
+            <p rendition="#et">»Die Rollina? Wie kamst du zu der?«</p>
+            <p rendition="#et">»Noch eins. Der Herzog Hermann ist fürchterlich gegen Sie aufgebracht wegen der Kellergeschichte. Er wollte Sie beim König verklagen.«</p>
+            <p rendition="#et">»Der Herzog? Wer hat dir denn das alles erzählt?«</p>
+            <p rendition="#et">»Er selbst. Sie sind noch nicht sicher. Zum König aber geht er nicht mehr, denn ich drohte ihm mit dem Zettel, den er dem Bäckermädchen gab. Hingegen wollte er sich mit Ihnen auf Tod und Leben schlagen. Nehmen Sie sich in acht vor ihm.«</p>
+            <p rendition="#et">»Eins sage mir: weißt du, woher der Herzog weiß, daß ich –«</p>
+            <p rendition="#et">»Er weiß alles von der Marschallin Blankenschwerd; die hat es ihm ausgeplaudert, und daß sie als Hexe bei dem Gaukelspiel gesessen.«</p>
+            <p rendition="#et">Der Prinz nahm den Philipp beim Arm und sagte: »Spaßvogel, <pb n="199" facs="#f0051"/>
+du bist kein Nachtwächter!« Er drehte ihm das Gesicht gegen eine aus der Ferne herschimmernde Laterne, und erschrak, da er einen ihm vollkommen fremden Menschen sah.</p>
+            <p rendition="#et">»Bist du vom Satan besessen, oder ... Wer bist du denn?« fragte Julian, der vor Schrecken ganz nüchtern geworden war.</p>
+            <p rendition="#et">»Ich bin der Gärtner Philipp Stark, Sohn des Nachtwächters Gottlieb Stark!« antwortete Philipp ruhig.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e30280" type="chapter">
+            <head>13</head>
+            <p>»Nun ja, den suchen wir eben! Halt, Bursche!« riefen mehrere Stimmen, und Philipp, Röschen und der Prinz sahen sich plötzlich von sechs handfesten Dienern der löblichen Polizei umringt. Röschen tat einen lauten Schrei. Philipp ergriff des erschrockenen Mädchens Hand und sagte: »Fürchte dich nicht!« – Der Prinz klopfte dem Philipp auf die Achsel und sagte: »Es ist ein dummer Streich. Ich sagte dir nicht vergebens, du solltest dich zur rechten Zeit davonmachen. Aber fürchte dich nicht; es soll dir nichts widerfahren.«</p>
+            <p rendition="#et">»Das wird sich hintennach ergeben!« versetzte einer der Handfesten. »Einstweilen wird er mit uns kommen.«</p>
+            <p rendition="#et">»Wohin?« fragte Philipp. »Ich bin in meinem Dienst; ich bin der Nachtwächter.«</p>
+            <p rendition="#et">»Das haben wir schon gehört, und eben deswegen kommt Ihr mit uns.«</p>
+            <p rendition="#et">»Laßt ihn gehen, ihr Leute!« sagte Julian und suchte in den Taschen nach Geld. Da er nichts fand, flüsterte er Philipp heimlich zu, ihnen aus der Börse zu geben. Die Handfesten aber rissen beide auseinander und riefen: »Fort! Hier werden keine Abreden mehr genommen. Auch die Maske ist verdächtig und muß mit uns!«</p>
+            <p rendition="#et">»Die nicht!« sagte Philipp. »Ihr wollt den Nachtwächter; der <pb n="200" facs="#f0052"/>
+bin ich. Könnt ihr verantworten, mich aus meinen Berufsgeschäften zu nehmen, so führt mich, wohin es euch beliebt. Diesen Herrn aber laßt gehen.«</p>
+            <p rendition="#et">»Das ist nicht Eure Sache, uns zu lehren, wen wir für verdächtig halten sollen!« versetzte einer der Polizeidiener: »Marsch, alles mit uns!«</p>
+            <p rendition="#et">»Auch das Frauenzimmer?« fragte Philipp. »Ich will nicht hoffen.«</p>
+            <p rendition="#et">»Nun, das Jüngferchen mag gehen. Für sie haben wir keinen Befehl. Aber Namen und Gesichtchen müssen wir für den Notfall kennen und den Aufenthalt.«</p>
+            <p rendition="#et">»Es ist die Tochter der Witwe Bittner im Milchgäßchen!« sagte Philipp und ärgerte sich nicht wenig, als die Kerls alle das Gesicht des weinenden Röschens gegen den Schein der fernen Straßenlaterne drehten und begafften.</p>
+            <p rendition="#et">»Geh heim, Röschen!« sagte Philipp: »Geh heim; fürchte nichts für mich. Ich habe ein gutes Gewissen.«</p>
+            <p rendition="#et">Röschen aber schluchzte laut, daß es selbst den Polizeidienern Mitleid einflößte. Der Prinz wollte diesen Umstand benutzen, um durch einen Sprung zu entkommen. Aber von den Handfesten einer war noch ein besserer Springer, stand mit einem Satz vor ihm und sagte: »Holla! Der hat ein schlechtes Gewissen; er muß mit uns. Vorwärts, marsch!«</p>
+            <p rendition="#et">»Wohin?« fragte der Prinz.</p>
+            <p rendition="#et">»Direkt und schnurgeraden Wegs zu Seiner Exzellenz dem Herrn Polizeiminister.«</p>
+            <p rendition="#et">»Hört, Leute«, sagte der Prinz sehr ernst, doch leutselig – denn ihm war in dieser Geschichte gar nicht wohl zumut, weil er eben sein Nachtwächterstückchen nicht verraten wissen wollte. »Hört, Leute, ich bin diesen Augenblick nur sehr zufällig zu diesem Nachtwächter gekommen; ihr habt mit mir nichts zu schaffen. Ich bin vom Hofe. Untersteht ihr euch, mich zu zwingen, mit euch zu gehen, werdet ihr euern Irrtum bereuen und morgen bei Wasser und Brot im Turm sitzen.«</p>
+            <p rendition="#et">
+               <pb n="201" facs="#f0053"/>
+»Laßt den Herrn um Gottes willen gehen, Leute!« rief Philipp, »verlaßt euch auf mein Wort, es ist ein großer Herr, der euch euren Dienst garstig versalzen kann. Es ist ...«</p>
+            <p rendition="#et">»Schweig!« rief Julian: »Es soll niemand aus deinem Munde erfahren, wer ich bin, wenn du allenfalls erraten hättest, wer ich sei. Hörst du, niemand! <hi rendition="#i">Niemand,</hi> sage ich dir, es komme, wie es wolle. Hörst du?«</p>
+            <p rendition="#et">»Wir tun unsere Schuldigkeit!« entgegnete ein Polizeidiener, »und dafür setzt uns keiner in den Turm. Das könnte aber am Ende wohl dem Herrn in der Maske selbst widerfahren. Wir kennen dergleichen Sprachen schon und fürchten solche Drohungen nicht. Vorwärts, marsch!«</p>
+            <p rendition="#et">»Leute, nehmt Vernunft an!« rief Philipp. »Es ist ein sehr angesehener Herr am Hofe.«</p>
+            <p rendition="#et">»Und wenn's der König selber wäre, müßte er mit uns; das ist unsere Pflicht; er ist verdächtig!« gab einer zur Antwort.</p>
+            <p rendition="#et">»Ei ja«, rief ein anderer, »große Herren am Hofe haben wohl mit Nachtwächtern und euresgleichen heimliche Dinge abzutun und wie vorhin einander in die Ohren zu zischeln.«</p>
+            <p rendition="#et">Während man noch des Prinzen wegen hin und her stritt, kam ein Wagen, achtspännig, mit brennenden Fackeln voran, dahergefahren an der Kirche vorbei. »Halt!« rief eine Stimme im Wagen, als dieser eben an dem Haufen der Polizeidiener war, welche den Prinzen umringt hielten.</p>
+            <p rendition="#et">Der Wagen stand. Der Kutschenschlag öffnete sich. Ein Herr sprang heraus im Überrock mit einem glänzenden Stern darauf und ging zu der Menschengruppe. Er stieß die Polizeidiener zurück, betrachtete den Prinzen von oben bis unten und sagte: »Richtig! Erkannte ich doch gleich den Vogel an seinen Federn von weitem. Maske, wer sind Sie?«</p>
+            <p rendition="#et">Julian wußte nicht, wohin sich in seiner Verlegenheit drehen und wenden, denn er erkannte den Herzog Hermann.</p>
+            <p rendition="#et">»Antworten Sie mir!« rief der Herzog mit donnernder Stimme. Julian schüttelte den Kopf und winkte dem Herzog, sich <pb n="202" facs="#f0054"/>
+fortzubegeben. Dieser aber ward noch erpichter, zu wissen, mit wem er es auf dem Ball zu tun gehabt habe. Er fragte die Polizeibeamten. Diese standen mit entblößten Häuptern um den Herzog und sagten: sie hätten Befehl, den Nachtwächter unmittelbar zum Polizeiminister zu führen; der Wächter habe gottlose Verse gesungen, wie sie mit ihren eigenen Ohren gehört, sei ihnen aber durch Kreuz- und Quergassen entsprungen; hier nun bei der Kirche hätten sie ihn in vertraulichem Gespräch mit der Maske ertappt, die ihnen beinahe verdächtiger schiene als der Nachtwächter. Die Maske habe sich für einen Herrn vom Hofe ausgeben wollen, allein das sei offenbar Windbeutelei. Sie hätten daher für Schuldigkeit gehalten, die Maske zu arretieren.</p>
+            <p rendition="#et">»Der Mensch ist nicht vom Hofe!« erwiderte der Herzog, »darauf könnt ihr sicher gehen; ich gebe euch mein Wort.« Er hat sich unerlaubterweise auf dem Ball eingeschlichen und jeden glauben gemacht, er sei Prinz Julian. Er hat sich mir endlich entlarven müssen, da er auch mich betrogen und mir entwischte. Es ist ein unbekannter Mensch, ein Abenteurer. Ich habe es dem Oberhofmeister gemeldet. Ihr Leute, führt ihn fort zum königlichen Palast, ihr habt einen guten Fang getan.</p>
+            <p rendition="#et">Mit diesen Worten drehte sich der Herzog um, stieg in den Wagen, rief noch einmal zurück: »Laßt ihn nicht entkommen!« und fuhr davon.</p>
+            <p rendition="#et">Der Prinz sah sich verloren. Den Polizeidienern sein Gesicht zu zeigen, hielt er für unschicklich; durch diese wären seine Geniestreiche allzu stadtkundig geworden. Minder Gefahr lief er, wenn er vor dem Oberhofmeister oder dem Polizeiminister die Larve abzog. Also rief er entschlossen: »Meinethalben! Kommt!«</p>
+            <p rendition="#et">Sie gingen. Röschen sah ihnen weinend nach.</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e30391" type="chapter">
+            <head>
+               <pb n="203" facs="#f0055"/>
+14</head>
+            <p>Philipp hätte beinahe an Hexerei glauben mögen, oder daß er träume. Denn so verworren und bunt es in dieser Nacht zuging, war's ihm in seinem Leben noch nicht ergangen. Er hatte sich eigentlich keine Vorwürfe zu machen, als daß er mit dem Prinzen die Kleider getauscht und dann wider seinen Willen dessen Rolle auf dem Ball gespielt hatte. Da aber der Prinz vermutlich die Nachtwächterrolle ebenfalls nicht in der Regel gespielt haben mochte – denn warum mußte er sich als Nachtwächter verhaften lassen? – hoffte er bei diesem Gnade zu finden.</p>
+            <p rendition="#et">Beim Palast schlug dem armen Philipp das Herz stärker. Man nahm ihm Mantel, Horn und Stange ab. Der Prinz sprach mit einem vornehmen Herrn einige Worte. Sogleich wurden die Polizeidiener weggeschickt; der Prinz ging die Stiegen hinauf, und Philipp mußte folgen. »Fürchte dich nicht!« sagte Julian und verließ ihn. Philipp wurde in ein kleines Vorzimmer geführt, wo er lange allein blieb.</p>
+            <p rendition="#et">Endlich kam ein königlicher Kammerdiener und sagte: »Kommt mit mir. Der König will Euch sehen.«</p>
+            <p rendition="#et">Philipp war fast außer sich vor Schrecken. Seine Knie wurden schwach. Er ward in ein schönes Zimmer geführt. Da saß der alte König lachend an einem kleinen Tisch. Neben ihm stand der Prinz Julian ohne Larve. Sonst war niemand im Zimmer.</p>
+            <p rendition="#et">Der König betrachtete den jungen Menschen eine Zeitlang und, wie es schien, mit einer Art Wohlgefallen.</p>
+            <p rendition="#et">»Erzähle mir alles genau«, sagte der König zu ihm, »was du in dieser Nacht getan hast.«</p>
+            <p rendition="#et">Philipp gewann durch die leutselige Anrede des ehrwürdigen Monarchen wieder Mut und beichtete haarklein, was er getan und erlebt hatte, von Anfang bis zu Ende. Doch war er klug und bescheiden genug, das zu verschweigen, was er in seiner Prinzenrolle von den Höflingen gehört hatte und wodurch Julian<pb n="204" facs="#f0056"/>
+ hätte in Verlegenheit gesetzt werden können. – Der König lachte bei der Erzählung einige Mal laut auf; dann tat er noch einige Fragen über Philipps Herkunft und Beschäftigung, nahm ein paar Goldstücke vom Tisch, gab sie ihm und sagte: »Nun geh du, mein Sohn, und warte deines Berufs. Es soll dir nichts Leides geschehen. Aber entdecke keinem Menschen, was du in dieser Nacht getrieben und erfahren hast. Das befehle ich dir. Nun geh!«</p>
+            <p rendition="#et">Philipp fiel dem König zu Füßen und küßte dessen Hand, indem er einige Worte des Dankes stammelte. Als er wieder aufstand, um fortzugehen, sagte Prinz Julian: »Ich bitte untertänigst, daß Ihre Majestät dem jungen Menschen erlauben wolle, draußen zu warten. Ich habe ihm für das Ungemach, das ich ihm diese Nacht verursachte, noch eine kleine Schuld abzutragen.«</p>
+            <p rendition="#et">Der König nickte lächelnd mit dem Kopfe, und Philipp entfernte sich.</p>
+            <p rendition="#et">»Prinz!« sagte der König und warnte drohend mit dem aufgehobenen Finger. »Ein Glück für Sie, daß Sie mir die Wahrheit sagten! Ich will auch diesmal noch Ihren wilden, albernen Possen Verzeihung widerfahren lassen. Sie hätten Strafe verdient. Noch einmal solch einen Pagenstreich, und ich werde unerbittlich sein. Nichts wird Sie dann entschuldigen. Die Geschichte mit Herzog Hermann muß ich noch näher kennen. Gut, wenn er fortgeht; ich mag ihn nicht. Von dem, was Sie über den Polizei- und Finanzminister sagten, erwarte ich ebenfalls Beweise. Gehen Sie jetzt und geben Sie dem jungen Gärtner ein Trinkgeld. Er hat in Ihrer Maske vernünftiger gehandelt als Sie in der seinigen.«</p>
+            <p rendition="#et">Der Prinz verließ den König. Er legte in einem Nebenzimmer den Ballanzug ab, den Überrock an, ließ Philipp rufen und befahl ihm, mit ihm in seinen Palast zu gehen. Hier mußte Philipp alles, was er als Stellvertreter Julians auf dem Ball vernommen und gesprochen, Wort für Wort erzählen. Philipp gehorchte.<pb n="205" facs="#f0057"/>
+ Julian klopfte ihm auf die Schulter und sagte: »Höre, Philipp, du bist ein gescheiter Kerl. Dich kann ich gebrauchen. Ich bin zufrieden mit dir. Was du in meinem Namen dem Kammerherrn Pilzow, der Gräfin Bonau, dem Marschall und seiner Frau, dem Oberst Kalt, dem Finanzminister und den übrigen gesagt, finde ich ganz vernünftig, und ich will es ansehen und halten, als hätte ich es selbst gesagt. Dagegen mußt du zu den Versen stehen, die ich in deinem Namen als Nachtwächter gesungen habe. Du wirst zur Strafe deines Nachtwächterdienstes entsetzt werden; das laß dir gefallen. Dafür mache ich dich zum Schloßgärtner bei mir. Ich übergebe dir meine Gärten von den beiden Schlössern Heimleben und Quellenthal. Das Geld, welches ich deiner Braut gegeben, soll ihre Aussteuer bleiben, und den Wechsel des Marschalls Blankenschwerd löse ich auf der Stelle bei dir mit fünftausend Gulden ein. Jetzt geh, diene mir treu und führe dich gut auf.«</p>
+         </div>
+         <div xml:id="Zschokke-Heinri-d1e30442" type="chapter">
+            <head>15</head>
+            <p>Wer war glücklicher als Philipp! Er flog in vollem Sprung zu Röschens Haus. Noch war Röschen nicht zu Bett; sie saß mit ihrer Mutter am Tisch und weinte. Er warf die volle Börse auf den Tisch und sagte atemlos: »Röschen, das ist deine Aussteuer! Und hier fünftausend Gulden, die sind mein. Ich habe als Nachtwächter Fehler gemacht; dafür verliere ich die Anwartschaft auf des Vaters Dienst, und übermorgen ziehe ich als Schloßgärtner des Prinzen Julian nach Heimleben. Und Ihr, Mutter, und Röschen müßt mit mir nach Heimleben. Mein Vater und meine Mutter müssen auch mit mir. Ich kann euch nun wohl alle ernähren. Juchhe! Gott gebe allen guten Leuten ein solch gutes Neujahr!«</p>
+            <p rendition="#et">Mutter Bittner wußte nicht, ob ihren Ohren trauen bei Philipps Erzählung und ihren Augen beim Anblick des vielen <pb n="206" facs="#f0058"/>
+Geldes. Aber als Philipp ihr alles und, wie es gekommen, doch eben nicht mehr als zu wissen nötig war, erzählt hatte, stand sie schluchzend auf, umarmte ihn mit Freuden und legte dann ihre Tochter an sein Herz. Nun lief oder tanzte die freudebetrunkene Frau im Zimmer herum, fragte: »Wissen das alles auch dein Vater und deine Mutter schon?« und da es Philipp verneinte, rief sie: »Röschen, mache Feuer an, tue Wasser über, koche einen guten Kaffee für unserer fünf!«, nahm ihr wollenes Mäntelchen, wickelte sich hinein und ging zum Haus hinaus.</p>
+            <p rendition="#et">Röschen aber vergaß an Philipps Herzen Feuer und Wasser. Sie standen noch in fester Umarmung, als Frau Bittner zurückkam, begleitet vom alten Gottlieb und Mutter Käthe. Die umringten segnend ihre Kinder; Mutter Bittner, wollte sie Kaffee, mußte ihn selber kochen.</p>
+            <p rendition="#et">Daß Philipp den Nachtwächterdienst einbüßte, daß Röschen nach vierzehn Tagen seine Frau ward, daß beide mit ihren Eltern nach Heimleben zogen – das gehört nicht zum Abenteuer der Neujahrsnacht, welches niemandem verderblicher ward als dem Finanzminister Bodenlos. Man hat auch seitdem nicht gehört, daß Prinz Julian ähnliche Geniestreiche gemacht habe.</p>
+            <p>
+               <hi rendition="#i">(1818)</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

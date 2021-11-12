@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Fabeln und Erzählungen (Ausgabe 1771)</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T12:53:34Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005262968</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Fabeln/Fabeln und Erzählungen (Ausgabe 1771)</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rjrn.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E627-1</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 1, München 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 1</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">217 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1970</date>
+                  <date type="firstPublication">1771</date>
+                  <date type="firstPublication" precision="low" subtype="clariah">1771</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e72085">Eine erste Sammlung von Versfabeln und -erzählungen veröffentlichte Lessing im 1. Teil seiner »Schriften«, Berlin (Voss) 1753. Die vorliegende Sammlung erschien im 2. Teil der »Vermischten Schriften«, Berlin (Voss), der bereits 1771 gedruckt, aber erst 1784 ausgeliefert wurde.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Fabeln</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Lessing-Gotthol-d1e72085">
+            <p rend="h3">Gotthold Ephraim Lessing</p>
+            <p rend="h2">Fabeln und Erzählungen</p>
+            <p rend="h4">[Ausgabe 1771]</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Lessing-Gotthol-d1e72108" type="chapter">
+            <head>
+               <pb n="197" facs="#f0001"/>
+I. Der Sperling und die Feldmaus</head>
+            <p>Zur Feldmaus sprach ein Spatz: Sieh dort den Adler sitzen!</p>
+            <p>Sieh, weil du ihn noch siehst! er wiegt den Körper schon;</p>
+            <p>Bereit zum kühnen Flug, bekannt mit Sonn' und Blitzen,</p>
+            <p>Zielt er nach Jovis Thron.</p>
+            <p>Doch wette, - seh' ich schon nicht adlermäßig aus -</p>
+            <p>Ich flieg' ihm gleich. - Fleug, Prahler! rief die Maus.</p>
+            <p>Indes flog jener auf, kühn auf geprüfte Schwingen;</p>
+            <p>Und dieser wagts, ihm nachzudringen.</p>
+            <p>Doch kaum, daß ihr ungleicher Flug</p>
+            <p>Sie beide bis zur Höh' gemeiner Bäume trug,</p>
+            <p>Als beide sich dem Blick der blöden Maus entzogen,</p>
+            <p>Und beide, wie sie schloß, gleich unermeßlich flogen.</p>
+            <p>*</p>
+            <p>Ein unbiegsamer F* will kühn wie Milton singen.</p>
+            <p>Nach dem er Richter wählt, nach dem wirds ihm gelingen.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72174" type="chapter">
+            <head>II. Der Adler und die Eule</head>
+            <p>Der Adler Jupiters und Pallas Eule stritten.</p>
+            <p>»<hi rendition="#i">Abscheulich Nachtgespenst!</hi>« - »Bescheidner, darf ich bitten.</p>
+            <p>Der Himmel heget mich und dich;</p>
+            <p>Was bist du also mehr, als ich?«</p>
+            <p>Der Adler sprach: Wahr ists, im Himmel sind wir beide;</p>
+            <p>Doch mit dem Unterscheide:</p>
+            <p>Ich kam durch eignen Flug,</p>
+            <p>Wohin dich deine Göttin trug.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72215" type="chapter">
+            <head>III. Der Tanzbär</head>
+            <p>Ein Tanzbär war der Kett' entrissen,</p>
+            <p>Kam wieder in den Wald zurück,</p>
+            <p>Und tanzte seiner Schar ein Meisterstück</p>
+            <pb n="198" facs="#f0002"/>
+            <p>Auf den gewohnten Hinterfüßen.</p>
+            <p>»Seht, schrie er, das ist Kunst; das lernt man in der Welt.</p>
+            <p>Tut mir es nach, wenns euch gefällt,</p>
+            <p>Und wenn ihr könnt!« Geh, brummt ein alter Bär,</p>
+            <p>Dergleichen Kunst, sie sei so schwer,</p>
+            <p>Sie sei so rar sie sei,</p>
+            <p>Zeigt deinen niedern Geist und deine Sklaverei.</p>
+            <p>*</p>
+            <p>Ein großer Hofmann sein,</p>
+            <p>Ein Mann, dem Schmeichelei und List</p>
+            <p>Statt Witz und Tugend ist;</p>
+            <p>Der durch Kabalen steigt, des Fürsten Gunst erstiehlt,</p>
+            <p>Mit Wort und Schwur als Komplimenten spielt,</p>
+            <p>Ein solcher Mann, ein großer Hofmann sein,</p>
+            <p>Schließt das Lob oder Tadel ein?</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72291" type="chapter">
+            <head>IV. Der Hirsch und der Fuchs</head>
+            <p>»Hirsch, wahrlich, das begreif' ich nicht,</p>
+            <p>Hört' ich den Fuchs zum Hirsche sagen,</p>
+            <p>Wie dir der Mut so sehr gebricht?</p>
+            <p>Der kleinste Windhund kann dich jagen.</p>
+            <p>Besieh dich doch, wie groß du bist!</p>
+            <p>Und sollt' es dir an Stärke fehlen?</p>
+            <p>Den größten Hund, so stark er ist,</p>
+            <p>Kann dein Geweih mit Einem Stoß' entseelen.</p>
+            <p>Uns Füchsen muß man wohl die Schwachheit übersehn;</p>
+            <p>Wir sind zu schwach zum Widerstehn.</p>
+            <p>Doch daß ein Hirsch nicht weichen muß,</p>
+            <p>Ist sonnenklar. Hör' meinen Schluß.</p>
+            <p>Ist jemand stärker, als sein Feind,</p>
+            <p>Der braucht sich nicht vor ihm zurück zu ziehen;</p>
+            <p>Du bist den Hunden nun weit überlegen, Freund:</p>
+            <p>Und folglich darfst du niemals fliehen.«</p>
+            <p>Gewiß, ich hab' es nie so reiflich überlegt.</p>
+            <p>Von nun an, sprach der Hirsch, sieht man mich unbewegt,</p>
+            <pb n="199" facs="#f0003"/>
+            <p>Wenn Hund' und Jäger auf mich fallen;</p>
+            <p>Nun widersteh' ich allen.</p>
+            <p>Zum Unglück, daß Dianens Schar</p>
+            <p>So nah mit ihren Hunden war.</p>
+            <p>Sie bellen, und sobald der Wald</p>
+            <p>Von ihrem Bellen widerschallt,</p>
+            <p>Fliehn schnell der schwache Fuchs und starke Hirsch davon.</p>
+            <p>*</p>
+            <p>Natur tut allzeit mehr, als Demonstration.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72397" type="chapter">
+            <head>V. Die Sonne</head>
+            <p>Der Stern, durch den es bei uns tagt -</p>
+            <p>»Ach! Dichter, lern', wie unser einer sprechen!</p>
+            <p>Muß man, wenn du erzählst,</p>
+            <p>Und uns mit albern Fabeln quälst,</p>
+            <p>Sich denkend noch den Kopf zerbrechen?«</p>
+            <p>Nun gut! die Sonne ward gefragt:</p>
+            <p>Ob sie es nicht verdrösse,</p>
+            <p>Daß ihre unermeßne Größe</p>
+            <p>Die durch den Schein betrogne Welt</p>
+            <p>Im Durchschnitt' größer kaum, als eine Spanne, hält?</p>
+            <p>Mich, spricht sie, sollte dieses kränken?</p>
+            <p>Wer ist die Welt? wer sind sie, die so denken?</p>
+            <p>Ein blind Gewürm! Genug, wenn jene Geister nur,</p>
+            <p>Die auf der Wahrheit dunkeln Spur,</p>
+            <p>Das Wesen von dem Scheine trennen,</p>
+            <p>Wenn diese mich nur besser kennen!</p>
+            <p>*</p>
+            <p>Ihr Dichter, welche Feur und Geist</p>
+            <p>Des Pöbels blödem Blick entreißt,</p>
+            <p>Lernt, will euch mißgeschätzt des Lesers Kaltsinn kränken,</p>
+            <p>Zufrieden mit euch selbst, stolz wie die Sonne denken!</p>
+            <pb n="200" facs="#f0004"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72485" type="chapter">
+            <head>VI. Das Muster der Ehen</head>
+            <p>Ein rares Beispiel will ich singen,</p>
+            <p>Wobei die Welt erstaunen wird.</p>
+            <p>Daß alle Ehen Zwietracht bringen,</p>
+            <p>Glaubt jeder, aber jeder irrt.</p>
+            <p>Ich sah das Muster aller Ehen,</p>
+            <p>Still, wie die stillste Sommernacht.</p>
+            <p>O! daß sie keiner möge sehen,</p>
+            <p>Der mich zum frechen Lügner macht!</p>
+            <p>Und gleichwohl war die Frau kein Engel,</p>
+            <p>Und der Gemahl kein Heiliger;</p>
+            <p>Es hatte jedes seine Mängel.</p>
+            <p>Denn niemand ist von allen leer.</p>
+            <p>Doch sollte mich ein Spötter fragen,</p>
+            <p>Wie diese Wunder möglich sind?</p>
+            <p>Der lasse sich zur Antwort sagen:</p>
+            <p>Der Mann war taub, die Frau war blind.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72555" type="chapter">
+            <head>VII. Faustin</head>
+            <p>Faustin, der ganze funfzehn Jahr</p>
+            <p>Entfernt von Haus und Hof und Weib und Kindern war,</p>
+            <p>Ward, von dem Wucher reich gemacht,</p>
+            <p>Auf seinem Schiffe heimgebracht.</p>
+            <p>»Gott, seufzt der redliche Faustin,</p>
+            <p>Als ihm die Vaterstadt in dunkler Fern erschien,</p>
+            <p>Gott, strafe mich nicht meiner Sünden,</p>
+            <p>Und gib mir nicht verdienten Lohn!</p>
+            <p>Laß, weil du gnädig bist, mich Tochter, Weib und Sohn</p>
+            <p>Gesund und fröhlich wieder finden.«</p>
+            <p>So seufzt Faustin, und Gott erhört den Sünder.</p>
+            <p>Er kam, und fand sein Haus in Überfluß und Ruh.</p>
+            <p>Er fand sein Weib und seine beiden Kinder,</p>
+            <p>Und - Segen Gottes! - zwei dazu.</p>
+            <pb n="201" facs="#f0005"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72614" type="chapter">
+            <head>VIII. Die eheliche Liebe</head>
+            <p>Klorinde starb; sechs Wochen drauf</p>
+            <p>Gab auch ihr Mann das Leben auf,</p>
+            <p>Und seine Seele nahm aus diesem Weltgetümmel</p>
+            <p>Den pfeilgeraden Weg zum Himmel.</p>
+            <p>»Herr Petrus, rief er, aufgemacht!«</p>
+            <p>»<hi rendition="#i">Wer da?</hi>« - »Ein wackrer Christ.« -</p>
+            <p>»<hi rendition="#i">Was für ein wackrer Christ?</hi>« -</p>
+            <p>»Der manche Nacht,</p>
+            <p>Seit dem die Schwindsucht ihn aufs Krankenbette brachte,</p>
+            <p>In Furcht, Gebet und Zittern wachte.</p>
+            <p>Macht bald!« - - Das Tor wird aufgetan.</p>
+            <p>»<hi rendition="#i">Ha! ha! Klorindens Mann!</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Mein Freund,</hi> spricht Petrus, <hi rendition="#i">nur herein;</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Noch wird bei Eurer Frau ein Plätzchen ledig sein</hi>.«</p>
+            <p>»Was? meine Frau im Himmel? wie?</p>
+            <p>Klorinden habt Ihr eingenommen?</p>
+            <p>Lebt wohl! habt Dank für Eure Müh'!</p>
+            <p>Ich will schon sonst wo unterkommen.«</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72698" type="chapter">
+            <head>IX. Die Bäre</head>
+            <p>Den Bären glückt' es, nun schon seit geraumer Zeit,</p>
+            <p>Mit Brummen, plumpem Ernst und stolzer Frömmigkeit,</p>
+            <p>Das Sittenrichteramt, bei allen schwächern Tieren,</p>
+            <p>Aus angemaßter Macht, gleich Wütrichen, zu führen.</p>
+            <p>Ein jedes furchte sich, und keines war so kühn,</p>
+            <p>Sich um die saure Pflicht nebst ihnen zu bemühn;</p>
+            <p>Bis endlich noch im Fuchs der Patriot erwachte,</p>
+            <p>Und hier und da ein Fuchs auf Sittensprüche dachte.</p>
+            <p>Nun sah man beide stets auf gleiche Zwecke sehn;</p>
+            <p>Und beide sah man doch verschiedne Wege gehn.</p>
+            <p>Die Bäre wollen nur durch Strenge heilig machen;</p>
+            <p>Die Füchse strafen auch, doch strafen sie mit Lachen.</p>
+            <p>Dort brauchet man nur Fluch, hier brauchet man nur Scherz;</p>
+            <p>Dort bessert man den Schein; hier bessert man das Herz.</p>
+            <pb n="202" facs="#f0006"/>
+            <p>Dort sieht man Düsternheit; hier sieht man Licht und Leben;</p>
+            <p>Dort nach der Heuchelei; hier nach der Tugend streben.</p>
+            <p>Du, der du weiter denkst, fragst du mich nicht geschwind:</p>
+            <p>Ob beide Teile wohl auch gute Freunde sind?</p>
+            <p>O wären sies! Welch Glück für Tugend, Witz und Sitten!</p>
+            <p>Doch nein, der arme Fuchs wird von dem Bär bestritten,</p>
+            <p>Und, trotz des guten Zwecks, von ihm in Bann getan.</p>
+            <p>Warum? der Fuchs greift selbst die Bäre tadelnd an.</p>
+            <p>*</p>
+            <p>Ich kann mich diesmal nicht bei der Moral verweilen;</p>
+            <p>Die fünfte Stunde schlägt; ich muß zum Schauplatz eilen.</p>
+            <p>Freund, leg die Predigt weg! Willst du nicht mit mir gehn?</p>
+            <p>
+               <hi rendition="#i">Was spielt man?</hi> Den Tartüff. <hi rendition="#i">Dies Schandstück sollt' ich sehn?</hi>
+            </p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72807" type="chapter">
+            <head>X. Der Löwe und die Mücke</head>
+            <p>Ein junger Held vom muntern Heere,</p>
+            <p>Das nur der Sonnenschein belebt,</p>
+            <p>Und das mit saugendem Gewehre</p>
+            <p>Nach Ruhm gestochner Beulen strebt,</p>
+            <p>Doch die man noch zum großen Glücke,</p>
+            <p>Durch zwei Paar Strümpfe hindern kann,</p>
+            <p>Der junge Held war eine Mücke.</p>
+            <p>Hört meines Helden Taten an!</p>
+            <p>Auf ihren Kreuz- und Ritterzügen</p>
+            <p>Fand sie, entfernt von ihrer Schar,</p>
+            <p>Im Schlummer einen Löwen liegen,</p>
+            <p>Der von der Jagd entkräftet war.</p>
+            <p>Seht, Schwestern, dort den Löwen schlafen,</p>
+            <p>Schrie sie die Schwestern gaukelnd an.</p>
+            <p>Jetzt will ich hin, und will ihn strafen.</p>
+            <p>Er soll mir bluten, der Tyrann!</p>
+            <p>Sie eilt, und mit verwegnem Sprunge</p>
+            <p>Setzt sie sich auf des Königs Schwanz.</p>
+            <p>Sie sticht, und flieht mit schnellem Schwunge,</p>
+            <pb n="203" facs="#f0007"/>
+            <p>Stolz auf den sauern Lorbeerkranz.</p>
+            <p>Der Löwe will sich nicht bewegen?</p>
+            <p>Wie? ist er tot? Das heiß ich Wut!</p>
+            <p>Zu mördrisch war der Mücke Degen:</p>
+            <p>Doch sagt, ob er nicht Wunder tut?</p>
+            <p>»lch bin es, die den Wald befreiet,</p>
+            <p>Wo seine Mordsucht sonst getobt.</p>
+            <p>Seht, Schwestern, den der Tiger scheuet,</p>
+            <p>Der stirbt! Mein Stachel sei gelobt!«</p>
+            <p>Die Schwestern jauchzen, voll Vergnügen,</p>
+            <p>Um ihre laute Siegerin.</p>
+            <p>Wie? Löwen, Löwen zu besiegen!</p>
+            <p>Wie, Schwester, kam dir das in Sinn?</p>
+            <p>»Ja, Schwestern, wagen muß man! wagen!</p>
+            <p>Ich hätt' es selber nicht gedacht.</p>
+            <p>Auf! lasset uns mehr Feinde schlagen.</p>
+            <p>Der Anfang ist zu schön gemacht.«</p>
+            <p>Doch unter diesen Siegesliedern,</p>
+            <p>Da jede von Triumphen sprach,</p>
+            <p>Erwacht der matte Löwe wieder,</p>
+            <p>Und eilt erquickt dem Raube nach.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e72958" type="chapter">
+            <head>XI. Das Kruzifix</head>
+            <p>Hans, spricht der Pater, du mußt laufen,</p>
+            <p>Uns in der nächsten Stadt ein Kruzifix zu kaufen.</p>
+            <p>Nimm Matzen mit, hier hast du Geld.</p>
+            <p>Du wirst wohl sehn, wie teuer man es hält.</p>
+            <p>Hans kömmt mit Matzen nach der Stadt.</p>
+            <p>Der erste Künstler war der beste.</p>
+            <p>»Herr, wenn Er Kruzifixe hat,</p>
+            <p>So laß' Er uns doch eins zum heil'gen Osterfeste.«</p>
+            <p>Der Künstler war ein schalkscher Mann,</p>
+            <p>Der gern der Einfalt lachte,</p>
+            <pb n="204" facs="#f0008"/>
+            <p>Und Dumme gern noch dümmer machte,</p>
+            <p>Und fing im Scherz zu fragen an:</p>
+            <p>»Was wollt ihr denn für eines?«</p>
+            <p>»Je nun, spricht Matz, ein wacker feines.</p>
+            <p>Wir werden sehn, was Ihr uns gebt.«</p>
+            <p>»<hi rendition="#i">Das glaub' ich wohl, allein das frag' ich nicht.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Ein totes, oder eins das lebt?</hi>«</p>
+            <p>Hans guckte Matzen und Matz Hansen ins Gesicht.</p>
+            <p>Sie öffneten das Maul, allein es redte nicht.</p>
+            <p>»<hi rendition="#i">Nun gebt mir doch Bericht.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Habt ihr den Pater nicht gefragt?</hi>«</p>
+            <p>»Mein Blut! spricht endlich Hans, der aus dem Traum erwachte,</p>
+            <p>Mein Blut! er hat uns nichts gesagt.</p>
+            <p>Weißt du es, Matz?« – »lch dachte;</p>
+            <p>Wenn du's nicht weißt; wie soll ich's wissen?«</p>
+            <p>»<hi rendition="#i">So werdet ihr den Weg noch einmal gehen müssen.</hi>«</p>
+            <p>»Das wollen wir wohl bleiben lassen.</p>
+            <p>Ja, wenn es nicht zur Frone wär.«</p>
+            <p>Sie denken lange hin und her,</p>
+            <p>Und wissen keinen Rat zu fassen.</p>
+            <p>Doch endlich fällt es Matzen ein:</p>
+            <p>»Je! Hans, sollt's nicht am besten sein,</p>
+            <p>Wir kauften eins das lebt? – Denn sieh,</p>
+            <p>Ist's ihm nicht recht, so macht's ja wenig Müh,</p>
+            <p>Wär's auch ein Ochs, es tot zu schlagen.«</p>
+            <p>»Nu ja, spricht Hans, das wollt' ich eben sagen:</p>
+            <p>So haben wir nicht viel zu wagen.«</p>
+            <p>*</p>
+            <p>Das war ein Argument, ihr Herren Theologen,</p>
+            <p>Das Hans und Matz ex tuto zogen.</p>
+            <pb n="205" facs="#f0009"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e73126" type="chapter">
+            <head>XII. Der Eremit</head>
+            <p>Im Walde nah bei einer Stadt,</p>
+            <p>Die man mir nicht genennet hat,</p>
+            <p>Ließ einst ein seltenes Gefieder,</p>
+            <p>Ein junger Eremit sich nieder.</p>
+            <p>»In einer Stadt, denkt Applikant,</p>
+            <p>Die man ihm nicht genannt?</p>
+            <p>Was muß er wohl für eine meinen?</p>
+            <p>Bei nahe sollte mir es scheinen,</p>
+            <p>Daß die, – nein die – gemeinet wär.«</p>
+            <p>Kurz Applikant denkt hin und her,</p>
+            <p>Und schließt, noch eh er mich gelesen,</p>
+            <p>Es sei gewiß Berlin gewesen.</p>
+            <p>»Berlin? Ja, ja, das sieht man bald;</p>
+            <p>Denn bei Berlin ist ja ein Wald.«</p>
+            <p>Der Schluß ist stark, bei meiner Ehre:</p>
+            <p>Ich dachte nicht, daß es so deutlich wäre.</p>
+            <p>Der Wald paßt herrlich auf Berlin,</p>
+            <p>Ohn' ihn beim Haar' herbei zu ziehn.</p>
+            <p>Und ob das übrige wird passen,</p>
+            <p>Will ich dem Leser überlassen.</p>
+            <p>Auf griechisch weiß ich, wie sie hieß;</p>
+            <p>Doch wer verstehts? Kerapolis.</p>
+            <p>Hier, nahe bei Kerapolis,</p>
+            <p>Wars, wo ein junger Eremite,</p>
+            <p>In einer kleinen leeren Hütte,</p>
+            <p>Im dicksten Wald sich niederließ.</p>
+            <p>Was je ein Eremit getan,</p>
+            <p>Fing er mit größtem Eifer an.</p>
+            <p>Er betete, er sang, er schrie,</p>
+            <p>Des Tags, des Nachts, und spät und früh.</p>
+            <p>Er aß kein Fleisch, er trank nicht Wein,</p>
+            <p>Ließ Wurzeln seine Nahrung sein,</p>
+            <pb n="206" facs="#f0010"/>
+            <p>Und seinen Trank das helle Wasser;</p>
+            <p>Bei allem Appetit kein Prasser.</p>
+            <p>Er geißelte sich bis aufs Blut,</p>
+            <p>Und wußte wie das Wachen tut.</p>
+            <p>Er fastete wohl ganze Tage,</p>
+            <p>Und blieb auf Einem Fuße stehn;</p>
+            <p>Und machte sich rechtschaffne Plage,</p>
+            <p>In Himmel mühsam einzugehn.</p>
+            <p>Was Wunder also, daß gar bald</p>
+            <p>Vom jungen Heiligen im Wald</p>
+            <p>Der Ruf bis in die Stadt erschallt?</p>
+            <p>Die erste, die aus dieser Stadt</p>
+            <p>Zu ihm die heil'ge Wallfahrt tat,</p>
+            <p>War ein betagtes Weib.</p>
+            <p>Auf Krücken, zitternd, kam sie an,</p>
+            <p>Und fand den wilden Gottesmann,</p>
+            <p>Der sie von weitem kommen sahe,</p>
+            <p>Dem hölzern Kreuze knieend nahe.</p>
+            <p>Je näher sie ihm kömmt, je mehr</p>
+            <p>Schlägt er die Brust, und weint, und winselt er,</p>
+            <p>Und wie es sich für einen Heil'gen schicket,</p>
+            <p>Erblickt sie nicht, ob er sie gleich erblicket.</p>
+            <p>Bis er zuletzt vom Knieen matt,</p>
+            <p>Und heiliger Verstellung satt,</p>
+            <p>Vom Fasten, Kreuz'gen, Klosterleben,</p>
+            <p>Marienbildern, Opfergeben,</p>
+            <p>Von Beichte, Salbung, Seelenmessen,</p>
+            <p>Ohn' das Vermächtnis zu vergessen,</p>
+            <p>Von Rosenkränzen mit ihr redte,</p>
+            <p>Und das so oratorisch sagt,</p>
+            <p>Daß sie erbärmlich weint und klagt,</p>
+            <p>Als ob er sie geprügelt hätte.</p>
+            <p>Zum Schluß bricht sie von seiner Hütte,</p>
+            <p>Wozu der saure Eremite</p>
+            <p>Mit Not ihr die Erlaubnis gab,</p>
+            <p>Sich einen heil'gen Splitter ab,</p>
+            <p>Den sie beküsset und belecket,</p>
+            <pb n="207" facs="#f0011"/>
+            <p>Und in den welken Busen stecket.</p>
+            <p>Mit diesem Schatz von Heiligkeit</p>
+            <p>Kehrt sie zurück begnadigt und erfreut,</p>
+            <p>Und läßt daheim die frömmsten Frauen</p>
+            <p>Ihn küssen, andre nur beschauen.</p>
+            <p>Sie ging zugleich von Haus zu Haus,</p>
+            <p>Und rief auf allen Gassen aus:</p>
+            <p>»Der ist verloren und verflucht,</p>
+            <p>Der unsern Eremiten nicht besucht!«</p>
+            <p>Und brachte hundert Gründe bei,</p>
+            <p>Warum es sonderlich den Weibern nützlich sei.</p>
+            <p>Ein altes Weib kann Eindruck machen;</p>
+            <p>Zum Weinen bei der Frau, und bei dem Mann zum Lachen.</p>
+            <p>Zwar ist der Satz nicht allgemein;</p>
+            <p>Auch Männer können Weiber sein.</p>
+            <p>Doch diesmal waren sie es nicht.</p>
+            <p>Die Weiber schienen nur erpicht,</p>
+            <p>Den teuern Waldseraph zu sehen.</p>
+            <p>Die Männer aber? – wehrtens nicht,</p>
+            <p>Und ließen ihre Weiber gehen.</p>
+            <p>Die Häßlichen und Schönen,</p>
+            <p>Die ältesten und jüngsten Frauen,</p>
+            <p>Das arme wie das reiche Weib, –</p>
+            <p>Kurz jede ging, sich zu erbauen,</p>
+            <p>Und jede fand erwünschten Zeitvertreib.</p>
+            <p>»Was? Zeitvertreib, wo man erbauen will?</p>
+            <p>Was soll der Widerspruch bedeuten?«</p>
+            <p>Ein Widerspruch? Das wäre viel!</p>
+            <p>»Er sprach ja sonst von lauter Seligkeiten!« –</p>
+            <p>O! davon sprach er noch, nur mit dem Unterscheide:</p>
+            <p>Mit Alten sprach er stets von Tod und Eitelkeit,</p>
+            <p>Mit Armen von des Himmels Freude,</p>
+            <p>Mit Häßlichen von Ehrbarkeit,</p>
+            <p>Nur mit den Schönen allezeit</p>
+            <p>Vom ersten jeder Christentriebe.</p>
+            <p>Was ist das? Wer mich fragt, kann der ein Christ wohl sein?</p>
+            <pb n="208" facs="#f0012"/>
+            <p>Denn jeder Christ kömmt damit überein,</p>
+            <p>Es sei die liebe Liebe.</p>
+            <p>Der Eremit war jung; das hab' ich schon gesagt.</p>
+            <p>Doch schön? Wer nach der Schönheit fragt,</p>
+            <p>Der mag ihn hier besehn.</p>
+            <p>Genug, den Weibern war er schön.</p>
+            <p>Ein starker, frischer, junger Kerl,</p>
+            <p>Nicht dicke wie ein Faß, nicht hager wie ein Querl –</p>
+            <p>»Nun, nun, aus seiner Kost ist jenes leicht zu schließen.«</p>
+            <p>Doch sollte man auch wissen,</p>
+            <p>Daß Gott dem, den er liebt,</p>
+            <p>Zu Steinen wohl Gedeihen gibt;</p>
+            <p>Und das ist doch kein fett Gerichte!</p>
+            <p>Ein bräunlich männliches Gesichte,</p>
+            <p>Nicht allzu klein, nicht allzu groß,</p>
+            <p>Das sich im dichten Barte schloß;</p>
+            <p>Die Blicke wild, doch sonder Anmut nicht;</p>
+            <p>Die Nase lang, wie man die Kaisernasen dicht't.</p>
+            <p>Das ungebundne Haar floß straubicht um das Haupt;</p>
+            <p>Und wesentlichre Schönheitsstücke</p>
+            <p>Hat der zerrißne Rock dem Blicke</p>
+            <p>Nicht ganz entdeckt, nicht ganz geraubt.</p>
+            <p>Der Waden nur noch zu gedenken:</p>
+            <p>Sie waren groß, und hart wie Stein.</p>
+            <p>Das sollen, wie man sagt, nicht schlimme Zeichen sein;</p>
+            <p>Allein den Grund wird man mir schenken.</p>
+            <p>Nun wahrlich, so ein Kerl kann Weiber lüstern machen.</p>
+            <p>Ich sag' es nicht für mich; es sind geschehne Sachen.</p>
+            <p>»Geschehne Sachen? was?</p>
+            <p>So ist man gar zur Tat gekommen?«</p>
+            <p>Mein lieber Simplex, fragt sich das?</p>
+            <p>Weswegen hätt' er denn die Predigt unternommen?</p>
+            <p>Die süße Lehre süßer Triebe?</p>
+            <p>Die Liebe heischet Gegenliebe,</p>
+            <p>Und wer ihr Priester ist, verdienet keinen Haß.</p>
+            <pb n="209" facs="#f0013"/>
+            <p>O Andacht, mußt du doch so manche Sünde decken!</p>
+            <p>Zwar die Moral ist hier zu scharf,</p>
+            <p>Weil mancher Mensch sich nicht bespiegeln darf,</p>
+            <p>Aus Furcht, er möchte vor sich selbst erschrecken.</p>
+            <p>Drum will ich nur mit meinen Lehren</p>
+            <p>Ganz still nach Hause wieder kehren.</p>
+            <p>Kömmt mir einmal der Einfall ein,</p>
+            <p>Und ein Verleger will für mich so gnädig sein,</p>
+            <p>Mich in groß Quart in Druck zu nehmen;</p>
+            <p>So könnt' ich mich vielleicht bequemen,</p>
+            <p>Mit hundert englischen Moralen,</p>
+            <p>Die ich im Laden sah, zu prahlen,</p>
+            <p>Exempelschätze, Sittenrichter,</p>
+            <p>Die alten und die neuen Dichter</p>
+            <p>Mit witz'gen Fingern nachzuschlagen,</p>
+            <p>Und was die sagen, und nicht sagen,</p>
+            <p>In einer Note abzuschreiben.</p>
+            <p>Bringt, sag' ich noch einmal, man mich gedruckt an Tag;</p>
+            <p>Denn in der Handschrift laß ich's bleiben,</p>
+            <p>Weil ich mich nicht belügen mag.</p>
+            <p>Ich fahr' in der Erzählung fort –</p>
+            <p>Doch möcht' ich in der Tat gestehn,</p>
+            <p>Ich hätte manchmal mögen sehn,</p>
+            <p>Was die und die, die an den Wallfahrtsort</p>
+            <p>Mit heiligen Gedanken kam,</p>
+            <p>Für fremde Mienen an sich nahm,</p>
+            <p>Wenn der verwegne Eremit,</p>
+            <p>Fein listig. Schritt vor Schritt,</p>
+            <p>Vom Geist aufs Fleisch zu reden kam.</p>
+            <p>Ich zweifle nicht, daß die verletzte Scham</p>
+            <p>Den Zorn nicht ins Gesicht getrieben,</p>
+            <p>Daß Mund und Hand nicht in Bewegung kam,</p>
+            <p>Weil beide die Bewegung lieben;</p>
+            <p>Allein, daß die Versöhnung ausgeblieben,</p>
+            <p>Glaub' ich, und wer die Weiber kennt,</p>
+            <p>Nicht eher, als kein Stroh mehr brennt.</p>
+            <p>Denn wird doch wohl ein Löwe zahm.</p>
+            <pb n="210" facs="#f0014"/>
+            <p>Und eine Frau ist ohnedem ein Lamm.</p>
+            <p>»Ein Lamm? du magst die Weiber kennen.«</p>
+            <p>Je nun, man kann sie doch in so weit Lämmer nennen,</p>
+            <p>Als sie von selbst ins Feuer rennen.</p>
+            <p>»Fährst du in der Erzählung fort?</p>
+            <p>Und bleibst mit deinem Kritisieren</p>
+            <p>Doch ewig an demselben Ort?«</p>
+            <p>So kann das Nützliche den Dichter auch verführen.</p>
+            <p>Nun gut, ich fahre fort,</p>
+            <p>Und sag', um wirklich fort zu fahren,</p>
+            <p>Daß nach fünf Vierteljahren</p>
+            <p>Die Schelmereien ruchbar waren.</p>
+            <p>»Erst nach fünf Vierteljahren? Nu;</p>
+            <p>Der Eremit hat wacker ausgehalten.</p>
+            <p>So viel trau ich mir doch nicht zu;</p>
+            <p>Ich möchte nicht sein Amt ein Vierteljahr verwalten.</p>
+            <p>Allein, wie ward es ewig kund?</p>
+            <p>Hat es ein schlauer Mann erfahren?</p>
+            <p>Verriet es einer Frau waschhafter Mund?</p>
+            <p>Wie? oder daß den Hochverrat</p>
+            <p>Ein alt neugierig Weib, aus Neid, begangen hat?«</p>
+            <p>O nein; hier muß man besser raten,</p>
+            <p>Zwei muntre Mädchen hatten Schuld,</p>
+            <p>Die voller frommen Ungeduld</p>
+            <p>Das taten, was die Mütter taten;</p>
+            <p>Und dennoch wollten sich die Mütter nicht bequemen,</p>
+            <p>Die guten Kinder mit zu nehmen.</p>
+            <p>»Sie merkten also wohl den Braten?« –</p>
+            <p>Und haben ihn gar dem Papa verraten.</p>
+            <p>»Die Töchter sagtens dem Papa?</p>
+            <p>Wo blieb die Liebe zur Mama?«</p>
+            <p>O! die kann nichts darunter leiden;</p>
+            <p>Denn wenn ein Mädchen auch die Mutter liebt,</p>
+            <p>Daß es der Mutter in der Not</p>
+            <p>Den letzten Bissen Brot</p>
+            <p>Aus seinem Munde gibt;</p>
+            <p>So kann das Mädchen doch die Mutter hier beneiden,</p>
+            <pb n="211" facs="#f0015"/>
+            <p>Hier, wo so Lieb' als Klugheit spricht:</p>
+            <p>Ihr Schönen, trotz der Kinderpflicht,</p>
+            <p>Vergeßt euch selber nicht!</p>
+            <p>Kurz, durch die Mädchen kams ans Licht,</p>
+            <p>Daß er, der Eremit, beinah die ganze Stadt</p>
+            <p>Zu Schwägern oder Kindern hat.</p>
+            <p>O! der verfluchte Schelm! Wer hätte das gedacht!</p>
+            <p>Die ganze Stadt ward aufgebracht,</p>
+            <p>Und jeder Ehmann schwur, daß in der ersten Nacht,</p>
+            <p>Er und sein Mitgenoß der Hain,</p>
+            <p>Des Feuers Beute müsse sein.</p>
+            <p>Schon rotteten sich ganze Scharen,</p>
+            <p>Die zu der Rache fertig waren.</p>
+            <p>Doch ein hochweiser Magistrat</p>
+            <p>Besetzt das Tor, und sperrt die Stadt,</p>
+            <p>Der Eigenrache vorzukommen,</p>
+            <p>Und schicket alsobald</p>
+            <p>Die Schergen in den Wald,</p>
+            <p>Die ihn vom Kreuze weg, und in Verhaft genommen.</p>
+            <p>Man redte schon von Galgen und von Rad,</p>
+            <p>So sehr schien sein Verbrechen häßlich;</p>
+            <p>Und keine Strafe war so gräßlich,</p>
+            <p>Die, wie man sagt, er nicht verdienet hat.</p>
+            <p>Und nur ein Hagestolz, ein schlauer Advokat,</p>
+            <p>Sprach: »o! dem kömmt man nicht ans Leben,</p>
+            <p>Der es Unzählichen zu geben,</p>
+            <p>So rühmlich sich beflissen hat.«</p>
+            <p>Der Eremite, der die Nacht</p>
+            <p>Im Kerker ungewiß und sorgend durchgewacht,</p>
+            <p>Ward morgen ins Verhör gebracht.</p>
+            <p>Der Richter war ein schalkscher Mann,</p>
+            <p>Der jeden mit Vergnügen schraubte,</p>
+            <p>Und doch – (wie man sich irren kann!)</p>
+            <p>Von seiner Frau das Beste glaubte.</p>
+            <p>»Sie ist ein Ausbund aller Frommen,</p>
+            <p>Und nur einmal in Wald gekommen,</p>
+            <pb n="212" facs="#f0016"/>
+            <p>Den Pater Eremit zu sehn.</p>
+            <p>Einmal! Was kann da viel geschehn?«</p>
+            <p>So denkt der gütige Herr Richter.</p>
+            <p>Denk' immer so, zu deiner Ruh,</p>
+            <p>Lacht gleich die Wahrheit und der Dichter,</p>
+            <p>Und deine fromme Frau dazu.</p>
+            <p>Nun tritt der Eremit vor ihn.</p>
+            <p>»Mein Freund, wollt Ihr von selbst die nennen,</p>
+            <p>Die – die Ihr kennt, und die Euch kennen:</p>
+            <p>So könnt Ihr der Tortur entfliehn.</p>
+            <p>Doch« – »<hi rendition="#i">Darum laß ich mich nicht plagen.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Ich will sie alle sagen.</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Herr Richter, schreib' Er nur!</hi>« Und wie?</p>
+            <p>Der Eremit entdecket sie?</p>
+            <p>Ein Eremite kann nicht schweigen?</p>
+            <p>Sonst ist das Plaudern nur den Stutzern eigen.</p>
+            <p>Der Richter schrieb. »<hi rendition="#i">Die erste war</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Kamilla</hi>« – »Wer? Kamilla?« »<hi rendition="#i">Ja fürwahr!</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Die andern sind: Sophia, Laura, Doris,</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Angelika, Korinna, Chloris</hi>« –</p>
+            <p>»Der Henker mag sie alle fassen,</p>
+            <p>Gemach! und eine nach der andern fein!</p>
+            <p>Denn eine nur vorbei zu lassen« –</p>
+            <p>Wird wohl kein großer Schade sein,</p>
+            <p>Fiel jeder Ratsherr ihm ins Wort.</p>
+            <p>»Hört, schrieen sie, erzählt nur fort!«</p>
+            <p>Weil jeder Ratsherr in Gefahr,</p>
+            <p>Sein eigen Weib zu hören war.</p>
+            <p>»Ihr Herren, schrie der Richter, nein!</p>
+            <p>Die Wahrheit muß am Tage sein;</p>
+            <p>Was können wir sonst für ein Urteil fassen?«</p>
+            <p>Ihn, schrieen alle, gehn zu lassen.</p>
+            <p>»Nein, die Gerechtigkeit« – und kurz der Delinquent</p>
+            <p>Hat jede noch einmal genennt,</p>
+            <p>Und jeder hing der Richter dann</p>
+            <p>Ein loses Wort für ihren Hahnrei an.</p>
+            <p>Das Hundert war schon mehr als voll;</p>
+            <pb n="213" facs="#f0017"/>
+            <p>Der Eremit, der mehr gestehen soll,</p>
+            <p>Stockt, weigert sich, scheut sich zu sprechen –</p>
+            <p>»Nu, nu, nur fort! was zwingt Euch wohl,</p>
+            <p>So unvermutet abzubrechen?«</p>
+            <p>»<hi rendition="#i">Das sind sie alle!</hi>« »Seid Ihr toll?</p>
+            <p>Ein Held wie Ihr! Gestehet nur, gesteht!</p>
+            <p>Die letzten waren, wie Ihr seht:</p>
+            <p>Klara, Pulcheria, Susanne,</p>
+            <p>Charlotte, Mariane, Hanne.</p>
+            <p>Denkt nach! ich laß Euch Zeit dazu!«</p>
+            <p>»<hi rendition="#i">Das sind sie wirklich alle!</hi>« »Nu –</p>
+            <p>Macht, eh wir schärfer in Euch dringen!«</p>
+            <p>»<hi rendition="#i">Nein keine mehr; ich weiß genau</hi>« –</p>
+            <p>»Ha! ha! ich seh, man soll Euch zwingen« – –</p>
+            <p>»<hi rendition="#i">Nun gut, Herr Richter, – Seine Frau</hi>« –</p>
+            <p>*</p>
+            <p>Daß man von der Erzählung nicht</p>
+            <p>Als einem Weibermärchen spricht,</p>
+            <p>So mach' ich sie zum Lehrgedicht,</p>
+            <p>Durch beigefügten Unterricht:</p>
+            <p>Wer seines Nächsten Schande sucht,</p>
+            <p>Wird selber seine Schande finden!</p>
+            <p>Nicht wahr, so liest man mich mit Frucht?</p>
+            <p>Und ich erzähle sonder Sünden?</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e74200" type="chapter">
+            <head>XIII. Die Brille</head>
+            <p>Dem alten Freiherrn von Chrysant,</p>
+            <p>Wagts Amor, einen Streich zu spielen.</p>
+            <p>Für einen Hagestolz bekannt,</p>
+            <p>Fing, um die Sechzig, er sich wieder an zu fühlen.</p>
+            <p>Es flatterte, von Alt und Jung begafft,</p>
+            <p>Mit Reizen ganz besondrer Kraft,</p>
+            <p>Ein Bürgermädchen in der Nachbarschaft.</p>
+            <p>Dies Bürgermädchen hieß Finette.</p>
+            <pb n="214" facs="#f0018"/>
+            <p>Finette ward des Freiherrn Siegerin.</p>
+            <p>Ihr Bild stand mit ihm auf, und ging mit ihm zu Bette.</p>
+            <p>Da dacht' in seinem Sinn</p>
+            <p>Der Freiherr: »Und warum denn nur ihr Bild?</p>
+            <p>Ihr Bild, das zwar den Kopf, doch nicht die Arme füllt?</p>
+            <p>Sie selbst steh' mit mir auf, und geh' mit mir zu Bette.</p>
+            <p>Sie werde meine Frau! Es schelte, wer da schilt;</p>
+            <p>Genäd'ge Tant' und Nicht' und Schwägerin!</p>
+            <p>Finett' ist meine Frau, und - ihre Dienerin.«</p>
+            <p>Schon so gewiß? Man wird es hören.</p>
+            <p>Der Freiherr kömmt, sich zu erklären,</p>
+            <p>Ergreift das Mädchen bei der Hand,</p>
+            <p>Tut, wie ein Freiherr, ganz bekannt,</p>
+            <p>Und spricht: »Ich, Freiherr von Chrysant,</p>
+            <p>Ich habe Sie, mein Kind, zu meiner Frau ersehen.</p>
+            <p>Sie wird sich hoffentlich nicht selbst im Lichte stehen.</p>
+            <p>Ich habe Guts die Hüll' und Fülle.«</p>
+            <p>Und hierauf las er ihr, durch eine große Brille</p>
+            <p>Von einem großen Zettel ab,</p>
+            <p>Wie viel ihm Gott an Gütern gab;</p>
+            <p>Wie reich er sie beschenken wolle;</p>
+            <p>Welch großen Witwenschatz sie einmal haben solle.</p>
+            <p>Dies alles las der reiche Mann</p>
+            <p>Ihr von dem Zettel ab, und guckte durch die Brille</p>
+            <p>Bei jedem Punkte sie begierig an.</p>
+            <p>»Nun, Kind, was ist Ihr Wille?«</p>
+            <p>Mit diesen Worten schwieg der Freiherr stille,</p>
+            <p>Und nahm mit diesen Worten seine Brille -</p>
+            <p>(Denn, dacht' er, wird das Mädchen nun</p>
+            <p>So wie ein kluges Mädchen tun;</p>
+            <p>Wird mich und sie ihr schnelles Ja beglücken;</p>
+            <p>Werd' ich den ersten Kuß auf ihre Lippen drücken:</p>
+            <p>So könnt' ich, im Entzücken,</p>
+            <p>Die teure Brille leicht zerknicken!) -</p>
+            <p>Die teure Brille wohlbedächtig ab.</p>
+            <pb n="215" facs="#f0019"/>
+            <p>Finette, der dies Zeit sich zu bedenken gab,</p>
+            <p>Bedachte sich, und sprach nach reiflichem Bedenken:</p>
+            <p>»Sie sprechen, gnäd'ger Herr, vom Freien und vom Schenken:</p>
+            <p>Ach! gnäd'ger Herr, das alles wär' sehr schön!</p>
+            <p>Ich würd' in Sammt und Seide gehn -</p>
+            <p>Was gehn? Ich würde nicht mehr gehn;</p>
+            <p>Ich würde stolz mit Sechsen fahren.</p>
+            <p>Mir würden ganze Scharen</p>
+            <p>Von Dienern zu Gebote stehn.</p>
+            <p>Ach! wie gesagt, das alles wär' sehr schön,</p>
+            <p>Wenn ich - wenn ich - -«</p>
+            <p>»<hi rendition="#i">Ein Wenn? Ich will doch sehn,</hi>
+            </p>
+            <p>(Hier sahe man den alten Herrn sich blähn,)</p>
+            <p>
+               <hi rendition="#i">Was für ein Wenn mir kann im Wege stehn!</hi>«</p>
+            <p>»Wenn ich nur nicht verschworen hätte - -«</p>
+            <p>»Verschworen? was? Finette,</p>
+            <p>Verschworen nicht zu frein? -</p>
+            <p>O Grille, rief der Freiherr, Grille!«</p>
+            <p>Und griff nach seiner Brille,</p>
+            <p>Und nahm das Mädchen durch die Brille</p>
+            <p>Nochmals in Augenschein,</p>
+            <p>Und rief beständig: »Grille! Grille!</p>
+            <p>Verschworen nicht zu frein!«</p>
+            <p>»Behüte!« sprach Finette,</p>
+            <p>»Verschworen nur mir keinen Mann zu frein,</p>
+            <p>Der so, wie Ihre Gnaden pflegt,</p>
+            <p>Die Augen in der Tasche trägt!«</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e74454" type="chapter">
+            <head>XIV. Nix Bodenstrom</head>
+            <p>Nix Bodenstrom, ein Schiffer, nahm -</p>
+            <p>War es in Hamburg oder Amsterdam,</p>
+            <p>Daran ist wenig oder nichts gelegen -</p>
+            <p>Ein junges Weib.</p>
+            <p>»Das ist auch sehr verwegen,</p>
+            <pb n="216" facs="#f0020"/>
+            <p>Freund!« sprach ein Kaufherr, den zum Hochzeitschmause</p>
+            <p>Der Schiffer bat. »Du bist so lang' und oft von Hause;</p>
+            <p>Dein Weibchen bleibt indes allein:</p>
+            <p>Und dennoch - willst du mit Gewalt denn Hahnrei sein?</p>
+            <p>Indes, daß du zur See dein Leben wagst,</p>
+            <p>Indes, daß du in Surinam, am Amazonenflusse,</p>
+            <p>Dich bei den Hottentotten, Kannibalen plagst:</p>
+            <p>Indes wird sie - -«</p>
+            <p>»<hi rendition="#i">Mit Eurem schönen Schlusse!</hi>«</p>
+            <p>Versetzte Nix. »<hi rendition="#i">Indes, indes! Ei nun!</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Das nämliche kann Euer Weibchen tun -</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Denn, Herr, was brauchts dazu für Zeit? -</hi>
+            </p>
+            <p>
+               <hi rendition="#i">Indes ihr auf der Börse seid</hi>.«</p>
+            <pb n="217" facs="#f0021"/>
+         </div>
+      </body>
+   </text>
+</TEI>

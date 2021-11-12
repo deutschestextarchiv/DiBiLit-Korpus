@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Regeln für Schauspieler</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118540238">
+                  <forename>Johann Wolfgang</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Goethe</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:10Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004855973</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Goethe, Johann Wolfgang/Theoretische Schriften/Regeln für Schauspieler</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/11gm9.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0006-6723-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Johann Wolfgang von Goethe: Berliner Ausgabe. Kunsttheoretische Schriften und Übersetzungen [Band 17–22], Band 17, Berlin 1960 ff</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Kunsttheoretische Schriften und Übersetzungen</title>
+                  <title level="m" type="volume">1: Aufsätze zu Schauspielkunst und Musik. Aufsätze zur
+      deutschen Literatur </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">105 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Aufbau Verlag</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1970</date>
+                  <date type="firstPublication">1832</date>
+                  <date type="firstPublication" subtype="clariah">1832</date>
+                  <date type="firstPublication" subtype="zeno">1832</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="s" type="main">Berliner Ausgabe</title>
+                  <title level="s" type="volume">Band 17</title>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Goethe-Johann-W-d1e342174">Entstanden 1803, Erstdruck in: Werke, Ausgabe letzter Hand, Stuttgart (Cotta), 1832.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Theoretische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theorie</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Johann Wolfgang Goethe</p>
+            <p rend="h2">Regeln für Schauspieler</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Goethe-Johann-W-d1e342174">
+            <p>
+               <pb n="82" facs="#f0001"/>
+Die Kunst des Schauspielers besteht in Sprache und Körperbewegung. Über beides wollen wir in nachfolgenden Paragraphen einige Regeln und Andeutungen geben, indem wir zunächst mit der Sprache den Anfang machen.</p>
+            <p>Dialekt</p>
+            <p>§ 1</p>
+            <p>Wenn mitten in einer tragischen Rede sich ein Provinzialismus eindrängt, so wird die schönste Dichtung verunstaltet und das Gehör des Zuschauers beleidigt. Daher ist <pb n="83" facs="#f0002"/>
+das Erste und Notwendigste für den sich bildenden Schauspieler, daß er sich von allen Fehlern des Dialekts befreie und eine vollständige reine Aussprache zu erlangen suche. Kein Provinzialismus taugt auf die Bühne! Dort herrsche nur die reine deutsche Mundart, wie sie durch Geschmack, Kunst und Wissenschaft ausgebildet und verfeinert worden.</p>
+            <p>§ 2</p>
+            <p>Wer mit Angewohnheiten des Dialekts zu kämpfen hat, halte sich an die allgemeinen Regeln der deutschen Sprache und suche das neu Anzuübende recht scharf, ja schärfer auszusprechen, als es eigentlich sein soll. Selbst Übertreibungen sind in diesem Falle zu raten, ohne Gefahr eines Nachteils; denn es ist der menschlichen Natur eigen, daß sie immer gern zu ihren alten Gewohnheiten zurückkehrt und das übertriebene von selbst ausgleicht.</p>
+            <p>Aussprache</p>
+            <p>§ 3</p>
+            <p>So wie in der Musik das richtige, genaue und reine Treffen jedes einzelnen Tones der Grund alles weiteren künstlerischen Vortrages ist, so ist auch in der Schauspielkunst der Grund aller höheren Rezitation und Deklamation die reine und vollständige Aussprache jedes einzelnen Worts.</p>
+            <p>§ 4</p>
+            <p>
+               <hi rendition="#i">Vollständig</hi> aber ist die Aussprache, wenn kein Buchstabe eines Wortes unterdrückt wird, sondern wo alle nach ihrem wahren Werte hervorkommen.</p>
+            <p>§ 5</p>
+            <p>
+               <hi rendition="#i">Rein</hi> ist sie, wenn alle Wörter so gesagt werden, daß der Sinn leicht und bestimmt den Zuhörer ergreife.</p>
+            <p>Beides verbunden macht die Aussprache vollkommen.</p>
+            <p>
+               <pb n="84" facs="#f0003"/>
+§ 6</p>
+            <p>Eine solche suche sich der Schauspieler anzueignen, indem er wohl beherzige, wie ein verschluckter Buchstabe oder ein undeutlich ausgesprochenes Wort oft den ganzen Satz zweideutig macht, wodurch denn das Publikum aus der Täuschung gerissen und oft, selbst in den ernsthaftesten Szenen, zum Lachen gereizt wird.</p>
+            <p>§ 7</p>
+            <p>Bei den Wörtern, welche sich auf <hi rendition="#i">em</hi> und <hi rendition="#i">en</hi> endigen, muß man darauf achten, die letzte Silbe deutlich auszusprechen; denn sonst geht die Silbe verloren, indem man das e gar nicht mehr hört.</p>
+            <p rendition="#et">Zum Beispiel:</p>
+            <p>folgendem, nicht folgend'm.</p>
+            <p>hörendem, nicht hörend'm etc.</p>
+            <p>§ 8</p>
+            <p>Ebenso muß man sich bei dem Buchstaben b in acht nehmen, welcher sehr leicht mit w verwechselt wird, wodurch der ganze Sinn der Rede verdorben und unverständlich gemacht werden kann.</p>
+            <p rendition="#et">Zum Beispiel: Leben um Leben, nicht Lewen um Lewen.</p>
+            <p>§ 9</p>
+            <p>So auch das p und b, das t und d muß merklich unterschieden werden. Daher soll der Anfänger bei beiden einen großen Unterschied machen und p und t stärker aussprechen, als es eigentlich sein darf, besonders wenn er vermöge seines Dialekts sich leicht zum Gegenteil neigen sollte.</p>
+            <p>§ 10</p>
+            <p>Wenn zwei gleichlautende Konsonanten aufeinanderfolgen, indem das eine Wort mit demselben Buchstaben sich endigt, womit das andere anfängt, so muß etwas abgesetzt <pb n="85" facs="#f0004"/>
+werden, um beide Wörter wohl zu unterscheiden. Zum Beispiel:</p>
+            <p>Schließt sie blühend den Kreis des Schönen.</p>
+            <p>Zwischen <hi rendition="#i">blühend</hi> und <hi rendition="#i">den</hi> muß etwas abgesetzt werden.</p>
+            <p>§ 11</p>
+            <p>Alle Endsilben und Endbuchstaben hüte man sich besonders, undeutlich auszusprechen; vorzüglich ist diese Regel bei m, n und s zu merken, weil diese Buchstaben die Endungen bezeichnen, welche das Hauptwort regieren, folglich das Verhältnis anzeigen, in welchem das Hauptwort zu dem übrigen Satze steht, und mithin durch sie der eigentliche Sinn des Satzes bestimmt wird.</p>
+            <p>§ 12</p>
+            <p>Rein und deutlich ferner spreche man die <hi rendition="#i">Haupwörter, Eigennamen</hi> und <hi rendition="#i">Bindewörter</hi> aus. Zum Beispiel in dem Verse:</p>
+            <p>Aber mich schreckt die Eumenide,</p>
+            <p>Die Beschirmerin dieses Orts.</p>
+            <p>Hier kommt der Eigenname <hi rendition="#i">Eumenide</hi> und das in diesem Fall sehr bedeutende Hauptwort <hi rendition="#i">Beschirmerin</hi> vor. Daher müssen beide mit besonderer Deutlichkeit ausgesprochen werden.</p>
+            <p>§ 13</p>
+            <p>Auf die <hi rendition="#i">Eigennamen</hi> muß im allgemeinen ein stärkerer Ausdruck in der Aussprache gelegt werden als gewöhnlich, weil so ein Name dem Zuhörer besonders auffallen soll. Denn sehr oft ist es der Fall, daß von einer Person schon im ersten Akte gesprochen wird, welche erst im dritten und oft noch später vorkommt. Das Publikum soll nun darauf aufmerksam gemacht werden, und wie kann das anders geschehen als durch deutliche energische Aussprache?</p>
+            <p>
+               <pb n="86" facs="#f0005"/>
+§ 14</p>
+            <p>Um es in der Aussprache zur Vollkommenheit zu bringen, soll der Anfänger alles sehr langsam, die Silben und besonders die Endsilben stark und deutlich aussprechen, damit die Silben, welche geschwind gesprochen werden müssen, nicht unverständlich werden.</p>
+            <p>§ 15</p>
+            <p>Zugleich ist zu raten, im Anfange so tief zu sprechen, als man es zu tun imstande ist, und dann abwechselnd immer im Ton zu steigen; denn dadurch bekommt die Stimme einen großen Umfang und wird zu den verschiedenen Modulationen gebildet, deren man in der Deklamation bedarf.</p>
+            <p>§ 16</p>
+            <p>Es ist daher auch sehr gut, wenn man alle Silben, sie seien lang oder kurz, anfangs lang und in so tiefem Tone spricht, als es die Stimme erlaubt, weil man sonst gewöhnlich durch das Schnellsprechen den Ausdruck hernach nur auf die Zeitwörter legt.</p>
+            <p>§ 17</p>
+            <p>Das falsche oder unrichtige Auswendiglernen ist bei vielen Schauspielern Ursache einer falschen und unrichtigen Aussprache. Bevor man also seinem Gedächtnis etwas anvertrauen will, lese man langsam und wohlbedächtig das zum Auswendiglernen Bestimmte. Man vermeide dabei alle Leidenschaft, alle Deklamation, alles Spiel der Einbildungskraft; dagegen bemühe man sich nur, richtig zu lesen und darnach genau zu lernen, so wird mancher Fehler vermieden werden, sowohl des Dialekts als der Aussprache.</p>
+            <p>Rezitation und Deklamation</p>
+            <p>§ 18</p>
+            <p>Unter <hi rendition="#i">Rezitation</hi> wird ein solcher Vortrag verstanden, wie er ohne leidenschaftliche Tonerhebung, doch auch nicht ganz ohne Tonveränderung zwischen der kalten<pb n="87" facs="#f0006"/>
+ ruhigen und der höchst aufgeregten Sprache in der Mitte liegt.</p>
+            <p rendition="#et">Der Zuhörer fühle immer, daß hier von einem dritten Objekte die Rede sei.</p>
+            <p>§ 19</p>
+            <p>Es wird daher gefordert, daß man auf die zu rezitierenden Stellen zwar den angemessenen Ausdruck lege und sie mit der Empfindung und dem Gefühl vortrage, welche das Gedicht durch seinen Inhalt dem Leser einflößt, jedoch soll dieses mit Mäßigung und ohne jene leidenschaftliche Selbstentäußerung geschehen, die bei der Deklamation erfordert wird. Der Rezitierende folgt zwar mit der Stimme den Ideen des Dichters und dem Eindruck, der durch den sanften oder schrecklichen, angenehmen oder unangenehmen Gegenstand auf ihn gemacht wird; er legt auf das Schauerliche den schauerlichen, auf das Zärtliche den zärtlichen, auf das Feierliche den feierlichen Ton, aber dieses sind bloß Folgen und Wirkungen des Eindrucks, welchen der Gegenstand auf den Rezitierenden macht; er ändert dadurch seinen eigentümlichen Charakter nicht, er verleugnet sein Naturell, seine Individualität dadurch nicht und ist mit einem Fortepiano zu vergleichen, auf welchem ich in seinem natürlichen, durch die Bauart erhaltenen Tone spiele. Die Passage, welche ich vortrage, zwingt mich durch ihre Komposition zwar, das forte oder piano, dolce oder furioso zu beobachten, dieses geschieht aber, ohne daß ich mich der <hi rendition="#i">Mutation</hi> bediene, welche das Instrument besitzt, sondern es ist bloß der Übergang der Seele in die Finger, welche durch ihr Nachgeben, stärkeres oder schwächeres Aufdrücken und Berühren der Tasten den Geist der Komposition in die Passage legen und dadurch die Empfindungen erregen, welche durch ihren Inhalt hervorgebracht werden können.</p>
+            <p>§ 20</p>
+            <p>Ganz anders aber ist es bei der <hi rendition="#i">Deklamation</hi> oder gesteigerten Rezitation. Hier muß ich meinen angebornen Charakter <pb n="88" facs="#f0007"/>
+verlassen, mein Naturell verleugnen und mich ganz in die Lage und Stimmung desjenigen versetzen, dessen Rolle ich deklamiere. Die Worte, welche ich ausspreche, müssen mit Energie und dem lebendigsten Ausdruck hervorgebracht werden, so daß ich jede leidenschaftliche Regung als wirklich gegenwärtig mitzuempfinden scheine.</p>
+            <p rendition="#et">Hier bedient sich der Spieler auf dem Fortepiano der Dämpfung und aller Mutationen, welche das Instrument besitzt. Werden sie mit Geschmack, jedes an seiner Stelle, gehörig benutzt und hat der Spieler zuvor mit Geist und Fleiß die Anwendung und den Effekt, welchen man durch sie hervorbringen kann, studiert, so kann er auch der schönsten und vollkommensten Wirkung gewiß sein.</p>
+            <p>§ 21</p>
+            <p>Man könnte die Deklamierkunst eine prosaische Tonkunst nennen, wie sie denn überhaupt mit der Musik sehr viel Analoges hat. Nur muß man unterscheiden, daß die Musik, <hi rendition="#i">ihren selbsteignen Zwecken gemäß,</hi> sich mit mehr Freiheit bewegt, die Deklamierkunst aber im Umfang ihrer Töne weit beschränkter und<hi rendition="#i"> einem fremden Zwecke unterworfen</hi> ist. Auf diesen Grundsatz muß der Deklamierende immer die strengste Rücksicht nehmen. Denn wechselt er die Töne zu schnell, spricht er entweder zu tief oder zu hoch oder durch zu viele Halbtöne, so kommt er in das <hi rendition="#i">Singen;</hi> im entgegengesetzten Fall aber gerät er in <hi rendition="#i">Monotonie,</hi> die selbst in der einfachen Rezitation fehlerhaft ist – zwei Klippen, eine so gefährlich wie die andere, zwischen denen noch eine dritte verborgen liegt, nämlich der <hi rendition="#i">Predigerton.</hi> Leicht, indem man der einen oder anderen Gefahr ausweicht, scheitert man an dieser.</p>
+            <p>§ 22</p>
+            <p>Um nun eine richtige Deklamation zu erlangen, beherzige man folgende Regeln:</p>
+            <p rendition="#et">Wenn ich zunächst den Sinn der Worte ganz verstehe und vollkommen innehabe, so muß ich suchen, solche mit dem <pb n="89" facs="#f0008"/>
+gehörigen Ton der Stimme zu begleiten und sie mit der Kraft oder Schwäche so geschwind oder langsam aussprechen, wie es der Sinn jedes Satzes selbst verlangt. Zum Beispiel:</p>
+            <p>gesprochen werden.</p>
+            <p>§ 23</p>
+            <p>So muß bei folgender Stelle:</p>
+            <p>Schnell von dem Roß herab mich werfend,</p>
+            <p>Dring ich ihm nach etc.</p>
+            <p>ein anderes, viel schnelleres Tempo gewählt werden als bei dem vorigen Satz; denn der Inhalt der Worte verlangt es schon selbst.</p>
+            <p>§ 24</p>
+            <p>Wenn Stellen vorkommen, die durch andere unterbrochen werden, als wenn sie durch Einschließungszeichen abgesondert wären, so muß vor- und nachher ein wenig abgesetzt und der Ton, welcher durch die Zwischenrede unterbrochen worden, hernach wieder fortgesetzt werden. Zum Beispiel:</p>
+            <p>Und dennoch ist's der erste Kinderstreit,</p>
+            <p>Der, fortgezeugt in unglücksel'ger Kette,</p>
+            <p>Die neuste Unbill dieses Tags geboren.</p>
+            <p>muß so deklamiert werden:</p>
+            <p>Und dennoch ist's der erste Kinderstreit,</p>
+            <p>Der, <hi rendition="#i">fortgezeugt in unglücksel'ger Kette</hi> –</p>
+            <p>Die neuste Unbill dieses Tags geboren.</p>
+            <p>
+               <pb n="90" facs="#f0009"/>
+§ 25</p>
+            <p>Wenn ein Wort vorkommt, das vermöge seines Sinnes sich zu einem erhöhten Ausdruck eignet oder vielleicht schon an und für sich selbst, seiner innern Natur und nicht des darauf gelegten Sinnes wegen, mit stärker artikuliertem Ton ausgesprochen werden muß, so ist wohl zu bemerken, daß man nicht wie abgeschnitten sich aus dem ruhigen Vortrag herausreiße und mit aller Gewalt dieses bedeutende Wort herausstoße und dann wieder zu dem ruhigen Ton übergehe, sondern man bereite durch eine weise Einteilung des erhöhten Ausdrucks gleichsam den Zuhörer vor, indem man schon auf die vorhergehenden Wörter einen mehr artikulierten Ton lege und so steige und falle bis zu dem geltenden Wort, damit solches in einer vollen und runden Verbindung mit den andern ausgesprochen werde. Zum Beispiel:</p>
+            <p>Zwischen der Söhne</p>
+            <p>Feuriger Kraft.</p>
+            <p>Hier ist das Wort <hi rendition="#i">feuriger</hi> ein Wort, welches schon an und für sich einen mehr gezeichneten Ausdruck fordert, folglich mit viel erhöhterem Ton deklamiert werden muß. Nach obigem würde es daher sehr fehlerhaft sein, wenn ich bei dem vorhergehenden Worte<hi rendition="#i"> Söhne</hi> auf einmal im Tone abbrechen und dann das Wort <hi rendition="#i">feuriger</hi> mit Heftigkeit von mir geben wollte, ich muß vielmehr schon auf das Wort <hi rendition="#i">Söhne</hi> einen mehr artikulierten Ton legen, so daß ich im steigenden Grade zu der Größe des Ausdrucks übergehen kann, welche das Wort feuriger erfordert. Auf solche Weise gesprochen, wird es natürlich, rund und schön klingen und der Endzweck des Ausdrucks vollkommen erreicht sein.</p>
+            <p>§ 26</p>
+            <p>Bei der Ausrufung Oh!, wenn noch einige Worte darauf folgen, muß etwas abgesetzt werden, und zwar so, daß das Oh! einen eigenen Ausruf ausmache. Zum Beispiel:</p>
+            <p>Oh! – meine Mutter!</p>
+            <p>Oh! – meine Söhne!</p>
+            <p>nicht:</p>
+            <p>O meine Mutter!</p>
+            <p>O meine Söhne!</p>
+            <p>§ 27</p>
+            <p>So wie in der Aussprache vorzüglich empfohlen wird, die Eigennamen rein und deutlich auszusprechen, so wird auch in der Deklamation die nämliche Regel wiederholt, nur noch obendrein der stärker artikulierte Ton gefordert. Zum Beispiel:</p>
+            <p>Nicht, wo die goldne <hi rendition="#i">Ceres</hi> lacht</p>
+            <p>Und der friedliche <hi rendition="#i">Pan</hi>, der Flurenbehüter.</p>
+            <p>In diesem Vers kommen zwei bedeutende, ja den ganzen Sinn festhaltende Eigennamen vor. Wenn daher der Deklamierende über sie mit Leichtigkeit hinwegschlüpft, ungeachtet er sie rein und vollständig aussprechen mag, so verliert das Ganze dabei unendlich. Dem Gebildeten, wenn er die Namen hört, wird wohl einfallen, daß solche aus der Mythologie der Alten stammen, aber die wirkliche Bedeutung davon kann ihm entfallen sein; durch den darauf gelegten Ton des Deklamierenden aber wird ihm der Sinn deutlich. Ebenso dem Weniggebildeten, wenn er auch der eigentlichen Beschaffenheit nicht kundig ist, wird der stärker artikulierte Ton die Einbildungskraft aufregen und er sich unter diesen Namen etwas Analoges mit jenem vorstellen, welches sie wirklich bedeuten.</p>
+            <p>§ 28</p>
+            <p>Der Deklamierende hat die Freiheit, sich eigen erwählte Unterscheidungszeichen, Pausen etc. festzusetzen; nur hüte er sich, den wahren Sinn dadurch zu verletzen, welches hier ebenso leicht geschehen kann als bei einem ausgelassenen oder schlecht ausgesprochenen Worte.</p>
+            <p>
+               <pb n="92" facs="#f0011"/>
+§ 29</p>
+            <p>Man kann aus diesem Wenigen leicht einsehen, welche unendliche Mühe und Zeit es kostet, Fortschritte in dieser schweren Kunst zu machen.</p>
+            <p>§ 30</p>
+            <p>Für den anfangenden Schauspieler ist es von großem Vorteil, wenn er alles, was er deklamiert, so tief spricht als nur immer möglich. Denn dadurch gewinnt er einen großen Umfang in der Stimme und kann dann alle weitern Schattierungen vollkommen geben. Fängt er aber zu hoch an, so verliert er schon durch die Gewohnheit die männliche Tiefe und folglich mit ihr den wahren Ausdruck des Hohen und Geistigen. Und was kann er sich mit einer grellenden und quietschenden Stimme für einen Erfolg versprechen? Hat er aber die tiefe Deklamation völlig inne, so kann er gewiß sein, alle nur möglichen Wendungen vollkommen ausdrücken zu können.</p>
+            <p>Rhythmischer Vortrag</p>
+            <p>§ 31</p>
+            <p>Alle bei der Deklamation gemachten Regeln und Bemerkungen werden auch hier zur Grundlage vorausgesetzt. Insbesondere ist aber der Charakter des rhythmischen Vortrags, daß der Gegenstand mit noch mehr erhöhtem pathetischem Ausdruck deklamiert sein will. Mit einem gewissen Gewicht soll da jedes Wort ausgesprochen werden.</p>
+            <p>§ 32</p>
+            <p>Der Silbenbau aber sowie die gereimten Endsilben dürfen nicht zu auffallend bezeichnet, sondern es muß der Zusammenhang beobachtet werden wie in Prosa.</p>
+            <p>
+               <pb n="93" facs="#f0012"/>
+§ 33</p>
+            <p>Hat man Jamben zu deklamieren, so ist zu bemerken, daß man jeden Anfang eines Verses durch ein kleines, kaum merkbares Innehalten bezeichnet; doch muß der Gang der Deklamation dadurch nicht gestört werden.</p>
+            <p>Stellung und Bewegung des Körpers</p>
+            <p>auf der Bühne</p>
+            <p>§ 34</p>
+            <p>Über diesen Teil der Schauspielkunst lassen sich gleichfalls einige allgemeine Hauptregeln geben, wobei es freilich unendlich viele Ausnahmen gibt, welche aber alle wieder zu den Grundregeln zurückkehren. Diese trachte man sich so sehr einzuverleiben, daß sie zur zweiten Natur werden.</p>
+            <p>§ 35</p>
+            <p>Zunächst bedenke der Schauspieler, daß er nicht allein die Natur nachahmen, sondern sie auch idealisch vorstellen solle, und er also in seiner Darstellung das Wahre mit dem Schönen zu vereinigen habe.</p>
+            <p>§ 36</p>
+            <p>Jeder Teil des Körpers stehe daher ganz in seiner Gewalt, so daß er jedes Glied gemäß dem zu erzielenden Ausdruck frei, harmonisch und mit Grazie gebrauchen könne.</p>
+            <p>§ 37</p>
+            <p>Die Haltung des Körpers sei gerade, die Brust herausgekehrt, die obere Hälfte der Arme bis an die Ellbogen etwas an den Leib geschlossen, der Kopf ein wenig gegen den gewendet, mit dem man spricht, jedoch nur so wenig, daß immer dreivierteil vom Gesicht gegen die Zuschauer gewendet ist.</p>
+            <p>
+               <pb n="94" facs="#f0013"/>
+§ 38</p>
+            <p>Denn der Schauspieler muß stets bedenken, daß er um des Publikums willen da ist.</p>
+            <p>§ 39</p>
+            <p>Sie sollen daher auch nicht aus mißverstandener Natürlichkeit untereinander spielen, als wenn kein Dritter dabei wäre; sie sollen nie im Profil spielen, noch den Zuschauern den Rücken zuwenden. Geschieht es um des Charakteristischen oder um der Notwendigkeit willen, so geschehe es mit Vorsicht und Anmut.</p>
+            <p>§ 40</p>
+            <p>Auch merke man vorzüglich, nie ins Theater hineinzusprechen, sondern immer gegen das Publikum. Denn der Schauspieler muß sich immer zwischen zwei Gegenständen teilen: nämlich zwischen dem Gegenstande, mit dem er spricht, und zwischen seinen Zuhörern. Statt mit dem Kopfe sich gleich ganz umzuwenden, lasse man mehr die Augen spielen.</p>
+            <p>§ 41</p>
+            <p>Ein Hauptpunkt aber ist, daß unter zwei zusammen Agierenden der Sprechende sich stets zurück und der, welcher zu reden aufhört, sich ein wenig vor bewege. Bedient man sich dieses Vorteils mit Verstand und weiß durch Übung ganz zwanglos zu verfahren, so entsteht sowohl für das Auge als für die Verständlichkeit der Deklamation die beste Wirkung, und ein Schauspieler, der sich Meister hierin macht, wird mit Gleichgeübten sehr schönen Effekt hervorbringen und über diejenigen, die es nicht beobachten, sehr im Vorteil sein.</p>
+            <p>§ 42</p>
+            <p>Wenn zwei Personen miteinander sprechen, sollte diejenige, die zur Linken steht, sich ja hüten, gegen die Person zur Rechten allzu stark einzudringen. Auf der rechten Seite steht immer die geachtete Person: Frauenzimmer, Ältere, <pb n="95" facs="#f0014"/>
+Vornehmere. Schon im gemeinen Leben hält man sich in einiger Entfernung von dem, vor dem man Respekt hat; das Gegenteil zeugt von einem Mangel an Bildung. Der Schauspieler soll sich als einen Gebildeten zeigen und obiges deshalb auf das genaueste beobachten. Wer auf der rechten Seite steht, behaupte daher sein Recht und lasse sich nicht gegen die Kulisse treiben, sondern halte Stand und gebe dem Zudringlichen allenfalls mit der linken Hand ein Zeichen, sich zu entfernen.</p>
+            <p>§ 43</p>
+            <p>Eine schöne nachdenkende Stellung, z.B. für einen jungen Mann, ist diese: wenn ich, die Brust und den ganzen Körper gerade herausgekehrt, in der vierten Tanzstellung verbleibe, meinen Kopf etwas auf die Seite neige, mit den Augen auf die Erde starre und beide Arme hängen lasse.</p>
+            <p>Haltung und Bewegung der Hände und Arme</p>
+            <p>§ 44</p>
+            <p>Um eine freie Bewegung der Hände und Arme zu erlangen, tragen die Akteurs niemals einen Stock.</p>
+            <p>§ 45</p>
+            <p>Die neumodische Art, bei langen Unterkleidern die Hand in den Latz zu stecken, unterlassen sie gänzlich.</p>
+            <p>§ 46</p>
+            <p>Es ist äußerst fehlerhaft, wenn man die Hände entweder übereinander oder auf dem Bauche ruhend hält oder eine in die Weste oder vielleicht gar beide dahin steckt.</p>
+            <p>§ 47</p>
+            <p>Die Hand selbst aber muß weder eine Faust machen noch wie beim Soldaten mit ihrer ganzen Fläche am Schenkel liegen, sondern die Finger müssen teils halb gebogen, teils gerade, aber nur nicht gezwungen gehalten werden.</p>
+            <p>
+               <pb n="96" facs="#f0015"/>
+§ 48</p>
+            <p>Die zwei mittlern Finger sollen immer zusammenbleiben, der Daumen, Zeige- und kleine Finger etwas gebogen hängen. Auf diese Art ist die Hand in ihrer gehörigen Haltung und zu allen Bewegungen in ihrer richtigen Form.</p>
+            <p>§ 49</p>
+            <p>Die obere Hälfte der Arme soll sich immer etwas an den Leib anschließen und sich in einem viel geringeren Grade bewegen als die untere Hälfte, in welcher die größte Gelenksamkeit sein soll. Denn wenn ich meinen Arm, wenn von gewöhnlichen Dingen die Rede ist, nur wenig erhebe, um so viel mehr Effekt bringt es dann hervor, wenn ich ihn ganz emporhalte. Mäßige ich mein Spiel nicht bei schwächeren Ausdrücken meiner Rede, so habe ich nicht Stärke genug zu den heftigeren, wodurch alsdann die Gradation des Effekts ganz verlorengeht.</p>
+            <p>§ 50</p>
+            <p>Auch sollen die Hände niemals von der Aktion in ihre ruhige Lage zurückkehren, ehe ich meine Rede nicht ganz vollendet habe, und auch dann nur nach und nach, so wie die Rede sich endigt.</p>
+            <p>§ 51</p>
+            <p>Die Bewegung der Arme geschehe immer teilweise. Zuerst hebe oder bewege sich die Hand, dann der Ellbogen, und so der ganze Arm. Nie werde er auf einmal, ohne die eben angeführte Folge, gehoben, weil die Bewegung sonst steif und häßlich herauskommen würde.</p>
+            <p>§ 52</p>
+            <p>Für einen Anfänger ist es von vielem Vorteil, wenn er sich seine Ellbogen soviel als möglich am Leibe zu behalten zwingt, damit er dadurch Gewalt über diesen Teil seines Körpers gewinne und so der eben angeführten Regel gemäß seine Gebärden ausführen könne. Er übe sich daher auch <pb n="97" facs="#f0016"/>
+im gewöhnlichen Leben und halte die Arme immer zurückgebogen, ja wenn er für sich allein ist, zurückgebunden. Beim Gehen oder sonst in untätigen Momenten lasse er die Arme hängen, drücke die Hände nie zusammen, sondern halte die Finger immer in Bewegung.</p>
+            <p>§ 53</p>
+            <p>Die malende Gebärde mit den Händen darf selten gemacht werden, doch auch nicht ganz unterlassen bleiben.</p>
+            <p>§ 54</p>
+            <p>Betrifft es den eigenen Körper, so hüte man sich wohl, mit der Hand den Teil zu bezeichnen, den es betrifft, z.B. wenn Don Manuel in der »Braut von Messina« zu seinem Chore sagt:</p>
+            <p>Dazu den Mantel wählt, von glänzender</p>
+            <p>Seide gewebt, in bleichem Purpur scheinend,</p>
+            <p>
+               <hi rendition="#i">Über der Achsel heft ihn</hi> eine goldne</p>
+            <p>Zikade –</p>
+            <p>so wäre es äußerst fehlerhaft, wenn der Schauspieler bei den letzten Worten mit der Hand seine Achsel berühren würde.</p>
+            <p>§ 55</p>
+            <p>Es muß gemalt werden, doch so, als wenn es nicht absichtlich geschähe.</p>
+            <p rendition="#et">In einzelnen Fällen gibt es auch hier Ausnahmen, aber als eine Hauptregel soll und kann das Obige genommen werden.</p>
+            <p>§ 56</p>
+            <p>Die malende Gebärde mit der Hand gegen die Brust, sein eigenes Ich zu bezeichnen, geschehe so selten als nur immer möglich, und nur dann, wenn es der Sinn unbedingt fordert, als z.B. in folgender Stelle der »Braut von Messina«:</p>
+            <p>Ich habe keinen Haß mehr mitgebracht,</p>
+            <p>Kaum weiß ich noch, warum wir blutig stritten.</p>
+            <p>Hier kann das erste <hi rendition="#i">Ich</hi> füglich mit der malenden Gebärde durch Bewegung der Hand gegen die Brust bezeichnet werden.</p>
+            <p rendition="#et">Diese Gebärde aber schön zu machen, so bemerke man: daß der Ellbogen zwar vom Körper getrennt werden und so der Arm gehoben, doch nicht weit aus fahrend die Hand an die Brust hinaufgebracht werden muß. Die Hand selbst decke nicht mit ganzer Fläche die Brust, sondern bloß mit dem Daumen und dem vierten Finger werde sie berührt. Die andern drei dürfen nicht aufliegen, sondern gebogen über die Rundung der Brust, gleichsam dieselbe bezeichnend, müssen sie gehalten werden.</p>
+            <p>§ 57</p>
+            <p>Bei Bewegung der Hände hüte man sich soviel als möglich, die Hand vor das Gesicht zu bringen oder den Körper damit zu bedecken.</p>
+            <p>§ 58</p>
+            <p>Wenn ich die Hand reichen muß, und es wird nicht ausdrücklich die rechte verlangt, so kann ich ebensogut die linke geben; denn auf der Bühne gilt kein rechts oder links, man muß nur immer suchen, das vorzustellende Bild durch keine widrige Stellung zu verunstalten. Soll ich aber unumgänglich gezwungen sein, die Rechte zu reichen, und bin ich so gestellt, daß ich über meinen Körper die Hand geben müßte, so trete ich lieber etwas zurück und reiche sie so, daß meine Figur en face bleibt.</p>
+            <p>§ 59</p>
+            <p>Der Schauspieler bedenke, auf welcher Seite des Theaters er stehe, um seine Gebärde darnach einzurichten.</p>
+            <p>
+               <pb n="99" facs="#f0018"/>
+§ 60</p>
+            <p>Wer auf der rechten Seite steht, agiere mit der linken Hand, und umgekehrt, wer auf der linken Seite steht, mit der rechten, damit die Brust sowenig als möglich durch den Arm verdeckt werde.</p>
+            <p>§ 61</p>
+            <p>Bei leidenschaftlichen Fällen, wo man mit beiden Händen agiert, muß doch immer diese Betrachtung zum Grunde liegen.</p>
+            <p>§ 62</p>
+            <p>Zu eben diesem Zweck, und damit die Brust gegen den Zuschauer gekehrt sei, ist es vorteilhaft, daß derjenige, der auf der rechten Seite steht, den linken Fuß, der auf der linken den rechten vorsetze.</p>
+            <p>Gebärdenspiel</p>
+            <p>§ 63</p>
+            <p>Um zu einem richtigen Gebärdenspiel zu kommen und solches gleich richtig beurteilen zu können, merke man sich folgende Regeln:</p>
+            <p rendition="#et">Man stelle sich vor einen Spiegel und spreche dasjenige, was man zu deklamieren hat, nur leise oder vielmehr gar nicht, sondern <hi rendition="#i">denke</hi> sich nur die Worte. Dadurch wird gewonnen, daß man von der Deklamation nicht hingerissen wird, sondern jede falsche Bewegung, welche das Gedachte oder leise Gesagte nicht ausdrückt, leicht bemerken, so wie auch die schönen und richtigen Gebärden auswählen und dem ganzen Gebärdenspiel eine analoge Bewegung mit dem Sinne der Wörter als Gepräge der Kunst aufdrücken kann.</p>
+            <p>§ 64</p>
+            <p>Dabei muß aber vorausgesetzt werden, daß der Schauspieler vorher den Charakter und die ganze Lage des Vorzustellenden sich völlig eigen mache und daß seine Einbildungskraft <pb n="100" facs="#f0019"/>
+den Stoff recht verarbeite; denn ohne diese Vorbereitung wird er weder richtig zu deklamieren noch zu handeln imstande sein.</p>
+            <p>§ 65</p>
+            <p>Für den Anfänger ist es von großem Vorteil, um Gebärdenspiel zu bekommen und seine Arme beweglich und gelenksam zu machen, wenn er seine Rolle, ohne sie zu rezitieren, einem andern bloß durch Pantomime verständlich zu machen sucht; denn da ist er gezwungen, die passendsten Gesten zu wählen.</p>
+            <p>In der Probe zu beobachten</p>
+            <p>§ 66</p>
+            <p>Um eine leichtere und anständigere Bewegung der Füße zu erwerben, probiere man niemals in Stiefeln.</p>
+            <p>§ 67</p>
+            <p>Der Schauspieler, besonders der jüngere, der Liebhaber und andere leichte Rollen zu spielen hat, halte sich auf dem Theater ein Paar Pantoffeln, in denen er probiert, und er wird sehr bald die guten Folgen davon bemerken.</p>
+            <p>§ 68</p>
+            <p>Auch in der Probe sollte man sich nichts erlauben, was nicht im Stücke vorkommen darf.</p>
+            <p>§ 69</p>
+            <p>Die Frauenzimmer sollten ihre kleinen Beutel beiseite legen.</p>
+            <p>§ 70</p>
+            <p>Kein Schauspieler sollte im Mantel probieren, sondern die Hände und Arme wie im Stücke frei haben. Denn der Mantel hindert ihn nicht allein, die gehörigen Gebärden zu machen, sondern zwingt ihn auch, falsche anzunehmen, die er denn bei der Vorstellung unwillkürlich wiederholt.</p>
+            <p>
+               <pb n="101" facs="#f0020"/>
+§ 71</p>
+            <p>Der Schauspieler soll auch in der Probe keine Bewegung machen, die nicht zur Rolle paßt.</p>
+            <p>§ 72</p>
+            <p>Wer bei Proben tragischer Rollen die Hand in den Busen steckt, kommt in Gefahr, bei der Aufführung eine Öffnung im Harnisch zu suchen.</p>
+            <p>Zu vermeidende böse Gewohnheiten</p>
+            <p>§ 73</p>
+            <p>Es gehört unter die zu vermeidenden ganz groben Fehler, wenn der sitzende Schauspieler, um seinen Stuhl weiter vorwärts zu bringen, zwischen seinen obern Schenkeln in der Mitte durchgreifend, den Stuhl anpackt, sich dann ein wenig hebt und so ihn vorwärts zieht. Es ist dies nicht nur gegen das Schöne, sondern noch viel mehr gegen den Wohlstand gesündigt.</p>
+            <p>§ 74</p>
+            <p>Der Schauspieler lasse kein Schnupftuch auf dem Theater sehen, noch weniger schnaube er die Nase, noch weniger spucke er aus. Es ist schrecklich, inner halb eines Kunstprodukts an diese Natürlichkeiten erinnert zu werden. Man halte sich ein kleines Schnupftuch, das ohnedem jetzt Mode ist, um sich damit im Notfalle helfen zu können.</p>
+            <p>Haltung des Schauspielers im gewöhnlichen Leben</p>
+            <p>§ 75</p>
+            <p>Der Schauspieler soll auch im gemeinen Leben bedenken, daß er öffentlich zur Kunstschau stehen werde.</p>
+            <p>
+               <pb n="102" facs="#f0021"/>
+§ 76</p>
+            <p>Vor angewöhnten Gebärden, Stellungen, Haltung der Arme und des Körpers soll er sich daher hüten, denn wenn der Geist während dem Spiel darauf gerichtet sein soll, solche Angewöhnungen zu vermeiden, so muß er natürlich für die Hauptsache zum großen Teil verlorengehen.</p>
+            <p>§ 77</p>
+            <p>Es ist daher unumgänglich notwendig, daß der Schauspieler von allen Angewöhnungen gänzlich frei sei, damit er sich bei der Vorstellung ganz in seine Rolle denken und sein Geist sich bloß mit seiner angenommenen Gestalt beschäftigen könne.</p>
+            <p>§ 78</p>
+            <p>Dagegen ist es eine wichtige Regel für den Schauspieler, daß er sich bemühe, seinem Körper, seinem Betragen, ja allen seinen übrigen Handlungen im gewöhnlichen Leben eine solche Wendung zu geben, daß er dadurch gleichsam wie in einer beständigen Übung erhalten werde. Es wird dieses für jeden Teil der Schauspielkunst von unendlichem Vorteil sein.</p>
+            <p>§ 79</p>
+            <p>Derjenige Schauspieler, der sich das Pathos gewählt, wird sich sehr dadurch vervollkommnen, wenn er alles, was er zu sprechen hat, mit einer gewissen Richtigkeit sowohl in Rücksicht des Tones als der Aussprache vorzutragen und auch in allen übrigen Gebärden eine gewisse erhabene Art beizubehalten sucht. Diese darf zwar nicht übertrieben werden, weil er sonst seinen Mitmenschen zum Gelächter dienen würde, im übrigen aber mögen sie immerhin den sich selbst bildenden Künstler daraus erkennen. Dieses gereicht ihm keineswegs zur Unehre, ja sie werden sogar gerne sein besonderes Betragen dulden, wenn sie durch dieses Mittel in den Fall kommen, auf der Bühne selbst ihn als großen Künstler anstaunen zu müssen.</p>
+            <p>
+               <pb n="103" facs="#f0022"/>
+§ 80</p>
+            <p>Da man auf der Bühne nicht nur alles wahr, sondern auch schön dargestellt haben will, da das Auge des Zuschauers auch durch anmutige Gruppierungen und Attitüden gereizt sein will, so soll der Schauspieler auch außer der Bühne trachten, selbe zu erhalten; er soll sich immer einen Platz von Zuschauern vor sich denken.</p>
+            <p>§ 81</p>
+            <p>Wenn er seine Rolle auswendig lernt, soll er sich immer gegen einen Platz wenden; ja selbst wenn er für sich oder mit seinesgleichen beim Essen zu Tische sitzt, soll er immer suchen, ein Bild zu formieren, alles mit einer gewissen Grâce anfassen, niederstellen etc., als wenn es auf der Bühne geschähe, und so soll er immer malerisch darstellen.</p>
+            <p>Stellung und Gruppierung auf der Bühne</p>
+            <p>§ 82</p>
+            <p>Die Bühne und der Saal, die Schauspieler und die Zuschauer machen erst ein Ganzes.</p>
+            <p>§ 83</p>
+            <p>Das Theater ist als ein figurloses Tableau anzusehen, worin der Schauspieler die Staffage macht.</p>
+            <p>§ 84</p>
+            <p>Man spiele daher niemals zu nahe an den Kulissen.</p>
+            <p>§ 85</p>
+            <p>Ebensowenig trete man ins Proszenium. Dies ist der größte Mißstand; denn die Figur tritt aus dem Raume heraus, innerhalb dessen sie mit dem Szenengemälde und den Mitspielenden ein Ganzes macht.</p>
+            <p>§ 86</p>
+            <p>Wer allein auf dem Theater steht, bedenke, daß auch er die Bühne zu staffieren berufen ist, und dieses um so mehr, als die Aufmerksamkeit ganz allein auf ihn gerichtet bleibt.</p>
+            <p>§ 87</p>
+            <p>Wie die Auguren mit ihrem Stab den Himmel in verschiedene Felder teilten, so kann der Schauspieler in seinen Gedanken das Theater in verschiedene Räume teilen, welche man zum Versuch auf dem Papier durch rhombische Flächen vorstellen kann. Der Theaterboden wird alsdann eine Art von Damenbrett; denn der Schauspieler kann sich vornehmen, welche Casen er betreten will; er kann sich solche auf dem Papier notieren und ist alsdann gewiß, daß er bei leidenschaftlichen Stellen nicht kunstlos hin und wider stürmt, sondern das Schöne zum Bedeutenden gesellet.</p>
+            <p>§ 88</p>
+            <p>Wer zu einem Monolog aus der hintern Kulisse auf das Theater tritt, tut wohl, wenn er sich in der Diagonale bewegt, so daß er an der entgegengesetzten Seite des Proszeniums anlangt; wie denn überhaupt die Diagonalbewegungen sehr reizend sind.</p>
+            <p>§ 89</p>
+            <p>Wer aus der letzten Kulisse hervorkommt zu einem andern, der schon auf dem Theater steht, gehe nicht parallel mit den Kulissen hervor, sondern ein wenig gegen den Souffleur zu.</p>
+            <p>§ 90</p>
+            <p>Alle diese technisch-grammatischen Vorschriften mache man sich eigen nach ihrem Sinne und übe sie stets aus, daß sie zur Gewohnheit werden. Das Steife muß verschwinden und die Regel nur die geheime Grundlinie des lebendigen Handelns werden.</p>
+            <p>
+               <pb n="105" facs="#f0024"/>
+§ 91</p>
+            <p>Hiebei versteht sich von selbst, daß diese Regeln vorzüglich alsdann beobachtet werden, wenn man edle, würdige Charaktere vorzustellen hat. Dagegen gibt es Charaktere, die dieser Würde entgegengesetzt sind, z.B. die bäurischen, tölpischen etc. Diese wird man nur desto besser ausdrücken, wenn man mit Kunst und Bewußtsein das Gegenteil vom Anständigen tut, jedoch dabei immer bedenkt, daß es eine nachahmende Erscheinung und keine platte Wirklichkeit sein soll.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

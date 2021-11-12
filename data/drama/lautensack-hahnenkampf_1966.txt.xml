@@ -1,0 +1,3330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Hahnenkampf</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118570226">
+                  <forename>Heinrich</forename>
+                  <surname>Lautensack</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-01T12:22:56Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000432</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q56256241</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005241685</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lautensack, Heinrich/Dramen/Hahnenkampf</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rfm3.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-DBC7-1</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Heinrich Lautensack: Das verstörte Fest. Gesammelte Werke. München 1966</bibl>
+            <bibl>Heinrich Lautensack: Das verstörte Fest. Gesammelte Werke. Herausgegeben von Wilhelm Lukas Kristl, München: Carl Hanser Verlag, 1966.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Das verstörte Fest</title>
+                  <title level="m" type="sub">Gesammelte Werke</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118570226">
+                        <forename>Heinrich</forename>
+                        <surname>Lautensack</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Wilhelm Lukas</forename>
+                        <surname>Kristl</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">157 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1966</date>
+                  <date type="firstPublication">1908</date>
+                  <date type="firstPublication" subtype="clariah">1908</date>
+                  <date type="firstPublication" subtype="zeno">1908</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor">1908</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1881"
+                        notAfter="1919"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d1787e300">Erstdruck: Berlin-Wilmersdorf (Meyer), 1908.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="wabn" sex="FEMALE">
+                  <persName>Die alte Wabn</persName>
+               </person>
+               <person xml:id="innocentia" sex="FEMALE">
+                  <persName>Innocentia</persName>
+               </person>
+               <person xml:id="apotheker" sex="MALE">
+                  <persName>Apotheker</persName>
+               </person>
+               <person xml:id="wirt" sex="MALE">
+                  <persName>Wirt</persName>
+               </person>
+               <person xml:id="anna" sex="FEMALE">
+                  <persName>Anna</persName>
+                  <persName type="variant">Annas Stimme</persName>
+               </person>
+               <person xml:id="lehmann" sex="MALE">
+                  <persName>Lehmann</persName>
+                  <persName type="variant">Lehmanns Stimme</persName>
+               </person>
+               <person xml:id="heinrich" sex="MALE">
+                  <persName>Heinrich</persName>
+                  <persName type="variant">Heinrichs Stimme</persName>
+               </person>
+               <person xml:id="jakob" sex="MALE">
+                  <persName>Jakob</persName>
+                  <persName type="variant">Jakobs Stimme</persName>
+               </person>
+               <person xml:id="gendarm" sex="MALE">
+                  <persName>Gendarm</persName>
+               </person>
+               <person xml:id="kommandant" sex="MALE">
+                  <persName>Kommandant</persName>
+               </person>
+               <person xml:id="braumeister" sex="MALE">
+                  <persName>Braumeister</persName>
+               </person>
+               <person xml:id="zirngibl" sex="MALE">
+                  <persName>Zirngibl</persName>
+               </person>
+               <person xml:id="kommandantin" sex="FEMALE">
+                  <persName>Kommandantin</persName>
+               </person>
+               <personGrp xml:id="stimmen" sex="UNKNOWN">
+                  <name>Stimmen</name>
+               </personGrp>
+               <person xml:id="erster_bauer" sex="MALE">
+                  <persName>1. Bauer</persName>
+               </person>
+               <person xml:id="zweiter_bauer" sex="MALE">
+                  <persName>2. Bauer</persName>
+               </person>
+               <person xml:id="agnes" sex="FEMALE">
+                  <persName>Agnes</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d1787e300">
+      <front>
+         <div type="front">
+            <head>Heinrich Lautensack</head>
+            <head>Hahnenkampf</head>
+            <head>Eine Komödie in sechs Szenen</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="110" facs="#f0001"/> Personen.</head>
+               <castItem>Der Apotheker</castItem>
+               <castItem>Kaufmann Zirngibl, Hauptmann der freiwilligen Feuerwehr</castItem>
+               <castItem>Der Braumeister</castItem>
+               <castItem>Der Kommandant</castItem>
+               <castItem>Der Gendarm</castItem>
+               <castItem>Die Frau Kommandant</castItem>
+               <castItem>Fräulein Agnes, Zirngibls Haushälterin</castItem>
+               <castItem>Innocentia</castItem>
+               <castItem>Die alte Wabn vom Kupferhammer</castItem>
+               <castItem>Der Wirt</castItem>
+               <castGroup>
+                  <castItem>Der billige Jakob</castItem>
+                  <castItem>Heinrich, der Sohn</castItem>
+                  <castItem>Lehmann, Käse- und Zigarrenhändler</castItem>
+                  <castItem>Anna, Schnittwarenhändlerin</castItem>
+                  <roleDesc>Passauer Kaufleute zum Markt gereist</roleDesc>
+               </castGroup>
+               <castItem>1. Bauer</castItem>
+               <castItem>2. Bauer</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Zu Hauzenberg, einem Marktflecken im Bayerischen Wald.</p>
+            <p>Im Jahr achtzehnhundertfünfundneunzig, am Vortag und Tag der letzten offiziellen
+          Sedanfeier.</p>
+            <p>Die letzte der sechs Szenen spielt zwei, fünf, zehn oder fünfzehn Jahre später,
+          gleichviel.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Die erste Szene</head>
+            <stage>Wohnzimmer im Kupferhammer. Ein wenig eigen eingerichtet. Eine Ofenbank und eine
+          Chaiselongue. Unterm Christusbild zwei japanische Fächer und davor eine rote
+          Papierlaterne. Auf einem modernen Damenschreibtisch eine alte Handnähmaschine und ein paar
+          halbgenähte Bettkissenüberzüge. Auf einem runden Tisch ein großer Spiegel, dem einige
+          Romanbände, Gebetbücher und wohl auch eine Heilige Schrift als allernotwendigste Stütze
+          dienen; dazu zwei Brennscheren, ein Spiritusbrenner, ein Kamm und eine Haarbürste. Im
+          Hintergrund neben der Tür, die von der Küche hereinführt, an der Wand ein
+          Weihwasserkessel. Rechts zwei Fenster; nischenförmig. Links eine weitere Tür;
+          geschlossen.</stage>
+            <stage>Samstag nachmittag.</stage>
+            <stage>Innocentia sitzt halbentkleidet vor dem Spiegel; unbeweglich.</stage>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>in der Küche.</stage>
+               <p>Wo bist denn wieder? – – – – Innozenz! – – – – <stage>Tritt ein.</stage> Wo bist
+            ...</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>antwortet jetzt erst.</stage>
+               <p>Im Wohnzimmer ...</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>nach einer Weile.</stage>
+               <p>Im Wohnzimmer. Vorm Spiegel. Stundenlang. <stage>Versteckt.</stage> Was
+              <hi rendition="#i">siehst</hi> denn im Spiegel?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>ahnungslos.</stage>
+               <p>Was ich da ... was ich da drinn ... <stage>Vergißt ganz zu antworten.</stage> Der
+            Apotheker wird gleich kommen.</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN.</speaker>
+               <p>Der Apotheker? <stage>Wieder versteckt.</stage> Und <hi rendition="#i">das</hi> siehst du im
+            Spiegel?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>immer noch ahnungslos, weil ganz woanders.</stage>
+               <p>Ja ... das ... ja ... <stage>Begreift erst jetzt. Fährt auf. Unterdrückter
+              Schrei.</stage> Was? <stage>Geärgert. Ausscheltend.</stage> Mit deinen ewigen Fragen.
+            Alte Hex. <stage>Will sich verteidigen.</stage> Was ich im <hi rendition="#i">Spiegel</hi> seh?</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>fällt ein.</stage>
+               <p>Den Apotheker? Und daß er kommt?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>wütend.</stage>
+               <p>Du Kupferhammerhex. <stage>Ruhiger.</stage> Als obs <pb n="111" facs="#f0002"/> hier im Haus Geister
+            ... <stage>Wieder wütend.</stage> Du hast das Haus erst zum wahren Geisterhaus gemacht
+            ...</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN.</speaker>
+               <p>Ich?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ja ... du. Wos umgehn soll drinn ...</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN.</speaker>
+               <p>Ich?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>
+                  <hi rendition="#i">Du</hi> gehst drinn um. Da herum. Sonst niemand.</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN.</speaker>
+               <p>Ich also?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>fast schreiend.</stage>
+               <p>Ja!</p>
+               <stage>Pause.</stage>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>nach einer Weile; und nachdem sie sich das Folgende ausgedacht hat.</stage>
+               <p>Ich weiß schon, ich weiß schon: Das hat dir – wieder einmal – dein Apotheker so
+            eingeredet.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>lügend, um sie zu ärgern.</stage>
+               <p>»Mein« <hi rendition="#i">Apotheker</hi>? Nein. »Dein« <hi rendition="#i">Schandarm</hi>. Dein Wickelkindl.
+            Dei Dockn.</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN.</speaker>
+               <p>Der? Das ist ja gwiß nicht wahr. Der? Der mag mich. Der, der schimpft wenigstens nicht
+            auf mich. Und fahrt mich auch nicht immer gleich hart an. Nein, nein, nein, nein, über
+            den laß ich nix kommen, über den Schandarm. – Aber ... <stage>Sie kommt auf das Frühere
+              zurück.</stage> das hat dir wieder einmal – dein Apotheker so eingeredet.
+            Kupferhammergeist? Ich die Hex vom Kupferhammer. <stage>Sie lacht. Dann giftig.</stage>
+            Oh! der Giftnigel! – – – – Da sind noch <hi rendition="#i">andere</hi> ... da sind noch ganz andere
+            Geister, Innozenz ... mei liabe Innozenz. Geister, die nicht bloß bei der Nacht umgehn
+            ... sondern die aus- und eingehn hier am helllichten Tag. Geister ... mit Bärten. Und
+            der eine tragt gar Augengläser.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>spielerisch.</stage>
+               <p>Wer?</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN.</speaker>
+               <p>Dein Herr <hi rendition="#i">Schullehrer</hi>.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Der? <stage>Gespannt.</stage> – Die? Die meinst du mit den Geistern?</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN.</speaker>
+               <p>Der andre Geist ist ... dein Herr Feuerwehrhauptmann. Der dritte ist dein Herr
+            Braumeister, der Saufaus der. Der viert dein Herr Kommandant, ein geheirateter Mann. Der
+            fünft der Giftnigel, dein Herr Apotheker, der wo gleich kommt. <pb n="112" facs="#f0003"/> Und der
+            sechst ... der sechst? Grad schad um ihn, daß man ihn mit den andern zusammen in einem
+            Atemzug nennt: der sechst? ... der Schandarm.</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>
+                  <hi rendition="#i">Die</hi> Geister, die gehn um. Deine Liabhaber. Das »Kommiteh«. Und ...
+              <hi rendition="#i">das sind Geister</hi>. Die sechse ... und du dazu. – Denn das geht doch
+            nimmermehr mit rechten Dingen ...</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>schreit.</stage>
+               <p>Wabn!</p>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>bös.</stage>
+               <p>Gut, gut, ... alsdann keine Geister ... Aber ... dann wenigstens ist das Haus ein ...
+            ein merkwürdiges Hotel ... mit nur einem Bett, deim Federnbett ... das meinige ist Stroh
+            ... <stage>Sie macht sich davon. Zurück nach der Küche.</stage>
+               </p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>steht grad so unbeweglich wie sie vordem saß.</stage>
+               <stage>Große Pause.</stage>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>kommt wieder. Überaus bissig anmeldend.</stage>
+               <p>Der Giftni – – – – Der Apotheker.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>geht einen Schritt auf sie zu.</stage>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>duckt sich gekrümmt. So außen wie innen.</stage>
+               <p>Ich geh schon. <stage>Ab.</stage>
+               </p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>begegnet der Abgehenden in der Küche. Tritt ein. Küchentür wird geschlossen. Er ist
+            im Jagdanzug. Mit Gewehr, das er in eine Ecke stellt. Er grüßt gar nicht, geht lange
+            umher, ganz bleich.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>ebenfalls stumm.</stage>
+               <stage>Große Pause.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Ich denk, du bist lang fertig angezogen, wenn ich komm –</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Das ist mir aber was neues! – Wann hab ich denn schon einmal »langfertig angezogen«
+            sein müssen, wenn du gekommen bist? Möchtest du mir das nicht sagen? – Was ... was heißt
+            denn das überhaupt?? – – – – Aber gut, gut: so werd ich mich eben ... jetzt anziehn.
+            Damit daß ich nur ja langgenug ehvor angezogen bin.</p>
+               <pb n="113" facs="#f0004"/>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>aufstampfend.</stage>
+               <p>Na also, es hat ja noch Zeit!</p>
+               <stage>Pause.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Was ist dir? Was ... hast du denn?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>antwortet nicht.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Grad hab ich mich – wieder einmal – über die Wabn schauderhaft giften müssen ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>antwortet nicht.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Oder ... oder soll ich meinen Spruch aufsagen? Dein Spottgedicht? Das was du auf die
+            andern gemacht hast?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Sei so gut und laß das –</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Wenn dus aber doch eigens für mich gemacht hast – auf die andern –</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Ich will nicht –</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Also dann gehörts doch mir?? – – – – <stage>Sie sagt etwas Auswendiggelerntes. Und
+              möchte lustig sein und belustigend wirken.</stage>
+               </p>
+               <p>»Da Zirngibl, da Bräumoasta, da Kommandant und da Lehra,</p>
+               <p>dö vier mitanand, mei! dös sand so Verehra!</p>
+               <p>Wenns dö viere bloß wären, diese vier ganz allein,</p>
+               <p>alsdann müßt ich noch heute ein Jungfräulein sein.«</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Ja ja ja ja: »wenns dö viere bloß wären, diese vier ganz allein.«</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>fährt fort zu zitieren.</stage>
+               <p>– –</p>
+               <p>»Denn beim Zirngibl, da brennts im Oberstübl,</p>
+               <p>und da Bräumoasta hat koana Lebensgoasta,</p>
+               <p>und – –«</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>»Wenns die viere bloß wären« – – – – so ist da aber noch ein fünfter da!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ja: Du! du, Franz!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>lacht.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Na bist vielleicht du nicht da?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Für den, den ich mit dem fünften mein, für den bin ich wirklich nicht da! Für den bin
+            ich ... Luft! Für den sind wir alle miteinander, der Zirngibl, der Braumeister, der
+            Lehrer <pb n="114" facs="#f0005"/> und ich – einfach Luft! Kaum, daß er seinen Vorgesetzten, den
+            Kommandanten grüßt –</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Aber was soll ich mich da lang noch ereifern? <stage>Ganz offiziell.</stage> Du kommst
+            nachher – heut auf den Abend – ins Gasthaus zum Stemplinger hin?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ja. Und ich hab sogar fest geglaubt, daß du mich hinbringen wirst.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Ganz recht, ich bring dich hin –</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <stage>Wieder sehr offiziell.</stage>
+               <p>Aber nur, weil da die andern vier auch da sein werden und wir alle fünf dir dann etwas
+            zu sagen haben werden, was du getreulich an denjenigen ausrichten mußt, der dich vom
+            Stemplinger dann wieder nach dem Kupferhammer hieher ... zurückbegleitet –</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>scharf.</stage>
+               <p>Wer begleitet mich denn vom Stemplinger dann wieder nach dem Kupferhammer hieher zurück
+            – wer denn??</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Der, mit dem du schon öfters ... solche ... solche Mondscheinpromenade gemacht hast!
+            Der, für den vier von uns einfach Luft sind, und für den unser Kommandant gewiß
+            ebenfalls längst schon Luft war, wann der nicht – glücklicherweise – immer noch ein
+            wenig sein Vorgesetzter wär.</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>
+                  <stage>Fast schreiend.</stage> Ein für allemal! – Die Geschichte mit dem Schandarm muß
+            ein End nehmen!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Die ... die Mondscheinpromenaden?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Vielleicht haben wir Beweise, daß es zwischen Euch zweien nicht bei bloßen
+            Monscheinpromenaden geblieben ist und ... na ich kann dir ja eben garantieren, daß die
+            Geschichte mit dem Schandarmen ein Ende nimmt und zwar heut abend noch ein Ende nimmt.
+              <stage>Noch einmal furchtbar offiziell.</stage> Wir alle fünf stellen dich heute abend
+            ganz einfach vor die Entscheidung ...</p>
+               <pb n="115" facs="#f0006"/>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>ich hab die Stimmen von uns allen fünf –</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Wirklich? – – – – Ich frag dich nur, damits dir nicht nachher wieder so geht, – als wie
+            bei der letzten Reichstagswahl. Nämlich da hast du doch auch die »Stimmen« von deinen
+            vier Freunderln ghabt – für deinen Liberalen – und dann haben der Zirngibl sowohl wie
+            der Lehrer, der Braumeister sowohl wie der Kommandant dennoch das Zentrum gewählt und
+            nicht deinen Liberalen ...</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Im übrigen ... daß ihr alle fünf noch nicht darauf gekommen seid: wenn der Schandarm
+            wahrhaftig so zu seinem Vorgesetzten ist wie du sagst, dann braucht der Kommandant als
+            Vorgesetzter doch nur einen Wink geben und der Schandarm wird versetzt.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>ändert seinen Ton und verlegt sich auf Bitten und halbes Drohn.</stage>
+               <p>Innozenz ... Innozenz ... es wird mir von Tag zu Tag schwerer ... laß ab von dem
+            Menschen ... nur von dem ... die andern, die andern zählen für mich nicht, das weißt du
+            ... aber von dem ...</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Es ... es gibt ein Unglück! – Ich ... ich laß nicht von dir!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Und ... er nicht von mir!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Nein ... du nicht von ihm! – – – – Innozenz!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ihr steht alle zwei, der Schandarm und du, auf ein und demselbigen Fleck, ja, glaubst
+            du denn, daß die andern für mich zählen? Weißt du denn nicht, daß du mit deinem
+            Spottgedicht den Nagel auf den Kopf getroffen hast? »Da Zirngibl, da Bräumoasta, da
+            Kommandant und da Lehra, dö vier mitanand, mei! dös sand so Verehra –.« Jeden geb ich
+            her. Nur von Euch zweien keinen.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>mehr als ehrlich; Verrat an sich selber. Spielt sich mit den folgenden Worten
+            wieder einmal ganz in die Hände der Innozenz.</stage>
+               <p>Hin und wieder möcht ich sogar an meine eigenen Verse nimmer glauben. Hin und wieder
+            ist mir jeder Einzelne <pb n="116" facs="#f0007"/> von den andern vieren noch zuviel. Hin und wieder
+            schießt mir alles Blut in den Kopf, wenn ich auch nur an den steinalten Zirngibl denk
+            –</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>fast lachend.</stage>
+               <p>Na, sei schon so gut, Franz, und denk eben ... <stage>Sie lacht.</stage>
+               </p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Aber ... <stage>Angst und Haß.</stage> aber dein Schandarm, der will ... festen Fuß
+            fassen bei uns. Der ... der Strafversetzte! Er will uns in Gewalt kriegen. Und hat uns
+            eigentlich schon lang in Gewalt. Wies heute ist, kann der Kommandant gar nicht mehr
+            darum einkommen, daß der Schandarm auf ein neues versetzt wird –</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>denn das mußt du doch selber sagen, können wir ihm was beweisen? Aber er uns!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Soweit ists doch gar nicht.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Soweit kommts!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Soweit kommts auch gar nicht. Ich kenn ihn besser! <stage>Pause.</stage> Und ... wenns
+            wirklich soweit kommen könnt, dann wärs nur dadurch, daß ich ihn jetzt aufgeben tat.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>verzweifelt.</stage>
+               <p>Deine Eitelkeit! Nix wie deine Eitelkeit! Hat er dir erzählt, daß du »schön« bist? Aber
+            ... hat er das der Kommandantin nicht auch erzählt?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>wild verteidigend.</stage>
+               <p>Das ist nicht wahr! <stage>Nach einer Weile, vorwurfsvoll.</stage> – – – – Er ist auf
+              <hi rendition="#i">alle</hi> eifersüchtig. <hi rendition="#i">Du</hi> nur auf <hi rendition="#i">ihn</hi>.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Wie du auf keinen eifersüchtig bist als wie <hi rendition="#i">nur</hi> auf ihn!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>einfallend.</stage>
+               <p>Und auf dich!</p>
+               <stage>Große Pause.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>bittend.</stage>
+               <p>Innozenz ... Innozenz..</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>fest.</stage>
+               <p>Dir hab ich mich ... seinerzeit ... verkauft. Oder möchst du das nimmer wissen? Und hab
+            dich doch lieben glernt. Oder weißt du das nicht? – – – – In ihn aber, in jenen andern,
+            hab ich mich, ich sags frei, ein bissel verliebt ... und <pb n="117" facs="#f0008"/> darf ihn jetzt
+            nicht verkaufen. Könnt sein, daß uns dann – wirklich – allen miteinander sowas wie ein
+            Prozeß gemacht werden könnt ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>umarmt sie leidenschaftlich.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>glaubt, daß sie ihm alles ausgeredet hat.</stage>
+               <p>Na also!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>will sie immer noch umarmen.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>löst sich aus seinen Armen.</stage>
+               <p>Hier nicht, Franz –</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Warum?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Die alte Hex. Die Wabn.</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Und ... soll ich mich denn nicht – endlich – anziehn jetzt?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Aber ... könnt nicht die Wabn – auf der Kreuzstraß drübn – Bier hohl derweil!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ich werds ihr sagen. <stage>Ab nach der Küche.</stage>
+               </p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>ab nach links.</stage>
+               <stage>Pause.</stage>
+               <stage>Dämmerung.</stage>
+            </sp>
+            <sp who="#wabn">
+               <speaker>WABN</speaker>
+               <stage>kommt herein. Den Krug holen – vom Tisch. Der Deckel klappt laut. Sie späht umher.
+            Murmelnd. Und schaut auch grad so weiß aus wie ein Geist – – – – Sie geht, mit dem Krug
+            in der Linken, nach dem Weihwasserkessel, taucht die Rechte ein und besprengt das Zimmer
+            mit Weihwasser. Zuletzt die Türe links ab.</stage>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="118" facs="#f0009"/> Die zweite Szene</head>
+            <stage>Gasthaus und Metzgerei des Johann Stemplinger. Ganz und gar altmodischer Raum in
+          keinem ausgesprochenen Geschmack.</stage>
+            <stage>Mangelhafte Beleuchtung.</stage>
+            <stage>Samstag abend. Der Wirt selber bedient die zugereisten Marktleute.</stage>
+            <stage>Schweigen. Dann: Musik von ferne; und näher kommend.</stage>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Nun sind das fünfundzwanzig Jahr. – Na ja ...</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Und aber heuer, denk ich, solls zum letzten Mal sein? Damit daß die Franzosen ...</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Ja. Na ja. – Habens nun fünfundzwanzig Jahr gespürt, die Franzosen. Und ist grade lang
+            genug. – Na ja ...</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Ich gspür jeds Wetter heute noch.</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Am Fuß? – Na ja ...</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Am linken. – Ein Granatsplitter. – Bei Grafenlotte, ja ... bei Grafenlotte.</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Das heißt nicht »Grafenlotte«. – Gravelotte!</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN</speaker>
+               <stage>beleidigt.</stage>
+               <p>Woher möchst du das wissen, du?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>begütigend.</stage>
+               <p>Is eh – leicht ... Er lernts halt in der Schul.</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN</speaker>
+               <stage>starrköpfig.</stage>
+               <p>Dann – is heut anders – – – – Denn – dazumal – – – – Ich sage Grafenlotte! – – War der
+            denn schon in Frankreich? Aber ich!</p>
+               <stage>Musik zieht vorüber.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Die letzte Sedanfeier also.</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Ja. – Vier Mann Blechmusik. Das heißt: wenn nicht einer krank war, wärens fünfe. – Na
+            ja ...</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Ist das auch Fackelzug und so?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ach ja!</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>die Ruhe selber.</stage>
+               <p>Nein, nein: im Finstern.</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Vielleicht zwegen den Musikanten?</p>
+               <pb n="119" facs="#f0010"/>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Nein. Die könnens alle eh auswendig. Ja. Na ja ... Und morgen ist dann Kirchenzug. Die
+            Veteranen und die Feuerwehr.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>nach der Art der kleinen Geschäftsleute, die immer etwas zu klagen haben
+            müssen.</stage>
+               <p>Verflucht. Und nach der Kirche Sauferei. Da kauft kein Hund etwas.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>will sofort noch mehr klagen. Rein um der Klage willen.</stage>
+               <p>Wenn Sie das sagen, was müßt da ich erst –</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>bereits im Fahrwasser.</stage>
+               <p>Himmelsakrament! – Das letzte Mal der ganze Tag verregnet. Das vorletzte Mal die Sache
+            mit dem Wilderer, wie der begraben wurde. Diesmal nun ... Ich laß den Saumarkt nächstens
+            doch noch ganz aus – –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>persönlich werdend, Ernst und Scherz, die gewöhnliche Unterhaltung wenigstens
+            dieser beiden an jedem Marktvorabend.</stage>
+               <p>Das sagt er jedesmal. Und tut es doch nicht. Wenn Sies bloß täten, ha, für uns wärs
+            gut.</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Das mein ich auch.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Das tät euch passen, was?</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Erst wieder letztens. Sone Mesumme: fünfundsiebzig Mark. Wo ich zu frühern Zeiten zwei,
+            drei Hundert ...</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>So bleib sie doch zuhause, alte Schachtel.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Sie Jud, Sie Jud, dann warn Sie hier allein. Das war Ihnen zum liebsten –</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Betschwester! – Früher Schandarmenliebchen, jetzt Betschwester.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>pufft ihn.</stage>
+               <p>Du Rabenaas!</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>schlägt wieder.</stage>
+               <p>Ich glaube, die freut sich jedesmal die ganze Woche auf den Sonnabend, bis daß sie
+            Keile von mir kriegt –</p>
+               <stage>Lachen.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Soll ich sie zwicken, Vater? Oder ich stehl ihr wieder ihren Schnaps?</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Ja, du. Du wirst genau so wie dein Alter.</p>
+               <stage>Da beginnt Abendläuten. Eine ganz helle Glocke, die anderswo <pb n="120" facs="#f0011"/> bestimmt
+            nur eine Armesünderglocke wäre. Und ganz nahe; wie draußen vorm Fenster. Alle bekreuzen
+            sich; beten. Wie die Glocke aufgehört hat zu läuten, bekreuzt man sich wieder und
+            wünscht sich allgemein und laut einen Guten Abend.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>als überlange Beterin, verspätet.</stage>
+               <p>Gun Abend. <stage>Dann zu Heinrich, in bezug auf den Vater.</stage> Seit wann denn
+            beten Juden wie wir und machen Kreuz – genau wie Katholiken?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>sofort einschnappend.</stage>
+               <p>Das hab ich Ihnen schon so oft gesagt –! Wie oft werd ich Ihnen denn das sagen müssen?
+            – Mein Vater ist kein Jud nicht, Fräulein Anna! Die Bauern, die ... die nennen ihn nur
+            so. Und andere nennen ihn den billigen Jakob. –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Ich aber sag dir, Heinz, er ist zwei Juden –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Nein, Fräulein Anna –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Wenn ich es dir sage ... Der schafft heut abend schon soviel Mesumme, wie ich den
+            ganzen morgigen Tag nicht –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Was?</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Nun ja: die Innozenz wird doch gleich kommen! Und was, meinst du, tut Fräulein
+            Innozenz? Die kauft heute von Jakob was sie letztes Mal bestellt hat ... in bar! Und eh
+            sie kauft, bestellt sie schon für nächstens – – –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Das ist doch nur Geschäft! Und das ist schön! – Und Sie, Fräulein Anna, sind doch bloß
+            neidig, weil mein Vater Sie damals nicht geheiratet hat. Ach ja –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>wunde Stelle.</stage>
+               <p>Ist das ein Lausbub –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Sie warn ihm zu alt – etsch, etsch –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>Tränen nahe.</stage>
+               <p>Na wart –</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>kurz.</stage>
+               <p>Nu Heinrich, halt dein Maul –</p>
+               <stage>Stille.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>wiewohl sie stets gern für solchen Stichelkram zu haben ist und lieber selbst den
+            Zielpunkt für alles abgibt, als daß es an einem solchen Abend fad und langweilig werden
+            soll, ist nun doch schwer gekränkt. Sie hat einen Höcker und ist auch <pb n="121" facs="#f0012"/>
+            sonst ein Ausbund an Häßlichkeit. Sie schiebt den Braten weit von sich.</stage>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN</speaker>
+               <stage>brummt etwas. Er möchte gar zu gern in eine mehr oder minder heftige Abkanzelung
+            des jungen Heinrich einstimmen, schon wegen Grafenlotte. Nur wagt er es alleine nicht,
+            aus Furcht vor Jakob.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>aber, wie sie dies merkt – sie mag Lehmann nicht leiden und ist auch sonst leicht
+            versöhnlich – geht sofort auf ein anderes Thema über. Zum Wirt.</stage>
+               <p>Na habts nun einen anderen Schandarmen?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>antwortet nicht.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Der frühere ist nach Breitenberg versetzt?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>antwortet nicht.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>He! Stemplinger!</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>nur ungern.</stage>
+               <p>Na ja – – – – der neue, der – der ist eben nicht der recht, hab ich mir sagen lassen.
+            Noch zu jung. Und viel zu eifrig noch. Na ja. Nämlich – er hat was von frühers aufm
+            Kerbholz, hab ich mir – hab ich mir sagen lassen. <stage>Er macht eine Pause; und möchte
+              zu gern auf ein weniger aktuelles, entfernteres Thema übergehen.</stage> Ich weiß
+            nicht, aber – mich wenigstens erinnert der neue Schandarm grad in einer Tour an unsern
+            letzten Forstassistenten. –</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Der wo den Wilderer niedergeschossen hat – und –</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Der wo den Wilderer niedergeschossen hat – und – und der wo darum, daß er gemeint hat
+            »er müßt einmal ein Exempel statuieren« wie er immer rumgeschrieen hat. Der wo darum,
+            daß er gemeint, er müßt mal einen von den Wilderern niederschießen, der wo darum nachher
+            selber hat dran glauben müssen. Na ja ...</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Wie wir den Wilderer begraben haben ... warts ihr da nicht grad da? War da nicht grad
+            Markt, wie das Leichenbegängnis war vom Wilderer? – so groß und so schön, wies sonst nur
+            ein Bezirksamtmann hat ... Und dazu offene Drohungen am <pb n="122" facs="#f0013"/> offenen Grab: »Der
+            Herr Forstassistent, der geschniegelte, der soll sich nur ja nimmer alleinig naustrauen
+            in'n Wald« ...</p>
+               <p>Daraufhin ist dem Assistenten, das wissen wir ganz genau, vom Forstamt dringend
+            nahgelegt worn, daß wenn er heut drum eingibt, er morgen schon von Hauzenberg weg
+            versetzt wird. Und aber hats nicht tan, der Assistent, und hats eben büßen müssen. Na ja
+            ... Wir denken uns die Sache so: Das Gericht weiß den Bauern längst, der wo den
+            Assistenten niedergeschossen hat – und tut nur so, als obs nix wüßte, das Gericht – – –
+            – Na. Na ja. Na ja ...</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Und ... der Schandarm?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>zögernd.</stage>
+               <p>Der Alte? Der war gut.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Nein, nein, der Neue!</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>bauernschlau.</stage>
+               <p>So, ah so, der neue ... Na, von dem red ich doch –</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Was ist mit dem?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>nickt erst nur. Dann.</stage>
+               <p>Genau so einer wie der Assistent. Es sind Soldatenköpf.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>War da was?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Mit – Innozenz?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>nickt.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Ja, aber ... lassen sich das die andern ... laßt sich das die G.m.b.H. so ohne weiteres
+            gefallen?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Das ging ... man kann darüber denken, wie man will ... aber das ging alles seinen Gang.
+            Und jetzt auf einmal – – – – ein Soldatenkopf! – – – – Erst fing die Kommandantin mit
+            ihm an. Ein Techtelmechtel. Das ist auch so eine hab ich mir sagen lassen. Na. Na ja
+            ...</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Im Grunde ists auch eine Schweinerei! <stage>Da möchte sie aber den Ausdruck – aus mehr
+              als einem Grunde – schon wieder rückgängig machen. Trieb sies doch früher selber auch
+              nicht anders.</stage>
+               </p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>tritt ein, alle grüßen. Er antwortet nicht.</stage>
+               <p>Herr Stemplinger.</p>
+               <pb n="123" facs="#f0014"/>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>es ist ihm kaum zuzutrauen, so ungewöhnlich kalt entgegnet er dem Gendarm.</stage>
+               <p>Na ja. Was ist?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Ein Wort nur!</p>
+               <stage>Die beiden ab. Im Hinausgehen mustert der Gendarm die Dasitzenden und grüßt nur mit
+            einer Handbewegung nach der Mütze. Die Kaufleute aber grüßen nicht wieder.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>nach einer Weile.</stage>
+               <p>Da sag ich mir das eine: Vorsicht, Vorsicht! ... Der Mensch hat ein Gesicht – vielmehr:
+            der Mensch, der macht euch ein Gesicht ... Na, Gott sei dank, der Kommandant ist,
+            gottlob, auch noch da.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>schon wieder mehr neckend, neckisch-drohend.</stage>
+               <p>War nicht so übel, wenn der Ihnen die Marktschreierei ein wenig legen tat!</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>lacht gutmütig.</stage>
+               <stage>Schweigen.</stage>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Was ist auch eigentlich mit Innozenz? Man hört nix Gewisses! Wissen Sies?</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Der Jakob weiß es.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Pst.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>zögert.</stage>
+               <p>So genau weiß ich es auch nicht! – Der! – <stage>Sie deutet auf Jakob.</stage>
+               </p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Was der Schandarm mit ihr hat, weiß ich auch nicht – ganz kurz gesagt ... du, Heinrich,
+            geh mal raus und sag dem Hansl, er soll mir die Kiste, die eine, weißt du –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>erlöst.</stage>
+               <p>Ja. <stage>Springt davon.</stage>
+               </p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Die Innozenz – – – – einige sagen, frühere Krankenschwester. Andere sagen, frühers im
+            Bordell – – ihr wißt doch, wie in Nürnberg und in Linz. Nun gut: sie kam hieher. Soll
+            auch von hier gebürtig – was weiß ich! Der Apotheker verkaufte ihr den alten
+            Kupferhammer, wo es nachts umgehen soll – – – und nun ist sie die Maitresse <stage>Er
+              spricht Maitresse wie im: Monat Mai.</stage> von sieben oder acht Honorationen von
+            hier!</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Ach gehn S'!</p>
+               <pb n="124" facs="#f0015"/>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Ja! Ja!</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Nein gehn S'!</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Ja Ja!!</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Ach gehn S'! – Maitresse!! Nein – Maitresse!! Gehn S'!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>im Jagdkostüm und mit Gewehr, tritt ein.</stage>
+            </sp>
+            <sp who="#jakob #heinrich #lehmann #anna">
+               <speaker>KAUFLEUTE.</speaker>
+               <p>Guten Abend, Herr Apotheker.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>freundlich, beinahe glücklich.</stage>
+               <p>Gun Abend allerseits, schön guten Abend.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Wohl von der Jagd, Herr Apotheker?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>N – Ja – <stage>Ab nach dem Hinterzimmer.</stage>
+               </p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>zurückkommend, und für den Apotheker einschenkend.</stage>
+               <p>Die ... Innozenz ist da.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>will auf.</stage>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>bedeutet ihm: noch nicht.</stage>
+               <p>Und der Schandarm, mit dem ich draußen stand, mit einmal auf sie zu. Als wie ein
+            Wilder. – Ich glaube, sie hat Angst vor ihm. Na ja ... und hinterdrein der Apotheker,
+            der, ich glaube, mit Innozenz hergekommen ist. Alsdann ... <stage>Mit dem Bier nach dem
+              Hinterzimmer ab.</stage>
+               </p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Was liegt das alles mir an? Ich verkauf meine Ware – ganz egal ob –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Ob der Apotheker für die Innozenz bezahlt oder der Schandarm?</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>zurückkommend.</stage>
+               <p>Der Apotheker muß ... durchs Hinterzimmer jetzt draußen im Hof sein. – Na. Na ja
+            ...</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>tritt eilig ein, sieht sich fragend um. Mit erzwungener Freundlichkeit.</stage>
+               <p>Gun Abend!</p>
+            </sp>
+            <sp who="#jakob #heinrich #lehmann #anna">
+               <speaker>ALLE.</speaker>
+               <p>Guten Abend! Herr Kommandant!</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>nach dem Hinterzimmer ab.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>tritt ein.</stage>
+               <p>Ein Schnaps, Herr Wirt.</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT.</speaker>
+               <p>Na ja ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>seine Bewegung bemeisternd.</stage>
+               <p>'s ist höllisch kalt, das –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Jaja, 's ist grad nicht warm –</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>verweisend.</stage>
+               <p>Na na – September – <stage>Stellt den Schnaps hin.</stage>
+               </p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>wirft Geld auf den Tisch.</stage>
+               <stage>
+                  <pb n="125" facs="#f0016"/> Der Braumeister, der Feuerwehrhauptmann Kaufmann Zirngibl treten
+            ein.</stage>
+            </sp>
+            <sp who="#braumeister">
+               <speaker>BRAUMEISTER</speaker>
+               <stage>durch die Tür hinausrufend.</stage>
+               <p>Da gehts rein! allemal noch bei der Tür gehts rein, Herr Lehrer! Und nicht hinten
+            herum!</p>
+            </sp>
+            <sp who="#zirngibl">
+               <speaker>ZIRNGIBL.</speaker>
+               <p>Wo ... wo is er denn, der Herr Lehrer?</p>
+            </sp>
+            <sp who="#braumeister">
+               <speaker>BRAUMEISTER.</speaker>
+               <p>Grad als ob er selber noch einer von seinigen Feiertagsschülern war, die wo noch nicht
+            ins Gasthaus gehen dürfen, grad so tut er der Herr Lehrer – – – – schleicht sich hinten
+            rum! – Guten Abend!</p>
+            </sp>
+            <sp who="#jakob #anna">
+               <speaker>JAKOB UND ANNA.</speaker>
+               <p>Guten Abend! – guten Abend, Herr Feuerwehrhauptmann!</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Guten Abend, Herr Hauptmann!</p>
+            </sp>
+            <sp who="#zirngibl">
+               <speaker>ZIRNGIBL.</speaker>
+               <p>Gun Abend, Herr, Gun Gun Gun Abend alle miteinand! – <stage>Seine Zitterhände halten
+              krampfhaft eine mehr als übergroße Meerschaumspitze in wunderlicher Modellierung. Zu
+              den Dasitzenden.</stage> Nur: sagn S' net immer Feuerwehrhauptmann. Dös is a
+            Ehrenstellung und kein Name. – Na, und <hi rendition="#i">bloß</hi> Hauptmann dürfen S' gleich net
+            sagn! Nein ... <hi rendition="#i">Er ist König.</hi>
+               </p>
+               <stage>Braumeister, Zirngibl, Wirt nach dem Hinterzimmer ab.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>– – Da kommen sie wie läufige Hunde an – um eine Matz! – – – <stage>Er möchte das
+              Gesagte durch einen nachträglichen künstlichen Hustenanfall verdecken.</stage>
+               </p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>kommt zurück.</stage>
+               <p>Der Hansl hat alles schon hergerichtet, Vater.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>erscheint in der Tür des Hinterzimmers.</stage>
+               <p>Herr Jakob. <stage>Feierlich, fast geheimnisvoll.</stage>
+               </p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Wie? Herr Apotheker? – Ja ... <stage>Ab.</stage>
+               </p>
+               <stage>Schweigen.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Na, Heinrich, nun macht er wieder einen schönen Vorabend – Reibach, dein Alter.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>unteroffizierhaft.</stage>
+               <p>'s ist unerlaubter Handel. Jetzt. Nach neun.</p>
+               <pb n="126" facs="#f0017"/>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Wie? Ja? Gewiß!! – Und doch ... wenn sie nicht zahlt ...?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Wenn Fräulein Innozenz erst morgen zahlt? ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Dann ists – Umgehung! – auf jeden Fall –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Und überhaupt! – Wenns dem Herrn Kommandanten recht ist –</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>fast höhnisch.</stage>
+               <p>Der Kommandant! <stage>Kurz.</stage> Haben Sie Pässe?</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Wir?</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Ich?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Mein Vater??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>
+                  <hi rendition="#i">Ich</hi> hab Patrouille – <hi rendition="#i">ich</hi> – und <hi rendition="#i">nicht</hi> der
+            Kommandant.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Das ist ein bißchen haarig! – Ich komm nun zwanzig Jahre in den Ort – – – – –</p>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANN.</speaker>
+               <p>Ich auch –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>empört.</stage>
+               <p>Der Herr Schandarm sind mißgelaunt und möchten nun die schlechte Laune an uns
+            auslassen. Das könnt mir so gefallen. – Mein Vater selig war Beamter. Und mein Bruder,
+            der wird Jurist. Verstehen Sie? Jurist. – Mir haben schon Schandarmen nie keine Pässe
+            abgefordert, Schandarmen, die wo heute Oberkontrolleure sind! – Übrigens, ich glaub, ich
+            weiß, wieso Sie so schlecht gelaunt sind – –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich will zum Vater –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Heinrich, du bleibst da.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>tritt aus dem Hinterzimmer. Hinter ihr Jakob. Wie sie den Gendarm sieht, will sie
+            zurück. Sie ist wie hierzulande angezogen: Kopftuch. Zierschürze. Halstuch. Am Arm ein
+            Körbchen. Glattes Haar. Langes Gesicht. Nonnenausdruck. Langsam in jeder Bewegung.
+            Charakteristikum: Sehr selten, und dann nur ganz scheu eine Kopfwendung; entweder ist es
+            mit Augenverdrehen gerade noch zu erreichen, oder es dreht sich der ganze Körper dahin.
+            Stiernackig ... Zu Jakob.</stage>
+               <p>Und also ... stimmts?</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Ich danke schön.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Es stimmt?</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Es stimmt, es stimmt, es stimmt, – es stimmt ganz genau.</p>
+               <pb n="127" facs="#f0018"/>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Und hier – der Zettel –?</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Oh ...! Wird treu besorgt – wird treu besorgt – und danke auch für den Auftrag.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>der es darum zu tun ist, so schnell wie möglich von hier fortzukommen.</stage>
+               <p>Ja so ... jetz hab ich mein Paket vergessen ...</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>nichts ahnend.</stage>
+               <p>Soll ich es holen, Fräulein Innozenz?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>ängstlich und trotzdem herausfordernd.</stage>
+               <p>Er will dein Paß!</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Wer?</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Der Schandarm!</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Mein Paß? <stage>Aufs höchste erstaunt. Dann.</stage> – Hier.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>kämpft mit sich selber. Da hält er nun das in der Gereiztheit Geforderte und stiert
+            darauf hin. Bange Pause. Dann zieht er mechanisch sein Notizbuch, schreibt auf.</stage>
+               <p>Sie sind angezeigt – – – hier ist Ihr Paß.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>von fern. Zum Gendarm.</stage>
+               <p>Du ...!</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>hat jetzt erst begriffen. – Schreit.</stage>
+               <p>Zwanzig Jahre komm ich in den Ort! Seit zwanzig Jahren kennt mich jedes Kind im ganzen
+            Wald! Nun kommt so'n –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Jakob, still!</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>»Nun kommt son« – was für einer? – redts Euch aus! – was kommt für einer? was für
+            einer? He?? – da kommt ... son Bandelkramer ... <stage>Schreit.</stage> Was für einer??
+            Euch treib ich Eure Mucken schon noch aus – – – ich hab mir ein gewissen Hinterhalt –
+            jaa, die den Assistenten niederknallten – <stage>Er lügt; sein Notizbuch wieder
+              herausreißend.</stage> Vielleicht steht davon auch schon was drinn – – – – Na – zudem
+            ihr; und dann die Bauern, die Vertreter des Gesetzes übern Haufen schießen – na wartet,
+            wartet. Haha!</p>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>tritt aus dem Hinterzimmer.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>schreiend.</stage>
+               <p>Herr Kommandant! Herr Kommandant!! <stage>Zum Gendarm.</stage> Ich bin Passauer Bürger,
+            war Geschworner am Schwurgericht zu Straubing voriges Jahr – – – – <stage>Schreit
+              nochmal.</stage> Herr Kommandant!</p>
+               <pb n="128" facs="#f0019"/>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>nach hinten rufend; kalt.</stage>
+               <p>Herr Kommandant!</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>tritt ein.</stage>
+               <p>Was ist? <stage>Auch die andern vom Hinterzimmer erscheinen nun in der Tür.</stage>
+               </p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Er schreibt mich auf ... er zeigt mich an ... weil ich der Innozenz eine Bestellung hab
+            – vor Euern eigenen Augen – abgeliefert –</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>finster.</stage>
+               <p>Na na –</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Und schreit mit recht großem Mund noch Gott weiß was herum – vom Assistenten, den wo
+            man totgeschossen – er wüßt schon wer – er hätt es schon im Buch.</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Und Sie Herr Kommandant, Sie hätten im Vergleich zu ihm überhaupt nichts zu sagen –</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT.</speaker>
+               <p>Ich gebe Ihnen dienstlichen Befehl!</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>will reden.</stage>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>laut, drohend.</stage>
+               <p>Kein Wort – oder – Sie wissen nicht, was darauf steht! – – – – Ist Ihnen hier der
+            Posten noch zu gut??</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>die eine große Kenntnis in solchen Sachen zu haben scheint.</stage>
+               <p>Strafposten – Ha. Schon Strafposten. Ha!</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT.</speaker>
+               <p>Ruhe!! <stage>Zum Gendarm.</stage> Stubenarrest. Von jetzt bis morgen früh. Ich geh den
+            Rundgang selber für Sie ab. Stubenarrest. Und – abgetreten! Marsch!!</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>zischend.</stage>
+               <p>Schickt mich – zu Euerm eigenen Weib – ins Bett –</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>taumelt zurück.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Und geht – mit Innozenz – zum Kupferhammer.</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>schlägt ihn ins Gesicht.</stage>
+               <stage>Alles schreit auf.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>reckt sich hoch ... und geht.</stage>
+               <stage>Pause.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>leise.</stage>
+               <p>O Gott, o Gott –</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>mit ganz und gar veränderter Stimme zu Innocentia.</stage>
+               <p>Geh da hinein – – – –</p>
+               <pb n="129" facs="#f0020"/>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>geht.</stage>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>einigermaßen seine Fassung wieder erringend.</stage>
+               <p>Und ihr – Herr Jakob, Fräulein Anna und Herr Lehmann – und du Herr Stemplinger: 's ist
+            unter uns ... 's ist strengstens unter uns! <stage>Sein Blick weicht den anderen aus; er
+              droht übermäßig, um sich selbst ein Ansehen zu geben.</stage> Der Kerl ist verrückt –
+            ich werds ihm zeigen – – – <stage>Nach dem Hinterzimmer ab.</stage>
+               </p>
+               <stage>Schweigen.</stage>
+            </sp>
+            <sp who="#wirt">
+               <speaker>WIRT</speaker>
+               <stage>leise.</stage>
+               <p>Na ja ...</p>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="130" facs="#f0021"/> Die dritte Szene</head>
+            <stage>Polizeiwache, im ersten Stock. Dienstraum. Mit Matratze des Gendarmen. Links
+          anstoßend die Kommandantenwohnung. Rechts zwei geöffnete Fenster.</stage>
+            <stage>Sonntag morgen.</stage>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>sitzt brütend da.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNAS STIMME</speaker>
+               <stage>durch die offenen Fenster herauf.</stage>
+               <p>Ein seidenes Kopftuch? Einen schönen Schal? – Gehn S' a bissel her, Frau Nachbarin! – –
+            – –</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOBS STIMME.</speaker>
+               <p>– – – – Geschäft, Leutche, Geschäft! Es sin nur noch e Paar Hose da. – Gleich fängt der
+            Gottesdienst an ... da müßt ihr bete geh! – Und nachm Gottesdienst kriegt ihr keine
+            mehr. Da gibts'n annern schönen Artikel. – – – –</p>
+               <stage>Stimmen – – – –.</stage>
+               <stage>Musik von Ferne. Näher kommend, Pistolenschüsse, Böller, Glockengeläute, der
+            Festzug. Übrigens ... der fünfte Musikant soll noch immer nicht gesund sein. Macht
+            nichts.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>steht auf und schließt das Fenster.</stage>
+               <stage>Frau Kommandant, hinter ihr Heinrich, treten ein.</stage>
+            </sp>
+            <sp who="#kommandantin">
+               <speaker>KOMMANDANTIN</speaker>
+               <stage>mürrisch.</stage>
+               <p>So, hier herein. Da ist dein Herr Schandarm ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>zu Heinrich.</stage>
+               <p>Was willst du?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Pscht ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Was willst?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>artig und listig zugleich.</stage>
+               <p>Frau Kommandant ... Ich bin ja sonst Student. Heut helf als Kaufmann dem Vater ich. Und
+            ... hab auch sonst kein Zeit. – – – – Ich muß den Herrn Schandarm unter vier Augen
+            sprechen.</p>
+            </sp>
+            <sp who="#kommandantin">
+               <speaker>KOMMANDANTIN</speaker>
+               <stage>voller Haß.</stage>
+               <p>Der Rotzbub!</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>sieht sie groß an.</stage>
+               <p>Laß ihn! Geh hinaus!</p>
+               <pb n="131" facs="#f0022"/>
+            </sp>
+            <sp who="#kommandantin">
+               <speaker>KOMMANDANTIN</speaker>
+               <stage>ab, die Tür hinter sich schließend.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>ungewöhnlich laut; mit Blicken nach der Tür.</stage>
+               <p>Ich führe auch ein Tagebuch. Und seit gestern kommen Sie drin vor.
+              <stage>Leiser.</stage> Das sagt ich nur so – so, damit die nicht noch an der Türe
+            horcht. Übrigens führe ich wirklich Tagebuch. Ja ... <stage>Sehr laut.</stage> Das
+            Geschäft? Oh danke! Sehr zufrieden! – – – <stage>Zieht einen zusammengefalteten Zettel
+              heraus, leise.</stage> Von Innozenz ... Sie gab mirs gestern abend. <stage>Sehr
+              laut.</stage> Empfehl mich, empfehl mich, Herr Schandarm! <stage>Steht in der
+              geöffneten Tür. Kämpft. Wird übermannt. Dicke Tränen.</stage> Und ... nun ... die
+            Anzeig ... von meinem Vater ... die nehmen Sie zurück?? <stage>Entspringt.</stage>
+               </p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>starrt lange auf den Zettel. Legt ihn hin.</stage>
+            </sp>
+            <sp who="#kommandantin">
+               <speaker>KOMMANDANTIN</speaker>
+               <stage>tritt wieder ein, vorschützend.</stage>
+               <p>Ich geh in die Kirche. – – – – Sie bleiben da?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Ja.</p>
+            </sp>
+            <sp who="#kommandantin">
+               <speaker>KOMMANDANTIN</speaker>
+               <stage>häßlich.</stage>
+               <p>Warum magst du mich nicht mehr? – Was hab ich dir denn getan??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>antwortet nicht.</stage>
+            </sp>
+            <sp who="#kommandantin">
+               <speaker>KOMMANDANTIN</speaker>
+               <stage>ab.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>liest wieder den Zettel. Legt ihn wieder hin.</stage>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>kommt nach einer Weile. Geht umher. Er trägt das Eiserne Kreuz. Er möchte gern
+            fragen, ob seine Frau zur Kirche ist. Endlich redet er. Es kommt aber nicht so heraus,
+            wie ers möchte. Er muß sich nach dem ersten Satz räuspern.</stage>
+               <p>Wir ... wir haben uns gestern abend noch ... beraten. – Der Apotheker nimmts auf sich,
+            mit Ihnen zu reden. <stage>Da verlegt er sich auf ein anderes Thema und erlangt dadurch
+              von Satz zu Satz mehr den alten dienstlichen Ton.</stage> – – – – Und ... was die
+            Sache mit dem oder den Mördern des Forstassistenten anbelangt, so sieht man es an
+            höherer Stelle nicht gern, daß dem heute noch nachgespürt wird. – Hab ich Ihnen das
+            übrigens noch nicht gesagt? Noch nie? Das gehört mit zu Ihrer Instruktion! Verstanden!?
+            – Vielleicht kennt man an höherer Stelle den Mörder ... Zum mindesten! ... und das
+            längst! ... genauer wie Sie! – Die <pb n="132" facs="#f0023"/> Sache kam damals einem offenen Aufruhr
+            gleich. Die Sache soll niedergeschlagen bleiben ... so wie sie ist! Verstanden!? – – – –
+            Und ... na ich hoffe bestimmt ... daß der Apotheker und Sie ... in einer ganz gewissen
+            andern Sache ... ebenfalls – – – – <stage>Nach hinten.</stage> Ja? – – – – <stage>Zum
+              Gendarm.</stage> Der Apotheker ... Ich bin so lange unten auf dem Markt ...
+              <stage>Ab.</stage>
+               </p>
+               <stage>Apotheker tritt nach einer Weile ein. Sonntagsanzug.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>springt auf. Schreit, indem er durch die Fenster deutet.</stage>
+               <p>Jetzt ist Kirche! Jetzt darf nichts verkauft werden! – Selber müßt ich mich anzeigen,
+            wenn ich mich jetzt Ihnen verkaufen wollte!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>mit einer gewissen Würde.</stage>
+               <p>Was heißt denn verkaufen? Ja was heißt denn das, daß »Sie sich jetzt selber verkaufen
+            sollen«?! – Wer sagt Ihnen denn das? – Sie würden sich doch nur selber verkaufen, falls
+            ich etwa gekommen wäre, um Ihnen zu sagen, daß wir andern etwas wie ein Verein sind, der
+            etwa meinetwegen ... meinetwegen wie Innocentia heißt und daß wir gestern in einer
+            außerordentlichen Versammlung beschlossen haben, daß Sie, Herr Schandarm, jetzt in
+            unserm Verein als aktives Mitglied aufgenommen werden sollen? – Ja, wenn ich darum
+            gekommen war und Sie auf die Mitgliedschaft eingehen würden, dann könnte man davon
+            reden, daß Sie sich verkauft hätten, verraten und ausgeliefert – – – oder gar etwa als
+            Ehrenmitglied – wie? – ohne jeden Monatsbeitrag – – – – Aber deswegen bin ich nicht
+            gekommen. Nein, nein, nein. Um Sie zu bestechen – Sie mit dem Angebot einer aktiven oder
+            gar Ehrenmitgliedschaft zum Schweigen zu bringen – dazu bin ich nicht gekommen. Daß Sie
+            nicht zu unserm nicht eingetragenen und deshalb strafbaren Verein gehören, das sollen
+            Sie ruhig vor uns voraushaben.</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Ich bin vielmehr gekommen, um Sie etwas zu fragen, das wir von Ihnen denken müssen und
+            doch nicht glauben wollen – – – Na kurz: ich bin gekommen, um Sie zu fragen, obs
+            wirklich <pb n="133" facs="#f0024"/> wahr ist, daß Sie nun endlich offen mit Anzeige drohen? – Lassen
+            Sie uns ruhig darüber reden –! – Daß Sie nun endlich offen mit Anzeige drohen, trotzdem
+            oder vielleicht grade weil Sie seit gestern abend beim Stemplinger so ziemlich alle,
+            aber auch so ziemlich alle Waffen aus der Hand gegeben haben und nur noch eine besitzen,
+            die sich aber im Grunde gegen Sie selber kehrt – – – –</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Hm??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Wie meinen Sie??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Was??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>So zeigen Sie uns doch an?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Das ... tu ich!!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Also wirklich??</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Schau mal an?!</p>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <p>Nachdem Sie das bestimmt vorhaben, uns anzuzeigen, sind Sie wohl nicht der Meinung, daß
+            wir dann frei ausgehen werden ... wie? Im Gegenteil. Da sind Sie doch wohl der Meinung,
+            daß der Kommandant dann zum Beispiel auf der Stelle ... ganz zu gleicher Zeit mit Ihnen
+            ... davongejagt wird? Und mir? Mir die Konzession der Apotheke entzogen wird? Der
+            Braumeister entlassen? Der Lehrer ... na, der erst! Und der alte Zirngibl seiner
+            Ehrenstellung als Hauptmann der Freiwilligen Feuerwehr enthoben wird? Ja? Na sicher! –
+            Sie sehen, ich nehme überall das Schlimmste an, das Sie dabei annehmen können! – Wenn
+            Sie uns also anzeigen, dann – dann fliegen Existenzen, Ämter und Ehrenstellungen nur so!
+            Wie? Dann ist ein ganzer Marktflecken an Ehre und Ansehn so ziemlich bankrott? Auf Jahre
+            vielleicht. Und vier oder fünf ... sieben oder acht Familien zerstört? Von Grund auf! –
+            – – – <pb n="134" facs="#f0025"/> Sagen Sie mal, glauben Sie, daß das dann so ist? Ja?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Ja.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Und – wollen Sie das?? Können Sie das wollen??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Nein ... Aber was geht <hi rendition="#i">mich</hi> das an? Das kann ... nebenher ... wohl der
+            Fall sein. Ich will es eigentlich <hi rendition="#i">nicht</hi> ... aber ... nur ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Nur ist das sozusagen eine Begleiterscheinung, wollen Sie sagen?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>antwortet nicht.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>ohne viel Spitze.</stage>
+               <p>Das wissen Sie nicht, <stage>Mit dem Ton auf nicht. – Kleine Pause.</stage> – was das
+            ist? Eine »Begleiterscheinung« ist also ... wenn Sie uns anzeigen ... eingesperrt täten
+            wir natürlich deswegen nicht werden ... ist also ... wenn Sie uns anzeigen ... daß wir
+            dann, ohne eingesperrt zu werden, dennoch alle ins tiefste Unglück kommen. Nicht?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Ja.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Und das, sagten Sie soeben, wollten Sie selber nicht? Das wäre nicht Ihre Absicht? Das
+            käme ... nur nebenbei so ... von selber?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Ja. Ob das aber so kommt oder nicht ... das soll mir <hi rendition="#i">gleich</hi> sein ... das
+            ist mir gleich. Anzeigen ... anzeigen tue ich es deswegen <hi rendition="#i">doch</hi>!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>wird ungeduldig und spitzig.</stage>
+               <p>Vielleicht ist es Ihnen doch nicht so ganz gleich, wie Sie da sagen. Denn sonst täten
+            Sie ... mit Rücksicht auf diese Begleiterscheinung ... die Anzeige doch wohl
+            unterlassen.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>denkt angestrengt nach. Es ist eine verteufelte Sache mit diesem Apotheker. Der
+            redt fast wie ein Staatsanwalt oder Verteidiger. Endlich.</stage>
+               <p>– – – – Nein. Damit fangen Sie mich nicht. Ich laß mich nicht mit solchen Fragen
+            fangen. Sie sind ... gegen mich ... ein studierter Mann; aber deswegen fangen Sie mich
+            mit so etwas <hi rendition="#i">doch</hi> nicht.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>schwenkt, ein wenig absichtlich, vom Thema ab.</stage>
+               <p>– – – So. Ja ... aber ... wenn Sie es deswegen nicht tun ... dann müssen Sie doch einen
+              <hi rendition="#i">andern</hi> Grund haben?</p>
+               <pb n="135" facs="#f0026"/>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>vorsichtig-trotzig.</stage>
+               <p>Nun natürlich! <hi rendition="#i">Hab</hi> ich auch!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Darf ich fragen ... was für einen?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Das <hi rendition="#i">sag</hi> ich nicht.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Wie?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Das ... sag ich natürlich nicht!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Ich denke aber, <hi rendition="#i">soviel</hi> müßten wir Ihnen doch wenigstens wert sein, daß Sie
+            uns den <hi rendition="#i">Grund</hi> sagen!</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Wieso? Das brauch ich doch nicht! Der Grund, den ich hab, der ist und gilt doch nur für
+            mich und braucht für ander Leut nicht zu gelten. – Wenn ich als Schandarm jedem
+            Landstreicher oder Bettler genau meine Gründe auseinandersetzen müßte –</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Landstreicher oder Bettler? – Na aber hören S', Herr Schandarm. Ein Landstreicher oder
+            Bettler, da ists doch ganz was anders! – Einen Landstreicher oder Bettler verhaften S'
+            und zeigen S' doch net aus – Eifersucht an? <stage>Läßt das Wort fallen, wie eine
+              halbseidene Dame ein Taschentuch fallen läßt, auf daß es der hinter ihr gehende Herr,
+              die Wurzen, aufhebt.</stage>
+               </p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>lacht gequält.</stage>
+               <p>Eifersucht?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Nun ja, das ist doch Ihr Grund.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Eifersucht?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Sie wollen – – – – – die Innozenz ganz allein für sich haben.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>stumm.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Sie wollen um keinen Preis, daß sie nicht noch uns andere hat ... den Kommandanten,
+            mich, den Braumeister, den Lehrer, na und schließlich auch noch den alten Zirngibl
+            ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>scharf.</stage>
+               <p>War das so unrecht, wenn ich das um keinen Preis wollte?</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>sieht ihm offen ins Gesicht.</stage>
+               <p>Nein. Aber – – – was haben <hi rendition="#i">Sie</hi> für ein Recht dazu? Sagen Sie mir um Gottes
+            willen – was haben <hi rendition="#i">Sie</hi> für ein anderes Recht dazu als wie – – – als wie
+            dies bißchen Notizbuch, das Ihnen vorschriftsmäßig-blöd zwischen dem vierten und
+            sechsten oder dritten und fünften Knopf Ihres Waffenrocks steckt?</p>
+               <pb n="136" facs="#f0027"/>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Wenn ich kein anderes Recht dazu habe, dann habe ich wenigstens immer noch dieses
+            Notizbuch.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>bezwingt sich, wenn auch mit sichtlicher Mühe. Es gelingt ihm nur vorerst nicht
+            ganz.</stage>
+               <p>Dieses Notizbuch! – Dieses Notizbuch, das – das ist wohl Ihr Wappen, was? Das ist das
+            Bündel mit dem Beil, das die ... die Liktoren ... aber was verstehen Sie von Liktoren! –
+            – – – Dieses Notizbuch, das nennen Sie »von Gott und Gesetz wegen«, was? – – – – Nur
+            glaub ich nicht, daß weder »Gott« noch »Gesetz« allzusehr mit Ihnen zufrieden sein
+            dürften! – – – Mir scheint nämlich, daß Ihnen Ihr Notizbuch ein bißchen gar zu sehr am
+            Herzen liegt – grad als ob Ihr Herz und Ihr Notizbuch ein Geschäftchen miteinander
+            machen möchten. – – – – – Passen Sie nur auf, daß es Ihnen dabei nicht geht als wie
+            demselbigen kleinen Kind mit dem scharfgeschliffenen Rasiermesser. <stage>Erst jetzt
+              gelingts ihm ganz.</stage> – – – – – – Also – – – – also – – wenn wir nun täten, was
+            der junge Lehrer gestern in unserer Versammlung vorgeschlagen hat? Nämlich, der junge
+            Lehrer, der hat gestern in unserer Versammlung vorgeschlagen, wie das wohl wäre, wenn
+            wir Ihnen die Innozenz <hi rendition="#i">freigeben</hi> würden? Nun ja doch, die Innozenz ist
+            absolut nicht an uns gebunden ... und der Lehrer meint, Sie versuchten all das
+            vielleicht nur mit uns, damit wir Ihnen helfen, die Innozenz zu Ihnen herüberzubringen?
+            Wenn ... wenn Sie sie also ganz allein hätten? Was glauben Sie, was da würde? –
+              <stage>Überrumpelt ihn, wie er ein überraschtes Gesicht macht.</stage> Das ist aber
+            komisch! Ich hab von gestern abend bis zu diesem Augenblick mehr als in einem gerade
+            über diesen Punkt nachgedacht – und Sie noch nicht, Sie selber noch gar nicht im
+            geringsten. Denn das seh ich Ihnen an. Das sieht man doch! – Also ... denken Sie mal
+            darüber nach! Und was glauben Sie ... Sie würden sie also heiraten ... was glauben Sie,
+            daß das würde? Nun??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Wie meinen Sie? Ich kenne die Innozenz besser wie Sie. Glauben Sie das?</p>
+               <pb n="137" facs="#f0028"/>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>ihm fällt der Zettel ein.</stage>
+               <p>Mag sein ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>brutal.</stage>
+               <p>Also ... so <hi rendition="#i">heiraten</hi> Sie sie doch!?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>geht vorsichtig umher. Er ist im wahrsten Sinn des Wortes in die Enge getrieben.
+            Und dann der Zettel. Er bleibt zuletzt in einer Ecke stehn.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>wie mitleidig.</stage>
+               <p>Mensch, Mensch, Mensch –</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>starrt zu Boden.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>wieder ganz sachlich.</stage>
+               <p>Rekapitulieren wir ... Erstens die Begleiterscheinung, die ... die ... die ... die ans
+            Unmenschliche grenzt. – <stage>Bitter.</stage> Was Begleiterscheinung ist, hab ich Ihnen
+            bereits erklärt. Soll ich Ihnen jetzt auch noch erklären, was unmenschlich ist?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Wenn Sie auch meinen ... aber für so dumm brauchen Sie mich doch nicht halten. Ich hab
+            Ihnen schon gesagt, daß mich das nichts angeht. Das ist eben das Gericht. Wenns zur
+            Verhandlung kommt. Das ist die Verhandlung.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Ah ... das »Gericht«, Herr ... Herr Notizbüchel! »Wenns zur Verhandlung kommt«! »Das
+            ist die Verhandlung«! <stage>Kleine Pause.</stage> – Wie oft soll ich Ihnen denn noch
+            sagen, daß die Begleiterscheinungen genau dieselben sind, auch wenn uns das Gericht
+            freispricht? Und das Gericht würde uns ... nicht zuletzt Ihretwegen ... mehr oder
+            weniger freisprechen. Das Gericht <hi rendition="#i">müßte</hi> uns sogar freisprechen ... und
+            trotzdem würde der Kommandant – gleich hinter Ihnen – davongejagt werden; trotzdem mir
+            die Konzession der Apotheke entzogen; trotzdem der Braumeister entlassen; und der Lehrer
+            – na der erst; und trotzdem der alte Zirngibl seiner Ehrenstellung als Hauptmann der
+            Freiwilligen Feuerwehr enthoben werden. – Sie reden fortwährend vom »Gericht«,
+            verschanzen sich fortwährend hinter »Gerechtigkeit« – nur um zu verdecken, daß Sie nix
+            wie den Skandal wollen!</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>starrt.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Erstens also die Begleiterscheinung, die ans Unmenschliche grenzt. Zweitens – wenn wir
+            Ihrer Eifersucht Ja sagen – Ihre Ehe mit einem Weib, das Sie zum mindesten <pb n="138" facs="#f0029"/>
+            nicht kennen. – <stage>Kleine Pause.</stage> Sehen Sie sich die unglückliche Ehe des
+            Kommandanten an, die seit Sie hier sind, eine noch siebenmal unglücklichere geworden
+            ist. – – – – Übrigens – warum schreiben Sie das nicht in Ihr Notizbuch – wenn Ihr
+            Notizbuch so ... so objektiv ist, wie Sie sich anstellen, Herr Schandarm? – – – – Sie
+            haben den Kommandanten ... Sie allein ... wenn wir uns schon allein auf diesen
+            Standpunkt stellen wollen ... mit viel mehr Unrecht betrogen als wir Sie alle
+            miteinander mit Innozenz ... Ich ... begreife Sie einfach nicht – – – –</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>steht immer noch in der Ecke.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Oder ... ja ... ich begreife Sie! Ich durchschaue Sie ganz genau! Ich weiß, warum Sie
+            sich hier an den Tisch gepflanzt haben und die Anzeige formuliern – – – – <stage>Sieht
+              den offenen Zettel. Nimmt ihn, liest, und liest dann laut.</stage> »Ich hätte dich
+            noch lange lieb gehabt – Innozenz.«</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>verspielt.</stage>
+               <p>Der ist für mich!</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>blitzend.</stage>
+               <p>Der Zettel da? Is nur gut, daß Sie mirs sagen. Denn ... er ist ja nicht adressiert. Wie
+            könnte ich da wissen, daß er an Sie ist? Hätte ebensogut doch auch für mich gewesen sein
+            können ... du lieber Gott ... nicht? Sie hätte Ihnen ja den Zettel auch für mich geben
+            können? Aber ... da Sie mirs selber gesagt haben, da wird er wohl ... hm ... da dürfte
+            er wohl an Sie ... hm ... <stage>Liest noch einmal.</stage> ›Ich hätt dich noch lange
+            lieb gehabt.‹ Unterschrift: ›Innozenz‹. – – – – Na also ... Geben Sie die Anzeige jetzt
+            auf? Oder aber ... geben Sie gerade deswegen die Anzeige nicht auf??</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>der sich bislang an seinem Platz festhalten mußte, um nicht auf den Apotheker
+            loszuspringen, kann sich nicht länger halten. Er springt mit einem Satz als wie ein Tier
+            auf den Apotheker los. Und heulend.</stage>
+               <p>Der ist für mich, daß Sie's wissen, der ist für mich! <stage>Packt ihn an einem
+              Arm.</stage>
+               </p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>spannt den angegriffenen Arm aufs äußerste und stößt so den Gendarmen ein paarmal
+            zurück. Der andere Arm hält ebenso ausgestreckt den Zettel. Beinah lustig.</stage>
+               <p>Das weiß ich, daß er für Sie ist.</p>
+               <pb n="139" facs="#f0030"/>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>zerrt am Arm.</stage>
+               <p>Den Zettel her –</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Willst du erst meine Hand loslassen –</p>
+               <stage>Einen Augenblick Stille. Dann diese beiden letzten Sätze noch einmal, doch so
+            schnell aufeinander, daß sie fast gleichzeitig gesprochen scheinen.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Den Zettel her –</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Willst du erst meine Hand loslassen?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>fährt dem Apotheker an die Kehle. Kampf.</stage>
+               <p>Ihr habt ihn wohl ... diktiert??</p>
+               <stage>Der Zettel flattert nieder.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>droht anfangs zu unterliegen. Mit einem Male kriegt er Oberhand. Er ist auch von
+            Statur der Stärkere. Nun hat er den Gendarmen an der Kehle. Würgt ihn, doch nur so weit,
+            als es nötig ist, um sich den Gendarmen vom Leibe zu halten. Dann aber drückt er
+            allgemach fester zu und stößt folgende Sätze in ganz kurzen Zeitabständen hervor, die
+            aber dem erstickenden Gendarmen Ewigkeiten sein müssen.</stage>
+               <p>Hast du noch Luft? Gar keine mehr? Nein? Nein? Brüderle? Bürschlein? Gar keine mehr?
+            Nicht ein bißchen? Verehrliche Staatsgewalt? Herr Notizbüchel? <stage>Plötzlich, mit
+              einer ungeheuren Wut. Alles bisher Verhaltene scheint in einem einzigen Sturz
+              hervorzubrechen.</stage> – – – – Und du willst einen ganzen Marktflecken in Grund und
+            Boden – – – – <stage>Da hält er inne ... um Gottes willen nicht verraten ... er läßt
+              los.</stage>
+               </p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>taumelt. Halb ohnmächtig. Ein feiner Blutfaden über Stirn und Nase. Ist wohl wo ein
+            Äderchen geplatzt.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>da ist weder Eingelerntes noch Vorsätzliches mehr. Da ist Qual, Ekel, Hölle. Aber
+            keineswegs pathetisch, sondern bauernhaft schimpfend, lärmend. Und falls Dialekt möglich
+            ist, mehr dialektische Färbung denn je.</stage>
+               <p> Bauernkerle, Quadratschädel. Stücker Holz, noch unlebendiger als wie der Wald
+            über uns und um uns, der das Leben von draußen nicht herein – und die Dummheit nicht
+            hinauslassen will. Was weißt du von <pb n="140" facs="#f0031"/> allem? Von allem <hi rendition="#i">nichts</hi>,
+            das weißt du. Denken, denken, denken. <stage>Er schlägt ihn vor die Stirn.</stage> Da
+            ist ein Kerl wie du, der kaum das Abc begriffen hat und vielleicht einmal ein kurzes
+            Vaterunser gedankenlos auswendig gelernt hat ... aufgestellt als Auge des Gesetzes. Mit
+            dem Brett vorm Hirn, mit dem blau und weiß angestrichenen Brett, das mit einem jeden von
+            uns hierzuland wächst und so groß wird, daß man am End bequem den eigenen Sarg daraus
+            machen könnt. Mir haben sies einigermaßen vom Kopf gerissen ... einmal ... weit draußen
+            in der Welt ... Und soll keine kleine Müh gekostet haben. Und hat weh getan ... Die von
+            der Stadt sagen nicht umsonst, gleich hinter uns war die Welt mit Brettern vernagelt.
+            Ich hab Mitleid mit dir, grenzenloses Mitleid, sonst ... Soll ich dir die Augen
+            aufmachen? Könnt ich dir nur die Augen aufmachen! Wenn mir einer eine Latte von meinem
+            Zaun stiehlt, dann mag es deine Pflicht sein, den Dieb zu halten. Wenn ich mir aber –
+            mit andern zusammen – für ein gutes Geld ein Weibwerkzeug kauf und es vor dem blinden
+            Vorurteil so viel wie möglich versteck – und mich daran aus meiner eigenen Dumpfheit
+            erlösen möcht ... was schnüffelst du da und steigst mir über meinen eignen Zaun? Das ist
+              <hi rendition="#i">Mein</hi> ... <hi rendition="#i">Mein</hi> Grund und Boden. Da bin <hi rendition="#i">Ich</hi>
+            Gesetz. Und <hi rendition="#i">pfeif</hi> auf Deinen Paragraphen, der entweder so blöd ist, daß
+            sogar du ihn in deinem eckigen Schädel behältst ... oder den du nie begriffen. <stage>Er
+              geht auf ihn zu.</stage> Wer ... <hi rendition="#i">bist</hi> ... du ... denn ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>mit Haß.</stage>
+               <p>Immer noch der Stärkere. Denn nun zeig ichs erst recht an.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Warum? Doch nur, weil dir das Blut ins Maul rinnt. Auswurf du. Immer dieselbe dumme
+            verbrecherische Boshaftigkeit, die uns allen zum Verhängnis werden soll ... und alle
+            fünf Minuten einen andern Grund. Ach was, Paragraphen. Da hast du mal läuten hören, daß
+            das gegen ... heute vielleicht noch ... gegen das Gesetz ist ... und nun beutest du das
+            aus ... für <hi rendition="#i">dich</hi> Mensch im Operettenkostüm. Idiot. Bestie. Das müßten die
+            Richter mal vor Augen haben. Du gehörst gesteinigt. <pb n="141" facs="#f0032"/> Du bist weder kalt
+            noch warm. Pfaffen und ihr, Blüten des Bayerlands. Die einen falsch, die andern dumm.
+            Holz alle beide. Die einen, die haben so wenig mit dem wahren dreieinigten Gott zu tun,
+            an den ich glaube und vor dem ich mich einst ohne Gericht ganz allein zu rechtfertigen
+            wissen werde ... als ihr mit dem Gesetz. In euern Händen kann der friedlichste Paragraph
+            zum schlechtesten werden. Weißt du, was gut und böse ist? Nein, und woher auch sollst du
+            das wissen? Aber was dein Vorteil ist – was? Das weißt du ... Ja. Volkes Stimme, Gottes
+            Stimme. Warum mißachtet euch der einfachste Bauernknecht und setzt sich nicht mit euch
+            zusammen an einen Tisch: Dem Scharfrichter tat man zu frühern Zeiten damit unrecht ...
+            euch zu allen Zeiten recht. Da drüben ist Messe. Hier war heiligere Messe. Da drüben ist
+            Amt und Predigt. <stage>Es wird hl. Wandlung geläutet.</stage> Da drüben ist Wandlung
+            ... hier sollte heiligere Wandlung sein.</p>
+               <stage>Sie bekreuzigen sich alle beide, schlagen dreimal an die Brust und bekreuzigen sich
+            wieder.</stage>
+               <stage>Stille.</stage>
+               <stage>Sie messen sich.</stage>
+               <stage>Apotheker stößt mit dem Fuß an den Zettel, daß es zischt. Er nimmt den Zettel auf –
+            steckt ihn in die Tasche, geht ab.</stage>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="142" facs="#f0033"/> Die vierte Szene</head>
+            <stage>Oberes Ende des Marktplatzes. Als Hintergrund, von links nach rechts, links und
+          rechts vom Zuschauer, die Fassaden folgender Häuser: Haus, darin im ersten Stock die
+          Polizeiwache; Gasthaus und Metzgerei des Johann Stemplinger; und, durch eine Mauer
+          eingefriedet, Kirche und Gottesacker. Darüber hinaus gedacht Pfarrhaus und Schule. Jakobs
+          Verkaufsstand im Vordergrund der Bühne – Jakob dreht dem Zuschauer den Rücken zu – als der
+          letzte von links her gedacht. Vis-à-vis an den Häusern lang als letzte von links her
+          Anna.</stage>
+            <stage>Die Vesper ist soeben zu Ende. Orgel, die wie ein Harmonium klingt.
+          Bauernvolk.</stage>
+            <stage>Sonntag nachmittag.</stage>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Kauft, Leutche, kauft. Der Gerichtsvollzieher wartet. Was steht ihr wieder da, die
+            Händ' im Sack, und laßt euch von de Flöh' die Fingernägel abbeiße? Der
+            Gerichtsvollzieher will sein Geld hawe. Hot der Deibel de Gaas, so soll er die Waache
+            aach mitnemme. Da hab ich grade noch eine wollene gestrickte Herrenunterhose, groß genug
+            für de schtärkste Mann, dazu ein Barchenthemd ... der Winter steht vor der Tür ... und
+            einen Toilettenspiegel. Alles zusamme vorgestern fünf Mark. Na? Eine wollene gestrickte
+            Herrenunterhos, groß genug für de schtärkste Mann, ein Barchenthemd und ein
+            Toilettenspiegel ... alles für drei Mark. Noch nicht? Ei, so gewwe ich euch noch dies
+            goldbeschlagene, blausamtene Gebetbuch und dieses hochfeine Taschenmesser mit siewwe
+            Stahlklinge owwedrei. Na? Na also. Du auch Brutus? Und du, mei liewwer Alexander –
+              <stage>Lachen.</stage>
+               </p>
+            </sp>
+            <sp who="#stimmen">
+               <speaker>STIMMEN.</speaker>
+               <p>Hier. Hier. Mir auch. Mir. Gib her.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>dazwischen.</stage>
+               <p>Wenn ihr bei einem hiesige Kaufmann den <pb n="143" facs="#f0034"/> Stoff kauft und das Hemd oder die
+            Hos bei euerm Schneider oder eurer Schneiderin mache läßt, kosts euch das doppelte.</p>
+            </sp>
+            <sp who="#stimmen">
+               <speaker>STIMMEN</speaker>
+               <stage>wieder vordrängend.</stage>
+               <p>Hier. Hier. Jakob, mir. I habs schon lang gsagt.</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Nein Vater, das ist nur ein Zweimarkstück, Vater der schwindelt.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Ein seidenes Kopftuch? Einen schönen Schaal? Gehn S' a bissel her, Frau Nachbar.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>schreiend.</stage>
+               <p>Na, Leutche, was is, Leutche? <stage>Er klatscht ein paarmal kräftig in die
+              Hände.</stage>
+               </p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Eingekauft noch ein wenig!</p>
+               <stage>Zwei Bauern treten zu Jakob.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Na, Vetter, was brauchen wir denn?</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER.</speaker>
+               <p>A Montur. <stage>Er zeigt auf seinen Anzug.</stage> Die da ... is eh aa von Dir. Hast
+            mich aber angschmiert damit.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Und dann kommst doch wieder zu mir, du – Sepp?</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>lachend.</stage>
+               <p>Ja.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>redet plötzlich ganz ernst.</stage>
+               <p>Wie lange trägst du den Anzug schon?</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER.</speaker>
+               <p>Vier Jahr warns.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Und immer noch als Sonntagsanzug? Ich denke, da könntst du damit zufrieden sein.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER.</speaker>
+               <p>Bin eh net unzfrieden gwen mit, na.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>laut, Marktschreierton.</stage>
+               <p>Da hätt ich ewwe e ganz neues, apartes Muster. Das war für Dich, o Bräutigam. Ewwe noch
+            e Rest. Hab schon das ganze Stück heut verkauft. Kannsts billig hawwe. <stage>Er
+              breitets aus und zeigt, wie lang es ist.</stage>
+               </p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>prüfts.</stage>
+               <p>War scho schö – Aber auf Schönheit geh i net. Stark muß der Stoff sei.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Stark? Da kannst n paar Ochsen anspannen, so stark ist der Stoff. Und doch so fein als
+            wie Trikot. Na ... nachm Meter kaufst dus doch nicht. Und weils ewwe der Rest ist, gewwe
+            ich ders ganz billig. Sollst mal sehe.</p>
+            </sp>
+            <pb n="144" facs="#f0035"/>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER.</speaker>
+               <p>Ja. Teier derfs schon aber auch gar net sein. Wieviel kost soviel?</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>sehr laut.</stage>
+               <p>Der ganz Anzug ...</p>
+               <stage>Frau Kommandant kommt und geht ins Haus.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Der ganze Anzug ... Guten Abend, Frau Kommandant ... Hose, Rock und Weste: weil du es
+            bist, nur, weil du es bist: vierzig Mark.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>tut einen Schrei.</stage>
+               <p>Ho. <stage>Wendet sich fort.</stage>
+               </p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>nachrufend.</stage>
+               <p>Na ... wieviel willst <hi rendition="#i">Du</hi> denn hergewwe?</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>von fern.</stage>
+               <p>Zwanzig Mark.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>tut denselben Schrei.</stage>
+               <p>Ho. <stage>Wirft das Stück hin.</stage>
+               </p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>wieder näher kommend.</stage>
+               <p>Alsdann ... wannst für zwanzig Mark net willst ...</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>wie wenn er nicht gehört hätte, zu Heinrich.</stage>
+               <p>Na, Heinrich, packen wir ein.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>gereizt.</stage>
+               <p>Fünfazwanzg geb i dir aa no.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Pack ein, Heinrich.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>ganz nah.</stage>
+               <p>Alsdann ... fünfazwanzg Mark.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Pack ein, Heinrich.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>zuredend.</stage>
+               <p>Vierzg Mark. Du bist doch net ganz gscheit.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Hast du eingepackt, Heinrich?</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>eifrig.</stage>
+               <p>Na ... so geb i dir dreißgi.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Hot der Deibel de Gaas, so soll er die Waache aach mitnemme ... Pack aus, Heinrich.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER.</speaker>
+               <p>Du gibst mirn alsdann für dreißgi?</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Hast du ausgepackt, Heinrich?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>hat weder ein- noch ausgepackt.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>hat den Rest bereits zusammengerollt, wirft ihn dem Käufer hin.</stage>
+               <p>Da.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>die Hand auf dem Geldbeutel. Es ist ihm weniger um die Kleinigkeit als um die
+            Unterhaltung zu tun.</stage>
+               <p>Aber ... a Paar Schuhbandel, die mußt du mir no extra gratis umsonst drauf geben?</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>tut wütend.</stage>
+               <p>Zwei Paar Schuhlitze, damit de arme Seel e <pb n="145" facs="#f0036"/> Ruh hat! <stage>Er bindet das
+              Bündel mit zwei Paar Schuhlitzen zusammen.</stage>
+               </p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER</speaker>
+               <stage>legt das Geld hin.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>nimmts.</stage>
+               <p>Danke schön.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>rückt, vor der untergehenden Sonne, den Hut tiefer ins Gesicht.</stage>
+               <p>Hol noch ein Bier, Heinrich.</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>springt davon. Nach Stemplinger.</stage>
+            </sp>
+            <sp who="#zweiter_bauer">
+               <speaker>2. BAUER</speaker>
+               <stage>die Montur prüfend.</stage>
+               <p>Is a schöne Montur. Hätts aber für zwanzg Mark aa no abglassn.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>der weiß, daß diese Art Entgegnung stets am meisten zieht.</stage>
+               <p>Du S-aubauer. Glaubst du, ich stehl meine War? Na wart, dich faß ich mal bei deinen
+            Löffeln ...</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER.</speaker>
+               <p>Hast eh wieder a schöns Gschäft gemacht heit, Jakob?</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB</speaker>
+               <stage>trinkend.</stage>
+               <p>Wenn ihr nicht alles geschenkt wolltet. Was wetten wir ... der Schneider, den du auf
+            Stöhr ins Haus nimmst, verfrißt bei deinem Anzugmachen mehr Kartoffel, als dich bei mir
+            der ganze Stoff kostet.</p>
+            </sp>
+            <sp who="#erster_bauer">
+               <speaker>1. BAUER.</speaker>
+               <p>Is eh leicht, Jakob, weils Zuchthausarbeit is, dein Zeug.</p>
+               <stage>Die Bauern drücken sich so herum: Ein bißchen Unterhaltung mit dem Kaufmann muß,
+            über die Schuhlitzen drüber, auch noch dreingehen.</stage>
+            </sp>
+            <sp who="#apotheker #braumeister">
+               <speaker>APOTHEKER UND BRAUMEISTER</speaker>
+               <stage>kommen zusammen, von links, den Markt herauf.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>tritt vom Fenster zurück.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOB.</speaker>
+               <p>Bische spaziere, Herr Apotheker? Guten Tag, Herr Braumeister.</p>
+            </sp>
+            <sp who="#braumeister">
+               <speaker>BRAUMEISTER.</speaker>
+               <p>Tag ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>er scheint angetrunken.</stage>
+               <p>Der Lehrer wollt gleich nach der Vesper zu uns kommen. Ein klein wenig Kartenspielen
+            und ... <stage>Er macht die Gebärde des Trinkens.</stage> Nun müssen wir ihn wieder aus
+            seinen vier Wänden herausschälen. Der verkriecht sich. Warum ... warum verkriecht er
+            sich. <stage>Rülpst.</stage> Warum eigentlich verkriecht er sich wohl, der Herr Lehrer?
+            Warum ...</p>
+               <pb n="146" facs="#f0037"/>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Er wollte wohl zu Ihnen runter ... nachm Weißbräu.</p>
+            </sp>
+            <sp who="#braumeister">
+               <speaker>BRAUMEISTER</speaker>
+               <stage>noch betrunkener.</stage>
+               <p>Ganz recht, nach dem Weißbräu ... Fräulein Anna. Ich muß doch auch ... nicht? ... nicht
+            wahr? ... die Konkurrenz ...</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Ja. Aber da hat ihn der Herr Pfarrer zurückgehalten. Auf ein Wort Herr Lehrer, hat der
+            Herr Pfarrer gesagt.</p>
+               <stage>Stille.</stage>
+               <stage>Apotheker und Braumeister sehen sich eine Weile an, gehen dann beide nach rechts
+            ab.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA</speaker>
+               <stage>die seit längerem mit 1. Bauer verhandelte.</stage>
+               <p>Aber hörn S'. Sie sind wohl net ganz richtig? Da kriegen S' ja kaum eins aus Papier.
+              <stage>Fängt an zu wettern.</stage> Stell ich mich ne halbe Stunde für den hin und
+            breit und breit ihm mein ganzes Lager aus ... und dann bietet er mir so einen Preis.
+            Unverschämtheit.</p>
+            </sp>
+            <sp who="#agnes">
+               <speaker>AGNES</speaker>
+               <stage>die alte Haushälterin des Zirngibl kommt weinend, von links, den Markt
+            heraufgelaufen. Wimmernd über die Szene.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Um Gottes willen. Was is denn, Fräulein Agnes?</p>
+            </sp>
+            <sp who="#agnes">
+               <speaker>AGNES.</speaker>
+               <p>O God. O du mei liaber God. <stage>Ab nach rechts.</stage>
+               </p>
+               <stage>Pause.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>tritt, durch das Weinen angelockt, wieder ans Fenster.</stage>
+               <stage>Aus dem Stemplinger Gasthaus Drehorgel und langgedehnter Gesang.</stage>
+               <stage>Apotheker und Braumeister kommen zurück.</stage>
+               <stage>Apotheker ist ganz blaß. Sein Schrecken kämpft mit </stage>
+               <stage>dem Alkohol.</stage>
+               <stage>Da läutet die Sterbeglocke.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>im Vordergrund rechts, muß sich wo halten.</stage>
+               <p>Is nix mit dem Herrn Schullehrer. Hat keine Zeit, der Herr Schullehrer. Horts ihn ...
+            den Herrn Lehrer? Der Herr Lehrer tut d'Sterbglocken läuten. Unser aller Freund und
+            allverehrter ...</p>
+               <stage>Alles hat die Hüte abgenommen.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Unser aller Freund und allverehrter ... der Kaufmann <pb n="147" facs="#f0038"/> Zirngibl ...
+            Hauptmann der freiwilligen Feuerwehr ist nicht mehr.</p>
+            </sp>
+            <sp who="#agnes">
+               <speaker>AGNES</speaker>
+               <stage>kommt wimmernd zurück.</stage>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNA.</speaker>
+               <p>Fräulein Agnes ...</p>
+            </sp>
+            <sp who="#agnes">
+               <speaker>AGNES.</speaker>
+               <p>Es is ihm schon net sonders gwesen, gleich heut in aller Früh. Schon wie er aufgstanden
+            is, redt er und redt er mit sich selber, in einem fort grad, wie er sei Feuerwehr-Montur
+            anzieht zum Kirchenzug. »Ist«, sag ich, »ist es Ihnen nicht gut, Herr Zirngibl? Legn S'
+            Ihnen doch gscheiter wieder ins Bett. <hi rendition="#i">Lassen S'</hi> die enge Montur und den
+            schweren Feuerhelm.« »Ah na«! sagt er »heut noch net! heut noch net und wanns nur noch
+            heut sein soll.« Und so ... Wie er vom Kirchenzug heimkommt, legt er freilich gleich den
+            schweren Feuerhelm ab – und verlangt dafür aber sei neue schöne
+            Feuerwehr-Interimsmützen. »Na Sie wem doch d'Montur ausziehn« sag ich. »Naa!« sagt er.
+            »Und wo willst denn ... wo wollen S' denn jetzt noch hin, Herr Zirngibl?« sag ich. »'s
+            Essen kommt doch gleich auf den Tisch.« Und er rührt mir fast nix an von allem Essen und
+            ... ich schau ihm noch durchs Fenster nach ... und geht in der ganzen Uniform und mit
+            der neuen schönen Interimsmützen ... <stage>Überwältigt.</stage> Und grad jetzt eben ...
+            kommen Leut zu mir glaufen ... und da bringens ihn auch schon ... oh God, oh God ... vom
+              <hi rendition="#i">Kupferhammer</hi> draußen ... <stage>Ein zweites Mal überwältigt.</stage>
+            Denn: grad vorm <hi rendition="#i">Kupferhammer</hi> – sagt d'Fräulein Innozenz – soll er umgfallen
+            sein und ... und nimmer wieder aufgstanden ... <stage>Läuft weinend ab.</stage>
+               </p>
+               <stage>Pause.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>hat den Gendarm erblickt, Aug in Aug. Lang. Dann, so eigen.</stage>
+               <p>Guten Abend ... Herr Schandarm ...</p>
+               <stage>Alle sehen nach oben.</stage>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="148" facs="#f0039"/> Die fünfte Szene</head>
+            <stage>In der Nähe des Kupferhammers. Landstraße. Bäume. Sonntag abend. Aufgehender
+          Mond.</stage>
+            <sp who="#gendarm">
+               <speaker>GENDARM,</speaker>
+               <stage>Dienstgewehr, kommt. Pfeift. Steht wartend. Wendet sich die Landstraße, nach links,
+            zurück und verbirgt sich, wie er einen Wagen kommen hört. Der Wagen kommt näher. Doch,
+            noch ehe er auf die Szene kommt, Halt.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOBS STIMME</speaker>
+               <stage>zum Gaul.</stage>
+               <p>Brrr ... Was ist denn das? Der sakramentse Kerl. Hat in seiner Besoffenheit ...
+              <stage>Wieder zum Gaul, der nicht stehen bleiben will.</stage> Brrrr ... Lehmann,
+            steig ab. Nein, Lehmann, nimm die Zügel. <stage>Man hört jemand von einem Wagen
+              abspringen. Gleich darauf Gerassel von Ketten.</stage>
+               </p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOBS STIMME.</speaker>
+               <p>Wie der den Gaul eingespannt hat.</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNAS STIMME.</speaker>
+               <p>O, und die Kisten. Jakob, die Kisten.</p>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOBS STIMME</speaker>
+               <stage>zornig verweisend.</stage>
+               <p>Was, Kisten? Da ist alles in Ordnung. Die hab ich Gott sei Dank selber ...</p>
+               <stage>Einen Augenblick Stille.</stage>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANNS STIMME.</speaker>
+               <p>Das da drüben ist der Kupferhammer?</p>
+            </sp>
+            <sp who="#anna">
+               <speaker>ANNAS STIMME</speaker>
+               <stage>gleichsam aufschreckend.</stage>
+               <p>Ja. Alle guten Geister ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICHS STIMME.</speaker>
+               <p>Ich furcht mich, Vater.</p>
+               <stage>Wieder einen Augenblick Stille.</stage>
+               <stage>Dann steigt jemand wieder auf den Wagen.</stage>
+               <stage>Es ächzt.</stage>
+            </sp>
+            <sp who="#jakob">
+               <speaker>JAKOBS STIMME</speaker>
+               <stage>zum Gaul.</stage>
+               <p>Brrr ... <stage>Zungenlaut; dann.</stage> Vorwärts ...</p>
+               <stage>Der Wagen fährt vorüber.</stage>
+            </sp>
+            <sp who="#lehmann">
+               <speaker>LEHMANNS STIMME.</speaker>
+               <p>Der alte Zirngibl ...</p>
+               <stage>Alle ab.</stage>
+               <stage>
+                  <pb n="149" facs="#f0040"/> – – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+               <stage>Gendarm taucht wieder auf. Sieht den Davonfahrenden nach. Innocentia kommt langsam
+            über die Wiese her. Sie ist ohne Kopftuch und Körbchen, sonst aber wie im ersten Aufzug.
+            Gendarm läßt sie, ohne ein Wort zu reden, näherkommen. Innocentia bleibt einige Schritte
+            vor ihm stehen.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>kalt, fast drohend.</stage>
+               <p>Ja nur gut, daß Du kommst.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Zum letzten ... zum allerletzten Mal. Ja. Der alte Zirngibl ... zwischen uns muß aus
+            sein ... der alte Zirngibl steht zwischen uns ... ich tat mich Sund fürchten.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>höhnisch.</stage>
+               <p>Warum bist denn gekommen?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>antwortet nicht.</stage>
+               <stage>Schweigen.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Übrigens ... möchtest Du dem alten Zirngibl nicht eine anständige Votivtafel aufrichten
+            ... an demselben Platz, wo er gestorben ist?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Könnt schon sein.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Nämlich ... das müßt sich recht schön feierlich machen ... eine anständige Votivtafel
+            für den alten Zirngibl ... an demselben Fleck, genau! wo er gestorben ist.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Könnt sich wirklich schön feierlich machen.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Wirklich??</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ja, warum denn nicht?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Na! Ich möcht grad <hi rendition="#i">nicht</hi> gern auf demselbigen Kanapee liegen oder in
+            demselbigen Bett, wo mitten drauf, wo mitten drin, eine anständige Votivtafel
+            aufgerichtet ist für den alten Zirngibl ... also genau! an demselbigen Fleck, wo der
+            alte Zirngibl seinen letzten Schnaufer getan hat!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Was soll denn jetzt <hi rendition="#i">das</hi> wieder sein? Kanapee? Bett? Letzter Schnaufer?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Das soll das sein, daß den alten Zirngibl nicht <hi rendition="#i">vorm</hi> Kupferhammer der
+            Schlag getroffen hat –</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Sondern <hi rendition="#i">im</hi> Kupferhammer?</p>
+               <pb n="150" facs="#f0041"/>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Na! vielleicht <hi rendition="#i">nicht im</hi> Kupferhammer ... auf'm Kanapee ... Ja? Auf einmal
+            hast Du laut aufgeschrien vor Angst ... weil sich der alte Zirngibl nimmer rührt und
+            nimmer reibt ... und hast laut nach der Wabn gschrien ... »Wabn! Wabn! Wabn!« Und dann
+            habts ihn mitanand aufgricht und nachher habts ihn aussitragn vors Haus ... und habts
+            i'n neiglegt ins Gras ... ins »Sonntagsgras« ... was??</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>antwortet nicht.</stage>
+               <stage>Langes Schweigen.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>befehlend.</stage>
+               <p>Übrigens ... laß gefälligst diese Zettelschreiberei.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Es war der erste. Und ist auch der letzte gwesen.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>noch höhnischer.</stage>
+               <p>Warum bist dann doch gkommen?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>antwortet nicht.</stage>
+               <stage>Schweigen.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>nun ihrerseits.</stage>
+               <p>Warum bist <hi rendition="#i">du</hi> gkommen? Was willst denn noch von mir?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>
+                  <hi rendition="#i">Anfangen</hi> möchst wieder, gelt? Gelt?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Hab ... hab ich denn schon <hi rendition="#i">aufghört</hi>?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ich hab aufghört.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Geht das so ohne <hi rendition="#i">mich</hi>?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ja. Das geht ohne dich ... <stage>Langsam, schwerfällig.</stage> Und jetzt sag ich dir
+            auch, warum ich dennoch herkommen bin ... <stage>Sie zögert. Dann etwas
+              schneller.</stage> Warum hast dus denn immer noch nicht anzeigt? Du möchst ein feines
+            Leben hier haben ... he? Bei mir ... so oft dus verlangst; und ... dem Kommandanten
+            gegenüber immer mit der Anzeig?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>So einer <hi rendition="#i">bin</hi> ich nicht.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>So einer <hi rendition="#i">bist</hi> du. <stage>Sie macht eine Pause.</stage> Aber ... mir sind
+            die Augen aufgangen über dich.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>ohne viel Zurückhaltung.</stage>
+               <p>So? Hat dir der Apotheker vielleicht parfümiertes Augenwasser mitbracht aus seiner
+            Apotheken, daß dir die Augen aufgangen sind über mich?</p>
+               <pb n="151" facs="#f0042"/>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Du kannst mich nicht beleidigen. Aber ... du hast keine Gewalt mehr über mich. Denn ...
+            mir sind die Augen aufgangen über dich. Ja. Eija. Und ... jetzt sag ich dir frei, warum
+            ich herkommen bin. Der Apotheker ist vorhin zu mir kommen.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Glaubst du, ich hätts nicht gesehn? Er ist sogar noch bei dir, der Apotheker. Und der
+            Apotheker nicht allein. Es ist sogar noch ein anderer bei dir.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Is nur gut, daß du das weißt. Ja. Sogar noch einer. Der Apotheker und der Kommandant.
+              <stage>Sie macht wieder eine Pause. Erzählend, aber immer mit einer gewissen Spitze
+              gegen den Gendarmen.</stage> Er zeigts an, hat der Apotheker gsagt, er zeigts
+              <hi rendition="#i">nicht</hi> an, hab ich gsagt. Das beste ist, hat der Apotheker gsagt, wir
+            schaffen die Sach dadurch aus der Welt, daß du von hier fortgehst, Innozenz ...
+            wenigstens für eine Zeit. Und ... hat mir auf der Stelle Geld geben, der Apotheker. Ich
+            ... könnt dirs zeigen. Und ... morgen schon soll ich fort. Und ... das Geld liegt noch
+            aufm Tisch. Und ... das hätt ich dir, hat mir der Apotheker aufgetragen, natürlich nicht
+            sagen sollen. Überhaupt keinem Menschen ... und dir schon gar nicht. Und ... jetzt sag
+            ich dirs doch ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>langsam.</stage>
+               <p>Jetzt kann ich dirs auch sagen ... Ich hab dich gern ghabt Joseph. Und das haben die
+            andern auch <hi rendition="#i">gwußt</hi>.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schweigt, wiewohl er reden möcht und fühlt, daß er reden müßt.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>fortfahrend.</stage>
+               <p>Aber, hat der Apotheker gsagt, so ist die Sach aus der Welt ... und so wird ers nicht
+            anzeigen. Und so ist alles gut ... und hat schon wieder ein glücklich Gsicht gmacht, der
+            Apotheker. <stage>Kleine Pause.</stage> Und dann ist ihm noch ein anders eingfallen. Du
+            ziehst runter nach der Zell, hat er gsagt, nach der Löwmühl oder sonst wohin in der Näh
+            ... und dann kann ich ab und zu ... und dann können wir alle miteinander ab und zu
+            nachschauen kommen.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>ungeduldig werdend.</stage>
+               <p>Na?</p>
+               <pb n="152" facs="#f0043"/>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>wiederholt nichtsdestoweniger die letzten Worte.</stage>
+               <p>... und dann können wir alle miteinander ab und zu nachschauen kommen ... <stage>Kleine
+              Pause.</stage> Aber da hab ich Angst gkriegt: Nein, nein, er könnts merken, er spürt
+            nach, glaubts mir ... und dann hast du gepfiffen. <stage>Sie schweigt.</stage>
+               </p>
+               <stage>Er kann nicht reden. Er hat nichts, das er reden könnte.</stage>
+               <stage>Schweigen.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Warum ... hast dus immer noch nicht anzeigt, sag?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>mit ganz veränderter Stimme.</stage>
+               <p>Warum ... warum hast dus mir dann jetzt <hi rendition="#i">doch</hi> gsagt, daß du weggehst ...
+            morgen ... und hättsts doch net sagen sollen. Warum ... <stage>Es ist wie ein Auffahren
+              seiner Stimme bei diesem letzten Warum.</stage>
+               </p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>ruhig.</stage>
+               <p>Weil ... weil ich nicht weggeh ... keinen Schritt von hier.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>ganz und gar heiser.</stage>
+               <p>Du bleibst morgen?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>absolut ruhig.</stage>
+               <p>Morgen und alle Tag ... ja.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Und du meinst also ... ich zeigs doch net an?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ja.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>ausbrechend, soviel er sich auch zurückhalten wollte.</stage>
+               <p>Könnst dich aber <hi rendition="#i">irren</hi>.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>unberührt.</stage>
+               <p>Nein.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>bezwingt sich wieder.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Sieh mal an ... das <hi rendition="#i">weiß</hi> der Apotheker noch gar nicht, daß ich
+              <hi rendition="#i">nicht</hi> weggeh. Daß weiß noch <hi rendition="#i">keiner</hi>. Aber ... das Geld kann
+            liegen bleiben, so längs nur mag ... ich rührs net an ... und geh net weg. Und ich
+              <hi rendition="#i">sags</hi> dem Apotheker und dem Kommandanten auch dann jetzt gleich ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Weil ... weil ichs <hi rendition="#i">doch</hi> nicht anzeig?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Ja.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>kämpft plötzlich.</stage>
+               <p>Wenn ... wenn aber die andern auf keinen Fall mehr wollen, daß du noch dableibst
+            ...</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>daran hat sie noch gar nicht gedacht. Sie läßt sich aber nichts anmerken; schweigt
+            nur.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>sieghaft den Satz wiederholend.</stage>
+               <p>Wenn ... wenn aber die andern auf keinen Fall mehr wollen, daß du noch dableibst.</p>
+               <pb n="153" facs="#f0044"/>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>lacht hämisch.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>gefaßt.</stage>
+               <p>Wollen sies morgen nicht, wollen sies übermorgen gewiß.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>ratlos.</stage>
+               <p>Weil ... weil ichs <hi rendition="#i">doch</hi> nicht anzeig?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>ruhig.</stage>
+               <p>Wegen was auch? Was ist da viel anzuzeigen? Machens andere anders wie ich? Wie falsch
+            bist du mit der <hi rendition="#i">Kommandantin</hi> zu mir gewesen.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>fast schreiend.</stage>
+               <p>Das ist nicht wahr!</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Und ... zu was soll ich all meine Bequemlichkeit hier aufgeben? Vorgestern ...
+            vorgestern noch hat mir der alte Zirngibl wieder einen japanischen Fächer gebracht.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>ätzend.</stage>
+               <p>Und vielleicht auch wieder eine farbige Papierlatern? Der alte Scheißer der. Paßt gut
+            in deine Wohnung übrigens: Unterm heiligen Christusbild zwei japanische Fächer und davor
+            eine brennende rote Papierlatern.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>verletzt.</stage>
+               <p>
+                  <hi rendition="#i">Mir ... paßts.</hi> Und den <hi rendition="#i">andern</hi> auch. Und ... <hi rendition="#i">dir</hi>
+            hats <hi rendition="#i">auch</hi> paßt. Sehr gut sogar. Und ... und ... je länger du so redst, daß
+            dirs <hi rendition="#i">nicht</hi> paßt, desto <hi rendition="#i">mehr</hi> paßts <hi rendition="#i">mir</hi>. Und ...
+            wenn ich jetzt nicht zu dir herkommen war, war ich vielleicht morgen <hi rendition="#i">doch</hi>
+            von hier fort. Und ... je länger ich hier bei dir stehen bleib, desto gewisser wirds
+            mir, daß ich morgen <hi rendition="#i">nicht</hi> fortgeh. Weil ... weil mir die Augen aufgangen
+            sind über dich ... und über mich auch. Mir behagts nun erst recht in der lustigen
+            Gesellschaft – vom Apotheker und vom Kommandanten, vom Braumeister und vom hungrigen
+            Lehrer. Nur ... bloß nur <hi rendition="#i">dich</hi> net.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM.</speaker>
+               <p>Bist du ... verdreht auf einmal?</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA.</speaker>
+               <p>Sünd wärs mir nur mit dir. Mit den andern nicht. Und da soll ich einzig deinetwegen
+            alles andere aufgeben ... du Schreckschuß, du blinder Alarm, du? <stage>Sie lacht;
+              beinah frech. Sie wird eine andere; und ists schon geworden. Sie wächst. Tanzt
+              beinahe. Ihre Arme, wie gehoben, verschränken sich im Nacken.</stage> Ich glaub, ich
+            bin just im richtigen Alter, verstehst? Nur kein Kind mehr. Aber dafür sorgt der
+            Apotheker ... du <pb n="154" facs="#f0045"/> weißt noch ... und du hasts obendrein zugeben. Wenn ...
+            wenn ich das dem Apotheker sagen tat ...?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>keuchend.</stage>
+               <p>Du bist ja eine Sau. Du hast ja mit fünfen nicht genug.</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>selig.</stage>
+               <p>O doch. Ich könnt sogar in einem einzigen Fall wie eine Klosterfrau leben: Lieber mit
+            gar keinem und nie einem mehr als noch ein einziges Mal mit dir. <stage>Sie will gehen.
+              Gendarm fährt unwillkürlich, wie momentan angeekelt oder tief erschreckt, zurück. Dann
+              stürzt er auf sie zu. Packt sie.</stage>
+               </p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>wehrt sich nicht, sondern sagt ganz ruhig.</stage>
+               <p>Geh doch zu deiner Kommandantin. Oder ... ist sie nicht so gut gwesen wie ich?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>läßt sie los.</stage>
+               <p>Ich <hi rendition="#i">geh</hi> zur Kommandantin. Aber ... du gehst <hi rendition="#i">mit</hi> zur
+            Kommandantin. Das heißt ... auf die <hi rendition="#i">Wache</hi>. Ich ... ich ... verhafte dich
+            ... im Namen des Ge ...</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>starr.</stage>
+               <p>Was?</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>fast lallend.</stage>
+               <p>Ich verhafte dich ... im Namen des Ge ...</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>lacht laut auf.</stage>
+               <p>Du? Du mich verhaften? <stage>Gemütlich.</stage> Seien S' so gut, Herr Schandarm ...
+            und sagen Sies noch einmal. Mir ist immer, als hätt ich, fälschlich, was von Verhaften
+            ghört.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>packt sie von neuem.</stage>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>wehrt sich und macht sich mit einem Ruck los.</stage>
+               <p>Du ... rühr mich mit keinem Finger mehr an ... das sag ich dir. Übrigens ... hast du
+            mich derart angepackt, als ob du ganz was anderes hättest tun wollen als mich verhaften
+            ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>zwingt sie nieder. Wirft sich über sie.</stage>
+               <p>Erst das eine – dann das andere! <stage>Sinnlos.</stage> Du Luder ... Innozenz ... du
+            Vieh ...</p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>schreit ein paarmal laut auf.</stage>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>kriegt sie auf den Rücken zu liegen.</stage>
+               <p>Du ... du ... du ... du ... du ...</p>
+               <stage>Man sieht ein Stück von einem roten Unterrock. Etwas von einer grauen
+            Flanellhose.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>Stimme von fern.</stage>
+               <p>Los, sag ich – – los – los – oder – –</p>
+               <pb n="155" facs="#f0046"/>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>springt auf. Packt sein Gewehr. Legt an. Wechselt den Stand, indem er hinter einen
+            Baum springt.</stage>
+               <p>Zurück sag ich.</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>sichtbar. Er ist im Sonntagsanzug. Ohne Hut. Mit seinem Gewehr, das er anlegt.
+            Betrunken wie heute nachmittag.</stage>
+               <p>Steh du, du Hund, steh ... net hinterm Baum, Herr Schandarm ... wie ich auf offenem
+            Feld, Herr Schandarm ... <hi rendition="#i">Du oder ich.</hi>
+               </p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>hinterm Baum, schießt.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Fehl, Herr Schandarm.</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>schießt noch einmal.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Nochmal gefehlt, Herr Schandarm. Aber jetzt komm <hi rendition="#i">ich</hi> ... <stage>Er wankt
+              näher.</stage>
+               </p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>will noch ein drittes, noch ein viertes Mal abdrücken. Vergebens. Man hört nur
+            etwas wie Rasseln. Da schreit er auf.</stage>
+               <p>Au – au – au – au – au –</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Alles verschossen? Das war ... unvorschriftsmäßig geladen ... Drei Tag Mittel- ... Haha
+            ...</p>
+            </sp>
+            <sp who="#gendarm">
+               <speaker>GENDARM</speaker>
+               <stage>läuft vom Baum weg. Wirft das Gewehr von sich. Steht einen Augenblick aufrecht, in
+            größter Angst. Im Mondlicht.</stage>
+               <p>Ich ... zeigs ja net ... an ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>schießt ihn, kurz gezielt, übern Haufen.</stage>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>läuft im nächsten Augenblick herbei.</stage>
+               <p>Apotheker, du hast mein Gewehr ... wie kommst du ... du hast ihn ... <stage>Er eilt auf
+              den Gendarm zu. Kniet bei ihm nieder.</stage>
+               </p>
+               <stage>Langes Schweigen.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Mörder? Nein, nein. Nein, nicht als Angeklagter ... Anklägerisch, ja, geh ich zu
+            Gericht ... Anklägerisch, nicht angeklagt, o nein ...</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT.</speaker>
+               <p>O ... durch die Stirn ... grad ... mitten durch die Stirn ... <stage>Pause. Zum
+              Apotheker.</stage> Hättst es doch nicht tun sollen ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>furchtbar.</stage>
+               <p>Wer redt mir da? <stage>Er steht ein paar Augenblicke gestreckt, dann knickt er ein.
+              Zum Kommandanten.</stage> Verhafte mich, Herr Kommandant ...</p>
+               <pb n="156" facs="#f0047"/>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>starr.</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Na ... wirds?</p>
+            </sp>
+            <sp who="#kommandant">
+               <speaker>KOMMANDANT</speaker>
+               <stage>verharrt regungslos.</stage>
+               <stage>Stille.</stage>
+               <stage>– – – – – – – – – – – – – – – – – – – – – – – – – –</stage>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER.</speaker>
+               <p>Wie is mir denn? Was läuft da in mir ab, als wärs ne Uhr? Ja, mitten durch die Stirn,
+            hast du gesagt ... Wenn ich den Zettel hier so neben ihn leg ... da ... den Zettel ...
+            da ... den Zettel ... von der Innozenz ... den ... wo ... Und er doch mitten durch die
+            Stirn, als ob ... wie wenn er sich aus »unglücklicher Liebe« <hi rendition="#i">selber</hi>
+            erschossen hätt. Mitm Dienstgewehr ... <stage>Er denkt die eigenen Sätze zurück, dann,
+              ganz langsam.</stage> Wer gab mir den Gedanken? <stage>Überwältigt.</stage> Guter
+            Gott, und allen Heiligen, wie dank ichs euch? Und alle Heiligen, wie dank ichs nur? Wie
+            dank ichs – – – – <stage>Er weint vor Freude. Erlöst.</stage>
+               </p>
+            </sp>
+            <sp who="#innocentia">
+               <speaker>INNOCENTIA</speaker>
+               <stage>stammelnd.</stage>
+               <p>Gib ihm ... die ewige Ruh ... und das ewige Licht ... leuchte ihm ... Amen ...</p>
+            </sp>
+            <sp who="#apotheker">
+               <speaker>APOTHEKER</speaker>
+               <stage>es kommt wie Jauchzen in sein Weinen.</stage>
+            </sp>
+         </div>
+         <div>
+            <head>
+               <pb n="157" facs="#f0048"/> Die sechste Szene</head>
+            <stage>Sie Szene ist unverändert. Nur daß an der Stelle, wo der Gendarm zu Tod getroffen
+          hinstürzte und Innocentia kniete, nun ein Marterl steht.</stage>
+            <stage>Nach Jahren.</stage>
+            <sp who="#wabn">
+               <speaker>DIE ALTE WABN</speaker>
+               <stage>liests oft und oft:</stage>
+               <lg>
+                  <l>Hier hat sich ein Tag und eine Nacht</l>
+                  <l>nach der letzten Sedanfeier</l>
+                  <l>der Polizeigendarm Josef Meir</l>
+                  <l>in verschmähter Liebe umgebracht.</l>
+                  <l>Wanderer, die ihr die Tafel seht,</l>
+                  <l>(eh ihr dran vorüber geht)</l>
+                  <l>betet für Josef Meir ein Gebet.</l>
+                  <l>Und, obschon der Mensch ein Selbstmörder war,</l>
+                  <l>fühlte sich doch ein Freund verpflichtet</l>
+                  <l>und hat ihm dies Marterl hier aufgerichtet</l>
+                  <l>und läßt es ganz frisch renovieren alle Jahr.</l>
+               </lg>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>

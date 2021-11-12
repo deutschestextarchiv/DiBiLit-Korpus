@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Einleitung in die Propyläen</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118540238">
+                  <forename>Johann Wolfgang</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Goethe</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:09Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004855868</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Goethe, Johann Wolfgang/Theoretische Schriften/Einleitung in die Propyläen</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/11gf1.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0006-668A-E</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Johann Wolfgang von Goethe: Berliner Ausgabe.Kunsttheoretische Schriften und Übersetzungen [Band 17–22], Band 19, Berlin 1960 ff</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Kunsttheoretische Schriften und Übersetzungen</title>
+                  <title level="m" type="volume">1: Aufsätze zur bildenden Kunst (1772-1808). Winckelmann
+      und sein Jahrhundert. Philipp Hackert</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">194 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Aufbau Verlag</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1973</date>
+                  <date type="firstPublication">1798</date>
+                  <date type="firstPublication" subtype="clariah">1798</date>
+                  <date type="firstPublication" subtype="zeno">1798</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1749"
+                        notAfter="1832"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="s" type="main">Berliner Ausgabe</title>
+                  <title level="s" type="volume">Band 19</title>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Goethe-Johann-W-d1e340062">Erstdruck in: Propyläen (Tübingen), 1. Bd., 1. Stück, 1798.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Theoretische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theorie</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Johann Wolfgang Goethe</p>
+            <p rend="h2">»Propyläen«</p>
+            <p rend="h4">Eine periodische Schrift,</p>
+            <p>herausgegeben von Goethe</p>
+            <p>Ersten Bandes erstes Stück. Tübingen 1798</p>
+            <p>In der J. G. Cottaschen Buchhandlung</p>
+            <p>
+               <pb n="172" facs="#f0001"/>
+Einleitung</p>
+            <p>Inhalt</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Goethe-Johann-W-d1e340062">
+            <p>Veranlassung des symbolischen Titels – Das Werk soll eigentlich Bemerkungen und Betrachtungen harmonisch verbundner Freunde über Natur und Kunst enthalten – Aufmerksamkeit des Künstlers auf die Gegenstände – Bemerkungen – Praktischer Gebrauch – Mitteilung – Betrachtungen – Gefahr der Einseitigkeit – durch Verbindung mit mehrern Gleichdenkenden vermindert – Freundschaftliche Verbindung zu fortschreitender Ausbildung – Vorteile des Gesprächs – eines Briefwechsels – kurzer Aufsätze – Verhältnis des Schriftstellers zum Publikum – in früherer Zeit – in späterer – Wünsche</p>
+            <p rendition="#et">
+               <pb n="173" facs="#f0002"/>
+Übereinstimmung der Verfasser im ganzen – Abweichung im einzelnen – Harmonie mit einem Teil des Publikums – Disharmonie mit einem andern – Beharrlichkeit auf <hi rendition="#i">einem</hi> Bekenntnisse</p>
+            <p rendition="#et">Natur – Forderung an den Künstler, daß er sich an die Natur halten solle – Größe dieser Forderung – Naturstoffe – praktische Ausbildung, sie zu beherrschen – theoretische Ausbildung – Nötige Kenntnisse – Schwierigkeit, aus der Schule des Anatomen, des Naturbeschreibers, des Naturlehrers aufzusuchen, was zum Zweck des Künstlers dient – Die menschliche Gestalt kann nicht allein durch das Beschauen ihrer Oberfläche begriffen werden – in der Kenntnis liegt die Vollendung des Anschauens – Beispiel vom Naturbeschreiber, der zugleich Zeichner ist – Überblick über organische Naturen überhaupt – die vergleichende Anatomie erleichtert ihn – organisches Verfahren der Natur – organisierendes Verfahren des Künstlers – Unorganische Naturen – Kenntnis derselben erleichtert – Allgemeine Naturwirkungen – Nötige Einsicht in ihre Gesetze – Töne – Farben</p>
+            <p rendition="#et">Kunst – Aufsatz über bildende Kunst zunächst versprochen – Natur als Schatzkammer der Stoffe im allgemeinen – Gegenstand durch den Künstler ergriffen – Kunstkreis abgeschlossen – Fabel, Inhalt des Kunstwerks – Sorgfalt bei der Wahl – ausführliche Abhandlung zunächst – Behandlung – geistige – sinnliche – mechanische</p>
+            <p rendition="#et">Der Mensch leidet von seinem Zeitalter, wie er von demselben Vorteil zieht – Einfluß des Publikum auf die Kunst – Einstimmung des Künstlers – Zufriedenheit beider miteinander – Einzelnes Beispiel, Schwierigkeit, von dem Formlosen zur Gestalt überzugehen – Wirkung eines Aufenthalts in Italien auf den Künstler – Sein Schicksal nach seiner Zurückkunft – Wirkung schlechter und guter Kunstwerke auf Empfindung und Einbildungskraft – Die Neuern nennen die Alten ihre Lehrer und entfernen sich von ihren Maximen – einzelne Beispiele – Vermischung der Kunstarten, als Zeichen des Verfalls – Beispiel von der Bildhauerkunst – Auszusprechende Maximen – Sie sind aus den Kunstwerken gezogen – sind von dem Künstler praktisch zu prüfen – sind bei Beurteilung alter und neuer Kunstwerke zum Grunde zu legen – Eine genaue Kritik der ältern sowohl als neuern Kunstwerke nötig – Beispiel von der wachsenden Kenntnis des Liebhabers in der plastischen Kunst –<pb n="174" facs="#f0003"/>
+ Höchster Grad der Einsicht – mehrere Menschen können darnach streben</p>
+            <p rendition="#et">Von Kunstwerken sollte man eigentlich nur in ihrer Gegenwart sprechen – doch läßt sich auch für solche Leser schreiben, welche die Werke gesehen haben und sehen werden – Wie man auch den übrigen nützlich sein kann? – Nur auf dem höchsten und genausten Begriff von Kunst kann eine Kunstgeschichte ruhen – Psychologisch-chronologischer Gang des Auf- und Absteigens der bildenden Kunst – Beurteilung der alten und neuern Kunst nach Grundsätzen – Maximen am nötigsten bei Beurteilung der gleichzeitigen Künstler</p>
+            <p rendition="#et">Ausdehnung des Werks auf andre Gegenstände – Theorie und Kritik der Dichtkunst wird sich besonders an diese Arbeit anschließen</p>
+            <p rendition="#et">Über Kunstlokal – Italien als ein großer Kunstkörper, wie er vor kurzem noch bestand – Zerstücklung desselben – Kunstkörper in Paris – Was Deutschland und England tun sollte, einen idealen Kunstkörper bilden zu helfen – Die ausführlichen Vorschläge künftig.</p>
+            <p>Der Jüngling, wenn Natur und Kunst ihn anziehen, glaubt mit einem lebhaften Streben bald in das innerste Heiligtum zu dringen; der Mann bemerkt nach langem Umherwandeln, daß er sich noch immer in den Vorhöfen befinde.</p>
+            <p rendition="#et">Eine solche Betrachtung hat unsern Titel veranlaßt. Stufe, Tor, Eingang, Vorhalle, der Raum zwischen dem Innern und Äußern, zwischen dem Heiligen und Gemeinen kann nur die Stelle sein, auf der wir uns mit unsern Freunden gewöhnlich aufhalten werden.</p>
+            <p rendition="#et">Will jemand noch besonders bei dem Worte Propyläen sich jener Gebäude erinnern, durch die man zur atheniensischen Burg, zum Tempel der Minerva gelangte, so ist auch dies nicht gegen unsre Absicht, nur daß man uns nicht die Anmaßung zutraue, als gedächten wir ein solches Werk der Kunst und Pracht hier selbst aufzuführen. Unter dem Namen des Orts verstehe man das, was daselbst allenfalls hätte geschehen können, man erwarte Gespräche, Unterhaltungen, <pb n="175" facs="#f0004"/>
+die vielleicht nicht unwürdig jenes Platzes gewesen wären.</p>
+            <p rendition="#et">Werden nicht Denker, Gelehrte, Künstler angelockt, sich in ihren besten Stunden in jene Gegenden zu versetzen, unter einem Volke wenigstens in der Einbildungskraft zu wohnen, dem eine Vollkommenheit, die wir wünschen und nie erreichen, natürlich war, bei dem in einer Folge von Zeit und Leben sich eine Bildung in schöner und stetiger Reihe entwickelt, die bei uns nur als Stückwerk vorübergehend erscheint?</p>
+            <p rendition="#et">Welche neuere Nation verdankt nicht den Griechen ihre Kunstbildung? und, in gewissen Fächern, welche mehr als die deutsche?</p>
+            <p rendition="#et">Soviel zur Entschuldigung des symbolischen Titels, wenn sie ja nötig sein sollte. Er stehe uns zur Erinnerung, daß wir uns so wenig als möglich vom klassischen Boden entfernen, er erleichtere durch seine Kürze und Bedeutsamkeit die Nachfrage der Kunstfreunde, die wir durch gegenwärtiges Werk zu interessieren gedenken, das Bemerkungen und Betrachtungen harmonisch verbundner Freunde über Natur und Kunst enthalten soll.</p>
+            <p rendition="#et">Derjenige, der zum Künstler berufen ist, wird auf alles um sich her lebhaft achtgeben, die Gegenstände und ihre Teile werden seine Aufmerksamkeit an sich ziehen, und indem er praktischen Gebrauch von solchen Erfahrungen macht, wird er sich nach und nach üben, immer schärfer zu bemerken, er wird in seiner frühern Zeit alles soviel möglich zu eignem Gebrauch verwenden, später wird er sich auch andern gerne mitteilen. So gedenken auch wir manches, was wir für nützlich und angenehm halten, was unter mancherlei Umständen von uns seit mehrern Jahren aufgezeichnet worden, unsern Lesern vorzulegen und zu erzählen.</p>
+            <p rendition="#et">Allein wer bescheidet sich nicht gern, daß reine Bemerkungen seltner sind, als man glaubt? Wir vermischen so schnell unsere Empfindungen, unsere Meinung, unser <pb n="176" facs="#f0005"/>
+Urteil mit dem, was wir erfahren, daß wir in dem ruhigen Zustande des Beobachters nicht lange verharren, sondern bald Betrachtungen anstellen, auf die wir kein größer Gewicht legen dürfen, als insofern wir uns auf die Natur und Ausbildung unsers Geistes einigermaßen verlassen möchten.</p>
+            <p rendition="#et">Was uns hierin eine stärkere Zuversicht zu geben vermag, ist die Harmonie, in der wir mit mehrern stehen, ist die Erfahrung, daß wir nicht allein, sondern gemeinschaftlich denken und wirken. Die zweifelhafte Sorge, unsere Vorstellungsart möchte uns nur allein angehören, die uns so oft überfällt, wenn andere gerade das Gegenteil von unserer Überzeugung aussprechen, wird erst gemildert, ja aufgehoben, wenn wir uns in mehreren wiederfinden; dann fahren wir erst mit Sicherheit fort, uns in dem Besitze solcher Grundsätze zu erfreuen, die eine lange Erfahrung uns und andern nach und nach bewährt hat.</p>
+            <p rendition="#et">Wenn mehrere vereint auf diese Weise zusammenleben, daß sie sich Freunde nennen dürfen, indem sie ein gleiches Interesse haben, sich fortschreitend auszubilden, und auf nahverwandte Zwecke losgehen, dann werden sie gewiß sein, daß sie sich auf den vielfachsten Wegen wieder begegnen und daß selbst eine Richtung, die sie voneinander zu entfernen schien, sie doch bald wieder glücklich zusammenführen wird.</p>
+            <p rendition="#et">Wer hat nicht erfahren, welche Vorteile in solchen Fällen das Gespräch gewährt! Allein es ist vorübergehend, und indem die Resultate einer wechselseitigen Ausbildung unauslöschlich bleiben, geht die Erinnerung der Mittel verloren, durch welche man dazu gelangt ist.</p>
+            <p rendition="#et">Ein Briefwechsel bewahrt schon besser die Stufen eines freundschaftlichen Fortschrittes: jeder Moment des Wachstums ist fixiert, und wenn das Erreichte uns eine beruhigende Empfindung gibt, so ist ein Blick rückwärts auf das Werden belehrend, indem er uns zugleich ein künftiges, unablässiges Fortschreiten hoffen läßt.</p>
+            <p rendition="#et">Kurze Aufsätze, in die man von Zeit zu Zeit seine Gedanken, <pb n="177" facs="#f0006"/>
+seine Überzeugungen und Wünsche niederlegt, um sich nach einiger Zeit wieder mit sich selbst zu unterhalten, sind auch ein schönes Hülfsmittel eigner und fremder Bildung, deren keines versäumt werden darf, wenn man die Kürze der dem Leben zugemessenen Zeit und die vielen Hindernisse bedenkt, die einer jeden Ausführung im Wege stehen.</p>
+            <p rendition="#et">Daß hier besonders von einem Ideenwechsel solcher Freunde die Rede sei, die sich im allgemeinen zu Künsten und Wissenschaften auszubilden streben, versteht sich von selbst, obgleich ein Welt- und Geschäftsleben auch eines solchen Vorteils nicht ermangeln sollte.</p>
+            <p rendition="#et">Bei Künsten und Wissenschaften aber ist nicht allein eine solche engere Verbindung, sondern auch das Verhältnis zu dem Publikum ebenso günstig, als es ein Bedürfnis wird. Was man irgend Allgemeines denkt oder leistet, gehört der Welt an, und das, was sie von den Bemühungen der einzelnen nutzen kann, bringt sie auch selbst zur Reife. Der Wunsch nach Beifall, welchen der Schriftsteller fühlt, ist ein Trieb, den ihm die Natur eingepflanzt hat, um ihn zu etwas Höherem anzulocken; er glaubt den Kranz schon erreicht zu haben und wird bald gewahr, daß eine mühsamere Ausbildung jeder angebornen Fähigkeit nötig ist, um die öffentliche Gunst festzuhalten, die wohl auch durch Glück und Zufall auf kurze Momente erlangt werden kann.</p>
+            <p rendition="#et">So bedeutend ist für den Schriftsteller in einer frühern Zeit sein Verhältnis zum Publikum, und selbst in spätern Tagen kann er es nicht entbehren. So wenig er auch bestimmt sein mag, andere zu belehren, so wünscht er doch sich denen mitzuteilen, die er sich gleichgesinnt weiß, deren Anzahl aber in der Breite der Welt zerstreut ist; er wünscht sein Verhältnis zu den ältesten Freunden dadurch wieder anzuknüpfen, mit neuen es fortzusetzen und in der letzten Generation sich wieder andere für seine übrige Lebenszeit zu gewinnen. Er wünscht der Jugend die Umwege zu ersparen, auf denen er sich selbst verirrte, und, <pb n="178" facs="#f0007"/>
+indem er die Vorteile der gegenwärtigen Zeit bemerkt und nützt, das Andenken verdienstlicher früherer Bemühungen zu erhalten.</p>
+            <p rendition="#et">In diesem ernsten Sinne verband sich eine kleine Gesellschaft; eine heitere Stimmung möge unsere Unternehmungen begleiten, und wohin wir gelangen, mag die Zeit lehren.</p>
+            <p rendition="#et">Die Aufsätze, welche wir vorzulegen gedenken, werden, ob sie gleich von mehrern verfaßt sind, in Hauptpunkten hoffentlich niemals miteinander in Widerspruch stehen, wenn auch die Denkart der Verfasser nicht völlig die gleiche sein sollte. Kein Mensch betrachtet die Welt ganz wie der andere, und verschiedene Charaktere werden oft den gleichen Grundsatz, den sie sämtlich anerkennen, verschieden anwenden. Ja, der Mensch ist sich in seinen Anschauungen und Urteilen nicht immer selbst gleich: frühere Überzeugungen müssen spätern weichen. Möge immerhin das Einzelne, was man denkt und äußert, nicht alle Proben aushalten, wenn man nur auf seinem Wege gegen sich selbst und gegen andre wahr bleibt!</p>
+            <p rendition="#et">So sehr nun auch die Verfasser untereinander und mit einem großen Teil des Publikums in Harmonie zu stehen wünschen und hoffen, so dürfen sie sich doch nicht verbergen, daß ihnen von verschiedenen Seiten mancher Mißton entgegenklingen wird. Sie haben dies um so mehr zu erwarten, als sie von den herrschenden Meinungen in mehr als <hi rendition="#i">einem</hi> Punkte abweichen. Weit entfernt, die Denkart irgendeines Dritten meistern oder verändern zu wollen, werden sie ihre eigne Meinung fest aussprechen und, wie es die Umstände geben, einer Fehde ausweichen oder sie aufnehmen, im ganzen aber immer auf einem Bekenntnisse halten und besonders diejenigen Bedingungen, die ihnen zu Bildung eines Künstlers unerläßlich scheinen, oft genug wiederholen. Wem um die Sache zu tun ist, der muß Partei zu nehmen wissen, sonst verdient er nirgends zu wirken.</p>
+            <p rendition="#et">Wenn wir nun Bemerkungen und Betrachtungen über Natur vorzulegen versprechen, so müssen wir zugleich <pb n="179" facs="#f0008"/>
+anzeigen, daß es besonders solche sein werden, die sich zunächst auf bildende Kunst sowie auf Kunst überhaupt, dann aber auch auf allgemeine Bildung des Künstlers beziehen.</p>
+            <p rendition="#et">Die vornehmste Forderung, die an den Künstler gemacht wird, bleibt immer die: daß er sich an die Natur halten, sie studieren, sie nachbilden, etwas, das ihren Erscheinungen ähnlich ist, hervorbringen solle.</p>
+            <p rendition="#et">Wie groß, ja wie ungeheuer diese Anforderung sei, wird nicht immer bedacht, und der wahre Künstler selbst erfährt es nur bei fortschreitender Bildung. Die Natur ist von der Kunst durch eine ungeheure Kluft getrennt, welche das Genie selbst ohne äußere Hülfsmittel zu überschreiten nicht vermag.</p>
+            <p rendition="#et">Alles, was wir um uns her gewahr werden, ist nur roher Stoff, und wenn sich das schon selten genug ereignet, daß ein Künstler durch Instinkt und Geschmack, durch Übung und Versuche dahin gelangt, daß er den Dingen ihre äußere schöne Seite abzugewinnen, aus dem vorhandenen Guten das Beste auszuwählen und wenigstens einen gefälligen Schein hervorzubringen lernt, so ist es, besonders in der neuern Zeit, noch viel seltner, daß ein Künstler sowohl in die Tiefe der Gegenstände als in die Tiefe seines eignen Gemüts zu dringen vermag, um in seinen Werken nicht bloß etwas leicht- und oberflächlich Wirkendes, sondern, wetteifernd mit der Natur, etwas geistig Organisches hervorzubringen und seinem Kunstwerk einen solchen Gehalt, eine solche Form zu geben, wodurch es natürlich zugleich und übernatürlich erscheint.</p>
+            <p rendition="#et">Der Mensch ist der höchste, ja der eigentliche Gegenstand bildender Kunst; um ihn zu verstehen, um sich aus dem Labyrinthe seines Baues herauszuwickeln, ist eine allgemeine Kenntnis der organischen Natur unerläßlich. Auch von den unorganischen Körpern sowie von allgemeinen Naturwirkungen, besonders wenn sie, wie z.B. Ton und Farbe, zum Kunstgebrauch anwendbar sind, <pb n="180" facs="#f0009"/>
+sollte der Künstler sich theoretisch belehren; allein welchen weiten Umweg müßte er machen, wenn er sich aus der Schule des Zergliederers, des Naturbeschreibers, des Naturlehrers dasjenige mühsam aussuchen sollte, was zu seinem Zwecke dient; ja es ist die Frage, ob er dort gerade das, was ihm das wichtigste sein muß, finden würde? Jene Männer haben ganz andere Bedürfnisse ihrer eigentlichen Schüler zu befriedigen, als daß sie an das eingeschränkte, besondere Bedürfnis des Künstlers denken sollten. Deshalb ist unsere Absicht, hier ins Mittel zu treten und, wenn wir gleich nicht voraussehen, die nötige Arbeit selbst vollenden zu können, dennoch teils im ganzen eine Übersicht zu geben, teils im einzelnen die Ausführung einzuleiten.</p>
+            <p rendition="#et">Die menschliche Gestalt kann nicht bloß durch das Beschauen ihrer Oberfläche begriffen werden, man muß ihr Inneres entblößen, ihre Teile sondern, die Verbindungen derselben bemerken, die Verschiedenheiten kennen, sich von Wirkung und Gegenwirkung unterrichten, das Verborgene, Ruhende, das Fundament der Erscheinung sich einprägen, wenn man das jenige wirklich schauen und nachahmen will, was sich als ein schönes ungetrenntes Ganze in lebendigen Wellen vor unserm Auge bewegt. Der Blick auf die Oberfläche eines lebendigen Wesens verwirrt den Beobachter, und man darf wohl hier, wie in andern Fällen, den wahren Spruch anbringen: Was man weiß, sieht man erst! Denn wie derjenige, der ein kurzes Gesicht hat, einen Gegenstand besser sieht, von dem er sich wieder entfernt als einen, dem er sich erst nähert, weil ihm das geistige Gesicht nunmehr zu Hülfe kommt, so liegt eigentlich in der Kenntnis die Vollendung des Anschauens.</p>
+            <p rendition="#et">Wie gut bildet ein Kenner der Naturgeschichte, der zugleich Zeichner ist, die Gegenstände nach, indem er das Wichtige und Bedeutende der Teile, woraus der Charakter des Ganzen entspringt, einsieht und den Nachdruck darauf legt.</p>
+            <p rendition="#et">So wie nun eine genauere Kenntnis der einzelnen Teile <pb n="181" facs="#f0010"/>
+menschlicher Gestalt, die er zuletzt wieder als ein Ganzes betrachten muß, den Künstler äußerst fördert, so ist auch ein Überblick, ein Seitenblick über und auf verwandte Gegenstände höchst nützlich, vorausgesetzt, daß der Künstler fähig ist, sich zu Ideen zu erheben und die nahe Verwandtschaft entfernt scheinender Dinge zu fassen.</p>
+            <p rendition="#et">Die vergleichende Anatomie hat einen allgemeinen Begriff über organische Naturen vorbereitet; sie führt uns von Gestalt zu Gestalten, und indem wir nah oder fern verwandte Naturen betrachten, erheben wir uns über sie alle, um ihre Eigenschaften in einem idealen Bilde zu erblicken.</p>
+            <p rendition="#et">Halten wir dasselbe fest, so finden wir erst, daß unsere Aufmerksamkeit bei Beobachtung der Gegenstände eine bestimmte Richtung nimmt, daß abgesonderte Kenntnisse durch Vergleichung leichter gewannen und festgehalten werden und daß wir zuletzt beim Kunstgebrauch nur dann mit der Natur wetteifern können, wenn wir die Art, wie sie bei Bildung ihrer Werke verfährt, ihr wenigstens einigermaßen abgelernt haben.</p>
+            <p rendition="#et">Muntern wir ferner den Künstler auf, auch von unorganischen Naturen einige Kenntnis zu nehmen, so können wir es um so eher tun, als man sich gegenwärtig von dem Mineralreich bequem und schnell unterrichtet. Der Maler bedarf einiger Kenntnis der Steine, um sie charakteristisch nachzuahmen, der Bildhauer und Baumeister, um sie zu nutzen; der Steinschneider kann eine Kenntnis der Edelsteine nicht entbehren, der Kenner und Liebhaber wird gleichfalls darnach streben.</p>
+            <p rendition="#et">Haben wir nun zuletzt dem Künstler geraten, sich von allgemeinen Naturwirkungen einen Begriff zu machen, um diejenigen kennenzulernen, die ihn besonders interessieren, teils um sich nach mehr Seiten auszubilden, teils um das, was ihn betrifft, besser zu verstehen, so wollen wir auch über diesen bedeutenden Punkt noch einiges hinzufügen.</p>
+            <p rendition="#et">Bisher konnte der Maler die Lehre des Physikers von den Farben nur anstaunen, ohne daraus einigen Vorteil zu <pb n="182" facs="#f0011"/>
+ziehen; das natürliche Gefühl des Künstlers aber, eine fortdauernde Übung, eine praktische Notwendigkeit führte ihn auf einen eignen Weg: er fühlte die lebhaften Gegensätze, durch deren Vereinigung die Harmonie der Farben entsteht, er bezeichnete gewisse Eigenschaften derselben durch annähernde Empfindungen, er hatte warme und kalte Farben, Farben, die eine Nähe, andere, die eine Ferne ausdrücken, und was dergleichen Bezeichnungen mehr sind, durch welche er diese Phänomene den allgemeinsten Naturgesetzen auf seine Weise näher brachte. Vielleicht bestätigt sich die Vermutung, daß die farbigen Naturwirkungen so gut als die magnetischen, elektrischen und andere auf einem Wechselverhältnis, einer Polarität, oder wie man die Erscheinungen des Zwiefachen, ja Mehrfachen in einer entschiedenen Einheit nennen mag, beruhen.</p>
+            <p rendition="#et">Diese Lehre umständlich und für den Künstler faßlich vorzulegen, werden wir uns zur Pflicht machen, und wir können um so mehr hoffen, hierin etwas zu tun, das ihm willkommen sei, als wir nur dasjenige, was er bisher aus Instinkt getan, auszulegen und auf Grundsätze zurückzuführen bemüht sein werden.</p>
+            <p rendition="#et">So viel von dem, was wir zuerst in Absicht auf Natur mitzuteilen hoffen; und nun das Notwendigste in Absicht auf Kunst.</p>
+            <p rendition="#et">Da die Einrichtung des gegenwärtigen Werks von der Art ist, daß wir einzelne Abhandlungen, ja dieselben sogar teilweise vorlegen werden, dabei aber unser Wunsch ist, nicht ein Ganzes zu zerstücken, sondern aus mannigfaltigen Teilen endlich ein Ganzes zusammenzusetzen, so wird es nötig sein, baldmöglichst allgemein und summarisch dasjenige vorzulegen, worüber der Leser nach und nach im einzelnen unsere Ausarbeitungen erhalten wird. Daher wird uns zunächst ein Aufsatz über bildende Kunst beschäftigen, worin die bekannten Rubriken nach unserer Vorstellungsart und Methode vorgetragen werden sollen. Dabei werden wir vorzüglich darauf bedacht sein, die Wichtigkeit eines <pb n="183" facs="#f0012"/>
+jeden Teils der Kunst vor Augen zu stellen und zu zeigen, daß der Künstler keinen derselben zu vernachlässigen habe, wie es leider so oft geschehen ist und geschieht.</p>
+            <p rendition="#et">Wir betrachteten vorhin die Natur als die Schatzkammer der Stoffe im allgemeinen, nun gelangen wir aber an den wichtigen Punkt, wo sich zeigt, wie die Kunst ihre Stoffe sich selbst näher zubereite.</p>
+            <p rendition="#et">Indem der Künstler irgendeinen Gegenstand der Natur ergreift, so gehört dieser schon nicht mehr der Natur an, ja man kann sagen, daß der Künstler ihn in diesem Augenblicke erschaffe, indem er ihm das Bedeutende, Charakteristische, Interessante abgewinnt oder vielmehr erst den höhern Wert hineinlegt.</p>
+            <p rendition="#et">Auf diese Weise werden der menschlichen Gestalt die schönern Proportionen, die edlern Formen, die höhern Charaktere gleichsam erst aufgedrungen, der Kreis der Regelmäßigkeit, Vollkommenheit, Bedeutsamkeit und Vollendung wird gezogen, in welchem die Natur ihr Bestes gerne niederlegt, wenn sie übrigens in ihrer großen Breite leicht in Häßlichkeit ausartet und sich ins Gleichgültige verliert.</p>
+            <p rendition="#et">Ebendasselbe gilt von zusammengesetzten Kunstwerken, ihrem Gegenstand und Inhalt, die Aufgabe sei Fabel oder Geschichte.</p>
+            <p rendition="#et">Wohl dem Künstler, der sich bei Unternehmung des Werkes nicht vergreift! der das Kunstgemäße zu wählen oder vielmehr dasselbe zu bestimmen versteht!</p>
+            <p rendition="#et">Wer in den zerstreuten Mythen, in der weitläufigen Geschichte, um sich eine Aufgabe zu suchen, ängstlich herumirrt, mit Gelehrsamkeit bedeutend oder allegorisch interessant sein will, der wird in der Hälfte seiner Arbeit oft bei unerwarteten Hindernissen stocken oder nach Vollendung derselben seinen schönsten Zweck verfehlen. Wer zu den Sinnen nicht klar spricht, redet auch nicht rein zum Gemüt, und wir achten diesen Punkt so wichtig, daß wir gleich zu Anfang eine ausführlichere Abhandlung darüber einrücken.</p>
+            <p rendition="#et">
+               <pb n="184" facs="#f0013"/>
+Ist nun der Gegenstand glücklich gefunden oder erfunden, dann tritt die Behandlung ein, die wir in die geistige, sinnliche und mechanische einteilen möchten.</p>
+            <p rendition="#et">Die geistige arbeitet den Gegenstand in seinem innern Zusammenhange aus, sie findet die untergeordneten Motive, und wenn sich bei der Wahl des Gegenstandes überhaupt die Tiefe des künstlerischen Genies beurteilen läßt, so kann man an der Entdeckung der Motive seine Breite, seinen Reichtum, seine Fülle und Liebenswürdigkeit erkennen.</p>
+            <p rendition="#et">Die sinnliche Behandlung würden wir diejenige nennen, wodurch das Werk durchaus den Sinnen faßlich, angenehm erfreulich und durch einen milden Reiz unentbehrlich wird.</p>
+            <p rendition="#et">Die mechanische zuletzt wäre diejenige, die durch irgendein körperliches Organ auf bestimmte Stoffe wirkt und so der Arbeit ihr Dasein, ihre Wirklichkeit verschafft.</p>
+            <p rendition="#et">Indem wir nun auf solche Art dem Künstler nützlich zu sein hoffen und lebhaft wünschen, daß er sich manches Rates, mancher Vorschläge bei seinen Arbeiten bedienen möge, so dringt sich uns leider die bedenkliche Betrachtung auf, daß jedes Unternehmen, so wie jeder Mensch, von seinem Zeitalter ebensowohl leide, als man davon gelegentlich Vorteil zu ziehen im Fall ist; und wir können bei uns selbst die Frage nicht ganz ablehnen, welche Aufnahme wir denn wohl finden möchten?</p>
+            <p rendition="#et">Alles ist einem ewigen Wechsel unterworfen, und da gewisse Dinge nicht nebeneinander bestehen können, verdrängen sie einander. So geht es mit Kenntnissen, mit Anleitungen zu gewissen Übungen, mit Vorstellungsarten und Maximen. Die Zwecke der Menschen bleiben ziemlich immer dieselben: man will jetzt noch ein guter Künstler und Dichter sein oder werden wie vor Jahrhunderten; die Mittel aber, wodurch man zu dem Zwecke gelangt, sind nicht jedem klar, und warum sollte man leugnen, daß nichts angenehmer wäre, als wenn man einen großen Vorsatz spielend ausführen könnte.</p>
+            <p rendition="#et">
+               <pb n="185" facs="#f0014"/>
+Natürlicherweise hat das Publikum auf die Kunst großen Einfluß, indem es für seinen Beifall, für sein Geld ein Werk verlangt, das ihm gefalle, ein Werk, das unmittelbar zu genießen sei, und meistens wird sich der Künstler gern darnach bequemen, denn er ist ja auch ein Teil des Publikums, auch er ist in gleichen Jahren und Tagen gebildet, auch er fühlt die gleichen Bedürfnisse, er drängt sich in derselbigen Richtung, und so bewegt er sich glücklich mit der Menge fort, die ihn trägt und die er belebt.</p>
+            <p rendition="#et">Wir sehen auf diese Weise ganze Nationen, ganze Zeitalter von ihren Künstlern entzückt, so wie der Künstler sich in seiner Nation, in seinem Zeitalter bespiegelt, ohne daß beide nur den mindesten Argwohn hätten, ihr Weg könnte vielleicht nicht der rechte, ihr Geschmack wenigstens einseitig, ihre Kunst auf dem Rückwege und ihr Vordringen nach der falschen Seite gerichtet sein.</p>
+            <p rendition="#et">Anstatt uns hierüber ins Allgemeinere zu verbreiten, machen wir hier eine Bemerkung, die sich besonders auf bildende Kunst bezieht.</p>
+            <p rendition="#et">Dem deutschen Künstler, so wie überhaupt jedem neuen und nordischen, ist es schwer, ja beinahe unmöglich, von dem Formlosen zur Gestalt überzugehen und, wenn er auch bis dahin durchgedrungen wäre, sich dabei zu erhalten.</p>
+            <p rendition="#et">Jeder Künstler, der eine Zeitlang in Italien gelebt hat, frage sich: ob nicht die Gegenwart der besten Werke alter und neuer Kunst in ihm das unablässige Streben erregt habe, die menschliche Gestalt in ihren Proportionen, Formen, Charakteren zu studieren und nachzubilden, sich in der Ausführung allen Fleiß und Mühe zu geben, um sich jenen Kunstwerken, die ganz auf sich selbst ruhen, zu nähern, um ein Werk hervorzubringen, das, indem es das sinnliche Anschauen befriedigt, den Geist in seine höchsten Regionen erhebt? Er gestehe aber auch, daß er nach seiner Zurückkunft nach und nach von jenem Streben heruntersinken müsse, weil er wenig Personen findet, die das Gebildete eigentlich sehen, genießen und denken mögen, sondern <pb n="186" facs="#f0015"/>
+meist nur solche, die ein Werk obenhin ansehen, dabei etwas Beliebiges denken und nach ihrer Art etwas dabei empfinden und genießen wollen.</p>
+            <p rendition="#et">Das schlechteste Bild kann zur Empfindung und zur Einbildungskraft sprechen, indem es sie in Bewegung setzt, los und frei macht und sich selbst überläßt; das beste Kunstwerk spricht auch zur Empfindung, aber eine höhere Sprache, die man freilich verstehen muß; es fesselt die Gefühle und die Einbildungskraft; es nimmt uns unsre Willkür, wir können mit dem Vollkommenen nicht schalten und walten, wie wir wollen, wir sind genötigt, uns ihm hinzugeben, um uns selbst von ihm, erhöht und verbessert, wieder zu erhalten.</p>
+            <p rendition="#et">Daß dies keine Träume sind, werden wir nach und nach im einzelnen so deutlich als möglich zu zeigen suchen, besonders werden wir auf einen Widerspruch aufmerksam machen, in welchen sich die Neuern so oft verwickeln. Sie nennen die Alten ihre Lehrer, sie gestehen jenen Werken eine unerreichbare Vortrefflichkeit zu und entfernen sich in Theorie und Praxis doch von den Maximen, die jene beständig ausübten.</p>
+            <p rendition="#et">Indem wir nun von diesem wichtigen Punkte ausgehen und oft wieder auf denselben zurückkehren wer den, so finden wir noch andere, davon noch einiges zu erwähnen ist.</p>
+            <p rendition="#et">Eines der vorzüglichsten Kennzeichen des Verfalles der Kunst ist die Vermischung der verschiedenen Arten derselben.</p>
+            <p rendition="#et">Die Künste selbst sowie ihre Arten sind untereinander verwandt, sie haben eine gewisse Neigung, sich zu vereinigen, ja sich ineinander zu verlieren; aber eben darin besteht die Pflicht, das Verdienst, die Würde des echten Künstlers, daß er das Kunstfach, in welchem er arbeitet, von andern abzusondern, jede Kunst und Kunstart auf sich selbst zu stellen und sie aufs möglichste zu isolieren wisse.</p>
+            <p rendition="#et">Man hat bemerkt, daß alle bildende Kunst zur Malerei, alle Poesie zum Drama strebe, und es kann uns diese <pb n="187" facs="#f0016"/>
+Erfahrung künftig zu wichtigen Betrachtungen Anlaß geben.</p>
+            <p rendition="#et">Der echte, gesetzgebende Künstler strebt nach Kunstwahrheit, der gesetzlose, der einem blinden Trieb folgt, nach Naturwirklichkeit; durch jenen wird die Kunst zum höchsten Gipfel, durch diesen auf ihre niedrigste Stufe gebracht.</p>
+            <p rendition="#et">So wie mit dem Allgemeinen der Kunst, ebenso verhält es sich auch mit den Arten derselben. Der Bildhauer muß anders denken und empfinden als der Maler, ja er muß anders zu Werke gehen, wenn er ein halberhobenes Werk, als wenn er ein rundes hervor bringen will. Indem man die flacherhobenen Werke immer höher und höher machte, dann Teile, dann Figuren ablöste, zuletzt Gebäude und Landschaften anbrachte und so halb Malerei, halb Puppenspiel darstellte, ging man immer abwärts in der wahren Kunst, und leider haben treffliche Künstler der neuern Zeit ihren Weg auf diese Weise genommen.</p>
+            <p rendition="#et">Wenn wir nun künftig solche Maximen, die wir für die rechten halten, aussprechen werden, wünschten wir, daß sie, wie sie aus den Kunstwerken gezogen sind, von dem Künstler praktisch geprüft werden. Wie selten kann man mit dem andern über einen Grundsatz theoretisch einig werden! Hingegen was anwendbar, was brauchbar sei, ist viel geschwinder entschieden. Wie oft sieht man Künstler bei der Wahl ihrer Gegenstände, bei der für ihre Kunst passenden Zusammensetzung im allgemeinen, bei der Anordnung im besondern sowie den Maler bei der Wahl der Farben in Verlegenheit. Dann ist es Zeit, einen Grundsatz zu prüfen, dann wird die Frage leichter zu entscheiden sein, ob wir durch ihn den großen Mustern und allem, was wir an ihnen schätzen und lieben, näherkommen oder ob er uns in der empirischen Verwirrung einer nicht genug durchdachten Erfahrung stecken läßt.</p>
+            <p rendition="#et">Gelten nun dergleichen Maximen zur Bildung des Künstlers, zur Leitung desselben in mancher Verlegenheit, so <pb n="188" facs="#f0017"/>
+werden sie auch bei Entwicklung, Schätzung und Beurteilung alter und neuer Kunstwerke dienen und wieder wechselsweise aus der Betrachtung derselben entstehen. Ja, es ist um so nötiger, sich auch hier daran zu halten, weil, unerachtet der allgemein gepriesenen Vorzüge des Altertums, dennoch unter den Neuern sowohl einzelne Menschen als ganze Nationen oft eben das verkennen, worin der höchste Vorzug jener Werke liegt.</p>
+            <p rendition="#et">Eine genaue Prüfung derselben wird uns am meisten vor diesem Übel bewahren. Deshalb sei hier nur ein Beispiel aufgestellt, wie es dem Liebhaber in der plastischen Kunst zu gehen pflegt, damit etwa deutlich werde, wie notwendig eine genaue Kritik der ältern sowohl als der neuern Kunstwerke sei, wenn sie einigermaßen Nutzen bringen soll.</p>
+            <p rendition="#et">Auf jeden, der ein zwar ungeübtes, aber für das Schöne empfängliches Auge hat, wird ein stumpfer, unvollkommner Gipsabguß eines trefflichen alten Werks noch immer eine große Wirkung tun; denn in einer solchen Nachbildung bleibt doch immer die Idee, die Einfalt und Größe der Form, genug, das Allgemeinste noch übrig, so viel, als man mit schlechten Augen allenfalls in der Ferne gewahr werden könnte.</p>
+            <p rendition="#et">Man kann bemerken, daß oft eine lebhafte Neigung zur Kunst durch solche ganz unvollkommene Nachbildungen entzündet wird. Allein die Wirkung ist dem Gegenstande gleich, es wird mehr ein dunkles, unbestimmtes Gefühl erregt, als daß eigentlich der Gegenstand in seinem Wert und in seiner Würde solchen angehenden Kunstfreunden erscheinen sollte. Solche sind es, die gewöhnlich den Grundsatz äußern, daß eine allzu genaue kritische Untersuchung den Genuß zerstöre, solche sind es, die sich gegen eine Würdigung des Einzelnen zu sträuben und zu wehren pflegen.</p>
+            <p rendition="#et">Wenn ihnen aber nach und nach bei weiterer Erfahrung und Übung ein scharfer Abguß statt eines stumpfen, ein <pb n="189" facs="#f0018"/>
+Original statt eines Abgusses vorgelegt wird, dann wächst mit der Einsicht auch das Vergnügen, und so steigt es, wenn Originale selbst, wenn vollkommene Originale ihnen endlich bekannt werden.</p>
+            <p rendition="#et">Gern läßt man sich in die Labyrinthe genauer Betrachtungen ein, wenn das Einzelne so wie das Ganze vollkommen ist, ja man lernt einsehen, daß man das Vortreffliche nur in dem Maße kennenlernt, insofern man das Mangelhafte einzusehen imstande ist. Die Restauration von den ursprünglichen Teilen, die Kopie von dem Original zu unterscheiden, in dem kleinsten Fragmente noch die zerstörte Herrlichkeit des Ganzen zu schauen, wird der Genuß des vollendeten Kenners, und es ist ein großer Unterschied, ein stumpfes Ganze mit dunklem Sinne oder ein vollendetes mit hellem Sinne zu beschauen und zu fassen.</p>
+            <p rendition="#et">Wer sich mit irgendeiner Kenntnis abgibt, soll nach dem Höchsten streben! Es ist mit der Einsicht viel anders als mit der Ausübung, denn im Praktischen muß sich jeder bald bescheiden, daß ihm nur ein gewisses Maß von Kräften zugeteilt sei; zur Kenntnis, zur Einsicht aber sind weit mehrere Menschen fähig, ja man kann wohl sagen ein jeder, der sich selbst verleugnen, sich den Gegenständen unterordnen kann, der nicht mit einem starren, beschränkten Eigensinn sich und seine kleinliche Einseitigkeit in die höchsten Werke der Natur und Kunst überzutragen strebt.</p>
+            <p rendition="#et">Um von Kunstwerken eigentlich und mit wahrem Nutzen für sich und andere zu sprechen, sollte es freilich nur in Gegenwart derselben geschehen. Alles kommt aufs Anschauen an, es kommt darauf an, daß bei dem Worte, wodurch man ein Kunstwerk zu erläutern hofft, das Bestimmteste gedacht werde, weil sonst gar nichts gedacht wird.</p>
+            <p rendition="#et">Daher geschieht es so oft, daß derjenige, der über Kunstwerke schreibt, bloß im Allgemeinen verweilt, wodurch wohl Ideen und Empfindungen erregt werden, ja allen Lesern, nur demjenigen nicht genuggetan wird, der mit dem Buche in der Hand vor das Kunstwerk hintritt.</p>
+            <p rendition="#et">
+               <pb n="190" facs="#f0019"/>
+Aber eben deswegen werden wir in mehrern Abhandlungen vielleicht in dem Falle sein, das Verlangen der Leser mehr zu reizen als zu befriedigen; denn es ist nichts natürlicher, als daß sie ein vortreffliches Kunstwerk, das genau zergliedert wird, sogleich vor Augen zu haben wünschen, um das Ganze, von dem die Rede ist, zu genießen und, was die Teile betrifft, die Meinung, die sie vernehmen, ihrem Urteil zu unterwerfen.</p>
+            <p rendition="#et">Indem nun aber die Verfasser für diejenigen zu arbeiten denken, welche die Werke teils gesehen haben, teils künftig sehen werden, so hoffen sie für solche, die sich in keinem der beiden Fälle befinden, dennoch das mögliche zu tun. Wir werden der Nachbildungen erwähnen, anzeigen, wo Abgüsse von alten Kunstwerken, alte Kunstwerke selbst besonders den Deutschen sich näher befinden, und so echter Liebhaberei und Kunstkenntnis, soviel an uns liegt, zu begegnen suchen.</p>
+            <p rendition="#et">Denn nur auf dem höchsten und genausten Begriff von Kunst kann eine Kunstgeschichte beruhen; nur wenn man das Vortrefflichste kennt, was der Mensch hervorzubringen imstande war, kann der psychologisch-chronologische Gang dargestellt werden, den man in der Kunst sowie in andern Fächern nahm, wo erst eine beschränkte Tätigkeit in einer trocknen, ja traurigen Nachahmung des Unbedeutenden sowie des Bedeutenden verweilte, sich darauf ein lieblicheres, gemütlicheres Gefühl gegen die Natur entwickelte, dann, begleitet von Kenntnis, Regelmäßigkeit, Ernst und Strenge, unter günstigen Umständen die Kunst bis zum Höchsten hinaufstieg, wo es denn zuletzt dem glücklichen Genie, das sich von allen diesen Hülfsmitteln umgeben fand, möglich ward, das Reizende, Vollendete hervorzubringen.</p>
+            <p rendition="#et">Leider aber erregen Kunstwerke, die mit solcher Leichtigkeit sich aussprechen, die dem Menschen ein bequemes Gefühl seiner selbst, die ihm Heiterkeit und Freiheit einflößen, bei dem nachstrebenden Künstler den Begriff, daß <pb n="191" facs="#f0020"/>
+auch das Hervorbringen bequem sei. Da der Gipfel dessen, was Kunst und Genie darstellen, eine leichte Erscheinung ist, so werden die Nachkommenden gereizt, sich's leicht zu machen und auf den Schein zu arbeiten.</p>
+            <p rendition="#et">So verliert die Kunst sich nach und nach von ihrer Höhe herunter, im ganzen so wie im einzelnen. Wenn wir uns aber hievon einen anschaulichen Begriff bilden wollen, so müssen wir ins Einzelne des Einzelnen hinabsteigen, welches nicht immer eine angenehme und reizende Beschäftigung ist, wofür aber der sichere Blick über das Ganze nach und nach reichlich entschädigt.</p>
+            <p rendition="#et">Wenn uns nun die Erfahrung bei Betrachtung der alten und mittlern Kunstwerke gewisse Maximen bewährt hat, so bedürfen wir ihrer am meisten bei Beurteilung der neuen und neuesten Arbeiten; denn da bei Würdigung lebender oder kurz verstorbener Künstler so leicht persönliche Verhältnisse, Liebe und Haß der Einzelnen, Neigung und Abneigung der Menge sich einmischen, so brauchen wir Grundsätze um so nötiger, um über unsre Zeitgenossen ein Urteil zu äußern. Die Untersuchung kann alsdann sogleich auf doppelte Weise angestellt werden. Der Einfluß der Willkür wird vermindert, die Frage vor einen höhern Gerichtshof gebracht. Man kann den Grundsatz selbst sowie dessen Anwendung prüfen, und wenn man sich auch nicht vereinigen sollte, so kann der streitige Punkt doch sicher und deutlich bezeichnet werden.</p>
+            <p rendition="#et">Besonders wünschten wir, daß der <hi rendition="#i">lebende</hi> Künstler, bei dessen Arbeiten wir vielleicht einiges zu erinnern hätten, unsere Urteile auf diese Weise bedächtig prüfte. Denn jeder, der diesen Namen verdient, ist zu unsrer Zeit genötigt, sich aus Arbeit und eignem Nachdenken wo nicht eine Theorie, doch einen gewissen Inbegriff theoretischer Hausmittel zu bilden, bei deren Gebrauch er sich in mancherlei Fällen ganz leidlich befindet; man wird aber oft bemerken, daß er auf diesem Wege sich solche Maximen als Gesetze aufstellt, die seinem Talent, seiner Neigung und Bequemlichkeit <pb n="192" facs="#f0021"/>
+gemäß sind. Er unterliegt einem allgemeinen menschlichen Schicksal. Wie viele handeln nicht in andern Fächern auf eben diese Weise! Aber wir bilden uns nicht, wenn wir das, was in uns liegt, nur mit Leichtigkeit und Bequemlichkeit in Bewegung setzen. Jeder Künstler, wie jeder Mensch, ist nur ein einzelnes Wesen und wird nur immer auf <hi rendition="#i">eine</hi> Seite hängen. Deswegen hat der Mensch auch das, was seiner Natur entgegengesetzt ist, theoretisch und praktisch, insofern es ihm möglich wird, in sich aufzunehmen. Der Leichte sehe nach Ernst und Strenge sich um, der Strenge habe ein leichtes und bequemes Wesen vor Augen, der Starke die Lieblichkeit, der Liebliche die Stärke, und jeder wird seine eigene Natur nur desto mehr ausbilden, je mehr er sich von ihr zu entfernen scheint. Jede Kunst verlangt den ganzen Menschen, der höchstmögliche Grad derselben die ganze Menschheit.</p>
+            <p rendition="#et">Die Ausübung der bildenden Kunst ist mechanisch, und die Bildung des Künstlers fängt in seiner frühsten Jugend mit Recht vom Mechanischen an, seine übrige Erziehung hingegen ist oft vernachlässigt, da sie doch weit sorgfältiger sein sollte als die Bildung anderer, welche Gelegenheit haben, aus dem Leben selbst Vorteil zu ziehen. Die Gesellschaft macht einen rohen Menschen bald höflich, ein geschäftiges Leben den offensten vorsichtig; literarische Arbeiten, welche durch den Druck vor ein großes Publikum kommen, finden überall Widerstand und Zurechtweisung; nur der bildende Künstler allein ist meist auf eine einsame Werkstatt beschränkt, er hat fast nur mit dem zu tun, der seine Arbeit bestellt und bezahlt, mit einem Publikum, das oft nur gewissen krankhaften Eindrücken folgt, mit Kennern, die ihn unruhig machen, und mit Marktrufern, welche jedes Neue mit solchen Lob- und Preisformeln empfangen, durch die das Vortrefflichste schon hinlänglich geehrt wäre.</p>
+            <p rendition="#et">Doch es wird Zeit, diese Einleitung zu schließen, damit sie nicht, anstatt dem Werke bloß voranzugehen, ihm vorlaufe und vorgreife. Wir haben bisher wenigstens den Punkt <pb n="193" facs="#f0022"/>
+bezeichnet, von welchem wir auszugehen gedenken; wie weit wir uns verbreiten können und werden, muß sich erst nach und nach entwickeln. Theorie und Kritik der Dichtkunst wird uns hoffentlich bald beschäftigen; was uns das Leben überhaupt, was uns Reisen, ja was uns die Begebenheiten des Tags anbieten, soll nicht ausgeschlossen sein, und so sei denn noch zuletzt von einer wichtigen Angelegenheit des Augenblicks gesprochen.</p>
+            <p rendition="#et">Für die Bildung des Künstlers, für den Genuß des Kunstfreundes war es von jeher von der größten Bedeutung, an welchem Orte sich Kunstwerke befanden; es war eine Zeit, in der sie, geringere Dislokationen abgerechnet, meistens an Ort und Stelle blieben; nun aber hat sich eine große Veränderung zugetragen, welche für die Kunst im ganzen sowohl als im besondern wichtige Folgen haben wird.</p>
+            <p rendition="#et">Man hat vielleicht jetzo mehr Ursache als jemals, Italien als einen großen Kunstkörper zu betrachten, wie er vor kurzem noch bestand. Ist es möglich, davon eine Übersicht zu geben, so wird sich alsdann erst zeigen, was die Welt in diesem Augenblicke verliert, da so viele Teile von diesem großen und alten Ganzen abgerissen wurden.</p>
+            <p rendition="#et">Was in dem Akt des Abreißens selbst zugrunde gegangen, wird wohl ewig ein Geheimnis bleiben; allein eine Darstellung jenes neuen Kunstkörpers, der sich in Paris bildet, wird in einigen Jahren möglich werden; die Methode, wie ein Künstler und Kunstliebhaber Frankreich und Italien zu nutzen hat, wird sich angeben lassen, so wie dabei noch eine wichtige und schöne Frage zu erörtern ist: was andere Nationen, besonders Deutschland und England, tun sollten, um in dieser Zeit der Zerstreuung und des Verlustes mit einem wahren weltbürgerlichen Sinne, der vielleicht nirgends reiner als bei Künsten und Wissenschaften stattfinden kann, die mannigfaltigen Kunstschätze, die bei ihnen zerstreut niedergelegt sind, allgemein brauchbar zu machen und einen idealen Kunstkörper bilden zu helfen, der uns mit der Zeit für das, was uns der gegenwärtige Augenblick <pb n="194" facs="#f0023"/>
+zerreißt, wo nicht entreißt, vielleicht glücklich zu entschädigen vermöchte.</p>
+            <p rendition="#et">Soviel im allgemeinen von der Absicht eines Werkes, dem wir recht viel ernsthafte und wohlwollende Teilnehmer wünschen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

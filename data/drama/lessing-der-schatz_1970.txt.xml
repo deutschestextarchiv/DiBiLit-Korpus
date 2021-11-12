@@ -1,0 +1,3407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Schatz</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-01T12:22:50Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000249</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q56255327</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005260310</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Dramen/Der Schatz</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rkzm.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-EA1A-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 1, München 1970 ff.</bibl>
+            <bibl>Gotthold Ephraim Lessing: Werke. Herausgegeben von Herbert G. Göpfert in Zusammenarbeit mit Karl Eibl, Helmut Göbel, Karl S. Guthke, Gerd Hillen, Albert von Schirmding und Jörg Schönert, Band 1–8, München: Hanser, 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 1</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">602 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1970</date>
+                  <date type="firstPublication">1755</date>
+                  <date type="firstPublication" subtype="clariah">1755</date>
+                  <date type="firstPublication" subtype="zeno">1755</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor">1755</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d1010e302">Entstanden 1750. Erstdruck in: Schriften, Berlin (Voss) 1755.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="staleno" sex="MALE">
+                  <persName>Staleno</persName>
+               </person>
+               <person xml:id="leander" sex="MALE">
+                  <persName>Leander</persName>
+               </person>
+               <person xml:id="philto" sex="MALE">
+                  <persName>Philto</persName>
+               </person>
+               <person xml:id="lelio" sex="MALE">
+                  <persName>Lelio</persName>
+               </person>
+               <person xml:id="maskarill" sex="MALE">
+                  <persName>Maskarill</persName>
+               </person>
+               <person xml:id="anselmo" sex="MALE">
+                  <persName>Anselmo</persName>
+               </person>
+               <person xml:id="der_traeger" sex="MALE">
+                  <persName>Der Träger</persName>
+               </person>
+               <person xml:id="raps" sex="MALE">
+                  <persName>Raps</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d1010e302">
+      <front>
+         <div type="front">
+            <head>Gotthold Ephraim Lessing</head>
+            <head>Der Schatz</head>
+            <head>Ein Lustspiel in einem Aufzuge</head>
+            <pb n="558" facs="#f0001"/>
+         </div>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>Leander.</castItem>
+               <castItem>Staleno, Leanders Vormund.</castItem>
+               <castItem>Philto, ein Alter.</castItem>
+               <castItem>Anselmus.</castItem>
+               <castItem>Lelio, des Anselmus Sohn.</castItem>
+               <castItem>Maskarill, des Lelio Bedienter.</castItem>
+               <castItem>Raps.</castItem>
+               <castItem>Ein Träger.</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Die Szene ist auf der Straße.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Auftritt</head>
+            <stage>Leander. Staleno.</stage>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ei! Leander, so jung, und Er hat sich schon ein Mädchen ausgesehen?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Das wird dem Mädchen eben lieb sein, daß ich jung bin. Und wie jung denn? Wenn ich noch
+            einmal so alt wäre, so könnte ich schon Kinder haben, die so alt wären als ich.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und das Mädchen soll ich Ihm zufreien?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Ja, mein lieber Herr Vormund, wenn Sie wollten so gut sein.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Lieber Herr Vormund! das habe ich lange nicht gehört! Wenn Sie wollten so gut sein! Wie
+            höflich man doch gleich wird, wenn man verliebt ist! – – Aber was ist es denn für ein
+            Mädchen? das hat Er mir ja noch nicht gesagt.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Ein allerliebstes Mädchen.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Hat sie Geld? Was kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Sie ist die Schönheit selbst; und unschuldig dabei, – – so unschuldig, als ich.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Spricht sie auch schon von Kindern, die sie haben könnte? – – Aber sage Er mir, was
+            kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Wenn Sie sie sehen sollten, Sie würden sich selbst in sie verlieben. Ein rundes, volles
+            Gesicht, das aber gar nichts Kindisches mehr hat; ein Gewächse, wie ein Rohr – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und was kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Wie ein Rohr so gerade. Und dabei nicht hager; aber auch nicht dicke. Sie wissen wohl,
+            Herr Vormund, beides muß nicht sein, wenn ein Frauenzimmer schön sein soll.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und was kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Sie weiß sich zu tragen, ah! auf eine Art, liebster Herr Staleno, auf eine Art – – Und
+            ich versichre Sie, sie hat nicht tanzen gelernt; es ist ihr natürlich.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und was kriegt sie mit?</p>
+               <pb n="559" facs="#f0002"/>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Wenn ihr Gesichte auch das schönste ganz und gar nicht wäre, so würden sie doch schon
+            ihre Manieren zu der angenehmsten Person unter der Sonne machen. Ich kann nicht
+            begreifen, wer sie ihr muß gewiesen haben.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>O! so höre Er doch! Nach ihrer Aussteuer frage ich; was kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Und sprechen – – sprechen kann sie wie ein Engel –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Sie werden schwerlich mehr Verstand und Tugend bei irgend einer Person ihres
+            Geschlechts antreffen, als bei ihr – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Gut! alles gut! aber was kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Sie ist über dieses aus einem guten Geschlechte, Herr Vormund; aus einem sehr guten
+            Geschlechte.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Die guten Geschlechter sind nicht allzeit die reichsten. Was kriegt sie mit?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Ich habe vergessen, Ihnen noch zu sagen, daß sie auch sehr schön singt.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Zum Henker! lasse Er mich nicht eine Sache hundertmal fragen. Ich will vor allen Dingen
+            wissen, was sie mitkriegt? – –</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Wahrhaftig! ich habe sie selbst nur gestern Abends singen hören. Wie wurde ich
+            bezaubert!</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ah! Er muß Seinen Vormund nicht zum Narren haben. Wenn Er mir keine Antwort geben will:
+            so packe Er sich, und lasse Er mich meinen Gang gehen.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Sie sind ja gar böse, allerliebster Herr Vormund. Ich wollte Ihnen eben Ihre Frage
+            beantworten.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Nun! so tu Ers.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Was war Ihre Frage? Ja, ich besinne mich: Sie fragten, ob sie eine gute Haushälterin
+            sei? O! eine unvergleichliche! Ich weiß gewiß, sie wird ihrem Manne Jahr aus Jahr ein zu
+            Tausenden ersparen.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das wäre noch etwas; aber es war doch auch nicht das, was ich Ihn fragte. Ich fragte, –
+            – versteht Er denn kein Deutsch? – – ob sie reich ist? ob sie eine gute Aussteuer mit
+            bekömmt?</p>
+               <pb n="560" facs="#f0003"/>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER</speaker>
+               <stage>traurig.</stage>
+               <p>Eine Aussteuer?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ja, eine Aussteuer. Was gilts, darum hat sich das junge Herrchen noch nicht bekümmert?
+            O Jugend, o Jugend! daß doch die leichtsinnige Jugend, so wenig nach dem
+            Allernotwendigsten fragt! – Nun! wenn Er es noch nicht weiß, was Sein Mädchen mitkriegen
+            soll, so gehe Er, und erkundige Er sich vorher. Alsdann können wir mehr von der Sache
+            sprechen.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Das können wir gleich jetzo, wenn es Ihnen nicht zuwider ist. Ich bin so leichtsinnig
+            nicht gewesen, sondern habe mich allerdings schon darnach erkundiget.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>So weiß Ers, was sie mitkriegt?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Auf ein Haar.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und wie viel?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Allzuviel ist es nicht – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ei! wer verlangt denn allzuviel? Was recht ist! Er hat ja selber schon genug Geld.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>O! Sie sind ein vortrefflicher Mann, mein lieber Herr Vormund. Es ist wahr, ich bin
+            reich genug, daß ich ihr schon diesen Punkt übersehen kann.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ist es wohl so die Hälfte von Seinem Vermögen, was das Mädchen mitkriegt?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Die Hälfte? Nein, das ist es nicht.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das Drittel?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Auch wohl nicht.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das Viertel doch?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Schwerlich.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Nu? das Achtel muß es doch wohl sein? Alsdann wären es ein Paar tausend Tälerchen, die
+            beim Anfange einer Wirtschaft nur allzubald weg sind.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Ich habe Ihnen schon gesagt, daß es nicht viel ist, gar nicht viel.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Aber nicht viel ist doch etwas. Wie viel denn?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Wenig, Herr Vormund.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Wie wenig denn?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Wenig – – Sie wissen ja selbst, was man wenig nennt.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Nur heraus mit der Sprache! Das Kind muß doch <pb n="561" facs="#f0004"/> einen Namen haben. Drücke
+            Er doch das Wenige mit Zahlen aus.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Das Wenige, Herr Staleno, ist – – ist gar nichts.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Gar nichts? Ja nun! da hat Er recht; gar nichts, ist wenig genug. – – Aber im Ernste,
+            Leander: schämt Er sich nicht, auf so eine Torheit zu fallen, ein Mädchen sich zur Frau
+            auszusehen, die nichts hat?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Was sagen Sie? Nichts hat? Sie hat alles, was zu einer vollkommenen Frau gehört; nur
+            kein Geld hat sie nicht.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das ist, sie hat alles, was eine vollkommene Frau machen könnte, wenn sie nur noch das
+            hätte, was eine vollkommene Frau macht. – – Stille davon! Ich muß besser einsehen, was
+            Ihm gut ist. – – Aber darf man denn wissen, wer diese schöne, liebenswürdige, galante
+            Bettlerin ist? wie sie heißt? –</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Sie versündigen sich, Herr Staleno. Wenn es nach Verdiensten ginge, so würden wir alle
+            arm, und diese Bettlerin würde allein reich sein.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>So sage Er mir ihren Namen, damit ich sie anders nennen kann.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Kamilla.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Kamilla? Doch wohl nicht die Schwester des lüderlichen Lelio?</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Eben die. Ihr Vater soll der rechtschaffenste Mann von der Welt sein.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Sein, oder gewesen sein. Es sind nun bereits neun Jahre, daß er von hier wegreisete;
+            und schon seit vier Jahren hat man nicht die geringste Nachricht von ihm. Wer weiß, wo
+            er modert, der gute Anselmus! Es ist für ihn auch eben so gut. Denn wenn er wieder
+            kommen sollte, und sollte sehen, wie es mit seiner Familie stünde, so müßte er sich doch
+            zu Tode grämen.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>So haben Sie ihn wohl gekannt?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was sollte ich nicht? Er war mein Herzensfreund.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Und Sie wollen gegen seine Tochter so grausam sein? Sie wollen mich verhindern, sie
+            wieder in Umstände zu setzen, die ihrer würdig sind?</p>
+               <pb n="562" facs="#f0005"/>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Leander, wenn Er mein Sohn wäre, so wollte ich nicht ein Wort dawider reden; aber so
+            ist Er nur mein Mündel. Seine Neigung könnte sich in reifern Jahren ändern, und wenn Er
+            alsdann das schöne Gesicht satt wäre, dem der beste Nachdruck fehlt, so würde alle
+            Schuld auf mich fallen.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Wie? meine Neigung sollte sich ändern? ich sollte aufhören, Kamillen zu lieben? ich
+            sollte – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Er soll warten, bis Er Sein eigner Herr wird; alsdann kann Er machen, was Er will. Ja,
+            wenn das Mädchen noch in den Umständen wäre, in welchen sie ihr Vater verließ; wenn ihr
+            Bruder nicht alles durchgebracht hätte; wenn der alte Philto, dem Anselmus die Aufsicht
+            über seine Kinder anvertraute, nicht ein alter Betrieger gewesen wäre: gewiß, ich wollte
+            selbst mein möglichstes tun, daß kein andrer, als Er, die Kamilla bekommen sollte. Aber:
+            da das nicht ist, so habe ich nichts damit zu schaffen. Gehe Er nach Hause.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>Aber, liebster Herr Staleno, –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Er bringt Seine Schmeichelei zu unnützen Kosten. Was ich gesagt habe, habe ich gesagt.
+            Ich wollte eben zum alten Philto gehen, der sonst mein guter Freund ist, und ihm den
+            Text wegen seines Betragens gegen den Lelio lesen. Nun hat er dem lüderlichen Burschen
+            auch so gar das Haus abgekauft, das Letzte, was die Leutchen noch hatten. Das ist zu
+            toll! das ist unverantwortlich! – – Geh Er, Leander; halte Er mich nicht länger auf.
+            Allenfalls können wir zu Hause mehr davon sprechen.</p>
+            </sp>
+            <sp who="#leander">
+               <speaker>LEANDER.</speaker>
+               <p>In der Hoffnung, daß Sie gütiger werden gesinnt sein, will ich gehen. Sie kommen doch
+            bald zurück?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Bald.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Zweiter Auftritt</head>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Es bringt freilich nichts ein, den Leuten die Wahrheit zu sagen, und ihnen ihre
+            schlechten Streiche vorzurücken; man macht sie sich meisten Teils dadurch zu Feinden.
+            Aber <pb n="563" facs="#f0006"/> mags! Ich will den Mann nicht zum Freunde behalten, der so wenig
+            Gewissen hat. – – Hätte ich mirs in Ewigkeit vorgestellt! Der Philto, der Mann, auf den
+            ich Schlösser gebaut hätte. – – Ha! da kömmt er mir eben in den Wurf. – –</p>
+            </sp>
+         </div>
+         <div>
+            <head>Dritter Auftritt</head>
+            <stage>Philto. Staleno.</stage>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Guten Tag, Herr Philto.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ei sieh da! Herr Staleno! Wie gehts, mein alter, lieber, guter Freund? Wo wollten Sie
+            hin?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ich war eben im Begriff, zu Ihnen zu gehen.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Zu mir? das ist ja vortrefflich. Kommen Sie, ich kehre gleich wieder mit um.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Es ist nicht nötig, wenn ich Sie nur spreche; es ist mir gleich viel, ob es in Ihrem
+            Hause, oder auf der Gasse geschieht. Ich will so lieber unter freiem Himmel mit Ihnen
+            reden, um vor dem Anstecken sichrer zu sein.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Was wollen Sie mit Ihrem Anstecken? Bin ich seitdem von der Pest befallen worden, als
+            ich Sie nicht gesehen habe?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Von noch etwas Schlimmern, als von der Pest. – – O Philto, Philto! Sind Sie der
+            ehrliche Philto, den die Stadt bisher noch immer unter die wenigen Männer von altem
+            Schrot und Korne gezählt hat?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Das ist ja ein vortrefflicher Anfang zu einer Strafpredigt. Wie käme ich zu der?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was für Zeug wird von Ihnen in der Stadt gesprochen! Ein alter Betrieger, ein
+            Leuteschinder, ein Blutigel, – das sind noch Ihre besten Ehrentitel.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Meine?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ja, Ihre.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Das ist mir leid. Aber was ist zu tun? man muß die Leute reden lassen. Ich kann es
+            niemanden verwehren, das Nachteiligste von mir zu denken, oder zu sprechen; genug, wenn
+            ich bei mir überzeugt bin, daß man mir Unrecht tut.</p>
+               <pb n="564" facs="#f0007"/>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>So kaltsinnig sind Sie dabei? So kaltsinnig war ich nicht einmal, als ich es hörte.
+            Aber mit dieser Gelassenheit sind Sie noch nicht gerechtfertiget. Man ist oft gelassen,
+            weil man bei sich kein Recht zu haben fühlt, hastig und aufgebracht zu sein. – – Von mir
+            sollte jemand so reden! Ich drehte dem ersten dem besten den Hals um. Allein, ich glaube
+            auch nicht, daß ich jemals durch meine Handlungen Gelegenheit dazu geben würde.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Kann ich denn endlich erfahren, worin das Verbrechen besteht, das man mir Schuld
+            gibt?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>So? Sie müssen mit Ihrem Gewissen schon vortrefflich zu Rande sein, daß es Ihnen nicht
+            selbst gleich beifällt. – Sagen Sie mir, war Anselmus Ihr Freund?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Er war es, und ist es noch, so weit wir auch jetzt von einander sind. Wissen Sie denn
+            nicht, daß er mir bei seiner Abreise seinen Sohn und seine Tochter zur Aufsicht
+            anvertraute? Würde er das getan haben, wenn er mich nicht für seinen rechtschaffnen
+            Freund gehalten hätte?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Du ehrlicher Anselmus, wie hast du dich betrogen!</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich denke, er soll sich nicht betrogen haben.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Nicht? Nu, nu! wenn ich einen Sohn hätte, den ich gern in das äußerste Verderben wollte
+            gebracht wissen, so würde ich ihn ganz gewiß auch Ihrer Aufsicht anvertrauen. – Er ist
+            ein schönes Früchtchen geworden, der Lelio!</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Sie legen mir jetzt etwas zur Last, wovon Sie mich selbst sonst allezeit frei
+            gesprochen haben. Lelio hat alle seine lüderlichen Ausschweifungen ohne mein Vorwissen
+            begangen; und wann ich sie erfuhr, so war es schon zu spät, ihnen vorzubeugen.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Alles das glaube ich nun nicht mehr; denn Ihr letzter Streich verrät Ihre Karte.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Was für ein Streich?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>An wen hat denn Lelio sein Haus verkauft?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>An mich.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Willkommen, Anselmus! Können Sie doch nun auf der Gasse schlafen. – – Pfui, Philto!</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich habe die drei tausend Taler dafür richtig bezahlt.</p>
+               <pb n="565" facs="#f0008"/>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Um den Namen eines ehrlichen Mannes richtig los zu werden.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Hätte ich sie denn nicht bezahlen sollen?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>O! stellen Sie sich nicht so albern. Sie hätten gar nichts von dem Lelio kaufen sollen.
+            Einem solchen Menschen zu Gelde verhelfen, heißt das nicht dem Wahnwitzigen ein Messer
+            in die Hände geben, womit er sich die Gurgel abschneiden kann? Heißt das nicht
+            Gemeinschaft mit ihm machen, um den armen Vater ohne Barmherzigkeit zu ruinieren?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Aber Lelio brauchte das Geld zur höchsten Not: er mußte sich mit einem Teile desselben
+            von einem schimpflichen Gefängnisse losmachen. Und wenn ich das Haus nicht gekauft
+            hätte, so hätte es ein andrer gekauft.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Andre hätten mögen tun, was sie gewollt hätten. – Aber entschuldigen Sie sich nur
+            nicht; man sieht Ihre wahre Ursache doch. Das Häuschen ist etwa noch vier tausend Taler
+            wert; um drei tausend war es zu verkaufen, und zu dem Profitchen, dachten Sie, bin ich
+            der nächste. Ich liebe das Geld doch auch; aber sehen Sie, Philto, eher wollte ich mir
+            diese meine rechte Hand abhauen lassen, als so eine Niederträchtigkeit begehen, und wenn
+            ich schon eine Million damit zu gewinnen wüßte. Kurz von der Sache zu kommen: meiner
+            Freundschaft sind Sie quitt.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Nun wahrhaftig! Staleno, Sie legen mirs außerordentlich nahe. Ich glaube wirklich, Sie
+            bringen es durch Ihre Schmähungen noch so weit, daß ich Ihnen ein Geheimnis vertraue,
+            welches kein Mensch auf der Welt sonst von mir erfahren hätte.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was Sie mir vertrauen, darum lassen Sie sich nicht bange sein. Es ist bei mir so sicher
+            aufgehoben, als bei Ihnen.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Sehen Sie sich einmal ein wenig um, daß uns niemand behorcht. Sehen Sie recht zu! Guckt
+            auch niemand hier aus den Fenstern?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das muß ja wohl ein recht geheimes Geheimnis sein. Ich sehe niemanden.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Nun, so hören Sie. Noch an eben dem Tage, als <pb n="566" facs="#f0009"/> Anselmus wegreisete, zog er
+            mich bei Seite, und führte mich an einen gewissen Ort in seinem Hause. Ich habe dir,
+            sprach er, mein lieber Philto, noch eins zu entdecken. Hier in diesem – Warten Sie ein
+            klein Bißchen, Staleno; da sehe ich jemanden gehn, den wollen wir erst vorbei lassen.
+            –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Er ist vorbei.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Hier, sprach er, in diesem Gewölbe, unter einem von den – – Stille! dort kömmt eines –
+            – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Es ist ja ein Kind.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Kinder sind neugierig!</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Es ist weg.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Unter einem von den Pflastersteinen, sprach er, habe ich – – Da läuft schon wieder was.
+            – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Es ist ja nichts, als ein Hund.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Es hat aber doch Ohren! – – Habe ich, sprach er, <stage>Indem er sich von Zeit zu Zeit
+              furchtsam umsiehet.</stage> eine kleine Barschaft vergraben.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>St! Wer wird so etwas zweimal sagen?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Eine Barschaft? einen Schatz?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ja doch! – – Wenn es nur nicht jemand gehört hat.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Vielleicht ein Sperling, der uns über dem Kopfe weggeflogen.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich habe, fuhr er fort, lange genug daran gespart, und mir es herzlich sauer werden
+            lassen. Ich reise jetzo weg; ich lasse meinem Sohne so viel, daß er leben kann; mehr
+            darf ich ihm aber auch keinen Heller lassen. Er hat allen Ansatz zu einem lüderlichen
+            Menschen, und je mehr er haben würde, desto mehr würde er vertun. Was bliebe alsdann für
+            meine Tochter übrig? Ich muß mich auf alle Fälle gefaßt machen; meine Reise ist weit und
+            gefährlich: wer weiß, ob ich wieder komme? Von dieser Barschaft also, soll so und so
+            viel für meine Kamille zur Aussteuer, wenn ihr etwa unterdessen eine gute Gelegenheit zu
+            heiraten vorkäme. Das übrige soll mein Sohn haben; aber nicht eher, als bis man es gewiß
+            weiß, daß ich tot bin. Bis dahin, bitte ich dich, Philto, mit Tränen bitte ich dich,
+            mein lieber Freund, laß den Lelio nichts davon merken; sei auch sonst <pb n="567" facs="#f0010"/>
+            gegen alle verschwiegen, damit er es etwa nicht von einem Dritten erfährt. Ich versprach
+            meinem Freunde alles, und tat einen Schwur darauf. – – Nun sagen Sie mir, Staleno, als
+            ich hörte, daß Lelio das Haus, eben das Haus, worin die Barschaft verborgen ist, mit
+            aller Gewalt verkaufen wollte: sagen Sie mir, was sollte ich tun?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was hör ich? Bei meiner Treu! das Ding bekömmt doch wohl ein ander Ansehen.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Lelio hatte das Haus anschlagen lassen, als ich eben auf dem Lande war.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ha! ha! der Wolf hatte gemerkt, daß die Hunde nicht bei der Herde wären.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Sie können sich einbilden, daß ich nicht wenig erschrak, als ich wieder in die Stadt
+            kam. Es war geschehen. Sollte ich nun meinen Freund verraten, und dem lüderlichen Lelio
+            den Schatz anzeigen? Oder sollte ich das Haus in fremde Hände kommen lassen, aus welchen
+            es vielleicht Anselmus nimmermehr wieder bekommen hätte? Den Schatz wegzunehmen, das
+            ging gar nicht an. Mit einem Worte, ich sah keinen andern Rat, als das Haus selber zu
+            kaufen, um so wohl das eine, als das andere zu retten. Anselmus mag nunmehr heute oder
+            morgen kommen: ich kann ihm beides richtig überliefern. Sie sehen ja wohl, daß ich das
+            gekaufte Haus nicht einmal brauche. Ich habe Sohn und Tochter herausziehen lassen, und
+            es feste verschlossen. Es soll niemand wieder hinein kommen, als sein rechter Herr. Ich
+            sahe es voraus, daß mich die Leute verleumden würden; aber ich will doch lieber eine
+            kurze Zeit weniger ehrlich scheinen, als es in der Tat sein. Bin ich nun noch in Ihren
+            Augen ein alter Betrieger? ein Blutigel? –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Sie sind ein ehrlicher Mann, und ich bin ein Narr. – Daß die Leute, die allen Plunder
+            wissen wollen, und sich mit Nachrichten schleppen, wovon doch weder Kopf noch Schwanz
+            wahr ist, bei dem Henker wären! Was für Zeug haben sie mir nicht von Ihnen in die Ohren
+            gesetzt! – Aber warum war ich auch so ein alter Esel, und glaubte es? – Nehmen Sie mirs
+            nicht übel, Philto, ich bin zu hastig gewesen.</p>
+               <pb n="568" facs="#f0011"/>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich nehme nichts übel, wobei ich eine gute Absicht sehe. Mein ehrlicher Name ist Ihnen
+            lieb gewesen; und das erfreut mich. Sie würden sich viel darum bekümmert haben, wenn Sie
+            nicht mein Freund wären.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Gewiß, ich bin ganz böse auf mich.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ei nicht doch!</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ich bin mir recht gram, daß ich mir nur einen Augenblick etwas Unrechtes von Ihnen habe
+            einbilden können!</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Und ich bin Ihnen recht gut, daß Sie so fein offenherzig gegen mich gewesen sind. Ein
+            Freund, der uns alles unter die Augen sagt, was er Anstößiges an uns bemerkt, ist jetzt
+            sehr rar; man muß ihn nicht vor den Kopf stoßen, und wenn er auch unter Zehnmalen nur
+            einmal Recht haben sollte. Meinen Sie es nur ferner gut mit mir.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das heiße ich doch noch geredt, wie man reden soll! Topp! wir sind Freunde, und wollen
+            es immer bleiben.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Topp! – – Haben Sie mir sonst noch etwas zu sagen? – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ich wüßte nicht. – – Doch ja. <stage>Bei Seite.</stage> Vielleicht kann ich meinem
+            Mündel eine unverhoffte Freude machen.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Was ists?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Sagten Sie mir nicht, daß ein Teil der verborgenen Barschaft zur Aussteuer für Jungfer
+            Kamillen sollte?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ja.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Wie hoch beläuft sich wohl der Teil?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Auf sechs tausend Taler.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das ist nicht schlimm. Und wenn sich nun etwa eine ansehnliche Partie für die sechs
+            tausend Taler – – für Jungfer Kamillen, wollte ich sagen, fände: hätten Sie wohl Lust,
+            Ja dazu zu sagen?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Wenn sie ansehnlich wäre, die Partie; warum nicht?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Zum Exempel, mein Mündel? Was meinen Sie?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Was? der junge Herr Leander? hat der ein Auge auf sie?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Wohl beide. Er ist so vergafft in sie, daß er sie lieber heute als morgen nähme, und
+            wenn sie auch nackend zu ihm käme.</p>
+               <pb n="569" facs="#f0012"/>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Das laßt mir Liebe sein! Wahrhaftig, Herr Staleno, Ihr Vorschlag ist nicht zu
+            verachten. Wenn es Ihr Ernst ist – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Mein völliger Ernst! Ich werde ja nicht bei sechs tausend Talern scherzen?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ja; aber will denn auch Kamille Leandern haben?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Wenigstens will er sie haben. Wenn zwanzig tausend Taler sechs tausend Taler heiraten
+            wollen, so werden ja die sechse nicht närrisch sein, und den zwanzigen einen Korb geben.
+            Das Mädchen wird ja wohl zählen können.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich glaube, wenn auch Anselmus heute wieder käme, daß er selbst seine Tochter nicht
+            besser zu versorgen wünschen könnte. Gut! ich nehme alles über mich. Die Sache soll
+            richtig sein, Herr Staleno.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Wenn die sechs tausend Taler richtig sind. – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ja, verzweifelt! nun fällt mir erst die größte Schwierigkeit ein. – – Müßte denn
+            Leander die sechs tausend Taler gleich mit bekommen?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Er müßte eben nicht; aber alsdann müßte er eben auch nicht Kamillen gleich haben.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Nun so geben Sie mir doch einen guten Rat. Das Geld ist verborgen; wenn ich es hervor
+            kriege, wo soll ich sagen, daß ich es her bekommen habe? Soll ich die Wahrheit sagen: so
+            wird Lelio Lunte riechen, und sich nicht ausreden lassen, daß da, wo sechs tausend Taler
+            gelegen, nicht noch mehr liegen könnte. Soll ich sagen, daß ich das Geld von dem
+            Meinigen gebe? Das will ich auch nicht gern. Die Leute würden doch nur einen neuen
+            Anlaß, mich zu verleumden, daraus nehmen. Philto, sprächen sie vielleicht, würde so
+            freigebig nicht sein, wenn ihm nicht sein Gewissen sagte, daß er die armen Kinder um gar
+            zu vieles betrogen habe.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das ist alles wahr.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Und daher meinte ich eben, daß es gut wäre, wenn es mit der Aussteuer so lange bleiben
+            könnte, bis Anselmus wieder käme. Sie ist Leandern doch gewiß genug.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Leander, wie gesagt, würde sich nichts daraus <pb n="570" facs="#f0013"/> machen. Aber, mein lieber
+            Philto, ich, der ich sein Vormund bin, habe mich für die übeln Nachreden eben sowohl in
+            Acht zu nehmen, als Sie. Ja, ja! würde man murmeln: der reiche Mündel ist in guten
+            Händen! Jetzt wird ihm ein armes Mädchen angehangen, und das arme Mädchen, um dankbar zu
+            sein, wird auch schon wissen, wie es sich gegen den Vormund verhalten muß. Staleno ist
+            schlau; Rechnungen, wie er für Leandern zu führen hat, sind so leicht nicht abzulegen.
+            Eine Vorsprecherin, die ihrem Manne die Augen zuhält, wenn er nachsehen will, ist dabei
+            nicht übel. – – Für solche Glossen bedanke ich mich.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Sie haben Recht. – Aber wie ist die Sache nun anzufangen? Sinnen Sie doch ein Bißchen
+            nach. – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Sinnen Sie nur auch nach. –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Wie wenn wir – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Nun?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Nein, das geht nicht an.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Hören Sie nur: ich dächte – – Das ist auch nichts.</p>
+               <stage>Zugleich, nachdem sie einige Augenblicke nachgedacht.</stage>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Könnte man nicht –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Man müßte – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Was meinten Sie?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was wollten Sie sagen?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Reden Sie nur – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Sagen Sie nur – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich will Ihre Gedanken erst hören.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und ich Ihre. Meine sind so recht reif noch nicht. – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Und meine – – meine sind wieder gar weg.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Schade! Aber Geduld! meine fangen eben an zu reifen. – – Nun sind sie reif!</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Das ist gut!</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Wie wenn wir, für ein gutes Trinkgeld, einen Kerl auf die Seite kriegten, der frech
+            genug wäre, und Mundwerk genug hätte, zehn Lügen in einem Atem zu sagen?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Was könnte uns der helfen?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Er müßte sich verkleiden und vorgeben, daß er, ich weiß nicht aus welchem, weit
+            entlegenen Lande käme – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Und – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und daß er den Anselmus gesprochen habe – –</p>
+               <pb n="571" facs="#f0014"/>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Und – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und daß ihm Anselmus Briefe mitgegeben habe, einen an seinen Sohn, und einen an Sie. –
+            –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Und was denn nun?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Sehen Sie denn noch nicht, wo ich hinaus will? – – In dem Briefe an seinen Sohn müßte
+            stehen, daß Anselmus so bald noch nicht zurückkommen könne, daß Lelio unterdessen gute
+            Wirtschaft treiben, und das Seine fein zusammenhalten solle, und mehr so dergleichen. In
+            Ihrem Briefe aber müßte stehen, daß Anselmus das Alter seiner Tochter überlegt habe, daß
+            er sie gerne verheiratet wissen möchte, und daß er ihr hier so und so viel zur
+            Ausstattung schicke, im Fall sie eine gute Gelegenheit finden sollte.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Und der Kerl müßte tun, als ob er das Geld zur Ausstattung mitbrächte? nicht?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ja freilich.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Das geht wirklich an! – – Aber wie denn, wenn der Sohn die Hand des Vaters zu gut
+            kennt? Wie, wenn er sich auf sein Siegel besinnt?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>O! da gibts tausend Ausflüchte. Machen Sie sich doch nicht unzeitige Sorge! – – Ich
+            besinne mich alleweile auf jemanden, der die Rolle recht meisterlich wird spielen
+            können.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Je nun! so gehen Sie, und reden das Nötige mit ihm ab. Ich will so gleich das Geld
+            zurechte legen, und es lieber unterdessen von dem Meinigen nehmen, bis ich es dort
+            sicher ausgraben kann.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Tun Sie das! tun Sie das! In einer halben Stunde soll der Mann bei Ihnen sein.
+              <stage>Geht ab.</stage>
+               </p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO</speaker>
+               <stage>allein.</stage>
+               <p>Es ist mir ärgerlich genug, daß ich in meinen alten Tagen noch solche Kniffe brauchen
+            muß, und zwar des lüderlichen Lelios wegen! – – Da kömmt er ja wohl gar selber, mit
+            seinem Anführer in allen Schelmstücken? Sie reden ziemlich ernstlich; ohne Zweifel muß
+            sie ein Gläubiger wieder auf dem Korne haben. <stage>Tritt ein wenig zurück.</stage>
+               </p>
+               <pb n="572" facs="#f0015"/>
+            </sp>
+         </div>
+         <div>
+            <head>Vierter Auftritt</head>
+            <stage>Lelio. Maskarill. Philto.</stage>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Und das wäre der ganze Rest von den drei tausend Talern? <stage>Er zählt.</stage>
+            Zehne, zwanzig, dreißig, vierzig, funfzig, fünf und funfzig. Nicht mehr, als fünf und
+            funfzig Taler noch?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Es kömmt mir selbst fast unglaublich vor. Lassen Sie mich doch zählen. <stage>Lelio
+              gibt ihm das Geld.</stage> Zehne, zwanzig, dreißig, vierzig, fünf und vierzig. Ja
+            wahrhaftig; noch fünf und vierzig Taler, und nicht einen Heller mehr. <stage>Er gibt ihm
+              das Geld wieder.</stage>
+               </p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Fünf und vierzig? fünf und funfzig, willst du sagen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>O! ich hoffe richtiger gezählt zu haben, als Sie.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO</speaker>
+               <stage>nachdem er vor sich gezählt.</stage>
+               <p>Ha! ha! Herr Taschenspieler! Sie haben Ihre Hände doch nicht zum Schubsacke gebracht?
+            Mit Erlaubnis – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Was befehlen Sie?</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ihre Hand, Herr Maskarill – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>O pfui!</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ich bitte – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Nicht doch! Ich – – muß mich schämen – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Schämen? das wäre ja ganz etwas Neues für dich. – – Ohne Umstände, Schurke, weise mir
+            deine Hand – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich sage Ihnen ja, Herr Lelio, ich muß mich schämen; denn wahrhaftig – – ich habe mich
+            heute noch nicht gewaschen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Da haben wirs! Drum ist es ja wohl kein Wunder, daß alles an dem Schmutze kleben
+            bleibt. <stage>Er macht ihm die Hand auf, und findet die Goldstücke zwischen den
+              Fingern.</stage> Siehst du, was die Reinlichkeit für eine nötige Tugend ist? Man
+            sollte dich bei einem Haare für einen Spitzbuben halten, und du bist doch nur ein
+            Schwein. – – Aber im Ernst. Wenn du von jeden funfzig Talern deine zehn Taler Rabatt
+            genommen hast, so sind von den drei tausend Talern – – laß sehen – – nicht mehr, als
+            sechs hundert in deinen Beutel gefallen.</p>
+               <pb n="573" facs="#f0016"/>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Blitz! man sollte es kaum glauben, daß ein Verschwender so gut rechnen könnte!</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Und doch sehe ich noch nicht, wie die Summe heraus kommen soll. – – Bedenke doch, drei
+            tausend Taler! – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Teilen sich bald ein. – – Erstlich auf den ausgeklagten Wechsel –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Das macht es noch nicht.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ihrer Jungfer Schwester zur Wirtschaft – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ist eine Kleinigkeit.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Dem Herrn Stiletti für Austern und italienische Weine – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Waren hundert und zwanzig Taler. – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Abgetragene Ehrenschulden –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Die werden sich auch nicht viel höher belaufen haben.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Noch eine Art von Ehrenschulden, die aber nicht bei dem Spiele gemacht waren: – – Zwar
+            freilich auch bei dem Spiele! – – der guten, ehrlichen Frau Lelane und ihren gefälligen
+            Nichten.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Fort über den Punkt! Für hundert Taler kann man viel Bänder, viel Schuhblätter, viel
+            Spitzen kaufen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Aber Ihr Schneider – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ist er davon bezahlt worden?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ja so! der ist gar noch nicht bezahlt. Und ich – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Und du? Nun freilich wohl muß ich auf dich mehr, als auf den Wechsel, mehr, als auf den
+            Herrn Stiletti, und mehr, als auf die Frau Lelane rechnen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Nein, nein, mein Herr! – und ich, wollte ich sagen, ich bin auch noch nicht bezahlt.
+            Ich habe meinen Lohn ganzer sieben Jahr bei Ihnen stehen lassen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Du hast dafür sieben Jahr die Erlaubnis gehabt, mich auf alle mögliche Art zu
+            betriegen, und dich dieser Erlaubnis auch so wohl zu bedienen gewußt –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO</speaker>
+               <stage>der ihnen näher tritt.</stage>
+               <p>Daß der Herr noch endlich die Liverei des Bedienten wird tragen müssen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Welche Prophezeiung! Ich glaube, sie kam vom Himmel? <stage>Indem er sich
+              umsieht.</stage> Ha! ha! Herr Philto, kam sie von Ihnen? Ich bin zu großmütig, als daß
+            ich Ihnen das Schicksal der neuen Propheten wünschen sollte.<pb n="574" facs="#f0017"/> – – Aber wenn
+            Sie uns zugehört haben, sagen Sie selbst, ist es erlaubt, daß ein armer Bedienter seinen
+            Lohn für sieben saure Jahre – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>An dem Galgen solltest du deinen Lohn finden. – – Herr Lelio, ich habe Ihnen ein Wort
+            zu sagen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Nur keine Vorwürfe, Herr Philto! Ich kann sie wohl verdienen, aber sie kommen zu
+            spät.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Herr Leander hat durch seinen Vormund, den Herrn Staleno, um Ihre Schwester anhalten
+            lassen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Um meine Schwester? Das ist ja ein großes Glück.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Freilich wäre es ein Glück; aber es stößt sich an die Aussteuer. Staleno hat es nicht
+            glauben können, daß Sie alles vertan haben. Sobald ich es ihm sagte, nahm er seine
+            Anwerbung wieder zu rück.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Was sagen Sie?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich sage, daß Sie Ihre Schwester zugleich unglücklich gemacht haben. Das arme Mädchen
+            muß durch Ihre Schuld nun sitzen bleiben.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Nicht durch seine Schuld, sondern durch die Schuld eines alten Geizhalses. Wenn doch
+            der Geier alle eigennützige Vormünder, und alles was ihnen ähnlich sieht, <stage>Indem
+              er den Philto ansieht.</stage> holen wollte. Muß denn ein Mädchen Geld haben, wenn sie
+            die ehrliche Frau eines ehrlichen Mannes sein soll? Und allen Falls wüßte ich wohl, wer
+            ihr eine Aussteuer geben könnte. Es gibt Leute, die sehr wohlfeil Häuser zu kaufen
+            pflegen. –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO</speaker>
+               <stage>in Gedanken.</stage>
+               <p>Kamilla ist doch wirklich unglücklich. Ihr Bruder ist – – ist ein Nichtswürdiger.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sie haben es mit sich selbst auszumachen, wenn Sie sich schimpfen. – Aber Herr Philto,
+            ein kleiner Nachschuß von tausend Talern, in Ansehung des wohlfeilen Kaufs. – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Adieu, Lelio. Sie scheinen über meine Nachricht ernsthaft geworden zu sein. Ich will
+            gute Betrachtungen nicht stören.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Und auch selbst keine gern machen. Nicht wahr? Denn sonst könnte der kleine Nachschuß
+            einen vortrefflichen Stoff an die Hand geben.</p>
+               <pb n="575" facs="#f0018"/>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Maskarill, hüte dich vor meinem Nachschuß. Die Münze möchte dir nicht anstehen. – –
+              <stage>Geht ab.</stage>
+               </p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Es müßte nichtswürdige Münze sein, wenn sie nicht wenigstens beim Spiele gelten
+            könnte.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Fünfter Auftritt</head>
+            <stage>Maskarill. Lelio.</stage>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Aber was wird denn nun das? So eine saure Miene pflegen Sie ja kaum zu machen, wenn Sie
+            bei einem mißlichen Solo die Trümpfe nachzählen. – – Doch was wetten wir, ich weiß, was
+            Sie denken? – – Es ist doch ein verdammter Streich, denken Sie, daß meine Schwester den
+            reichen Leander nicht bekommen soll. Wie hätte ich den neuen Schwager rupfen wollen! –
+            –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO</speaker>
+               <stage>noch in Gedanken.</stage>
+               <p>Höre, Maskarill! – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Nun? – Aber denken kann ich Sie nicht hören; Sie müssen reden.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>– – Willst du wohl alle deine an mir verübte Betriegereien, durch eine einzige
+            rechtschaffene Tat wieder gut machen?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Eine seltsame Frage! Für was sehen Sie mich denn an? Für einen Betrieger, der ein
+            rechtschaffner Mann ist, oder für einen rechtschaffnen Mann, der ein Betrieger ist?</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Mein lieber, ehrlicher Maskarill, ich sehe dich für einen Mann an, der mir wenigstens
+            einige tausend Taler leihen könnte, wenn er mir so viel leihen wollte, als er mir
+            gestohlen hat.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Du lieber ehrlicher Maskarill! – – Und was wollten Sie mit diesen einigen tausend
+            Talern machen?</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Sie meiner Schwester zur Aussteuer geben, und mich hernach – – vor den Kopf
+            schießen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sich vor den Kopf schießen? – – Es ist schon wahr, entlaufen würden Sie mir mit dem
+            Gelde alsdann nicht. Aber doch – – <stage>Als ob er nachdächte.</stage>
+               </p>
+               <pb n="576" facs="#f0019"/>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Du weißt es, Maskarill, ich liebe meine Schwester. Jetzt also muß ich das Äußerste für
+            sie tun, wenn sie nicht Zeit Lebens mit Unwillen an ihren Bruder denken soll. – – Sei
+            großmütig, und versage mir deinen Beistand nicht. –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sie fassen mich bei meiner Schwäche. Ich habe einen verteufelten Hang zur Großmut, und
+            Ihre brüderliche Liebe, Herr Lelio, – – wirklich! bezaubert mich ganz. Sie ist etwas
+            recht Edles, etwas recht Superbes! – – Aber Ihre Jungfer Schwester verdient sie auch;
+            gewiß! Und ich sehe mich gedrungen –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>O! so laß dich umarmen, liebster Maskarill. Gebe doch Gott, daß du mich um recht vieles
+            betrogen hast, damit du mir recht viel leihen kannst! Hätte ich doch nie geglaubt, daß
+            du ein so zärtliches Herz hättest. – – Aber laß hören, wie viel kannst du mir leihen? –
+            –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich leihe Ihnen, mein Herr, –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Sage nicht: mein Herr. Nenne mich deinen Freund. Ich wenigstens will dich Zeit Lebens
+            für meinen einzigen, besten Freund halten.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Behüte der Himmel! Sollte ich, einer so kleinen nichtswürdigen Gefälligkeit wegen, den
+            Respekt bei Seite setzen, den ich Ihnen schuldig bin?</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Wie? Maskarill, du bist nicht allein großmütig, du bist auch bescheiden?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Machen Sie meine Tugend nicht schamrot. – – Ich leihe Ihnen also auf zehn Jahr – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Auf zehn Jahr? Welche übermäßige Güte! Auf fünf Jahr ist genug, Maskarill; auf zwei
+            Jahr, wenn du willst. Leihe mir nur, und setze den Termin zur Bezahlung so kurz, als es
+            dir gefällt.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Nun wohl, so leihe ich Ihnen auf funfzehn Jahr – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ich muß dir nur deinen Willen lassen, edelmütiger Maskarill – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Auf funfzehn Jahr leihe ich Ihnen, ohne Interessen – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ohne Interessen, das gehe ich nimmermehr ein. Ich will, was du mir leihest, nicht
+            anders, als zu funfzig Prozent – –</p>
+               <pb n="577" facs="#f0020"/>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ohne alle Interessen – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ich bin dankbar, Maskarill, und vierzig Prozent mußt du wenigstens nehmen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ohne alle Interessen. – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Denkst du, daß ich niederträchtig genug bin, deine Güte zu mißbrauchen? Willst du mit
+            dreißig Prozent zufrieden sein, so will ich es als einen Beweis der größten
+            Uneigennützigkeit ansehen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ohne Interessen, sage ich. –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Aber ich bitte dich, Maskarill; bedenke doch nur, zwanzig Prozent nimmt der
+            allerchristlichste Jude.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Mit Einem Worte, ohne Interessen, oder – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Sei doch nur – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Oder es wird aus dem ganzen Darlehn nichts.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Je nun! weil du denn deiner Freundschaft gegen mich durchaus keine Schranken willst
+            gesetzt wissen – – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ohne Interessen! – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ohne Interessen! – – ich muß mich schämen! – – Ohne Interessen leihest du mir also auf
+            funfzehn Jahr – – was? wie viel?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ohne Interessen leihe ich Ihnen noch auf funfzehn Jahr – – die 175 Taler, die ich für
+            sieben Jahre Lohn bei Ihnen stehn habe.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Wie meinst du? die 175 Taler, die ich dir schon schuldig bin? – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Machen mein ganzes Vermögen aus, und ich will sie Ihnen von Grund des Herzens gern noch
+            funfzehn Jahr, ohne Interessen, ohne Interessen lassen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Und das ist dein Ernst, Schlingel?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Schlingel? Das klingt ja nicht ein Bißchen erkenntlich.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ich sehe schon, woran ich mit dir bin, du ehrvergessener, nichtswürdiger, infamer
+            Verführer, Betrieger. – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ein weiser Mann ist gegen alles gleichgültig, gegen Lob und Tadel, gegen Schmeicheleien
+            und Scheltworte. Sie haben es vorhin gesehen, und sehen es jetzt.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Mit was für einem Gesichte werde ich mich meiner Schwester zeigen können? – –</p>
+               <pb n="578" facs="#f0021"/>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Mit einem unverschämten, wäre mein Rat. Man hat nie etwas Unrechtes begangen, so lange
+            man noch selbst das Herz hat, es zu rechtfertigen. – Es ist ein Unglück für dich,
+            Schwester, ich gestehe es. Aber wer kann sich helfen? Ich will des Todes sein, wenn ich
+            bei meinen Verschwendungen jemals daran gedacht habe, daß ich das Deinige auch zugleich
+            mit verschwendete. – – So etwas ohngefähr müssen Sie ihr sagen, mein Herr, – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO</speaker>
+               <stage>nachdem er ein wenig nachgedacht.</stage>
+               <p>Ja, das wäre noch das einzige. Ich will es dem Staleno selbst vorschlagen. Komm,
+            Schurke! – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Der Weg nach dem Kränzchen, in welches ich Sie begleiten sollte, mein Herr, geht
+            dahin.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Zum Teufel, mit deinem Kränzchen! – – Aber ist das nicht Herr Staleno selbst, den ich
+            hier kommen sehe?</p>
+            </sp>
+         </div>
+         <div>
+            <head>Sechster Auftritt</head>
+            <stage>Staleno. Lelio. Maskarill.</stage>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Mein Herr, ich wollte mir eben jetzt die Freiheit nehmen, Sie aufzusuchen. Ich habe vom
+            Herrn Philto die gütigen Gesinnungen Ihres Mündels gegen meine Schwester erfahren.
+            Halten Sie mich nicht für so verwildert, daß es mich nicht außerordentlich schmerzen
+            würde, wenn sie durch mein Verschulden fruchtlos bleiben sollten. Es ist wahr, meine
+            Ausschweifungen haben mich entsetzlich herunter gebracht; allein, die mir drohende Armut
+            schreckt mich weit weniger, als der Vorwurf, den ich mir wegen einer geliebten Schwester
+            machen müßte, wenn ich nicht alles hervor suchte, das Unglück, das ich ihr durch meine
+            Torheit zugezogen, so viel als noch möglich, von ihr abzuwenden. Überwegen Sie also,
+            Herr Staleno, ob das Anerbieten, welches ich jetzt tun will, einige Aufmerksamkeit
+            verdienen kann. Vielleicht ist es Ihnen nicht unbekannt, daß mir eine alte Pate ein so
+            ziemlich beträchtliches Vorwerk in ihrem Testamente hinterließ. Dieses habe ich <pb n="579" facs="#f0022"/> noch; nur daß, – – wie Sie leicht vermuten können, – – einige Schulden
+            darauf haften, deren ohngeachtet es jährlich noch so viel einbringt, daß ich notdürftig
+            davon leben könnte. Ich will es meiner Schwester mit Vergnügen abtreten. Ihr Mündel hat
+            Geld genug, daß er es frei machen, und ansehnliche Verbesserungen, deren es fähig ist,
+            damit vornehmen kann. Es würde alsdann als keine unebene Aussteuer anzusehen sein, an
+            deren Mangel, wie mir Herr Philto gesagt hat, Sie sich einzig und allein stoßen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL</speaker>
+               <stage>sachte zum Lelio.</stage>
+               <p>Sind Sie nicht klug, Herr Lelio? –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Schweig!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das einzige, was Ihnen noch übrig ist, – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Habe ich dir Rechenschaft zu geben? – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Wollen Sie denn hernach betteln gehen?</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ich will tun, was ich will. –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO</speaker>
+               <stage>bei Seite.</stage>
+               <p>Ich merke schon. – Ja wohl, Herr Lelio, mußte ich mich an den gänzlichen Mangel der
+            Aussteuer stoßen, so gern ich auch sonst diese Heirat gesehen hätte. Wenn es Ihnen also
+            mit dem getanen Vorschlage ein Ernst wäre, so wollte ich mich wohl noch besinnen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Es ist mein völliger Ernst, Herr Staleno.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>So nehmen Sie doch Ihr Wort wieder zurück!</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Wirst du – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Bedenken Sie doch nur –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Noch ein Wort!</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Vor allen Dingen aber, Herr Lelio, müßten Sie mir einen Anschlag von dem Vorwerke, und
+            ein aufrichtiges Verzeichnis von allen Schulden, die Sie darauf haben, geben. Eher läßt
+            sich nichts sagen. – –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Gut, ich will sogleich gehen und beides aufsetzen. – Wann kann ich Sie wieder
+            sprechen?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Sie werden mich immer zu Hause treffen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Leben Sie wohl unterdessen. <stage>Geht ab.</stage>
+               </p>
+               <pb n="580" facs="#f0023"/>
+            </sp>
+         </div>
+         <div>
+            <head>Siebenter Auftritt</head>
+            <stage>Staleno. Maskarill.</stage>
+            <sp who="#maskarill">
+               <speaker>MASKARILL</speaker>
+               <stage>bei Seite.</stage>
+               <p>Jetzt muß ich ihm wider seinen Willen einen guten Dienst tun. Wie fange ichs an? Pst! –
+            – Verziehen Sie doch noch einen Augenblick, Herr Staleno – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Was gibts?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich sehe Sie für einen Mann an, der eine wohl gemeinte Warnung, wie es sich gehört, zu
+            schätzen weiß.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Du siehst mich für das an, was ich bin.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Und für einen Mann, welcher nicht glaubt, daß ein Bedienter seinen Herrn eben verrate,
+            wenn er nicht überall mit ihm in Ein Horn blasen will.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Ei freilich muß sich ein Diener des Bösen, das sein Herr tut, so wenig als möglich
+            teilhaftig machen. – – Aber wozu sagst du das? Hat Lelio wider mich etwas im Sinne?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sein Sie auf Ihrer Hut: ich bitte Sie, ich beschwöre Sie! Bei allem beschwöre ich Sie,
+            was Ihnen auf der Welt lieb ist: bei der Wohlfahrt Ihres Mündels; bei der Ehre Ihrer
+            grauen Haare.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Du sprichst auch wirklich, wie ein Beschwörer. – – Aber weswegen soll ich auf meiner
+            Hut sein?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Des Anerbietens wegen, das Ihnen Lelio getan hat.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Und wie so?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Kurz, Sie und Ihr Mündel sind verlorne Leute, wenn Sie das Vorwerk annehmen. Denn
+            erstlich muß ich Ihnen nur sagen, daß er fast eben so viel darauf schuldig ist, als der
+            ganze Bettel etwa wert sein mag.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Je nun, Maskarill, wenn es nur fast so viel ist – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Schon recht, so kömmt doch noch etwas dabei heraus. – – Aber hören Sie nur, was ich nun
+            sagen will. Der Boden, worauf das Vorwerk liegt, muß gleich die Gegend sein, in welcher
+            aller Fluch, der jemals über die Erde ausgesprochen worden, zusammen geflossen ist.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Du erschreckst mich. – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Wenn rund herum alle Nachbarn die reichste <pb n="581" facs="#f0024"/> Ernte haben, so bringen die
+            Äcker, die zu dem Vorwerke gehören, doch kaum die Aussaat wieder. Alle Jahre macht das
+            Viehsterben die Ställe leer. –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Man muß also kein Vieh darauf halten.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das hat Herr Lelio auch gedacht, und daher schon längst Schafe und Rinder, Schweine und
+            Pferde, Hühner und Tauben verkauft. Allein, wenn das Viehsterben keine Ochsen findet: –
+            – was meinen Sie wohl? – – so fällt es die Menschen an.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das wäre!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ja gewiß. Es hat kein Knecht ein halb Jahr da ausgehalten, und wenn er auch eine
+            eiserne Gesundheit gehabt hätte. Die stärksten Kerls hat Herr Lelio im Wendischen mieten
+            lassen; aber was halfs? das Frühjahr kam: weg waren sie.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Je nun! so muß mans mit den Pommern versuchen. Das sind Leute, die noch mehr aushalten
+            können, als die Wenden; Leute, wie Klotz und Stein.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Und der kleine Busch, Herr Staleno, der zu dem Vorwerke gehört –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Nun? der Busch?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Im ganzen Busche ist kein Baum anzutreffen, in den es nicht entweder einmal
+            eingeschlagen hätte, – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Eingeschlagen?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Oder an den sich nicht einmal jemand gehenkt hätte. Lelio ist dem abscheulichen Busche
+            auch so gram, daß er ihn noch alle Tage lichter machen läßt. Und glauben Sie wohl, daß
+            er das Holz, das darinne geschlagen wird, fürs halbe Geld verkauft?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Das ist schlecht.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ei! er muß wohl; denn die Leute, die es kaufen, und brennen wollen, wagen erstaunend
+            viel. Bei einigen hat es die Öfen eingeschmissen, bei andern einen so stinkenden Dampf
+            von sich gegeben, daß die Magd vor dem Herde dem Koche ohnmächtig in die Arme gefallen
+            ist.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Aber, Maskarill, lügst du wohl nicht?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich lüge nicht, mein Herr, wenn ich Ihnen sage, daß ich gar nicht lügen kann. – – Und
+            die Teiche – –</p>
+               <pb n="582" facs="#f0025"/>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Auch Teiche hat das Vorwerk?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ja; aber Teiche, in welchen sich mehr Menschen ersäuft haben, als Tropfen Wasser
+            darinne sind. Und da sich also die Fische von lauter menschlichem Luder nähren, so
+            können Sie leicht denken, was das für Fische sein mögen?</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Große und fette Fische. – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Fische, die durch ihre Nahrung Menschenverstand bekommen haben, und sich daher gar
+            nicht mehr fangen lassen; ja, wenn man die Teiche abläßt, so sind sie verschwunden. – –
+            Mit einem Worte, es muß kein Winkel auf der ganzen Erde sein, wo man allen Schaden,
+            alles Unglück so häufig und so gewiß antreffen könnte, als auf diesem elenden Vorwerke.
+            Die Geschichte meldet uns auch, und die Historie bestätiget es, daß seit dreihundert und
+            etlichen funfzig Jahren, – – oder seit vierhundert Jahren, – – kein einziger Besitzer
+            des selben eines natürlichen Todes gestorben sei.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Außer die alte Pate doch, die es dem Lelio vermachte.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Man redet nicht gerne davon; aber auch die alte Pate – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Nun?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Die alte Pate ward des Nachts von einer schwarzen Katze, die sie immer um sich hatte,
+            erstickt. Und es ist sehr wahrscheinlich, sehr wahrscheinlich, daß diese schwarze Katze
+            – – der Teufel gewesen ist. – – Wie es meinem Herrn gehen wird, das weiß Gott. Man hat
+            ihm prophezeit, daß ihn Diebe ermorden würden, und ich muß es ihm nachsagen, daß er sich
+            alle Mühe gibt, diese Prophezeiung zu Schanden zu machen, und die Diebe durch eine
+            großmütige Aufopferung seines Vermögens von sich abzuwehren; aber gleichwohl – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Aber gleichwohl, Maskarill, werde ich seinen Vorschlag annehmen. – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sie? – – Gehen Sie doch! das werden Sie nimmermehr tun.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Gewiß, ich werde es tun.</p>
+               <pb n="583" facs="#f0026"/>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL</speaker>
+               <stage>bei Seite.</stage>
+               <p>Der alte Fuchs!</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO</speaker>
+               <stage>bei Seite.</stage>
+               <p>Wie ich ihn martre, den Schelm! – – Aber doch, Maskarill, danke ich dir für deine gute
+            Nachricht. Sie kann mir wenigstens so viel nützen, daß ich meinen Mündel das Vorwerk
+            zwar nehmen, aber auch gleich wieder verkaufen lasse.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Am besten wäre es, Sie gäben sich gar nicht damit ab. Ich habe Ihnen noch lange nicht
+            alles erzählt. – –</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Verspare es nur; ich habe ohnedem jetzo nicht Zeit. Ein andermal, Maskarill, bin ich
+            deinen Possen wieder zu Diensten. <stage>Geht ab.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Achter Auftritt</head>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das war nichts! War ich zu dumm, oder war er zu klug? Je nun! ich werde am wenigsten
+            dabei verlieren. Will sich Lelio von allem entblößen; meinetwegen. Endlich kann ich
+            eines Herrn, wie er ist, entbehren. Meine Schäfchen sind im Treugen. Was ich noch für
+            ihn tu, tu ich aus Mitleiden. Er ist immer eine gute Haut gewesen; und ich wollte doch
+            nicht gerne, daß er es am Ende gar zu schlecht hätte. Marsch! – – Ha! das ist ja gar ein
+            Reisender. Ich dächte, ich hätte wenig genug zu tun, um mich um fremde Leute bekümmern
+            zu können. Es ist eine schöne Sache um die Neubegierde!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Neunter Auftritt</head>
+            <stage>Anselmo. Ein Träger. Maskarill.</stage>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Dem Himmel sei Dank, daß ich endlich mein Haus, mein liebes Haus wieder sehe!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sein Haus?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO</speaker>
+               <stage>zum Träger.</stage>
+               <p>Setzt den Koffer hier nur nieder, <pb n="584" facs="#f0027"/> guter Freund. Ich will ihn schon
+            vollends herein schaffen lassen. – Ich habe Euch doch bezahlt? – –</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>O ja, Herr! o ja! – – Aber – – Ohne Zweifel sind Sie wohl sehr vergnügt, sehr freudig,
+            daß Sie wieder zu Hause sind?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ja freilich!</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Ich habe Leute gekannt, die, wenn sie sehr freudig waren, gegen einen armen Teufel ein
+            übriges taten. – – Bezahlt haben Sie mich, Herr, bezahlt haben Sie mich.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun da! ich will auch ein übriges tun.</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Ei! ei! das ist mir doch lieb, daß ich mich nicht betrogen habe; ich sähe Sie gleich
+            für einen spendabeln Mann an. O! ich versteh mich drauf. Gott bezahls! <stage>Geht
+              ab.</stage>
+               </p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Es will sich niemand aus meinem Hause sehen lassen. Ich muß nur anklopfen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Der Mann ist offenbar unrecht!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Es sieht nicht anders aus, als ob das ganze Haus ausgestorben wäre. Gott verhüte. –
+            –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL</speaker>
+               <stage>der ihm näher tritt.</stage>
+               <p>Mein Herr! – – Sie werden verzeihen – – ich bitte um Vergebung – <stage>Indem er zurück
+              prellt.</stage> Der Blitz! das Gesichte sollte ich kennen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Verzeih Euchs der liebe Gott, daß Ihr nicht klug seid! – – Was wollt Ihr?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich wollte – – ich wollte – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun? was geht Ihr denn um mich herum?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich wollte – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Absehen vielleicht, wo meinem Beutel am besten beizukommen wäre?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich irre mich; wenn er es wäre, müßte er mich ja wohl auch kennen. – – Ich bin
+            neugierig, mein Herr; aber meine Neubegierde ist keine von den unhöflichen, und ich
+            frage mit aller Bescheidenheit, – – was Sie vor diesem Hause zu suchen haben?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Kerl! – – Aber jetzt seh ich ihn erst recht an. Mas – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Herr An – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Maska – –</p>
+               <pb n="585" facs="#f0028"/>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ansel – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Maskarill –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Herr Anselmo –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Bist du es denn?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich bin ich; das ist gewiß. Aber Sie – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Es ist kein Wunder, daß du zweifelst, ob ich es bin.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ist es in aller Welt möglich? – – Ach! nicht doch! Herr Anselmo ist neun Jahr weg, und
+            es wäre ja wohl wunderbar, wenn er eben heute wiederkommen sollte? Warum denn eben
+            heute?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Die Frage kannst du alle Tage tun; und ich dürfte also gar nicht wiederkommen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das ist wahr! – – Je nun! so sein Sie tausendmal willkommen, und aber tausendmal,
+            allerliebster Herr Anselmo. – Zwar am Ende sind Sie es doch wohl nicht? –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ich bin es gewiß. Antworte mir nur geschwind, ob alles noch wohl steht? Leben meine
+            Kinder noch? Lelio? Kamilla?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ja, nun darf ich wohl nicht mehr daran zweifeln, daß Sie es sind. – Sie leben, beide
+            leben sie noch. – – <stage>Bei Seite.</stage> Wenn er das übrige doch von einem andern
+            zu erst erfahren könnte. –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Gott sei Dank! daß sie beide noch leben. Sie sind doch zu Hause? – Geschwind, daß ich
+            sie in meine alten Arme schließen kann! – Bringe den Koffer nach, Maskarill. – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Wohin, Herr Anselmo, wohin?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ins Haus.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>In dieses Haus hier?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>In mein Haus.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das wird sogleich nicht angehen. – – <stage>Bei Seite.</stage> Was soll ich nun
+            sagen?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und warum nicht? – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Dieses Haus, Herr Anselmo – – ist verschlossen. – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Verschlossen?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Verschlossen, ja; und zwar – weil niemand darinne wohnt.</p>
+               <pb n="586" facs="#f0029"/>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Niemand darinne wohnt? Wo wohnen denn meine Kinder?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Herr Lelio? und Jungfer Kamille? – – die wohnen – – wohnen in einem andern Hause.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun? Du sprichst ja so seltsam, so rätselhaft – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sie wissen also wohl nicht, was seit kurzem vorgefallen ist?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Wie kann ich es wissen?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Es ist wahr. Sie sind nicht zugegen gewesen; und in neun Jahren kann sich schon etwas
+            verändert haben. Neun Jahr! eine lange Zeit! – – Aber es ist doch gewiß ganz etwas
+            Eignes, – – neun Jahr, neun ganzer Jahr weg sein, und eben jetzt wieder kommen! Wenn das
+            in einer Komödie geschähe, jedermann würde sagen: Es ist nicht wahrscheinlich, daß der
+            Alte eben jetzt wieder kömmt. Und doch ist es wahr! Er hat eben jetzt wieder kommen
+            können, und kömmt auch eben jetzt wieder. – Sonderbar, sehr sonderbar!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>O du verdammter Schwätzer, so halte mich doch nicht auf, und sage mir – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich will es Ihnen sagen, wo Ihre Kinder sind. Ihre Jungfer Tochter ist – – bei Ihrem
+            Herrn Sohn. – – Und Ihr Herr Sohn – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und mein Sohn – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ist hier ausgezogen, und wohnt – – Sehen Sie hier, in der Straße, das neue Eckhaus? – –
+            Da wohnt Ihr Herr Sohn.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und warum wohnt er denn nicht mehr hier? Hier in seinem väterlichen Hause? – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sein väterliches Haus war ihm zu groß – – zu klein; zu leer – – zu enge.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Zu groß, zu klein, zu leer, zu enge. Was heißt denn das?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Je nun! Sie werden es von ihm selbst besser hören können, wie das alles ist. – – So
+            viel werden Sie doch wohl erfahren haben, daß er ein großer Handelsmann geworden
+            ist?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Mein Sohn ein großer Handelsmann?</p>
+               <pb n="587" facs="#f0030"/>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ein sehr großer! Er lebt, schon seit mehr als einem Jahre, von nichts als vom
+            Verkaufen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Was sagst du? So wird er vielleicht zur Niederlage für seine Waren ein großes Haus
+            gebraucht haben?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ganz recht, ganz recht.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Das ist vortrefflich! Ich bringe auch Waren mit; kostbare indische Waren.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das wird an ein Verkaufen gehen!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Mache nur, Maskarill; und nimm den Koffer auf den Buckel, und führe mich zu ihm.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Der Koffer, Herr Anselmo, ist wohl sehr schwer. Verziehen Sie nur einen Augenblick, ich
+            will gleich einen Träger schaffen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Du kannst ihn selbst fortbringen; es sind nichts als Skripturen und Wäsche darinne.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich habe mir den Arm letzthin ausgefallen. – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Den Arm? Du armer Teufel! So geh nur und bringe jemanden.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL</speaker>
+               <stage>bei Seite.</stage>
+               <p>Gut, daß ich so weg komme. Herr Lelio! Herr Lelio! was werden Sie zu der Nachricht
+            sagen?</p>
+               <stage>Er geht und kömmt wieder zurück.</stage>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun? bist du noch nicht fort?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ich muß Sie wahrhaftig noch einmal ansehen, ob Sie es auch sind.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Je! so zweifle, du verzweifelter Zweifler!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL</speaker>
+               <stage>im Fortgehen.</stage>
+               <p>Ja, ja, er ists. – – Neun Jahr weg sein, und eben jetzt wieder kommen!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Zehnter Auftritt</head>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Da muß ich nun unter freiem Himmel warten? Es ist gut, daß die Straße ein wenig
+            abgelegen ist, und daß mich die wenigsten mehr kennen werden. Aber gleichwohl darf ich
+            die Augen nicht sehr von meinem Koffer verwenden. Ich dächte, ich setzte mich darauf. –
+            – Bald, bald <pb n="588" facs="#f0031"/> werde ich nun wohl ruhiger sitzen können. Ich habe mir es
+            sauer genug werden lassen, und Gefahr genug ausgestanden, daß ich mir schon, mit gutem
+            Gewissen, meine letzten Tage zu Rast- und Freudentagen machen kann. – – Ja gewiß, das
+            sollen sie werden. Und wer wird mir es verdenken? Wenn ich es nur ganz obenhin
+            überschlage, so besitze ich doch – <stage>Er spricht die letzten Worte immer sachter und
+              sachter, bis er zuletzt in bloßen Gedanken an Fingern zählt.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Eilfter Auftritt</head>
+            <stage>Raps, in einer fremden und seltsamen Kleidung. Anselmo.</stage>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Man muß allerlei Personen spielen können. Den möchte ich doch sehen, der in diesem
+            Aufzuge den Trommelschläger Raps erkennen sollte? Ich seh aus, ich weiß selber nicht
+            wie; und soll – – ich weiß selber nicht was? Eine närrische Kommission! Närrisch
+            immerhin: genug, daß man mich bezahlt. – – Hier in dieser Gasse, hat mir Staleno gesagt,
+            soll ich meinen Mann nur aufsuchen. Er wohnt nicht weit von seinem vorigen Hause; und
+            das ist ja sein voriges Haus.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Was ist das für ein Gespenste?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Wie mich die Leute ansehen!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Diese Figur muß in das Geschlecht der Pilze gehören. Der Hut reicht auf allen Seiten
+            eine halbe Elle über den Körper.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Guter Vater, der Ihr mich so anguckt, seid Ihr weniger fremd hier, wie ich? – – Er will
+            nicht hören. – – Mein Herr, der Sie auf dem Koffer hier sitzen, könnten Sie mich wohl
+            allenfalls zurechte weisen? Ich suche einen jungen Menschen, Namens Lelio; und einen
+            Kahlkopf von Ihrer Gattung, Namens Philto.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Lelio? Philto? – <stage>Bei Seite.</stage> So heißt ja mein Sohn, und mein alter guter
+            Freund. – –</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Wenn Sie mir die Wohnung dieser Leute zeigen können, <pb n="589" facs="#f0032"/> so werden Sie bei
+            einem Manne Dank verdienen, der nicht ermangeln wird. Ihre Höflichkeit an allen vier
+            Enden der Welt auszuposaunen; bei einem Reisenden, der siebenmal rund um die Welt
+            gereiset ist: einmal zu Schiffe, zweimal auf der geschwinden Post, und viermal zu
+            Fuße.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Darf ich nicht wissen, mein Herr, wer Sie sind? wie Sie heißen? von wannen Sie kommen?
+            was Sie bei genannten Personen zu suchen haben?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Das heißt sehr viel auf einmal fragen. Worauf soll ich nun zuerst antworten? Wenn Sie
+            mich jedes insbesondere, mit der gehörigen Art, fragen wollten, so möchte ich vielleicht
+            darauf Bescheid erteilen. Denn ich bin gesprächig, mein Herr, sehr gesprächig. – –
+              <stage>Bei Seite.</stage> Ich kann wenigstens meine Rolle mit ihm probieren.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun wohl, mein Herr; lassen Sie uns bei dem Kürzesten anfangen. Wie ist Ihr Name?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Bei dem Kürzesten? Mein Name? Gefehlt! weit gefehlt!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Wie so?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ja, mein guter, lieber, alter Herr, ich muß Ihnen nur sagen, – – geben Sie wohl
+            Achtung: – – – Wenn Sie ganz früh, ganz früh, so bald der Tag anfängt zu grauen, von
+            meinem ersten Namen ausgehen, und gehen und gehen, so stark, wie Sie nur können: so
+            wette ich, daß die Sonne doch schon untergegangen sein wird, ehe Sie nur den
+            Anfangsbuchstaben von meinem letzten Namen zu sehen bekommen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ei! so brauchte man ja wohl gar eine Laterne und einen Schnappsack zu Ihrem Namen?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Nicht anders.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO</speaker>
+               <stage>bei Seite.</stage>
+               <p>Der Kerl redt! – Aber was wollen Sie denn bei dem jungen Lelio, und bei dem alten
+            Philto? Ohne Zweifel stehen Sie mit dem erstern in Verkehr? Lelio soll ein großer
+            Kaufmann sein.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ein großer Kaufmann? daß ich nicht wüßte! Nein, mein Herr; ich habe bloß ein Paar
+            Briefe bei ihm abzugeben.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ha! ha! Avisobriefe vielleicht von Waren, die an ihn abgegangen sind, oder so
+            etwas.</p>
+               <pb n="590" facs="#f0033"/>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Nicht so etwas. – Es sind Briefe, die mir sein Vater an ihn mitgegeben hat.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Wer?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Sein Vater.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Des Lelio Vater?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ja, des Lelio Vater, der jetzt in der Fremde ist. – – Er ist mein guter Freund.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO</speaker>
+               <stage>bei Seite.</stage>
+               <p>Je! das ist ja gar, mit Ehren zu melden, ein Betrieger. Warte, dich will ich kriegen.
+            Ich soll ihm Briefe an meinen Sohn gegeben haben?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Was meinen Sie, mein Herr?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nichts. – – Und so kennen Sie wohl den Vater des Lelio?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Wenn ich ihn nicht kennte, würde ich wohl Briefe an seinen Sohn Lelio, und Briefe an
+            seinen Freund Philto von ihm haben? – – Da, mein Herr, hier sehen Sie beide. – – Er ist
+            mein Herzensfreund.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ihr Herzensfreund? – – Und wo war er denn, dieser Ihr Herzensfreund, als er Ihnen die
+            Briefe gab?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Er war – – er war – – bei guter Gesundheit.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Das ist mir von Herzen lieb. Aber wo war er denn? wo?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Mein Herr, er war – – auf der Küste von Paphlagonien.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Das gesteh ich! – – Daß Sie ihn kennen, haben Sie mir schon gesagt; aber es versteht
+            sich doch wohl, von Person?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Freilich von Person. – – Habe ich denn nicht so manche Flasche Kapwein mit ihm
+            ausgestochen? und zwar auf dem Orte, wo er wächst. – Sie wissen wohl, mein Herr, auf dem
+            Vorgebirge Kapua, wo sich in dem dreißigjährigen Kriege Hannibal so voll soff, daß er
+            nicht vor Rom gehen konnte.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Sie besitzen Gelehrsamkeit, wie ich höre.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>So etwas fürs Haus.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Können Sie mir nicht sagen, wie er aussieht, des Lelio Vater?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Wie er aussieht? – – Sie sind sehr neugierig. Doch ich <pb n="591" facs="#f0034"/> liebe die
+            neugierigen Leute. – – Er ist ungefähr einen Kopf größer, als Sie.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO</speaker>
+               <stage>bei Seite.</stage>
+               <p>Das geht gut! ich bin abwesend größer, als gegenwärtig. – Seinen Namen haben Sie mir
+            noch nicht gesagt. Wie heißt er?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Er heißt – – vollkommen wie ein ehrlicher Mann heißen soll.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ich möchte doch hören – –</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Er heißt – – er heißt nicht wie sein Sohn – – er würde aber besser getan haben, wenn er
+            so hieße; – – sondern er heißt – – daß dich!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ich glaube, ich habe den Namen vergessen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Den Namen eines Freundes? – –</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Nur Geduld! jetzt läuft er mir auf der Zunge herum. Nennen Sie mir doch geschwind
+            einen, der etwa so klingt. Er fängt sich auf ein A an.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Arnolph vielleicht?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Nicht Arnolph.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Anton?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Nicht Anton. Ans – Ansa – Ansi – – Asi – – Asinus. Nein, nicht Asinus, nicht Asinus – –
+            Ein verzweifelter Namen! An – Ansel – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Anselmo doch wohl nicht?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Recht! Anselmo. Daß der Henker den schurkischen Namen holte!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Das ist nicht freundschaftlich gesprochen.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ei! warum bleibt er auch einem zwischen den Zähnen stecken. Ist das freundschaftlich,
+            wenn man sich so lange suchen läßt? Dasmal will ich es ihm noch vergeben. – – Anselmo
+            hieß er? nicht? – Ganz recht! Anselmo. Wie gesagt, das letztemal habe ich ihn auf der
+            Küste von Paphlagonien gesprochen, und zwar in dem Hafen Gibraltar. Er wollte noch den
+            Königen von Gallipoli einen kleinen Besuch abstatten. – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Den Königen von Gallipoli? Wer sind die?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Wie, mein Herr! kennen Sie die berühmten Brüder nicht, welche über Gallipoli herrschen?
+            die weltbekannten <pb n="592" facs="#f0035"/> Dardanellen? Sie reiseten vor einigen zwanzig Jahren in
+            Europa herum; und da hat er sie kennen lernen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO</speaker>
+               <stage>bei Seite.</stage>
+               <p>Die Narrenspossen dauern zu lange. Ich muß der Pauke nur ein Loch machen, damit ich
+            doch erfahre, woran ich bin.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Der Hof der Dardanellen, mein Herr, ist einer von den prächtigsten in ganz Amerika, und
+            ich weiß gewiß, mein Freund Anselmo wird daselbst sehr wohl empfangen worden sein. Er
+            wird sobald auch nicht wieder wegkommen. Und eben deswegen, weil er dieses voraussahe,
+            und weil er wußte, daß ich gerades Weges hieher reisen würde, gab er mir Briefe mit, um
+            die Seinigen wegen seiner langen Abwesenheit zu beruhigen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Das war sehr wohl getan. – Aber eins muß ich doch noch fragen – –</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>So viel als Ihnen beliebt.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Wenn man Ihnen, mein sonderbarer Herr mit dem langen Namen –</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Lang ist mein Name, das ist wahr; aber ich führe auch einen ganz kleinen, welcher
+            gleichsam die Quintessenz von dem langen ist.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Darf ich ihn wissen?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Raps!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Raps?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ja, Raps; Ihnen zu dienen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ich danke für Ihre Dienste, Herr Raps.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Raps will eigentlich so viel sagen, als der Sohn des Rap. Rap aber hieß mein Vater; und
+            mein Großvater Rip, von welchem sich denn mein Vater auch manchmal Rips zu nennen
+            pflegte: so daß ich mich gar wohl, wenn ich mit meinen Ahnen prahlen wollte, Rips Raps
+            nennen könnte.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun wohl, Herr Rips Raps, – damit ich wieder auf meine Frage komme: – – Wenn man Ihnen
+            Ihren Freund Anselmo jetzt zeigte, würden Sie ihn wohl wieder erkennen?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Wenn ich meine Augen behielte, ohne Zweifel. Aber es scheint, als ob Sie es noch nicht
+            glauben wollten, daß ich den Anselmo kenne. Hören Sie also einen Beweis über alle <pb n="593" facs="#f0036"/> Beweise. Nicht allein Briefe hat er mir mitgegeben, sondern auch
+            sechstausend Taler, die ich dem Herrn Philto einhändigen soll. Würde er das wohl getan
+            haben, wenn ich nicht sein ander Ich wäre?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Sechstausend Taler?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>In lauter guten, vollwichtigen Dukaten.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO</speaker>
+               <stage>bei Seite.</stage>
+               <p>Nun weiß ich fast nicht, was ich von dem Kerl denken soll. Ein Betrieger, der Geld
+            bringt, das ist ja wohl ein sehr wunderbarer Betrieger.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Aber, mein Herr, wir plaudern zu lange. Ich sehe wohl, daß Sie mir meine Leute entweder
+            nicht weisen können, oder nicht wollen. – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nur noch ein Wort! – – Haben Sie denn, Herr Raps, das Geld bei sich, das Ihnen Anselmo
+            gegeben hat?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ja. Warum?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und es ist ganz gewiß, daß Ihnen Anselmo, des Lelio Vater, die sechstausend Taler
+            gegeben hat?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ganz gewiß.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Je nun! so geben Sie mir sie nur wieder, Herr Raps.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Was soll ich Ihnen wieder geben?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Die sechstausend Taler, die Sie von mir bekommen haben.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Ich von Ihnen sechstausend Taler bekommen?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Sie sagen es ja selbst.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Was sag ich? – Sie sind – – Wer sind Sie denn?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ich bin eben der, der Herr Rapsen sechstausend Taler anvertrauet hat; ich bin
+            Anselmo.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Sie Anselmo?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Kennen Sie mich nicht? Die Könige von Gallipoli, die weltberühmten Dardanellen, haben
+            die Gnade gehabt, mich eher wieder von sich zu lassen, als ich vermutete. Und weil ich
+            denn nun selbst da bin, so will ich dem Herrn Raps fernere Mühe ersparen.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS</speaker>
+               <stage>bei Seite.</stage>
+               <p>Sollte man nicht schwören, der Mann wäre ein größrer Gauner, als ich selbst! – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Besinnen Sie sich nur nicht lange, und geben Sie mir das Geld wieder.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Wer sollte es denken, daß ein alter Mann noch so fein <pb n="594" facs="#f0037"/> sein könnte! Sobald
+            er hört, daß ich Geld bei mir habe: husch! ist er Anselmo. Aber, mein guter Vater, so
+            geschwind Sie sich anselmisiert haben, so geschwind werden Sie sich auch wieder
+            entanselmisieren müssen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Je nun! wer bin ich denn, wenn ich nicht der bin, der ich bin?</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Was geht das mich an? Sein Sie wer Sie wollen, wenn Sie nur nicht der sind, der ich
+            nicht will, daß Sie sein sollen. Warum waren Sie denn nicht gleich Anfangs der, der Sie
+            sind? Und warum wollen Sie denn nun der sein, der Sie nicht waren?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>O! so machen Sie doch nur fort – –</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Was soll ich machen?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Mir mein Geld wieder geben.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Machen Sie sich nur weiter keine Ungelegenheit. Ich habe gelogen. Das Geld ist nicht in
+            vollwichtigen Dukaten; sondern es steht bloß auf dem Papiere.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Bald werde ich mit dem Herrn aus einem andern Tone sprechen. – – Ihr sollt in allem
+            Ernste wissen, Herr Rips Raps, daß ich Anselmo bin; und wenn Ihr mir nicht gleich die
+            Briefe und das Geld einhändiget, das Ihr von mir bekommen zu haben vorgebt: so will ich
+            gar bald so viel Leute zusammen rufen, als nötig sein wird, einen solchen Betrieger fest
+            zu halten.</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>Sie wissen also ganz ohnfehlbar, daß ich ein Betrieger bin? und Sie sind ganz
+            ohnfehlbar Herr Anselmo? So habe ich denn die Ehre, mich dem Herrn Anselmo zu empfehlen.
+            – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Du sollst so nicht wegkommen, guter Freund!</p>
+            </sp>
+            <sp who="#raps">
+               <speaker>RAPS.</speaker>
+               <p>O! ich bitte, mein Herr – – <stage>Indem ihn Anselmo halten will, stößt ihn Raps mit
+              Gewalt von sich, daß er rücklings wieder auf den Koffer zu sitzen kömmt.</stage> Der
+            alte Dieb könnte wenigstens einen Auflauf erregen. Ich will dir schon einen schicken,
+            der dich besser kennen soll. <stage>Geht ab.</stage>
+               </p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Da sitze ich ja nun wieder? Wo ist er hin, der Spitzbube? Wo ist er hin? – – Ich sehe
+            niemanden. – – Bin ich auf dem Koffer eingeschlafen, und hat mir das närrische Zeug
+            geträumt, oder – – Den Henker mag es mir <pb n="595" facs="#f0038"/> geträumt haben! – – Ich armer
+            Mann! Dahinter steckt ganz gewiß etwas; ganz gewiß steckt etwas dahinter! Und Maskarill?
+            – – Maskarill kömmt auch nicht wieder? Auch das geht nicht richtig zu! auch das nicht! –
+            Was soll ich anfangen? Ich will nur gleich den ersten den besten rufen – – He da, guter
+            Freund, he da!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Zwölfter Auftritt</head>
+            <stage>Anselmo. Ein andrer Träger.</stage>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Was steht zu Ihren Diensten, mein Herr?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Wollt Ihr Euch ein gut Trinkgeld verdienen, mein Freund?</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Das wäre wohl meine Sache.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>So nehmt geschwind den Koffer, und bringt mich zu dem Kaufmann Lelio.</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Zu dem Kaufmann Lelio?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ja. Er soll da in der Straße, in dem neuen Eckhause wohnen.</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Ich kenne in der ganzen Stadt keinen Kaufmann Lelio. In dem neuen Eckhause, da unten,
+            wohnt jemand ganz anders.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ei nicht doch! Lelio muß da wohnen. Sonst hat er hier in diesem Hause gewohnt, welches
+            ihm auch gehört.</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Nun merke ich, wen Sie meinen. Sie meinen den lüderlichen Lelio. O! den kenn ich
+            wohl!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Was? den lüderlichen Lelio?</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Je nu! die ganze Stadt nennt ihn so; warum soll ich ihn anders nennen? Sein Vater war
+            der alte Anselmo. Das war ein garstiger, geiziger Mann, der nie genug kriegen konnte. Er
+            reisete vor vielen Jahren hier weg; Gott weiß, wohin? Unterdessen, daß er sichs in der
+            Fremde sauer werden läßt, oder wohl gar darüber schon ins Gras gebissen hat, ist sein
+            Sohn hier guter Dinge. Der wird zwar nun wohl auch allmählig auf die Hefen gekommen
+            sein; aber es ist schon recht. Ein Sammler will einen Zerstreuer <pb n="596" facs="#f0039"/> haben.
+            Das Häuschen, höre ich, hat er nun auch verkauft – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Was? verkauft? – – Nun ists klar! Ach, du verwünschter Maskarill! – Ach ich
+            unglücklicher Vater! Du gottloser, ungeratner Sohn!</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Ei! – Sie sind doch wohl nicht gar der alte Anselmo selber? Nehmen Sie mirs nicht übel,
+            wenn Sie es sind; ich habe Sie wirklich nicht gekannt. Sonst hätte ich es wohl bleiben
+            lassen. Sie einen garstigen, geizigen Mann zu nennen. Es ist niemanden an die Stirne
+            geschrieben, wer er ist. Mögen Sie mich doch immerhin das Trinkgeld nicht verdienen
+            lassen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ihr sollt es verdienen, guter Freund, Ihr sollt es verdienen. Sagt mir nur geschwind:
+            Ist es wirklich wahr, daß er das Haus verkauft hat? Und an wen hat er es verkauft?</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Der alte Philto hats gekauft.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Philto? – O du ehrvergeßner Mann! Ist das deine Freundschaft? – Ich bin verraten! Ich
+            bin verloren! – Er wird mir nun alles leugnen. – –</p>
+            </sp>
+            <sp who="#der_traeger">
+               <speaker>DER TRÄGER.</speaker>
+               <p>Die Leute haben es ihm übel genug ausgelegt, daß er sich mit dem Kaufe abgegeben hat.
+            Hat er nicht sollen in Ihrer Abwesenheit bei Ihrem Sohne gleichsam Vormunds Stelle
+            vertreten? Ein schöner Vormund! das hieß ja wohl den Bock zum Gärtner setzen. Er ist
+            alle sein Lebtage für einen eigennützigen Mann gehalten worden, und was ein Rabe ist,
+            das bleibt wohl ein Rabe. – – Da eben seh ich ihn kommen! Ich will gern mein Trinkgeld
+            im Stiche lassen; die Leute sind gar zu wunderlich, wenn sie hören, daß man sie kennt.
+              <stage>Geht ab.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Dreizehnter Auftritt</head>
+            <stage>Anselmo. Philto.</stage>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Unglück über alle Unglücke! Komm nur! Komm nur, du Verräter!</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ich muß doch sehen, wer hier das Herz hat, sich für <pb n="597" facs="#f0040"/> den Anselmo
+            auszugeben. – – Aber was sehe ich? Er ist es wirklich. – – Laß dich umarmen, mein
+            liebster Freund! So bist du doch endlich wieder da? Gott sei tausendmal gedankt. – Aber
+            warum so verdrüßlich? Kennst du deinen Philto nicht mehr?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ich weiß alles, Philto, ich weiß alles. Ist das ein Streich, wie man ihn von einem
+            Freunde erwarten kann?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Nicht ein Wort mehr, Anselmo. Ich höre schon, daß mir ein dienstfertiger Verleumder
+            zuvorgekommen ist. – – Hier ist nicht der Ort, uns weitläuftiger zu erklären. Komm in
+            dein Haus.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>In mein Haus?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Ja; noch ist es das deine, und soll wider deinen Willen nie eines andern werden. Komm;
+            ich habe zu allem Glücke den Schlüssel bei mir. – Ohne Zweifel ist dieses dein Koffer?
+            Fasse nur an; wir wollen ihn selbst hinein ziehen; es sieht uns doch niemand. – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Aber meine Barschaft? – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Auch diese wirst du finden, wie du sie verlassen hast. <stage>Sie gehen in das Haus,
+              nachdem sie den Koffer nach sich gezogen.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Vierzehnter Auftritt</head>
+            <stage>Lelio. Maskarill.</stage>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Nun? haben Sie ihn gesehen? War er es nicht?</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Er ist es, Maskarill!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Wenn nur der erste Empfang vorüber wäre!</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Nie habe ich meine Nichtswürdigkeit so lebhaft empfunden, als eben jetzt, da sie mich
+            verhindert, einem Vater freudig unter die Augen zu treten, der mich so zärtlich geliebt
+            hat. Was soll ich tun? Soll ich mich aus seinen Augen verbannen? oder soll ich gehen,
+            und ihm zu Fuße fallen?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das letzte taugt nicht viel; aber das erste taugt gar nichts.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Nun! so rate mir doch! Nenne mir wenigstens einen Vorsprecher. – –</p>
+               <pb n="598" facs="#f0041"/>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Einen Vorsprecher? eine Person, die bei Ihrem Vater für Sie sprechen soll? – – Den
+            Herrn Stiletti.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Bist du toll?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Oder – die Frau Lelane.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Verräter!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Die eine von ihren Nichten. –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ich bringe dich um!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ja! das würde vollends eine Freude für Ihren Vater sein, wenn er seinen Sohn als einen
+            Mörder fände.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>An den alten Philto darf ich mich nicht wenden. Ich habe seine Lehren, seine Warnungen,
+            seinen Rat allzu oft verachtet, als daß ich auf sein gutes Wort einigen Anspruch machen
+            könnte.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Aber fallen Sie denn gar nicht auf mich?</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Sieh du dich nur selbst nach einem Vorsprecher um.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das habe ich schon getan; und der sind Sie.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Ich?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Sie! und zwar zur Danksagung, daß ich Ihnen einen Vorsprecher werde geschafft haben,
+            den Sie in alle Ewigkeit nicht besser finden können.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Wenn du das tust, Maskarill –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Kommen Sie nur hier weg; die Alten möchten wieder herauskommen.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Aber nenne mir doch den Vorsprecher, den ich in alle Ewigkeit nicht besser finden
+            könnte.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Kurz, Ihr Vater soll Ihr Vorsprecher bei dem Herrn Anselmo sein.</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Was heißt das?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das heißt, daß ich einen Einfall habe, den ich Ihnen hier nicht sagen kann. Nur fort!
+              <stage>Gehen ab.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Funfzehnter Auftritt</head>
+            <stage>Anselmo. Philto, welche aus dem Hause kommen.</stage>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun! das ist wahr, Philto: ein getreuerer und klügrer Freund, als du bist, muß in der
+            Welt nicht zu finden sein. Ich danke dir tausendmal, und wollte wünschen, daß ich dir
+            deine Dienste vergelten könnte.</p>
+               <pb n="599" facs="#f0042"/>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Sie sind vergolten genug, wenn sie dir angenehm sind.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ich weiß es, daß du meinetwegen viel Verleumdungen hast über dich müssen ergehen
+            lassen.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Was wollen Verleumdungen sagen, wenn man bei sich überzeugt ist, daß man sie nicht
+            verdient habe? Auch die List, hoffe ich, wirst du gut finden, die ich wegen der
+            Aussteuer brauchen wollte.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Die List ist vortrefflich ersonnen: aber nur ist es mir leid, daß aus der ganzen Sache
+            nichts werden kann.</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Nichts werden? Warum denn nicht? Gut, daß Sie kommen, Herr Staleno.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Sechzehnter Auftritt</head>
+            <stage>Staleno. Anselmo. Philto.</stage>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>So ist es doch wahr, daß Anselmo endlich wieder da ist? Willkommen! willkommen!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Es ist mir lieb, einen alten guten Freund gesund wieder zu sehen. Aber es ist mir nicht
+            lieb, daß das erste, was ich ihm sagen muß, eine abschlägliche Antwort sein soll. Philto
+            hat mir hinterbracht, was für eine gute Absicht Ihr Mündel auf meine Tochter hat. Ohne
+            ihn zu kennen, würde ich, bloß in Ansehung Ihrer, Ja dazu sagen, wenn ich meine Tochter
+            nicht bereits versprochen hätte; und zwar an den Sohn eines guten Freundes, der vor
+            kurzem in Engeland verstorben ist. Ich habe ihm noch auf seinem Todbette mein Wort geben
+            müssen, daß ich seinen Sohn, welcher sich hier aufhalten soll, auch zu dem meinigen
+            machen wolle. Er hat mir sein Verlangen so gar schriftlich hinterlassen, und es muß eine
+            von meinen ersten Verrichtungen sein, daß ich den jungen Leander aufsuche, und ihm davon
+            Nachricht gebe.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Wen? den jungen Leander? Je! das ist ja eben mein Mündel.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Leander ist Ihr Mündel? des alten Pandolfo Sohn?</p>
+               <pb n="600" facs="#f0043"/>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Leander, des alten Pandolfo Sohn, ist mein Mündel.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und eben diesen Leander sollte meine Tochter haben?</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Eben diesen.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Was für ein glücklicher Zufall! Hätte ich mir es besser wünschen können? Nun wohl, ich
+            bekräftige also das Wort, das Ihnen Philto in meinem Namen gegeben hat. Kommen Sie;
+            damit ich den lieben Mündel bald sehen, und meine Tochter umarmen kann. Ach! wenn ich
+            den ungeratnen Sohn nicht hätte, was für ein beneidenswürdiger Mann könnte ich sein!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Siebenzehnter Auftritt</head>
+            <stage>Maskarill. Anselmo. Philto. Staleno.</stage>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ach! Unglück, unaussprechliches Unglück! Wo werde ich nun den armen Herrn Anselmo
+            finden?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ist das nicht Maskarill? Was sagt der Spitzbube?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ach! unglücklicher Vater, was wirst du zu dieser Nachricht sagen?</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Zu was für einer Nachricht?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ach! der betauernswürdige Lelio!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun? was ist ihm denn widerfahren?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ach! was für ein trauriger Zufall!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Maskarill!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ach! welche tragische Begebenheit!</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Tragisch? Ängstige mich nicht länger, Kerl, und sage was es ist. – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ach! Herr Anselmo, Ihr Sohn – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Nun? mein Sohn?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Als ich ihm Ihre glückliche Ankunft zu melden kam, fand ich ihn, mit untergestütztem
+            Arme, im Lehnstuhle –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und in den letzten Zügen vielleicht? – –</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Ja, in den letzten Zügen, die er aus einer ungerschen <pb n="601" facs="#f0044"/> Bouteille tun
+            wollte. – Freuen Sie sich, Herr Lelio, waren meine Worte: eben jetzt ist Ihr lieber,
+            sehnlich gewünschter Vater wieder gekommen! – Was? mein Vater? – Hier fiel ihm die
+            Bouteille vor Schrecken aus der Hand; sie sprang in Stücken, und die kostbare Neige floß
+            auf den staubigten Boden. Was? schrie er nochmals, mein Vater wiedergekommen? Wie wird
+            es mir nun ergehen? – Wie Sie es verdient haben, sagte ich. Er sprang auf, lief zu dem
+            Fenster, das auf den Kanal geht, riß es auf – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und stürzte sich herab?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Und sahe, was für Wetter wäre. – Geschwind meinen Degen! – – Ich wollte ihm den Degen
+            nicht geben, weil man Exempel hat, daß mit einem Degen groß Unglück angerichtet worden.
+            – Was wollen Sie mit dem Degen, Herr Lelio? – – Halte mich nicht auf, oder – das Oder
+            sprach er in einem so fürchterlichen Tone aus, daß ich ihm den Degen vor Schrecken gab.
+            Er nahm ihn, und –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Und tat sich ein Leides?</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Und – –</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Ach! ich unglücklicher Vater! –</p>
+            </sp>
+         </div>
+         <div>
+            <head>Achtzehnter Auftritt</head>
+            <stage>Lelio an der Szene. Die Vorigen.</stage>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Und steckte ihn an. Komm, rief er, Maskarill; mein Vater wird auf mich zürnen, und sein
+            Zorn ist mir unerträglich. Ich will nicht länger leben, ohne ihn zu versöhnen. Er
+            stürzte die Treppe herab, lief sporenstreichs zum Hause hinaus, und warf sich nicht weit
+            von hier – <stage>Indem Maskarill dieses sagt, und Anselmo gegen ihn gekehrt ist, fällt
+              ihm Lelio auf der andern Seite zu Füßen.</stage> – – zu den Füßen seines Vaters. –
+            –</p>
+            </sp>
+            <sp who="#lelio">
+               <speaker>LELIO.</speaker>
+               <p>Verzeihen Sie, liebster Vater, daß ich durch dieses Mittel versuchen wollen, ob Ihr
+            Herz gegen mich noch einiges Mitleids fähig ist. Das Traurigste, was Sie meinetwegen
+            besorgten, geschieht gewiß, wenn ich, ohne Vergebung <pb n="602" facs="#f0045"/> von Ihnen zu
+            erhalten, von Ihren Füßen aufstehen muß. Ich bekenne, daß ich Ihrer Liebe nicht wert
+            bin, aber ich will auch ohne dieselbe nicht leben. Jugend und Unerfahrenheit können
+            vieles entschuldigen. – –</p>
+            </sp>
+            <sp who="#philto">
+               <speaker>PHILTO.</speaker>
+               <p>Laß dich bewegen, Anselmo.</p>
+            </sp>
+            <sp who="#staleno">
+               <speaker>STALENO.</speaker>
+               <p>Auch ich bitte für ihn. Er wird sich bessern.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Wenn ich das nur glauben dürfte. Steh auf! Noch will ichs einmal versuchen. Aber wo du
+            noch einen lüderlichen Streich machst, so habe ich dir nichts vergeben, und die kleinste
+            Ausschweifung, die du wieder begehst, soll die gewisse Strafe für alle andre nach sich
+            ziehen.</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das ist billig.</p>
+            </sp>
+            <sp who="#anselmo">
+               <speaker>ANSELMO.</speaker>
+               <p>Den nichtswürdigen Maskarill jage nur gleich zum Henker!</p>
+            </sp>
+            <sp who="#maskarill">
+               <speaker>MASKARILL.</speaker>
+               <p>Das ist unbillig! – – Doch jagen Sie mich, oder behalten Sie mich, es soll mir
+            gleichviel sein; nur zahlen Sie mir vorher die Summe aus, die ich Ihnen schon sieben
+            Jahr geliehen habe, und aus Großmut noch zehn Jahr leihen wollte.</p>
+            </sp>
+            <trailer>Ende des Schatzes.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

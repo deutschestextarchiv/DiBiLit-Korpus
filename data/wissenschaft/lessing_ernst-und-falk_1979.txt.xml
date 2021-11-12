@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Ernst und Falk</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:13Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005267013</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Theologiekritische und philosophische Schriften/Ernst und Falk</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rkt4.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E99B-3</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 8, München 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 8</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">488 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1979</date>
+                  <date type="firstPublication">1778</date>
+                  <date type="firstPublication" subtype="clariah">1778</date>
+                  <date type="firstPublication" subtype="zeno">1778</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1729"
+                        notAfter="1781"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e139474">Erstdruck: Wolfenbüttel bzw. Frankfurt [recte: Göttingen] 1778 (anonym).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Theologiekritische und philosophische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theologie; Philosophie</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="Lessing-Gotthol-d1e139474">
+            <p rend="h3">Gotthold Ephraim Lessing</p>
+            <p rend="h2">Ernst und Falk</p>
+            <p rend="h4">Gespräche für Freimäurer</p>
+            <p>
+               <pb n="451" facs="#f0001"/>
+Sr. Durchlaucht dem Herzoge Ferdinand</p>
+            <p>
+               <hi rendition="#i">Durchlauchtigster Herzog,</hi>
+            </p>
+            <p>Auch ich war an der Quelle der Wahrheit, und schöpfte. Wie tief ich geschöpft habe, kann nur der beurteilen, von dem ich die Erlaubnis erwarte, noch tiefer zu schöpfen. – Das Volk lechzet schon lange und vergehet vor Durst. –</p>
+            <p>
+               <hi rendition="#i">Ew. Durchlaucht,</hi>
+            </p>
+            <p>untertänigster Knecht</p>
+            <p>Vorrede eines Dritten</p>
+            <p>Wenn nachstehende Blätter die wahre <hi rendition="#i">Ontologie</hi> der Freimäurerei nicht enthalten: so wäre ich begierig zu erfahren, in welcher von den unzähligen Schriften, die sie veranlaßt hat, ein mehr bestimmter Begriff von ihrer <hi rendition="#i">Wesenheit</hi> gegeben werde.</p>
+            <p rendition="#et">Wenn aber die Freimäurer alle, von welchem Schlage sie auch immer sein mögen, gern einräumen werden, daß der hier angezeigte Gesichtspunkt der einzige ist, aus welchem – sich nicht einem blöden Auge ein bloßes Phantom zeigt, – sondern gesunde Augen eine wahre Gestalt erblicken: so dürfte nur noch die Frage entstehen; warum man nicht längst, so deutlich mit der Sprache herausgegangen sei?</p>
+            <p rendition="#et">Auf diese Frage wäre vielerlei zu antworten. Doch wird man schwerlich eine andere Frage finden, die mit ihr mehr Ähnlichkeit habe, als die: warum in dem Christentume die systematischen Lehrbücher so spät entstanden sind? warum es so viele und gute Christen gegeben hat, die ihren Glauben auf eine verständliche Art weder angeben konnten, noch wollten?</p>
+            <p rendition="#et">
+               <pb n="452" facs="#f0002"/>
+Auch wäre dieses im Christentume noch immer zu früh geschehen, indem der Glaube selbst vielleicht wenig dabei gewonnen: wenn sich Christen nur nicht hätten einfallen lassen, ihn auf eine ganz widersinnige Art angeben zu wollen. Man mache hiervon die Anwendung selbst.</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Lessing-Gotthol-d1e139542" type="chapter">
+            <head>Erstes Gespräch</head>
+            <p>ERNST. Woran denkst du, Freund?</p>
+            <p>FALK. An nichts.</p>
+            <p>ERNST. Aber du bist so still.</p>
+            <p>FALK. Eben darum. Wer denkt, wenn er genießt? Und ich genieße des erquickenden Morgens.</p>
+            <p>ERNST. Du hast Recht; und du hättest mir meine Frage nur zurückgeben dürfen.</p>
+            <p>FALK. Wenn ich an etwas dächte, würde ich darüber sprechen. Nichts geht über das <hi rendition="#i">laut denken</hi> mit einem Freunde.</p>
+            <p>ERNST. Gewiß.</p>
+            <p>FALK. Hast <hi rendition="#i">du</hi> des schönen Morgens schon genug genossen; fällt <hi rendition="#i">dir</hi> etwas ein; so sprich du. Mir fällt nichts ein.</p>
+            <p>ERNST. Gut das! – Mir fällt ein, daß ich dich schon längst um etwas fragen wollen.</p>
+            <p>FALK. So frage doch.</p>
+            <p>ERNST. Ist es wahr, Freund, daß du ein Freimäurer bist?</p>
+            <p>FALK. Die Frage ist eines der keiner ist.</p>
+            <p>ERNST. Freilich! – Aber antworte mir gerader zu. – Bist du ein Freimäurer?</p>
+            <p>FALK. Ich glaube es zu sein.</p>
+            <p>ERNST. Die Antwort ist eines, der seiner Sache eben nicht gewiß ist.</p>
+            <p>FALK. O doch! Ich bin meiner Sache so ziemlich gewiß.</p>
+            <p>ERNST. Denn du wirst ja wohl wissen, ob und wenn und wo und von wem du aufgenommen worden.</p>
+            <p>FALK. Das weiß ich allerdings; aber das würde so viel nicht sagen wollen.</p>
+            <p>ERNST. Nicht?</p>
+            <p>FALK. Wer nimmt nicht auf, und wer wird nicht aufgenommen!</p>
+            <p>
+               <pb n="453" facs="#f0003"/>
+ERNST. Erkläre dich.</p>
+            <p>FALK. Ich glaube ein Freimäurer zu sein; nicht so wohl, weil ich von älteren Maurern in einer gesetzlichen Loge aufgenommen worden: sondern weil ich einsehe und erkenne, was und warum die Freimäurerei ist, wenn und wo sie gewesen, wie und wodurch sie befördert oder gehindert wird.</p>
+            <p>ERNST. Und drückst dich gleichwohl so zweifelhaft aus? – <hi rendition="#i">Ich glaube einer zu sein!</hi>
+            </p>
+            <p>FALK. Dieses Ausdrucks bin ich nun so gewohnt. Nicht zwar, als ob ich Mangel an eigner Überzeugung hätte: sondern weil ich nicht gern mich jemanden gerade in den Weg stellen mag.</p>
+            <p>ERNST. Du antwortest mir als einem Fremden.</p>
+            <p>FALK. Fremder oder Freund!</p>
+            <p>ERNST. Du bist aufgenommen, du weißt alles – –</p>
+            <p>FALK. Andere sind auch aufgenommen, und glauben zu wissen.</p>
+            <p>ERNST. Könntest du denn aufgenommen sein, ohne zu wissen, was du weißt?</p>
+            <p>FALK. Leider!</p>
+            <p>ERNST. Wie so?</p>
+            <p>FALK. Weil viele, welche aufnehmen, es selbst nicht wissen; die wenigen aber, die es wissen, es nicht sagen <hi rendition="#i">können.</hi>
+            </p>
+            <p>ERNST. Und könntest du denn wissen, was du weißt, ohne aufgenommen zu sein?</p>
+            <p>FALK. Warum nicht? – Die Freimäurerei ist nichts willkürliches, nichts entbehrliches: sondern etwas notwendiges, das in dem Wesen des Menschen und der bürgerlichen Gesellschaft gegründet ist. Folglich muß man auch durch eignes Nachdenken eben so wohl darauf verfallen können, als man durch Anleitung darauf geführet wird.</p>
+            <p>ERNST. Die Freimäurerei wäre nichts Willkürliches? – Hat sie nicht Worte und Zeichen und Gebräuche, welche alle anders sein könnten, und folglich willkürlich sind?</p>
+            <p>FALK. Das hat sie. Aber diese Worte und diese Zeichen und diese Gebräuche, sind nicht die Freimäurerei.</p>
+            <p>ERNST. Die Freimäurerei wäre nichts Entbehrliches? – Wie machten es denn die Menschen, als die Freimäurerei noch nicht war?</p>
+            <p>FALK. Die Freimäurerei war immer.</p>
+            <p>
+               <pb n="454" facs="#f0004"/>
+ERNST. Nun was ist sie denn, diese notwendige, diese unentbehrliche Freimäurerei?</p>
+            <p>FALK. Wie ich dir schon zu verstehen gegeben: – Etwas, das selbst die, die es wissen, nicht sagen können.</p>
+            <p>ERNST. Also ein Unding.</p>
+            <p>FALK. Übereile dich nicht.</p>
+            <p>ERNST. Wovon ich einen Begriff habe, das kann ich auch mit Worten ausdrücken.</p>
+            <p>FALK. Nicht immer; und oft wenigstens nicht so, daß andre durch die Worte vollkommen eben denselben Begriff bekommen, den ich dabei habe.</p>
+            <p>ERNST. Wenn nicht vollkommen eben denselben, doch einen etwanigen.</p>
+            <p>FALK. Der etwanige Begriff wäre hier unnütz oder gefährlich. Unnütz, wenn er nicht genug; und gefährlich, wenn er das geringste zu viel enthielte.</p>
+            <p>ERNST. Sonderbar! – Da also selbst die Freimäurer, welche das Geheimnis ihres Ordens wissen, es nicht wörtlich mitteilen können, wie breiten sie denn gleichwohl ihren Orden aus?</p>
+            <p>FALK. Durch Taten. – Sie lassen gute Männer und Jünglinge, die sie ihres nähern Umgangs würdigen, ihre Taten vermuten, erraten, – sehen, so weit sie zu sehen sind; diese finden Geschmack daran, und tun ähnliche Taten.</p>
+            <p>ERNST. Taten? Taten der Freimäurer? – Ich kenne keine andere, als ihre Reden und Lieder, die meistenteils schöner gedruckt, als gedacht und gesagt sind.</p>
+            <p>FALK. Das haben sie mit mehrern Reden und Liedern gemein.</p>
+            <p>ERNST. Oder soll ich das für ihre Taten nehmen, was sie in diesen Reden und Liedern von sich rühmen?</p>
+            <p>FALK. Wenn sie es nicht bloß von sich rühmen.</p>
+            <p>ERNST. Und was rühmen sie denn von sich? – Lauter Dinge, die man von jedem guten Menschen, von jedem rechtschaffnen Bürger erwartet. – Sie sind so freundschaftlich, so guttätig, so gehorsam, so voller VaterlandsLiebe!</p>
+            <p>FALK. Ist denn das nichts?</p>
+            <p>ERNST. Nichts! – um sich dadurch von andern Menschen auszusondern. – Wer soll das nicht sein?</p>
+            <p>FALK. Soll!</p>
+            <p>
+               <pb n="455" facs="#f0005"/>
+ERNST. Wer hat, dieses zu sein, nicht, auch außer der Freimäurerei, Antrieb und Gelegenheit genug?</p>
+            <p>FALK. Aber doch in ihr, und durch sie, einen Antrieb mehr.</p>
+            <p>ERNST. Sage mir nichts von der Menge der Antriebe. Lieber einem einzigen Antriebe alle mögliche intensive Kraft gegeben! – Die Menge solcher Antriebe ist wie die Menge der Räder in einer Maschine. Je mehr Räder: desto wandelbarer.</p>
+            <p>FALK. Ich kann dir das nicht widersprechen.</p>
+            <p>ERNST. Und was für einen Antrieb mehr! – Der alle andre Antriebe verkleinert, verdächtig macht! sich selbst für den stärksten und besten ausgibt!</p>
+            <p>FALK. Freund, sei billig! – Hyperbel, Quidproquo jener schalen Reden und Lieder! Probewerk! Jüngerarbeit!</p>
+            <p>ERNST. Das will sagen: Bruder Redner ist ein Schwätzer.</p>
+            <p>FALK. Das will nur sagen: was Bruder Redner an den Freimäurern preiset, das sind nun freilich ihre Taten eben nicht. Denn Bruder Redner ist wenigstens kein Plauderer; und Taten sprechen von selbst.</p>
+            <p>ERNST. Ja, nun merke ich worauf du zielest. Wie konnten sie mir nicht gleich einfallen diese Taten, diese sprechende Taten. Fast möchte ich sie schreiende nennen. Nicht genug, daß sich die Freimäurer einer den andern unterstützen, auf das kräftigste unterstützen: denn das wäre nur die notwendige Eigenschaft einer jeden Bande. Was tun sie nicht für das gesamte Publikum eines jeden Staats, dessen Glieder sie sind!</p>
+            <p>FALK. Zum Exempel? – Damit ich doch höre, ob du auf der rechten Spur bist.</p>
+            <p>ERNST. Z.E. die Freimäurer in Stockholm! – Haben sie nicht ein großes Findelhaus errichtet?</p>
+            <p>FALK. Wenn die Freimäurer in Stockholm sich nur auch bei einer andern Gelegenheit tätig erwiesen haben.</p>
+            <p>ERNST. Bei welcher andern?</p>
+            <p>FALK. Bei sonst andern; meine ich.</p>
+            <p>ERNST. Und die Freimäurer in Dresden! die arme junge Mädchen mit Arbeit beschäftigen, sie klöppeln und stücken lassen, – damit das Findelhaus nur kleiner sein dürfe.</p>
+            <p>FALK. Ernst! Du weißt wohl, wenn ich dich deines Namens erinnere.</p>
+            <p>
+               <pb n="456" facs="#f0006"/>
+ERNST. Ohne alle Glossen dann. – Und die Freimäurer in Braunschweig! die arme fähige Knaben im Zeichnen unterrichten lassen.</p>
+            <p>FALK. Warum nicht?</p>
+            <p>ERNST. Und die Freimäurer in Berlin! die das Basedowsche Philanthropin unterstützen.</p>
+            <p>FALK. Was sagst du? – Die Freimäurer? Das Philanthropin? unterstützen? – Wer hat dir das aufgebunden?</p>
+            <p>ERNST. Die Zeitung hat es ausposaunet.</p>
+            <p>FALK. Die Zeitung! – Da müßte ich Basedows eigenhändige Quittung sehen. Und müßte gewiß sein, daß die Quittung nicht an Freimäurer in Berlin, sondern an die Freimäurer gerichtet wäre.</p>
+            <p>ERNST. Was ist das? – Billigest du denn Basedows Institut nicht?</p>
+            <p>FALK. Ich nicht? Wer kann es mehr billigen?</p>
+            <p>ERNST. So wirst du ihm ja diese Unterstützung nicht mißgönnen?</p>
+            <p>FALK. Mißgönnen? – Wer kann ihm alles Gute mehr gönnen, als Ich?</p>
+            <p>ERNST. Nun dann! – Du wirst mir unbegreiflich.</p>
+            <p>FALK. Ich glaube wohl. Dazu habe ich Unrecht. – Denn auch die Freimäurer können etwas tun, was sie nicht als Freimäurer tun.</p>
+            <p>ERNST. Und soll das von allen auch ihren übrigen guten Taten gelten?</p>
+            <p>FALK. Vielleicht! – Vielleicht, daß alle die guten Taten, die du mir da genannt hast, um mich eines scholastischen Ausdruckes, der Kürze wegen zu bedienen, nur ihre Taten ad extra sind.</p>
+            <p>ERNST. Wie meinst du das?</p>
+            <p>FALK. Nur ihre Taten, die dem Volke in die Augen fallen; – nur Taten, die sie bloß deswegen tun, damit sie dem Volk in die Augen fallen sollen.</p>
+            <p>ERNST. Um Achtung und Duldung zu genießen?</p>
+            <p>FALK. Könnte wohl sein.</p>
+            <p>ERNST. Aber ihre wahre Taten denn? – Du schweigst?</p>
+            <p>FALK. Wenn ich dir nicht schon geantwortet hätte? – Ihre wahre Taten sind ihr Geheimnis.</p>
+            <p>ERNST. Ha! ha! Also auch nicht erklärbar durch Worte?</p>
+            <p>FALK. Nicht wohl! – Nur so viel kann und darf ich dir sagen: die <pb n="457" facs="#f0007"/>
+wahren Taten der Freimäurer sind so groß, so weit aussehend, daß ganze Jahrhunderte vergehen können, ehe man sagen kann: das haben sie getan! Gleichwohl haben sie alles Gute getan, was noch in der Welt ist, – merke wohl: in der<hi rendition="#i"> Welt!</hi> – Und fahren fort, an alle dem Guten zu arbeiten, was noch in der Welt werden wird, – merke wohl, in der <hi rendition="#i">Welt.</hi>
+            </p>
+            <p>ERNST. O geh! Du hast mich zum besten.</p>
+            <p>FALK. Wahrlich nicht. – Aber sieh! dort fliegt ein Schmetterling, den ich haben muß. Es ist der von der Wolfmilchsraupe.- Geschwind sage ich dir nur noch: die wahren Taten der Freimäurer zielen dahin, um größten Teils alles, was man gemeiniglich gute Taten zu nennen pflegt, entbehrlich zu machen.</p>
+            <p>ERNST. Und sind doch auch gute Taten?</p>
+            <p>FALK. Es kann keine bessere geben. – Denke einen Augenblick darüber nach. Ich bin gleich wieder bei dir.</p>
+            <p>ERNST. Gute Taten, welche darauf zielen, gute Taten entbehrlich zu machen? – Das ist ein Rätsel. Und über ein Rätsel denke ich nicht nach. – Lieber lege ich mich indes unter den Baum, und sehe den Ameisen zu.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e139890" type="chapter">
+            <head>Zweites Gespräch</head>
+            <p>ERNST. Nun? wo bleibst du denn? Und hast den Schmetterling doch nicht?</p>
+            <p>FALK. Er lockte mich von Strauch zu Strauch, bis an den Bach. Auf einmal war er herüber.</p>
+            <p>ERNST. Ja, ja. Es gibt solche Locker!</p>
+            <p>FALK. Hast du nachgedacht?</p>
+            <p>ERNST. Über was? Über dein Rätsel? – Ich werde ihn auch nicht fangen, den schönen Schmetterling! Darum soll er mir aber auch weiter keine Mühe machen. – Einmal von der Freimäurerei mit dir gesprochen, und nie wieder. Denn ich sehe ja wohl; du bist, wie sie alle.</p>
+            <p>FALK. Wie sie alle? Das sagen diese alle nicht.</p>
+            <p>ERNST. Nicht? So gibt es ja wohl auch Ketzer unter den Freimäurern? <pb n="458" facs="#f0008"/>
+Und du wärest einer. – Doch alle Ketzer haben mit den Rechtgläubigen immer noch etwas gemein. Und davon sprach ich.</p>
+            <p>FALK. Wovon sprachst du?</p>
+            <p>ERNST. Rechtgläubige oder Ketzerische Freimäurer – sie alle spielen mit Worten, und lassen sich fragen, und antworten ohne zu antworten.</p>
+            <p>FALK. Meinst du? – Nun wohl, so laß uns von etwas andern reden. Denn einmal hast du mich aus dem behäglichen Zustande des stummen Staunens gerissen –</p>
+            <p>ERNST. Nichts ist leichter, als dich in diesen Zustand wieder zu versetzen – Laß dich nur hier bei mir nieder, und sieh!</p>
+            <p>FALK. Was denn?</p>
+            <p>ERNST. Das Leben und Weben auf und in und um diesen Ameisenhaufen. Welche Geschäftigkeit, und doch welche Ordnung! Alles trägt und schleppt und schiebt; und keines ist dem andern hinderlich. Sieh nur! Sie helfen einander sogar.</p>
+            <p>FALK. Die Ameisen leben in Gesellschaft, wie die Bienen.</p>
+            <p>ERNST. Und in einer noch wunderbarern Gesellschaft als die Bienen. Denn sie haben niemand unter sich, der sie zusammen hält und regieret.</p>
+            <p>FALK. Ordnung muß also doch auch ohne Regierung bestehen können.</p>
+            <p>ERNST. Wenn jedes einzelne sich selbst zu regieren weiß: warum nicht?</p>
+            <p>FALK. Ob es wohl auch einmal mit den Menschen dahin kommen wird?</p>
+            <p>ERNST. Wohl schwerlich!</p>
+            <p>FALK. Schade!</p>
+            <p>ERNST. Ja wohl!</p>
+            <p>FALK. Steh auf, und laß uns gehen. Denn sie werden dich bekriechen die Ameisen; und eben fällt auch mir etwas bei, was ich bei dieser Gelegenheit dich doch fragen muß. – Ich kenne deine Gesinnungen darüber noch gar nicht.</p>
+            <p>ERNST. Worüber?</p>
+            <p>FALK. Über die bürgerliche Gesellschaft des Menschen überhaupt. – Wofür hältst du sie?</p>
+            <p>ERNST. Für etwas sehr Gutes.</p>
+            <p>
+               <pb n="459" facs="#f0009"/>
+FALK. Ohnstreitig. – Aber hältst du sie für Zweck, oder für Mittel?</p>
+            <p>ERNST. Ich verstehe dich nicht.</p>
+            <p>FALK. Glaubst du, daß die Menschen für die Staaten erschaffen werden? Oder daß die Staaten für die Menschen sind?</p>
+            <p>ERNST. Jenes scheinen einige behaupten zu wollen. Dieses aber mag wohl das Wahrere sein.</p>
+            <p>FALK. So denke ich auch. – Die Staaten vereinigen die Menschen, damit durch diese und in dieser Vereinigung jeder einzelne Mensch seinen Teil von Glückseligkeit desto besser und sichrer genießen könne. – Das Totale der einzeln Glückseligkeiten aller Glieder, ist die Glückseligkeit des Staats. Außer dieser gibt es gar keine. Jede andere Glückseligkeit des Staats, bei welcher auch noch so wenig einzelne Glieder leiden, und leiden <hi rendition="#i">müssen,</hi> ist Bemäntelung der Tyrannei. Anders nichts!</p>
+            <p>ERNST. Ich möchte das nicht so laut sagen.</p>
+            <p>FALK. Warum nicht?</p>
+            <p>ERNST. Eine Wahrheit, die jeder nach seiner eignen Lage beurteilet, kann leicht gemißbraucht werden.</p>
+            <p>FALK. Weißt du, Freund, daß du schon ein halber Freimäurer bist?</p>
+            <p>ERNST. Ich?</p>
+            <p>FALK. Du. Denn du erkennst ja schon Wahrheiten, die man besser verschweigt.</p>
+            <p>ERNST. Aber doch sagen <hi rendition="#i">könnte.</hi>
+            </p>
+            <p>FALK. Der Weise <hi rendition="#i">kann</hi> nicht sagen, was er besser verschweigt.</p>
+            <p>ERNST. Nun, wie du willst! – Laß uns auf die Freimäurer nicht wieder zurück kommen. Ich mag ja von ihnen weiter nichts wissen.</p>
+            <p>FALK. Verzeih! – Du siehst wenigstens meine Bereitwilligkeit, dir mehr von ihnen zu sagen.</p>
+            <p>ERNST. Du spottest. – – Gut! das bürgerliche Leben des Menschen, alle Staatsverfassungen sind nichts als Mittel zur menschlichen Glückseligkeit. Was weiter?</p>
+            <p>FALK. Nichts als Mittel! Und Mittel menschlicher Erfindung; ob ich gleich nicht leugnen will, daß die Natur alles so eingerichtet, daß der Mensch sehr bald auf diese Erfindung geraten müssen.</p>
+            <p>
+               <pb n="460" facs="#f0010"/>
+ERNST. Dieses hat denn auch wohl gemacht, daß einige die bürgerliche Gesellschaft für Zweck der Natur gehalten. Weil alles, unsere Leidenschaften und unsere Bedürfnisse, alles darauf führe, sei sie folglich das Letzte, worauf die Natur gehe. So schlossen sie. Als ob die Natur nicht auch die Mittel zweckmäßig hervorbringen müssen! Als ob die Natur mehr die Glückseligkeit eines abgezogenen Begriffs – wie Staat, Vaterland und dergleichen sind – als die Glückseligkeit jedes wirklichen einzeln Wesens zur Absicht gehabt hätte!</p>
+            <p>FALK. Sehr gut! Du kömmst mir auf dem rechten Wege entgegen. Denn nun sage mir; wenn die Staatsverfassungen Mittel, Mittel menschlicher Erfindungen sind: sollten sie allein von dem Schicksale menschlicher Mittel ausgenommen sein?</p>
+            <p>ERNST. Was nennst du Schicksale menschlicher Mittel?</p>
+            <p>FALK. Das, was unzertrennlich mit menschlichen Mitteln verbunden ist; was sie von göttlichen unfehlbaren Mitteln unterscheidet.</p>
+            <p>ERNST. Was ist das?</p>
+            <p>FALK. Daß sie nicht unfehlbar sind. Daß sie ihrer Absicht nicht allein öfters nicht entsprechen, sondern auch wohl gerade das Gegenteil davon bewirken.</p>
+            <p>ERNST. Ein Beispiel! wenn dir eines einfällt.</p>
+            <p>FALK. So sind Schiffahrt und Schiffe Mittel in entlegene Länder zu kommen; und werden Ursache, daß viele Menschen nimmermehr dahin gelangen.</p>
+            <p>ERNST. Die nämlich Schiffbruch leiden, und ersaufen. Nun glaube ich dich zu verstehen. – Aber man weiß ja wohl, woher es kömmt, wenn so viel einzelne Menschen durch die Staatsverfassung an ihrer Glückseligkeit nichts gewinnen. Der Staatsverfassungen sind viele; eine ist also besser als die andere; manche ist sehr fehlerhaft, mit ihrer Absicht offenbar streitend; und die beste soll vielleicht noch erfunden werden.</p>
+            <p>FALK. Das ungerechnet! Setze die beste Staatsverfassung, die sich nur denken läßt, schon erfunden; setze, daß alle Menschen in der ganzen Welt diese beste Staatsverfassung angenommen haben: meinst du nicht, daß auch dann noch, selbst aus dieser besten Staatsverfassung, Dinge entspringen müssen, welche der menschlichen Glückseligkeit höchst nachteilig sind, und <pb n="461" facs="#f0011"/>
+wovon der Mensch in dem Stande der Natur schlechterdings nichts gewußt hätte?</p>
+            <p>ERNST. Ich meine: wenn dergleichen Dinge aus der besten Staatsverfassung entsprängen, daß es sodann die beste Staatsverfassung nicht wäre.</p>
+            <p>FALK. Und eine bessere möglich wäre? – Nun, so nehme ich diese Bessere als die <hi rendition="#i">Beste</hi> an: und frage das Nämliche.</p>
+            <p>ERNST. Du scheinest mir hier bloß von vorne herein aus dem angenommenen Begriffe zu vernünfteln, daß jedes Mittel menschlicher Erfindung, wofür du die Staatsverfassungen samt und sonders erklärest, nicht anders als mangelhaft sein könne.</p>
+            <p>FALK. Nicht bloß.</p>
+            <p>ERNST. Und es würde dir schwer werden, eins von jenen nachteiligen Dingen zu nennen –</p>
+            <p>FALK. Die auch aus der besten Staatsverfassung notwendig entspringen müssen? – O zehne für eines.</p>
+            <p>ERNST. Nur eines erst.</p>
+            <p>FALK. Wir nehmen also die beste Staatsverfassung für erfunden an; wir nehmen an, daß alle Menschen in der Welt in dieser besten Staatsverfassung leben: würden deswegen alle Menschen in der Welt, nur einen Staat ausmachen?</p>
+            <p>ERNST. Wohl schwerlich. Ein so ungeheurer Staat würde keiner Verwaltung fähig sein. Er müßte sich also in mehrere kleine Staaten verteilen, die alle nach den nämlichen Gesetzen verwaltet würden.</p>
+            <p>FALK. Das ist: die Menschen würden auch dann noch Deutsche und Franzosen, Holländer und Spanier, Russen und Schweden sein; oder wie sie sonst heißen würden.</p>
+            <p>ERNST. Ganz gewiß!</p>
+            <p>FALK. Nun da haben wir ja schon Eines. Denn nicht wahr, jeder dieser kleinern Staaten hätte sein eignes Interesse? und jedes Glied derselben hätte das Interesse seines Staats?</p>
+            <p>ERNST. Wie anders?</p>
+            <p>FALK. Diese verschiedene Interesse würden öfters in Kollision kommen, so wie itzt: und zwei Glieder aus zwei verschiedenen Staaten würden einander eben so wenig mit unbefangenem Gemüt begegnen können, als itzt ein Deutscher einem Franzosen, ein Franzose einem Engländer begegnet.</p>
+            <p>
+               <pb n="462" facs="#f0012"/>
+ERNST. Sehr wahrscheinlich!</p>
+            <p>FALK. Das ist: wenn itzt ein Deutscher einem Franzosen, ein Franzose einem Engländer, oder umgekehrt, begegnet, so begegnet nicht mehr ein <hi rendition="#i">bloßer</hi> Mensch einem <hi rendition="#i">bloßen</hi> Menschen, die vermöge ihrer gleichen Natur gegen einander angezogen werden, sondern ein <hi rendition="#i">solcher</hi> Mensch begegnet einem <hi rendition="#i">solchen</hi> Menschen, die ihrer verschiednen Tendenz sich bewußt sind, welches sie gegen einander kalt, zurückhaltend, mißtrauisch macht, noch ehe sie für ihre einzelne Person das geringste mit einander zu schaffen und zu teilen haben.</p>
+            <p>ERNST. Das ist leider wahr.</p>
+            <p>FALK. Nun so ist es denn auch wahr, daß das Mittel, welches die Menschen vereiniget, um sie durch diese Vereinigung ihres Glückes zu versichern, die Menschen zugleich trennet.</p>
+            <p>ERNST. Wenn du es so verstehest.</p>
+            <p>FALK. Tritt einen Schritt weiter. Viele von den kleinern Staaten würden ein ganz verschiedenes Klima, folglich ganz verschiedene Bedürfnisse und Befriedigungen, folglich ganz verschiedene Gewohnheiten und Sitten, folglich ganz verschiedene Sittenlehren, folglich ganz verschiedene Religionen haben. Meinst du nicht?</p>
+            <p>ERNST. Das ist ein gewaltiger Schritt!</p>
+            <p>FALK. Die Menschen würden auch dann noch Juden und Christen und Türken und dergleichen sein.</p>
+            <p>ERNST. Ich getraue mir nicht, Nein zu sagen.</p>
+            <p>FALK. Würden sie das; so würden sie auch, sie möchten heißen, wie sie wollten, sich unter einander nicht anders verhalten, als sich unsere Christen und Juden und Türken von je her unter einander verhalten haben. Nicht als <hi rendition="#i">bloße</hi> Menschen gegen<hi rendition="#i"> bloße</hi> Menschen; sondern als <hi rendition="#i">solche</hi> Menschen gegen <hi rendition="#i">solche</hi> Menschen, die sich einen gewissen geistigen Vorzug streitig machen, und darauf Rechte gründen, die dem natürlichen Menschen nimmermehr einfallen könnten.</p>
+            <p>ERNST. Das ist sehr traurig; aber leider doch sehr vermutlich.</p>
+            <p>FALK. Nur vermutlich?</p>
+            <p>ERNST. Denn allenfalls dächte ich doch, so wie du angenommen hast, daß alle Staaten einerlei Verfassung hätten, daß sie auch wohl alle einerlei Religion haben könnten. Ja ich begreife <pb n="463" facs="#f0013"/>
+nicht, wie einerlei Staatsverfassung ohne einerlei Religion auch nur möglich ist.</p>
+            <p>FALK. Ich eben so wenig. – Auch nahm ich jenes nur an, um deine Ausflucht abzuschneiden. Eines ist zuverlässig eben so unmöglich, als das andere. Ein Staat: mehrere Staaten. Mehrere Staaten: mehrere Staatsverfassungen. Mehrere Staatsverfassungen: mehrere Religionen.</p>
+            <p>ERNST. Ja, ja: so scheint es.</p>
+            <p>FALK. So ist es. – Nun sieh da das zweite Unheil, welches die bürgerliche Gesellschaft, ganz ihrer Absicht entgegen, verursacht. Sie kann die Menschen nicht vereinigen, ohne sie zu trennen; nicht trennen, ohne Klüfte zwischen ihnen zu befestigen, ohne Scheidemauern durch sie hin zu ziehen.</p>
+            <p>ERNST. Und wie schrecklich diese Klüfte sind! wie unübersteiglich oft diese Scheidemauern!</p>
+            <p>FALK. Laß mich noch das dritte hinzufügen. – Nicht genug, daß die bürgerliche Gesellschaft die Menschen in verschiedene Völker und Religionen teilet und trennet. – Diese Trennung in wenige große Teile, deren jeder für sich ein Ganzes wäre, wäre doch immer noch besser, als gar kein Ganzes. – Nein; die bürgerliche Gesellschaft setzt ihre Trennung auch in jedem dieser Teile gleichsam bis ins Unendliche fort.</p>
+            <p>ERNST. Wie so?</p>
+            <p>FALK. Oder meinest du, daß ein Staat sich ohne Verschiedenheit von Ständen denken läßt? Er sei gut oder schlecht, der Vollkommenheit mehr oder weniger nahe: unmöglich können alle Glieder desselben unter sich das nämliche Verhältnis haben.- Wenn sie auch alle an der Gesetzgebung Anteil haben: so können sie doch nicht gleichen Anteil haben, wenigstens nicht gleich unmittelbaren Anteil. Es wird also vornehmere und geringere Glieder geben. – Wenn Anfangs auch alle Besitzungen des Staats unter sie gleich verteilet worden: so kann diese gleiche Verteilung doch keine zwei Menschenalter bestehen. Einer wird sein Eigentum besser zu nutzen wissen, als der andere. Einer wird sein schlechter genutztes Eigentum gleichwohl unter mehrere Nachkommen zu verteilen haben, als der andere. Es wird also reichere und ärmere Glieder geben.</p>
+            <p>ERNST. Das versteht sich.</p>
+            <p>
+               <pb n="464" facs="#f0014"/>
+FALK. Nun überlege, wie viel Übel es in der Welt wohl gibt, das in dieser Verschiedenheit der Stände seinen Grund nicht hat.</p>
+            <p>ERNST. Wenn ich dir doch widersprechen könnte! – Aber was hatte ich für Ursache, dir überhaupt zu widersprechen? – Nun ja, die Menschen sind nur durch Trennung zu vereinigen! nur durch unaufhörliche Trennung in Vereinigung zu erhalten! Das ist nun einmal so. Das kann nun nicht anders sein.</p>
+            <p>FALK. Das sage ich eben!</p>
+            <p>ERNST. Also, was willst du damit? Mir das bürgerliche Leben dadurch verleiden? Mich wünschen machen, daß den Menschen der Gedanke, sich in Staaten zu vereinigen, nie möge gekommen sein?</p>
+            <p>FALK. Verkennst du mich so weit? – Wenn die bürgerliche Gesellschaft auch nur das Gute hätte, daß allein in ihr die menschliche Vernunft angebauet werden kann: ich würde sie auch bei weit größern Übeln noch segnen.</p>
+            <p>ERNST. Wer des Feuers genießen will, sagt das Sprichwort, muß sich den Rauch gefallen lassen.</p>
+            <p>FALK. Allerdings! – Aber weil der Rauch bei dem Feuer unvermeidlich ist: durfte man darum keinen Rauchfang erfinden? Und der den Rauchfang erfand, war der darum ein Feind des Feuers? – Sieh, dahin wollte ich.</p>
+            <p>ERNST. Wohin? – Ich verstehe dich nicht.</p>
+            <p>FALK. Das Gleichnis war doch sehr passend. – – Wenn die Menschen nicht anders in Staaten vereiniget werden konnten, als durch jene Trennungen: werden sie darum gut, jene Trennungen?</p>
+            <p>ERNST. Das wohl nicht.</p>
+            <p>FALK. Werden sie darum heilig, jene Trennungen?</p>
+            <p>ERNST. Wie heilig?</p>
+            <p>FALK. Daß es verboten sein sollte, Hand an sie zu legen?</p>
+            <p>ERNST. In Absicht? ...</p>
+            <p>FALK. In Absicht, sie nicht größer einreißen zu lassen, als die Notwendigkeit erfodert. In Absicht, ihre Folgen so unschädlich zu machen, als möglich.</p>
+            <p>ERNST. Wie könnte das verboten sein?</p>
+            <p>FALK. Aber geboten kann es doch auch nicht sein; durch bürgerliche Gesetze nicht geboten! Denn bürgerliche Gesetze erstrecken <pb n="465" facs="#f0015"/>
+sich nie über die Grenzen ihres Staats. Und dieses würde nun gerade außer den Grenzen aller und jeder Staaten liegen. – Folglich kann es nur ein Opus supererogatum sein: und es wäre bloß zu wünschen, daß sich die Weisesten und Besten eines jeden Staats diesem Operi supererogato freiwillig unterzögen.</p>
+            <p>ERNST. Bloß zu wünschen; aber recht sehr zu wünschen.</p>
+            <p>FALK. Ich dächte! Recht sehr zu wünschen, daß es in jedem Staate Männer geben möchte, die über die Vorurteile der Völkerschaft hinweg wären, und genau wüßten, wo Patriotismus, Tugend zu sein aufhöret.</p>
+            <p>ERNST. Recht sehr zu wünschen!</p>
+            <p>FALK. Recht sehr zu wünschen, daß es in jedem Staate Männer geben möchte, die dem Vorurteile ihrer angebornen Religion nicht unterlägen; nicht glaubten, daß alles notwendig gut und wahr sein müsse, was sie für gut und wahr erkennen.</p>
+            <p>ERNST. Recht sehr zu wünschen!</p>
+            <p>FALK. Recht sehr zu wünschen, daß es in jedem Staate Männer geben möchte, welche bürgerliche Hoheit nicht blendet, und bürgerliche Geringfügigkeit nicht ekelt; in deren Gesellschaft der Hohe sich gern herabläßt, und der Geringe sich dreist erhebet.</p>
+            <p>ERNST. Recht sehr zu wünschen!</p>
+            <p>FALK. Und wenn er erfüllt wäre, dieser Wunsch?</p>
+            <p>ERNST. Erfüllt? – Es wird freilich hier und da, dann und wann, einen solchen Mann geben.</p>
+            <p>FALK. Nicht bloß hier und da; nicht bloß dann und wann.</p>
+            <p>ERNST. Zu gewissen Zeiten, in gewissen Ländern auch mehrere.</p>
+            <p>FALK. Wie, wenn es dergleichen Männer itzt überall gäbe? zu allen Zeiten nun ferner geben müßte?</p>
+            <p>ERNST. Wollte Gott!</p>
+            <p>FALK. Und diese Männer nicht in einer unwirksamen Zerstreuung lebten? nicht immer in einer unsichtbaren Kirche?</p>
+            <p>ERNST. Schöner Traum!</p>
+            <p>FALK. Daß ich es kurz mache. – Und diese Männer die Freimäurer wären?</p>
+            <p>ERNST. Was sagst du?</p>
+            <p>FALK. Wie, wenn es die Freimäurer wären, die sich<hi rendition="#i"> mit</hi> zu ihrem <pb n="466" facs="#f0016"/>
+Geschäfte gemacht hätten, jene Trennungen, wodurch die Menschen einander so fremd werden, so eng als möglich wieder zusammen zu ziehen?</p>
+            <p>ERNST. Die Freimäurer?</p>
+            <p>FALK. Ich sage: <hi rendition="#i">mit</hi> zu ihrem Geschäfte.</p>
+            <p>ERNST. Die Freimäurer?</p>
+            <p>FALK. Ach! verzeih! – Ich hatt es schon wieder vergessen, daß du von den Freimäurern weiter nichts hören willst – Dort winkt man uns eben zum Frühstücke. Komm!</p>
+            <p>ERNST. Nicht doch! – Noch einen Augenblick! – Die Freimäurer, sagst du –</p>
+            <p>FALK. Das Gespräch brachte mich wider Willen auf sie zurück. Verzeih! – Komm! Dort, in der größern Gesellschaft, werden wir bald Stoff zu einer tauglichern Unterredung finden. Komm!</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e140361" type="chapter">
+            <head>Drittes Gespräch</head>
+            <p>ERNST. Du bist mir den ganzen Tag im Gedränge der Gesellschaft ausgewichen. Aber ich verfolge dich in dein Schlafzimmer.</p>
+            <p>FALK. Hast du mir so etwas wichtiges zu sagen? Der bloßen Unterhaltung bin ich auf heute müde.</p>
+            <p>ERNST. Du spottest meiner Neugierde.</p>
+            <p>FALK. Deiner Neugierde?</p>
+            <p>ERNST. Die du diesen Morgen so meisterhaft zu erregen wußtest.</p>
+            <p>FALK. Wovon sprachen wir diesen Morgen?</p>
+            <p>ERNST. Von den Freimäurern.</p>
+            <p>FALK. Nun? – Ich habe dir im Rausche des Pyrmonter doch nicht das Geheimnis verraten?</p>
+            <p>ERNST. Das man, wie du sagst, gar nicht verraten kann.</p>
+            <p>FALK. Nun freilich; das beruhigt mich wieder.</p>
+            <p>ERNST. Aber du hast mir doch über die Freimäurer etwas gesagt, das mir unerwartet war; das mir auffiel; das mich denken machte.</p>
+            <p>FALK. Und was war das?</p>
+            <p>ERNST. O quäle mich nicht! – Du erinnerst dich dessen gewiß.</p>
+            <p>FALK. Ja; es fällt mir nach und nach wieder ein. – Und das war es, was dich den ganzen langen Tag unter deinen Freunden und Freundinnen so abwesend machte?</p>
+            <p>
+               <pb n="467" facs="#f0017"/>
+ERNST. Das war es! – Und ich kann nicht einschlafen, wenn du mir wenigstens nicht noch eine Frage beantwortest.</p>
+            <p>FALK. Nach dem die Frage sein wird.</p>
+            <p>ERNST. Woher kannst du mir aber beweisen, wenigstens nur wahrscheinlich machen, daß die Freimäurer wirklich jene große und würdige Absichten haben?</p>
+            <p>FALK. Habe ich dir von ihren Absichten gesprochen? Ich wüßte nicht. – Sondern da du dir gar keinen Begriff von den wahren Taten der Freimäurer machen konntest: habe ich dich bloß auf einen Punkt aufmerksam machen wollen, wo noch so vieles geschehen kann, wovon sich unsere staatsklugen Köpfe gar nichts träumen lassen. – Vielleicht, daß die Freimäurer da herum arbeiten. – Vielleicht! da herum! – Nur um dir dein Vorurteil zu benehmen, daß alle baubedürftige Plätze schon ausgefunden und besetzt, alle nötige Arbeiten schon unter die erforderlichen Hände verteilet wären.</p>
+            <p>ERNST. Wende dich itzt, wie du willst. – Genug, ich denke mir nun aus deinen Reden die Freimäurer als Leute, die es freiwillig über sich genommen haben, den unvermeidlichen Übeln des Staats entgegen zu arbeiten.</p>
+            <p>FALK. Dieser Begriff kann den Freimäurern wenigstens keine Schande machen. – Bleib dabei! – Nur fasse ihn recht. Menge nichts hinein, was nicht hinein gehöret. – Den unvermeidlichen Übeln des Staats! – Nicht dieses und jenes Staats. Nicht den unvermeidlichen Übeln, welche, eine gewisse Staatsverfassung einmal angenommen, aus dieser angenommenen Staatsverfassung nun notwendig folgen. Mit diesen gibt sich der Freimäurer niemals ab; wenigstens nicht als Freimäurer. Die Linderung und Heilung dieser überläßt er dem Bürger, der sich nach seiner Einsicht, nach seinem Mute, auf seine Gefahr damit befassen mag. Übel ganz andrer Art, ganz höherer Art, sind der Gegenstand seiner Wirksamkeit.</p>
+            <p>ERNST. Ich habe das sehr wohl begriffen. – Nicht Übel, welche den mißvergnügten Bürger machen, sondern Übel, ohne welche auch der glücklichste Bürger nicht sein kann.</p>
+            <p>FALK. Recht! Diesen entgegen – wie sagtest du? – entgegen zu arbeiten?</p>
+            <p>ERNST. Ja!</p>
+            <p>
+               <pb n="468" facs="#f0018"/>
+FALK. Das Wort sagt ein wenig viel. – Entgegenarbeiten! – Um sie völlig zu heben? – Das kann nicht sein. Denn man würde den Staat selbst mit ihnen zugleich vernichten. – Sie müssen nicht einmal denen mit eins merklich gemacht werden, die noch gar keine Empfindung davon haben. Höchstens diese Empfindung in dem Menschen von weiten veranlassen, ihr Aufkeimen begünstigen, ihre Pflanzen versetzen, begäten, beblatten – kann hier entgegen arbeiten heißen. – Begreifst du nun, warum ich sagte, ob die Freimäurer schon immer tätig wären, daß Jahrhunderte dennoch vergehen könnten, ohne daß sich sagen lasse: das haben sie getan.</p>
+            <p>ERNST. Und verstehe auch nun den zweiten Zug des Rätsels – Gute Taten, welche gute Taten entbehrlich machen sollen.</p>
+            <p>FALK. Wohl! – Nun geh, und studiere jene Übel, und lerne sie alle kennen, und wäge alle ihre Einflüsse gegen einander ab, und sei versichert, daß dir dieses Studium Dinge aufschließen wird, die in Tagen der Schwermut die niederschlagendsten, unauflöslichsten Einwürfe wider Vorsehung und Tugend zu sein scheinen. Dieser Aufschluß, diese Erleuchtung wird dich ruhig und glücklich machen; – auch ohne Freimäurer zu <hi rendition="#i">heißen.</hi>
+            </p>
+            <p>ERNST. Du legest auf dieses <hi rendition="#i">heißen</hi> so viel Nachdruck.</p>
+            <p>FALK. Weil man etwas sein kann, ohne es zu heißen.</p>
+            <p>ERNST. Gut das! ich versteh – Aber auf meine Frage wieder zu kommen, die ich nur ein wenig anders einkleiden muß. Da ich sie doch nun kenne, die Übel, gegen welche die Freimäurerei angehet – –</p>
+            <p>FALK. Du kennest sie?</p>
+            <p>ERNST. Hast du mir sie nicht selbst genannt?</p>
+            <p>FALK. Ich habe dir einige zur Probe namhaft gemacht. Nur einige von denen, die auch dem kurzsichtigsten Auge einleuchten: nur einige von den unstreitigsten, weit umfassendsten. – Aber wie viele sind nicht noch übrig, die, ob sie schon nicht so einleuchten, nicht so unstreitig sind, nicht so viel umfassen, dennoch nicht weniger gewiß, nicht weniger notwendig sind!</p>
+            <p>ERNST. So laß mich meine Frage denn bloß auf diejenigen Stücke einschränken, die du mir selbst namhaft gemacht hast. – Wie beweisest du mir auch nur von diesen Stücken, daß die Freimäurer<pb n="469" facs="#f0019"/>
+ wirklich ihr Absehen darauf haben? – Du schweigst? – Du sinnest nach?</p>
+            <p>FALK. Wahrlich nicht dem, was ich auf diese Frage zu antworten hätte! – Aber ich weiß nicht, was ich mir für Ursachen denken soll, warum du mir diese Frage tust?</p>
+            <p>ERNST. Und du willst mir meine Frage beantworten, wenn ich dir die Ursachen derselben sage?</p>
+            <p>FALK. Das verspreche ich dir.</p>
+            <p>ERNST. Ich kenne und fürchte deinen Scharfsinn.</p>
+            <p>FALK. Meinen Scharfsinn?</p>
+            <p>ERNST. Ich fürchte, du verkaufst mir deine Spekulation für Tatsache.</p>
+            <p>FALK. Sehr verbunden.</p>
+            <p>ERNST. Beleidiget dich das?</p>
+            <p>FALK. Vielmehr muß ich dir danken, daß du Scharfsinn nennest, was du ganz anders hättest benennen können.</p>
+            <p>ERNST. Gewiß nicht. Sondern ich weiß, wie leicht der Scharfsinnige sich selbst betriegt; wie leicht er andern Leuten Plane und Absichten leihet und unterlegt, an die sie nie gedacht haben.</p>
+            <p>FALK. Aber woraus schließt man auf der Leute Plane und Absichten? Aus ihren einzeln Handlungen doch wohl?</p>
+            <p>ERNST. Woraus sonst? – Und hier bin ich wieder bei meiner Frage. – Aus welchen einzeln, unstreitigen Handlungen der Freimäurer ist abzunehmen, daß es auch nur mit ihr Zweck ist, jene von dir benannte Trennung, welche Staat und Staaten unter den Menschen notwendig machen müssen, durch sich und in sich wieder zu vereinigen?</p>
+            <p>FALK. Und zwar ohne Nachteil dieses Staats, und dieser Staaten.</p>
+            <p>ERNST. Desto besser! – Es brauchen auch vielleicht nicht Handlungen zu sein, woraus jenes abzunehmen. Wenn es nur gewisse Eigentümlichkeiten, Besonderheiten sind, die dahin leiten, oder daraus entspringen. – Von dergleichen müßtest du sogar in deiner Spekulation ausgegangen sein; gesetzt, daß dein System nur Hypothese wäre.</p>
+            <p>FALK. Dein Mißtrauen äußert sich noch. – Aber ich hoffe, es soll sich verlieren, wenn ich dir ein Grundgesetz der Freimäurer zu Gemüte führe.</p>
+            <p>ERNST. Und welches?</p>
+            <p>
+               <pb n="470" facs="#f0020"/>
+FALK. Aus welchem sie nie ein Geheimnis gemacht haben. Nach welchem sie immer vor den Augen der ganzen Welt gehandelt haben.</p>
+            <p>ERNST. Das ist?</p>
+            <p>FALK. Das ist, jeden würdigen Mann von gehöriger Anlage, ohne Unterschied des Vaterlandes, ohne Unterschied der Religion, ohne Unterschied seines bürgerlichen Standes, in ihren Orden aufzunehmen.</p>
+            <p>ERNST. Wahrhaftig!</p>
+            <p>FALK. Freilich scheint dieses Grundgesetze dergleichen Männer, die über jene Trennungen hinweg sind, vielmehr bereits voraus zu setzen, als die Absicht zu haben, sie zu bilden. Allein das Nitrum muß ja wohl in der Luft sein, ehe es sich als Salpeter an den Wänden anlegt.</p>
+            <p>ERNST. O ja!</p>
+            <p>FALK. Und warum sollten die Freimäurer sich nicht hier einer gewöhnlichen List haben bedienen dürfen? – Daß man einen Teil seiner geheimen Absichten ganz offenbar treibt, um den Argwohn irre zu führen, der immer ganz etwas anders vermutet, als er sieht.</p>
+            <p>ERNST. Warum nicht?</p>
+            <p>FALK. Warum sollte der Künstler, der Silber <hi rendition="#i">machen</hi> kann, nicht mit altem Bruchsilber handeln, damit man so weniger argwohne, daß er es machen kann?</p>
+            <p>ERNST. Warum nicht?</p>
+            <p>FALK. Ernst! – Hörst du mich? – Du antwortest im Traume, glaub ich.</p>
+            <p>ERNST. Nein, Freund! Aber ich habe genug; genug auf diese Nacht. Morgen, mit dem frühsten, kehre ich wieder nach der Stadt.</p>
+            <p>FALK. Schon? Und warum so bald?</p>
+            <p>ERNST. Du kennst mich, und fragst? Wie lange dauert deine Brunnenkur noch?</p>
+            <p>FALK. Ich habe sie vorgestern erst angefangen.</p>
+            <p>ERNST. So sehe ich dich vor dem Ende derselben noch wieder. – Lebe wohl! gute Nacht!</p>
+            <p>FALK. Gute Nacht! lebe wohl!</p>
+            <p>
+               <pb n="471" facs="#f0021"/>
+Zur Nachricht</p>
+            <p>Der Funke hatte gezündet: Ernst ging, und ward Freimäurer. Was er vors erste da fand, ist der Stoff eines 4ten und 5ten Gesprächs, mit welchen – sich der Weg scheidet.</p>
+            <pb n="472" facs="#f0022"/>
+            <p>Fortsetzung</p>
+            <p>Vorrede eines Dritten</p>
+            <p>Der Verfasser der ersten drei Gespräche hatte diese Fortsetzung, wie man weiß, im Manuskripte, zum Drucke fertig liegen, als derselbe <hi rendition="#i">höheren Orts</hi> einen bittenden Wink bekam, dieselbe nicht bekannt zu machen.</p>
+            <p rendition="#et">Vorher aber hatte er dies vierte und fünfte Gespräch einigen Freunden mitgeteilt, welche, vermutlich ohne seine Erlaubnis, Abschriften davon genommen hatten. Eine dieser Abschriften war dem itzigen Herausgeber durch einen sonderbaren Zufall in die Hände gefallen. Er bedauerte, daß so viel herrliche Wahrheiten unterdrückt werden sollten, und beschloß das Manuskript, ohne Winke zu haben, drucken zu lassen.</p>
+            <p rendition="#et">Wenn die Begierde, Licht über so wichtige Gegenstände allgemeiner verbreitet zu sehen, nicht diese Freiheit hinlänglich entschuldiget; so läßt sich nichts weiter zur Verteidigung derselben sagen, als daß der Herausgeber kein aufgenommener Maurer ist.</p>
+            <p rendition="#et">Übrigens wird man doch finden, daß er, aus Vorsicht und Achtung gegen einen gewissen Zweig dieser Gesellschaft, einige Namen, welche ganz ausgeschrieben waren, bei der Herausgabe nicht genannt hat.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e140628" type="chapter">
+            <head>Viertes Gespräch</head>
+            <p>FALK. Ernst! Willkommen! Endlich wieder einmal! Ich habe meine Brunnen-Kur längst beschlossen.</p>
+            <p>ERNST. Und befindest Dich wohl darauf? Ich freue mich.</p>
+            <p>FALK. Was ist das? Man hat nie ein: »<hi rendition="#i">ich freue mich</hi>« ärgerlicher ausgesprochen.</p>
+            <p>
+               <pb n="473" facs="#f0023"/>
+ERNST. Ich bin es auch, und es fehlt wenig, daß ich es nicht über Dich bin.</p>
+            <p>FALK. Über mich?</p>
+            <p>ERNST. Du hast mich zu einem albernen Schritte verleitet – Sieh her! – Gib mir Deine Hand! – Was sagst Du? – Du zuckst die Achseln? Das hätte mir noch gefehlt.</p>
+            <p>FALK. Dich verleitet?</p>
+            <p>ERNST. Es kann sein, ohne daß Du es gewollt hast.</p>
+            <p>FALK. Und soll doch Schuld haben.</p>
+            <p>ERNST. Der Mann Gottes spricht dem Volke von einem Lande, da Milch und Honig innen fließt, und das Volk soll sich nicht darnach sehnen? Und soll über den Mann Gottes nicht murren, wenn er sie, anstatt in dieses gelobte Land, in dürre Wüsten führt?</p>
+            <p>FALK. Nun, nun! der Schade kann doch so groß nicht sein – Dazu sehe ich ja, daß Du schon <hi rendition="#i">bei den Gräbern unserer Vorfahren</hi> gearbeitet hast.</p>
+            <p>ERNST. Aber sie waren nicht mit <hi rendition="#i">Flammen,</hi> sondern mit Rauch umgeben.</p>
+            <p>FALK. So warte, bis der Rauch sich verzieht, und die Flamme wird leuchten und wärmen.</p>
+            <p>ERNST. Der Rauch wird mich ersticken, ehe mir die Flamme leuchtet, und wärmen, sehe ich wohl, werden sich Andere an ihr, die den Rauch besser vertragen können.</p>
+            <p>FALK. Du sprichst doch nicht von Leuten, die sich vom Rauch gern beißen lassen, wenn es nur der Rauch einer fremden fetten Küche ist?</p>
+            <p>ERNST. Du kennst sie also doch?</p>
+            <p>FALK. Ich habe von ihnen gehört.</p>
+            <p>ERNST. Um so mehr, was konnte Dich bewegen mich auf dies Eis zu führen? Mir dazu Sachen vorzuspiegeln, deren Ungrund Du nur allzuwohl wußtest?</p>
+            <p>FALK. Dein Verdruß macht Dich sehr ungerecht – Ich sollte mit Dir von der Freimäurerei gesprochen haben, ohne es auf mehr als eine Art zu verstehen zu geben, wie unnütz es sei, daß jeder ehrliche Mann ein Freimäurer werde – wie unnütze nur? – ja, wie schädlich.</p>
+            <p>ERNST. Das mag wohl sein.</p>
+            <p>
+               <pb n="474" facs="#f0024"/>
+FALK. Ich sollte Dir nicht gesagt haben, daß man die höchsten Pflichten der Mäurerei erfüllen könne, ohne ein Freimäurer zu heißen?</p>
+            <p>ERNST. Vielmehr erinnere ich mich dessen – Aber Du weißt ja wohl, wenn meine Fantasie einmal den Fittig ausbreitet, einen Schlag damit tut – kann ich sie halten? – Ich werfe Dir nichts vor, als daß Du ihr eine solche Lockspeise zeigtest. –</p>
+            <p>FALK. Die Du zu erreichen doch auch sehr bald müde geworden – Und warum sagtest Du mir nicht ein Wort von Deinem Vorsatze?</p>
+            <p>ERNST. Würdest Du mich davon abgeraten haben?</p>
+            <p>FALK. Ganz gewiß – <hi rendition="#i">Wer wollte einem raschen Knaben, weil er dann und wann noch fällt, den Gängelwagen wieder einschwätzen?</hi> Ich mache Dir kein Kompliment; Du warst schon zu weit, um von da wieder auszugehen. Gleichwohl konnte man mit Dir keine Ausnahme machen. Den Weg müssen Alle betreten.</p>
+            <p>ERNST. Es sollte mich auch nicht reuen ihn betreten zu haben, wenn ich mir nur von dem noch übrigen Wege mehr zu versprechen hätte. Aber Vertröstungen, und wieder Vertröstungen, und nichts als Vertröstungen!</p>
+            <p>FALK. Wenn man Dich doch schon vertröstet! Und auf was vertröstet man Dich denn?</p>
+            <p>ERNST. Du weißt ja wohl, auf die <hi rendition="#i">schottische Mäurerei,</hi> auf den schottischen Ritter.</p>
+            <p>FALK. Nun ja, ganz recht – Aber wessen hat sich denn der schottische Ritter zu trösten?</p>
+            <p>ERNST. Wer das wüßte!</p>
+            <p>FALK. Und Deines Gleichen, die andern Neulinge des Ordens, wissen denn die auch nichts?</p>
+            <p>ERNST. O die! die wissen so viel! die erwarten so viel! – Der Eine will Gold machen, der Andere will Geister beschwören, der Dritte will die *** wieder herstellen – Du lächelst – Und lächelst <hi rendition="#i">nur?</hi>
+            </p>
+            <p>FALK. Was kann ich anders?</p>
+            <p>ERNST. Unwillen bezeugen über solche Querköpfe!</p>
+            <p>FALK. Wenn mich nicht <hi rendition="#i">Eins</hi> mit ihnen wieder versöhnte.</p>
+            <p>ERNST. Und was?</p>
+            <p>
+               <pb n="475" facs="#f0025"/>
+FALK. Daß ich in allen diesen Träumereien Streben nach Würklichkeit erkenne, daß sich aus allen diesen Irrwegen noch abnehmen läßt, wohin der wahre Weg geht.</p>
+            <p>ERNST. Auch aus der Goldmacherei?</p>
+            <p>FALK. Auch aus der Goldmacherei. Ob sich würklich Gold machen läßt, oder nicht machen läßt, gilt mir gleichviel. Aber ich bin sehr versichert, daß vernünftige Menschen nur in Rücksicht auf Freimäurerei es machen zu können wünschen werden. Auch wird der erste der beste, dem der Stein der Weisen zu Teil wird, in dem nämlichen Augenblicke Freimäurer – Und es ist doch sonderbar, daß dieses alle Nachrichten bestätigen, mit welchen sich die Welt von wahren oder vermeinten Goldmachern trägt.</p>
+            <p>ERNST. Und die Geister-Beschwörer?</p>
+            <p>FALK. Von ihnen gilt ohngefähr das nämliche – Unmöglich können Geister auf die Stimme eines andern Menschen hören, als eines Freimäurers.</p>
+            <p>ERNST. Wie ernsthaft Du solche Dinge sagen kannst! –</p>
+            <p>FALK. Bei allem was heilig ist! nicht ernsthafter als sie sind.</p>
+            <p>ERNST. Wenn das wäre! – Aber endlich die neuen ***, wenn Gott will?</p>
+            <p>FALK. Vollends die!</p>
+            <p>ERNST. Siehst Du! Von denen weißt Du nichts zu sagen. Denn *** waren doch einmal, Goldmacher aber und Geister – Beschwörer gab es vielleicht nie. Und es läßt sich freilich besser sagen, wie die Freimäurer sich zu solchen Wesen der Einbildung verhalten, als zu würklichen.</p>
+            <p>FALK. Allerdings kann ich mich hier nur in einem Dilemma ausdrücken: Entweder, oder –</p>
+            <p>ERNST. Auch gut! Wenn man nur wenigstens weiß, daß unter zwei Sätzen einer wahr ist: Nun! Entweder diese *** would be –</p>
+            <p>FALK. Ernst! Ehe Du noch eine Spötterei völlig aussagst! Auf mein Gewissen! – Diese – eben diese sind entweder gewiß auf dem rechten Wege, oder so weit davon entfernt, daß ihnen auch nicht einmal die Hoffnung mehr übrig ist, jemals darauf zu gelangen.</p>
+            <p>ERNST. Ich muß das so mit anhören. Denn Dich um eine nähere Erklärung zu bitten –</p>
+            <p>
+               <pb n="476" facs="#f0026"/>
+FALK. Warum nicht? Man hat lange genug aus Heimlichkeiten das Geheimnis gemacht.</p>
+            <p>ERNST. Wie verstehst Du das?</p>
+            <p>FALK. Das Geheimnis der Freimäurerei, wie ich Dir schon gesagt habe, ist das, was der Freimäurer<hi rendition="#i"> nicht</hi> über seine Lippen bringen <hi rendition="#i">kann,</hi> wenn es auch möglich wäre, daß er es <hi rendition="#i">wollte.</hi> Aber Heimlichkeiten sind Dinge, die sich wohl sagen lassen, und die man nur zu gewissen Zeiten, in gewissen Ländern, teils aus Neid verhehlte, teils aus Furcht verbiß, teils aus Klugheit verschwieg.</p>
+            <p>ERNST. Zum Exempel?</p>
+            <p>FALK. Zum Exempel! Gleich diese Verwandtschaft unter *** und Freimäurern. Es kann wohl sein, daß es einmal nötig und gut war, sich davon nichts merken zu lassen – Aber jetzt – jetzt kann es im Gegenteil höchst verderblich werden, wenn man aus dieser Verwandtschaft noch länger ein Geheimnis macht. Man müßte sie vielmehr laut bekennen, und nur den gehörigen Punkt bestimmen, in welchem die *** die Freimäurer ihrer Zeit waren.</p>
+            <p>ERNST. Darf ich ihn wissen, diesen Punkt?</p>
+            <p>FALK. Lies die Geschichte der *** mit Bedacht! Du mußt ihn erraten. Auch wirst Du ihn gewiß erraten, und eben das war die Ursache, warum Du kein Freimäurer hättest werden müssen.</p>
+            <p>ERNST. Daß ich nicht den Augenblick unter meinen Büchern sitze! – Und wenn ich ihn errate, willst Du mir gestehen, daß ich ihn erraten habe?</p>
+            <p>FALK. Du wirst zugleich finden, daß Du dieses Geständnis nicht brauchst – Aber auf mein Dilemma wieder zurückzukommen! Eben dieser Punkt ist es allein, woraus die Entscheidung desselben zu holen ist – Sehen und fühlen alle Freimäurer, welche jetzt mit den *** schwanger gehen, diesen rechten Punkt; Wohl ihnen! Wohl der Welt! Segen zu allem, was sie tun! Segen zu allem, was sie unterlassen! – Erkennen und fühlen sie ihn aber nicht, jenen Punkt; hat sie ein bloßer Gleichlaut verführt; hat sie bloß der <hi rendition="#i">Freimäurer der</hi> im ** arbeitet, auf die *** gebracht; haben sie sich nur in das – – – auf dem – – – vergafft; mögten sie nur gern einträgliche – – – – fette Pfründen <pb n="477" facs="#f0027"/>
+sich und ihren Freunden zuteilen können; – Nun so schenke uns der Himmel recht viel Mitleid, damit wir uns des Lachens enthalten können.</p>
+            <p>ERNST. Sieh! Du kannst doch noch warm und bitter werden.</p>
+            <p>FALK. Leider! – Ich danke Dir für Deine Bemerkung, und bin kalt wieder, wie Eis.</p>
+            <p>ERNST. Und was meinst Du wohl, welcher von den beiden Fällen der Fall dieser Herren ist?</p>
+            <p>FALK. Ich fürchte der letztere – Mögt' ich mich betrügen! – Denn wenn es der erste wäre; wie könnten sie einen so seltsamen Anschlag haben? – die *** wieder herzustellen! – Jener große Punkt, in welchem die *** Freimäurer waren, hat nicht mehr Statt. Wenigstens ist Europa längst darüber hinaus, und bedarf darin weiter keines außerordentlichen Vorschubs – Was wollen sie also? Wollen sie auch ein voller Schwamm werden, den die Großen einmal ausdrücken? – Doch an wen diese Frage? Und wider wen? Hast Du mir denn gesagt – Hast Du mir denn sagen können, daß mit diesen Grillen von Goldmachern, Geister-Bannern, ***, sich andre, als die Neulinge des Ordens schleppen? andere, als Kinder, als Leute, die Kinder zu mißbrauchen kein Bedenken tragen? – Aber Kinder werden Männer – Laß sie nur! – Genug, wie gesagt, daß ich schon in dem Spielzeuge die Waffen erblicke, welche einmal die Männer mit sicherer Hand führen werden.</p>
+            <p>ERNST. Im Grunde, mein Freund! sind es auch nicht diese Kindereien, die mich unmutig machen. Ohne zu vermuten, daß etwas Ernsthaftes hinter ihnen sein könnte, sahe ich über sie weg – Tonnen, dachte ich, den jungen Wallfischen ausgeworfen! – Aber was mich nagt, ist das: daß ich überall nichts sehe, überall nichts höre, als diese Kindereien, daß von dem, dessen Erwartung Du in mir erregtest, keiner etwas wissen will. Ich mag diesen Ton angeben, so oft ich will, gegen wen ich will; niemand will einstimmen, immer und aller Orten das tiefste Stillschweigen.</p>
+            <p>FALK. Du meinst –</p>
+            <p>ERNST. Jene Gleichheit, die Du mir als Grundgesetz des Ordens angegeben; jene Gleichheit, die meine ganze Seele mit so unerwarteter Hoffnung erfüllte: sie endlich in Gesellschaft von <pb n="478" facs="#f0028"/>
+Menschen atmen zu können, die über alle bürgerlichen Modifications hinweg zu denken verstehen, ohne sich an einer zum Nachteil eines Dritten zu versündigen –</p>
+            <p>FALK. Nun?</p>
+            <p>ERNST. Sie wäre noch? Wenn sie jemals gewesen! – Laß einen aufgeklärten Juden kommen, und sich melden! »Ja« heißt es »ein Jude? Christ wenigstens muß freilich der Freimäurer sein. Es <hi rendition="#i">ist nur gleichviel was für ein Christ.</hi> Ohne Unterschied der Religion, heißt nur, ohne Unterschied der drei im heiligen römischen Reiche öffentlich geduldeten Religionen« – Meinst Du auch so?</p>
+            <p>FALK. Ich nun wohl nicht.</p>
+            <p>ERNST. Laß einen ehrlichen Schuster, der bei seinem Leiste Muße genug hat, manchen guten Gedanken zu haben (wäre es auch ein Jakob Böhme und Hans Sachse) laß ihn kommen, und sich melden! »Ja« heißt es »ein Schuster! freilich ein Schuster« – Laß einen treuen, erfahrnen, versuchten Dienstboten kommen und sich melden – »Ja« heißt es »dergleichen Leute freilich, die sich die Farbe zu ihrem Rocke nicht selbst wählen – Wir sind unter uns so gute Gesellschaft«</p>
+            <p>FALK. Und wie gute Gesellschaft sind sie denn?</p>
+            <p>ERNST. Ei nun! Daran habe ich allerdings weiter nichts auszusetzen, als daß es <hi rendition="#i">nur</hi> gute Gesellschaft ist, die man in der Welt so müde wird – Prinzen, Grafen, Herrn von, Offiziere, Räte von allerlei Beschlag, Kaufleute, Künstler – alle die schwärmen freilich ohne Unterschied des Standes in der Loge unter einander durch – Aber in der Tat sind doch alle nur von Einem Stande, und der ist leider – – – –</p>
+            <p>FALK. Das war nun wohl zu meiner Zeit nicht so – Aber doch! – Ich weiß nicht, ich kann nur raten – Ich bin zu lange Zeit außer aller Verbindung mit Logen, von welcher Art sie auch sein mögen – In die <hi rendition="#i">Loge vor jetzt,</hi> auf eine Zeit nicht können zugelassen werden, und von der <hi rendition="#i">Freimäurerei ausgeschlossen sein,</hi> sind doch noch zwei verschiedene Dinge.</p>
+            <p>ERNST. Wie so?</p>
+            <p>FALK. Weil Loge sich zur Freimäurerei verhält, wie Kirche zum Glauben. Aus dem äußeren Wohlstande der Kirche ist für den Glauben der Glieder nichts, gar nichts, zu schließen. Vielmehr <pb n="479" facs="#f0029"/>
+gibt es einen gewissen äußerlichen Wohlstand derselben, von dem es ein Wunder wäre, wenn er mit dem wahren Glauben bestehen könnte. Auch haben sich beide noch nie vertragen, sondern eins hat das andere, wie die Geschichte lehrt, immer zu Grunde gerichtet. Und so auch, fürchte ich, fürchte ich –</p>
+            <p>ERNST. Was?</p>
+            <p>FALK. Kurz! Das Logen-Wesen, so wie ich höre, daß es itzt getrieben wird, will mir gar nicht zu Kopfe. Eine Kasse haben; Kapitale machen; diese Kapitale belegen; sie auf den besten Pfenning zu benutzen suchen; sich ankaufen wollen; von Königen und Fürsten sich Privilegien geben lassen; das Ansehn und die Gewalt derselben zu Unterdrückung der Brüder anwenden, die einer andern Observanz sind, als der, die man so gern zum Wesen der Sache machen mögte – Wenn das in die Länge gut geht! – Wie gern will ich falsch prophezeiet haben!</p>
+            <p>ERNST. Je nun! Was kann denn werden? Der Staat fährt itzt nicht mehr so zu. Und zudem sind ja wohl unter den Personen, die seine Gesetze machen, oder handhaben, selbst schon zu viel Freimäurer –</p>
+            <p>FALK. Gut! Wenn sie also auch von dem Staate nichts zu befürchten haben, was denkst Du wird eine solche Verfassung für Einfluß auf sie selbst haben? Geraten sie dadurch nicht offenbar wieder dahin, wovon sie sich losreißen wollten? Werden sie nicht aufhören zu sein, was sie sein wollen? – Ich weiß nicht ob Du mich ganz verstehst –</p>
+            <p>ERNST. Rede nur weiter!</p>
+            <p>FALK. Zwar! – ja wohl – nichts dauert ewig – Vielleicht soll dieses eben der Weg sein, den die Vorsicht ausersehen, dem ganzen jetzigen Schema der Freimäurerei ein Ende zu machen –</p>
+            <p>ERNST. Schema der Freimäurerei? Was nennst Du so? Schema?</p>
+            <p>FALK. Nun, Schema, Hülle, Einkleidung.</p>
+            <p>ERNST. Ich weiß noch nicht –</p>
+            <p>FALK. Du wirst doch nicht glauben, daß die Freimäurerei immer Freimäurerei gespielt?</p>
+            <p>ERNST. Was ist nun das? Die Freimäurerei nicht immer Freimäurerei gespielt?</p>
+            <p>FALK. Mit andern Worten! Meinst Du denn, daß das, was die <pb n="480" facs="#f0030"/>
+Freimäurerei ist, immer Freimäurerei geheißen? – Aber sieh! Schon Mittag vorbei! Da kommen ja bereits meine Gäste! Du bleibst doch?</p>
+            <p>ERNST. Ich wollte nicht, aber ich muß ja nun wohl. Denn mich erwartet eine doppelte Sättigung.</p>
+            <p>FALK. Nur bei Tische, bitte ich, kein Wort.</p>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e140979" type="chapter">
+            <head>Fünftes Gespräch</head>
+            <p>ERNST. Endlich sind sie fort! – O die Schwätzer! – Und merktest Du denn nicht, oder wolltest Du nicht merken, daß der eine mit der Warze an dem Kinn – heiße er wie er will! – ein Freimäurer ist? Er klopfte so oft an.</p>
+            <p>FALK. Ich hörte ihn wohl. Ich merkte sogar in seinen Reden, was Dir wohl nicht so aufgefallen – Er ist von denen, die in Europa für die Amerikaner fechten –</p>
+            <p>ERNST. Das wäre nicht das Schlimmste an ihm.</p>
+            <p>FALK. Und hat die Grille, daß der Kongreß eine Loge ist; daß <hi rendition="#i">da</hi> endlich die Freimäurer ihr Reich mit gewaffneter Hand gründen.</p>
+            <p>ERNST. Gibt es auch <hi rendition="#i">solche Träumer?</hi>
+            </p>
+            <p>FALK. Es muß doch wohl.</p>
+            <p>ERNST. Und woraus nimmst Du diesen Wurm ihm ab?</p>
+            <p>FALK. Aus einem Zuge, der Dir auch schon einmal kenntlicher werden wird.</p>
+            <p>ERNST. Bei Gott! wenn ich wüßte, daß ich mich in den Freimäurern gar <hi rendition="#i">so</hi> betrogen hätte! –</p>
+            <p>FALK. Sei ohne Sorge, der Freimäurer erwartet ruhig den Aufgang der Sonne, und läßt die Lichter brennen, so lange sie wollen und können – Die Lichter auslöschen und, wenn sie ausgelöscht sind, erst wahrnehmen, daß man die Stümpfe doch wieder anzünden, oder wohl gar andre Lichter wiederaufstecken muß; das ist des Freimäurers Sache nicht.</p>
+            <p>ERNST. Das denke ich auch – Was Blut kostet ist gewiß kein Blut wert.</p>
+            <p>FALK. Vortrefflich! – nun frage, was Du willst! Ich muß Dir antworten.</p>
+            <p>
+               <pb n="481" facs="#f0031"/>
+ERNST. So wird meines Fragens kein Ende sein.</p>
+            <p>FALK. Nur kannst Du den Anfang nicht finden.</p>
+            <p>ERNST. Verstand ich Dich, oder verstand ich Dich nicht, als wir unterbrochen wurden? Widersprachst Du Dir, oder widersprachst Du Dir nicht? – Denn allerdings, als Du mir einmal sagtest: <hi rendition="#i">Die Freimäurerei sei immer gewesen,</hi>verstand ich es also, daß nicht allein ihr Wesen, sondern auch ihre gegenwärtige Verfassung sich von undenklichen Zeiten herschreibe.</p>
+            <p>FALK. Wenn es mit beiden einerlei Bewandtnis hätte! – Ihrem Wesen nach ist die Freimäurerei eben so alt, als die bürgerliche Gesellschaft. Beide konnten nicht anders als <hi rendition="#i">miteinander</hi> entstehen – Wenn nicht gar die bürgerliche Gesellschaft nur ein Sprößling der Freimäurerei ist. Denn die Flamme im Brennpunkte, ist auch Ausfluß der Sonne.</p>
+            <p>ERNST. Auch mir schimmert das so vor –</p>
+            <p>FALK. Es sei aber Mutter und Tochter, oder Schwester und Schwester; ihr beiderseitiges Schicksal hat immer wechselseitig in einander gewürkt. Wie sich die bürgerliche Gesellschaft befand, befand sich aller Orten auch die Freimäurerei, und so umgekehrt. Es war immer das sicherste Kennzeichen einer gesunden, nervösen Staatsverfassung, wenn sie die Freimäurerei neben sich blühen ließ; so wie es noch jetzt das ohnfehlbare Merkmal eines schwachen, furchtsamen Staats ist, wenn er das nicht öffentlich dulden will, was er in Geheim doch dulden muß, er mag wollen oder nicht.</p>
+            <p>ERNST. Zu verstehen: die Freimäurerei!</p>
+            <p>FALK. Sicherlich! – Denn die beruht im Grunde nicht auf <hi rendition="#i">äußerlichen Verbindungen,</hi> die so leicht in<hi rendition="#i"> bürgerliche Anordnungen</hi> ausarten; sondern auf dem gemeinschaftlichen Gefühl sympathisierender Geister.</p>
+            <p>ERNST. Und wer unterfängt sich dem zu gebieten?</p>
+            <p>FALK. Indes hat freilich die Freimäurerei immer und aller Orten sich nach der bürgerlichen Gesellschaft schmiegen und biegen müssen, denn diese war stets die stärkere. So mancherlei die bürgerliche Gesellschaft gewesen, so mancherlei Formen hat auch die Freimäurerei anzunehmen sich nicht entbrechen können, und hatte jede neue Form, wie natürlich, ihren neuen <pb n="482" facs="#f0032"/>
+Namen. Wie kannst Du glauben, daß der Name Freimäurerei älter sein werde, als diejenige herrschende Denkungsart der Staaten, nach der sie genau abgewogen worden?</p>
+            <p>ERNST. Und welches ist diese herrschende Denkungsart?</p>
+            <p>FALK. Das bleibt Deiner eigenen Nachforschung überlassen – Genug, wenn ich Dir sage, daß der Name Freimäurer, ein Glied unserer geheimen Verbrüderung anzuzeigen, vor dem Anfange dieses laufenden Jahrhunderts nie gehört worden. Er kömmt zuverlässig vor dieser Zeit in keinem gedruckten Buche vor, und den will ich sehen, der mir ihn auch nur in einer geschriebenen älteren Urkunde zeigen will.</p>
+            <p>ERNST. Das heißt: den deutschen Namen.</p>
+            <p>FALK. Nein, nein! auch das ursprüngliche Free- Mason, so wie alle darnach gemodelte Übersetzungen, in welcher Sprache es auch sein mag.</p>
+            <p>ERNST. Nicht doch! – Besinne Dich – In keinem gedruckten Buche vor dem Anfange des laufenden Jahrhunderts? In keinem?</p>
+            <p>FALK. In keinem.</p>
+            <p>ERNST. Gleichwohl habe ich selbst –</p>
+            <p>FALK. So? – Ist auch Dir von dem Staube etwas in die Augen geflogen, den man um sich zu werfen noch nicht aufhört?</p>
+            <p>ERNST. Aber doch die Stelle in –</p>
+            <p>FALK. In der Londinopolis? Nicht wahr? – Staub!</p>
+            <p>ERNST. Und die Parlaments-Akte unter Heinrich dem sechsten?</p>
+            <p>FALK. Staub!</p>
+            <p>ERNST. Und die großen Privilegia, die Karl der elfte, König von Schweden, der Loge von Gothenburg erteilte?</p>
+            <p>FALK. Staub!</p>
+            <p>ERNST. Und Locke?</p>
+            <p>FALK. Was für eine Locke?</p>
+            <p>ERNST. Der Philosoph – Sein Schreiben an den Grafen von Pembrock; seine Anmerkungen über ein Verhör, von Heinrich des sechsten eigener Hand geschrieben?</p>
+            <p>FALK. Das muß ja wohl ein ganz neuer Fund sein; den kenne ich nicht – Aber wieder Heinrich der Sechste? – Staub! und nichts als Staub!</p>
+            <p>ERNST. Nimmermehr!</p>
+            <p>
+               <pb n="483" facs="#f0033"/>
+FALK. Weißt Du einen gelinderen Namen für Wort- Verdrehungen, für untergeschobene Urkunden?</p>
+            <p>ERNST. Und das hätten sie so lange vor den Augen der Welt ungerügt treiben dürfen?</p>
+            <p>FALK. Warum nicht? der Klugen sind viel zu wenig, als daß sie allen Geckereien, gleich bei ihrem Entstehen, widersprechen könnten. Genug, daß bei ihnen keine Verjährung Statt findet – Freilich wäre es besser, wenn man vor dem Publico ganz und gar keine Geckereien unternähme. Denn gerade die Verächtlichste kann eben dadurch, daß sie die verächtlichste ist, daß sich niemand die Mühe nimmt, sich ihr entgegen zu stellen, mit dem Laufe der Zeit das Ansehn einer sehr ernsthaften, heiligen Sache gewinnen. Da heißt es dann über tausend Jahren: »würde man das so in die Welt haben schreiben dürfen, wenn es nicht wahr gewesen wäre? Man hat diesen glaubwürdigen Männern damals nicht widersprochen, und ihr wollt ihnen jetzt widersprechen?«</p>
+            <p>ERNST. O Geschichte! O Geschichte! Was bist du?</p>
+            <p>FALK. Andersons kahle Rhapsodie, in welcher die Historie der Baukunst für die Historie des Ordens untergeschoben wird, mögte noch hingehen! Für einmal, und für damals mögte das gut sein – Dazu war die Gaukelei so handgreiflich. – Aber daß man noch jetzt auf diesem morastigen Grunde fortbauet, daß man noch immer <hi rendition="#i">gedruckt</hi> behaupten will, was man <hi rendition="#i">mündlich</hi> gegen einen ernsthaften Mann vorzugeben sich schämt, daß man zu Fortsetzung eines Scherzes, den man längst hätte sollen fallen lassen, sich eine forgery erlaubt, auf welche, wenn sie ein nichtswürdiges bürgerliches Interesse betrifft, die pillory steht –</p>
+            <p>ERNST, Wenn es denn nun aber wahr wäre, daß hier mehr als Wortspiel vorwaltete? Wenn es nun wahr wäre, daß das Geheimnis des Ordens sich von Alters her unter dem homonymen Handwerke vornehmlich erhalten hätte? –</p>
+            <p>FALK. Wenn es wahr wäre?</p>
+            <p>ERNST. Und muß es nicht wahr sein? – Denn wie käme der Orden sonst dazu, die Symbole eben dieses Handwerks zu entlehnen? Eben dieses? Und warum keines andern?</p>
+            <p>FALK. Die Frage ist allerdings verfänglich.</p>
+            <p>
+               <pb n="484" facs="#f0034"/>
+ERNST. Ein solcher Umstand muß doch eine Ursache haben?</p>
+            <p>FALK. Und hat sie.</p>
+            <p>ERNST. Und hat sie? Und hat eine andere Ursache, als jene vermeinte?</p>
+            <p>FALK. Eine ganz andre.</p>
+            <p>ERNST. Soll ich raten, oder darf ich fragen?</p>
+            <p>FALK. Wenn Du mir schon eher eine andere Frage getan hättest, die ich längst erwarten mußte, so würde Dir das Raten nun nicht schwer fallen.</p>
+            <p>ERNST. Eine andere Frage, die Du längst hättest erwarten müssen? –</p>
+            <p>FALK. Denn, wenn ich Dir sagte, daß das was Freimäurerei ist, nicht immer Freimäurerei geheißen, was war natürlicher und näher –</p>
+            <p>ERNST. Als zu fragen, wie es sonst geheißen? – ja wohl! – So frage ich es denn nun.</p>
+            <p>FALK. Wie die Freimäurerei geheißen, ehe sie Freimäurerei hieß, fragst Du? – Massoney –</p>
+            <p>ERNST. Nun ja freilich! Masonry auf Englisch –</p>
+            <p>FALK. Auf Englisch nicht Masonry, sondern Masony. – Nicht von Mason, der Maurer, sondern von Mase, der Tisch, die Tafel.</p>
+            <p>ERNST. Mase, der Tisch? In welcher Sprache?</p>
+            <p>FALK. In der Sprache der Angelsachsen, doch nicht in dieser allein, sondern auch in der Sprache der Goten und Franken, folglich ein ursprünglich deutsches Wort, von welchem noch jetzt so mancherlei Abstammungen üblig sind, oder doch ohnlängst üblig waren, als: <hi rendition="#i">Maskopie, Masleidig, Masgenosse.</hi> Selbst <hi rendition="#i">Masoney</hi> war zu Luthers Zeiten noch häufig im Gebrauche; nur daß es seine gute Bedeutung ein wenig verschlimmert hatte.</p>
+            <p>ERNST. Ich weiß weder von seiner guten, noch von seiner verschlimmerten Bedeutung.</p>
+            <p>FALK. Aber die Sitte unserer Vorfahren weißt Du doch, auch die wichtigsten Dinge am Tische zu überlegen? – <hi rendition="#i">Mase</hi> also der Tisch, und <hi rendition="#i">Masoney</hi> eine geschlossene, vertraute Tischgesellschaft. Und wie aus einer geschlossenen, vertrauten Tischgesellschaft ein Saufgelach worden, in welchem Verstande Agricola <pb n="485" facs="#f0035"/>
+das Wort Masoney braucht, kannst Du leicht abnehmen –</p>
+            <p>ERNST. Wäre es dem Namen <hi rendition="#i">Loge</hi> vor einiger Zeit bald besser gegangen?</p>
+            <p>FALK. Vorher aber, ehe die Masoneyen zum Teil so ausarteten, und in der guten Meinung des Publikums so herabkamen, standen sie in desto größerem Ansehn. Es war kein Hof in Deutschland, weder klein noch groß, der nicht seine Masoney hatte. Die alten Lieder- und Geschichtsbücher sind davon Zeugen. Eigene Gebäude, die mit den Schlössern und Palästen der regierenden Herrn verbunden oder benachbart waren, hatten von ihnen ihre Benennung, von der man neuerer Zeit so manche ungegründete Auslegung hat – Und was brauche ich Dir zu ihrem Ruhme mehr zu sagen, als daß die Gesellschaft der <hi rendition="#i">runden Tafel</hi> die erste und älteste Masoney war, von der sie insgesamt abstammen?</p>
+            <p>ERNST. Der runden Tafel? das steigt in ein sehr fabelhaftes Altertum hinauf –</p>
+            <p>FALK. Die Geschichte des Königs Arthur sei so fabelhaft als sie will, die <hi rendition="#i">runde Tafel</hi> ist so fabelhaft nicht.</p>
+            <p>ERNST. Arthur soll doch der Stifter derselben gewesen sein.</p>
+            <p>FALK. Mit Nichten! Auch nicht einmal der Fabel nach – Arthur, oder sein Vater, hatten sie von den Angelsachsen angenommen, wie schon der Name Masoney vermuten läßt. Und was versteht sich mehr von selbst, als daß die Angelsachsen keine Sitte nach England herüber brachten, die sie in ihrem Vaterlande nicht zurückließen? Auch sieht man es an mehreren deutschen Völkern damaliger Zeit, daß der Hang, in und neben der großen bürgerlichen Gesellschaft, kleinere vertraute Gesellschaften zu machen, ihnen eigen war.</p>
+            <p>ERNST. Hiermit meinest Du? –</p>
+            <p>FALK. Alles was ich Dir jetzt nur flüchtig und vielleicht nicht mit der gehörigen Präcision sage, mache ich mich anheischig das nächstemal, daß ich mich mit Dir in der Stadt unter meinen Büchern befinde, schwarz auf weiß zu belegen – Höre mich jetzt nur, wie man das erste Gerücht irgend einer großen Begebenheit hört. Es reizt die Neugierde mehr, als daß es sie befriedigt.</p>
+            <p>
+               <pb n="486" facs="#f0036"/>
+ERNST. Wo bliebst Du?</p>
+            <p>FALK. Die Masoney also war eine deutsche Sitte, welche die Sachsen nach England verpflanzten. Die Gelehrten sind uneinig, wer die <hi rendition="#i">Mase-Thanes</hi> unter ihnen waren. Es waren allem Ansehen nach die Edlen der Masoney, welche so tiefe Wurzeln in diesem neuen Boden schlug, daß sie unter allen nachfolgenden Staatsveränderungen blieb, und sich von Zeit zu Zeit in der herrlichsten Blüte zeigte. Besonders waren die Masoneyen der *** im zwölften Jahrhundert und im dreizehnten in sehr großem Rufe. Und so eine *** Masoney war es, die sich, bis zu Ende des siebenzehnten Jahrhunderts, trotz der Aufhebung des Ordens, mitten in London erhalten hatte – Und hier fängt die Zeit an, wo die Fingerzeige der niedergeschriebenen Historie freilich ermangeln; aber eine sorgfältig aufbewahrte Tradition, die so viel innere Merkmale der Wahrheit hat, ist bereit diesen Mangel zu ersetzen.</p>
+            <p>ERNST. Und was hindert, diese Tradition endlich einmal durch schriftliche Verzeichnung zur Geschichte zu erheben?</p>
+            <p>FALK. Hindert? Nichts hindert! Alles rät vielmehr dazu an – Wenigstens fühle ich, ich fühle mich berechtigt, ja verpflichtet, Dir und Allen, welche sich mit Dir in dem nämlichen Falle befinden, länger kein Geheimnis daraus zu machen.</p>
+            <p>ERNST. Nun denn! – Ich bin in der äußersten Erwartung.</p>
+            <p>FALK. Jene *** Masoney also, die noch zu Ausgang des vorigen Jahrhunderts in London bestand, aber in aller Stille bestand, hatte ihr Versammlungshaus ohnfern der Sankt Pauls-Kirche, die damals neu erbauet ward. Der Baumeister dieser zweiten Kirche der ganzen Welt war –</p>
+            <p>ERNST. Christoph Wren –</p>
+            <p>FALK. Und Du hast den Schöpfer der ganzen heutigen Freimäurerei genannt –</p>
+            <p>ERNST. Ihn?</p>
+            <p>FALK. Kurz! Wren, der Baumeister der St. Pauls- Kirche, in deren Nähe sich eine uralte Masoney, von undenklichen Jahren her, versammlete, war ein Mitglied dieser Masoney, welche er die dreißig Jahre über, die der Bau dauerte, um so öfterer besuchte.</p>
+            <p>ERNST. Ich fange an ein Mißverständnis zu wittern.</p>
+            <p>
+               <pb n="487" facs="#f0037"/>
+FALK. Nichts anders! Die wahre Bedeutung des Worts Masoney war bei dem englischen Volke vergessen, verloren – Eine Masony, die in der Nähe eines so wichtigen Baues lag, in der sich der Meister dieses Baues so fleißig finden ließ, was kann die anders sein, als eine Masonry, als eine Gesellschaft von Bauverständigen, mit welchen Wren die vorfallenden Schwierigkeiten überlegt? –</p>
+            <p>ERNST. Natürlich genug!</p>
+            <p>FALK. Die Fortsetzung eines solchen Baues einer solchen Kirche interessierte ganz London. Um Nachrichten davon aus der ersten Hand zu haben, bewarb sich jeder, der einige Kenntnisse von Baukunst zu haben vermeinte, um Zutritt zu der vermeinten Masonry – und bewarb sich vergebens. Endlich Du kennst Christoph Wren, nicht bloß dem Namen nach, Du weißt, welch ein erfindsamer, tätiger Kopf er war. Er hatte ehedem den Plan zu einer Sozietät der Wissenschaften entwerfen helfen, <hi rendition="#i">welche spekulativische Wahrheiten gemeinnütziger, und dem bürgerlichen Leben ersprießlicher ma chen sollte.</hi> Auf einmal fiel ihm das Gegenbild einer Gesellschaft bei, <hi rendition="#i">welche sich von der Praxis des bürgerlichen Lebens zur Spekulation erhöbe.</hi> »Dort, dachte er, würde untersucht, was unter dem Wahren, brauchbar; und hier, was unter dem Brauchbaren, wahr wäre. Wie, wenn ich einige Grundsätze der Masoney exoterisch machte? Wie, wenn ich das, was sich nicht exoterisch machen läßt, unter die Hieroglyphen und Symbole desjenigen Handwerks versteckte, was man jetzt unter dem Worte Masony so hartnäckig zu finden glaubt? Wie wenn ich die Masony zu einer Free- Masonry erweiterte, an welcher Mehrere Teil nehmen könnten?« – So dachte Wren, und die Freimäurerei ward – Ernst! Wie ist dir?</p>
+            <p>ERNST. Wie einem Geblendeten.</p>
+            <p>FALK. Geht Dir nun einiges Licht auf?</p>
+            <p>ERNST. Einiges? Zuviel auf einmal.</p>
+            <p>FALK. Begreifst Du nun –</p>
+            <p>ERNST. Ich bitte Dich Freund, nichts mehr. – Aber hast Du nicht bald Verrichtungen in der Stadt?</p>
+            <p>FALK. Wünschest Du mich da?</p>
+            <p>ERNST. Wünsche? – nachdem Du mir versprochen –</p>
+            <p>
+               <pb n="488" facs="#f0038"/>
+FALK. So hab ich der Verrichtungen daselbst genug – Noch einmal! ich werde mich über manches aus dem Gedächtnisse zu schwankend, zu unbefriedigend ausgedruckt haben – Unter meinen Büchern sollst Du sehen und greifen – Die Sonne geht unter, Du mußt in die Stadt. Lebe wohl! –</p>
+            <p>ERNST. Eine andre ging mir auf. Lebe wohl!</p>
+            <p>Nachricht</p>
+            <p>Ein sechstes Gespräch, welches unter diesen Freunden vorfiel, ist nicht so nachzubilden. Aber das Wesentliche davon ist zu kritischen Anmerkungen über das fünfte Gespräch bestimmt, die man zur Zeit noch zurückhält.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

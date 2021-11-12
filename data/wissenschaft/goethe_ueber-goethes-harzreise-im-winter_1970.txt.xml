@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Über Goethes »Harzreise im Winter«</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118540238">
+                  <forename>Johann Wolfgang</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Goethe</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:12Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004856120</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Goethe, Johann Wolfgang/Theoretische Schriften/Über Goethes »Harzreise im Winter«</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/11g7q.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0006-65F0-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Johann Wolfgang von Goethe: Berliner Ausgabe. Kunsttheoretische Schriften und Übersetzungen [Band 17–22], Band 17, Berlin 1960 ff</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Kunsttheoretische Schriften und Übersetzungen</title>
+                  <title level="m" type="volume">1: Aufsätze zu Schauspielkunst und Musik. Aufsätze zur
+      deutschen Literatur </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118540238">
+                        <forename>Johann Wolfgang</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Goethe</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Siegfried</forename>
+                        <surname>Seidel</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">603 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Aufbau Verlag</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1970</date>
+                  <date type="firstPublication">1821</date>
+                  <date type="firstPublication" subtype="clariah">1821</date>
+                  <date type="firstPublication" subtype="zeno">1821</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1749"
+                        notAfter="1832"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="s" type="main">Berliner Ausgabe</title>
+                  <title level="s" type="volume">Band 17</title>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Goethe-Johann-W-d1e346397">Erstdruck in: Über Kunst und Altertum (Stuttgart), Bd. 3, Heft 2, 1821.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Theoretische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Theorie</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h3">Johann Wolfgang Goethe</p>
+            <p rend="h2">Über Goethes »Harzreise im Winter«</p>
+            <p rend="h4">Einladungsschrift von Dr. Kannegießer,</p>
+            <p>Rektor des Gymnasiums zu Prenzlau.</p>
+            <p>Dezember 1820</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Goethe-Johann-W-d1e346397">
+            <p>
+               <pb n="595" facs="#f0001"/>
+Dieses kleine Heft, vom Verfasser freundlich zugesandt, gab mir die angenehme Veranlassung, die sonderbaren Bilder früherer Jahre aus den letheischen Fluten wieder hervorzurufen; wobei ich zu bewundern hatte, daß mein sinniger Ausleger, dem die wunderlichen Besonderheiten jenes Winterzuges keineswegs bekannt sein konnten, dennoch, durch wenige Andeutungen geleitet, die Eigenheiten des Verhältnisses, die Wesenheit des Zustandes und den Sinn des obwaltenden Gefühls durchdringlich erkannt und ausgesprochen.</p>
+            <p rendition="#et">Nachdem ich mir nun jene für mich sehr bedeutenden Tage wieder zurückgerufen, so kann ich nicht unterlassen, einiges zu erwidern und wie es bei mir aufgeregt worden niederzuschreiben.</p>
+            <p>Schon früher hatte ich die Ehre erlebt, daß geistreich nachspürende Männer meine Gedichte zu entwickeln sich bestrebten; ich nenne <hi rendition="#i">Moritz</hi> und <hi rendition="#i">Delbrück,</hi> welche beide in das Angedeutete, Verschwiegene, Geheimnisvolle dergestalt eindrangen, daß sie mich selbst in Verwunderung setzten; wie ich denn von Letztgenanntem nur anführen will, daß er in den Gedichten an Lida größere Zartheit als in allen übrigen ausgespürt.</p>
+            <p rendition="#et">Gleiches Wohlwollen erzeigt mir nun Herr Dr. Kannegießer, wofür ich ihm einen öffentlich ausgesprochenen Dank vertraulich erwidere und nach seinem Wunsch über das genannte Gedicht auch meinerseits einige Aufklärung versuche.</p>
+            <p rendition="#et">Was von meinen Arbeiten durchaus und so auch von den kleineren Gedichten gilt, ist, daß sie alle, durch mehr oder minder bedeutende Gelegenheit aufgeregt, im unmittelbaren Anschauen irgendeines Gegenstandes verfaßt worden, <pb n="596" facs="#f0002"/>
+deshalb sie sich nicht gleichen, darin jedoch übereinkommen, daß bei besondern äußeren, oft gewöhnlichen Umständen ein Allgemeines, Inneres, Höheres dem Dichter vorschwebte.</p>
+            <p rendition="#et">Weil nun aber demjenigen, der eine Erklärung meiner Gedichte unternimmt, jene eigentlichen, im Gedicht nur angedeuteten Anlässe nicht bekannt sein können, so wird er den innern, höhern, faßlichern Sinn vorwalten lassen; ich habe auch hiezu, um die Poesie nicht zur Prose herabzuziehen, wenn mir dergleichen zur Kenntnis gekommen, gewöhnlich geschwiegen.</p>
+            <p rendition="#et">Das Gedicht aber, welches der gegenwärtige Erklärer gewählt, die »Harzreise«, ist sehr schwer zu entwickeln, weil es sich auf die allerbesondersten Umstände bezieht; und doch hat er sehr viel geleistet, indem er das Angedeutete genugsam herausahndete, wodurch ich mich stellenweise in Verwunderung gesetzt und bewogen fühle, folgendes zu näherer Aufklärung zu eröffnen.</p>
+            <p rendition="#et">In meinen biographischen Versuchen würde jene Epoche eine bedeutende Stelle einnehmen. Die Reise ward Ende Novembers 1776 gewagt. Ganz allein zu Pferde, im drohenden Schnee, unternahm der Dichter ein Abenteuer, das man bizarr nennen könnte, von welchem jedoch die Motive im Gedicht selbst leise angedeutet sind.</p>
+            <p>Dem Geier gleich,</p>
+            <p>Der auf schweren Morgenwolken</p>
+            <p>Mit sanftem Fittich ruhend</p>
+            <p>Nach Beute schaut,</p>
+            <p>Schwebe mein Lied.</p>
+            <p>Der Reisende verläßt am frühsten Wintermorgen seinen im Augenblick behaglich-gastfreundlichen thüringischen Wohnsitz, wo ihn später eine zweite Vaterstadt beglückte, er reitet nordwärts bergauf; ein schwerer, schneedrohender Himmel wälzt sich ihm entgegen.</p>
+            <p>Denn ein Gott hat</p>
+            <p>Jedem seine Bahn</p>
+            <p>Vorgezeichnet,</p>
+            <p>Die der Glückliche</p>
+            <p>Rasch zum freudigen</p>
+            <p>Ziele rennt.</p>
+            <p>Begonnene Ausführung eines bedenklichen und beschwerlichen Unternehmens stählt den Mut und erheitert den Geist. Der Dichter gedenkt seines bisherigen Lebensganges, den er glücklich nennen, dem er den schönsten Erfolg versprechen darf.</p>
+            <p>Wem aber Unglück</p>
+            <p>Das Herz zusammenzog,</p>
+            <p>Er sträubt vergebens</p>
+            <p>Sich gegen die Schranken</p>
+            <p>Des ehernen Fadens,</p>
+            <p>Den die doch bittre Schere</p>
+            <p>Nur einmal löst.</p>
+            <p>Aber sogleich gedenkt er eines Unglücklichen, Mißmutigen, um dessentwillen er eigentlich die Fahrt unternommen.</p>
+            <p rendition="#et">Als der Dichter den »Werther« geschrieben, um sich wenigstens persönlich von der damals herrschenden Empfindsamkeitskrankheit zu befreien, mußte er die große Unbequemlichkeit erleben, daß man ihn gerade diesen Gesinnungen günstig hielt. Er mußte manchen schriftlichen Andrang erdulden, worunter ihm besonders ein junger Mann auffiel, welcher schreibselig-beredt und dabei so ernstlich durchdrungen von Mißbehagen und selbstischer Qual sich zeigte, daß es unmöglich war, nur irgendeine Persönlichkeit zu denken, wozu diese Seel-Enthüllungen passen möchten. Alle seine wiederholten zudringlichen Äußerungen waren anziehend und abstoßend zugleich, daß endlich, bei einer immer aufgeforderten und wieder <pb n="598" facs="#f0004"/>
+gedämpften Teilnahme, die Neugier rege ward, welchen Körper sich ein so wunderlicher Geist gebildet habe? Ich wollte den Jüngling sehen, aber unerkannt, und deshalb hatte ich mich eigentlich auf den Weg begeben.</p>
+            <p>In Dickichtsschauer</p>
+            <p>Drängt sich das rauhe Wild.</p>
+            <p>Der Reisende gelangt auf die nächsten Bergeshöhen; immer winterhafter zeigt sich die Landschaft, einsam und öde starrt alles umher, nur flüchtiges Wild deutet auf kümmerlichen Zustand. Nun blickt er über gefrorne Teiche, Seen, auch eine Stadt kommt ihm zu Gesicht.</p>
+            <p>Und mit den Sperlingen</p>
+            <p>Haben längst die Reichen</p>
+            <p>In ihre Sümpfe sich gesenkt.</p>
+            <p>Wer seine Bequemlichkeiten aufopfert, verachtet gern diejenigen, die sich darin behagen. Jäger, Soldaten, mühsam Reisende bedürfen gutes Mutes, der sich leicht zu Übermut steigert. Unser Reisender hat alle Bequemlichkeiten zurückgelassen und verachtet die Städter, deren Zustand er gleichnisweise schmählich herabsetzt.</p>
+            <p rendition="#et">Wahrscheinlich ist ein wundersamer Druckfehler daher entstanden, daß Setzer oder Korrektor die »Reichen«, die ihm keinen Sinn zu geben schienen, in »Reiher« verwandelte, welche doch auf einiges Verhältnis zu den Rohrsperlingen hindeuten möchten. In der vorletzten Ausgabe stehen jene, diese in der letzten.</p>
+            <p>Leicht ist's, folgen dem Wagen,</p>
+            <p>Den Fortuna führt,</p>
+            <p>Wie der gemächliche Troß</p>
+            <p>Auf gebesserten Wegen</p>
+            <p>Hinter des Fürsten Einzug.</p>
+            <p>
+               <pb n="599" facs="#f0005"/>
+Der Dichter kehrt wieder zu seiner eigenen günstigen Lebensepoche zurück, ohne sich irgendein Verdienst anzumaßen, ja er spricht von den augenblicklichen Glücksvorteilen beinahe mit Geringschätzung.</p>
+            <p>Aber abseits wer ist's?</p>
+            <p>Ins Gebüsch verliert sich sein Pfad,</p>
+            <p>Hinter ihm schlagen</p>
+            <p>Die Sträuche zusammen,</p>
+            <p>Das Gras steht wieder auf,</p>
+            <p>Die Öde verschlingt ihn.</p>
+            <p>Das Bild des einsamen, menschen- und lebensfeindlichen Jünglings kommt ihm wieder in den Sinn, er malt sich's aus.</p>
+            <p>Ach, wer heilet die Schmerzen</p>
+            <p>Des, dem Balsam zu Gift ward?</p>
+            <p>Der sich Menschenhaß</p>
+            <p>Aus der Fülle der Liebe trank?</p>
+            <p>Erst verachtet, nun ein Verächter,</p>
+            <p>Zehrt er heimlich auf</p>
+            <p>Seinen eignen Wert</p>
+            <p>In ungnügender Selbstsucht.</p>
+            <p>Er fährt fort, ihn zu beklagen.</p>
+            <p>Ist auf deinem Psalter,</p>
+            <p>Vater der Liebe, ein Ton</p>
+            <p>Seinem Ohre vernehmlich,</p>
+            <p>So erquicke sein Herz!</p>
+            <p>Öffne den umwölkten Blick</p>
+            <p>Über die tausend Quellen</p>
+            <p>Neben dem Durstenden</p>
+            <p>In der Wüste!</p>
+            <p>Seine herzliche Teilnahme ergießt sich im Gebet. Die Auslegung dieser Strophen ist meinem freundlichen Kommentator besonders gelungen; er hat das Herzliche derselben innigst gefühlt und entwickelt.</p>
+            <p>Der du der Freuden viel schaffst,</p>
+            <p>Jedem ein überfließend Maß,</p>
+            <p>Segne die Brüder der Jagd</p>
+            <p>Auf der Fährte des Wilds</p>
+            <p>Mit jugendlichem Übermut</p>
+            <p>Fröhlicher Mordsucht,</p>
+            <p>Späte Rächer des Unbills,</p>
+            <p>Dem schon Jahre vergeblich</p>
+            <p>Wehrt mit Knütteln der Bauer.</p>
+            <p>Der Dichter wendet seine Gedanken zu Leben und Tat hin, erinnert sich seiner engverbundenen Freunde, welche gerade in dieser Jahrszeit und Witterung eine bedeutende Jagd unternehmen, um das in gewisser Gegend sich mehrende Schwarzwildbret zu bekämpfen. Eben diese Lustpartie war es, welche jene vertraute Gesellschaft aus der Stadt zog, dem Dichter Raum und Gelegenheit zu seiner Wanderung darbietend. Er trennte sich mit dem Versprechen, bald wie der unter ihnen zu sein.</p>
+            <p>Aber den Einsamen hüll</p>
+            <p>In deine Goldwolken!</p>
+            <p>Umgib mit Wintergrün,</p>
+            <p>Bis die Rose wieder heranreift,</p>
+            <p>Die feuchten Haare,</p>
+            <p>O Liebe, deines Dichters!</p>
+            <p>Nun aber kehrt er zu sich selbst zurück, betrachtet seinen bedenklichen Zustand und ruft der Liebe, ihm zur Seite zu bleiben.</p>
+            <p rendition="#et">Hier ist der Ort, zu bemerken, daß man sich bei Auslegung von Dichtern immer zwischen dem Wirklichen und Ideellen zu halten habe. In der siebenten Strophe heißt »Liebe« das unbefriedigte, dem Menschen zwar in wohnende, aber von außen zurückgewiesene Bedürfnis; in der achten Strophe ist unter »Vater der Liebe« das Wesen gemeint, welchem alle übrigen die wechselseitige Neigung zu danken haben; hier in der zehnten ist unter »Liebe« das edelste <pb n="601" facs="#f0007"/>
+Bedürfnis geistiger, vielleicht auch körperlicher Vereinigung gedacht, welches die Einzelnen in Bewegung setzt und auf die schönste Weise in Freundschaft, Gattentreue, Kinderpietät und außerdem noch auf hundert zarte Weisen befriedigt und lebendig erhält.</p>
+            <p>Mit der dämmernden Fackel</p>
+            <p>Leuchtest du ihm</p>
+            <p>Durch die Furten bei Nacht,</p>
+            <p>Über grundlose Wege</p>
+            <p>Auf öden Gefilden;</p>
+            <p>Mit dem tausendfarbigen Morgen</p>
+            <p>Lachst du ins Herz ihm;</p>
+            <p>Mit dem beizenden Sturm</p>
+            <p>Trägst du ihn hoch empor;</p>
+            <p>Winterströme stürzen vom Felsen</p>
+            <p>In seine Psalmen.</p>
+            <p>Er schildert einzelne Beschwerlichkeiten des Augenblicks, die ihn peinlich anfechten, aber in Gedanken an die entfernten Geliebten frohmütig überstanden werden.</p>
+            <p>Und Altar des lieblichsten Danks</p>
+            <p>Wird ihm des gefürchteten Gipfels</p>
+            <p>Schneebehangner Scheitel,</p>
+            <p>Den mit Geisterreihen</p>
+            <p>Kränzten ahnende Völker.</p>
+            <p>Ein wichtiger, völlig ideell, ja phantastisch erscheinender Punkt, über dessen Realität der Dichter schon manchen Zweifel erleben mußte, wovon aber ein sehr erfreuliches Dokument noch in seinen Händen ist.</p>
+            <p rendition="#et">Ich stand wirklich am siebenten Dezember in der Mittagsstunde, grenzenlosen Schnee überschauend, auf dem Gipfel des Brockens zwischen jenen ahnungsvollen Granitklippen, über mir den vollkommen klarsten Himmel, von welchem herab die Sonne gewaltsam brannte, so daß in der Wolle des Überrocks der bekannte branstige Geruch erregt <pb n="602" facs="#f0008"/>
+ward. Unter mir sah ich ein unbewegliches Wogenmeer nach allen Seiten die Gegend überdecken und nur durch höhere und tiefere Lage der Wolkenschichten die darunter befindlichen Berge und Täler andeuten.</p>
+            <p rendition="#et">Die herrliche Erscheinung farbiger Schatten bei untergehender Sonne ist in meinem Entwurf der »Farbenlehre« im 75. Paragraphen umständlich beschrieben.</p>
+            <p>Du stehst mit unerforschtem Busen</p>
+            <p>Geheimnisvoll offenbar</p>
+            <p>Über der erstaunten Welt</p>
+            <p>Und schaust aus Wolken</p>
+            <p>Auf ihre Reiche und Herrlichkeit,</p>
+            <p>Die du aus den Adern deiner Brüder</p>
+            <p>Neben dir wässerst.</p>
+            <p>Hier ist leise auf den Bergbau gedeutet. Der unerforschte Busen des Hauptgipfels wird den Adern seiner Brüder entgegengesetzt. Die Metalladern sind gemeint, aus welchen die Reiche der Welt und ihre Herrlichkeit gewässert werden.</p>
+            <p rendition="#et">Eine vorläufige Anschauung dieser wichtigen Geschäftstätigkeit sich zu verschaffen, welches ihm auch gelang, veranlaßte zum Teil das seltsame Unternehmen, wovon das gegenwärtige Gedicht allerdings mysteriose, schwer zu deutende Spuren enthält.</p>
+            <p>Das Thema desselben wäre also wohl folgendermaßen auszusprechen: Der Dichter, in doppelter Absicht, ein unmittelbares Anschauen des Bergbaues zu gewinnen und einen jungen, äußerst hypochondrischen Selbstquäler zu besuchen und aufzurichten, bedient sich der Gelegenheit, daß engverbundene Freunde zur Winterjagdlust ausziehen, um sich von ihnen auf kurze Zeit zu trennen.</p>
+            <p rendition="#et">So wie sie die rauhe Witterung nicht achten, unternimmt er nach seiner Seite hin jenen einsamen, wunderlichen Ritt. Es glückt ihm nicht nur, seine Wünsche erfüllt zu sehen, sondern auch durch eine ganz eigene Reihe von Anlässen, <pb n="603" facs="#f0009"/>
+Wanderungen und Zufälligkeiten auf den beschneiten Brockengipfel zu gelangen. Von dem, was ihm während dieser Zeit durch den Sinn gezogen, schreibt er zuletzt kurz, fragmentarisch, geheimnisvoll, im Sinn und Ton des ganzen Unternehmens kaum geregelte rhythmische Zeilen.</p>
+            <p rendition="#et">Durch einen ziemlichen Umweg schließt er sich wieder an die Brüder der Jagd, teilt ihre tagtäglichen heroischen Freuden, um nachts in Gegenwart einer prasselnden Kaminflamme sie durch Erzählung seiner wunderlichen Abenteuer zu ergötzen und zu rühren.</p>
+            <p>Mein werter Kommentator wird hieraus mit eignem Vergnügen ersehen, wie er so vollkommen zum Verständnis des Gedichtes gelangt sei, als es ohne die Kenntnis der besonders vorwaltenden Umstände möglich gewesen; er findet mich an keiner Stelle mit ihm in Widerstreit, und wenn das Reelle hie und da das Ideelle einigermaßen zu beschränken scheint, so wird doch dieses wieder erfreulich gehoben und ins rechte Licht gestellt, weil es auf einer wirklichen, doch würdigen Base emporgehoben worden. Gibt man nun aber dem Erklärer zu, daß er nicht gerade beschränkt sein soll, alles, was er vorträgt, <hi rendition="#i">aus</hi> dem Gedicht zu entwickeln, sondern daß er uns Freude macht, wenn er manches verwandte Gute und Schöne <hi rendition="#i">an</hi> dem Gedicht entwickelt, so darf man diese kleine gehaltreiche Arbeit durchaus billigen und mit Dank erkennen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

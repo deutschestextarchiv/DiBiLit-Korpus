@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Nach Sibirien</title>
+            <title type="volume">Bd. 03</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118818651">
+                  <forename>Karl</forename>
+                  <surname>May</surname>
+                  <addName>Emma Pollmer</addName>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-05T14:55:25Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005369126</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/May, Karl/Einzelne Erzählungen/Nach Sibirien</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/sbqt.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0004-31BA-2</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Nach Sibirien. Von Emma Pollmer. In: Frohe Stunden. 2. Jg. Dresden, Leipzig (1878). Nr. 49</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="a" type="main">Nach Sibirien</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118818651">
+                        <forename>Karl</forename>
+                        <surname>May</surname>
+                        <addName>Emma Pollmer</addName>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">795 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Bruno Radelli</name>
+                  </publisher>
+                  <pubPlace>Dresden, Leipzig</pubPlace>
+                  <date type="publication">1878</date>
+                  <date type="firstPublication">1877</date>
+                  <date type="firstPublication" subtype="clariah">1877</date>
+                  <date type="firstPublication" subtype="zeno">1877</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1842"
+                        notAfter="1878"/>
+               </publicationStmt>
+               <seriesStmt>
+                  <title level="j" type="main">Frohe Stunden</title>
+                  <biblScope unit="volume">2. Jg.</biblScope>
+                  <biblScope unit="issue">Nr. 49</biblScope>
+                  <biblScope unit="pages">S. 773–776</biblScope>
+               </seriesStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#BMay-Karl-d1e559642">Von Emma Pollmer. In: Frohe Stunden. Unterhaltungsblätter für Jedermann. Sammlung der neuesten und besten Romane und Novellen unserer beliebtesten Schriftsteller der Gegenwart. 2. Jg. Nr. 47–50. S. 741–742, 757–760, 773–776 u. 790–791. – Dresden, Leipzig: Bruno Radelli (1878). Reprint in: Erstdrucke Karl Mays in Faksimile-Ausgaben. Serie VI: Beiträge in der Zeitschrifft »Frohe Stunden« (1877/78). Hamburg: Karl-May-Gesellschaft 1971.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Einzelne Erzählungen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Prosa</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p rend="h4">
+               <pb n="773" facs="#f0001"/>
+3.</p>
+            <p rend="h3"/>
+            <p>Ueberlistet</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="May-Karl-d1e559642">
+            <p>Der Oberst, Graf von Milanow saß in einem Zimmer seines Palais zu Petersburg und beschäftigte sich sehr angelegentlich damit, den Rauch seiner duftenden Cigarre in wohlgeformten Ringeln gegen die Decke zu blasen. Er schien sehr guter Laune zu sein, wie seine aufgeheiterte Miene bewies, und diese fröhliche Stimmung wurde erhöht, als sich leise die Thür öffnete, um einem Wesen Eintritt zu gestatten, wie es liebreizender und verführerischer wohl kaum gedacht werden konnte. Das leichte, durchsichtige Gewand ließ die herrlichen Formen mehr erblicken als errathen, und die Weise, wie das schöne Wesen sich in seine Arme schmiegte, hätte wohl auch einen Anderen, als er war, nicht kalt gelassen.</p>
+            <p rendition="#et">»Wanka, Du wirst von Tag zu Tag reizender!«</p>
+            <p rendition="#et">»Und Du von Tag zu Tag liebenswürdiger.«</p>
+            <p rendition="#et">»Kann man Dir gegenüber anders sein?«</p>
+            <p rendition="#et">»Schmeichler!«</p>
+            <p rendition="#et">»Engel!«</p>
+            <p rendition="#et">»Geh'! Zu diesem heiligen Stande fehlt mir die Begabung!«</p>
+            <p rendition="#et">»Nicht doch! Du hast die nöthigen Talente bei der alten Smirnoff wundervoll entfaltet.«</p>
+            <p rendition="#et">»Doch nur, um mich dann als Teufel oder Drache zu entpuppen. Wie schade, daß der Streich mißlang – die herrlichen Juwelen –!«</p>
+            <p rendition="#et">»Die Hunderttausende, die sie an Werth besaßen! Ich hätte mit ihnen meinen Gläubigern den Mund gestopft.«</p>
+            <p rendition="#et">»Und mir wäre die armselige Haft erspart geblieben, an die ich lebenslang gedenken werde.«</p>
+            <p rendition="#et">»Und die Verbannung nach Sibirien.«</p>
+            <p rendition="#et">»Pah! Der Günstling eines Zaaren ist allmächtig.«</p>
+            <p rendition="#et">»Inwiefern, Du holde Zuversicht?«</p>
+            <p rendition="#et">»Ich bekam ein Pulver in mein Gefängniß geschickt und – nahm es ein. Ich mußte darauf schlafen, fest und lange, und als ich erwachte, war ich bei Dir. Aber sag, ist Iwan auch frei?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Und wo befindet er sich?«</p>
+            <p rendition="#et">»Im Auslande für immer.«</p>
+            <p rendition="#et">»Welches Aussehen muß unsere Befreiung erregt haben?«</p>
+            <p rendition="#et">»Keines. Die Behörde weiß es nicht anders, als daß Ihr nach Sibirien transportirt und unterwegs entsprungen seid.«</p>
+            <p rendition="#et">»Könnten wir doch diesen impertinenten Deutschen mit seiner schmachtenden Paulowna an unserer Stelle dorthin schicken!«</p>
+            <p rendition="#et">»Meinst Du –?« dehnte der Graf mit einer Miene, über welche ein mephistopholisches Lächeln zuckte.</p>
+            <p rendition="#et">»Ja, wenn es möglich wäre.«</p>
+            <p rendition="#et">»Sagtest Du nicht soeben, der Günstling eines Zaaren sei allmächtig?«</p>
+            <p rendition="#et">»Das soll heißen?«</p>
+            <p rendition="#et">»Unsere Wünsche begegnen sich wie immer, so auch hier.«</p>
+            <p rendition="#et">»Ah –!«</p>
+            <p rendition="#et">»Du kennst meine Verhältnisse. Die Gräfin Smirnoff ist gestorben, man sagt, in Folge der Aufregung, in welche sie damals durch die Enttäuschung über Deine Frömmigkeit versetzt wurde. Dieser Baron Felsen hat Paulowna geheirathet, natürlich mit ihrem ganzen, unermeßlichen Vermögen. Begegnete ihnen etwas Menschliches, so – gehörte die Grafschaft mir.«</p>
+            <p rendition="#et">»Folglich?«</p>
+            <p rendition="#et">»Was, folglich?«</p>
+            <p rendition="#et">»Nun, war Deine Rede nicht ein Vordersatz?«</p>
+            <p rendition="#et">»Vielleicht.«</p>
+            <p rendition="#et">»So bin ich begierig, den Nachsatz zu hören.«</p>
+            <p rendition="#et">»Kannst Du ihn Dir nicht denken?«</p>
+            <p rendition="#et">»Seine Art und Weise wohl, nicht aber seinen Inhalt.«</p>
+            <p rendition="#et">»Wolltest Du die Beiden nicht nach Sibirien schicken?«</p>
+            <p rendition="#et">»Mit Vergnügen. Aber wie?«</p>
+            <p rendition="#et">»Durch ein Verwechselung.«</p>
+            <p rendition="#et">»Ah, das ist originell! Aber mit wem?«</p>
+            <p rendition="#et">»Mit – rathe einmal.«</p>
+            <p rendition="#et">»Ich rathe es nicht. Mit –?«</p>
+            <p rendition="#et">»Mit Iwan und Dir.«</p>
+            <p rendition="#et">»Mensch, Du bist entweder ein Teufel oder ein großes Genie.«</p>
+            <p rendition="#et">»Keines von Beiden, aber ich muß diesem Deutschen beweisen, daß seine Diplomatie sich mit der russischen Klugheit nicht zu messen vermag.«</p>
+            <p rendition="#et">»Aber man wird, man muß die Verwechslung entdecken!«</p>
+            <p rendition="#et">»Gewiß, aber zu spät. Es ist noch Winter; sie halten die fürchterliche Anstrengung nicht aus, sie sterben, sie – pah, ich bin der Erbe und werde die Sache also schon zu arrangiren wissen!«</p>
+            <p rendition="#et">»Es gehört sehr viel Muth und noch mehr Klugheit dazu.«</p>
+            <p rendition="#et">»Ich versichere Dir, daß keins von Beiden fehlt. Uebrigens hast Du diesen Gedanken nicht etwa in mir erweckt; er war schon längst vorhanden, und seine Ausführung ist schon so weit vorbereitet, daß ich nur noch auf den geeigneten Zeitpunkt warte.«</p>
+            <p rendition="#et">»Wann wird dies sein?«</p>
+            <p rendition="#et">»Wenn der Baron nach Taschka reist.«</p>
+            <p rendition="#et">
+               <pb n="791" facs="#f0002"/> »Was ist Taschka.«</p>
+            <p rendition="#et">»Eines seiner Güter. Es liegt jenseits der Dwina und liegt mitten in den herrlichsten Forsten. Er war noch nicht da, und ich weiß aus sicherer Quelle, daß er in Begleitung seiner Frau, vielleicht schon in wenigen Tagen, hingehen wird, um einige große Jagden abzuhalten.«</p>
+            <p rendition="#et">»Jetzt begreife ich. Nur deshalb hat es geheißen, daß wir auf der Flucht nach Sibirien entsprungen seien.«</p>
+            <p rendition="#et">»Dein Scharfsinn bringt Dich auf die richtige Spur. Einen kaiserlichen Erlaß zu erhalten ist mir leicht, und selbst wenn das nicht wäre, so kann ich stets zu den Blanquets des kaiserlichen Sekretariats.«</p>
+            <p rendition="#et">»Wäre ich doch auch der Günstling irgend eines hohen Herrn!«</p>
+            <p rendition="#et">»Bist Du es denn nicht schon?« frug er, mit ihrem aufgelösten Haare spielend.</p>
+            <p rendition="#et">»Wohl der Deinige?«</p>
+            <p rendition="#et">»Ich denke.«</p>
+            <p rendition="#et">»Dann ist mir wohl auch nichts unmöglich?«</p>
+            <p rendition="#et">»Blos das, was absolut unmöglich ist.«</p>
+            <p rendition="#et">»Darf ich eine Probe machen?«</p>
+            <p rendition="#et">Er nickte zustimmend.</p>
+            <p rendition="#et">»Wo wird die Verwechslung stattfinden?«</p>
+            <p rendition="#et">»An der Dwina.«</p>
+            <p rendition="#et">»Welche Freude, den Spaß mit ansehen zu können!«</p>
+            <p rendition="#et">»Deine Bitte ist Dir gewährt. Ich hätte mir auch ohne sie die Genugthuung nicht versagt, sie im Schlitten der Verbannten zu sehen und ihnen zu zeigen, wem sie es zu verdanken haben. Der dortige Gouverneur ist mir zu Dank verpflichtet; meine Wünsche sind für ihn Befehl.« –</p>
+            <p rendition="#et">Es war einige Wochen später, als über die unwegsame, hartgefrorene und beschneiete Fläche eines der raschen russischen Dreigespanne den Niederungen der Waga, eines Nebenflusses der Dwina zusaußte.</p>
+            <p rendition="#et">In dem Innern des Schlittens saß ein Herr und eine junge Dame, beide vorsorglich in kostbare Pelze eingehüllt.</p>
+            <p rendition="#et">»Ho – hü, mein Liebchen, mein Täubchen, schnell, mein Engel, immer rascher, Du Abgott meiner Seele – lauf, mein Schätzchen,« so feuerte der bärtige Kutscher nach der Art aller sarmatischen Pferdelenker in zärtlichen Ausdrücken seine Thiere zur Eile an.</p>
+            <p rendition="#et">Es wurde in rasendem Laufe Strecke um Strecke zurückgelegt, bis in der Ferne ein dunkler Gegenstand aus der weißen, schimmernden Schneefläche tauchte, der sich beim Näherkommen als eine Fährhütte erwies.</p>
+            <p rendition="#et">Sie stand an dem Ufer der Waga.</p>
+            <p rendition="#et">Der Herr des Schlittens ließ vor ihr halten. Der Fährmann eilte herbei.</p>
+            <p rendition="#et">»Ist das Eis fest genug?«</p>
+            <p rendition="#et">»So fest wie Eisen, Herr.«</p>
+            <p rendition="#et">»Weißt Du es gewiß?«</p>
+            <p rendition="#et">»Gewiß, Väterchen. Erst gestern ist eine vornehme Herrschaft hinüber, und heut ist die Kälte größer.«</p>
+            <p rendition="#et">»Wer war diese Herrschaft?«</p>
+            <p rendition="#et">»Ein Herr und ein Weibchen. Der Kutscher stieg ab und holte heißen Thee von meinem Feuer. Der Herr ist Oberst und heißt Graf Milanow.«</p>
+            <p rendition="#et">Der Frager stutzte.</p>
+            <p rendition="#et">»Hast Du den Namen recht gehört?«</p>
+            <p rendition="#et">»Genau, mein Väterchen.«</p>
+            <p rendition="#et">»Wie weit ist's bis zur Dwina?«</p>
+            <p rendition="#et">»Wenn die Pferde aushalten, ist vor Nacht noch Schloß Dwianka erreicht.«</p>
+            <p rendition="#et">»Dahin will ich.«</p>
+            <p rendition="#et">»Der Oberst auch.«</p>
+            <p rendition="#et">»Ah –!«</p>
+            <p rendition="#et">Er warf einen nachdenklichen Blick auf die neben ihm sitzende Dame.</p>
+            <p rendition="#et">»Hat er selbst es Dir gesagt?«</p>
+            <p rendition="#et">»Nein, der Kutscher.«</p>
+            <p rendition="#et">»Gut, ich danke. Hier hast Du Etwas zum Thee!«</p>
+            <p rendition="#et">Er warf ihm ein Geldstück zu und gab dann das Zeichen, die Fahrt fortzusetzen.</p>
+            <p rendition="#et">»Was sagst Du zu der Reise des Obersten, Paulowna?«</p>
+            <p rendition="#et">»Zufall, oder nicht?«</p>
+            <p rendition="#et">»Vielleicht. Hm –! Der Gouverneur ist auf Dwianka anwesend, wie ich hörte. Wir sahen uns in Paris und dann in London; wir waren Freunde <hi rendition="#i">pour passer le temps,</hi> aber ich weiß nicht, ob er sich meiner noch erinnern wird. Ich wollte ihn aufsuchen und fahre auf keinen Fall vorüber, selbst wenn der Oberst bei ihm ist. Die Nacht ist da und der Wald voll Wölfe; wir müssen bei ihm absteigen.«</p>
+            <p rendition="#et">Er legte sich in die Kissen zurück und schwieg. Die Begegnung mit Milanow schien ihn doch mehr zu beschäftigen, als er merken lassen wollte.</p>
+            <p rendition="#et">Die Aussage des Fährmannes erwies sich als Wahrheit. Noch war die Nacht nicht vollständig hereingebrochen, so erhoben sich vor den Reisenden die dunklen Mauern von Schloß Dwianka. Der Schlitten lenkte durch das breite, offene Thor in den geräumigen Hof ein und hielt vor dem Portale, zu welchem einige Stufen emporführten. Ein graubärtiger Beamter kam herbei.</p>
+            <p rendition="#et">»Dieses Schloß gehört den Grafen Sorgeneff.«</p>
+            <p rendition="#et">»So ist es, Herr.«</p>
+            <p rendition="#et">»Ist der Graf zugegen?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Melde uns!«</p>
+            <p rendition="#et">Er zog aus der Tasche ein Portefeuille, entnahm demselben eine Karte und reichte sie dem Manne. Dieser klatschte einige Male laut in die Hände und sofort eilten mehrere Diener, welche bisher unsichtbar gewesen waren, herbei, um der Herrschaft aus dem Schlitten zu helfen.</p>
+            <p rendition="#et">Der Kutscher lenkte den Letzteren in eine Wagenremise, ließ sich für seine Pferde einen Stall anweisen, versorgte sie und begab sich dann nach der Bedientenstube. Hier verneigte er sich vor dem in einer Ecke hängenden Bilde eines Schutzheiligen, grüßte die Anwesenden und nahm an einem der schmalen, kleinen Fenster Platz.</p>
+            <p rendition="#et">
+               <pb n="792" facs="#f0003"/> Ganz gegen die Gewohnheit der redseligen Großrussen hatte man kaum einige kurze Worte für ihn; er mußte sich Essen und Trinken selbst fordern und ging endlich verdrießlich wieder dem Stalle zu, um nach seinen Pferden zu sehen. Ueberrascht blieb er unter der Thür stehen. Der Schein der Laterne war auf ein bekanntes Gesicht gefallen.</p>
+            <p rendition="#et">»George, ist's möglich – Du hier?«</p>
+            <p rendition="#et">»Theodor, also wirklich, ich habe Dich sofort erkannt, wenn Du auch diesen verteufelten russischen Bart trägst. Ich wußte schon seit einer Woche, daß der Baron von Felsen kommen werde. Ich muß Dich sprechen, aus alter Freundschaft, aber im Verborgenen.«</p>
+            <p rendition="#et">Er löschte die Laterne aus und zog ihn hinter einige Strohbündel.</p>
+            <p rendition="#et">Nach einiger Zeit trat Theodor, der seinen Herrn gegenwärtig als Kutscher begleitete, in den Hof hin aus, schritt die Treppe empor und begab sich in die Gemächer, welche dem Baron mit seiner Gemahlin angewiesen waren. Beide waren mit ihrer Toilette zum Souper beschäftigt.</p>
+            <p rendition="#et">»Herr Baron!«</p>
+            <p rendition="#et">»Nun?«</p>
+            <p rendition="#et">»Der Oberst ist da.«</p>
+            <p rendition="#et">»Ich weiß es, obgleich Graf Sorgeneff es verheimlichen will.«</p>
+            <p rendition="#et">»Der Graf hat von dem Obersten vor acht Tagen diese Zeilen erhalten.«</p>
+            <p rendition="#et">Er überreichte, ihn auseinander faltend, einen Brief. Der Baron las ihn und konnte ein plötzliches Erbleichen nicht verbergen.</p>
+            <p rendition="#et">»Wer gab Dir diese Zeilen?«</p>
+            <p rendition="#et">»George, der Leibdiener des Grafen Sorgeneff. Wir haben uns lieb von Paris und London her; er hat ihn seinem Herrn entwendet, um uns zu warnen.«</p>
+            <p rendition="#et">»Um Gotteswillen, was ist es?« frug die Baronin ängstlich.</p>
+            <p rendition="#et">»Nichts als eine neue Schlechtigkeit von Seiten des Obersten. Du weißt, daß die beiden Verbrecher Iwan und Wanka auf der Flucht nach Sibirien entsprungen sind. Wir sollen mit ihnen identisch erklärt und jenseits der Dwina festgenommen werden, um nach Nertschinsk zu gehen. Der Befehl, zwei Personen, die mit einem auf Baron und Baronin von Felsen lautenden Paß reisen, sofort festzunehmen und schleunigst unter Abschließung von allem Verkehr über den Ural zu transportiren, ist vom Zaaren unterzeichnet und von dem Obersten dem Grafen eigenhändig übergeben worden. Dieser ist Gouverneur und hat das jenseitige Ufer besetzen lassen. Darum also that er, als erkenne er mich nicht; darum verhielt er sich so außerordentlich zurückhaltend, daß er sich kaum die Mühe gab, uns zum Abendbrote einzuladen. Eine so verrätherische Gastfreundschaft kann nur ein Russe üben!«</p>
+            <p rendition="#et">»Giebt es keine Reitung?« frug die Baronin, zitternd vor Angst.</p>
+            <p rendition="#et">»George meinte,« fiel Feodor oder Theodor, wie sein deutscher Name lautete, ein, »es sei das Beste, sofort wieder anzuspannen und heimlich aber schleunigst zurückzukehren. Ein Glück, daß uns die Freundschaft dieses braven Menschen noch zur rechten Zeit warnt!«</p>
+            <p rendition="#et">»Hm – ja – doch –« besann sich der Baron – »ha, wie, wenn ich ihn in die eigene Grube stürzte? Wird dieser Georg einmal unbemerkt zu mir kommen können?«</p>
+            <p rendition="#et">»Ich werde sehen!«</p>
+            <p rendition="#et">Feodor entfernte sich und brachte nach kurzer Zeit den Verlangten herbeigeführt.</p>
+            <p rendition="#et">»Sie sind ein Franzose?« frug diesen der Baron.</p>
+            <p rendition="#et">»Ja. Der Graf Sorgeneff engagirte mich in Paris. Aber ich hasse diese Russen.«</p>
+            <p rendition="#et">»Warum bleiben Sie bei ihm?«</p>
+            <p rendition="#et">»Mein Gehalt ist gut, und in einem russischen Hauswesen kann man sich leicht ein Sümmchen zurücklegen. Ich möchte mich bald zur Ruhe setzen.«</p>
+            <p rendition="#et">»Ah so! Wollen Sie sich diese Tausendrubelnote verdienen?«</p>
+            <p rendition="#et">»Tausend Rubel? Gern, sofort! Aber wodurch?«</p>
+            <p rendition="#et">»Reist der Oberst allein? Ich hörte, eine Dame sei bei ihm. Der Fährmann an der Waga berichtete mich so.«</p>
+            <p rendition="#et">»Es ist eine Dame bei ihm, ob Gemahlin oder Schwester oder – ich weiß es nicht.«</p>
+            <p rendition="#et">»Gemahlin jedenfalls nicht, aber es befördert meinen Zweck. Hier ist mein Paß. Er lautet auf Baron und Baronin von Felsen. Wenn Sie ihn mit dem Passe des Obersten umzutauschen vermögen, gehört die Note Ihnen.«</p>
+            <p rendition="#et">Der Diener besann sich. Ein schadenfrohes Lächeln glitt über seine intelligenten Züge.</p>
+            <p rendition="#et">»Ich verstehe Sie vollkommen, Herr Baron. Der Verräther soll an Ihrer Stelle nach Sibirien gehen. Verdient hat er es, und es soll mir, auch abgesehen von der Note, eine Befriedigung gewähren, ihn mit seinem eigenen Schmutze zu waschen. Vertrauen Sie mir den Paß an. Sie gehen jetzt zur Tafel, die nicht lange währen wird, denn später wird für den Obersten gedeckt. Während er da aus seinem Zimmer abwesend ist, werde ich sehen, was zu machen ist.«</p>
+            <p rendition="#et">»Schön. Ich werde mir nicht das geringste Mißtrauen merken lassen. Jetzt gehen Sie. Man könnte Sie leicht vermissen!«</p>
+            <p rendition="#et">Georg und Feodor traten ab.</p>
+            <p rendition="#et">»Du spielst ein gefährlich Spiel,« meinte Paulowna besorgt.</p>
+            <p rendition="#et">»Nicht gefährlicher als das seine. Ich durchschaue ihn. Nicht nach Sibirien, sondern in den Tod will er uns schicken, damit Dein Erbe seine Schulden decke. Er soll in die Schlinge gehen, die er mir stellt, und der Gouverneur – pah, das wird sich finden!«</p>
+            <p rendition="#et">Sie beendeten ihre Toilette und standen eben im Begriff, sich nach dem Speisesaal zu begeben, als Feodor wieder eintrat.</p>
+            <p rendition="#et">»Herr Baron, eine außerordentliche Neuigkeit!«</p>
+            <p rendition="#et">»Welche?«</p>
+            <p rendition="#et">»Ich war neugierig, den Obersten, der sich verbirgt, zu sehen. Georg führte mich in ein Zimmer, welches von demjenigen <pb n="793" facs="#f0004"/> des Obersten nur durch eine Thür getrennt ist. Ich hörte leise sprechen und blickte durch das Schlüsselloch. Rathen Sie, wen ich sah!«</p>
+            <p rendition="#et">»Nun?«</p>
+            <p rendition="#et">»Wanka, die Gesellschafterin.«</p>
+            <p rendition="#et">»Nicht möglich; Du hast Dich geirrt!«</p>
+            <p rendition="#et">»Keineswegs; sie war es sicher und gewiß. Ich hörte später sogar auch ihre Stimme.«</p>
+            <p rendition="#et">»Das wäre ja ganz außerordentlich!« meinte Paulowna.</p>
+            <p rendition="#et">»Dem Obersten ist Alles zuzutrauen,« wendete der Baron ein. »Er war unbedingt der Mitschuldige der beiden Gauner, wie mir das Gespräch derselben an der Gartenpforte bewies Er vermag viel und – kann sie gerettet haben. Iwan ist verschwunden; Wanka ist schön; sie dient ihm als Zeitvertreib, bis – bis sie ihm lästig wird. Und das Gerücht von dem Entspringen auf der Reise nach Sibirien wurde ausgestreut, um seinen jetzigen Coup einzuleiten. Je mehr ich darüber nachdenke, desto mehr glaube ich, daß Du Dich nicht geirrt hast, Feodor. Aber dann ist der Oberst verloren. Seine Reise geht durch Taschka, wo ich Gerichtsherr bin; ich eile ihm voraus und werde seine und die Identität der Gaunerin feststellen. Der Kaiser soll den ganzen sauberen Plan erfahren!«</p>
+            <p rendition="#et">Er reichte Paulowna den Arm, um sie zum Souper zu führen. Nur der Wirth war bei demselben anwesend. Es ging sehr einsilbig zu, und die Speisen wurden kaum berührt. Der Baron versicherte, daß er und viel mehr seine Gemahlin sehr ermüdet sei und erhob sich, gute Nacht wünschend.</p>
+            <p rendition="#et">In ihre Zimmer zurückgekehrt, legte sich die Baronin zur Ruhe; von Felsen aber löschte sein Licht aus und harrte im Dunkeln auf Georg. Es vergingen einige Stunden, ehe dieser kam.</p>
+            <p rendition="#et">»Herr Baron es ist gelungen!«</p>
+            <p rendition="#et">»Wirklich?«</p>
+            <p rendition="#et">»Ja. Der Oberst hatte die Brieftasche mit den Papieren in der Tasche seines Pelzes. Hier ist sein Paß, an dessen Stelle sich der Ihrige befindet!«</p>
+            <p rendition="#et">Der Baron brannte das Licht an, um sich von der Aechtheit des Documentes zu überzeugen.</p>
+            <p rendition="#et">»Es ist richtig, hier haben Sie die Note.«</p>
+            <p rendition="#et">»Danke! Noch Eins. Acht Uhr Morgens ist es noch finster. Sieben ein halb Uhr wird der Oberst abreisen, um Ihnen drüben zu begegnen, wenn Sie sich im Transportschlitten befinden.«</p>
+            <p rendition="#et">»Ah, er will auf mich warten und sich an meinem muthmaßlichen Grimme weiden. Ihrer Hülfe habe ich es zu verdanken, daß es anders kommt. Wann werden Sie Ihren Dienst verlassen?«</p>
+            <p rendition="#et">»Wahrscheinlich schon im Frühjahre.«</p>
+            <p rendition="#et">»Sollten Sie irgend welcher Hülfe bedürfen, so sprechen Sie in Petersburg bei mir vor. Gute Nacht!«</p>
+            <p rendition="#et">»Werde nicht verfehlen. Gute Nacht!« – – –</p>
+            <p rendition="#et">Noch ruhte am andern Morgen tiefe Dunkelheit auf der Umgebung des Schlosses, als ein Schlitten leise aus dem Thore desselben gelenkt wurde. In seinem Innern saß der Oberst mit Wanka.</p>
+            <p rendition="#et">Im Walde angekommen, welcher sich bis zur Dwina zog, hieb der Kutscher auf die Pferde ein, die sich sofort in den ihnen geläufigen gestreckten Galopp setzten.</p>
+            <p rendition="#et">»Endlich, endlich sind wir der Genugthuung nahe!« meinte der Oberst.</p>
+            <p rendition="#et">Wanka schwieg, aber ihre Freude über die nun sicher gelingende Rache war eine nicht geringere als die seinige.</p>
+            <p rendition="#et">Der Schnee leuchtete; der Morgen dämmerte herein. Es war vollständig hell, als der Schlitten das Ufer des Flusses erreichte. An dem jenseitigen waren mehrere in regelmäßigen Intervallen aufgestellte Posten zu sehen, welche sich bei dem Anblicke des Schlittens an einem diesem grad gegenüber liegenden Punkte vereinigten.</p>
+            <p rendition="#et">»Fahr zu. Das Eis hält!« gebot der Oberst.</p>
+            <p rendition="#et">Der Schlitten ging im Trabe über den Fluß. Auf der jenseitigen Höhe angekommen, gewahrte der Oberst ein zweites Geschirr, welches in der Nähe unter den Bäumen hielt.</p>
+            <p rendition="#et">»Halt!« gebot der Anführer der Kossaken.</p>
+            <p rendition="#et">Der Kutscher gehorchte dem Rufe.</p>
+            <p rendition="#et">»Den Paß!«</p>
+            <p rendition="#et">Der Oberst zog die Brieftasche hervor, nahm den Paß heraus und reichte ihn hin. Der Offizier warf einen Blick hinein.</p>
+            <p rendition="#et">»Aussteigen!«</p>
+            <p rendition="#et">»Wieso?«</p>
+            <p rendition="#et">»Aussteigen!«</p>
+            <p rendition="#et">»Wieso, frage ich?«</p>
+            <p rendition="#et">»Aussteigen, sage ich!«</p>
+            <p rendition="#et">»Oho, den Grund will ich wissen!«</p>
+            <p rendition="#et">Der Offizier langte ruhig nach seinem Sattel, um den Kantschu loszumachen.</p>
+            <p rendition="#et">»Aussteigen, sonst helfe ich nach!«</p>
+            <p rendition="#et">»Was soll die Knute? Fort mit ihr, und zwar augenblicklich! Der Oberst, Graf von Milanow könnte Euch sonst schlecht verstehen!«</p>
+            <p rendition="#et">»Oberst –? Graf Milanow? Ist das Ihr Paß?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Wirklich?«</p>
+            <p rendition="#et">»Zum Teufel, ja.«</p>
+            <p rendition="#et">»Schön! Hier steht Baron von Felsen nebst Gemahlin. Heraus aus dem Schlitten! Ich bin Hetman und weiß, was ich zu thun habe.«</p>
+            <p rendition="#et">Er hielt dem Obersten den Paß vor das Gesicht. Dieser las die Namen; ein fürchterlicher Schlag durchzuckte seinen Körper, und ehe er sich nur auf Gegenwehr besinnen konnte, war er seiner Waffen beraubt, mit seiner Begleiterin aus dem Schitten gerissen und zu dem andern geschleppt, welcher mit ihnen und unter zahlreicher Bedeckung davonsaußte. – – –</p>
+            <p rendition="#et">
+               <pb n="790" facs="#f0006"/>
+Nach kurzer Zeit kam ein anderer Schlitten über den Fluß herüber. Kein »Halt!« erscholl, Niemand hielt ihn auf; die Kossaken hatten Den, auf den sie warteten und waren fort. Nur der Schnee zeigte deutliche Spuren des vorübergegangenen Ereignisses.</p>
+            <p rendition="#et">»Gefangen!« jubelte der Baron. »Vorwärts, Feodor, damit wir sie umfahren und in Taschka erwarten können!«</p>
+            <p rendition="#et">Es mußte zu diesem Zwecke ein Umweg gemacht werden. Aber die Pferde waren gut und hatten sich ausgeruht. Am Nachmittage wurde das Schloß erreicht.</p>
+            <p rendition="#et">Die Bewohner der reichen Besitzung waren von der Ankunft ihres Herrn unterrichtet und hatten sich versammelt, um ihm einen festlichen Empfang zu bereiten. Sie wurden auf das Schloß geladen, in dessen Räumen ihnen der Baron ein Festmahl bereiten ließ.</p>
+            <p rendition="#et">Während desselben und als es bereits dunkel war, fuhr ein Schlitten vor, welcher von einer Kossakentruppe scharf bewacht wurde.</p>
+            <p rendition="#et">Der Anführer derselben stieg ab und ließ sich, ohne vorher weiter zu fragen, bei dem Besitzer des Schlosses melden.</p>
+            <p rendition="#et">»Wie heißt das Schloß?«</p>
+            <p rendition="#et">»Taschka.«</p>
+            <p rendition="#et">»Wem gehört es?«</p>
+            <p rendition="#et">»Mir, dem Baron von Felsen.«</p>
+            <p rendition="#et">»Felsen – –?« rief erstaunt der Frager.</p>
+            <p rendition="#et">»Wie Sie hören!«</p>
+            <p rendition="#et">»Teufel! Giebt es mehrere Barone von Felsen.«</p>
+            <p rendition="#et">»Ja, aber nicht in Rußland.«</p>
+            <p rendition="#et">»So sind Sie es, dessen Namen man mißbraucht hat.«</p>
+            <p rendition="#et">»In wiefern?«</p>
+            <p rendition="#et">»Zwei Verbrecher, nach Sibirien verbannt, entsprangen während des Transportes. Man fing sie wieder. Sie hatten sich in den Besitz eines Passes gesetzt, lautend auf Sie und Gemahlin.«</p>
+            <p rendition="#et">»Ah! Sie kamen, um Relais zu verlangen?«</p>
+            <p rendition="#et">»Ja.«</p>
+            <p rendition="#et">»Zugestanden, doch kann ich die Pferde nicht eher verabfolgen, als bis Sie die Verbrecher mir vorgeführt haben.«</p>
+            <p rendition="#et">»Das darf ich nicht.«</p>
+            <p rendition="#et">»Sie meldeten mir ja selbst, daß sie meinen Namen mißbraucht haben.«</p>
+            <p rendition="#et">»So ist es.«</p>
+            <p rendition="#et">»Dann verfallen die Leute zunächst meiner Gerichtsbarkeit.«</p>
+            <p rendition="#et">»Sie gehören dem Kaiser.«</p>
+            <p rendition="#et">»Hier bin ich Kaiser. Oder kennen Sie die Gesetze nicht.«</p>
+            <p rendition="#et">Der Hetman besann sich.</p>
+            <p rendition="#et">»Werden Sie mir dieselben wieder ausliefern?«</p>
+            <p rendition="#et">»Sofort. Kennen Sie Namen und Stand der Leute?«</p>
+            <p rendition="#et">»Nein. Wer nach Sibirien geht, ist todt. Sie wurden mir übergeben und ich bringe sie nach Nordschinsk. Weiter weiß ich Nichts.«</p>
+            <p rendition="#et">»Gut. Geben Sie Ihre Befehle und lassen Sie sich verabreichen, was Sie und Ihre Mannschaft bedürfen!«</p>
+            <p rendition="#et">Der Baron rief Paulowna und seinen Diener herbei.</p>
+            <p rendition="#et">Nach einigen Minuten erschienen der Oberst und die Gesellschafterin, von Kossaken geführt und bewacht.</p>
+            <p rendition="#et">»Ihr habt Euch eines Passes bedient, welcher auf meinen – – –«</p>
+            <p rendition="#et">»Baron!« brüllte der Oberst, die Fäuste ballend, »ich werde – – –«</p>
+            <p rendition="#et">»Ruhe!« donnerte ihm dieser entgegen, und sich zu dem Hetman wendend, fügte er hinzu: »Sie haben die Knute. Ich verbiete diesen beiden Personen jedes Wort!«</p>
+            <p rendition="#et">Der Offizier griff zu dem erwähnten Instrumente, um es bei der leisesten Widersetzlichkeit in Anwendung zu bringen. Der Oberst schäumte, aber er mußte sich fügen.</p>
+            <p rendition="#et">»Ihr habt Euch eines Passes bedient, welcher auf meinen Namen lautet. Da Ihr dem Kaiser gehört, so kann ich Euch Nichts thun, aber ich muß um Auslieferung des Papieres ersuchen.«</p>
+            <p rendition="#et">Der Hetman griff ohne Widerrede in seine Uniform und überreichte den Paß. Er konnte ihn nicht verweigern.</p>
+            <p rendition="#et">»Ich habe nun blos noch zu bemerken, daß ich mit Hülfe dieser zwei Zeugen Eure Identität vor Seiner Majestät, dem Kaiser, erhärten werde. Der gerechte Herrscher aller Reußen wird Aufklärung erhalten darüber, wie Diamanten verloren gehen und Verbrecher bei dem Transporte entspringen. Fort mit Euch!« – –</p>
+            <p rendition="#et">Eine Reihe von Jahren war vergangen. Der Baron von Felsen hatte mit Gemahlin eine Reise nach Deutschland unternommen und bei dieser Gelegenheit Wiesbaden berührt.</p>
+            <p rendition="#et">Ein reicher, und wie es hieß, vornehmer Russe machte der Bank viel zu schaffen. Die Farbe, welche er setzte, gewann sicher. Felsen wurde neugierig, ihn zu sehen, und begab sich in die Spielsäle. Der Blick des Spielers fiel auf ihn und Felsen bemerkte, daß seine Hand zitterte und eine tiefe Blässe sein Gesicht überzog. Er wandte sich ab. Noch aber hatte er den Saal nicht verlassen, so legte sich eine Hand auf seinen Arm und eine leise Stimme bat:</p>
+            <p rendition="#et">»Baron, bitte, verrathen Sie mich nicht!«</p>
+            <p rendition="#et">Der Angeredete maß den Sprecher mit Eiseskälte vom Kopfe bis zum Fuß herab.</p>
+            <p rendition="#et">
+               <pb n="795" facs="#f0007"/> »Mein Herr, Sie haben doch wohl Nichts dagegen, daß ich Sie durchaus nicht kenne!«</p>
+            <p rendition="#et">Er schüttelte die Hand ab und trat ins Freie. Es war der vormalige Oberst, Graf von Milanow, welchem der Kaiser erlaubt hatte, Sibirien zu verlassen, doch unter der Bedingung, sich von Rußlands Grenzen fern zu halten.</p>
+            <p rendition="#et">Wanka, die schöne, fromme Gesellschafterin, war schon während des Transportes dem sibirischen Winter erlegen. Der kalte Norden bedeckte das Grab der Juwelenfreundin mit seinen flimmernden Krystallen.</p>
+            <p rendition="#et">Iwan Wessalowitsch blieb verschollen; es hat Niemand mehr ein Wort von ihm gehört. Es giebt eine ewige Gerechtigkeit, welche verordnet hat, daß eine jede Sünde den Kaim der sicheren Strafe in sich trägt. – – –</p>
+         </div>
+      </body>
+   </text>
+</TEI>

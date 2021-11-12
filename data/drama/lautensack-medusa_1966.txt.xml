@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Medusa</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118570226">
+                  <forename>Heinrich</forename>
+                  <surname>Lautensack</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-01T12:23:06Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000263</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q56256257</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005241634</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lautensack, Heinrich/Dramen/Medusa</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rfmg.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-DBD4-3</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Heinrich Lautensack: Das verstörte Fest. Gesammelte Werke. München 1966</bibl>
+            <bibl>Heinrich Lautensack: Das verstörte Fest. Gesammelte Werke. Herausgegeben von Wilhelm Lukas Kristl, München: Carl Hanser Verlag, 1966.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Das verstörte Fest</title>
+                  <title level="m" type="sub">Gesammelte Werke</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118570226">
+                        <forename>Heinrich</forename>
+                        <surname>Lautensack</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Wilhelm Lukas</forename>
+                        <surname>Kristl</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">106 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1966</date>
+                  <date type="firstPublication">1904</date>
+                  <date type="firstPublication" subtype="clariah">1904</date>
+                  <date type="firstPublication" subtype="zeno">1904</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor">1904</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1881"
+                        notAfter="1919"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d3292e267">Erstdruck: Berlin (Gurlitt), 1904.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="helene" sex="FEMALE">
+                  <persName>Helene Kreiner</persName>
+               </person>
+               <person xml:id="joseph" sex="MALE">
+                  <persName>Joseph Kreiner (Sohn)</persName>
+                  <persName type="variant">Josephs Stimme</persName>
+               </person>
+               <person xml:id="heinrich" sex="MALE">
+                  <persName>Heinrich Hörmann</persName>
+                  <persName type="variant">Heinrichs Stimme</persName>
+               </person>
+               <person xml:id="die_zeitungsfrau" sex="FEMALE">
+                  <persName>Die Zeitungsfrau</persName>
+               </person>
+               <person xml:id="frau_kreiner" sex="FEMALE">
+                  <persName>Frau Kreiner</persName>
+               </person>
+               <person xml:id="herr_kreiner" sex="MALE">
+                  <persName>Herr Kreiner</persName>
+                  <persName type="variant">Herr Kreiners Stimme</persName>
+               </person>
+               <person xml:id="babette" sex="FEMALE">
+                  <persName>Babette</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d3292e267">
+      <front>
+         <div type="front">
+            <head>Heinrich Lautensack</head>
+            <head>Medusa</head>
+            <head>Aus den Papieren eines Mönches</head>
+         </div>
+         <div>
+            <head>[Motti]</head>
+            <lg>
+               <l>
+                  <pb n="85" facs="#f0001"/> .... tant il est vray que le Bien</l>
+               <l>se trove au-dessoubs du Mal, comme</l>
+               <l>le sol noble, qui recesle dedens son</l>
+               <l>cueur des trésors précieulx, gist</l>
+               <l>au-dessoubs de l'eau trousble et</l>
+               <l>brouillée ....</l>
+            </lg>
+            <bibl>(Philippe de Comines-Memoires.)</bibl>
+            <lg>
+               <l>.... l'art chrétien ne peut soutenir</l>
+               <l>le pas avec l'art moderne qu'en se</l>
+               <l>servant des mêmes moyens païens</l>
+               <l>et coupables et en dissimulant</l>
+               <l>autant que possible le but pieux</l>
+               <l>et croyant qu'il se propose ....</l>
+            </lg>
+            <bibl>(Lettre d'un Jesuite.)</bibl>
+            <pb n="85" facs="#f0002"/>
+         </div>
+         <div>
+            <head>Vorspiel</head>
+            <head>Improvisationen der Liebe</head>
+            <stage>Einer sitzt auf seinem Bette. Ein häßliches Mädchen – in ganz zerlumpter Gewandung –
+          tritt ein und bleibt ganz nahe an der Türe stehen.</stage>
+            <lg>
+               <l>Ich hab noch keinen gehabt auf der Welt,</l>
+               <l>denn mich hat noch keiner gemocht.</l>
+               <l>Da hab ich mich vor die Türen gestellt</l>
+               <l>und hab geklagt und gepocht ....</l>
+               <l>Und bin verstummt nach manchem Jahr</l>
+               <l>und hab nur noch geschaut,</l>
+               <l>wie eins dem andern Liebstes war</l>
+               <l>oder eine einem Braut ....</l>
+            </lg>
+            <lg>
+               <l>Weißt du's nicht? Hast du's gezählt?</l>
+               <l>Nun ist's eine Woche fast,</l>
+               <l>daß eine sich gegen einen verfehlt</l>
+               <l>und ihn darum gehaßt ....</l>
+               <l>Leidest noch immer? Sie war es nicht wert,</l>
+               <l>die eine, daß du dich gekränkt.</l>
+               <l>Die eine, die hat sich nicht lange gewehrt,</l>
+               <l>sich längst einem andern verschenkt ....</l>
+            </lg>
+            <lg>
+               <l>Hast du's nicht gewußt? Weh – ich seh es dir an,</l>
+               <l>du wußtest von keinem Geschehn!</l>
+               <l>Nun fühl ich, wie ich dir weh getan –</l>
+               <l>aber nun muß ich gehn ....</l>
+               <l>Muß gehen von einer zur andern Tür ...</l>
+               <pb n="86" facs="#f0003"/>
+               <l>gehen ... und immerzu ...</l>
+               <l>und wartet gar nicht weit von dir</l>
+               <l>einer wie du ....</l>
+            </lg>
+            <stage>Während der kommenden Strophen entkleidet sie sich langsam – wie auf Befehl seiner
+          Augen.</stage>
+            <lg>
+               <l>Sagte ich nicht, ich müsse gehn?</l>
+               <l>Bitte dich – laß mich fort!</l>
+               <l>Deine Augen dürfen so nicht sehn,</l>
+               <l>deine Augen sind wie ein Wort ....</l>
+               <l>Sind wie ein Wort von alters her,</l>
+               <l>ein Wort aus toter Zeit</l>
+               <l>das sprach zu mir einst irgendwer</l>
+               <l>und sah nur auf mein Kleid ....</l>
+            </lg>
+            <lg>
+               <l>Und sah nur auf mein Kleid und sah</l>
+               <l>wie du jetzt an mir empor.</l>
+               <l>Da ward ich nackt und mir selber nah,</l>
+               <l>so nah wie nie zuvor ....</l>
+               <l>Und war mir doppelt nah und sah</l>
+               <l>ihn knien vor mir wie dich,</l>
+               <l>wie du jetzt kniest – mir dreimal nah ....</l>
+               <l>Du kniest dich ganz in mich! ...</l>
+            </lg>
+            <lg>
+               <l>Nun kniest du in mir! ... Mein Haar ist grau,</l>
+               <l>meine Brüste sind viel zu alt,</l>
+               <l>mein Schoß ist der einer greisen Frau,</l>
+               <l>mein Blut ist kalt ...,</l>
+               <l>Aber dir ist, als müßtest du</l>
+               <l>wandeln mich aus dem Grund!</l>
+               <l>Und dir ist, als wüßtest du:</l>
+               <l>du würdest durch mich gesund! ...</l>
+               <pb n="87" facs="#f0004"/>
+               <l>So ... nackt vor dir ....</l>
+            </lg>
+            <stage>Sie liegt auf dem Bette und erbebt sich schwer während des Folgenden. Er steht
+          fern.</stage>
+            <lg>
+               <l>Hilf mir auf! ... Deine Hand! ...</l>
+               <l>Gib deine Hand! gib her! ...</l>
+               <l>Du stehst so stumm und abgewandt –</l>
+               <l>du kennst mich nicht mehr? ...</l>
+               <l>Häßlich ... eija! ... wo ist mein Kleid? ...</l>
+               <l>Ich meinte, ich fänd's wo ich's ließ! ...</l>
+               <l>Ich wußte nicht – ich war so weit –</l>
+               <l>daß es dein Fuß verstieß ....</l>
+            </lg>
+            <p>.......</p>
+            <p>....</p>
+         </div>
+         <pb n="88" facs="#f0005"/>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>Joseph Kreiner, Spielwarenhändler</castItem>
+               <castItem>Marie Kreiner, seine Frau</castItem>
+               <castGroup>
+                  <castItem>Joseph Kreiner, Kaufmann, z. Zt. Einjährig-Freiwilliger</castItem>
+                  <castItem>Helene Kreiner,</castItem>
+                  <roleDesc>deren Kinder</roleDesc>
+               </castGroup>
+               <castItem>Heinrich Hörmann, Schriftsteller, z. Zt. Einjährig- Freiwilliger</castItem>
+               <castItem>Babette, Köchin</castItem>
+               <castItem>Eine Zeitungsträgerin</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>In einer Kleinstadt.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>[Stücktext]</head>
+            <stage>Die Szene stellt ein Spielwarengeschäft dar. Eingang von der Straße große Glastüre
+          mit Glocke im Hintergrunde links vom Zuschauer. Auf der Szene große Stellagen mit
+          Nürnberger Spielwaren. Rechts führt eine Tür auf den Hausflur. Dicht neben dieser Tür ein
+          Sprachrohr, das in die Wohnung der Familie Kreiner hinaufsprechen läßt. Ein kleiner
+          Schreibtisch, zwei Stühle.</stage>
+            <stage>Gaslampen. Vorfrühling. Nachmittag.</stage>
+            <sp who="#helene">
+               <speaker>HELENE KREINER</speaker>
+               <stage>am Schreibtisch.</stage>
+               <stage>Mittelgroßes, schlankes Mädchen, 27 Jahre alt. Nickelkneifer. Lange Nase. Sehr
+            kleiner Mund. Schielt. Blond.</stage>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH KREINER</speaker>
+               <stage>zur Zeit Einjährig-Freiwilliger.</stage>
+               <p>
+                  <stage>In verstaubter Dienstuniform. Kleiner, dicker, blonder Kerl. 22 Jahre.</stage>
+            Weißt du, Helen, wie sie dich früher immer genannt haben?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>trotzdem sie es weiß.</stage>
+               <p>Nun?</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Medusa haben sie dich immer geheißen.</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Pepi.</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... der Heinz – der macht sich. Der Einzige von all meinen Schulkameraden, aus dem was
+            besonderes wird. Sicher! So'n Schriftsteller ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>macht sich an irgendeiner Stellage kleine Arbeit.</stage>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... der is jetzt zweiundzwanzig Jahre und is doch schon Mitarbeiter von die größten
+            Zeitschriften ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>So</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... ich hab nämlich 'n paar seiner Arbeiten gelesen .... Heinz und ich waren heute
+            mittag in die Regimentskanzlei kommandiert .... Na – und da las ich .... Weißt du – ich
+            – ich kann ihm das alles so nachfühlen .... Er muß so einer von den Modernsten sein
+            ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Hm.</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... der kann was, sag ich dir .... Nu is aber das Unglaubliche, daß er behauptet, er
+            hätt damals den Namen Medusa für dich nicht aufgebracht ....</p>
+               <pb n="90" facs="#f0006"/>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Das is doch sehr nett von ihm.</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... aber er is doch gewiß der Einzige von all meinen Schulkameraden, aus dem was wird
+            ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Er und du – was?</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... er hat da eine große Arbeit geschrieben, die Medusa heißt .... Wie er sich so die
+            moderne Medusa vorstellt .... Er war ja doch schon fünf Jahre in der Residenz ....
+            Nächstens, sagt er, wird sie gedruckt ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>schweigt.</stage>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Siehst du, Helen ... ich sagte dir doch – ich kann ihm das alles so nachfühlen ...
+            nicht? ... Gut – die Medusa, die er da geschrieben – die bist du – einfach du.</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Pepi!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>tut sich was.</stage>
+               <p>... das Sexuelle, wie er da in seiner Studie sagt .... Das Sexuelle! ... Weißt du, was
+            das ist, das Sexuelle?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>verbirgt geschickt, daß sie es weiß.</stage>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Tu nur nicht so alt – tu nur nicht, wie wenn du es wüßtest ... Ich habs auch nicht
+            gewußt .... Du weißts sicher nicht. Helen .... Oder du denkst dir in diesem Augenblick
+            ganz was Falsches! ... Also: das Sexuelle – das ist die Liebe – so die Sehnsucht der
+            Leute – nach Liebe – und der geschlechtliche Verkehr .... Weißt du, was geschlechtlicher
+            Verkehr ist?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Pepi!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Du weißt es .... Das sollte auch eigentlich ein Mädchen in deinem Alter wissen ....
+            Heli, wenn du mir nur nicht ne alte Jungfer wirst!</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Du bist ein ganz gemeiner Mensch, Pepi – ja – weil du so etwas weitererzählst!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Wenns doch gedruckt wird!</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ja – aber mir darfst du das nicht erzählen!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Als ob dus nicht wüßtest! ..... Aber – mein Gott – was hab ich dir denn eigentlich
+            Besonderes erzählt?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Du – du – du hast mir ja eigentlich auch gar nichts Positives erzählt – aber –</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Aber?</p>
+               <pb n="91" facs="#f0007"/>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Von sowas erzählt man seiner Schwester überhaupt nicht! ... Wenn Mutter nach Hause
+            kommt, sag ich ihrs .... Und – und der Hörmann – der hätt wohl auch Besseres zu tun als
+            – dir solche Sachen zu geben! ... Was geh ich ihn überhaupt an? ... Ich verbitte mir das
+            einfach – so – so – so Schweinereien in der Zeitung über mich zu schreiben! ... Wenn er
+            wieder herkommt, werd ich es ihm sagen ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Das wirst du nicht, Helen!</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Das werde ich ... und Mutter sag ichs auch!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>eingeschüchtert.</stage>
+               <p>Zum Donner – – hab ich denn mehr erzählt, als ich mich jetzt selber noch erinnern kann?
+            ... An allem Ende hast du die ganze Sache eher kapiert als ich ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich hab gar nichts kapiert, Pepi! ... Aber soviel weiß ich, daß sich das einfach nicht
+            paßt! ... Ich kann – ich kann so häßlich sein – wie ich will – – aber da hat der
+            deswegen doch noch lange kein Recht – – – <stage>Als sie dem Weinen nahe ist, faßt sie
+              sich.</stage> Aber Pepi, nun sag mir offen und ehrlich: Hat er gesagt, daß er mich mit
+            der Medusa gemeint hat?</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Er sagt, er habe dich zum Modell genommen ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ja – und jenes andere – dieses Se – se – –</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Das Sexuelle?! ... Ja – um das handelt sichs doch bei der ganzen Sache!</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich – – verstehe dich nicht ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Ja Herrgott – ich versteh es doch eigentlich auch nicht! ... Weißt du – Heinz hat so
+            etwas über mich – daß ich tue, als ob ich verstünde – wenn ich es auch nicht verstehe
+            .... Na – und dann kam plötzlich der Vizefeldwebel – da könnt ich natürlich nicht
+            weiterlesen .... Ich denk – ich werd es mir eben nochmal von ihm geben lassen .... Sowas
+            muß man in Ruhe lesen .... Ja ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>steht mit einem Male ganz hilflos wie ein Kind bei seinen ersten Schritten – wie in
+            einem plötzlichen Krampf – die Lippen und die Arme versagen den Dienst – die Kniee
+            zittern.</stage>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Was hast du denn?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>lallend.</stage>
+               <p>Nichts ... nichts ... nichts .... Unsere Marie war <pb n="92" facs="#f0008"/> so ein hübsches Mädchen
+            ... die mußte sterben ... <stage>Tonlos.</stage> Warum ich nicht? Ich? ... <stage>Sie
+              sinkt.</stage>
+               </p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Heli! ... Heli!! ... <stage>Hält sie.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>bezwingt sich.</stage>
+               <p>Is gut, Pepi .... Ich danke dir ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Wenn ich daran schuld bin! ... Du weißt, wie wir alle um dich besorgt sind! ...
+            Verzeihst du mir, Heli?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>bitter.</stage>
+               <p>Ich bin ein altes Mädchen, Pepi .... Is gut – Pepi – is schon gut ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Gib mir 'n Versöhnungskuß, liebe Heli ... du ... du gute .... Ich weiß doch am besten,
+            wie du bist, Heli – wir wissens .... Ach die andern! ... Wie du zitterst, Heli .... Gib
+            mir 'n Kuß ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>befühlt traumhaft mit der einen Hand die andere – streicht mit beiden Händen über
+            ihr Haar – beide Hände an die Brüste.</stage>
+               <p>Das – und das – und das .... Alles tut weh ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>küßt sie leicht.</stage>
+               <p>N' Kuß, Heli ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>versucht zu lächeln.</stage>
+               <p>
+                  <stage>Küßt ihn.</stage> Da ... <stage>Küßt ihn nochmals – wie in einem hysterischen
+              Anfall.</stage> Da! Du!!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>ganz erschreckt.</stage>
+               <p>Noch einen, Schwester –</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>hysterisch.</stage>
+               <p>Da! <stage>Küßt ihn.</stage>
+               </p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Noch einen, Duschen –</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Duschen?!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>leidenschaftlich – irr.</stage>
+               <p>Das ist mein Erfindung ... krieg ich noch einen? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>heiß.</stage>
+               <p>Ja ... <stage>Küßt ihn.</stage>
+               </p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>ebenso.</stage>
+               <p>Noch einen ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>ohne zu küssen – wie wenn sie ihn zu küssen meinte – hauchend.</stage>
+               <p>Ja ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Da ... <stage>Küßt sie.</stage> Da ... <stage>Küßt sie.</stage> Da ... <stage>Küßt
+              sie.</stage> Da ... <stage>Küßt sie.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>unter den Küssen.</stage>
+               <p>Pepi ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>küßt sie.</stage>
+               <p>Oh du ... <stage>Sie umfangen sich zu gleicher Zeit – wild. Umschlingen sich ganz. Leib
+              an Leib! Heftiges, deutlich hörbares Atmen.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>erschöpft.</stage>
+               <p>Pepi ....</p>
+               <pb n="93" facs="#f0009"/>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>sich an sie, in sie drängend – ungestillt.</stage>
+               <p>Du ... du ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>macht sich frei.</stage>
+               <p>Das dürfen wir nie wieder tun, Pepi ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>wie oben.</stage>
+               <p>Wir sind doch Geschwister ...<stage> Umschlingt sie nochmal.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>wehrt sich.</stage>
+               <p>Nein! ... <stage>Macht sich gewaltsam los.</stage>
+               </p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>J – –</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Wenn uns so durchs Fenster wer gesehen hätte!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>platzt voller Beschämung einfach heraus.</stage>
+               <p>Du bist Medusa, sagt er Wenn du Jüdin wärst, dann wärst du nicht Medusa, sagt er ....
+            Er war solange in der großen Stadt .... Er ist stolz auf dich und auf sich selber ....
+            Er ist auf euch beide stolz – auf dich und sich – ja! ... Oh – was er da noch alles
+            sagt! ... <stage>Sieht sie an wie eine Geliebte.</stage> Und ich bin auch stolz – auf
+            dich! Und du – du gehörst nun mir, Helen! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Pepi!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>sinnlos.</stage>
+               <p>Ich – ich – ich komme heute nacht zu dir – Heli!</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Pepi!</p>
+               <stage>Stille.</stage>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>sehr unsicher.</stage>
+               <p>Vielleicht erzählt er dir selber davon ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich danke! Und nun mach, daß du hinauskommst!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>bittend.</stage>
+               <p>Heli! ... <stage>Wieder einmal so recht »er«..</stage> Hier in diesem – in diesem
+            Saunest! ... Hier ist nichts los! ... In bezug auf das Sexuelle, Duschen! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Duschen!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>wie oben – wennschon immer noch unter dem Druck des Vorhergegangenen.</stage>
+               <p>Das ist hier einfach ne Schweinerei! ... <stage>Er versucht zu scherzen.</stage> Wenn
+            du nicht meine Schwester wärst, möcht ich mich in dich verlieben ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nun mach aber, daß du hinauskommst!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... das weißt du ebensogut wie ich .... Verzeih .... Aber darum waren wir doch auch so
+            .... Na – und auf jeden Fall wäre es eine rohe Lüge von dir, wenn du behaupten wolltest,
+            ich war je anders als lieb zu dir gewesen ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Aber so, Pepi .... Reden wir nicht mehr darüber ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>... ich – ich kann ihm das alles so nachfühlen. Nein <pb n="94" facs="#f0010"/> wirklich! ...
+            Übrigens wird er gleich herkommen .... Er hat mir versprochen, mich zum Dämmerschoppen
+            abzuholen .... Ich – ich geh indessen hinauf – mich umkleiden .... Wenn er kommt, so
+            soll er heraufkommen .... Hörst du – du schickst ihn einfach herauf, wenn er kommt ....
+            Is Mutter oben?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nein.</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Is Vater oben?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nein .... Nur die Köchin .... Babette is oben ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Babette? ... Is gut so ... Babette ... <stage>Er glüht.</stage> Heinz kann ja
+            unterdessen ... hier ... bei dir ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>lügt vor Angst.</stage>
+               <p>Pepi – Mutter muß im Augenblick zurückkommen.</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH.</speaker>
+               <p>Also ... wenn Heinz kommt, schickst du ihn mir herauf ... <stage>Sich zum Gehen
+              wendend.</stage> Es ist doch ein Saunest hier ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Pepi!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>sieht sie wild an.</stage>
+               <p>Gewiß!</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Der Hörmann – der – der muß dir schöne Sachen zu lesen gegeben haben .... Armer Kleiner
+            ... <stage>Küßt ihn leicht.</stage> Zieh dich nun nur schnell um, Pepi ... <stage>Sie
+              bringt ihn zur Türe rechts.</stage>
+               </p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPH</speaker>
+               <stage>ab.</stage>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>schließt die Türe.</stage>
+               <stage>Pause. Sie geht langsam so, daß man sie von der Straße durch die Auslagefenster
+            sowohl wie durch die Glastüre nicht sehen kann. Doch muß sie von allem Publikum gesehen
+            werden. Es ist der alte lähmende Krampf in ihren Bewegungen. Es ist, wie wenn die Hände
+            vor Krampf nach den Brüsten gehoben würden. Ihr ganzer Leib bebt. Mit einem Male reckt
+            sie sich sichtbarlich mit unmenschlicher Anstrengung auf und geht an den Schreibtisch.
+            Sie nimmt eine Zeitung, setzt sich und starrt in das Papier. Dann steht sie wieder auf,
+            legt die Zeitung an den alten Platz zurück und geht an die Glastüre. Dort lehnt sie eine
+            Weile – zitternd.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH HÖRMANN</speaker>
+               <stage>erscheint in der Tür.</stage>
+               <stage>– Schlanker junger Mann, 22 Jahre, mit vollen Lippen, vorspringenden Backenknochen,
+              <pb n="95" facs="#f0011"/> eingefallenen Wangen. Dunkles Haar, bartloses Gesicht. Doppelte
+            Mundfalten, schwarze Vorderzähne. In Einjährig-Freiwilligen-Uniform-Ausgehgarnitur.
+            Kneif er mit Hornfassung. – Er drückt auf die Klinke – öffnet – die Türglocke
+            läutet.</stage>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>ist, bis er mit der Tür an sie anstieß, keinen Schritt zurückgegangen.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Verzeihung ... <stage>Schließt die Tür. Glocke.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Bitte ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Guten Tag .... Is Pepi da? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nein ... ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Er is oben? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nein ... doch ... er kleidet sich eben um ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Kann man heraufgehen? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>mit wachsender unnatürlicher Geschäftigkeit.</stage>
+               <p>Er muß jeden Augenblick runterkommen .... Er muß ja längst umgekleidet sein .... Er is
+            schon so lange oben! ... Wo er nur bleibt? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Darf man also hier warten? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Aber gewiß ... warum nicht .... Ich will nur mal schnell – <stage>Eilt ans
+              Sprachrohr.</stage> Pepi ... Pepi! ... Pepi? ... Herr Hörmann is da .... Herr Hörmann
+            ist da! ... Wie? ... Wie? ... Er soll –? ... Ja, ja! ... Gewiß! ... <stage>Zu
+              Heinrich.</stage> Sie sollen – Sie sollen nur hier unten warten!
+              <stage>Errötet.</stage> Wollen Sie nicht Platz nehmen? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Wenn ich hier – im Geschäft – nicht störe ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Gewiß nicht .... In dieser Jahreszeit ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Im – Frühling, meinen Sie?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>schweigt.</stage>
+               <stage>Sucht – und findet keine Arbeit.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>nach einer Pause.</stage>
+               <p>Ich war immer ein wenig schüchtern – als Junge – Ich – Sind Sie mir böse, Fräulein
+            Helene? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Wie Sie als Junge waren, weiß ich nicht mehr .... Aber was hätte ich für einen Grund,
+            Ihnen böse zu sein? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich verkehrte auch nicht soviel mit Pepi ... damals .... Erst jetzt .... Wir beide
+            werden die Nachmittage meistens in die Regimentskanzlei zum Schreiben abkommandiert ....
+            Das is einiger maßen angenehmer als Gewehrgriffe ....</p>
+               <pb n="96" facs="#f0012"/>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Da dichten Sie dann ... in der Regimentskanzlei ... nicht? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Nein – da schreibe ich ... Regimentsangelegenheiten ... Dienstsachen ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Verzeihung – ich dachte, Sie dichteten ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Oh bitte .... Aber da dichte ich wirklich nicht .... Ich dichte überhaupt nicht
+            ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nie? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich mache – wie einer meiner Kollegen sagt – in Gefühlsphilosophie .... Aber jetzt habe
+            ich Sie doch wirklich beleidigt, Fräulein Helene? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Wie kämen Sie dazu, mich zu beleidigen? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Es ist etwas an Ihnen .... Sie sind so sonderbar .... Und ich bin nu mal absolut kein
+            Meister des Dialogs .... Man sagt, ich sei für einen Deutschen zu oberflächlich und für
+            einen Franzosen zu tief .... Ich suche seit drei Jahren nach meiner Nationalität ....
+            Das is komisch – nich? ... Und jetzt bin ich zu allem Überfluß Soldat ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>schweigt.</stage>
+               <stage>Macht sich irgendwo zu schaffen.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>nach einer Pause.</stage>
+               <p>Hm .... Haben Sie auch Bleisoldaten zu verkaufen? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>versucht zu lächeln.</stage>
+               <p>Nein – wie komisch Sie sind! <stage>Sie langt nach einem festen Halt.</stage>
+               </p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich soll da all meinen Kollegen Photographien schicken, wo ich als Soldat darauf bin
+            .... Aber ich werd ihnen den Deibel tun! ... Ich schicke einfach einem jeden einen
+            Bleisoldaten ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>lächelt noch immer, während sie, sich krampfhaft stützend, in der vollen Glut der
+            sinkenden Sonne steht.</stage>
+               <p>
+                  <stage>Plötzlich ein seltsam erschrecktes Gesicht.</stage> Wo Pepi nur bleibt! ... Mir
+            ist, als ob er schon Stunden oben wäre .... Er darf nicht ... <stage>Es zieht sie etwas
+              zum Sprachrohr – sie steht davor, wagt aber nicht, Joseph anzurufen.</stage>
+               </p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>schweigt.</stage>
+               <stage>Sieht sie an.</stage>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>wendet sich nach ihm.</stage>
+               <p>
+                  <stage>Versucht, seinem Blick standzuhalten.</stage>
+                  <pb n="97" facs="#f0013"/> Sie – Sie müssen mich
+            nicht immer so ansehen .... Nicht, als ob <hi rendition="#i">Sie</hi> mir böse wären .... Auch
+            nicht, als ob Sie über mich spotten möchten .... Aber so ... so ... Sie sehen auf mich
+            wie auf ein Häßliches .... Auf mein Gesicht .... Auf meine Hände ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Was ist Ihnen, Fräulein Helene?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>...Sie ... Sie haben mir was zu sagen .... Sie sagen es nicht .... Warum sprechen Sie
+            nicht? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich habe Ihnen was zu sagen? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Sie sehen mich an – wie – ich weiß nicht .... Soll ich .... Soll ich zu Ihnen sagen –
+              <stage>Sie knickst.</stage> – »Ergebenster Diener, gnädiger Herr ....«?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Sind Sie verrückt!? ... Der Teufel soll dieses Warten holen! <stage>Im selben
+              Augenblick geht die Ladentür.</stage>
+               </p>
+               <stage>Glocke.</stage>
+            </sp>
+            <sp who="#die_zeitungsfrau">
+               <speaker>DIE ZEITUNGSFRAU</speaker>
+               <stage>tritt ein.</stage>
+               <p>
+                  <stage>Mit singender Stimme – auf demselben Ton.</stage> Zeitung ... <stage>Legt die
+              Zeitung auf den Schreibtisch. Während sie abgebt – in derselben Tonhöhe.</stage> Gun
+            Abnd ... <stage>Ab.</stage>
+               </p>
+               <stage>Glocke. Pause.</stage>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich werde Pepi ... <stage>Hält sich irgendwo mit beiden Händen fest.</stage>
+               </p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>geht auf sie zu.</stage>
+               <stage>Nimmt ihre beiden Hände – – und kann kein Wort hervorbringen.</stage>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Herr ... <stage>Sie ist ganz schwach. Sie sinkt.</stage>
+               </p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>stützt sie, bis sie ihm wankend die Hände gibt.</stage>
+               <p>Verzeihen Sie .... Ich wollte es nicht .... Ich log, als ich sagte, dieses Warten solle
+            der Teufel holen .... Ich log .... Fräulein Helene! ... Lassen Sie mir Ihre Hände – so –
+            wollen Sie das? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>haucht.</stage>
+               <p>Ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Gut – ich – ich habe Ihnen was zu sagen ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Sprechen Sie .... Sprechen Sie! ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>sieht sie einen Augenblick schweigend an.</stage>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Sprechen Sie! ... Sie haben meine beiden Hände ... so .... Sprechen Sie! ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Es ist ein Saunest hier – ein verdammtes .... Pepi hat Ihnen doch wohl schon von meiner
+            letzten Arbeit erzählt? ...</p>
+               <pb n="98" facs="#f0014"/>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Von keiner andern .... Nur von der .... Zum ersten Male überhaupt, daß er mir von Ihren
+            Arbeiten erzählte ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Nun ... und .... Ich kann so oder so anfangen: Es ist beide Male ein Halbes ... also –
+            darf ich ein ganz offenes Wort mit Ihnen reden? ... Sie werden hinterher dann selbst
+            merken, daß es die einzig mögliche Art und Weise war ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ja ... ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Gut denn .... Was hat er Ihnen davon erzählt? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Herr Hörmann .... Auf einmal war mir alles klar .... Auf einmal sah ich weit .... Meine
+            Schwester Marie ist vorigen Winter – nachdem sie ein halbes Jahr glücklich verheiratet
+            war – gestorben. Ihr Tod – ich wußte nichts, fühlte nichts, begriff nichts .... Sie war
+            als junge Frau schöner denn je gewesen ... kurz nach ihrem Tode kam eine Erbschaft ....
+            Pepi ist mein Stiefbruder .... Und nun die Erbschaft mir – mir! Ich kann Ihnen jetzt
+            nicht sagen, wie das zuging .... Da sah ich auch mit einem Schlage alles klar .... So
+            wie heut – heut wie damals ... ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Sie wissens nicht mit Worten – das .... Oder die Worte, die Sie dafür wissen, sind
+            Ihnen zu gemein ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Sprechen Sie ... sprechen Sie! ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Es wäre dumm von mir, herauszuplatzen: Ich liebe Sie .... Und es wäre blödsinnig,
+            einfach rundweg zu sagen: Ich habe die und die Arbeit geschrieben .... Es ist auch keins
+            von beiden allein richtig .... Ich habe die betreffende Arbeit geschrieben, weil ich Sie
+            – nun, weil ich Sie liebe .... Oder auch – warum denn nicht? –: ich liebe Sie ... wenn
+            wir den Ausdruck lieben hier schon beibehalten wollen ... ich liebe Sie, weil ich die
+            betreffende Arbeit geschrieben habe ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Weiter ... weiter ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Was haben Sie von dem allen verstanden? ... Wohl kaum mehr als: ich liebe Sie ....
+            Lassen Sie nur Ihre Hände, Helene ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ja ... ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Was heißt in unserem Falle: ich liebe dich .... Weißt du das, Helene? ...</p>
+               <pb n="99" facs="#f0015"/>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ja ... ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Du bist um vieles älter als ich .... Du – du bist wie ein Spielball in meinen Händen
+            .... Oder eine Handvoll Licht – Licht von Licht, das überall ist – und nur in meinen
+            Händen jetzt verdichtet, kondensiert .... Du bist urewiger, formloser Stoff, der durch
+            meine Hände Form will ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Heinrich ... <stage>Drängt sich an ihn.</stage>
+               </p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Dieser dein Wille zur Form durch meine Hände – durch mich – dies ist vielleicht Liebe
+            zu mir .... Bleib bei nur ... so ... und liebe mich – bis eines andern Hände mehr tun
+            können als meine ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Du warst solange in der großen Stadt .... Nun bist du da ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Aber frag mich nicht, Liebste, ob ich dich liebe .... Ich weiß es so mit Worten noch
+            nicht .... Was heißt überhaupt .... Wenn dein Wille zur Form, zu Geformt-werden durch
+            mich Liebe zu mir ist, so ist meintswegen mein Wille, dich zu formen, Liebe zu dir ....
+            Liebe! ... Ich – ich bin einfach die Gewalt, die du erleidest .... Liebe, Liebe! ...
+            Helene – ich bin einfach die Gewalt, die du erleidest! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>fortwährend im Banne der Berührung mit ihm.</stage>
+               <p>Deine Hände sind nicht für körperliche, schwere Arbeit .... Das seh ich .... Du ....
+            Deine Hände! ... Aber – ich wage nun alles! ... Sprich! ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Unsere Worte müssen nackt zueinander sein .... Müssen sich nackt einander
+            gegenüberstehen .... Wie Mann und Frau .... Wie ein Geschlecht dem andern ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich ... ich bin nicht schön .... Ich ... ich bin häßlich .... Ich ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Du bist Weib ... darum bist du schön .... Aber mir ist doch ein wenig mehr daran
+            gelegen, als bloß ein Weib zu besitzen ... einen Leib ... so irgendeinen .... Du hast
+            deinen Leib und deinen Teil Liebe ... du willst beides geben .... Und es ist ein ewiges
+            Warten, ein Nie-geben-können .... Du Weib und nur Weib .... Koketterie und Berechnung
+            sind dir fremd .... <pb n="100" facs="#f0016"/> Bleib so bei mir – so – und lasse dich mit allen
+            Sinnen fühlen .... Du Weib-Leib ohne die gewöhnliche Dosis Falschheit oder Berechnung,
+            Bosheit oder Koketterie .... Helene, du bist in diesem Augenblick wirklich nichts als
+            Leib, Leib, den ich fühle, sehe, atme, höre .... Nichts als Leib – wie ohne Seele und
+            alles! ... Du Stille du! ... Zitterst du vor mir so, Helene? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Weil ich Mann bin und du Weib? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ja ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Nur Leib .... Die Hände – die Brüste – die Lippen – das Haar – die Füße – die Augen, in
+            denen nichts als Licht von überall .... Die Angst will keine Glut in dein Auge kommen
+            lassen, Zitterndes du, Scheues, Verscheuchtes .... Die Angst lahmt jede Bewegung in
+            deinen Gliedern .... Dein Blut .... Wie soll ich es wecken? ... Wie soll ich dich
+            erwecken? ... Sei wach, Liebe, denn ich liebe dich – ich liebe dich .... ich liebe dich!
+              <stage>Er umschlingt sie mit beiden Armen, wie wenn er sie in sich hineindrücken
+              möchte.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>macht sich los.</stage>
+               <p>Sie haben mich .... Du – du hast so alles an mir genannt .... Meine Brüste .... Mein
+            Haar ... <stage>Sie stockt.</stage> Ich – ich habe bei unseren Knechten und Laufburschen
+            gelegen .... Es waren immer die jüngsten oder die ältesten .... Sie taten ohne ein Wort,
+            was ich wollte .... Einige merkten, daß es Gefälligkeit war, um die ich bat .... Andere
+            waren wie Tiere ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich hab sieben Nächte bei einem Weibe geschlafen, die meine Großmutter hätt sein
+            können! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Du sagtest, ich sei Weib – darum sei ich schön .... Du sollst sagen, ich bin schön,
+            weil du mich liebst! ... Ich bin nicht so alt .... Bei den andern war ich immer in
+            Kleidern .... Da verlangte keiner zu sehn ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Du – du! ... <stage>Umschlingt sie.</stage> Du sollst dich nackt unter deinen Kleidern
+            fühlen ... unter der Bluse, unter den Röcken, unter Strümpfen und Schuhen .... Nackt vor
+            mir! ... Willst du das?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>sieht ihn an.</stage>
+               <p>Ja – ja!</p>
+               <pb n="101" facs="#f0017"/>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Denke nicht – ich sei verrückt geworden .... Ich wußte es, daß du die bist, mit der ich
+            eine lange ekelhafte Philosophie in erträgliche – in angenehme – in warme – in heiße –
+            in wollüstige Praxis umsetzen kann! ... Du – du! ... <stage>Er befühlt sie am ganzen
+              Leibe.</stage> Alles das – das und das – Dinge, die noch gar nicht gesehen – Dinge,
+            die ich vergessen, weil ich sie zu wenig gesehen – alles das – das und das! ... Erzähl
+            mir von dir – der Duft aus deinem Haar berauscht mich! ... Du bist in deinen langen
+            Jahren Hausmütterchen geworden – wenn du mit dem Bügeleisen hantierst, riecht dein Haar
+            und dein Leib nach Kohlendunst – <stage>Lächelt.</stage> – wie eine Gasfabrik – nicht?
+            ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Heinrich!</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Sag mir, was du heute morgen gefrühstückt hast – sag?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Heinrich!</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>So bin ich immer, Helene! ... Und wenn du mich erst näher kennst, wirst du begreifen
+            ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Es reizt dich so viel an mir – du nennst alles das mit Namen! ... Aber du nennst alles
+            das mit so wenig Liebe zu mir, daß ich glaube, du würdest es bei jeder andern genau so
+            –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Helene! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Du redest wie ein gemeines Buch, das ich einmal gelesen .... Damals empfand ich mich
+            doppelt schwer – darum las ich ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Eine andere würde dies anders empfinden ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Welche andere?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Manche andere, Helene .... Du hast keinen Grund zur Eifersucht, Helene ... <stage>Er
+              umschlingt sie wild.</stage> Heli! ... Nicht so – Heli – nicht so .... Unser
+            Geschlecht ist überreizt .... Du mußt mich lieben, weil ich dich lieben will .... Das
+            ist der zweite Teil meiner Arbeit, von der dir Pepi erzählte .... Du mußt mich lieben,
+            weil dich noch kein anderer so sehr lieben mochte wie ich .... Du mußt wissen, daß es
+            ein Teil Überwindung meinerseits ist, dich zu lieben ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Herr Hörmann!</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>faßt sich, so schnell er kann.</stage>
+               <p>Fräulein Kreiner?</p>
+               <pb n="102" facs="#f0018"/>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich will kein Wort mehr hören!</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Sie <hi rendition="#i">müssen</hi> mich hören.</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Machen Sie, daß Sie hinauskommen! ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Das ist gegen unsere Abmachung.</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich schreie laut – wenn Sie nicht gehen!</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Keine Sentimentalitäten! ... Ich mag die sogenannten absolut schönen Frauen nicht ....
+            Ich hab doch nicht gesagt, daß Sie die einzige Häßliche sind! ... Es gibt keine absolut
+            schöne Frau! ... Die absolute Schönheit – die mag in einer andern Welt sein .... In
+            einer Welt, von der nur die Träume unserer Dichter wissen .... Das hab ich alles
+            geschrieben .... Verstehen Sie mich? ... Des Weibes Liebe ist meiner Ansicht nichts als
+            Dankbarkeit dafür, daß der Mann, der sonst von absoluter Schönheit resigniert träumt
+            .... das ist schlecht ausgedrückt; allein ich weiß den genauen Wortlaut dieser Stelle in
+            meinem Artikel nicht mehr – des Weibes Liebe ist nichts als Dankbarkeit dafür, daß der
+            Mann den Ekel vor des Weibes Häßlichkeit überwindet! ... Demnach wäre des Mannes
+            sogenannte Liebe Überwindung eines gewissen Ekels – weiter nichts! ... Jedes Weib hat
+            Häßliches – jedes Weib ist Medusa – wie ich es nenn .... Der und der Mann liebt die und
+            die Frau: das heißt doch wohl nichts anderes als: der und der Mann liebt es, den und den
+            gewissen Ekel vor der und der Häßlichkeit dieses oder jenes Weibes zu überwinden
+            ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Und das alles muß ich mir hier – von Ihnen –</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Das war ich Ihnen schuldig, meine Verehrte .... Aber Sie haben sicher nicht alles
+            verstanden .... Ich hab ja das alles in der betreffenden Studie viel klarer ausgedrückt
+            .... Dort ist es tiefer Gehalt in einem beinah lyrischen Rahmen .... Hier .... Aber nun
+            muß ich wohl Ihrer berechtigten Aufforderung, diesen Raum zu verlassen, Folge leisten
+            .... Darf ich mir nur noch gestatten, zu fragen, wo Pepi diese ganze Zeit geblieben
+            ist?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>ganz blaß.</stage>
+               <p>Pepi ... <stage>Sie wankt ans Sprachrohr.</stage> Pepi! ... Pepi! ... Babett! ...
+            Babett! ... Keine Antwort ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich werde hinaufgehen, wenn es Ihnen recht ist ....</p>
+               <pb n="103" facs="#f0019"/>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>hat nicht gehört.</stage>
+               <p>
+                  <stage>Schreiend, drohend.</stage> Babett – Pepi!</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Wenn es Ihnen also recht ist – <stage>Er will zur Türe rechts.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Wo – wo wollen Sie hin? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Hinauf – zu Pepi ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Gehen Sie <hi rendition="#i">nicht</hi> – ich bitte Sie darum ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>stutzt.</stage>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Es ist ja nicht möglich .... Er muß jeden Augenblick ... <stage>Starrt hilflos das
+              Sprachrohr an.</stage>
+               </p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>geht nach einer Pause auf sie zu.</stage>
+               <p>Helene! ... <stage>Umarmt sie.</stage> Heli! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>verbirgt ihren Kopf an seiner Brust.</stage>
+               <p>Ich habe – ich habe mehr getan als – als wie wenn ich mich Ihnen ganz hingegeben hätte
+            .... Mich friert .... Es war schrecklich .... Sie können mit mir tun, Was Sie wollen
+            .... Ich bin nichts ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Hältst du mich für einen Menschen – für einen Menschen – der – der deine Häßlichkeit
+            gebraucht, um mit dir zu tun was er will? ... Nein – Helene – Offenheit ist alles – die
+            Wahrheit suchen ist Gott .... Und ich suche die Wahrheit ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>weint leise.</stage>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ehrlich kämpfen und den Sieg, Helene – das ist ein gewonnenes Stück Neuland
+            Menschlichkeit – in zwei gleiche Hälften teilen: das ist Mann und Weib! ...
+            Menschlichkeits-Kolonien gründen, Helene – sonst ist es eine Philisterehe – oder wie
+            Tiere tun – einfach eine Schweinerei! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>schluchzt.</stage>
+               <p>
+                  <stage>Das Schluchzen bricht plötzlich ab.</stage> Pepi – Pepi ist oben allein mit
+            Babette – so lange allein – mit Babett – allein – die Beiden! ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Laß ihn .... Der Ekel wird ihn – immer noch zu früh – heruntertreiben! ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nun weiß ich, was ich weiß ... <stage>Da ist es auf einmal, wie wenn sie sich über ihn
+              werfen wollte – sie biegt mit der Wucht ihres Leibes seinen ganzen Oberkörper zurück –
+              Schaum im Munde.</stage> Du – du – du – Da – da – alles – alles, was du willst – – küß
+            mich – küß mich – – <stage>Kleine Kußszene – wie jede andere. Naturlaute. Dann.</stage>
+            Oh ich will schön sein vor dir – Ich <pb n="104" facs="#f0020"/> komme auf dein Zimmer .... Alles
+            andere ist mir nichts .... Wenn Pepi vom Dämmerschoppen zurückkommt .... Wenn ich nicht
+            komme – bin ich tot! ... Einen heiligeren Eid gibt es nicht .... Ich beschwör es dir mit
+            allem, was ich habe und dir geben will ... du ... du ... du .... Aber da kommt Pepi ....
+            Also – ich komme zu dir ... <stage>Geht von ihm weg.</stage>
+               </p>
+            </sp>
+            <sp who="#frau_kreiner">
+               <speaker>FRAU KREINER</speaker>
+               <stage>tritt durch die Türe rechts ein.</stage>
+               <p>
+                  <stage>Bürgerliche Straßentoilette Kirchengewand. Eine kleine dicke Frau – Charakter
+              des kleinstädtisch Aufgeputzten. Gebrannte Bauernlöckchen.</stage> Helen? <stage>Es
+              ist nun Dämmerung.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Mutter? ... Bist dus, Mutter? ... Herr Hörmann ist da ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Guten Abend, Frau Kreiner ....</p>
+            </sp>
+            <sp who="#frau_kreiner">
+               <speaker>FRAU KREINER.</speaker>
+               <p>Guten Abend, Herr Hörmann Sie warten auf Pepi? ... Aber Helene, wie kannst du Herrn
+            Hörmann so im Dunkel sitzen lassen! ... <stage>Zu Heinrich.</stage> Helene spart immer
+            so mit dem Gas ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Eine echte Hausfrau ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Nun will ich aber gleich selber zu Pepi hinauf .... Du ... warst noch nicht oben,
+            Mutter?</p>
+            </sp>
+            <sp who="#frau_kreiner">
+               <speaker>FRAU KREINER.</speaker>
+               <p>Nein .... Ich mache nur Licht hier .... Dann komm ich auch ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>ab.</stage>
+            </sp>
+            <sp who="#frau_kreiner">
+               <speaker>FRAU KREINER</speaker>
+               <stage>macht Licht.</stage>
+               <p>Der Tag will immer noch nicht recht zunehmen .... Es ist ja schon lang nicht mehr so
+            bald Nacht wie im Hochwinter – aber .... Man braucht immer noch Licht .... Wie behagt es
+            Ihnen beim Militär, Herr Hörmann? ...</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Oh – ich danke .... Das Licht blendet ....</p>
+            </sp>
+            <sp who="#frau_kreiner">
+               <speaker>FRAU KREINER.</speaker>
+               <p>Sie sehn auch nicht gut aus, Herr Hörmann .... Aber ich sag immer: Nun hat unser Pepi
+            doch Beschäftigung – sozusagen eine Stellung .... Pepi ist eben in dem Alter .... Sie
+            freilich waren so lange in der großen Stadt ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>scharf.</stage>
+               <p>Haben Sie mir in dieser Beziehung etwas anzuvertrauen?</p>
+            </sp>
+            <sp who="#frau_kreiner">
+               <speaker>FRAU KREINER.</speaker>
+               <p>Ich? ... Aber nein .... Wenn Sie mich aber jetzt <pb n="105" facs="#f0021"/> einen Augenblick
+            entschuldigen wollen ... <stage>Will ab – da kommt Helene zurück.</stage> Na – is Pepi
+            jetzt fertig? ... Guten Abend, Herr Hörmann ... <stage>Ab.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Pepi wartet draußen vor der Tür .... Er schämt sich ...... Du ... wolltest ... du
+            wolltest – Bleisoldaten kaufen?</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ja ... ja richtig .... Das wollte ich .... Was ... was kostet sone Schachtel? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Geh nur jetzt .... Ich ... ich bring die Bleisoldaten heute abend mit ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>... und deine Eltern?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Die erfahren morgen früh noch bald genug, wo ich die Nacht über war .... Geh jetzt ....
+            Ich komme ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH.</speaker>
+               <p>Ich warte auf dich .... Einen Kuß? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>wirft sich ihm an die Brust.</stage>
+               <p>Ah – du ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICH</speaker>
+               <stage>küßt sie.</stage>
+               <p>Also – auf heute abend ... <stage>Ab. Glocke.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>eilt nach einer Weile, nachdem sie hoch aufgerichtet gestanden, nach der
+            Tür.</stage>
+               <p>
+                  <stage>Glocke.</stage> Pepi – Pepi!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPHS STIMME.</speaker>
+               <p>Ja? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Daß du auch nicht zu lange bleibst, Pepi!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPHS STIMME.</speaker>
+               <p>Ja ... ja ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Adieu, Herr Hörmann ....</p>
+            </sp>
+            <sp who="#heinrich">
+               <speaker>HEINRICHS STIMME.</speaker>
+               <p>Auf Wiedersehn! ...</p>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINERS STIMME</speaker>
+               <stage>auf derselben Seite.</stage>
+               <p>Du mußt in einer halben Stunde wieder zurück sein, Pepi!</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPHS STIMME.</speaker>
+               <p>Warum?</p>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINERS STIMME.</speaker>
+               <p>Wir sind heut abend bei Urners eingeladen .... Daß du bald wieder da bist ....</p>
+            </sp>
+            <sp who="#joseph">
+               <speaker>JOSEPHS STIMME.</speaker>
+               <p>Ja, Vater ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>die die Tür offen gelassen hat, ist bei den ersten Worten ihres Vaters wieder
+            eingetreten.</stage>
+               <stage>Sie lauscht angestrengt. In ihrem bleichen Gesicht spiegelt sich wilde, häßliche
+            Freude. Als ihr Vater eintritt, nimmt sie eine leidende Miene an – sitzt.</stage>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER</speaker>
+               <stage>der ältere Pepi – tritt ein.</stage>
+               <p>Ja ... also bei Urners .... Heli .... Aber was hast du denn? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich kann nicht mit zu Urners .... Ich bin krank ....</p>
+               <pb n="106" facs="#f0022"/>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER.</speaker>
+               <p>Das geht nicht .... Soviel Zwang mußt du dir auferlegen können ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Ich kann nicht ....</p>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER.</speaker>
+               <p>Du mußt! .... Geh nur gleich hinauf – dich anziehen ....</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE.</speaker>
+               <p>Vater ....</p>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER.</speaker>
+               <p>Na wirds? ...</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>bäumt sich auf.</stage>
+               <p>Nein!</p>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER</speaker>
+               <stage>schreiend.</stage>
+               <p>Wirds, Heli?</p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>mit ihrer allerletzten Kraft.</stage>
+               <p>Nein! <stage>Bricht zusammen.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER</speaker>
+               <stage>springt ihr bei.</stage>
+               <p>Was ist dir denn? ... Um Gottes willen .... Heli .... Du bist krank .... Gut – wir
+            sagen ab .... Du mußt zu Bett .... Wir alle bleiben bei dir ... <stage>Ans
+              Sprachrohr.</stage> Mutter! ... Mutter! ... Mutter! ... <stage>Ohne Antwort erwartend
+              – zurück.</stage> Du kommst mir acht Tage nicht aus dem Bett – das schwör ich dir!
+            ...</p>
+            </sp>
+            <sp who="#babette">
+               <speaker>BABETTE</speaker>
+               <stage>tritt mit Kehrbesen und Staubeimer zur Türe rechts ein.</stage>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER.</speaker>
+               <p>Rufen Sie Mutter herunter ....</p>
+            </sp>
+            <sp who="#babette">
+               <speaker>BABETTE</speaker>
+               <stage>läßt an der Tür alles fallen.</stage>
+               <p>
+                  <stage>Starr.</stage> Freiln Helen ....</p>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER.</speaker>
+               <p>Halten Sie sie .... Ich will nur noch einmal ... <stage>Am Sprachrohr.</stage> Mutter
+            .... Bist du da? ... Ja – ich lief wieder weg .... Komm runter .... Schnell – schnell!
+            ... Helen is krank geworden! ... Wie? ... Gott – es is doch egal – wie du bist – nimm ne
+            Nachtjacke und fertig! ... <stage>Unterdessen hat.</stage>
+               </p>
+            </sp>
+            <sp who="#helene">
+               <speaker>HELENE</speaker>
+               <stage>Babette an ihren Brüsten – unter einer leichten Küchenbluse – gepackt.</stage>
+               <stage>Ihre Hände haben sich in das Vorquellende ganz verkrampft.</stage>
+            </sp>
+            <sp who="#babette">
+               <speaker>BABETTE</speaker>
+               <stage>mit geöffnetem Mund.</stage>
+               <stage>Kann nicht schreien vor Schmerz.</stage>
+            </sp>
+            <sp who="#herr_kreiner">
+               <speaker>HERR KREINER</speaker>
+               <stage>ist über den Staubeimer gestolpert.</stage>
+               <p>
+                  <stage>Er räumt das Hindernis weg.</stage> So ... so ....</p>
+            </sp>
+            <sp who="#frau_kreiner">
+               <speaker>FRAU KREINER</speaker>
+               <stage>stürzt im größten Negligé zur Tür herein.</stage>
+               <p>
+                  <stage>Ihren Mann beinah umwerfend.</stage> Was is?</p>
+            </sp>
+            <sp who="#babette">
+               <speaker>BABETTE</speaker>
+               <stage>schreit laut auf.</stage>
+            </sp>
+            <stage>Vorhang.</stage>
+         </div>
+      </body>
+   </text>
+</TEI>

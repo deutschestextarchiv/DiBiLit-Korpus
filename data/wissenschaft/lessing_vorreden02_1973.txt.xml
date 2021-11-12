@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Vorreden</title>
+            <title type="volume">Bd. 02</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118572121">
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-06-22T14:42:13Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005265193</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Lessing, Gotthold Ephraim/Ästhetische Schriften/Vorreden</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/rkf2.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-E859-1</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Gotthold Ephraim Lessing: Werke. Band 4, München 1970 ff.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke</title>
+                  <title level="m" type="volume">Band 4</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118572121">
+                        <forename>Gotthold Ephraim</forename>
+                        <surname>Lessing</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Herbert G.</forename>
+                        <surname>Göpfert</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl</forename>
+                        <surname>Eibl</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Helmut</forename>
+                        <surname>Göbel</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Karl S.</forename>
+                        <surname>Guthke</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Gerd</forename>
+                        <surname>Hillen</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Albert</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Schirmding</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Jörg</forename>
+                        <surname>Schönert</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">18 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Carl Hanser Verlag</name>
+                  </publisher>
+                  <pubPlace>München</pubPlace>
+                  <date type="publication">1973</date>
+                  <date type="firstPublication">1752</date>
+                  <date type="firstPublication" subtype="clariah">1752</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e85642">Erstdruck in: Gotth. Ephr. Lessings Theatralische Bibliothek, Berlin (Voss) 1754.</note>
+                  <note type="remarkDocument" corresp="#Lessing-Gotthol-d1e87251">Erstdruck in: Das Theater des Herrn Diderot, Berlin (Voss) 1760, bzw. in der zweiten, verbesserten Ausgabe, Berlin (Voss) 1781.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde aus mehreren Text- und Datenressourcen durch Transformation und manuelle Erfassung unter Berücksichtigung der <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> automatisiert erstellt.</p>
+            <p>Der Text ist kodiert nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Ästhetische Schriften</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Ästhetik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="BLessing-Gotthol-d1e85380">
+         <div xml:id="Lessing-Gotthol-d1e85642" type="chapter">
+            <pb n="10" facs="#f0001"/>
+            <pb n="9" facs="#f0002"/>
+            <head>Gotth. Ephr. Lessings</head>
+            <p>Theatralische Bibliothek</p>
+            <p>Vorrede</p>
+            <p>Man wird sich der »Beiträge zur Historie und Aufnahme des Theaters« erinnern, von welchen im
+      Jahr 1750 vier Stück <hi rendition="#i">zum Vorschein</hi> kamen. Nicht der Mangel der guten Aufnahme, sondern
+      andere Umstände machten ihnen ein zu kurzes Ende. Ich könnte es beweisen, daß Leute von
+      Einsicht und Geschmack öffentlich die Fortsetzung derselben gewünscht haben. Und so viel man
+      auch von dergleichen öffentlichen Wünschen, nach Gelegenheit ablassen muß, so bleibt doch noch
+      immer so viel davon übrig, als hinlänglich ist, mein gegenwärtiges Unternehmen zu
+      rechtfertigen.</p>
+            <p rendition="#et">Man sieht leicht, daß ich hiermit diese <hi rendition="#i">Theatralische Bibliothek</hi>
+      als eine Folge gedachter <hi rendition="#i">Beiträge</hi> ankündigen will. Ich verliere mich, nach dem
+      Sprichworte zu reden, nicht mit meiner Sichel in eine fremde Ernte; sondern mein Recht auf
+      diese Arbeit ist gegründet. Von mir nämlich schrieb sich nicht nur der ganze Plan jener
+      periodischen Schrift her, so wie er in <pb n="9" facs="#f0003"/> der Vorrede entworfen wird; sondern
+      auch der größte Teil der darin enthaltenen Aufsätze ist aus meiner Feder geflossen. Ja ich
+      kann sagen, daß die fernere Fortsetzung nur dadurch wegfiel, weil ich länger keinen Teil daran
+      nehmen wollte.</p>
+            <p rendition="#et">Zu diesem Entschlusse brachten mich, Teils verschiedene allzukühne und
+      bittere Beurteilungen, welche einer von meinen Mitarbeitern einrückte; Teils einige kleine
+      Fehler, die von Seiten seiner gemacht wurden, und die notwendig dem <pb n="11" facs="#f0004"/> Leser von
+      den Verfassern überhaupt einen schlechten Begriff beibringen mußten. Er übersetzte, zum
+      Exempel, die Clitia des Machiavells. Ich konnte mit der Wahl dieses Stücks, in gewisser
+      Absicht, ganz wohl zu frieden sein; allein mit seinem Vorberichte hatte ich Ursache, es ganz
+      und gar nicht zu sein. Er sagte unter andern darinne: »Fragt man mich, warum ich nicht lieber
+      ein gutes als ein mittelmäßiges Stück gewählt habe? <hi rendition="#i">so bitte ich, mir erst ein gutes Stück
+       von dem italienischen Theater zu nennen</hi>.« – – – Diese Bitte machte mich so verwirrt, daß
+      ich mir nunmehr beständig vorstellte, ein jeder der in der welschen Literatur nur nicht ganz
+      und gar ein Fremdling sei, werde uns zurufen: wenn ihr die Bühnen der übrigen Ausländer nicht
+      besser kennt, als die Bühne der Italiener, so haben wir uns feine Dinge von euch zu
+      versprechen!</p>
+            <p rendition="#et">Was war also natürlicher, als daß ich die erste die beste Gelegenheit
+      ergriff, mich von einer Gesellschaft los zu sagen, die gar leicht meinen Entwurf in der
+      Ausführung noch mehr hätte verunstalten können? Ich nahm mir vor, meine Bemühungen für das
+      Theater in der Stille fortzusetzen, und die Zeit zu erwarten, da ich das allein ausführen
+      könnte, von welchem ich wohl sahe, daß es gemeinschaftlich mit andern nicht allzuwohl
+      auszuführen sei.</p>
+            <p rendition="#et">Ich weiß nicht, ob ich mir schmeicheln darf, diese Zeit jetzt erreicht zu
+      haben. Wenigstens kann ich versichern, daß ich seit dem nicht aufgehöret habe, meinen erstern
+      Vorrat mit allem zu vermehren, was, nach einer kleinen Einschränkung des Plans, zu meiner
+      Absicht dienlich war.</p>
+            <p rendition="#et">Diese Einschränkung bestand darinne, daß ich den Beiträgen, welche, ihrer
+      ersten Anlage nach, ein Werk ohne Ende scheinen konnten, eine Anzahl mäßiger Bände bestimmte,
+      welche zusammengenommen, nicht bloß einen theatralischen Mischmasch, sondern wirklich eine
+      kritische Geschichte des Theaters zu allen Zeiten und bei allen Völkern, obgleich ohne Ordnung
+      weder nach den einen, noch nach den andern, enthielten. Ich setzte mir also vor, nicht alles
+      aufzusuchen, was man von der dramatischen Dichtkunst geschrieben habe, sondern das beste und
+      brauchbarste; <pb n="12" facs="#f0005"/> nicht alle und jede dramatische Dichter bekannt zu machen,
+      sondern die vorzüglichsten, mit welchen entweder eine jede Nation als mit ihren größten
+      pranget, oder welche wenigstens Genie genug hatten, hier und da glückliche Veränderungen zu
+      machen. Und auch bei diesen wollte ich mich bloß auf diese von ihren Stücken einlassen,
+      welchen sie den größten Teil ihres Ruhms zu danken haben. Mein vornehmstes Augenmerk blieben
+      aber dabei noch immer die Alten, mit welchen ich das noch gewiß zu leisten hoffe, was ich in
+      der Vorrede zu den Beiträgen versprochen habe.</p>
+            <p rendition="#et">Zweierlei wird man daselbst auch noch versprochen finden, womit ich mich
+      aber jetzt ganz und gar nicht abgeben will. Erstlich werde ich es nicht wagen, die
+      dramatischen Werke meiner noch lebenden Landsleute zu beurteilen. Da ich mich selbst unter sie
+      gemengt habe, so habe ich mich des Rechts, den Kunstrichter über sie zu spielen, verlustig
+      gemacht. Denn entweder sie sind besser, oder sie sind geringer als ich. Jene setzen sich über
+      mein Urteil hinweg; und was diese ihre Leser bitten, das muß ich die meinigen gleichfalls noch
+      bitten:</p>
+            <p>–––date crescendi copiam</p>
+            <p>Novarum qui spectandi faciunt copiam</p>
+            <p>Sine vitiis – –</p>
+            <p>Zweitens werde ich keine Nachrichten von dem gegenwärtigen Zustande der verschiedenen Bühnen
+      in Deutschland mitteilen; Teils weil ich für die wenigsten derselben würde stehen können;
+      Teils weil ich unsern Schauspielern nicht gern einige Gelegenheit zur Eifersucht geben will.
+      Sie brauchen, zum Teil, wenigstens eben so viel Ermunterung und Nachsicht, als unsre
+      Schriftsteller.</p>
+            <p rendition="#et">Was die äußerliche Einrichtung dieser theatralischen Bibliothek
+      anbelangt, so ist weiter dabei nichts zu erinnern, als daß immer zwei Stück einen kleinen Band
+      ausmachen sollen. Der letzte Band, von welchem ich aber noch nicht bestimmen kann, welcher es
+      sein wird, soll eine kurze chronologische Skiagraphie von allem, was in den vorhergehenden
+      Bänden vorgekommen ist, enthalten, und die nötigen <pb n="13" facs="#f0006"/> Verbindungen hinzutun,
+      damit man die Schicksale der dramatischen Dichtkunst auf einmal übersehen könne. An keine
+      gewisse Zeit werde ich mich dabei nicht binden; wohl aber kann ich versichern, daß mir selbst
+      daran liegt, sobald es sich tun läßt, zu Stande zu kommen.</p>
+            <pb n="14" facs="#f0007"/>
+         </div>
+         <div xml:id="Lessing-Gotthol-d1e87251" type="chapter">
+            <pb n="15" facs="#f0008"/>
+            <pb n="148" facs="#f0009"/>
+            <head>Das Theater des Herrn Diderot</head>
+            <p>Vorrede des Übersetzers</p>
+            <p>[1760]</p>
+            <p>Dieses Theater des Herrn Diderot, eines von den vornehmsten Verfassern der berufenen
+      Enzyklopädie, bestehet aus zwei Stücken, die er als Beispiele einer neuen Gattung
+      ausgearbeitet, und mit seinen Gedanken sowohl über diese neue Gattung, als über andere
+      wichtige Punkte der dramatischen Poesie, und aller ihr untergeordneten Künste, der
+      Deklamation, der Pantomime, des Tanzes begleitet hat.</p>
+            <p rendition="#et">Kenner werden in jenen weder Genie noch Geschmack vermissen; und in
+      diesen überall den denkenden Kopf spüren, der die alten Wege weiter bahnet, und neue Pfade
+      durch unbekannte Gegenden zeichnet.</p>
+            <p rendition="#et">Ich möchte wohl sagen, daß sich, nach dem Aristoteles, kein
+      philosophischerer Geist mit dem Theater abgegeben hat, als <hi rendition="#i">er</hi>.</p>
+            <p rendition="#et">Daher sieht er auch die Bühne seiner Nation bei weitem auf der Stufe der
+      Vollkommenheit nicht, auf welcher sie unter uns die schalen Köpfe erblicken, an deren Spitze
+      der Prof. Gottsched ist. Er gestehet, daß ihre Dichter und Schauspieler noch weit von der
+       <pb n="148" facs="#f0010"/> Natur und Wahrheit entfernet sind; daß beider ihre Talente, guten
+      Teils, auf kleine Anständigkeiten, auf handwerksmäßigen Zwang, auf kalte Etiquette
+      hinauslaufen etc.</p>
+            <p rendition="#et">Selten genesen wir eher von der verächtlichen Nachahmung gewisser
+      französischen Muster, als bis der Franzose selbst diese Muster zu verwerfen anfängt. Aber oft
+      auch dann noch nicht.</p>
+            <p rendition="#et">Es wird also darauf ankommen, ob der Mann, dem nichts angelegener ist,
+      als das Genie in seine alte Rechte wieder einzusetzen, aus welchen es die mißverstandene Kunst
+      verdränget; ob der Mann, der es zugestehet, daß das Theater weit <pb n="16" facs="#f0011"/> stärkerer
+      Eindrücke fähig ist, als man von den berühmtesten Meisterstücken eines Corneille und Racine
+      rühmen kann; ob dieser Mann bei uns mehr Gehör findet, als er bei seinen Landsleuten gefunden
+      hat.</p>
+            <p rendition="#et">Wenigstens muß es geschehen, wenn auch wir einst zu den gesitteten
+      Völkern gehören wollen, deren jedes <hi rendition="#i">seine</hi> Bühne hatte.</p>
+            <p rendition="#et">Und ich will nicht bergen, daß ich mich einzig in solcher Hoffnung der
+      Übersetzung dieses Werks unterzogen habe.</p>
+            <p>Vorrede des Übersetzers,</p>
+            <p>zu dieser zweiten Ausgabe</p>
+            <p>[1781]</p>
+            <p>Ich bin ersucht worden, dieser Übersetzung öffentlich meinen Namen zu geben.</p>
+            <p rendition="#et">Da es nun vorlängst unbekannt zu sein aufgehöret hat, daß ich wirklich
+      der Verfasser derselben bin; da ich mich des Fleißes, den ich darauf gewandt habe, und des
+      Nutzens, den ich daraus gezogen, noch immer mit Vergnügen erinnere: so sehe ich nicht, warum
+      ich mich einer Anfoderung weigern sollte, die mir Gelegenheit gibt, meine Dankbarkeit einem
+      Manne zu bezeugen, der an der Bildung meines Geschmacks so großen Anteil hat.</p>
+            <p rendition="#et">Denn es mag mit diesem auch beschaffen sein, wie es will: so bin ich mir
+      doch zuwohl bewußt, daß er, ohne Diderots Muster und Lehren, eine ganz andere Richtung würde
+      bekommen haben. Vielleicht eine eigenere: aber doch schwerlich eine, mit der am Ende mein
+      Verstand zufriedener gewesen wäre.</p>
+            <p rendition="#et">Diderot scheint überhaupt auf das deutsche Theater weit mehr Einfluß
+      gehabt zu haben, als auf das Theater seines eigenen Volks. Auch war die Veränderung, die er
+      auf diesem hervorbringen wollte, in der Tat weit schwerer zu bewirken, als das Gute, welches
+      er jenem nebenher verschaffte. Die Französischen Stücke, welche auf unserm Theater gespielt
+      wurden, stellten doch nur lauter fremde Sitten vor: und <pb n="17" facs="#f0012"/> fremde Sitten, in
+      welchen wir weder die allgemeine menschliche Natur, noch unsere besondere Volksnatur erkennen,
+      sind bald verdrängt. Aber je mehr die Franzosen in ihren Stücken wirklich finden, was wir uns
+      nur zu finden einbilden: desto hartnäckiger muß der Widerstand sein, den ihre alten Eindrücke
+      jeder, wie sie dafür halten, unnötigen Bemühung, sie zu verwischen oder zu überstempeln,
+      entgegensetzen.</p>
+            <p rendition="#et">Wir hingegen hatten es längst satt, nichts als einen alten Laffen im
+      kurzen Mantel, und einen jungen Geck in bebänderten Hosen, unter ein Halbdutzend alltäglichen
+      Personen, auf der Bühne herumtoben zu sehen; wir sehnten uns längst nach etwas bessern, ohne
+      zu wissen, wo dieses Bessere herkommen sollte: als der »Hausvater« erschien. In ihm erkannte
+      sogleich der rechtschaffne Mann, was ihm das Theater noch eins so teuer machen müsse. Sei
+      immerhin wahr, daß es seitdem von dem Geräusche eines nichts bedeutenden Gelächters weniger
+      ertönte! Das wahre Lächerliche ist nicht, was am lautesten lachen macht; und Ungereimtheiten
+      sollen nicht bloß unsere Lunge in Bewegung setzen.</p>
+            <p rendition="#et">Selbst unsere Schauspieler fingen an dem »Hausvater« zuerst an, sich
+      selbst zu übertreffen. Denn der Hausvater war weder Französisch, noch deutsch: er war bloß
+      menschlich. Er hatte nichts auszudrücken, als was jeder ausdrücken konnte, der es verstand und
+      fühlte.</p>
+            <p rendition="#et">Und daß jeder seine Rolle verstand und fühlte, dafür hatte nun freilich
+      Diderot vornehmlich gesorgt. Wenn ich aber doch gleichwohl auch meiner Übersetzung ein kleines
+      Verdienst in diesem Punkte zuschreibe: so habe ich, wenigstens bis itzt, von den Kunstrichtern
+      noch keinen besondern Widerspruch zu erfahren gehabt.</p>
+            <p rendition="#et">Nicht als ob ich meine Übersetzung frei von allen Mängeln halten wollte;
+      nicht als ob ich mir schmeichelte, überall, auch da den wahren Sinn des Verfassers getroffen
+      zu haben, wo er selbst in seiner Sprache sich nicht bestimmt genug ausgedrückt hat! Ein Freund
+      zeigt mir nur erst izt eine dergleichen Stelle; und ich betaure, daß ich in dem Texte von
+      diesem Winke nicht Gebrauch machen können. Sie ist in <pb n="18" facs="#f0013"/> dem »Natürlichen Sohne«
+      in dem dritten Auftritte des ersten Aufzuges, wo Theresia ihrer Sorgfalt um Rosaliens
+      Erziehung gedenkt. »Ich ließ mir es angelegen sein, sagt sie, den Geist und besonders den
+      Charakter dieses Kindes zu bilden, von welchem einst das Schicksal meines Bruders abhangen
+      sollte. Es war unbesonnen, ich machte es bedächtig. Es war heftig, ich suchte dem Sanften
+      seiner Natur aufzuhelfen.« Das es ist in allen vier Stellen im Französischen durch il
+      ausgedruckt, welches eben sowohl auf das vorhergehende enfant, auf Rosalien, als auf den
+      Bruder gehen kann. Ich habe es jedesmal auf Rosalien gezogen: aber es kann leicht sein, daß es
+      die beiden erstenmale auf den Bruder gehen, und sonach heißen soll: »Er war unbesonnen, ich
+      machte sie bedächtig. Er war heftig, ich suchte dem Sanften ihrer Natur aufzuhelfen.« Ja
+      dieser Sinn ist unstreitig der feinere.</p>
+            <p rendition="#et">Es kann jemand keinen einzigen solchen Fehler sich zu Schulden kommen
+      lassen, und doch noch eine sehr mittelmäßige Übersetzung gemacht haben!</p>
+         </div>
+      </body>
+   </text>
+</TEI>
