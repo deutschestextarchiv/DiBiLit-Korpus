@@ -10,9 +10,9 @@ collection originally published by DirectMedia Publishing can be
 researched using the DDC search engine integrated in the DTA as well
 as other DTA tools for linguistic analysis.
 
-## Data
-
-## Publications
 The repository contains different directories:
 
+- metadata `[contains two subdirectories related to metadata]` 
+    - bibl `[contains the bibliographical metadata being the basis of the DTABf-Headers]` 
+    - headers `[contains the DTABf-headers of all texts]`
 - publications `[contains the documentation of the workflow]`
