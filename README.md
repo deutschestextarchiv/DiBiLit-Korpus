@@ -13,16 +13,16 @@ as other DTA tools for linguistic analysis.
 The repository contains different directories:
 
 - data `[contains all text assigned to genre-based subdirectories]`
-	- drama (508)
-        - erzaehlungen (540)
-        - essays (114)
-        - fabel (8)
-        - libretti (48)
-        - lyrik (15)
-        - prosa (28)
-        - roman (546)
-        - sagen_maerchen (98)
-        - wissenschaft (180)
+    - drama 
+    - erzaehlungen
+    - essays
+    - fabel
+    - libretti
+    - lyrik
+    - prosa
+    - roman
+    - sagen_maerchen
+    - wissenschaft
 - metadata `[contains two subdirectories related to metadata]` 
     - bibl `[contains the bibliographical metadata being the basis of the DTABf-Headers]` 
     - headers `[contains the DTABf-headers of all texts]`
