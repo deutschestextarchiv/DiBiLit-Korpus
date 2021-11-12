@@ -1,4 +1,4 @@
-# CLARIAH-DE_dibilit
+# DiBiLit-Corpus
 
 DiBiLit is a corpus being created in the BMBF-funded project
 CLARIAH-DE by homogenising various derivatives of texts from the
