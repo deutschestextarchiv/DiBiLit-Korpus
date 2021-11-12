@@ -10,6 +10,9 @@ collection originally published by DirectMedia Publishing can be
 researched using the DDC search engine integrated in the DTA as well
 as other DTA tools for linguistic analysis.
 
+## Publications
 The repository contains different directories:
 
 - publications `[contains the documentation of the workflow]`
+
+## Data
