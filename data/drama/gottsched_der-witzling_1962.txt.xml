@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Witzling</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118696734">
+                  <forename>Luise Adelgunde Victorie</forename>
+                  <surname>Gottsched</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:43:57Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000395</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q55102908</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/2000487577X</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Gottsched, Luise Adelgunde Victorie/Dramen/Der Witzling</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/nm28.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-E4F1-5</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Luise Adelgunde Victorie Gottsched: Der Witzling. Berlin 1962</bibl>
+            <bibl>Luise Adelgunde Victorie Gottsched: Der Witzling. Ein deutsches Nachspiel in einem Aufzuge / Johann Elias Schlegel: Die Stumme Schönheit. Ein Lustspiel in einem Aufzuge. Texte und Materialien zur Interpretation, besorgt von Wolfgang Hecht, Berlin: Walter de Gruyter &amp; Co., 1962 [Komedia, Band 1].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Der Witzling</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118696734">
+                        <forename>Luise Adelgunde Victorie</forename>
+                        <surname>Gottsched</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">37 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Walter de Gruyter &amp; Co.</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1962</date>
+                  <date type="firstPublication">1745</date>
+                  <date type="firstPublication" subtype="clariah">1745</date>
+                  <date type="firstPublication" subtype="zeno">1745</date>
+                  <date type="firstPublication" subtype="i5">1745</date>
+                  <date type="firstPublication" subtype="gerdracor">1745</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1713"
+                        notAfter="1762"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d3096e255">Erstdruck unter dem Titel »Herr Witzling« in: Die Deutsche Schaubühne nach den Regeln und Mustern der Alten, herausgegeben von Johann Christoph Gottsched, Leipzig (Bernhard Christoph Breitkopf), 6. Band, 1745. Der Text folgt der geringfügig überarbeitete Fassung in der zweiten Auflage des 6. Bandes der Deutschen Schaubühne von 1750.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="herr_reinhart" sex="MALE">
+                  <persName>Herr Reinhart</persName>
+               </person>
+               <person xml:id="der_junge_reinhart" sex="MALE">
+                  <persName>Der Junge Reinhart</persName>
+               </person>
+               <person xml:id="jungfer_lottchen" sex="FEMALE">
+                  <persName>Jungfer Lottchen</persName>
+               </person>
+               <person xml:id="herr_vielwitz" sex="MALE">
+                  <persName>Herr Vielwitz</persName>
+               </person>
+               <person xml:id="paul" sex="MALE">
+                  <persName>Paul</persName>
+               </person>
+               <person xml:id="herr_sinnreich" sex="MALE">
+                  <persName>Herr Sinnreich</persName>
+               </person>
+               <person xml:id="herr_jambus" sex="MALE">
+                  <persName>Herr Jambus</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d3096e255">
+      <front>
+         <div type="front">
+            <head>Luise Adelgunde Victorie Gottsched</head>
+            <head>Der Witzling</head>
+            <head>Ein deutsches Nachspiel in einem Aufzuge</head>
+         </div>
+         <pb n="8" facs="#f0001"/>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>Herr Reinhart, ein reicher Kaufmann in Leipzig.</castItem>
+               <castItem>Jungfer Lottchen, seine Unmündige.</castItem>
+               <castItem>Der Junge Reinhart, sein Sohn, ein junger Advocat.</castItem>
+               <castItem>Herr Vielwitz, ein junger Mensch, der nur unlängst Studierens wegen nach Leipzig
+            gekommen, und bey dem Herrn Reinhart im Hause wohnet.</castItem>
+               <castItem>Herr Sinnreich, ein junger Gelehrter.</castItem>
+               <castItem>Herr Jambus, ein junger Dichter.</castItem>
+               <castItem>Paul, ein Diener.</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Der Schauplatz ist auf Jungfer Lottchens Zimmer. Die Handlung fängt gleich nach der
+          Mittagsmahlzeit an, und endiget sich gegen 5 Uhr.</p>
+         </set>
+      </front>
+      <body>
+         <div>
+            <head>Erster Auftritt</head>
+            <stage>Jungfer Lottchen sitzt auf einem Stuhle und macht Knötchen. Bald darauf kömmt Herr
+          Reinhart.</stage>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nun, wie stehts, Jungfer Lottchen? Ich habe heute zu Mittage unmöglich zu Hause speisen
+            können. Ich fand auf der Börse einen guten Freund aus Siebenbürgen, den ich mit in den
+            blauen Engel nahm: denn ich bin meiner Frauen nicht gern mit unerwarteten Gästen
+            beschwerlich. Ist Ihnen auch bey Tische die Zeit sehr lang geworden?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lacht.</stage>
+               <p>Ach nein! mir zum mindesten nicht! So lange wir ein so abgeschmacktes Thier am Tische
+            haben, als der junge Vielwitz ist; so wird mir die Zeit wohl nicht leicht lang
+            werden.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ey, was sagt Sie, Jungfer Lottchen! der junge Vielwitz sollte abgeschmackt seyn? Sein
+            Vater ist ein so reicher Mann! ich wollte ihm wohl mein ganzes Vermögen creditiren.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lacht sehr.</stage>
+               <p>Der Reichthum hilft so wenig für Thorheit, als das Alter. Sein Vater sey so reich als
+            er wolle: sein Herr Sohn ist ein Geck.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>sich verwundernd.</stage>
+               <p>Ich weis doch nicht! mir kömmt es vor, daß der junge Mensch recht sehr klug thut.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Eben darinn besteht seine Thorheit. Glauben Sie mirs nur, Herr Reinhart, nichts steht
+            einem jungen Menschen närrischer, als wenn er klüger thun will, als alle andere. Er ist
+            ein rechter großer Verehrer von seiner Wenigkeit; <stage>sie lacht,</stage> er ist aber,
+            meines Wissens, auch der einzige.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Es ist wohl wahr, er redet immer von sich selbst, und von seiner Gelehrsamkeit; und
+            vergißt bey Tische fast das Essen darüber, daß er uns immer seine Verse herbethet, die
+            er auf Schulen gemacht hat. Allein es ist die liebe Jugend; solche Fehler geben sich mit
+            den Jahren.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nein, mein Herr Reinhart; dieser Fehler nimmt gewiß mit den Jahren nur noch mehr zu.
+            Die Fehler, an denen die Jugend schuld ist, und die mit den Jahren vergehen, die
+            bestehen gemeiniglich nur in einem gar zu großen Feuer der<pb n="9" facs="#f0002"/> Leidenschaften.
+            Bey ihm aber ist es ein Mangel der Vernunft, ein innerer Hochmuth des Herzens, eine
+            närrische Selbstliebe: und die nimmt mit den Jahren immer mehr zu.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Glaube Sie das nicht, Jungfer Lottchen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Das glaube ich gewiß. Wer in seinem 20sten Jahre noch nicht so viel Urtheilskraft hat,
+            daß er seine Selbstliebe verbergen kann: der bleibt sein Lebenlang ein Thor.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>schüttelt den Kopf.</stage>
+               <p>Es ist mir sehr leid, Jungfer Lottchen, daß Sie wider den jungen Menschen so sehr
+            aufgebracht ist.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Daran hat er selbst Schuld. Hätte er mir einen bessern Begriff von sich beygebracht: so
+            würde ich ihn auch haben.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Der Mensch denket und saget doch aber alles Gutes von sich.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lachend.</stage>
+               <p>Eben darum glaube ich es nicht, weil er es selbst sagt.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nun, nun, er ist nur erst vierzehn Tage hier: wenn Sie ihn länger kennen wird; so wird
+            er Ihr schon noch gefallen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lächelnd.</stage>
+               <p>Ich versichere Sie, daß er mir je länger je abgeschmackter vorkommen wird. Gewisse
+            Leute haben nun einmal das Schicksal, je länger man sie sieht, desto verdrießlicher
+            werden sie einem: und Herr Vielwitz ist gewiß von der Art.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Das sollte mir sehr leid seyn! Die Wahrheit zu sagen, Jungfer Lottchen, des Vielwitzes
+            Vater, ist mein sehr guter Freund: es ist nunmehr länger als 20 Jahre, daß wir mit
+            einander im Handel zu thun haben.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Das kann wohl seyn. Muß denn deswegen sein Sohn klug seyn?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Höre Sie mich doch nur erst aus. Mit Ihr meyne ich es auch herzlich gut, mein liebes
+            Lottchen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Das bin ich versichert, und werde es Lebenslang mit allem Danke erkennen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ihr Vater war ein braver ehrlicher, reicher Mann; und wußte, daß ich wohl mein Leben
+            für ihn gelassen hätte: darum hat er mich auch zum Vormunde über Sie gesetzt, und zwar
+            mit einer Bedingung, die sehr selten ist: daß nämlich, wofern <pb n="10" facs="#f0003"/> Sie in Ihren
+            unmündigen Jahren wider meinen Willen heirathet, ich Ihr von Ihrem Vermögen keinen
+            Häller auszahlen darf. Weis Sie das, Jungfer Lottchen?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>O ja! und ich werde mein Vermögen gewiß ganz behalen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Das soll mir sehr lieb seyn. Auf die Art aber muß der junge Vielwitz Ihr nicht so
+            albern vorkommen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Wie so? Was geht den jungen Witzling meines Vaters letzte Verordnung an?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>schüttelt den Kopf.</stage>
+               <p>Sie ist sonst so klug, und kann oder will mich nun nicht verstehen!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nein, ich verstehe Sie nicht.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich habe aber im Sinne, aus Ihnen beyden ein Paar zu machen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>erschrickt.</stage>
+               <p>Aus uns? aus mir und aus dem Vielwitz?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ja, ja. Er ist brav reich, und Sie ist auch brav reich. Sie liest und hört und redt
+            gern was Kluges: und er sagt auch, daß er sehr klug ist. So dünkt mich, Ihr schicktet
+            Euch gut zusammen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nichts minder, als das. Von allem Unglücke in der Welt, stelle ich mir das als das
+            größte vor, einen solchen Mann zu haben, als der junge Vielwitz ist.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Was? einen so reichen Menschen?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ich habe Geld genug, auch einen Armen glücklich zu machen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Den klügsten Menschen von der Welt?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Der Himmel bewahre mich vor dem klügsten Menschen von der Welt; zumal, wenn er ein
+            eingebildeter Thor ist.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Bedenke Sie nur die Macht, die mir Ihres Vaters Testament gegeben hat!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Diese Vollmacht sieht einem vernünftigen Vater ähnlich. Er hat nur einer unbedachtsamen
+            Thorheit der Jugend vorbeugen wollen. Er hat mich aber nicht zu einer Sklavinn eines
+            fremden Eigensinnes auf Lebenslang gemacht. Wenn ich mündig, und hoffentlich vernünftig
+            genug seyn werde: so kann ich mich nach eigenem Gefallen verheirathen. Mich dünkt dieß
+            ist der Sinn des väterlichen Willens.</p>
+               <pb n="11" facs="#f0004"/>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>besinnt sich ein wenig.</stage>
+               <p>Es ist endlich wohl wahr! Aber wird Sie wohl noch fünf Jahre Geduld haben?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ehe ich den Vielwitz nähme; so hätte ich gewiß noch funfzig Jahre Geduld.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Kränke Sie mich doch nicht so! Ich bin Ihr so gut, als wenn Sie mein eigenes Kind wäre!
+            darum sollte Sie mir auch wohl wieder was zu Gefallen thun.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Von Herzen gern, alles was Sie wollen. Nur daß ich den Vielwitz nicht für klug halten
+            darf.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Der Mensch hat doch aber was gelernet!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Das spreche ich ihm nicht ganz ab. Für einen jungen Menschen weis er schon etwas. Aber
+            darum muß er so stolz und klug nicht thun, als wenn er allen großen Gelehrten in
+            Deutschland die Wage halten könnte.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Das wird sich schon noch geben!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ich glaube gewiß, wenn er minder von sich hielte, so würde man ihn für einen
+            geschickten jungen Menschen halten können: nun er aber sein Bißchen Vollkommenheiten
+            durch ein Vergrößerungsglas ansieht, so wird er zu einem Gecken.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nun, verspreche Sie mir zum mindesten, Jungfer Lottchen, daß Sie ihm einen freyen
+            Zutritt des Nachmittags zum Caffee, wenn Sie doch ohnedem andere gute Freunde bey sich
+            auf dieser Stube hat, verstatten will. Thue Sie mirs zu Liebe!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>zuckt die Achseln.</stage>
+               <p>Was will ich machen?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich will meinem Sohne sagen, daß er ihm seinen Hochmuth ein wenig verweisen soll. Sie
+            sind ja gute Freunde.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ihr Herr Sohn ist sein guter Freund, aus Ehrfurcht gegen Sie; weil Sie es ihm befohlen
+            haben: sonst ist er viel zu vernünftig, als daß er ihn eine Stunde um sich leiden
+            könnte.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nun, nun! es wird sich schon noch geben. Mein Sohn liebt ja auch die schönen
+            Wissenschaften: so kann er ihm desto dreister zureden. Wird Sie heute Besuch haben, zum
+            Caffee?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>So viel ich weis, wird sonst niemand kommen, als der junge Vielwitz und Ihr Herr Sohn.
+            Sie fiengen heute bey Tische einen Streit an, den sie hier auf meiner Stube enden
+            wollen.</p>
+               <pb n="12" facs="#f0005"/>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Wie? was? einen Streit?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ja, sie redeten von der Gottschedischen Schaubühne. Da machte nun der Vielwitz alle
+            Stücke darinnen herunter.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>schüttelt den Kopf.</stage>
+               <p>Nun! das wüßte ich doch nicht. Ich lese manchmal des Abends darinnen. Alle Stücke
+            gefallen mir zwar auch nicht; aber einige sind doch recht hübsch, und ich denke immer:
+            was mir nicht gefällt, das kann doch wohl einem andern gefallen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Das macht, Sie denken wie ein vernünftiger Mann; aber nicht wie ein junger
+            Witzling.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nein! so überhaupt muß man kein Buch verachten: so lange noch keines für einen Menschen
+            allein geschrieben ist. <stage>Er geht zum Tische und sieht einen versiegelten Brief
+              liegen.</stage>
+               </p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Das ist aber die Art dieser jungen Herren. Sie glauben, alle Schriftsteller sollen nur
+            streben, die Ehre ihres Beyfalls allein zu erhalten. Ungeachtet dieser Lohn ein wenig
+            klein wäre!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Was hat Sie denn da für einen Brief, Jungfer Lottchen?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ach! es sind Verse von dem jungen Vielwitz. Er hat sie mir heute früh herunter
+            geschickt.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>erfreut.</stage>
+               <p>Ey! das ist mir lieb! Es wird wohl gar eine Liebeserklärung seyn. Warum hat Sie sie
+            denn noch nicht aufgemacht?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Weil ich heute keine Lust zu Kopfschmerzen habe.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Zu Kopfschmerzen? Wie so?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ich kenne seine Verse schon. Das Rechnen wird mir nicht so sauer, als die Gedichte zu
+            verstehen, die er macht. Sie sind des Koptbrechens schon bey Ihren Handelsbüchern
+            gewohnet, Herr Reinhart, machen Sie den Brief nur auf, und lesen Sie ihn.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ey! wenn ich in meinem Handelsbuche lese: so bringt mir das Geld ein, und hiervon hätte
+            ich nichts. Nein, nein! es ist billig, daß Sie Ihre Liebesbriefe selber erbreche.
+              <stage>Er giebt ihr den Brief.</stage> Da! lese Sie es nur selbst. Ich habe ohnedem
+            nothwendig ein Paar Briefe zu schreiben. <stage>Er geht ab.</stage>
+               </p>
+               <pb n="13" facs="#f0006"/>
+            </sp>
+         </div>
+         <div>
+            <head>Zweyter Auftritt</head>
+            <stage>Jungfer Lottchen wirft den Brief verächtlich auf den Tisch, indem kömmt der junge
+          Reinhart.</stage>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ihre Dienerinn, mein Herr Reinhart.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ergebenster Diener, ist der Herr Vielwitz noch nicht hier?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nein, aber Ihr Papa ist hier gewesen, und hat mich versichert, daß er Ihnen auftragen
+            wollte, den jungen Vielwitz vernünftig zu machen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Was? meynt mein Vater, daß ich unmögliche Dinge möglich machen kann?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lacht.</stage>
+               <p>So wie es scheint, traut er Ihnen das zu.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Wenn mein Vater nicht mein Vater wäre, so würden wir, der junge Herr Vielwitz und ich,
+            uns gar selten sprechen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lächelnd.</stage>
+               <p>Ey! seyn Sie immer so gut, und machen Sie ihn ein wenig gescheidt. Es ist zu meinem
+            Besten.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Wie? zu Ihrem Besten?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lachend.</stage>
+               <p>Ja, Sie müssen wissen, daß ich im Sinne habe, einmal eine Frau Vielwitzinn zu
+            werden.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Sie? Sie?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ja, ja! ich! Es giebt gute christliche Herzen, die mir dieß Glück wünschen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich merke schon, was Sie damit meynen; darum mag ich meine Gedanken nicht sagen. Ich
+            möchte auf eine Person treffen, der ich Ehrfurcht schuldig bin.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ach lieber Herr Reinhart, helfen Sie mir nur bey eben der Person, den Menschen verhaßt
+            machen!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ach! das wollen wir ihm selbst überlassen. Glauben Sie nur, er wird sich schon selbst
+            bey meinem Vater, und allen andern so verhaßt machen, daß wir alle Mühe dabey werden
+            ersparen können. Dergleichen hochmüthige und kützelhärige Leute machen ihr Glück in der
+            Welt niemals. Das habe ich schon oft erlebet.</p>
+               <pb n="14" facs="#f0007"/>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nun! mit mir ist er fertig. Ich weis schon, was ich von ihm halten soll.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich auch. Zum mindesten werde ich mich vor noch einer solchen schlaflosen Nacht hüten,
+            als die vorige gewesen ist.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Wie so? warum haben Sie nicht geschlafen?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Gestern Abends bath er mich, ich möchte doch noch zu ihm auf sein Zimmer kommen, weil
+            er nicht so früh zu Bette gehen könnte. Ich saß zwar schon selber bey einem Buche,
+            darinn ich viel lieber gelesen hätte: indessen gieng ich, theils aus Höflichkeit, theils
+            meinem Vater zu gefallen, zu ihm. Allein! ein Schelm der ihm wieder kömmt! vor drey
+            Uhren des Morgens bin ich nicht von seiner Stube gekommen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Wie so? Sie werden doch nicht mit einander noch poculirt haben?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>Ach nein! Es gieng ganz trocken zu! Zum mindesten floß nichts als die Hippokrene bey
+            uns. Denn er empfing mich mit Versen, und unterhielt mich mit Versen. Was er seit 5 oder
+            6 Jahren gemacht hat, das sagte er mir erst alles auswendig her, bis er ganz blau im
+            Gesichte ward, und der Schaum ihm vor dem Munde stand. Nachmals kam er auf seine
+            Jugendgedichte, und da holte er einen großen Ballen Papier hervor, daß ich vor Schrecken
+            bald des Todes war. Daran mußte ich nun meine Pein hören, bis die Glocke drey
+            schlug.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lacht sehr.</stage>
+               <p>Warum schliefen Sie aber nicht ein dabey?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ja! wenn das vor dem Geschrey angienge. Es ist nicht anders, als wenn die jungen
+            Dichter eine quackerische Begeisterung überfällt, wann sie jemanden ihre Gedichte
+            vorlesen, oder vorsagen. Sie sind alsdann ärgere Schreyer, als der Stentor.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lacht.</stage>
+               <p>Nun! das gefällt mir!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich weis aber wohl, was ich thun werde. Ich will ihm den jungen Sinnreich und Jambus
+            einmal des Abends auf die Stube schicken. Das sind auch solche Herren, die sich auf ihre
+            Gedichte was rechts einbilden, und sie gern alle Menschen auswendig lehren möchten. Da
+            wird nun eine rechte Hetze angehen! Entweder sie werden alle drey zugleich schreyen;
+            oder einer wird dem andern das Maul zuhalten müssen. <stage>Er lacht.</stage>
+               </p>
+               <pb n="15" facs="#f0008"/>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>O! da müssen Sie mir sagen, wenn Sie das thun wollen. Da will ich doch die schöne
+            Comödie zum mindesten vor der Thüre anhören.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ey, Sie sollen jetzo gleich einen schönen Vorschmack davon haben; denn die Wahrheit zu
+            sagen, ich habe sie herbestellt. Sie werden mir das nicht übel nehmen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ey was haben Sie gemacht? Sollt ich die poetische Cordegarde hier in meinem Zimmer
+            haben?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Sie wird Ihnen tausend Lust machen! Und wer weis, wozu es gut seyn kann?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ich wollte mein Gehör gern bis an mein Ende behalten, und die – – –</p>
+            </sp>
+         </div>
+         <div>
+            <head>Dritter Auftritt.</head>
+            <stage>Jungfer Lottchen; Herr Reinhart; Herr Vielwitz kömmt mit dem Hute auf dem Kopfe
+          herein, und nimmt ihn erst ab, nachdem er die Thüre zugemacht hat.</stage>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>sehr gravitätisch.</stage>
+               <p>Ihr gehorsamer Diener meine liebe Demoiselle! Ihr ergebner Diener, Herr Reinhart!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ihre Dienerinn, Herr Vielwitz. Regnet es etwa draußen im Vorsaale?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>sich verwundernd und lächelnd.</stage>
+               <p>Im Vorsaale? nein!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ich glaube es wohl. Aber ich vermuthete etwas dergleichen; weil Sie mit dem Hute auf
+            dem Kopfe herein kamen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Sein Herr Vater kömmt allezeit so auf seine Schreibstube.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lächelnd.</stage>
+               <p>Ja, da sitzen auch seine Kaufmannsdiener; aber hier nicht.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ländlich, sittlich. Bey mich kömmt niemand anders in einer Stube, als mit den Hut auf
+            den Kopf.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ja, ja! grobe Moden, sind auch Moden. Setzen Sie sich doch. <stage>Sie setzen sich,
+              Jungfer Lottchen klingelt.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Sind Sie etwa ausgegangen gewesen, mein Herr Vielwitz?</p>
+               <pb n="16" facs="#f0009"/>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ja, heute Vormittage bin ich in etliche Collegia gewesen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nun, wie haben Ihnen unsere Lehrer gefallen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>zuckt die Achseln.</stage>
+               <p>Was das für schlechte Leute sind! Wie werde ich noch meine Präceptores zu Hause
+            bedauren! Nein! so was elendes hätte ich mich nicht vermuthet.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>erstaunt.</stage>
+               <p>Wie? bey wem sind Sie denn gewesen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>verächtlich.</stage>
+               <p>Ach! ich mag die lieben Leute nicht nennen! Sie stehn einmal in einem gewissen Ansehn
+            bey der Welt. <stage>Lächelnd.</stage> Sie mögen ihren Ruhm genießen! ich will sie nicht
+            zu Boden schlagen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ihr Urtheil würde sie vielleicht auch wohl nicht gleich zu elenden Leuten machen: wenn
+            es gleich Männer sind, die, wie Sie sagen, schon ein Ansehen in der Welt erhalten
+            haben.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Vierter Auftritt.</head>
+            <stage>Die Vorigen. Paul.</stage>
+            <sp who="#paul">
+               <speaker>PAUL</speaker>
+               <stage>zu Jungfer Lottchen.</stage>
+               <p>Was befehlen Sie?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Bringt Caffee!</p>
+               <stage>Der Diener gebt ab.</stage>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lächelnd.</stage>
+               <p>Sie werden also Ihren Zweck hier sehr schlecht erreichen, da Sie studierens wegen
+            hergekommen sind?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Studierenswegen bin ich eben nicht <hi rendition="#i">hiergekommen</hi>. Ich habe nur im Sinne
+            gehabt, das was ich zu Hause gehöret, nicht ganz und gar zu vergessen! Allein ehe ich
+            das elende Zeug anhören wollte, ehe wollte ich in ein Jahr nicht aus <hi rendition="#i">meine</hi>
+            Stube gehen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ey: wenn ich an Ihrer Stelle wäre, so reisete ich gleich wieder nach Hause, und wiese
+            den Leipzigern, auf was für Lehrer sie sich erst geschickt machen müßten, wenn ich bey
+            ihnen studieren sollte.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Es ist nun in meiner Vaterstadt der Schlendrian, daß wir erst drey oder vier Jahre auf
+            die hohen Schulen das vergessen müssen, was wir zu Hause gelernet haben.</p>
+               <pb n="17" facs="#f0010"/>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Das ist ja erbärmlich!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Schade, um so viel treffliche Gelehrsamkeit!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Zum mindesten aber könnten Sie doch in dieser Zeit der Welt mit Schriften dienen. Es
+            giebt ja mehr große Geister, die kaum von der Schule kommen, und auf der Akademie nichts
+            zu thun wissen, als daß sie gleich Scribenten wer den.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich habe freylich an Leibnitzens seiner Infinitesimalrechnung und an des Aristoteles
+            Poetik verschiedene wichtige Puncte auszusetzen gefunden. Vielleicht mache ich mir
+            einmal darüber. Allein wie viel gute Namen wird das nicht kosten. Wie viel Stümper
+            werden da nicht zum Vorscheine kommen! die man bisher für große Leute gehalten, und die
+            doch diesen zween Leuten alles nur so treuherzig nachgebethet haben.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lächelnd.</stage>
+               <p>Ey! mit denen wollte ich gar kein Mitleiden haben. Wenn sie solche blinde Affen gewesen
+            sind: so mögen sie sichs auch gefallen lassen, daß sie mit zu Schanden werden.</p>
+               <stage>Hier kömmt der Diener und bringt einen Caffeetisch mit dem Geräthe, Jungfer
+            Lottchen schenkt ein.</stage>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Es taugt hernach, wenn ich meine Anmerkungen über dem Aristoteles fertig habe, darinn
+            ich seine Regeln widerlege, keine Poetik, weder bey <hi rendition="#i">die</hi> Franzosen, noch bei
+              <hi rendition="#i">die</hi> Deutschen was.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Haben wir denn dieß Werk bald zu hoffen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Das kann ich nicht sagen. Es liegt zwar schon fertig: denn ich habe es, die Wahrheit zu
+            sagen, gemacht, wie ich noch in <hi rendition="#i">die</hi> Schule auf Secunda war: allein wenn man
+            doch schon eine gewisse Reputation für sich hat ...</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Freylich! die darf man so nicht ins Gelag hinein wagen. Zumal wenn sie noch so frisch
+            ist. <stage>Sie giebt ihm ein Schälchen Caffee, dem Reinhart auch.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>trinkt.</stage>
+               <p>Das ist ein schöner Caffee! Mademoiselle, was geben Sie davor.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ey! solche große Gelehrten, die müssen nicht wissen, was solche Kleinigkeiten in der
+            Haushaltung kosten!</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ja, das ist nun einmal meine Schwachheit, daß ich das alles wissen muß. <hi rendition="#i">Da kann
+              ich nicht vor.</hi> Ich will es Ihnen sagen. <hi rendition="#i">Vor</hi> den Caffee haben Sie
+            höchstens 20 Gr. gegeben: denn bey uns kostet er 16 Gr. schwer Geld.</p>
+               <pb n="18" facs="#f0011"/>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nun das ist wahr! Ich schmecke wohl, daß der Caffee sehr gut ist: aber zu schmecken:
+            was er kostet, dazu ist meine Zunge zu dumm.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>nimmt ein Stück Zucker vom Schälchen.</stage>
+               <p>Und <hi rendition="#i">vor</hi> den Zucker? <stage>Er besieht ihn.</stage> Wo Sie <hi rendition="#i">vor</hi>
+            den Zucker mehr als 22 Rthlr. <hi rendition="#i">vor</hi> den Centner gegeben haben! so sind Sie
+            betrogen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Sie haben von Ihrem Herrn Vater die Preise besser gelernet, als ich von mei nem.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nein, Herr Vielwitz, ich verliere alle Hochachtung gegen Ihre zukünftige gelehrte
+            Schriften; wo Sie die Preise von mehrern Eßwaaren wissen.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Fünfter Auftritt.</head>
+            <stage>Die Vorigen. Herr Sinnreich. Herr Jambus. Sie kommen mit ungezogenen wilden Minen ins
+          Zimmer. Reinhart empfängt sie.</stage>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ihr Diener meine Herren. Hier sehen Sie den Herrn Vielwitz, einen jungen Menschen aus
+            Niedersachsen, der unserer Universität die Ehre thun, und hier studieren will.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ihr Diener, mein Herr, ich bin erfreut, <hi rendition="#i">Ihnen</hi> zu sehen.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Es ist mir ein Vergnügen, <hi rendition="#i">Ihnen</hi> kennen zu lernen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Es ist <hi rendition="#i">mich</hi> herzlich angenehm, ein Paar solche Männer hier zu sehen,
+              <hi rendition="#i">von die</hi> der Herr Reinhart <hi rendition="#i">mich</hi> so viel Gutes gesagt hat.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Setzen Sie sich doch.</p>
+               <stage>Sie laufen beide in eine Ecke des Zimmers und legen die Hüte und die Degen ab.
+            Jungfer Lottchen will sich darüber aufhalten. Reinhart aber winkt ihr, sie soll es nur
+            lassen gut seyn. Sie setzen sich zum Caffeetische. Jungfer Lottchen schenkt einem jeden
+            Caffee ein.</stage>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS</speaker>
+               <stage>der allemal sehr schreyet.</stage>
+               <p>Ist es schon lange mein Herr Vielwitz, daß wir die Ehre haben, <hi rendition="#i">Ihnen</hi> hier
+            zu sehen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Es ist erst vierzehn Tage.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Wo logieren Sie denn?</p>
+               <pb n="19" facs="#f0012"/>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich bin hier bey dem Herrn Reinhart <hi rendition="#i">ins Haus</hi>.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>
+                  <hi rendition="#i">Haben Sie in Willens</hi> lange hier zu bleiben?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ey, was? meine Herren, Sie müssen mit dem Herrn Vielwitz solche gleichgültige Dinge,
+            nicht reden. Er ist ein großer Poet.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ein Poet?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Zu dienen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Und ein Mathematicus dazu!</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ein Mathematicus? Wie haben Sie sich denn bis zum Dichter erniedrigen können?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ey, mein lieber Herr Sinnreich, es hat eher gescheide Poeten gegeben, als gescheide
+            Mathematicos.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ey, Herr Jambus, wir sind gute Freunde: aber in das Alter der Mathematik müssen Sie
+            nicht pfuschen. Sie möchten sonst eine Sau machen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Es ist wahr, die Mathematik ist das Edelste, was ein denkendes Wesen lernen und wissen
+            kann.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Sie ist die einzige Wissenschaft, die Wahrheiten aufzuweisen hat: mit allen andern ist
+            es lauter Ungewißheit.</p>
+               <p>O Meßkunst! Zaum der Phantasie,</p>
+               <p>Wer dir nur folget, irret nie!</p>
+               <p>Wer ohne dich will gehn, der gleitet!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>spöttisch.</stage>
+               <p>Es ist wohl wahr; daß 2 mal 2 4 ist, das ist eine viel gewissere Wahrheit, als daß die
+            Sonne hell scheint!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>Ich möchte gleichwohl lieber ein Capitel von Leibnitzens Theodicee gemacht haben, als
+            der Erfinder des Einmal Eins seyn: was für ewige Wahrheiten auch immer darinnen stehen.
+              <stage>Zu Jungfer Lottchen.</stage> Ich bleibe mit Fleiß bey dem Gleichnisse, was Sie
+            aus der Arithmetik genommen haben: ungeachtet sie nur ein Theil der Mathematik ist.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ich streite Ihnen nicht, daß Leibnitz ein großer Mann gewesen! das macht aber, er war
+            ein großer Mathematicus.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>zeigt auf Vielwitzen.</stage>
+               <p>Da sitzt aber ein Mann, der an der Leibnitzischen Infinitesimalrechnung sehr viel
+            auszusetzen hat.</p>
+               <pb n="20" facs="#f0013"/>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH</speaker>
+               <stage>sieht ihn von oben bis unten an.</stage>
+               <p>Sie? an Leibnitzens Infinitesimalrechnung?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>sieht ihn wieder so an.</stage>
+               <p>Ja, mein Herr. Ich bin nicht gern ein blinder Verehrer von die großen Leute. Ich
+            untersuche gern alles, und da finde ich, daß sie alle irrende Menschen gewesen.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH</speaker>
+               <stage>voll Verwunderung.</stage>
+               <p>Nun? z.B.: was haben Sie denn daran auszusetzen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>hochmüthig.</stage>
+               <p>Das wird sich zeigen, wenn mein Werk herauskommen wird.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Sie müssen wissen, daß der Herr Vielwitz sein Werk schon auf der Schule, als ein
+            Secundaner, geschrieben hat. Es ist also schon fertig.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH</speaker>
+               <stage>sich verwundernd.</stage>
+               <p>Auf der Schule? Sind Sie auf einer Schule gewesen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ja, mein Herr. Meines wissens bringt man das Latein nicht mit auf die Welt. Sind Sie
+            etwa auf keiner Schule gewesen?</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Es wäre eben so gut, wann es unterblieben wäre! Ich habe doch von keinem Lehrer was
+            gelernet, als von dem Mathematico: das ist noch der einzige, von dem ich was gelernet
+            habe!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lachend.</stage>
+               <p>Haben Sie denn das Lesen und Schreiben schon die ersten acht Tage Ihres Lebens
+            gekonnt?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nun, das könnte wohl seyn! Wenigstens kann ich ihm das Zeugniß geben, daß er so
+            schreibt, als ich in meinem ersten Jahre auch hätte schreiben wollen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>Ja, Herr Sinnreich, Ihre Liebste wird sich erst einmal an D: Fausts Zauberzeichen üben
+            müssen, ehe sie Ihre Hand wird lesen können.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH</speaker>
+               <stage>stolz.</stage>
+               <p>Docti male pingunt! Indessen, um wieder auf die Schulen zu kommen; so wird man da nur
+            mit lauter Ungewißheiten gequälet. Mit der philosophischen Ungewißheit, mit der
+            juristischen, medicinischen, oratorischen, historischen, poetischen und tausend andern
+            Ungewißheiten: so daß noch das einzige Wahre, was man höret, die Mathematik ist.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>Also, mein Herr Sinnreich, alles was Sie außer der Mathematik gelernet haben, das ist
+            erlogen?</p>
+               <pb n="21" facs="#f0014"/>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Es giebt wohl einige Arten von halben Gewißheiten, oder Wahrscheinlichkeiten, in den
+            andern Wissenschaften; allein auf die kann ein Kopf, der zu den ewigen Wahrheiten
+            gebohren ist, allenfalls von sich selbst kommen. Dazu hätte ich keine Lehrer nöthig
+            gehabt!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nun es ist mir lieb, daß ich keiner von Ihren Lehrern gewesen bin. Das würde mir ein
+            wenig undankbar vorkommen!</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Wenn Sie mir die Ehre thun, und meine Lehrmeisterinn werden wollen; so will ich Ihnen
+            gern alle meine Wissenschaften verdanken.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Sie werden also wohl schon etwas mathematisches geschrieben haben? Darf ich
+              <hi rendition="#i">mich</hi> wohl etwas davon zu sehen ausbitten?</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>In etwa vierzehn Tagen, werde ich <hi rendition="#i">Sie</hi> mit einer Dissertation aufwarten
+            können.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Wovon wird sie handeln?</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Von dem Maaße des Winkels der Abweichung derer Gesichtsstralen, womit ein Schielender
+            einen Gegenstand ansieht.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Das ist eine neue Materie!</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Was ich davon sagen werde, das wird auch alles ganz neu seyn. Die Erfindungen
+              <hi rendition="#i">gehören</hi> alle <hi rendition="#i">meine</hi>: und ich habe deswegen kein optisches
+            Werk, ja nicht einmal den Newton nachgeschlagen: ungeachtet dieser noch das einzige Buch
+            ist, das man sich nicht schämen darf, gelesen zu haben.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich bin recht neugierig, das zu lesen.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Die Beweise schließe ich allemal mit einer oder zwey Zeilen aus einem mathematischen
+            Poeten, als Pope, Gebhardi, oder dergleichen.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nun, da sehen wirs! vorhin wollten Sie die Poesie herunter machen, und jetzt spicken
+            Sie Ihre mathematischen Abhandlungen damit aus.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ey Poesie und Poesie ist sehr unterschieden: Ich meyne nicht die Wiegenliederpoeten,
+            wie Opitz, Canitz, Besser, Neukirch, Günther, und andere Dichter; sondern diejenigen,
+            darinn man, das Wahre, das Schöne, das Hohe, das Tiefe, das Dunkele, das Gedachte, das
+            Schalkhafte ... kurz, alles, was man nur abstract nennen kann, antrifft.</p>
+               <pb n="22" facs="#f0015"/>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lachend.</stage>
+               <p>Abstract? könnte man das nicht das Abgezogene nennen?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lacht.</stage>
+               <p>Ja ja! das <hi rendition="#i">Abgezogene</hi> in Gedichten. Das ist sehr schön und
+              <hi rendition="#i">abgezogen</hi> gesagt!</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nun Herr Sinnreich, Sie haben anjetzt den Herren Vielwitz lange genug unterhalten;
+            nunmehr lassen Sie mich auch einmal mit der Dichtkunst daran kommen. Es ist ganz
+            unnatürlich, daß ein Poet so lange schweigen und zuhören soll.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Meinethalben! Ich werde zum mindesten von der Poesie auch mit reden können. Dahingegen
+            Sie von der Mathematik schweigen, und uns allein reden lassen mußten.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS</speaker>
+               <stage>zum Vielwitze.</stage>
+               <p>Sie haben unfehlbar schon viel schönes drucken lassen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Nein, das eben nicht. Aber ich denke dennoch, daß meine Arbeiten hier nicht unbekannt
+            seyn können.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ich besinne mich nicht; etwas von <hi rendition="#i">Sie</hi> gelesen zu haben.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>erstaunt.</stage>
+               <p>Haben Sie nicht vergangenen August die Cantate auf dem Schellhaferischen Saale
+            gehört?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nein. Haben Sie die etwa gemacht?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ja. Der Componist schrieb an <hi rendition="#i">mir</hi> und ersuchte <hi rendition="#i">mir</hi>, ich möchte
+            ihm die Ehre thun und ihm eine Cantate machen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>zu den andern.</stage>
+               <p>Ey! meine Herren, das sollten Sie dem Manne nicht für ungenossen ausgehen lassen! Was?
+            Zween solche körnichte Dichter in der Stadt zu haben, und noch nach Niedersachsen zu
+            gehen, wenn man was schönes haben will? Das litte ich nicht!</p>
+               <stage>Sie schütteln die Köpfe. Lottchen lacht.</stage>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich mochte es ihm auch nicht abschlagen: denn ich dachte, es könnte des ehrlichen
+            Mannes Glück seyn. Wenn er aber so dumm gewesen ist, und hat meinen Namen nicht darzu
+            drucken lassen: <hi rendition="#i">Da</hi> habe ich nicht schuld <hi rendition="#i">an</hi>! Da kann ich nicht
+              <hi rendition="#i">vor</hi>.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Nein, wir haben hier nichts davon gewußt.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Das ist ein dummes <hi rendition="#i">Beest</hi>! Bey <hi rendition="#i">mich</hi> hat sich ein Componist
+            Haus und Hof mit einer von meinen Cantaten verdient: sie war <hi rendition="#i">mich</hi> aber auch
+            schön gerathen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>O! daran ist kein Zweifel.</p>
+               <pb n="23" facs="#f0016"/>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Indessen, die ich <hi rendition="#i">nach hier</hi> machte, war auch schön: denn ich dachte, du
+            mußt doch die Leipziger was hermachen, das eine Art hat! In <hi rendition="#i">eine</hi> Arie hatte
+            ich aus der <hi rendition="#i">Algebra</hi> was angebracht. Das war recht schön. Ich hatte
+              <hi rendition="#i">mich</hi> aber auch viel Mühe gegeben ... kann ich <hi rendition="#i">mir</hi> nicht noch
+            darauf besinnen? <stage>Er sinnt nach.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Bedienen Sie sich auch der Participiorum, Herr Vielwitz?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ey! die sind meine beste Zierde! Die Cantate war recht voll davon.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Was sind das für Dinger, Herr Reinhart?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lächelnd.</stage>
+               <p>Das ist eben das, als wenn ich Ihnen sagte: <hi rendition="#i">zu kalt zum Trinken</hi>, wird der
+            Caffee wohl weggeräumt werden müssen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>lacht.</stage>
+               <p>So so! und: <hi rendition="#i">Nicht gebohren zum aufwarten</hi>, werde ich wohl den Diener rufen
+            müssen. <stage>Sie steht auf; die andern lachen und Jambus aus vollem Halse: so daß sich
+              Lottchen die Ohren zuhält und abgeht.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Sechster Auftritt.</head>
+            <stage>Herr Reinhart. Herr Vielwitz. Herr Jambus. Herr Sinnreich.</stage>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Das ist mir eine herzliche Freude, daß ich höre, daß Sie die Participia lieben.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Mir ebenfalls. Ohne Participia kann man gar nichts denken.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Und <hi rendition="#i">für einem</hi> Verse, der nicht gedacht ist, da stehe ich nicht vor
+            auf.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>O freylich! Und gedacht, das heißt wacker undeutsch geredet.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ey, das macht, Sie haben sich in <hi rendition="#i">der</hi> deutschen Schaubühne verliebt, drum
+            finden Sie keinen Geschmack an klugen Versen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>So? das heißt, in der deutschen Schaubühne steht lauter dummes Zeug?</p>
+               <pb n="24" facs="#f0017"/>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Nun, wer poetische Wassersuppen lesen will, der kann sie gewiß da finden.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ey meine Herren, es ist <hi rendition="#i">mich</hi> eine rechte Freude, daß Sie auch hierinnen
+            meiner Meynung sind. Ein einzig Stück nehme ich aus; davon ist der Verfasser mein guter
+            Freund. Aber die andern taugen alle nichts.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Sie meynen etwa das erste Stück in einem gewissen Bande? Ja, ja! Es heißt doch aber
+            auch zuweilen: bonus dormitat Homerus.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Alle Zeilen sind freylich nicht gedacht. Indessen ubi plura nitent in carmine etc.
+            diese Regel brauche ich zwar sonst bey keinem Gedichte: aber weil dieß mein guter Freund
+            ist!</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Die andern sind alle <hi rendition="#i">unendlich unter</hi> dem!</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Das <hi rendition="#i">Matte</hi>, das <hi rendition="#i">Kalte</hi>, das <hi rendition="#i">Unwahrscheinliche</hi>
+            ...</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lächelnd.</stage>
+               <p>
+                  <hi rendition="#i">Das sich nicht Lesenlassende?</hi> Nicht wahr?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Freylich, ich weis nichts ungeschickters, als der Jean de France, der sich auf dem
+            Theater das Kleid abzieht. <stage>Er lacht hönisch.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Und der dumme Schöps, der im Menschenfeinde die Participia lächerlich machen will!</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Nein! ich hätte <hi rendition="#i">mich</hi> in einem solchen Werke doch bessere Sachen vermuthet.
+              <hi rendition="#i">Da</hi> wird unsere Zeit keine Ehre von haben.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Sollen das Meisterstücke seyn?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Wo hat denn der Herausgeber welche versprochen?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS</speaker>
+               <stage>heftig.</stage>
+               <p>Aber wir fordern welche!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lacht sehr.</stage>
+               <p>Ganz gut. Wenn er einmal für Sie ganz allein eine Schaubühne herausgeben wird: so wird
+            er sich vielleicht auf welche befleißigen, oder sich Ihre eigene Arbeiten ausbitten, die
+            Sie doch wohl für Meisterstücke werden gelten lassen. <stage>Es kömmt ein Diener und
+              nimmt den Caffeetisch weg.</stage> Anjetzt aber ist seine Absicht nur gewesen, Stücke
+            zu liefern, die nicht so sehr wider die Regeln verstießen, und den Comödianten Sachen zu
+            liefern, die viel gesitteter und gescheidter wären, als das elende Zeug, was sie bisher
+            fast überall gespielt haben. Das werden Sie doch den Stücken in der Schaubühne nicht
+            absprechen können.</p>
+               <pb n="25" facs="#f0018"/>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS</speaker>
+               <stage>sie lachen alle drey spöttisch.</stage>
+               <p>Sie meynen doch auch die Banise?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ja, ja, auch die! denn sie ist doch unendlich besser, als die alte prosaische Banise,
+            die man gleichwohl noch immer spielt, so dumm als sie ist. Setzen Sie sich aber nur hin,
+            und machen Sie eine bessere, wenn Ihnen diese nicht gefällt. Das wird den Herausgeber
+            nicht verdrießen, sondern ihm eine wahre Freude seyn.</p>
+               <stage>Herr Jambus lacht sehr.</stage>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>O das ist eine kluge Antwort! mich dünkt doch, es giebt keine bessere Art zu beweisen,
+            daß eine Sache schlecht sey, als wenn man sich geschwinde hinsetzt, und was bessers
+            macht.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Wir verstehn das Theater auch ein wenig, mein Herr Reinhart.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nun gut. Wo sind denn die Meisterstücke, die Sie gemacht haben? Ich sehe sie doch noch
+            nicht.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>So müssen Sie gewiß noch nicht das Päckchen gelesen haben, was ich Ihnen gestern Abends
+            mit gab. Ich habe freylich einige gemacht.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Nein, ich bin heute Vormittags sehr beschäfftigt gewesen.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Und von meinen Sachen haben Sie genug gelesen?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ja. Nur daß ich daran gewiß eben so viel auszusetzen hätte, als Sie an der deutschen
+            Schaubühne auszusetzen finden.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Und was wollten Sie wohl an meinen Stücken aussetzen?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Fürs erste dieses, daß sie undeutsch sind.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ha! ha! ha! sind Sie auch einer von die Mückensäuger, die der Grammatik zu gefallen,
+            einen schönen Gedanken ersticken?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ich schreibe nicht für die Leute, die erst decliniren und conjugiren lernen wollen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Sie schreiben aber für Ihre Leser, und denen gefällt man eben nicht mit
+            Sprachschnitzern.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>O ja, ich lese allemal lieber einen schönen Gedanken, als einen richtigen Ausdruck.</p>
+               <pb n="26" facs="#f0019"/>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Und <hi rendition="#i">mir</hi> dünkt, ein Gedanken kömmt <hi rendition="#i">mich</hi> noch einmal so schön
+            vor, wenn der Ausdruck wider die Grammatik läuft.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich will Ihnen noch mehr sagen, der ganze Gedanke besteht oftmals nur im Schnitzer:
+            wenn Sie die Worte recht zusammen setzen; so ist gewiß kein Gedanke mehr da.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ach! das ist nur eine Erfindung der seichten Köpfe, die nicht die Fähigkeit haben zu
+            denken.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>Je, meynen Sie denn, daß eine so große Kunst dazu gehöre, Sprachschnitzer zu machen?
+            Das kann ich alle Augenblicke auch; wenn das anders Witz und Hexerey heißen soll. Aber
+            warum machen Sie es in den lateinischen Versen nicht auch so? Warum binden Sie sich da
+            an die Grammatik?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>O das ist was anders! Deutsch ist nicht lateinisch!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ja, das höre ich heute nicht zum erstenmale.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Die lateinische Sprache hat nun einmal ihre Regeln. Allein man müßte sehr verblendet
+            seyn, wenn man das auch von der deutschen sagen wollte.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Was? die deutsche Sprache hat also keine Regeln?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nein. Man kann im Deutschen alles sagen, was man will.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Das bestreite ich nicht; aber man kann und muß es auch mit guten deutschen Ausdrücken
+            sagen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Nein, über dem Zwange geht mancher schöne Gedanke verloren.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich wollte wohl wetten, daß sich dieß unter hundertmalen nicht zweymal zutrifft. Z: E:
+            Ich las neulich in einem Gedichte, da ein Verliebter seine Schöne um Gegenliebe
+            ersuchet, den Ausdruck; <hi rendition="#i">uns wird nicht immer Frühling seyn</hi>. Ist das nicht
+            ein bloßer Latinismus?</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Latinismus oder nicht! der Gedanken ist doch schön.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ja, er <hi rendition="#i">ist all</hi> artig.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Würde er aber nicht bleiben, was er ist, wenn ich ihn nun gleich so verdeutschete:
+              <hi rendition="#i">Wir werden nicht immer jung seyn?</hi>
+               </p>
+            </sp>
+            <sp who="#herr_vielwitz #herr_jambus #herr_sinnreich">
+               <speaker>Sie schreyen alle drey.</speaker>
+               <p>Nein! nein! nein! das ist kalt, matt, frostig!</p>
+            </sp>
+            <pb n="27" facs="#f0020"/>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>zuckt die Achseln und lacht.</stage>
+               <p>Da sehen Sies ja nun, daß Ihnen bloß der Sprachschnitzer gefällt; der Gedanke ist ja
+            eben derselbe.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Bey Leibe nicht. <hi rendition="#i">Uns wird nicht immer Frühling seyn!</hi> das ist so malerisch,
+            so körnicht geredet. Das andere ist lauter Wasser dagegen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Wahrhaftig! <hi rendition="#i">Mir ist Frühling</hi>; das kömmt mir eben so vor, als wenn ich mit
+            den Epistolis obscurorum virorum sagen sollte: Habemus valde calidam Aestatem.
+              <stage>Sie lachen alle.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Nun es ist mir lieb, daß wir den Herrn Vielwitz hieher bekommen haben. Wissen Sie was,
+            Herr Jambus, wir müssen eine Gesellschaft mit einander aufrichten.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Von Herzen gern, <hi rendition="#i">da</hi> bin ich mit <hi rendition="#i">bey</hi>.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Und zwar eine <hi rendition="#i">Antigrammatikalische</hi>.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ja, ja! daß wir die Leute einmal das Vorurtheil aus <hi rendition="#i">den</hi> Kopf bringen, daß
+            man denken und doch rein Deutsch schreiben müsse.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Sie haben es getroffen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>O du arme deutsche Sprache! erzittere! <hi rendition="#i">dir wird nicht immer Schönheit
+              seyn!</hi>
+               </p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nun, nun, spotten Sie nur nicht! Ihre Gedichte sollen brav herhalten, wenn Sie welche
+            machen werden, die rein Deutsch sind.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>O das Märtyrthum würde mir eine Ehre seyn! allein es hat keine Noth. Ich treibe jetzt
+            mein Advocatenhandwerk; weil mir ein witziger Kopf, der kein Brod hat, ein sehr elendes
+            Geschöpf zu seyn scheint. Ich werde deswegen doch wohl wegen alter Bekanntschaft den
+            Musen gewogen bleiben. Allein meiner Muttersprache auch. Wenn ich schlechtes und
+            verstümmeltes Deutsch lesen will: so lese ich meine Acten und die Zeitungen! und wenn
+            ich mir über einem Gedichte den Kopf zerbrechen will, so lese ich den Pindar und Persius
+            selbst: und nicht ihre neuern Nachäffer.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>zu den andern.</stage>
+               <p>Lassen Sie <hi rendition="#i">ihm</hi> gehen. Den bekehren wir schon nicht! wie soll denn aber
+            unsere neue Gesellschaft heißen?</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ja, einen Namen müssen wir doch haben. Wie wäre es, wenn wir uns die
+              <hi rendition="#i">participialische Gesellschaft</hi> nennten?</p>
+               <pb n="28" facs="#f0021"/>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nein, nein! das würde nur eine einzige Eigenschaft ausdrücken: wir müssen aber auch
+            zugleich andeuten, daß wir auf das <hi rendition="#i">Körnichte</hi>, und auf die
+              <hi rendition="#i">Gedanken</hi> gehen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lachend.</stage>
+               <p>Ey! so nennen Sie sich <hi rendition="#i">die denkende Undeutsche Gesellschaft</hi>, oder
+              <hi rendition="#i">die undeutschdenkende Gesellschaft</hi>.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Die <hi rendition="#i">Denkende</hi>? das gienge wohl hin; aber die Undeutsche, das ist nichts:
+            denn damit gäben wir selbst zu, daß unsere Gedichte undeutsch wären.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Freylich. <stage>Er besinnt sich.</stage> Wissen Sie was, meine Herren? wir wollen uns
+              <hi rendition="#i">die denkende Sprachschnitzer-Gesellschaft</hi> nennen.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ja, ja: der grammatikalischen Zunft zu Trotze!</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Gut, gut! das drückt auch zugleich aus, daß wir nicht allein die Participia; sondern
+            auch alle andere Schnitzer in der Sprache dulden.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ja: nur daß der Poet auch <hi rendition="#i">denke</hi>! denn <hi rendition="#i">denken</hi> muß er! sonst
+            ist alles nichts.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Nun also heißen wir: <hi rendition="#i">die denkende Sprachschnitzer-Gesellschaft</hi>.</p>
+            </sp>
+            <sp who="#herr_reinhart #herr_vielwitz #herr_jambus #herr_sinnreich">
+               <speaker>Sie sagen alle.</speaker>
+               <p>Ja! ja! <stage>Und geben sich die Hände, umarmen sich auch. Ein jeder sagt.</stage> Ihr
+            Diener, Herr College.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>macht einen Reverenz an sie.</stage>
+               <p>Ich gratulire von Herzen zu dieser neuen Societät, die den menschlichen Verstand wieder
+            zu seiner alten Würde verhelfen wird; und empfehle mich Dero herzinniglichem Mitleiden,
+            meine hochzuehrenden denkenden Herren Sprachschnitzler! <stage>Sie schütteln die
+              Köpfe.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Bey wem versammlen wir uns denn künftig meine Herren?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Wollen Sie zu <hi rendition="#i">mich</hi> auf <hi rendition="#i">meiner</hi> Stube kommen; so steht Ihnen
+            allemal ein Glas Wein und ein Stück Hamburger Rauchfleisch zu Diensten.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ey! die Anerbiethung nehmen Sie ja an, meine Herren. Es denkt sich noch einmal so gut,
+            wenn man was zum Besten darbey hat.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Wenn es Sie so beliebt, so lasse ich mirs gefallen.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Wenn es Sie nur nicht zu beschwerlich fällt, mein Herr Vielwitz.</p>
+               <pb n="29" facs="#f0022"/>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Im geringsten nicht; es soll <hi rendition="#i">mich</hi> eine Freude seyn.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Und da wollen wir alles, was Neues herauskömmt, vornehmen, und das Seichte, das Matte,
+            das Niedrige, das Kriechende, das unendlich drunter seyende, u.s.w. untersuchen.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ja, ja. Damit wir uns aber nicht mit allem dem schlechten Zeuge, was die andern
+            Scribenten schmieren, den Geschmack zu sehr verderben: so wollen wir jedesmal uns auch
+            von unsern Arbeiten was vorlesen; und uns sonderlich bemühen, unsre Sprache mit den
+            abgebrochenen Redensarten der Engländer zu bereichern; die von den wässerichten Dichtern
+            insgemein Anglicismi und Barbarismi genennet werden.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ja, und mit der Zeit können wir das, was wir uns denn vorgelesen und so gemustert und
+            geändert haben, daß gar nichts mehr daran auszusetzen ist, als Muster der deutschen
+            Dichtkunst in einem Bändchen drucken lassen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Noch zur Zeit sehe ich nicht, daß die Welt es werth wäre, etwas von mir zu lesen. Die
+            Zeiten müßten sich noch sehr ändern!</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Nun? wenn kommen wir zum erstenmale zusammen, meine Herren?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Wenn es <hi rendition="#i">Sie</hi> beliebt, Herr Vielwitz, so können wir morgendes Tages
+            anfangen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ja, meine Herren. Ich werde die Ehre haben Sie zu erwarten.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Darf denn ein so unwürdiger deutscher Michel, als ich bin, zuweilen auch das Glück
+            haben, Ihren denkenden Versammlungen beyzuwohnen.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ja, ja; aber nur als ein Zuhörer.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ja, er muß weder richten, noch was wir verurtheilen, vertheidigen. Denn er versteht das
+            nicht, was zu einem recht schweren Verse gehört.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>lächelnd.</stage>
+               <p>O das bescheide ich mich gar gerne! ich will mich nur ein wenig von der
+            grammatikalischen Sucht, die mir anklebt, zu befreyen suchen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Wer soll denn zuerst lesen?</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ich habe eine mathematische Abhandlung von der Chloris Strickzeuge unter Händen; sie
+            ist aber noch nicht fertig. Denn sie wird sehr ironisch, und sticht im vorbeygehen <pb n="30" facs="#f0023"/> mehr als zwanzig von meinen guten Freunden und Lehrern an. Auch auf meine
+            eigene Aeltern kommen ein Paar Püffe drinnen vor.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ein feines Werkchen! eine mathematische Satire!</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ja, ein Philosoph ist mit niemanden verwandt, und niemanden verbunden. Er geht gerade
+            durch, und sagt allen die Wahrheit. Haben Sie indessen was fertig, Herr Jambus; so
+            können Sie anfangen.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ja, ich habe eine Tragödie unter Händen, davon ist der erste Act fertig. Dergleichen
+            muß noch nie gesehen seyn! sie besteht aus lauter epigrammatischen Gedanken, zwey und
+            zwey Zeilen, oder selten vier Zeilen, machen allemal ein Sinngedicht aus. Jedes Stück
+            davon hat mich wohl einen halben Tag Arbeit gekostet: und die trage ich nun zusammen,
+            und schreibe nur die Namen drüber.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Sie bringen <hi rendition="#i">mir</hi> da auf einen Einfall. Gienge es nicht an, daß man auf eben
+              <hi rendition="#i">der</hi> Art, aus dem Martial oder Ovenus eine Comödie machte? An satirischen
+            Einfällen würde es nicht da fehlen, wenn jede Person, so oft sie den Mund aufthäte, eine
+            stachelichte Spitzfündigkeit vorbrächte.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Warum nicht? Sie werden nur hören, daß sich mein Stück vortrefflich ausnimmt. Einige
+            Stellen sind mir ganz besonders glücklich gerathen. Sophokles und Euripides sind lauter
+            kaltes Wasser dagegen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Das glaube ich wohl! Aber welche Zuhörer werden ein so spitzfündiges Stück verstehen,
+            wenn es aufgeführet wird?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ich überlasse es dem poetischen Pöbel für den Pöbel zu schreiben: ich schreibe nur für
+            die Weltweisen und Mathematicos.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Und ich versichere Sie, daß weder Wolf noch Bülfinger, noch Euler Ihre Tragödie lesen
+            werden.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Man weis, was man von den neuen Propheten zu halten hat. Haben Sie nicht auch was
+            schönes fertig, Herr Vielwitz?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich habe ein Schäferspiel verfertiget, davon ich dem Herrn Reinhart gestern eine
+            Abschrift gegeben habe. Darinn herrscht durchgehends das <hi rendition="#i">Schalkhafte</hi>.
+              <stage>Er lacht innerlich.</stage> Es ist ein heilloses Ding!</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Darf ich den Namen wissen?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Es heißt die <hi rendition="#i">Nothzüchtigung</hi>. Ein <hi rendition="#i">vertraktes schalkhaftes</hi>
+            Stück!</p>
+               <pb n="31" facs="#f0024"/>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>sieht ihn von Haupt zu Füßen an.</stage>
+               <p>Die Nothzüchtigung? ein Schäferspiel?</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Das bin ich neugierig zu hören.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Sie werden Ihre Lust dran hören. Es hat <hi rendition="#i">mich</hi> auch manche sauere Stunde
+            gemacht.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Aber, um unserer neuen Collegialischen Freundschaft willen! Herr Vielwitz, brauchen Sie
+            doch das <hi rendition="#i">Mich</hi> und <hi rendition="#i">Mir</hi> nicht immer so falsch. Die Ohren thun
+            mir schon ganz weh!</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ja, es ist entsetzlich, <hi rendition="#i">Ihnen</hi> so reden zu hören.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Und es ist eben so entsetzlich, meine Herren, Ihr beständiges falsches <hi rendition="#i">Sie</hi>
+            und <hi rendition="#i">Ihnen</hi> zu hören.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH</speaker>
+               <stage>lacht spöttisch.</stage>
+               <p>So? wir werden endlich noch von den Niedersachsen Deutsch lernen sollen!</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Warum nicht? das Deutsche wäre eben nicht die einzige gescheide Sache, die der Herr und
+            sein College von uns Niedersachsen zu erlernen nöthig hätte.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ey! meine Herren, wie ist es möglich, daß die Stifter der Sprachschnitzergesellschaft,
+            sich über ihre Sprachschnitzer entzweyen können? Sie müssen ja zum besten der gemeinen
+            Sache, ein jeder die Seinigen mit beytragen helfen.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Ich nehme mich der obersächsischen Sprachschnitzer nur an: die sollen hier allein
+            gelten; in Niedersachsen mögen die niedersächsischen schön seyn!</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ja, aber die Niedersächsischen sind ja wider alle Vernunft.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich habe obersächsische Leute gesehen, die eben so unvernünftig gewesen, als ihre
+            Sprachschnitzer; und nöthig hätten, ein paar Jahre nach Niedersachsen zu ziehen, um
+            gescheide Leute zu werden.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Wen meynen Sie damit, Herr Vielwitz?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich nenne niemanden, und meyne mehr als einen.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Mein Herr Sie sind doch nicht etwa in <hi rendition="#i">die</hi> Hundstage gebohren?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Nein: wahrhaftig nicht! denn es ist <hi rendition="#i">mich</hi> noch nie eingefallen, aus lauter
+            Epigrammatibus ein Trauerspiel, oder eine Comödie zu machen.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ey! meine Herren, Sie fangen an zu <hi rendition="#i">denken</hi>, wie ich sehe.</p>
+               <pb n="32" facs="#f0025"/>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Sie haben ja wohl eine große mächtige Selbstliebe im Leibe!</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich habe aber noch nie auf <hi rendition="#i">meinen</hi> Aeltern ein Pasquill gemachet.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Mein Herr, Ihr Beyfall wäre gerade der schlechteste Lohn für meine Schriften.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich bedanke mich <hi rendition="#i">vor Ihrer</hi> Schnitzergesellschaft! Ich mag <hi rendition="#i">dar</hi>
+            nicht <hi rendition="#i">ein</hi>!</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Das erste Gedicht so ich darinnen vorlese, soll eine Satire auf <hi rendition="#i">Ihnen</hi>
+            seyn.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Und ich will eine Critik über <hi rendition="#i">Ihrer</hi> Tragödie machen, daß keiner sie mit
+            Füssen wird treten wollen.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Herr! fangen Sie mit uns nicht an: wir sind fähig die größten Gelehrten lächerlich zu
+            machen. Wir sind ohne dieß Willens, ein neues Wochenblatt anzufangen, das soll der
+              <hi rendition="#i">Lustigmacher</hi> heißen: da könnten Sie eine Stelle darinnen bekommen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Es müßten sehr lächerliche Leute seyn, die sich auf solche lächerliche Criticos
+            verließen.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ey! warum sagen Sie nicht, auf solche Criticis, das wäre ja ein schöner
+            Niedersaxonismus gewesen.</p>
+               <stage>Sinnreich und Jambus lachen überlaut.</stage>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Um des Himmels Willen! meine Herren, hören Sie auf zu <hi rendition="#i">denken</hi>. Dort kömmt
+            Jungfer Lottchen.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Siebenter Auftritt.</head>
+            <stage>Die Vorigen. Jungfer Lottchen.</stage>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nun? Es geht fein burschikoos auf meiner Stube zu.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Verzeihe Sie es Mademoiselle. Ich dachte ich wäre unter gelehrten Männern gekommen: so
+            sehe ich wohl, daß es nichts mehr, als Studenten sind.</p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS.</speaker>
+               <p>Ja, wir geben Lection im Lateinischen conjugiren und decliniren. Wenn Sie etwa auf der
+            Schule damit nicht fertig geworden sind, Herr Vielwitz: so dörfen Sie es nur sagen.</p>
+               <pb n="33" facs="#f0026"/>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ey meine Herren! In meiner Gegenwart bitte ich, sich entweder nicht zu zanken; oder
+            einen andern Ort dazu zu erwählen, als mein Zimmer. Herr Vielwitz hat mir heute früh
+            etwas von seinen Versen geschickt, das wollen wir durchlesen. Der Herr Jambus und
+            Sinnreich verstehen die Poesie so wohl, daß sie entweder die Arbeit bewundern, oder
+            tadeln können werden. <stage>Sie nimmt den Brief vom Tische und erbricht
+            ihn.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_jambus">
+               <speaker>HERR JAMBUS</speaker>
+               <stage>schreyt sehr.</stage>
+               <p>Was? ich sollte mich dahin setzen, und eines andern Dichters Arbeit anhören? Das ist
+            mir unmöglich! Daß andere Leute mir meine Gedichte 6 Stunden lang zuhören müssen, das
+            ist wohl meine Gewohnheit: allein so, scheide ich davon. <stage>Er läuft in den Winkel,
+              rafft seinen Degen und Stock auf, und läuft ungestüm ab.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Achter Auftritt.</head>
+            <stage>Jungfer Lottchen. Herr Reinhart. Herr Sinnreich. Herr Vielwitz.</stage>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Das ist ja ein ungezogener Mensch. Mich wundert, daß nicht alle seine gute Freunde taub
+            sind. <stage>Sie setzt sich und die andern setzen sich auch.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH.</speaker>
+               <p>Er fühlt sich freylich, daß er ein sehr witziger Kopf ist.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Er würde aber sehr wohl thun, wenn er nicht nur seine Stärke, sondern auch seine
+            Schwäche fühlte.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN</speaker>
+               <stage>giebt Reinharten den Brief.</stage>
+               <p>Da Herr Reinhart, thun Sie uns den Gefallen, und lesen Sie dieß laut. Ich werde wohl
+            genug zu thun haben, daß ichs nur verstehe.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>liest.</stage>
+               <p>»Werthgeschätzter liebster Herr Vater ...«</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>springt erstaunt auf, und will ihm den Brief entreißen.</stage>
+               <p>
+                  <stage>Er aber versteckt ihn.</stage> Um des Himmels Willen! was haben Sie da? Geben
+            Sie <hi rendition="#i">mich</hi> den Brief, wofern Sie es ein Bißchen gut mit <hi rendition="#i">mich</hi>
+            meynen.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Bey Leibe nicht, Herr Reinhart! sonst verlieren Sie alle meine Gunst.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART</speaker>
+               <stage>weigert sich gegen Vielwitzen.</stage>
+               <p>Da sehen Sie es! das ist ja der ärgste Fluch den eine Schöne nur thun kann.</p>
+               <pb n="34" facs="#f0027"/>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>ängstlich.</stage>
+               <p>Es ist aber ein Brief an <hi rendition="#i">meinem</hi> Vater ... Es stehen da Domestiksachen
+            innen.... Ich bitte Sie um alles, warum man in der Welt bitten kann.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nein, nein! ich muß durchaus wissen, was darinnen steht: es werden doch solche
+            heimliche Sachen nicht seyn, die Sie ihm von hieraus schreiben könnten. Sie sind ja
+            nicht verheirathet, Herr Vielwitz?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>fällt vor ihr auf die Knie.</stage>
+               <p>Ach! Ach! ich bitte Sie auf das inständigste, Mademoiselle, lassen Sie
+              <hi rendition="#i">mich</hi> den Brief wiedergeben.</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Gelt! Sie haben eine Liebste zu Hause gelassen? Die muß ich erfahren! Lesen Sie nur
+            Herr Reinhart.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>springt auf, und hält Reinharten, welcher lesen will, den Mund zu.</stage>
+               <p>Ach allerliebstes, englisches Reinhartchen, ließ nicht!</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nun so geben Sie mir den Brief wieder her. Ich will ihn sachte für mich lesen.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>sehr ängstlich.</stage>
+               <p>Ach! ich bin des Todes, wo Sie ihn lesen, Mademoiselle. <stage>Er windet die
+              Hände.</stage> Was habe ich in der Eile <hi rendition="#i">vor</hi> einen Irrthum begangen? Da
+            habe ich die Verse an Sie, in meines Vaters Brief eingesiegelt, und den Brief an
+              <hi rendition="#i">meinem</hi> Vater, bey <hi rendition="#i">Sie</hi> eingeschlagen. <stage>Er wirft sich
+              ganz matt auf den Stuhl und windet die Hände.</stage>
+               </p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Wenn Sie nicht so ängstlich thäten: so wäre ich nicht halb so neugierig. Geben Sie mir
+            nur den Brief, Herr Reinhart: ich will ihn zum mindesten für mich allein lesen.
+              <stage>Sie liest und sieht den Vielwitz dann und wann ernstlich an, und macht
+              erstaunte Geberden. Vielwitz sitzt ganz ängstlich auf dem Stuhle. Reinhart zieht einen
+              versiegelten Brief aus der Tasche und macht ihn auf.</stage>
+               </p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Nun das hätte ich mir von Ihnen nicht vermuthet, Herr Vielwitz. Für alle Höflichkeit
+            und Ehre, die Ihnen in unserm Hause wiederfahren ist; ja ich sage mehr: für alles das
+            Gute, was der alte Herr Reinhart, wie ich gewisse Proben davon habe, mit Ihnen noch im
+            Sinne gehabt hat, dafür schreiben Sie Ihrem Vater so verächtlich von ihm? Gesetzt, daß
+            er auch so wenig Vernunft und Witz hätte, als Sie schreiben: so hat er doch ein
+            redliches Herz, und dieß macht allemal ein besser Glück in der Welt, als der größte
+            Witz; wenn er mit einem bösartigen, hochmüthigen und undankbaren Herzen verknüpft ist.
+            Was meine Wenigkeit anlanget: so versichere ich Sie, daß, wenn ich<pb n="35" facs="#f0028"/> Ihnen zu
+            dumm bin, Sie mir hergegen so klug noch nicht sind, daß ichs nicht schon vor 14 Tagen
+            gesehen hätte, daß Sie ein Geck sind. Was diesen jungen Herren Reinhart betrifft ...</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Wie? was? Stehe ich auch darinnen?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>O ja! der Herr Vater wird es Ihnen schon zu lesen geben. <stage>Zum Vielwitz.</stage>
+            Was ihn belanget! so versichere ich Sie, daß seine empfindlichste Rache an Ihnen, der
+            Verlust seiner Freundschaft ist, die er Ihnen bisher ohnedieß nur aus Ehrfurcht gegen
+            seinen Vater bewiesen hat. Die witzigen Köpfe hier in der Stadt, von denen Sie, ehe Sie
+            sie noch gekannt, so verächtlich geurtheilet haben, die werden sich unfehlbar selbst
+            rächen, und Ihnen gleiches mit gleichem vergelten.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH</speaker>
+               <stage>hitzig.</stage>
+               <p>Was? was? hat er von den witzigen Köpfen allhier auch übels geredet?</p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>O ja! Er schildert sie so schön ab, daß er ihnen endlich keine bessre Benennung zu
+            geben weis, als daß sie dumme Jungen sind.</p>
+            </sp>
+            <sp who="#herr_sinnreich">
+               <speaker>HERR SINNREICH</speaker>
+               <stage>zum Vielwitz.</stage>
+               <p>Warten Sie, <hi rendition="#i">Sind Sie der Haare?</hi> das will ich dem Jambus sagen! Wir wollen
+            eine Satire auf <hi rendition="#i">Ihnen</hi> machen, die sich gewaschen haben soll. <stage>Er
+              läuft in die Ecke, nimmt seinen Hut und Degen und geht zornig ab.</stage>
+               </p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ich will hinunter gehen, und dem alten Herrn Reinhart doch zeigen, was für einen
+            schönen Gast er hier im Hause hat. <stage>Sie will gehen.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ey, warten Sie noch ein wenig. Hier ist noch ein andrer Misverstand vorgegangen. Die
+            Verse die Sie haben kriegen sollen, die sind hier an mich eingesiegelt. Lesen Sie sie
+            doch. <stage>Er giebt sie ihr.</stage>
+               </p>
+            </sp>
+            <sp who="#jungfer_lottchen">
+               <speaker>JUNGFER LOTTCHEN.</speaker>
+               <p>Ach! ich habe viel zu wenig Verstand dazu. <stage>Sie schmeißt sie dem Vielwitz vor die
+              Füße, und geht zornig ab.</stage>
+               </p>
+            </sp>
+         </div>
+         <div>
+            <head>Neunter Auftritt.</head>
+            <stage>Herr Vielwitz. Herr Reinhart.</stage>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>sehr erschrocken.</stage>
+               <p>Was? Sie haben die Verse an <hi rendition="#i">der</hi> Jungfer, in Ihrem Umschlage?</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ja, da sind sie. <stage>Er giebt sie ihm.</stage>
+               </p>
+               <pb n="36" facs="#f0029"/>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ</speaker>
+               <stage>schlägt die Hände zusammen.</stage>
+               <p>Nun bin ich verlohren! das ist wieder ein neues Unglück <hi rendition="#i">vor mir</hi>.</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Wie so?</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ach! so habe ich meinem Vater das verwünschte Schäferspiel eingesiegelt! Was wird der
+            Mann von mir denken? Er enterbt mich gewiß: denn er ist ein sehr hitziger Mann. Ich bin
+            des Todes!</p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Ich wollte gern ein Mitleiden mit Ihnen haben: allein es ist mir allemal eine Freude,
+            wenn die Thorheit und Bosheit in ihre eigene Falle fällt.</p>
+            </sp>
+            <sp who="#herr_vielwitz">
+               <speaker>HERR VIELWITZ.</speaker>
+               <p>Ich muß den Augenblick der Post eine Staffette nachschicken, und versuchen, ob ich
+            meinen Brief wieder bekommen kann. Mein Diener aber soll mir noch heute die Post
+            bestellen. Ich will stehendes Fußes von einer Akademie fort, wo mir alles so verkehrt
+            geht. <stage>Er geht ab.</stage>
+               </p>
+            </sp>
+            <sp who="#herr_reinhart">
+               <speaker>HERR REINHART.</speaker>
+               <p>Und ich will die schöne Lobschrift lesen, die Sie mir gemacht haben: damit ich Ihnen
+            desto herzlicher zu Ihrer Abreise Glück wünschen könnte. <stage>Er geht ab.</stage>
+               </p>
+               <pb n="37" facs="#f0030"/>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>

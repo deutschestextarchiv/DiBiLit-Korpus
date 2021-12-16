@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Odoardo Galotti, Vater der Emilia</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118512315">
+                  <forename>Johann Jacob</forename>
+                  <surname>Bodmer</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:43:54Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000449</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q51450870</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004586166</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Bodmer, Johann Jacob/Drama/Odoardo Galotti, Vater der Emilia</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/kp1c.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-3A68-A</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Johann Jacob Bodmer: Odoardo Galotti, Vater der Emilia. Augsburg 1778</bibl>
+            <bibl>Johann Jacob Bodmer: Odoardo Galotti, Vater der Emilia. Augsburg: Johann Jakob Mauracher, 1778.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Odoardo Galotti, Vater der Emilia</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118512315">
+                        <forename>Johann Jacob</forename>
+                        <surname>Bodmer</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">32 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Johann Jakob Mauracher</name>
+                  </publisher>
+                  <pubPlace>Augsburg</pubPlace>
+                  <date type="publication">1778</date>
+                  <date type="firstPublication">1776</date>
+                  <date type="firstPublication" subtype="clariah">1776</date>
+                  <date type="firstPublication" subtype="zeno">1776</date>
+                  <date type="firstPublication" subtype="i5">1776</date>
+                  <date type="firstPublication" subtype="gerdracor">1776</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1698"
+                        notAfter="1778"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d2571e254">Erstdruck: Augsburg, 1776.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="claudia" sex="FEMALE">
+                  <persName>Claudia</persName>
+               </person>
+               <person xml:id="laura" sex="FEMALE">
+                  <persName>Laura</persName>
+               </person>
+               <person xml:id="odoardo" sex="MALE">
+                  <persName>Odoardo</persName>
+               </person>
+               <person xml:id="appiani" sex="MALE">
+                  <persName>Appiani</persName>
+               </person>
+               <person xml:id="der_prinz" sex="MALE">
+                  <persName>Der Prinz</persName>
+               </person>
+               <person xml:id="die_schauspielerinn" sex="FEMALE">
+                  <persName>Die Schauspielerinn</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d2571e254">
+      <front>
+         <div type="front">
+            <head>Johann Jacob Bodmer</head>
+            <head>Odoardo Galotti, Vater der Emilia</head>
+            <head>Ein Pendant zu Emilia</head>
+            <head>In einem Aufzuge und Epilogus zur Emilia Galotti</head>
+         </div>
+         <pb n="2" facs="#f0001"/>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>Odoardo Galotti.</castItem>
+               <castItem>Claudia.</castItem>
+               <castItem>Appiani.</castItem>
+               <castItem>Hettore Gonzaga.</castItem>
+               <castItem>Laura.</castItem>
+               <castItem>Bediente.</castItem>
+            </castList>
+         </div>
+         <set>
+            <p>Die Scene, ein Vorsaal in dem Hause des Galotti.</p>
+         </set>
+      </front>
+      <pb n="3" facs="#f0002"/>
+      <body>
+         <div>
+            <head>Erster Auftritt.</head>
+            <stage>Claudia. Laura. Laura zuerst in einiger Entfernung.</stage>
+            <sp who="#claudia">
+               <speaker>CLAUDIA</speaker>
+               <stage>in einen Armstuhl hingeworfen.</stage>
+               <p>Welche Verwirrung in meinem Haupte! Welche Last auf meinem Herzen! Ich unglückselige
+            Mutter! Mein Zustand war erträglicher, als ich in Dosala in dem Cabinete des Prinzen
+            saß, und er zu meiner Tochter, trunken von Wein und Liebe, Worte wiehnte, die sie nicht
+            hören dorfte. Aber ich war bey meiner Emilia, an der Seite meines Kindes. Itzt ist sie
+            ohne Beschützung, in der Gewalt des Unverschämten.</p>
+            </sp>
+            <sp who="#laura">
+               <speaker>LAURA,</speaker>
+               <stage>die sich genähert hatte.</stage>
+               <p>Thun sie dem Prinzen das Unrecht nicht an, ihn in schlimmen Verdacht zu fassen. Hettor
+            Gonzaga ist kein Bösewicht, er hat ein weiches Herz, er bewundert nur, und begehrt
+            nicht. Es war nur schuldiges Bekenntniß, welches er der Schönheit ablegte, nur galante
+            Höflichkeit.</p>
+            </sp>
+            <pb n="4" facs="#f0003"/>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Ha! War es Höflichkeit, als er sie heut morgen in der Messe sprach, und sie an dem
+            heiligen Orte das hören mußte, was sie hörte? Bey einem Prinzen ist Schmeicheley
+            Betheurung, Einfall Wunsch, und Wunsch Vorsatz.</p>
+            </sp>
+            <sp who="#laura">
+               <speaker>LAURA.</speaker>
+               <p>Er hat immer nur auf eine feine Art geliebet; niemals war seine Liebe von der
+            leichtsinnigen blos körperlichen Art. Er kann keinen Gedanken haben, diejenige zu
+            verfolgen, die ihn nicht wieder lieben kann; und er weiß, daß Emilia Appianis Verlobte
+            ist.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Kann ein Prinz den Gedanken vertilgen, daß man ihm nicht widerstehen könne. Und itzt
+            hat er sie auf seinem Lustschloße; der Himmel weiß, ob Vorsatz auf seiner Seite, oder
+            Zufall sie dahin gebracht hat! Appiani ist todt, oder wird für todt gehalten. Die sanfte
+            Taube! Oh, sie winselt, sie fleht itzt in den Krallen des Habichtes; er lachet ihrer,
+            und freuet sich seiner Gewaltthat. Ich höre den Raubvogel sagen: was winselst du so?
+            dich hat itzt einer ergriffen, der sehr viel stärker ist als du. Du mußt seyn, was ich
+            dich mache. – Laura, Laura, wo <pb n="5" facs="#f0004"/> hatte ich die Sinne, wo war mein Herz, als
+            ich mich von Emilien trennte?</p>
+            </sp>
+            <sp who="#laura">
+               <speaker>LAURA.</speaker>
+               <p>Giebt es Ihnen Vergnügen, einen Zufall, der an sich selbst erbärmlich ist, durch
+            witzige Vermutungen, durch entfernte Besorgniße, noch betrübter zu machen? Haben sie
+            vergessen, daß ihre Tochter die entschlossenste unsers Geschlechtes ist, auf alles
+            gefaßt? Sie hat die Stärke in ihren Blicken, den Tod in ihren Reden, die einen Tyrann in
+            der Entfernung halten können.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Die Gegenwart der Mutter hätte ihre Stärke empor gehalten; in meinen Armen, an mei nem
+            Halse, um meinen Busen geschlungen hätten zween Körper in einen Körper, zwo Seelen in
+            eine Seele sich vereiniget; der liebkosende, der verführende, oder gewaltthätige Prinz
+            hätte beyde zu bestreiten gehabt. Unvorsichtig, unmütterlich war es, daß ich sie allein,
+            und ihr selbst überlassen habe. Welche Hündinn läßt ihr Junges bey dem Raubthiere im
+            Lager? und Marinelli ist bey dem Prinzen, dieser Kuppler – warum sage ich nicht –
+            Mörder? der Name Marinelli war das letzte Wort des Appiani, als er den Schuß empfieng,
+            und er sprach ihn <pb n="6" facs="#f0005"/> mit einem Tone, mit einem Tone wie Mörder. Auf Appiani
+            ward unfern von dem Lusthause des Prinzen geschossen, auf den Bräutigam meiner Emilia;
+            sie wird in das Schloß gebracht, und der Prinz ist da wie gerufen! er darf der jungen
+            Dame, die ihren Bräutigam an ihrem Arme hat fallen sehen, die erst aus Ohnmacht wieder
+            aufgelebet, ihr darf er diesen Mord für den Wink eines günstigen Glückes erklären, für
+            den Aufschub seiner Verurtheilung, um nochmals um Liebe zu bitten. Er fasset sie, und
+            führt sie, die sich sträubete, wo Entzückungen, sagt er, auf sie warten. Bey ihm habe
+            ich sie gelassen, mich von ihr getrennt, und von ihm soll sie Schutz erwarten, von dem
+            Jünglinge, der sich alles erlaubt, und was er sich erlaubt, kann.</p>
+            </sp>
+            <sp who="#laura">
+               <speaker>LAURA.</speaker>
+               <p>Blieb der Vater nicht bey ihr? bey Odoardo ist sie wohl sicher.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Bey ihr blieb er nicht; ihn hat man nicht vorgelassen. – Wie hart war Odoardos Befehl,
+            daß ich mich ohne Einwendung von ihr trennen sollte. Was machte diesen Befehl
+            nothwendig; und mußte ich die schwache Frau seyn, die bey einem Manne, wie Odoardo
+            Galotti <pb n="7" facs="#f0006"/> ist, keinen Willen haben darf? man wird recht haben mir nachzusagen,
+            ich sey nur gut die Dienste einer guten Hausfrau zu verrichten, die Fenstergardinen zu
+            recht zu ziehen, die Meublen abzustäuben. – – Es ist später Abend, Odoardo kömmt nicht –
+            Emilia nicht – ach! stünde es in ihrem Vermögen zu kommen, sie wäre längst in die
+            mütterlichen Arme geflogen! – Aber gute Laura, geh in das Haus Appiani, sage, daß ich
+            den Grafen bitte, er solle sich vor dir sehen lassen. Wenn du ihn nicht siehest, so
+            glaube nimmer, daß der Schuß nur in den holen Leib gegangen sey.</p>
+               <stage>Laura geht.</stage>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA</speaker>
+               <stage>allein.</stage>
+               <p>Indessen sitze ich hier wie auf Dornen, und die Ungewißheit quält mich in der
+            Vorstellung, wie die unglücklichste Gegenwart mich kaum schmerzlicher quälen würde.</p>
+            </sp>
+            <sp who="#laura">
+               <speaker>LAURA</speaker>
+               <stage>die nur vor die Thüre gegangen war, und wieder kömmt.</stage>
+               <p>Heil, Heil! meine liebste gnädige Frau, den Augenblick steigt der Oberste, Odoardo, ihr
+            Gemahl steigt vom Pferde.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA</speaker>
+               <stage>sie läuft gegen die Thüre.</stage>
+               <p>Odoardo, mein theurer – und meine Emilia ist nicht bey ihnen, wo ist Emilia, mein Kind,
+            Emilia?</p>
+            </sp>
+         </div>
+         <pb n="8" facs="#f0007"/>
+         <div>
+            <head>Zweyter Auftritt.</head>
+            <stage>Odoardo, in einer finstern Zufriedenheit. Claudia.</stage>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Sammle die Kräfte deiner weichlichen Seele zusammen, Claudia, laß dich von dem Gedanken
+            erheben, daß du Claudia Galotti bist, Odoardos Vermählte; sey, wie Odoardos Frau seyn
+            soll.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Heilige Jungfrau! welcher Gruß, welche Anrede! wo haben sie Emilien gelassen?</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Sey ruhig, wie du mich ruhig siehst. Der Mann von starker Seele, der biedere und gute,
+            voller treuherziger Redlichkeit, und heißer Ehrliebe hat gesieget – es war ein schwerer
+            Kampf – über den Vater gesieget.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Wie räthselhaft! wo ist meine Emilia? ist sie noch bey dem Prinzen?</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Sie ist an einem Orte, wo der Prinz von Guastalla sie nicht, – wo kein Prinz, keine
+            Gewalt sie erreichen, ihr beikommen kann; sie ist sicherer verwahrt, als wenn sie an die
+            Brust ihrer Mutter, an die Seite Odoardos gelehnet seyn würde.</p>
+            </sp>
+            <pb n="9" facs="#f0008"/>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Nicht mehr in der Gewalt des verliebten Prinzen! Habe Dank, Mutter des Heilandes, habe
+            Dank, unbefleckte Jungfrau und Mutter, für die Rettung des unschuldigen, tugendhaften
+            Kindes. Führen sie mich bald zu ihr; dieses Haus, dieses Zimmer, wo Emilia nicht ist,
+            ist mir eine Wüste; bringen sie mich zu ihr; und wenn sie sie in die Dunkelheit eines
+            menschenlosen Waldes gerettet haben, so soll der Wald mir Elysium seyn.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Ha! sie ist in einem bessern Elysium; aber von hier entfernt, so weit die Erde von dem
+            Himmel ist; und die Wege dahin gehen durch Schmerzen und Blut.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA</speaker>
+               <stage>indem sie auf den Sopha fällt.</stage>
+               <p>O weh, weh mir armen, unglücklichen Mutter! ich verstehe dich; Emilia ist todt! ach!
+            meine Liebe, mein Kind ist nicht mehr!</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Eine Rose ist gebrochen, ehe der Sturm sie entblättert hat.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Gott, Gott! ich soll mein Kind nicht mehr haben! das Herz bricht mir.</p>
+            </sp>
+            <pb n="10" facs="#f0009"/>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Ha! sie wollte nicht leiden, was sie nicht sollte, nicht dulden, was sie nicht dorfte.
+            Die Natur wollte ihr Meisterstück machen, aber sie vergriff sich im Thon, sie nahm ihn
+            zu fein, und Emilia war eine männliche Seele in weiblichen Gliedmaßen. Der Prinz wollte
+            sie reißen; wollte sie brechen; aber sie hatte einen Willen, der Willen war Tugend, und
+            dem Willen folgte sie. Sie konnte – sterben.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Sterben! – und ich lebe! und du rettetest sie nicht.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Ich rettete sie von der Schande. Ehedem gab es einen Vater, der seine Tochter von der
+            Schande zu retten, ihr den ersten beßten Stahl in das Herz senkte; noch einen solchen
+            Vater hat es gegeben; ich gab ihr das Leben, das Leben ohne Schande, zum zweyten
+            mal.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Meine Sinne, mein Haupt, sind dunkel. Du hast doch deine Tochter nicht mit des Vaters
+            Hand – – – Grausamer Vater, wenn ich recht verstehe!</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Du bist nicht von dem Thone gemacht, von <pb n="11" facs="#f0010"/> welchem der Himmel deine Tochter
+            gebildet hat. Er knetete dein Herz von neugeschwungener Milch, und legte die weiblichste
+            Seele darein. Albernes, furchtsames Ding, du begreifst nicht, daß man leben kann, und
+            lebend schlimmer ist als todt. Oder du wolltest sie lebend haben, ob sie schon die
+            Schande, den grausamsten Tod lebete.</p>
+            </sp>
+            <sp who="#claudia">
+               <speaker>CLAUDIA.</speaker>
+               <p>Was kann ich mehr denken, als daß Emilia nicht lebt; Emilia ist nicht mehr da; wo ich
+            ohne sie bin, da ist Finsterniß und Nacht um mich.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Dieses Winseln ist ansteckend. Lasse Gott mich nicht so fallen, daß ich nicht der Mann
+            bleibe.</p>
+               <stage>Er geht an die Thür, und ruft Lauren.</stage>
+               <p>Eine große Schwachheit hat deine Frau überfallen, Laura; bring sie in ihr Zimmer, und
+            ruf ihre Geister durch geistige Essenzen zurück.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Dritter Auftritt.</head>
+            <sp who="#odoardo">
+               <speaker>ODOARDO</speaker>
+               <stage>allein.</stage>
+               <p>Es war Zeit, daß ich sie entfernte. Das weibliche Theilchen, das ich von meiner Mutter
+            in meine Complexion empfangen habe, wollte <pb n="12" facs="#f0011"/> seine Macht an mir üben. Ich
+            will sie nicht tadeln, daß sie eine Tochter beweint, wie diese war. Sie beweint das
+            schönste Juweel, das der Himmel einer Mutter geben kann, und einem Vater. Ich beweine
+            sie auch; aber sie todt zu wissen ist ein geringerer Schmerz, als sie geschändet und ein
+            Kebsweib zu wissen. Lieber wollte ich keine Tochter, als ein Kebsweib erzeuget haben!
+            häßliches Wort. Auch nicht das Kebsweib des Prinzen. Das Kebsweib des Prinzen ist ein
+            Kebsweib wie des schlechtesten Menschen. In dem Hause Galotti müssen alle Söhne tapfer,
+            und alle Töchter unbeflecket seyn. Es war eine grausame, schreckliche That eines Vaters;
+            aber nur für die schwache Seele, die nicht empfindet, daß sie an des Vaters Stelle
+            selbst den Dolch gezückt hätte; und so muß jeder empfinden, der die ächten Begriffe von
+            Ehre hat. Ich muß doch fürchten, daß mich ein großer Haufen Menschen tadeln werde. –
+            Denn wie wenige sind, bey welchen die Liebe zur Tugend nicht bloß Rede, sondern wahrer
+            Affect ist? ich würde tadelhafter seyn, wenn ich eine schwächere Seele gezeigt hätte als
+            Emilia. Ich simpathisierte nur mit ihr, mit der Schüchternen, <pb n="13" facs="#f0012"/> der
+            Furchtsamen. Und hier liegt der Punkt, worinn ich Virginius den Krieger, den Römer
+            übertroffen habe; dieser erstach seine Tochter, als ihm alle Wege der Rettung
+            abgeschnitten waren. Das Volk hatte sie verlassen; schon führte Markus sie mit Gewalt
+            und nach einem Rechtsspruche weg. Für meine Emilia waren noch Rettungswege übrig; und
+            selbst in dem Hause Grimaldi dörfte ich auf ihre Tugend gebauet haben. Virginius hatte
+            in Rom durch das Gesetz ein Recht auf das Leben seines Kindes; mir gaben die Gesetze von
+            Guastalla kein solches Recht; aber der rechtschaffene Mann, der seinen Begriffen von
+            Ehre und Gewissen getreu bleibt, der die Gesetze nicht gegen seinen Beleidiger zur Hülfe
+            hat, wickelt sich durch eigene Wege aus der Handlung, wo er bedroht ist, äußerst
+            beschimpft zu werden.</p>
+            </sp>
+         </div>
+         <div>
+            <head>Vierter Auftritt.</head>
+            <stage>Appiani. Odoardo.</stage>
+            <sp who="#appiani">
+               <speaker>APPIANI</speaker>
+               <stage>von zweenen Bedienten an beyden Armen unterstützet, einen Mantel über die Schultern
+            geschlagen; sie führen ihn zu dem Sopha, wo er den Mantel zurück wirft.</stage>
+               <p>Odoardo, Oberster, noch sehe ich sie wieder!</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Der Graf Appiani lebet, lebt – und Emilia – <pb n="14" facs="#f0013"/> der Bräutigam lebet, die Braut
+            – Welcher Heilige hat dich erhalten, da Claudia, da Emilia dich stürzen gesehen, und das
+            Blut des Bräutigams auf die Braut spritzte.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Es war ein gedungener Meuchelmörder, der mich fassete; ich erkannte den Nikolo, und ich
+            habe alle Merkmaale, daß Marinelli ihn gedungen hat. Der Schuß gieng durch die Höle der
+            Hüfte, und gewiß hat ihn ein Heiliger des Himmels gelenket, zu dem ich heute morgens
+            gebethet habe. Aber wo ist Emilia? wie hat sie diesen Zufall ertragen? Ich fürchte, daß
+            meine Wunde sie mehr geschmerzt hat als mich selbst; und der Ort, wo ich angefallen
+            ward, Marinelli, und der Prinz drängen meine Seele mit Besorgnißen.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO</speaker>
+               <stage>in Gedanken versenkt, und plötzlich auffahrend.</stage>
+               <p>Emilia hat in der Bildung der Mutter die Seele des Vaters. Sie ist der weibliche
+            Odoardo. Und Appiani, deine Seele sympathisiert mit ihrer und meiner Seele. Ich würde
+            dich von deinem Werthe herunter setzen, wenn ich glaubte, ich müßte dir mit Vorbereitung
+            oder Zurückhaltung sagen, was in jede gewöhnliche Seele wie der donnernde Blitz
+            einschlagen würde.</p>
+            </sp>
+            <pb n="15" facs="#f0014"/>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Gnädiger Gott! schon diese Worte berichten mir ihren Tod!</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Ja Appiani, ihren Tod, damit ich dir nichts ärgers berichten müsse. Es ist etwas ärgers
+            mit Schande zu leben, der Tod der Ehre ist ärger. Der Prinz, in dessen Lustschloß sie in
+            der Angst ihrer Seele geflohen war, und glaubte, daß sie zu guten Leuten gekommen wäre,
+            er hielt sie auf, und wollte sie mir entreißen, und in das Haus seines Kanzlers Grimaldi
+            nehmen.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Gott! ich kenne das Haus Grimaldi; es ist das Haus der Wohllüste; die Töchter des
+            Mannes dieneten zuerst dem Prinzen zu Beyschläferinnen, und itzt bekleiden sie das Amt
+            seiner Kupplerinnen.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Emilia dachte sich dieses Haus als ein Serrail, und damit sie in dasselbe nicht
+            eingeschlossen würde, foderte sie meinen Dolch.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Sie gaben ihr doch den Dolch nicht?</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Dann sollte die Haarnadel ihr die Dienste des Dolches thun; sie klagte mich an, daß ich
+              <pb n="16" facs="#f0015"/> zufrieden sey, daß sie würde, wie der Prinz sie haben wollte. Meine Seele
+            war lange gespannt gewesen; diese Beschuldigung war die Lunte, so die Kartaune, die nur
+            ganz geladen war, anzündete, sie brach los, und betäubete mich durch den Knall. Sie
+            sagte mehr: Solche Väter wie der Virginia giebt es keine mehr; dann ward ich der zweyte
+            solcher Väter.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Der Vater – die Tochter – meine Emilia!</p>
+               <stage>Er zittert zurücke.</stage>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Der Vater sank unter den Mann von Ehre. – Er ist außer sich Graf! habe ich mich in der
+            Meynung betrogen, die ich von der Größe deiner Seele hatte? ist Appiani schwächer als
+            seine Braut!</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI</speaker>
+               <stage>nach einer langen Pause.</stage>
+               <p>Möchte die Kugel mich in das Herz getroffen haben, eh ich diesen Jammer hörte! ich
+            empfinde, daß alles verlohren ist; ich lebe, und Emilia ist todt! sollte ich mir die
+            Gewalt anthun anders als Mensch zu empfinden?</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Als Emilia fand, daß alles verlohren wäre, weil Appiani todt, und sie in des Prinzen
+            Händen bleiben sollte, so ward sie ruhig; es war <pb n="17" facs="#f0016"/> aber keine Ruhe, die
+            leidet, was man nicht leiden sollte. Sie wußte, daß man sich von allem Leiden los
+            machet, wenn man sterben kann. Da sie so denken konnte, ein Mädchen, meine Tochter und
+            deine Braut, so sollen der Vater, der Bräutigam, der Mann sich schämen, feigherziger zu
+            denken.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Blieben Odoarden Galotti, dem Mann von hoher Seele, dem Verächter des Lebens, blieben
+            ihm keine Mittel übrig, das Mädchen zu retten, oder in dem Unternehmen zu sterben? nicht
+            sie durch List zu retten, das ist seine Sache nicht; durch Gewalt. Hätte sein Schwert
+            von dem Leibe des Zwingers abgeglitten? Fehlte es dem alten Degen an Muth, dem
+            Wohllüstling zu zeigen, wie man einen angethanen Schimpf rächet oder einem angedroheten
+            ausweicht?</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Die Person des Prinzen ist mir heilig; ich fluche der Hand, die sich an dem Souverain
+            des Gesetzes vergreift.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Der Räuber, der Verführer, der Schänder unserer Töchter und Frauen, hat das Recht auf
+            den Titel des Geheiligten verwürket; wir zeugen <pb n="18" facs="#f0017"/> ihm nicht Kebsweiber, und
+            wir heurathen ihm nicht Spielzeuge seiner Wohllust.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Es war genug für mich, daß er die Frucht seines Verbrechens nicht genöße; dieses sollte
+            ihn mehr martern, als das Verbrechen. Wenn nun bald ihn Sättigung und Eckel von Lüsten
+            zu Lüsten trieben, so sollte die Erinnerung diese eine Lust nicht gebüßet zu haben, ihm
+            den Genuß aller vergällen. Was hat die gekränkte Tugend mit der Rache des Lasters zu
+            schaffen?</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Das ist feine, witzige Rache; und seltsam ist, daß sie in den Kopf eines Italiäners,
+            eines Kriegers, eines auffahrischen Mannes aufstieg.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Willst du mir Lehren geben, oder Vorwürfe machen, junger Mann? Ich war aber nicht sein
+            Richter; ihn haben die Gesetze des Landes zu meinem Obern und Richter gemacht; der in
+            dem Himmel sitzet, mag ihn richten.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Auch waren sie nicht der Richter ihrer Tochter; und welche Uebelthat haben sie an ihr
+            gestraft? Welches Todes Verbrechen, das den Vater zum Vollstrecker des Gerichtes
+            foderte?</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Ich strafte kein Verbrechen an ihr; ich entriß <pb n="19" facs="#f0018"/> sie einer Schande, die ihr
+            in dem Hause des Grimaldi unvermeidlich war; in einem Hause, wo die Züchtigste nicht
+            über ihre Sinne, ihr Blut, gebieten kann. Sie selbst erzitterte vor der Versuchung; sie
+            wollte sich nicht in Versuchung begeben, damit sie nicht darinnen umkomme.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Sie, Odoardo, sollten doch ein wenig auf die Tugend gebaut haben.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Ich glaube an keine unüberwindliche Tugend; und sie selbst sah der Versuchung mit
+            Zaghaftigkeit und Mistrauen entgegen. Eines Tages war sie nur eine Stunde und unter den
+            Augen ihrer Mutter in dem schändlichen Hause gewesen, und es erhob sich so mancher
+            Tumult in ihrer Seele, den die strengsten Uebungen der Religion kaum in Wochen
+            besänftigen konnten.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>O mein Herr, hüten sie sich diesen Widerspruch in den Charakter und das Betragen des
+            unwissendsten Herzens, was Laster ist, zu bringen. Sie, sie waren zu rasch, ihrem
+            argwöhnischen, rauhen, stolzen Herzen zu glauben und zu folgen. Sie haben die reinste
+            Unschuld hingerichtet; und sind diese Tropfen Blutes, die ich auf ihrem Kleide sehe, aus
+            den reinsten Adern darauf geflossen? <pb n="20" facs="#f0019"/> O verwehret mir nicht, daß ich diesen
+            theuren, einzigen Nachlaß aufküsse; ich kann nicht edlere Tropfen in mich ziehen.</p>
+               <stage>Er saugt mit ungestümer Begierde die Tropfen ein.</stage>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Heilige Jungfrau, in welche Zärtlichkeit zerfließt er! wie schwer wird es dem Manne,
+            der vom Weibe gebohren ist, nicht in diese weibliche Schwachheit zu sinken!</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Liebster Oberster, wo haben sie die Hülle der Tugend gelassen, die schöne Wohnung, aus
+            welcher sie den edelsten Einwohner, den himmlischen Geist, gejagt haben? Ich muß gehen,
+            sie das letzte mal zu sehen, und die Geliebte in die Arme zu fassen, die mich nicht
+            wieder in die ihren drücken kann. – Sie muß nicht in der Gewalt ihres Verderbers
+            bleiben. Es ist Entheiligung, wenn der Unkeusche nur die unverschämten Augen auf die
+            entseelte Leiche schickt.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Das heißt geklagegt! und der Mann klaget! was muß der fühlen, der sogar alles männliche
+            verlohren hat? Wie unglücklich wäre ich, wenn ich durch eine übereilte, unväterliche
+            That mich zum Mitschuldigen des Verderbers gemacht hätte! – Appiani, du hast Winke vor
+            meine Seele <pb n="21" facs="#f0020"/> gebracht, vor welchen ich schauere. Wie fürchte ich, daß ich
+            werde lernen müssen zu weinen!</p>
+            </sp>
+         </div>
+         <div>
+            <head>Fünfter Auftritt.</head>
+            <stage>Der Prinz. Odoardo. Appiani.</stage>
+            <sp who="#der_prinz">
+               <speaker>DER PRINZ</speaker>
+               <stage>mit ängstlicher Geberde.</stage>
+               <p>Hier ist Odoardo, den ich zu suchen kam, – und, sehe ich recht? der todtgeschossene
+            Appiani bey ihm, von den Todten wiedergekommen, nicht zu seiner Braut, nicht zur
+            Hochzeit, – zu Jammer und Wehmuth wiedergekommen!</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Soll ich – kann ich den Anblick ertragen, dessen, der die Ursache ist, daß Emilia –
+            –.</p>
+            </sp>
+            <sp who="#der_prinz">
+               <speaker>DER PRINZ.</speaker>
+               <p>Ertrag ihn, Graf; dir ist es leichter, ihn zu ertragen, als es mir wird, mich
+            selbst.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Wenn sie mich suchen, Prinz; so war ich leicht zu finden. Sie glaubten vielleicht, daß
+            ich mich selbst verbannen, daß ich fliehen werde, um der Strafe auszuweichen; oder wenn
+            ich nicht entfliehen würde, den Stahl wider mich selbst kehren werde. Sie irren sich.
+            Ich ließ den Zeugen der That bey ihnen in ihrem Schloße, und gieng nach Guastalla in
+            mein Haus, <pb n="22" facs="#f0021"/> sie hier als meinen Richter zu erwarten. Sie sind nun einmal
+            der, der Richter im Land ist, und Recht und Gerechtigkeit ausüben soll. Dieser ihr
+            großer Vorzug, den sie gegen mich ehrenvollen Mann und Vater durch die vorgehabte
+            Schändung meiner Tochter haben misbrauchen wollen, hat mich diesen Handel nicht anders
+            endigen lassen, als ich ihn geendiget habe. Ich habe meinen Begriffen von Ehre und Recht
+            gemäß gehandelt. Habe ich nach dem Inhalt der heilsamen, und mir beständig heiligen
+            Gesetze strafbar gehandelt, so unterwerfe ich mich freywillig der Strafe. Wenn wir beyde
+            vor den Richter unser aller kommen, so wird er beyde richten.</p>
+            </sp>
+            <sp who="#der_prinz">
+               <speaker>DER PRINZ.</speaker>
+               <p>Der Richter unser aller! – der Herrschenden, und der Beherrschten, – derer, die ihre
+            eigene Bosheit des Herzens verführt hat, und derer, die Teufel zu Freunden haben, von
+            denen sie verführt werden!</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Beyder! – Prinz, und Graf, itzt haben sich schwere Gedanken vor meine Stirne gedrängt,
+            daß der Richter, der im Himmel sitzet, ein Verbrechen finden werde, wo ich nur Uebelthat
+            und Schande zuvorkommen wollte. Appiani hat einen <pb n="23" facs="#f0022"/> dunkeln Stral in meine
+            Seele geworfen, daß ich als ein brausender Jüngling mit grauen Haaren gehandelt habe.
+            Ich habe mich von Hitze, von natürlicher Schwärmerey fortreißen lassen, eine Ehre zu
+            retten, deren Verletzung ich nur vermuthete; freylich mit vieler Wahrscheinlichkeit mein
+            Kind nicht einer Versuchung auszusetzen, von der ich fürchtete, daß es darunter erliegen
+            würde; und dieses Mistrauen setzte ich Ungerechter in die reinste, die bewährteste
+            Tugend. Ha! Welche Empfindungen fangen an auf mein Herz zu stürmen!</p>
+            </sp>
+            <sp who="#der_prinz">
+               <speaker>DER PRINZ.</speaker>
+               <p>Denkest du so, Oberster? wie muß ich dann denken und fühlen! Was für Schuld, was für
+            Verbrechen du dir selbst vorwerfen magst – nicht nur das, was Marinelli, der Teufel von
+            Freund sich vorzuwerfen hat, und ich fürchte, daß Appianis Tod in seinem Plane gewesen
+            sey, – das alles fällt auf mich zurücke. Meine zaumlose, meine wütende Leidenschaft
+            verursachte alles das Uebel. Ich konnte den Gedanken nicht ertragen, daß heute Appiani
+            Beylager halten würde. Ich gab mein Ohr dem dienstfertigen Bösewicht; der mir versprach,
+            daß aus der Hochzeit nichts werden sollte, und versprach die Braut in meine Gewalt zu
+            bringen, ohne daß es einer gewaltsamen <pb n="24" facs="#f0023"/> Entführung ähnlich sähe. Er sagte
+            mir zwar, daß sich Unglücksfälle dabey ereignen könnten. Ich war nicht so dumm, daß ich
+            den blutigen Entwurf nicht gerochen hätte; aber ich hinderte ihn nicht; und als der
+            Streich geschehen war, war ich böse genug, ihn zu nutzen. Ich nahm die zitternde, die
+            verlassene Taube, der ihr Gatte an der Brust getödtet war, in mein Schloß auf; sie
+            glaubte, daß sie zu Rettern gekommen wäre. Dann stellte ich ihr den Tod ihres Geliebten
+            für den Wink meines günstigen Glückes vor, für den Aufschub meiner endlichen
+            Verurtheilung, welchen die Vorsehung verschaffete. Ich sprach in der Angst ihrer Seele,
+            da sie sich zu meinen Füßen geworfen hatte, von Entzückungen, die in meinen Armen auf
+            sie warteten. Das alles hielt ich für ein kleines, stilles, heilsames Verbrechen. Ich
+            erschrack nicht davor. Ein Graf mehr in der Welt oder weniger, dacht ich, wie Marinelli
+            dacht; die That reute mich nicht; ich fand nur zu tadeln, daß die Anstalten nicht besser
+            gemacht worden. Ich wollte dich bereden, Oberster, daß ich Emilien im Triumph nach
+            Guastalla bringen wollte. Dumm genug! was für ein Triumph, über den Tod ihres Verlobten,
+            über die Glückliche Gewaltthat, womit ich sie in meine Hände gebracht <pb n="25" facs="#f0024"/>
+            hatte! sie dem Vater nicht wieder zu geben, wandte ich eben so toll, und eben so
+            gewaltthätig vor, daß man sie in Verwahrung der Justiz nehmen müßte, sie wegen des
+            Mordes zu vernehmen; und es sollte liebsvolle Gütigkeit und Gnade seyn, daß sie nicht im
+            Gefängniße und Kerker, sondern in dem Hause Grimaldi aufgehoben würde; dem Orte, welcher
+            der keuschen Seele mehr zuwider war, als der tiefste Kerker. Damit bracht ich sie,
+            bracht ich dich in Verzweifelung. Also war ich der Thäter, ich der Räuber, der Mörder.
+            Ich veranstaltete den Raub, den Schuß durch die Hand des Marinelli; ich war mehr als
+            sein Mitmörder; ich war, der ihn antrieb, ihm das Wort gab, alles auf mich zu nehmen.
+            Also habe ich die Hand des Vaters gegen die Tochter bewaffnet. – Ich kann es nicht
+            sagen, was ich empfinde.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Ein langes Sündenregister, Prinz! doch wiewohl sie so sehr viel auf ihre Rechnung
+            nehmen, so bleibt doch immer der Mord der beßten Tochter auf mir liegen; und für diesen
+            wird mich der Richter finden, den ich mehr, als die elende Justiz der Menschen fürchte.
+            Schon erwachen Natern in meinem Gewissen, die mich mit Bissen der Nachreue, und der
+            Selbstbeschuldigung zu strafen drohen, an welche keine Schmerzen des Körpers
+            reichen.</p>
+            </sp>
+            <pb n="26" facs="#f0025"/>
+            <sp who="#der_prinz">
+               <speaker>DER PRINZ.</speaker>
+               <p>Gott, Gott! diese Natern im Gewissen mit ihren feurigen Bissen fühl ich, fühl ich! wie
+            sie mich nagen, wie sie mich nagen! eine Stimme ruft in meine Seele, und sie klopft wie
+            Schläge des Donners an mein Herz, und schreyt: du, du, hast die Schönheit in ihrer
+            Blüthe, die Unschuld in ihrer Reinigkeit gemordet; du hast der Erde ihren Stolz
+            entzogen, den Töchtern von Guastalla das schönste Beyspiel der Sitten; du hast den Dolch
+            in die Faust ihres Vaters gelegt, du hast Appiani der Freundinn seines Busens, der
+            Freude seines Lebens beraubet; du die Söhne und die Töchter, die sie ihm gebähren
+            sollte, Söhne von des Vaters Tapferkeit, und der Mutter Tugenden, vor ihrer Geburt
+            umgebracht.</p>
+            </sp>
+            <sp who="#appiani">
+               <speaker>APPIANI.</speaker>
+               <p>Wenn mein Prinz, mein Fürst, so klagt, so empfindet; wenn er den Jammer so empfindet,
+            den er selbst verursacht hat; dann mit mir so weint, wie kömmt es, daß ich eine zeitlang
+            meinen eigenen Jammer vergesse, und mich in den seinen vertiefe!</p>
+            </sp>
+            <sp who="#der_prinz">
+               <speaker>DER PRINZ.</speaker>
+               <p>Wie unbeschreiblich dein Verlust ist, Graf, wie stechend dein Jammer, so bist du doch
+            von uns der Glückseligste. Es ist anderer Verbrechen, was diesen Jammer dir gebracht
+            hat; du hast den Trost, <pb n="27" facs="#f0026"/> einen Reichthum von Trost, in deinem Gewissen
+            behalten; die Stille der Unschuld. Könnte ich sie mit meinem Blute kaufen, mir wäre mein
+            Blut nicht zu kostbar. Himmel, Richter im Himmel, der in die Brust den stärksten Kläger
+            gelegt hat, strafe mich bis zum Tod, die Hand, die mich straft, will ich küssen; aber
+            verzeih die Schuld, und wende von mir nicht dein Antlitz; wische den Zorn davon, der
+            Angst in die Seele hineinschlägt. Und meine höchstbeleidigte Herren, damit der Richter
+            der Welt mir verzeihe, so verzeihet ihr mir zuerst, und vereiniget eure Bitten mit der
+            meinen, daß er mir verzeihe.</p>
+            </sp>
+            <sp who="#odoardo">
+               <speaker>ODOARDO.</speaker>
+               <p>Eine rührende Scene! seinen Prinzen so gedemüthiget zu sehen; wie er sich vor sich
+            selbst, und seinen Vasallen so tief erniedriget. Erinnern sie sich, Prinz, daß sie unser
+            Souverain, der Souverain der Gesetze sind.</p>
+            </sp>
+            <sp who="#der_prinz">
+               <speaker>DER PRINZ.</speaker>
+               <p>Das bin ich nicht. Halten sie mich nicht für so leer an Einsichten, daß ich nicht immer
+            gewußt habe, daß ich nicht alles darf, was ich will; nicht Gesetze machen darf, wie
+            meine Laune, und meine Begierde, sie wollen.</p>
+            </sp>
+         </div>
+         <pb n="28" facs="#f0027"/>
+         <div>
+            <head>Epilogus</head>
+            <head>Zur Emilia Galotti.</head>
+            <head>Von der Schauspielerinn derselben ausgesprochen.</head>
+            <sp who="#die_schauspielerinn">
+               <speaker>DIE SCHAUSPIELERINN</speaker>
+               <stage>indem sie die Kleidung der Emilia ableget.</stage>
+               <p>Ich bin von Herzen froh, daß ich diese Kleider wieder ausziehen darf. Die Person, die
+            ich in denselben vorstellte, stand mir gar nicht an, und ich eben so wenig ihr.
+            Entschuldigen sie mich, meine Herren und Damen, daß ich sie schlecht genug gespielt
+            habe. Es war mir unmöglich, sie so zu spielen, daß man den Dichter über der
+            Schauspielerinn vergessen haben könnte. Wenn das Stück gleich Leßings war, für welchen
+            man nachbetend mit tausend Vorurtheilen ins Theater gekommen ist, so denke man einmal,
+            daß die Unvollkommenheit in meiner Aufführung wohl sein und nicht mein Fehler gewesen
+            seyn möchte. Ich schmeichle mir, daß ich so zärtlich, so tugendhaft, so ruhig, und dabey
+            so entschlossen sey, als die Emilia, des alten Degens Odoardo Tochter; und doch waren
+            ihre Empfindungen in diesem Handel den meinigen ganz entgegen. Als Appiani an meiner
+            Seite stürzete, und Battista eine mir fremde Person, mich aus dem Wagen hob, konnte ich
+            mich nicht so leicht von dem geliebten Mann, noch von meiner Mutter abreißen lassen, und
+            ihm nach Dosala folgen, welches ich so wie seinen Besitzer scheuete. Da ich seinen Tod
+            in den nassen und <pb n="29" facs="#f0028"/> wilden Augen meiner Mutter las, hätte ich gern überlaut
+            geweint, und nicht den geringsten Gedanken gehabt, den Affect zurück zu halten, damit
+            ich die Umstehenden mit meinen Klagen nicht aufhielte. Und als alles verlohren war,
+            stieg meine Furcht vor meinem Räuber nimmer auf den Grad der Heftigkeit, daß mich alles
+            Vertrauen auf Gott, oder nur auf meine Tugend, verlassen hätte. Ich war zu christlich,
+            den Selbstmord in meine Gedanken zu nehmen; meine ganze Entschlossenheit war für
+            tugendhafte, nicht für verzweifelte Thaten. Ah! ich habe den Scharfsinn einer tragischen
+            Prinzeßinn nicht, die Antithesen zu denken, daß ruhig seyn können, und ruhig seyn
+            müssen, auf eines komme. Bey der plötzlichen Nachricht von Appianis Tod, hatte ich den
+            ersten, den einzigen Gedanken, von unersetzlichem Verlust; ich dacht nicht an mich
+            selbst, nicht an die Ursache seines Todes; nicht daß er darum um meinetwillen todt sey;
+            nicht an die Gefahr, in welcher ich schwebete. Hernach hätte ich meine Hände nicht in
+            den Schooß geleget, ich hätte meine Person ganz vergessen; und Rache an dem, der mein
+            Liebstes ermordet, hätte sich meiner Seele bemächtiget. Aber diese Rache hätte nicht
+            gegen mich selbst, nicht gegen die Unschuld gewütet. Für Leben und Sterben gleichgiltig,
+            hätte ich bey dem geringsten Vertrauen auf meine Tugend sehen wollen, wer der Mensch
+            sey, der einen Menschen zwingen kann. Die Emilia des Poeten hat zwar diesen Gedanken
+            auch; aber in der elenden Entschließung, sich dem Leiden durch einen eigenwilligen <pb n="30" facs="#f0029"/> Tod zu entziehen. Ihr Willen, wodurch sie anderer Willen zuvorkommen wollte,
+            war, daß sie sich selbst zu entleiben suchte. Ich bin schwach genug, wenn ein Pirate
+            mich über Bord werfen wollte, und ich ersähe den Vortheil, ihm den ersten Stoß zu geben,
+            daß ich nicht zu erst in die See springen würde. Ich hätte nur ein Leben zu verlieren
+            gehabt; und die Unschuld wäre durch die gewaltthätigste Mishandlung meiner Person nicht
+            wirklich verlohren gegangen. Die gute römische Lucretia war unschuldiger und reiner, als
+            sie nach der Gewaltthat, da Verlust der Ehre, wiewohl es Gewaltthat war, ihr
+            unerträglich schien, sich um das Leben gebracht; unschuldiger als diese Emilia, die
+            durch eine Gewaltthat, die sie selbst, und an sich selbst begieng, die Schande zu
+            vermeiden suchete. Ich berufe mich auf ihre Empfindung, meine Damen, ob nicht der
+            Lucretia Geschichte weniger romanisch war, als der vorgehabte Selbstmord der Galotti.
+            Sie, nicht nur Kunstrichter, rufen über Emilien aus: <hi rendition="#i">So, wie du ersticht sich
+              keine.</hi> Ich kenne die tausende nicht, die ins Wasser gesprungen, Schlimmers zu
+            vermeiden, und Heilige geworden sind. Und was ist das Schlimmere gewesen, welches diese
+            Heilige haben vermeiden wollen? – Ein Dolchstich fuhr mir ins Herz, als Odoardo, der den
+            Vater über dem sclavischen Unterthanen vergißt, und der an dem Tyrannen sich zu rächen
+            kein Mittel übrig weiß als die Unschuldige zu ermorden, als Odoardo Emilien den Dolch
+            aus der Hand riß, und sie nekete, um sich ihrer Gesinnung zu versichern, daß sie sterben
+              <pb n="31" facs="#f0030"/> will; weil sie für ihr jugendliches, warmes Blut, für ihre Sinne nicht
+            stehen kann, welche sie in dem Hause der Grimaldi überwältigen möchten. Auf diese
+            Versicherung war der unnatürliche Vater stolz und stieß zu. – Haben sie, meine Damen,
+            hier sich erinnert, daß Emilia ihr Unvermögen dem Tumult der Freude in ihrer Seele zu
+            widerstehen in dem Augenblicke so stark denken kann, da jede wahre und treue Gattin Herz
+            und Sinne, und ihre ganze Seele bey dem Geliebten Ermordeten haben würde. So eine
+            Tochter ist nicht mehr, die den Vater ums Himmels willen bittet, den Dolch nicht gegen
+            das Herz des Verbrechers sondern gegen sie zu wenden; und so ein Vater ist nicht mehr,
+            der, weniger Soldat als die Tochter, sich fürchtet an dem Uebelthäter sich zu
+            vergreifen. Soll ich denken, Odoardos Verlagen die Versicherung von ihr zu erhalten,
+            habe ihn vermocht, ihre Drohung sich mit der Haarnadel zu erstechen für Versicherung zu
+            nehmen, wiewohl diese kein Werkzeug des Todes sondern nur der Frisur ist? Der Neger
+            Othello, den die Eifersucht rasend gemacht hatte, war katholischer; er hieß der Dämone,
+            eh er den Stich that, ihren Geist dem Schöpfer empfehlen, er fragte, ob sie gebethet
+            habe, sie sollte dem Himmel flehen; er wollte sie nicht unbereitet tödten, nicht ihre
+            Seele tödten. Ich habe ein gnädiges Parterre gehabt; ich fürchtete sehr, daß ich nicht
+            mit gesunden Gliedmaßen von der Schaubühne kommen würde, als ich sagte: »Ehedem gab es
+            einen Vater, der der Tochter den ersten beßten Stahl in das Herz senkte; aber solche
+            Thaten sind von <pb n="32" facs="#f0031"/> ehedem, solcher Väter giebt es keine mehr.« Solche
+            unsinnige Aufmunterungen verdienten ein paar Dutzend Aepfel und Citronen an meinen Kopf;
+            so gut als der sanftmüthige und artige Chr. H. Sch., aus gerechtem Unwillen zwanzig
+            faule Eyer der Meerkatze des Kallikratus an die Stirne geschmissen hat. – Ist der ein
+            Vater, ist der ein Oberster, der in der zweifelvollesten Ungewißheit zwischen
+              <hi rendition="#i">Doch, meine Tochter, doch –</hi> und, <hi rendition="#i">Gott, was hab ich gethan</hi>,
+            zustößt. Mit Eckel und Abscheu hab ich diese väterliche Hand des Mörders geküsset.</p>
+               <p>Durch alle drey und vierzig Auftritte hat Odoardo nur einmal Ursache gehabt, sich über
+            seine Tochter zu erzörnen; und dieses war, als sie zu der Haarnadel sagte, sie gehöre
+            nicht in das Haar einer, wie ihr Vater <hi rendition="#i">wolle, daß sie werden solle</hi>. Und
+            diese Anschuldigung hat der Vater und der Oberste, der gefühlvolle, ungestüme,
+            unbiegsame Oberste, dieser <hi rendition="#i">Bourreau bienfaisant</hi> ungeandet gelassen;
+            hingegen hat er das Laster an der Tugend gerächet, durch den Tod gerächet.</p>
+               <lg>
+                  <l>Doch so wie sie ersticht sich keine mehr,</l>
+                  <l>Und so wie er ersticht auch keiner mehr.</l>
+                  <l>Nur einen hat Apoll erkohren,</l>
+                  <l>Mit Marwoods Gift und Saras Schmerz,</l>
+                  <l>Und mit Galottis Dolch das Herz</l>
+                  <l>Als Leßings Hakspear zu durchbohren.</l>
+               </lg>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>

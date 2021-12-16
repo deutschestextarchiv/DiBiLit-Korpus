@@ -1,0 +1,2461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Das Loch</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118504177">
+                  <forename>Achim</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Arnim</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:43:54Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000407</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q51529377</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004472349</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Arnim, Ludwig Achim von/Dramen/Das Loch</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/k7f5.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-10C5-A</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Achim von Arnim: Das Loch. Berlin 1968</bibl>
+            <bibl>Achim von Arnim: Das Loch oder Das wiedergefundene Paradies, Joseph von Eichendorff: Das Incognito oder Die mehreren Könige oder Alt und Neu. Texte und Materialien zur Interpretation besorgt von Gerhard Kluge, Berlin: Walter de Gruyter &amp; Co., 1968 [Komedia Band 13].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Das Loch</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118504177">
+                        <forename>Achim</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Arnim</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">33 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Walter de Gruyter &amp; Co.</name>
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date type="publication">1968</date>
+                  <date type="firstPublication">1811</date>
+                  <date type="firstPublication" subtype="clariah">1811</date>
+                  <date type="firstPublication" subtype="zeno">1813</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor">1813</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d2592e306">Entstanden wahrscheinlich im Winter 1811. Erstdruck in: »Achim von Arnim: Schaubühne«, erster Band, Berlin (Realschulbuchhandlung) 1813. Uraufführung 1811 als Privatvorstellung im Hause G. Guaitas, Frankfurt am Main.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="kaiser" sex="MALE">
+                  <persName>Kaiser</persName>
+               </person>
+               <person xml:id="kaiserin" sex="FEMALE">
+                  <persName>Kaiserin</persName>
+               </person>
+               <person xml:id="kasper" sex="MALE">
+                  <persName>Kasper</persName>
+                  <persName type="variant">Kaspers beide Hälften</persName>
+               </person>
+               <person xml:id="der_ritter" sex="MALE">
+                  <persName>Der Ritter</persName>
+               </person>
+               <personGrp xml:id="matrosen" sex="MALE">
+                  <name>Matrosen</name>
+               </personGrp>
+               <personGrp xml:id="chor_der_schlossgeister" sex="UNKNOWN">
+                  <name>Chor der Schloßgeister</name>
+               </personGrp>
+               <personGrp xml:id="menschen" sex="UNKNOWN">
+                  <name>Menschen</name>
+               </personGrp>
+               <person xml:id="der_teufel" sex="MALE">
+                  <persName>Der Teufel</persName>
+               </person>
+               <personGrp xml:id="thiere" sex="UNKNOWN">
+                  <name>Thiere</name>
+               </personGrp>
+               <person xml:id="krokodill" sex="UNKNOWN">
+                  <persName>Krokodill</persName>
+               </person>
+               <person xml:id="esel" sex="UNKNOWN">
+                  <persName>Esel</persName>
+               </person>
+               <person xml:id="affe" sex="UNKNOWN">
+                  <persName>Affe</persName>
+               </person>
+               <person xml:id="ochs" sex="UNKNOWN">
+                  <persName>Ochs</persName>
+               </person>
+               <person xml:id="biene" sex="UNKNOWN">
+                  <persName>Biene</persName>
+               </person>
+               <person xml:id="huhn" sex="UNKNOWN">
+                  <persName>Huhn</persName>
+               </person>
+               <person xml:id="weissfisch" sex="UNKNOWN">
+                  <persName>Weißfisch</persName>
+               </person>
+               <person xml:id="hirsch" sex="UNKNOWN">
+                  <persName>Hirsch</persName>
+               </person>
+               <person xml:id="hund" sex="UNKNOWN">
+                  <persName>Hund</persName>
+               </person>
+               <person xml:id="storch" sex="UNKNOWN">
+                  <persName>Storch</persName>
+               </person>
+               <person xml:id="pferd" sex="UNKNOWN">
+                  <persName>Pferd</persName>
+               </person>
+               <personGrp xml:id="die_engel" sex="UNKNOWN">
+                  <name>Die Engel</name>
+               </personGrp>
+               <person xml:id="matrose" sex="MALE">
+                  <persName>Matrose</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d2592e306">
+      <front>
+         <div type="front">
+            <head>Ludwig Achim von Arnim</head>
+            <head>Das Loch</head>
+            <head>oder</head>
+            <head>Das Wiedergefundene Paradies</head>
+            <head>Ein Schattenspiel</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="6" facs="#f0001"/> Schatten</head>
+               <castItem>Dichter.</castItem>
+               <castItem>Kaiser vom Rhabarberlande.</castItem>
+               <castItem>Kaiserin, dessen Frau.</castItem>
+               <castItem>Kasper, sein Rath.</castItem>
+               <castItem>Volk und Thiere im Rhabarberlande.</castItem>
+               <castItem>Ritter von der runden Tafel.</castItem>
+               <castItem>Dessen Matrosen.</castItem>
+               <castItem>Der Teufel.</castItem>
+               <pb n="6" facs="#f0002"/>
+            </castList>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Prolog des Schattendichters</head>
+            <lg>
+               <l>Euch Aktionärs vom neuen Schauspielhaus,</l>
+               <l>Entbiet ich meinen besten Grus voraus,</l>
+               <l>Ich schwör es euch, ihr lebet viel bequemer</l>
+               <l>Als Ich, der dieses Baues Unternehmer!</l>
+               <l>Wer Geld gegeben, meint, er hab das Recht,</l>
+               <l>Daß er das Ganze finde gar zu schlecht;</l>
+               <l>Ich hör viel Tadel, niemand will recht loben,</l>
+               <l>So geht es mir, wie unserm Herrn da droben.</l>
+               <l>Der eine meint, ich hab das Oel gespart,</l>
+               <l>Nach der bekannten Stadtbeleuchtungsart,</l>
+               <l>Der andre meint, die Malerperspective</l>
+               <l>Verliere sich beinahe in das Schiefe,</l>
+               <l>Der dritte meint in diesem Augenblick,</l>
+               <l>In Gesten hätte ich noch kein Geschick,</l>
+               <l>Auch sollte ich noch mehr Register ziehen</l>
+               <l>In dem deklamatorischen Bemühen. –</l>
+               <l>Bei Licht besehn, wird's keinem recht gemacht,</l>
+               <l>Doch traulich waltet über euch jetzt Nacht,</l>
+               <l>Ihr seht nicht mehr, als ich will sehen lassen,</l>
+               <l>Wollt ihr was hören, müßt ihr auf mich passen,</l>
+               <l>Denn keiner ist von euch so vorbereitet</l>
+               <l>Daß er aus'm Stegereif mein Stück bestreitet.</l>
+               <l>Doch wenn es euch mißfällt, ihr könnet schlafen,</l>
+               <l>Ihr könnet schwatzen, niemand kann euch strafen,</l>
+               <l>Die Nacht ist Feindin aller Policey,</l>
+               <l>Die Welt wird Chaos und der Mensch wird frei.</l>
+               <l>Zwar ist der Raum nur eng, den wir regieren,</l>
+               <l>Wenn uns kein Licht zu ferner Welt will führen,</l>
+               <l>Die Nacht ist ohne alle Offenbarung,</l>
+               <l>Sie hat zu ihrem Tröste die Erfahrung</l>
+               <l>Im engen Raum, den unser Blut durchschwärmt,</l>
+               <l>Den unsre Haut umspannt, und Athem wärmt</l>
+               <l>Wo Töne sind die einzigen Gestalten,</l>
+               <l>Die ungeschwächt von aussen in uns walten,</l>
+               <l>Wenn die Erinnerung von allem Leben</l>
+               <l>Will in verzerrten Bildern schon verschweben. –</l>
+               <l>– Die Kinder schreien in der Dunkelheit,</l>
+               <l>Verständge sehnen sich nach Freudigkeit,</l>
+               <l>Und sehnen sich wohl gar nach jenen Schatten,</l>
+               <l>Die sie am Tage übersehen hatten,</l>
+               <l>
+                  <pb n="7" facs="#f0003"/> Die den bewegten Umriß deutlich zeigen</l>
+               <l>Von allem Lebenden, was uns einst lieb,</l>
+               <l>Was in der Phantasie verwischt und trüb,</l>
+               <l>Beseelte Bilder, die, obwohl schon eigen</l>
+               <l>Der Unterwelt, doch an des Lichtes Grenzen</l>
+               <l>Sich noch mit seiner Heiterkeit bekränzen,</l>
+               <l>– So ward einst Nachts das Schattenspiel erfunden</l>
+               <l>Von Liebenden, die sich getrennt befunden,</l>
+               <l>Die Liebe gönnte diese Kunst im Scheiden</l>
+               <l>Als sie erfand den Schattenriß zu schneiden,</l>
+               <l>Der Liebe hat es Scherz bald nachgemacht,</l>
+               <l>Und spricht zu euch in dieser Winternacht:</l>
+               <l>Dies Geisterreich, es sey euch aufgethan,</l>
+               <l>Es bricht die Kunst sich heute neue Bahn</l>
+               <l>In einem Haus, von Pappe auferbaut,</l>
+               <l>Personen <hi rendition="#i">hinter</hi> Dekorationen schaut.</l>
+               <l>Wer sind die Schatten, kennt ihr sie noch nicht?</l>
+               <l>Erkennt sie doch am Umriß vom Gesicht! –</l>
+               <l>– Da die Gebildeten mit nichts zufrieden,</l>
+               <l>Da sie an allen Künsten schon ermüden,</l>
+               <l>Und da das alte Schauspielhaus verdorben,</l>
+               <l>Die alten Schauspielleut aus Gram gestorben</l>
+               <l>Um die Kritik, die sie so stolz verlacht,</l>
+               <l>So steigen ihre Schatten aus der Nacht,</l>
+               <l>Sie wollen sich vor euch noch einmal zeigen,</l>
+               <l>Sie bleiben euch im Schattenreich noch eigen,</l>
+               <l>Es war ihr einzger Trost im ewgen Leben,</l>
+               <l>Daß ihnen Kritiker heut Beifall geben;</l>
+               <l>Brecht eures Witzes scharfe Spitzen ab,</l>
+               <l>Gedenkt, daß niemand steiget aus dem Grab</l>
+               <l>Gelenkig, zierlich, wie er einst im Leben</l>
+               <l>Die Arme und die Beine konnte heben;</l>
+               <l>Einseitig auch sind Schatten, wie bekannt,</l>
+               <l>Ihr Ansehn wechselt bei des Lichtes Stand,</l>
+               <l>Auch wird zuweilen sichtbar jene Hand,</l>
+               <l>Die sie auf Erden hat zu euch gesandt. –</l>
+               <l>Wems nicht behagt, der komm zu mir herauf,</l>
+               <l>Denn wie ihr seht, ich bin ein Schatten auch,</l>
+               <l>Verbessert mich in meiner Verse Lauf,</l>
+               <l>Und meinen Beinen gebet bessern Brauch,</l>
+               <l>Die Ehre gebe ich der Lust in Kauf,</l>
+               <l>Hier oben könnte mir noch mancher helfen,</l>
+               <l>Doch müßte er hier heulen mit den Wölfen,</l>
+               <l>Und mit dem Eselein das Ja schrein,</l>
+               <l>
+                  <pb n="8" facs="#f0004"/> Und sich mit kindschem Spiele noch erfreuen.</l>
+               <l>Des Spieles Name schon bedeutsam ist,</l>
+               <l>Es heißt das Loch, weil, wie ihr alle wißt,</l>
+               <l>Das Loch ein körperlicher Schatten ist,</l>
+               <l>Ein Nichts, das durch die Grenze nur gemessen,</l>
+               <l>Im Lichte ganz und gar vielleicht vergessen,</l>
+               <l>Auch heist's das <hi rendition="#i">neugefundne Paradies</hi>,</l>
+               <l>Weil man vom Schauspielhaus so viel verhieß,</l>
+               <l>Doch Rom ward nicht in einem Tag erbaut,</l>
+               <l>Und dieser Tag hat dieses Haus gebaut,</l>
+               <l>Und diese Dekorazion mit Tusch gemalt,</l>
+               <l>Die jetzt auf meinen Wink zu euch hinstrahlt.</l>
+               <l>Seht hier das Kaiserschloß, den hohen Thron,</l>
+               <l>Die Regierungsmaschine steht nicht weit davon,</l>
+               <l>Auf diesem Thurm, da wohnt die Kaiserin</l>
+               <l>In jungfräulichem, sehr betrübtem Sinn,</l>
+               <l>An einen Ritter denket sie im Stillen,</l>
+               <l>Dem sie entrissen ward durch Vaters Willen,</l>
+               <l>Die See ist offen und ein Schiff kommt bald.</l>
+               <l>Da hinten ist der grün belaubte Wald,</l>
+               <l>Doch höre ich da unten ein Gemunkel,</l>
+               <l>Die Farbe dieses Walds sey etwas dunkel:</l>
+               <l>Sprecht nicht von Farben mir, dem armen Blinden,</l>
+               <l>Verlangt nicht mehr, als was ihr könnet finden.</l>
+            </lg>
+            <pb n="9" facs="#f0005"/>
+         </div>
+         <div>
+            <head>Erster Aufzug</head>
+            <div>
+               <head>I.</head>
+               <stage>Kaiser und Kaiserin.</stage>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Nicht wahr, es sitzt sich gut auf dem Thron?</p>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Ich sitze nicht gern, das wißt ihr schon,</l>
+                     <l>Tanzen und Springen war mein Entzücken,</l>
+                     <l>Das Regieren will mich gar nicht beglücken.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ja, liebes Kind, man muß sich genieren,</l>
+                     <l>Wann man die ganze Welt will regieren,</l>
+                     <l>Es ist kein Spas, es fordert Knochen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>So ward mir noch nie vom Regieren gesprochen.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Du kennst auch noch nicht die schwersten Pflichten,</l>
+                     <l>Du kennst bis jetzt nur die lustgen Geschichten,</l>
+                     <l>Wie einer den andern läßt köpfen und schinden,</l>
+                     <l>Die Städte verbrennt, den Krieg zu verkünden,</l>
+                     <l>Ja wäre es damit abgethan,</l>
+                     <l>Da wäre gar mancher ein großer Mann,</l>
+                     <l>Doch dann kommt erst das Gesetzegeben,</l>
+                     <l>Das greifet dem Klügsten in das Leben.</l>
+                     <l>Wenn du in deiner Kammer verschlossen,</l>
+                     <l>Da wird die Regierungsmaschine gestoßen,</l>
+                     <l>Wie mancher Tropfen Schweiß wird vergossen,</l>
+                     <l>Bis wir die Gesetze herausgestoßen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Kann ich euch bei der Arbeit nicht nützen,</l>
+                     <l>Fast fürchte ich mich, hier zu versitzen,</l>
+                     <l>Bewegung kann die Gesundheit schützen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Kein Weib hat die Kraft und den hohen Muth,</l>
+                     <l>Der die Gesetze recht greifen thut,</l>
+                     <l>Oft muß ich ganze Tage drauf lauern,</l>
+                     <l>Und dann will wenig Minuten nur dauern</l>
+                     <l>Die Kraft der hohen Begeisterung:</l>
+                     <l>Sie kommt, sie kommt, entfliehe im Sprung.</l>
+                     <pb n="10" facs="#f0006"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Ich ziehe mich willig zurück in die Kammer,</l>
+                     <l>Doch endet, o Kaiser, des Herzens Jammer,</l>
+                     <l>Gedenket, wie langsam die Tage verfließen,</l>
+                     <l>Ach, soll ich in Einsamkeit immer büßen!</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Was kannst du verlangen, was kannst du vermissen,</l>
+                     <l>Geh schlafen auf deinen sammtenen Kissen,</l>
+                     <l>Und Kasper soll mir heut Spässe aufschreiben,</l>
+                     <l>Womit ich dir kann die Zeit vertreiben.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Ich möchte auch gerne ins Freie gehen,</l>
+                     <l>Die Ritter der Tafelrunde besehen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Das schicket sich nicht in glücklichen Ehen.</l>
+                     <l>Flugs steige die Treppe zu deinem Thurm.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Ich arme Prinzessin, ich armer Wurm.</p>
+                  <stage>Er führt sie zur Treppe und schließt sie ein.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>II.</head>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>He Kasper, Tintenklecker, seyd ihr noch nicht fertig.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER</speaker>
+                  <stage>kommt.</stage>
+                  <p>Ich bin des kaiserlichen Worts gewärtig.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>So schieb die Regierungsmaschine herbei,</l>
+                     <l>Ich fühle in mir Begeisterung,</l>
+                     <l>Die macht mich wieder in Freuden jung.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER</speaker>
+                  <stage>schiebt sie herbei.</stage>
+                  <p>Die Räder machen ein wenig Geschrei.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Ihr müsset die Räder ein wenig schmieren.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Das nennen wir dann das Regeneriren,</l>
+                     <l>Das Fett, das geben die Unterthanen,</l>
+                     <l>Die Verarmten stecken wir unter die Fahnen,</l>
+                     <l>Die müssen für's Vaterland billig bluten.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Das Sterben erfreuet alle Guten.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Nun steht die Maschine uns eben recht,</l>
+                     <l>Hier sind die Würfel, sie fallen nicht schlecht,</l>
+                     <l>Sie zeigen uns eben recht viele Augen,</l>
+                     <l>Da werden die Gesetze zur Aufsicht taugen,</l>
+                     <l>Wie alle Steuern rasch einzutreiben,</l>
+                     <l>Daß kein Kreuzer in der Tasche kann bleiben.</l>
+                     <l>Was wollen wir diesmal die Leut' überraschen.</l>
+                     <pb n="11" facs="#f0007"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Es füllt uns der Geist der Zeit die Taschen.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Es ist eine ganz besondre Laune,</l>
+                     <l>So gute Gesetze bricht man nicht vom Zaune.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Nummer neune ist eben der Würfel gefallen.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Da steht ein herrlich Gesetz vor allen:</l>
+                     <l>Jede Lichtputz ein für allemal</l>
+                     <l>Einen Blaffert zu der Taxe bezahl.</l>
+                     <l>Aber Herr, wer nun putzt das Licht mit den Fingern,</l>
+                     <l>Da wird sich die Einnahme schmälig verringern.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Finger? Die sollen auch wie Lichtputze bezahlen,</l>
+                     <l>Wir stempeln ein jedes Paar Finger mit Zahlen,</l>
+                     <l>Und setzen jedem einen Aufseher dabei,</l>
+                     <l>Daß im Gebrauche auch Ordnung sey,</l>
+                     <l>Daß kein Paar früher wird abgenutzt,</l>
+                     <l>Und daß das Volk nicht der Ordnung trutzt,</l>
+                     <l>Und über den Aufseher setzen wir zwei,</l>
+                     <l>Damit er thut seine Pflicht dabei.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Da können wir viele Leute anstellen,</l>
+                     <l>Da nehm ich von meinen guten Gesellen,</l>
+                     <l>Von meinen alten Schulkammeraden,</l>
+                     <l>Die kommen mir sonst in Faulheit zu Schaden,</l>
+                     <l>Das Stempeln wird etwas den Fingern schmerzen,</l>
+                     <l>Doch gute Bürger die leiden von Herzen,</l>
+                     <l>Und wir im Dienste des Staats sind frei,</l>
+                     <l>So ist es mir eben ganz einerlei.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Du bist ein zweiter Solon, welch Glück,</l>
+                     <l>Daß du mir geschenkt durch hohes Geschick,</l>
+                     <l>Jetzt wollen wir die Gesetze aufschreiben.</l>
+                  </lg>
+                  <stage>Während sie sich da hinsetzen, tritt die Kaiserin ans Fenster des Thurms und
+              sieht aufs Meer nach den Schiffen, die vorüberziehn.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>III.</head>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Winkt mir nicht, ihr flüchtgen Schiffe,</l>
+                     <l>Winkt mir nicht, ihr leichten Wellen,</l>
+                     <l>Hier an diesem Felsenriffe</l>
+                     <l>Seh ich täglich euch zerschellen,</l>
+                     <l>Kann mich nicht euch anvertrauen,</l>
+                     <l>Mich, die ärmste aller Frauen.</l>
+                     <l>
+                        <pb n="12" facs="#f0008"/> In dem Herzen wohnt ein Hoffen,</l>
+                     <l>Daß Er mich noch nicht vergessen,</l>
+                     <l>Reicher Liebe steh ich offen,</l>
+                     <l>Träumend hab ich Ihn besessen,</l>
+                     <l>Wellen rauscht bei meinen Träumen,</l>
+                     <l>Möchte diesen Tag versäumen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>DER RITTER</speaker>
+                  <stage>legt unter dem Felsen, worauf das Schloß erbaut ist, unbemerkt sein Schiff an und
+              steigt ans Land.</stage>
+                  <lg>
+                     <l>Gefährten, haltet euch ganz still in dieser Bucht,</l>
+                     <l>Daß ihr bereit zur Gegenwehr und Flucht.</l>
+                     <l>So führte mich die Liebe zum Rhabarberschloß,</l>
+                     <l>O Mißgeschick – mich trifft dein ganz Geschoß,</l>
+                     <l>Du triebst mich erst zu der Hypekakuana,</l>
+                     <l>Bis ich dies gelbbraun widerliche Schloß ersah,</l>
+                     <l>Und hier muß sie, die Zarte aller Zarten, wohnen,</l>
+                     <l>So schrecklich will sich Edelmuth belohnen!</l>
+                     <l>Die Edle opferte sich ihrem Landeswohl,</l>
+                     <l>Und der Rhabarberkaiser sie der Liebe stohl;</l>
+                     <l>Rhabarberkaiser, ärger als Barbar,</l>
+                     <l>Sie ist nun dein, schon länger als ein Jahr.</l>
+                     <l>Ach war sie glücklich, mit Vergnügen</l>
+                     <l>Wollt ich verzweifeln, doch in Handschriftszügen,</l>
+                     <l>Die sie posttäglich in das Vaterhaus gesandt,</l>
+                     <l>Hab' ich die Beimischung von Thränen wohl erkannt,</l>
+                     <l>Die Tinte war so blaß und keiner konnte lesen,</l>
+                     <l>Obs Griechisch oder Deutsch gewesen.</l>
+                     <l>Ihr Götter, wie geschieht mir, ach dort steht</l>
+                     <l>Die Sonn', von der mein Auge übergeht,</l>
+                     <l>Sie übersieht die Wonne ihrer Liebe,</l>
+                     <l>Und blendet sich in höhrer Sonne trübe.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN</speaker>
+                  <stage>erblickt ihn und bat die letzten Worte gehört.</stage>
+                  <lg>
+                     <l>Vergebens meiner Blicke Blüthe</l>
+                     <l>Sich opfert hohem Sonnenlauf,</l>
+                     <l>Ich schmachte einsam im Gemüthe,</l>
+                     <l>Geht aller Welt mein Glanzbild auf,</l>
+                     <l>Und ist mein Auge ganz geblendet,</l>
+                     <l>Verschwand die Erd' in Strahlenduft,</l>
+                     <l>Da hat mein Sehnen sich gewendet</l>
+                     <l>Zu eines Schäfers Schattenkluft.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Du schwankst in einsam tiefen Schmerzen,</l>
+                     <l>Und Schwindel stürzen meinen Blick,</l>
+                     <l>O neige dich zu meinem Herzen,</l>
+                     <l>
+                        <pb n="13" facs="#f0009"/> Du findest hier ein sichres Glück,</l>
+                     <l>Das alte Glück in frühen Tagen,</l>
+                     <l>Der Kindheit holde Schäferwelt,</l>
+                     <l>Eh du, vor allen hochzuragen,</l>
+                     <l>Auf einen hohen Thron gestellt.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Wo sind die weißen Lämmerheerden</l>
+                     <l>Mit bunten Bändern schön geschmückt,</l>
+                     <l>Ein goldner Kerker sollt mir werden,</l>
+                     <l>Ein Scepter, der mich niederdrückt,</l>
+                     <l>Und eine Krone muß ich tragen,</l>
+                     <l>Die beugt mein Haupt noch vor der Zeit,</l>
+                     <l>Wenn du, mein Schäfer, nichts willst wagen,</l>
+                     <l>Wenn mich dein Muth nicht bald befreit.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>O meine Kaiserin, ich bin bereit,</l>
+                     <l>Zu großer That, doch ohne Krieg und Streit,</l>
+                     <l>Denn dazu bin ich gar nicht ausgerüstet,</l>
+                     <l>Wenn mir gleich sehr nach Heldenruhm gelüstet.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Ja wenn du keine besondre Heldenkraft hast, werther Freund, so kann das viele Hin-
+              und Herreden nichts helfen und du mußt meinem Rathe folgsam seyn, den ich dir in aller
+              Kürze mittheilen will. Mein Gemahl, dem ich nicht vermählt bin, weil er mit der
+              Regierungsmaschine Tag und Nacht spielt und keine Zeit zur Vermählungsfeier übrig hat,
+              braucht einen Thürsteher, erbiete dich zu diesem Dienste, baue dir eine Hütte unter
+              diesem Thurme, breche ein Loch durch die Mauer, so kann ich zu dir herabkommen und mit
+              dir zu den Schäfern nach Arcadien entfliehen, um auf mein Grabmahl schreiben zu
+              lassen: Auch ich war in Arcadien.</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Von Eifersflammen muß ich brennen,</l>
+                     <l>Ich möchte Mauern und Thürme einrennen,</l>
+                     <l>Dich meiner Liebe zu gewinnen,</l>
+                     <l>Es schickt sich gar nicht das Besinnen.</l>
+                  </lg>
+                  <stage>Er klopft an die Thür.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>IV.</head>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>von innen.</stage>
+                  <p>Wer klopft? Wer ist vorm Schloß erschienen?</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Ich möchte dem Kaiser gerne dienen.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Es fehlet mir nicht an gutem Gesinde.</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Doch da ich keinen Thorsteher finde,</l>
+                     <l>So mein ich, es könnte der Platz mir passen.</l>
+                     <pb n="14" facs="#f0010"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Wird er auch keine Feinde einlassen?</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich bin ein Ritter von altem Adel,</l>
+                     <l>Ich bin der Ritter ohne Furcht und Tadel,</l>
+                     <l>Ich bin ein Ritter von der Tafelrund.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Da ist ihm Essen und Trinken gesund.</l>
+                     <l>Es ist mir lieb, ich kann ihn brauchen,</l>
+                     <l>Wenn er keinen Taback will rauchen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ade, geliebte Pfeife, ich werf dich ins Meer,</l>
+                     <l>Meinem Kaiser zu Ehren, rauch ich nicht mehr.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Nun wird er mir ganz zum Thürsteher taugen,</l>
+                     <l>Er hat ein paar große gesunde Augen.</l>
+                     <l>Er kann sich gleich hier ein Wachthaus bauen,</l>
+                     <l>Daß er die Straße kann fleißig beschauen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Wo aber soll ich einen Maurer finden?</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Der Kasper ist Maurer vom reinsten System,</l>
+                     <l>Läßt Kalk sich bezahlen und nimmt nur den Lehm.</l>
+                     <l>Die Steine könnt ihr vom Felsen brechen,</l>
+                     <l>Ein altes Dach kann ich euch versprechen,</l>
+                     <l>Der Wald steht voll Bäume in Morgengefühlen,</l>
+                     <l>Draus könnet ihr schneiden Balken und Dielen,</l>
+                     <l>He Kasper, bind deine Schürze mit dem blauen Bande um,</l>
+                     <l>Was machst du für Zeichen und stehst da so stumm.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER</speaker>
+                  <stage>bringt ein Glas und klopft damit auf den Tisch, drückt dem Ritter die Hand, macht
+              seltsame Sprünge, dann spricht er zum Kaiser.</stage>
+                  <lg>
+                     <l>Er ist kein Maurer, ich wollte drauf schwören,</l>
+                     <l>Er will mir auf alle meine Zeichen nicht hören.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Laß deine Sprünge und deine Zeichen.</l>
+                     <l>Du mußt hier Steine und Holz ihm reichen,</l>
+                     <l>Du mußt ihm helfen ein Häuschen bauen,</l>
+                     <l>Damit er kann auf die Straße schauen.</l>
+                  </lg>
+                  <stage>Ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>V.</head>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Nun lieber Hofrath, greift rasch zum Werke.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Ach hätt ich nur Schnaps, noch fehlt mir die Stärke,</l>
+                     <l>Ich habe mich heute so müde regiert,</l>
+                     <l>Ein neues Gesetzbuch zu Ende geführt.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Das nenn ich ja recht im Großen spaßen,</l>
+                     <l>Da mag das Volk euch hier weidlich hassen.</l>
+                     <pb n="15" facs="#f0011"/>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Das Volk ist in uns, wir sind im Volke!</l>
+                     <l>Das Volk ist eine ungestaltete Wolke,</l>
+                     <l>Ich und der Kaiser, wir sind die Winde,</l>
+                     <l>Wir blasen bald stark und bald gelinde,</l>
+                     <l>Und wenn wir einander entgegenblasen,</l>
+                     <l>Da stehet sie stille mitten im Rasen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Das schiene mir noch besonders gescheidt.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Auch ist es das Beste in unsrer Zeit,</l>
+                     <l>Wer stehen bleibt, kann der andern lachen,</l>
+                     <l>Die fielen und sich die Hälse brachen.</l>
+                     <l>Nun seht nur, wie bei Regierungsgedanken</l>
+                     <l>Die Arbeit sich fördert, vereint sind die Blanken,</l>
+                     <l>Der Dachstuhl beendet, mit Ziegeln behangen,</l>
+                     <l>Jetzt thuts mir recht nach Ruhe verlangen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Das Haus ist gut, jetzt möcht ich nur noch,</l>
+                     <l>Daß du mir stießest in den Thurm ein Loch.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Wozu denn das? Da kämen wir ja</l>
+                     <l>Dem Bette der hohen Kaiserin nah.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich möchte so gern die Kaiserin sehen,</l>
+                     <l>Der Kopf soll ihr nicht auf dem Rumpfe stehen,</l>
+                     <l>Sie soll ihn nach Gefallen, um ihn zu kühlen,</l>
+                     <l>Herunter nehmen und damit spielen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Das ist ja erstaunlich, das muß ich gestehen,</l>
+                     <l>Das Wunder möchte ich gerne ansehen.</l>
+                     <l>Er hält sie so heimlich, daß keiner sie sah,</l>
+                     <l>Ich meinte schon oftmals, sie sey gar nicht da.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Dies Spiel mit dem Kopf solls eben seyn,</l>
+                     <l>Warum er niemand zu ihr läßt herein.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Ich muß sie sehen, ich breche das Loch,</l>
+                     <l>Es koste mein Leben, ich thue es doch.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Das Loch ist schon fertig, o Glück sie zu sehen.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Ich kann an dem Kopf nichts besondres sehen,</l>
+                     <l>Ich möchte ihr einen Stoß mit der Kelle geben,</l>
+                     <l>Ob ich ihr könnte den Kopf abheben.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>er zerhaut ihn mit dem Schwerdt.</stage>
+                  <p>Du wolltest sie schlagen, du dummer Tropf.</p>
+                  <pb n="16" facs="#f0012"/>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPERS</speaker>
+                  <stage>beide Hälften schreien.</stage>
+                  <lg>
+                     <l>Ich will nur probiren den Kopf.</l>
+                     <l>Ich will nur probiren den Kopf.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich bin verwundert, wo steht nur der Kopf.</l>
+                     <l>Je mehr ich Stücken aus ihm mag hauen,</l>
+                     <l>Je mehr sie fragen und wollen schauen,</l>
+                     <l>Ich will euch stecken in meinen Suppentopf,</l>
+                     <l>Den ich für die ganze Schiffskompagnie trage,</l>
+                     <l>So läßt er doch endlich die neugierige Frage.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER</speaker>
+                  <stage>im Topf.</stage>
+                  <p>Kopf! Kopf! Kopf!</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Das klinget wie kochendes Wasser am Feuer,</l>
+                     <l>Das will ich ihm gönnen zur fröhlichen Feier.</l>
+                     <l>Denn jetzt, wo das schwerste Werk ist vollbracht,</l>
+                     <l>Die Liebesflamme gedoppelt erwacht.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>VI.</head>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN</speaker>
+                  <stage>von oben.</stage>
+                  <lg>
+                     <l>Da will ich eilig zu dir gehen,</l>
+                     <l>Sie könnte ausgehen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Das fürcht ich selber und rathe zur Eile,</l>
+                     <l>Die Liebe vergeht durch die Langeweile.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Ich rutsche durchs Loch, jetzt bleib ich stecken,</l>
+                     <l>Die Krone bleibt hängen an allen Ecken.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich flehe, die Krone rasch abzulegen,</l>
+                     <l>Die Kronen sind nicht der Liebe Segen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Ein edles Herz kann Kronen vermissen,</l>
+                     <l>Ich habe sie unter das Bette geschmissen.</l>
+                     <l>Ich häng in der Luft, stell dich hier unter,</l>
+                     <l>Auf deinen Kopf, da springe ich munter.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Mein Kopf kriegt einen gewaltigen Stoß,</l>
+                     <l>Mir wars, als schlug mich mein schwerstes Roß,</l>
+                     <l>O wäre der Liebe die Schwere genommen,</l>
+                     <l>Sie wäre so leicht zum Himmel gekommen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Ich fühle mich freudig gen Himmel getragen,</l>
+                     <l>Dein Rücken mir scheinet ein himmlischer Wagen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich fühle mich wie ein Streiter munter,</l>
+                     <l>Es geht mir die Welt in den Röcken unter.</l>
+                     <pb n="17" facs="#f0013"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Der Kaiser hat mich nie so getragen.</l>
+                     <l>Ich möchte ihn von dem Throne verjagen,</l>
+                     <l>Der Eifersüchtge ließ mich verschmachten,</l>
+                     <l>Den Kaiser muß ich von Herzen verachten.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Der Kaiser scheint ein gemeiner Hund,</l>
+                     <l>Der gar nicht paßt an die Tafelrund.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Er ist ein alter Krippensetzer,</l>
+                     <l>Ich entsage hiemit dem alten Schwätzer,</l>
+                     <l>Und schenk dir den Ring, den er mir schenkte,</l>
+                     <l>Als er mich mit der Verlobung kränkte.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin #der_ritter">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Der Ring hat uns verbunden</l>
+                     <l>Zu heimlich selgen Stunden.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Die Vorsicht soll uns schützen.</p>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Die Ohren will ich spitzen.</p>
+               </sp>
+               <sp who="#kaiserin #der_ritter">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Daß niemand uns beschleiche,</l>
+                     <l>Wenn ich den Mund dir reiche.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Ich höre etwas gehen.</p>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Es wär' um mich geschehen.</p>
+               </sp>
+               <sp who="#kaiserin #der_ritter">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Ich hör, daß einer poche,</l>
+                     <l>Jetzt eilig zu dem Loche.</l>
+                  </lg>
+                  <stage>Die Kaiserin steigt durch das Loch nach ihrer Kammer.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>VII.</head>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>von innen.</stage>
+                  <p>Wie könnt ihr denn die Thüre zumachen?</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Ich soll ja des Kaisers Thüre bewachen.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Daß niemand zur Thür hinein soll kommen,</l>
+                     <l>Dafür seyd ihr hier angenommen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Wer weiß, ob ihr nicht des Kaisers Stimme nachmacht,</l>
+                     <l>Da werd ich von euch nachher ausgelacht,</l>
+                     <l>Will erst durchs Schlüsselloch euch besehen,</l>
+                     <l>Eh ich den Schlüssel wage umzudrehen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Nun sehet nur recht mein kaiserlich Gesicht.</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich sehe ein dickes Fleisch, das spricht,</l>
+                     <l>Jetzt seh ich die Krone, und öffne die Thür.</l>
+                     <pb n="18" facs="#f0014"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Für diese Vorsicht empfange von mir,</l>
+                     <l>Den großen Orden vom Hosenträger,</l>
+                     <l>Du scheinest mir gar ein tapferer Schläger.</l>
+                     <l>Sag an, hast du nicht den Kanzler gesehen,</l>
+                     <l>Ich kann allein die Maschine nicht drehen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Er ist gegangen zum dunkelen Wald,</l>
+                     <l>Er holt noch Bauholz und kommt wohl bald.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Ich meine, das Haus sey schon beendet.</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Es fehlt noch die Kunst, die alles vollendet,</l>
+                     <l>Die Widderköpfe an allen Säulen,</l>
+                     <l>Die müssen die Ritzen der Balken ausheilen;</l>
+                     <l>Wir schmückens in reinem griechischen Styl,</l>
+                     <l>Hier koch ich im Topfe der Zierrathen viel.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Der Widderkopf hier, ich muß es gestehen,</l>
+                     <l>Thut meinem Rathe etwas ähnlich sehen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ein jeder Mensch hat etwas vom Thiere,</l>
+                     <l>Damit er sich nicht zu edel aufführe.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Nun sagt mir Freund, ich staune schon lange,</l>
+                     <l>Was dort für ein Ringlein am Finger euch prange.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Die liebliche Braut, sie hat ihn geschenkt,</l>
+                     <l>Und wie ich ihn küsse, sie meiner gedenkt.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Das ist doch gar ein kurioses Ding,</l>
+                     <l>Meiner Frau verehrt ich einen gleichen Ring.</l>
+                     <l>So ähnlich hab ich noch gar nichts gesehen,</l>
+                     <l>Ich muß zu meiner Gattin gleich gehen,</l>
+                     <l>Ja nehmt es nicht übel, ein Spas fiel mir ein,</l>
+                     <l>Ich werde gleich wieder bei euch seyn.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>VIII.</head>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Frau Kaiserin, ich reich dir durchs Loch den Ring,</l>
+                     <l>Unser Leben am seidenen Faden hing,</l>
+                     <l>Gleich leg dich mit Krone und Ring in das Bette.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN</speaker>
+                  <stage>von oben.</stage>
+                  <p>Der Alte soll kommen, er dient zum Gespötte.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>tritt in das Zimmer der Kaiserin.</stage>
+                  <lg>
+                     <l>Die Kaiserin schnarcht, nur Unschuld kann schnarchen,</l>
+                     <l>Die Sünde träumet ganz stille vom Argen,</l>
+                     <l>Ich will mit Vorsicht zum Bette hinschreiten,</l>
+                     <l>
+                        <pb n="19" facs="#f0015"/> Ich möchte nicht gern mit ihr mich streiten,</l>
+                     <l>Und manche Leute, wenn sie schnell erwachen,</l>
+                     <l>So schlagen sie um sich wie die Drachen,</l>
+                     <l>Liebes Kind, ich küsse dir gerne die Hand.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Ich geh dir eine, die ist verwandt.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Victoria, die Ohrfeig that weh,</l>
+                     <l>Doch meinen Ring ich wiederseh,</l>
+                     <l>Schon dacht ich, es sey ein Liebeszeichen,</l>
+                     <l>Das sie dem fremden Ritter thät reichen.</l>
+                     <l>Nun gute Nacht.</l>
+                  </lg>
+                  <stage>Ab.</stage>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Jetzt bin ich erwacht,</l>
+                     <l>Und rufe dir nach, statt Lebewohl,</l>
+                     <l>Daß dich der Teufel hol.</l>
+                     <l>Hört, Ritter, der Alte war richtig betrogen,</l>
+                     <l>Ein neuer Anschlag sey jetzt vollzogen,</l>
+                     <l>Ich ziehe gleich an verkehrte Kleider,</l>
+                     <l>Die gute Seite, die kennet er leider,</l>
+                     <l>Dann komm ich zu euch durchs Loch ins Haus,</l>
+                     <l>Und ihr bereitet da einen Schmaus,</l>
+                     <l>Und bittet den Kaiser und ihm erzählt,</l>
+                     <l>Ich sey die Braut, die ihr erwählt,</l>
+                     <l>Die auf dem Schiffe jetzt nachgekommen,</l>
+                     <l>Und euch zum Manne sich angenommen,</l>
+                     <l>Er möchte uns segnen mit guten Gaben,</l>
+                     <l>Dann können wir auf dem Schiffe abtraben.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Du bist gescheidt, mein Herz schlägt munter,</l>
+                     <l>Nur komme eilig durchs Loch herunter.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN</speaker>
+                  <stage>kommt herab.</stage>
+                  <lg>
+                     <l>Jetzt ging es leicht, weil ich mich nicht geziert,</l>
+                     <l>Gewohnheit ists, was die Welt regiert.</l>
+                     <l>Jetzt sorge nur rasch für Küch und Keller,</l>
+                     <l>Der König segnet aus Eßlust viel schneller.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Da haben wir ja den zerstückten Rath,</l>
+                     <l>Verzehret stört er uns nicht durch Verrath.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Nein, das ist gegen alles Gefühl,</l>
+                     <l>Menschenfleisch ekelt selbst im Schattenspiel.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Da find ich noch Krümeln von Schiffszwieback,</l>
+                     <l>Wer weiß, ob er die nicht essen mag.</l>
+                     <pb n="20" facs="#f0016"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>So lade den Kaiser ganz eilig ein,</l>
+                     <l>Und bitte ihn selbst um etwas Wein,</l>
+                     <l>Der wird uns auf dem Meere behagen,</l>
+                     <l>Ich kann die Seefahrt nicht gut vertragen.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>IX.</head>
+               <sp who="#der_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>geht durch die Schloßthüre ins Thronzimmer.</stage>
+                  <lg>
+                     <l>O Glück und Wonne in lichter Sonne,</l>
+                     <l>O liebliche Luft voll Blumenduft!</l>
+                     <l>Luft, die meine Geliebte getrieben,</l>
+                     <l>Und in die weissen Segel blies,</l>
+                     <l>Die muß ich vor allem auf Erden lieben,</l>
+                     <l>Und sie mit schönstem Tone begrüß,</l>
+                     <l>Wellen, die meine Geliebte getragen,</l>
+                     <l>Und sie gespiegelt in schimmernder Lust,</l>
+                     <l>Die seh ich im Meere noch heftig schlagen,</l>
+                     <l>So schlägt mir das Herz in meiner Brust,</l>
+                     <l>O freundliche Wellen, ihr wollt uns gesellen,</l>
+                     <l>O lieblicher Wind, du führtest mein Kind.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ich hab kein Wort von dir verstanden,</l>
+                     <l>Ach warum kam der Kasper mir abhanden.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Nun, gnädger Herr, mit dem Dienst ists aus,</l>
+                     <l>Ich muß heut wieder zurück nach Haus,</l>
+                     <l>Die Braut ist eben mir nachgekommen,</l>
+                     <l>Und hat mich gleich zum Manne genommen,</l>
+                     <l>Ich wollte euch bitten auf Schiffszwieback</l>
+                     <l>Und auf eine gute Prise Taback,</l>
+                     <l>Und daß ihr den Wein könnt selber mitbringen,</l>
+                     <l>Damit die Gläser recht fröhlig erklingen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ich komme sogleich, ich stelle mich ein,</l>
+                     <l>Ich meine euch toll, mags selber wohl seyn.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Vergesset nur nicht den herrlichen Wein.</p>
+                  <stage>Ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>X.</head>
+               <sp who="#der_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>kommt zurück ins Thürsteherhaus.</stage>
+                  <p>Der Kaiser und der Wein, sie werden gleich kommen.</p>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Ich schnüre mich auf, ich werde beklommen.</p>
+                  <pb n="21" facs="#f0017"/>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Fast habt ihr mich zu solchem Spaße verführt,</l>
+                     <l>Wobei ihr nun alle Haltung verliert,</l>
+                     <l>Eure Ärme fächeln wie Windmühlenflügel,</l>
+                     <l>Ich höre den Kaiser, er öffnet den Riegel.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>kommt.</stage>
+                  <lg>
+                     <l>Nun seyd mir gegrüßet, schöne Braut,</l>
+                     <l>Es ist mir, als hätt ich euch sonst schon geschaut.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Sie hat ein recht allgemeines Gesicht,</l>
+                     <l>Sie ist noch blöde und wenig verspricht,</l>
+                     <l>Doch wird sie euch bald viel besser gefallen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>vor sich.</stage>
+                  <p>Die Eifersucht will mich schier anfallen.</p>
+                  <stage>Laut.</stage>
+                  <lg>
+                     <l>Ihr habet so etwas in eurem Wesen,</l>
+                     <l>Ich hätte euch selber zur Kaiserin erlesen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Ihr wollet nur spotten, ich weiß noch nicht,</l>
+                     <l>Wie man zu großen Kaisern spricht,</l>
+                     <l>Welcher Fuß im Knien voraus zu setzen,</l>
+                     <l>Auch weiß ich von Politik wenig zu schwätzen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Zum Teufel, das Knixen doch endlich laß,</l>
+                     <l>Du scheinst ein lebendiges Butterfaß.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>vor sich.</stage>
+                  <lg>
+                     <l>Meine Weisheit kommt noch heimlich von Sinnen,</l>
+                     <l>Wär meine Frau nicht im Thurme drinnen,</l>
+                     <l>Ich glaubte sie in der Braut zu sehen,</l>
+                     <l>Vor Neugier bleibt mir mein Herz still stehen,</l>
+                     <l>Ob meine Frau im Bette noch liegt,</l>
+                     <l>Oder ob sie mich mit dem Ritter betrügt.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Mein gnädiger Herr, ihr scheint nicht vergnügt.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ein Wunsch, mein Fräulein, im Sinne mir liegt,</l>
+                     <l>Es spricht so schön euer rother Mund,</l>
+                     <l>Mir wäre ein Küßchen darauf gesund.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Das darfst du dem Kaiser nicht versagen,</l>
+                     <l>Ein Küßchen in Ehren kann niemand abschlagen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>So küsset mich, Herr, auf meine Stirn.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>küßt sie.</stage>
+                  <p>Sie schmecket so süß wie die beste Birn.</p>
+                  <stage>Vor sich.</stage>
+                  <lg>
+                     <l>Sie schmecket so ganz wie meine Braut,</l>
+                     <l>Ich fahre vor Eifersucht aus der Haut.</l>
+                  </lg>
+                  <stage>Laut.</stage>
+                  <lg>
+                     <l>Es schmeckte der Kuß so trefflich gut,</l>
+                     <l>Er hat mir erweckt mein ganzes Blut,</l>
+                     <l>Ich will zum Feste die Kaiserin bringen,</l>
+                     <l>Sie soll uns heut was Lustiges singen.</l>
+                  </lg>
+                  <stage>Ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>
+                  <pb n="22" facs="#f0018"/> XI.</head>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Jetzt rasch durchs Loch und umgekleidet,</l>
+                     <l>Sonst wird uns der ganze Spas verleidet.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN</speaker>
+                  <stage>klettert hinauf.</stage>
+                  <lg>
+                     <l>Der Kaiser eilet auch gar zu sehr,</l>
+                     <l>Kaum kann ich mich legen ins Federmeer.</l>
+                     <l>Es sitzet die Krone noch gar nicht fest,</l>
+                     <l>Und schon kommt der Kaiser gestapelt ins Nest.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>tritt oben ein.</stage>
+                  <lg>
+                     <l>Da liegt sie ganz stille, ich dachte recht schlecht,</l>
+                     <l>Das kommt von dem Warnen gegen's schöne Geschlecht,</l>
+                     <l>Ich lasse jetzt alle Bücher verbrennen,</l>
+                     <l>Worin man ein Weib wagt untreu zu nennen.</l>
+                  </lg>
+                  <stage>Laut.</stage>
+                  <lg>
+                     <l>Geliebte Kaiserin, jetzt komme herunter,</l>
+                     <l>Bei meinem Thürsteher, da ist es munter,</l>
+                     <l>Der will, was man nennt, heut Hochzeit machen,</l>
+                     <l>Da kannst du mit tanzen, da kannst du mit lachen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>O sage, du Herrscher, zu welcher Strafe</l>
+                     <l>Erweckst du mich stets aus meinem Schlafe,</l>
+                     <l>Es würde sich doch für mich nicht schicken,</l>
+                     <l>Daß ich da tanzte mit Domesticken.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Das nenne ich gute Zucht und Sitten,</l>
+                     <l>Nein, Hoheit, ich will dich darum nicht mehr bitten,</l>
+                     <l>Weil du die Etikette verstehst,</l>
+                     <l>Du nimmermehr im Gespötte vergehst.</l>
+                  </lg>
+                  <stage>Aus dem Zimmer der Kaiserin ab.</stage>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN</speaker>
+                  <stage>steht auf.</stage>
+                  <lg>
+                     <l>Jetzt werf ich die Krone in tausend Stücke,</l>
+                     <l>Sie war nur zu meinem Glücke die Brücke.</l>
+                     <l>Den Scepter steck ich mir in die Tasche,</l>
+                     <l>Wenn ich den Ritter einst überrasche,</l>
+                     <l>Daß er sich meinen Befehlen nicht fügt,</l>
+                     <l>Damit ihn dann mein Ansehn besiegt.</l>
+                     <l>Erfahrung macht uns Weiber klug,</l>
+                     <l>Doch klüger macht uns der Betrug.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>von unten.</stage>
+                  <lg>
+                     <l>Ach, Kaiserin, bist du noch nicht fertig,</l>
+                     <l>Ich bin des Kaisers schon lange gewärtig,</l>
+                     <l>Und ihr Matrosen, kommt eilig herbei,</l>
+                     <l>Und macht von der Abfahrt großes Geschrei.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN</speaker>
+                  <stage>kommt herab.</stage>
+                  <lg>
+                     <l>Wie ein Schornsteinfeger rutsch ich herab,</l>
+                     <l>Und kehre nimmer zu diesem Grab,</l>
+                     <l>Zu diesem alten gelben Thurm,</l>
+                     <l>Bald spielet mit uns der Meeressturm.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>
+                  <pb n="23" facs="#f0019"/> XII.</head>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>kommt ins Wachthaus zurück.</stage>
+                  <lg>
+                     <l>Ei, ei, hier war ein Poltern im Haus,</l>
+                     <l>Ich glaube, ihr werdet vertraulich beim Schmaus.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ach leider, wir weinten so bittere Thränen,</l>
+                     <l>Der Seufzer will ich gar nicht erwähnen,</l>
+                     <l>Die Schiffsleute treiben uns fort von hier,</l>
+                     <l>Der Wind sey günstig, sagten sie mir.</l>
+                  </lg>
+               </sp>
+               <sp who="#matrosen">
+                  <speaker>MATROSEN</speaker>
+                  <stage>kommen.</stage>
+                  <lg>
+                     <l>Der Wind ist gut,</l>
+                     <l>Das Schiff ist flott,</l>
+                     <l>Auf, junges Blut,</l>
+                     <l>Vertrau auf Gott,</l>
+                     <l>Er führt uns nah, er führt uns weit,</l>
+                     <l>Er führt uns in die Ewigkeit.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Zur Ewigkeit ist eine weite Reise,</l>
+                     <l>Ei, bleibt noch hier und trinket euch erst weise,</l>
+                     <l>Und dieser Wind wird nicht der einzge seyn,</l>
+                     <l>Er blaßt wohl morgen auch noch munter drein.</l>
+                  </lg>
+               </sp>
+               <sp who="#matrosen">
+                  <speaker>MATROSEN.</speaker>
+                  <lg>
+                     <l>Der Wind ist gut,</l>
+                     <l>Das Schiff ist flott,</l>
+                     <l>Und wer jetzt ruht,</l>
+                     <l>Der wird zum Spott,</l>
+                     <l>Wer einen guten Wind versäumt,</l>
+                     <l>Der hat sein bestes Glück verträumt.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ihr seht, mit diesen Leuten ist nicht viel zu spaßen,</l>
+                     <l>Sie haben derbe Fäuste zum Anfassen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ach Ritter, ich gäbe euch gerne was mit,</l>
+                     <l>Euer Fräulein hat Kleider von schlechtem Schnitt.</l>
+                     <l>Ich will zu meiner Frau gleich gehen,</l>
+                     <l>Die wird sie willig mit bessern versehen.</l>
+                  </lg>
+               </sp>
+               <sp who="#matrosen">
+                  <speaker>MATROSEN.</speaker>
+                  <lg>
+                     <l>Kein Augenblick</l>
+                     <l>Sey mehr versäumt,</l>
+                     <l>Des Sturmes Tücke</l>
+                     <l>Das Meer jetzt räumt,</l>
+                     <l>Und blauer Himmel überall</l>
+                     <l>Und aller Vögel Wunderschall.</l>
+                     <pb n="24" facs="#f0020"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ja wär mein Kasper nur zurück,</l>
+                     <l>So störte nichts der Abfahrt Glück,</l>
+                     <l>Doch der muß euch erst Pässe geben,</l>
+                     <l>Sonst kommt ihr nicht davon mit dem Leben.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>vor sich.</stage>
+                  <lg>
+                     <l>Ich hol den Kanzler aus dem Topf,</l>
+                     <l>Er bleibe bei dem armen Tropf.</l>
+                  </lg>
+                  <stage>Laut.</stage>
+                  <lg>
+                     <l>Da kommt der Kanzler schon angegangen,</l>
+                     <l>Nach Pässen habe ich kein Verlangen,</l>
+                     <l>Weil ich sie alle mir selber kann schreiben,</l>
+                     <l>So darf ich länger nicht hier verbleiben.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Wenns also ist, so fahrt mit Gott,</l>
+                     <l>Aufm Meere scheint mein Name ein Spott,</l>
+                     <l>Dieweil ich nicht kann die Seefahrt ertragen,</l>
+                     <l>So mögen die Schiffer nicht viel nach mir fragen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>So ist es leider, mein gnädiger Kaiser,</l>
+                     <l>Doch ihr seyd drüber hinaus als Weiser.</l>
+                  </lg>
+                  <stage>Vor sich.</stage>
+                  <lg>
+                     <l>Ich kann das eine Bein noch nicht finden,</l>
+                     <l>Sonst thät ich den Kanzler ganz eilig verbinden.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Ihr sehet den Kanzler, ich seh ihn nicht.</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Jetzt ist er recht nahe euch im Gesicht.</p>
+                  <stage>Vor sich.</stage>
+                  <lg>
+                     <l>Das Bein ist da und auch das Gesicht,</l>
+                     <l>Wir müssen fort, noch ehe er spricht.</l>
+                  </lg>
+                  <stage>Laut.</stage>
+                  <p>Nun werdet ihr ihn doch erblicken.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Es will mir wirklich noch nicht glücken.</p>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Er steht ja vor euch so kurz und so breit.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ich dachte, er käm von jener Seit,</l>
+                     <l>Willkommen, du lieber Kasper, mein,</l>
+                     <l>Wir sollen nun wieder alleine seyn,</l>
+                     <l>Geh, küsse die Hand der gnädgen Frau,</l>
+                     <l>Und diesen Wein dem Schiffe vertrau.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <p>Wo ist denn der Kopf, sitzt er jetzt fester.</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Ich habe noch nichts getrunken, mein Bester.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Der Kasper spricht ja ganz unverständig,</l>
+                     <l>Ich glaube, wir werden regieren elendig!</l>
+                     <l>So lebt denn wohl, vergeßt mich nicht.</l>
+                     <pb n="25" facs="#f0021"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Das wäre die allerschlimmste Pflicht,</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>steigt mit ihr ein.</stage>
+                  <lg>
+                     <l>Lebt wohl, mein Kaiser, grüst eure Frau,</l>
+                     <l>Wie kommt es, daß sie nicht niederschau.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Das dumme Ding kommt nicht ans Fenster,</l>
+                     <l>Der Hochmuth macht ihr solche Gespenster,</l>
+                     <l>Es ist doch lustig anzusehn,</l>
+                     <l>Wie sich die Segel alle drehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Aber Herr, die Kaiserin zieht ja fort,</l>
+                     <l>Wie kann sie denn sehen aus dem Schlosse dort.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Nicht wahr, sie gleicht der Kaiserin sehr</l>
+                     <l>Erst dachte ich auch, daß sie es wär,</l>
+                     <l>Doch meine Frau, die schnarcht jetzt im Schlosse,</l>
+                     <l>Der Ritter wär ihr ein schlechter Genosse,</l>
+                     <l>Sie liebet so hübsche runde Leute,</l>
+                     <l>Wie ich es bin – ich heirath sie heute.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER</speaker>
+                  <stage>auf dem Meere.</stage>
+                  <p>Lebt wohl, eure Braut ich stohl.</p>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Allzu lang litt ich eurer Liebe Zwang.</p>
+               </sp>
+               <sp who="#matrosen">
+                  <speaker>MATROSEN.</speaker>
+                  <lg>
+                     <l>Hat der Wind uns erst ergriffen,</l>
+                     <l>Lachen wir des festen Lands,</l>
+                     <l>Und dies Lied wird da gepfiffen:</l>
+                     <l>Wind, der achtet keines Stands;</l>
+                     <l>Ob ein Kaiser unterm Segel,</l>
+                     <l>Oder ein gemeiner Flegel,</l>
+                     <l>Ist dem Winde einerlei,</l>
+                     <l>Keinem Menschen ist er treu,</l>
+                     <l>Doch vor allen mag er necken</l>
+                     <l>Ehekrüppel, Liebesjecken,</l>
+                     <l>Führt einst Helena von dannen,</l>
+                     <l>Weiß die Griechen lang zu bannen,</l>
+                     <l>Die sie suchen auf dem Meer,</l>
+                     <l>Liebe führt er leicht daher,</l>
+                     <l>Liebe führt er schnell zum Ziel,</l>
+                     <l>Nun Ade, du Possenspiel.</l>
+                  </lg>
+                  <stage>Das Schiff verschwindet.</stage>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Ich werde aus dem allen nicht klug.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <p>Die Kaiserin weiß wohl mehr als genug.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Ich will bei ihr nach allem fragen.</p>
+                  <pb n="26" facs="#f0022"/>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Ach laßt das in so betrübten Tagen,</l>
+                     <l>Wer viel frägt, der muß viel hören,</l>
+                     <l>Und schweigen wir, bleiben wir alle bei Ehren,</l>
+                     <l>Ich habe doch mehr als ihr ausgestanden,</l>
+                     <l>Mir kamen ein Dutzend Glieder abhanden,</l>
+                     <l>Und in den andern ist keine Besinnung,</l>
+                     <l>Und in dem Kopfe ein großer Sprung.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ich ahnde schlimme Verwechselung,</l>
+                     <l>Die Kaiserin mir vielleicht entsprung?</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <p>Ich meine, ihr habt ganz recht gerathen.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Was soll ich beginnen bei solchen Unthaten?</l>
+                     <l>Mich hält ein jeder künftig zum Narren,</l>
+                     <l>Und meinet, ich hätte wie ihr, einen Sparren.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <p>Ich meine, wir schleichen uns sachte fort.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <p>Und sehen aus einem versteckten Ort.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <p>Wer künftig in unserm Schloß wird regieren.</p>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>So werden wir auch die Leute anführen,</l>
+                     <l>Wir sind dann die Narren nicht allein,</l>
+                     <l>Ein jeder Bürger wird angeführt seyn.</l>
+                  </lg>
+                  <stage>Beide ab in den Wald.</stage>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Aufzug</head>
+            <div>
+               <head>I.</head>
+               <sp who="#chor_der_schlossgeister">
+                  <speaker>CHOR DER SCHLOSSGEISTER.</speaker>
+                  <lg>
+                     <l>Aus den ersten stürmenden Tagen,</l>
+                     <l>Wo der glühende Schöpfungswagen</l>
+                     <l>Nahe der gährenden Erde fuhr,</l>
+                     <l>Steiget die bildende Kraft der Natur,</l>
+                     <l>Was sie thut, das muß sie vollbringen,</l>
+                     <l>Ohne Freiheit ein Allesgelingen,</l>
+                     <l>Denn sie thut nur, was fordert die Noth.</l>
+                     <l>Auch der Mensch folgt ihrem Gebot,</l>
+                     <l>Seine Gesetze sind ewige Schranken,</l>
+                     <l>Seine Träume ewge Gedanken,</l>
+                     <l>So entwickelt sich Menschenkraft,</l>
+                     <l>Die in spielender Freiheit schafft,</l>
+                     <l>Und es geschieht das göttlich Freie,</l>
+                     <l>Und er empfängt des Glaubens Weihe.</l>
+                     <l>Herrlich ist nur, was frei geschaffen,</l>
+                     <l>Was sich versündgen kann und sich bestrafen,</l>
+                     <l>Und so steiget im Menschengeschlecht</l>
+                     <l>Frei empor, was nichtig und schlecht,</l>
+                     <l>Und die Geschlechter wachsen, vergessen,</l>
+                     <l>Was sie einst als Höchstes besessen,</l>
+                     <l>Lassen die Erde aus ihrer Haft,</l>
+                     <l>Wo sie gebunden von Schöpfungskraft,</l>
+                     <l>Und sie tritt zerstörend hinaus,</l>
+                     <l>Freies Wirken erlischt in Graus.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>DER TEUFEL</speaker>
+                  <stage>steigt aus der Regierungsmaschine heraus.</stage>
+                  <lg>
+                     <l>Verlassen steht der mächtge Thron,</l>
+                     <l>Da kann ich sprechen der Welt Hohn,</l>
+                     <l>Die Regierungsmaschine ist unbesetzt,</l>
+                     <l>O süße Bosheit, wie wirst du ergötzt,</l>
+                     <l>Wie will ich spotten der ganzen Welt,</l>
+                     <l>Wenn sie in sich selber zerfällt.</l>
+                     <l>Ich nehme die Krone, ich nehme das Kleid,</l>
+                     <l>Und geheiligt erschein ich der Welt zum Leid,</l>
+                     <l>Ihr Menschen, kommet einmal herbei.</l>
+                     <pb n="28" facs="#f0023"/>
+                  </lg>
+               </sp>
+               <sp who="#menschen">
+                  <speaker>MENSCHEN.</speaker>
+                  <lg>
+                     <l>Sey uns gegrüßt mit Freudengeschrei,</l>
+                     <l>In unsern Festen, mit schönen Künsten.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>DER TEUFEL.</speaker>
+                  <lg>
+                     <l>Ihr ehrt mich allein in Feuersbrünsten,</l>
+                     <l>Wenn ihr geistige Thorheit vergeßt,</l>
+                     <l>Euch unter einander gierig auffreßt</l>
+                     <l>Das Eine ist nur nöthig der Welt,</l>
+                     <l>Der Krieg allein mir wohlgefällt,</l>
+                     <l>Die Taktick ist menschliche Wissenschaft,</l>
+                     <l>Die Kunst ist eine niedere Kraft.</l>
+                  </lg>
+               </sp>
+               <sp who="#menschen">
+                  <speaker>MENSCHEN.</speaker>
+                  <lg>
+                     <l>Hohe Weisheit. Unsre Kunst war nichts werth,</l>
+                     <l>Nur der Waffenklang Menschen belehrt,</l>
+                     <l>Fechtet, streitet, wer übrig bleibt,</l>
+                     <l>Das Paradies auf Erden beschreibt.</l>
+                  </lg>
+                  <stage>Sie fechten.</stage>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Ha, wie sie sich im Streit ermüden,</l>
+                     <l>Bald haben wir nichts als Invaliden,</l>
+                     <l>Jetzt, dumme Thiere, kommt eilig herbei,</l>
+                     <l>Ich mache euch jetzt vom Menschenjoch frei,</l>
+                     <l>Kein Mensch darf mehr euch Ochsen braten,</l>
+                     <l>Die Affen dürfen die Menschen heirathen,</l>
+                     <l>Die Offenbarung wird abgeschafft,</l>
+                     <l>Sie würd' euch schützen, hätte sie Kraft.</l>
+                  </lg>
+               </sp>
+               <sp who="#menschen">
+                  <speaker>MENSCHEN.</speaker>
+                  <lg>
+                     <l>Wir armen müden lahmen Leute</l>
+                     <l>Werden nun sicher der Thiere Beute,</l>
+                     <l>Nachdem wir für deinen Thron gestritten,</l>
+                     <l>Begeisterung ist uns ganz abgeschnitten.</l>
+                  </lg>
+               </sp>
+               <sp who="#thiere">
+                  <speaker>THIERE.</speaker>
+                  <lg>
+                     <l>Wir danken für die Gerechtigkeit,</l>
+                     <l>Die uns versaget so lange Zeit,</l>
+                     <l>Jetzt wollen wir uns an Menschen rächen,</l>
+                     <l>Und ihnen das hohe Genick zerbrechen,</l>
+                     <l>Bis sie auch gehen auf allen vieren,</l>
+                     <l>Gleich uns andern edleren Thieren.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Ihr kämpft für den größten unendlichsten Wahn,</l>
+                     <l>Und große Seelen erzieht große Bahn.</l>
+                  </lg>
+               </sp>
+               <sp who="#krokodill">
+                  <speaker>KROKODILL.</speaker>
+                  <lg>
+                     <l>Mein gnädiger Kaiser, ich bin so beschämt,</l>
+                     <l>Daß ihr mir jetzt die Nahrung nehmt;</l>
+                     <l>Wenn ihr die Menschen laßt alle verderben,</l>
+                     <l>So muß ich endlich selbst Hunger sterben.</l>
+                     <pb n="29" facs="#f0024"/>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Das Krokodil! hat verständige Art,</l>
+                     <l>Ich befehl euch, setzt ihm Menschen apart,</l>
+                     <l>Es hat sich immer als Leckerbissen,</l>
+                     <l>So nach der Mahlzeit einen zerrissen,</l>
+                     <l>Das soll man dem lieben Thiere noch gönnen,</l>
+                     <l>Es wird ihm dabei so sauer das Rennen,</l>
+                     <l>Das liebe Würmchen ist steif in dem Rücken,</l>
+                     <l>Da wußten die Menschen es oft zu berücken,</l>
+                     <l>Jetzt soll man die Menschen halten und binden,</l>
+                     <l>Da kann es sie nach Gefallen schinden.</l>
+                  </lg>
+               </sp>
+               <sp who="#esel">
+                  <speaker>ESEL.</speaker>
+                  <lg>
+                     <l>Mein gnädger Kaiser, ich will Gerechtigkeit,</l>
+                     <l>Ich bin der Prügel gewohnt zur Zeit.</l>
+                     <l>Mir juckt der Rücken, wenn sie mir fehlen,</l>
+                     <l>Da bitt ich euch, dem Menschen zu befehlen,</l>
+                     <l>Daß er mir gebe der Prügel so viel,</l>
+                     <l>Als mir nöthig nach meinem Gefühl.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Das ist verständig, ich muß es gestehen,</l>
+                     <l>Einem jeden Thiere soll seine Lust geschehen.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>II.</head>
+               <stage>Kaiser und Kasper werden von einem Affen an einem Strick geführt und müssen
+            Kunststücke machen.</stage>
+               <sp who="#affe">
+                  <speaker>AFFE.</speaker>
+                  <lg>
+                     <l>Aufgeschaut, ihr lieben Thiere,</l>
+                     <l>Seht, wen ich am Stricke führe,</l>
+                     <l>Die beiden kleinen dicken Leute,</l>
+                     <l>Die fand ich im Walde mit großer Beute,</l>
+                     <l>Der eine trug eine goldne Krone,</l>
+                     <l>Die trage ich jetzt zu seinem Hohne.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Es sind ja unbegreifliche Dinge,</l>
+                     <l>Daß ich nicht befehle und daß ich mich zwinge.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Es muß sich alles geändert haben,</l>
+                     <l>Während wir nach den Trüffeln gegraben.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Ihr Herren, wenn es euch hier nicht gefällt,</l>
+                     <l>So hab ich noch drunten die Unterwelt,</l>
+                     <l>Der Eingang ist die Regierungsmaschine,</l>
+                     <l>Wollt ihr besehen die höllische Bühne.</l>
+                     <pb n="30" facs="#f0025"/>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER.</speaker>
+                  <lg>
+                     <l>Ich will gar gerne zum Höllengraus,</l>
+                     <l>Damit ich nur komme zur Welt hinaus,</l>
+                     <l>Ach hätt ich geglaubt, daß solche Noth</l>
+                     <l>In aller Welt um das tägliche Brodt,</l>
+                     <l>Ich hätte sicher mit Fleiß regiert,</l>
+                     <l>Und kein so faules Leben geführt.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Jetzt ist es zu spät, jetzt geht nur hinein,</l>
+                     <l>Wo ihr ins künftge sollt ewig seyn.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiser">
+                  <speaker>KAISER</speaker>
+                  <stage>steigt in die Maschine.</stage>
+                  <lg>
+                     <l>Ich sage euch meinen verbindlichsten Dank,</l>
+                     <l>Doch finde ich etwas enge den Gang.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Eure gute Braut mußte durch ein engeres Loch,</l>
+                     <l>Eh sie aus eurem Schloß zur Freiheit kroch.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Der gnädige Kaiser mit seinem Bauch</l>
+                     <l>Verstopft mir den Gang, das ist kein Brauch.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Was brachst du ein Loch, die Kaisrin zu sehen,</l>
+                     <l>Jetzt mußt du länger im Dunkeln stehen.</l>
+                  </lg>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <p>Seine Majestät bleiben hier schlafend stecken.</p>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <p>So mußt du ihn mit Fußtritten wecken.</p>
+               </sp>
+               <sp who="#kasper">
+                  <speaker>KASPER.</speaker>
+                  <lg>
+                     <l>Jetzt rollet er ganz glatt herunter;</l>
+                     <l>Es ist hier in der Hölle doch munter.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>III.</head>
+               <sp who="#menschen">
+                  <speaker>MENSCHEN.</speaker>
+                  <lg>
+                     <l>Wir möchten auch gern ein Plätzchen da kriegen,</l>
+                     <l>Wir gingen zur Hölle mit rechtem Vergnügen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Ich will sehn, was ich thun kann,</l>
+                     <l>Die Hölle ist nicht für jedermann,</l>
+                     <l>Man muß sich Verdienste um mich erwerben,</l>
+                     <l>Sonst laß ich euch nicht so leicht hier sterben.</l>
+                  </lg>
+               </sp>
+               <sp who="#menschen">
+                  <speaker>MENSCHEN.</speaker>
+                  <lg>
+                     <l>Ach gnädger Herr, dich unsrer erbarm,</l>
+                     <l>Die Welt ist kalt, die Hölle ist warm.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Ihr sollet dienend zur Hölle mich führen,</l>
+                     <l>Zum Zeichen, wie gut ich euch kann regieren.</l>
+                     <pb n="31" facs="#f0026"/>
+                  </lg>
+               </sp>
+               <sp who="#menschen">
+                  <speaker>MENSCHEN.</speaker>
+                  <p>Der Siegeswagen ist schon bereitet.</p>
+               </sp>
+               <sp who="#der_teufel">
+                  <speaker>TEUFEL.</speaker>
+                  <lg>
+                     <l>Auf lustig zum Höllenthor niederschreitet.</l>
+                     <l>Ade du Welt, voll wilder und dummer Thiere,</l>
+                     <l>Es lohnt nicht der Mühe, daß ich dich regiere.</l>
+                  </lg>
+                  <stage>Teufel und Menschen ins Höllenthor.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>IV.</head>
+               <sp who="#ochs">
+                  <speaker>OCHS.</speaker>
+                  <lg>
+                     <l>Seitdem mir der Mensch kein Heu mehr reicht,</l>
+                     <l>Mir alle Kraft aus den Knochen entweicht.</l>
+                  </lg>
+               </sp>
+               <sp who="#esel">
+                  <speaker>ESEL.</speaker>
+                  <lg>
+                     <l>Sonst hatten wir's so bequem im Stall,</l>
+                     <l>Nun werden die Bissen mir gar zu schmal.</l>
+                  </lg>
+               </sp>
+               <sp who="#biene">
+                  <speaker>BIENE.</speaker>
+                  <lg>
+                     <l>Ich sinke in meinem Honig unter,</l>
+                     <l>Sonst ging mir die Arbeit so rasch und munter.</l>
+                  </lg>
+               </sp>
+               <sp who="#huhn">
+                  <speaker>HUHN.</speaker>
+                  <lg>
+                     <l>So soll mich doch Gott davor behüten,</l>
+                     <l>Daß ich soll all meine Eier ausbrüten.</l>
+                  </lg>
+               </sp>
+               <sp who="#weissfisch">
+                  <speaker>WEISSFISCH.</speaker>
+                  <lg>
+                     <l>Wenn die Hechte nicht weggefangen werden,</l>
+                     <l>So bleibet kein Weißfisch hier auf der Erden.</l>
+                  </lg>
+               </sp>
+               <sp who="#hirsch">
+                  <speaker>HIRSCH.</speaker>
+                  <lg>
+                     <l>Mir wachsen so entsetzlich lange Geweihe,</l>
+                     <l>Daß ich nach dem Tode mit Sehnsucht schreie.</l>
+                  </lg>
+               </sp>
+               <sp who="#hund">
+                  <speaker>HUND.</speaker>
+                  <lg>
+                     <l>Ich hätte jetzt rechte Lust, dich zu hetzen,</l>
+                     <l>Doch ohne Jäger kannst du mich verletzen.</l>
+                     <l>Ach kämen die Menschen doch nur bei Zeiten,</l>
+                     <l>Wir wollten sie selbst zum Throne leiten,</l>
+                     <l>Und wollten mit allen unsern Kräften</l>
+                     <l>Sie schützen in ihren Regierungsgeschäften.</l>
+                  </lg>
+               </sp>
+               <sp who="#storch">
+                  <speaker>STORCH.</speaker>
+                  <p>Ihr Freunde, ich sehe ein Schiff von weiten.</p>
+               </sp>
+               <sp who="#pferd">
+                  <speaker>PFERD.</speaker>
+                  <p>Ach Jubel, da werden die Menschen mich reiten.</p>
+               </sp>
+               <sp who="#ochs">
+                  <speaker>OCHS.</speaker>
+                  <p>Da müssen wir gleich entgegenkommen.</p>
+               </sp>
+               <sp who="#esel">
+                  <speaker>ESEL.</speaker>
+                  <lg>
+                     <l>Damit sie sich fühlen gut aufgenommen,</l>
+                     <l>Die Eselinnen kleiden sich weiß,</l>
+                     <l>Und tragen ein grünes Friedensreis,</l>
+                  </lg>
+               </sp>
+               <sp who="#ochs">
+                  <speaker>OCHS.</speaker>
+                  <lg>
+                     <l>Auf weissem Küssen die Kaiserskron,</l>
+                     <l>Die locket Menschen auf unsern Thron.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>
+                  <pb n="32" facs="#f0027"/> V.</head>
+               <stage>Die Engel ziehn das Schiff am Maste gegen das Land, worin der Ritter, die Kaiserin
+            und Matrosen abfuhren.</stage>
+               <sp who="#die_engel">
+                  <speaker>DIE ENGEL.</speaker>
+                  <lg>
+                     <l>Ihr sehet nicht die hohe Hand,</l>
+                     <l>Sie führt euch zum Rhabarberland,</l>
+                     <l>Ihr sollt die Thiere zu Menschen erziehen,</l>
+                     <l>Das ist ein göttlich reines Bemühen.</l>
+                  </lg>
+               </sp>
+               <sp who="#matrose">
+                  <speaker>MATROSE.</speaker>
+                  <lg>
+                     <l>Ritter, welch Wunder ich euch verkünd,</l>
+                     <l>Es geht das Schiff heut gegen den Wind.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>So müßt ihr lavieren, das ist das Best'.</p>
+               </sp>
+               <sp who="#matrose">
+                  <speaker>MATROSE.</speaker>
+                  <p>Eine höhere Hand hält uns hier fest.</p>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <p>Wir sind verloren an dieser Küste.</p>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <p>Die gute Sache mit Muth dich rüste.</p>
+               </sp>
+               <sp who="#matrosen">
+                  <speaker>MATROSEN.</speaker>
+                  <lg>
+                     <l>Umsonst ist unser Widerstand,</l>
+                     <l>Uns führet eine höhre Hand.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>Wir sind verloren in diesem Land,</l>
+                     <l>Der Kaiser ist sicher von Wuth entbrannt.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich schütze dich, schöne Kaiserin,</l>
+                     <l>Mein Leben geh ich für deines hin.</l>
+                  </lg>
+               </sp>
+               <sp who="#matrosen">
+                  <speaker>MATROSEN.</speaker>
+                  <lg>
+                     <l>Ei seht doch, Herr Ritter, den Kreis von Thieren,</l>
+                     <l>Sie halten die Krone in ihren vieren.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Gewiß war hier eine Staatsaction,</l>
+                     <l>Rhabarber herrschet nicht mehr auf dem Thron.</l>
+                  </lg>
+               </sp>
+               <sp who="#esel">
+                  <speaker>ESEL.</speaker>
+                  <lg>
+                     <l>Als Redner bin ich hier vorgetreten,</l>
+                     <l>Ihr guten Menschen, seyd freundlich gebeten,</l>
+                     <l>Hier anzulegen. Steiget ans Land,</l>
+                     <l>Nehmet die Krone aus meiner Hand,</l>
+                     <l>Wir fürchten, sie möchte noch endlich platzen,</l>
+                     <l>Wenn wir drauf tappen mit unsern Tatzen.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ich setze sie meiner Frau auf das Haupt,</l>
+                     <l>Die ihrer Krone durch mich ward beraubt.</l>
+                  </lg>
+               </sp>
+               <sp who="#thiere">
+                  <speaker>THIERE.</speaker>
+                  <lg>
+                     <l>Wir schwören euch Treue, daß alles schallt,</l>
+                     <l>Und illuminiren den ganzen Wald,</l>
+                     <l>Es lebe der Kaiser, die Kaiserin,</l>
+                     <l>Wir gehorchen euch in treuem Sinn.</l>
+                     <pb n="33" facs="#f0028"/>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Nun saget mir doch, ihr lieben Thiere,</l>
+                     <l>Wie kommts, daß ich keine Menschen verspüre.</l>
+                  </lg>
+               </sp>
+               <sp who="#esel">
+                  <speaker>ESEL.</speaker>
+                  <lg>
+                     <l>Den Kaiser, den Kasper, die Menschen alle</l>
+                     <l>Hat der Teufel gelockt in eine Falle;</l>
+                     <l>Sie gingen in die Maschine hinein,</l>
+                     <l>Der Himmel weiß, wo sie jetzt mögen seyn.</l>
+                  </lg>
+               </sp>
+               <sp who="#der_ritter">
+                  <speaker>RITTER.</speaker>
+                  <lg>
+                     <l>Ihr Freunde, nehmt die Regierungsmaschine,</l>
+                     <l>Sie hat vernichtet alles Freie und Kühne,</l>
+                     <l>Und werfet sie in das tiefe Meer,</l>
+                     <l>Damit uns kein unnütz Gesetz mehr beschwer,</l>
+                     <l>Dann leben wir hier wie im Paradies,</l>
+                     <l>Das uns der Himmel nach Leiden verhieß.</l>
+                  </lg>
+               </sp>
+               <sp who="#kaiserin">
+                  <speaker>KAISERIN.</speaker>
+                  <lg>
+                     <l>In deiner Lieb ist mein Paradies,</l>
+                     <l>Wo mich sonst jede Freude verließ.</l>
+                     <l>Wir wollen in Lieb und Beschaulichkeit</l>
+                     <l>Nun treiben unsere Ewigkeit.</l>
+                  </lg>
+               </sp>
+               <sp who="#matrosen">
+                  <speaker>MATROSEN.</speaker>
+                  <lg>
+                     <l>O selige Fahrt</l>
+                     <l>Zum Paradies,</l>
+                     <l>Er hat uns bewahrt,</l>
+                     <l>Der's allen verhieß.</l>
+                  </lg>
+               </sp>
+               <sp who="#thiere">
+                  <speaker>THIERE.</speaker>
+                  <lg>
+                     <l>Wie hat sich doch alles zur Freude gewendet,</l>
+                     <l>Ihr Hörer, jetzt klatschet, das Spiel ist geendet.</l>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

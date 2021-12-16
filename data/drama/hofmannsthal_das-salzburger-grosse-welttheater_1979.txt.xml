@@ -1,0 +1,3886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Das Salzburger große Welttheater</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118552759">
+                  <forename>Hugo</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Hofmannsthal</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:43:55Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000265</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q56255229</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005089352</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Hofmannsthal, Hugo von/Dramen/Das Salzburger große Welttheater</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/qdm4.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-7926-1</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Hugo von Hofmannsthal: Gesammelte Werke in zehn Einzelbänden. Band 2–5: Dramen, Band 3, Frankfurt a.M. 1979</bibl>
+            <bibl>Hugo von Hofmannsthal: Gesammelte Werke in zehn Einzelbänden. Band 1: Gedichte, Dramen, Band 2–5: Dramen, Herausgegeben von Bernd Schoeller in Beratung mit Rudolf Hirsch, Frankfurt a.M.: S. Fischer, 1979.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gesammelte Werke in zehn Einzelbänden</title>
+                  <title level="m" type="sub">Teil: Dramen / 3. 1893 - 1927</title>
+                  <title level="m" type="volume">Band 3</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">162 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>S. Fischer Verlag</name>
+                  </publisher>
+                  <pubPlace>Frankfurt a. M.</pubPlace>
+                  <date type="publication">1979</date>
+                  <date type="firstPublication">1922</date>
+                  <date type="firstPublication" subtype="clariah">1922</date>
+                  <date type="firstPublication" subtype="zeno">1922</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication" subtype="gerdracor">1929</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d2711e313">Entstanden 1922. Erstdruck in »Neue Deutsche Beiträge«, erste Folge, erstes Heft, München, Juli 1922. Uraufführung am 12.08.1922, Kollegienkirche, Salzburg.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="welt" sex="UNKNOWN">
+                  <persName>Welt</persName>
+               </person>
+               <person xml:id="engel" sex="UNKNOWN">
+                  <persName>Engel</persName>
+                  <persName type="variant">Der erste Engel</persName>
+               </person>
+               <personGrp xml:id="propheten" sex="MALE">
+                  <name>Propheten</name>
+               </personGrp>
+               <person xml:id="meister" sex="MALE">
+                  <persName>Meister</persName>
+               </person>
+               <person xml:id="vorwitz" sex="UNKNOWN">
+                  <persName>Vorwitz</persName>
+               </person>
+               <person xml:id="widersacher" sex="UNKNOWN">
+                  <persName>Widersacher</persName>
+               </person>
+               <person xml:id="einer_der_propheten" sex="MALE">
+                  <persName>Einer der Propheten</persName>
+               </person>
+               <personGrp xml:id="stimmen" sex="UNKNOWN">
+                  <name>Stimmen</name>
+               </personGrp>
+               <person xml:id="zweiter_engel" sex="UNKNOWN">
+                  <persName>Zweiter Engel</persName>
+               </person>
+               <person xml:id="bettler" sex="MALE">
+                  <persName>Bettler</persName>
+                  <persName type="variant">Seele</persName>
+                  <persName type="variant">Eine andere</persName>
+               </person>
+               <person xml:id="koenig" sex="MALE">
+                  <persName>König</persName>
+                  <persName type="variant">Die eine Seele</persName>
+               </person>
+               <person xml:id="schoenheit" sex="FEMALE">
+                  <persName>Schönheit</persName>
+               </person>
+               <person xml:id="weisheit" sex="UNKNOWN">
+                  <persName>Weisheit</persName>
+                  <persName type="variant">Eine andere Seele</persName>
+               </person>
+               <person xml:id="bauer" sex="MALE">
+                  <persName>Bauer</persName>
+               </person>
+               <person xml:id="reicher" sex="MALE">
+                  <persName>Reicher</persName>
+                  <persName type="variant">Eine andere</persName>
+               </person>
+               <person xml:id="tod" sex="UNKNOWN">
+                  <persName>Tod</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d2711e313">
+      <front>
+         <div type="front">
+            <head>Hugo von Hofmannsthal</head>
+            <head>Das Salzburger große Welttheater</head>
+         </div>
+         <div type="preface">
+            <head>[Vorrede]</head>
+            <pb n="107" facs="#f0001"/>
+            <p>Daß es ein geistliches Schauspiel von Calderon gibt, mit Namen »Das große Welttheater«,
+          weiß alle Welt. Von diesem ist hier die das Ganze tragende Metapher entlehnt: daß die Welt
+          ein Schaugerüst aufbaut, worauf die Menschen in ihren von Gott ihnen zugeteilten Rollen
+          das Spiel des Lebens aufrühren; ferner der Titel dieses Spiels und die Namen der sechs
+          Gestalten, durch welche die Menschheit vorgestellt wird – sonst nichts. Diese Bestandteile
+          aber eignen nicht dem großen katholischen Dichter als seine Erfindung, sondern gehören zu
+          dem Schatz von Mythen und Allegorien, die das Mittelalter ausgeformt und den späteren
+          Jahrhunderten übermacht hat.</p>
+         </div>
+         <pb n="107" facs="#f0002"/>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>Meister</castItem>
+               <castItem>Engel</castItem>
+               <castItem>Zweiter Engel</castItem>
+               <castItem>Welt</castItem>
+               <castItem>Vorwitz</castItem>
+               <castItem>Tod</castItem>
+               <castItem>Widersacher</castItem>
+               <castItem>Unverkörperte Seelen</castItem>
+               <castItem>König</castItem>
+               <castItem>Schönheit</castItem>
+               <castItem>Weisheit</castItem>
+               <castItem>Reicher</castItem>
+               <castItem>Bauer</castItem>
+               <castItem>Bettler</castItem>
+               <pb n="108" facs="#f0003"/>
+            </castList>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>[Stücktext]</head>
+            <stage>Musik. Heilige Männer und Frauen: Propheten und Sibyllen, hereintretend, blicken
+          erwartungsvoll stufenauf gegen den Palast des Meisters.</stage>
+            <stage>Engel tritt herein, Welt hinter ihm. Ihr folgen Tod und Vorwitz. Tod ist schwarz
+          gekleidet, mit Mantel, weißem Hut und Degen, Vorwitz trägt scheckige Lakaienkleidung,
+          einen Fächer im Gürtel und eine Laute umgehängt.</stage>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Wohin führst du mich?</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>weist ihr einen Platz an.</stage>
+               <p>Hier warte. Deine Leut hinter dir. Du bist berufen.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Wer sind dort die?</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Auch berufen; achte, wie ich sie grüße.</p>
+               <stage>Tritt hin, neigt sich.</stage>
+               <p>Gegrüßet seid mir, heilige Propheten, weissagende Frauen; eurer Worte jegliches glänzt
+            durch die Zeiten. Der Herr ist mit euch.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Ich kenn euch wohl. Meine Berge haben euch getragen, die Hände zum Himmel zu recken,
+            meine Höhlen waren der rechte Ort, wo ihr die Schatten der Gewesenen beschwören konntet;
+            ihr möget mich auch zuvor grüßen.</p>
+            </sp>
+            <sp who="#propheten">
+               <speaker>PROPHETEN</speaker>
+               <stage>zusammen.</stage>
+               <p>Du großes Wunderwerk der sieben Tage, Welt, sei uns gegrüßt.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>zu den Sibyllen, die in Schweigen verharren.</stage>
+               <p>Seid ihr Weiber so stolz! Mit eurem A O U habt ihr viel Geister gerufen und viel Ruhm
+            ergattert. Wem aber das Volle gegeben ist, der schreit nicht A noch U und dem ist die
+            Zunge zu schwer für Spruch, aber wenn er wollte, möcht er leicht mehr sagen, als ihr
+            vermocht habt. Was fuhrt uns hier an dieser Statt zusammen?</p>
+            </sp>
+            <sp who="#propheten">
+               <speaker>PROPHETEN.</speaker>
+               <p>Der Wille, der alles vermag, was er will. Wir sind beschieden und harren.</p>
+               <stage>Fanfaren.</stage>
+               <pb n="109" facs="#f0004"/>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Das tönt nach einem großen Herren! Kommt jetzt der Meister gegangen?</p>
+               <stage>Sieht sich um.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Schweig und harre.</p>
+               <stage>Widersacher tritt vorsichtig heran, er ist schwarz gekleidet als ein
+            Gelehrter.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Ist der Schleicher auch da – das ist eine sonderliche Zusammenkunft!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Wo du bist, da ist ihm Zutritt gegeben, so wie dem, der hinter dir steht. Ruhig
+            jetzt.</p>
+               <stage>Fanfaren abermals, Propheten und Sibyllen wenden sich ehrfurchtsvoll gegen den
+            Palast.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Von wo kommt er? Ich sehe ringsum nichts.</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Schau nach oben, und wenn du siehst, dann fall in die Knie.</p>
+               <stage>Fanfaren zum dritten Mal. Es dunkelt und wird gleich wieder hell. Der Meister steht
+            da im Sternenmantel. Propehten und Sibyllen fallen in die Knie, die ausgebreiteten Hände
+            nach hinten genommen. Welt fällt auch in die Knie, ebenso der Engel und hinter ihm Tod
+            und Vorwitz. Widersacher drückt sich rechts in die Vorhänge.</stage>
+               <stage>Meister richtet seinen Blick auf die Welt, nicht mit Strenge.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Meister, was befiehlst du mir, deiner Magd?</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>Ein Fest und Schauspiel will ich mir bereiten. Dazu die Bühne heiß ich dich
+            aufschlagen. Heb dich und gehs an!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>auf ihren Füßen.</stage>
+               <p>Du bist aller vier Elemente Schöpfer, aller Berge Türmer, aller Meere Dämmer, was kann
+            ich schaffen, das dir könnte Veränderung bereiten, Überraschung oder Ergetzen? Oder
+            dennoch? Ja? Stürz ich Berg über Meer, Meer über Berg – reiß ich die ewigen Ströme aus
+            ihrem Bett und schmeiß sie in Katarakten nieder ans Feste? Willst du alle Elemente
+            glühend? Ich bin zu lange ein zahmes Weib gewesen, laß mich wieder los von der Kette,
+            und ich will ein Schauspiel geben, darüber der Mond erschrecken soll!</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>Was du da herbietest, wäre mir nicht mehr, als ein zweijährig Kind spielen sehen mit
+            Strohhalmen. Ein ganz anderes auserlesenes Werkstück will ich betrachten, ein <pb n="110" facs="#f0005"/> lebendes, geheimes freies Wirken. Zu solchem Schauspiel rüste du mir die
+            Bühne.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>sieht sich um.</stage>
+               <p>Von welchem Geheimnis redet der Meister da?</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Chymie! Chymie! Das ist seine Sache! Er will Gold machen aus niedrigen Erden!</p>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Er wiederholt sich nie. In solcher Weise hab ich ihn von Geschaffenem nie reden
+            hören.</p>
+               <stage>Engel tritt auf ihn zu, als ihn zum Schweigen zu verhalten.</stage>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER</speaker>
+               <stage>winkt dem Engel, den Widersacher in Ruhe zu lassen, dann zur Welt, gütig.</stage>
+               <p>Von dem Menschen rede ich, deinem Gast.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Die Menschen? an den Käfern willst du dich ergetzen? Wie Ameisen laufen sie hin und
+            her, vorwärts und rückwärts, bauen Städte, gründen Reiche, zerstörens wieder, lassen
+            keinen Stein auf dem anderen. In einem Schwarm Wespen ist mehr Vernunft als in
+            denen.</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>In dem, worin du sie nicht fassest, ist ihr Großes: denn wisse, nach meinem Ebenbilde
+            habe ich sie geschaffen. Du aber bist da, damit du der Menschen Füße tragest. Das ist
+            das Herrlichste, das wird von dir gesagt werden.</p>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Was will er Sonderbares? auf was geht das hinaus? Ich muß mich bereithalten. Meine
+            Bücher zum Nachschlagen, meine Kompendien! –</p>
+               <stage>Setzt seine Brille auf.</stage>
+               <p>Der Avicenna fehlt, der Lukrez ist nicht da – schlampig mir eingepackt, der junge
+            Grasteufel, mein Bibliothekar.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Ho, Herr! Der Mensch ist mein Werkstück, wenn auch das ansehnlichste nicht. Was an ihm
+            taugt, habe ich ihm mitgegeben. Wäre er wohlberaten und bliebe in seinen Schranken,
+            hielte er sein irrwitziges Denken im Zaum, begehrte nichts, als meine Herrlichkeiten zu
+            genießen, und sänke, wo ihm der Atem ausgeht, in mich wieder hin, da geschähe ihm wohl,
+            dem Tausendfuß, dem vermaledeiten, der an lotrechten Mauern klettern will.</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Zähm den ungesalbten Mund, scheckig Wesen! Heidenweib! Hat der Herr dich nicht einmal
+            schon ersäuft, und <pb n="111" facs="#f0006"/> als du am letzten warst, einen neuen Weltstand über
+            dich aufgehen lassen! Hüte dich!</p>
+            </sp>
+            <sp who="#einer_der_propheten">
+               <speaker>EINER DER PROPHETEN.</speaker>
+               <p>Prunkest du mit deinen Kräften, Welt, weil du noch immer fest auf den Füßen stehst! Es
+            kommt schon der Tag, wo auch du in die Knie brichst; und der jetzt hinter dir steht
+            springt dir in deinen Nacken als dein Reiter, und unter dem fährst du dahin in die
+            Finsternis.</p>
+               <stage>Welt stöhnt auf, verbirgt ihr Gesicht.</stage>
+               <stage>Vorwitz versteckt sich.</stage>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER</speaker>
+               <stage>einen Schritt näher tretend, nimmt sein Barett ab.</stage>
+               <p>Ich sehe, es wird hier ein Hofgericht gehalten, und dabei geht es streng her über ein
+            armes Weib, das eine schwere Zunge hat. Ich meine, mit Erlaubnis, daß ihr ein Anwalt
+            gebührt. Ich wäre bereit, obwohl mir der Handel unbekannt ist – wenn mir wollte
+            gestattet werden, als Prokurator dieser Frau zur Seite zu treten – ich müßte aber zuvor
+            ein Gespräch mit ihr haben, damit sie mich einweiht in ihre Sach. Ich bin Doktor der
+            Logik, aber auch in restlichen Sachen sehr erfahren –</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER</speaker>
+               <stage>ohne ihn zu achten, gütig wie zuvor.</stage>
+               <p>Genug. Der Menschen Tun und Treiben ist mir zum Schauspiel würdig. Dazu hab ich mir
+            diese Gäste geladen. Jetzt bau uns die Bühne her und laß das Spiel anheben.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Wie denn, ich weiß noch nichts!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>auf einen Wink des Meisters zur Welt.</stage>
+               <p>Rufe du ungeborener Seelen jetzt einen Haufen hier her auf und bekleide sie mit
+            Leibern, dann wird ihrer jedem Er ein Geschick zuteilen.</p>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Erlaub der Herr die eine Frage: wie kann ein Schauspiel den ergetzen, der es
+            vorbestimmt, Eingang und Ausgang, bis aufs I-Tüpfel?</p>
+               <stage>Einen Schritt näher.</stage>
+               <p>Da steht, der gesagt hat: Unsere Werke in uns wirkst du allein! Da steht er, einer von
+            deinen Propheten. Er soll mir Zeugnis geben! Will der Herr sich selber vorspielen mit
+            Puppen, die an Drähten hängen in seinen Händen?</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>Wahl ist ihnen gegeben zwischen Gut und Böse, das ist ihre Kreaturschaft, in die ich
+            sie gestellt habe. Tust du, <pb n="112" facs="#f0007"/> als wissest du das nicht? Es ist dein
+            Weideplatz von Anbeginn! Einbläser von Evas Apfel her, blas ein, welchen du willst: Ich
+            hab ihre Ohren nicht verklebt. Damit sie sich entscheide, dazu hab ich der höchsten
+            Freiheit einen Funken in die Kreatur gelegt.</p>
+               <stage>Welt flüstert leise mit Vorwitz, der ihr etwas vorzustellen scheint.</stage>
+               <stage>Meister steigt auf die obere Bühne, sein Gefolge hinter ihm, dort bleibt er
+            stehen.</stage>
+               <stage>Engel tritt aus dem Palast, einen Arm voll Rollen tragend; reicht sie dem Meister
+            dar.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Kleider her! Kleider machen Leute, das ists, was der gnädige Herr hat sagen wollen!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Das schaff ich her mit einem Wink. Dergleichen halt ich immer bereit, Kammern und
+            Speicher voll. Der den König spielt, wird seine Kron von mir empfangen und der Bauer
+            seinen Spaten. Da sind geistliche Kutten und Hofkleider, Hirtenstäb und Schwerter,
+            vergoldete Harnisch und Bettlers Fetzen, zehnmal geflickt.</p>
+               <stage>Es werden, währenddem sie spricht, von Dienern Körbe hereingebracht, die Kronen und
+            Harnische, Mitren und Bischofsstäbe, Frauenkleider und Hauben, Masken und Fächer
+            enthalten.</stage>
+               <p>Soll ich sie einkleiden, wie sie dastehen, kunterbunt?</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER</speaker>
+               <stage>von der oberen Bühne, eine Rolle in der Hand.</stage>
+               <p>Sein Geschick teil ich einem jeden zu. Das findet er geschrieben in der Rolle, die ich
+            ihm reichen werde. Wie es der Rolle gemäß ist, so dann kleide du ihn an.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>auf Vorwitz' Flüstern.</stage>
+               <p>Da werden etliche die kurzen Rollen haben, Herr, die werden nicht weggehen wollen von
+            der Bühne! Es wird hart gehen, sie zum Abtreten zu bringen, soweit kenn ich die
+            Menschen!</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>Gut erinnert! so heiß ich den, der hinter dir steht –</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>He Tod, Herr Kämmerer, man redet Euer Gnaden an!</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>Den heiß ich Bühnenmeister sein. Wen du abrufst, der wird mir für gut von der Bühne
+            treten und nicht wieder hinauf, dafür sorgst du mir.</p>
+               <stage>Tod neigt sich, beugt seine Knie.</stage>
+               <pb n="113" facs="#f0008"/>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>leise zur Welt.</stage>
+               <p>Eine schlechte Rolle spielt uns keiner, auch wenn sie lang ist!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>tritt einen Schritt auf den Meister zu, der sich wendet.</stage>
+               <p>Meister!</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER</speaker>
+               <stage>wendet sich noch einmal zur Welt.</stage>
+               <p>Was beschwert dich? Ist nicht alles gesagt?</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Herr, nein! Es sind meine Kinder dennoch, das Wort wirst du mir wohl verstatten – und
+            so kenne ich sie auch gut. Es hält sich jeder für das Mittelstück aller Sachen, eine
+            schlechte Rolle wissentlich annehmen, das werde ich ihnen nicht aufzwingen. Eine
+            undankbare Rolle wird mir jeder vor die Füße schmeißen und mich eine böse Stiefmutter,
+            eine Schinderin und was noch für Namen nennen!</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>Wer heißt sie im voraus wissen, was eine schlechte Rolle ist und was eine gute?</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Das weiß wohl jeder, der hineinsieht, wenn er Geschriebenes lesen kann! Viel befehlen
+            und anschaffen, herrisch und gut leben, das große Wort führen, andere seine Macht fühlen
+            lassen: das ist eine gute Rolle. Stoß und Püffe hinnehmen, harte Worte
+            hinunterschlucken, sich ducken, den Mund halten, wenn andere reden: das ist eine
+            schlechte Rolle – so halten es die Menschen von Adams Zeiten her.</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>So halten sie es töricht, und darum sollst du Meisterin sein und sie weisen.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Wie denn, wenn ich selber besser nicht weiß?</p>
+            </sp>
+            <sp who="#meister">
+               <speaker>MEISTER.</speaker>
+               <p>Es ist ein Spiel, sticht dir das Wort nicht den Star? Bedeut sie!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>DER ERSTE ENGEL</speaker>
+               <stage>tritt vor und spricht zur Welt von der oberen Bühne aus.</stage>
+               <p>Bist du so schwer von Begriffen? Anschaffen und gehorchen, sich aufrecken und sich
+            ducken, prassen und entbehren, das alles geschieht von denen, die im Spiel stehen:
+            gleichnisweise aber geschieht es und nicht für wirklich, und gut oder schlecht wird
+            nicht die Rolle heißen, sondern das Spiel dann, wenn die Dinge an ihr Ende kommen sind;
+            und nicht um seiner Rolle willen, er mag den Bettelstab in Händen gehabt haben oder
+            Königs Schwert und Zepter, sondern um dessentwillen, was er aus ihr gemacht hat, werden
+            einer oder etliche an des Meisters Tisch <pb n="114" facs="#f0009"/> gerufen werden – aber einen
+            Stümper sieht sein Meister ungnädig an, und es gibt kein Ausbessern nachher, wo einer
+            auf der Bühne vertan hat. Das alles weise ihnen in Eile noch ein, sofern sie dir lieb
+            sind.</p>
+               <stage>Wendet sich, dem Meister nachzugehen, der Vorhang an der Palasttür wird von Engeln
+            zur Seite gehoben.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>läuft ihm nach.</stage>
+               <p>Es ist uns weder der Name von dem Stück gesagt worden noch der Vorgang – nicht einmal
+            so im gröbsten wie bei einem Stegreifspiel!</p>
+               <stage>Meister hinauf auf den Palast, Gefolge hinter ihm. Zweiter Engel mit den Rollen
+            folgt hinein. Fanfaren.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>DER ERSTE ENGEL</speaker>
+               <stage>tritt wieder vor.</stage>
+               <p>Den Namen des Schauspiels sag ich euch an: »Tuet Recht! Gott über euch!«</p>
+            </sp>
+            <sp who="#stimmen">
+               <speaker>STIMMEN</speaker>
+               <stage>von oben.</stage>
+               <p>Tuet Recht! Gott über euch!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Habt ihrs vernommen?</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Zweimal sogar. Wir sind aber davon nicht klüger als zuvor. Von dem Gang der Handlung
+            hast du uns kein Wort gesagt, mit Erlaubnis, nicht einmal einen Fingerzeig, an den ein
+            sinniger Mensch sich halten könnte!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>vortretend, ein Buch in der Hand, das ihm von einem andern gereicht worden.</stage>
+               <p>Das ich da in Händen halte, das Buch, das ihr alle kennt, darin ist Kern und Sinn eures
+            Spieles gefaßt in einen Spruch. Da steht geschrieben: Du sollst deinen Nächsten lieben
+            wie dich selbst, und aber deinen Gott, den sollst du lieben über alles. – Somit ist
+            gewiesen, was das Spiel enthalten soll, und es ist das gleiche, als der Titel in sich
+            begreift: Tuet Recht! Gott über euch!</p>
+               <stage>Stille.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Das, wie er den Titel und den Inhalt da zusammengemischt hat, das ist gar nicht dumm,
+            das hätte ganz gut als Prolog gepaßt, da hätte er aber warten sollen, bis die
+            Schauspieler angezogen, die Lichter angezündet und alles fix und fertig gewesen wäre –
+            jetzt sind wir noch nicht so weit. Jetzt kommen erst die Schauspieler ganz langsam
+            anmarschiert! Und das Rollenausteilen wird auch nicht ohne Sekkaturen abgehen –</p>
+               <stage>Die unverkörperten Seelen ziehen auf, stellen sich singend auf der unteren Bühne in
+            zwei Halbkreise. Sie tragen fahle, kuttenartige <pb n="115" facs="#f0010"/> Gewänder, eine wie die
+            andere. Auch ihre Gesichter gleichen einander wie die Larven, ohne jedes Merkmal des
+            Geschlechtes, des Alters oder der Person. Sobald sie auf der unteren Bühne aufgestellt
+            sind, die Gesichter dem Palast zugewandt, verstummt ihr Gesang. Welt, Tod und Vorwitz
+            sind ins Proszenium ausgewichen. Widersacher hat sich gleichfalls im Proszenium auf
+            einer abwärts führenden Stufe eingerichtet, indem er schon seit geraumer Zeit seine
+            Handbibliothek aus der Reisetasche nimmt und vor sich ordnet. Der zweite Engel tritt aus
+            der Palasttür hervor, er trägt ein Bündel Pergamentrollen im Arm.</stage>
+            </sp>
+            <sp who="#zweiter_engel">
+               <speaker>ZWEITER ENGEL</speaker>
+               <stage>an den Rand der oberen Bühne vortretend.</stage>
+               <p>Euch leiblose Seelen mit meinem Auge zu unterscheiden lehrte mich der Meister. So rufe
+            ich euch auf, ihr seid auserlesen, vor ihm zu spielen. Tritt her, du,</p>
+               <stage>Er winkt einer der Seelen.</stage>
+               <p>und empfange des Königs Rolle.</p>
+               <stage>Eine der Seelen tritt heran und empfängt aus der Hand des Engels, der sich ihr oben
+            entgegenneigt, die Rolle. Rollt sie auf und blickt hinein. Andere treten hinzu, sehen
+            ihr neugierig über die Schulter in das Blatt.</stage>
+            </sp>
+            <sp who="#zweiter_engel">
+               <speaker>ZWEITER ENGEL</speaker>
+               <stage>deutet auf eine andere der Seelen.</stage>
+               <p>Du, spiele die Weisheit!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>tritt näher, winkt den Dienern.</stage>
+               <p>Kron und Mantel dem! Das Schwert mit goldenem Griff. – Die Weisheit wird von einer
+            Nonne vorgestellt! Ein Habit her! Ein Zingulum!</p>
+            </sp>
+            <sp who="#zweiter_engel">
+               <speaker>ZWEITER ENGEL</speaker>
+               <stage>auf eine dritte Seele deutend.</stage>
+               <p>Du bist der Bauer!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Vorwärts! Dem Bauern grobe Schuh, ein grobes Gewand, einen Spaten. Vorwärts!</p>
+            </sp>
+            <sp who="#zweiter_engel">
+               <speaker>ZWEITER ENGEL</speaker>
+               <stage>wie oben.</stage>
+               <p>Du sollst die Schönheit spielen!</p>
+               <stage>Einige von den Dienern haben etliche Stücke Teppich oder Seidendamast gebracht,
+            zugerichtet zu Vorhängen, nur zweimannshoch, mitsammen breit genug, die vordere Bühne
+            abzuschließen. Drei von ihnen haben hohe lange Stangen in Händen mit Gabeln oben, damit
+            stützen sie die Vorhänge, so daß die untere Bühne nun ganz verhängt, aber zwischen den
+            Vorhangteilen Aus- oder Eintritt gegeben ist.</stage>
+               <stage>Vorwitz gibt ihnen dabei Anordnungen, weist ihnen läppisch die Plätze an, wo sie
+            stehen müssen.</stage>
+               <pb n="116" facs="#f0011"/>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>tritt durch den Vorhang heraus, späht aber zwischen den Falten wieder hinein, wie
+            das Ankleiden drin vor sich gehe. Ruß zwischendurch nach außen.</stage>
+               <p>Es wird gleich angehen!</p>
+               <stage>Man hört die Musiker ihre Instrumente versuchen, Welt horcht auf sie. Man hört
+            indessen eine Unruhe auf der Bühne. Daraus hebt sich eine starke Stimme ab, die öfter
+            heftig: Nein! ruft.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>schlüpft aus dem Vorhang hervor, dumm aufgeregt.</stage>
+               <p>Es ist da eine Vorfallenheit untergekommen, wie sie mir jedenfalls noch nicht
+            untergekommen ist!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Wo?</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>zeigt hinter sich.</stage>
+               <p>Da auf der Bühne, bei dem Rollenausteilen. Da! Schau sich die Frau das an!</p>
+               <stage>Eine Seele, der Bettler, tritt eilig zwischen den Vorhängen hervor. Sie trägt eine
+            Rolle in der Hand. Ihr nach tritt ein Theaterdiener, der ein zerfetztes Flickenwerk, das
+            Kostüm des Bettlers, trägt.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>tritt auf die Welt zu.</stage>
+               <p>Da, nimmt die Rolle wieder, die mir zugeteilt ist. Ein anderer mag das spielen, ich
+            nicht! Ich nicht! Ich nicht!</p>
+               <stage>Der Theaterdiener geht hinter ihm drein, bleibt hinter ihm stehen.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Was soll sein? was schreist du: Ich nicht!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Ich spiele die Rolle nicht. Ich ziehe dieses Gewand nicht an.</p>
+               <stage>Nimmts dem Theaterdiener aus der Hand, wirfts der Welt vor die Füße.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Das wäre eine neue Mode. Oder ist da vielleicht ein Irrtum geschehen?</p>
+               <stage>Nimmt ihm die Rolle aus der Hand, besieht sie.</stage>
+               <p>Rolle: der Bettler. In Klammern: ein unglücklicher Mensch.</p>
+               <stage>Besieht das Gewand, indem ers vorsichtig anrührt.</stage>
+               <p>Gewand des Bettlers. Vollständig entsprechend. Sehr bettelhaft. Da ist alles in
+            Ordnung. Was will der Schauspieler? worüber beschwert er sich? Das sind schwierige
+            Leute!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>zur Welt.</stage>
+               <p>Dir sag ich nein! Lieber ungeboren dahin! Tot sein und bleiben!</p>
+               <stage>Hält ihr die Rolle hin.</stage>
+               <pb n="117" facs="#f0012"/>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>nimmt die Rolle, sieht hinein, blickt um sich.</stage>
+               <p>Was zürnt der Ungeborene so? Versteht ihn einer?</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Wie halt die Rollen ausgeteilt sind, das kann er nicht verschmerzen.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Da!</p>
+               <stage>Reißt ihr die Rolle aus der Hand.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Das möcht ich mir ausgebeten haben, daß du der Spielmeisterin so lümmelhaft an den Leib
+            fährst!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Laß. Er soll reden.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>hält ihr die Rolle hin.</stage>
+               <p>Da! Da! Das soll ein Leben sein! Das da eines Lebens Anfang! Eine Jugend das?</p>
+               <stage>Er blättert in der Rolle.</stage>
+               <p>Das eines Mannes Lebenszeit! Da: Qual und Not, Not und Qual, Qual und Not! Spott und
+            Hohn! Einsamkeit, gräßlich, eine Hölle! Da stöhne ich in Verlassenheit! Da hause ich
+            unter einer Brücke und zehre von dem, was Ratten nicht mehr wollen. Da schrei ich in
+            Herzensangst, und sie zucken die Achseln – da bleck ich die Zähne in Verzweiflung. Da,
+            verlassen wie kein Hund, raff ich mich noch einmal auf und lebe, lebe noch immer, rede
+            fast nichts mehr. Da singe ich Lieder! Ahnst du, was das für Lieder sein werden, die da
+            mein zahnloser Mund singen wird?</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Und? was noch?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>packt das Gewand und hält ihrs unter die Augen.</stage>
+               <p>Das soll mein Gewand sein! Ein verhaderter Fetzen – das Kleid der Unehre, stinkend!
+            Darin soll ich leben und sterben! – Und deiner Tiere letztes, Frau, trägt ein
+            seidenweiches Fell oder ein Schuppenkleid aus Gold und Silber!</p>
+               <stage>Wirft das Gewand wieder hin und tritt darauf.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Bist du so feige, Menschenseele? Geh mir aus den Augen, ich mag kein feiges Geschöpf
+            sehen. Meiner Tiere letztes steht tapfer in dem Kampf, in den ich es hineingestellt
+            habe. Und du willst nicht einmal im Spiel den schlechten Part auf dich nehmen? Zieh dich
+            an, oder ich muß Knechte rufen! Damit wir weiterkommen!</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Feige Leute sind uns zum Ekel! Hast du nie was von einer Sach reden gehört, die man
+            beispielmäßig Mut nennt? Das war schon den Römern bekannt!</p>
+               <pb n="118" facs="#f0013"/>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Ruf Knechte her, kleidet diesen in seine Spieltracht. Es ist Zeit, daß wir
+            anfangen.</p>
+               <stage>Theaterdiener winkt, es treten zwei andere hervor. Sie fassen die Seele, machen
+            Miene, ihr das Bettlergewand anzuziehen.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>macht sich los.</stage>
+               <p>Läßt du durch deinen Bedienten mich einen Feigling schimpfen, der das Harte nicht auf
+            sich nehmen will? so wisse das: die Jammerrolle spiel ich nicht! Und es soll sie kein
+            anderer auch nicht spielen!</p>
+               <stage>Er zerknittert die Rolle in der Hand.</stage>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Gesprochen wie ein Mann! Ich erhebe für diese Seele den Anspruch auf natürliche
+            Gleichheit des Schicksals!</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>winkt den Dienern.</stage>
+               <p>Es ist genug Zeit vertan. Angezogen den Mann und hinaus auf die Bühne! Wenn er dort
+            steht, wird er sich hineinfinden ins Spiel!</p>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Intercedo! Ich tue Einspruch! Ich protestiere gegen Vergewaltigung! Es ist eh und immer
+            geklagt worden, daß eine blinde tyrannische Gewalt hat geschaltet über die Menschen
+            schon im Mutterleib – von zweien Zwillingen ungeboren beide, unschuldig beide, zum
+            voraus den Jakob begnadet, den Esau verworfen! Soll das so weitergehen und in unserer
+            erleuchteten Zeit dergleichen Willkür fortrasen?</p>
+               <stage>Engel tritt zwischen den Vorhängen hervor.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>hat sich den Händen der Diener entrissen, schreit auf.</stage>
+               <p>Nein!</p>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Ich sehe, die Herrschaft schickt einen Boten. Es wird auf einen Ausgleich herausgehen.
+            Der junge Mann hat das Wort. Wir sind begierig.</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Zu dir red ich nicht. – Warum hältst du uns auf, unbotmäßige Seele? Die andern sind
+            gekleidet. Der Bühnenmeister will's Zeichen geben. – Was schnaubst du so, wie ein Pferd,
+            das der Schmied hat werfen müssen? Sprich zu mir.</p>
+               <stage>Seele noch auf den Knien, sieht zu ihm auf.</stage>
+               <stage>Die Theaterdiener sind zurückgetreten, einer behält das Bettlergewand in der
+            Hand.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>beugt sich über die Seele mit einem Lächeln.</stage>
+               <p>Weißt du denn, ob du Esaus Los gezogen hast und nicht Jakobs? Ein <pb n="119" facs="#f0014"/> Feuer
+            ist deiner Seele eingeboren, das nach oben lodert, das weist mehr auf Jakob als auf
+            Esau. Seine Flamme brannte dunkel und rauchig.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>steht auf.</stage>
+               <p>Und wär ich Jakob. Es darf so nicht gehandelt werden wie an Esau. Ich leid es nicht.
+            Die Rolle ist verflucht.</p>
+               <stage>Will sie zerreißen, kanns nicht.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Laß. Menschenhände zerreißen kein Pergamen, das von dorther kommt. – Reich mir die
+            Rolle. Ich gebe sie dir wieder, sobald du deiner mächtig bist.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Niemals. Nicht denken, daß einer soll verdammt sein, so zu leben!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Tapfere Seele – ich weiß: nicht daß du leiden sollst für eines Spieles kurze Stunde,
+            schaudert dich, dich schaudert zu erkennen die Finsternis, in der Adams Kinder
+            hausen.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Es sind welche im Spiel, in deren Hand ist Macht gelegt, es sind Herren und Knechte,
+            Mündige und Unmündige. Wer teilts aus? Das Glück? Ich will nicht unter einer blinden
+            Metze Fuchtel stehen. Ich will nicht!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Dein Mund redet wüst, aber in dir, wie eines Bergmanns Lampe, ruhig leuchtend in der
+            tiefsten Tiefe, brennt das Einverständnis.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Du hältst mir einen Köder hin, und etwas in mir zuckt freilich danach, ihn zu
+            verschlucken.</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Bekennst du das? Ehrliche Seele!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Aber ich weiß, wenn ich den gekrümmten Haken verschluckt habe, dann reißest du mich
+            gegen Strom dahin, und ich will nicht! Gib mir eine Rolle, in der Freiheit ist, soviel
+            als eines braucht, um nicht zu ersticken, oder laß mich heraus aus dem Spiel!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Aber wer Freiheit hat und ist ihrer würdig, der fragt: wozu habe ich Freiheit? und ruht
+            nicht, bis er erkennt, welche Frucht sie bringe. Die Frucht aber der Freiheit ist eine:
+            das Rechte zu tun.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Betrüg mich nicht! – Nein. Du betrügst mich nicht! So erbarm dich!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Die Tat allein ist Schöpfung über der Schöpfung. Ihren Duft unmittelbar zu Gott zu
+            tragen ist unser Dienst. Erfassest <pb n="120" facs="#f0015"/> du, heldenhafte Seele, dein ungeheueres
+            Vorrecht? Spielst du also den Bettler?</p>
+               <stage>Er hebt die Rolle.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Du sprichst: Tat? Meine Seele dürstet nach Tat! Wo wäre in dieser jammervollen Rolle
+            der Raum für eine einzige Tat?</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Spiele die Rolle, und dir wird sich enthüllen, was sie gehaltet.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE.</speaker>
+               <p>Ich kann nicht. Laß mich heraus. Es sind welche für diesmal ohne Rolle. Ich verstecke
+            mich unter denen.</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Du aber hast eine bekommen. So bist du gewählt.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>ringt mit sich.</stage>
+               <p>Ich habe Worte in der Rolle gesehen, die dürfen nach Recht aus keiner Kreatur Mund
+            gehen!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Hast du diese Worte gelesen: Mein Gott, mein Gott, warum hast du mich verlassen? Und
+            auch diese: Aber nicht mein, sondern dein Wille geschehe –?</p>
+               <stage>Seele bedeckt ihr Gesicht.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Nimm auf dich! Schmiege dich! Wie sollte das Unsagbare zu dir sprechen als in diesem
+            Schauder?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>kniend.</stage>
+               <p>Muß ich?</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Schmiege dich in das Kleid, das dir zugeteilt ist.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>SEELE</speaker>
+               <stage>greift nach der Rolle.</stage>
+               <p>Ich will, kleidet mich an!</p>
+               <stage>Winkt den Diener an sich heran, tritt durch den Vorhang, Diener mit dem Gewand
+            folgt ihr.</stage>
+               <stage>Engel tritt an einer anderen Stelle durch den Vorhang.</stage>
+               <stage>Welt tritt an den Vorhang, sieht durch einen Spalt.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>schneuzt sich.</stage>
+               <p>Ich habe bis jetzt gemeint, das Ganze wird eine recht lustige Kreuzerkomödie – aber mir
+            scheint, wenn das so wird, werd ich mein Schneuztüchel auch strapazieren müssen,
+            beispielmäßig. Das ist unverhofft.</p>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>am Vorhang, dreht sich gegen das Publikum.</stage>
+               <p>Gewaltig schön wird mein Spiel. Aufgeputzt sind sie aus meinen Kisten. Ihre Augen
+            funkeln vor Kräften, und sie können es kaum erwarten, daß sie das Lebensspiel anfangen.
+            Soll die Musik schon anheben! Blaset und tretet die Orgel und singet, daß alle, die von
+            oben zusehen, es innewerden, was ich auf meiner Bühne vermag.</p>
+               <stage>Die Symphonie hebt an, die Welt steht vor dem Vorhang und <pb n="121" facs="#f0016"/> singt
+            hinein. Die Männer, die den Vorhang halten, treten auseinander. Vorwitz springt nach
+            links, klappt den Faltstuhl auf, auf einem erhöhten Platz, richtet der Welt einen Thron.
+            Die untere Bühne wird sichtbar. Sie ist leer, nur links steht ein Fels, rechts ein Baum.
+            Engel stehen auf der oberen Bühne. Die Welt setzt sich auf ihren Platz ins Proszenium.
+            Tod auf ihren Wink geht querüber, stellt sich rechts zwischen die Vorhänge. Widersacher
+            kauert rechts unten im Proszenium. Die Symphonie endet.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>tritt vor an den Rand der oberen Bühne in der Mitte.</stage>
+               <lg>
+                  <l>Ihr Menschen, zu des Lebens Spiel erwacht,</l>
+                  <l>Nehmt eurer Tritte jeglichen in acht.</l>
+                  <l>Ihr wandelt von der Wiege Ruh</l>
+                  <l>Auf eures Sarges Frieden zu.</l>
+                  <l>Der Meister vom erhabnen Thron</l>
+                  <l>Sieht hin und wägt euch Straf und Lohn.</l>
+               </lg>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Jetzt ist schon angesagt und verkündigt genug, jetzt könnten sie schon einmal
+            anfangen.</p>
+               <stage>Fanfaren, minder gewaltig als beim Kommen des Meisters.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG</speaker>
+               <stage>tritt von links auf und schreitet auf die Mitte der Bühne zu.</stage>
+               <lg>
+                  <l>An diesen Platz ziehts meine Schritte;</l>
+                  <l>Hier bleibe ich: der Herr steh in der Mitte.</l>
+                  <l>Wohin ich schau, mir alles untertan,</l>
+                  <l>Herrschen ist Leben – alles sonst ein Wahn.</l>
+                  <l>Die Gau'n und Marken, kaum zu zählen,</l>
+                  <l>Empfangen Glanz und Reichtum von Befehlen.</l>
+                  <l>Die Berge schaun herein, die Flüsse blitzen,</l>
+                  <l>Und sehn mich in ererbten Ehren sitzen.</l>
+                  <l>Sei mir das Herz im Herzen eingeweiht,</l>
+                  <l>Und mit der herrlichen Gerechtigkeit,</l>
+                  <l>Mit dem Verstand, der Weisheit und der Stärke,</l>
+                  <l>Gesegnet meine Tag' und meine Werke.</l>
+                  <l>Daß ich des Lands als Leu und Adler walte,</l>
+                  <l>Das Hohe hoch, das Niedre niedrig halte.</l>
+               </lg>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Eine schöne Sprach! Aber schön reden und gut spielen ist zweierlei!</p>
+               <stage>Schönheit von links, Weisheit von rechts treten auf. Sie gehen sehr langsam
+            aufeinander zu.</stage>
+               <p>Die ist sehr schön. Das muß eine Hofdam sein! – Und die andere eine Klosterfrau! O je,
+            so jung!</p>
+               <pb n="122" facs="#f0017"/>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Zwei herrlich wunderbare Fraun.</l>
+                  <l>Die müssen mir sogleich sich anvertraun.</l>
+                  <l>Gesegnet, daß ichs hab in Mächten,</l>
+                  <l>Solche zu mir zu ziehen in Glanz und Prächten!</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>bleibt stehen.</stage>
+               <lg>
+                  <l>O schöne Welt, o aufgetane Pracht,</l>
+                  <l>Wie alles zu mir blitzt und äugt und lacht!</l>
+                  <l>Reizende Ferne, zauberhafte Nähe,</l>
+                  <l>In der ich als ein Zauberwesen stehe.</l>
+                  <l>Um mich dies Gartenfest hält seinen Atem an,</l>
+                  <l>Und dort im Hintergrund ein schöner Mann –</l>
+                  <l>Und war er König, Herrscher über alle,</l>
+                  <l>Er tritt mir nah und ist schon mein Vasalle!</l>
+               </lg>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Ah, die ist zu schön! Jetzt schaut sie sich in Spiegel! Recht hats!</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>senkt den Spiegel.</stage>
+               <lg>
+                  <l>Beinahe Angst haucht auf mich aus dem Spiegel,</l>
+                  <l>Darf eins denn offen tragen Gottes Siegel?</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Wie sollte Erdenlust in Spiegel sehen</l>
+                  <l>Und nicht ein Todeshauch sie überwehen?</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>erblickt ihre Hand.</stage>
+               <lg>
+                  <l>Du aber, meine Hand, du wunderbar Gebilde,</l>
+                  <l>Du Elfenbein, du Blume, zaubrisch Zeichen,</l>
+                  <l>Was führest du, geschmeidige, im Schilde,</l>
+                  <l>Den Schlüssel drehest mir zu welchen irdischen Reichen?</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>birgt ihre Hände.</stage>
+               <lg>
+                  <l>Du meine Hand, aufschließ die stille Zelle,</l>
+                  <l>Schnell überschreit, mein Fuß, willkommene Friedensschwelle!</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>Sieh auf! Es lacht auf uns die ganze Welt,</l>
+                  <l>Für uns bewimpelt Jugend seidnes Zelt!</l>
+                  <l>Sieh auf, du Liebe!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Liebe, laß mich fort,</l>
+                  <l>Uns beide herbergt nie der gleiche Ort.</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <p>Nein, bleib bei mir, ich mag allein nicht stehen.</p>
+               <pb n="123" facs="#f0018"/>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Es will schon jemand dir zur Seite gehen!</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <p>Bleib da, ich will! Man soll allein zu mir nicht treten!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Mich ziehts, wo ich allein: in Einsamkeit zu beten!</p>
+               <stage>Sie tritt einen Schritt nach links.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Die ist mir fad! Alleweil beten! Beten! So a junge Person!</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <p>Mich anschaun darf er ja, weil jedes Auge lacht!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Mich soll nur einer sehen, der sieht auch durch die Nacht.</p>
+               <stage>König tritt auf Schönheit zu.</stage>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>aus dem Augenwinkel.</stage>
+               <p>Wie Macht und hoher Stolz noch einen Mann verschönt!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Ein Mensch wie andre auch: ein schwaches Haupt, gekrönt!</p>
+               <stage>Beide neigen sich.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Zu mir, du Namenlos, du herrlich Wesen!</l>
+                  <l>Wohin du schwebest zwar ist Königes Palast.</l>
+                  <l>Helenas Werke sind nicht einst gewesen,</l>
+                  <l>Sie werfen ab Jahrtausendlast,</l>
+                  <l>Sind wieder, sind von heut, sind ewig da!</l>
+                  <l>Was jemals herrlich war, ist wieder nah.</l>
+                  <l>Du bleibst bei mir, an meiner Seite hier!</l>
+                  <l>Meinst du, wer dich gesehn, der ließe noch von dir?</l>
+                  <l>Ich bitte nicht, dem König gilt kein Nein,</l>
+                  <l>So braucht es auch kein Ja. Es muß so sein!</l>
+                  <l>Dorthin! bei mir!</l>
+               </lg>
+               <stage>Er führt sie ein paar Schritte zu dem Platz an seiner Linken, kehrt dann zurück,
+            tritt zur Weisheit.</stage>
+               <lg>
+                  <l>Doch du, so weise, klar und mild,</l>
+                  <l>Zu meiner Rechten hier nimm Platz, du edles Bild.</l>
+                  <l>Und ziehn wir uns zu frommem Sinnen ein,</l>
+                  <l>Erleucht uns du mit sanftem Ampelschein.</l>
+                  <pb n="124" facs="#f0019"/>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Zu nah dem Wirbel, der inmitten dieser Welt.</l>
+                  <l>Ich habe mich aus ihr in Ewigkeit gestellt.</l>
+                  <l>Siehst du den Fels – die schöne Einsamkeit –</l>
+                  <l>Dorthin!</l>
+               </lg>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Von meiner Stadt und meinem Hof so weit?</l>
+                  <l>Nicht gern. Doch wer kommt da? mein mächtger Handelsmann –</l>
+               </lg>
+               <stage>Der Reiche ist aufgetreten, schreitet ehrerbietig auf den König zu.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Das ist der Reiche! Man schaut ihms völlig an. Der Pelz und die Ketten! Sakra! Ah, der
+            Bauer ist auch da. Jetzt fehlt noch der Bettler, dann war die Quart beisamm!</p>
+               <stage>Bauer ist gleich nach dem Reichen von der entgegengesetzten Seite aufgetreten (er
+            trägt eine Sense, außerdem eine Axt und einen Spaten.) Er tritt gleich zu dem Baum,
+            lehnt die Axt und den Spaten daran und schickt sich an, seine Sense zu dengeln.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <p>– und dort! Der Nährstand, unser braver Untertan.</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Nur nit viel herschaun, das war mir ka Ding –</l>
+                  <l>Gebts mir an Fried, daß i mei Arbeit vorwärtsbring.</l>
+               </lg>
+               <stage>Rückt, daß er hinter den Baum kommt.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Ist Weisheit nicht in ihm, sie ist in seinem Tun.</p>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG</speaker>
+               <stage>zum Reichen.</stage>
+               <p>Mein vielgewandter Mann!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Wird deine Gnad geruhn,</l>
+                  <l>Was ich im Lande schuf, mit Hulden anzusehn?</l>
+               </lg>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Du bist mir hochgeehrt. Sollst mir zur Seiten gehn.</l>
+                  <l>Du hast schon viel gewirkt.</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Viel mehr ist vorbereit',</l>
+                  <l>Wenn dies erhabne Schwert mir weiter Schutz verleiht.</l>
+                  <l>Dir ist gewaltiger Herrscherruhm beschieden,</l>
+                  <l>Mehrer des Reichs, du bists im tiefsten Frieden.</l>
+                  <l>Dein hoher Sinn hat sich der neuen Zeit</l>
+                  <l>Und ihren großen Dingen zugeneigt</l>
+                  <l>Du hast dich als ein Fürst bezeigt,</l>
+                  <l>
+                     <pb n="125" facs="#f0020"/> Den sie vor anderen hat eingeweiht</l>
+                  <l>Und ihm geheim ihr Losungswort vertraut:</l>
+                  <l>Der Gott der neuen Zeiten heißt Verkehr,</l>
+                  <l>Ihm sei dein Reich zum Tempel umgebaut:</l>
+                  <l>Der Berg durchstochen, Bergsee aufgestaut,</l>
+                  <l>Kanäle binden Fluß und Fluß,</l>
+                  <l>Ans Tal das Tal, die Ebne an das Meer –</l>
+                  <l>Denn jede Stund, da Ware schneller rollt,</l>
+                  <l>Schafft neuen Wert, ist bares Gold</l>
+                  <l>Und steigert deines Thrones Machtgenuß.</l>
+                  <l>Die Nachbarn, von so hoher Kraft bezwungen,</l>
+                  <l>Sie stimmen ein in ihren Zungen,</l>
+                  <l>Wo nicht, so werde, was doch werden muß,</l>
+                  <l>Zu ihrem Heile ihnen aufgedrungen!</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Wann dem die staatischen Sachen geraten,</l>
+                  <l>Steigts Körndl um a paar Dukaten.</l>
+                  <l>War a nit schlecht so weit.</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>O Strafe ob der Welt, o Gier, o Trachten!</p>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Ich muß den Sinn, der in dir brennt,</l>
+                  <l>Verwandt mit meinem eignen achten,</l>
+                  <l>Weil er nicht Grenzen anerkennt.</l>
+                  <l>So bin auch ich: das Wort »genug« will ich nicht kennen.</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Genug? das ist ein niederträchtiges Wort,</l>
+                  <l>Mit dem die Faulen ihre Faulheit nennen.</l>
+                  <l>Uns sind zehn Flügel innen angewachsen,</l>
+                  <l>Verflucht, wer hockt an seinem niedren Ort,</l>
+                  <l>Mit Faulheit, Feigheit und den andern Faxen.</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Tät eins nit hocken, wo's hinghört,</l>
+                  <l>Na könnts euch anschaun ...</l>
+               </lg>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Mir erprobt und wert,</l>
+                  <l>Schatzmeister bist du schon, sei mein Minister</l>
+                  <l>Und Kanzler auch: nur wer die neuen Wege weiß,</l>
+                  <l>Kann alle Kräfte straff zusammenhalten,</l>
+                  <l>
+                     <pb n="126" facs="#f0021"/> Zur Einheit eines großen Ziels verwalten.</l>
+               </lg>
+               <stage>Reicher küßt ihm kniend die Hand, steht wieder auf, schweigt wie beschämt.</stage>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER</speaker>
+               <stage>prompt einflüsternd.</stage>
+               <p>Und muß es sein, so wird dein Schwert für mich –</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <p>Und muß es sein, so wird dein Schwert für mich –</p>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Aus seiner Scheid –</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>nimmts auf.</stage>
+               <p>Aus seiner Scheide blitzen –</p>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <p>Was sagst du da? für dich?</p>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER</speaker>
+               <stage>schnell.</stage>
+               <lg>
+                  <l>Für das, was wir besitzen!</l>
+                  <l>Für unsre Macht und Ehr!</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>stark.</stage>
+               <p>Für unsre Macht und Ehr!</p>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <p>Des mög der Ewige walten!</p>
+               <stage>Er zieht sein Schwert.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Gedenk: das Hohe hoch, das Niedre niedrig halten!</l>
+                  <l>Tust du nach deinem Spruch?</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>sieht sich in dem Spiegel.</stage>
+               <lg>
+                  <l>Wie schön im Widerschein der Macht</l>
+                  <l>Aufleucht ich vor mir selbst!</l>
+               </lg>
+               <stage>Bauer dengelt seine Sense.</stage>
+               <stage>König stößt sein Schwert wieder in die Scheide.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <lg>
+                  <l>Habet des Spieles acht,</l>
+                  <l>In dem ihr steht, und wie sein Name erst erklang.</l>
+                  <l>Der Herr ist über euch! Vergesset nicht den Gang.</l>
+               </lg>
+               <stage>Welt tut ein paar Griffe auf ihrer Laute, die sie im Schoß hält.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG</speaker>
+               <stage>winkt dem Reichen, den Platz zu seiner Rechten einzunehmen, und tritt selbst auf
+            seinen Platz in der Mitte.</stage>
+               <lg>
+                  <l>Mit hocherleuchtem und bemühtem Sinn</l>
+                  <l>Hab ich mein Reich wie einen Ring gerundet</l>
+                  <l>Und schau zufrieden aufsein Blühen hin.</l>
+                  <l>Auf Schwertes Kraft ist Macht gegründet,</l>
+                  <l>Die Schönheit wohnt im goldenen Palast,</l>
+                  <l>Gebet steigt auf aus heiligen Mauern,</l>
+                  <l>
+                     <pb n="127" facs="#f0022"/> Der Nährstand trägt nach Recht für uns die volle Last,</l>
+                  <l>Steht fest auf seinem treu beschränkten Sinn</l>
+                  <l>Und wird in diesem Sinn auch dauern.</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>hält im Dengeln inne.</stage>
+               <p>Ich steh recht fest auf die zwei Fuß, ja! ja!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Erbarm dich, Herr, und bleib auch nächtens nah!</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Sehr zufrieden sind die alle! Gemütliche Leut habe ich gern. Jetzt möcht ich wissen, wo
+            der noch alleweil bleibt, der den Bettler spielen soll! Wann der jetzt in eine solche
+            zufriedene Gesellschaft hineinkam, könnt er auch nicht grandig sein.</p>
+               <stage>Bettler kommt langsam, schleppenden Ganges, von rechts.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>sieht ihn, wie er noch weit ist.</stage>
+               <p>Ah, da is er, der Bettler! habens den aber despektierlich herg'richt!</p>
+               <stage>Bettler geht mit gesenktem Kopf, auf einen Knüppel gestützt; er spricht mit sich
+            selber, scheint nichts zu sehen. Er geht auf der Bühne herum wie ein Verlorener.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Ein grausliches Gehwerk hat der Mensch! er muß sich die Füß derfrört haben!</p>
+               <stage>Weisheit verläßt ihren Platz und tritt auf den Bettler zu. Bettler murmelt vor
+            sich.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>in seinem Rücken.</stage>
+               <lg>
+                  <l>Was hast du unbekannter Mann im Sinn?</l>
+                  <l>Komm!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>zuckt zusammen.</stage>
+               <p>Da sind Leut, da mach ich mich davon.</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>tritt vor ihn.</stage>
+               <lg>
+                  <l>Tritt her. Ich will dich herbergen und pflegen.</l>
+                  <l>Mich dünkt, zu lang bist du in keinem Bett gelegen.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>ohne sie anzusehen.</stage>
+               <p>In keinem Bett? das geht ins neunte Jahr.</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Woher des Wegs?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ich weiß nit, wo ich gestern war.</l>
+                  <l>Ich weiß nicht, wo ich heut hingeh.</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Du hast gelitten Not und Weh.</l>
+                  <l>
+                     <pb n="128" facs="#f0023"/> Nimm da, und pfleg dich.</l>
+               </lg>
+               <stage>Reicht ihm Geld aus einem Beutel.</stage>
+               <stage>Bettler kehrt sich ab.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Steh mir Red!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Ich steh nicht Red.</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Nimm meine Gabe hin,</l>
+                  <l>Ich bin des Guts nur die Verweserin,</l>
+                  <l>Denn es ist dein und aller Armen.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ich will kein Lirumlarum hören,</l>
+                  <l>Brauch keine Sprüch und kein Erbarmen,</l>
+                  <l>Ich will davon!</l>
+               </lg>
+               <stage>Er will gehen, versinkt aber wieder in Brüten.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Zweierlei Hochmut trägt der Mensch in sich;</l>
+                  <l>In übermäßigem Glück und übermäßigem Leide.</l>
+                  <l>Der oben thront, verwirft sie beide.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>ohne sie anzusehen.</stage>
+               <p>Ich mag deine Predigt nicht. Ich will nichts von der Welt.</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Ich steh nicht für die Welt, ich steh dahier für Den,</l>
+                  <l>Der nicht abläßt, nach dir so sehnlich zu begehren,</l>
+                  <l>Daß du mit zehnfach Eisen um dein Herz</l>
+                  <l>Ihn doch nicht kannst vom Herzen ab dir wehren!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>sieht sie voll an.</stage>
+               <lg>
+                  <l>Red – Weiberred – Ich hab ein Weib gehabt,</l>
+                  <l>Der ist kein unnütz Wort aus ihrem Mund –</l>
+               </lg>
+               <stage>Er bricht ab.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Ist sie dahin?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Frag nichts! Ich steh nicht Red.</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>An was ist sie denn gestorben? es wird schon nit so arg gwesen sein!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Am Zufall is sie verstorben. Ich war zufällig nicht daheim –</l>
+                  <l>Und der Stock da auch nicht –</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>sieht auf.</stage>
+               <p>Die Red hat gar kein Reim!</p>
+               <pb n="129" facs="#f0024"/>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Da sind so ein paar fremde Hund über die Grenz daherkommen,</l>
+                  <l>Und da hats mit ihrem Leben jählings ein End genommen.</l>
+                  <l>Die Hütten war verbrannt und die Frau halt auch und die Kuh dazu.</l>
+                  <l>Ganz still hat die Brandstatt geraucht in einer besonderen Ruh!</l>
+                  <l>Die Kinder haben sich versteckt im Wald</l>
+                  <l>Und die Geißen in ein Dörnicht getrieben,</l>
+                  <l>So sind sie den Tag am Leben geblieben.</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Ah! an der Grenz! da draußt! ja da is nit gut sein!</l>
+                  <l>San bettelarme Leut und recht ein schlechter Wein.</l>
+                  <l>Dort wohnen stünd mir nicht zum Sinn,</l>
+                  <l>Ich sitz im Landl mitten drin.</l>
+               </lg>
+               <stage>Er dengelt.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>stiert vor sich hin, halblaut.</stage>
+               <p>Warum, warum?</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Ruf dir dein inneres Licht zu Hilf.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ist ausgangen das Licht. Noch nicht den Tag,</l>
+                  <l>Wo s' mir die Frau erschlagen haben,</l>
+                  <l>Nein später, wie ich hab müssen die Kinder</l>
+                  <l>In einer selbgrabenen Gruben begraben.</l>
+               </lg>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Werden nit alle auf einmal gstorben sein!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Nein, nein. Auf einmal sind nicht alle vier gstorben</l>
+                  <l>An der schandgierigen Hungerseuch.</l>
+                  <l>Am Mittwoch nur zwei, am Donnerstag eins,</l>
+                  <l>Dann am Sonntag das letzte – es war eine stille Leich,</l>
+                  <l>Die Verwandtschaft, die Leichenträger und der Totengräber dazu</l>
+                  <l>War alles die nämliche Person. Und du?</l>
+                  <l>Du hast den Tag fleißig gebet't? ja, du?</l>
+                  <l>Schön g'sungen und mit Weihrauch geräuchert auch,</l>
+                  <l>Alls nach der Ordnung und heiligem Brauch,</l>
+                  <l>Und dicke Mauern um dich herum</l>
+                  <l>
+                     <pb n="130" facs="#f0025"/> Und eiserne Gitter vor jedem Loch,</l>
+                  <l>Daß nur sicher war! nur recht sicher doch!</l>
+                  <l>Und andre – andre sind vogelfrei</l>
+                  <l>Und können Händwinden und Blutschwitzen</l>
+                  <l>Und zwingen sich keine Hilf herbei!</l>
+                  <l>Warum?</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Es hat sein müssen. Trotzigem Warum</l>
+                  <l>Bleibt der saphirene Gerichtshof stumm.</l>
+               </lg>
+               <stage>Sie deutet nach oben.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Nein: es hat nicht sein müssen! Lüg nicht! Nein!</p>
+               <stage>Er stößt seinen Knüppel auf den Boden.</stage>
+               <lg>
+                  <l>Andern ist nichts passiert! Wer reich war, ist davon!</l>
+                  <l>Wer sich ein Pferd hat kaufen können,</l>
+                  <l>Hat mögen der Seuch aus dem Netz rennen!</l>
+                  <l>Warum? warum? wo steht das geschrieben!</l>
+                  <l>Mein Fleisch und Blut hat müssen auf den Mist,</l>
+                  <l>Den andern ihrs ist springlebendig blieben!</l>
+                  <l>Wo steht das? wo? wo steht, daß meine Brut</l>
+                  <l>Zum frühzeitigen Sterben hat getaugt,</l>
+                  <l>Den andern ihre war dafür zu gut!</l>
+                  <l>Das Maul auftun jetzt! her mit dem Gericht,</l>
+                  <l>Das zwischen mir und euch den Handel schlich't!</l>
+                  <l>Hier schrei ich um mein Recht!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Dein Schrei ist Qual der Kreatur,</l>
+                  <l>Doch gegen wen vor irdischen Schranken willst du klagen?</l>
+                  <l>Wer von den Unseren hat an dir mißgetan?</l>
+               </lg>
+               <stage>König tut einen Schritt.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Hier tritt heran, in dessen Hand der Stab,</l>
+                  <l>Ihm bringe vor die giltige Beschwer.</l>
+                  <l>Doch hüte dich, daß nicht ein finstrer Wahn</l>
+                  <l>Sie über alle Maße treibe.</l>
+               </lg>
+               <stage>Sie tritt gegen ihren Platz.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <p>Was will der Mensch? Wo kommt er uns daher!</p>
+               <pb n="131" facs="#f0026"/>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Daher? Euch nicht zum Guten!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>von ihrem Platz.</stage>
+               <lg>
+                  <l>Bleibe</l>
+                  <l>In Maßen, Mensch! todsündig ist der Zorn!</l>
+               </lg>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Was Unrechts zeihst du welchen aus den Meinen?</l>
+                  <l>Wen zeihst du wessen? Rede gib! Wir haben –</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ihr habt, und ich hab nicht – das ist die Red,</l>
+                  <l>Das ist der Streit und das, um was es geht!</l>
+                  <l>Ihr habt das Weib und habt das Kind,</l>
+                  <l>Und habt das Haus, den Hof und auch das Ingesind,</l>
+                  <l>Ihr habt das Feld und habt die Kuh,</l>
+                  <l>Und habt das Kleid und auch den Schuh,</l>
+                  <l>Und habt ein warm satt Blut im Leib,</l>
+                  <l>Und habt die Zeit und noch den Zeitvertreib,</l>
+                  <l>Ihr habt den Tag und habt als zweiten Tag die Nacht</l>
+                  <l>Mit Fackeln, Kerzen, Glanz und Pracht.</l>
+                  <l>Ihr habt den Wein und noch ein Lautenspiel zum Wein,</l>
+                  <l>Und habt das Ding und noch den Schein,</l>
+                  <l>Und habt das ganze Erdenwesen</l>
+                  <l>Und noch das Buch, darin recht schön und faul zu lesen,</l>
+                  <l>Darin wird eure Welt beschmeichelt und bewitzelt,</l>
+                  <l>Damit euch, was ihr habt, noch einmal traumweis kitzelt.</l>
+                  <l>Das alles habt ihr und woher? weil ihrs gestohlen,</l>
+                  <l>Gebaut das Haus auf Bruders schmählichem Verderbe!</l>
+                  <l>Jakob, du sitzest in gestohlenem Erbe,</l>
+                  <l>Und Esau kommt, das Seine sich zu holen!</l>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER</speaker>
+               <stage>bläst ein, da jener innehält.</stage>
+               <lg>
+                  <l>Natur gibt mir und euch das gleiche Recht,</l>
+                  <l>Natur kennt keinen reichen Dieb noch armen Vagabunden!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>ohne sich umzudrehen.</stage>
+               <lg>
+                  <l>Schweig! Meine Red hab ich aus mir gefunden,</l>
+                  <l>Brauch keinen Fürsprech.</l>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Ist mir zehnfach recht!</p>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ.</speaker>
+               <p>Pfui Teufel, wie der schieche Kerl aufbegehrt!</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>tritt zum König, der unwillkürlich sein Schwert in der Scheide vom Gürtel gegen die
+            Brust erhoben.</stage>
+               <lg>
+                  <l>
+                     <pb n="132" facs="#f0027"/> Mein Herr, ich acht es für verlorne Stund,</l>
+                  <l>Zu hören eine blinde Rede,</l>
+                  <l>Die häßlich losringt aus verzerrtem Mund.</l>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER</speaker>
+               <stage>richtet sich auf.</stage>
+               <lg>
+                  <l>Samson war blind und hat das Haus zerschmissen,</l>
+                  <l>Drin tafelnd der Philister lag!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Hast du geheim nicht noch ein ander Wissen,</l>
+                  <l>Du fremder Mann, als tönt aus deiner wilden Klag?</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>Sieh, wie er tierischen Blickes auf mich starrt,</l>
+                  <l>Mach mich des bösen Anblicks ledig!</l>
+               </lg>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG</speaker>
+               <stage>hebt den Mantel und birgt sie.</stage>
+               <p>Mein Kanzler!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>beugt ein Knie.</stage>
+               <p>Herr, was anbefiehlst du gnädig?</p>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Uns ziemt nicht, mit erhabner Gegenwart</l>
+                  <l>Ein solches freches Toben zu erdulden:</l>
+                  <l>Wo wir auftreten, wollen wir in Hulden</l>
+                  <l>Erkannt sein und in Ehrfurcht scheu und zart.</l>
+                  <l>Bedeut ihn! Maßen unsres Amts nicht ist,</l>
+                  <l>Daß wir zu einem Streite uns erniedern –</l>
+                  <l>Sollst du an unsrer Stelle ihm erwidern.</l>
+                  <l>Weh, käm der Tag, da Rang und Ordnung wankte,</l>
+                  <l>So wie dem Leibe, dem das Herz erkrankte,</l>
+                  <l>So widerführe dem gemeinen Wesen,</l>
+                  <l>Dessen zu wahren wir von Gott erlesen.</l>
+                  <l>Bedeutet ihn das, verweis ihm seine Klage,</l>
+                  <l>Du wärest nicht, wofür wir dich erkannt,</l>
+                  <l>Stund dir nicht Geist und Rede zu Gebot,</l>
+                  <l>Wo Geist, das Störrische zu lenken, not.</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <p>Dir zu Befehl.</p>
+               <stage>König nimmt Schönheit bei der Hand, sie zurückzuführen. Schönheit, indem sie sich
+            zum Abgehen anschickt, wendet ihr Gesicht voll dem Bettler zu.</stage>
+               <pb n="133" facs="#f0028"/>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>gewahrt nun erst Schönheit in ihrer ganzen Macht.</stage>
+               <lg>
+                  <l>Die! ist die auch bei dir!</l>
+                  <l>Ist dies da, Gabe unter allen Gaben,</l>
+                  <l>Wovon ein Strahl das ärmste Herz durchfährt,</l>
+                  <l>Unten in oben, Nacht in Tag verkehrt,</l>
+                  <l>Ist dies auch eingeschlossen in dein Haben?</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Heil dir, vermagst im Bilde überm Schrein</l>
+                  <l>Den Abglanz du des Höchsten zu erkennen!</l>
+                  <l>So hoff ich noch.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Nein, nein und dreimal nein!</l>
+                  <l>Das ist zuviel, daß dieses Lebens Krone</l>
+                  <l>Bei euch in eurer Diebesherberg wohne.</l>
+                  <l>Was? schmiegt sie sich an dich! jetzt hats ein Ende!</l>
+                  <l>Ich brech in dein Geheg! Ein neuer Weltstand her!</l>
+               </lg>
+               <stage>Wirft den Stock weg.</stage>
+               <p>Nieder, Philister! Hier sind Samsons nackte Hände!</p>
+               <stage>König hat Schönheit an ihren Platz geführt, steht selber an seinem.</stage>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>tritt auf den Bettler zu, mißt ihn erst mit dem Blick.</stage>
+               <lg>
+                  <l>Heb auf den Stab, er wird dir nötig sein.</l>
+                  <l>Du habest denn genug der wüsten Wanderschaft</l>
+                  <l>Und dieses Knüppels, wo im Wald errafft,</l>
+                  <l>Und tauschest dir dafür ein nützlich Werkzeug ein.</l>
+               </lg>
+               <stage>Einen Schritt näher.</stage>
+               <lg>
+                  <l>Das rat ich dir. Du bist, mich dünkt, ein Mann,</l>
+                  <l>Ich bins gewohnt, mit Männern zu verkehren.</l>
+                  <l>Das hat ein rechter Mann an sich: man kann</l>
+                  <l>Mit einem rechten Wort ihn oft gradhin belehren.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Die Gall ist unser, Honig euer Teil.</l>
+                  <l>Willst du mir Honig um die Lippen schmieren?</l>
+                  <l>Was willst du sonst? nimm dich in acht!</l>
+                  <l>Nämlich: ich hab nichts zu verlieren!</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Doch manches, denk ich, zu gewinnen,</l>
+                  <l>Genau so wie wir Werkleut alle,</l>
+                  <l>
+                     <pb n="134" facs="#f0029"/> Wir alle hier und du, wir sind im gleichen Falle,</l>
+                  <l>Vielleicht geht dir davon ein Licht zu Sinnen.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>finster, verhalten.</stage>
+               <lg>
+                  <l>Der Weltstand muß dahin, neu werden muß die Welt,</l>
+                  <l>Und sollte sie zuvor in einem Flammenmeer</l>
+                  <l>Und einer blutigen Sintflut untertauchen,</l>
+                  <l>So ists das Blut und Feuer, das wir brauchen.</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <p>Ordnung ists, die ihr braucht!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Mit dem verfluchten Wort</l>
+                  <l>Kommst du mir nicht. So nennt ihr die Gewalt,</l>
+                  <l>Die uns in Boden druckt.</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Warum spritzt deine Rede</l>
+                  <l>Nicht aus dem Aug, das dir sich wütend ballt,</l>
+                  <l>Warum nicht aus der Faust mit ihrem wilden Schwunge,</l>
+                  <l>Warum vertraust du sie der ungelenken Zunge?</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Was?</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Weil in deinem Leibe so die Ordnung ist!</l>
+                  <l>Willst du da deine wilde Klag herbellen,</l>
+                  <l>Uns alle vor den Richter stellen,</l>
+                  <l>Die Zung nach Amt und Ordnung muß dir dienen.</l>
+                  <l>Aufstampfen wüst, blutunterlaufne Mienen,</l>
+                  <l>Die tuens nicht allein. Und soll die Zung nicht stammeln</l>
+                  <l>Und deiner Klagred nicht, indem sie sie gebiert,</l>
+                  <l>Als einer Totgeburt noch schnell den Weg verrammeln,</l>
+                  <l>So muß dein innrer Sinn an ganz geheimem Ort</l>
+                  <l>Sich ein Gedankenbild, ein sinnvoll Wunderzeichen,</l>
+                  <l>Erschaffen und der Zung es nach der Ordnung reichen,</l>
+                  <l>Zu schießen gegen uns das scharfgeprägte Wort.</l>
+                  <l>Noch mehr: dies Wunderding der Ordnung nachzuschaffen,</l>
+                  <l>Muß sich der innre Sinn erst den Begriff erraffen</l>
+                  <l>Aus einer Geisterwelt, die wie das Sternenmeer.</l>
+                  <l>Sich oben wölbt und blitzt und schießet Strahlen her,</l>
+                  <l>Denn wenn er nicht hinauf nach solchen Lichtern griffe,</l>
+                  <l>So lahmet deine Red, sie läuft nur durch Begriffe.</l>
+                  <l>
+                     <pb n="135" facs="#f0030"/> Was du herbelferst hier von Herr und Knecht,</l>
+                  <l>Von Erbe und Enterbt, Gerecht und Ungerecht,</l>
+                  <l>Es ist dir nicht von selbst zu Hirn gediehen,</l>
+                  <l>Jahrtausendaltem Schatz hast dus, der Ordnung nach, entliehen –</l>
+                  <l>So seh ich dich, den Samson unsrer Welt,</l>
+                  <l>Den Rütteler am Pfeiler unsres Hauses,</l>
+                  <l>Heraufbeschwörer wüsten Höllengrauses,</l>
+                  <l>Dich, der gen jede Ordnung aufrebellt,</l>
+                  <l>Mit allem deinem Toben, deinem Trotzen,</l>
+                  <l>Dich an uralter Ordnung noch schmarotzen.</l>
+                  <l>Reiß Ordnung ein, den heilgen, alten Damm,</l>
+                  <l>Reiß ein, löß auf die ganze Welt in Schlamm!</l>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <lg>
+                  <l>Aus Schlamm, erfuhr ich, ward die Welt einmal,</l>
+                  <l>Soll sie aus Schlamm noch einmal auferstehen,</l>
+                  <l>Und wärs in dreiunddreißigjährigen Wehen!</l>
+                  <l>Bevor wir uns von wortgewandten Fratzen</l>
+                  <l>Noch einmal lassen um das Erbe schwatzen.</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>noch einen halben Schritt herantretend.</stage>
+               <lg>
+                  <l>Zerreiß, zerschlag, entwurzelt alles um und um,</l>
+                  <l>Stoß uns dein Messer ins Gekröse,</l>
+                  <l>Doch wisse auch: nicht nur verrucht und böse</l>
+                  <l>Hast du gehandelt, sondern dumm. –</l>
+                  <l>Dies Ganze, diesen würdigen alten Leib,</l>
+                  <l>Den unumfaßbaren, ausmessen wolltest du</l>
+                  <l>Mit einem frechen Blick in einem einzigen Nu,</l>
+                  <l>Mit deinem kurzen Sinn, der reicht von da bis da?</l>
+                  <l>Ist es denn, wie du meinst, ein Ganzes nur von Sachen,</l>
+                  <l>Von Räubern ein zusammgescharrter Hort,</l>
+                  <l>Bewacht am mauerfesten Ort</l>
+                  <l>Von ewgen Unrechts alten Drachen,</l>
+                  <l>Und kannst du nicht zu einem Blick erwachen,</l>
+                  <l>Wo es ein Ganzes dir aus Kräften deuchte,</l>
+                  <l>Die, stets erneuert, nach geheim gebotnen Zielen</l>
+                  <l>Mit Feuerslust so durcheinanderspielen,</l>
+                  <l>Daß zu des Dranges letztestem Genügen</l>
+                  <l>Es auch noch deiner Kräfte bräuchte?</l>
+                  <l>Und ruft dich nichts, dich diesem einzufügen?</l>
+                  <pb n="136" facs="#f0031"/>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>O Rattenkönig schlau verfitzter Lügen!</p>
+               <stage>Zum Bettler, einbläserisch.</stage>
+               <lg>
+                  <l>Jetzt geh ihn an! wirfs ihm in sein Gesicht!</l>
+                  <l>Einfügen? wir? wir gehn im Göpel Nacht und Tag</l>
+                  <l>Und sehen keine Frucht von unserer Plag</l>
+                  <l>Und sehn kein End – Aus Werk wird Fron,</l>
+                  <l>Geschändte Tag', vermaledeiter Lohn!</l>
+                  <l>Sags ihm hinein!</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <p>Ich warte drauf.</p>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Man steht dir Rede, man verstattet dir</l>
+                  <l>Entgegnung, ungescheute. Mach Gebrauch!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Erwidre. Teil die innre Last! Im Wort,</l>
+                  <l>Das aus dem Munde fliegt, ist Gottes Hauch!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ich steh nicht Red. Das wär euch recht –</l>
+                  <l>Daß ich aufs Stichwort meine Red anbrächt</l>
+                  <l>Eur Stichwort zieht bei mir nicht. Richt't euch ein!</l>
+                  <l>Was jetzt anhebt, wird ohne Sprüche sein!</l>
+               </lg>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>halblaut.</stage>
+               <p>Sapperment!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Bist du zu stumpf, du tust mir leid,</l>
+                  <l>Den wunderbaren Webstuhl zu erfassen,</l>
+                  <l>Der webt aus Erdenstoff ein wechselnd Geisteskleid,</l>
+                  <l>So bleibt dir freilich nichts, als uns zu hassen.</l>
+                  <l>Dann geh nur auch von unsern Arbeitsstätten,</l>
+                  <l>Nur wie wir liegen, können wir dich betten.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Ob ich geh oder nicht, das wird sich zeigen,</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Bring etwas vor, so läßt sich etwas doch beginnen,</l>
+                  <l>Aus Spinnweb etwa noch ein Faden spinnen –</l>
+                  <l>Aus Nichts wird nichts!</l>
+               </lg>
+               <stage>Bettler schweigt.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG</speaker>
+               <stage>wendet sich ab.</stage>
+               <lg>
+                  <l>Ein häßlich böses Schweigen!</l>
+                  <l>Wir kehren uns von ihm –</l>
+               </lg>
+               <stage>Bettler lacht.</stage>
+               <pb n="137" facs="#f0032"/>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>hebt die Hände zu Gott.</stage>
+               <lg>
+                  <l>Wend ab die fürchterliche Tat,</l>
+                  <l>Zu der dies Schweigen sich zusammenpreßt!</l>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <lg>
+                  <l>Wie Donner jetzt ein Wort! ein Manifest!</l>
+                  <l>Ein einzig ungeheueres Diktat!</l>
+                  <l>Davon sie in die Erde sausen!</l>
+               </lg>
+               <stage>Bettler schweigt.</stage>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Du machst mir selber kalt mit deinen Pausen!</p>
+               <stage>Bettler tut ein paar Schritte seitwärts, als wolle er gehen.</stage>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <lg>
+                  <l>Nun – nun – die Spannung noch nicht hoch genug,</l>
+                  <l>Daß sie in einem Blitzschlag sich entlade!</l>
+                  <l>Noch nicht genug Gewölk um deine Brust versammelt!</l>
+                  <l>Vollstreckungsaufschub – wie? doch keine Gnade!</l>
+                  <l>Der Ausweg bleibt euch ganz und gar verrammelt!</l>
+               </lg>
+               <stage>Bettler ist mit langsamen Schritten bis dorthin gekommen, wo der Bauer steht, der
+            sich mit seinem Arbeitsgerät befaßt und tut, als achte er nicht auf ihn.</stage>
+               <stage>Reicher, mit beherrschter Miene, wendet sich auch, an seinen Platz zurückzutreten.
+            Alle sehen mit verhaltener Beklommenheit auf den Bettler, ob er abgehe oder
+            nicht.</stage>
+               <stage>Bettler geht sehr langsam, wie in dumpfes Brüten verloren.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>halblaut.</stage>
+               <p>Na, geht er schon amal – oder geht er nit! War höchste Zeit!</p>
+               <stage>Bettler geht noch ein paar Schritte, bleibt dann, schon ganz an der Seite der
+            Bühne, vor dem Bauern stehen.</stage>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>hat vor einer Weile seine Sense in den Baum gehängt und aus seiner Tasche ein Stück
+            Brot mit Speck gezogen und seine Mahlzeit gehalten, anscheinend ohne auf die andern zu
+            achten. Jetzt, wie der Reiche auf ihn hinsieht, schiebt er den letzten Brocken Brot und
+            Speck schnell in seinen Mund und nimmt wieder seine Sense, legt sie sich auf die Knie
+            und dengelt. Nichts an ihm verrät, ob er die letzten Reden gehört hat oder
+            nicht.</stage>
+               <p>Mein Sensen ist uneben wor'n,</p>
+               <p>
+                  <pb n="138" facs="#f0033"/> Muß einghaut haben in ein Dorn.</p>
+               <p>Was will der Mensch von mir?</p>
+               <stage>Laut.</stage>
+               <p>Was stehst, wer bist?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Wer bist denn du, damit ich dich halt grüß?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>tut noch ein paar Klopfer auf die Sense.</stage>
+               <p>Ich? Hm. Ein Bauer. Weißt nit, was das is?</p>
+               <stage>Er steht auf und richtet sich vor dem Bettler auf.</stage>
+               <p>Is halt ein Brotlaib auf zwei Füß.</p>
+               <stage>Nach einer Pause.</stage>
+               <p>Was schaust herum?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Dahint der Hof is dein?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Is mein.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Die Wiesen da?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Sind mein.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Der Streifen Feld?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Is mein.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Und dort</l>
+                  <l>Der andre?</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Mein.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Der Garten dort?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Is bald gnug gfragt?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Dich kosts ja nur ein Wort.</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>I gib dir noch zehn Wörteln zu.</l>
+                  <l>Das Hemd am Leib is Web aus meinigem Flachs,</l>
+                  <l>Aus meinigem Leder sind die Schuh,</l>
+                  <l>Stadel und Gattern, Dach und Fach und Wänd</l>
+                  <l>Aus meinigem Holz, zug'richt mit meine Händ.</l>
+                  <l>In der Weis sitz ich zwischen Hart und Bach</l>
+                  <l>Auf meiner selbgeschaffenen Sach.</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Nennst du geschaffen, was ein andrer dir geliehen,</l>
+                  <l>Vergissest du, durch wen der Hände Werk gediehen?</l>
+                  <pb n="139" facs="#f0034"/>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>mit erhobenem Kopf, zieht die Luft ein, vor sich.</stage>
+               <p>O Luft von überm Bach am Wiesenrain!</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>für sich, unruhig.</stage>
+               <p>Mir scheint, der schmeckt die Wurst im Rauchfang drein!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>nach einer Pause.</stage>
+               <lg>
+                  <l>Da bleiben, da! und wieder still und ständig sein!</l>
+                  <l>Ob ihr an' Arbeit für mich hätts?</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>besieht ihn prüfend.</stage>
+               <p>Waß nit – schwer Arbeit war dir eppa z'letz –</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ich bin nicht landfremd. Von da droben, zwei Stund von da,</l>
+                  <l>Bin ich, von drüberm Hart.</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Aha, ja, ja!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Der Vater war Waldbauer, Heger dann,</l>
+                  <l>Ein Baum hat ihn erschlagen, 's war ein armer Mann.</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Könnt wohl so möglich sein. San bettelarme Leut</l>
+                  <l>Und a nit stark. A saure Wiesen is gschwind g'heut,</l>
+                  <l>A magre Geiß gschwind g'molken. Haben ihr Leben nit geschafft,</l>
+                  <l>Im Sack kein Geld, im Arm kein Saft und Kraft,</l>
+                  <l>Drum wanderns aus und schliefen wieder heim,</l>
+                  <l>Hat alles kein Wesen und kein Reim.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>finster.</stage>
+               <p>An' Arbeit ob der Bauer hätt – im Stall? am Feld? –</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>nimmt hinterm Baum eine langstielige Axt hervor, wiegt sie in der Hand.</stage>
+               <lg>
+                  <l>Hab Kinder Stucker acht und schaff mei Arbeit selb.</l>
+                  <l>Wär alls scho gfehlt, wanns nit so war,</l>
+                  <l>Dann wär der Acker stärker als der Herr.</l>
+               </lg>
+               <stage>Bettler will gehen.</stage>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>die Axt in der Hand.</stage>
+               <p>An Holzknecht brauchert' ich.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>bleibt stehen.</stage>
+               <p>Ist deinig auch der Wald?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Ang'forstet ist der Hof seiter sechshundert Jahr.</l>
+                  <l>
+                     <pb n="140" facs="#f0035"/> Schlagrecht is mein. Wie's Mahlrecht dort am Bach,</l>
+                  <l>Weidrecht im Tal und Fischrecht in der Ach.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Bist ja mit Recht und Recht gspickt wie ein Igel gar,</l>
+                  <l>Wer dir was nehmen wollt –</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>wiegt die Axt auf den Knien.</stage>
+               <p>Der lasset' Haar!</p>
+               <stage>Welt tut einen Griff auf ihrer Laute.</stage>
+               <stage>Bettler tut abermals einen Schritt, als wolle er gehen.</stage>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>So willst halt nicht.</p>
+               <stage>Macht Miene, die Axt hintern Baum zu stellen.</stage>
+               <lg>
+                  <l>I bau an' neuchen Stadel aus mein Holz.</l>
+                  <l>Brauch Plöch und Bretter. Wär jetzt d' Jahrszeit recht.</l>
+                  <l>Im Wald fehlt nix, was fehlt, das is der Knecht.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Schlagrecht. Kein Klafter Brennholz, Tür und Dach,</l>
+                  <l>Nix kaufen, alles aus der eigenen Sach,</l>
+                  <l>Nix kaufen, Wiegen nicht und nicht das Hochzeitsbett,</l>
+                  <l>Auch nicht den Sarg –</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Holz kaufen? war a lausigs Gfrett!</l>
+                  <l>Willst oder nit? i hab ka Zeit.</l>
+               </lg>
+               <stage>Hält ihm die Hacke hin.</stage>
+               <lg>
+                  <l>I gib drei Taler Jahrlohn, ein Paar Schuh,</l>
+                  <l>Und Hauswoll auf a Joppen noch dazu.</l>
+                  <l>Die Hütten steht im Wald, Laubstreu is frei,</l>
+                  <l>A Pfann is drin, 's Fetthäfen steht dabei.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>hält unschlüssig die Axt in der Hand.</stage>
+               <lg>
+                  <l>Schaff Holz fürs Bett, und im Bett drin werd'n andre liegen,</l>
+                  <l>An' andern seine Kinder in der hölzern Wiegen –</l>
+                  <l>Aber der Wald is schön, und in der Einschicht sein</l>
+                  <l>Is besser, als da stehn und zornig umeinanderschrein.</l>
+                  <l>Na, Bauer: wenn ich aushalt bis ans End</l>
+                  <l>Und robot dir im Wald mit die zwei Hand,</l>
+                  <l>Und halt dir ord'ntlich wie a Stubn dein Wald –</l>
+                  <l>An' Sarg spendierst mir doch, sechs Bretteln halt,</l>
+                  <l>Aus deinigem Holz?</l>
+                  <pb n="141" facs="#f0036"/>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Fehlt nix. Die kriegst.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ich steh dir ein.</l>
+                  <l>Mi ziehts in Wald wie mit an' Strick.</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Na mußt in Wald, is halt dei G'schick.</l>
+                  <l>Wart noch. Hab noch was anzuschaffen,</l>
+                  <l>Daß d' mir ein Ordnung haltst im Wald:</l>
+                  <l>Das Krummholz is a richtigs Gsindel halt,</l>
+                  <l>Schmarotzt mir am Waldboden, zehrt'n aus auf Schritt und Tritt,</l>
+                  <l>Bettelbagagi, weg damit!</l>
+                  <l>Verstanden? Wart noch! mußt di nur 'neindenken frei,</l>
+                  <l>Was d' bist! na, was? Waldpolizei!</l>
+                  <l>Das nämlich', was dahier am Hof der Hund,</l>
+                  <l>Bist du am Hart und drent im schattigen Grund.</l>
+                  <l>Verstehst?</l>
+               </lg>
+               <stage>Bettler will fort.</stage>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Wart noch. Wird doch nicht gar so eilig sein!</l>
+                  <l>Is neuerdings Holzklauben gar so in Schwung kommen,</l>
+                  <l>Und hat a wenig überhand g'nommen.</l>
+                  <l>Da fahrst ma drein, sind Witwen allermeist</l>
+                  <l>Und Kinder gar, daß d' mir nit viel 'rumschreist,</l>
+                  <l>Richt' einer nix beim G'lumpert mit an G'schrei,</l>
+                  <l>Anzeigt wird nix, das macht nur Schererei.</l>
+                  <l>Hau drein, jags aus, dös Schandpack soll mein Waldl respektieren</l>
+                  <l>Und anderswo herumvagabundieren –</l>
+                  <l>Verstehst?</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>für sich.</stage>
+               <p>Mir steht jetzt was bevor, ganz nah!</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Ah, machst ja schon zvor a grimmigs Gsicht,</l>
+                  <l>Recht wie der Teufel dort beim höllischen Gericht!</l>
+                  <l>Gehst du den Dienst mit so ein' Eifer an?</l>
+                  <l>Ja, dann werd'n wir zwei beieinander bleiben,</l>
+                  <l>Muß immer ein Nagel den andern treiben,</l>
+                  <l>Dann wirds was Rechts! Jetzt schau zu deiner Sach,</l>
+                  <l>
+                     <pb n="142" facs="#f0037"/> Schau nur dazu, daß dir dein Dienst recht gfällt –</l>
+                  <l>Was is?</l>
+               </lg>
+               <stage>Springt auf.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>springt gegen die Mitte, drohend gegen alle.</stage>
+               <lg>
+                  <l>Ja, ich muß Ordnung machen,</l>
+                  <l>Das is mir ein'geben, aber nicht allein im Wald!</l>
+               </lg>
+               <stage>Schwingt die Hacke gegen alle.</stage>
+               <lg>
+                  <l>Ihr Dieb und Schänder alle miteinander,</l>
+                  <l>Euch gehts an Balg!</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>springt ihm nach.</stage>
+               <lg>
+                  <l>Heda, Falott, laß mir die Hacken aus der Hand,</l>
+                  <l>Der böhmische Zirkel ist nit eingführt hiezuland.</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Was willst du da, was schreist mit deinem Mund?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Die Hacken her und fort von hier! Du Vagabund!</l>
+                  <l>Abgstrafter Kerl!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Was? wer?</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Was? wer?</l>
+                  <l>Der Bauer bin ich, und du stehst auf mei'm Grund.</l>
+                  <l>Marsch, oder ich brauch Hausrecht!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>ungeheuer.</stage>
+               <p>Noch ein Recht!</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <p>Und Herrenrecht dazu, wannst aufrebellst, du Knecht!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>mächtig die Axt hebend.</stage>
+               <lg>
+                  <l>Dieb! Deine Recht sind g'stohlen, und zu der Stund</l>
+                  <l>Ruf ich mirs heim als wie verlaufene Hund.</l>
+               </lg>
+               <stage>Er pfeift.</stage>
+               <lg>
+                  <l>Jetzt kommt gleich's erste Recht. Schlagrecht ist jetzt bei mir!</l>
+                  <l>Siehst jetzt? die Recht sind lumpige Lakain,</l>
+                  <l>Die allezeit dem Stärkern dienstbar sein.</l>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <lg>
+                  <l>Auf! Was du tun willst, lieber Sohn, tu schnell,</l>
+                  <l>Gerecht vergoßnes Blut ist ewiger Freuden Quell.</l>
+               </lg>
+               <stage>Welt ist aufgesprungen.</stage>
+               <pb n="143" facs="#f0038"/>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>in großer Angst.</stage>
+               <p>In niemand da? Zu Hilf! Herbei!</p>
+               <stage>Will ausweichen.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Maul halten mit dem Wehgeschrei.</l>
+                  <l>Mach deine Seel fürs letzte End bereit.</l>
+                  <l>Jetzt kommt zum Ausgleich der uralte Streit.</l>
+               </lg>
+               <stage>Faßt ihn.</stage>
+               <lg>
+                  <l>Fahr hin! Verreck im Straßengraben!</l>
+                  <l>Hab ich nix g'habt, sollst du das gleiche haben.</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit #reicher #koenig #schoenheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>mit angstvoll erhobenen Armen, Reicher, König, Schönheit, alle vier treten zugleich
+            einen Schritt vor.</stage>
+               <p>Halt ein, Mörder, halt ein!</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Denkt, wer euch sieht, denkt an des Spieles Gang!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Da du ein Kind warst, grausete dich Kain,</l>
+                  <l>Willst du in sein Geschick?</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>geht auf den Bettler zu.</stage>
+               <p>Schlag mich! Erschlag uns alle!</p>
+            </sp>
+            <sp who="#weisheit #reicher #koenig #schoenheit">
+               <speaker>ALLE ZUGLEICH.</speaker>
+               <p>Schlag zu und bring mit eins die ganze Welt zu Falle!</p>
+               <stage>Bettler, die Axt hoch erhoben, blicklosen Blickes, steht ihnen allen furchtbar
+            gegenüber.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <lg>
+                  <l>Trompeten drein!</l>
+                  <l>Jetzt ist mein Spiel dort, wo's höher nicht mehr geht.</l>
+               </lg>
+               <stage>Eine Pause.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Schlag zu! Wir sind für unser End bereit!</l>
+                  <l>Und tritt es her mit schreckensvollen Mienen,</l>
+                  <l>Wo war das Schrecknis, das wir nicht verdienen?</l>
+               </lg>
+               <stage>Wirft sich auf die Knie, zu Gott.</stage>
+               <lg>
+                  <l>Du aber thronend ob verworrenen Geschicken,</l>
+                  <l>Du siehest zu, wie in des Unrechts Netz</l>
+                  <l>Wir alle, alle uns geheim verstricken.</l>
+                  <l>Wie leicht war alles dir mit einem Hauch zu schlichten,</l>
+                  <l>Mit einem Fingerwink ins Grade dies zu richten,</l>
+                  <l>
+                     <pb n="144" facs="#f0039"/> Doch dir beliebt vom hocherhabnen Pfühl</l>
+                  <l>Ein ungeheueres Gewährenlassen,</l>
+                  <l>Um dann, mit Adlersaug durchdringend das Gewühl,</l>
+                  <l>Mit Adlersklau die Beute dir zu fassen.</l>
+                  <l>Du machst mit einem fürchterlichen Winke</l>
+                  <l>Dem anbefohlnen Spiel ein jähes End,</l>
+                  <l>Sieh willig uns von deiner Bühne weichen,</l>
+                  <l>Und – eh in Schatten unser Spiel versinke –</l>
+                  <l>Sieh doch zuletzt die aufgereckten Händ!</l>
+               </lg>
+               <stage>Sie verharrt noch einen Augenblick mit gefalteten Händen, dann steht sie auf und
+            spricht weiter, stehend, zu den übrigen.</stage>
+               <lg>
+                  <l>Denn es ist nun an dem – seid ihr auch des belehrt?</l>
+                  <l>Daß wir sehr schnell von dieser Bühne schwinden,</l>
+                  <l>Ein kurzer Augenblick ist allen uns gewährt,</l>
+                  <l>Abtretend aus dem Spiel uns zu uns selbst zu finden.</l>
+                  <l>Und er, des höchsten Willens arger Bot,</l>
+                  <l>Furchtbar gewürdigt, uns hinwegzurufen –</l>
+                  <l>Auch sein Spiel ist vorbei, darin er gräßlich uns bedroht,</l>
+                  <l>Er steigt mit uns hinab der Bühne wenige Stufen.</l>
+               </lg>
+               <stage>Nach oben gewandt, gewaltsam, den Bettler nicht ins Auge fassend, spricht sie das
+            Weitere. Der Bettler indessen geht auf sie zu, die Axt erhoben. Je näher er ihr, desto
+            fester, die tiefste Angst überwindend, wird ihre Stimme. Der Bettler steht vor ihr wie
+            festgewurzelt; sein Gesicht verändert sich ungeheuer. Die erhobene Hand, darin die Axt,
+            sinkt herab. Der Bauer liegt nächst dem Baum, das Gesicht im Arm geborgen, wie ein
+            Toter, regungslos.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Du aber, Leben über allem Leben,</l>
+                  <l>Du wunderbar Gericht, das in den Dingen ruht,</l>
+                  <l>Sieh mich nunmehr für ihn die Händ erheben:</l>
+                  <l>Gnad ihm, wenn er jetzt bebend vor dich trägt,</l>
+                  <l>Gräßlich gefärbt mit unser aller Blut,</l>
+                  <l>Den Wesensschein, den furchtbar schicksalvollen,</l>
+                  <l>Drein Du erhabnen Willens Spur geprägt!</l>
+                  <l>Gnad ihm, ihm war von Deines Spieles Rollen</l>
+                  <l>Die eine überschwere auferlegt!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>zitternd.</stage>
+               <p>Wo ist der Baum?</p>
+               <pb n="145" facs="#f0040"/>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Was für ein Baum?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Den ich wie Donner schlug,</l>
+                  <l>Der niederkrachend euch und mich begrub!</l>
+                  <l>Doch ich –</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Und du?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Weib? was geschah? Wo ist das Licht?</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Was für ein Licht?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Das aus der Krone brach,</l>
+                  <l>Mit einer Menschenstimme zu mir sprach!</l>
+                  <l>War dies zuvor? war dies nachher? Weib – was geschah?</l>
+                  <l>Daß ich nicht auf dich schlug! – du tratest nah –</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Brach da ein Licht hervor? – und –</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <lg>
+                  <l>War das nicht</l>
+                  <l>Des Saulus Blitz und redend Himmelslicht?</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Du hobest deine Hand und betetest für mich?</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Für dich!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Verstehend mich und mein Gericht?</p>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>War das nicht Isaaks Lamm, das schimmernd sank vor dich?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>O du mein Gott!</p>
+               <stage>Er kniet nieder, birgt sein Gesicht in den Händen.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <lg>
+                  <l>Nach Taten, Seele, war dein Drang!</l>
+                  <l>Untat war nah in finstrem Wahn,</l>
+                  <l>Doch herzlich ist des Spieles Gang!</l>
+                  <l>Statt Untat ist jetzt Tat getan!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Getan?</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Getan!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Schlug ich?</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Du schlugest nicht!</p>
+               <pb n="146" facs="#f0041"/>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <lg>
+                  <l>Ein Blutandrang, ein schwindelnd Flimmerlicht</l>
+                  <l>Und alles wiederum zunicht!</l>
+               </lg>
+               <stage>Er wirft wütend seine Bücher zur Seite.</stage>
+               <stage>Des Bettlers Blick, der, wieder auf seinen Füßen, wie ein Entrückter um sich sieht,
+            trifft den Blick der Weisheit, die wieder von ihrem Platz zwei Schritte auf ihn
+            zugetreten ist. Sie lächelt. Er lächelt auch. Sein Gesicht hat einen verwandelten
+            Ausdruck.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Bist du befreit von deiner Strafbegier,</l>
+                  <l>Um die dein Bruder dir in Fäusten ächzte,</l>
+                  <l>Indes die Seele in der Seele dir</l>
+                  <l>Unbändig nach Unendlichkeiten lechzte!</l>
+                  <l>Empfingest du in jähem Himmelsschein</l>
+                  <l>Die ungeheuerste der Gaben,</l>
+                  <l>Und kannst du deinen Brüdern nun verzeihn</l>
+                  <l>Am schalen Erdengut ihr dumpfes Haben?</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Was schiert mich, was ihr habt? Ich bin so voller Freuden</l>
+                  <l>Und will in Wald, daß ich umblitzt von Ewigkeit</l>
+                  <l>Mich beieinander halt, an keinen Hauch der Zeit</l>
+                  <l>Die innre Himmelsfülle zu vergeuden!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Begnadigt uns nunmehr dein umgewandter Sinn?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Was weiß ich, wer ihr seid – was weiß ich, wer ich bin?</l>
+                  <l>Als wie von Ewigkeit</l>
+                  <l>Ist mir der Wald bereit,</l>
+                  <l>Da ich ein schuldlos Kind</l>
+                  <l>Auf moosigem Stein gelegen.</l>
+                  <l>Dort liegen und in Lust</l>
+                  <l>Mich ganz zu Gott zu regen!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>O Seele, du bist jäh zum großen Ziel gekommen,</l>
+                  <l>Grab dich in Waldesgrund und blühe als ein Christ!</l>
+               </lg>
+               <stage>Bettler ist zum Gehen gewandt.</stage>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER</speaker>
+               <stage>ihm seitlich in den Weg tretend.</stage>
+               <lg>
+                  <l>Was! lahm die Hand, die einmal richten konnte!</l>
+                  <l>
+                     <pb n="147" facs="#f0042"/> Und Unrecht, wie's nur eh und je sich sonnte,</l>
+                  <l>In frechem Licht schlägt wiederum sein Rad,</l>
+                  <l>Und du im Walde wandelst Träumerpfad!</l>
+                  <l>O Ekel, pfui! o kann ein Hirn den Unsinn fassen?</l>
+                  <l>Vertan die Manneskraft! das schöpferische Hassen!</l>
+                  <l>Graust dich denn nicht vor dir?</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>mit einem ablehnenden Armheben gegen ihn.</stage>
+               <lg>
+                  <l>Ich ward hineingestellt,</l>
+                  <l>Als Gegenspieler diesen zugesellt:</l>
+                  <l>Denn dies ist Gottes Spiel,</l>
+                  <l>Wir heißen es die Welt.</l>
+               </lg>
+            </sp>
+            <sp who="#widersacher">
+               <speaker>WIDERSACHER.</speaker>
+               <p>Leckst so feig du den Fuß, der auf dich tritt?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ich bin bei Gott, in aller Dinge Mitt!</l>
+                  <l>Doch in dem Spiel bin ich der Bettler halt,</l>
+                  <l>Von dem ich Wesen anhab und Gestalt.</l>
+                  <l>Was soll ich denn von denen wollen?</l>
+                  <l>Ich kann doch nicht hinein in ihre Rollen</l>
+                  <l>Noch deren Sprüch und Sprüng herein in meine reißen!</l>
+                  <l>Da müßte ich ein Geck und Stümper heißen!</l>
+                  <l>Wollt ich dem dort die pelzern' Schaub abziehen,</l>
+                  <l>Dem dort sein goldnes Schwert aus Händen schlagen</l>
+                  <l>Und setz ich stracks mich auf den Thron für ihn</l>
+                  <l>Und sitz dort breit zu meinen Lebenstagen,</l>
+                  <l>So sitzt Hans Wurst zu Thron, das Blatt bleibt ungewendet,</l>
+                  <l>Und diese Welt wie eh und je geschändet.</l>
+                  <l>Ob ich mich spreiz mit Machtgebärden</l>
+                  <l>An ihrer Statt, verschlägt nicht viel:</l>
+                  <l>Es muß für wahr und ganz ein neuer Weltstand werden,</l>
+                  <l>Sonst blieb' dies gar ein ärmlich puppig Spiel.</l>
+               </lg>
+               <stage>Er tut einen Schritt.</stage>
+               <lg>
+                  <l>Ich haus mit denen nicht, ich muß woanders hin,</l>
+                  <l>Mir hat die Sternenuhr die große Zeit geschlagen,</l>
+                  <l>Nun weck ich selber mich, entzünd in mir den Sinn,</l>
+                  <l>Davon um Mitternacht der finstre Wald wird tagen:</l>
+                  <l>Ich hab ein Wort gehört, das war mir lang verloren,</l>
+                  <l>
+                     <pb n="148" facs="#f0043"/> Mir ist, da ichs gehört, da war ich ungeboren,</l>
+                  <l>Und eines Engels Mund gab mir so zarte Lehre –</l>
+                  <l>Von Freiheit war das Wort und welcher Art die wäre.</l>
+                  <l>Ich war – mein Seel – nicht frei, als ich in finstrem Drang</l>
+                  <l>Scharf Eisen über diese schwang,</l>
+                  <l>Des bin ich inneworden jäh,</l>
+                  <l>Wie der inner gemalten Scheiben steh,</l>
+                  <l>Die Bilder inne wird. Freiheit ist alleweil nah,</l>
+                  <l>Doch greifst du hart nach ihr, so ist sie jählings fern;</l>
+                  <l>Kaum schmiegest du dich sanft, so ist sie wieder da</l>
+                  <l>Und weht von dir hinan bis an die Himmelsstern.</l>
+                  <l>Sie ist geheim und läßt sich irdisch nicht benennen:</l>
+                  <l>Sie ist ein Abgrund, über den sichs herrlich lehnet,</l>
+                  <l>Doch der mit Macht sich auch dich zu verschlingen sehnet;</l>
+                  <l>Ich will in wilden Wald, sie völlig zu erkennen –</l>
+                  <l>Mich deucht, sie ist von Gott, und bleib ich nur allein,</l>
+                  <l>So dringet sie durch Gott schon tief in mich hinein</l>
+                  <l>Und gehet dann mit mir auf jeden Pfad und Steg:</l>
+                  <l>Somit laß ab von mir und gib mir frei den Weg!</l>
+               </lg>
+               <stage>Er geht langsam an ihm vorbei.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Geh hin und sei im Wald ein guter Geist,</l>
+                  <l>Und lobe Gott den Herrn, der alle Wege weist!</l>
+                  <l>Ich neige mich vot dir!</l>
+               </lg>
+               <stage>Bettler wendet sich nach rechts, abzugehen.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Halt noch, nimm dein Gerät.</p>
+               <stage>Sie geht hin, wo das Beil liegt, bückt sich, hebts auf und gibts ihm.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>nimmts nicht.</stage>
+               <p>Es ist nicht mein.</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Nimms hin und brauchs als dein.</l>
+                  <l>So spricht der Herr: Ihr sollt nicht müßig sein.</l>
+                  <l>Soll dich mein hoher Wald umhegen,</l>
+                  <l>Einsiedel, mußt du seiner pflegen,</l>
+                  <l>Sanft wie der Hirtenstab im Schattensaal,</l>
+                  <l>Wandle die Axt voraus dem Himmelsstrahl,</l>
+                  <l>Und wie die Glocke tön ihr voller satter Schlag</l>
+                  <l>Ins Dorf und melde Herbst und friedereichen Tag.</l>
+               </lg>
+               <stage>
+                  <pb n="149" facs="#f0044"/> Bettler befestigt die Axt an dem Stricke, der ihm die Lenden gürtet,
+            und geht langsam hinaus.</stage>
+               <stage>Bauer sieht ihm, halb hinterm Baum geborgen, nach, bis er verschwindet. – Vorwitz
+            hebt sich auf Fußspitzen, um dem Abgehenden noch bis in die Kulisse nachzusehen, dann
+            stößt er einen hörbaren Seufzer der Erleichterung aus.</stage>
+               <stage>Weisheit ist auf ihren Platz zurückgegangen, faltet die Hände zum stillen Gebet.
+            Alle fünf Figuren verharren ruhig auf ihren Plätzen. Bauer blickt in die Kulisse,
+            gleichsam in den Wald, in den der Bettler verschwunden. Er macht ein befriedigtes
+            Gesicht, deutet pantomimisch an, er höre ihn Holz machen.</stage>
+               <stage>Ein Signal.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>ergreift ihre Laute, spielt und singt nach einem kurzen Präludium.</stage>
+               <lg>
+                  <l>Flieg hin, Zeit, du bist meine Magd,</l>
+                  <l>Schmück mich, wenn es nächtet, schmück mich, wenn es tagt,</l>
+                  <l>Flicht mir mein Haar, spiel mir um den Schuh,</l>
+                  <l>Ich bin die Frau, die Magd bist du.</l>
+                  <l>Heia!</l>
+               </lg>
+               <stage>Sie greift dumpfer in die Laute, ihr Gesicht verfinstert sich.</stage>
+               <lg>
+                  <l>Doch einmal trittst du zornig herein,</l>
+                  <l>Die Sterne schießen schiefen Schein,</l>
+                  <l>Der Wind durchfährt den hohen Saal,</l>
+                  <l>Die Sonn geht aus, das Licht wird fahl,</l>
+                  <l>Der Boden gibt einen toten Schein,</l>
+                  <l>Da wirst du meine Herrin sein!</l>
+                  <l>O weh!</l>
+                  <l>Und ich deine Magd, schwach und verzagt,</l>
+                  <l>Gott seis geklagt!</l>
+               </lg>
+               <stage>Wieder lebhafter und heller.</stage>
+               <lg>
+                  <l>Flieg hin, Zeit! die Zeit ist noch weit!</l>
+                  <l>Heia!</l>
+               </lg>
+               <stage>Das Licht auf der Bühne verändert sich, währenddem sie singt, wie gegen einen
+            trüben Abend hin.</stage>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>nach einer Stille, wie aus einem Traum erwachend.</stage>
+               <lg>
+                  <l>O weh! was ist mir widerfahren?</l>
+                  <l>Ich spürs von Sohlen bis zu Haaren!</l>
+               </lg>
+               <stage>
+                  <pb n="150" facs="#f0045"/> Sie sieht sich in dem Spiegel, läßt ihn gleich wieder sinken.</stage>
+               <lg>
+                  <l>O weh! an mir ist unversehen</l>
+                  <l>Ein Unheil fürchterlich geschehen!</l>
+                  <l>Zeit ist geflohen wie der Wind,</l>
+                  <l>Ich war noch just ein blühend Kind,</l>
+                  <l>Und sie hat an mir mißgehandelt,</l>
+                  <l>Schmählich mein Angesicht verwandelt.</l>
+                  <l>Bin ich denn keine junge Frau?</l>
+                  <l>An Schläfen schien mir wie ein Grau!</l>
+               </lg>
+               <stage>Sieht wieder in den Spiegel.</stage>
+               <lg>
+                  <l>O Gott! nun seh ichs wohl, nun seh ichs wieder!</l>
+                  <l>Und was soll denn der dunkle böse Strich</l>
+                  <l>Unter dem Schlage meiner Lider?</l>
+                  <l>Das Ganze freilich ist noch da</l>
+               </lg>
+               <stage>Sie lächelt ihr Bild an.</stage>
+               <lg>
+                  <l>Und doch ein Böses etwa nah;</l>
+                  <l>Schaut' ich mit starrem Blick und zu genau,</l>
+                  <l>Ich sah die Larve einer alten Frau!</l>
+               </lg>
+               <stage>Sie läßt den Spiegel sinken, blickt versteckt nach dem König hin.</stage>
+               <lg>
+                  <l>Auch er! der Gleiche und doch wieder nicht!</l>
+                  <l>Ein scharf und furchig Etwas im Gesicht!</l>
+               </lg>
+               <stage>Sieht nach dem Bauer.</stage>
+               <lg>
+                  <l>Und der! verwandelt bis in die Gestalt!</l>
+                  <l>Wie grau! wie stumpf und dumpf! wie jählings alt!</l>
+               </lg>
+               <stage>Sie verläßt ihren Platz und tut ein paar Schritte nach links, blickt verstohlen auf
+            den Reichen.</stage>
+               <lg>
+                  <l>Ein Adlerblick aus selbstbewußten Brauen.</l>
+                  <l>Vorbei! leichthin nur wie Vorüberschauen,</l>
+                  <l>Sonst sieht er starr auf mich! und doch im Flug,</l>
+                  <l>Ich hab gesehen und ich weiß genug!</l>
+               </lg>
+               <stage>Läuft zur Weisheit hinüber.</stage>
+               <lg>
+                  <l>Und du, wie schön bist du, wie leuchten deine Mienen,</l>
+                  <l>Von wo sind sie mit diesem Glanz beschienen,</l>
+                  <l>Wo nimmst du dieses nicht mehr irdische Lächeln,</l>
+                  <l>Was sinds für Lüfte, die um deine Stirne fächeln?</l>
+               </lg>
+               <stage>Näher.</stage>
+               <lg>
+                  <l>Und doch! auch du! gealtert, doch nur wie der Edelstein,</l>
+                  <l>Der alternd aushaucht eingesognen Schein.</l>
+                  <l>Auch du?</l>
+                  <pb n="151" facs="#f0046"/>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>lächelt, wie aus der Entrückung erwacht.</stage>
+               <p>Was sprachest du?</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>in der Mitte stehend, ringt die Hände.</stage>
+               <lg>
+                  <l>O herzzerfressend Leid!</l>
+                  <l>O einzig wahres Unheil ob der Welt,</l>
+                  <l>Das unsres Daseins hohe Lust vergällt!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>Was klagest du?</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>Die Zeit! die Mörderin! die Zeit!</l>
+                  <l>Die Zeit ist über uns mit Räuberfaust gefallen,</l>
+                  <l>Hat böslich mißgetan an dir und mir und allen!</l>
+               </lg>
+               <stage>Ein Paukenschlagen hebt an, dazu ein Windesrauschen. Die Figuren, wie aus einer
+            Starrheit erwachend, verlassen ihre Plätze und treten durcheinander, aber wie Träumende,
+            indem sie jeder für sich sprechen, ohne auf die anderen zu achten, und dabei die Hände
+            ringen, außer der Weisheit, welche die ihren gefaltet hält.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <lg>
+                  <l>Macht ist Ohnmacht! Das geht mir ein</l>
+                  <l>Und schneidet mir durch Mark und Bein.</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Ich kannte Zwang nicht, noch Gesetz,</l>
+                  <l>Allein ein Etwas zwingt mich jetzt!</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Hab stets mein festen Stand dahier,</l>
+                  <l>Was springt so geistisch um mit mir?</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Im Sturmeswehn ist deine Spur,</l>
+                  <l>Erbarm dich deiner Kreatur –</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>O Schwäche, Bangen ohne Ruh,</l>
+                  <l>Was wird aus mir in diesem Nu!</l>
+               </lg>
+            </sp>
+            <sp who="#koenig #reicher #bauer #weisheit #schoenheit">
+               <speaker>ALLE ZUSAMMEN</speaker>
+               <stage>unter dem Paukenschlag.</stage>
+               <lg>
+                  <l>Ein fahler Schein, ein hahler Wind,</l>
+                  <l>Weh, daß wir Kreaturen sind!</l>
+               </lg>
+               <stage>Das Windesbrausen verstummt. Sie halten alle inne. Jeder findet sich auf seinem
+            Platz. Sie stehen starr.</stage>
+               <stage>Vorwitz ist, wie ihr tanzartiges Durcheinandertreten anhebt, neugierig
+            hinzugetreten und wird, ohne es zu wollen, darein verstrickt <pb n="152" facs="#f0047"/> und tanzt mit
+            ihnen bis ans Ende, aber ohne den Mund aufzutun. Jetzt wischt er sich die Stirn und
+            schlüpft auf seinen Platz zurück. Auch der Paukenschlag verstummt.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>wendet sich, wie von einem Wink getroffen, gegen den Palast des Meisters und blickt
+            ehrerbietig nach oben nach dem Balkon.</stage>
+               <p>Hier, deines Winks gewärtig!</p>
+               <stage>Er eilt hin, horcht nach oben, eilt sogleich wieder nach vorne, immer auf der
+            oberen Bühne und ruft dem Tod, der seitlich auf der oberen Bühne schon dann und wann
+            sichtbar gewesen, von weitem zu.</stage>
+               <lg>
+                  <l>Zu Ende gehen soll schon bald das Spiel,</l>
+                  <l>Ruf du jetzt einen nach dem andern ab!</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>tritt von wo ersteht an den Rand der oberen Bühne vor und ruft laut.</stage>
+               <lg>
+                  <l>Du, der des Königs Rolle hat, tritt ab!</l>
+                  <l>Dein Part ist ausgespielt! Geh von der Bühne!</l>
+               </lg>
+               <stage>Tritt wieder ganz seitwärts, wo er aber sichtbar bleibt. König erfaßts. Schönheit
+            und Reicher zucken zusammen. Bauer tut, als hätte er nichts gehört, er gräbt mit dem
+            Spaten. Weisheit wirft dem König einen strahlenden Blick zu.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG</speaker>
+               <stage>tritt vor, blickt nach oben, nimmt die Krone vom Haupt, betrachtet sie.</stage>
+               <lg>
+                  <l>Wie? solch ein Schattenspiel! so schnell dahin!</l>
+                  <l>Und schien voll Wirklichkeit und Pracht und Sinn!</l>
+                  <l>Mein Augenwink, an dem sie alle hingen –</l>
+                  <l>Mein Aug, bald selber liegts bei weggeworfnen Dingen.</l>
+                  <l>Du Reif, du schienst ein Teil des Hauptes selbst zu sein,</l>
+                  <l>Nun lösest du dich leicht und wahrest deinen Schein.</l>
+                  <l>O Schein, o edler Schein, Schein über allem Schein!</l>
+                  <l>Wer sich zu dir erschwäng, dem wärst du wahres Sein,</l>
+                  <l>Herrliche Wesenheit, gewaltig, zu bezwingen</l>
+                  <l>Den dumpfen Widerstreit von selbstgebundnen Dingen.</l>
+                  <l>Wem laß ich dich? wo ist die dreimal würdige Hand,</l>
+                  <l>Darein ich scheidend leg dies geisterhafte Pfand?</l>
+               </lg>
+               <stage>Er tut einen Schritt auf die Weisheit zu.</stage>
+               <lg>
+                  <l>Du heilig weise Frau, für die der Schein nicht scheinet,</l>
+                  <l>Das Scheinen mit dem Sein zu höhrem Schein sich einet,</l>
+                  <l>Willst du mir hüten dieses Zeichen,</l>
+                  <l>
+                     <pb n="153" facs="#f0048"/> Dem Höchsterkornen einst es reichen?</l>
+               </lg>
+               <stage>Er will der Weisheit die Krone überreichen.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>steht jäh auf und tritt dazwischen.</stage>
+               <lg>
+                  <l>Mir! Mir! Ich hab euch all in meinem Haus,</l>
+                  <l>Ich zieh euch an und zieh euch aus.</l>
+                  <l>Mir gibs und geh. Und sorg dich weiter nicht!</l>
+               </lg>
+               <stage>Nimmt dem König die Krone aus der Hand. Setzt sich wieder und hält die Krone auf
+            dem Schoß.</stage>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD.</speaker>
+               <p>Abgehn! Das Zögern kann nicht frommen!</p>
+            </sp>
+            <sp who="#koenig">
+               <speaker>KÖNIG.</speaker>
+               <p>O Meister überm Spiele, sieh mich kommen!</p>
+               <stage>Er geht.</stage>
+               <lg>
+                  <l>Nun muß ich schwacher Kniee und mit Zagen</l>
+                  <l>Den Spieler eines Königs vor dich tragen!</l>
+               </lg>
+               <stage>Ab.</stage>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>tritt angstvoll von ihrem Platz und ringt die Hände.</stage>
+               <lg>
+                  <l>Wo muß er hin? Was ist geschehen?</l>
+                  <l>Wie kann das sein? Er muß von hinnen gehen?</l>
+                  <l>Wer wagts, dem Mächtigen zu befehlen?</l>
+                  <l>Was wird aus mir? Er hat mich so geliebt!</l>
+                  <l>Durch ihn nur war ich schön, in seinen goldnen Sälen!</l>
+                  <l>Wohin mit mir? Wo ist das Land, das mir ihn wiedergibt!</l>
+                  <l>Wohin mit mir Verlassenen?</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>tritt vor.</stage>
+               <p>Zu mir!</p>
+               <stage>Schönheit tut unwillkürlich einen Schritt von ihm weg auf Weisheit zu.</stage>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Zu mir! An meiner Seite ist dein Platz,</l>
+                  <l>Du im geheimen längst mir zugeeignet,</l>
+                  <l>All meiner Schätze höchster Schatz!</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>erschrocken, bang.</stage>
+               <p>Weh mir!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>stärker.</stage>
+               <p>Zu mir! Was hat sich viel ereignet?</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>Der Mächtige, der mein Gebieter war</l>
+                  <l>Und deiner und von diesen allen,</l>
+                  <l>
+                     <pb n="154" facs="#f0049"/> Vom Volk geliebt, umhuldigt von Vasallen,</l>
+                  <l>Hast du denn nicht gesehn? Begreifst dus nicht für wahr?</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>So müsse denn die Maske endlich fallen!</l>
+                  <l>Zu mir! Nun faßt dich dieser Arm – für ihn!</l>
+                  <l>Denn ich bin wahrhaft, was er schien.</l>
+               </lg>
+               <stage>Schönheit weicht vor ihm zurück.</stage>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>folgt ihr, sie kommen beide nach vorne.</stage>
+               <lg>
+                  <l>Wenn er zum Schein auf goldnem Wagen stand,</l>
+                  <l>Die Zügel lenkte diese Hand!</l>
+                  <l>Ich war Gewalt, die hunderthändige!</l>
+                  <l>Ich wars und bins allein, der dieses Ganze bändige!</l>
+                  <l>Den Schein verschmähend, für den Pöbel stumm,</l>
+                  <l>Wend ich den Himmel wie die Erde um.</l>
+                  <l>Da ist kein Wesen, das sich mir entzöge</l>
+                  <l>In Abgrundsnacht, und keines himmelhoch getürmt,</l>
+                  <l>Das meine Kraft mir nicht erflöge,</l>
+                  <l>Die Feste ist nicht, die ich nicht erstürmt.</l>
+                  <l>Hier kam die Herrlichkeit der Welt zu erben,</l>
+               </lg>
+               <stage>Er deutet auf seine Brust.</stage>
+               <p>Hierher auch du! Der Rest sind Scherben!</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>O Schwester, nimm dich meiner an!</l>
+                  <l>Schütz mich vor diesem ungeheuren Mann!</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Dies Licht, das fürchterlich in Dunkel sinkt,</l>
+                  <l>Kann es dich nicht in deiner Seele mahnen?</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <lg>
+                  <l>Närrin, die du in Einsamkeit dich brüstest,</l>
+                  <l>Durch die hindurch ein totes Lichtlein blinkt,</l>
+                  <l>Wenn du von da bis da den Weg der Dinge wüßtest,</l>
+                  <l>Klug wärest, nur die Wahrheit zu erahnen,</l>
+                  <l>So ahnte dir: daß du und deinesgleichen,</l>
+                  <l>Daß ihr besteht in schützenden Bereichen,</l>
+                  <l>Es ist von mir mit großem Sinn geduldet,</l>
+                  <l>Was Geist ist, was euch hebet übers Tier,</l>
+                  <l>Ist meines Tuens Blüte, mir geschuldet.</l>
+                  <l>Tritt aus dem Weg, es ist nichts außer mir!</l>
+                  <pb n="155" facs="#f0050"/>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>tritt in die Mitte und spricht herab.</stage>
+               <lg>
+                  <l>Du Schöne, tritt jetzt von der Bühne.</l>
+                  <l>Dein Spiel ist schon zu End.</l>
+               </lg>
+               <stage>Er bleibt danach an dergleichen Stelle stehen.</stage>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT</speaker>
+               <stage>in Angst sich an Weisheit klammernd.</stage>
+               <lg>
+                  <l>Zu End, weh mir!</l>
+                  <l>Bei dir! schütz mich! nicht ganz vergehen!</l>
+               </lg>
+               <stage>Reicher tritt zurück, steht wie erstarrt.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>die fast ohnmächtige Schönheit in ihren Armen haltend und stützend.</stage>
+               <p>Kannst du denn, Seele, ganz vergehen?</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <p>Angst!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Fasse dich! Erfaß ein mächtig Wort,</l>
+                  <l>Es trägt dich wie mit Flügeln fort.</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <p>Was für ein Wort?</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <p>»Ich bin bei euch.«</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>Sprichst du mit mir?</l>
+                  <l>Bist du bei mir? Ich sprech mit dir!</l>
+               </lg>
+               <stage>Weisheit sucht sie von sich loszuwinden.</stage>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>zur Weisheit.</stage>
+               <p>Geh hin mit ihr, auch deine Zeit ist um.</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>schickt sich an zu gehen, wobei sie die Schönheit stützt.</stage>
+               <p>Ich geh mit dir!</p>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <lg>
+                  <l>Mit mir! mit mir! jetzt fort!</l>
+                  <l>Sag jetzt das Wort – sag immerfort das Wort!</l>
+                  <l>Bei mir! Bei mir!</l>
+               </lg>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>steht auf und tritt ihnen in den Weg, zur Schönheit.</stage>
+               <lg>
+                  <l>Gib deinen Spiegel her,</l>
+                  <l>Dort, wo du hingehst, brauchst du ihn nicht mehr.</l>
+               </lg>
+               <stage>Zur Weisheit.</stage>
+               <p>Und du dein Kreuz!</p>
+               <stage>Schönheit gibt wie bewußtlos den Spiegel hin, sie gehen.</stage>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>bleibt stehen, hebt ihren Blick zu Gott.</stage>
+               <lg>
+                  <l>Nimm hin: in jenen Reichen</l>
+                  <l>Strahlt Wesenheit, dort brauchts kein Zeichen.</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <p>Sprich du für uns!</p>
+               <pb n="156" facs="#f0051"/>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>O du, des Namen ich vor Zittern jetzt nicht nenne,</l>
+                  <l>Gib ohne Grenzen mir, damit ich dich erkenne.</l>
+                  <l>Ich bin das Nichts und hab an allem Not,</l>
+                  <l>Du, der du Alles bist, gib diesem Nichts</l>
+                  <l>Von deinem All in seinen armen Tod.</l>
+                  <l>Du hast ja nicht gegeizt, als du der Sterne Glast</l>
+                  <l>An Himmel warfst, die Nacht mit Sonnen überschienst,</l>
+                  <l>In denen tausend Sonnen widerschienen:</l>
+                  <l>Der du auch mich aus Nacht geschaffen hast,</l>
+                  <l>Verklär mich ohne jegliches Verdienst,</l>
+                  <l>Ich habe nicht vermocht, mir zu verdienen.</l>
+               </lg>
+            </sp>
+            <sp who="#schoenheit">
+               <speaker>SCHÖNHEIT.</speaker>
+               <p>Amen.</p>
+               <stage>Sie gehen.</stage>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>ist von der oberen Bühne auf die untere herab gestiegen. Er scheint den Bauer zu
+            suchen, der hinter seinem Baum duckt. Doch wirft er auch auf den Reichen einen langen
+            Blick. Endlich hebt er die Hand gegen den Bauer und ruft ihm zu.</stage>
+               <p>Abtreten, du, dein Spiel ist aus.</p>
+               <stage>Bauer tut, als er hörte er nicht.</stage>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>stärker.</stage>
+               <p>Du dort, tritt ab!</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>sieht auf, tut, als bezöge ers nicht auf sich, deutet in die Kulisse.</stage>
+               <lg>
+                  <l>Ah, den meinst, den im Wald da drin,</l>
+                  <l>Dem möchtst was schaffen? Das hast du im Sinn!</l>
+                  <l>Ja mein, drin is er scho, ma hört'n öfter, wohl!</l>
+                  <l>Holzschlagen hart ma'n, eppa wohl auch singen,</l>
+                  <l>Jetzt hab i'n scho recht lang net g'hört.</l>
+                  <l>Sollt ich ihm leicht die Botschaft bringen?</l>
+                  <l>Schaffst, daß i hingeh und dir'n außer hol?</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>schüttelt den Kopf, tritt ihm näher.</stage>
+               <p>Die Botschaft bring ich jedem selber.</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>ängstlich, eifrig.</stage>
+               <lg>
+                  <l>Selm?</l>
+                  <l>Ja, der verschlieft sich so in Wald hinein,</l>
+                  <l>Den Viechern nach, weil ers halt alleweil kuriert</l>
+                  <l>Und gspaßig gar mit ihnen disputiert –</l>
+               </lg>
+               <stage>
+                  <pb n="157" facs="#f0052"/> Ruft.</stage>
+               <p>He du! – Er wird do nit taub g'worden sein!</p>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD.</speaker>
+               <p>Dich mein ich, du geh ab, dein Erdgeschäft ist aus.</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Ah na, beileib nit! War nit aus!</l>
+                  <l>I hab kein Zeit –</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>stark.</stage>
+               <lg>
+                  <l>Dazu ist nun die Zeit!</l>
+                  <l>Du mußt jetzt von der Bühne wandern.</l>
+               </lg>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Nur stad, nur einen nach 'm andern,</l>
+                  <l>Hast gsagt! I hab no z'tuan. San müßige Leut no gnua,</l>
+                  <l>Die umer stehn, da schau dazua.</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD.</speaker>
+               <p>Du gehst jetzt. Dann der andre.</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>sieht wieder auf den Reichen hin.</stage>
+               <p>Hab ka Zeit.</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>stöhnt.</stage>
+               <lg>
+                  <l>O nicht umfallen unter diesem Blick.</l>
+                  <l>Stehn! Aufrecht stehn! Es geht vorbei!</l>
+                  <l>Oh! Wiederum! Mein Ich, wohin? wohin?</l>
+                  <l>So nichts! Und jetzt so schwer! O wie ein Berg aus Blei!</l>
+                  <l>Mein Ich! Jetzt gräßlich groß bis an die Sterne,</l>
+                  <l>Zergehts, zerflatterts mir in grauenhafter Ferne,</l>
+                  <l>Jetzt wird es klein, so gräßlich klein und fällt und fällt,</l>
+                  <l>Fällt wie ein Stein, wohin denn aus der Welt?</l>
+                  <l>Wohin? wohin denn noch!</l>
+               </lg>
+               <stage>Er taumelt, fällt.</stage>
+               <lg>
+                  <l>O Wirbel ohne Gnade.</l>
+                  <l>Genug! Genug! Genug! Genug! Genug!</l>
+               </lg>
+               <stage>Er trocknet sich die Stirn.</stage>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>tritt auf den Bauer zu.</stage>
+               <p>Nun! Bauer!</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Häufig viel is z' schaffen</l>
+                  <l>Bevor der Schnee kimmt, und i g'spür ihn schon.</l>
+                  <l>Laubstreu muß einer –</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD.</speaker>
+               <p>Nein, du mußt davon!</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Was? I davon? Na ja, nach derer Seiten,</l>
+                  <l>Recht hast, der Mist muß schleunig auf die Leiten!</l>
+                  <pb n="158" facs="#f0053"/>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD.</speaker>
+               <p>Nein, du mußt in dein Grab.</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER.</speaker>
+               <lg>
+                  <l>Jessas! dös a vergessen,</l>
+                  <l>Zaunflechten, Most aus meine Äpfel pressen,</l>
+                  <l>Den Weibern Flachs zum Brechen richten –</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>stark, indem er ihn bei der Schulter faßt.</stage>
+               <p>Aus ist das Bauernspiel. Es ist soweit.</p>
+            </sp>
+            <sp who="#bauer">
+               <speaker>BAUER</speaker>
+               <stage>wankt, kleinlaut.</stage>
+               <lg>
+                  <l>Hab alleweil gemeint, es kommt an Enderl Zeit</l>
+                  <l>– Ausrasten – zuwasitzen auf die Bank,</l>
+                  <l>Daß i an Aichtl auf mein Herrgott denk</l>
+                  <l>Und Reu erweck für meine Schlechtigkeit;</l>
+                  <l>Jetzt reißt mich so dahin. Du laßt an ja ka Zeit,</l>
+                  <l>Jetzt tuats mi g'reun, daß mi so wenig g'reut!</l>
+                  <l>Gschafft hab i viel, bet' hab i net recht viel,</l>
+                  <l>Nimm halt der Meister vorlieb mit dem G'spiel!</l>
+               </lg>
+               <stage>Er geht.</stage>
+            </sp>
+            <sp who="#vorwitz">
+               <speaker>VORWITZ</speaker>
+               <stage>nimmt ihm den Spaten ab.</stage>
+               <p>Ganz gut hat er sein Abgang gmacht, der Bauer.</p>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>zum Reichen.</stage>
+               <p>Jetzt fort mit dir!</p>
+               <stage>Gegen die Kulisse mit starker, aber sanfter Stimme.</stage>
+               <lg>
+                  <l>Und du, komm aus dem Wald hervor,</l>
+                  <l>Tritt ab wie alle durch des Grabes Tor!</l>
+               </lg>
+               <stage>Zum Reichen.</stage>
+               <p>Noch immer da? Hinweg!</p>
+               <stage>Reicher am Boden, stöhnt dumpf.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>kommt aus der Kulisse. Es ist ihm ein starker weißer Bart gewachsen. Er scheucht
+            einen Vogel weg, der zwitschert.</stage>
+               <lg>
+                  <l>Geh fort! Flieg du zurück in' Wald! Schnell! Schnell!</l>
+                  <l>Hier bist du nicht an deiner rechten Stell!</l>
+                  <l>Hier sind die Menschen!</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD.</speaker>
+               <p>Hier bin ich!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Wer bist denn du?</p>
+               <stage>Betrachtet ihn, erkennt ihn, sein Gesicht leuchtet auf.</stage>
+               <p>Du!</p>
+               <stage>Er breitet die Arme aus.</stage>
+               <p>Nimmst du mich jetzt hin? zu dieser Stund?</p>
+               <stage>
+                  <pb n="159" facs="#f0054"/> Tod nickt.</stage>
+               <stage>Bettler kniet nieder, küßt den Grund.</stage>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD.</speaker>
+               <p>Was tust du da?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ich küß den lieben Erdengrund,</l>
+                  <l>Der mich aufnehmen wird zu kleiner Ruh.</l>
+                  <l>Süß wird sie sein, des Saatkorns Ruh,</l>
+                  <l>Dann steh ich auf –</l>
+               </lg>
+               <stage>Er steht auf.</stage>
+               <p>in einem Nu.</p>
+               <stage>Er wendet sich dem Tod zu.</stage>
+               <lg>
+                  <l>Ich bin schon alt und voller Ungeduld,</l>
+                  <l>Komm doch, erweis mir deine große Huld.</l>
+               </lg>
+            </sp>
+            <sp who="#tod">
+               <speaker>TOD</speaker>
+               <stage>zum Reichen.</stage>
+               <p>Hinweg mit dir zuvor, wie ich befahl!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>an der Erde.</stage>
+               <lg>
+                  <l>O bodenloser Abgrund von Verderben,</l>
+                  <l>O nie gelotet Meer von Qual!</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>nähert sich dem Reichen.</stage>
+               <p>Du!</p>
+               <stage>Beugt sich über ihn.</stage>
+               <p>Komm, mein Bruder, komm doch, es geht sterben!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <p>Angst! du!</p>
+               <stage>Zuckt zurück.</stage>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>freundlich.</stage>
+               <p>Wovor denn?</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER.</speaker>
+               <p>Gräßliches Gesicht.</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Nicht knirschen. Komm! an mir empor dich richt!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>mühsam.</stage>
+               <p>Wer bist du?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Doch dein Bruder!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>ängstlich, nicht verstehend.</stage>
+               <lg>
+                  <l>Wie? woher</l>
+                  <l>Kommst du zu mir?</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <p>Aus meiner Herrlichkeit</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>angstvoll.</stage>
+               <p>Woher?</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER.</speaker>
+               <lg>
+                  <l>Ei, nicht gar weit.</l>
+                  <l>
+                     <pb n="160" facs="#f0055"/> Dort aus dem Wald. Ich lag auf meiner Blätterstreu,</l>
+                  <l>Da riefs mit Macht nach mir: so schickte ich mich drein</l>
+                  <l>Und schritt hervor aus meinem lichten Kanaan</l>
+                  <l>Und trat herein in eure Wüsten ein,</l>
+                  <l>Zu sehen, was mir aufgetragen war.</l>
+                  <l>Was ängstet dich? was Hegt dir auf der Brust?</l>
+                  <l>Auch du bist ja gerufen! Bruder, auf!</l>
+                  <l>Ist dir die süße Ladung nicht bewußt?</l>
+               </lg>
+            </sp>
+            <sp who="#reicher">
+               <speaker>REICHER</speaker>
+               <stage>indem ihm die Zähne klappern.</stage>
+               <lg>
+                  <l>Groß, klein – gewaltig, nichts – gewaltig – nichts –</l>
+                  <l>Bei dir ist Kraft! Ich habe stets die Kraft gesucht.</l>
+                  <l>War ich deswegen ganz und gar verrucht?</l>
+               </lg>
+            </sp>
+            <sp who="#bettler">
+               <speaker>BETTLER</speaker>
+               <stage>stark.</stage>
+               <lg>
+                  <l>Kraft, herrlich Wort! gesegnet sei der Mund,</l>
+                  <l>Aus dem dies Wort ausgeht in dieser letzten Stund.</l>
+                  <l>Kraft sei bei dir, daß sie mit männlich starker Reue</l>
+                  <l>Dich Sterbenden bis in dein Mark erneue!</l>
+                  <l>Jetzt auf und einmal noch mit Adlersblick</l>
+                  <l>Schwing dich gewaltig über dein Geschick!</l>
+                  <l>Durchschau dies Gaukelspiel, reiß dich aus ihm heraus:</l>
+                  <l>Man ruft uns ab: sie löschen schon die Lichter aus –</l>
+                  <l>Nun auf die krampfigen Hand, damit wir zeigen:</l>
+                  <l>Alles war Requisit! Und nichts blieb uns zu eigen!</l>
+               </lg>
+               <stage>Öffnet ihm sanft die Hände.</stage>
+               <lg>
+                  <l>Jetzt komm, wir wollen gehn und miteinander singen.</l>
+                  <l>Komm nur! Hinunter da! Wir werdens zwingen,</l>
+                  <l>Wir finden hin, wo wir als Spielgesellen</l>
+                  <l>Uns bloß und abgeschminkt vor unsern Meister stellen!</l>
+               </lg>
+               <stage>Er nimmt ihn an der Hand, sie gehen weg, der Bettler stimmt ein frommes Lied
+            an.</stage>
+               <stage>Tod geht hinüber, stellt sich hinter die Welt. Welt ist schon vordem aufgestanden.
+            – Vorwitz hat den Faltstuhl an sich genommen, die Laute umgehängt.</stage>
+               <stage>Engel eilt im Augenblick, da der Bettler mit dem Reichen abgeht, in den Palast des
+            Meisters.</stage>
+               <stage>Die Bühne halbverfinstert.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT.</speaker>
+               <p>Hurtig! Nehmt ihnen alles ab, was wir ihnen geliehen haben! Dem Bauer seine groben
+            Schuh, der Nonne noch ihr härenes Hemde, zieht sie flink alle aus, es ist nichts ihrer!
+              <pb n="161" facs="#f0056"/> Vielleicht soll das Spiel gleich wieder anheben, dann müssen andere in
+            die gleichen Kleider hinein; was gehts mich an! Eilig!</p>
+               <stage>Diener springen sogleich herzu, verstellen die untere Bühne mit dem Vorhang. – Auf
+            der einen Seite Welt mit ihrem Gefolge, auf der andern der Widersacher, der indessen
+            seine Bücher zusammengepackt und sein Barett aufgesetzt hat, stehen im Proszenium. –
+            Musik. Nach kurzer Weile springen die Diener zurück. Die untere Bühne wird nun ganz leer
+            in einem grünlich-bleichen Licht. Der Baum und der Fels sind weggeräumt.</stage>
+               <stage>Man hört in der Ferne das De Profundis singen. Die Seelen – vordem König, Reicher,
+            Bauer, Bettler, Weisheit und Schönheit, alle in gleichen weißen Totenhemden – betreten
+            die untere Bühne, von der Seite her, und zwar in zwei Gruppen, je zu dritt. Sie
+            unterscheiden sich durch nichts als die Gesichter voneinander.</stage>
+               <stage>Sie schreiten langsam auf einander zu, bleiben dann stehen, etwa sechs Schritte
+            voneinander entfernt.</stage>
+               <stage>Die obere Bühne bleibt leer.</stage>
+            </sp>
+            <sp who="#koenig">
+               <speaker>DIE EINE SEELE</speaker>
+               <stage>vormals der König.</stage>
+               <p>O Zagen!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>EINE ANDERE SEELE</speaker>
+               <stage>vormals die Weisheit.</stage>
+               <p>O Freude!</p>
+            </sp>
+            <sp who="#reicher">
+               <speaker>EINE ANDERE</speaker>
+               <stage>vormals der Reiche.</stage>
+               <p>O gräßlich Erbangen! O nahes Gericht!</p>
+            </sp>
+            <sp who="#bettler">
+               <speaker>EINE ANDERE</speaker>
+               <stage>vormals der Bettler.</stage>
+               <p>O frohes Verlangen, o wachsendes Licht!</p>
+            </sp>
+            <sp who="#bauer #schoenheit">
+               <speaker>ZWEI</speaker>
+               <stage>der Bauer und die Schönheit zugleich.</stage>
+               <p>O Harren! O Zagen!</p>
+            </sp>
+            <sp who="#weisheit #bettler">
+               <speaker>ZWEI ANDERE</speaker>
+               <stage>die Weisheit und der Bettler zugleich.</stage>
+               <p>O blitzendes Tagen!</p>
+               <stage>Der Engel schreitet aus dem Palast bis an den vorderen Rand der oberen
+            Bühne.</stage>
+            </sp>
+            <sp who="#welt">
+               <speaker>WELT</speaker>
+               <stage>ruft ihre Knechte an, auf die sechs Toten hindeutend.</stage>
+               <p>Wollt ihr noch immer mit einem Ichts prunken, ihr Toten! so fahre meiner Verwesung
+            grüner Sturm an euch und wirble euch elende Schatten dahin, daß ihr in tausend Nichts
+            zerstäubet! Eilig!</p>
+               <stage>Ein Sturm hebt an.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>gebietet dem Sturm Stille, der sich sogleich legt.</stage>
+               <p>Tritt weg, Welt, denn deinen Auftrag hast du erfüllt, und dein Meister ist mit dir
+            zufrieden. Diese aber sind dir nicht mehr untergeben: es sind Seelen, unzerstörbare, und
+            was dein Auge an <pb n="162" facs="#f0057"/> ihnen für eine Miene nimmt, das ist das Siegel ihrer
+            geistigen Wesenheit, damit Er sie gesiegelt hat. Daran rühren deine Stürme nicht. – Du
+            bist entlassen.</p>
+               <stage>Welt neigt sich und tritt zurück.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <lg>
+                  <l>Du aber, dem des Bettlers Rolle war,</l>
+                  <l>Dein Spiel vor deinen Spielgenossen allen</l>
+                  <l>Hat unserm Meister Wohlgefallen.</l>
+                  <l>So tritt in den Palast und sei von Ihm bedankt,</l>
+                  <l>Und brich mit Ihm das Brot, vor dem die Hölle bangt.</l>
+               </lg>
+               <stage>Bettler läßt die andern los und tritt heran.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <lg>
+                  <l>Nächst ihm hast, Weisheit, du im Spiel bestanden,</l>
+                  <l>Doch deine Rolle war die minder schwere,</l>
+                  <l>Nächst ihm sei dir des Spieles Preis und Ehre.</l>
+               </lg>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT</speaker>
+               <stage>tritt heran.</stage>
+               <lg>
+                  <l>Und diese hier, die hilflos stehn und zittern,</l>
+                  <l>Beinah vergehend, Höll und Himmel wittern?</l>
+               </lg>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <lg>
+                  <l>Reich ihnen, Wesen hoher Werke,</l>
+                  <l>Mit deiner Hand ein Etwas deiner Stärke.</l>
+                  <l>Verbunden euch durch goldne Gnadenkette,</l>
+                  <l>Hier vor dem Tor sei ihres Harrens Stätte.</l>
+               </lg>
+               <stage>Da Schönheit, die letzte in der Kette, auch dem Reichen ihre freie Hand hinstrecken
+            will.</stage>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL.</speaker>
+               <p>Nicht ihm!</p>
+            </sp>
+            <sp who="#weisheit">
+               <speaker>WEISHEIT.</speaker>
+               <lg>
+                  <l>Ihm nie? O sprich nicht aus das fürchterliche Wort!</l>
+                  <l>Weis ihm den einsam kalten finstern Ort,</l>
+                  <l>Doch sprich kein Nie!</l>
+               </lg>
+            </sp>
+            <sp who="#engel">
+               <speaker>ENGEL</speaker>
+               <stage>deutet auf eine Stelle unten, wo der Reiche hinkniet; dann zu den andern.</stage>
+               <lg>
+                  <l>Hinauf! Vor Meisters Angesicht!</l>
+                  <l>Bereitet euch auf ungeheures Licht.</l>
+               </lg>
+               <stage>Er tritt ihnen voran, alle folgen. Aus dem Palast treten fahnenschwenkende Engel.
+            Engel schreitet hinein, Bettler und Weisheit folgen. Schönheit, König und Bauer knien
+            seitlich dem Eingang, der Reiche tiefer unten, im Dunkel. Musik und Gesang.</stage>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>

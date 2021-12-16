@@ -1,0 +1,2108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Leonce und Lena</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118516906">
+                  <forename>Georg</forename>
+                  <surname>Büchner</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:43:38Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000371</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q1751800</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20004637151</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Büchner, Georg/Dramen/Leonce und Lena</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/kscq.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0002-4570-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Georg Büchner: Werke und Briefe. Frankfurt a.M. {13}1979</bibl>
+            <bibl>Georg Büchner: Werke und Briefe. Neue, durchgesehene Ausgabe. Herausgegeben von Fritz Bergemann, 13. Auflage, Frankfurt a.M.: Insel, 1979.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Werke und Briefe</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118516906">
+                        <forename>Georg</forename>
+                        <surname>Büchner</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Fritz</forename>
+                        <surname>Bergemann</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="13">13. Aufl.</edition>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">146 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Insel-Verlag</name>
+                  </publisher>
+                  <pubPlace>Frankfurt a. M.</pubPlace>
+                  <date type="publication">1979</date>
+                  <date type="firstPublication">1838</date>
+                  <date type="firstPublication" subtype="clariah">1838</date>
+                  <date type="firstPublication" subtype="zeno">1838</date>
+                  <date type="firstPublication" subtype="i5">1836</date>
+                  <date type="firstPublication" subtype="gerdracor">1838</date>
+                  <date type="firstPublication" subtype="tgr2017"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d401e304">Entstanden 1836. Erstdruck in: Telegraph für Deutschland (Hamburg), Nr. 76-80, 1838. Uraufführung am 31.5.1895 in München.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="leonce" sex="MALE">
+                  <persName>Leonce</persName>
+               </person>
+               <person xml:id="hofmeister" sex="MALE">
+                  <persName>Hofmeister</persName>
+               </person>
+               <person xml:id="valerio" sex="MALE">
+                  <persName>Valerio</persName>
+               </person>
+               <person xml:id="koenig_peter" sex="MALE">
+                  <persName>König Peter</persName>
+               </person>
+               <person xml:id="erster_kammerdiener" sex="MALE">
+                  <persName>Erster Kammerdiener</persName>
+               </person>
+               <person xml:id="zweiter_kammerdiener" sex="MALE">
+                  <persName>Zweiter Kammerdiener</persName>
+               </person>
+               <person xml:id="diener" sex="MALE">
+                  <persName>Diener</persName>
+               </person>
+               <person xml:id="praesident" sex="MALE">
+                  <persName>Präsident</persName>
+               </person>
+               <personGrp xml:id="der_ganze_staatsrat_im_chor" sex="UNKNOWN">
+                  <name>Der ganze Staatsrat im Chor</name>
+               </personGrp>
+               <person xml:id="rosetta" sex="FEMALE">
+                  <persName>Rosetta</persName>
+               </person>
+               <person xml:id="lena" sex="FEMALE">
+                  <persName>Lena</persName>
+               </person>
+               <person xml:id="gouvernante" sex="FEMALE">
+                  <persName>Gouvernante</persName>
+               </person>
+               <person xml:id="landrat" sex="MALE">
+                  <persName>Landrat</persName>
+               </person>
+               <person xml:id="schulmeister" sex="MALE">
+                  <persName>Schulmeister</persName>
+               </person>
+               <personGrp xml:id="die_bauern" sex="UNKNOWN">
+                  <name>Die Bauern</name>
+               </personGrp>
+               <person xml:id="zeremonienmeister" sex="MALE">
+                  <persName>Zeremonienmeister</persName>
+               </person>
+               <person xml:id="erster_bedienter" sex="MALE">
+                  <persName>Erster Bedienter</persName>
+               </person>
+               <person xml:id="zweiter_bedienter" sex="MALE">
+                  <persName>Zweiter Bedienter</persName>
+               </person>
+               <person xml:id="dritter_bedienter" sex="MALE">
+                  <persName>Dritter Bedienter</persName>
+               </person>
+               <person xml:id="vierter_diener" sex="MALE">
+                  <persName>Vierter Diener</persName>
+               </person>
+               <person xml:id="hofprediger" sex="MALE">
+                  <persName>Hofprediger</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Dramen</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d401e304">
+      <front>
+         <div type="front">
+            <head>Georg Büchner</head>
+            <head>Leonce und Lena</head>
+            <head>Ein Lustspiel</head>
+            <pb n="114" facs="#f0001"/>
+         </div>
+         <div>
+            <castList>
+               <head>Personen.</head>
+               <castItem>König Peter vom Reiche Popo</castItem>
+               <castItem>Prinz Leonce, sein Sohn, verlobt mit</castItem>
+               <castItem>Prinzessin Lena vom Reiche Pipi</castItem>
+               <castItem>Valerio</castItem>
+               <castItem>Die Gouvernante</castItem>
+               <castItem>Der Hofmeister</castItem>
+               <castItem>Der Zeremonienmeister</castItem>
+               <castItem>Der Präsident des Staatsrats</castItem>
+               <castItem>Der Hofprediger</castItem>
+               <castItem>Der Landrat</castItem>
+               <castItem>Der Schulmeister</castItem>
+               <castItem>Rosetta</castItem>
+               <castItem>Bediente, Staatsräte, Bauern etc.</castItem>
+               <pb n="114" facs="#f0002"/>
+            </castList>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Erster Akt</head>
+            <epigraph>
+               <cit>
+                  <quote>
+                     <p>O wär ich doch ein Narr!</p>
+                     <p>Mein Ehrgeiz geht auf eine bunte Jacke.</p>
+                  </quote>
+                  <bibl>(Wie es euch gefällt)</bibl>
+               </cit>
+            </epigraph>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Ein Garten Leonce halb ruhend auf einer Bank. Der Hofmeister.</stage>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Mein Herr, was wollen Sie von mir? Mich auf meinen Beruf vorbereiten? Ich habe alle
+              Hände voll zu tun, ich weiß mir vor Arbeit nicht zu helfen. – Sehen Sie, erst habe ich
+              auf den Stein hier dreihundertfünfundsechzigmal hintereinander zu spucken. Haben Sie
+              das noch nicht probiert? Tun Sie es, es gewährt eine ganz eigne Unterhaltung. Dann –
+              sehen Sie diese Handvoll Sand? <stage>Er nimmt Sand auf, wirft ihn in die Höhe und
+                fängt ihn mit dem Rücken der Hand wieder auf.</stage> – Jetzt werf ich sie in die
+              Höhe. Wollen wir wetten? Wieviel Körnchen hab ich jetzt auf dem Handrücken? Grad oder
+              ungrad? – Wie? Sie wollen nicht wetten? Sind Sie ein Heide? Glauben Sie an Gott? Ich
+              wette gewöhnlich mit mir selbst und kann es tagelang so treiben. Wenn Sie einen
+              Menschen aufzutreiben wissen, der Lust hätte, manchmal mit mir zu wetten, so werden
+              Sie mich sehr verbinden. Dann – habe ich nachzudenken, wie es wohl angehn mag, daß ich
+              mir auf den Kopf sehe. O, wer sich einmal auf den Kopf sehen könnte! Das ist eins von
+              meinen Idealen. Mir wäre geholfen. Und dann – und dann noch unendlich viel der Art. –
+              Bin ich ein Müßiggänger? Habe ich jetzt keine Beschäftigung? – Ja, es ist traurig
+              ...</p>
+               </sp>
+               <sp who="#hofmeister">
+                  <speaker>HOFMEISTER.</speaker>
+                  <p>Sehr traurig, Euer Hoheit.</p>
+                  <pb n="115" facs="#f0003"/>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Daß die Wolken schon seit drei Wochen von Westen nach Osten ziehen. Es macht mich
+              ganz melancholisch.</p>
+               </sp>
+               <sp who="#hofmeister">
+                  <speaker>HOFMEISTER.</speaker>
+                  <p>Eine sehr gegründete Melancholie.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Mensch, warum widersprechen Sie mir nicht? Sie haben dringende Geschäfte, nicht wahr?
+              Es ist mir leid, daß ich Sie so lange aufgehalten habe. <stage>Der Hofmeister entfernt
+                sich mit einer tiefen Verbeugung.</stage> Mein Herr, ich gratuliere Ihnen zu der
+              schönen Parenthese, die Ihre Beine machen, wenn Sie sich verbeugen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>allein, streckt sich auf der Bank aus.</stage>
+                  <p>Die Bienen sitzen so träg an den Blumen, und der Sonnenschein liegt so faul auf dem
+              Boden. Es krassiert ein entsetzlicher Müßiggang. – Müßiggang ist aller Laster Anfang.
+              – Was die Leute nicht alles aus Langeweile treiben! Sie studieren aus Langeweile, sie
+              beten aus Langeweile, sie verlieben, verheiraten und vermehren sich aus Langeweile und
+              sterben endlich aus Langeweile, und – und das ist der Humor davon – alles mit den
+              wichtigsten Gesichtern, ohne zu merken, warum, und meinen Gott weiß was dazu. Alle
+              diese Helden, diese Genies, diese Dummköpfe, diese Heiligen, diese Sünder, diese
+              Familienväter sind im Grunde nichts als raffinierte Müßiggänger. – Warum muß ich es
+              gerade wissen? Warum kann ich mir nicht wichtig werden und der armen Puppe einen Frack
+              anziehen und einen Regenschirm in die Hand geben, daß sie sehr rechtlich und sehr
+              nützlich und sehr moralisch würde? – Der Mann, der eben von mir ging, ich beneidete
+              ihn, ich hätte ihn aus Neid prügeln mögen. O, wer einmal jemand anders sein könnte!
+              Nur 'ne Minute lang. – <stage>Valerio, etwas betrunken, tritt auf.</stage> Wie der
+              Mensch läuft! Wenn ich nur etwas unter der Sonne wüßte, was mich noch könnte laufen
+              machen.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>stellt sich dicht vor den Prinzen, legt den Finger an die Nase und sieht ihn
+              starr an.</stage>
+                  <p>Ja!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>ebenso.</stage>
+                  <p>Richtig!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Haben Sie mich begriffen?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Vollkommen.</p>
+                  <pb n="116" facs="#f0004"/>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Nun, so wollen wir von etwas anderm reden. <stage>Er legt sich ins Gras.</stage> Ich
+              werde mich indessen in das Gras legen und meine Nase oben zwischen den Halmen
+              herausblühen lassen und romantische Empfindungen beziehen, wenn die Bienen und
+              Schmetterlinge sich darauf wiegen wie auf einer Rose.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Aber Bester, schnaufen Sie nicht so stark, oder die Bienen und Schmetterlinge müssen
+              verhungern über den ungeheuren Prisen, die Sie aus den Blumen ziehen.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ach Herr, was ich ein Gefühl für die Natur habe! Das Gras steht so schön, daß man ein
+              Ochs sein möchte, um es fressen zu können, und dann wieder ein Mensch, um den Ochsen
+              zu essen, der solches Gras gefressen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Unglücklicher, Sie scheinen auch an Idealen zu laborieren.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Es ist ein Jammer! Man kann keinen Kirchturm herunterspringen, ohne den Hals zu
+              brechen. Man kann keine vier Pfund Kirschen mit den Steinen essen, ohne Leibweh zu
+              kriegen. Seht, Herr, ich könnte mich in eine Ecke setzen und singen vom Abend bis zum
+              Morgen: »Hei, da sitzt e Fleig an der Wand! Fleig an der Wand! Fleig an der Wand!« und
+              so fort bis zum Ende meines Lebens.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Halt's Maul mit deinem Lied, man könnte darüber ein Narr werden.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>So wäre man doch etwas. Ein Narr! Ein Narr! Wer will mir seine Narrheit gegen meine
+              Vernunft verhandeln? – Ha, ich bin ein Alexander der Große! Wie mir die Sonne eine
+              goldne Krone in die Haare scheint, wie meine Uniform blitzt! Herr Generalissimus
+              Heupferd, lassen Sie die Truppen anrücken! Herr Finanzminister Kreuzspinne, ich
+              brauche Geld! Liebe Hofdame Libelle, was macht meine teure Gemahlin Bohnenstange? Ach
+              bester Herr Leibmedicus Kantharide, ich bin um einen Erbprinzen verlegen. Und zu
+              diesen köstlichen Phantasieen bekommt man gute Suppe, gutes Fleisch, gutes Brot, ein
+              gutes Bett und das Haar umsonst geschoren – im Narrenhaus nämlich –, während ich mit
+              meiner gesunden <pb n="117" facs="#f0005"/> Vernunft mich höchstens noch zur Beförderung der Reife
+              auf einen Kirschbaum verdingen könnte, um – nun? – um?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Um die Kirschen durch die Löcher in deinen Hosen schamrot zu machen! Aber, Edelster,
+              dein Handwerk, deine Profession, dein Gewerbe, dein Stand, deine Kunst?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>mit Würde.</stage>
+                  <p>Herr, ich habe die große Beschäftigung, müßig zu gehen; ich habe eine ungemeine
+              Fertigkeit in Nichtstun; ich besitze eine ungeheure Ausdauer in der Faulheit. Keine
+              Schwiele schändet meine Hände, der Boden hat noch keinen Tropfen von meiner Stirne
+              getrunken, ich bin noch Jungfrau in der Arbeit; und wenn es mir nicht der Mühe zuviel
+              wäre, würde ich mir die Mühe nehmen, Ihnen diese Verdienste weitläufiger
+              auseinanderzusetzen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>mit komischem Enthusiasmus.</stage>
+                  <p>Komm an meine Brust! Bist du einer von den Göttlichen, welche mühelos mit reiner
+              Stirne durch den Schweiß und Staub über die Heerstraße des Lebens wandeln, und mit
+              glänzenden Sohlen und blühenden Leibern gleich seligen Göttern in den Olympus treten?
+              Komm! Komm!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>singt im Abgehen.</stage>
+                  <p>Hei, da sitzt e Fleig an der Wand! Fleig an der Wand! Fleig an der Wand! <stage>Beide
+                Arm in Arm ab.</stage>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Ein Zimmer.</stage>
+               <stage>König Peter wird von zwei Kammerdienern angekleidet.</stage>
+               <sp who="#koenig_peter">
+                  <speaker>PETER</speaker>
+                  <stage>während er angekleidet wird.</stage>
+                  <p>Der Mensch muß denken, und ich muß für meine Untertanen denken; denn sie denken
+              nicht, sie denken nicht. – Die Substanz ist das An-sich, das bin ich. <stage>Er läuft
+                fast nackt im Zimmer herum.</stage> Begriffen? An-sich ist an sich, versteht ihr?
+              Jetzt kommen meine Attribute, Modifikationen, Affektionen und Akzidenzien: wo ist mein
+              Hemd, meine Hose? – Halt, pfui! der freie Wille steht da vorn ganz offen. Wo ist die
+              Moral: wo sind die Manschetten? Die Kategorieen sind in der schändlichsten Verwirrung:
+              es sind zwei Knöpfe zuviel zugeknöpft, die Dose steckt in der rechten Tasche; <pb n="118" facs="#f0006"/> mein ganzes System ist ruiniert. – Ha, was bedeutet der Knopf im
+              Schnupftuch? Kerl, was bedeutet der Knopf, an was wollte ich mich erinnern?</p>
+               </sp>
+               <sp who="#erster_kammerdiener">
+                  <speaker>ERSTER KAMMERDIENER.</speaker>
+                  <p>Als Eure Majestät diesen Knopf in Ihr Schnupftuch zu knüpfen geruhten, so wollten Sie
+              –</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>KÖNIG.</speaker>
+                  <p>Nun?</p>
+               </sp>
+               <sp who="#erster_kammerdiener">
+                  <speaker>ERSTER KAMMERDIENER.</speaker>
+                  <p>Sich an etwas erinnern.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Eine verwickelte Antwort! – Ei! Nun, und was meint Er?</p>
+               </sp>
+               <sp who="#zweiter_kammerdiener">
+                  <speaker>ZWEITER KAMMERDIENER.</speaker>
+                  <p>Eure Majestät wollten sich an etwas erinnern, als Sie diesen Knopf in Ihr Schnupftuch
+              zu knüpfen geruhten.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER</speaker>
+                  <stage>läuft auf und ab.</stage>
+                  <p>Was? Was? Die Menschen machen mich konfus, ich bin in der größten Verwirrung. Ich
+              weiß mir nicht mehr zu helfen.</p>
+                  <stage>Ein Diener tritt auf.</stage>
+               </sp>
+               <sp who="#diener">
+                  <speaker>DIENER.</speaker>
+                  <p>Eure Majestät, der Staatsrat ist versammelt.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER</speaker>
+                  <stage>freudig.</stage>
+                  <p>Ja, das ist's, das ist's: Ich wollte mich an mein Volk erinnern. – Kommen Sie, meine
+              Herren! Gehen Sie symmetrisch. Ist es nicht sehr heiß? Nehmen Sie doch auch Ihre
+              Schnupftücher und wischen Sie sich das Gesicht! Ich bin immer so in Verlegenheit, wenn
+              ich öffentlich sprechen soll. <stage>Alle ab.</stage>
+                  </p>
+                  <stage>König Peter. Der Staatsrat.</stage>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Meine Lieben und Getreuen, ich wollte euch hiermit kund und zu wissen tun, kund und
+              zu wissen tun – denn, entweder verheiratet sich mein Sohn, oder nicht – <stage>Legt
+                den Finger an die Nase.</stage> entweder, oder – ihr versteht mich doch? Ein Drittes
+              gibt es nicht. Der Mensch muß denken. <stage>Steht eine Zeit lang sinnend.</stage>
+              Wenn ich so laut rede, so weiß ich nicht, wer es eigentlich ist, ich oder ein anderer;
+              das ängstigt mich. <stage>Nach langem Besinnen</stage>. Ich bin ich. – Was halten Sie
+              davon, Präsident?</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT</speaker>
+                  <stage>gravitätisch langsam.</stage>
+                  <p>Eure Majestät, vielleicht ist es so, vielleicht ist es aber auch nicht so.</p>
+               </sp>
+               <sp who="#der_ganze_staatsrat_im_chor">
+                  <speaker>DER GANZE STAATSRAT IM CHOR.</speaker>
+                  <p>Ja, vielleicht ist es so, vielleicht ist es aber auch nicht so.</p>
+                  <pb n="119" facs="#f0007"/>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER</speaker>
+                  <stage>mit Rührung.</stage>
+                  <p>O meine Weisen! – Also von was war eigentlich die Rede? Von was wollte ich sprechen?
+              Präsident, was haben Sie ein so kurzes Gedächtnis bei einer so feierlichen
+              Gelegenheit? Die Sitzung ist aufgehoben.</p>
+                  <stage>Er entfernt sich feierlich, der ganze Staatsrat folgt ihm.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Ein reichgeschmückter Saal. Kerzen brennen.</stage>
+               <stage>Leonce mit einigen Dienern.</stage>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Sind alle Läden geschlossen? Zündet die Kerzen an! Weg mit dem Tag! Ich will Nacht,
+              tiefe ambrosische Nacht. Stellt die Lampen unter Kristallglocken zwischen die
+              Oleander, daß sie wie Mädchenaugen unter den Wimpern der Blätter hervorträumen. Rückt
+              die Rosen näher, daß der Wein wie Tautropfen auf die Kelche sprudle. Musik! Wo sind
+              die Violinen? Wo ist die Rosetta? – Fort! Alle hinaus!</p>
+                  <stage>Die Diener gehen ab.</stage>
+                  <stage>Leonce streckt sich auf ein Ruhebett.</stage>
+                  <stage>Rosetta, zierlich gekleidet, tritt ein.</stage>
+                  <stage>Man hört Musik aus der Ferne.</stage>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA</speaker>
+                  <stage>nähert sich schleichend.</stage>
+                  <p>Leonce!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Rosetta!</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Leonce!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Rosetta!</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Deine Lippen sind träg. Vom Küssen?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Vom Gähnen!</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Oh!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ach Rosetta, ich habe die entsetzliche Arbeit ...</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Nun?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Nichts zu tun ...</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Als zu lieben?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Freilich Arbeit!</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA</speaker>
+                  <stage>beleidigt.</stage>
+                  <p>Leonce!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Oder Beschäftigung.</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Oder Müßiggang.</p>
+                  <pb n="120" facs="#f0008"/>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Du hast recht wie immer. Du bist ein kluges Mädchen, und ich halte viel auf deinen
+              Scharfsinn.</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>So liebst du mich aus Langeweile?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Nein, ich habe Langeweile, weil ich dich liebe. Aber ich liebe meine Langeweile wie
+              dich. Ihr seid eins. O dolce far niente! Ich träume über deinen Augen wie an
+              wunderheimlichen tiefen Quellen, das Kosen deiner Lippen schläfert mich ein wie
+              Wellenrauschen. <stage>Er umfaßt sie.</stage> Komm, liebe Langeweile, deine Küsse sind
+              ein wollüstiges Gähnen, und deine Schritte sind ein zierlicher Hiatus.</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Du liebst mich, Leonce?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ei warum nicht?</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Und immer?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Das ist ein langes Wort: immer! Wenn ich dich nun noch fünftausend Jahre und sieben
+              Monate liebe, ist's genug? Es ist zwar viel weniger als immer, ist aber doch eine
+              erkleckliche Zeit, und wir können uns Zeit nehmen, uns zu lieben.</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Oder die Zeit kann uns das Lieben nehmen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Oder das Lieben uns die Zeit. Tanze, Rosetta, tanze, daß die Zeit mit dem Takt deiner
+              niedlichen Füße geht!</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Meine Füße gingen lieber aus der Zeit.</p>
+                  <stage>Sie tanzt und singt.</stage>
+                  <lg>
+                     <l>O meine müden Füße, ihr müßt tanzen</l>
+                     <l>In bunten Schuhen,</l>
+                     <l>Und möchtet lieber tief, tief</l>
+                     <l>Im Boden ruhen.</l>
+                  </lg>
+                  <lg>
+                     <l>O meine heißen Wangen, ihr müßt glühen</l>
+                     <l>Im wilden Kosen,</l>
+                     <l>Und möchtet lieber blühen –</l>
+                     <l>Zwei weiße Rosen.</l>
+                  </lg>
+                  <lg>
+                     <l>O meine armen Augen, ihr müßt blitzen</l>
+                     <l>Im Strahl der Kerzen,</l>
+                     <l>Und schlieft im Dunkel lieber aus</l>
+                     <l>Von euren Schmerzen.</l>
+                     <pb n="121" facs="#f0009"/>
+                  </lg>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>indes träumend vor sich hin.</stage>
+                  <p>O, eine sterbende Liebe ist schöner als eine werdende. Ich bin ein Römer; bei dem
+              köstlichen Mahle spielen zum Dessert die goldnen Fische in ihren Todesfarben. Wie ihr
+              das Rot von den Wangen stirbt, wie still das Auge ausglüht, wie leis das Wogen ihrer
+              Glieder steigt und fällt! Adio, adio, meine Liebe, ich will deine Leiche lieben.
+                <stage>Rosetta nähert sich ihm wieder.</stage> Tränen, Rosetta? Ein feiner
+              Epikuräismus, weinen zu können. Stelle dich in die Sonne, damit die köstlichen Tropfen
+              kristallisieren, es muß prächtige Diamanten geben. Du kannst dir ein Halsband daraus
+              machen lassen.</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Wohl Diamanten, sie schneiden mir in die Augen. Ach, Leonce!</p>
+                  <stage>Will ihn umfassen.</stage>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Gib acht! Mein Kopf! Ich habe unsere Liebe darin beigesetzt. Sieh zu den Fenstern
+              meiner Augen hinein! Siehst du, wie schön tot das arme Ding ist? Siehst du die zwei
+              weißen Rosen auf seinen Wangen und die zwei roten auf seiner Brust? Stoß mich nicht,
+              daß ihm kein Ärmchen abbricht, es wäre schade. Ich muß meinen Kopf gerade auf den
+              Schultern tragen, wie die Totenfrau einen Kindersarg.</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA</speaker>
+                  <stage>scherzend.</stage>
+                  <p>Narr!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Rosetta! <stage>Rosetta macht ihm eine Fratze.</stage> Gott sei Dank! <stage>Hält
+                sich die Augen zu.</stage>
+                  </p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA</speaker>
+                  <stage>erschrocken.</stage>
+                  <p>Leonce, sieh mich an!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Um keinen Preis!</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA.</speaker>
+                  <p>Nur einen Blick!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Keinen! Was meinst du: um ein klein wenig, und meine liebe Liebe käme wieder auf die
+              Welt. Ich bin froh, daß ich sie begraben habe. Ich behalte den Eindruck.</p>
+               </sp>
+               <sp who="#rosetta">
+                  <speaker>ROSETTA</speaker>
+                  <stage>entfernt sich traurig und langsam, sie singt im Abgehn.</stage>
+                  <lg>
+                     <l>Ich bin eine arme Waise,</l>
+                     <l>Ich fürchte mich ganz allein.</l>
+                     <l>Ach, lieber Gram –</l>
+                     <l>Willst du nicht kommen mit mir heim?</l>
+                  </lg>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>allein.</stage>
+                  <p>Ein sonderbares Ding um die Liebe. Man liegt <pb n="122" facs="#f0010"/> ein Jahr lang
+              schlafwachend zu Bette, und an einem schönen Morgen wacht man auf, trinkt ein Glas
+              Wasser, zieht seine Kleider an und fährt sich mit der Hand über die Stirn und besinnt
+              sich – und besinnt sich. – Mein Gott, wie viel Weiber hat man nötig, um die Skala der
+              Liebe auf und ab zu singen? Kaum, daß eine einen Ton ausfüllt. Warum ist der Dunst
+              über unsrer Erde ein Prisma, das den weißen Glutstrahl der Liebe in einen Regenbogen
+              bricht? – <stage>Er trinkt.</stage> In welcher Bouteille steckt denn der Wein, an dem
+              ich mich heute betrinken soll? Bringe ich es nicht einmal mehr so weit? Ich sitze wie
+              unter einer Luftpumpe. Die Luft so scharf und dünn, daß mich friert, als sollte ich in
+              Nankinghosen Schlittschuh laufen. – Meine Herren, meine Herren, wißt ihr auch, was
+              Caligula und Nero waren? Ich weiß es. – Komm, Leonce, halte mir einen Monolog, ich
+              will zuhören. Mein Leben gähnt mich an wie ein großer weißer Bogen Papier, den ich
+              vollschreiben soll, aber ich bringe keinen Buchstaben heraus. Mein Kopf ist ein leerer
+              Tanzsaal, einige verwelkte Rosen und zerknitterte Bänder auf dem Boden, geborstene
+              Violinen in der Ecke, die letzten Tänzer haben die Masken abgenommen und sehen mit
+              todmüden Augen einander an. Ich stülpe mich jeden Tag vierundzwanzigmal herum wie
+              einen Handschuh. O, ich kenne mich, ich weiß, was ich in einer Viertelstunde, was ich
+              in acht Tagen, was ich in einem Jahr denken und träumen werde. Gott, was habe ich denn
+              verbrochen, daß du mich wie einen Schulbuben meine Lektion so oft hersagen läßt? –
+              Bravo, Leonce! Bravo! <stage>Er klatscht.</stage> Es tut mir ganz wohl, wenn ich mir
+              so rufe. He, Leonce! Leonce!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>unter einem Tisch hervor.</stage>
+                  <p>Eure Hoheit scheint mir wirklich auf dem besten Weg, ein wahrhaftiger Narr zu
+              werden.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ja, beim Licht besehen, kommt es mir eigentlich ebenso vor.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Warten Sie, wir wollen uns darüber sogleich ausführlicher unterhalten! Ich habe nur
+              noch ein Stück Braten <pb n="123" facs="#f0011"/> zu verzehren, das ich aus der Küche, und etwas
+              Wein, den ich von Ihrem Tische gestohlen. Ich bin gleich fertig.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Das schmatzt! Der Kerl verursacht mir ganz idyllische Empfindungen; ich könnte wieder
+              mit dem Einfachsten anfangen, ich könnte Käs essen, Bier trinken, Tabak rauchen. Mach
+              fort, grunze nicht so mit deinem Rüssel, und klappre mit deinen Hauern nicht so!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Wertester Adonis, sind Sie in Angst um Ihre Schenkel? Sein Sie unbesorgt, ich bin
+              weder ein Besenbinder noch ein Schulmeister; ich brauche keine Gerten zu Ruten.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Du bleibst nichts schuldig.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ich wollte, es ginge meinem Herrn ebenso.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Meinst du, damit du zu deinen Prügeln kämst? Bist du so besorgt um deine
+              Erziehung?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>O Himmel, man kömmt leichter zu seiner Erzeugung als zu seiner Erziehung. Es ist
+              traurig, in welche Umstände einen anderer Umstände versetzen können! Was für Wochen
+              hab ich erlebt, seit meine Mutter in die Wochen kam! Wie viel Gutes hab ich empfangen,
+              das ich meiner Empfängnis zu danken hätte?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Was deine Empfänglichkeit betrifft, so könnte sie es nicht besser treffen, um
+              getroffen zu werden. Drück dich besser aus, oder willst du den unangenehmsten Eindruck
+              von meinem Nachdruck haben.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Als meine Mutter um das Vorgebirg der guten Hoffnung schiffte ...</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Und dein Vater am Kap Horn Schiffbruch litt ...</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Richtig, denn er war Nachtwächter. Doch setzte er das Horn nicht so oft an die Lippen
+              als die Väter edler Söhne an die Stirn.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Mensch, du besitzest eine himmlische Unverschämtheit. Ich fühle ein gewisses
+              Bedürfnis, mich in nähere Berührung mit ihr zu setzen. Ich habe eine große Passion,
+              dich zu prügeln.</p>
+                  <pb n="124" facs="#f0012"/>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Das ist eine schlagende Antwort und ein triftiger Beweis.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>geht auf ihn los.</stage>
+                  <p>Oder du bist eine geschlagene Antwort. Denn du bekommst Prügel für deine Antwort.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>läuft weg, Leonce stolpert und fällt.</stage>
+                  <p>Und Sie sind ein Beweis, der noch geführt werden muß; denn er fällt über seine
+              eigenen Beine, die im Grund genommen selbst noch zu beweisen sind. Es sind höchst
+              unwahrscheinliche Waden und sehr problematische Schenkel.</p>
+                  <stage>Der Staatsrat tritt auf.</stage>
+                  <stage>Leonce bleibt auf dem Boden sitzen. Valerio.</stage>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Eure Hoheit verzeihen ...</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Wie mir selbst! Wie mir selbst! Ich verzeihe mir die Gutmütigkeit, Sie anzuhören.
+              Meine Herren, wollen Sie nicht Platz nehmen? – Was die Leute für Gesichter machen,
+              wenn sie das Wort ›Platz‹ hören! Setzen Sie sich nur auf den Boden und genieren Sie
+              sich nicht! Es ist doch der letzte Platz, den Sie einst erhalten, aber er trägt
+              niemanden etwas ein – außer dem Totengräber.</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT</speaker>
+                  <stage>verlegen mit dem Finger schnipsend.</stage>
+                  <p>Geruhen Eure Hoheit ...</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Aber schnipsen Sie nicht so mit den Fingern, wenn Sie mich nicht zum Mörder machen
+              wollen!</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT</speaker>
+                  <stage>immer stärker schnipsend.</stage>
+                  <p>Wollen gnädigst, in Betracht ...</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Mein Gott, stecken Sie doch die Hände in die Hosen, oder setzen Sie sich darauf. Er
+              ist ganz aus der Fassung. Sammeln Sie sich!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Man darf Kinder nicht während des P...... unterbrechen, sie bekommen sonst eine
+              Verhaltung.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Mann, fassen Sie sich! Bedenken Sie Ihre Familie und den Staat! Sie riskieren einen
+              Schlagfluß, wenn Ihnen Ihre Rede zurücktritt.</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT</speaker>
+                  <stage>zieht ein Papier aus der Tasche.</stage>
+                  <p>Erlauben Eure Hoheit ...</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Was? Sie können schon lesen? Nun denn ...</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Daß man der zu erwartenden Ankunft von Eurer Hoheit verlobter Braut, der
+              durchlauchtigsten Prinzessin Lena von Pipi, auf morgen sich zu gewärtigen habe, davon
+                <pb n="125" facs="#f0013"/> läßt Ihro königliche Majestät Eure Hoheit benachrichtigen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Wenn meine Braut mich erwartet, so werde ich ihr den Willen tun und sie auf mich
+              warten lassen. Ich habe sie gestern nacht im Traum gesehen, sie hatte ein paar Augen,
+              so groß, daß die Tanzschuhe meiner Rosetta zu Augenbrauen darüber gepaßt hätten, und
+              auf den Wangen waren keine Grübchen, sondern ein paar Abzugsgräben für das Lachen. Ich
+              glaube an Träume. Träumen Sie auch zuweilen, Herr Präsident? Haben Sie auch
+              Ahnungen?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Versteht sich. Immer die Nacht vor dem Tag, an dem ein Braten verbrennt, ein Kapaun
+              krepiert oder Ihre königliche Majestät Leibweh bekommt.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Apropos, hatten Sie nicht noch etwas auf der Zunge? Geben Sie nur alles von sich.</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>An dem Tage der Vermählung ist ein höchster Wille gesonnen, seine allerhöchsten
+              Willensäußerungen in die Hände Eurer Hoheit niederzulegen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Sagen Sie einem höchsten Willen, daß ich alles tun werde, das ausgenommen, was ich
+              werde bleiben lassen, was aber jedenfalls nicht so viel sein wird, als wenn es noch
+              einmal so viel wäre. – Meine Herren, Sie entschuldigen, daß ich Sie nicht begleite,
+              ich habe gerade die Passion zu sitzen, aber meine Gnade ist so groß, daß ich sie mit
+              den Beinen kaum ausmessen kann. <stage>Er spreizt die Beine auseinander.</stage> Herr
+              Präsident, nehmen Sie doch das Maß, damit Sie mich später daran erinnern. Valerio, gib
+              den Herren das Geleite!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Das Geläute? Soll ich dem Herrn Präsidenten eine Schelle anhängen? Soll ich sie
+              führen, als ob sie auf allen vieren gingen?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Mensch, du bist nichts als ein schlechtes Wortspiel. Du hast weder Vater noch Mutter,
+              sondern die fünf Vokale haben dich miteinander erzeugt.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Und Sie, Prinz, sind ein Buch ohne Buchstaben, mit nichts als Gedankenstrichen. –
+              Kommen Sie jetzt, meine <pb n="126" facs="#f0014"/> Herren! Es ist eine traurige Sache um das Wort
+              ›kommen‹. Will man ein Einkommen, so muß man stehlen; an ein Aufkommen ist nicht zu
+              denken, als wenn man sich hängen läßt; ein Unterkommen findet man erst, wenn man
+              begraben wird, und ein Auskommen hat man jeden Augenblick mit seinem Witz, wenn man
+              nichts mehr zu sagen weiß, wie ich zum Beispiel eben, und Sie, <hi rendition="#i">ehe</hi> Sie
+              noch etwas gesagt haben. Ihr Abkommen haben Sie gefunden, und Ihr Fortkommen werden
+              Sie jetzt zu suchen ersucht.</p>
+                  <stage>Staatsrat und Valerio ab.</stage>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>allein.</stage>
+                  <p>Wie gemein ich mich zum Ritter an den armen Teufeln gemacht habe! Es steckt nun aber
+              doch einmal ein gewisser Genuß in einer gewissen Gemeinheit. – Hm! Heiraten! Das heißt
+              einen Ziehbrunnen leer trinken. O Shandy, alter Shandy, wer mir deine Uhr schenkte! –
+                <stage>Valerio kommt zurück.</stage> Ach, Valerio, hast du es gehört?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Nun, Sie sollen König werden. Das ist eine lustige Sache. Man kann den ganzen Tag
+              spazieren fahren und den Leuten die Hüte verderben durchs viele Abziehen; man kann aus
+              ordentlichen Menschen ordentliche Soldaten ausschneiden, so daß alles ganz natürlich
+              wird; man kann schwarze Fräcke und weiße Halsbinden zu Staatsdienern machen; und wenn
+              man stirbt, so laufen alle blanken Knöpfe blau an, und die Glockenstricke reißen wie
+              Zwirnsfäden vom vielen Läuten. Ist das nicht unterhaltend?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Valerio! Valerio! Wir müssen was anderes treiben. Rate!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ach, die Wissenschaft, die Wissenschaft! Wir wollen Gelehrte werden! A priori? oder a
+              posteriori?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>A priori, das muß man bei meinem Herrn Vater lernen; und a posteriori fängt alles an,
+              wie ein altes Märchen: es war einmal.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>So wollen wir Helden werden! <stage>Er marschiert trompetend und trommelnd auf und
+                ab.</stage> Trom – trom – pläre – plem!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Aber der Heroismus fuselt abscheulich und bekommt das Lazarettfieber und kann ohne
+              Leutnants und Rekruten <pb n="127" facs="#f0015"/> nicht bestehen. Pack dich mit deiner Alexanders-
+              und Napoleonsromantik!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>So wollen wir Genies werden!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Die Nachtigall der Poesie schlägt den ganzen Tag über unserm Haupt, aber das Feinste
+              geht zum Teufel, bis wir ihr die Federn ausreißen und in die Tinte oder die Farbe
+              tauchen.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>So wollen wir nützliche Mitglieder der menschlichen Gesellschaft werden!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Lieber möchte ich meine Demission als Mensch geben.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>So wollen wir zum Teufel gehen!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ach, der Teufel ist nur des Kontrastes wegen da, damit wir begreifen sollen, daß am
+              Himmel doch eigentlich etwas sei. <stage>Aufspringend.</stage> Ah, Valerio, Valerio,
+              jetzt hab ich's! Fühlst du nicht das Wehen aus Süden? Fühlst du nicht, wie der
+              tiefblaue, glühende Äther auf und ab wogt, wie das Licht blitzt von dem goldnen,
+              sonnigen Boden, von der heiligen Salzflut und von den Marmorsäulen und –leibern? Der
+              große Pan schläft, und die ehernen Gestalten träumen im Schatten über den
+              tiefrauschenden Wellen von dem alten Zaubrer Virgil, von Tarantella und Tamburin und
+              tiefen, tollen Nächten voll Masken, Fackeln und Gitarren. Ein Lazzaroni! Valerio, ein
+              Lazzaroni! Wir gehen nach Italien.</p>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Ein Garten.</stage>
+               <stage>Prinzessin Lena im Brautschmuck. Die Gouvernante.</stage>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Ja, jetzt! Da ist es. Ich dachte die Zeit an nichts. Es ging so hin, und auf einmal
+              richtet sich <hi rendition="#i">der</hi> Tag vor mir auf. Ich habe den Kranz im Haar – und die
+              Glocken, die Glocken! <stage>Sie lehnt sich zurück und schließt die Augen.</stage>
+              Sieh, ich wollte, der Rasen wüchse so über mich, und die Bienen summten über mir hin;
+              sieh, jetzt bin ich eingekleidet und habe Rosmarin im Haar. Gibt es nicht ein altes
+              Lied:</p>
+                  <p>Auf dem Kirchhof will ich liegen,</p>
+                  <p>Wie ein Kindlein in der Wiegen.</p>
+                  <pb n="128" facs="#f0016"/>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Armes Kind, wie Sie bleich sind unter Ihren blitzenden Steinen!</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>O Gott, ich könnte lieben, warum nicht? Man geht ja so einsam und tastet nach einer
+              Hand, die einen hielte, bis die Leichenfrau die Hände auseinander nähme und sie jedem
+              über der Brust faltete. Aber warum schlägt man einen Nagel durch zwei Hände, die sich
+              nicht suchten? Was hat meine arme Hand getan? <stage>Sie zieht einen Ring vom
+                Finger.</stage> Dieser Ring sticht mich wie eine Natter.</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Aber – er soll ja ein wahrer Don Carlos sein!</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Aber – ein Mann ...</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Nun?</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Den man nicht liebt. <stage>Sie erhebt sich.</stage> Pfui! Siehst du, ich schäme
+              mich. – Morgen ist aller Duft und Glanz von mir gestreift. Bin ich denn wie die arme,
+              hülflose Quelle, die jedes Bild, das sich über sie bückt, in ihrem stillen Grund
+              abspiegeln muß? Die Blumen öffnen und schließen, wie sie wollen, ihre Kelche der
+              Morgensonne und dem Abendwind. Ist denn die Tochter eines Königs weniger als eine
+              Blume?</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE</speaker>
+                  <stage>weinend.</stage>
+                  <p>Lieber Engel, du bist doch ein wahres Opferlamm!</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Jawohl, und der Priester hebt schon das Messer. – Mein Gott, mein Gott, ist es denn
+              wahr, daß wir uns selbst erlösen müssen mit unserm Schmerz? Ist es denn wahr, die Welt
+              sei ein gekreuzigter Heiland, die Sonne seine Dornenkrone, und die Sterne die Nägel
+              und Speere in seinen Füßen und Lenden?</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Mein Kind, mein Kind! Ich kann dich nicht so sehen. Es kann nicht so gehen, es tötet
+              dich. – Vielleicht, wer weiß! Ich habe so etwas im Kopf. Wir wollen sehen. Komm!
+                <stage>Sie führt die Prinzessin weg.</stage>
+                  </p>
+                  <pb n="129" facs="#f0017"/>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Akt</head>
+            <epigraph>
+               <cit>
+                  <quote>
+                     <p>Wie ist mir eine Stimme doch erklungen</p>
+                     <p>Im tiefsten Innern,</p>
+                     <p>Und hat mit einem Male mir verschlungen</p>
+                     <p>All mein Erinnern.</p>
+                  </quote>
+                  <bibl>Adalbert von Chamisso</bibl>
+               </cit>
+            </epigraph>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Freies Feld. Ein Wirtshaus im Hintergrund Leonce und Valerio, der einen Pack trägt,
+            treten auf.</stage>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>keuchend.</stage>
+                  <p>Auf Ehre, Prinz, die Welt ist doch ein ungeheuer weitläufiges Gebäude.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Nicht doch! Nicht doch! Ich wage kaum die Hände auszustrecken, wie in einem engen
+              Spiegelzimmer, aus Furcht, überall anzustoßen, daß die schönen Figuren in Scherben auf
+              dem Boden lägen und ich vor der kahlen nackten Wand stünde.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ich bin verloren.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Da wird niemand einen Verlust dabei haben, als wer dich findet.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ich werde mich nächstens in den Schatten meines Schattens stellen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Du verflüchtigst dich ganz an der Sonne. Siehst du die schöne Wolke da oben? Sie ist
+              wenigstens ein Viertel von dir. Sie sieht ganz wohlbehaglich auf deine gröberen
+              materiellen Stoffe herab.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Die Wolke könnte Ihrem Kopf nichts schaden, wenn man sie Ihnen Tropfen für Tropfen
+              darauf fallen ließe. – Ein köstlicher Einfall! Wir sind schon durch ein Dutzend
+              Fürstentümer, durch ein halbes Dutzend Großherzogtümer und durch ein paar Königreiche
+              gelaufen, und das in der größten Übereilung in einem halben Tag – und warum? Weil man
+              König werden und eine schöne Prinzessin heiraten soll! Und Sie leben noch in einer
+              solchen Lage? Ich begreife Ihre Resignation <pb n="130" facs="#f0018"/> nicht. Ich begreife nicht,
+              daß Sie nicht Arsenik genommen, sich auf das Geländer des Kirchturms gestellt und sich
+              eine Kugel durch den Kopf gejagt haben, um es ja nicht zu verfehlen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Aber Valerio, die Ideale! Ich habe das Ideal eines Frauenzimmers in mir und muß es
+              suchen. Sie ist unendlich schön und unendlich geistlos. Die Schönheit ist da so
+              hülflos, so rührend wie ein neugebornes Kind. Es ist ein köstlicher Kontrast: diese
+              himmlisch stupiden Augen, dieser göttlich einfältige Mund, dieses schafnasige
+              griechische Profil, dieser geistige Tod in diesem geistlosen Leib.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Teufel! da sind wir schon wieder auf der Grenze. Das ist ein Land wie eine Zwiebel:
+              nichts als Schalen, oder wie ineinandergesteckte Schachteln: in der größten sind
+              nichts als Schachteln und in der kleinsten ist gar nichts. <stage>Er wirft seinen Pack
+                zu Boden.</stage> Soll denn dieser Pack mein Grabstein werden? Sehen Sie, Prinz –
+              ich werde philosophisch –, ein Bild des menschlichen Lebens: Ich schleppe diesen Pack
+              mit wunden Füßen durch Frost und Sonnenbrand, weil ich abends ein reines Hemd anziehen
+              will, und wenn endlich der Abend kommt, so ist meine Stirn gefurcht, meine Wange hohl,
+              mein Auge dunkel, und ich habe grade noch Zeit, mein Hemd anzuziehen, als Totenhemd.
+              Hätte ich nun nicht gescheiter getan, ich hätte mein Bündel vom Stecken gehoben und es
+              in der ersten besten Kneipe verkauft, und hätte mich dafür betrunken und im Schatten
+              geschlafen, bis es Abend geworden wäre, und hätte nicht geschwitzt und mir keine
+              Leichdörner gelaufen? Und, Prinz, jetzt kommt die Anwendung und die Praxis: aus lauter
+              Schamhaftigkeit wollen wir jetzt auch den inneren Menschen bekleiden und Rock und
+              Hosen inwendig anziehen. <stage>Beide gehen auf das Wirtshaus los.</stage> Ei, du
+              lieber Pack, welch ein köstlicher Duft, welche Weindüfte und Bratengerüche! Ei, ihr
+              lieben Hosen, wie wurzelt ihr im Boden und grünt und blüht! und die langen, schweren
+              Trauben hängen mir in den Mund, und der Most gärt unter der Kelter. <stage>Sie gehen
+                ab.</stage>
+                  </p>
+                  <stage>
+                     <pb n="131" facs="#f0019"/> Prinzessin Lena, die Gouvernante kommen.</stage>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Es muß ein bezaubernder Tag sein, die Sonne geht nicht unter, und es ist so unendlich
+              lang seit unsrer Flucht.</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Nicht doch, meine Liebe, die Blumen sind ja kaum welk, die ich zum Abschied brach,
+              als wir aus dem Garten gingen.</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Und wo sollen wir ruhen? Wir sind noch auf gar nichts gestoßen. Ich sehe kein
+              Kloster, keinen Eremiten, keinen Schäfer.</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Wir haben alles wohl anders geträumt mit unsern Büchern hinter der Mauer unsers
+              Gartens, zwischen unsern Myrten und Oleandern.</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>O, die Welt ist abscheulich! An einen irrenden Königssohn ist gar nicht zu
+              denken.</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>O, sie ist schön und so weit, so unendlich weit! Ich möchte immer so fort gehen, Tag
+              und Nacht. Es rührt sich nichts. Ein roter Blumenschein spielt über die Wiesen, und
+              die fernen Berge liegen auf der Erde wie ruhende Wolken.</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Du mein Jesus, was wird man sagen? Und doch ist es so zart und weiblich! Es ist eine
+              Entsagung. Es ist wie die Flucht der heiligen Ottilia. Aber wir müssen ein Obdach
+              suchen: es wird Abend!</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Ja, die Pflanzen legen ihre Fiederblättchen zum Schlaf zusammen, und die
+              Sonnenstrahlen wiegen sich an den Grashalmen wie müde Libellen.</p>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Das Wirtshaus auf einer Anhöhe, an einem Fluß. Weite Aussicht. Der Garten vor
+            demselben.</stage>
+               <stage>Valerio. Leonce.</stage>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Nun, Prinz, liefern Ihre Hosen nicht ein köstliches Getränk? Laufen Ihnen Ihre
+              Stiefel nicht mit der größten Leichtigkeit die Kehle hinunter?</p>
+                  <pb n="132" facs="#f0020"/>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Siehst du die alten Bäume, die Hecken, die Blumen? Das alles hat seine Geschichten,
+              seine lieblichen, heimlichen Geschichten. Siehst du die greisen freundlichen Gesichter
+              unter den Reben an der Haustür? Wie sie sitzen und sich bei den Händen halten und
+              Angst haben, daß sie so alt sind und die Welt noch so jung ist. O Valerio, und ich bin
+              so jung, und die Welt ist so alt! Ich bekomme manchmal eine Angst um mich und könnte
+              mich in eine Ecke setzen und heiße Tränen weinen aus Mitleid mit mir.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>gibt ihm ein Glas.</stage>
+                  <p>Nimm diese Glocke, diese Taucherglocke, und senke dich in das Meer des Weines, daß es
+              Perlen über dir schlägt. Sieh, wie die Elfen über dem Kelch der Weinblumen schweben,
+              goldbeschuht, die Cymbeln schlagend.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>aufspringend.</stage>
+                  <p>Komm, Valerio, wir müssen was treiben, was treiben! Wir wollen uns mit tiefen
+              Gedanken abgeben; wir wollen untersuchen, wie es kommt, daß der Stuhl auf drei Beinen
+              steht und nicht auf zweien. Komm, wir wollen Ameisen zergliedern, Staubfäden zählen!
+              Ich werde es doch noch zu irgendeiner fürstlichen Liebhaberei bringen. Ich werde doch
+              noch eine Kinderrassel finden, die mir erst aus der Hand fällt, wenn ich Flocken lese
+              und an der Decke zupfe. Ich habe noch eine gewisse Dosis Enthusiasmus zu verbrauchen;
+              aber wenn ich alles recht warm gekocht habe, so brauche ich eine unendliche Zeit, um
+              einen Löffel zu finden, mit dem ich das Gericht esse, und darüber steht es ab.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ergo bibamus! Diese Flasche ist keine Geliebte, keine Idee, sie macht keine
+              Geburtsschmerzen, sie wird nicht langweilig, wird nicht treulos, sie bleibt eins vom
+              ersten Tropfen bis zum letzten. Du brichst das Siegel, und alle Träume, die in ihr
+              schlummern, sprühen dir entgegen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>O Gott! Die Hälfte meines Lebens soll ein Gebet sein, wenn mir nur ein Strohhalm
+              beschert wird, auf dem ich reite wie auf einem prächtigen Roß, bis ich selbst auf dem
+              Stroh liege. – Welch unheimlicher Abend! Da unten ist alles still, <pb n="133" facs="#f0021"/> und
+              da oben wechseln und ziehen die Wolken, und der Sonnenschein geht und kommt wieder.
+              Sieh, was seltsame Gestalten sich dort jagen! sieh die langen weißen Schatten mit den
+              entsetzlich magern Beinen und Fledermausschwingen! Und alles so rasch, so wirr, und da
+              unten rührt sich kein Blatt, kein Halm. Die Erde hat sich ängstlich zusammengeschmiegt
+              wie ein Kind, und über ihre Wiege schreiten die Gespenster.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ich weiß nicht, was Ihr wollt, mir ist ganz behaglich zumut. Die Sonne sieht aus wie
+              ein Wirtshausschild, und die feurigen Wolken darüber wie die Aufschrift: ›Wirtshaus
+              zur goldenen Sonne‹. Die Erde und das Wasser da unten sind wie ein Tisch, auf dem Wein
+              verschüttet ist, und wir liegen darauf wie Spielkarten, mit denen Gott und der Teufel
+              aus Langeweile eine Partie machen, und Ihr seid ein Kartenkönig, und ich bin ein
+              Kartenbube, es fehlt nur noch eine Dame, eine schöne Dame, mit einem großen
+              Lebkuchenherz auf der Brust und einer mächtigen Tulpe, worin die lange Nase
+              sentimental versinkt, <stage>Die Gouvernante und die Prinzessin treten auf.</stage>
+              und – bei Gott, da ist sie! Es ist aber eigentlich keine Tulpe, sondern eine Prise
+              Tabak, und es ist eigentlich keine Nase, sondern ein Rüssel. <stage>Zur
+                Gouvernante.</stage> Warum schreiten Sie, Werteste, so eilig, daß man Ihre weiland
+              Waden bis zu Ihren respektabeln Strumpfbändern sieht?</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE</speaker>
+                  <stage>heftig erzürnt, bleibt stehen.</stage>
+                  <p>Warum reißen Sie, Geehrtester, das Maul so weit auf, daß Sie einem ein Loch in die
+              Aussicht machen?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Damit Sie, Geehrteste, sich die Nase am Horizont nicht blutig stoßen. Solch eine Nase
+              ist wie der Turm auf Libanon, der gen Damaskus steht.</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA</speaker>
+                  <stage>zur Gouvernante.</stage>
+                  <p>Meine Liebe, ist denn der Weg so lang?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>träumend vor sich hin.</stage>
+                  <p>O, jeder Weg ist lang. Das Picken der Totenuhr in unserer Brust ist langsam, und
+              jeder Tropfen Blut mißt seine Zeit, und unser Leben ist ein schleichend Fieber. Für
+              müde Füße ist jeder Weg zu lang ...</p>
+                  <pb n="134" facs="#f0022"/>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA</speaker>
+                  <stage>die ihm ängstlich sinnend zuhört.</stage>
+                  <p>Und müden Augen jedes Licht zu scharf, und müden Lippen jeder Hauch zu schwer,
+                <stage>Lächelnd.</stage> und müden Ohren jedes Wort zu viel.</p>
+                  <stage>Sie tritt mit der Gouvernante in das Haus.</stage>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>O lieber Valerio! Könnte ich nicht auch sagen: ›Sollte nicht dies und ein Wald von
+              Federbüschen nebst ein paar gepufften Rosen auf meinen Schuhen ...‹? Ich hab es, glaub
+              ich, ganz melancholisch gesagt. Gott sei Dank, daß ich anfange, mit der Melancholie
+              niederzukommen! Die Luft ist nicht mehr so hell und kalt, der Himmel senkt sich
+              glühend dicht um mich, und schwere Tropfen fallen. – O diese Stimme: ›Ist denn der Weg
+              so lang?‹ Es reden viele Stimmen über die Erde, und man meint, sie sprächen von andern
+              Dingen, aber ich habe <hi rendition="#i">sie</hi> verstanden. Sie ruht auf mir wie der Geist, da
+              er über den Wassern schwebte, eh das Licht ward. Welch Gären in der Tiefe, welch
+              Werden in mir, wie sich die Stimme durch den Raum gießt! – ›Ist denn der Weg so
+              lang?‹</p>
+                  <stage>Geht ab.</stage>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Nein, der Weg zum Narrenhaus ist nicht so lang; er ist leicht zu finden, ich kenne
+              alle Fußpfade, alle Vizinalwege und Chausseen dorthin. Ich sehe ihn schon auf einer
+              breiten Allee dahin, an einem eiskalten Wintertag, den Hut unter dem Arm, wie er sich
+              in die langen Schatten unter die kahlen Bäume stellt und mit dem Schnupftuch fächelt.
+              – Er ist ein Narr! <stage>Folgt ihm.</stage>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Ein Zimmer.</stage>
+               <stage>Lena. Die Gouvernante.</stage>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Denken Sie nicht an den Menschen!</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Er war so alt unter seinen blonden Locken. Den Frühling auf den Wangen und den Winter
+              im Herzen! Das ist traurig. Der müde Leib findet sein Schlafkissen überall, doch wenn
+              der Geist müd ist, wo soll er ruhen? Es kommt mir ein <pb n="135" facs="#f0023"/> entsetzlicher
+              Gedanke: ich glaube, es gibt Menschen, die unglücklich sind, unheilbar, bloß weil sie
+                <hi rendition="#i">sind</hi>.</p>
+                  <stage>Sie erhebt sich.</stage>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Wohin, mein Kind?</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Ich will hinunter in den Garten.</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Aber ...</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Aber, liebe Mutter? Du weißt, man hätte mich eigentlich in eine Scherbe setzen
+              sollen. Ich brauche Tau und Nachtluft, wie die Blumen. – Hörst du die Harmonieen des
+              Abends? Wie die Grillen den Tag einsingen und die Nachtviolen ihn mit ihrem Duft
+              einschläfern! Ich kann nicht im Zimmer bleiben. Die Wände fallen auf mich.</p>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Der Garten. Nacht und Mondschein.</stage>
+               <stage>Man sieht Lena, auf dem Rasen sitzend.</stage>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>in einiger Entfernung.</stage>
+                  <p>Es ist eine schöne Sache um die Natur, sie wäre aber doch noch schöner, wenn es keine
+              Schnaken gäbe, die Wirtsbetten etwas reinlicher wären und die Totenuhren nicht so in
+              den Wänden pickten. Drin schnarchen die Menschen, und draußen quaken die Frösche, drin
+              pfeifen die Hausgrillen und draußen die Feldgrillen. Lieber Rasen, dies ist ein
+              rasender Entschluß! <stage>Er legt sich auf den Rasen nieder.</stage>
+                  </p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>tritt auf.</stage>
+                  <p>O Nacht, balsamisch wie die erste, die auf das Paradies herabsank! <stage>Er bemerkt
+                die Prinzessin und nähert sich ihr leise.</stage>
+                  </p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA</speaker>
+                  <stage>spricht vor sich hin.</stage>
+                  <p>Die Grasmücke hat im Traum gezwitschert. – Die Nacht schläft tiefer, ihre Wange wird
+              bleicher und ihr Atem stiller. Der Mond ist wie ein schlafendes Kind, die goldnen
+              Locken sind ihm im Schlaf über das liebe Gesicht heruntergefallen. – O, sein Schlaf
+              ist Tod. Wie der tote Engel auf seinem dunklen Kissen ruht und die Sterne gleich
+              Kerzen um ihn brennen! Armes Kind! Es ist traurig, tot und so allein.</p>
+                  <pb n="136" facs="#f0024"/>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Steh auf in deinem weißen Kleid und wandle hinter der Leiche durch die Nacht und
+              singe ihr das Sterbelied!</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Wer spricht da?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ein Traum.</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Träume sind selig.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>So träume dich selig und laß mich dein seliger Traum sein.</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Der Tod ist der seligste Traum.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>So laß mich dein Todesengel sein! Laß meine Lippen sich gleich seinen Schwingen auf
+              deine Augen senken. <stage>Er küßt sie.</stage> Schöne Leiche, du ruhst so lieblich
+              auf dem schwarzen Bahrtuch der Nacht, daß die Natur das Leben haßt und sich in den Tod
+              verliebt.</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Nein, laß mich!</p>
+                  <stage>Sie springt auf und entfernt sich rasch.</stage>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Zu viel! zu viel! Mein ganzes Sein ist in dem <hi rendition="#i">einen</hi> Augenblick. Jetzt
+              stirb! Mehr ist unmöglich. Wie frischatmend, schönheitglänzend ringt die Schöpfung
+              sich aus dem Chaos mir entgegen! Die Erde ist eine Schale von dunklem Gold: wie
+              schäumt das Licht in ihr und flutet über ihren Rand, und hellauf perlen daraus die
+              Sterne. Dieser eine Tropfen Seligkeit macht mich zu einem köstlichen Gefäß. Hinab,
+              heiliger Becher!</p>
+                  <stage>Er will sich in den Fluß stürzen.</stage>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO</speaker>
+                  <stage>springt auf und umfaßt ihn.</stage>
+                  <p>Halt, Serenissime!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Laß mich!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ich werde Sie lassen, sobald Sie gelassen sind und das Wasser zu lassen
+              versprechen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Dummkopf!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ist denn Eure Hoheit noch nicht über die Leutnantsromantik hinaus: das Glas zum
+              Fenster hinauszuwerfen, womit man die Gesundheit seiner Geliebten getrunken?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ich glaube halbwegs, du hast recht.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Trösten Sie sich! Wenn Sie auch nicht heut nacht <hi rendition="#i">unter</hi> dem Rasen
+              schlafen, so schlafen Sie wenigstens <hi rendition="#i">darauf</hi>. Es wäre ein ebenso
+              selbstmörderischer Versuch, in eins von den Betten gehn zu wollen. Man liegt auf dem
+              Stroh wie <pb n="137" facs="#f0025"/> ein Toter und wird von den Flöhen gestochen wie ein
+              Lebendiger.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Meinetwegen. <stage>Er legt sich ins Gras.</stage> Mensch, du hast mich um den
+              schönsten Selbstmord gebracht! Ich werde in meinem Leben keinen so vorzüglichen
+              Augenblick mehr dazu finden, und das Wetter ist so vortrefflich. Jetzt bin ich schon
+              aus der Stimmung. Der Kerl hat mir mit seiner gelben Weste und seinen himmelblauen
+              Hosen alles verdorben. – Der Himmel beschere mir einen recht gesunden, plumpen
+              Schlaf!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Amen! – Und ich habe ein Menschenleben gerettet und werde mir mit meinem guten
+              Gewissen heut nacht den Leib warm halten.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Wohl bekomm's, Valerio!</p>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Dritter Akt</head>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Leonce. Valerio.</stage>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Heiraten? Seit wann hat es Eure Hoheit zum ewigen Kalender gebracht?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Weißt du auch, Valerio, daß selbst der Geringste unter den Menschen so groß ist, daß
+              das Leben noch viel zu kurz ist, um ihn lieben zu können? Und dann kann ich doch einer
+              gewissen Art von Leuten, die sich einbilden, daß nichts so schön und heilig sei, daß
+              sie es nicht noch schöner und heiliger machen müßten, die Freude lassen. Es liegt ein
+              gewisser Genuß in dieser lieben Arroganz. Warum soll ich ihnen denselben nicht
+              gönnen?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Sehr human und philobestialisch! Aber weiß sie auch, wer Sie sind?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Sie weiß nur, daß sie mich liebt.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Und weiß Eure Hoheit auch, wer sie ist?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Dummkopf! Frag doch die Nelke und die Tauperle nach ihrem Namen.</p>
+                  <pb n="138" facs="#f0026"/>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Das heißt, sie ist überhaupt etwas, wenn das nicht schon zu unzart ist und nach dem
+              Signalement schmeckt. – Aber, wie soll das gehn? – Hm! Prinz, bin ich Minister, wenn
+              Sie heute vor Ihrem Vater mit der Unaussprechlichen, Namenlosen mittelst des Ehesegens
+              zusammengeschmiedet werden? Ihr Wort?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Mein Wort!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Der arme Teufel Valerio empfiehlt sich seiner Exzellenz dem Herrn Staatsminister
+              Valerio von Valeriental. – ›Was will der Kerl? Ich kenne ihn nicht. Fort, Schlingel!‹
+                <stage>Er läuft weg; Leonce folgt ihm.</stage>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Freier Platz vor dem Schlosse des Königs Peter.</stage>
+               <stage>Der Landrat. Der Schulmeister. Bauern im Sonntagsputz, Tannenzweige
+            haltend.</stage>
+               <sp who="#landrat">
+                  <speaker>LANDRAT.</speaker>
+                  <p>Lieber Herr Schulmeister, wie halten sich Eure Leute?</p>
+               </sp>
+               <sp who="#schulmeister">
+                  <speaker>SCHULMEISTER.</speaker>
+                  <p>Sie halten sich so gut in ihren Leiden, daß sie sich schon seit geraumer Zeit
+              aneinander halten. Sie gießen brav Spiritus in sich, sonst könnten sie sich in der
+              Hitze unmöglich so lange halten. Courage, ihr Leute! Streckt eure Tannenzweige grad
+              vor euch hin, damit man meint, ihr wärt ein Tannenwald, und eure Nasen die Erdbeeren,
+              und eure Dreimaster die Hörner vom Wildbret, und eure hirschledernen Hosen der
+              Mondschein darin. Und merkt's euch: der hinterste läuft immer wieder vor den
+              vordersten, damit es aussieht, als wärt ihr ins Quadrat erhoben.</p>
+               </sp>
+               <sp who="#landrat">
+                  <speaker>LANDRAT.</speaker>
+                  <p>Und, Schulmeister, Ihr steht vor die Nüchternheit.</p>
+               </sp>
+               <sp who="#schulmeister">
+                  <speaker>SCHULMEISTER.</speaker>
+                  <p>Versteht sich, denn ich kann vor Nüchternheit kaum noch stehen.</p>
+               </sp>
+               <sp who="#landrat">
+                  <speaker>LANDRAT.</speaker>
+                  <p>Gebt acht, Leute, im Programm steht: ›Sämtliche Untertanen werden von freien Stücken
+              reinlich gekleidet, <pb n="139" facs="#f0027"/> wohlgenährt und mit zufriedenen Gesichtern sich
+              längs der Landstraße aufstellen.‹ Macht uns keine Schande!</p>
+               </sp>
+               <sp who="#schulmeister">
+                  <speaker>SCHULMEISTER.</speaker>
+                  <p>Seid standhaft! Kratzt euch nicht hinter den Ohren und schneuzt euch die Nase nicht,
+              solang das hohe Paar vorbeifährt, und zeigt die gehörige Rührung, oder es werden
+              rührende Mittel gebraucht werden. Erkennt, was man für euch tut: man hat euch grade so
+              gestellt, daß der Wind von der Küche über euch geht und ihr auch einmal in eurem Leben
+              einen Braten riecht. Könnt ihr noch eure Lektion? He? Vi!</p>
+               </sp>
+               <sp who="#die_bauern">
+                  <speaker>DIE BAUERN.</speaker>
+                  <p>Vi!</p>
+               </sp>
+               <sp who="#schulmeister">
+                  <speaker>SCHULMEISTER.</speaker>
+                  <p>Vat!</p>
+               </sp>
+               <sp who="#die_bauern">
+                  <speaker>DIE BAUERN.</speaker>
+                  <p>Vat!</p>
+               </sp>
+               <sp who="#schulmeister">
+                  <speaker>SCHULMEISTER.</speaker>
+                  <p>Vivat!</p>
+               </sp>
+               <sp who="#die_bauern">
+                  <speaker>DIE BAUERN.</speaker>
+                  <p>Vivat!</p>
+               </sp>
+               <sp who="#schulmeister">
+                  <speaker>SCHULMEISTER.</speaker>
+                  <p>So, Herr Landrat! Sie sehen, wie die Intelligenz im Steigen ist. Bedenken Sie, es ist
+              Latein! Wir geben aber auch heut abend einen transparenten Ball mittelst der Löcher in
+              unseren Jacken und Hosen, und schlagen uns mit unseren Fäusten Kokarden an die
+              Köpfe.</p>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Großer Saal. Geputzte Herren und Damen, sorgfältig gruppiert.</stage>
+               <stage>Der Zeremonienmeister mit einigen Bedienten auf dem Vordergrund.</stage>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>Es ist ein Jammer! Alles geht zugrund. Die Braten schnurren ein. Alle Glückwünsche
+              stehen ab. Alle Vatermörder legen sich um, wie melancholische Schweinsohren. Den
+              Bauern wachsen die Nägel und der Bart wieder. Den Soldaten gehn die Locken auf. Von
+              den zwölf Unschuldigen ist keine, die nicht das horizontale Verhalten dem senkrechten
+              vorzöge.</p>
+               </sp>
+               <sp who="#erster_bedienter">
+                  <speaker>ERSTER BEDIENTER.</speaker>
+                  <p>Sie sehen in ihren weißen Kleidchen aus <pb n="140" facs="#f0028"/> wie erschöpfte Seidenhasen, und
+              der Hofpoet grunzt um sie herum wie ein bekümmertes Meerschweinchen. Die Herren
+              Offiziere kommen um all ihre Haltung, und die Hofdamen stehen da wie Gradierbäue; das
+              Salz kristallisiert an ihren Halsketten.</p>
+               </sp>
+               <sp who="#zweiter_bedienter">
+                  <speaker>ZWEITER BEDIENTER.</speaker>
+                  <p>Sie machen es sich wenigstens bequem; man kann ihnen nicht nachsagen, daß sie auf den
+              Schultern trügen. Wenn sie auch nicht offenherzig sind, so sind sie doch offen bis zum
+              Herzen.</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>Ja, sie sind gute Karten vom türkischen Reich: man sieht die Dardanellen und das
+              Marmormeer. Fort, ihr Schlingel! An die Fenster! Da kömmt Ihro Majestät!</p>
+                  <stage>König Peter und der Staatsrat treten ein.</stage>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Also auch die Prinzessin ist verschwunden. Hat man noch keine Spur von unserm
+              geliebten Erbprinzen? Sind meine Befehle befolgt? Werden die Grenzen beobachtet?</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>Ja, Majestät. Die Aussicht von diesem Saal gestattet uns die strengste Aufsicht.
+                <stage>Zu dem ersten Bedienten.</stage> Was hast du gesehen?</p>
+               </sp>
+               <sp who="#erster_bedienter">
+                  <speaker>ERSTER BEDIENTER.</speaker>
+                  <p>Ein Hund, der seinen Herrn sucht, ist durch das Reich gelaufen.</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER</speaker>
+                  <stage>zu einem andern.</stage>
+                  <p>Und du?</p>
+               </sp>
+               <sp who="#zweiter_bedienter">
+                  <speaker>ZWEITER BEDIENTER.</speaker>
+                  <p>Es geht jemand auf der Nordgrenze spazieren, aber es ist nicht der Prinz, ich könnte
+              ihn erkennen.</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>Und du?</p>
+               </sp>
+               <sp who="#dritter_bedienter">
+                  <speaker>DRITTER BEDIENTER.</speaker>
+                  <p>Sie verzeihen – nichts.</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>Das ist sehr wenig. Und du?</p>
+               </sp>
+               <sp who="#vierter_diener">
+                  <speaker>VIERTER DIENER.</speaker>
+                  <p>Auch nichts.</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>Das ist ebensowenig.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Aber, Staatsrat, habe ich nicht den Beschluß gefaßt, daß meine königliche Majestät
+              sich an diesem Tage freuen und daß an ihm die Hochzeit gefeiert werden sollte? War das
+              nicht unser festester Entschluß?</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Ja, Eure Majestät, so ist es protokolliert und aufgezeichnet.</p>
+                  <pb n="141" facs="#f0029"/>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Und würde ich mich nicht kompromittieren, wenn ich meinen Beschluß nicht
+              ausführte?</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Wenn es anders für Eure Majestät möglich wäre, sich zu kompromittieren, so wäre dies
+              ein Fall, worin sie sich kompromittieren könnte.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Habe ich nicht mein königliches Wort gegeben? – Ja, ich werde meinen Beschluß
+              sogleich ins Werk setzen, ich werde mich freuen. <stage>Er reibt sich die
+                Hände.</stage> O, ich bin außerordentlich froh!</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Wir teilen sämtlich die Gefühle Eurer Majestät, soweit es für Untertanen möglich und
+              schicklich ist.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>O, ich weiß mir vor Freude nicht zu helfen! Ich werde meinen Kammerherren rote Röcke
+              machen lassen, ich werde einige Kadetten zu Leutnants machen, ich werde meinen
+              Untertanen erlauben, – aber, aber, die Hochzeit? Lautet die andere Hälfte des
+              Beschlusses nicht, daß die Hochzeit gefeiert werden sollte?</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Ja, Eure Majestät.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Ja, wenn aber der Prinz nicht kommt und die Prinzessin auch nicht?</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Ja, wenn der Prinz nicht kommt und die Prinzessin auch nicht – dann – dann –</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Dann, dann?</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Dann können sie sich eben nicht heiraten.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Halt, ist der Schluß logisch? Wenn – dann –. Richtig! Aber mein Wort, mein
+              königliches Wort!</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Tröste Eure Majestät sich mit andern Majestäten! Ein königliches Wort ist ein Ding –
+              ein Ding – ein Ding, – das nichts ist.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER</speaker>
+                  <stage>zu den Dienern.</stage>
+                  <p>Seht ihr noch nichts?</p>
+               </sp>
+               <sp who="#erster_bedienter #zweiter_bedienter #dritter_bedienter #vierter_diener">
+                  <speaker>DIE DIENER.</speaker>
+                  <p>Eure Majestät, nichts, gar nichts.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Und ich hatte beschlossen, mich so zu freuen! Grade mit dem Glockenschlag zwölf
+              wollte ich anfangen und wollte mich freuen volle zwölf Stunden – ich werde ganz
+              melancholisch.</p>
+                  <pb n="142" facs="#f0030"/>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Alle Untertanen werden aufgefordert, die Gefühle Ihrer Majestät zu teilen.</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>Denjenigen, welche kein Schnupftuch bei sich haben, ist das Weinen jedoch Anstandes
+              halber untersagt.</p>
+               </sp>
+               <sp who="#erster_bedienter">
+                  <speaker>ERSTER BEDIENTER.</speaker>
+                  <p>Halt! Ich sehe was? Es ist etwas wie ein Vorsprung, wie eine Nase, das übrige ist
+              noch nicht über der Grenze; und dann seh ich noch einen Mann, und dann noch zwei
+              Personen entgegengesetzten Geschlechts.</p>
+               </sp>
+               <sp who="#zeremonienmeister">
+                  <speaker>ZEREMONIENMEISTER.</speaker>
+                  <p>In welcher Richtung?</p>
+               </sp>
+               <sp who="#erster_bedienter">
+                  <speaker>ERSTER BEDIENTER.</speaker>
+                  <p>Sie kommen näher. Sie gehn auf das Schloß zu. Da sind sie!</p>
+                  <stage>Valerio, Leonce, die Gouvernante und die Prinzessin treten maskiert auf.</stage>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Wer seid Ihr?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Weiß ich's? <stage>Er nimmt langsam hintereinander mehrere Masken ab.</stage> Bin ich
+              das? oder das? oder das? Wahrhaftig, ich bekomme Angst, ich könnte mich so ganz
+              auseinanderschälen und – blättern.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER</speaker>
+                  <stage>verlegen.</stage>
+                  <p>Aber – aber etwas müßt Ihr denn doch sein?</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Wenn Eure Majestät es so befehlen! Aber, meine Herren, hängen Sie dann die Spiegel
+              herum und verstecken Sie Ihre blanken Knöpfe etwas, und sehen Sie mich nicht so an,
+              daß ich mich in Ihren Augen spiegeln muß, oder ich weiß wahrhaftig nicht mehr, was ich
+              eigentlich bin.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Der Mensch bringt mich in Konfusion, zur Desperation! Ich bin in der größten
+              Verwirrung.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Aber eigentlich wollte ich einer hohen und geehrten Gesellschaft verkündigen, daß
+              hiermit die zwei weltberühmten Automaten angekommen sind, und daß ich vielleicht der
+              dritte und merkwürdigste von beiden bin, wenn ich eigentlich selbst recht wüßte, wer
+              ich wäre, worüber man übrigens sich nicht wundern dürfte, da ich selbst gar nichts von
+              dem weiß, was ich rede, ja auch nicht einmal weiß, daß ich es nicht weiß, so daß es
+              höchst wahrscheinlich ist, daß man mich nur so reden <hi rendition="#i">läßt</hi>, und es
+              eigentlich nichts als <pb n="143" facs="#f0031"/> Walzen und Windschläuche sind, die alles sagen.
+                <stage>Mit schnarrendem Ton.</stage> Sehen Sie hier, meine Herren und Damen, zwei
+              Personen beiderlei Geschlechts, ein Männchen und ein Weibchen, einen Herrn und eine
+              Dame! Nichts als Kunst und Mechanismus, nichts als Pappendeckel und Uhrfedern! Jede
+              hat eine feine, feine Feder von Rubin unter dem Nagel der kleinen Zehe am rechten Fuß,
+              man drückt ein klein wenig, und die Mechanik läuft volle fünfzig Jahre. Diese Personen
+              sind so vollkommen gearbeitet, daß man sie von andern Menschen gar nicht unterscheiden
+              könnte, wenn man nicht wüßte, daß sie bloße Pappdeckel sind; man könnte sie eigentlich
+              zu Mitgliedern der menschlichen Gesellschaft machen. Sie sind sehr edel, denn sie
+              sprechen Hochdeutsch. Sie sind sehr moralisch, denn sie stehn auf den Glockenschlag
+              auf, essen auf den Glockenschlag zu Mittag und gehn auf den Glockenschlag zu Bett;
+              auch haben sie eine gute Verdauung, was beweist, daß sie ein gutes Gewissen haben. Sie
+              haben ein feines sittliches Gefühl, denn die Dame hat gar kein Wort für den Begriff
+              Beinkleider, und dem Herrn ist es rein unmöglich, hinter einem Frauenzimmer eine
+              Treppe hinauf- oder vor ihm hinunterzugehen. Sie sind sehr gebildet, denn die Dame
+              singt alle neuen Opern, und der Herr trägt Manschetten. Geben Sie acht, meine Herren
+              und Damen, sie sind jetzt in einem interessanten Stadium: der Mechanismus der Liebe
+              fängt an sich zu äußern, der Herr hat der Dame schon einigemal den Schal getragen, die
+              Dame hat schon einigemal die Augen verdreht und gen Himmel geblickt. Beide haben schon
+              mehrmals geflüstert: Glaube, Liebe, Hoffnung! Beide sehen bereits ganz akkordiert aus,
+              es fehlt nur noch das winzige Wörtchen: Amen.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER</speaker>
+                  <stage>den Finger an die Nase legend.</stage>
+                  <p>In effigie? in effigie? Präsident, wenn man einen Menschen in effigie hängen läßt,
+              ist das nicht ebensogut, als wenn er ordentlich gehängt würde?</p>
+               </sp>
+               <sp who="#praesident">
+                  <speaker>PRÄSIDENT.</speaker>
+                  <p>Verzeihen, Eure Majestät, es ist noch viel besser, denn es geschieht ihm kein Leid
+              dabei, und er wird dennoch gehängt.</p>
+                  <pb n="144" facs="#f0032"/>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Jetzt hab ich's. Wir feiern die Hochzeit in effigie! <stage>Auf Lena und Leonce
+                deutend.</stage> Das ist die Prinzessin, das ist der Prinz. – Ich werde meinen
+              Beschluß durchsetzen, ich werde mich freuen. – Laßt die Glocken läuten! Macht Eure
+              Glückwünsche zurecht! Hurtig, Herr Hofprediger!</p>
+                  <stage>Der Hofprediger tritt vor, räuspert sich, blickt einigemal gen Himmel.</stage>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Fang an! Laß deine vermaledeiten Gesichter und fang an! Wohlauf!</p>
+               </sp>
+               <sp who="#hofprediger">
+                  <speaker>HOFPREDIGER</speaker>
+                  <stage>in der größten Verwirrung.</stage>
+                  <p>Wenn wir – oder – aber –</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Sintemal und alldieweil –</p>
+               </sp>
+               <sp who="#hofprediger">
+                  <speaker>HOFPREDIGER.</speaker>
+                  <p>Denn –</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Es war vor Erschaffung der Welt –</p>
+               </sp>
+               <sp who="#hofprediger">
+                  <speaker>HOFPREDIGER.</speaker>
+                  <p>Daß –</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Gott Langeweile hatte –</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Machen Sie es nur kurz, Bester.</p>
+               </sp>
+               <sp who="#hofprediger">
+                  <speaker>HOFPREDIGER</speaker>
+                  <stage>sich fassend.</stage>
+                  <p>Geruhen Eure Hoheit, Prinz Leonce vom Reiche Popo, und geruhen Eure Hoheit,
+              Prinzessin Lena vom Reiche Pipi, und geruhen Eure Hoheiten gegenseitig, sich
+              beiderseitig einander haben zu wollen, so sprechen Sie ein lautes und vernehmliches
+              Ja.</p>
+               </sp>
+               <sp who="#lena #leonce">
+                  <speaker>LENA UND LEONCE.</speaker>
+                  <p>Ja!</p>
+               </sp>
+               <sp who="#hofprediger">
+                  <speaker>HOFPREDIGER.</speaker>
+                  <p>So sage ich Amen.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Gut gemacht, kurz und bündig; so wären denn das Männlein und Fräulein erschaffen, und
+              alle Tiere des Paradieses stehen um sie.</p>
+                  <stage>Leonce nimmt die Maske ab.</stage>
+               </sp>
+               <sp who="#zeremonienmeister #koenig_peter #praesident #hofprediger">
+                  <speaker>ALLE.</speaker>
+                  <p>Der Prinz!</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Der Prinz! Mein Sohn! Ich bin verloren, ich bin betrogen! <stage>Er geht auf die
+                Prinzessin los.</stage> Wer ist die Person? Ich lasse alles für ungültig
+              erklären!</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE</speaker>
+                  <stage>nimmt der Prinzessin die Maske ab triumphierend.</stage>
+                  <p>Die Prinzessin!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Lena?</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Leonce?</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ei, Lena, ich glaube, das war die Flucht in das Paradies.</p>
+                  <pb n="145" facs="#f0033"/>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>Ich bin betrogen!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Ich bin betrogen!</p>
+               </sp>
+               <sp who="#lena">
+                  <speaker>LENA.</speaker>
+                  <p>O Zufall!</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>O Vorsehung!</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Ich muß lachen, ich muß lachen. Eure Hoheiten sind wahrhaftig durch den Zufall
+              einander zugefallen; ich hoffe, Sie werden dem Zufall zu Gefallen – Gefallen
+              aneinander finden.</p>
+               </sp>
+               <sp who="#gouvernante">
+                  <speaker>GOUVERNANTE.</speaker>
+                  <p>Daß meine alten Augen endlich das sehen konnten! Ein irrender Königssohn! Jetzt sterb
+              ich ruhig.</p>
+               </sp>
+               <sp who="#koenig_peter">
+                  <speaker>PETER.</speaker>
+                  <p>Meine Kinder, ich bin gerührt, ich weiß mir vor Rührung kaum zu helfen. Ich bin der
+              glücklichste Mann! Ich lege aber auch hiermit feierlichst die Regierung in deine
+              Hände, mein Sohn, und werde sogleich ungestört zu denken anfangen. Mein Sohn, du
+              überlässest mir diese Weisen, <stage>Er deutet auf den Staatsrat.</stage> damit sie
+              mich in meinen Bemühungen unterstützen. Kommen Sie, meine Herren, wir müssen denken,
+              ungestört denken! <stage>Er entfernt sich mit dem Staatsrat.</stage> Der Mensch hat
+              mich vorhin konfus gemacht, ich muß mir wieder heraushelfen.</p>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE</speaker>
+                  <stage>zu den Anwesenden.</stage>
+                  <p>Meine Herren! Meine Gemahlin und ich bedauern unendlich, daß Sie uns heute so lange
+              zu Diensten gestanden sind. Ihre Stellung ist so traurig, daß wir um keinen Preis Ihre
+              Standhaftigkeit länger auf die Probe stellen möchten. Gehn Sie jetzt nach Hause, aber
+              vergessen Sie Ihre Reden, Predigten und Verse nicht, denn morgen fangen wir in aller
+              Ruhe und Gemütlichkeit den Spaß noch einmal von vorne an. Auf Wiedersehn!</p>
+                  <stage>Alle entfernen sich, Leonce, Lena, Valerio und die Gouvernante
+              ausgenommen.</stage>
+               </sp>
+               <sp who="#leonce">
+                  <speaker>LEONCE.</speaker>
+                  <p>Nun, Lena, siehst du jetzt, wie wir die Taschen voll haben, voll Puppen und
+              Spielzeug? Was wollen wir damit anfangen? Wollen wir ihnen Schnurrbärte machen und
+              ihnen Säbel anhängen? Oder wollen wir ihnen Fräcke anziehen und sie infusorische
+              Politik und Diplomatie treiben lassen, und uns mit dem Mikroskop danebensetzen? Oder
+              hast du <pb n="146" facs="#f0034"/> Verlangen nach einer Drehorgel, auf der die milchweißen
+              ästhetischen Spitzmäuse herumhuschen? Wollen wir ein Theater bauen? <stage>Lena lehnt
+                sich an ihn und schüttelt den Kopf.</stage> Aber ich weiß besser, was du willst: wir
+              lassen alle Uhren zerschlagen, alle Kalender verbieten und zählen Stunden und Monden
+              nur nach der Blumenuhr, nur nach Blüte und Frucht. Und dann umstellen wir das Ländchen
+              mit Brennspiegeln, daß es keinen Winter mehr gibt und wir uns im Sommer bis Ischia und
+              Capri hinaufdestillieren, und das ganze Jahr zwischen Rosen und Veilchen, zwischen
+              Orangen und Lorbeer stecken.</p>
+               </sp>
+               <sp who="#valerio">
+                  <speaker>VALERIO.</speaker>
+                  <p>Und ich werde Staatsminister, und es wird ein Dekret erlassen, daß, wer sich
+              Schwielen in die Hände schafft, unter Kuratel gestellt wird; daß, wer sich krank
+              arbeitet, kriminalistisch strafbar ist; daß jeder, der sich rühmt, sein Brot im
+              Schweiße seines Angesichts zu essen, für verrückt und der menschlichen Gesellschaft
+              gefährlich erklärt wird; und dann legen wir uns in den Schatten und bitten Gott um
+              Makkaroni, Melonen und Feigen, um musikalische Kehlen, klassische Leiber und eine
+              commode Religion!</p>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
