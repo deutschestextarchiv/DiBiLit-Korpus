@@ -1,0 +1,2713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Ariadne auf Naxos</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118552759">
+                  <forename>Hugo</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Hofmannsthal</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:44:02Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000267</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q654633</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005090113</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Hofmannsthal, Hugo von/Libretti/Ariadne auf Naxos</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/qd3g.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0003-777C-2</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Hugo von Hofmannsthal: Gesammelte Werke in zehn Einzelbänden. Band 2–5: Dramen, Band 3, Frankfurt a.M. 1979</bibl>
+            <bibl>Hugo von Hofmannsthal: Gesammelte Werke in zehn Einzelbänden. Band 1: Gedichte, Dramen, Band 2–5: Dramen, Herausgegeben von Bernd Schoeller in Beratung mit Rudolf Hirsch, Frankfurt a.M.: S. Fischer, 1979.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Gesammelte Werke in zehn Einzelbänden</title>
+                  <title level="m" type="sub">Teil: Dramen / 3. 1893 - 1927</title>
+                  <title level="m" type="volume">Band 3</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118552759">
+                        <forename>Hugo</forename>
+                        <nameLink>von</nameLink>
+                        <surname>Hofmannsthal</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Bernd</forename>
+                        <surname>Schoeller</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName>
+                        <forename>Rudolf</forename>
+                        <surname>Hirsch</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">N. N.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>S. Fischer Verlag</name>
+                  </publisher>
+                  <pubPlace>Frankfurt a. M.</pubPlace>
+                  <date type="publication">1979</date>
+                  <date type="firstPublication">1912</date>
+                  <date type="firstPublication" subtype="clariah">1912</date>
+                  <date type="firstPublication" subtype="zeno">1912</date>
+                  <date type="firstPublication" subtype="i5"/>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1874"
+                        notAfter="1929"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d9e312">Erstdruck in: Neue Freie Presse (Wien), 26.5.1912. Uraufführung am 4.10.1916 in Wien (Hof-Operntheater).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="musiklehrer" sex="MALE">
+                  <persName>Musiklehrer</persName>
+               </person>
+               <person xml:id="haushofmeister" sex="MALE">
+                  <persName>Haushofmeister</persName>
+                  <persName type="variant">Der Haushofmeister</persName>
+               </person>
+               <person xml:id="der_lakai" sex="MALE">
+                  <persName>Der Lakai</persName>
+                  <persName type="variant">Der junge Lakai</persName>
+               </person>
+               <person xml:id="der_offizier" sex="MALE">
+                  <persName>Der Offizier</persName>
+               </person>
+               <person xml:id="komponist" sex="MALE">
+                  <persName>Komponist</persName>
+               </person>
+               <person xml:id="der_tenor_bacchus" sex="MALE">
+                  <persName>Der Tenor/Bacchus</persName>
+                  <persName type="variant">Bacchus' Stimme</persName>
+               </person>
+               <person xml:id="perueckenmacher" sex="MALE">
+                  <persName>Perückenmacher</persName>
+               </person>
+               <person xml:id="zerbinetta" sex="FEMALE">
+                  <persName>Zerbinetta</persName>
+               </person>
+               <person xml:id="primadonna_ariadne" sex="FEMALE">
+                  <persName>Primadonna/Ariadne</persName>
+                  <persName type="variant">Ariadnes Stimme</persName>
+               </person>
+               <person xml:id="tanzmeister" sex="MALE">
+                  <persName>Tanzmeister</persName>
+               </person>
+               <person xml:id="najade" sex="FEMALE">
+                  <persName>Najade</persName>
+               </person>
+               <person xml:id="dryade" sex="FEMALE">
+                  <persName>Dryade</persName>
+               </person>
+               <person xml:id="echo" sex="FEMALE">
+                  <persName>Echo</persName>
+               </person>
+               <person xml:id="harlekin" sex="MALE">
+                  <persName>Harlekin</persName>
+               </person>
+               <person xml:id="brighella" sex="MALE">
+                  <persName>Brighella</persName>
+               </person>
+               <person xml:id="truffaldin" sex="MALE">
+                  <persName>Truffaldin</persName>
+               </person>
+               <person xml:id="scaramuccio" sex="MALE">
+                  <persName>Scaramuccio</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretti</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d9e312">
+      <front>
+         <div type="front">
+            <head>Hugo von Hofmannsthal</head>
+            <head>Ariadne auf Naxos</head>
+            <head>Oper in einem Aufzuge nebst einem Vorspiel</head>
+            <head>Neue Bearbeitung</head>
+         </div>
+         <div>
+            <head>Personen.</head>
+            <div>
+               <castList>
+                  <head>Personen des Vorspiels</head>
+                  <castItem>Der Haushofmeister.</castItem>
+                  <castItem>Ein Musiklehrer.</castItem>
+                  <castItem>Der Komponist.</castItem>
+                  <castItem>Der Tenor (Bacchus).</castItem>
+                  <castItem>Ein Offizier.</castItem>
+                  <castItem>Ein Tanzmeister.</castItem>
+                  <castItem>Ein Perückenmacher.</castItem>
+                  <castItem>Ein Lakai.</castItem>
+                  <castItem>Zerbinetta.</castItem>
+                  <castItem>Primadonna (Ariadne).</castItem>
+                  <castItem>Harlekin.</castItem>
+                  <castItem>Scaramuccio.</castItem>
+                  <castItem>Truffaldin.</castItem>
+                  <castItem>Brighella.</castItem>
+               </castList>
+            </div>
+            <div>
+               <castList>
+                  <head>Personen der Oper</head>
+                  <castItem>Ariadne.</castItem>
+                  <castItem>Bacchus.</castItem>
+                  <castItem>Najade.</castItem>
+                  <castItem>Dryade.</castItem>
+                  <castItem>Echo.</castItem>
+                  <castItem>Zerbinetta.</castItem>
+                  <castItem>Harlekin.</castItem>
+                  <castItem>Scaramuccio.</castItem>
+                  <castItem>Truffaldin.</castItem>
+                  <castItem>Brighella.</castItem>
+               </castList>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Vorspiel</head>
+            <stage>Ein tiefer, kaum möblierter und dürftig erleuchteter Raum im Hause eines großen
+          Herrn. Links und rechts je zwei Türen. In der Mitte ein runder Tisch. Im Hintergrund sieht
+          man Zurichtungen zu einem Haustheater. Tapezierer und Arbeiter haben einen Prospekt
+          aufgerichtet, dessen Rückseite sichtbar ist. Zwischen diesem Teil der Bühne und dem
+          vorderen Raum läuft ein offener Gang querüber.</stage>
+            <stage>Haushofmeister tritt auf.</stage>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>ihm entgegen.</stage>
+               <p>Mein Herr Haushofmeister! Sie suche ich im ganzen Hause –</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Womit kann ich dienen? Muß allerdings bemerken, daß ich pressiert bin. Die
+            Vorbereitungen zur heutigen großen Assemblée im Hause des reichsten Mannes von Wien –
+            wie ich meinen gnädigen Herrn wohl betiteln darf –</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Ein Wort nur! Ich höre soeben, was ich allerdings nicht begreifen kann –</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Und das wäre?</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>– und was mich in erklärliche Aufregung versetzt –</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>In Kürze, wenn ich bitten darf!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>– daß bei der heutigen festlichen Veranstaltung hier im Palais – nach der Opera seria
+            meines Schülers – kaum traue ich meinen Ohren – noch eine weitere, und zwar gleichfalls
+            sozusagen musikalische Darbietung in Aussicht genommen ist – eine Art von Singspiel oder
+            niedrige Posse in der italienischen Buffo-Manier! Das kann nicht geschehen!</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Kann nicht! Wieso?</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Darf nicht!</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Wie beliebt?</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Das wird der Komponist nie und nimmer gestatten!</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Wer wird? Ich höre: gestatten. Ich wüßte nicht, wer außer meinem gnädigen Herrn, in
+            dessen Palais Sie sich befinden und Ihre Kunstfertigkeiten heute zu produzieren die Ehre
+            haben, etwas zu gestatten – geschweige denn anzuordnen hätte!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Es ist wider die Verabredung. Die Opera seria »Ariadne« wurde eigens für diese
+            festliche Veranstaltung komponiert.</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Und das ausbedungene Honorar wird nebst einer munifizenten Gratifikation durch meine
+            Hand in die Ihrige gelangen.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Ich zweifle nicht an der Zahlungsfähigkeit eines steinreichen Mannes.</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Für den Sie samt Ihrem Eleven Ihre Notenarbeit zu liefern die Auszeichnung hatten. –
+            Was dann steht noch zu Diensten?</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Diese Notenarbeit ist ein ernstes, bedeutendes Werk. Es kann uns nicht gleichgültig
+            sein, in welchem Rahmen dieses dargestellt wird!</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Jedennoch bleibt es meinem gnädigen Herrn summo et unico loco überlassen, welche Arten
+            von Spektakel er seinen hochansehnlichen Gästen nach Vorsetzung einer feierlichen
+            Kollation zu bieten gesonnen ist.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Zu diesen die Verdauung fördernden Genüssen rechnen Sie demnach die heroische Oper
+            »Ariadne«?</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Zuvörderst diese, danach das für punkt neun Uhr anbefohlene Feuerwerk und zwischen
+            beiden die eingeschobene Opera buffa. Womit ich die Ehre habe, mich zu empfehlen.</p>
+               <stage>Geht ab.</stage>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Wie soll ich das meinem Schüler beibringen? <stage>Ab nach der anderen
+            Seite.</stage>
+               </p>
+               <stage>Ein junger Lakai führt einen Offizier herein, dem er voranleuchtet.</stage>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI.</speaker>
+               <p>Hier finden Euer Gnaden die Mamsell Zerbinetta. Sie ist bei der Toilette. Ich werde
+            anklopfen.</p>
+               <stage>Horcht und klopft an die Tür rechts vorne.</stage>
+            </sp>
+            <sp who="#der_offizier">
+               <speaker>DER OFFIZIER.</speaker>
+               <p>Laß Er das sein und geh Er zum Teufel.</p>
+               <stage>Stößt den Lakai heftig weg und tritt ein.</stage>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI</speaker>
+               <stage>taumelt, rettet den Leuchter auf einen Wandtisch rechts zwischen den beiden Türen
+            und klaubt sich zusammen.</stage>
+               <p>Das ist die Sprache der Leidenschaft, verbunden mit einem unrichtigen Objekt.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>kommt eilig von rückwärts.</stage>
+               <p>Lieber Freund! Verschaffen Sie mir die Geigen. Richten Sie ihnen aus, daß sie sich hier
+            versammeln sollen zu einer letzten kurzen Verständigungsprobe.</p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI.</speaker>
+               <p>Die Geigen werden schwerlich kommen, erstens weils keine Füß nicht haben, und zweitens,
+            weils in der Hand sind!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>naiv, belehrend, ohne sich verspottet zu glauben.</stage>
+               <p>Wenn ich sage: die Geigen, so meine ich die Spieler.</p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI</speaker>
+               <stage>gemein, von oben herab.</stage>
+               <p>Ach so! Die sind aber jetzt dort, wo ich auch hin sollt! und wo ich gleich sein werd –
+            anstatt mich da mit Ihnen aufzuhalten.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>ganz naiv, zart.</stage>
+               <p>Wo ist das?</p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI</speaker>
+               <stage>gemein, plump.</stage>
+               <p>Bei der Tafel!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>aufgeregt.</stage>
+               <p>Jetzt? Eine Viertelstunde vor Anfang meiner Oper beim Essen?</p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI.</speaker>
+               <p>Wenn ich sag: bei der Tafel, so mein ich natürlich bei der herrschaftlichen Tafel,
+            nicht beim Musikantentisch.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Was soll das heißen?</p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI.</speaker>
+               <p>Aufspielen tun sie. Capito? Sind also für Sie derzeit nicht zu sprechen.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>aufgeregt, unruhig.</stage>
+               <p>So werde ich mit der Demoiselle die Arie der »Ariadne« repetieren – <stage>Will an die
+              vordere Tür rechts.</stage>
+               </p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI</speaker>
+               <stage>hält ihn ab.</stage>
+               <p>Hier ist nicht die Demoiselle darin, die Sie suchen, diejenige Demoiselle aber, die
+            hier drin ist, ist derzeitig für Sie ebenfalls nicht zu sprechen.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>naiv stolz.</stage>
+               <p>Weiß Er, wer ich bin? Wer in meiner Oper singt, ist für mich jederzeit zu sprechen!</p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER LAKAI</speaker>
+               <stage>lacht spöttisch.</stage>
+               <p>Hehehe! <stage>Winkt ihm herablassend, geht ab.</stage>
+               </p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>klopft an die Tür rechts, bekommt keine Antwort; dann, plötzlich zornrot, dem Lakai
+            nach.</stage>
+               <lg>
+                  <l>Eselsgesicht! sehr unverschämter frecher Esel!</l>
+                  <l>Der Eselskerl läßt mich allein hier vor der Tür –</l>
+                  <l>Hier vor der Tür mich stehn und geht.</l>
+                  <l>Oh, ich möcht vieles ändern noch</l>
+                  <l>In zwölfter Stund – und heut wird meine Oper –</l>
+                  <l>O der Esel! Die Freud! Du allmächtiger Gott!</l>
+                  <l>O mein zitterndes Herz! Du allmächtiger Gott!</l>
+               </lg>
+               <stage>Sinnt der Melodie nach, sucht in seinen Rocktaschen nach einem Stück Notenpapier,
+            findet eines, zerknitterts, schlägt sich an den Kopf.</stage>
+               <p>Dem Bacchus eintrichtern, daß er ein Gott ist! Ein seliger Knabe! Kein selbstgefälliger
+            Hanswurst mit einem Pantherfell!</p>
+               <p>Mir scheint, das ist seine Tür.</p>
+               <stage>Läuft an die zweite Tür links, klopft; hält indessen mit voller Stimme die
+            gefundene Melodie fest.</stage>
+               <p>O du Knabe! Du Kind! Du allmächtiger Gott!</p>
+               <stage>Die Tür geht auf, Perückenmacher taumelt heraus, empfängt soeben eine Ohrfeige vom
+            Tenor, der als Bacchus, aber mit kahlem Kopf, die Lockenperücke in der Hand, nach ihm
+            zornig heraustritt.</stage>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>DER TENOR.</speaker>
+               <p>Das! Für einen Bacchus! Das mit aufzusetzen mutet Er zu. Da hat Er, Lump, für Seinen
+            Bacchuskopf!</p>
+               <stage>Gibt ihm einen Fußtritt.</stage>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>ist zurückgesprungen.</stage>
+               <p>Mein Wertester! Sie allerdringendst muß ich sprechen!</p>
+            </sp>
+            <sp who="#perueckenmacher">
+               <speaker>PERÜCKENMACHER</speaker>
+               <stage>zum Tenor.</stage>
+               <p>Dero mißhelliges Betragen kann ich belächelnd nur einer angenommenen Gemütsaufwallung
+            zurechnen!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>der zurückgetreten war, nun wieder näherkommend.</stage>
+               <p>Mein Wertester!</p>
+               <stage>Tenor schlägt die Tür zu.</stage>
+            </sp>
+            <sp who="#perueckenmacher">
+               <speaker>PERÜCKENMACHER</speaker>
+               <stage>schreiend gegen die geschlossene Tür.</stage>
+               <p>Habe meinerseits keine Ursache, wegen meiner Leistungen vor Ihnen zu erröten!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>sich ihm nähernd, naiv-bescheiden.</stage>
+               <lg>
+                  <l>Hat der Herr leicht ein Stückerl Schreibpapier?</l>
+                  <l>Hätt mir gern was aufnotiert!</l>
+                  <l>Ich vergeß nämlich gar so leicht.</l>
+               </lg>
+            </sp>
+            <sp who="#perueckenmacher">
+               <speaker>PERÜCKENMACHER.</speaker>
+               <p>Kann nicht dienen!</p>
+               <stage>Läuft ab.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>noch sehr im Negligé, mit dem Offizier aus dem Zimmer rechts.</stage>
+               <p>Erst nach der Oper kommen wir daran. Es wird keine kleine Mühe kosten, die Herrschaften
+            wieder lachen zu machen, wenn sie sich erst eine Stunde gelangweilt haben.
+              <stage>Kokett.</stage> Oder meinen Sie, es wird mir gelingen?</p>
+               <stage>Der Offizier küßt ihr stumm die Hand. Sie gehen nach rückwärts, sprechen
+            weiter.</stage>
+               <stage>Die Primadonna mit dem Musiklehrer treten aus der vorderen Tür links. Sie trägt
+            über dem Ariadne-Kostüm den Frisiermantel. Bleibt in der Tür stehen. Der Musiklehrer
+            will sich verabschieden.</stage>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA.</speaker>
+               <lg>
+                  <l>Schnell, lieber Freund! Einen Lakai zu mir!</l>
+                  <l>Ich muß unbedingt sofort den Grafen sprechen.</l>
+               </lg>
+               <stage>Schließt ihre Tür.</stage>
+               <stage>Komponist hat sie gesehen, will hin.</stage>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>hält ihn auf.</stage>
+               <p>Du kannst jetzt nicht eintreten – sie ist beim Frisieren.</p>
+               <stage>Tanzmeister kommt von rückwärts, tritt rückwärts zu Zerbinetta und dem
+            Offizier.</stage>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>gewahrt erst jetzt Zerbinetta; zum Musiklehrer.</stage>
+               <p>Wer ist dieses Mädchen?</p>
+               <stage>Musiklehrer, verlegen, nimmt ihn beiseite.</stage>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER</speaker>
+               <stage>zu Zerbinetta.</stage>
+               <p>Sie werden leichtes Spiel haben, Mademoiselle. Die Oper ist langweilig über die
+            Begriffe, und was die Einfälle anlangt, so steckt in meinem linken Schuhabsatz mehr
+            Melodie als in dieser ganzen »Ariadne auf Naxos«.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>mit dem Komponisten ganz vorne.</stage>
+               <p>Sei sie wer immer!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>dringender.</stage>
+               <p>Wer ist dieses entzückende Mädchen?</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Um so besser, wenn sie dir gefällt. Es ist die Zerbinetta. Sie singt und tanzt mit vier
+            Partnern das lustige Nachspiel, das man nach deiner Oper gibt.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>zurückprallend.</stage>
+               <p>Nach meiner Oper? Ein lustiges Nachspiel? Tänze und Triller, freche Gebärden und
+            zweideutige Worte nach »Ariadne«! Sag mirs!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>zaghaft.</stage>
+               <p>Ich bitte dich um alles. –</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>tritt von ihm weg; edel.</stage>
+               <p>Das Geheimnis des Lebens tritt an sie heran, nimmt sie bei der Hand –
+              <stage>Heftig.</stage> und sie bestellen sich eine Affenkomödie, um das Nachgefühl der
+            Ewigkeit aus ihrem unsagbar leichtfertigen Schädel fortzuspülen! <stage>Lacht
+              kramphaft.</stage> O ich Esel!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Beruhige dich!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>wütend.</stage>
+               <p>Ich will mich nicht beruhigen! Ein heiteres Nachspiel! Ein Übergang zu ihrer
+            Gemeinheit! Dieses maßlos ordinäre Volk will sich Brücken bauen aus meiner Welt hinüber
+            in die seinige! O Mäzene! Das erlebt zu haben, vergiftet mir die Seele für immer. Es ist
+            undenkbar, daß mir je wieder eine Melodie einfällt! In dieser Welt kann keine Melodie
+            die Schwingen regen! <stage>Pause, dann mit verändertem Ton, ganz gemütlich.</stage> Und
+            gerade früher ist mir eine recht schöne eingefallen! Ich habe mich über einen frechen
+            Lakaien erzürnt, da ist sie mir aufgeblitzt – dann hat der Tenor dem Perückenmacher eine
+            Ohrfeige gegeben – da hab ich sie gehabt! – Ein Liebesgefühl, ein süß bescheidenes, ein
+            Vertrauen, wie diese Welt es nicht wert ist – da: –</p>
+               <stage>Den Text improvisierend.</stage>
+               <lg>
+                  <l>Du, Venus' Sohn – gibst süßen Lohn</l>
+                  <l>Für unser Sehnen und Schmachten!</l>
+                  <l>Lalalala – mein junges Herz</l>
+                  <l>Und all mein Sinnen und Trachten:</l>
+                  <l>O du Knabe, du Kind, du allmächtiger Gott!</l>
+               </lg>
+               <stage>Eilig gemütlich.</stage>
+               <p>Hast ein Stückerl Notenpapier?</p>
+               <stage>Musiklehrer gibt ihm welches.</stage>
+               <stage>Komponist notiert.</stage>
+               <stage>Zerbinetta im Gespräch, lacht auf.</stage>
+               <stage>Harlekin, Scaramuccio, Brighella, Truffaldin sind im Gänsemarsch aus Zerbinettas
+            Zimmer herausgekommen.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>vorstellend.</stage>
+               <p>Meine Partner! Meine erprobten Freunde! Jetzt mir meinen Spiegel, mein Rot! Meinen
+            Crayon!</p>
+               <stage>Die vier laufen ins Zimmer, kommen bald wieder, bringen ein Strohstühlchen,
+            Spiegel, Dosen, Puderquasten.</stage>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>mit einem Blick auf Zerbinetta, besinnt sich plötzlich; fast tragisch.</stage>
+               <p>Und du hast es gewußt! Du hast es gewußt!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Mein Freund, ich bin halt dreißig Jahrln älter als wie du und hab halt gelernt, mich in
+            die Welt zu schicken!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Wer so an mir handelt, der ist mein Freund gewesen, gewesen, gewesen, gewesen!</p>
+               <stage>Zerreißt wütend das Notierte.</stage>
+               <stage>Primadonna öffnet die Türe.</stage>
+               <stage>Komponist wirft die Fetzen Papier auf den Boden, beißt wütend seine Nägel, läuft
+            auf und nieder, dann nach hinten.</stage>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA</speaker>
+               <stage>winkt dem Musiklehrer.</stage>
+               <p>Haben Sie nach dem Grafen geschickt? <stage>Tritt ein wenig vor, bemerkt Zerbinetta und
+              die übrigen.</stage> Pfui! Was gibts denn da für Erscheinungen!</p>
+               <stage>Zerbinetta hat auf dem Strohstühlchen rechts im Vordergrund Platz genommen,
+            schminkt sich zu Ende, von ihren Partnern bedient; Harlekin hält das Licht, Brighella
+            den Spiegel.</stage>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA</speaker>
+               <stage>zum Musiklehrer, nicht gerade leise.</stage>
+               <p>Uns mit dieser Sorte von Leuten in einen Topf! Weiß man hier nicht, wer ich bin? Wie
+            konnte der Graf –</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>mit einem frechen Blick auf die Sängerin und absichtlich laut.</stage>
+               <p>Wenn das Zeug so langweilig wird, dann hätte man doch uns zuerst auftreten lassen
+            sollen, bevor sie übellaunig werden. Haben sie sich eine Stunde lang gelangweilt, so ist
+            es doppelt schwer, sie lachen zu machen.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER</speaker>
+               <stage>zu Zerbinetta.</stage>
+               <p>Im Gegenteil. Man kommt vom Tisch, man ist beschwert und wenig aufgelegt, man macht
+            unbemerkt ein Schläfchen, klatscht dann aus Höflichkeit und um sich wach zu machen.
+            Indessen ist man ganz munter geworden: »Was kommt jetzt?« sagt man sich. »Die ungetreue
+            Zerbinetta und ihre vier Liebhaber«, ein heiteres Nachspiel mit Tänzen, leichte,
+            gefällige Melodien, ja! eine Handlung, klar wie der Tag, da weiß man, woran man ist, das
+            ist unser Fall, sagt man sich, da wacht man auf, da ist man bei der Sache! – Und wenn
+            sie in ihren Karossen sitzen, wissen sie überhaupt nichts mehr, als daß sie die
+            unvergleichliche Zerbinetta haben tanzen sehen.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>zur Primadonna.</stage>
+               <p>Erzürnen Sie sich nicht um nichts und wieder nichts. Ariadne ist das Ereignis des
+            Abends, um Ariadne zu hören, versammeln sich Kenner und vornehme Personen im Hause eines
+            großen Mäzens, Ariadne ist das Losungswort, Sie sind Ariadne, morgen wird überhaupt
+            niemand mehr wissen, daß es außer Ariadne noch etwas gegeben hat.</p>
+            </sp>
+            <sp who="#der_lakai">
+               <speaker>DER JUNGE LAKAI</speaker>
+               <stage>läuft rückwärts vorüber.</stage>
+               <p>Die Herrschaften stehen vom Tisch auf! Man sollte sich hier beeilen.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Meine Damen und Herren, an Ihre Plätze.</p>
+               <stage>Alles kommt in Bewegung, die Arbeiter rückwärts sind fertig. Der Tenor, als
+            Bacchus, sowie Nymphe, Najade, Dryade, Echo, sind aus der zweiten Tür links
+            hervorgetreten.</stage>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>DER HAUSHOFMEISTER</speaker>
+               <stage>kommt eifrig von links rückwärts, tritt auf den Musiklehrer zu; mit
+            Wichtigkeit.</stage>
+               <p>Ihnen allen habe ich eine plötzliche Anordnung meines gnädigen Herrn auszurichten.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Ist schon geschehen, wir sind bereit, in drei Minuten mit der Oper »Ariadne«
+            anzufangen.</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER</speaker>
+               <stage>mit Grandezza.</stage>
+               <p>Der gnädige Herr haben sich nunmehr wiederum anders besonnen.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Es soll also nicht mit der Oper begonnen werden?</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA.</speaker>
+               <p>Was ist das!</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER</speaker>
+               <stage>mit Grandezza.</stage>
+               <p>Um Vergebung. Wo ist der Herr Tanzmeister? Ich habe einen Auftrag meines gnädigen Herrn
+            an Sie beide.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER</speaker>
+               <stage>tritt herzu.</stage>
+               <p>Was wünscht man von mir?</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Mein gnädiger Herr belieben das von ihm selbst genehmigte Programm umzustoßen.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Jetzt im letzten Moment! Ah, das ist doch ein starkes Stück!</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>– umzustoßen und folgendermaßen abzuändern.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Das Nachspiel wird Vorspiel, wir geben zuerst »Die ungetreue Zerbinetta«, dann
+            »Ariadne«. Sehr vernünftig.</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Um Vergebung. Die Tanzmaskerade wird weder als Nachspiel noch als Vorspiel aufgeführt,
+            sondern mit dem Trauerstück »Ariadne« gleichzeitig.</p>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>TENOR.</speaker>
+               <p>Ha, ist dieser reiche Herr besessen?</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Will man sich über uns lustig machen?</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA.</speaker>
+               <p>Sind die Leute wahnsinnig? Ich muß augenblicklich den Grafen sprechen!</p>
+               <stage>Komponist nähert sich erschrocken. Zerbinetta horcht von rechts.</stage>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER</speaker>
+               <stage>mit hochmütiger Ironie.</stage>
+               <p>Es ist genau so, wie ich es sage. Wie Sie es machen werden, das ist natürlich Ihre
+            Sache.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>dumpf.</stage>
+               <p>Unsere Sache!</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Mein gnädiger Herr ist der für Sie schmeichelhaften Meinung, daß Sie beide Ihr Handwerk
+            genug verstehen, um eine solche kleine Abänderung auf eins, zwei durchzuführen; und es
+            ist nun einmal der Wille meines gnädigen Herrn, die beiden Stücke, das lustige und das
+            traurige, mit allen Personen und der richtigen Musik, so wie er sie bestellt und bezahlt
+            hat, gleichzeitig auf seiner Bühne serviert zu bekommen.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Warum gleichzeitig?</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>leichtfertig.</stage>
+               <p>Da muß ich mich ja beeilen! <stage>Läuft in ihr Zimmer.</stage>
+               </p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Und zwar so, daß die ganze Vorstellung deswegen auch nicht einen Moment länger dauert.
+            Denn für Punkt neun Uhr ist ein Feuerwerk im Garten anbefohlen.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Ja, wie um aller Götter willen stellt sich denn Seine Gnaden das vor?</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>vor sich, ganz für sich, leise.</stage>
+               <p>Eine innere Stimme hat mir von der Wiege an etwas Derartiges vorausgesagt.</p>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Es ist wohl nicht die Sache meines gnädigen Herrn, wenn er ein Spektakel bezahlt, sich
+            auch noch damit abzugeben, wie es ausgeführt werden soll. Seine Gnaden ist gewohnt,
+            anzuordnen und seine Anordnungen befolgt zu sehen. <stage>Nach einer Pause nochmals
+              umkehrend, herablassend.</stage> Zudem ist mein gnädiger Herr schon seit drei Tagen
+            ungehalten darüber, daß in einem so wohlausgestatteten Hause wie das seinige ein so
+            jämmerlicher Schauplatz wie eine wüste Insel ihm vorgestellt werden soll, und ist eben,
+            um dem abzuhelfen, auf den Gedanken gekommen, diese wüste Insel durch das Personal aus
+            dem anderen Stück einigermaßen anständig staffieren zu lassen.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Das finde ich sehr richtig. Es gibt nichts Geschmackloseres als eine wüste Insel.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Ariadne auf Naxos, Herr. Sie ist das Sinnbild der menschlichen Einsamkeit.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Ebendarum braucht sie Gesellschaft.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Nichts um sich als das Meer, die Steine, die Bäume, das fühllose Echo. Sieht sie ein
+            menschliches Gesicht, wird meine Musik sinnlos.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Aber der Zuhörer unterhält sich. So wie es jetzt ist, ist es, um stehend
+            einzuschlafen.</p>
+               <stage>Pirouette.</stage>
+            </sp>
+            <sp who="#haushofmeister">
+               <speaker>HAUSHOFMEISTER.</speaker>
+               <p>Um Vergebung, aber ich bitte, sich höchlich zu beeilen, die Herrschaften werden
+            sogleich eintreten.</p>
+               <stage>Ab.</stage>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Ich weiß nicht, wo mir der Kopf steht. Wenn man zwei Stunden Zeit hätte, über die
+            Lösung nachzudenken.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Darüber willst du nachdenken? Wo menschliche Gemeinheit, stier wie die Meduse, einem
+            entgegengrinst. Fort, was haben wir hier verloren?</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Was wir hier verloren haben? Die fünfzig Dukaten unter anderm, von denen du das nächste
+            halbe Jahr zu leben gedachtest!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>vor sich.</stage>
+               <p>Ich habe nichts mit dieser Welt gemein! Wozu leben in ihr?!</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER</speaker>
+               <stage>nimmt den Musiklehrer beiseite.</stage>
+               <p>Ich weiß wirklich nicht, warum Sie beide einem so vernünftigen Vorschlag solch
+            übertriebene Schwierigkeiten entgegensetzen!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Meinen Sie denn im Ernst, es ließe sich machen?</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Nichts leichter als das. Es sind Längen in der Oper – <stage>Leiser.</stage>
+            gefährliche Längen. Man läßt sie weg. Diese Leute wissen zu improvisieren, finden sich
+            in jede Situation.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Still, wenn er uns hört, begeht er Selbstmord.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Fragen Sie ihn, ob er seine Oper lieber heute ein wenig verstümmelt hören will, oder ob
+            er sie niemals hören will. Schaffen Sie ihm Tinte, Feder, einen Rotstift, was immer!
+              <stage>Zum Komponisten.</stage> Es handelt sich darum, Ihr Werk zu retten!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>drückt die ihm von allen Seiten gereichten Noten leidenschaftlich an die
+            Brust.</stage>
+               <p>Lieber ins Feuer!</p>
+               <stage>Man bringt Tinte, Feder, ein Licht dazu; schiebt den Tisch nach vorne.</stage>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Hundert große Meister, die wir auf den Knien bewundern, haben sich ihre erste
+            Aufführung mit noch ganz anderen Opfern erkauft.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>rührend, hilflos.</stage>
+               <p>Meinen Sie? Hat er recht, du? Darf ich denn? Muß ich denn?</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER</speaker>
+               <stage>drückt ihn sanft an den Tisch, wo man die Noten ausbreitet und das Licht daneben
+            stellt; zum Musiklehrer.</stage>
+               <p>Sehen Sie zu, daß er genug streicht. Ich rufe indessen Zerbinetta her, wir erklären ihr
+            in zwei Worten die Handlung! Sie ist eine Meisterin im Improvisieren; da sie immer nur
+            sich selber spielt, findet sie sich in jeder Situation zurecht, die anderen sind auf sie
+            eingespielt, es geht alles wie am Schnürchen. <stage>Er holt sich Zerbinetta aus dem
+              Zimmer, spricht zu ihr. Komponist fängt an, beim Schein der Kerze zu
+              streichen.</stage>
+               </p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA</speaker>
+               <stage>zum Musiklehrer, leise.</stage>
+               <p>Sehen Sie zu, daß er dem Bacchus einiges wegnimmt; man erträgt es nicht, diesen Mann so
+            viel singen zu hören.</p>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>TENOR</speaker>
+               <stage>tritt verstohlen zum Komponisten, beugt sich zu ihm.</stage>
+               <p>Der Ariadne müssen Sie streichen. Niemand hält es aus, wenn diese Frau unaufhörlich auf
+            der Bühne steht.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>flüsternd, nimmt den Tenor beiseite.</stage>
+               <p>Er nimmt ihr zwei Arien weg, Ihnen keine Note. Verraten Sie mich nicht. <stage>Tritt
+              ebenso zur Primadonna hinüber, nimmt sie beiseite.</stage> Sie behalten alles. Er
+            nimmt dem Bacchus die halbe Rolle, lassen Sie sich nichts merken.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER</speaker>
+               <stage>zu Zerbinetta, lustig geistreich.</stage>
+               <p>Diese Ariadne ist eine Königstochter. Sie ist mit einem gewissen Theseus entflohen, dem
+            sie vorher das Leben gerettet hat.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>zwischen Tür und Angel.</stage>
+               <p>So etwas geht selten gut aus.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Theseus wird ihrer überdrüssig und läßt sie bei Nacht auf einer wüsten Insel
+            zurück!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER</speaker>
+               <stage>links leise gleichzeitig zum Komponisten.</stage>
+               <p>Noch das, es muß sein!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>verständnisvoll.</stage>
+               <p>Kleiner Schuft!</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Sie verzehrt sich in Sehnsucht und wünscht den Tod herbei.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Den Tod! Das sagt man so. Natürlich meint sie einen anderen Verehrer.</p>
+            </sp>
+            <sp who="#tanzmeister">
+               <speaker>TANZMEISTER.</speaker>
+               <p>Natürlich, so kommts ja auch!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>hat aufgehorcht, kommt näher.</stage>
+               <p>Nein, Herr, so kommt es nicht! Denn, Herr! sie ist eine von den Frauen, die nur einem
+            im Leben gehören und danach keinem mehr.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Ha!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>verwirrt, starrt sie an.</stage>
+               <p>– keinem mehr als dem Tod.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>tritt heraus.</stage>
+               <p>Der Tod kommt aber nicht. Wetten wir. Sondern ganz das Gegenteil. Vielleicht auch ein
+            blasser, dunkeläugiger Bursche, wie du einer bist.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Sie vermuten ganz recht. Es ist der jugendliche Gott Bacchus, der zu ihr kommt!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>fröhlich, spöttisch.</stage>
+               <p>Als ob man das nicht wüßte! Nun hat sie ja fürs nächste, was sie braucht.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>sehr feierlich.</stage>
+               <p>Sie hält ihn für den Todesgott. In ihren Augen, in ihrer Seele ist er es, und darum,
+            einzig nur darum –</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>aus der Tür.</stage>
+               <p>Das will sie dir weismachen.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Einzig nur darum geht sie mit ihm – auf sein Schiff! Sie meint zu sterben! Nein, sie
+            stirbt wirklich.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>indem sie was überwirft.</stage>
+               <p>Tata. Du wirst mich meinesgleichen kennen lehren!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Sie ist nicht Ihresgleichen! <stage>Schreiend.</stage> Ich weiß es, daß sie stirbt.
+              <stage>Leise.</stage> Ariadne ist die eine unter Millionen, sie ist die Frau, die
+            nicht vergißt.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>tritt heraus.</stage>
+               <p>Kindskopf. <stage>Sie kehrt ihm den Rücken; zu ihren vier Partnern, die herangetreten
+              sind.</stage> Merkt auf, wir spielen mit in dem Stück »Ariadne auf Naxos«. Das Stück
+            geht so: eine Prinzessin ist von ihrem Bräutigam sitzengelassen, und ihr nächster
+            Verehrer ist vorerst noch nicht angekommen. Die Bühne stellt eine wüste Insel dar. Wir
+            sind eine muntere Gesellschaft, die sich zufällig auf dieser Insel befindet. Die
+            Kulissen sind Felsen, und wir plazieren uns dazwischen. Ihr richtet euch nach mir, und
+            sobald sich eine Gelegenheit bietet, treten wir auf und mischen uns in die Handlung!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>während sie spricht, vor sich.</stage>
+               <p>Sie gibt sich dem Tod hin – ist nicht mehr da – weggewischt – stürzt sich hinein ins
+            Geheimnis der Verwandlung – wird neu geboren – entsteht wieder in seinen Armen! – Daran
+            wird er zum Gott. Worüber in der Welt könnte eins zum Gott werden als über diesem
+            Erlebnis? <stage>Springt auf.</stage>
+               </p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>tritt zu ihm, sieht ihm in die Augen.</stage>
+               <p>Courage! Jetzt kommt Vernunft in die Verstiegenheit!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Lebendig wars! Stand da – so!</p>
+               <stage>Malts mit den Händen in die Luft.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Und wenn ich hineinkomme, wirds schlechter?</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>vor sich.</stage>
+               <p>Ich überlebe diese Stunde nicht!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Du wirst noch ganz andere überleben.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>verloren.</stage>
+               <p>Was wollen Sie damit – in diesem Augenblick – sagen?</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>mit äußerster Koketterie, scheinbar ganz schlicht.</stage>
+               <p>Ein Augenblick ist wenig – ein Blick ist viel. Viele meinen, daß sie mich kennen, aber
+            ihr Auge ist stumpf. Auf dem Theater spiele ich die Kokette, wer sagt, daß mein Herz
+            dabei im Spiele ist? Ich scheine munter und bin doch traurig, gelte für gesellig und bin
+            doch so einsam.</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>naiv entzückt.</stage>
+               <p>Süßes, unbegreifliches Mädchen!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Törichtes Mädchen, mußt du sagen, das sich manchmal zu sehnen verstünde nach dem einen,
+            dem sie treu sein könnte, treu bis ans Ende. –</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Wer es sein dürfte, den du ersehnest! Du bist wie ich – das Irdische unvorhanden deiner
+            Seele.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>schnell, zart.</stage>
+               <p>Du sprichst, was ich fühle. – Ich muß fort. Vergißt du gleich wieder diesen einen
+            Augenblick?</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Vergißt sich in Äonen ein einziger Augenblick?</p>
+               <stage>Zerbinetta macht sich los, läuft schnell in ihr Zimmer nach rechts. Während dieses
+            Dialoges: Der Musiklehrer, als Regisseur der Oper, hat die übrigen Figuren, den Tenor,
+            dann die drei Nymphen nach rückwärts, wo die Bühne angenommen ist, dirigiert, und kommt
+            jetzt eilfertig nach vorne, die Primadonna abzuholen, die noch einmal in ihr
+            Garderobezimmer verschwunden war.</stage>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>An Ihre Plätze, meine Damen und Herren! Ariadne! Zerbinetta! Scaramuccio, Harlekin! Auf
+            die Szene, wenn ich bitten darf!</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA</speaker>
+               <stage>mit einem Blick auf Zerbinetta, die eben aus ihrem Zimmer tritt, dem Komponisten
+            einen Kuß zuwirft, dann nach rückwärts läuft.</stage>
+               <p>Ich soll mit dieser Person auf einer Szene stehen! Woran denken Sie!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Seien Sie barmherzig! Bin ich nicht Ihr alter Lehrer?</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA.</speaker>
+               <p>Jagen Sie mir die Kreatur von der Bühne – oder ich weiß nicht, was ich tue!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Wo hätten Sie eine schönere Gelegenheit als auf der Bühne, ihr zu zeigen, welch
+            unermeßlicher Abstand zwischen Ihnen befestigt ist!</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>PRIMADONNA.</speaker>
+               <p>Abstand! Ha! Eine Welt, hoffe ich.</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Legen Sie diese Welt in jede Gebärde und – man wird Ihnen anbetend zu Füßen sinken.</p>
+               <stage>Küßt ihr die Hand, führt sie ein paar Schritte nach rückwärts, kommt dann sogleich
+            wieder, den Komponisten zu holen.</stage>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>umarmt den Musiklehrer stürmisch.</stage>
+               <p>Seien wir wieder gut! Ich sehe jetzt alles mit anderen Augen! Die Tiefen des Daseins
+            sind unermeßlich! – Mein lieber Freund, es gibt manches auf der Welt, das läßt sich
+            nicht sagen. Die Dichter unterlegen ja recht gute Worte, recht gute – <stage>Jubel in
+              der Stimme.</stage> jedoch, jedoch, jedoch, jedoch, jedoch! – Mut ist in mir, Freund.
+            – Die Welt ist lieblich und nicht fürchterlich dem Mutigen – und was ist denn Musik?
+              <stage>Mit fast trunkener Feierlichkeit.</stage> Musik ist heilige Kunst, zu
+            versammeln alle Arten von Mut wie Cherubim um einen strahlenden Thron! Das ist Musik,
+            und darum ist sie die heilige unter den Künsten!</p>
+               <stage>Zerbinetta erscheint rückwärts, mit einem frechen Pfiff ihre Partner auf die Bühne
+            zu rufen.</stage>
+               <stage>Harlekin kommt eilfertig aus dem Zimmer rechts, läuft, seinen Gurt schnallend, auf
+            die Bühne.</stage>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Was ist das? Wohin?</p>
+               <stage>Scaramuccio, wie Harlekin, gleichfalls seine Toilette im Laufen beendend.</stage>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>Diese Kreaturen! –</p>
+               <stage>Truffaldin, Brighella, den gleichen Weg wie die vorigen.</stage>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST.</speaker>
+               <p>– in mein Heiligtum hinein ihre Bocksprünge! Ah!</p>
+            </sp>
+            <sp who="#musiklehrer">
+               <speaker>MUSIKLEHRER.</speaker>
+               <p>Du hast es erlaubt!</p>
+            </sp>
+            <sp who="#komponist">
+               <speaker>KOMPONIST</speaker>
+               <stage>rasend.</stage>
+               <p>Ich durfte es nicht erlauben! Du durftest mir nicht erlauben, es zu erlauben! Wer hieß
+            dich mich zerren, mich! in diese Welt hinein? Laß mich erfrieren, verhungern, versteinen
+            in der meinigen!</p>
+               <stage>Läuft vorne ab, verzweifelt.</stage>
+               <stage>Musiklehrer sieht ihm nach, schüttelt den Kopf.</stage>
+               <stage>Vorhang fällt schnell.</stage>
+            </sp>
+         </div>
+         <div>
+            <head>Oper</head>
+            <stage>Ariadne vor der Höhle auf dem Boden, regungslos. Najade links. Dryade rechts. Echo
+          rückwärts an der Wand der Grotte.</stage>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Schläft sie?</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Schläft sie?</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Nein! sie weinet!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Weint im Schlafe! horch! sie stöhnet.</p>
+            </sp>
+            <sp who="#najade #dryade">
+               <speaker>ZU ZWEIEN.</speaker>
+               <p>Ach! so sind wir sie gewöhnet.</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Tag um Tag in starrer Trauer.</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Ewig neue bittre Klagen.</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Neuen Krampf und Fieberschauer.</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Wundes Herz auf ewig, ewig –</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Ewig! Ewig!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Unversöhnet!</p>
+            </sp>
+            <sp who="#najade #dryade #echo">
+               <speaker>ZU DREIEN.</speaker>
+               <lg>
+                  <l>Ach, wir sind es eingewöhnet.</l>
+                  <l>Wie der Blätter leichtes Schaukeln,</l>
+                  <l>Wie der Wellen sanftes Gaukeln</l>
+                  <l>Gleitets über uns dahin. –</l>
+                  <l>Ihre Tränen, ihre Klagen,</l>
+                  <l>Ach, seit wieviel, wieviel Tagen,</l>
+                  <l>Sie beschweren kaum den Sinn!</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>an der Erde.</stage>
+               <lg>
+                  <l>Wo war ich? tot? und lebe, lebe wieder</l>
+                  <l>Und lebe noch?</l>
+                  <l>Und ist ja doch kein Leben, das ich lebe!</l>
+                  <l>Zerstückelt Herz, willst ewig weiter schlagen?</l>
+               </lg>
+               <stage>Richtet sich halb auf.</stage>
+               <lg>
+                  <l>Was hab ich denn geträumt? Weh! schon vergessen!</l>
+                  <l>Mein Kopf behält nichts mehr;</l>
+                  <l>Nur Schatten streichen</l>
+                  <l>Durch einen Schatten hin.</l>
+                  <l>Und dennoch, etwas zuckt dann auf und tut so weh!</l>
+                  <l>Ach!</l>
+               </lg>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Ach!</p>
+               <stage>In der Kulisse.</stage>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Wie jung und schön und maßlos traurig!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Von vorne wie ein Kind, doch unterm Aug wie dunkel!</p>
+            </sp>
+            <sp who="#brighella #truffaldin">
+               <speaker>BRIGHELLA, TRUFFALDIN.</speaker>
+               <p>Und schwer, sehr schwer zu trösten, fürchte ich!</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>ohne ihrer irgendwie zu achten; vor sich, monologisch.</stage>
+               <lg>
+                  <l>Ein Schönes war, hieß Theseus-Ariadne</l>
+                  <l>Und ging im Licht und freute sich des Lebens!</l>
+                  <l>Warum weiß ich davon? ich will vergessen!</l>
+                  <l>Dies muß ich nur noch finden: es ist Schmach,</l>
+                  <l>Zerrüttet sein, wie ich!</l>
+                  <l>Man muß sich schütteln: ja, dies muß ich finden:</l>
+                  <l>Das Mädchen, das ich war!</l>
+                  <l>Jetzt hab ichs – Götter! daß ichs nur behalte!</l>
+                  <l>Den Namen nicht – der Name ist verwachsen</l>
+                  <l>Mit einem anderen Namen, ein Ding wächst</l>
+                  <l>So leicht ins andere, wehe!</l>
+               </lg>
+            </sp>
+            <sp who="#najade #dryade #echo">
+               <speaker>NAJADE, DRYADE, ECHO</speaker>
+               <stage>als wollten sie sie erinnern, wachrufen.</stage>
+               <p>Ariadne!</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>abwinkend.</stage>
+               <lg>
+                  <l>Nicht noch einmal! Sie lebt hier ganz allein,</l>
+                  <l>Sie atmet leicht, sie geht so leicht,</l>
+                  <l>Kein Halm bewegt sich, wo sie geht,</l>
+                  <l>Ihr Schlaf ist rein, ihr Sinn ist klar,</l>
+                  <l>Ihr Herz ist lauter wie der Quell:</l>
+                  <l>Sie hält sich gut, drum kommt auch bald der Tag,</l>
+                  <l>Da darf sie sich in ihren Mantel wickeln,</l>
+                  <l>Darf ihr Gesicht mit einem Tuch bedecken</l>
+                  <l>Und darf da drinnen liegen</l>
+                  <l>Und eine Tote sein!</l>
+               </lg>
+               <stage>Sie träumt vor sich hin.</stage>
+               <stage>In der Kulisse.</stage>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Ich fürchte, großer Schmerz hat ihren Sinn verwirrt.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Versucht es mit Musik!</p>
+            </sp>
+            <sp who="#brighella #truffaldin">
+               <speaker>BRIGHELLA, TRUFFALDIN.</speaker>
+               <p>Ganz sicher, sie ist toll!</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>ohne den Kopf zu wenden, vor sich; als hätte sie die letzten Worte in ihren Traum
+            hinein gehört.</stage>
+               <lg>
+                  <l>Toll, aber weise, ja! – Ich weiß, was gut ist,</l>
+                  <l>Wenn man es fernhält von dem armen Herzen.</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>in der Kulisse.</stage>
+               <p>Ach, so versuchet doch ein kleines Lied!</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN</speaker>
+               <stage>in der Kulisse, singt.</stage>
+               <lg>
+                  <l>Lieben, Hassen, Hoffen, Zagen,</l>
+                  <l>Alle Lust und alle Qual,</l>
+                  <l>Alles kann ein Herz ertragen</l>
+                  <l>Einmal um das andere Mal</l>
+               </lg>
+               <lg>
+                  <l>Aber weder Lust noch Schmerzen,</l>
+                  <l>Abgestorben auch der Pein,</l>
+                  <l>Das ist tödlich deinem Herzen,</l>
+                  <l>Und so darfst du mir nicht sein!</l>
+               </lg>
+               <lg>
+                  <l>Mußt dich aus dem Dunkel heben,</l>
+                  <l>Wär es auch um neue Qual,</l>
+                  <l>Leben mußt du, liebes Leben,</l>
+                  <l>Leben noch dies eine Mal!</l>
+               </lg>
+               <stage>Echo wiederholt seelenlos wie ein Vogel die Melodie von Harlekins Lied.</stage>
+               <stage>Ariadne unbewegt, träumt vor sich hin.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>halblaut, parlando.</stage>
+               <p>Sie hebt auch nicht einmal den Kopf.</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN</speaker>
+               <stage>ebenso.</stage>
+               <p>Es ist alles vergebens. Ich fühlte es während des Singens.</p>
+               <stage>Echo wiederholt nochmals die Melodie.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Du bist ja ganz aus der Fassung.</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Nie hat ein menschliches Wesen mich so gerührt.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>So geht es dir mit jeder Frau.</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Und dir vielleicht nicht mit jedem Mann?</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>vor sich.</stage>
+               <lg>
+                  <l>Es gibt ein Reich, wo alles rein ist:</l>
+                  <l>Es hat auch einen Namen: Totenreich.</l>
+               </lg>
+               <stage>Hebt sich im Sprechen vom Boden.</stage>
+               <lg>
+                  <l>Hier ist nichts rein!</l>
+                  <l>Hier kam alles zu allem!</l>
+               </lg>
+               <stage>Sie zieht ihr Gewand eng um sich.</stage>
+               <lg>
+                  <l>Bald aber nahet ein Bote,</l>
+                  <l>Hermes heißen sie ihn.</l>
+                  <l>Mit seinem Stab</l>
+                  <l>Regiert er die Seelen:</l>
+                  <l>Wie leichte Vögel,</l>
+                  <l>Wie welke Blätter,</l>
+                  <l>Treibt er sie hin.</l>
+                  <l>Du schöner, stiller Gott! sieh! Ariadne wartet!</l>
+               </lg>
+               <lg>
+                  <l>Ach, von allen wilden Schmerzen</l>
+                  <l>Muß das Herz gereinigt sein,</l>
+                  <l>Dann wird dein Gesicht mir nicken,</l>
+                  <l>Wird dein Schritt vor meiner Höhle,</l>
+                  <l>Dunkel wird auf meinen Augen,</l>
+                  <l>Deine Hand auf meinem Herzen sein.</l>
+                  <l>In den schönen Feierkleidern,</l>
+                  <l>Die mir meine Mutter gab,</l>
+                  <l>Diese Glieder werden bleiben,</l>
+                  <l>Schön geschmückt und ganz allein,</l>
+                  <l>Stille Höhle wird mein Grab.</l>
+                  <l>Aber lautlos meine Seele</l>
+                  <l>Folget ihrem neuen Herrn,</l>
+                  <l>Wie ein leichtes Blatt im Winde,</l>
+                  <l>Folgt hinunter, folgt so gern.</l>
+               </lg>
+               <lg>
+                  <l>Du wirst mich befreien,</l>
+                  <l>Mir selber mich geben,</l>
+                  <l>Dies lastende Leben,</l>
+                  <l>Du nimmst es von mir.</l>
+                  <l>An dich werd ich mich ganz verlieren,</l>
+                  <l>Bei dir wird Ariadne sein.</l>
+               </lg>
+               <stage>Harlekin, verwegen; Brighella, jung, tölpelhaft; Scaramuccio, Gauner,
+            fünfzigjährig; Truffaldin, alberner Alter; hinter ihnen Zerbinetta. Kommen von vorne auf
+            die Bühne, schicken sich an, Ariadne durch einen Tanz zu erheitern. Zerbinetta bleibt
+            seitwärts an der Kulisse. Echo, Najade, Dryade sind während Ariadnes Monolog
+            verschwunden.</stage>
+            </sp>
+            <sp who="#harlekin #brighella #scaramuccio #truffaldin">
+               <speaker>DIE VIER.</speaker>
+               <lg>
+                  <l>Die Dame gibt mit trübem Sinn</l>
+                  <l>Sich allzusehr der Trauer hin.</l>
+                  <l>Was immer Böses widerfuhr,</l>
+                  <l>Die Zeit geht hin und tilgt die Spur.</l>
+               </lg>
+               <lg>
+                  <l>Wir wissen zu achten</l>
+                  <l>Der Liebe Leiden,</l>
+                  <l>Doch trübes Schmachten,</l>
+                  <l>Das wollen wir meiden.</l>
+               </lg>
+               <lg>
+                  <l>Sie aufzuheitern,</l>
+                  <l>Naht sich bescheiden</l>
+                  <l>Mit den Begleitern</l>
+                  <l>Dies hübsche Kind.</l>
+               </lg>
+               <stage>Sie tanzen.</stage>
+               <lg>
+                  <l>Es gilt, ob Tanzen,</l>
+                  <l>Ob Singen tauge,</l>
+                  <l>Von Tränen zu trocknen</l>
+                  <l>Ein schönes Auge.</l>
+                  <l>Es trocknet Tränen</l>
+                  <l>Die schmeichelnde Sonne.</l>
+                  <l>Es trocknet Tränen</l>
+                  <l>Der lose Wind:</l>
+                  <l>Sie aufzuheitern</l>
+                  <l>Befahl den Begleitern,</l>
+                  <l>O traurige Dame,</l>
+                  <l>Dies hübsche Kind.</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>indes die vier weitertanzen.</stage>
+               <lg>
+                  <l>Wie sie sich schwingen,</l>
+                  <l>Tanzen und singen,</l>
+                  <l>Gefiele der eine</l>
+                  <l>Oder der andere</l>
+                  <l>Gefiele mir schon.</l>
+               </lg>
+               <lg>
+                  <l>Doch die Prinzessin</l>
+                  <l>Verschließt ihre Augen,</l>
+                  <l>Sie mag nicht die Weise,</l>
+                  <l>Sie liebt nicht den Ton.</l>
+               </lg>
+               <stage>Indem sie zwischen die vier Tänzer tritt.</stage>
+               <p>Geht doch! Laßts doch! Ihr fallet zur Last!</p>
+            </sp>
+            <sp who="#harlekin #brighella #scaramuccio #truffaldin">
+               <speaker>DIE VIER</speaker>
+               <stage>indem sie weitertanzen.</stage>
+               <lg>
+                  <l>Sie aufzuheitern,</l>
+                  <l>Befahl den Begleitern,</l>
+                  <l>O traurige Dame,</l>
+                  <l>Das hübsche Kind!</l>
+               </lg>
+               <lg>
+                  <l>Doch wie wir tanzen,</l>
+                  <l>Doch wie wir singen,</l>
+                  <l>Was wir auch bringen,</l>
+                  <l>Wir haben kein Glück.</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>indem sie sie mit Gewalt fortdrängt.</stage>
+               <lg>
+                  <l>Drum lasset das Tanzen,</l>
+                  <l>Lasset das Singen,</l>
+                  <l>Zieht euch zurück!</l>
+                  <l>Zurück! Versteht ihr nicht! Ihr seid nur lästig!</l>
+               </lg>
+               <stage>Sie schafft sie weg.</stage>
+               <stage>Die vier ab, zwei nach rechts, zwei nach links.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>beginnt mit einer tiefen Verneigung vor Ariadne.</stage>
+               <lg>
+                  <l>Großmächtige Prinzessin, wer verstünde nicht,</l>
+                  <l>Daß so erlauchter und erhabener Personen Traurigkeit</l>
+                  <l>Mit einem anderen Maß gemessen werden muß</l>
+                  <l>Als der gemeinen Sterblichen. – Jedoch</l>
+               </lg>
+               <stage>Einen Schritt nähertretend, doch Ariadne achtet in keiner Weise auf sie.</stage>
+               <lg>
+                  <l>Sind wir nicht Frauen unter uns, und schlägt denn nicht</l>
+                  <l>In jeder Brust ein unbegreiflich, unbegreiflich Herz?</l>
+               </lg>
+               <stage>Abermals näher, mit einem Knicks. Ariadne, ihrer nicht zu achten, verhüllt ihr
+            Gesicht.</stage>
+               <lg>
+                  <l>Von unserer Schwachheit sprechen,</l>
+                  <l>Sie uns selber eingestehen,</l>
+                  <l>Ist es nicht schmerzlich süß?</l>
+                  <l>Und zuckt uns nicht der Sinn danach?</l>
+                  <l>Sie wollen mich nicht hören –</l>
+                  <l>Schön und stolz und regungslos,</l>
+                  <l>Als wären Sie die Statue auf Ihrer eigenen Gruft –</l>
+                  <l>Sie wollen keine andere Vertraute</l>
+                  <l>Als diesen Fels und diese Wellen haben?</l>
+               </lg>
+               <stage>Ariadne tritt an den Eingang ihrer Höhle zurück.</stage>
+               <lg>
+                  <l>Prinzessin, hören Sie mich an – nicht Sie allein,</l>
+                  <l>Wir alle – ach, wir alle – was Ihr Herz erstarrt,</l>
+                  <l>Wer ist die Frau, die es nicht durchgelitten hätte?</l>
+                  <l>Verlassen! in Verzweiflung! ausgesetzt!</l>
+                  <l>Ach, solcher wüsten Inseln sind unzählige</l>
+                  <l>Auch mitten unter Menschen, ich – ich selber,</l>
+                  <l>Ich habe ihrer mehrere bewohnt –</l>
+                  <l>Und habe nicht gelernt, die Männer zu verfluchen!</l>
+               </lg>
+               <stage>Ariadne tritt vollends in die Höhle zurück, Zerbinetta richtet ihre weiteren
+            Tröstungen an die unsichtbar Gewordene.</stage>
+               <lg>
+                  <l>Treulos – sie sinds!</l>
+                  <l>Ungeheuer, ohne Grenzen!</l>
+                  <l>Eine kurze Nacht,</l>
+                  <l>Ein hastiger Tag,</l>
+                  <l>Ein Wehen der Luft,</l>
+                  <l>Ein fließender Blick</l>
+                  <l>Verwandelt ihr Herz!</l>
+                  <l>Aber sind denn wir gefeit</l>
+                  <l>Gegen die grausamen – entzückenden,</l>
+                  <l>Die unbegreiflichen Verwandlungen?</l>
+               </lg>
+               <lg>
+                  <l>Noch glaub ich dem einen ganz mich gehörend,</l>
+                  <l>Noch mein ich mir selber so sicher zu sein,</l>
+                  <l>Da mischt sich im Herzen leise betörend</l>
+                  <l>Schon einer nie gekosteten Freiheit,</l>
+                  <l>Schon einer neuen verstohlenen Liebe</l>
+                  <l>Schweifendes, freches Gefühle sich ein!</l>
+               </lg>
+               <lg>
+                  <l>Noch bin ich wahr, und doch ist es gelogen,</l>
+                  <l>Ich halte mich treu und bin schon schlecht,</l>
+                  <l>Mit falschen Gewichten wird alles gewogen –</l>
+                  <l>Und halb mich wissend und halb im Taumel</l>
+                  <l>Betrüg ich ihn endlich und lieb ihn noch recht!</l>
+                  <l>Ja, halb mich wissend und halb im Taumel</l>
+                  <l>Betrüge ich endlich und liebe noch recht!</l>
+               </lg>
+               <lg>
+                  <l>So war es mit Pagliazzo</l>
+                  <l>Und mit Mezzetin!</l>
+                  <l>Dann war es Cavicchio,</l>
+                  <l>Dann Burattin,</l>
+                  <l>Dann Pasquariello!</l>
+                  <l>Ach, und zuweilen,</l>
+                  <l>Will es mir scheinen,</l>
+                  <l>Waren es zwei!</l>
+                  <l>Doch niemals Launen,</l>
+                  <l>Immer ein Müssen!</l>
+                  <l>Immer ein neues</l>
+                  <l>Beklommenes Staunen.</l>
+                  <l>Daß ein Herz so gar sich selber,</l>
+                  <l>Gar sich selber nicht versteht!</l>
+               </lg>
+               <lg>
+                  <l>Als ein Gott kam jeder gegangen,</l>
+                  <l>Und sein Schritt schon machte mich stumm,</l>
+                  <l>Küßte er mir Stirn und Wangen,</l>
+                  <l>War ich von dem Gott gefangen</l>
+                  <l>Und gewandelt um und um!</l>
+                  <l>Als ein Gott kam jeder gegangen,</l>
+                  <l>Jeder wandelte mich um,</l>
+                  <l>Küßte er mir Mund und Wangen,</l>
+                  <l>Hingegeben war ich stumm!</l>
+                  <l>Hingegeben war ich stumm!</l>
+                  <l>Hingegeben war ich stumm!</l>
+                  <l>Kam der neue Gott gegangen,</l>
+                  <l>Hingegeben war ich stumm!</l>
+               </lg>
+               <stage>Echo unsichtbar, wiederholt das Rondo, aber ohne Text, ad libitum.</stage>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN</speaker>
+               <stage>springt aus der Kulisse.</stage>
+               <p>Hübsch gepredigt! Aber tauben Ohren!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Ja, es scheint, die Dame und ich sprechen verschiedene Sprachen.</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Es scheint so.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Es ist die Frage, ob sie nicht schließlich lernt, sich in der meinigen
+            auszudrücken.</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Wir wollens abwarten. Was wir aber nicht abwarten wollen –</p>
+               <stage>Er ist mit einem Sprung dicht bei ihr, sucht sie zu umarmen.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>macht sich los.</stage>
+               <p>Wofür hältst du mich?</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Für ein entzückendes Mädchen, dessen Beziehungen zu mir dringend einer Belebung
+            bedürfen –</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <lg>
+                  <l>Unverschämter! und außerdem: hier!</l>
+                  <l>Zwei Schritte von der Wohnung der Prinzessin!</l>
+               </lg>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Pah! Wohnung, es ist eine Höhle.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Was ändert das?</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Sehr viel, sie hat keine Fenster.</p>
+               <stage>Versucht abermals, sie zu küssen.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>macht sich energisch los.</stage>
+               <p>Ich glaube, du wärest wirklich fähig!</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Zweifle nicht, zu allem!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>mißt ihn mit dem Blick, halb für sich.</stage>
+               <p>Zu denken, daß es Frauen gibt, denen er ebendarum gefiele –</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Und zu denken, daß du von oben bis unten eine solche Frau bist!</p>
+            </sp>
+            <stage>Zerbinetta mißt ihn mit dem Blick.</stage>
+            <stage>Brighella, Scaramuccio, Truffaldin stecken links und rechts ihre Köpfe aus der
+          Kulisse.</stage>
+            <sp who="#brighella #scaramuccio #truffaldin">
+               <speaker>BRIGHELLA, SCARAMUCCIO, TRUFFALDIN.</speaker>
+               <p>Pst! Pst! Zerbinetta!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>hat sich Harlekin entzogen, läuft nach vorn, vor sich, beinahe ad
+            spectatores.</stage>
+               <p>Männer! Lieber Gott, wenn du wirklich wolltest, daß wir ihnen widerstehen sollten,
+            warum hast du sie so verschieden geschaffen?</p>
+               <stage>Sie endet, mitten aus der Prosa, mit einer Roulade.</stage>
+            </sp>
+            <sp who="#harlekin #brighella #scaramuccio #truffaldin">
+               <speaker>DIE VIER.</speaker>
+               <lg>
+                  <l>Eine Störrische zu trösten,</l>
+                  <l>Laßt das peinliche Geschäft!</l>
+                  <l>Will sie sich nicht trösten lassen,</l>
+                  <l>Laß sie weinen, sie hat recht!</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>tanzt von einem zum anderen, weiß jedem zu schmeicheln.</stage>
+            </sp>
+            <sp who="#brighella">
+               <speaker>BRIGHELLA</speaker>
+               <stage>mit albernem Ton.</stage>
+               <lg>
+                  <l>Doch ich bin störrisch nicht,</l>
+                  <l>Gibst du ein gut Gesicht.</l>
+                  <l>Ach, ich verlang nicht mehr,</l>
+                  <l>Freu mich so sehr.</l>
+               </lg>
+            </sp>
+            <sp who="#scaramuccio">
+               <speaker>SCARAMUCCIO</speaker>
+               <stage>mit schlauem Ausdruck.</stage>
+               <lg>
+                  <l>Auf dieser Insel</l>
+                  <l>Gibts hübsche Plätze.</l>
+                  <l>Komm, laß dich führen,</l>
+                  <l>Ich weiß Bescheid!</l>
+               </lg>
+            </sp>
+            <sp who="#truffaldin">
+               <speaker>TRUFFALDIN</speaker>
+               <stage>täppisch lüstern.</stage>
+               <lg>
+                  <l>Wär nur ein Wagen,</l>
+                  <l>Ein Pferdchen nur mein,</l>
+                  <l>Hätt ich die Kleine</l>
+                  <l>Bald wo allein!</l>
+               </lg>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN</speaker>
+               <stage>diskret im Hintergrund.</stage>
+               <lg>
+                  <l>Wie sie vergeudet</l>
+                  <l>Augen und Hände,</l>
+                  <l>Laur ich im stillen</l>
+                  <l>Hier auf das Ende!</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>von einem zum anderen tanzend.</stage>
+               <lg>
+                  <l>Immer ein Müssen,</l>
+                  <l>Niemals Launen,</l>
+                  <l>Immer ein neues</l>
+                  <l>Unsägliches Staunen!</l>
+               </lg>
+               <stage>Die vier, mit Zerbinetta, in beliebiger Verschränkung.</stage>
+            </sp>
+            <sp who="#brighella">
+               <speaker>BRIGHELLA.</speaker>
+               <p>Ich bin nicht störrisch.</p>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Ich laure im stillen.</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>im Tanzen.</stage>
+               <lg>
+                  <l>So wars mit Pasquariello</l>
+                  <l>Und so mit Mezzetin!</l>
+               </lg>
+            </sp>
+            <sp who="#scaramuccio">
+               <speaker>SCARAMUCCIO.</speaker>
+               <p>Hätt ich das Mädchen –</p>
+            </sp>
+            <sp who="#truffaldin">
+               <speaker>TRUFFALDIN.</speaker>
+               <p>Ich wüßte Bescheid!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>im Tanzen.</stage>
+               <lg>
+                  <l>Dann mit Cavicchio</l>
+                  <l>Und mit Burattin!</l>
+               </lg>
+            </sp>
+            <sp who="#scaramuccio #harlekin">
+               <speaker>ZWEI.</speaker>
+               <lg>
+                  <l>Komm, laß dich führen,</l>
+                  <l>Ich laure im stillen!</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>im Tanzen.</stage>
+               <lg>
+                  <l>Ach, und zuweilen</l>
+                  <l>Waren es zwei!</l>
+               </lg>
+            </sp>
+            <sp who="#scaramuccio #harlekin">
+               <speaker>ZWEI.</speaker>
+               <lg>
+                  <l>Es gibt hübsche Plätze:</l>
+                  <l>Ich weiß Bescheid!</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <lg>
+                  <l>Ach, und zuweilen</l>
+                  <l>Waren es zwei!</l>
+               </lg>
+               <stage>Unterm Tanzen scheint sie einen Schuh zu verlieren. Scaramuccio, flink, erfaßt den
+            Schuh und küßt ihn. Sie läßt sich ihn von ihm anziehen, wobei sie sich auf Truffaldin
+            stützt, der ihr von der anderen Seite zu Füßen gefallen ist.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>auf Truffaldin.</stage>
+               <p>Wie er feurig sich erniedert!</p>
+               <stage>Auf Scaramuccio, dem sie das Innere der Hand zum Kusse reicht.</stage>
+               <p>Wie der Druck den Druck erwidert!</p>
+            </sp>
+            <sp who="#zerbinetta #scaramuccio">
+               <speaker>ZERBINETTA UND SCARAMUCCIO.</speaker>
+               <lg>
+                  <l>Hand und Lippe, Mund und Hand,</l>
+                  <l>Welch ein zuckend Zauberband!</l>
+               </lg>
+               <stage>Scaramuccio und Truffaldin treten rechts und links zurück.</stage>
+               <stage>Brighella springt täppisch hin, Zerbinetta zu umfassen, sie entschlüpft ihm
+            geschickt.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>aufs neue tanzend.</stage>
+               <lg>
+                  <l>Mach ich ihn auf diese neidig,</l>
+                  <l>Wird der steife – wie geschmeidig</l>
+                  <l>Wird der steife Bursch sich drehn!</l>
+               </lg>
+            </sp>
+            <sp who="#brighella">
+               <speaker>BRIGHELLA</speaker>
+               <stage>steif tanzend und singend.</stage>
+               <lg>
+                  <l>Macht sie mich auf diese neidig,</l>
+                  <l>Ach, wie will ich mich geschmeidig</l>
+                  <l>Um die hübsche Puppe drehn!</l>
+               </lg>
+            </sp>
+            <sp who="#scaramuccio">
+               <speaker>SCARAMUCCIO</speaker>
+               <stage>gleichfalls tanzend.</stage>
+               <lg>
+                  <l>Macht sie uns auf diesen neidig,</l>
+                  <l>Hei, wie alle sich geschmeidig,</l>
+                  <l>Hui, um ihre Gunst sich drehn!</l>
+               </lg>
+            </sp>
+            <sp who="#truffaldin">
+               <speaker>TRUFFALDIN</speaker>
+               <stage>ebenso.</stage>
+               <lg>
+                  <l>Wie sie jeden sich geschmeidig,</l>
+                  <l>Einen auf den anderen neidig,</l>
+                  <l>Ohne Pause weiß zu drehn!</l>
+               </lg>
+            </sp>
+            <stage>Während die drei sich drehen, wirft sich Zerbinetta rückwärts Harlekin in die Arme
+          und eilt mit ihm zu verschwinden.</stage>
+            <sp who="#scaramuccio #brighella #truffaldin">
+               <speaker>SCARAMUCCIO, BRIGHELLA, TRUFFALDIN</speaker>
+               <stage>finden sich allein.</stage>
+               <lg>
+                  <l>Mir der Schuh!</l>
+                  <l>Mir der Blick!</l>
+                  <l>Mir die Hand!</l>
+                  <l>Das war das Zeichen,</l>
+                  <l>Schlau aus dem Kreise muß ich mich schleichen!</l>
+                  <l>Mich erwartet das himmlische Wesen,</l>
+                  <l>Mich zum Freunde hat sie erlesen!</l>
+               </lg>
+               <stage>Alle drei schleichen verstohlen in die Kulisse, gleich darauf erscheint zuerst
+            Scaramuccio, von rechts kommend, vor der Bühne, verlarvt.</stage>
+            </sp>
+            <sp who="#scaramuccio">
+               <speaker>SCARAMUCCIO</speaker>
+               <stage>für sich.</stage>
+               <p>Pst, wo ist sie? Wo mag sie sein?</p>
+               <stage>Späht herum, geht rechts um die Bühne herum.</stage>
+            </sp>
+            <sp who="#brighella">
+               <speaker>BRIGHELLA</speaker>
+               <stage>verlarvt, von links kommend, leise dummschlau.</stage>
+               <p>Pst, wo ist sie? Wo mag sie sein?</p>
+               <stage>Wendet sich nach rechts, stößt mit dem zurückkehrenden Scaramuccio
+            zusammen.</stage>
+            </sp>
+            <sp who="#truffaldin">
+               <speaker>TRUFFALDIN</speaker>
+               <stage>verlarvt, von links, an der linken Ecke in eben dem Augenblick hervorkommend, als
+            Brighella nach rechts den ersten Schritt tut.</stage>
+               <p>Pst, wo ist sie? Wo mag sie sein?</p>
+               <stage>Stößt mit den beiden Zusammenstoßenden auch noch zusammen; alle drei taumeln sie in
+            die Mitte.</stage>
+            </sp>
+            <sp who="#scaramuccio #brighella #truffaldin">
+               <speaker>ALLE DREI</speaker>
+               <stage>jeder für sich.</stage>
+               <lg>
+                  <l>Verdammter Zufall!</l>
+                  <l>Aber man erkennt mich nicht!</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta #harlekin">
+               <speaker>ZERBINETTA UND HARLEKIN</speaker>
+               <stage>sind links vorne wieder erschienen.</stage>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <lg>
+                  <l>Daß ein Herz so gar sich selber,</l>
+                  <l>Gar sich selber nicht versteht!</l>
+               </lg>
+            </sp>
+            <sp who="#brighella #scaramuccio #truffaldin">
+               <speaker>BRIGHELLA, SCARAMUCCIO, TRUFFALDIN</speaker>
+               <stage>sehen einander an.</stage>
+            </sp>
+            <sp who="#harlekin">
+               <speaker>HARLEKIN.</speaker>
+               <p>Ach, wie reizend, fein gegliedert!</p>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA.</speaker>
+               <p>Hand und Lippe, Mund und Hand!</p>
+            </sp>
+            <sp who="#scaramuccio #brighella #truffaldin">
+               <speaker>DIE DREI GESELLEN.</speaker>
+               <p>Ai! Ai!</p>
+            </sp>
+            <sp who="#harlekin #zerbinetta">
+               <speaker>HARLEKIN UND ZERBINETTA</speaker>
+               <stage>zusammen.</stage>
+               <lg>
+                  <l>Hand und Lippe, Mund und Hand,</l>
+                  <l>Welch ein zuckend Zauberband.</l>
+               </lg>
+            </sp>
+            <sp who="#scaramuccio #brighella #truffaldin">
+               <speaker>DIE DREI GESELLEN</speaker>
+               <stage>indem sie zornig und betrübt tanzend abgehen.</stage>
+               <lg>
+                  <l>Ai! ai! ai! ai! Der Dieb! Der Dieb!</l>
+                  <l>Der nieder-, niederträchtige Dieb!</l>
+                  <l>Ai! ai! ai! ai!</l>
+               </lg>
+               <stage>Die Bühne bleibt nach Abgang der fünf Masken (Zerbinetta, Harlekin usw.) leer
+            Zwischenspiel des Orchesters, auf Bacchus bezüglich, durchaus fremdartig, geheimnisvoll;
+            sodann: Najade, Dryade, Echo treten, fast zugleich, hastig auf von rechts, links und
+            rückwärts.</stage>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE</speaker>
+               <stage>aufgeregt.</stage>
+               <p>Ein schönes Wunder!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Ein reizender Knabe!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Ein junger Gott!</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Ein junger Gott, ein junger Gott!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>So wißt ihr –?</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Den Namen?</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Bacchus!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Mich höret!</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Mich höret doch an!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Die Mutter starb bei der Geburt.</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Eine Königstochter.</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Eines Gottes Liebste, eines Gottes Liebste!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Was für eines Gottes?</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO</speaker>
+               <stage>enthusiastisch.</stage>
+               <p>Eines Gottes Liebste, eines Gottes Liebste!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE</speaker>
+               <stage>eifrig.</stage>
+               <p>Was für eines Gottes?</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <lg>
+                  <l>Aber den Kleinen – hört doch' – Nymphen,</l>
+                  <l>Nymphen zogen ihn auf!</l>
+               </lg>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO</speaker>
+               <stage>begeistert.</stage>
+               <lg>
+                  <l>Nymphen zogen ihn auf!</l>
+                  <l>Nymphen zogen ihn auf!</l>
+               </lg>
+            </sp>
+            <sp who="#najade #dryade">
+               <speaker>NAJADE, DRYADE.</speaker>
+               <p>Nymphen! das zarte, göttliche Kind!</p>
+               <stage>Zu Dreien.</stage>
+               <p>Ach, daß nicht wir es gewesen sind.</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO</speaker>
+               <stage>vogelhaft.</stage>
+               <p>Ach, daß nicht wir es gewesen sind.</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Es wächst wie die Flamme unter dem Wind.</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Ist schon kein Kind mehr – Knabe und Mann!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Schnell zu Schiffe mit wilden Gefährten!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Nächtig im Wind die Segel gestellt!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Er am Steuer, er am Steuer.</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Kühn! der Knabe!</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO</speaker>
+               <stage>vogelhaft.</stage>
+               <p>Er am Steuer.</p>
+            </sp>
+            <sp who="#dryade #najade">
+               <speaker>DRYADE, NAJADE.</speaker>
+               <p>Heil dem ersten Abenteuer!</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Er am Steuer, er am Steuer!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Das erste! Ihr wißt, was es war?</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <lg>
+                  <l>Circe! Circe! an ihrer Insel</l>
+                  <l>Landet das Schiff, zu ihrem Palast</l>
+                  <l>Schweift der Fuß, nächtlich mit Fackeln –</l>
+               </lg>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE</speaker>
+               <stage>reißt ihrs Wort vom Munde.</stage>
+               <lg>
+                  <l>An der Schwelle empfängt sie ihn,</l>
+                  <l>An den Tisch zieht sie ihn hin,</l>
+                  <l>Reicht die Speise, reicht den Trank –</l>
+               </lg>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE</speaker>
+               <stage>eifrigst.</stage>
+               <lg>
+                  <l>Den Zaubertrank! die Zauberlippen!</l>
+                  <l>Allzu süße Liebesgabe!</l>
+               </lg>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Allzu süße Liebesgabe!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE</speaker>
+               <stage>Triumph im Ton.</stage>
+               <lg>
+                  <l>Doch der Knabe – doch der Knabe! –</l>
+                  <l>Wie sie frech und überheblich</l>
+                  <l>Ihn zu ihren Füßen winkt –</l>
+                  <l>Ihre Künste sind vergeblich,</l>
+                  <l>Weil kein Tier zur Erde sinkt!</l>
+               </lg>
+            </sp>
+            <sp who="#najade #dryade #echo">
+               <speaker>ZU DREIEN.</speaker>
+               <lg>
+                  <l>Alle Künste sind vergeblich,</l>
+                  <l>Weil kein Tier zur Erde sinkt!</l>
+               </lg>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <lg>
+                  <l>Aus den Armen ihr entwunden,</l>
+                  <l>Blaß und staunend, ohne Spott –</l>
+                  <l>Nicht verwandelt, nicht gebunden</l>
+                  <l>Steht vor ihr ein junger Gott!</l>
+               </lg>
+               <stage>Zu Dreien.</stage>
+               <lg>
+                  <l>Nicht verwandelt, nicht gebunden</l>
+                  <l>Steht vor ihr ein junger Gott!</l>
+               </lg>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO</speaker>
+               <stage>vogelhaft entzückt.</stage>
+               <p>Nicht verwandelt!</p>
+            </sp>
+            <sp who="#najade #dryade">
+               <speaker>NAJADE, DRYADE</speaker>
+               <stage>am Eingang der Höhle.</stage>
+               <p>Ariadne!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Schläft sie?</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Schläft sie?</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Nein! sie hört uns!</p>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Nicht verwandelt!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE</speaker>
+               <stage>der Ariadne meldend.</stage>
+               <p>Ein schönes Wunder!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Ein Knabe! Ein Gott!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE</speaker>
+               <stage>immer gegen die Höhle hin.</stage>
+               <lg>
+                  <l>Gestern noch der Gast der Circe,</l>
+                  <l>Mit ihr liegend bei dem Mahle,</l>
+                  <l>Nippend von dem Zaubertrank –</l>
+               </lg>
+            </sp>
+            <sp who="#echo">
+               <speaker>ECHO.</speaker>
+               <p>Nicht verwandelt! Nicht verwandelt!</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Heute ist er hier bei uns!</p>
+            </sp>
+            <sp who="#dryade">
+               <speaker>DRYADE.</speaker>
+               <p>Hörst du?</p>
+            </sp>
+            <sp who="#najade">
+               <speaker>NAJADE.</speaker>
+               <p>Hörst du?</p>
+            </sp>
+            <sp who="#najade #dryade">
+               <speaker>ZU ZWEIEN</speaker>
+               <stage>leise.</stage>
+               <p>Ariadne!</p>
+               <stage>Bacchus' Stimme wird hörbar. Im gleichen Augenblick, wie von Magie hervorgezogen,
+            tritt Ariadne lauschend aus der Höhle. Die drei Nymphen, lauschend, treten seit- und
+            rückwärts.</stage>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>erscheint auf dem Felsen, Ariadne und den Nymphen unsichtbar.</stage>
+               <lg>
+                  <l>Circe, kannst du mich hören?</l>
+                  <l>Du hast mir fast nichts getan –</l>
+                  <l>Doch die dir ganz gehören,</l>
+                  <l>Was tust du denen an?</l>
+               </lg>
+               <lg>
+                  <l>Circe, ich konnte fliehen,</l>
+                  <l>Sieh, ich kann lächeln und ruhn –</l>
+                  <l>Circe, was war dein Wille,</l>
+                  <l>An mir zu tun?</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>in sein Singen hinein, vor sich, leisest.</stage>
+               <lg>
+                  <l>Er greift durch alle Schmerzen,</l>
+                  <l>Auflösend alte Qual: ans Herz im Herzen greifts.</l>
+               </lg>
+            </sp>
+            <sp who="#najade #dryade #echo">
+               <speaker>NAJADE, DRYADE, ECHO</speaker>
+               <stage>leise, zaghaft.</stage>
+               <lg>
+                  <l>Töne, töne, süße Stimme,</l>
+                  <l>Fremder Vogel, singe wieder,</l>
+                  <l>Deine Klagen, sie beleben,</l>
+                  <l>Uns entzücken solche Lieder!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>schwermütig, lieblich.</stage>
+               <lg>
+                  <l>Doch da ich unverwandelt</l>
+                  <l>Von dir gegangen bin,</l>
+                  <l>Was haften die schwülen Gefühle</l>
+                  <l>An dem benommenen Sinn?</l>
+               </lg>
+               <lg>
+                  <l>Als wär ich von schläfernden Krautern</l>
+                  <l>Betäubt, ein Waldestier! –</l>
+                  <l>Circe – was du nicht durftest,</l>
+                  <l>Geschieht es doch an mir?</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>wie oben.</stage>
+               <lg>
+                  <l>O Todesbote! süß ist deine Stimme!</l>
+                  <l>Balsam ins Blut, und Schlummer in die Seele!</l>
+               </lg>
+            </sp>
+            <sp who="#najade #dryade #echo">
+               <speaker>NAJADE, DRYADE, ECHO</speaker>
+               <stage>nachdem die Stimme zu verstummen scheint, leise.</stage>
+               <lg>
+                  <l>Töne, töne, süße Stimme,</l>
+                  <l>Süße Stimme, töne wieder!</l>
+                  <l>Deine Klagen, sie beleben!</l>
+                  <l>Uns entzücken deine Lieder!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>fröhlich, mit etwas wie graziösem Spott.</stage>
+               <lg>
+                  <l>Circe, ich konnte fliehen!</l>
+                  <l>Circe, ich konnte fliehen!</l>
+                  <l>Sieh, ich kann lächeln und ruhn!</l>
+                  <l>Circe – was war dein Wille,</l>
+                  <l>An mir zu tun?</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>zugleich mit ihm, die Augen geschlossen, die Hände gehoben nach der Richtung, von
+            der die Stimme tönt, leise.</stage>
+               <lg>
+                  <l>Belade nicht zu üppig</l>
+                  <l>Mit nächtlichem Entzücken</l>
+                  <l>Voraus den schwachen Sinn!</l>
+                  <l>Die deiner lange harret,</l>
+                  <l>Nimm sie dahin!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>tritt hervor, steht vor Ariadne.</stage>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>in jähem Schreck, schlägt die Hände vors Gesicht.</stage>
+               <p>Theseus!</p>
+               <stage>Dann schnell sich neigend.</stage>
+               <lg>
+                  <l>Nein! nein! es ist der schöne stille Gott!</l>
+                  <l>Ich grüße dich, du Bote aller Boten!</l>
+               </lg>
+               <stage>Najade, Dryade, Echo haben sich unter tiefer Verneinung nach allen Seiten
+            zurückgezogen.</stage>
+            </sp>
+            <stage>Ariadne, Bacchus</stage>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>ganz jung, zartest im Ton.</stage>
+               <lg>
+                  <l>Du schönes Wesen? Bist du die Göttin dieser Insel?</l>
+                  <l>Ist diese Höhle dein Palast? sind diese deine Dienerinnen?</l>
+                  <l>Singst du an deinem Webstuhl Zauberlieder?</l>
+                  <l>Nimmst du den Fremdling da hinein</l>
+                  <l>Und liegst mit ihm beim Mahl,</l>
+                  <l>Und tränkest du ihn da mit einem Zaubertrank?</l>
+                  <l>Und ach, wer dir sich gibt, verwandelst du ihn auch?</l>
+                  <l>Weh! Bist du auch solch eine Zauberin?</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE.</speaker>
+               <lg>
+                  <l>Ich weiß nicht, was du redest.</l>
+                  <l>Ist es, Herr, daß du mich prüfen willst?</l>
+                  <l>Mein Sinn ist wirr von vielem Liegen ohne Trost!</l>
+                  <l>Ich lebe hier und harre deiner, deiner harre ich</l>
+                  <l>Seit Nächten, Tagen, seit wie vielen, ach, ich weiß es nicht mehr!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS.</speaker>
+               <lg>
+                  <l>Wie? kennest du mich denn? Hast du vordem von mir gewußt?</l>
+                  <l>Du hast mit einem Namen mich gegrüßt.</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE.</speaker>
+               <lg>
+                  <l>Nein! nein! Der bist du nicht,</l>
+                  <l>Mein Sinn ist leicht verwirrt!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS.</speaker>
+               <p>Wer bin ich denn?</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>neigt sich.</stage>
+               <lg>
+                  <l>Du bist der Herr über ein dunkles Schiff,</l>
+                  <l>Das fährt den dunklen Pfad.</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>nickt.</stage>
+               <p>Ich bin der Herr – über ein Schiff.</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>jäh.</stage>
+               <lg>
+                  <l>Nimm mich! Hinüber! Fort von hier mit diesem Herzen!</l>
+                  <l>Es ist zu nichts mehr nütze auf der Welt.</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>sanft.</stage>
+               <p>So willst du mit mir gehen auf mein Schiff?</p>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE.</speaker>
+               <p>Ich bin bereit. Du fragst? Ist es, daß du mich prüfen willst?</p>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>schüttelt den Kopf.</stage>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>mit unterdrückter Angst.</stage>
+               <lg>
+                  <l>Wie schaffst du die Verwandlung? mit den Händen?</l>
+                  <l>Mit deinem Stab? Wie, oder ists ein Trank,</l>
+                  <l>Den du zu trinken gibst? Du sprachst von einem Trank!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>verträumt in ihrem Anblick.</stage>
+               <lg>
+                  <l>Sprach ich von einem Trank,</l>
+                  <l>Ich weiß nichts mehr.</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>nickt.</stage>
+               <lg>
+                  <l>Ich weiß, so ist es dort, wohin du mich führest!</l>
+                  <l>Wer dort verweilet, der vergißt gar schnell!</l>
+                  <l>Das Wort, der Atemzug ist gleich dahin!</l>
+                  <l>Man ruht und ruht vom Ruhen wieder aus;</l>
+                  <l>Denn dort ist keiner matt vom Weinen, –</l>
+                  <l>Er hat vergessen, was ihn schmerzen sollte:</l>
+                  <l>Nichts gilt, was hier gegolten hat, ich weiß –</l>
+               </lg>
+               <stage>Sie schließt die Augen.</stage>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>tief erregt, unbewußt feierlich.</stage>
+               <lg>
+                  <l>Bin ich ein Gott, schuf mich ein Gott,</l>
+                  <l>Starb meine Mutter in Flammen dahin,</l>
+                  <l>Als sich in Flammen mein Vater ihr zeigte,</l>
+                  <l>Versagte der Circe Zauber an mir,</l>
+                  <l>Weil ich gefeit bin, Balsam und Äther</l>
+                  <l>Für sterbliches Blut in den Adern mir fließt.</l>
+                  <l>Hör mich, Wesen, das vor mir steht,</l>
+                  <l>Hör mich, du, die sterben will:</l>
+                  <l>Dann sterben eher die ewigen Sterne,</l>
+                  <l>Als daß du stürbest aus meinen Armen!</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>ängstlich zurückweichend vor der Gewalt seines Tones.</stage>
+               <lg>
+                  <l>Das waren Zauberworte! Weh! So schnell!</l>
+                  <l>Nun gibt es kein Zurück. Gibst du Vergessenheit</l>
+                  <l>So zwischen Blick und Blick?</l>
+                  <l>Entfernt sich alles,</l>
+                  <l>Alles von mir?</l>
+                  <l>Die Sonne? Die Sterne?</l>
+                  <l>Ich mir selber?</l>
+                  <l>Sind meine Schmerzen mir auf immer, immer</l>
+                  <l>Genommen? Ach!</l>
+               </lg>
+               <stage>Verhauchend.</stage>
+               <p>Bleibt nichts von Ariadne als ein Hauch?</p>
+               <stage>Sie sinkt, er hält sie.</stage>
+               <stage>Alles versinkt, ein Sternenhimmel spannt sich über den zweien.</stage>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS</speaker>
+               <stage>mehr ergriffen als laut.</stage>
+               <lg>
+                  <l>Ich sage dir, nun hebt sich erst das Leben an</l>
+                  <l>Für dich und mich!</l>
+               </lg>
+               <stage>Er küßt sie.</stage>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>entwindet sich ihm, unbewußt, sieht mit bangem Staunen um sich.</stage>
+               <lg>
+                  <l>Lag nicht die Welt auf meiner Brust? hast du,</l>
+                  <l>Hast du sie fortgeblasen?</l>
+                  <l>Da innen lag die arme Hündin</l>
+                  <l>An' Boden gedrückt, auf kalten Nesseln</l>
+                  <l>Mit Wurm und Assel, und ärmer als sie –</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS.</speaker>
+               <lg>
+                  <l>Nun steigt deiner Schmerzen innerste Lust</l>
+                  <l>In dein und meinem Herzen auf!</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE.</speaker>
+               <lg>
+                  <l>Du Zauberer, du! Verwandler, du!</l>
+                  <l>Blickt nicht aus dem Schatten deines Mantels</l>
+                  <l>Der Mutter Auge auf mich her?</l>
+                  <l>Ist so dein Schattenland! also gesegnet!</l>
+                  <l>So unbedürftig der irdischen Welt?</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS.</speaker>
+               <lg>
+                  <l>Du selber! du bist unbedürftig,</l>
+                  <l>Du meine Zauberin!</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE.</speaker>
+               <lg>
+                  <l>Gibts kein Hinüber?</l>
+                  <l>Sind wir schon drüben?</l>
+                  <l>Sind wir schon da?</l>
+                  <l>Wie konnt es geschehen?</l>
+                  <l>Auch meine Höhle, schön! gewölbt</l>
+                  <l>Über ein seliges Lager,</l>
+                  <l>Einen heiligen Altar!</l>
+                  <l>Wie wunder-, wunderbar verwandelst du!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS.</speaker>
+               <lg>
+                  <l>Du! Alles du!</l>
+                  <l>Ich bin ein anderer, als ich war!</l>
+                  <l>Der Sinn des Gottes ist wach in mir,</l>
+                  <l>Dein herrlich Wesen ganz zu fassen!</l>
+                  <l>Die Glieder reg ich in göttlicher Lust!</l>
+                  <l>Die Höhle da! Laß mich, die Höhle deiner Schmerzen</l>
+                  <l>Zieh ich zur tiefsten Lust um dich und mich!</l>
+               </lg>
+               <stage>Ein Baldachin senkt sich von oben langsam über beide, sie einschließend.</stage>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNE</speaker>
+               <stage>an seinem Arm hängend.</stage>
+               <lg>
+                  <l>Was hängt von mir</l>
+                  <l>In deinem Arm?</l>
+                  <l>Oh, was von mir,</l>
+                  <l>Die ich vergehe,</l>
+                  <l>Fingest du Geheimes</l>
+                  <l>Mit deines Mundes Hauch?</l>
+                  <l>Was bleibt, was bleibt von Ariadne?</l>
+                  <l>Laß meine Schmerzen nicht verloren sein!</l>
+               </lg>
+            </sp>
+            <sp who="#primadonna_ariadne">
+               <speaker>ARIADNES STIMME.</speaker>
+               <lg>
+                  <l>Laß meine Schmerzen nicht verloren,</l>
+                  <l>Bei dir laß Ariadne sein!</l>
+               </lg>
+            </sp>
+            <sp who="#zerbinetta">
+               <speaker>ZERBINETTA</speaker>
+               <stage>tritt aus der Kulisse, weist mit dem Fächer über die Schulter auf Bacchus und
+            Ariadne zurück und wiederholt mit spöttischem Triumph ihr Rondo.</stage>
+               <lg>
+                  <l>Kommt der neue Gott gegangen,</l>
+                  <l>Hingegeben sind wir stumm!</l>
+               </lg>
+            </sp>
+            <sp who="#der_tenor_bacchus">
+               <speaker>BACCHUS' STIMME.</speaker>
+               <lg>
+                  <l>Deiner hab ich um alles bedurft!</l>
+                  <l>Nun bin ich ein anderer, als ich war,</l>
+                  <l>Durch deine Schmerzen bin ich reich,</l>
+                  <l>Nun reg ich die Glieder in göttlicher Lust!</l>
+                  <l>Und eher sterben die ewigen Sterne,</l>
+                  <l>Eh denn du stürbest aus meinen Armen!</l>
+               </lg>
+               <stage>Der Baldachin hat sich geschlossen.</stage>
+            </sp>
+         </div>
+      </body>
+   </text>
+</TEI>

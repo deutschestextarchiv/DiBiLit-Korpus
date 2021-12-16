@@ -1,0 +1,3950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Widerspenstigen Zähmung</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118632302">
+                  <surname>Widmann</surname>
+                  <forename>Joseph Viktor</forename>
+               </persName>
+            </author>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118696025">
+                  <surname>Goetz</surname>
+                  <forename>Hermann Gustav</forename>
+               </persName>
+            </author>
+            <author>
+               <persName ref="http://d-nb.info/gnd/118632302">
+                  <forename>Joseph Viktor</forename>
+                  <surname>Widmann</surname>
+               </persName>
+            </author>
+            <author>
+               <persName role="composer">
+                  <forename>Hermann</forename>
+                  <surname>Goetz</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:44:04Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000333</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q1198062</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005907810</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Widmann, Joseph Viktor/Libretto/Der Widerspenstigen Zähmung</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/x8cc.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0005-A628-0</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Hermann Goetz: Der Widerspenstigen Zähmung, frei bearbeitet von Joseph Viktor Widmann, Zürich, Wien, München [ca. 1925]</bibl>
+            <bibl>Hermann Goetz: Der Widerspenstigen Zähmung. Komische Oper in vier Akten, nach Shakespeares gleichnamigen Lustspiel frei bearbeitet von Joseph Viktor Widmann, Musik von Hermann Goetz, Zürich, Wien, München: Apollo-Verlag, [ca. 1925].</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Der Widerspenstigen Zähmung</title>
+                  <title level="m" type="sub">Komische Oper in vier Akten, nach Shakespeares gleichnamigen Lustspiel</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/118632302">
+                        <forename>Joseph Viktor</forename>
+                        <surname>Widmann</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName role="composer">
+                        <forename>Hermann</forename>
+                        <surname>Goetz</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">36 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Apollo-Verlag</name>
+                  </publisher>
+                  <pubPlace>Zürich, Wien, München</pubPlace>
+                  <date type="publication">1925</date>
+                  <date type="firstPublication">1875</date>
+                  <date type="firstPublication" subtype="clariah">1875</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5">1925</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1842"
+                        notAfter="1911"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d135e305">Komponiert von Hermann Goetz. Uraufführung am 11.10.1874, Hof- und Nationaltheater, Mannheim.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="lucentio" sex="MALE">
+                  <persName>Lucentio</persName>
+               </person>
+               <personGrp xml:id="chor_1-1" sex="UNKNOWN">
+                  <name>Chor (I/1)</name>
+               </personGrp>
+               <person xml:id="baptista" sex="MALE">
+                  <persName>Baptista</persName>
+               </person>
+               <person xml:id="katharine" sex="FEMALE">
+                  <persName>Katharine</persName>
+               </person>
+               <personGrp xml:id="nachbarinnen" sex="FEMALE">
+                  <name>Nachbarinnen</name>
+               </personGrp>
+               <person xml:id="bianca" sex="FEMALE">
+                  <persName>Bianca</persName>
+               </person>
+               <person xml:id="hortensio" sex="MALE">
+                  <persName>Hortensio</persName>
+               </person>
+               <person xml:id="petruchio" sex="MALE">
+                  <persName>Petruchio</persName>
+               </person>
+               <person xml:id="grumio" sex="MALE">
+                  <persName>Grumio</persName>
+               </person>
+               <personGrp xml:id="chor_hinter_der_szene_2-3" sex="UNKNOWN">
+                  <name>Chor hinter der Szene (II/3)</name>
+               </personGrp>
+               <personGrp xml:id="chor_3-1" sex="UNKNOWN">
+                  <name>Chor (III/1)</name>
+               </personGrp>
+               <personGrp xml:id="chor_3-5" sex="UNKNOWN">
+                  <name>Chor (III/5)</name>
+               </personGrp>
+               <person xml:id="haushofmeister" sex="MALE">
+                  <persName>Haushofmeister</persName>
+               </person>
+               <person xml:id="haushaelterin" sex="FEMALE">
+                  <persName>Haushälterin</persName>
+               </person>
+               <personGrp xml:id="chor_alle_3-6" sex="UNKNOWN">
+                  <name>Chor/Alle (III/6)</name>
+               </personGrp>
+               <personGrp xml:id="chor_der_diener_4-1" sex="MALE">
+                  <name>Chor der Diener (IV/1)</name>
+                  <name type="variant">Diener</name>
+               </personGrp>
+               <person xml:id="schneider" sex="MALE">
+                  <persName>Schneider</persName>
+               </person>
+               <person xml:id="hortensios_frau" sex="FEMALE">
+                  <persName>Hortensios Frau</persName>
+               </person>
+               <personGrp xml:id="chor_4-6" sex="UNKNOWN">
+                  <name>Chor (IV/6)</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretto</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d135e305">
+      <front>
+         <div type="front">
+            <head>Joseph Viktor Widmann und Hermann Goetz</head>
+            <head>Der Widerspenstigen Zähmung</head>
+            <head>Komische Oper in vier Akten</head>
+         </div>
+         <castList>
+            <head>
+               <pb n="2" facs="#f0001"/> Personen:</head>
+            <castGroup>
+               <castItem>Baptista, ein reicher Edelmann in Padua</castItem>
+               <castItem>Katharine, Baptistas Tochter, die Widerspenstige</castItem>
+               <castItem>Bianca, Baptistas Tochter</castItem>
+               <castItem>Hortensio, Biancas Freier</castItem>
+               <castItem>Lucentio, Liebhaber der Bianca</castItem>
+               <castItem>Petruchio, Katharinens Freier</castItem>
+               <castItem>Grumio, Diener Petruchios</castItem>
+               <castItem>Schneider</castItem>
+               <castItem>Haushofmeister</castItem>
+               <castItem>Haushälterin</castItem>
+               <castItem>Hortensios Frau</castItem>
+               <castItem>Bedienstete in Baptistas Hause; Diener Petruchios sowie Gäste, Musikanten,
+            Nachbarn und Nachbarinnen</castItem>
+            </castGroup>
+         </castList>
+      </front>
+      <body>
+         <div>
+            <head>Erster Akt</head>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Straße in Padua, rechts Baptistas Haus mit Balkon. Später Abend, alles dunkel, nur
+            in Baptistas Haus bewegen sich Lichter hin und her. Lucentio tritt auf mit einer
+            Gitarre.</stage>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Klinget, klinget, liebe Töne,</l>
+                     <l>Schwirret träumerisch ums Haus,</l>
+                     <l>Lockt die heißersehnte Schöne,</l>
+                     <l>Lockt das Liebchen mir heraus!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Nun ist es aus, nun ist es aus!</p>
+                  <stage>Die Unruhe in Baptistas Haus wird von hier an bemerkbar.</stage>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Säuselt um die weichen Kissen,</l>
+                     <l>Die ihr blondes Köpfchen drückt,</l>
+                     <l>Lasset sie im Schlummer wissen,</l>
+                     <l>Wie ihr Bild mein Herz entzückt!</l>
+                  </lg>
+                  <stage>Lucentio sieht ungeduldig nach Baptistas Haus, fährt aber fort, nachdem es
+              ruhiger geworden.</stage>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Nun ist es aus, nun ist es aus!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Unbewußt, so wie die Sonne ungeahnte Glut enthaucht,</l>
+                     <l>Hast in goldne Liebeswonne den Entzückten du getaucht!</l>
+                  </lg>
+                  <stage>Hier geht die Tür auf und Baptistas Gesinde stürzt auf die Straße.</stage>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Nein, nun ist es aus! Der Teufel bleib in diesem Haus!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Was mag nun dieser Lärm bedeuten,</l>
+                     <l>Was ist's so spät mit diesen Leuten?</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Nun ist es aus, der Teufel bleib in diesem Haus!</l>
+                     <l>Nichts als Schelten alle Tage!</l>
+                     <l>Wenig Geld und große Plage!</l>
+                     <l>Zorniges Kneifen, stolze Mienen!</l>
+                     <l>Gäb es solcher Kathrinen auf der Welt ein Dutzend noch,</l>
+                     <l>Wär die Welt ein Höllenloch.</l>
+                     <l>Lasse sie der Himmel büßen,</l>
+                     <l>Daß wir fort jetzt wandern müssen.</l>
+                     <l>Guckt sie nicht in alle Teller?</l>
+                     <l>Schilt in Küche, Stall und Keller!</l>
+                     <l>Paßt uns auf zu jeder Stunde!</l>
+                     <l>Macht auch noch bei Nacht die Runde!</l>
+                     <l>Und hat immer was zu rügen,</l>
+                     <l>Dürfen niemals uns vergnügen,</l>
+                     <l>Niemals küssen, scherzen, lachen,</l>
+                     <l>Will sie uns zu Puppen machen?</l>
+                     <l>Drum macht euch auf, und frisch hinaus.</l>
+                     <l>Ja, frisch hinaus, der Teufel bleib in diesem Haus!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>erscheint in der Haustüre.</stage>
+                  <lg>
+                     <l>Ihr guten Leute, nur ein Wort,</l>
+                     <l>Lauft mir doch nicht so plötzlich fort!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Wir hören nichts, spart euer Wort.</l>
+                     <l>Wir bleiben fest, wir gehen fort.</l>
+                     <pb n="5" facs="#f0002"/>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ihr guten Leute!</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Nein, 's ist aus, der Teufel bleib in diesem Haus!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Kann ich doch selbst noch drinnen bleiben,</l>
+                     <l>Vielleicht wird bald sie Hochzeit machen.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Bis sie auch euch hinaus wird treiben.</l>
+                     <l>Wer nähme die, wer nähme die?</l>
+                     <l>Es ist zum Lachen!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>erscheint auf dem Balkon.</stage>
+                  <lg>
+                     <l>Genug, mein Vater, nimmer ziemt es sich,</l>
+                     <l>So schlechten Leuten wieder deine Langmut zu zeigen,</l>
+                     <l>Gute Worte noch zu geben.</l>
+                     <l>Komm in das Haus, und freue dich, daß sie gehn!</l>
+                     <l>Die träg und treulos ihre Pflicht vergessen,</l>
+                     <l>Unwürdig sind, daß unser Dach sie schütze.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ich bitte, Käthchen, misch dich nicht hinein.</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Sei nur getrost, wir gehen schon, wir gehn!</p>
+                  <stage>In den Fenstern der Nachbarhäuser zeigen sich erzürnte Gesichter.</stage>
+               </sp>
+               <sp who="#nachbarinnen">
+                  <speaker>NACHBARINNEN.</speaker>
+                  <p>Wird denn der Lärm nicht bald aufhören?</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Könnt ich zum Bleiben euch beschwören!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>So hör doch auf, sie zu beschwören!</l>
+                     <l>Schnell packt euch fort, wollt ihr nicht hören?</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO</speaker>
+                  <stage>ist wieder zurückgekehrt.</stage>
+                  <lg>
+                     <l>Verwünschtes Volk, mich so zu stören!</l>
+                     <l>Was für ein Lärm, ich mag nichts hören!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ich bitt euch bloß, mich anzuhören.</l>
+                     <l>Es ist umsonst, umsonst!</l>
+                  </lg>
+                  <lg>
+                     <l>Bald schwindet Sehen mir und Hören.</l>
+                     <l>So hört doch nur mein letztes Wort,</l>
+                     <l>Wirkt das nicht, nun so macht euch fort!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Umsonst, ihr sollt uns nicht betören.</l>
+                     <l>Umsonst ist Bitten und Beschwören, es ist umsonst!</l>
+                     <l>Kommt jetzt und laßt euch nicht betören!</l>
+                     <l>Jetzt schleunig fort, nein, 's ist umsonst!</l>
+                     <l>Nein, es ist umsonst, spart euer Wort!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>So hört doch nur.</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Wir hören nichts.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Mein letztes Wort!</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Wir gehn jetzt fort!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ich will fortan mehr Lohn euch geben.</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Hört!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Hört nur auf mich, Geld will ich geben!</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Geld will er geben.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Geld will ich euch und Wein auch geben.</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Er soll leben!</p>
+               </sp>
+               <sp who="#nachbarinnen">
+                  <speaker>NACHBARINNEN.</speaker>
+                  <p>Nun wird es endlich Ruhe geben.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Geld will ich euch und Wein auch geben.</l>
+                     <l>Doch dürft ihr mir nicht widerstreben.</l>
+                     <pb n="6" facs="#f0003"/>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Vor Zorn mir alle Nerven beben.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Gepriesen sei der Saft der Reben!</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Versöhnung bringt der Saft der Reben.</l>
+                     <l>Wir wollen nicht mehr widerstreben.</l>
+                     <l>Signor Baptista soll hoch leben</l>
+                     <l>Und auch sein ganzes Haus daneben!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Der Liebe Hoffnung darf aufleben.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Folgt mir ins Haus ohn Widerstreben.</p>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR.</speaker>
+                  <p>Wir folgen dir, der Wein soll leben.</p>
+                  <stage>Ab ins Haus.</stage>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Nun wird es endlich Ruhe geben,</l>
+                     <l>Der Liebe Hoffnung daher aufleben.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_1-1">
+                  <speaker>CHOR</speaker>
+                  <stage>hinter der Szene.</stage>
+                  <lg>
+                     <l>Da sitzen wir im Haberstroh! Juche!</l>
+                     <l>Und sind ganz unvernünftig froh! Juche!</l>
+                     <l>Wir schenken ein, wir trinken aus,</l>
+                     <l>Es tut ja niemand weh!</l>
+                     <l>Gott segne dich, du altes Haus!</l>
+                     <l>Juche! Juche! Juche!</l>
+                  </lg>
+                  <stage>Die Lichter verlöschen in Baptistas Haus, es wird ganz still und dunkel. Lucentio
+              hat seine Gitarre wieder geholt.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Lucentio allein, später Bianca.</stage>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Das wilde Toben ist verhallt, so komm nur, o meine Laute!</l>
+                     <l>Wag's noch einmal jetzt mit süßem Ton</l>
+                     <l>Dich ins Herz zu schmeicheln!</l>
+                     <l>Holde Bianca, meine Seele</l>
+                     <l>Schwingt auf Tönen sich zu dir,</l>
+                     <l>Daß sie deiner sich vermähle,</l>
+                     <l>Neig, o Holde, dich zu mir!</l>
+                  </lg>
+                  <stage>Lucentio blickt erwartungsvoll hinauf.</stage>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA</speaker>
+                  <stage>erscheint auf dem Balkon, zuerst halb versteckt.</stage>
+                  <lg>
+                     <l>Wie klang so süß mein Name durch die Stille!</l>
+                     <l>Schon oft vernahm ich diesen holden Sang.</l>
+                     <l>Der leise durch die Nacht verschwiegne Hülle,</l>
+                     <l>Ach, wie berauschend in die Seele drang!</l>
+                     <l>Wer mag es sein? Ich bin verwegen,</l>
+                     <l>Ein Augenblickchen schau ich nur hinab.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>O strahlend Himmelslicht, welch milder Segen,</l>
+                     <l>Quillt sanft auf mein verschmachtend Herz herab!</l>
+                     <l>O wende dich nicht ab, daß ich erwarme</l>
+                     <l>Aus trübem Sein zu neuer Lebenslust,</l>
+                     <l>Daß liebend meiner sich dein Herz erbarme,</l>
+                     <l>Daß wonneselig ruhe Brust an Brust.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Das wäre gar geschwind, mein werter Ritter!</l>
+                     <l>Meint ihr, nach euch zu sehn, trat ich heraus?</l>
+                     <l>Kaum hörte ich die Klänge eurer Zither;</l>
+                     <l>Die kühle Nachtluft lockt mich aus schwülem Haus.</l>
+                     <pb n="7" facs="#f0004"/>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>O, wie beneid ich diese kecken Winde!</l>
+                     <l>Auf Zauberkünste möcht ich mich verstehn,</l>
+                     <l>Zum Nachtwind mich zu wandeln, sanft und linde,</l>
+                     <l>Und schmeichelnd dir um Wang und Busen wehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ei, sagt doch, wenn ihr gleichen wollt den Winden,</l>
+                     <l>Wie viel Beständigkeit ist euch bewußt?</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Die flüchtgen Lüfte, selbst sie müßten Treue binden.</l>
+                     <l>Lautlos verhauchte ich an deiner Brust.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Schon von Verhauchen sprecht ihr und Verwehen,</l>
+                     <l>Mein armer Sausewind, ihr dauert mich.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Zu neuem Leben will ich neu erstehen,</l>
+                     <l>Ein neues Leben blüht dann auch für dich.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA</speaker>
+                  <stage>plötzlich traurig und leise.</stage>
+                  <p>Ein neues Leben! Ach wie gern, wie gerne!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Was düstert plötzlich deinen frohen Mut?</l>
+                     <l>O, wende nicht ab die süßen Augensterne!</l>
+                     <l>Vertrau mir, Liebste! Und alles, alles ist wieder gut.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>Zu neuem Leben, ach', wie gern, wie gerne,</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Zu neuem Leben möcht ich neu erstehn.</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Wie düster alles jetzt, das Glück wie ferne!</l>
+                     <l>Könnt ich die Morgenröte schönrer Zeiten sehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Die Nacht muß fliehn, der Tag ist nicht mehr ferne.</l>
+                     <l>Du wirst die Morgenröte schönrer Zeiten sehn.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Die Vorigen, Hortensio, Musikanten, später Baptista.</stage>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Jetzt muß ich fort, der eitle alte Geck,</l>
+                     <l>Der bei dem Vater um mich wirbt,</l>
+                     <l>Und oft schon Nachtständchen mir gebracht,</l>
+                     <l>Ist wieder da. Lebt wohl, mein Ritter!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Seht ein weißes Gewand! Bianca, vielleicht!</l>
+                     <l>Doch wer ist jener dort?</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Verwünschte Störung!</l>
+                     <l>Er, ja er soll mir's entgelten!</l>
+                  </lg>
+                  <stage>Laut.</stage>
+                  <lg>
+                     <l>So hört doch endlich auf mit eurem Lärm,</l>
+                     <l>Kaum zu ertragen ist das Flötengewinsel,</l>
+                     <l>Dies Horngetue und Fagottgebrumm.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>wütend.</stage>
+                  <lg>
+                     <l>Gewinsel! Was? Getute! Was? Gebrumme!</l>
+                     <l>Da bitt ich doch, sich feiner auszudrücken.</l>
+                  </lg>
+                  <stage>Gibt den Musikanten Zeichen zum Anfang.</stage>
+                  <lg>
+                     <l>Denn diese feine Serenade, ohne jeden Eigenruhm,</l>
+                     <l>Ist durch aller Musengnade, mein erfundnes Eigentum.</l>
+                     <l>Meiner Bianca nur zu Ehren flöten diese Melodien.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Dem erlaub ich mir zu wehren,</l>
+                     <l>Packt euch schnell woanders hin!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Seid ihr toll? Soll ich mit Schlägen lohnen eure</l>
+                     <l>Dreistigkeit?</l>
+                     <pb n="8" facs="#f0005"/>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Gute Antwort gibt mein Degen.</l>
+                     <l>Macht zum Kampfe euch bereit!</l>
+                  </lg>
+                  <stage>Während beide ziehn, erscheint Baptista im Schlafrock mit einem Licht in der
+              Haustüre.</stage>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Sind diese Nacht denn alle Teufel los?</l>
+                     <l>Soll niemals Ruhe werden?</l>
+                     <l>Flötentöne und wildes Zanken,</l>
+                     <l>Blanke Degen gar!</l>
+                     <l>Wer seid ihr? Seh ich recht? Hortensio!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Zu dienen, ja!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Was wollt ihr wieder hier?</l>
+                     <l>Ha! Wieder eine Nachtmusik!</l>
+                     <l>Sagt, hab ich nicht diese ewge Musiziererei</l>
+                     <l>Und auch mein Haus euch streng verboten?</l>
+                     <l>Doch scheint es, diesmal habt ihr euch die Pfoten verbrannt!</l>
+                  </lg>
+                  <stage>Hortensio schickt hier die Musikanten weg.</stage>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Erlaubt o Herr!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>barsch.</stage>
+                  <p>Erlaube nichts!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Lucentio ist mein Name.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Meinetwegen!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Vincentio heißt mein Vater.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ist mir egal!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Ist Pisas reichster Mann.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Hab nichts davon.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Das Studium führte mich nach Padua.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Das Studium? So?</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Doch ging's nicht lang damit.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ich habe mirs gedacht.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>O hört mich an!</l>
+                     <l>Seit ich die reizende Bianca sah,</l>
+                     <l>War schnell es zu Ende mit dem Studieren,</l>
+                     <l>Ein Wonnejubel ergriff mich da,</l>
+                     <l>Was galt mir Forschen und Disputieren?</l>
+                     <l>O gebt mir das holde, das reizende Kind.</l>
+                     <l>O gebt mir den Schatz, wie will ich ihn hüten!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Ja hüten! So wie der Wirbelwind im Garten.</l>
+                     <l>Hütet die Rosenblüten!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Da wird nichts draus!</l>
+                     <l>Zuerst soll Katharine versorgt sein.</l>
+                     <l>Ihren Freiern ist mein Haus geöffnet.</l>
+                     <l>Nun entschließt euch!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Ach, mein Gott!</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Wie meint ihr?</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Nun, ich sehe schon, 's ist gut.</l>
+                     <l>Jedoch bis sie verlobt, vermählt</l>
+                     <l>Mit ihrem Mann mein Haus verlassen hat,</l>
+                     <l>Denkt nur an Bianca nicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Die armen Mädchen!</l>
+                     <l>Einsam vertrauern ihre schönsten Jahre!</l>
+                     <pb n="9" facs="#f0006"/>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Nicht doch; die Wissenschaften trösten sie.</l>
+                     <l>Ich zahle Lehrer, die gelehrte Ware auskramen sollen:</l>
+                     <l>Musik, Physik und Mythologie.</l>
+                     <l>Allein ich Narr! Was schwatz ich mit euch beiden?</l>
+                     <l>Ich geh zu Bett, der Morgen ist nicht fern.</l>
+                     <l>Euch aber rat ich, dieses Haus zu meiden.</l>
+                     <l>Das merkt euch! Euer Diener, meine Herren!</l>
+                  </lg>
+                  <stage>Ab ins Haus.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Lucentio, Hortensio</stage>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>mit ironischem Bückling.</stage>
+                  <lg>
+                     <l>Wahrlich! Sehr zu gratulieren</l>
+                     <l>Ist euch wohl mein Herr Studio!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO</speaker>
+                  <stage>ebenso.</stage>
+                  <lg>
+                     <l>Euer schnelles Reüssieren</l>
+                     <l>Macht euch wohl unmäßig froh?</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Käthchen war euch angetragen. Warum zögern?</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Mit Bedacht! Um sie euch nicht abzujagen,</l>
+                     <l>Euch für den sie wie gemacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Nehmt sie nur, mich wird's nicht härmen.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Ueberlegt es doch mit Ruh!</l>
+                     <l>Wollt ihr musikalisch schwärmen,</l>
+                     <l>Schlägt sie euch den Takt dazu.</l>
+                  </lg>
+                  <stage>Zu sich.</stage>
+                  <lg>
+                     <l>Alter Geck! Ha warte! Warte!</l>
+                     <l>Du wirst ganz gewiß, wirst ganz gewiß besiegt.</l>
+                     <l>Halt! Da kommt mir ein Gedanke;</l>
+                     <l>Lehrer hält den beiden Mädchen</l>
+                  </lg>
+                  <lg>
+                     <l>Ihr Herr Vater. O, Gedanke!</l>
+                     <l>Ob ich an solch schwaches Fädchen</l>
+                     <l>Meinen Hoffnungsanker knüpfe,</l>
+                     <l>Und als Lehrer beider Mädchen</l>
+                     <l>In das Haus Baptistas schlüpfe?</l>
+                     <l>Guter Einfall, Prachtsgedanke!</l>
+                     <l>Weggeräumt ist jede Schranke.</l>
+                     <l>Er steht draußen, ich bin drinnen</l>
+                     <l>Und das Glück krönt mein Beginnen.</l>
+                     <l>Ha, schon hält mein Arm die Schlanke!</l>
+                     <l>Guter Einfall Prachtsgedanke!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Biß'ger Schurke! Warte! Warte!</l>
+                     <l>Laß uns sehn, wer höher fliegt!</l>
+                     <l>Halt! Mir kommt ein guter Einfall;</l>
+                     <l>Lehrer für die beiden Mädchen</l>
+                     <l>Sucht Baptista. Guter Einfall! St!</l>
+                     <l>Wenn ich nun an dieses Fädchen</l>
+                     <l>Meinen Hoffnungsanker bände,</l>
+                     <l>Und als Lehrer beider Mädchen</l>
+                     <l>Zutritt in dieses Haus hier fände?</l>
+                     <l>
+                        <pb n="10" facs="#f0007"/> Guter Einfall! Prachtsgedanke!</l>
+                     <l>Weggeräumt ist jede Schranke.</l>
+                     <l>Er steht draußen, ich steh drinneen</l>
+                     <l>Und das Glück krönt mein Beginnen.</l>
+                     <l>Ha! Schon hält mein Arm die Schlanke!</l>
+                     <l>Guter Einfall. Prachtsgedanke!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Mag es euch denn wohlergehen!</l>
+                     <l>Lebet wohl für diese Nacht!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>O, ihr werdet staunend sehen,</l>
+                     <l>Wie des Glückes Gunst mir lacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Ich auch lache, wer zu letzt lacht,</l>
+                     <l>Lacht am besten, heißt's nicht so?</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Ha! Was euch so fröhlich jetzt macht,</l>
+                     <l>Macht mich nächstens doppelt froh.</l>
+                     <l>Sollt am Hochzeitsmahl euch laben,</l>
+                     <l>Wenn ihr wollt, ich lad euch ein.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Wünsche wohl gespeist zu haben,</l>
+                     <l>Gerne will dabei ich sein.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Strahlend seht ihr dort mich wieder.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO</speaker>
+                  <stage>höhnisch.</stage>
+                  <p>Strahlend in der Jugend Lenz.</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Schallen dann die Hochzeitslieder.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Spiel ich euch die Schlußkadenz.</p>
+                  <stage>Mit der Gebärde des Prügelns, ab.</stage>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Ha! Du sollst mich kennen lernen,</l>
+                     <l>Schleunig komm ich dir zuvor.</l>
+                     <l>Doch jetzt will ich mich entfernen,</l>
+                     <l>Leg ein Stündchen mich aufs Ohr.</l>
+                  </lg>
+                  <stage>Will ab, stößt auf Petruccio, der mit Grumio, seinem Diener kommt.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Szene</head>
+               <stage>Hortensio, Petruchio, Grumio.</stage>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>den auf ihn zutaumelnden Hortensio wegschleudernd.</stage>
+                  <lg>
+                     <l>Verwünschter Esel! Tritt auf deine Füße!</l>
+                     <l>Sonst schlag ich deinen Schädel dir entzwei!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Das ist Petruchio! Seine feinen Grüße</l>
+                     <l>Kennt man von Mailand bis in die Türkei!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>Hortensio die Hand schüttelnd.</stage>
+                  <lg>
+                     <l>Bist du's, Hortensio? Ei, das nimmt mich wunder;</l>
+                     <l>Siehst immer jung noch aus,</l>
+                     <l>Es freut mich sehr, dich hier zu treffen!</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO</speaker>
+                  <stage>sein Reisebündel abwerfend.</stage>
+                  <p>Nieder mit dem Plunder!</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Doch sage mir, wo kommst du denn nur her?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Das frag du einen von den Sausewinden,</l>
+                     <l>Die mich umbraust auf offnem Meer!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Noch immer lebst du, scheint's, unstet und flüchtig?</p>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <p>Gott weiß es, nirgends macht er Ruh noch Rast.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Und doch dünkt alles mich so hohl und nichtig;</l>
+                     <l>Das Leben selbst, es war mir schon zur Last!</l>
+                     <pb n="11" facs="#f0008"/>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Du bist doch reich?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Langweilig reich zum Ekel!</l>
+                     <l>Was tu ich nur mit all dem vielen Gold?</l>
+                     <l>Nichts widerstrebet dem gefüllten Seckel,</l>
+                     <l>Die ganze Welt, ach!</l>
+                     <l>Steht in meinem Sold.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Sind auch die Weiber alle dir so günstig?</l>
+                     <l>Die bringen Kurzweil sonst ins irdsche Land.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Wie wollt ich lieben so inbrünstig die eine,</l>
+                     <l>Die mir böte Widerstand!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Fehlt dir nur dies, ich wüßte dir zu nennen,</l>
+                     <l>Ein Mädchen kalt und hart wie Marmorstein.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Lebt solch ein Mädchen, Lehre sie mich kennen,</l>
+                     <l>Die allen unbesiegbar, sie sei mein!</l>
+                  </lg>
+                  <stage>Mit steigender Wärme.</stage>
+                  <lg>
+                     <l>Das könnte mit dem Leben mich versöhnen,</l>
+                     <l>Das einzig diese feile Welt verschönen,</l>
+                     <l>Fänd ich ein Weib, das ebenbürtig mir</l>
+                     <l>An trotz'ger Kraft.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Gewiß! Sie gleichet dir, doch ist sie zänkisch.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Ei! Nur um so besser.</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Ist widerspänstig.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Gut! Ich zähme sie.</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Hat eine Zunge, schneidend wie ein Messer.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Wann seh ich sie? O sag mir wo und wie?</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Kennst du allhier Baptista Minola?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Es ist mir so, gewiß!</l>
+                     <l>Ich kannt ihn vor vielen Jahren,</l>
+                     <l>Hier in Padua besucht ich einst sein Haus,</l>
+                     <l>Und in den Sinn kommt plötzlich mir</l>
+                     <l>Ein keckes kleines Mädchen, mit dunklen Augen,</l>
+                     <l>Katharine genannt.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Das ist sie!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Hei! Wie sie sich mir entwand</l>
+                     <l>In keckem Trotz, als ich sie küssen wollte!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Dir ging's, wie's manchem seither gehen sollte,</l>
+                     <l>Noch alle Freier jagte sie von hinnen.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Mich kümmert's nicht, schürt nur der Sehnsucht Brand,</l>
+                     <l>Sie zu besiegen und mir zu gewinnen.</l>
+                  </lg>
+                  <stage>Mit steigender Ekstase.</stage>
+                  <lg>
+                     <l>Sie ist ein Weib für solchen Mann geschaffen,</l>
+                     <l>Wie ich zu sein mich rühmen kann.</l>
+                     <l>Geschwungen hab ich alle Waffen</l>
+                     <l>Die jemals Kriegskunst ersann;</l>
+                     <l>Hab oft dem Tod ins Angesicht geschaut,</l>
+                     <l>Drum taugt kein sanftes Täubchen mir zur Braut.</l>
+                     <l>Mir schauchte der Löwen dumpfes Grollen,</l>
+                     <l>Ihr Wutgebrüll den Schlummer nicht;</l>
+                     <l>Der Feuerschlünde Donnerrollen</l>
+                     <l>War meine Lust, ihr Blitz mein Licht!</l>
+                     <l>
+                        <pb n="12" facs="#f0009"/> Mit Türken kämpft ich und mit Christen</l>
+                     <l>Um nichts, aus reiner Lust am Kampf.</l>
+                     <l>Wär ich ein Adler wollt ich nisten</l>
+                     <l>In der Vulkane Lavadampf.</l>
+                     <l>Freudigen Muts zu kämpfen und zu siegen,</l>
+                     <l>Wie göttlich, welch ein Hochgenuß!</l>
+                     <l>Und strauchelt endlich doch der Fuß</l>
+                     <l>Ja wenn man unterliegen muß,</l>
+                     <l>Ist besser brechen, als sich biegen,</l>
+                     <l>Und strauchelt endlich doch der Fuß</l>
+                     <l>Ja öffne sich der Tartarus,</l>
+                     <l>Ist's besser brechen, als sich biegen.</l>
+                     <l>Wo wohnt sie denn?</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Wir stehn vor ihrem Hause,</l>
+                     <l>Dort jene Fenster hüten ihren Schlummer.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Schlaf sanft! Nur eine kurze kleine Pause,</l>
+                     <l>Und deiner wartet Kampf, und schwerer Kummer.</l>
+                     <l>Ich liebe dich, doch darf ich dich nicht schonen,</l>
+                     <l>Gebändigt mußt du werden, sanft wie Zephirwind,</l>
+                  </lg>
+                  <stage>Sehr sanft.</stage>
+                  <lg>
+                     <l>Doch heute Nacht mag noch der Friede wohnen</l>
+                     <l>An deiner Brust, schlaf wohl du wildes Kind!</l>
+                     <l>Ja, heute Nacht mag noch der Friede wohnen in deiner Brust,</l>
+                     <l>Schlaf wohl geliebtes Kind, geliebtes Kind!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio #grumio">
+                  <speaker>HORTENSIO UND GRUMIO.</speaker>
+                  <lg>
+                     <l>Mit dem Sermon, kannst du uns jetzt verschonen;</l>
+                     <l>Komm erst nach Haus und dann ins Bett geschwind</l>
+                  </lg>
+                  <stage>Hortensio und Grumio nehmen Petruchio von beiden Seiten unter den Arm und ziehen
+              ihn fort. Da sie abgegangen sind, steckt Baptista in der Schlafmütze den Kopf aus
+              einem Fenster.</stage>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Mir ward, als hätt' ich wieder was gehört!</p>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweiter Akt</head>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Zimmer in Baptistas Hause. Katharine und Bianca mit der Morgentoilette beschäftigt.
+            Eine Zofe.</stage>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>zur Zofe.</stage>
+                  <lg>
+                     <l>Aus meinen Augen, ungeschicktes Ding!</l>
+                     <l>Du raufst mich nur, statt mich zu kämmen,</l>
+                     <l>Setzt mir die Schleife schief!</l>
+                     <l>Hinaus! Ich wills!</l>
+                  </lg>
+                  <stage>Die Zofe ab.</stage>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ach Schwester, fängst du denn schon wieder an?</l>
+                     <l>Am frühen Morgen?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Früh? 's ist spät genug!</l>
+                     <l>Dich freilich dünkt es früh. Du bist verschlafen,</l>
+                     <l>Die Serenaden lassen dich nicht ruhn.</l>
+                     <l>
+                        <pb n="13" facs="#f0010"/> Ha! Wirst du rot? Ja, ja ich hört ihn wohl</l>
+                     <l>Den frechen Herrn aus Pisa und den andern,</l>
+                     <l>Den lächerlichen alten Geck.</l>
+                  </lg>
+                  <stage>Spöttisch.</stage>
+                  <lg>
+                     <l>Das singt und seufzt des Nachts um unser Haus,</l>
+                     <l>Wie Kater, die im Mondschein promenieren.</l>
+                     <l>Gelt nächstens schleichst du selber noch hinaus,</l>
+                     <l>Und gehst mit ihnen Arm in Arm spazieren.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>Wie bitter du Beleidigungen häufest</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Und du beleidigst alle Weiblichkeit.</l>
+                     <l>Du! Ha! Und deinesgleichen sind nur schuld,</l>
+                     <l>Daß bei den Männern wir die Schwachen heißen.</l>
+                     <l>Natürlich, jedes Liedchen wirft euch um</l>
+                     <l>Und eine Nachtmusik raubt euer Herzchen,</l>
+                     <l>Daß ihr nicht anders könnt, ihr müßt ihn lieben.</l>
+                     <l>O Schande! Immer tiefer sinken wir,</l>
+                     <l>Sind nur der Spielball roher Männerlust.</l>
+                     <l>Für wen steckst diese Rose du ins Haar?</l>
+                     <l>Für wen pflegst du die Hand im feinen Handschuh?</l>
+                     <l>Für wen besprengst du mit Duft die Kleider,</l>
+                     <l>Und schmückst den weißen Arm mit goldner Spange?</l>
+                     <l>Für Männer!</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Süße Triebe der Natur belehren uns,</l>
+                     <l>Der Schönheit Reiz zu wahren.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Glaub mir's! Wir sind der Männer Puppe nur, wir!</l>
+                     <l>Nein, nicht ich! Ich will mich wehren!</l>
+                  </lg>
+                  <stage>Mit Aufregung das Zimmer durchschreitend.</stage>
+                  <lg>
+                     <l>Die Laute nimm</l>
+                     <l>Laß frisch die Saiten erklingen!</l>
+                     <l>Mir liegt ein Lied im Sinn,</l>
+                     <l>Das hör ich nicht auf, zu singen.</l>
+                  </lg>
+                  <p>Lied der Katharine</p>
+                  <stage>Bianca hat eine Gitarre genommen und spielt.</stage>
+                  <lg>
+                     <l>Ich will mich keinem geben,</l>
+                     <l>Es bringt nur schlechten Dank,</l>
+                     <l>Als Mädchen will ich leben,</l>
+                     <l>Will bleiben frei und frank.</l>
+                     <l>Und wer mich will gewinnen,</l>
+                     <l>Der steig nur erst hinauf,</l>
+                     <l>Bis an des Himmels Zinnen</l>
+                     <l>Und halt die Sonn im Lauf!</l>
+                     <l>Und wer mich will zum Weibe,</l>
+                     <l>Der steig erst in die Höll</l>
+                     <l>Und hol zum Zeitvertreibe</l>
+                     <l>Den Teufel mir zur Stell.</l>
+                     <l>Ich will mich keinem geben,</l>
+                     <l>Es bringt nur schlechten Dank,</l>
+                     <l>Als Mädchen will ich leben,</l>
+                     <l>Will leben frei und frank,</l>
+                     <pb n="14" facs="#f0011"/>
+                  </lg>
+               </sp>
+               <sp who="#lucentio #hortensio">
+                  <speaker>LUCENTIO UND HORTENSIO.</speaker>
+                  <p>Bravissimo!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Bravo! Amazone! Bravissimo! Da Capo!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Hörst du die Spötter? Es nahen Männertritte.</l>
+                     <l>So sind sie alle, das ist ihre Sitte.</l>
+                     <l>Du zögerst? Möchtest wohl die Fremden hier erwarten!</l>
+                     <l>Fort! Sag ich dir! Hinab mit mir in den Garten!</l>
+                  </lg>
+                  <stage>Beide ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Es treten auf Baptista, Petruchio mit dem vermummten Hortensio, der eine Laute
+            trägt, und Lucentio, gleichfalls vermummt, welcher einige Bücher unter dem Arm
+            schleppt.</stage>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>So tretet denn in Gottes Namen ein!</l>
+                     <l>Doch seht, die zwitschernden Vögelein,</l>
+                     <l>Die ihr hörtet sind schon ausgeflogen.</l>
+                     <l>Jetzt aber, ihr Herrn, seid so gewogen,</l>
+                     <l>Nennt eure Namen und was ihr begehrt,</l>
+                     <l>Daß ihr mit eurem Kommen mich beehrt!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>rauh zu Baptista, der erschrocken zurückweicht.</stage>
+                  <lg>
+                     <l>Schwach ward wohl eur Gedächtniß!</l>
+                     <l>Tut ihm Zwang, schickts auf die Jagd nach mir</l>
+                     <l>Acht Jahre zurück!</l>
+                     <l>Da ward ich euer Gast, wenn auch nicht lang.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Wie konnt ich ahnen solches hohes Glück?</l>
+                     <l>Seid ihr Petruchio nicht, Antonios Sohn</l>
+                     <l>Des reichen Veronesers?</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ja, desselben! Er starb und ließ mir eine Million</l>
+                     <l>Kanarienvögel, wißt von jenen gelben,</l>
+                     <l>Die stets im dichten Schwarm zusammen gehören</l>
+                     <l>Und deren Klänge alle Welt betören.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>sich tief verneigend.</stage>
+                  <lg>
+                     <l>Wie geistreich und wie witzig!</l>
+                     <l>Seid willkommen, seid willkommen!</l>
+                     <l>Was kann ich tun? Der eure bin ich ganz.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Von eurem Käthchen hab ich jüngst vernommen,</l>
+                     <l>Sie prang in jeder Tugend holdem Kranz.</l>
+                     <l>Gebt sie zum Weibe mir!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Sagt ihr's zum Spotte?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Wer spottet, wenn vom kleinen Liebesgotte</l>
+                     <l>Der scharfe Pfeil ihm schier das Herz zerspaltet?</l>
+                     <l>Und seht nur, daß ihr, wie man mir gesagt,</l>
+                     <l>Den Töchtern gute Lehrer gerne haltet,</l>
+                     <l>Hab Einen euch zu bringen ich gewagt.</l>
+                     <l>Herr Cembaloni ist's aus Bergamo,</l>
+                     <l>Ein Meister der Musik ganz ohne gleichen.</l>
+                     <l>Auf Zither, Harfe und dem Cembalo</l>
+                     <l>Wird niemand ihn in seiner Kunst erreichen.</l>
+                     <pb n="15" facs="#f0012"/>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Auch ich, o Herr Baptista, melde mich.</l>
+                     <l>Francesco heiß ich, bin fürwahr ein Meister</l>
+                     <l>In allen Sprachen kund ist's männiglich,</l>
+                     <l>Daß auf mir ruhn Homers Virgils</l>
+                     <l>Und Platos Geister!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Wohlan, ihr Herrn, Ihr mögt probieren,</l>
+                     <l>Geht in den Garten promenieren!</l>
+                     <l>Die Mädchen denk ich sind nicht weit.</l>
+                  </lg>
+                  <stage>Hortensio und Lucentio ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Baptista und Petruchio, später Katharine, Chor und Hortensio.</stage>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Wir sind allein: jetzt darf ich's sagen,</l>
+                     <l>Was ich aus Scham vorhin verschwieg.</l>
+                     <l>Ihr dürft es nicht mit Käthchen wagen,</l>
+                     <l>Sie bringt in jedes Haus nur Krieg.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Ihr seht mich hier vor Liebe brennen.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Kennt sie nur erst, so gibt sich das.</l>
+                     <l>Ich bitt euch nur um Euretwillen</l>
+                     <l>Einstweilen eure Glut zu stillen.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Signor Baptista! Mein Geschäft hat Eil!</l>
+                     <l>Ich kann nicht jeden Tag als Freier kommen,</l>
+                     <l>Drum sagt mir kurz und ohne Weil</l>
+                     <l>Ist meine Werbung angenommen?</l>
+                     <l>Reich bin ich, unermeßlich reich, ihr wißt.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ach, wie wollte so gern ich euch zum Sohne,</l>
+                     <l>Doch sie wird euch nicht wollen</l>
+                     <l>Und es ist ihr Nein entscheidend.</l>
+                     <l>Sie trägt hier die Krone,</l>
+                     <l>Nur sie regiert; wir liegen wie im Staube.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>O gebt sie mir! Ich mache sie zur Taube.</l>
+                     <l>Zahm soll sie werden, sanft wie Zephirwind,</l>
+                     <l>Ein treugehorsam liebvolles Kind.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>hinter der Szene.</stage>
+                  <p>Hilfe! Hilfe! Rettet mich vor ihr!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>hinter der Szene.</stage>
+                  <p>Warte nur! Ich helfe dir!</p>
+               </sp>
+               <sp who="#chor_hinter_der_szene_2-3">
+                  <speaker>CHOR</speaker>
+                  <stage>hinter der Szene.</stage>
+                  <p>Ha ha ha! Das gleichet ihr!</p>
+                  <stage>Die Flügeltüren im Hintergrund öffnen sich, Hortensio läuft atemlos herein, die
+              zerschlagene Laute wie einen Halskragen um den Hals. Hinter ihm erblickt man Katharine
+              in drohender Haltung, welche sogleich wieder verschwindert.</stage>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>ironisch zu Petruchio, während Hortensio auf einen Sessel gesunken ist.</stage>
+                  <lg>
+                     <l>Zahm soll sie werden wie Zephirwind?</l>
+                     <l>Ein treugehorsam liebe ...</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Was ist denn euch passiert, Herr Cembaloni?</l>
+                     <l>Das ist ein Kragen nach neuster Mode!</l>
+                     <pb n="16" facs="#f0013"/>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Euch hat mein sanftes Käthchen</l>
+                     <l>Sicher den Zofendienst geleistet. Sag wies kam!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Die Griffe auf der Laute</l>
+                     <l>Wollt ich Bianca soeben einstudieren,</l>
+                     <l>Als Katharine mit wildem Griff die Laute mir entwand,</l>
+                     <l>Und mich so grausam schmückte, wie ihr seht.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ha, ha, ha, das ist ein lustig Mädchen! So lieb ich sie!</l>
+                     <l>O schickt sie schleunig her!</l>
+                     <l>Bald will ihr Herz ich mir erobert haben.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ich will sie senden, aber mit ihr</l>
+                     <l>Kommt ihr unbeugsamer Trotz.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>heimlich zu Petruchio.</stage>
+                  <lg>
+                     <l>Du wirst noch fühlen,</l>
+                     <l>Mit wem du's hier zu tun hast, kühner Freund!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Petruchio allein, nachher Katharine.</stage>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Jetzt gilt's! Jetzt sammle deines Geistes Kräfte!</l>
+                     <l>Petruchio! Mache jetzt dein Meisterstück!</l>
+                     <l>Die stolz, unbändige Amazone,</l>
+                     <l>Sie soll den Herrn der Schöpfung kennen lernen.</l>
+                     <l>Frohlockend heb sich jede Ader,</l>
+                     <l>Die ganze Seele jauchzt in mir</l>
+                     <l>Dem seltsam kühnen, süßen Streit entgegen.</l>
+                     <l>Dort kommt sie schon, so hab ich sie geträumt,</l>
+                     <l>So kühn, so stolz, so trotzig und so schön.</l>
+                     <l>Ja, sie ist's wert, den Kampf um sie zu wagen.</l>
+                  </lg>
+                  <stage>Katharine tritt auf.</stage>
+                  <lg>
+                     <l>Willkommen Käthchen!</l>
+                     <l>Hast du mich vermißt seit meinem letzten Kuß?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ihr seid gestört, nie sah ich euer Angesicht bis heut.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Mein Seel, mein Seel, du lügst!</l>
+                     <l>Zwar ist's schon lang her!</l>
+                     <l>Oft hast du bitter wohl nach mir geseufzt.</l>
+                     <l>Erfahre denn zu deines Herzens Trost:</l>
+                     <l>Weil alle Welt mir deine Sanftmut preist,</l>
+                     <l>Von deiner Tugend spricht, dich reizend nennt,</l>
+                     <l>Und doch so reizend nicht, als dir's gebührt,</l>
+                     <l>Hat's mich bewegt, zur Frau dich zu begehren.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Hat's euch bewegt?</l>
+                     <l>So bleibt hübsch in Bewegung und macht,</l>
+                     <l>Daß ihr euch baldigst heimbewegt!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>So zart von dir gebeten bleib ich gern.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Seid ihr bei Trost, ich sagt euch, ihr sollt gehn!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Der Liebe Neckerei sollt ich nicht kennen?</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ihr eitler Geck, glaubt ihr, daß ich euch liebe?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Wenn's auch der Mund verschweigt, die Augen plaudern.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Dächt ich's, ich risse diese Augen aus</l>
+                     <l>Und träte sie mit Füßen.</l>
+                     <pb n="17" facs="#f0014"/>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>O wie süß, wie süß du plaudern kannst!</l>
+                     <l>Mein gutes sanftes Käthchen!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Seid ihr von Sinnen?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Nein, nur von Verona.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ihr seid ein Rasender.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Vor Liebe rasend, ja, rasend!</l>
+                     <l>Und kurz und gut, du mußt die Meine sein!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Und kurz und gut, ihr seid ein eitler Narr!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Und kurz und gut, du wirst jetzt meine Frau.</l>
+                     <l>Ich hab dich gern so, grade wie du bist.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Er macht mir bang, an allen Gliedern beb ich.</l>
+                     <l>Die sanften Worte steh'n ihm zu Gesicht,</l>
+                     <l>Wie einem Löwen Nachtigallensang.</l>
+                     <l>Er ist der erste Mann den ich sah,</l>
+                     <l>Die andern alle sind nur Knaben.</l>
+                     <l>Doch ihm soll ich mich fügen? Katharine!</l>
+                     <l>Ihm untertänig sein? Nein, nie und nimmer!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Wie schön steht das sanfte Rot der Scham!</l>
+                     <l>Von Herzen lieb ich dich,</l>
+                     <l>In wenig Tagen soll unsre Hochzeit sein.</l>
+                     <l>O zier dich nicht, es ist schon alles geordnet,</l>
+                     <l>Dein Vater ist's zufrieden</l>
+                     <l>Daß du nicht nein sagst, weiß ich ganz gewiß!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ich sage Nein, und dreimal, zehnmal Nein.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Wer, wer sagt nein, wenn ich erst Ja gesagt?</l>
+                     <l>Besinne dich Käthchen, denn ich bin Petruchio.</l>
+                     <l>Bei meinem Schritt erdröhnen dumpf die Wände,</l>
+                     <l>Der Arm hier hat manch wildes Roß gebändigt,</l>
+                     <l>Vor meinem Aug verkriecht sich scheu der Löwe</l>
+                     <l>Und meine Stimme übertönt Kanonendonner.</l>
+                     <l>Und du, du wolltest meiner riesen Kraft,</l>
+                     <l>Dem unverrückbar starren Manneswillen</l>
+                     <l>Dich, Täubchen, widersetzen?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ja ich will's!</l>
+                     <l>Ist auch mein Arm nicht wie der eure kräftig,</l>
+                     <l>Tobt meine Stimme auch nicht gleich der euren,</l>
+                     <l>Mein Wille doch, er wagt mit euch den Kampf.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Er wag es nur und geb sich überwunden,</l>
+                     <l>Denn so gewiß dich meine Arm umschlingen,</l>
+                  </lg>
+                  <stage>Umschließt sie.</stage>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Wollt ihr zum äußersten mich bringen?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Und dir raube diesen Kuß</p>
+                  <stage>Küßt sie.</stage>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Wollt ihr, daß ich um Hilfe rufen muß?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Ganz so, ganz so gewiß.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>reißt sich mit aller Kraft los.</stage>
+                  <p>Seid ihr von Sinnen?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Liebst du mich jetzt schon,</l>
+                     <l>Kannst mir nie entrinnen!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>
+                     <pb n="18" facs="#f0015"/> KATHARINE</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Ich möcht ihn fassen, ich möcht ihn zerreißen</l>
+                     <l>Und möcht ihn doch mein Eigen heißen.</l>
+                     <l>Und weil er atmet, so muß ich ihn hassen,</l>
+                     <l>Und wär er tot, nicht könnt ich ihn lassen</l>
+                     <l>Und hätt ich Pfeile, ich schöß ihn nieder.</l>
+                     <l>Und weckte mit Tränen der Lieb ihn wieder.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Sie ist schwer gekränkt; doch es kommt die Stunde,</l>
+                     <l>Die heilen wird auch die tiefste Wunde.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ich möcht ihn fassen, ich möcht ihn zerreißen</l>
+                     <l>Und möcht ihn doch mein Eigen heißen.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ich will dich umfassen und an mich reißen,</l>
+                     <l>Du kannst nicht zurück, mußt mein Eigen heißen!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Szene</head>
+               <stage>Baptista hat schon mehrmals verstohlen durch die Türe gesehn, endlich tritt er
+            näher. Hinter ihm Lucentio und Hortensio.</stage>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Nun, liebe Kinder, 's ist nur eure Schuld,</l>
+                     <l>Wenn ich es wage euch zu stören.</l>
+                     <l>Verzeiht des Vaterherzens Ungeduld!</l>
+                     <l>Ihr ließet gar nichts von euch hören.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Wie mag's nur stehn? Fürwahr, ich bin gespannt.</l>
+                     <l>Ist wohl besiegt ihr Widerstand?</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Wenn er bei guter Laune sie getroffen,</l>
+                     <l>So darf auch ich auf Bianca hoffen.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>So sprecht doch endlich, sagt mit freiem Mut:</l>
+                     <l>Wie steht's mit eurer Werbung, eurem Frein?</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Wie's damit steht? – Wie anders denn als gut;</l>
+                     <l>Jetzt hat auch sie erfahren, wie die Liebe tut,</l>
+                     <l>Und nächsten Montag soll die Hochzeit sein.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Kein Wort davon ist wahr, das geht zu weit,</l>
+                     <l>Ihr krönet nur mit diesem frechen Lügen</l>
+                     <l>Der tollen Werbung rohe Dreistigkeit.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Laß, Väterchen, vom Schein euch nicht betrügen!</l>
+                     <l>Sie stellt sich nur so wild, so aufgebracht.</l>
+                     <l>Wir haben unter uns so ausgemacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Den Spaß beiseite, sagt mir kurz und schlicht:</l>
+                     <l>Seid ihr nun einig, oder seid ihr's nicht?</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Alles gut und alles richtig,</l>
+                     <l>Nächsten Montag wird sie mein.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Alles falsch und alles nichtig!</l>
+                     <l>Niemals, niemals werd ich sein.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio #hortensio #baptista">
+                  <speaker>LUCENTIO, HORTENSIO UND BAPTISTA.</speaker>
+                  <lg>
+                     <l>Weh, o weh noch ist's nicht richtig.</l>
+                     <l>Höret nur, sie sagt ja nein.</l>
+                     <pb n="19" facs="#f0016"/>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Laßt vom Schein euch nicht betrügen!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Hört nun auf mit euren Lügen!</p>
+               </sp>
+               <sp who="#lucentio #hortensio">
+                  <speaker>LUCENTIO UND HORTENSIO.</speaker>
+                  <p>Sollte doch die Hoffnung trügen?</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ist es Wahrheit, sind es Lügen?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Glaubt im Stillen ist sie mein.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Nie die eure will ich sein.</l>
+                     <l>Hört nun auf mit euren Lügen!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio #hortensio">
+                  <speaker>LUCENTIO UND HORTENSIO.</speaker>
+                  <lg>
+                     <l>Oder sind's nur Ziererein?</l>
+                     <l>Sollte doch die Hoffnung trügen?</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Könnt ich endlich sicher sein!</l>
+                     <l>Ist es Wahrheit, sind es Lügen?</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>nähert sich Katharine, sie zu umarmen. Sie weist ihn trotzig zurück.</stage>
+                  <lg>
+                     <l>Ei! Käthchen! Was ist das? So ganz verändert?</l>
+                     <l>Sag's offen, Käthchen! Hast du Angst</l>
+                     <l>Hast du Furcht vor mir?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ich? Furcht? Vor wem? Vor euch? Armsel'ger Tor!</l>
+                     <l>Dir täte Not, vor deinem Los zu zittern,</l>
+                     <l>Würd ich die Deine. Fast gelüstet's mich,</l>
+                     <l>Was du gewünscht, es kosten dich zu lassen</l>
+                     <l>An dir, der dann mein Sklav,</l>
+                     <l>Des Weibes Launen mutwillig auszulassen,</l>
+                     <l>Dir die Herrin zu zeigen,</l>
+                     <l>Die erbarmungslose Herrin</l>
+                     <l>Von Morgens Scheine, bis zum späten Abend.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>mit großer Befriedigung ihre Hand ergreifend, die er trotz ihres Widerstrebens
+              nicht los läßt.</stage>
+                  <p>Recht brav! Mein Kind! Jetzt Vater euren Segen!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ich zittre noch. Mit Furcht nur kann ich segnen</l>
+                     <l>Der wilden Herzen so trotzigen Verein.</l>
+                     <l>Dort jene Herren mögen Zeuge sein!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Doch fürwahr, jetzt muß ich scheiden,</l>
+                     <l>Komm am Montag erst zurück.</l>
+                     <l>Dann nach kurzer Trennung Leiden</l>
+                     <l>Blühet uns der Liebe Glück.</l>
+                     <l>Ringe bring ich von Venedig,</l>
+                     <l>Bauschger Kleider bunte Schau.</l>
+                     <l>Küß mich Käthchen, bleib mir gnädig!</l>
+                     <l>Montag bist du meine Frau.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Dreht sich alles mir im Kopfe?</l>
+                     <l>Wie nur das noch enden wird!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio #hortensio">
+                  <speaker>LUCENTIO UND HORTENSIO.</speaker>
+                  <lg>
+                     <l>Dieser faßt das Glück beim Schopfe,</l>
+                     <l>Sei ihm bestens gratuliert!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ja! Das Glück, ich halt's am Schopfe,</l>
+                     <l>Montag sind wir copulirt.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ach! Mir armem alten Tropfe</l>
+                     <l>Hat das Ding den Kopf verwirrt.</l>
+                     <pb n="20" facs="#f0017"/>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Dritter Akt</head>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Baptista, Bianca, Lucentio und Hortensio, beide in ihrer Lehrerverkleidung, gehen
+            ungeduldig auf und ab. Katharine in vollem Brautschmuck sitzt abseits.</stage>
+               <sp who="#bianca #lucentio #hortensio #baptista">
+                  <speaker>BIANCA, LUCENTIO, HORTENSIO, BAPTISTA.</speaker>
+                  <lg>
+                     <l>Wie es scheint, so warten wir vergebens.</l>
+                     <l>Unsre Hoffnung, unsre Hoffnung ist zerstört.</l>
+                     <l>Glauben kann man's kaum!</l>
+                     <l>Tag meines Lebens hab ich so was nicht gehört.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>aufspringend.</stage>
+                  <lg>
+                     <l>Wo mag der freche Tollkopf weilen?</l>
+                     <l>Er vergaß gewiß das Fest!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Mußt er noch die Hochzeit so beeilen,</l>
+                     <l>Daß er jetzt uns warten läßt?</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Gott allein mag wissen,</l>
+                     <l>Welche Fahrten jetzt der Bräutigam unternimmt,</l>
+                     <l>Während seiner hier die Braut muß warten,</l>
+                     <l>Ganz mit Recht seid ihr verstimmt.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Euer Beileid könnt ihr füglich sparen.</l>
+                     <l>Geht's euch an, was Jener tut?</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Solche herbe Kränkung zu erfahren,</l>
+                     <l>Brächte Engel selbst in Wut.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca #lucentio #hortensio #baptista">
+                  <speaker>BIANCA, LUCENTIO, HORTENSIO, BAPTISTA.</speaker>
+                  <lg>
+                     <l>Wie es scheint, so warten wir vergebens.</l>
+                     <l>Unsre Hoffnung, unsre Hoffnung ist zerstört.</l>
+                     <l>Glauben kann man's kaum!</l>
+                     <l>Tag meines Lebens hab ich sowas nicht gehört.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Und da kommen auch noch gar die Gäste,</l>
+                     <l>Denn schon ist zur Tafel Zeit</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Schnell forteilen will ich, 's ist das beste,</l>
+                     <l>Mein Schmach, meine Schmach, sucht Einsamkeit.</l>
+                  </lg>
+                  <stage>Ab.</stage>
+                  <stage>Gäste, Herren und Damen treten auf als Chor.</stage>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Seid willkommen, hochverehrte Gäste!</l>
+                     <l>Ach, wie ist es mir so leid,</l>
+                     <l>Daß uns fehlen muß zum heutgen Feste</l>
+                     <l>Eine große Kleinigkeit!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_3-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Ei! Was es auch immer wäre,</l>
+                     <l>Wir vermissens sicher nicht,</l>
+                     <l>Hier zu sein ist uns schon Ehre,</l>
+                     <l>Macht es recht einfach drum und schlicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ach, zu sagen ist es gar zu schändlich,</l>
+                     <l>Und doch muß es einmal sein.</l>
+                     <l>Glaubt mir, ich bedaure ganz unendlich,</l>
+                     <l>Ich bedaure ungemein.</l>
+                     <l>Meine lieben, hochverehrten Gäste!</l>
+                     <l>Alle fandet ihr euch ein,</l>
+                     <l>Doch es fehlt zum frohen Feste</l>
+                     <l>Uns der Bräutgam ganz allein.</l>
+                     <pb n="21" facs="#f0018"/>
+                  </lg>
+               </sp>
+               <sp who="#chor_3-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Ist es möglich? Ei! Das wäre!</l>
+                     <l>Wir bedauern ungemein.</l>
+                     <l>Das ist unliebsame Mähre,</l>
+                     <l>Wie soll da denn Hochzeit sein?</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Das ist eine Rätselfrage,</l>
+                     <l>Deren Lösung man verschweig!</l>
+                     <l>Schrecklich, wenn am Hochzeitstage</l>
+                     <l>Sich der Bräutgam nirgends zeigt!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_3-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Ohne Bräutigam Hochzeit machen,</l>
+                     <l>Das ist freilich unerhört.</l>
+                     <l>Soll man weinen, soll man lachen?</l>
+                     <l>Dieses Fest ist ganz gestört.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ich bedaure, werte Gäste!</l>
+                     <l>Wirklich ist es wie ihr sagt.</l>
+                     <l>Wir stehn ab vom heutgen Feste,</l>
+                     <l>Diese Hochzeit ist vertagt.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_3-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Ohne Bräut'gam Hochzeit machen</l>
+                     <l>Wäre jedem Mädchen leid.</l>
+                     <l>Ihr zum Weinen, uns zum Lachen</l>
+                     <l>Dienet diese Neuigkeit.</l>
+                     <l>Wahrlich einen Bräutgam wählend</l>
+                     <l>Muß man schlau zu Werke gehn.</l>
+                     <l>Ganz gehorsamst uns empfehlend,</l>
+                     <l>Sagen wir: Auf Wiedersehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Es ist, als hätte ich alles dies geahnt,</l>
+                     <l>Als ich dem Ungestüm von Biancas Freiern wehrte.</l>
+                     <l>Nein, nein! So lange Jene noch im Haus,</l>
+                     <l>Ist's nichts damit.</l>
+                     <l>Ihr Herren! Auf eure Posten!</l>
+                     <l>Denn da's doch heute mit der Hochzeit nichts,</l>
+                     <l>So wünscht ich, Bianca nütze euer Hiersein.</l>
+                     <l>Ich gehe Käthchens Zorn mit Trost zu stillen,</l>
+                     <l>Denn zürnt sie heut, ist's nicht aus Eigenwillen.</l>
+                  </lg>
+                  <stage>Ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Bianca, Lucentio, Hortensio</stage>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Wohlan, mein Fräulein, öffnet den Virgil!</l>
+                     <l>Ich übersetz ihn euch, so bildet sich der Stil.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Nichts da! Ich will den Unterricht beginnen.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Schweigt still! Sonst jag ich euch von hinnen, hirnloser Musikant.</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Erbärmlicher Pedant! Erbärmlicher Pedant!</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ihr Herren! Ihr Herren! Verliert ihr den Verstand?</l>
+                     <l>Ich denke die Entscheidung liegt in meiner Hand.</l>
+                  </lg>
+                  <stage>Zu Hortensio.</stage>
+                  <lg>
+                     <l>Stimmt erst die Laute,</l>
+                     <l>Seht, wie viele Saiten gesprungen sind.</l>
+                     <l>Ihr habt genug zu tun.</l>
+                  </lg>
+                  <stage>Zu Lucentio.</stage>
+                  <lg>
+                     <l>Setzt euch zu mir!</l>
+                     <l>Und alles weitere Streiten soll künftighin,</l>
+                     <l>So ist mein Wille, ruhn.</l>
+                     <pb n="22" facs="#f0019"/>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Arma virum que cano Trojae qui primus ab oris.</l>
+                     <l>Italiam fato profugus Lavina que venit litoria</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>Wollt ihr das übersetzen?</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Arma virum que cano</l>
+                     <l>Mein teuerstes Liebchen erkannte</l>
+                     <l>Trojae qui primus ab oris</l>
+                     <l>Den treuen Sänger noch nicht,</l>
+                     <l>Italiam fato</l>
+                     <l>Der an dich seine Lieder entsandte,</l>
+                     <l>Profugus Lavina que venit</l>
+                     <l>Beim freundlichen Sternenlicht.</l>
+                     <l>Litoria – selbst ist er nun da.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>kommt mit der Laute.</stage>
+                  <p>Fräulein! Nun stimmt die Laute.</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA</speaker>
+                  <stage>hat die Laute versucht.</stage>
+                  <p>O pfui! Das E ist falsch, das G ist recht.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Recht! Darum geh mein Freund! Und stimme besser!</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ob ich es auch nun übersetzen kann?</l>
+                     <l>Arma virum que cano</l>
+                     <l>Einen Schelmen muß ich in euch sehen,</l>
+                     <l>Trojae qui primus ab oris</l>
+                     <l>Geübt in Betrug und in List.</l>
+                     <l>Italiam fato</l>
+                     <l>Euch dürfte es übel ergehen,</l>
+                     <l>Profugus Lavina qui venit</l>
+                     <l>Wenn das nun mein Vater wüßt.</l>
+                     <l>Litora – drum verschweigt es ihm ja!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Nun stimmt die Laute!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>A und F sind falsch.</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Ihr seid wohl selber das A und F, Herr Aff!</l>
+                     <l>Wie feurig keck der Schulgelehrte wird!</l>
+                     <l>Er wagt es, ihr den Hof zu machen, wart!</l>
+                     <l>Ich will besser dich bewachen.</l>
+                     <l>Wird mir es endlich, endlich nun gelingen,</l>
+                     <l>Auch die Musik zu ihrem Recht zu bringen?</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>So kommt.</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>zu Lucentio.</stage>
+                  <lg>
+                     <l>Ihr könnt allein uns lassen!</l>
+                     <l>Dreistimmige Musik kommt heut nicht vor.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Ich bleibe gern; ein Liedlein aufzufassen,</l>
+                     <l>Gab die Natur auch mir ein leidlich Ohr.</l>
+                  </lg>
+                  <lg>
+                     <l>Er möchte gern allein den Hof ihr machen.</l>
+                     <l>Wart! Musikus! Dich steche ich noch aus.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ich glaub, auch dieser will den Hof mir machen,</l>
+                     <l>Ne lustge Lehrerschaft in diesem Haus!</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Ich glaube gar, er will uns hier bewachen;</l>
+                     <l>Tu's Bücherheld, ich mache mir nichts draus.</l>
+                  </lg>
+                  <stage>Zu Bianca.</stage>
+                  <lg>
+                     <l>Mein Fräulein! Seht auf diesen kleinen Zettel</l>
+                     <l>Die Scala sinni exemplifizirt.</l>
+                     <pb n="23" facs="#f0020"/>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Die Scala? Meint ihr, daß ich solchen Bettel</l>
+                     <l>In frühester Jugend nicht schon absolviert?</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Doch hört, wie Cembalon euch dazu führt!</p>
+                  <stage>Singt zur Gitarre.</stage>
+                  <lg>
+                     <l>C. Cembaloni, so nenne ich mich laut.</l>
+                     <l>D. Doch Hortensio bin ich.</l>
+                     <l>E. Euer Händchen, o reicht mirs als Braut!</l>
+                     <l>F. Frohr Liebeslust sinn ich.</l>
+                     <l>G. Gebt mir Hoffnung o liebliche Maid!</l>
+                     <l>A. Ach! Habt endlich Erbarmen!</l>
+                     <l>H. Hebt empor aus dem sehnenden Leid</l>
+                     <l>C. Cembaloni, den Armen!</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ha, ha, ha, ha! Das nennt ihr Scala?</l>
+                     <l>Geht! Die mag ich nicht! Die alte ist mir lieber,</l>
+                     <l>Bin nicht lüstern, seltsamer Neurung ächtes aufzuopfern.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO</speaker>
+                  <stage>für sich.</stage>
+                  <lg>
+                     <l>Mein herrlich Lied, es hat sie nicht bekehrt!</l>
+                     <l>Hortensio! Hortensio! Sie ist dein nicht wert.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <lg>
+                     <l>Mit langer Nase ist er abgezogen. Glückauf!</l>
+                     <l>Ich stach den Musikanten aus.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ach, armer Vater! Wie bist du betrogen!</l>
+                     <l>Was suchtest du für saubre Lehrer aus!</l>
+                     <l>Ich glaubt, ich hätte Lehrer in Kunst und Saitenspiel,</l>
+                     <l>Doch waren's nur Verehrer, gelernt hab ich nicht viel.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Ich bin ihr gar nicht mehr gewogen,</l>
+                     <l>Noch heut, ja! Noch heut verlaß ich dieses Haus.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Baptista zu den Vorigen, später Katharine.</stage>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>in stürmischem Jubel herein und durchs Zimmer hüpfend.</stage>
+                  <lg>
+                     <l>Er kommt, er kommt! Juheirassa!</l>
+                     <l>Schon biegt er um die Ecke.</l>
+                     <l>Noch eine kleine kurze Strecke,</l>
+                     <l>Und unser Bräutigam ist da!</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO</speaker>
+                  <stage>in der Freude Bianca umarmend.</stage>
+                  <lg>
+                     <l>Er kommt, er kommt! Juhe, juhe!</l>
+                     <l>Welch ein wonniges Entzücken.</l>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Es scheint den Kopf euch zu verrücken.</l>
+                     <l>Was fällt euch ein! Laßt ihr sie, he?</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>Hortensio packend und mit ihm walzend.</stage>
+                  <lg>
+                     <l>O freut euch mit mir inniglich!</l>
+                     <l>Ihr habt's ja auch vernommen.</l>
+                     <l>Wie tröstet, wie erleichtert's mich,</l>
+                     <l>Der Bräutigam ist gekommen!</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca #lucentio">
+                  <speaker>BIANCA, LUCENTIO.</speaker>
+                  <lg>
+                     <l>Zu allgemeinem Jubeldrang ist alles jetzt verschwommen.</l>
+                     <l>Es schallet laut der frohe Klang,</l>
+                     <l>Der Bräutigam ist gekommen!</l>
+                     <pb n="24" facs="#f0021"/>
+                  </lg>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Zu allgemeinem Jubeldrang scheint alles jetzt verschwommen.</l>
+                     <l>Hat dieser Kunde froher Klang,</l>
+                     <l>Euch den Verstand genommen?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>zu den Vorigen.</stage>
+                  <lg>
+                     <l>Sagt, ist es wahr?</l>
+                     <l>Ist wirklich er gekommen?</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Hast du's allein noch nicht vernommen?</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ich dank's ihm nicht; schon gab ich mich zufrieden.</l>
+                     <l>Den Tollkopf los zu sein.</l>
+                     <l>Jetzt konnt er bleiben, woher er kam.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Kind sei vernünftig! Freu dich, daß du dem Schimpf entgangen bist</l>
+                     <l>Und daß noch heute dennoch Hochzeit ist!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ich soll mich freun, ihm noch dankbar sein?</l>
+                     <l>Des Hochzeitstags mutwillige Verhöhnung</l>
+                     <l>Geduldig sanft hinnehmen? Nein, nein, nein, nein!</l>
+                     <l>So schnell geht's nicht mit der Versöhnung.</l>
+                     <l>Er soll nur kommen und es mir entgelten;</l>
+                     <l>Nicht hör ich auf zu schmähn ihn und zu schelten.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Petruchio und Grumio, beide auffallend nachlässig gekleidet, in zerrissenen und
+            geflickten Röcken, Reitstiefel von verschiedener Größe und Farbe, mit langen
+            Schleppsäbeln usw., treten stürmisch auf. Die Vorigen.</stage>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>lärmend.</stage>
+                  <lg>
+                     <l>Ha, ha! Da sind wir! Ja! Wir sind geritten.</l>
+                     <l>Ha, ha, ha, da sind wir nun, und werden köstlich jetzt</l>
+                     <l>Inmitten so lustger Leut, so vieler lustger Leut</l>
+                     <l>Gütlich tun.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>mit wankenden Knien sich an Baptista lehnend, während die andern noch wie
+              versteinert stehn.</stage>
+                  <p>Das ist zu viel!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Mein liebes Käthchen! Ei! Wie geht's dir? Gut?</l>
+                     <l>Du schaust recht munter, Bäcklein rot wie Blut!</l>
+                     <l>Sagt aber, Leute, was habt ihr zu gaffen,</l>
+                     <l>Als wär ein seltsam Abenteuer zu sehn?</l>
+                     <l>Hier sind nicht Elefanten noch Giraffen.</l>
+                     <l>Warum bleibt ihr mit offnem Maul denn stehn?</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>zuerst zitternd und verlegen.</stage>
+                  <lg>
+                     <l>Ei nun! Ihr wißt! Heut ist eur Hochzeitstag.</l>
+                     <l>Erst sorgten wir, ihr möchtet gar nicht kommen.</l>
+                     <l>Nun kommt ihr, aber wie?</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Auf beiden Füßen.</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA</speaker>
+                  <stage>auf einmal heftig.</stage>
+                  <p>Wie ein Dragoner!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Wie ein Bärenführer!</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Wie ein zerlumpter Räuber!</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>Wie ein Hausnarr!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>zu Katharine.</stage>
+                  <p>Sie schimpfen alle. Du allein bist sanft.</p>
+                  <pb n="25" facs="#f0022"/>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>mit unterdrückter Wut.</stage>
+                  <p>Weil mich die Scham, der Aerger sprachlos machen.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ha, ha! Das alles ist ja nur zum Lachen.</l>
+                     <l>Was fragt ein Mann von etwas Geist, wie ich,</l>
+                     <l>Nach törichten Toilettensachen?</l>
+                     <l>Du liebst ja meinen Rock nicht, sondern mich,</l>
+                     <l>Und du bist schön, ich muß ans Herz dich drücken.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ich bitt euch, laßt mich!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Meine süße Frau! Weshalb auch hätt ich mich zu schmücken?</l>
+                     <l>Du bist ja schöngeschmückt als wie ein Pfau.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Ist sie geschmückt, so ist's nicht eure Schuld.</l>
+                     <l>Wo ist das Brautkleid, welches ihr versprochen?</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>zu Katharine.</stage>
+                  <lg>
+                     <l>Mein lieber Engel, habe nur Geduld!</l>
+                     <l>Es kommt ja wohl in einigen Wochen.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>Ist heut nicht Hochzeit?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Freilich, da ihr's wollt! Auf, auf in die Kirche!</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Wie in diesem Aufzug?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Warum denn nicht? Warum denn nicht?</l>
+                     <l>Wenn ihr andächtig seid,</l>
+                     <l>So schaut ihr, denk ich, nicht aufs Kleid.</l>
+                     <l>Stellt euch zum Zug! Heda! Musik!</l>
+                  </lg>
+                  <stage>Musikanten kommen auf Petruchios Ruf, beginnen aber noch nicht so gleich.</stage>
+                  <p>Los jetzt! Los jetzt! Ein recht fideles Stück!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Nur einen Augenblick, um mich zu fassen!</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>Solch eine Hochzeit hab ich nie gesehn.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Ich glaube, daß sie füreinander passen.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Macht schnell! Wir wollen in die Kirche gehn!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ja, kommt! Und zum erwünschten frohen Ende</l>
+                     <l>Verhelf uns Gott, ich wasche meine Hände.</l>
+                  </lg>
+                  <stage>Petruchio nimmt Katharine am Arm. Lucentio ergreift Biancas Hand; Baptista,
+              Hortensio und die Musikanten beschließen den Zug. Alle ab.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Szene</head>
+               <stage>Ein Chor von männlichen und weiblichen Dienstboten tritt auf, unter ihnen der
+            Haushofmeister und die Haushälterin. Sie schaffen eine reichbesetzte Tafel mit vielen
+            Gedecken, die bisher im Hintergrund gestanden, in die Mitte der Szene und machen sich
+            mit Ordnen und Schmücken derselben zu schaffen.</stage>
+               <sp who="#chor_3-5">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Heute gilt es, sich zu rühren,</l>
+                     <l>Heute muß man fleißig sein,</l>
+                     <l>Denn Baptista läßt heut spüren,</l>
+                     <l>Wieviel Gold und Silber sein.</l>
+                  </lg>
+               </sp>
+               <sp who="#haushofmeister">
+                  <speaker>HAUSHOFMEISTER.</speaker>
+                  <lg>
+                     <l>Diesen goldnen Ehrenbecher</l>
+                     <l>Stellt dem Bräutigam hin im Flug!</l>
+                     <l>Merkt, wie ihn der wilde Zecher</l>
+                     <l>Leeren wird auf einen Zug!</l>
+                     <pb n="26" facs="#f0023"/>
+                  </lg>
+               </sp>
+               <sp who="#haushaelterin">
+                  <speaker>HAUSHÄLTERIN.</speaker>
+                  <lg>
+                     <l>Auch die gelbkristallnen Schalen,</l>
+                     <l>reich verziert, ein wahrer Schatz,</l>
+                  </lg>
+                  <stage>Läßt sich die Schale reichen.</stage>
+                  <lg>
+                     <l>Stehe neben dem Pokale,</l>
+                     <l>An Kathrinens Ehrenplatz!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_3-5">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Heute gilt es, sich zu rühren,</l>
+                     <l>Heute muß man fleißig sein,</l>
+                     <l>Denn Baptista läßt heut spüren,</l>
+                     <l>Wie viel Gold und Silber sein.</l>
+                  </lg>
+               </sp>
+               <sp who="#haushofmeister">
+                  <speaker>HAUSHOFMEISTER.</speaker>
+                  <lg>
+                     <l>Heda! Bursche, noch mehr Teller,</l>
+                     <l>Vierzig Gläser schnell herbei!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_3-5">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Heute spürt es wohl der Keller,</l>
+                     <l>Wir auch trinken frank und frei.</l>
+                  </lg>
+               </sp>
+               <sp who="#haushaelterin">
+                  <speaker>HAUSHÄLTERIN.</speaker>
+                  <p>Rührt die Arme!</p>
+               </sp>
+               <sp who="#haushofmeister">
+                  <speaker>HAUSHOFMEISTER.</speaker>
+                  <p>Rührt die Beine!</p>
+               </sp>
+               <sp who="#haushaelterin">
+                  <speaker>HAUSHÄLTERIN.</speaker>
+                  <p>Stühle schleppet schnell herzu!</p>
+               </sp>
+               <sp who="#haushofmeister">
+                  <speaker>HAUSHOFMEISTER.</speaker>
+                  <p>Rote Weine, weiße Weine.</p>
+               </sp>
+               <sp who="#haushofmeister #haushaelterin">
+                  <speaker>HAUSHOFMEISTER UND HAUSHÄLTERIN.</speaker>
+                  <p>Alles muß jetzt gehn im Nu!</p>
+               </sp>
+               <sp who="#chor_3-5">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Gerne mögen wir uns regen,</l>
+                     <l>Können fleißig heute sein.</l>
+                     <l>Käthchens Weggang ist ein Segen,</l>
+                     <l>Endigt ihre Quälerein.</l>
+                     <l>Täglich werden wir nun dreister,</l>
+                     <l>Wenn sie erst zum Haus hinaus.</l>
+                  </lg>
+               </sp>
+               <sp who="#haushaelterin">
+                  <speaker>HAUSHÄLTERIN.</speaker>
+                  <p>Aber sie,</p>
+               </sp>
+               <sp who="#haushofmeister">
+                  <speaker>HAUSHOFMEISTER.</speaker>
+                  <p>Aber sie,</p>
+               </sp>
+               <sp who="#haushofmeister #haushaelterin">
+                  <speaker>HAUSHOFMEISTER UND HAUSHÄLTERIN.</speaker>
+                  <p>Aber sie hat ihren Meister.</p>
+               </sp>
+               <sp who="#chor_3-5">
+                  <speaker>CHOR.</speaker>
+                  <p>Horch! Horch! Horch! Schon ist die Hochzeit aus.</p>
+               </sp>
+               <sp who="#haushofmeister">
+                  <speaker>HAUSHOFMEISTER.</speaker>
+                  <p>Dort kommt der Musikus, scheint ganz verstört,</p>
+               </sp>
+               <sp who="#chor_3-5">
+                  <speaker>CHOR.</speaker>
+                  <p>Herr Cembaloni! Sagt, wie ist's gegangen?</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Nein, solcher Hochzeit wohnt ich niemals bei.</l>
+                     <l>Er trieb es wie ein Teufel.</l>
+                     <l>Jeder Sitte sprach sein Betragen Hohn.</l>
+                     <l>Der Priester fragte: Wollt gegenwärtige Jungfrau ihr zum Weibe?</l>
+                     <l>Natürlich schrie er laut, drum bin ich da,</l>
+                     <l>Und macht nur schnell mit eurem Hokus-Pokus!</l>
+                     <l>Drauf als zu Ende kam die Zeremonie,</l>
+                     <l>Gab er der Braut vor allen einen Kuß,</l>
+                     <l>Der weithin schallte!</l>
+                     <pb n="27" facs="#f0024"/>
+                  </lg>
+               </sp>
+               <sp who="#chor_3-5">
+                  <speaker>CHOR.</speaker>
+                  <p>Nein, das ist zu arg!</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <lg>
+                     <l>Dort kommt der Zug; drum will ich schweigen,</l>
+                     <l>Er möchte sonst auch mir die Zähne zeigen.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Sechste Szene</head>
+               <stage>Zu den Vorigen treten auf: Musikanten, Petruchio, Katharine, Bianca, Lucentio,
+            Baptista, Grumio; die Hochzeitsgäste der ersten Szene.</stage>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Wir haben zeitlich uns noch eingefunden,</l>
+                     <l>Da wir gehört, daß doch heut Hochzeit ist.</l>
+                     <l>Wir hoffen jetzt ein paar vergnügte Stunden</l>
+                     <l>hier durchzujubeln.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Liebe Freunde! Wißt!</l>
+                     <l>Ihr denkt zwar jetzt mit mir zu essen,</l>
+                     <l>Bereitet steht der Hochzeitschmaus.</l>
+                     <l>Nun, nehmt nur fröhlich Platz!</l>
+                     <l>Indessen ich, selber muß mit Käthchen gleich nach Haus.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ist's möglich, noch heut abend wollt ihr fort?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ei, von heut abend sagt ich ja kein Wort.</l>
+                     <l>Gleich jetzt, mein Freund, gedenk ich aufzubrechen.</l>
+                     <l>Die Pferde denk ich, stehn schon bereit.</l>
+                  </lg>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Erlaubt mir, Schwiegersohn, zu widersprechen!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ei, tut es nur, mich kümmert's keinen Deut!</l>
+                     <l>Ihr guten Leute, setzt euch ruhig nieder.</l>
+                     <l>Stoßt an und zecht, sing frohe Lieder.</l>
+                     <l>Wir aber ziehn, will euch das nicht gefallen,</l>
+                     <l>Doch muß es sein und Gott sei mit euch allen!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Laßt uns euch bitten: bleibt, o bleibt beim Feste,</l>
+                     <l>Jetzt kommt ja erst das Lustigste, das Beste!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Ei, nicht von fern!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ich bitt euch: bleibt noch da.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Mich treibt mein Stern.</p>
+               </sp>
+               <sp who="#lucentio">
+                  <speaker>LUCENTIO.</speaker>
+                  <p>Ich bitt euch: bleibt noch da.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Bleibt ihr mir fern?</p>
+               </sp>
+               <sp who="#hortensio">
+                  <speaker>HORTENSIO.</speaker>
+                  <p>Ich bitt euch: bleibt noch da.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Hört auf, ihr Herren, hört auf, ihr Herren!</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <p>Ich bitt euch: bleibt noch da.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Mich treibt mein Stern, mich treibt mein Stern.</p>
+               </sp>
+               <sp who="#bianca #lucentio">
+                  <speaker>BIANCA, LUCENTIO.</speaker>
+                  <p>Wir bitten: bleibt noch da!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ich bitte: bleibt noch da!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Das hör ich gern, das hör ich gern!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Er ist gewonnen, er bleibt da!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Ei, nicht von fern, ei, nicht von fern!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Du sagtest doch, das hörst du gern!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Ich hörte gern dein freundlich bittend Wort,</l>
+                     <l>Doch ungebeugt bleibt mein Entschluß, wir gehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Der du dein Herz geweiht am heilgen Ort,</l>
+                     <l>Laß sie nur heute nicht vergebens flehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <p>Soll das nicht erweichen?</p>
+                  <pb n="28" facs="#f0025"/>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>der gewaltsam seine Rührung bekämpft hat.</stage>
+                  <p>Es kann nicht sein, sag Lebewohl den deinen!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ha, steht es so, mir dies am Hochzeitstag?</l>
+                     <l>Beginnt schon jetzt das Weigern, das Verneinen?</l>
+                     <l>So geh mit dir, wer mit dir gehen mag!</l>
+                     <l>Mich aber, mich bringst du heut nicht weg, geh!</l>
+                     <l>Offen steht dir Tür und Steg.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Ich bitte, sei nicht böse, Weibchen!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ich will nun böse sein, was kümmert's dich?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Zwing mich zum Aeußersten nicht, mein sanftes Täubchen!</p>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Seht nur, die Neuvermählten streiten sich.</l>
+                     <l>Gebt nach und bleibt bei uns einmütiglich!</l>
+                  </lg>
+                  <stage>Die Herren scharen sich um Petruchio und Katharine.</stage>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Wir bleiben hier</l>
+                     <l>Die Bitte schlugst du ab, wohl, ich befehl es dir.</l>
+                  </lg>
+               </sp>
+               <sp who="#lucentio #chor_alle_3-6">
+                  <speaker>LUCENTIO UND CHOR.</speaker>
+                  <lg>
+                     <l>Ja, ihr bleibt hier, wir nehmen euch gefangen.</l>
+                     <l>Ihr bleibt bei uns, geht keinen Schritt von hier!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>die Hand an den Degen legend.</stage>
+                  <lg>
+                     <l>Ihr Herrn macht's noch in Güte, und laßt den Ausgang frei!</l>
+                     <l>Erregt nicht mein Gemüte.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <p>Nein, nein, du wirst nicht frei!</p>
+                  <stage>Die Herren bewaffnen sich auf komische Art mit Suppenlöffeln, Tranchiermessern,
+              Ofengabeln, Regenschirmen usw.</stage>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Frisch, Grumio, zieh den Degen,</l>
+                     <l>Hilf meine Frau befrein!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Mein Herz in wilden Schlägen fühlt namenlose Pein.</p>
+               </sp>
+               <sp who="#petruchio #grumio">
+                  <speaker>PETRUCHIO UND GRUMIO.</speaker>
+                  <lg>
+                     <l>Wer wagt sich mir (uns) entgegen,</l>
+                     <l>Wir fechten nicht zum Schein.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Jetzt wollen wir uns regen, wo mögen Waffen sein?</l>
+                     <l>Und käm es auch zu Schlägen, ihr sollt euch nicht befrein!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Hier, dieser gute Degen soll unsre Rettung sein!</p>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Laß deinen Zorn sich legen, schau hier die Waffe mein!</l>
+                     <l>Was soll der Streit euch frommen?</l>
+                     <l>O höret unser Flehn!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Mein Käthchen, sei nicht bange,</l>
+                     <l>Ich hau dich schon heraus,</l>
+                     <l>Wenn ich erst recht anfange,</l>
+                     <l>Dann läuft das ganze Haus.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>O wär ich tausend Meilen von diesem Manne fern.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Ganz recht, wir wollen eilen, gebt Raum ihr Herren!</p>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <p>Laß ja sie nicht heraus!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>So weit laß ich's nicht kommen,</l>
+                     <l>Das kann ich nicht ansehn.</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca #lucentio">
+                  <speaker>BIANCA, LUCENTIO.</speaker>
+                  <lg>
+                     <l>O wollet ihrer schonen!</l>
+                     <l>Laßt endlich sie hinaus!</l>
+                     <pb n="29" facs="#f0026"/>
+                  </lg>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Wir werden euch noch lohnen,</l>
+                     <l>Mit Prügeln diesen Strauß.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Gebt Raum, gebt Raum, ihr Herren!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <p>Ich gäbe tausend Kronen! Wär Ruhe erst im Haus!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Willst du mich hier nicht schonen,</l>
+                     <l>Wie wird es erst zu Haus?</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca #lucentio">
+                  <speaker>BIANCA, LUCENTIO.</speaker>
+                  <p>Laßt endlich sie hinaus!</p>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>CHOR.</speaker>
+                  <p>Laßt ja sie nicht hinaus!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>läßt sich darauf zum Schein in eine Ecke drängen, dann mit gezücktem Degen
+              vortretend.</stage>
+                  <p>Und wären's Millionen, ich haue dich heraus!</p>
+                  <stage>Nach einem kühnen Satze steht Petruchio plötzlich mitten auf der Tafel und reißt
+              Katharine zu sich hinauf. In demselben Augenblick sprengt Grumio mit zwei Pferden in
+              den Saal und an die Tafel. Petruchio springt in den Sattel, setzt Katharine vor sich
+              und alle drei ab.</stage>
+               </sp>
+               <sp who="#chor_alle_3-6">
+                  <speaker>ALLE.</speaker>
+                  <p>Nun sind sie doch hinaus! Ha, ha, ha, ha, ha!</p>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Vierter Akt</head>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Saal in Petruchios Landhaus, im Vordergrund ein Tisch mit zwei Gedecken. Wartende
+            Diener, unter ihnen Grumio.</stage>
+               <sp who="#chor_der_diener_4-1">
+                  <speaker>CHOR DER DIENER.</speaker>
+                  <lg>
+                     <l>Jetzt können wir's nicht mehr ertragen,</l>
+                     <l>Das tobende lärmende Paar.</l>
+                     <l>Hat sie die Tarantel gestochen,</l>
+                     <l>Daß sie in den Flitterwochen</l>
+                     <l>Dem Teufel gleichen aufs Haar?</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <lg>
+                     <l>Ihr schwachen, dummen Tröpfe,</l>
+                     <l>Was soll das Räsonieren?</l>
+                     <l>Strengt etwas an die Köpfe,</l>
+                     <l>So werdet ihr's kapieren.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_diener_4-1">
+                  <speaker>CHOR DER DIENER.</speaker>
+                  <lg>
+                     <l>Ja, wer das auch noch leisten soll!</l>
+                     <l>Sprich! Warum treibt's der Herr so toll?</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <lg>
+                     <l>Könnt ihr es nicht erraten?</l>
+                     <l>Frau Käthe war viel schlimmer noch,</l>
+                     <l>Doch unter seinem Ehejoch</l>
+                     <l>Wird bald sie Mores lernen.</l>
+                     <l>Auf groben Klotz ein grober Keil!</l>
+                     <l>So werd es allen Fraun zuteil,</l>
+                     <l>Die sich nicht wollen fügen.</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_diener_4-1">
+                  <speaker>DIENER.</speaker>
+                  <lg>
+                     <l>So werd es allen Fraun zuteil,</l>
+                     <l>die sich nicht wollen fügen.</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <lg>
+                     <l>Doch seht, er kommt jetzt, mukset nicht!</l>
+                     <l>Und fliegt, wenn nur sein Auge spricht!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_der_diener_4-1">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Potz, Sapperment! Jetzt mukset nicht</l>
+                     <l>Und fliegt, wenn nur sein Auge spricht!</l>
+                     <pb n="30" facs="#f0027"/>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <stage>Petruchio und Katharine, beide im Hauskleide, zu den Vorigen. Katharine sieht blaß
+            und leidend aus, Petruchio mit einer Reitpeitsche fuchtelnd.</stage>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Mein liebes Weibchen, komm, wir wollen essen.</l>
+                     <l>Gewaltgen Hunger hab ich. Setz dich nieder!</l>
+                     <l>Verwünschtes Pack! Ihr habt den Wein vergessen.</l>
+                     <l>Corpo di Bacco! Tut mir das nicht wieder!</l>
+                     <l>Was staunt ihr? Wollt ihr gar nicht mehr erwachen?</l>
+                     <l>Ha wartet nur, ich will euch Beine machen.</l>
+                  </lg>
+                  <stage>Er wirft einem die Reitpeitsche an den Kopf; der Wein wird gebracht; sich zu
+              Katharine setzend.</stage>
+                  <lg>
+                     <l>Die faulen Schlingel!</l>
+                     <l>Ha, mir wird zu Galle.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Bringt dich in Wut solch ein gering Versehn?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Verwünschte Tagediebe sind sie alle,</l>
+                     <l>Doch künftig soll es anders gehn.</l>
+                     <l>Iß, Käthchen, laß dir's schmecken!</l>
+                     <l>Tod und Hölle! Die Suppe ist versalzen.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Nein doch nein, sie mundet mir vortrefflich!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Auf der Stell hinaus damit. Sie kann nicht schlechter sein.</l>
+                     <l>Trink, Käthchen, trink! Doch ha, was seh ich wieder?</l>
+                     <l>Der Becher meiner Frau ist nicht gespült.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Er ist ja rein.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Was rein! Durch alle Glieder zuckt Aerger mir,</l>
+                     <l>Wie ich ihn nie gefühlt.</l>
+                     <l>Nichtsnützge Schurken, schafft mir auf der Stelle</l>
+                     <l>Den großen Goldpokal herbei!</l>
+                     <l>Nun, wollt ihr? Sonst pack ich euch beim Felle,</l>
+                     <l>Zerstampf euch wahrlich noch zu Brei.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Jetzt ist's genug. Du mußt dein Zürnen stillen.</l>
+                     <l>Pfui, schäm dich! Die Ursach ist zu klein.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Bist du bei Trost, hier geht's nach meinem Willen.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Doch 's ist nicht schön, gleich in Wut zu sein.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>So? Ist's nicht schön? Es freut mich, das zu hören,</l>
+                     <l>Doch schön zu sein, sind ja die Frauen,</l>
+                     <l>Darum soll deine Bitte gar nicht stören.</l>
+                     <l>Wo bleibt der Goldpokal? Donner und Doria!</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <p>Hier, gnädger Herr!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Wer sagt dir, daß ich gnädig?</p>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <p>Ich wünsch es doch.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>holt gegen Grumio zum Schlage aus.</stage>
+                  <p>Ha, widersprichst du mir?</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Das ist zu arg!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Gelt, gelt? Das Fleisch ist fädig und dürr dazu.</l>
+                     <l>Das ist zu arg, 's ist wahr, solch schlechtes Zeug,</l>
+                     <l>Solch schlechtes Zeug auf meinem Tisch zu sehn!</l>
+                  </lg>
+                  <stage>Mit einem Schlage alles vom Tische wegwerfend.</stage>
+                  <p>Fort mit dem Bettel! Messer, Flaschen, Teller!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ach, kümmert gar nicht dich mein Flehn?</p>
+                  <pb n="31" facs="#f0028"/>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Was Kummer, all dies Zeug taugt keinen Heller.</l>
+                     <l>Und Braten ohnehin paßt nicht für Leute,</l>
+                     <l>Die so wie wir beinah cholerisch sind.</l>
+                     <l>Gebt ihn den Hunden, er sei ihre Beute!</l>
+                     <l>Und jetzt Adieu für einmal, liebes Kind!</l>
+                  </lg>
+                  <stage>Ab.</stage>
+                  <stage>Die Diener entfernen sich, nachdem sie die Ueberreste der Tafel beiseite
+              geschafft.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Katharine allein.</stage>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Die Kraft versagt, des Kampfes bin ich müde,</l>
+                     <l>Und wie ein Schiff im Seesturm untergeht,</l>
+                     <l>So stirbt des kühnen Mutes letzter Schimmer</l>
+                     <l>In dem Orkane seines Zorns dahin.</l>
+                     <l>Sind Weibes Waffen doch Strohhalmen gleich!</l>
+                     <l>Wo ist mein Stolz? Wie bin ich jetzt so weich.</l>
+                     <l>Und haß ich ihn? O nein, welch Wort ihn hassen,</l>
+                     <l>Mein Leben wollt ich für ihn lassen.</l>
+                     <l>O könnt ich ihn versöhnt und milder sehn!</l>
+                     <l>Sonst muß in seinem Zürnen ich vergehn.</l>
+                     <l>Es schweige die Klage! In Demut es trage,</l>
+                     <l>Was noch so Schweres er dir beschließt!</l>
+                     <l>In freundlichem Scheine, winkt dir nur eine,</l>
+                     <l>Nur eine Hoffnung, die dir's versüßt.</l>
+                     <l>Daß ihm die Arme zuletzt erbarme,</l>
+                     <l>Daß ihre Demut ihn endlich rührt.</l>
+                     <l>O Wonnegedanke, o Glück ohne Schranke!</l>
+                     <l>Daß ihn die Liebe ans Herz mir führt.</l>
+                     <l>Drum schweige die Klage, in Demut es trage,</l>
+                     <l>Was noch so Schweres er dir beschließt.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <stage>Katharine, Grumio, später ein Schneider, Kleider-und Putzhändler, zuletzt
+            Petruchio.</stage>
+               <sp who="#grumio">
+                  <speaker>GRUMIO</speaker>
+                  <stage>eintretend.</stage>
+                  <lg>
+                     <l>Draußen, Herrin, steht ein Schneider,</l>
+                     <l>Bittet, ob ihr ihn wollt sehn,</l>
+                     <l>Hat die schönsten Damenkleider.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ach, ich bitt euch, laßt ihn gehn!</p>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <lg>
+                     <l>Doch er ist vom Herrn bestellt,</l>
+                     <l>Daß ihr kauft, was euch gefällt.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Nun, so rufet mir den Schneider!</p>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <p>Kommt herein, zeigt eure Kleider!</p>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER</speaker>
+                  <stage>tritt auf mit vielen Verbeugungen, Diener bringen mehrere Kisten mit Kleidern und
+              Putzgegenständen, die von ihm ausgepackt werden.</stage>
+                  <lg>
+                     <l>Ick sein Schneider aus Paris, abe kute ssöne Waare,</l>
+                     <l>Atlaskleider, feine Chemis, Hüteken kanz wonderbare.</l>
+                     <l>Niemand so wie ik verkaufet, o wie billig, o wie kut!</l>
+                     <l>Wenn sie bis nach Moskau laufet, nix so ssönes finden tut.</l>
+                     <pb n="32" facs="#f0029"/>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Niedlich sind die Spitzenhäubchen, kommen wohl?</p>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <lg>
+                     <l>Auf zwei Dukat. O so fein, wie Sonnenstäubchen!</l>
+                     <l>Nix man so gesehen hat.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Eines nehm ich, und die Kleidchen, grüner Atlas.</p>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <p>Kanz modern! O dies wondevolle Kleidken wird gefallen knädges Herrn.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ha, da kommt er selbst, mein Gatte.</l>
+                     <l>Wird er wohl zufrieden sein?</l>
+                  </lg>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <p>Wenn er erst gesehn es hatte, kern giebt Trinkgeld obendrein.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>zu den Vorigen.</stage>
+                  <lg>
+                     <l>Schön, recht schön, mein liebes Weibchen</l>
+                     <l>Kauft sich Kleider, das ist recht.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ja, sieh nur das artge Häubchen.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Was, das Spinnewebgeflecht? Fort damit, aus meinen Augen!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ist es möglich, hör ich recht?</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Nein, wahrhaftig 's ist zu schlecht,</l>
+                     <l>Für ne Bettlerin mag's taugen.</l>
+                     <l>Wie ne Wallmußschale klein,</l>
+                     <l>Wie ne Muschel ist's gestaltet.</l>
+                     <l>Soll's ne Kindermütze sein?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Was ihr Herrn auch davon haltet,</l>
+                     <l>Reizend find ich dieses Häubchen,</l>
+                     <l>Wenn's am Ende mir nur recht!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Nein, mein liebes sanftes Täubchen,</l>
+                     <l>Das ist wahrlich viel zu schlecht.</l>
+                  </lg>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <p>Wie, dies wonderfeine Häubchen finden diese Herr zu schlecht?</p>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <lg>
+                     <l>Schneiderlein, du Sonnenstäubchen!</l>
+                     <l>Muckse nicht, sonst geht's dir schlecht.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Doch dieses Kleid von grüner Seide,</l>
+                     <l>Hab ich's damit recht gemacht?</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Pah, mit diesem unscheinbaren Kleide.</p>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <p>Schauns doch nur den Klanz, die Pracht!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ja, mein Gatte, es ist prächtig.</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Und ich sage dir 's ist niederträchtig.</l>
+                     <l>Diese Aermel klaffend wie Haubitzen,</l>
+                     <l>Diese lächerlichen Fastnachtslitzen,</l>
+                     <l>Diese alten ganz vergilbten Spitzen!</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO</speaker>
+                  <stage>für sich.</stage>
+                  <p>Ein Gewitter gibt's, schon seh ich's blitzen.</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Gern verzicht ich auf die schönen Kleider,</l>
+                     <l>Denn ich seh es wohl, dich reut das Geld.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Hälts du mich für geizig? Heda, Schneider!</l>
+                     <l>Komm mal her, du Nadelheld!</l>
+                  </lg>
+                  <stage>Kleider, Hauben, Spitzen usw., alles auf den Boden werfend.</stage>
+                  <lg>
+                     <l>Da, du mißgeschaffene Haube,</l>
+                     <l>Samt den Kleidern lieg im Staube!</l>
+                     <l>
+                        <pb n="33" facs="#f0030"/> Daß mein Käthchen meine Taube,</l>
+                     <l>Nur als Geizhals mich nicht glaube.</l>
+                     <l>Nein, sie reut mich nicht, die Haube,</l>
+                     <l>Da liegt aller Kram im Staube!</l>
+                  </lg>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <lg>
+                     <l>Das sein Barbarei! Die Spitzen. Herr, o haltet sie sein ächt.</l>
+                     <l>Auch zu spät, o Gott, ich switzen!</l>
+                     <l>Das sein boshaft, das sein slecht!</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <lg>
+                     <l>Schneider, tu dich nicht erhitzen,</l>
+                     <l>Muckse nicht, sonst geht's dir schlecht!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Heda, Bursche, laß die Kleider!</p>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <p>Ihr bezahlen vollen Wert!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>schlägt ihn.</stage>
+                  <lg>
+                     <l>Du verdammter lumpger Schneider;</l>
+                     <l>Hältst mich nicht für ehrenwert?</l>
+                     <l>Nimm den Beutel voll Zechinen, aber packe dich sogleich!</l>
+                     <l>Liebes Käthchen, lustge Minen! Weine nicht, sei nicht so weich.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Könnt ich jemals mir verdienen, daß er milde wird und weich.</p>
+               </sp>
+               <sp who="#schneider">
+                  <speaker>SCHNEIDER.</speaker>
+                  <p>Ja, ich gehe, ja zu dienen, ja, ich packe mir so gleich.</p>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <p>Ha, der Beutel voll Zechinen tröstet ihn für diesen Streich.</p>
+                  <stage>Ab. Auch die Kleider werden schnell beiseite geschafft.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Fünfte Szene</head>
+               <stage>Katharine, Petruchio.</stage>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO</speaker>
+                  <stage>in scherzendem Tone.</stage>
+                  <lg>
+                     <l>Komm, liebes Käthchen, 's ist so schwül im Haus,</l>
+                     <l>Der helle Mond lockt freundlich uns hinaus.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>wehmütig.</stage>
+                  <lg>
+                     <l>Die Sonne brennt in Mittagsglut,</l>
+                     <l>Jedoch, du willst es ja; dort seh den Mond ich prangen!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Den Mond, ei Käthchen, sei vernünftig doch!</l>
+                     <l>Besinne dich, 's ist Mittag kaum vergangen,</l>
+                     <l>Sag, glaubst wirklich du, daß uns der Mond jetzt leuchtet?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Ich meine nichts, von Tränen ist befeuchtet des Auges Wimper!</l>
+                     <l>Eins nur seh ich klar: Ich bin dieselbe nicht mehr, die ich war!</l>
+                     <l>Gebrochen ist des wilden Mädchens Uebermut,</l>
+                     <l>Des Weibes schönre Würde, sie durft ich ahnen,</l>
+                     <l>Denn dahin ging dein scherzhaft treues Mahnen!</l>
+                     <l>Tu, was du willst mit mir, ich bin dein Weib,</l>
+                     <l>Ich liebe dich, bin dein mit Seel und Leib!</l>
+                  </lg>
+                  <stage>Sie sinkt im Uebermaß der Empfindungen vor Petruchio zu Boden, der sie liebevoll
+              aufhebt und an seine Brust drückt.</stage>
+                  <pb n="34" facs="#f0031"/>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Genug, mein teures Weib, die Prüfung endet; dieses wilde Gaukelspiel!</l>
+                     <l>Zum Guten hat's dein edler Sinn gewendet,</l>
+                     <l>Und beide stehen wir am frohen Ziel!</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>O überschwänglich Glück, o frohes Ziel,</l>
+                     <l>Ich wollte dich hassen, mich von dir reißen.</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Und mußtest doch mein Eigen heißen!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Die tiefste Wunde im trotzigen Herzen,</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Fand diese Stunde, sie heile die Schmerzen!</p>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Und ist es vorüber das wilde Spiel</l>
+                     <l>Und kam nun der Leiden ersehntes Ziel!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Wir sind am frohen Ziel! Wir sind am frohen Ziel!</l>
+                     <l>Wie bricht aus den Wolken hellstrahlende Sonne!</l>
+                     <l>Das ist die Liebe in Gottes Welt!</l>
+                     <l>Die Herzen und Sterne zusammenhält.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Sechste Szene</head>
+               <stage>Die Vorigen, Grumio; später Baptista, Lucentio, Bianca, Hortensio und dessen
+            neuvermählte Frau; zum Schluß Chor von Gästen, Petruchio.</stage>
+               <sp who="#grumio">
+                  <speaker>GRUMIO.</speaker>
+                  <lg>
+                     <l>O Herr, drei Wagen fahren eben vor,</l>
+                     <l>Baptista glaub ich ist's mit seinen Freunden!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Empfangt sie gut und führt sie hier herein,</l>
+                     <l>Dann rüstet ein Bankett! Da sind sie schon.</l>
+                  </lg>
+                  <stage>Grumio ab. Baptista, Bianca, Lucentio, Hortensio und dessen neuvermählte Frau
+              treten auf.</stage>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Als ihr so eilgen Abschied jüngst genommen von uns</l>
+                     <l>Da kamen bald in Sorge wir, ob euch auch nichts passiert!</l>
+                     <l>Wir sind nun hier, es zu erfragen!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Herzlich seid willkommen, mein Käthchen, grüße sie!</p>
+               </sp>
+               <sp who="#baptista">
+                  <speaker>BAPTISTA.</speaker>
+                  <lg>
+                     <l>Laßt uns vergessen, was neulich uns entzweit,</l>
+                     <l>Geschah ja manches noch indessen,</l>
+                     <l>Denn, Käthchen, höre nur die Neuigkeit!</l>
+                  </lg>
+                  <stage>Lucentio und Bianca vorführend.</stage>
+                  <lg>
+                     <l>Hier, diese beiden sind ein Paar geworden!</l>
+                     <l>Er ist kein Philolog, doch log er viel,</l>
+                     <l>Lucentio heißt er, trieb mit uns sein Spiel,</l>
+                     <l>So, daß ich anfangs schier ihn wollte morden,</l>
+                     <l>Doch schickt ich endlich mich in alles;</l>
+                     <l>Und Hochzeit war das Ende dieses Falles.</l>
+                  </lg>
+                  <stage>Hortensio und dessen Frau vorführend.</stage>
+                  <lg>
+                     <l>Auch dieser Mann ist gänzlich jetzt zufrieden,</l>
+                     <l>Da ihm das Glück solch schönes Weib beschieden.</l>
+                     <l>Mit ihr vereint hat Bianca er vergessen.</l>
+                     <l>Nicht wahr? Recht viel geschah doch unterdessen.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Wie freu ich mich, euch zu begrüßen!</l>
+                     <l>O liebe Schwester, werte Herrn!</l>
+                     <l>Wir haben letzthin scheiden müssen,</l>
+                     <l>Drum seh ich jetzt euch doppelt gern!</l>
+                     <pb n="35" facs="#f0032"/>
+                  </lg>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA.</speaker>
+                  <lg>
+                     <l>Und bist du glücklich?</l>
+                     <l>Ach, du siehst so blaß,</l>
+                     <l>Ernstlich bekümmert war ich schon um dich,</l>
+                     <l>Sehnst dich nach Freiheit wohl ohn Unterlaß?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <p>Ich fühle glücklich und zufrieden mich!</p>
+               </sp>
+               <sp who="#bianca">
+                  <speaker>BIANCA</speaker>
+                  <stage>erstaunt und lauter, so daß die andern aufmerksam werden.</stage>
+                  <lg>
+                     <l>Ich bin verwundert, sag mir, ist es wahr?</l>
+                     <l>Wo ist dein Trotz, dein Hochmut nur geblieben?</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE</speaker>
+                  <stage>mit Wärme, während sie von allen beobachtet wird.</stage>
+                  <lg>
+                     <l>Noch mehr als das brächt ich zum Opfer dar,</l>
+                     <l>Ihm, den ich muß von ganzem Herzen lieben, von ganzem Herzen!</l>
+                  </lg>
+               </sp>
+               <sp who="#bianca #hortensios_frau #lucentio #hortensio #baptista">
+                  <speaker>BIANCA, HORTENSIOS FRAU, LUCENTIO, HORTENSIO, BAPTISTA.</speaker>
+                  <lg>
+                     <l>Ich muß nur staunen, kann sie kaum erkennen,</l>
+                     <l>Die einst so trotzig, jetzt wie Engel weich.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>O, wie sie staunen! Kaum mich noch erkennen,</l>
+                     <l>Wie glücklich bin ich nun durch dich, o wie reich!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Seh, wie sie staunen kaum dich noch erkennen,</l>
+                     <l>Weil du so lieb bist, und wie Engel weich.</l>
+                  </lg>
+               </sp>
+               <sp who="#grumio">
+                  <speaker>GRUMIO</speaker>
+                  <stage>tritt ein.</stage>
+                  <p>Herr, eure Gäste nahn!</p>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <p>Sie sind willkommen, ein heitrer Abend kröne unser Glück!</p>
+                  <stage>Gäste, Herren und Damen treten auf als Chor. Diener verteilen gefüllte
+              Weingläser. Alle gruppieren sich um Katharine und Petruchio.</stage>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Jetzt in trautem Freundeskreise, an der teuren Gattin Brust,</l>
+                     <l>Schalle laut die frohe Weise, unsres Glückes, unsrer Lust!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_4-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Stimmet an die frohe Weise mit der Freude Jubel laut</l>
+                     <l>Zu des edlen Paares Preise, das ein Haus sich neu erbaut!</l>
+                  </lg>
+               </sp>
+               <sp who="#petruchio">
+                  <speaker>PETRUCHIO.</speaker>
+                  <lg>
+                     <l>Schenket ein vom Saft der Reben,</l>
+                     <l>Füllt die Becher bis zum Rand,</l>
+                     <l>Denn mein Käthchen soll hoch leben,</l>
+                     <l>Meines Glückes Unterpfand!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_4-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Katharine sie soll leben,</l>
+                     <l>Preist sie laut durchs weite Land.</l>
+                  </lg>
+               </sp>
+               <sp who="#katharine">
+                  <speaker>KATHARINE.</speaker>
+                  <lg>
+                     <l>Wie mir alle Glieder beben,</l>
+                     <l>Teurer Mann, der Preis ist dein!</l>
+                     <l>Du schufst mir ein neues Leben,</l>
+                     <l>Dir nur muß ich dankbar sein!</l>
+                  </lg>
+               </sp>
+               <sp who="#chor_4-6">
+                  <speaker>CHOR.</speaker>
+                  <lg>
+                     <l>Schenket ein vom Saft der Reben,</l>
+                     <l>Füllt die Becher bis zum Rand!</l>
+                     <l>Jedes edle Weib soll leben,</l>
+                     <l>Selig, wer solch Kleinod fand!</l>
+                  </lg>
+               </sp>
+               <trailer>Ende</trailer>
+               <pb n="36" facs="#f0033"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

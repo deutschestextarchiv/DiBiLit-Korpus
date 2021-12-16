@@ -1,0 +1,2446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Hänsel und Gretel</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/119514125">
+                  <forename>Adelheid</forename>
+                  <surname>Wette</surname>
+               </persName>
+            </author>
+            <author>
+               <persName role="composer" ref="http://d-nb.info/gnd/130334936">
+                  <forename>Engelbert</forename>
+                  <surname>Humperdinck</surname>
+               </persName>
+            </author>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/115266127">
+                  <surname>Geyken</surname>
+                  <forename>Alexander</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1018099549">
+                  <surname>Haaf</surname>
+                  <forename>Susanne</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName ref="http://d-nb.info/gnd/1019062681">
+                  <surname>Jurish</surname>
+                  <forename>Bryan</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+            </editor>
+            <editor corresp="#DTACorpusPublisher">
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName ref="http://www.clariah.de">CLARIAH-DE</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Im Rahmen des BMBF-geförderten Infrastrukturprojekts CLARIAH-DE werden Texte der Digitalen Bibliothek (Literatur-Ordner) in das Basisformat des Deutschen Textarchivs (DTABf) konvertiert und in die DTA-Infrastruktur der BBAW integriert.</note>
+                  <ref target="http://www.bbaw.de/forschung/clariah/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Boenig</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <persName>
+                  <surname>Bracke</surname>
+                  <forename>Yannic</forename>
+               </persName>
+               <persName>
+                  <surname>Dietrich</surname>
+                  <forename>Dennis</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Anreicherung und Korrektur der Metadaten; Konversion und Kuration der Textsammlung (CLARIAH-DE-Teilprojekt AP1). Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Editura GmbH &amp; Co. KG</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Digitalisierung von allgemeinfreien Werken und zugehörigen Metadaten. Publikation der Daten als "Digitale Bibliothek".</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>TextGrid-Verbund</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung des von der Editura GmbH &amp; Co. KG erworbenen, nach TEI-P5 konvertierten und annotierten Datensatzes der "Digitalen Bibliothek". Der annotierte Datenbestand der "Digitalen Bibliothek" inklusive Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung des Datenbestandes von www.editura.de durch TextGrid und werden unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland Lizenz (by-Nennung TextGrid, www.editura.de) veröffentlicht. Die Lizenz bezieht sich nicht auf die der Annotation zu Grunde liegenden allgemeinfreien Texte.</note>
+                  <ref target="https://textgrid.de/digitale-bibliothek"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>DTABf-Version des ursprünglich von der Editura GmbH &amp; Co. KG digitalisierten, vom TextGrid-Verbund erworbenen und um weitere Ressourcen angereichteren Textes.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2021-07-07T21:44:04Z</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0).</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb" subtype="dracor_url">https://dracor.org/id/ger000169</idno>
+               <idno type="URLWeb" subtype="wikidata_perma">https://www.wikidata.org/entity/Q1099668</idno>
+               <idno type="URLWeb" subtype="zeno_perma">http://www.zeno.org/nid/20005901766</idno>
+               <idno type="URLWeb" subtype="zeno_url">http://www.zeno.org/Literatur/M/Wette, Adelheid/Libretto/Hänsel und Gretel</idno>
+               <idno type="URLWeb" subtype="textgrid_url">https://textgridrep.org/browse/x82f.0</idno>
+               <idno type="Handle" subtype="textgrid_perma">https://hdl.handle.net/11858/00-1734-0000-0005-A523-F</idno>
+            </idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Engelbert Humperdinck: Hänsel und Gretel, von Adelheid Wette, Stuttgart 1981</bibl>
+            <bibl>Engelbert Humperdinck: Hänsel und Gretel. Märchenspiel in drei Bildern, von Adelheid Wette, hg. v. Wolfram Humperdinck, Stuttgart: Reclam, 1981.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Hänsel und Gretel</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/119514125">
+                        <forename>Adelheid</forename>
+                        <surname>Wette</surname>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName role="composer" ref="http://d-nb.info/gnd/130334936">
+                        <forename>Engelbert</forename>
+                        <surname>Humperdinck</surname>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <forename>Wolfram</forename>
+                        <surname>Humperdinck</surname>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <extent>
+                  <measure type="pages">49 S.</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <name>Reclam-Verlag</name>
+                  </publisher>
+                  <pubPlace>Stuttgart</pubPlace>
+                  <date type="publication">1981</date>
+                  <date type="firstPublication">1894</date>
+                  <date type="firstPublication" subtype="clariah">1894</date>
+                  <date type="firstPublication" subtype="zeno"/>
+                  <date type="firstPublication" subtype="i5">1981</date>
+                  <date type="firstPublication"
+                        subtype="tgr2017"
+                        notBefore="1858"
+                        notAfter="1916"/>
+               </publicationStmt>
+               <notesStmt>
+                  <note type="remarkDocument" corresp="#d219e278">Komponiert von Engelbert Humperdinck. Uraufführung am 23.12.1893, Großherzogliches Hofheater, Weimar.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Dieses Werk wurde durch
+                Transformation, Konvertierung und manuelle Erfassung aus mehreren Text- und
+                Datenressourcen gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien">
+                    DTA-Transkriptionsrichtlinien</ref> automatisiert
+                erstellt.</p>
+            <p>Es wurde gemäß dem
+                    <ref target="http://www.deutschestextarchiv.de/doku/basisformat">
+                    DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="gretel" sex="FEMALE">
+                  <persName>Gretel</persName>
+               </person>
+               <person xml:id="haensel" sex="MALE">
+                  <persName>Hänsel</persName>
+               </person>
+               <person xml:id="mutter" sex="FEMALE">
+                  <persName>Mutter</persName>
+               </person>
+               <person xml:id="vater" sex="MALE">
+                  <persName>Vater</persName>
+               </person>
+               <person xml:id="echo" sex="UNKNOWN">
+                  <persName>Echo</persName>
+               </person>
+               <person xml:id="sandmaennchen" sex="MALE">
+                  <persName>Sandmännchen</persName>
+               </person>
+               <person xml:id="taumaennchen" sex="MALE">
+                  <persName>Taumännchen</persName>
+               </person>
+               <person xml:id="hexe" sex="FEMALE">
+                  <persName>Hexe/Stimme aus dem Häuschen</persName>
+               </person>
+               <personGrp xml:id="die_kuchenkinder" sex="UNKNOWN">
+                  <name>Die Kuchenkinder</name>
+                  <name type="variant">Andre Kuchenkinder</name>
+               </personGrp>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="deu">German</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="http://www.zeno.org/Kategorien/T/Literaturgattung">Libretto</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Belletristik</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Drama; Lied</classCode>
+            <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">DiBiLit</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="d219e278">
+      <front>
+         <div type="front">
+            <head>Adelheid Wette</head>
+            <head>Hänsel und Gretel</head>
+            <head>Märchenspiel in drei Bildern</head>
+         </div>
+         <div>
+            <castList>
+               <head>
+                  <pb n="13" facs="#f0001"/> Personen</head>
+               <castItem>Peter, Besenbinder (Bariton)</castItem>
+               <castItem>Gertrud, sein Weib (Mezzo-Sopran)</castItem>
+               <castGroup>
+                  <castItem>Hänsel (Mezzo-Sopran)</castItem>
+                  <castItem>Gretel (Sopran),</castItem>
+                  <roleDesc>deren Kinder</roleDesc>
+               </castGroup>
+               <castItem>Die Knusperhexe (Mezzo-Sopran)</castItem>
+               <castItem>Sandmännchen (Sopran)</castItem>
+               <castItem>Taumännchen (Sopran)</castItem>
+               <castItem>Kinder (Sopran und Alt)</castItem>
+               <castItem>Die vierzehn Engel</castItem>
+               <pb n="13" facs="#f0002"/>
+               <pb n="15" facs="#f0003"/>
+            </castList>
+         </div>
+         <div>
+            <head>Vorspiel</head>
+            <stage>Abendsegen – Knusperhexe – Furcht, Trost und Freude der Kinder</stage>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Erstes Bild</head>
+            <stage>Daheim</stage>
+            <stage>Kleine, dürftige Stube. Im Hintergrund rechts eine niedrige Tür, in der Mitte ein
+          kleines Fenster mit Aussicht in den Wald. Links ein Herd mit einem Rauchfang darüber.
+          Gegenüber an der Wand hängen Besen in verschiedenen Größen. Tisch und Schemel.</stage>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Hänsel, an der Türe mit Besenbinden, Gretel, am Herde mit Strumpfstricken
+            beschäftigt, sitzen einander gegenüber.</stage>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Suse, liebe Suse,</l>
+                     <l>was raschelt im Stroh?</l>
+                     <l>Die Gänse gehen barfuß</l>
+                     <l>und haben kein' Schuh'!</l>
+                     <l>Der Schuster hat's Leder,</l>
+                     <l>kein Leisten dazu,</l>
+                     <l>drum kann er den Gänschen</l>
+                     <l>auch machen kein' Schuh'!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>sie unterbrechend.</stage>
+                  <lg>
+                     <l>Ei so gehn sie halt barfuß! ...</l>
+                     <l>Eia popeia,</l>
+                     <l>das ist eine Not!</l>
+                     <l>Wer schenkt mir einen Dreier</l>
+                     <l>für Zucker und Brot?</l>
+                     <l>Verkauf ich mein Bettlein</l>
+                     <l>und leg mich aufs Stroh,</l>
+                     <l>sticht mich keine Feder</l>
+                     <l>und beißt mich kein – Floh!</l>
+                     <pb n="15" facs="#f0004"/>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>unterbrechend.</stage>
+                  <p>Ei, wie beißt mich der Hunger! ...</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>wirft seine Arbeit fort und steht auf.</stage>
+                  <p>Ach, käm' doch die Mutter nun endlich nach Haus!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>erhebt sich.</stage>
+                  <p>Ach ja, auch ich halt's kaum noch vor Hunger aus.</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Seit Wochen nichts als trocken Brot:</l>
+                     <l>ist das ein Elend, potz schwere Not!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Still, Hänsel, denk daran, was Vater sagt,</l>
+                     <l>wenn Mutter manchmal so verzagt:</l>
+                     <l>»Wenn die Not aufs Höchste steigt,</l>
+                     <l>Gott der Herr die Hand euch reicht!«</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Jawohl, das klingt recht schön und glatt,</l>
+                     <l>aber leider wird man davon nicht satt.</l>
+                     <l>Ach, Gretel, wie lang' ist's doch schon her,</l>
+                     <l>daß wir nichts Gut's geschmauset mehr!</l>
+                     <l>Eierfladen und Butterwecken –</l>
+                     <l>kaum weiß ich noch, wie die tun schmecken.</l>
+                  </lg>
+                  <stage>Dem Weinen nahe.</stage>
+                  <p>Ach, Gretel, ich wollt' ...</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>hält ihm den Mund zu.</stage>
+                  <lg>
+                     <l>Still, nicht verdrießlich sein:</l>
+                     <l>Gedulde dich fein, sieh freundlich drein!</l>
+                     <l>Dies lange Gesicht – hu, welcher Graus!</l>
+                     <l>Siehst ja wie der leibhaftige Griesgram aus!</l>
+                  </lg>
+                  <stage>Nimmt einen Besen zur Hand.</stage>
+                  <lg>
+                     <l>
+                        <pb n="16" facs="#f0005"/> Griesgram, hinaus!</l>
+                     <l>Fort aus dem Haus!</l>
+                     <l>Ich will dich lehren,</l>
+                     <l>Herz zu beschweren,</l>
+                     <l>Sorgen zu mehren,</l>
+                     <l>Freuden zu wehren!</l>
+                     <l>Griesgram, Griesgram, greulicher Wicht,</l>
+                     <l>griesiges, grämiges Galgengesicht,</l>
+                     <l>packe dich, trolle dich, schäbiger Wicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>faßt mit an den Besen.</stage>
+                  <lg>
+                     <l>Griesgram, hinaus!</l>
+                     <l>Halt's nicht mehr aus!</l>
+                     <l>Immer mich plagen,</l>
+                     <l>Hungertuch benagen,</l>
+                     <l>muß ja verzagen,</l>
+                     <l>kann's nicht ertragen!</l>
+                     <l>Griesgram, Griesgram, greulicher Wicht,</l>
+                     <l>griesiges, grämiges Galgengesicht,</l>
+                     <l>packe dich, trolle dich, schäbiger Wicht!</l>
+                  </lg>
+                  <stage>Gebärde des Hinausfegens.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>So recht! Und willst du nun nicht mehr klagen,</l>
+                     <l>so will ich dir auch ein Geheimnis sagen.</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Ein Geheimnis? Wird wohl was Rechtes sein!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Ja, hör nur, Brüderchen, darfst dich schon freun!</p>
+                  <stage>Holt den Milchtopf herunter.</stage>
+                  <lg>
+                     <l>Guck her in den Topf. Milch ist darin,</l>
+                     <l>die schenkte uns heute die Nachbarin.</l>
+                     <l>Die Mutter kocht uns, kommt sie nach Haus,</l>
+                     <l>gewiß einen leckeren Reisbrei daraus.</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>jubelnd.</stage>
+                  <lg>
+                     <l>Reisbrei! Hei!</l>
+                     <l>Reisbrei, Reisbrei, herrlicher Brei!</l>
+                     <l>Gibt's Reisbrei, da ist Hänsel dabei!</l>
+                     <l>Wie dick ist der Rahm auf der Milch? Laß schmecken!</l>
+                  </lg>
+                  <stage>Nascht mit dem Finger.</stage>
+                  <p>Herrjemine, den möcht ich ganz verschlecken!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Wie, Hänsel, naschen? Schämst du dich nicht?</l>
+                     <l>Fort mit den Fingern, du naschhafter Wicht!</l>
+                  </lg>
+                  <stage>Gibt ihm eins auf die Finger und stellt den Topf auf den Tisch.</stage>
+                  <lg>
+                     <l>
+                        <pb n="17" facs="#f0006"/> Und jetzt an die Arbeit zurück, geschwind,</l>
+                     <l>daß wir beizeiten fertig sind!</l>
+                     <l>Kommt Mutter heim und wir taten nicht recht,</l>
+                     <l>Dann, weißt du, geht es den Faulpelzen schlecht!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Arbeiten? Wo denkst du hin?</l>
+                     <l>Danach steht mir nicht der Sinn.</l>
+                     <l>Immer mich plagen fällt mir nicht ein,</l>
+                     <l>jetzt laß uns tanzen und fröhlich sein!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>entzückt.</stage>
+                  <lg>
+                     <l>Tanzen? Das wär' auch mir eine Lust!</l>
+                     <l>Dazu ein Liedchen aus froher Brust!</l>
+                     <l>Was uns die Muhme gelehrt zu singen:</l>
+                     <l>
+                        <hi rendition="#i">Tanzliedchen</hi> soll jetzt lustig erklingen!</l>
+                  </lg>
+                  <stage>Klatscht in die Hände.</stage>
+                  <lg>
+                     <l>Brüderchen, komm, tanz mit mir,</l>
+                     <l>beide Händchen reich ich dir,</l>
+                     <l>einmal hin, einmal her,</l>
+                     <l>rund herum, es ist nicht schwer!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>versucht's, jedoch ungeschickt.</stage>
+                  <lg>
+                     <l>Tanzen soll ich armer Wicht,</l>
+                     <l>Schwesterchen, und kann es nicht!</l>
+                     <l>Darum zeig mir, wie es Brauch,</l>
+                     <l>daß ich tanzen lerne auch!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Mit den Füßchen tapp tapp tapp,</l>
+                     <l>mit den Händchen klapp klapp klapp,</l>
+                     <l>einmal hin, einmal her,</l>
+                     <l>rund herum, es ist nicht schwer!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Mit den Füßchen tapp tapp tapp,</l>
+                     <l>mit den Händchen klapp klapp klapp,</l>
+                     <l>
+                        <pb n="18" facs="#f0007"/> einmal hin, einmal her,</l>
+                     <l>'rum, es ist nicht schwer!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Ei, das hast du gut gemacht,</l>
+                     <l>ei, das hätt' ich nicht gedacht!</l>
+                     <l>Seht mir doch den Hänsel an,</l>
+                     <l>wie der tanzen lernen kann!</l>
+                  </lg>
+                  <stage>Klatscht fröhlich in die Hände.</stage>
+                  <lg>
+                     <l>Mit dem Köpfchen nick nick nick,</l>
+                     <l>mit dem Fingerchen tick tick tick,</l>
+                     <l>einmal hin, einmal her,</l>
+                     <l>rund herum, es ist nicht schwer!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Mit dem Köpfchen nick nick nick,</l>
+                     <l>mit dem Fingerchen tick tick tick,</l>
+                     <l>einmal hin, einmal her,</l>
+                     <l>'rum, es ist nicht schwer!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Brüderchen, nun gib mal acht,</l>
+                     <l>Was die Gretel weiter macht!</l>
+                     <l>Laß uns Arm in Arm verschränken,</l>
+                     <l>unsre Schrittchen paarweis lenken! – Komm! –</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Ich liebe Tanz und Fröhlichkeit</l>
+                     <l>und bin nicht gern allein;</l>
+                     <l>ich bin kein Freund von Traurigkeit,</l>
+                     <l>und fröhlich will ich sein.</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>umtanzt ihn und gibt ihm einen Stoß.</stage>
+                  <lg>
+                     <l>Tralala, tralala, tralala la la,</l>
+                     <l>drehe dich herum, mein lieber Hänsel,</l>
+                     <l>dreh dich doch herum, mein lieber Hans!</l>
+                     <l>Komm her zu mir, komm her zu mir,</l>
+                     <l>zum Ringelreigentanz!</l>
+                     <pb n="19" facs="#f0008"/>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>barsch.</stage>
+                  <lg>
+                     <l>Geh weg von mir, geh weg von mir,</l>
+                     <l>ich bin der stolze Hans!</l>
+                     <l>Mit kleinen Mädchen tanz ich nicht,</l>
+                     <l>das ist mir viel zu dumm!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Geh, stolzer Hans, geh, dummer Hans,</l>
+                     <l>ich krieg dich doch herum!</l>
+                  </lg>
+                  <stage>Umtanzt Hänsel.</stage>
+                  <lg>
+                     <l>Tralala, tralala, tralala la la,</l>
+                     <l>drehe dich herum, mein lieber Hänsel,</l>
+                     <l>dreh dich doch herum, mein lieber Hans!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Ach Schwesterlein, ach Gretelein,</l>
+                     <l>Du hast im Strumpf ein Loch!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Ach Brüderlein, ach Hänselein,</l>
+                     <l>Du willst mich hänseln noch?</l>
+                     <l>Mit bösen Buben tanz ich nicht,</l>
+                     <l>das wär' mir viel zu dumm!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Nicht böse sein, lieb Schwesterlein,</l>
+                     <l>Ich krieg dich doch herum!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Tanz lustig, heißa, lustig tanz,</l>
+                     <l>laß dich's nicht gereu'n!</l>
+                     <l>Und ist der Strumpf auch nicht mehr ganz,</l>
+                     <l>die Mutter strickt dir 'n neu'n!</l>
+                     <l>Tralala, tralala usw.</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Tanz lustig, heißa, lustig tanz,</l>
+                     <l>laß dich's nicht gereu'n!</l>
+                     <l>Und ist der Schuh auch nicht mehr ganz,</l>
+                     <l>der Schuster flickt dir 'n neu'n!</l>
+                     <l>Tralala, tralala usw.</l>
+                  </lg>
+                  <stage>Sie fassen sich bei den Händen und drehen sich immer schneller im Kreise, bis sie
+              schließlich das Gleichgewicht verlieren und übereinander auf den Boden hinpurzeln. In
+              diesem Augenblick geht die Türe auf, die Mutter wird sichtbar, worauf die Kinder
+              schnell vom Boden aufspringen und auf ihre Plätze eilen.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>mit einer Kiepe auf dem Rücken.</stage>
+                  <p>Holla!</p>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>HÄNSEL UND GRETEL.</speaker>
+                  <p>Himmel, die Mutter!</p>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Was ist das für eine Geschichte?</p>
+                  <stage>
+                     <pb n="20" facs="#f0009"/> Verlegenheit.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Der Hänsel –</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Die Gretel –</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Er wollte –</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Ich sollte –</p>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>tritt herein, schnallt ihre Kiepe ab und setzt sie nieder.</stage>
+                  <p>Wartet, ihr ungezogenen Wichte!</p>
+                  <stage>In Zorn ausbrechend.</stage>
+                  <lg>
+                     <l>Nennt ihr das Arbeit? Johlen und singen?</l>
+                     <l>Wie auf der Kirmes tanzen und springen?</l>
+                     <l>Indes die Eltern vom frühen Morgen</l>
+                     <l>bis in die Nacht sich mühen und sorgen.</l>
+                     <l>Daß dich!</l>
+                  </lg>
+                  <stage>Gibt Hänsel einen Puff.</stage>
+                  <lg>
+                     <l>Laßt seh'n, was habt ihr beschickt?</l>
+                     <l>– Wie, Gretel, den Strumpf nicht fertig gestrickt?</l>
+                     <l>– Und du? – du Schlingel! In all den Stunden</l>
+                     <l>nicht mal die wenigen Besen gebunden?</l>
+                     <l>Ihr unnützes Volk, den Stock will ich holen,</l>
+                     <l>und euch den Faulpelz weidlich versohlen!</l>
+                  </lg>
+                  <stage>In ihrem Eifer hinter den Kindern her, stößt sie den Milchtopf vom Tisch, daß er
+              klirrend zu Boden fällt.</stage>
+                  <p>Jesses! Nun auch den Topf noch zerbrochen!</p>
+                  <stage>Weinend.</stage>
+                  <p>Was nun zum Abend kochen?</p>
+                  <stage>Besieht ihren mit Milch begossenen Rock; Hänsel kichert verstohlen.</stage>
+                  <p>Was, Bengel, du lachst mich noch aus?</p>
+                  <stage>Mit dem Stock hinter Hänsel her, der zur offenen Tür hinausrennt.</stage>
+                  <p>Wart, kommt nur der Vater nach Haus –</p>
+                  <stage>Reißt einen kleinen Korb von der Wand und drängt ihn Gretel in die Hand.</stage>
+                  <lg>
+                     <l>Marsch, fort – in den Wald!</l>
+                     <l>Dort sucht mir Erdbeeren !– Nun, wird es bald?</l>
+                  </lg>
+                  <stage>Treibt auch Gretel zur Stube hinaus und droht mit dem Stocke den sich furchtsam
+              umschauenden Kindern.</stage>
+                  <lg>
+                     <l>Und bringt ihr den Korb nicht voll bis zum Rand,</l>
+                     <l>so hau ich euch, daß ihr fliegt an die Wand!</l>
+                  </lg>
+                  <stage>Die Kinder laufen in den Wald. Die Mutter setzt sich erschöpft an den
+              Tisch.</stage>
+                  <lg>
+                     <l>Da liegt nun der gute Topf in Scherben!</l>
+                     <l>
+                        <pb n="21" facs="#f0010"/> Ja, blinder Eifer bringt immer Verderben. –</l>
+                     <l>Herrgott, wirf Geld herab! Nichts hab ich zu leben,</l>
+                     <l>kein Krümchen, den Würmern zu essen zu geben;</l>
+                     <l>kein Tröpfchen im Topfe, kein Krüstchen im Schrank,</l>
+                     <l>schon lange nur Wasser zum Trank.</l>
+                  </lg>
+                  <stage>Stützt den Kopf mit der Hand.</stage>
+                  <lg>
+                     <l>Müde bin ich – müde zum Sterben –</l>
+                     <l>Herrgott, wirf Geld herab –</l>
+                  </lg>
+                  <stage>Legt den Kopf auf den Arm und schläft ein.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Man hört eine Stimme von weitem.</stage>
+               <sp who="#vater">
+                  <speaker>DER VATER.</speaker>
+                  <lg>
+                     <l>Rallalala, rallalala,</l>
+                     <l>heisa Mutter, ich bin da!</l>
+                     <l>Rallalala, rallalala,</l>
+                     <l>bringe Glück und Gloria!</l>
+                  </lg>
+                  <stage>Etwas näher.</stage>
+                  <lg>
+                     <l>Ach, wir armen, armen Leute!</l>
+                     <l>Alle Tage so wie heute:</l>
+                     <l>In dem Beutel ein großes Loch</l>
+                     <l>und im Magen ein größ'res noch –</l>
+                     <l>Rallalala, rallalala,</l>
+                     <l>Hunger ist der beste Koch!</l>
+                  </lg>
+                  <stage>Am Fenster wird der Kopf des Vaters sichtbar, der während des Folgenden in
+              angeheitertem Zustande mit einem Kober auf dem Rücken in die Stube tritt.</stage>
+                  <lg>
+                     <l>Ja, ihr Reichen könnt euch laben,</l>
+                     <l>wir, die nichts zu essen haben,</l>
+                     <l>nagen, ach, die ganze Woch',</l>
+                     <l>sieben Tag' an einem Knoch'!</l>
+                     <l>Rallalala, rallalala,</l>
+                     <l>Hunger ist der beste Koch!</l>
+                     <l>Ach, wir sind ja gern zufrieden;</l>
+                     <l>denn das Glück ist so verschieden,</l>
+                     <l>aber, aber wahr ist's doch:</l>
+                     <l>Armut ist ein schweres Joch!</l>
+                     <l>Rallalala, rallalala –</l>
+                     <l>Hunger ist der beste Koch!</l>
+                  </lg>
+                  <stage>
+                     <pb n="22" facs="#f0011"/> Er setzt seinen Kober nieder.</stage>
+                  <lg>
+                     <l>Ja, ja, der Hunger kocht schon gut,</l>
+                     <l>sofern er kommandieren tut.</l>
+                     <l>Allein was nützt der Kommandeur,</l>
+                     <l>fehlt euch im Topf die Zubehör?</l>
+                     <l>Rallalala, rallala!</l>
+                     <l>Kümmel ist mein Leiblikör!</l>
+                     <l>Rallalala, rallalala!</l>
+                     <l>Mutter, schau, was ich bescher!</l>
+                  </lg>
+                  <stage>Gibt ihr einen derben Schmatz.</stage>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>sich die Augen reibend.</stage>
+                  <lg>
+                     <l>Hoho! –</l>
+                     <l>Wer spek – spektakelt mir da im Haus</l>
+                     <l>und rallalakelt aus dem Schlaf mich heraus?</l>
+                  </lg>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>lallend.</stage>
+                  <lg>
+                     <l>I wo! –</l>
+                     <l>Das tolle Tier,</l>
+                     <l>im Magen hier,</l>
+                     <l>das bellte so, das glaube mir!</l>
+                     <l>Rallalala, rallalala,</l>
+                     <l>Hunger ist ein tolles Tier,</l>
+                     <l>Rallalala, rallalala,</l>
+                     <l>beißt und kratzt, das glaube mir!</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <lg>
+                     <l>So, so!</l>
+                     <l>Das tolle Tier,</l>
+                     <l>es ist wohl schier</l>
+                     <l>stark angezecht – das glaube mir!</l>
+                  </lg>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <lg>
+                     <l>Nun ja –! 's war heut' ein heiterer Tag,</l>
+                     <l>fandst du nicht auch, lieb Weib?</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>ärgerlich.</stage>
+                  <lg>
+                     <l>Ach geh! du weißt, nicht leiden mag</l>
+                     <l>ich Wirtshaus-Zeitvertreib!</l>
+                  </lg>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>zu seinem Kober sich wendend.</stage>
+                  <lg>
+                     <l>Auch gut! So sehen wir, wenn's beliebt,</l>
+                     <l>was es für heut' zu schmausen gibt.</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <lg>
+                     <l>Höchst einfach ist das Speisregister,</l>
+                     <l>der Abendschmaus – zum Henker ist er!</l>
+                     <l>Teller leer,</l>
+                     <l>Keller leer,</l>
+                     <l>und im Beutel ist gar nichts mehr.</l>
+                  </lg>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <lg>
+                     <l>Rallalala, rallalala,</l>
+                     <l>lustig, Mutter, bin auch noch da!</l>
+                     <pb n="23" facs="#f0012"/>
+                  </lg>
+                  <lg>
+                     <l>Rallalala, rallalala,</l>
+                     <l>bringe Glück und Gloria!</l>
+                  </lg>
+                  <stage>Nimmt den Kober und kramt aus.</stage>
+                  <lg>
+                     <l>Schau, Mutter!</l>
+                     <l>Wie gefällt dir dies Futter?</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <lg>
+                     <l>Mann, was seh ich? Speck und Butter!</l>
+                     <l>Mehl und Würste ... vierzehn Eier –</l>
+                     <l>– Mann! Sie sind jetzunder teuer! –</l>
+                     <l>Bohnen, Zwiebeln und – herrje!</l>
+                     <l>Gar ein viertel Pfund Kaffee!</l>
+                  </lg>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>kehrt den Kober vollends um. Ein Haufen Kartoffeln rollt zur Erde. Beide fassen
+              sich am Arm und tanzen in der Stube umher.</stage>
+                  <lg>
+                     <l>Rallalala, hopsassa!</l>
+                     <l>Heute woll'n wir lustig sein!</l>
+                     <l>Ja, hör nur, Mütterchen, wie's geschah!</l>
+                  </lg>
+                  <stage>Die Mutter kramt die Sachen in den Schrank ein, macht Feuer im Herd an, schlägt
+              Eier in eine Schüssel, kocht Kaffee usw. Der Vater setzt sich.</stage>
+                  <lg>
+                     <l>Drüben hinterm Herrenwald</l>
+                     <l>da gibt's prächt'ge Feste bald:</l>
+                     <l>Kirmes, Hochzeit, Jubiläum,</l>
+                     <l>Böllergeknall und groß Tedeum.</l>
+                     <l>Mein Geschäft kommt nun zur Blüte,</l>
+                     <l>dessen froh sei dein Gemüte!</l>
+                     <l>Wer will feine Feste feiern,</l>
+                     <l>der muß kehren, schrubben und scheuern.</l>
+                     <l>Bot drum meine Waren aus,</l>
+                     <l>zog damit von Haus zu Haus:</l>
+                     <l>»Kauft Besen! Gute Feger!</l>
+                     <l>Feine Bürsten! Spinnejäger!«</l>
+                     <l>Sieh, da verkauft' ich massenweise</l>
+                     <l>meine Waren zu dem höchsten Preise! –</l>
+                     <l>Schnell nun her mit Topf und Pfanne,</l>
+                     <l>her mit Schüssel, Kessel und Kanne!</l>
+                  </lg>
+                  <stage>Er stößt geräuschvoll einige blecherne Gefäße vom Herde hinunter.</stage>
+               </sp>
+               <sp who="#vater #mutter">
+                  <speaker>BEIDE.</speaker>
+                  <p>Vivat hoch die Besenbinder!</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>setzt die Kümmelflasche an den Mund, hält jedoch plötzlich inne.</stage>
+                  <lg>
+                     <l>Doch halt – wo bleiben die Kinder?</l>
+                     <l>Hänsel! Gretel! – Wo steckt der Hans?</l>
+                     <pb n="24" facs="#f0013"/>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>zuckt verlegen die Achseln.</stage>
+                  <lg>
+                     <l>Wo er steckt? Ja, wüßte man's!</l>
+                     <l>Doch das weiß ich klar wie Tag,</l>
+                     <l>daß der Topf zu Scherben brach.</l>
+                  </lg>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>zornig.</stage>
+                  <p>Was? der neue Topf entzwei?</p>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Und am Boden quoll der Brei!</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>mit der Faust auf den Tisch schlagend.</stage>
+                  <lg>
+                     <l>Donnerkeil! So haben die Rangen</l>
+                     <l>wieder Unfug angefangen?</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <lg>
+                     <l>Unfug viel und Arbeit keine</l>
+                     <l>hatten sie getrieben hier alleine;</l>
+                     <l>hörte schon draußen sie johlen,</l>
+                     <l>hopsen und springen wie wilde Fohlen,</l>
+                     <l>na, da wußt' ich nicht, wo mir stand der Kopf,</l>
+                     <l>und vor Zorn –</l>
+                  </lg>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <p>– zerbrach der Topf.</p>
+                  <stage>Lacht aus vollem Halse, die Mutter stimmt ein.</stage>
+                  <lg>
+                     <l>Na, Zornmütterchen, nimm mir's nicht krumm,</l>
+                     <l>solche Zorntöpfe find ich recht dumm!</l>
+                     <l>Doch sag, wo mögen die Kinderchen sein?</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>schnippisch.</stage>
+                  <p>Meinethalben am <hi rendition="#i">Ilsenstein</hi>!</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>erschrocken.</stage>
+                  <p>Am Ilsenstein? – Ei, juckt dich das Fell?</p>
+                  <stage>Nimmt einen Besen von der Wand.</stage>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Den Besen laß nur an seiner Stell.</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>läßt den Besen fallen und ringt die Hände.</stage>
+                  <lg>
+                     <l>Wenn sie sich verirrten im Walde dort,</l>
+                     <l>in der Nacht, ohne Stern und Mond!</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>betroffen.</stage>
+                  <p>O Himmel!</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <lg>
+                     <l>Kennst du nicht den schauerlich düstern Ort?</l>
+                     <l>Weißt nicht, daß die <hi rendition="#i">Böse</hi> dort wohnt?</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Die Böse? Wen meinst du?</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>mit geheimnisvollem Nachdruck.</stage>
+                  <p>Die <hi rendition="#i">Knusperhexe</hi>!</p>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>fährt zusammen.</stage>
+                  <p>Die Knusperhexe! –</p>
+                  <stage>Zurückweichend, da der Vater den Besen wieder aufnimmt.</stage>
+                  <p>Mein! Sag doch, was soll denn der Besen?</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <lg>
+                     <l>Der Besen! Der Besen!</l>
+                     <l>
+                        <pb n="25" facs="#f0014"/> Was macht man damit? Was macht man damit?</l>
+                     <l>Es reiten drauf, es reiten drauf</l>
+                     <l>die Hexen!</l>
+                     <l>Eine Hex', steinalt,</l>
+                     <l>haust tief im Wald,</l>
+                     <l>vom Teufel selber hat sie Gewalt!</l>
+                     <l>Um Mitternacht,</l>
+                     <l>wenn niemand wacht,</l>
+                     <l>dann reitet sie aus zur Hexenjagd.</l>
+                     <l>Zum Schornstein hinaus,</l>
+                     <l>auf dem Besen, o Graus,</l>
+                     <l>über Berg und Kluft,</l>
+                     <l>über Tal und Schluft,</l>
+                     <l>durch Nebelduft,</l>
+                     <l>im Sturm durch die Luft:</l>
+                     <l>Ja so reiten, ja so reiten,</l>
+                     <l>juchheißa, die Hexen!</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Entsetzlich! – Doch die Knusperhex'?</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <lg>
+                     <l>Ja, bei Tag, o Graus:</l>
+                     <l>zum Hexenschmaus</l>
+                     <l>im Knisper-Knasper-Knusperhaus</l>
+                     <l>die Kinderlein,</l>
+                     <l>Armsünderlein,</l>
+                     <l>mit Zauberkuchen lockt sie hinein.</l>
+                     <l>Doch übelgesinnt</l>
+                     <l>ergreift sie geschwind</l>
+                     <l>das arme Kuchen knuspernde Kind.</l>
+                     <l>In den Ofen hitzhell,</l>
+                     <l>schiebt's die Hexe blitzschnell,</l>
+                     <l>dann kommen zur Stell,</l>
+                     <l>gebräunet das Fell,</l>
+                     <l>aus dem Ofen, aus dem Ofen:</l>
+                     <l>die <hi rendition="#i">Lebkuchenkinder</hi>!</l>
+                  </lg>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Und die Lebkuchenkinder?</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <p>Sie werden gefressen!</p>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Von der Hexe?</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <p>Von der Hexe!</p>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER</speaker>
+                  <stage>händeringend.</stage>
+                  <lg>
+                     <l>O Graus!</l>
+                     <l>Hilf, Himmel! Die Kinder! Ich halt's nicht mehr aus!</l>
+                  </lg>
+                  <stage>Rennt aus dem Hause.</stage>
+                  <pb n="26" facs="#f0015"/>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER</speaker>
+                  <stage>nimmt die Kümmelflasche vom Tisch.</stage>
+                  <lg>
+                     <l>He, Alte, wart doch! Nimm mich mit!</l>
+                     <l>Wir wollen ja beide zum Hexenritt!</l>
+                  </lg>
+                  <stage>Eilt ihr nach. Der Vorhang fällt schnell.</stage>
+                  <stage>Überleitung zum zweiten Bild</stage>
+                  <stage>Der Hexenritt</stage>
+               </sp>
+            </div>
+         </div>
+         <div>
+            <head>Zweites Bild</head>
+            <stage>Im Walde</stage>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Tiefer Wald. Im Hintergrunde der Ilsenstein, von dichtem Tannengehölz umgeben.
+            Rechts eine mächtige Tanne, darunter sitzt Gretel auf einer moosbedeckten Wurzel und
+            windet einen Kranz von Hagebutten; neben ihr liegt ein Blumenstrauß. Links, abseits im
+            Gebüsch, Hänsel, nach Erdbeeren suchend. Abendrot.</stage>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Ein Männlein steht im Walde ganz still und stumm,</l>
+                     <l>es hat von lauter Purpur ein Mäntlein um.</l>
+                     <l>Sagt, wer mag das Männlein sein,</l>
+                     <l>das da steht im Wald allein</l>
+                     <l>mit dem purpurroten Mäntelein?</l>
+                     <l>Das Männlein steht im Walde auf einem Bein</l>
+                     <l>und hat auf seinem Kopfe schwarz Käpplein klein.</l>
+                     <l>Sagt, wer mag das Männlein sein,</l>
+                     <l>das da steht im Wald allein</l>
+                     <l>mit dem kleinen schwarzen Käppelein?</l>
+                  </lg>
+                  <stage>Sie hält das Hagebuttenkränzchen in die Höhe und betrachtet es von allen
+              Seiten.</stage>
+                  <pb n="28" facs="#f0016"/>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>kommt hervor und schwenkt jubelnd sein Körbchen.</stage>
+                  <lg>
+                     <l>Juchhe!</l>
+                     <l>Mein Erbelkörbchen ist voll bis oben;</l>
+                     <l>wie wird die Mutter den Hänsel loben!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>aufstehend.</stage>
+                  <lg>
+                     <l>Mein Kränzel ist auch schon fertig, sieh!</l>
+                     <l>So schön wie heute ward's noch nie!</l>
+                  </lg>
+                  <stage>Will den Kranz Hänsel auf den Kopf setzen.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>barsch abwehrend.</stage>
+                  <lg>
+                     <l>Buben tragen doch so was nicht,</l>
+                     <l>'s ist nur für ein Mädchengesicht!</l>
+                  </lg>
+                  <stage>Setzt ihr den Kranz auf.</stage>
+                  <lg>
+                     <l>Hei, Gretel, feines Mädel!</l>
+                     <l>Ei, der Daus,</l>
+                     <l>siehst ja wie die Waldkönigin aus!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>She' ich wie die Waldkönigin aus,</l>
+                     <l>so reich mir auch den Blumenstrauß.</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>gibt ihr den Strauß.</stage>
+                  <lg>
+                     <l>Waldkönigin mit Zepter und Kron',</l>
+                     <l>da, nimm auch die Erbeln, doch nasch nicht davon!</l>
+                  </lg>
+                  <stage>Er gibt ihr das Körbchen voll Erdbeeren in die andere Hand und läßt sich
+              gleichsam huldigend auf die Knie vor ihr nieder. In diesem Augenblick ertönt der Ruf
+              eines Kuckucks.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>mit der Hand deutend.</stage>
+                  <p>Kuckuck! <hi rendition="#i">Eier</hi>schluck!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>schalkhaft.</stage>
+                  <p>Kuckuck! <hi rendition="#i">Erbel</hi>schluck!</p>
+                  <stage>Nimmt eine Beere aus dem Körbchen und schiebt sie Hänsel in den Mund, der sie
+              schlürft, als ob er ein Ei austränke.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>springt auf.</stage>
+                  <p>Hoho! Das kann ich auch! Gib nur acht!</p>
+                  <stage>Nimmt einige Beeren und läßt sie Gretel in den Mund rollen.</stage>
+                  <lg>
+                     <l>Wir machen's, wie der Kuckuck schluckt,</l>
+                     <l>wenn er in fremde Nester guckt!</l>
+                  </lg>
+                  <stage>Der Kuckuck ruft abermals. Es beginnt zu dämmern.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>greift wieder zu.</stage>
+                  <p>Kuckuck! Eierschluck!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>ebenso.</stage>
+                  <p>Kuckuck! Erbelschluck!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Setzest deine Kinder aus!</l>
+                     <l>Kuckuck!</l>
+                     <l>
+                        <pb n="29" facs="#f0017"/> Trinkst die fremden Eier aus!</l>
+                     <l>Gluckgluck!</l>
+                  </lg>
+                  <stage>Läßt sich eine Handvoll Beeren in den Mund rollen.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Sammelst Beeren schön zuhauf,</l>
+                     <l>Kuckuck!</l>
+                     <l>Schluckst sie, Schlauer, selber auf!</l>
+                     <l>Schluckschluck!</l>
+                  </lg>
+                  <stage>Sie werden immer übermütiger und raufen sich schließlich um die Beeren. Hänsel
+              trägt den Sieg davon und setzt den Korb vollends an den Mund, bis er leer geworden.
+              Indessen hat die Dunkelheit immer mehr zugenommen.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>Hänsel den Korb entreißend.</stage>
+                  <lg>
+                     <l>Hänsel, was hast du getan? O Himmel!</l>
+                     <l>Alle Erbeln gegessen, du Lümmel!</l>
+                     <l>Wart nur, das gibt ein Strafgericht,</l>
+                     <l>denn die Mutter, die spaßt heute nicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>ruhig.</stage>
+                  <lg>
+                     <l>Ei was, stell dich doch nicht so an,</l>
+                     <l>du, Gretel, hast es ja selber getan!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Komm, wir wollen rasch neue suchen!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Im Dunkeln wohl gar, unter Hecken und Buchen?</l>
+                     <l>Man sieht ja nicht Blatt, nicht Beere mehr!</l>
+                     <l>Es wird schon dunkel ringsumher!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Ach, Hänsel, Hänsel! Was fangen wir an?</l>
+                     <l>Was haben wir törichten Kinder getan?</l>
+                     <l>Wir durften hier nicht so lange säumen!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Horch, wie es rauscht in den Bäumen! –</l>
+                     <l>Weißt du, was der Wald jetzt spricht? –</l>
+                     <l>»Kindlein, Kindlein«, fragt er, »fürchtet ihr euch nicht?«</l>
+                  </lg>
+                  <stage>Er späht unruhig umher. – Endlich wendet er sich verlegen zu Gretel.</stage>
+                  <p>Gretel! Ich weiß den Weg nicht mehr!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>bestürzt.</stage>
+                  <p>O Gott! Was sagst du? den Weg nicht mehr?</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>sich mutig stellend.</stage>
+                  <lg>
+                     <l>Was bist du für ein furchtsam Wicht!</l>
+                     <l>Ich bin ein Bub und fürcht mich nicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Ach, Hänsel! Gewiß geschieht uns ein Leid!</p>
+                  <pb n="30" facs="#f0018"/>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Ach, Gretel, geh, sei doch gescheit!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Was schimmert denn dort in der Dunkelheit?</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Das sind die <hi rendition="#i">Birken</hi> im weißen Kleid.</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Und dort, was grinset daher vom Sumpf?</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>stotternd.</stage>
+                  <p>D–d–das ist ein glimmender <hi rendition="#i">Weidenstumpf</hi>!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>hastig.</stage>
+                  <lg>
+                     <l>Was für ein wunderlich Gesicht</l>
+                     <l>macht er soeben – siehst du's nicht?</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>sehr laut.</stage>
+                  <p>Ich mach dir 'ne Nase, hörst du's, du Wicht?</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>ängstlich.</stage>
+                  <p>Da sieh, das <hi rendition="#i">Lichtchen</hi> – es kommt immer näh'r.</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>
+                        <hi rendition="#i">Irrlichtchen</hi> hüpfet wohl hin und her!</l>
+                     <l>Gretel, du mußt beherzter sein –</l>
+                     <l>wart, ich will einmal tüchtig schrei'n!</l>
+                  </lg>
+                  <stage>Er geht einige Schritte zum Hintergrund und ruft durch die hohlen Hände.</stage>
+                  <p>Wer da?</p>
+               </sp>
+               <sp who="#echo">
+                  <speaker>ECHO.</speaker>
+                  <p>Er da!</p>
+                  <stage>Die Kinder schmiegen sich erschreckt aneinander.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>zaghaft.</stage>
+                  <p>Ist Jemand da?</p>
+               </sp>
+               <sp who="#echo">
+                  <speaker>ECHO</speaker>
+                  <stage>leise.</stage>
+                  <p>Ja!</p>
+                  <stage>Die Kinder schaudern zusammen.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Hast du gehört: 's rief leise: Ja!</l>
+                     <l>Hänsel, sicher ist jemand nah!</l>
+                  </lg>
+                  <stage>Weinend.</stage>
+                  <lg>
+                     <l>Ich fürcht mich, ich fürcht mich!</l>
+                     <l>O wär' ich zu Haus!</l>
+                     <l>Wie sieht der Wald so gespenstig aus!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Gretelchen, drücke dich fest an mich!</l>
+                     <l>Ich halte dich, ich schütze dich!</l>
+                  </lg>
+                  <stage>Ein dichter Nebel steigt auf und verhüllt den Hintergrund gänzlich.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Da kommen weiße Nebelfrauen,</l>
+                     <l>sieh, wie sie winken und drohend schauen!</l>
+                     <l>Sie kommen, sie kommen,</l>
+                     <l>sie fassen uns an!</l>
+                  </lg>
+                  <stage>Schreiend.</stage>
+                  <p>Vater, Mutter!</p>
+                  <stage>Eilt entsetzt unter die Tanne und verbirgt sich, auf die Knie stürzend, hinter
+              Hänsel.</stage>
+                  <stage>In diesem Augenblick zerreißt links der Nebel; ein kleines graues Männchen, mit
+              einem Säckchen auf dem Rücken, wird sichtbar.</stage>
+                  <pb n="31" facs="#f0019"/>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Sieh, dort das Männchen, Schwesterlein!</l>
+                     <l>Was mag das für ein Männlein sein?</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Zweite Szene</head>
+               <sp who="#sandmaennchen">
+                  <speaker>SANDMÄNNCHEN</speaker>
+                  <stage>nähert sich mit freundlichen Gebärden den Kindern, die sich allmählich beruhigen,
+              und wirft ihnen während des Folgenden Sand in die Augen.</stage>
+                  <lg>
+                     <l>Der kleine Sandmann bin ich – s-t!</l>
+                     <l>und gar nichts Arges sinn ich – s-t!</l>
+                     <l>Euch Kleinen lieb ich innig – s-t!</l>
+                     <l>bin euch gesinnt gar minnig – s-t!</l>
+                     <l>Aus diesem Sack zwei Körnelein</l>
+                     <l>euch Müden in die Äugelein;</l>
+                     <l>die fallen dann von selber zu,</l>
+                     <l>damit ihr schlaft in sanfter Ruh.</l>
+                     <l>Und seid ihr fein geschlafen ein:</l>
+                     <l>dann wachen auf die Sterne,</l>
+                     <l>aus hoher Himmelsferne</l>
+                     <l>gar holde Träume bringen euch die Engelein.</l>
+                     <l>Drum träume, Kindchen, träume!</l>
+                  </lg>
+                  <stage>Verschwindet.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>schlaftrunken.</stage>
+                  <p>Sandmann war da!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>ebenso.</stage>
+                  <p>Laß uns den Abendsegen beten!</p>
+                  <stage>Sie kauern sich nieder und falten die Hände.</stage>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Abends, will ich schlafen gehn,</l>
+                     <l>vierzehn Engel um mich stehn:</l>
+                     <l>zwei zu meinen Häupten,</l>
+                     <l>zwei zu meinen Füßen,</l>
+                     <l>zwei zu meiner Rechten,</l>
+                     <l>zwei zu meiner Linken,</l>
+                     <l>zweie, die mich decken,</l>
+                     <l>zweie, die mich wecken,</l>
+                     <l>zweie, die mich weisen</l>
+                     <l>zu Himmels Paradeisen!</l>
+                  </lg>
+                  <stage>Sie sinken aufs Moos zurück und schlummern, Arm in Arm verschlungen, alsbald ein.
+              – Völlige Dunkelheit.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>
+                  <pb n="32" facs="#f0020"/> Dritte Szene</head>
+               <stage>Plötzlich dringt von oben her ein heller Schein durch den Nebel, der sich
+            wolkenförmig zusammenballt und die Gestalt einer in die Mitte der Bühne hinabführenden
+            Treppe annimmt. Vierzehn Engel, die kleinsten voran, die größten zuletzt, schreiten
+            paarweise, während das Licht an Helligkeit zunimmt, in Zwischenräumen die Wolkentreppen
+            hinab und stellen sich, der Reihenfolge<pb n="33" facs="#f0021"/> des Abendsegens entsprechend, um die
+            schlafenden Kinder auf, das erste Paar zu Häupten, das zweite zu Füßen, das dritte
+            rechts, das vierte links; dann verteilen sich das fünfte und sechste Paar zwischen die
+            übrigen Paare, so daß der Kreis der Engel vollständig geschlossen wird. Zuletzt tritt
+            das siebente Paar in den Kreis und nimmt als »Schutzengel« zu beiden Seiten der Kinder
+            Platz, während die übrigen sich die Hände reichen und einen feierlichen Reigen um die
+            Gruppe aufführen. Indem sie sich zu einem malerischen Schlußbilde ordnen, schließt sich
+            langsam der Vorhang.</stage>
+               <stage>Einleitung zum Dritten Bild</stage>
+               <stage>Waldmorgen vor dem Knusperhaus</stage>
+            </div>
+         </div>
+         <div>
+            <head>Drittes Bild</head>
+            <stage>Das Knusperhäuschen</stage>
+            <div>
+               <head>Erste Szene</head>
+               <stage>Wie am Schlusse des zweiten Bildes. Der Hintergrund noch von Nebel verhüllt, der
+            sich während des Folgenden langsam verzieht. Die Engel sind verschwunden. – Früher
+            Morgen. Taumännchen tritt auf und schüttelt aus einer Glockenblume Tautropfen auf die
+            schlafenden Kinder.</stage>
+               <sp who="#taumaennchen">
+                  <speaker>TAUMÄNNCHEN.</speaker>
+                  <lg>
+                     <l>Der kleine Tau-mann heiß ich – kling!</l>
+                     <l>Und mit der Sonne reis ich – klang!</l>
+                     <l>Von Ost bis Westen weiß ich – kling!</l>
+                     <l>Wer faul ist und wer fleißig – klang!</l>
+                     <l>Ich komm mit goldnem Sonnenschein</l>
+                     <l>und strahl in eure Äugelein</l>
+                     <l>und weck mit kühlem Taue,</l>
+                     <l>was schläft auf Flur und Aue.</l>
+                     <l>Dann springet auf, wer munter</l>
+                     <l>in früher Morgenstunde,</l>
+                     <l>denn sie hat Gold im Munde,</l>
+                     <l>drum auf, ihr Schläfer, erwachet,</l>
+                     <l>der lichte Tag schon lachet!</l>
+                  </lg>
+                  <stage>Eilt davon. Die Kinder regen sich.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>öffnet die Augen, richtet sich halb auf und blickt verwundert um sich, während
+              Hänsel sich auf die andere Seite legt, um weiterzuschlafen.</stage>
+                  <lg>
+                     <l>Wo bin ich? Wach ich? Ist es ein Traum?</l>
+                     <l>Hier lieg ich unterm Tannenbaum.</l>
+                     <l>Hoch in den Zweigen da lispelt es leise,</l>
+                     <l>Vöglein singen so süße Weise.</l>
+                     <l>Wohl früh schon waren sie aufgewacht</l>
+                     <l>und haben ihr Morgenlied dargebracht.</l>
+                     <l>Ihr lieben Vöglein, guten Morgen!</l>
+                  </lg>
+                  <stage>Sie erblickt Hänsel.</stage>
+                  <lg>
+                     <l>Sieh da, der faule Siebenschläfer!</l>
+                     <l>Wart nur, dich weck ich!</l>
+                  </lg>
+                  <stage>
+                     <pb n="35" facs="#f0022"/> Sie bückt sich zu ihm nieder und singt.</stage>
+                  <lg>
+                     <l>Tirelireli,</l>
+                     <l>'s ist nicht mehr früh!</l>
+                     <l>Die Lerche hat's gesungen</l>
+                     <l>und hoch sich aufgeschwungen.</l>
+                  </lg>
+                  <stage>Aufspringend.</stage>
+                  <p>Tirelireli!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>der während des Liedes erwacht ist, reibt sich die Augen und stimmt, gleichfalls
+              aufspringend, munter in Gretels Weise ein.</stage>
+                  <lg>
+                     <l>Kikeriki!</l>
+                     <l>'s ist noch früh!</l>
+                     <l>Ja, hab's wohl vernommen,</l>
+                     <l>der Morgen ist gekommen,</l>
+                     <l>Kikeriki!</l>
+                  </lg>
+                  <stage>Dehnt sich.</stage>
+                  <lg>
+                     <l>Mir ist so wohl, ich weiß nicht wie;</l>
+                     <l>so gut wie heute schlief ich noch nie!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Doch höre nur! Hier unter'm Baum,</l>
+                     <l>hatt' ich 'nen wunderschönen Traum.</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Richtig! Auch mir träumte was!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Mir träumte, ich hör ein Rauschen und Klingen,</l>
+                     <l>wie Chöre der Engel, ein himmlisches Singen.</l>
+                     <l>Lichte Wölkchen in rosigem Schein</l>
+                     <l>wallten und wogten ins Dunkel herein.</l>
+                     <l>Siehe, hell ward's mit einem Male,</l>
+                     <l>lichtdurchflossen vom Himmelsstrahle;</l>
+                     <l>eine gold'ne Leiter sah ich sich neigen,</l>
+                     <l>Engel herniedersteigen,</l>
+                     <l>Engel mit gold'nen Flügelein –</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>sie lebhaft unterbrechend.</stage>
+                  <p>Vierzehn müssen's gewesen sein!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>erstaunt.</stage>
+                  <p>Hast du denn alles dies auch gesehen?</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Freilich! 's war wunderschön –</l>
+                     <l>und dorthin sah ich sie gehn!</l>
+                  </lg>
+                  <stage>Er wendet sich nach dem Hintergrunde. In diesem Augenblick zerreißt der letzte
+              Nebelschleier. An Stelle des Tannengehölzes erscheint glitzernd im Strahl der
+              aufgehenden Sonne das »Knusperhäuschen« am Ilsenstein. Links davon in einiger
+              Entfernung befindet sich ein Backofen, diesem rechts gegenüber ein großer Käfig, beide
+              mit dem Knusperhäuschen durch einen Zaun von Kuchenmännern verbunden.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>
+                  <pb n="36" facs="#f0023"/> Zweite Szene</head>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>hält Hänsel betroffen zurück.</stage>
+                  <p>Bleib stehn! Bleib stehn!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>überrascht.</stage>
+                  <lg>
+                     <l>O Himmel, welch Wunder ist hier geschehn!</l>
+                     <l>Nein, so was hab ich mein Tag nicht gesehn!</l>
+                  </lg>
+                  <stage>Beide blicken wie verzaubert auf das Knusperhäuschen.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>gewinnt allmählich die Fassung wieder.</stage>
+                  <lg>
+                     <l>Wie duftet's von dorten,</l>
+                     <l>o schau nur diese Pracht!</l>
+                     <l>Von Kuchen und Torten</l>
+                     <l>ein Häuslein gemacht!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>Mit Fladen, mit Torten</l>
+                     <l>ist's hoch überdacht!</l>
+                     <l>Die Fenster wahrhaftig</l>
+                     <l>wie Zucker so blank,</l>
+                     <l>Rosinen gar saftig</l>
+                     <l>den Giebel entlang!</l>
+                     <l>Und – traun!</l>
+                     <l>Rings zu schau'n</l>
+                     <l>gar ein Lebkuchen-Zaun!</l>
+                     <l>O herrlich Schlößchen,</l>
+                     <l>wie bist du schmuck und fein!</l>
+                     <l>Welch' Waldprinzeßchen</l>
+                     <l>mag da wohl drinnen sein?</l>
+                     <l>Ach wär' doch zu Hause</l>
+                     <l>die Waldprinzessin fein,</l>
+                     <l>sie lüde zum Schmause</l>
+                     <l>bei Kuchen und Wein,</l>
+                     <l>zum herrlichsten Schmause</l>
+                     <l>uns beide freundlich ein!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>lauscht.</stage>
+                  <lg>
+                     <l>Alles bleibt still, nichts regt sich da drinnen.</l>
+                     <l>Komm, laß uns hineingeh'n!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>erschrocken ihn zurückhaltend.</stage>
+                  <lg>
+                     <l>Bist du bei Sinnen?</l>
+                     <l>Junge, wie magst du so dreist nur sein?</l>
+                     <l>Wer weiß, wer da drin wohl im Häuschen fein?</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>O sieh nur, sieh, wie das Häuschen uns lacht!</p>
+                  <stage>
+                     <pb n="37" facs="#f0024"/> Begeistert.</stage>
+                  <p>Ha! Die Englein haben's uns hergebracht.</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>sinnend.</stage>
+                  <p>Die Englein? – Ja, so wird es wohl sein!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Ja, Gretel, sie laden freundlich uns ein! –</l>
+                     <l>Komm, wir knuspern ein wenig vom Häuschen!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>BEIDE.</speaker>
+                  <p>Ja, knuspern wir, wie zwei Nagemäuschen!</p>
+                  <stage>Sie hüpfen Hand in Hand nach dem Hintergrunde, bleiben wiederum stehen und
+              schleichen dann vorsichtig auf den Fußspitzen bis an das Häuschen heran. Nach einigem
+              Zögern bricht Hänsel an der rechten Kante ein Stückchen Kuchen heraus.</stage>
+                  <pb n="38" facs="#f0025"/>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>STIMME AUS DEM HÄUSCHEN.</speaker>
+                  <lg>
+                     <l>Knusper, knusper Knäuschen,</l>
+                     <l>wer knuspert mir am Häuschen?</l>
+                  </lg>
+                  <stage>Hänsel läßt erschrocken das Stück Kuchen zu Boden fallen.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>zaghaft.</stage>
+                  <p>Der Wind!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>ebenso.</stage>
+                  <p>Der Wind!</p>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>BEIDE.</speaker>
+                  <p>Das himmlische Kind!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>hebt das Stück Kuchen wieder auf und versucht es.</stage>
+                  <p>Hm!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>Gretel begehrlich anschauend.</stage>
+                  <p>Wie schmeckt das?</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>ihn beißen lassend.</stage>
+                  <p>Da hast du auch was!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>legt entzückt die Hand auf die Brust.</stage>
+                  <p>Hei!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>ebenso.</stage>
+                  <p>Hei!</p>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>BEIDE.</speaker>
+                  <lg>
+                     <l>O köstlicher Kuchen,</l>
+                     <l>wie schmeckst du nach mehr!</l>
+                     <l>Mir ist ja, als wenn ich</l>
+                     <l>im Himmel schon wär!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Hei, wie das schmeckt! 's ist gar zu lecker!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Vielleicht gar wohnt hier ein Zuckerbäcker!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>ruft.</stage>
+                  <lg>
+                     <l>He, Zuckerbäcker, nimm dich in acht,</l>
+                     <l>ein Loch wird dir jetzt vom Mäuslein gemacht!</l>
+                  </lg>
+                  <stage>Bricht ein großes Stück aus der Wand heraus.</stage>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>STIMME AUS DEM HÄUSCHEN.</speaker>
+                  <lg>
+                     <l>Knusper, knusper Knäuschen,</l>
+                     <l>wer knuspert mir am Häuschen?</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>HÄNSEL UND GRETEL.</speaker>
+                  <lg>
+                     <l>Der Wind, der Wind,</l>
+                     <l>das himmlische Kind!</l>
+                  </lg>
+                  <stage>Sie springen vergnügt nach vorn.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Dritte Szene</head>
+               <stage>Der obere Teil der Haustüre öffnet sich leise, und der Kopf der Knusperhexe wird
+            sichtbar. Die Kinder bemerken sie nicht und schmausen lustig weiter.</stage>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Wart, du näschiges Mäuschen,</l>
+                     <l>gleich kommt die Katz' aus dem Häuschen!</l>
+                     <pb n="39" facs="#f0026"/>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Knuspre nur zu</l>
+                     <l>und laß mich in Ruh!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>entreißt ihm ein Stück Kuchen.</stage>
+                  <lg>
+                     <l>Nicht so geschwind,</l>
+                     <l>Herr Wind, Herr Wind!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>nimmt es ihr wieder ab.</stage>
+                  <lg>
+                     <l>Himmlisches Kind,</l>
+                     <l>ich nehm, was ich find!</l>
+                  </lg>
+                  <stage>Sie lachen beide hell auf. Während des letzten Gespräches ist die Türe des
+              Häuschens aufgegangen, und die Hexe tritt, von den Kindern nicht bemerkt, daraus
+              hervor, behutsam auf diese zuschleichend. Rasch wirft sie dem ahnungslosen Hänsel
+              einen Strick um den Hals, eben in dem Augenblick, als die Kinder lachen.</stage>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>grell lachend.</stage>
+                  <p>Hihi, hihi, hihihi!</p>
+                  <stage>Die Kinder blicken sich erschrocken um.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>entsetzt.</stage>
+                  <p>Laß los! – Wer bist du? – Laß mich los!</p>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>die Kinder an sich ziehend.</stage>
+                  <lg>
+                     <l>Engelchen!</l>
+                     <l>Und du, mein Bengelchen!</l>
+                     <l>Ihr kommt mich besuchen? – Das ist nett!</l>
+                     <l>Ihr lieben Kinder, so rund und fett!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>macht verzweifelte Anstrengungen, sich loszumachen.</stage>
+                  <p>Wer bist du, Garstige? – Laß mich los!</p>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE.</speaker>
+                  <lg>
+                     <l>Na, Herzchen, zier dich nicht erst groß!</l>
+                     <l>Wißt denn, daß euch vor mir nicht graul:</l>
+                     <l>Ich bin <hi rendition="#i">Rosina Leckermaul</hi>,</l>
+                     <l>höchst menschenfreundlich stets gesinnt,</l>
+                     <l>unschuldig wie ein kleines Kind.</l>
+                     <l>Drum hab ich die kleinen Kinder so lieb,</l>
+                     <l>So lieb – ach, zum Aufessen lieb!</l>
+                  </lg>
+                  <stage>Sie streichelt die Kinder.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>barsch abwehrend.</stage>
+                  <lg>
+                     <l>Geh! – bleib mir doch aus dem Gesicht!</l>
+                     <l>Hörst du! Ich mag dich nicht!</l>
+                  </lg>
+                  <stage>Stampft mit dem Fuß.</stage>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE.</speaker>
+                  <lg>
+                     <l>Hihihihi!</l>
+                     <l>Was seid ihr für leckere Teufelsbrätchen,</l>
+                     <l>besonders du, mein herziges Mädchen!</l>
+                     <l>Kommt, kleine Mäuslein,</l>
+                     <l>kommt in mein Häuslein!</l>
+                     <l>Ihr sollt's gut bei mir haben,</l>
+                     <l>
+                        <pb n="40" facs="#f0027"/> will drinnen köstlich euch laben.</l>
+                     <l>Schokolade, Torten, Marzipan,</l>
+                     <l>Kuchen, gefüllt mit süßer Sahn',</l>
+                     <l>Johannisbrot und Jungfernleder</l>
+                     <l>und Reisbrei–auf dem Ofen steht er –,</l>
+                     <l>Rosinen und Mandeln und Datteln sich zeigen:</l>
+                     <l>'s ist alles im Häuschen euer eigen!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Ich geh nicht mit dir, garstige Frau! –</l>
+                     <l>Du bist gar zu freundlich!</l>
+                  </lg>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE.</speaker>
+                  <lg>
+                     <l>Schau, schau, wie schlau!</l>
+                     <l>Ihr Kinder, ich mein's ja so gut mit euch,</l>
+                     <l>ihr seid ja bei mir wie im Himmelreich!</l>
+                     <l>Kommt, kleine Mäuslein!</l>
+                     <l>Kommt in mein Häuslein!</l>
+                     <l>Ihr sollt's gut bei mir haben,</l>
+                     <l>will drinnen köstlich euch laben!</l>
+                  </lg>
+                  <stage>Sie will Hänsel fortziehen.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>So sprich:</l>
+                     <l>Was willst du meinem Bruder tun?</l>
+                  </lg>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE.</speaker>
+                  <lg>
+                     <l>I nun, ich will ihn füttern und nudeln</l>
+                     <l>mit allerhand vortrefflichen Sachen,</l>
+                     <l>ihn zart und wohlschmeckend machen.</l>
+                     <l>Und ist er dann recht zahm und brav,</l>
+                     <l>geduldig und fügsam wie ein Schaf,</l>
+                     <l>dann – Hänsel, ich sag dir's ins Ohr:</l>
+                     <l>dir steht eine große Freude bevor!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>So sag's doch laut und nicht ins Ohr:</l>
+                     <l>Welch große Freude steht mir bevor?</l>
+                  </lg>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE.</speaker>
+                  <lg>
+                     <l>Ja, liebe Kinder, Hören und Seh'n,</l>
+                     <l>wird euch bei diesem Vergnügen vergeh'n!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Ei, meine Augen und Ohren sind gut,</l>
+                     <l>haben wohl acht, was Schaden mir tut!</l>
+                     <l>Gretel, trau nicht dem gleißenden Wort –</l>
+                     <l>Komm, Schwesterchen, wir laufen fort!</l>
+                  </lg>
+                  <stage>Er hat sich allmählich von der Schlinge befreit und will mit Gretel fortlaufen;
+              sie werden aber von der Hexe zurückgehalten, die gebieterisch ihren Zauberstab gegen
+              die beiden erhebt.</stage>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE.</speaker>
+                  <p>Halt! –</p>
+                  <stage>Macht mit dem Stabe die Gebärde des Hexenbannes.<pb n="41" facs="#f0028"/> Die Bühne
+              verfinstert sich.</stage>
+                  <lg>
+                     <l>Hokuspokus, Hexenschuß!</l>
+                     <l>Rühr dich, und dich trifft der Fluß!</l>
+                     <l>Nicht mehr vorwärts, nicht zurück,</l>
+                     <l>bann dich mit dem bösen Blick;</l>
+                     <l>Kopf steh starr dir im Genick!</l>
+                  </lg>
+                  <stage>Neue Gebärde; die Spitze des Stabes fängt an zu leuchten.</stage>
+                  <lg>
+                     <l>Hokuspokus, nun kommt Jokus!</l>
+                     <l>Kinder, schaut den Zauberknopf!</l>
+                     <l>Äuglein, stehet still im Kopf! –</l>
+                     <l>Nun zum Stall hinein, du Tropf!</l>
+                     <l>Hokuspokus, bonus, jokus,</l>
+                     <l>Malus lokus, hokuspokus!</l>
+                  </lg>
+                  <stage>Leitet den starr auf den Knopf blickenden Hänsel zum Stalle und schließt hinter
+              ihm die Gittertüre, während Gretel regungslos dasteht. Die Bühne erhellt sich
+              wieder.</stage>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>vergnügt zu Gretel.</stage>
+                  <lg>
+                     <l>Nun, Gretel, sei vernünftig und nett! –</l>
+                     <l>Der Hänsel wird nun balde fett.</l>
+                     <l>Wir wollen ihn, so ist's am besten,</l>
+                     <l>mit süßen Mandeln und Rosinen mästen.</l>
+                     <l>Ich geh ins Haus und hole sie schnell –</l>
+                     <l>Du, rühre dich nicht von der Stell'!</l>
+                  </lg>
+                  <stage>Sie droht grinsend mit dem Finger und hinkt ins Hans.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>starr und unbeweglich.</stage>
+                  <p>Hu – wie mir vor der Hexe graut!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <lg>
+                     <l>Gretel! Pst! Sprich nicht so laut!</l>
+                     <l>Sei hübsch gescheit und gib fein acht</l>
+                     <l>auf jedes, was die Hexe macht.</l>
+                     <l>Zum Schein tu alles, was sie will –</l>
+                     <l>da kommt sie schon zurück – Pst! still!</l>
+                  </lg>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>kommt hervor, überzeugt sich, ob Gretel noch stille steht, worauf sie dem Hänsel
+              aus einem Korb Mandeln und Rosinen hinhält.</stage>
+                  <lg>
+                     <l>Nun, Jüngelchen,</l>
+                     <l>ergötze dein Züngelchen!</l>
+                  </lg>
+                  <stage>Steckt Hänsel eine Rosine in den Mund.</stage>
+                  <lg>
+                     <l>Friß, Vogel, oder stirb –</l>
+                     <l>
+                        <pb n="42" facs="#f0029"/> Kuchen-Heil dir erwirb!</l>
+                  </lg>
+                  <stage>Wendet sich zu Gretel und entzaubert sie mit einem Wacholderbusch.</stage>
+                  <lg>
+                     <l>Hokuspokus, Holderbusch!</l>
+                     <l>Schwinde, Gliederstarre, husch!</l>
+                  </lg>
+                  <stage>Gretel rührt sich wieder.</stage>
+                  <lg>
+                     <l>Nun, wieder kregel, süßes Kleinchen,</l>
+                     <l>rühr mir geschwind die runden Beinchen!</l>
+                     <l>Geh, mein Püppchen, flink und frisch,</l>
+                     <l>decke drinnen hübsch den Tisch!</l>
+                     <l>Schüsselchen, Tellerchen, Messerchen, Gäbelchen,</l>
+                     <l>Serviettchen für mein Schnäbelchen;</l>
+                     <l>und mach alles recht hurtig und fein,</l>
+                     <l>sonst sperr ich dich auch in den Stall hinein!</l>
+                  </lg>
+                  <stage>Sie droht kichernd; Gretel eilends ab ins Haus.</stage>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>zu dem sich schlafend stellenden Hänsel.</stage>
+                  <lg>
+                     <l>Der Lümmel schläft ja, nun sieh mal an,</l>
+                     <l>wie doch die Jugend schlafen kann!</l>
+                     <l>Na, schlaf nur brav, du gutes Schaf,</l>
+                     <l>bald schläfst du deinen ewigen Schlaf.</l>
+                     <l>Doch erst die Gretel muß mir dran;</l>
+                     <l>mit dir, mein Liebchen, fang ich an,</l>
+                     <l>bist so niedlich, zart und rund,</l>
+                     <l>wie gemacht für Hexen-Mund!</l>
+                  </lg>
+                  <stage>Sie öffnet die Backofentür und riecht hinein.</stage>
+                  <lg>
+                     <l>Der Teig ist gar, wir können voran machen.</l>
+                     <l>Hei, wie im Ofen die Scheite krachen!</l>
+                  </lg>
+                  <stage>Schiebt noch ein paar Holzscheite unter und reibt sich dann schmunzelnd die
+              Hände.</stage>
+                  <lg>
+                     <l>Ja, Gretelchen,</l>
+                     <l>wirst bald ein Brätelchen!</l>
+                     <l>Schau, schau!</l>
+                     <l>Schau, wie schlau!</l>
+                     <l>Sollst gleich in Backofen hucken</l>
+                     <l>und nach den Lebkuchen gucken.</l>
+                     <l>Und bist du dann drin–schwaps,</l>
+                     <l>geht die Tür – klaps!</l>
+                     <l>Dann ist fein Gretelchen</l>
+                     <l>mein Brätelchen!</l>
+                     <l>Das Brätlein, das soll sich verwandeln</l>
+                     <l>
+                        <pb n="43" facs="#f0030"/> in Kuchen mit Zucker und Mandeln;</l>
+                     <l>im Zauberofen mein</l>
+                     <l>wirst du ein Lebkuchen fein!</l>
+                  </lg>
+                  <stage>In wilder Freude ergreift sie einen Besen und reitet ausgelassen auf ihm ums
+              Haus. Gretel steht lauschend am kleinen Fenster. – Blitz und Donner.</stage>
+                  <lg>
+                     <l>Hurr hopp hopp hopp,</l>
+                     <l>Galopp, Galopp,</l>
+                     <l>mein Besengaul,</l>
+                     <l>hurr hopp, nit faul!</l>
+                     <l>Sowie ich's mag</l>
+                     <l>am lichten Tag,</l>
+                     <l>spring kreuz und quer</l>
+                     <l>ums Häuschen her!</l>
+                     <l>Bei dunkler Nacht,</l>
+                     <l>wenn niemand wacht,</l>
+                     <l>zum Hexenschmaus</l>
+                     <l>am Schornstein raus!</l>
+                     <l>Aus fünf und sechs,</l>
+                     <l>so sagt die Hex',</l>
+                     <l>mach sieb' und acht,</l>
+                     <l>so ist's vollbracht;</l>
+                     <l>und neun ist eins,</l>
+                     <l>und zehn ist keins,</l>
+                     <l>und viel ist nichts,</l>
+                     <l>die Hexe spricht's.</l>
+                     <l>So reitet sie</l>
+                     <l>bis morgens früh –</l>
+                     <l>Brr! Besen! hüh!</l>
+                  </lg>
+                  <stage>Vom Besen steigend hinkt die Hexe zu Hänsel und kitzelt ihn mit einem Besenreis
+              wach.</stage>
+                  <lg>
+                     <l>Auf! wach auf, mein Jüngelchen,</l>
+                     <l>zeig mir dein Züngelchen!</l>
+                  </lg>
+                  <stage>Hänsel streckt die Zunge heraus.</stage>
+                  <stage>Schnalzend.</stage>
+                  <lg>
+                     <l>Schlicker, schlecker,</l>
+                     <l>lecker, lecker!</l>
+                     <l>Kleines leckeres Schlingerchen,</l>
+                     <l>zeig mir dein Fingerchen!</l>
+                  </lg>
+                  <stage>Hänsel steckt ein Stöckchen heraus.</stage>
+                  <lg>
+                     <l>Jemine! O je!</l>
+                     <l>
+                        <pb n="44" facs="#f0031"/> Wie ein Stöckchen, o weh!</l>
+                     <l>Bübchen, deine Fingerchen</l>
+                     <l>sind elende Dingerchen!</l>
+                  </lg>
+                  <stage>Ruft.</stage>
+                  <p>Mädel! Gretel!</p>
+                  <stage>Gretel zeigt sich an der Tür.</stage>
+                  <lg>
+                     <l>Bring Rosinen und Mandeln her;</l>
+                     <l>Hänsel meint, es schmeckt nach »mehr«!</l>
+                  </lg>
+                  <stage>Gretel springt ins Haus und kehrt mit einem Körbchen zurück.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Da sind die Mandeln!</p>
+                  <stage>Sie stellt sich, während die Hexe den Hänsel füttert, hinter sie und macht gegen
+              Hänsel die Entzauberungsgebärde mit dem Wacholderbusch.</stage>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>leise.</stage>
+                  <lg>
+                     <l>Hokuspokus, Holderbusch!</l>
+                     <l>Schwinde, Gliederstarre – husch!</l>
+                  </lg>
+                  <stage>Hänsel wird wieder beweglich.</stage>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>sich rasch umwendend.</stage>
+                  <p>Was sagtest du, mein Gänselchen?</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>etwas verlegen.</stage>
+                  <p>Meint' nur: wohl bekomm's, mein Hänselchen.</p>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>schwerhörig.</stage>
+                  <p>He?</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>lauter.</stage>
+                  <p>Wohl bekomm's, mein Hänselchen!</p>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>hat von der Entzauberung Hänsels nichts bemerkt.</stage>
+                  <lg>
+                     <l>Hihihi! Mein gutes Tröpfchen,</l>
+                     <l>da – steck dir was ins Kröpfchen!</l>
+                  </lg>
+                  <stage>Steckt Gretel eine Rosine in den Mund.</stage>
+                  <lg>
+                     <l>Friß, Vogel, oder stirb –</l>
+                     <l>Kuchen-Heil dir erwirb!</l>
+                  </lg>
+                  <stage>Sie öffnet die Backofentür; Hänsel gibt Gretel lebhafte Zeichen.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>leise die Stalltür öffnend.</stage>
+                  <lg>
+                     <l>Schwesterlein,</l>
+                     <l>hüt dich fein!</l>
+                  </lg>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>Gretel gierig betrachtend.</stage>
+                  <lg>
+                     <l>Wie wässert mir das Mündchen</l>
+                     <l>nach diesem süßen Kindchen!</l>
+                     <l>Komm, Gretelchen,</l>
+                     <l>Zuckermädelchen!</l>
+                     <l>Sollst in den Backofen hucken</l>
+                     <l>und nach den Lebkuchen gucken,</l>
+                     <l>sorgfältig schaun – ja,</l>
+                     <l>
+                        <pb n="45" facs="#f0032"/> ob sie schon braun da,</l>
+                     <l>oder ob's zu früh –</l>
+                     <l>'s ist kleine Müh!</l>
+                  </lg>
+                  <stage>Gretel zaudert.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>aus dem Stall schleichend.</stage>
+                  <lg>
+                     <l>Schwesterlein,</l>
+                     <l>hüt dich fein!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>sich ungeschickt stellend.</stage>
+                  <lg>
+                     <l>Ei, wie fang ich's an,</l>
+                     <l>daß ich komme dran?</l>
+                  </lg>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE.</speaker>
+                  <lg>
+                     <l>Mußt dich nur eben</l>
+                     <l>ein bißchen heben.</l>
+                     <l>Kopf vorgebeugt –</l>
+                     <l>'s ist kinderleicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>Gretel am Kleide zurückhaltend, hinter ihr verborgen.</stage>
+                  <lg>
+                     <l>Schwesterlein,</l>
+                     <l>hüt dich fein!</l>
+                  </lg>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>schüchtern.</stage>
+                  <lg>
+                     <l>Bin gar so dumm,</l>
+                     <l>nimm mir's nicht krumm;</l>
+                     <l>drum zeige mir eben:</l>
+                     <l>wie soll ich mich denn heben?</l>
+                  </lg>
+               </sp>
+               <sp who="#hexe">
+                  <speaker>HEXE</speaker>
+                  <stage>macht eine ungeduldige Bewegung.</stage>
+                  <lg>
+                     <l>Kopf vorgebeugt!</l>
+                     <l>'s ist kinderleicht!</l>
+                  </lg>
+                  <stage>Sie will es ihr zeigen; indem sie sich vorbeugt und mit halbem Leibe
+              hineinkriecht, geben ihr Hänsel und Gretel von hinten einen derben Stoß, so daß sie
+              vollends hineinfliegt, und schlagen dann rasch die Tür zu.</stage>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>HÄNSEL UND GRETEL</speaker>
+                  <stage>ihr nachspottend.</stage>
+                  <lg>
+                     <l>Und bist du dann drin – schwaps!</l>
+                     <l>Geht die Tür – klaps!</l>
+                     <l>Du bist dann statt Gretelchen</l>
+                     <l>ein Brätelchen!</l>
+                  </lg>
+                  <stage>Hänsel und Gretel fallen sich jubelnd in die Arme, fassen sich bei der Hand und
+              tanzen.</stage>
+                  <lg>
+                     <l>Juchhei! Nun ist die Hexe tot,</l>
+                     <l>mausetot, und aus die Not!</l>
+                     <l>Juchhei, nun ist die Hexe still, mäuschenstill!</l>
+                     <l>Kuchen gibt's die Füll!</l>
+                     <l>Nun ist zu End der Graus, Hexengraus!</l>
+                     <l>Und der Spuk ist aus!</l>
+                     <l>Ja, laßt uns fröhlich sein,</l>
+                     <pb n="46" facs="#f0033"/>
+                  </lg>
+                  <lg>
+                     <l>tanzen im Feuerschein,</l>
+                     <l>halten im Knusperhaus</l>
+                     <l>herrlichsten Freudenschmaus!</l>
+                     <l>Hei! Juchhei, juchhei!</l>
+                  </lg>
+                  <stage>Sie umfassen sich und walzen miteinander zum Knusperhaus, wo sie alle
+              Herrlichkeiten in Besitz nehmen. Im Hexenofen knistert es gewaltig, die Flamme schlägt
+              hoch empor; dann erfolgt ein starker Krach, und der Ofen stürzt donnernd zusammen.
+              Hänsel und Gretel fallen vor Schreck zu Boden; dann blicken sie erstaunt um sich. Ihre
+              Verwunderung steigt aufs höchste, als sie die Kinder gewahr werden, deren Kuchenhülle
+              inzwischen abgefallen ist.</stage>
+               </sp>
+            </div>
+            <div>
+               <head>Vierte Szene</head>
+               <sp who="#gretel">
+                  <speaker>GRETEL</speaker>
+                  <stage>nach einer Weile.</stage>
+                  <p>Da, sieh nur die artigen Kinderlein!</p>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL.</speaker>
+                  <p>Wo mögen die hergekommen sein?</p>
+               </sp>
+               <sp who="#die_kuchenkinder">
+                  <speaker>DIE KUCHENKINDER</speaker>
+                  <stage>ganz leise und unbeweglich.</stage>
+                  <p>Erlöst – befreit – für alle Zeit!</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <lg>
+                     <l>Geschlossen sind ihre Äugelein;</l>
+                     <l>sie schlafen und singen doch so fein!</l>
+                  </lg>
+               </sp>
+               <sp who="#die_kuchenkinder">
+                  <speaker>KUCHENKINDER</speaker>
+                  <stage>leise.</stage>
+                  <lg>
+                     <l>O rühre mich an,</l>
+                     <l>daß ich erwachen kann!</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>verlegen.</stage>
+                  <p>Rühr du sie doch an – ich trau mir's nicht.</p>
+               </sp>
+               <sp who="#gretel">
+                  <speaker>GRETEL.</speaker>
+                  <p>Ja, streicheln wir dies hübsche Gesicht!</p>
+                  <stage>Sie streichelt das nächste Kind; dieses öffnet die Augen und lächelt.</stage>
+               </sp>
+               <sp who="#die_kuchenkinder">
+                  <speaker>ANDRE KUCHENKINDER.</speaker>
+                  <lg>
+                     <l>O rühr auch mich–auch mich rühr an,</l>
+                     <l>daß ich die Äuglein öffnen kann.</l>
+                  </lg>
+                  <stage>Gretel geht streichelnd zu den übrigen Kindern, die lächelnd die Augen öffnen,
+              ohne sich zu rühren; endlich ergreift Hänsel den Wacholder.</stage>
+               </sp>
+               <sp who="#haensel">
+                  <speaker>HÄNSEL</speaker>
+                  <stage>Entzauberungs-Gebärde.</stage>
+                  <lg>
+                     <l>Hokuspokus, Holderbusch!</l>
+                     <l>Schwinde, Gliederstarre – husch!</l>
+                     <pb n="47" facs="#f0034"/>
+                  </lg>
+               </sp>
+               <sp who="#die_kuchenkinder">
+                  <speaker>DIE KUCHENKINDER</speaker>
+                  <stage>springen auf, schließen sich zu einem Ringelreigen um Hänsel und Gretel.</stage>
+                  <lg>
+                     <l>Habt Dank, habt Dank euer Leben lang!</l>
+                     <l>Die Hexerei ist nun vorbei;</l>
+                     <l>nun singen und springen wir froh und frei!</l>
+                     <l>Kommt, Kinderlein, zum Ringelreihn,</l>
+                     <l>reicht alle euch die Händchen fein!</l>
+                     <l>Drum singt und springt,</l>
+                     <l>drum tanzt und singt,</l>
+                     <l>daß laut der Jubelruf durchdringt</l>
+                     <l>den Wald,</l>
+                     <l>und rings erschallt von Lust der Wald.</l>
+                  </lg>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>HÄNSEL UND GRETEL.</speaker>
+                  <lg>
+                     <l>Die Englein haben's im Traum gesagt,</l>
+                     <l>in stiller Nacht,</l>
+                     <l>was nun so herrlich uns der Tag</l>
+                     <l>hat wahr gemacht.</l>
+                     <l>Ihr Englein, die uns so treu bewacht</l>
+                     <l>bei Tag und Nacht,</l>
+                     <l>habt Lob und Dank für all die Pracht,</l>
+                     <l>die uns hier lacht.</l>
+                  </lg>
+               </sp>
+               <sp who="#die_kuchenkinder">
+                  <speaker>DIE KUCHENKINDER</speaker>
+                  <stage>drängen sich hinzu, um Hänsel und Gretel die Hände zu schütteln.</stage>
+                  <lg>
+                     <l>Habt Dank, habt Dank</l>
+                     <l>euer Leben lang!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div>
+               <head>Letzte Szene</head>
+               <stage>Aus dem Hintergrund ertönt die Stimme des Vaters.</stage>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <lg>
+                     <l>Rallalala, rallalala,</l>
+                     <l>wären doch unsre Kinder da!</l>
+                     <l>Rallalala, rallalala. –</l>
+                  </lg>
+                  <stage>Er erblickt Hänsel und Gretel.</stage>
+                  <p>Juch –! Ei, da sind sie ja!</p>
+               </sp>
+               <sp who="#haensel #gretel">
+                  <speaker>HÄNSEL UND GRETEL</speaker>
+                  <stage>den Eltern entgegeneilend.</stage>
+                  <p>Vater! Mutter!</p>
+               </sp>
+               <sp who="#mutter">
+                  <speaker>MUTTER.</speaker>
+                  <p>Kinderchen!</p>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <p>Da sind ja die armen Sünderchen!</p>
+                  <stage>Frohe Umarmung. Unterdes haben zwei Knaben die<pb n="48" facs="#f0035"/> Hexe als großen
+              Lebkuchen aus den Trümmern des Zauberofens gezogen. Bei ihrem Anblick bricht alles in
+              ein Jubelgeschrei aus. Die Knaben stellen die Hexe in die Mitte der Bühne.</stage>
+               </sp>
+               <sp who="#vater">
+                  <speaker>VATER.</speaker>
+                  <lg>
+                     <l>Kinder, schaut das Wunder an,</l>
+                     <l>wie die Hexe hexen kann.</l>
+                     <l>Wie sie hart,</l>
+                     <l>knusperhart,</l>
+                     <l>selber nun zum Kuchen ward!</l>
+                     <l>Merkt des Himmels Strafgericht:</l>
+                     <l>böse Werke dauern nicht!</l>
+                     <l>Wenn die Not aufs Höchste steigt,</l>
+                     <l>Gott der Herr die Hand uns reicht!</l>
+                  </lg>
+               </sp>
+               <sp who="#vater #mutter #haensel #gretel #die_kuchenkinder">
+                  <speaker>ALLE.</speaker>
+                  <lg>
+                     <l>Wenn die Not aufs Höchste steigt,</l>
+                     <l>Gott der Herr die Hand uns reicht!</l>
+                  </lg>
+                  <stage>Indem die Kinder einen lustigen Reigen um die Gruppe tanzen, fällt der
+              Vorhang.</stage>
+                  <pb n="49" facs="#f0036"/>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
