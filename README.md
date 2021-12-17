@@ -10,6 +10,7 @@ collection originally published by DirectMedia Publishing can be
 researched using the DDC search engine integrated in the DTA as well
 as other DTA tools for linguistic analysis.
 
+## Content
 The repository contains different directories:
 
 - data `[contains all text assigned to genre-based subdirectories]`
@@ -27,3 +28,8 @@ The repository contains different directories:
     - bibl `[contains the bibliographical metadata being the basis of the DTABf-Headers]` 
     - headers `[contains the DTABf-headers of all texts]`
 - publications `[contains the documentation of the workflow]`
+
+## Presentation
+- *Deutsches Textarchiv (DTA)/Dibilit-Corpus*:  https://deutschestextarchiv.de/dibilit/
+
+
